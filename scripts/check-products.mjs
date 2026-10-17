@@ -70,6 +70,13 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(detail('.rk-product-details details').length,2);
   assert.equal(detail('.rk-product-photo .rk-product-badge').length,4);
   const record=catalog[data.key];
+  assert.equal(detail('[data-component=ProductCompanions]').length,record.id==='timberline-hdz'?1:0,'Pairings require an explicit reviewed mapping.');
+  if(record.id==='timberline-hdz'){
+    assert.equal(detail('[data-companion]').length,5);
+    assert.equal(detail('[data-companion] a[href^="https://www.gaf.com/"]').length,5);
+    assert.ok(detail('#roof-system').text().includes('do not add a guaranteed number of years'));
+    assert.ok(detail('#roof-system').text().includes('intake'));
+  }
   assert.equal(detail('.rk-product-swatches a').length,record.colors.length);
   assert.ok($(`a[href="${path}"]`).length,'GAF catalog must link to each detail record');
 }

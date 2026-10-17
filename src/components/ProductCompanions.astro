@@ -1,0 +1,27 @@
+---
+import companions from '../data/product-companions.json';
+interface Props { productId:string; }
+const {productId}=Astro.props;
+const eligible=companions.productIds.includes(productId);
+---
+{eligible && <section class="rk-product-companions" id="roof-system" aria-labelledby="roof-system-title" data-component="ProductCompanions">
+  <div class="rk-section-inner">
+    <p class="rk-home-eyebrow">Better together · Timberline HDZ roofing system</p>
+    <h2 id="roof-system-title">{companions.title}</h2>
+    <p class="rk-product-companions-intro">{companions.intro}</p>
+    <div class="rk-companion-grid">{companions.items.map(item=><article class="rk-companion-card" data-companion={item.id}>
+      <p class="rk-home-eyebrow">{item.category}</p><h3>{item.name}</h3>
+      <p class="rk-companion-location"><strong>Where it works:</strong> {item.location}</p>
+      <p>{item.benefit}</p><p class="rk-companion-benefit"><strong>How it supports roof life:</strong> {item.longevity}</p>
+      <details><summary>What to check for your roof</summary><p>{item.selection}</p></details>
+      <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">GAF product &amp; installation reference ↗</a>
+    </article>)}</div>
+    <div class="rk-companion-notes">
+      <h3>Build the system around your roof.</h3>
+      <p>These layers help address the causes of premature roof failure. The right combination depends on roof slope, attic design, local exposure and installation details. They do not add a guaranteed number of years to your shingles.</p>
+      <p><strong>Already built into HDZ:</strong> LayerLock technology is part of the shingle, rather than a separate strip to add at installation. <a href={companions.technologySource} target="_blank" rel="noopener noreferrer">Explore HDZ technology ↗</a></p>
+      <p><strong>Coverage is a separate benefit.</strong> Qualifying GAF shingles and accessories may be eligible for system warranty coverage. Eligibility depends on the selected products, installation and applicable terms; “Lifetime” describes limited warranty coverage, not a promised roof lifespan. <a href={companions.systemSource} target="_blank" rel="noopener noreferrer">Check GAF system warranty requirements ↗</a></p>
+      <a href="/contact-us/">Plan your complete roofing system with Roof King →</a>
+    </div>
+  </div>
+</section>}

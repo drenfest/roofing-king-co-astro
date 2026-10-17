@@ -104,3 +104,19 @@
 
 .rk-product-badge { height:100%; }
 .rk-product-badge small { text-transform:none;letter-spacing:0; }
+
+.rk-product-companions { padding:3rem 0;background:#f3f4ed;border-block:1px solid #d8dfd2; }
+.rk-product-companions h2 { font-size:clamp(2rem,3.5vw,3rem);line-height:1.15;max-width:800px; }
+.rk-product-companions-intro { max-width:850px;line-height:1.75; }
+.rk-companion-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:1.25rem;margin:2rem 0; }
+.rk-companion-card { padding:1.5rem;background:white;border:1px solid #d6ddcf;border-radius:10px;display:flex;flex-direction:column; }
+.rk-companion-card h3 { font-size:1.35rem;line-height:1.3;margin:.5rem 0 1rem; }
+.rk-companion-card p { line-height:1.7;font-size:.94rem; }
+.rk-companion-card .rk-companion-location { color:#63705e;font-size:.85rem; }
+.rk-companion-benefit { padding:.85rem;background:#edf3e9;border-left:3px solid #3f744d; }
+.rk-companion-card a { margin-top:auto;color:#854000;text-decoration:underline; }
+.rk-companion-card details { margin-bottom:1.25rem;font-size:.85rem;line-height:1.65; }
+.rk-companion-card summary { cursor:pointer;font-weight:700; }
+.rk-companion-notes { padding:1.5rem;background:#183c2a;color:#fff;border-radius:10px;line-height:1.75; }
+.rk-companion-notes h3 { margin-top:0;font-size:1.4rem; }
+.rk-companion-notes a { color:#ffbe75; }
