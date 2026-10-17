@@ -219,7 +219,7 @@
     {
       "label": "Products",
       "href": "/products/",
-      "classes": "rk-menu-item rk-menu-item-has-children",
+      "classes": "rk-menu-item rk-menu-item-has-children rk-menu-products",
       "children": [
         {
           "label": "Roofing Products",
@@ -229,20 +229,180 @@
             {
               "label": "Shingles",
               "href": "/products/roofing/shingles/",
-              "classes": "rk-menu-item",
-              "children": []
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "GAF",
+                  "href": "/roofing/gaf/types/",
+                  "classes": "rk-menu-item rk-menu-item-has-children",
+                  "children": [
+                    {
+                      "label": "Timberline HDZ",
+                      "href": "/products/roofing/shingles/gaf/timberline-hdz/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Timberline UHDZ",
+                      "href": "/products/roofing/shingles/gaf/timberline-uhdz/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Timberline NS",
+                      "href": "/products/roofing/shingles/gaf/timberline-ns/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Timberline AS II",
+                      "href": "/products/roofing/shingles/gaf/timberline-as-ii/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Timberline HDZ RS",
+                      "href": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Camelot II",
+                      "href": "/products/roofing/shingles/gaf/camelot-ii/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Woodland",
+                      "href": "/products/roofing/shingles/gaf/woodland/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Grand Sequoia",
+                      "href": "/products/roofing/shingles/gaf/grand-sequoia/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Grand Sequoia RS",
+                      "href": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Grand Sequoia AS",
+                      "href": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Royal Sovereign",
+                      "href": "/products/roofing/shingles/gaf/royal-sovereign/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Siding Products",
+          "href": "/products/siding/",
+          "classes": "rk-menu-item rk-menu-item-has-children",
+          "children": [
+            {
+              "label": "Vinyl Siding",
+              "href": "/products/siding/vinyl/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "Variform",
+                  "href": "/products/siding/vinyl/variform/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                },
+                {
+                  "label": "Ply Gem",
+                  "href": "/products/siding/vinyl/ply-gem/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                }
+              ]
             },
             {
-              "label": "GAF",
-              "href": "/roofing/gaf/types/",
-              "classes": "rk-menu-item",
-              "children": []
+              "label": "Engineered Wood Siding",
+              "href": "/products/siding/engineered-wood/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "LP SmartSide",
+                  "href": "/products/siding/engineered-wood/lp-smartside/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                }
+              ]
             },
             {
-              "label": "Roofing Materials",
-              "href": "/roofing/types/",
-              "classes": "rk-menu-item",
-              "children": []
+              "label": "Fiber Cement Siding",
+              "href": "/products/siding/fiber-cement/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "James Hardie",
+                  "href": "/products/siding/fiber-cement/james-hardie/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Decking Products",
+          "href": "/products/decking/",
+          "classes": "rk-menu-item rk-menu-item-has-children",
+          "children": [
+            {
+              "label": "Composite Decking",
+              "href": "/products/decking/composite/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "Trex",
+                  "href": "/products/decking/composite/trex/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Gutter Products",
+          "href": "/products/gutters/",
+          "classes": "rk-menu-item rk-menu-item-has-children",
+          "children": [
+            {
+              "label": "Gutter Guards and Support",
+              "href": "/products/gutters/guards/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "Alu-Rex / T-Rex",
+                  "href": "/products/gutters/guards/alu-rex/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                },
+                {
+                  "label": "LeafFilter",
+                  "href": "/products/gutters/guards/leaffilter/",
+                  "classes": "rk-menu-item",
+                  "children": []
+                }
+              ]
             }
           ]
         }

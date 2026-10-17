@@ -38,6 +38,7 @@ export function initNavigation() {
   let desktopOpenTimer = 0;
   let desktopCloseTimer = 0;
   let activeDesktopItem = null;
+  let openedAutomatically = false;
 
   const getItemToggle = (item) => directChild(directChild(item, '.rk-menu-row'), '[data-rk-submenu-toggle]');
   const getItemSubmenu = (item) => directChild(item, '[data-rk-submenu]');
@@ -82,7 +83,7 @@ export function initNavigation() {
     });
   };
 
-  const openDesktopSubmenu = (item) => {
+  const openDesktopSubmenu = (item, automatic = true) => {
     if (!desktopQuery.matches || !getItemSubmenu(item)) {
       return;
     }
@@ -91,6 +92,7 @@ export function initNavigation() {
     closeSiblingSubmenus(item);
     setSubmenuOpen(item, true);
     activeDesktopItem = item;
+    openedAutomatically = automatic;
   };
 
   const scheduleDesktopOpen = (item) => {
@@ -138,12 +140,18 @@ export function initNavigation() {
       const isOpen = item.classList.contains('is-submenu-open');
 
       if (desktopQuery.matches && item.classList.contains('rk-menu-depth-0')) {
+        // Hover/focus can open the panel immediately before the first click.
+        if (isOpen && openedAutomatically) {
+          openedAutomatically = false;
+          clearDesktopTimers();
+          return;
+        }
         if (isOpen) {
           clearDesktopTimers();
           setSubmenuOpen(item, false);
           activeDesktopItem = null;
         } else {
-          openDesktopSubmenu(item);
+          openDesktopSubmenu(item, false);
         }
 
         return;
