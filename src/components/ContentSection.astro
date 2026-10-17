@@ -1,0 +1,16 @@
+---
+import type { ContentSectionData } from '../data/section-types';
+import RichContent from './RichContent.astro';
+import site from '../data/site.json';
+interface Props { section: ContentSectionData; }
+const { section } = Astro.props;
+---
+<section class={`rk-service-content rk-service-content-${section.variant}`} data-component="ContentSection">
+  <div class="rk-section-inner">
+    <div class="rk-service-prose"><RichContent nodes={section.body} /></div>
+    {section.cards.length > 0 && <div class={`rk-service-cards rk-service-cards-${section.variant}`}>
+      {section.cards.map(card => card.href ? <a class="rk-service-card" href={card.href}><h3>{card.title}</h3><RichContent nodes={card.body}/><strong>Learn More</strong></a> : <article class="rk-service-card"><h3>{card.title}</h3><RichContent nodes={card.body}/></article>)}
+      {section.variant === 'services' && <aside class="rk-service-card rk-service-card-quote"><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get A Free Quote Now</a><a href={site.phoneHref}>{site.phone}</a></aside>}
+    </div>}
+  </div>
+</section>

@@ -1,0 +1,8 @@
+---
+import BeforeAfter from './BeforeAfter.svelte';
+import { photo } from '../data/media';
+import type { HeadingData, ImageData } from '../data/section-types';
+interface Props { comparison:HeadingData & {before:ImageData;after:ImageData}; }
+const { comparison } = Astro.props;
+---
+<section class="rk-home-before-after rk-before-after-block"><div class="rk-section-inner rk-home-two-col rk-before-after-inner"><div class="rk-home-before-copy"><p class="rk-home-eyebrow">{comparison.eyebrow}</p><h2>{comparison.title}</h2><p>{comparison.description}</p><a class="rk-button rk-button-primary" href="/past-projects/">See Past Projects</a></div><BeforeAfter before={{...photo(comparison.before),src:photo(comparison.before).thumbnail}} after={{...comparison.after,src:photo(comparison.after).thumbnail}} client:visible/></div></section>

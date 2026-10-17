@@ -1,0 +1,7 @@
+---
+import QuoteExperience from './QuoteExperience.svelte';
+import type { HeadingData } from '../data/section-types';
+interface Props { quote:HeadingData; }
+const { quote } = Astro.props;
+---
+<section class="rk-home-final-cta"><div class="rk-section-inner rk-quote-strip-inner"><div><p class="rk-home-eyebrow">{quote.eyebrow}</p><h2>{quote.title}</h2><p>{quote.description}</p></div><QuoteExperience modalTitle={quote.title} modalDescription={quote.description} client:load/></div></section>

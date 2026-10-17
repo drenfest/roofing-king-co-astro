@@ -1,23 +1,6 @@
 ---
 import { trust, brands } from '../data/home.json';
-import HomeImage from './HomeImage.astro';
+import TrustStrip from './TrustStrip.astro';
+import BrandStrip from './BrandStrip.astro';
 ---
-<section class="rk-home-badges" aria-label="Roof King certifications">
-  <div class="rk-section-inner rk-home-trust-grid">
-    <div class="rk-home-certifications">
-      <div class="rk-home-badge-images">{trust.badges.map(image => <HomeImage {...image} sizes="120px" />)}</div>
-      <div><p class="rk-home-eyebrow">{trust.eyebrow}</p><h2>{trust.title}</h2><p>{trust.description}</p></div>
-    </div>
-    <div class="rk-home-google-proof"><div>
-      <a class="rk-home-google-label" href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer"><HomeImage {...trust.googleIcon} /><span>Google Reviews</span></a>
-      <div class="rk-stars" aria-hidden="true">★★★★★</div>
-      <p><strong>{trust.rating}</strong> out of {trust.count} <a href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer">Google Reviews</a> from homeowners across Ohio.</p>
-    </div></div>
-  </div>
-</section>
-<section class="rk-home-brands rk-block-trusted-brands" aria-label="Trusted brands">
-  <div class="rk-section-inner rk-brands-inner">
-    <div class="rk-brands-heading"><p class="rk-home-eyebrow">{brands.eyebrow}</p><h2>{brands.title}</h2><p>{brands.description}</p></div>
-    <div class="rk-home-brand-list">{brands.items.map(image => <figure class="rk-home-brand-mark"><span class="rk-shingle-bg" aria-hidden="true"></span><HomeImage {...image} sizes="180px" /></figure>)}</div>
-  </div>
-</section>
+<TrustStrip {trust} /><BrandStrip {brands} />

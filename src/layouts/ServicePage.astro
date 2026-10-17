@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { ServicePageData } from '../data/section-types';
+import { photo } from '../data/media';
+import { trust } from '../data/home.json';
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import TrustStrip from '../components/TrustStrip.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSection from '../components/ContentSection.astro';
+import BrandStrip from '../components/BrandStrip.astro';
+import CardSection from '../components/CardSection.astro';
+import ProjectGallery from '../components/ProjectGallery.svelte';
+import ComparisonSection from '../components/ComparisonSection.astro';
+import CoverageSection from '../components/CoverageSection.astro';
+import FAQSection from '../components/FAQSection.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+interface Props { page:CollectionEntry<'pages'>; data:ServicePageData; }
+const { page, data } = Astro.props;
+---
+<DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image}>
+  <SiteHeader client:load/>
+  <main id="content" class="rk-site-main"><article class="rk-native-service" data-service-build="astro-components" data-content-source={page.data.source}>
+    <PageHero hero={data.hero}/><TrustStrip {trust}/><Breadcrumbs items={data.breadcrumbs}/>
+    {data.sections.map(section=>section.type==='content'?<ContentSection {section}/>:
+      section.type==='brands'?<BrandStrip brands={section}/>:
+      section.type==='cards'?<CardSection kind={section.kind} section={section}/>:
+      section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:
+      section.type==='comparison'?<ComparisonSection comparison={section}/>:
+      section.type==='coverage'?<CoverageSection coverage={section}/>:
+      section.type==='faq'?<FAQSection {section}/>:
+      section.type==='products'?<ProductGrid {section}/>:
+      section.type==='quote'?<QuoteSection quote={section}/>:null)}
+  </article></main><SiteFooter/>
+</DocumentLayout>

@@ -1,6 +1,6 @@
 # src/pages
 
-index.astro composes the native homepage. [...path].astro generates all other preserved routes from frontmatter and excludes the root path. Both calculator paths add the click-to-load Roofr estimator after their preserved content. 404, robots and migration review are explicit routes. This map is prefixed with an underscore to prevent publication.
+roofing.astro plus roofing/repair.astro and replacement.astro render the eight native roofing-family pages; the catchall excludes keys in service-pages.json to keep legacy CSS/JS out. index.astro composes the native homepage. [...path].astro generates all other preserved routes from frontmatter and excludes the root path. Both calculator paths add the click-to-load Roofr estimator after their preserved content. 404, robots and migration review are explicit routes. This map is prefixed with an underscore to prevent publication.
 
 ## Files
 
@@ -8,11 +8,12 @@ index.astro composes the native homepage. [...path].astro generates all other pr
 - `index.astro`
 - `migration-review.astro`
 - `robots.txt.ts`
+- `roofing.astro`
 - `[...path].astro`
 
 ## Subdirectories
 
-- None.
+- `roofing/` - read its _ai-context.md.
 
 ## Change checks
 

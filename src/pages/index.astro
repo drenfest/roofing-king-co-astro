@@ -10,8 +10,8 @@ import HomeCardSection from '../components/HomeCardSection.astro';
 import HomeConfidence from '../components/HomeConfidence.astro';
 import HomeWorkmanship from '../components/HomeWorkmanship.astro';
 import ProjectGallery from '../components/ProjectGallery.svelte';
-import BeforeAfter from '../components/BeforeAfter.svelte';
-import QuoteExperience from '../components/QuoteExperience.svelte';
+import ComparisonSection from '../components/ComparisonSection.astro';
+import QuoteSection from '../components/QuoteSection.astro';
 import { gallery, comparison, quote } from '../data/home.json';
 import media from '../data/home-media.json';
 import '../styles/base.css';
@@ -33,14 +33,8 @@ function photo(image: {src:string;alt:string}) {
       <HomeHero /><HomeTrust /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
       <ProjectGallery {...gallery} items={gallery.items.map(image => ({...photo(image), tags:image.tags}))} client:visible />
       <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
-      <section class="rk-home-before-after rk-before-after-block"><div class="rk-section-inner rk-home-two-col rk-before-after-inner">
-        <div class="rk-home-before-copy"><p class="rk-home-eyebrow">{comparison.eyebrow}</p><h2>{comparison.title}</h2><p>{comparison.description}</p><a class="rk-button rk-button-primary" href="/past-projects/">See Past Projects</a></div>
-        <BeforeAfter before={{...photo(comparison.before),src:photo(comparison.before).thumbnail}} after={{...comparison.after,src:photo(comparison.after).thumbnail}} client:visible />
-      </div></section>
-      <section class="rk-home-final-cta"><div class="rk-section-inner rk-quote-strip-inner">
-        <div><p class="rk-home-eyebrow">{quote.eyebrow}</p><h2>{quote.title}</h2><p>{quote.description}</p></div>
-        <QuoteExperience client:load />
-      </div></section>
+      <ComparisonSection {comparison} />
+      <QuoteSection {quote} />
     </article>
   </main>
   <SiteFooter />

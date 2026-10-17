@@ -2,7 +2,7 @@
 
 ## Purpose and current scope
 
-Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 routes are preserved. The homepage now uses native components; `/roofing/` and other routes still use imported content. Editorial verification and production lead delivery remain pending.
+Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 routes are preserved. The homepage and all eight routes in the `/roofing/` family now use native components. Other routes still use imported content. Editorial verification and production lead delivery remain pending.
 
 ## Read first
 
@@ -28,7 +28,7 @@ Preserve each manifest permalink. Do not remove, redirect, rename or broadly can
 
 Keep central business details in `src/data/site.json`. Do not invent reviews, project photos, job locations, credentials, service coverage, pricing or warranty terms. Existing imported claims still need verification.
 
-Use Astro for static sections; use Svelte only for genuine browser interaction. The native homepage has no raw content HTML or compatibility JS. Keep full readable HTML and image links available before JavaScript. Homepage edits belong in its components/data; the root Markdown body remains evidence and must not be reintroduced as the rendered homepage. Rebuild roofing next.
+Use Astro for static sections; use Svelte only for genuine browser interaction. The native homepage has no raw content HTML or compatibility JS. Keep full readable HTML and image links available before JavaScript. Homepage edits belong in its components/data; the root Markdown body remains evidence and must not be reintroduced as the rendered homepage. Continue page-by-page from the roofing family. The eight roofing-family routes use ServicePage.astro and src/data/service-pages.json; their retained Markdown remains source evidence. Add typed sections as real page needs emerge.
 
 The user explicitly chose to build the homepage form/modal now and connect delivery later. QuoteForm.svelte deliberately disables submission and uses method="dialog" to prevent accidental URL-based transmission without JS. Do not enable submission without a verified handler and delivery tests. Phone and booking links work. Secrets stay outside Git. Keep preview indexing blocked until production release is explicitly scheduled.
 

@@ -5,7 +5,7 @@ All 215 preserved source records examined; page-by-page visual approval is still
 ## What to build first
 
 1. Extract shared homepage sections into prop-driven components.
-2. Rebuild `/roofing/`, repair and replacement as the service-template pilot.
+2. The initial `/roofing/`, repair and replacement pilot is implemented; use it to extend the service family.
 3. Roll that system through all service pages, then the two location variants.
 4. Separate article/project/offer/review templates and rebuild listings.
 5. Finish purpose-specific company pages, integrations and approved policies.
@@ -38,26 +38,27 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 | Component | Observed source URLs | Recommended URLs | Work needed |
 | --- | ---: | ---: | --- |
 | SiteChrome / document shell | 215 | 215 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
-| PageHero | 95 | 112 | adapt — HomeHero.astro |
-| TrustStrip | 95 | 96 | adapt — HomeTrust.astro |
-| Breadcrumbs | 108 | 214 | new — WordPress roofkingco/breadcrumbs block |
-| BrandStrip | 86 | 86 | adapt — HomeTrust.astro |
-| ContentSections / SplitSection | 85 | 141 | new — Repeated rk-page sections in page bodies |
-| ServiceGrid / ServiceCard | 9 | 33 | adapt — HomeServices.astro |
+| PageHero | 95 | 112 | reuse — PageHero.astro |
+| TrustStrip | 95 | 96 | reuse — TrustStrip.astro |
+| Breadcrumbs | 108 | 214 | reuse — Breadcrumbs.astro |
+| BrandStrip | 86 | 86 | reuse — BrandStrip.astro |
+| ContentSections / SplitSection | 85 | 141 | reuse — ContentSection.astro + RichContent.astro |
+| ServiceGrid / ServiceCard | 9 | 33 | reuse — ContentSection.astro services variant |
 | FeatureGrid / ProcessSteps | 15 | 15 | adapt — HomeWorkmanship.astro |
 | OfferGrid / OfferCard | 52 | 52 | adapt — HomeCardSection.astro |
 | ProjectGallery | 85 | 108 | reuse — ProjectGallery.svelte |
 | BeforeAfter | 28 | 28 | reuse — BeforeAfter.svelte |
-| CoverageSection | 90 | 98 | adapt — HomeWorkmanship.astro |
+| CoverageSection | 90 | 98 | reuse — CoverageSection.astro |
 | Testimonials / ReviewCard | 90 | 100 | adapt — HomeCardSection.astro |
-| QuoteCTA / QuoteForm | 102 | 157 | adapt — QuoteForm.svelte, QuoteExperience.svelte |
-| FAQSection | 4 | 27 | adapt — HomeConfidence.astro native details pattern |
+| QuoteCTA / QuoteForm | 102 | 157 | reuse — QuoteSection.astro + QuoteExperience.svelte |
+| FAQSection | 4 | 27 | reuse — FAQSection.astro |
 | RelatedResources / ArticleCard | 65 | 66 | adapt — HomeCardSection.astro |
 | DetailLayout primitives | 64 | 65 | new — Current shared blog wrapper |
 | ArchiveListing / Pagination | 39 | 39 | new — Reconstructed archives and blog index |
 | RoofrEstimator / ToolFrame | 2 | 2 | reuse — RoofrEstimator.svelte |
 | LocationDirectory | 1 | 1 | new — Service areas index |
 | Specialized company / policy blocks | 0 | 22 | new — Company, contact, policy, careers and events pages |
+| ProductGrid | 0 | 1 | reuse — ProductGrid.astro |
 
 Counts indicate section evidence in preserved source, not completed native migrations or fresh live-site verification.
 
@@ -229,7 +230,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 #### /roofing/
 
-**Columbus, OH Roofing Company** · wordpress · Imported / reconstructed page
+**Columbus, OH Roofing Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], ServiceGrid [observed], FeatureGrid [observed], OfferGrid [observed], ProjectGallery [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.
 - Source evidence: 26 headings; 465 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
@@ -237,14 +238,14 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 #### /roofing/gaf/
 
-**Columbus, OH GAF Roof Company** · wordpress · Imported / reconstructed page
+**Columbus, OH GAF Roof Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
 - Source evidence: 18 headings; 490 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /roofing/gaf/master-elite/
 
-**Columbus, OH GAF Master Elite Roofer** · wordpress · Imported / reconstructed page
+**Columbus, OH GAF Master Elite Roofer** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
 - Source evidence: 21 headings; 861 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
@@ -252,35 +253,35 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 #### /roofing/gaf/types/
 
-**Columbus, OH GAF Roof Shingle Types** · wordpress · Imported / reconstructed page
-- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
+**Columbus, OH GAF Roof Shingle Types** · wordpress · Native service components
+- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], ProductGrid [proposed].
 - Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
 - Source evidence: 29 headings; 380 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /roofing/metal/
 
-**Columbus, OH Metal Roof Company** · wordpress · Imported / reconstructed page
+**Columbus, OH Metal Roof Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
 - Source evidence: 18 headings; 499 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /roofing/repair/
 
-**Columbus, OH Roof Repair Company** · wordpress · Imported / reconstructed page
+**Columbus, OH Roof Repair Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Keep leak/damage diagnosis, repair scenarios and repair-versus-replacement guidance; do not inherit replacement copy wholesale.
 - Source evidence: 18 headings; 536 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /roofing/replacement/
 
-**Columbus, OH Roof Replacement Company** · wordpress · Imported / reconstructed page
+**Columbus, OH Roof Replacement Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], FeatureGrid [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], FAQSection [observed].
 - Page-specific work: Keep repair-versus-replacement guidance, warning signs, the replacement process, cost discussion and FAQ as distinct editable sections.
 - Source evidence: 32 headings; 1020 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /roofing/types/
 
-**Columbus, OH Roof Types** · wordpress · Imported / reconstructed page
+**Columbus, OH Roof Types** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
 - Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.

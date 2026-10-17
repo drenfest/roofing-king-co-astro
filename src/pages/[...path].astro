@@ -4,8 +4,9 @@ import type { CollectionEntry } from 'astro:content';
 import SiteLayout from '../layouts/SiteLayout.astro';
 import RoofrEstimator from '../components/RoofrEstimator.svelte';
 import roofr from '../data/roofr.json';
+import services from '../data/service-pages.json';
 export async function getStaticPaths() {
-  return (await getCollection('pages')).filter(page => page.data.permalink !== '/').map(page => ({
+  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services)).map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
     props: { page },
   }));

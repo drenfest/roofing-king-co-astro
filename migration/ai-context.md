@@ -5,6 +5,7 @@ component-reuse-plan.md, component-reuse-audit.json and component-reuse-audit.ht
 ## Files
 
 - `build-audit.json`
+- `component-build-progress.md`
 - `component-reuse-audit.html`
 - `component-reuse-audit.json`
 - `component-reuse-plan.md`

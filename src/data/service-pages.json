@@ -1,0 +1,4266 @@
+{
+  "/roofing/": {
+    "sourceFile": "src/content/pages/roofing/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Roof King",
+      "title": "Columbus, OH Roofing Company",
+      "description": "Looking for an experienced roofing company in Columbus? Search no further than our experts at Roof King & Restoration. Get a free quote from our team today.",
+      "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+      "booking": {
+        "eyebrow": "Next step",
+        "title": "Plan your project with Roof King",
+        "description": "Talk with our team about timing, products, and the best path for your home."
+      },
+      "bookingUrl": "/contact-us/",
+      "bookingLabel": "Get A Free Quote"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "services",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH Roofing Company"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "With quality roofing services available for all types of homes, our expert Columbus roofing contractors at Roof King & Restoration are here to help."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Roof Repairs",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "No damage is too severe for our team. We’ll make sure that you have the reliable repair services you need to restore your home after a damaging storm."
+                  }
+                ]
+              }
+            ],
+            "href": "/roofing/repair/"
+          },
+          {
+            "title": "Roof Replacements",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Whether you have a severely outdated roof or damage was too much to repair, our competent roof installation team will be able to get your home back up and running."
+                  }
+                ]
+              }
+            ],
+            "href": "/roofing/replacement/"
+          },
+          {
+            "title": "Roofing Types",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We have an exceptional variety of quality roofing styles, giving you the reassurance that you’ll find the right product for your home."
+                  }
+                ]
+              }
+            ],
+            "href": "/roofing/types/"
+          },
+          {
+            "title": "GAF Roofing",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Highly regarded for their roofing products’ style, durability, and warranty protection, you won’t be disappointed by our high-grade GAF roofing."
+                  }
+                ]
+              }
+            ],
+            "href": "/roofing/gaf/"
+          },
+          {
+            "title": "Metal Roofing",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "No roofing type is more durable than metal. Although it’s a larger upfront investment, metal roofing will provide years of lasting performance."
+                  }
+                ]
+              }
+            ],
+            "href": "/roofing/metal/"
+          }
+        ]
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "variant": "features",
+        "body": [
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Why Roof King"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Columbus’ Most Trusted Residential Roofers"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "\n                                Here at Roof King, we have quickly made a name for ourselves because of our dedication to high-quality service and installations. We’re a GAF Master Elite Contractor who’s also accredited by the Better Business Bureau with an A+ rating, giving you peace of mind that you’re hiring a professional. We’re also a locally owned and operated roofing company in Columbus, so you can trust that we’ll always keep your family’s best interests in mind during every project. No matter how extensive your roofing needs are, you can count on us to be there to fulfill them.\n                            "
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Insurance Claim Expertise",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Many of our roofing repairs and replacements are done under homeowners’ insurance. Rest assured, we can navigate the process with you."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Quality Roofing Brands",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We only use roofing products from the best of the best—specifically GAF. This gives you reassurance that your installation will last for years."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Excellent Warranty Protection",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We offer some of the best warranties for new roofing systems on the market. These include GAF product warranties and our 5-year workmanship warranty."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Roof Repairs",
+            "value": "roof-repairs"
+          },
+          {
+            "label": "Roof Replacements",
+            "value": "roof-replacements"
+          },
+          {
+            "label": "Roofing Types",
+            "value": "roofing-types"
+          },
+          {
+            "label": "GAF Roofing",
+            "value": "gaf-roofing"
+          },
+          {
+            "label": "Metal Roofing",
+            "value": "metal-roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
+            "alt": "Roof King Roof Repairs project photo",
+            "tags": [
+              "roof-repairs"
+            ]
+          },
+          {
+            "src": "/media/wordpress/a8dc4ac5896c-5620d1f9-89b3-442f-b404-406a036de9cd.jpg",
+            "alt": "Roof King Roof Repairs project photo",
+            "tags": [
+              "roof-repairs"
+            ]
+          },
+          {
+            "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+            "alt": "Roof King Roof Replacements project photo",
+            "tags": [
+              "roof-replacements"
+            ]
+          },
+          {
+            "src": "/media/wordpress/ee240b0b3468-85e11846-ea01-4ef8-ab03-473e5de7c6e0.jpg",
+            "alt": "Roof King Roof Replacements project photo",
+            "tags": [
+              "roof-replacements"
+            ]
+          },
+          {
+            "src": "/media/wordpress/a5b9955f1d39-4f621074-e634-48c7-8d9f-f53b5192764e.jpg",
+            "alt": "Roof King Roofing Types project photo",
+            "tags": [
+              "roofing-types"
+            ]
+          },
+          {
+            "src": "/media/wordpress/13e99ac0e937-def5e473-207d-4469-a03f-db2968490f4c.jpg",
+            "alt": "Roof King Roofing Types project photo",
+            "tags": [
+              "roofing-types"
+            ]
+          },
+          {
+            "src": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+            "alt": "Roof King GAF Roofing project photo",
+            "tags": [
+              "gaf-roofing"
+            ]
+          },
+          {
+            "src": "/media/wordpress/fdd31f683ee8-bd905b10-6c2d-4811-bc6d-bdb161346e9d.jpg",
+            "alt": "Roof King GAF Roofing project photo",
+            "tags": [
+              "gaf-roofing"
+            ]
+          },
+          {
+            "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+            "alt": "Roof King Metal Roofing project photo",
+            "tags": [
+              "metal-roofing"
+            ]
+          },
+          {
+            "src": "/media/wordpress/26a550cee3de-7190d0bd-e33d-46e1-b10f-60ae16e04006.jpg",
+            "alt": "Roof King Metal Roofing project photo",
+            "tags": [
+              "metal-roofing"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "eyebrow": "Project transformation",
+        "title": "See the transformation",
+        "description": "Compare exterior improvements with a draggable before and after view.",
+        "before": {
+          "src": "/media/wordpress/717dd193ee03-before.jpg",
+          "alt": "Roof before replacement"
+        },
+        "after": {
+          "src": "/media/wordpress/6157f73c34cd-after.jpg",
+          "alt": "Roof after replacement"
+        }
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Skilled Roof Installers in Greater Columbus",
+        "description": "While our main market focuses on the Columbus area, we are prevalent throughout the entire state of Ohio. From Cleveland to Dayton, we’ll be there to provide your family with the durable roofing they deserve. It doesn’t matter if you live directly downtown in one of the main metropolitan areas or if you live out in the country, we’ll be there to answer your call. We love traveling to new towns and providing our services to new customers across the state, so don’t hesitate to reach out to us today.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/repair/": {
+    "sourceFile": "src/content/pages/roofing/repair/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Exterior Services",
+      "title": "Experienced Roof Repair Contractors in Columbus",
+      "description": "As a local roofing expert, we'll make sure that you get the service you deserve for your home's roofing repairs.",
+      "image": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
+      "booking": {
+        "eyebrow": "Limited time offer",
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!"
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH Roof Repair Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH Roof Repair Company"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Searching for skilled roof repair companies in Columbus? Look no further than our team at Roof King & Restoration. Contact us today and start with a quote."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Your home’s roof is one of the most important structures for integrity and weather resilience. If it is showing any signs of damage at all, you’ll want to make sure that you’re taking action to repair them. Rest assured, our skilled team at Roof King & Restoration will provide you with the comprehensive services you need. We’ve been the "
+                  }
+                ]
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/",
+                "children": [
+                  {
+                    "text": "leading roofing company in Columbus"
+                  }
+                ]
+              },
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": " since 2020 and our experts will have no problem restoring your roof to like-new condition."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "As an A+ rated and accredited company by the Better Business Bureau, you can trust that our service will always be perfect. We’re proud GAF Master Elite contractors, and we’ll make sure that your home’s roof repair, no matter how extensive, is made to look easy. We’ll restore your family’s peace of mind and give you confidence that your home is protected again."
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Reputable Roof Repair Contractors in Columbus"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "When it comes to home roof repair services, you need to make sure that you’re hiring an expert. Luckily, as one of the leading roof repair companies in Columbus, we’ll make sure that your family is treated to the best customer service, craftsmanship, and products. We take roofing damage very seriously and ensure that your repairs will last, as protected by our 5-year workmanship warranty and "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/gaf/",
+                "children": [
+                  {
+                    "text": "GAF roofing"
+                  }
+                ]
+              },
+              {
+                "text": " warranties. Whether you have missing shingles, a leaking roof, or damaged flashing, we’ll be able to come out and resolve any issues."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Our roof repair process follows a strict protocol to ensure that your damage is reversed. The steps we will take include:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Roof Inspection: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "We’ll get started by evaluating your roofing damage and finding all problem points."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Remove Damage: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Our team will make sure to thoroughly remove any damaged materials so that lasting issues don’t occur."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Replace Roofing: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "From there, we’ll install new roofing in its place. If you’re investing in a "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/replacement/",
+                    "children": [
+                      {
+                        "text": "completely new roof replacement"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", you’ll also have a variety of style options available."
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Get a Roof Repair Install Estimate in Columbus Today"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Our premium roof repairs feature the best brands and products in the industry, so you can trust that your home’s roofing will look as good as new. If you’re ready to get started, reach out to us today, and we’ll provide you with an accurate roof repair estimate."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Besides residential roofing, we also provide commercial roofing and siding, residential siding, gutters, storm damage, windows, decks, and attic insulation, so be sure to ask about these other Ohio services too."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Roof Repair Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/replacement/": {
+    "sourceFile": "src/content/pages/roofing/replacement/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Roof Replacement",
+      "title": "Roof Replacement in Columbus, OH",
+      "description": "Durable roofing systems, certified installation, flexible financing, and trusted warranties from Roof King & Restoration.",
+      "image": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+      "booking": {
+        "eyebrow": "Flexible financing",
+        "title": "3-Year Financing For Your Home Projects",
+        "description": "Explore financing options for roofing, windows, gutters, siding, and more with monthly payment options built around your home."
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH Roof Replacement Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Columbus roofing"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH Roof Replacement Company"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "When an aging, leaking, or storm-damaged roof can no longer protect your home with confidence, Roof King & Restoration helps you plan a replacement that is clear, durable, and built for Ohio weather."
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "As a GAF Master Elite contractor serving Columbus and Central Ohio, Roof King helps homeowners compare repair, replacement, financing, and warranty options before committing to a full roof system."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "features",
+        "body": [
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Repair or replace"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Know When A Full Roof Replacement Makes Sense"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Not every roofing issue needs a tear-off. If damage is isolated, a targeted "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/repair/",
+                "children": [
+                  {
+                    "text": "roof repair"
+                  }
+                ]
+              },
+              {
+                "text": " may be the smarter path. If leaks keep returning, shingles are failing across multiple slopes, or storm damage has compromised the system, replacement can protect the home more completely."
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Repair May Fit",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Small leaks, a few missing shingles, minor flashing issues, or localized wind damage can often be addressed without replacing the entire roof."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Replacement May Fit",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Older roofing, widespread granule loss, curling shingles, soft decking, recurring leaks, or damage across several areas can point toward a full system replacement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Storm Damage Matters",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Hail, wind, ice, and heavy Ohio weather can shorten a roof system's life. Our team can inspect the roof and document what we find before you decide."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Warning signs"
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Signs You May Need Roof Replacement"
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Homeowners usually call when a leak becomes obvious, but many replacement clues show up earlier. Watch for missing or lifted shingles, curling edges, bald spots where granules have washed away, dark streaking, repeated repairs, daylight in the attic, soft or sagging decking, damaged flashing, ventilation problems, and roof age that is approaching the end of its expected life."
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "A complete inspection helps separate cosmetic wear from problems that can let water reach the decking, insulation, drywall, and interior finishes of your home."
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "features",
+        "body": [
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Installation process"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "A Roof Replacement Process Built Around Clarity"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Roof King keeps the project straightforward from inspection to cleanup. You get a clear scope, product guidance, schedule expectations, and a finished system designed to handle rain, wind, heat, ice, and everyday Ohio weather."
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Inspection And Estimate",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We review shingles, flashing, decking, ventilation, storm damage, and leak history before recommending the right path."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Material Selection",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Choose colors, shingle profiles, ventilation, underlayment, and warranty options that fit the home and budget."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Tear-Off And Installation",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our crew removes the old system, checks the decking, installs protection layers, and completes the roofing system with care."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Cleanup And Walkthrough",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We clean the property, check the finished details, and walk through the completed work before the project wraps."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "variant": "features",
+        "body": [
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Materials and cost"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Roofing Systems, Cost Factors, And Warranty Protection"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The right roof is more than the visible shingle. Material choice, ventilation, flashing, underlayment, decking condition, labor, disposal, pitch, access, and warranty coverage all affect the finished result and the final price."
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Roofing Materials",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King installs asphalt shingles, architectural shingles, "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/metal/",
+                    "children": [
+                      {
+                        "text": "metal roofing"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", and premium "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/gaf/",
+                    "children": [
+                      {
+                        "text": "GAF roofing systems"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Compare more options on our "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/types/",
+                    "children": [
+                      {
+                        "text": "roof types"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Replacement Cost",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Size, pitch, tear-off needs, decking repairs, ventilation, warranty selections, and storm conditions all matter. Start with our "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/cost-of-a-new-roof/",
+                    "children": [
+                      {
+                        "text": "roof replacement cost guide"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roof-calculator/",
+                    "children": [
+                      {
+                        "text": "roofing calculator"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Warranty Coverage",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our work is backed by a 5-year workmanship warranty, and GAF product options may provide additional manufacturer protection depending on the system selected."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Storm And Insurance Support",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "When wind, hail, ice, or falling debris is involved, we can inspect the damage and help you understand next steps. Learn more about "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/storm-damage/",
+                    "children": [
+                      {
+                        "text": "storm damage restoration"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/storm-damage/insurance-claims/",
+                    "children": [
+                      {
+                        "text": "insurance claims"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted Materials For A Stronger Roof",
+        "description": "Roof King pairs certified installation with proven roofing systems, premium warranties, and materials selected for Ohio homes.",
+        "items": [
+          {
+            "src": "/media/wordpress/88f26d1d1f40-masterelite.png",
+            "alt": "GAF Master Elite"
+          },
+          {
+            "src": "/media/wordpress/8d8a479c04f7-gafpresident.png",
+            "alt": "GAF President's Club"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current Savings And Financing Options",
+        "description": "Review current offers before planning your roof replacement.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Roof Replacement Projects Across Ohio",
+        "description": "See recent roofing work from Roof King & Restoration and browse exterior transformations from homes across Ohio.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Roof Replacement Across Columbus And Ohio",
+        "description": "Roof King supports homeowners in Columbus, Central Ohio, and surrounding communities with roof replacement, repair, storm restoration, gutters, siding, windows, decks, and insulation.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "faq",
+        "eyebrow": "Roof replacement FAQs",
+        "title": "Answers Before You Replace Your Roof",
+        "description": "Use these questions to understand scope, timing, warranty, and when replacement is the right move for your home.",
+        "items": [
+          {
+            "question": "How do I know if I need a roof replacement?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "You may need replacement if your roof has widespread shingle wear, recurring leaks, storm damage across multiple slopes, soft decking, sagging areas, or age-related failure that repairs cannot reliably solve."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "How long does a roof replacement take?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Many residential roof replacements can be completed quickly once materials and scheduling are set. In Columbus and Central Ohio, timing can also depend on seasonal weather, storm demand, material scheduling, roof size, pitch, decking repairs, and project complexity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "How much does roof replacement cost in Columbus, OH?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Cost depends on roof size, pitch, tear-off needs, material, ventilation, decking condition, labor, disposal, and warranty selections. Our roof cost guide and calculator can help you start planning."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you tear off the old roof?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King evaluates the existing system and recommends the right installation approach. A tear-off often gives the crew a clearer look at decking, flashing, and hidden water damage."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "What roofing materials do you install?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We install asphalt shingles, architectural shingles, metal roofing, and GAF roofing systems, with color and style options selected for Ohio homes, curb appeal, and year-round weather exposure."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you offer financing?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Yes. Roof King offers financing options that can help homeowners plan roofing, windows, gutters, siding, decks, and other exterior projects."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "What warranty comes with a roof replacement?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King provides a 5-year workmanship warranty, and manufacturer warranty options may be available through GAF depending on the roofing system selected."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Can storm damage qualify for insurance coverage?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Wind, hail, ice, and other Central Ohio storm events may qualify depending on the damage, policy, and inspection findings. Our team can document roof conditions and help you understand the next steps."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you replace damaged decking?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If decking is soft, rotted, or compromised, it should be addressed before the new roofing system is completed. We review decking during the project and explain any needed repairs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Do you serve areas outside Columbus?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Yes. Roof King serves Columbus, Central Ohio, and communities across Ohio for roofing, storm damage, siding, gutters, windows, decks, and attic insulation."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local roofing team about roof replacement, repair options, materials, warranty coverage, financing, or storm damage support."
+      }
+    ]
+  },
+  "/roofing/types/": {
+    "sourceFile": "src/content/pages/roofing/types/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Exterior Services",
+      "title": "Premium Material Options for Your Columbus Roofing Installation",
+      "description": "We are proud to work with all types of homes and budgets, ensuring that every family has the quality roofing they need.",
+      "image": "/media/wordpress/a5b9955f1d39-4f621074-e634-48c7-8d9f-f53b5192764e.jpg",
+      "booking": {
+        "eyebrow": "Limited time offer",
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!"
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH Roof Types"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH Roof Types"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Ready to install a new roof on your Columbus home? Browse our extensive collection of high-end roofing styles at Roof King & Restoration and get a quote today."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "If you’re ready to install new roofing on your Ohio home, you’ll be presented with multiple material options to choose from. Selecting the right roofing type is crucial for your home’s exterior curb appeal and lasting performance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Here at Roof King & Restoration, we have some of the most modern roofing types available in the industry. As an A+ rated and accredited business by the Better Business Bureau, we’ll make sure to provide your family with the best service. We’ve been trusted as "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/",
+                "children": [
+                  {
+                    "text": "Columbus’ top roofing company"
+                  }
+                ]
+              },
+              {
+                "text": " since 2000, and we’ve earned an impeccable reputation that we uphold with every customer interaction."
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Stunning Roof Installation Types in Columbus"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "You’re guaranteed to be impressed by our quality roofing materials. We’re respected by the entire state of Ohio for the high-end styles we install on our customers’ homes, and we’re confident that you’ll be satisfied with how your "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/replacement/",
+                "children": [
+                  {
+                    "text": "Columbus roof replacement"
+                  }
+                ]
+              },
+              {
+                "text": " turns out. "
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Our roofers can work on any type of home with any square footage, ensuring that you have the durable, highly aesthetic roofing materials you need. We are proud to work with only the "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/gaf/",
+                "children": [
+                  {
+                    "text": "best roofing brands like GAF"
+                  }
+                ]
+              },
+              {
+                "text": ", so there’s no doubt that your new roof will be anything short of perfection."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Our most popular roofing styles include:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Asphalt Shingles: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Praised for their affordability, sleek style, easy maintenance, and dependable performance, asphalt roofing can be a great choice for many homes. Our GAF shingles are backed by warranties for your peace of mind."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Metal Roofing: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "If you’re seeking the best return on your investment, you can’t go wrong with a new metal roof. Metal roofing is more expensive upfront, but it offers outstanding longevity, often up to 50+ years! Additionally, it comes in a range of color options for customization potential."
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Contact Our Columbus Roof Installers for a Quote Today"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Whether you’re investing in an entire roof replacement for your home, a minor roof repair, or an installation for new construction, you’ll enjoy the premium roofing styles that our roofing contractors offer. Learn more about our new roofing systems and style options today and request a quote for your residence. We also provide siding, commercial roofing and siding, gutters, storm damage restorations, windows, attic insulation, and decks, so don’t wait to ask about those as well."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Roof Types Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/metal/": {
+    "sourceFile": "src/content/pages/roofing/metal/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Exterior Services",
+      "title": "Top-Tier Metal Roofing in Columbus, OH",
+      "description": "Our team will provide expert craftsmanship and durable products to give your home the roofing performance it needs.",
+      "image": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+      "booking": {
+        "eyebrow": "Limited time offer",
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!"
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH Metal Roof Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH Metal Roof Company"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Does your Columbus home need a new roof? Rely on our metal roofing installers at Roof King & Restoration and get a quote for durable metal roofing today."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Roofing should be the most durable structure of your home. Unfortunately, many homeowners in Ohio choose to stick with inferior roofing materials that need to be replaced after a few short years. If you’re looking to make a long-lasting investment in your home, go with a new metal roof. "
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Here at Roof King & Restoration, we provide the highest-grade metal roofs from one of the best brands in the industry—GAF. Our "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/",
+                "children": [
+                  {
+                    "text": "Columbus area roofing company"
+                  }
+                ]
+              },
+              {
+                "text": " has been in business since 2020, and we have made it our mission to provide local homeowners with the quality roofing they deserve. We guarantee that you’ll be satisfied by the installation and products we provide."
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Professional Metal Roofing Installers in Columbus"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "You can’t go wrong with a metal roofing installation. Highly regarded for its durability, metal roofing is nearly invincible to extreme weather. You won’t have to worry about storms ever affecting your home again, and you certainly won’t have to worry about leaks. Some of the main advantages that you can enjoy with this "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/types/",
+                "children": [
+                  {
+                    "text": "residential roofing style"
+                  }
+                ]
+              },
+              {
+                "text": " include:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Longevity: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "High-quality metal roofing is known to last for 50+ years. It’s very likely that this could be the last home roof replacement you ever need."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Visual Appeal: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Many individuals feel that a new metal roof provides style and a modern look to a home’s exterior."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Energy Efficiency: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Metal roofing reflects UV radiation, helping to keep your home cooler in the summer."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Low Maintenance: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "There isn’t much you have to do to keep your metal roofing in exceptional condition."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Our metal roofers in Columbus are dedicated to quality craftsmanship. We offer a 5-year warranty on all of our labor for your peace of mind, so you’ll never have to worry about receiving a faulty installation."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Get a Quote for Residential Metal Roofing in Columbus Today"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Metal roofing is one of the most sought-after roofing styles on the market today. If you’re interested in choosing this roofing option for your "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/replacement/",
+                "children": [
+                  {
+                    "text": "new roof installation"
+                  }
+                ]
+              },
+              {
+                "text": ", contact our trusted metal roofing company today for a quote."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Besides home roofing, we also provide commercial roofing and siding, residential siding, gutters, storm repairs, windows, attic insulation, and decks. No matter what part of your exterior you need help with, we’ve got you covered."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Metal Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/gaf/": {
+    "sourceFile": "src/content/pages/roofing/gaf/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Exterior Services",
+      "title": "Reliable GAF Roofers in Columbus, OH",
+      "description": "We prioritize timely roofing service so that you can feel at ease in your home as quickly as possible.",
+      "image": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+      "booking": {
+        "eyebrow": "Limited time offer",
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!"
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH GAF Roof Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH GAF Roof Company"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Considering installing GAF roof shingles on your Columbus home's roof? If so, trust our team at Roof King & Restoration to do the work. Get a quote today."
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "When it comes to durable, long-lasting roofing, no brand offers more consistency than GAF. As North America’s largest roofing manufacturer, GAF is dedicated to providing homeowners with quality roofing that will impress. Here at Roof King & Restoration, we’re proud to work with this exclusive brand and will make sure that your home has the high-end products it needs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "We’ve been operating as "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/",
+                "children": [
+                  {
+                    "text": "Columbus’ best roofing company"
+                  }
+                ]
+              },
+              {
+                "text": " since 2020, and we’re proud to be accredited by the Better Business Bureau with an A+ rating. We take pride in our work and will strive to equip your home with premium roofing products, professional craftsmanship, and top-tier customer support. No matter what your residential roofing needs are, we’ll be there to fulfill them."
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Trusted Factory-Certified Roofers in Columbus"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "You need an expert for your "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/replacement/",
+                "children": [
+                  {
+                    "text": "residential roof replacement or installation"
+                  }
+                ]
+              },
+              {
+                "text": ". By hiring Roof King, you’re benefiting from skilled roofing contractors who are committed to your family’s satisfaction. While our craftsmanship is extremely high-quality, our success also depends on the products we use. GAF roof shingles in Columbus provide many benefits that your family will enjoy, such as:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Style Options: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "GAF shingles come in a wide variety of color options, allowing you to design your new roofing exactly to your liking. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/metal/",
+                    "children": [
+                      {
+                        "text": "Premium metal roofing"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " is also available."
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Longevity: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "GAF roofing is known to last for decades. This ensures that your investment will be a good one."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Warranties: "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "This brand features an exceptional warranty, giving you peace of mind that your installation will last."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Besides the various benefits that GAF’s products provide, you’ll also enjoy several other advantages by hiring our GAF Master Elite contractors in Ohio. We offer a 5-year workmanship warranty and flexible financing options for all budgets."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Get a Quote for Your GAF New Roofing System in Columbus Today"
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "You deserve to have the highest-quality roofing for your home. When you trust our team at Roof Kings for your installation, you will always receive the best workmanship and reputable products from GAF. Reach out to us today to get a quote and be sure to keep us in mind for commercial roofing and siding, residential siding, gutters, storm repairs, windows, decks, and attic insulation."
+              },
+              {
+                "tag": "br",
+                "children": []
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "GAF Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/gaf/types/": {
+    "sourceFile": "src/content/pages/roofing/gaf/types/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Exterior Services",
+      "title": "Columbus, OH GAF Roof Shingle Types",
+      "description": "Find the perfect roof shingles to protect your home.",
+      "image": "/media/wordpress/6d0acbe3aa5e-e21ed39e-0acf-4cc9-b7f1-9245bc203cfb.jpg",
+      "booking": {
+        "eyebrow": "Limited time offer",
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!"
+      },
+      "bookingUrl": "/offers/3-year-financing/",
+      "bookingLabel": "Learn More"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH GAF Roof Company",
+        "href": "/roofing/gaf/"
+      },
+      {
+        "label": "Columbus, OH GAF Roof Shingle Types"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH GAF Roof Shingle Types"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Explore GAF shingles: durable Timberline HDZ, stylish Camelot II, impact-resistant AS II, and cool roof options like Grand Sequoia RS. Beauty meets performance!"
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "products",
+        "eyebrow": "Roofing materials",
+        "title": "Explore GAF Shingle Types",
+        "description": "Compare the shingle options described below and talk with Roof King about your project.",
+        "items": [
+          {
+            "title": "Timberline HDZ",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "The look people love, now with LayerLock Technology and the StainGuard Plus Algae Protection Limited Warranty"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Timberline UHDZ",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Timberline UHDZ (Ultra High Definition) shingles offer a combination of beauty and benefits that go beyond any other GAF shingle."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Timberline NS",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Stylish yet practically priced shingles provide value and performance with a natural shadow effect."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Timberline AS II",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Timberline AS II Shingles with UL 2218 Class 4 impact resistance give your roof a fighting chance in hail-prone areas1 and help "
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "protect it against wind and blue-green algae too."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Timberline HDZ RS+",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Timberline HDZ RS+ Shingles meet the Green Building Standards Code of Los Angeles County for residential buildings"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Timberline HDZ RS",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Timberline HDZ RS shingles can be used to comply with 2022 Title 24, Part 6 Cool Roof Requirements of the California Code of Regulations and are rated by the Cool Roof Rating Council (CRRC)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Camelot II",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "An artisan-crafted slate-like shape and custom palette conjure the romance of European architecture."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Woodland",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "The stylish look of hand-cut European shingles with 21st century style at an incredibly affordable price."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Grand Canyon",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Artisan-crafted shapes combined with oversized tabs result in a sophisticated beauty unmatched by typical shingles."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Grand Sequoia",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Artisan-crafted shapes combined with oversized tabs result in a sophisticated beauty unmatched by typical shingles."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Grand Sequoia RS",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "The cool roof you need with the distinctive style you crave."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Grand Sequoia AS",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "The look of rugged wood shakes with the protection of UL 2218 Class 4 impact resistance."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Royal Sovereign",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Beautiful. Reliable. Affordable. Simple, timeless beauty at a price you can afford. When the value is everything, living the dream has never looked so good."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "GAF Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  },
+  "/roofing/gaf/master-elite/": {
+    "sourceFile": "src/content/pages/roofing/gaf/master-elite/index.md",
+    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "hero": {
+      "eyebrow": "Roof King",
+      "title": "Columbus, OH GAF Master Elite Roofer",
+      "description": "Choose a GAF Master Elite Roofer in Columbus, OH, for expert roof repair, installation, & Lifetime Warranty shingles. Trust GAF-certified quality & reliability!",
+      "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+      "booking": {
+        "eyebrow": "Next step",
+        "title": "Plan your project with Roof King",
+        "description": "Talk with our team about timing, products, and the best path for your home."
+      },
+      "bookingUrl": "/contact-us/",
+      "bookingLabel": "Get A Free Quote"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Roofing Company",
+        "href": "/roofing/"
+      },
+      {
+        "label": "Columbus, OH GAF Roof Company",
+        "href": "/roofing/gaf/"
+      },
+      {
+        "label": "Columbus, OH GAF Master Elite Roofer"
+      }
+    ],
+    "sections": [
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "role": "eyebrow",
+                "children": [
+                  {
+                    "text": "Exterior Services"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "h2",
+                "children": [
+                  {
+                    "text": "Columbus, OH GAF Master Elite Roofer"
+                  }
+                ]
+              },
+              {
+                "text": "\n        "
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Choose a GAF Master Elite Roofer in Columbus, OH, for expert roof repair, installation, & Lifetime Warranty shingles. Trust GAF-certified quality & reliability!"
+                  }
+                ]
+              },
+              {
+                "text": "\n      "
+              }
+            ]
+          },
+          {
+            "text": "\n      \n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "content",
+        "variant": "prose",
+        "body": [
+          {
+            "text": "\n      "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Why Choose A GAF Master Elite Roofer?"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Specializing in "
+              },
+              {
+                "tag": "a",
+                "href": "/service-areas/",
+                "children": [
+                  {
+                    "text": "roof related services in Columbus, Ohio"
+                  }
+                ]
+              },
+              {
+                "text": ". We have been continually trained by GAF Materials Corporation in the latest roofing techniques, installation, product knowledge, and awareness. If you need roof repair or a new roof, is the roofing contractor of choice due to our experience and our use of weather rated products with Lifetime Warranties."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Below we have detailed all the product and warranty information needed to research the GAF Roof system and its unparalleled reliability. There is a reason they are the #1 selling shingle in North America."
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Established Reputation"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " – Only 2% of all roofing contractors have qualified as Master Elite"
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Properly Licensed "
+                      }
+                    ]
+                  },
+                  {
+                    "text": "– All GAF-certified contractors possess the credentials necessary to install or repair roofs in the United States"
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Legitimate Insurance"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " – Adequately insured for your protection. We must also carry full insurance policies, to protect ourselves and homeowners in case something goes wrong on a job."
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "text": "Commitment to Ongoing Training"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " – The roofing industry is always changing, with new products, new technologies, and new techniques and best practices. GAF certification requires that roofing contractors commit to on going training."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "GAF LIFETIME SHINGLES"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "The longevity of your roof system depends greatly on roofing materials of the construction. So if you seek the most efficient roofing solution, ask certified specialists from Roof King & Restoration for professional help. We specialize in residential roofing to assist property owners with their roof installation, repair, and replacement needs."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "With so many options to choose from these days, picking the right color shingles for your homes’ roof can be a challenge. Roof King & Restoration is a proud certified partner with GAF, one of the largest residential shingle manufacturers. We believe in "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/gaf/",
+                    "children": [
+                      {
+                        "text": "GAF’s products"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and the warranty they offer."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "strong",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "GAF Roof System"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "A roof replacement is an investment that you shouldn’t hesitate on. Since your roof protects your interior the most, you shouldn’t pick anything but the best as a replacement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "strong",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "New HDZ Shingle"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "The new Timberline HDZ Shingles are compatible with traditional Timberline HD Shingles for the same look and feel homeowners and contractors rely on for beauty and endurance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "tag": "strong",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "7 Key Danger Signs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Don’t get caught with sudden, costly repairs. Keep a close eye on your roof and find out how to spot problems, including these 7 key danger signs – before they severely impact your wallet"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Look For:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": "Rook Leaks"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": ": "
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "After a strong storm or wind-driven rain, take a look in the attic for signs of leaking. It could indicate damaged shingles, inadequate underlayment or deteriorated flashing."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "children": [
+                          {
+                            "tag": "span",
+                            "children": [
+                              {
+                                "text": "Stains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": ": Stains, or worse, mold, can be caused by leaks from outside the house or moisture trapped inside."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": "Blistering/Peeling Paint"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": ": Moisture trapped in the house due to poor ventilation can cause exterior paint to peel and blister."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "children": [
+                          {
+                            "tag": "span",
+                            "children": [
+                              {
+                                "text": "Exterior Decay"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": ": Excess moisture can also contribute to decay."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "children": [
+                          {
+                            "tag": "span",
+                            "children": [
+                              {
+                                "text": "Missing, Cracked,  and Curling Shingles"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": ": Dry, cracked, or easily broken shingles have reached the end of their useful life, and it is time to invest in a new roof."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "children": [
+                          {
+                            "tag": "span",
+                            "children": [
+                              {
+                                "text": "Excessive Energy Costs"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": ": Inadequate ventilation can possibly drive up your household cooling costs by trapping hot air in the attic. Attic moisture can also drip into your insulation, reducing its effectiveness."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "children": [
+                          {
+                            "tag": "span",
+                            "children": [
+                              {
+                                "text": "Dark, Dirty Areas on the Roof"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "children": [
+                          {
+                            "text": ": Vegetation, fungus, mold, or algae growth can cause dark stains on your shingles. That does not necessarily mean you need a new roof, but if you do choose to replace your shingles, ask for StainGuard protection available on many GAF Shingles"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "tag": "strong",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "GAF Virtual Home Remodeler"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "em",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "Choose the Right Shingles!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Homeowners face a number of challenges when remodeling their home. One of the most common problems they encounter is "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/gaf/types/",
+                    "children": [
+                      {
+                        "text": "choosing the material that will complement their home’s architectural style"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". If you’ve considered upgrading your roof but have found yourself overwhelmed with the options, you can turn to GAF s Virtual Home Remodeler. Whether you have a traditional or contemporary design, youre sure to find the best GAF roofing options from their wide selection of shingle types and colors. You can even get a sneak peek of your new roof before installing it using GAFs revolutionary app."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "tag": "strong",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "GAF Shingle Roof Warranty"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "em",
+                "children": [
+                  {
+                    "tag": "span",
+                    "children": [
+                      {
+                        "text": "We Protect What Matters Most"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "When you invest in a new roof, you expect that roof to last. But sometimes there are issues that have arisen during the manufacturing or installation process that are not discovered until after your roof has been on your home for a while. Understanding the different warranty options available to you before you purchase your new roof is vital."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "cards": []
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Certified products",
+        "title": "Trusted materials for a stronger exterior",
+        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
+        "items": [
+          {
+            "src": "/media/wordpress/d93df4e15198-variform.png",
+            "alt": "Variform"
+          },
+          {
+            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+            "alt": "LP SmartSide"
+          },
+          {
+            "src": "/media/wordpress/509654d4f5d1-trex.png",
+            "alt": "Trex"
+          },
+          {
+            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+            "alt": "James Hardie"
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "GAF Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Featured Projects",
+            "value": "featured-projects"
+          },
+          {
+            "label": "Roofing",
+            "value": "roofing"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+            "alt": "Completed Ohio roof replacement",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+            "alt": "Finished exterior remodeling project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          },
+          {
+            "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+            "alt": "Completed residential roofing project",
+            "tags": [
+              "roofing",
+              "featured-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Reliable roofing in Columbus, OH",
+        "description": "Roof King supports homeowners in Columbus, OH with roofing projects, responsive scheduling, certified exterior products, and crews serving communities across Ohio.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
+  }
+}

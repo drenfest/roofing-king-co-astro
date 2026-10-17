@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:36:46.066Z",
+  "generatedAt": "2026-10-17T18:51:14.713Z",
   "scope": "All 215 preserved source records examined; page-by-page visual approval is still pending. No live crawl, URL deletion, redirect, navigation restructuring or canonical change performed.",
   "totalRoutes": 215,
   "canonicalTargets": 202,
@@ -569,8 +569,8 @@
       "id": "PageHero",
       "name": "PageHero",
       "selector": ".rk-home-hero",
-      "state": "adapt",
-      "from": "HomeHero.astro",
+      "state": "reuse",
+      "from": "PageHero.astro",
       "engine": "Astro",
       "props": "eyebrow, h1, copy, image, CTA card, variant",
       "reason": "Generalize the homepage hero rather than importing home.json into every page. Put the one H1 inside the hero.",
@@ -791,8 +791,8 @@
       "id": "TrustStrip",
       "name": "TrustStrip",
       "selector": ".rk-home-badges",
-      "state": "adapt",
-      "from": "HomeTrust.astro",
+      "state": "reuse",
+      "from": "TrustStrip.astro",
       "engine": "Astro",
       "props": "certifications, rating source, rating, review count",
       "reason": "Split certifications/review summary from the brand strip; use one verified data source.",
@@ -997,8 +997,8 @@
       "id": "Breadcrumbs",
       "name": "Breadcrumbs",
       "selector": ".rk-breadcrumbs,nav[aria-label=\"Breadcrumb\"]",
-      "state": "new",
-      "from": "WordPress roofkingco/breadcrumbs block",
+      "state": "reuse",
+      "from": "Breadcrumbs.astro",
       "engine": "Astro",
       "props": "ordered explicit label/URL entries",
       "reason": "Preserve hierarchy without deriving public URLs from component folders.",
@@ -1334,8 +1334,8 @@
       "id": "BrandStrip",
       "name": "BrandStrip",
       "selector": ".rk-block-trusted-brands",
-      "state": "adapt",
-      "from": "HomeTrust.astro",
+      "state": "reuse",
+      "from": "BrandStrip.astro",
       "engine": "Astro",
       "props": "heading, copy, brandSet, logo assets",
       "reason": "Select relevant roofing/siding/deck manufacturers; do not repeat an unrelated brand set everywhere.",
@@ -1521,8 +1521,8 @@
       "id": "ContentSections",
       "name": "ContentSections / SplitSection",
       "selector": ".rk-page-copy-section,.rk-page-intro-section,.rk-page-feature-section",
-      "state": "new",
-      "from": "Repeated rk-page sections in page bodies",
+      "state": "reuse",
+      "from": "ContentSection.astro + RichContent.astro",
       "engine": "Astro",
       "props": "typed rich-text blocks, headings, lists, image, alignment",
       "reason": "Reuse spacing and layout while retaining the full page-specific body. Avoid a single untyped raw-HTML mega-component.",
@@ -1762,8 +1762,8 @@
       "id": "ServiceGrid",
       "name": "ServiceGrid / ServiceCard",
       "selector": ".rk-page-service-grid,.rk-home-services-grid",
-      "state": "adapt",
-      "from": "HomeServices.astro",
+      "state": "reuse",
+      "from": "ContentSection.astro services variant",
       "engine": "Astro",
       "props": "explicit service links, title, excerpt, image/icon",
       "reason": "Hub navigation must point to preserved service URLs. Secondary services can use this instead of crowding the primary navigation.",
@@ -2262,8 +2262,8 @@
       "id": "CoverageSection",
       "name": "CoverageSection",
       "selector": ".rk-coverage-map-block",
-      "state": "adapt",
-      "from": "HomeWorkmanship.astro",
+      "state": "reuse",
+      "from": "CoverageSection.astro",
       "engine": "Astro",
       "props": "heading, map/media, covered locations, contextual CTA",
       "reason": "Split the coverage section from workmanship/process. A static map needs no hydrated JavaScript.",
@@ -2670,8 +2670,8 @@
       "id": "QuoteCTA",
       "name": "QuoteCTA / QuoteForm",
       "selector": ".rk-page-final-cta,.rk-home-final-cta,.rk-migration-contact",
-      "state": "adapt",
-      "from": "QuoteForm.svelte, QuoteExperience.svelte",
+      "state": "reuse",
+      "from": "QuoteSection.astro + QuoteExperience.svelte",
       "engine": "Astro CTA + Svelte modal/form",
       "props": "service context, return page, public phone, booking URL, disabled delivery state",
       "reason": "One consistent lead experience. Zapier delivery is deferred; Jared Lane is the confirmed lead owner. Do not enable submission yet.",
@@ -2944,8 +2944,8 @@
       "id": "FAQSection",
       "name": "FAQSection",
       "selector": ".rk-page-faq-section,.rk-home-faq-stack,details",
-      "state": "adapt",
-      "from": "HomeConfidence.astro native details pattern",
+      "state": "reuse",
+      "from": "FAQSection.astro",
       "engine": "Astro native details",
       "props": "question/answer groups, heading, optional anchor IDs",
       "reason": "No Svelte needed for accessible expansion. Answers must match each service; do not generate unsupported claims.",
@@ -3440,6 +3440,21 @@
         "/warranty/"
       ],
       "observedCanonicalCount": 0
+    },
+    {
+      "id": "ProductGrid",
+      "name": "ProductGrid",
+      "selector": null,
+      "state": "reuse",
+      "from": "ProductGrid.astro",
+      "engine": "Astro",
+      "props": "section heading and separate product title/rich-text records",
+      "reason": "Introduced by the GAF shingle page. Retain every product description in a scan-friendly card grid.",
+      "observedRoutes": [],
+      "recommendedRoutes": [
+        "/roofing/gaf/types/"
+      ],
+      "observedCanonicalCount": 0
     }
   ],
   "batches": [
@@ -3915,22 +3930,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -3950,7 +3965,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -3965,7 +3980,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -3975,7 +3990,7 @@
         {
           "id": "FAQSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -4082,17 +4097,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -4102,12 +4117,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -4117,7 +4132,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -4127,7 +4142,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -4236,17 +4251,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -4256,12 +4271,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -4271,7 +4286,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -4281,7 +4296,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -4340,12 +4355,12 @@
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -4475,22 +4490,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -4500,22 +4515,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -4639,22 +4654,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -4664,22 +4679,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -4831,37 +4846,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -4881,7 +4896,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -5007,22 +5022,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -5032,22 +5047,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -5171,22 +5186,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -5196,22 +5211,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -5324,7 +5339,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -5376,7 +5391,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5426,7 +5441,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5553,12 +5568,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -5568,7 +5583,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -5620,7 +5635,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -5672,7 +5687,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5722,7 +5737,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5772,7 +5787,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -5824,7 +5839,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -5876,7 +5891,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5926,7 +5941,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -5976,7 +5991,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -6026,7 +6041,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -6076,7 +6091,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -6126,7 +6141,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6178,7 +6193,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -6228,7 +6243,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6280,7 +6295,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6406,12 +6421,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -6421,7 +6436,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ArchiveListing",
@@ -6521,12 +6536,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -6536,7 +6551,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6629,12 +6644,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -6644,7 +6659,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6745,12 +6760,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -6760,7 +6775,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -6869,12 +6884,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -6884,7 +6899,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7045,12 +7060,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7060,7 +7075,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7183,12 +7198,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7198,7 +7213,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7321,12 +7336,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7336,7 +7351,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7451,12 +7466,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7466,7 +7481,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7569,12 +7584,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7584,7 +7599,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7675,12 +7690,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7690,7 +7705,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7785,12 +7800,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7800,7 +7815,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -7899,12 +7914,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -7914,7 +7929,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8017,12 +8032,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8032,7 +8047,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8143,12 +8158,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8158,7 +8173,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8249,12 +8264,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8264,7 +8279,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8371,12 +8386,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8386,7 +8401,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8477,12 +8492,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8492,7 +8507,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8588,12 +8603,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8603,7 +8618,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8699,12 +8714,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8714,7 +8729,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8810,12 +8825,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8825,7 +8840,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -8953,12 +8968,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -8968,7 +8983,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9124,12 +9139,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9139,7 +9154,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9299,12 +9314,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9314,7 +9329,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9414,12 +9429,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9429,7 +9444,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9537,12 +9552,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9552,7 +9567,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9650,12 +9665,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9665,7 +9680,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9822,12 +9837,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9837,7 +9852,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -9934,12 +9949,12 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -9949,7 +9964,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -10050,17 +10065,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -10070,12 +10085,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10085,7 +10100,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -10095,7 +10110,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -10220,22 +10235,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10245,22 +10260,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -10388,22 +10403,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10413,22 +10428,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -10576,22 +10591,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10601,17 +10616,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -10626,7 +10641,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -10774,22 +10789,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10799,17 +10814,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -10824,7 +10839,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -10968,22 +10983,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -10993,17 +11008,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -11018,7 +11033,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -11148,22 +11163,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -11173,22 +11188,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -11336,22 +11351,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -11361,17 +11376,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -11386,7 +11401,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -11524,22 +11539,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -11549,17 +11564,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -11569,7 +11584,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -11719,22 +11734,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -11744,17 +11759,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -11769,7 +11784,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -11897,22 +11912,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -11922,22 +11937,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -12085,22 +12100,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -12110,17 +12125,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -12135,7 +12150,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -12283,22 +12298,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -12308,17 +12323,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -12333,7 +12348,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -12481,17 +12496,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -12501,12 +12516,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -12526,7 +12541,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -12536,7 +12551,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -12699,37 +12714,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -12754,7 +12769,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -12896,32 +12911,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -12941,7 +12956,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13075,32 +13090,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -13115,7 +13130,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13249,32 +13264,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -13289,7 +13304,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13423,32 +13438,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -13463,7 +13478,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13603,32 +13618,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -13648,7 +13663,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13745,17 +13760,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -13765,17 +13780,17 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -13876,17 +13891,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -13896,17 +13911,17 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14047,17 +14062,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -14067,12 +14082,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -14087,7 +14102,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14097,7 +14112,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -14196,17 +14211,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -14216,12 +14231,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -14231,7 +14246,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14241,7 +14256,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -14366,22 +14381,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -14391,22 +14406,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14554,22 +14569,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -14579,17 +14594,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -14604,7 +14619,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14756,22 +14771,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -14781,17 +14796,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -14806,7 +14821,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -14950,22 +14965,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -14975,17 +14990,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -15000,7 +15015,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -15150,22 +15165,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -15175,17 +15190,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -15200,7 +15215,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -15247,12 +15262,12 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -15414,37 +15429,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -15464,7 +15479,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -15609,32 +15624,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -15654,7 +15669,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -15797,32 +15812,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -15842,7 +15857,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -15985,32 +16000,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -16030,7 +16045,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -16173,32 +16188,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -16218,7 +16233,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -16361,32 +16376,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -16406,7 +16421,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -16534,22 +16549,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -16559,22 +16574,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -16722,22 +16737,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -16747,17 +16762,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -16772,7 +16787,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -16924,22 +16939,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -16949,17 +16964,17 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -16974,7 +16989,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -17102,22 +17117,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -17127,22 +17142,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -17282,22 +17297,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -17307,22 +17322,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -17374,17 +17389,17 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -17502,27 +17517,27 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -17633,17 +17648,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -17653,17 +17668,17 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -17673,12 +17688,12 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -17758,17 +17773,17 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -17778,7 +17793,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -17846,17 +17861,17 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -18038,22 +18053,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -18063,22 +18078,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -18157,22 +18172,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -18182,12 +18197,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -18287,12 +18302,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -18302,12 +18317,12 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BeforeAfter",
@@ -18317,7 +18332,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -18398,22 +18413,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -18423,12 +18438,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -18601,22 +18616,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -18626,22 +18641,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -18803,37 +18818,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -18858,7 +18873,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -18994,32 +19009,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -19034,7 +19049,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -19174,32 +19189,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -19219,7 +19234,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -19391,22 +19406,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -19416,22 +19431,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -19559,22 +19574,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -19584,22 +19599,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -19678,22 +19693,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -19703,12 +19718,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -19839,32 +19854,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -19879,7 +19894,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20003,22 +20018,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -20028,22 +20043,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20122,22 +20137,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -20147,12 +20162,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -20329,22 +20344,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -20354,22 +20369,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20493,22 +20508,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -20518,22 +20533,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20661,22 +20676,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -20686,22 +20701,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20838,12 +20853,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -20853,12 +20868,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -20868,7 +20883,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -20961,17 +20976,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21072,17 +21087,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21183,17 +21198,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21286,17 +21301,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21393,17 +21408,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21500,17 +21515,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21607,17 +21622,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21714,17 +21729,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21825,17 +21840,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -21940,17 +21955,17 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -22056,17 +22071,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -22076,12 +22091,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22091,7 +22106,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -22101,7 +22116,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -22202,17 +22217,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -22222,12 +22237,12 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22237,7 +22252,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -22247,7 +22262,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -22347,12 +22362,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22362,12 +22377,12 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BeforeAfter",
@@ -22377,7 +22392,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -22477,7 +22492,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22487,7 +22502,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -22588,7 +22603,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22598,7 +22613,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -22699,7 +22714,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22709,7 +22724,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -22810,7 +22825,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22820,7 +22835,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -22921,7 +22936,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -22931,7 +22946,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23032,7 +23047,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23042,7 +23057,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23143,7 +23158,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23153,7 +23168,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23254,7 +23269,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23264,7 +23279,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23365,7 +23380,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23375,7 +23390,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23476,7 +23491,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23486,7 +23501,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23599,7 +23614,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23609,7 +23624,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23718,7 +23733,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23728,7 +23743,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23841,7 +23856,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23851,7 +23866,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -23964,7 +23979,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -23974,7 +23989,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -24091,7 +24106,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -24101,7 +24116,7 @@
         {
           "id": "QuoteCTA",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "RelatedResources",
@@ -24183,22 +24198,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -24208,12 +24223,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -24269,12 +24284,12 @@
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -24284,12 +24299,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -24347,12 +24362,12 @@
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -24362,12 +24377,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -24423,12 +24438,12 @@
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -24438,12 +24453,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -24581,12 +24596,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -24596,22 +24611,22 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -24692,7 +24707,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -24786,7 +24801,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -24880,7 +24895,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -24975,7 +24990,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25069,7 +25084,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25164,7 +25179,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25258,7 +25273,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25353,7 +25368,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25448,7 +25463,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25542,7 +25557,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -25614,12 +25629,12 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RoofrEstimator",
@@ -25797,22 +25812,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -25822,22 +25837,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26009,22 +26024,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -26034,22 +26049,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26105,12 +26120,12 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "RoofrEstimator",
@@ -26284,22 +26299,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -26309,22 +26324,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26494,37 +26509,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -26549,7 +26564,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26562,7 +26577,7 @@
       ],
       "note": "Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.",
       "bodyHash": "012fbe609430ff26a179394270ad7a0ef9457a79ad2894cc166cb556a2f2e0ba",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Primary candidate",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -26685,32 +26700,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -26725,7 +26740,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26736,7 +26751,7 @@
       "issues": [],
       "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
       "bodyHash": "c63129461283744e6ebf4584a9754f90c221cf3a17218989e55b9d50b7a16e80",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -26871,32 +26886,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -26911,7 +26926,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -26924,7 +26939,7 @@
       ],
       "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
       "bodyHash": "922e617705962e6a9d156d53543ec4a610d3af569edd04aeeca0a0d76bd21d6a",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27091,32 +27106,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -27131,18 +27146,23 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
           "observed": true,
           "action": "adapt"
+        },
+        {
+          "id": "ProductGrid",
+          "observed": false,
+          "action": "reuse"
         }
       ],
       "issues": [],
       "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
       "bodyHash": "853ec2060893e40193ba0729ec344eba06a01b37c949e23c06efc6ffb41fd70c",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27265,32 +27285,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -27305,7 +27325,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -27316,7 +27336,7 @@
       "issues": [],
       "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
       "bodyHash": "5012d652b0592bcde8cd162ae00ae56870d68aad21dee265c3a374a6007ebf75",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27439,32 +27459,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -27479,7 +27499,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -27490,7 +27510,7 @@
       "issues": [],
       "note": "Keep leak/damage diagnosis, repair scenarios and repair-versus-replacement guidance; do not inherit replacement copy wholesale.",
       "bodyHash": "6801e45110ddabcdbc740c401fa7d590d97aa3cd9b5c32e28ca05d08f145ca74",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Primary candidate",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27671,32 +27691,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -27716,7 +27736,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -27726,13 +27746,13 @@
         {
           "id": "FAQSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
       "note": "Keep repair-versus-replacement guidance, warning signs, the replacement process, cost discussion and FAQ as distinct editable sections.",
       "bodyHash": "1d8f3aa6df5670e4a72f6df90bd3be6dc4e8362ab2774834fef08ab720931da8",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Primary candidate",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27855,32 +27875,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -27895,7 +27915,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -27906,7 +27926,7 @@
       "issues": [],
       "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
       "bodyHash": "7de3b02f34daa282a61a0c45a7eae41e6883b1adcee6363e82f2856f99413854",
-      "nativeStatus": "Imported / reconstructed page",
+      "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     },
@@ -27997,17 +28017,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -28017,7 +28037,7 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -28027,7 +28047,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -28037,7 +28057,7 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "LocationDirectory",
@@ -28201,37 +28221,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -28256,7 +28276,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -28398,32 +28418,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -28443,7 +28463,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -28583,32 +28603,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -28628,7 +28648,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -28687,17 +28707,17 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -28707,7 +28727,7 @@
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -28842,22 +28862,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -28867,22 +28887,22 @@
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29052,37 +29072,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -29107,7 +29127,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29243,32 +29263,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -29283,7 +29303,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29417,32 +29437,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -29457,7 +29477,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29591,32 +29611,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -29631,7 +29651,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29765,32 +29785,32 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "OfferGrid",
@@ -29805,7 +29825,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -29877,22 +29897,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FAQSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -29973,12 +29993,12 @@
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -29988,12 +30008,12 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -30067,22 +30087,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -30092,12 +30112,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -30164,17 +30184,17 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "SpecializedContent",
@@ -30255,22 +30275,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -30280,12 +30300,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -30444,37 +30464,37 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "FeatureGrid",
@@ -30499,7 +30519,7 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -30580,22 +30600,22 @@
         {
           "id": "PageHero",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -30605,12 +30625,12 @@
         {
           "id": "CoverageSection",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -30735,22 +30755,22 @@
         {
           "id": "PageHero",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Breadcrumbs",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ContentSections",
           "observed": true,
-          "action": "new"
+          "action": "reuse"
         },
         {
           "id": "ServiceGrid",
           "observed": false,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "ProjectGallery",
@@ -30760,22 +30780,22 @@
         {
           "id": "CoverageSection",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "QuoteCTA",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "TrustStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "BrandStrip",
           "observed": true,
-          "action": "adapt"
+          "action": "reuse"
         },
         {
           "id": "Testimonials",
@@ -30830,7 +30850,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -30880,7 +30900,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -30930,7 +30950,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -30980,7 +31000,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -31030,7 +31050,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31082,7 +31102,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31134,7 +31154,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31186,7 +31206,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31238,7 +31258,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31290,7 +31310,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],
@@ -31340,7 +31360,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31392,7 +31412,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31444,7 +31464,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31496,7 +31516,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31548,7 +31568,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31600,7 +31620,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31652,7 +31672,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31704,7 +31724,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31756,7 +31776,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [
@@ -31808,7 +31828,7 @@
         {
           "id": "Breadcrumbs",
           "observed": false,
-          "action": "new"
+          "action": "reuse"
         }
       ],
       "issues": [],

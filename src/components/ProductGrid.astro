@@ -1,0 +1,8 @@
+---
+import type { HeadingData, RichNode } from '../data/section-types';
+import SectionHeading from './SectionHeading.astro';
+import RichContent from './RichContent.astro';
+interface Props { section:HeadingData & {items:{title:string;body:RichNode[]}[]}; }
+const { section } = Astro.props;
+---
+<section class="rk-home-section rk-service-products" data-component="ProductGrid"><div class="rk-section-inner"><SectionHeading {...section}/><div class="rk-service-product-grid">{section.items.map(product=><article class="rk-service-card"><h3>{product.title}</h3><RichContent nodes={product.body}/></article>)}</div></div></section>

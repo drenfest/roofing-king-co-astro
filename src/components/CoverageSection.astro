@@ -1,0 +1,10 @@
+---
+import HomeImage from './HomeImage.astro';
+import type { HeadingData, ImageData } from '../data/section-types';
+interface Props { coverage:HeadingData & {image:ImageData}; }
+const { coverage } = Astro.props;
+---
+<section class="rk-home-section rk-home-areas rk-coverage-map-block"><div class="rk-section-inner rk-coverage-map-inner">
+  <div class="rk-coverage-map-copy"><p class="rk-home-eyebrow">{coverage.eyebrow}</p><h2>{coverage.title}</h2><p>{coverage.description}</p><div class="rk-home-action-row"><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get A Free Quote</a><a class="rk-button rk-button-outline" href="/service-areas/">View Service Areas</a></div></div>
+  <a class="rk-home-map rk-coverage-map-media" href="/past-projects/"><HomeImage {...coverage.image}/></a>
+</div></section>

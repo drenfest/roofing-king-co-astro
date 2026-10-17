@@ -1,0 +1,31 @@
+/* Native service sections share the WordPress design tokens and homepage proof sections. */
+.rk-native-page-hero .rk-home-hero-copy h1 { font-size:clamp(2.25rem,4.2vw,4.4rem); }
+.rk-native-breadcrumbs { padding-block:1.2rem; }
+.rk-native-breadcrumbs ol { display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;margin:0;padding:0;font-size:.92rem; }
+.rk-native-breadcrumbs li + li::before { content:'/';margin-right:.6rem;color:var(--rk-gold,#b99854); }
+.rk-service-content { padding-block:clamp(3rem,5vw,5rem); }
+.rk-service-content:nth-of-type(even) { background:#f7f5ef; }
+.rk-service-prose { line-height:1.8; }
+.rk-service-prose h2,.rk-service-faq h2 { font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.18;margin-bottom:1.2rem; }
+.rk-service-prose h3 { font-size:1.5rem;margin-top:2rem; }
+.rk-service-prose p,.rk-service-card p { margin:0 0 1.1rem; }
+.rk-service-prose a,.rk-service-card p a,.rk-service-faq a { text-decoration:underline;text-underline-offset:3px; }
+.rk-service-content-prose .rk-service-prose { max-width:920px;margin-inline:auto; }
+.rk-service-content-services .rk-service-prose { max-width:850px;margin-bottom:2.5rem; }
+.rk-service-cards { display:grid;gap:1.25rem; }
+.rk-service-cards-services { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.rk-service-card { display:block;padding:2rem;background:white;color:inherit;border:1px solid #dfd8c8;border-top:3px solid #ba9751;border-radius:6px;text-decoration:none; }
+a.rk-service-card:hover { box-shadow:0 10px 25px #10243414;transform:translateY(-2px); }
+.rk-service-card h3 { font-size:1.35rem;margin:0 0 1rem; }
+.rk-service-card strong { color:#785d27; }
+.rk-service-card-quote { display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.2rem;background:#112a3b;color:white; }
+.rk-service-cards-services .rk-service-card-quote { grid-column:1;grid-row:2; }
+.rk-service-content-features > .rk-section-inner { display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(2rem,5vw,5rem);align-items:start; }
+.rk-service-faq-list { max-width:1000px;margin:2rem auto 0; }
+.rk-service-product-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:1.25rem;margin-top:2.5rem; }
+.rk-service-faq details { border-bottom:1px solid #cfc7b6;padding:1.25rem 0; }
+.rk-service-faq summary { cursor:pointer;font-weight:700;font-size:1.16rem; }
+.rk-service-faq details > div { padding:1rem 0 0;line-height:1.75; }
+.rk-native-service :is(a,summary,input):focus-visible { outline:3px solid #ac8238;outline-offset:4px; }
+@media(max-width:900px){.rk-service-cards-services{grid-template-columns:repeat(2,minmax(0,1fr));}.rk-service-cards-services .rk-service-card-quote{grid-column:auto;grid-row:auto;}.rk-service-content-features > .rk-section-inner{grid-template-columns:1fr;}}
+@media(max-width:600px){.rk-service-cards-services{grid-template-columns:1fr;}.rk-service-card{padding:1.5rem;}.rk-native-page-hero .rk-home-hero-copy h1{font-size:2.15rem;}}

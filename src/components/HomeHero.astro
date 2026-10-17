@@ -1,15 +1,5 @@
 ---
 import { hero } from '../data/home.json';
-import HomeImage from './HomeImage.astro';
+import PageHero from './PageHero.astro';
 ---
-<section class="rk-home-hero">
-  <HomeImage src={hero.image} alt="" class="rk-hero-background" sizes="100vw" eager />
-  <div class="rk-section-inner rk-home-hero-grid">
-    <div class="rk-home-hero-copy"><p class="rk-home-eyebrow">{hero.eyebrow}</p><h1>{hero.title}</h1><p>{hero.description}</p></div>
-    <aside class="rk-home-hero-card" aria-label="Schedule an inspection">
-      <p class="rk-home-card-kicker">{hero.booking.eyebrow || 'Roof King inspection'}</p>
-      <h2>{hero.booking.title}</h2><p>{hero.booking.description}</p>
-      <a class="rk-button rk-button-primary" href={hero.bookingUrl} target="_blank" rel="noopener noreferrer">Book Inspection</a>
-    </aside>
-  </div>
-</section>
+<PageHero {hero} variant="home" />

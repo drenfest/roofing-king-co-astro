@@ -1,0 +1,12 @@
+---
+import HomeImage from './HomeImage.astro';
+import type { BrandSection } from '../data/section-types';
+interface Props { brands: BrandSection; }
+const { brands } = Astro.props;
+---
+<section class="rk-home-brands rk-block-trusted-brands" aria-label="Trusted brands">
+  <div class="rk-section-inner rk-brands-inner">
+    <div class="rk-brands-heading"><p class="rk-home-eyebrow">{brands.eyebrow}</p><h2>{brands.title}</h2><p>{brands.description}</p></div>
+    <div class="rk-home-brand-list">{brands.items.map(image => <figure class="rk-home-brand-mark"><span class="rk-shingle-bg" aria-hidden="true"></span><HomeImage {...image} sizes="180px" /></figure>)}</div>
+  </div>
+</section>
