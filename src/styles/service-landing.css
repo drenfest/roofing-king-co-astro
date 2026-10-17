@@ -87,15 +87,16 @@
 .rk-project-showcase figure{margin:0;min-width:0;}
 .rk-project-showcase img{width:100%;height:340px;object-fit:cover;display:block;border-radius:12px 0 12px 0;}
 .rk-project-showcase figcaption{padding:.9rem 0;font-size:.94rem;color:#546153;line-height:1.5;max-width:54ch;}
-.rk-landing-credentials{background:var(--landing-forest);color:#fffaf0;}
-.rk-service-landing .rk-landing-credentials .rk-home-eyebrow{color:#ffb15d;}
+.rk-landing-credentials{position:relative;background:#f0eee5;color:#193b2c;clip-path:polygon(0 2.5rem,100% 0,100% calc(100% - 2.5rem),0 100%);padding-block:clamp(5rem,8vw,8rem);}
+.rk-service-landing .rk-landing-credentials h2{color:#193b2c;}
+.rk-service-landing .rk-landing-credentials .rk-home-eyebrow{color:#a54308;}
 .rk-credentials-heading{text-align:center;max-width:850px;margin-inline:auto;}
 .rk-credentials-heading h2{max-width:none;margin:0 0 1rem;font-size:clamp(1.8rem,3vw,2.7rem);}
-.rk-credentials-heading>p{color:#cbd9cf;max-width:55ch;margin:0 auto;font-size:1rem;}
-.rk-landing-credential-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin-block:2.5rem 1.75rem;}
-.rk-landing-credential-list article{display:flex;flex-direction:column;align-items:center;text-align:center;padding:2rem 1.6rem 1.5rem;background:#ffffff06;border:1px solid #ffffff24;border-radius:8px;}
+.rk-credentials-heading>p{color:#536457;max-width:65ch;margin:0 auto;font-size:1rem;}
+.rk-landing-credential-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin-block:2.5rem 0;}
+.rk-landing-credential-list article{display:flex;flex-direction:column;align-items:center;text-align:center;padding:2rem 1.6rem 1.5rem;background:linear-gradient(145deg,#214b38,#173b2b);border:0;border-top:4px solid #d26724;border-radius:0;clip-path:polygon(0 0,calc(100% - 1.25rem) 0,100% 1.25rem,100% 100%,1.25rem 100%,0 calc(100% - 1.25rem));}
 .rk-credential-symbol{display:flex;flex-direction:column;align-items:center;gap:.9rem;margin-bottom:1.15rem;}
-.rk-credential-emblem{display:grid;place-items:center;width:96px;height:96px;background:#fffdf8;border-radius:50%;}
+.rk-credential-emblem{display:grid;place-items:center;width:96px;height:96px;background:#fffdf8;border-radius:0;clip-path:var(--rk-cut-corner);}
 .rk-credential-symbol img{width:72px;height:72px;object-fit:contain;}
 .rk-credential-symbol svg{width:45px;height:45px;color:#b8541b;}
 .rk-credential-symbol span{font-size:.76rem;font-weight:650;letter-spacing:.04em;color:#e6b477;}
@@ -106,9 +107,6 @@
 .rk-credential-actions a:hover{text-decoration:underline;}
 .rk-credential-actions a:focus-visible{outline:2px solid #ffbd85;outline-offset:4px;}
 .rk-credential-actions svg{width:17px;height:17px;flex:none;}
-.rk-credential-note{display:flex;align-items:flex-start;justify-content:center;gap:.55rem;text-align:center;color:#b6c9bc;font-size:.76rem;max-width:85ch;margin:0 auto;}
-.rk-credential-note svg{width:16px;height:16px;flex:none;margin-top:.15rem;}
-.rk-credential-resources{text-align:center;margin-top:.6rem;font-size:.78rem;color:#d2dfd5;}
 .rk-service-landing .rk-landing-small{font-size:.86rem;line-height:1.6;}
 .rk-landing-credentials .rk-landing-small{color:#c2d2be;max-width:90ch;margin-bottom:0;}
 .rk-landing-material-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3rem;margin-top:2.5rem;}
@@ -171,3 +169,8 @@
 @media(max-width:420px){.rk-landing-process ol{grid-template-columns:1fr;gap:1.7rem;}.rk-landing-actions .rk-button{font-size:.84rem;}.rk-landing-heading>p:not(.rk-home-eyebrow){font-size:1.03rem;}}
 
 @media(max-width:760px){.rk-landing-credential-list{gap:1rem;margin-top:2rem;}.rk-landing-credential-list article{padding:1.5rem;}.rk-credential-symbol{margin-bottom:1rem;}}
+
+/* Echo the homepage’s angled media and clipped panel corners. */
+.rk-service-landing .rk-service-detail,.rk-service-landing .rk-budget-financing{border-radius:0;clip-path:polygon(0 0,calc(100% - 1.25rem) 0,100% 1.25rem,100% 100%,1.25rem 100%,0 calc(100% - 1.25rem));}
+.rk-service-landing .rk-material-photo,.rk-service-landing .rk-project-showcase img{border-radius:0;clip-path:polygon(0 0,calc(100% - 1.5rem) 0,100% 1.5rem,100% 100%,1.5rem 100%,0 calc(100% - 1.5rem));}
+@media(max-width:760px){.rk-landing-credentials{clip-path:polygon(0 1.25rem,100% 0,100% calc(100% - 1.25rem),0 100%);padding-block:4.5rem;}}

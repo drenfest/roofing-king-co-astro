@@ -235,12 +235,12 @@
     ]
   },
   "credentials": {
-    "eyebrow": "Roofing credentials and workmanship",
-    "title": "Certified. Accredited. Protected.",
+    "eyebrow": "Roofing credentials & workmanship",
+    "title": "Built right. Backed for the years ahead.",
     "items": [
       {
         "title": "GAF Master Elite®",
-        "description": "GAF Master Elite® certification provides access to enhanced manufacturer warranties when your roof system qualifies.",
+        "description": "Your new GAF roof can qualify for enhanced manufacturer warranties when installed as an eligible roof system by our Master Elite® team.",
         "label": "View our GAF profile",
         "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
         "mark": "Certified contractor",
@@ -248,15 +248,11 @@
           "src": "/media/wordpress/88f26d1d1f40-masterelite.png",
           "width": 250,
           "height": 258
-        },
-        "related": {
-          "label": "What Master Elite means",
-          "href": "/roofing/gaf/master-elite/"
         }
       },
       {
         "title": "BBB Accredited",
-        "description": "Roof King is BBB Accredited with an A+ business rating. Review our business details and customer feedback.",
+        "description": "Choose your roofer with confidence. Roof King is BBB Accredited with an A+ business rating and a public record of customer feedback.",
         "label": "Read our BBB profile",
         "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
         "mark": "A+ business rating",
@@ -268,14 +264,13 @@
       },
       {
         "title": "Workmanship coverage",
-        "description": "Five years of published coverage for installation workmanship, separate from your manufacturer’s product warranty.",
+        "description": "Your roof installation comes with five years of published workmanship coverage. Product warranties are separate; coverage and eligibility follow the written terms for your project.",
         "label": "Explore workmanship coverage",
         "href": "/offers/5-year-workmanship-warranty/",
         "mark": "5-year coverage"
       }
     ],
-    "note": "Warranty eligibility, coverage and conditions depend on the products installed and the written terms for your project.",
-    "description": "The credentials and workmanship coverage behind your Roof King installation."
+    "description": "Choose a roofing team with manufacturer certification, an established business record and written workmanship coverage."
   },
   "materials": {
     "eyebrow": "Roofing product choices",
