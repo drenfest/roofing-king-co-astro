@@ -2,10 +2,12 @@
 import type { CardSectionData } from '../data/section-types';
 import HomeImage from './HomeImage.astro';
 import SectionHeading from './SectionHeading.astro';
+import platforms from '../data/review-platforms.json';
 interface Props { kind: 'offers' | 'blogs' | 'reviews'; section: CardSectionData; }
 const { kind, section } = Astro.props;
 const action = { offers: 'View All Offers', blogs: 'Read All Blogs', reviews: 'Read All Reviews' }[kind];
 const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
+const platformLogo=(platform:string)=>platforms[platform as keyof typeof platforms];
 ---
 <section class={`rk-home-section rk-home-${kind}`}>
   <div class="rk-section-inner">
@@ -17,7 +19,9 @@ const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind]
         {(card.author || card.source) && <footer class="rk-review-attribution">
           {card.author && <span class="rk-review-author">{card.author}{card.excerpt && <small>Review excerpt</small>}</span>}
           {card.source && <a class="rk-review-source" href={card.source.url} target="_blank" rel="noopener noreferrer" aria-label={`Read ${card.author ? `${card.author}’s` : 'this'} review on ${card.source.platform} (opens in a new tab)`}>
-            <span>Read on <strong>{card.source.platform}</strong></span>
+            <span>Read on</span>
+            {platformLogo(card.source.platform) && <img class:list={['rk-review-source-logo',{'rk-review-source-wordmark':platformLogo(card.source.platform).wordmark}]} src={platformLogo(card.source.platform).src} width={platformLogo(card.source.platform).width} height={platformLogo(card.source.platform).height} alt={platformLogo(card.source.platform).wordmark?card.source.platform:''} loading="lazy"/>}
+            {!platformLogo(card.source.platform)?.wordmark && <strong>{card.source.platform}</strong>}
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-10 10M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5" /></svg>
           </a>}
         </footer>}

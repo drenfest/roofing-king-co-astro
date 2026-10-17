@@ -1586,18 +1586,31 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: .4rem;
   min-height: 44px;
   margin-left: auto;
   padding: .45rem .75rem;
   border: 1px solid #cbd8d1;
   border-radius: .5rem;
-  background: #eef4ef;
+  background: #fff;
   color: #173d2c;
   font-size: .78rem;
   line-height: 1.3;
   text-decoration: none;
   transition: background .15s, border-color .15s;
+}
+
+.rk-review-source .rk-review-source-logo {
+  display: block;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.rk-review-source .rk-review-source-wordmark {
+  width: 82px;
+  height: 24px;
 }
 
 .rk-review-source:hover {

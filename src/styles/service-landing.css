@@ -136,7 +136,7 @@
 .rk-service-landing .rk-home-final-cta{background:var(--landing-forest);color:#fffaf0;}
 .rk-service-landing .rk-landing-estimate .rk-home-eyebrow{color:#ffb15d;}
 .rk-landing-estimate .rk-quote-strip-inner{align-items:start;gap:clamp(2rem,5vw,5rem);}
-.rk-landing-estimate .rk-landing-heading{position:sticky;top:140px;}
+.rk-landing-estimate .rk-landing-heading{position:static;}
 .rk-landing-estimate-phone{display:block;color:#fffaf0;margin-block:1.7rem;font-size:1.1rem;}
 .rk-landing-estimate .rk-landing-heading>.rk-landing-small{font-size:.9rem;color:#d3dfcb;}
 .rk-landing-estimate .rk-quote-form{color:#162c20;background:#fffdfa;border:0;}
