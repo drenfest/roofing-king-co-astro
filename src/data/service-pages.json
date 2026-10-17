@@ -1,7 +1,7 @@
 {
   "/roofing/": {
     "sourceFile": "src/content/pages/roofing/index.md",
-    "contentReview": "Imported business claims need editorial verification; delivery remains disabled.",
+    "contentReview": "Editorial landing in roofing-landing.json renders through ServiceLanding.astro. These earlier sections remain migration evidence; the brandIds selection is still live. See migration/roofing-landing-notes.md.",
     "hero": {
       "eyebrow": "Roof King",
       "title": "Columbus, OH Roofing Company",

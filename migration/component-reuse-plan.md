@@ -467,7 +467,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 **Columbus, OH Roofing Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], ServiceGrid [observed], FeatureGrid [observed], OfferGrid [observed], ProjectGallery [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed].
-- Page-specific work: Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.
+- Page-specific work: Editorial ServiceLanding is implemented from the client wireframe: LandingHero, ServicePaths, ProjectShowcase, ProcessSteps, linked credentials/materials, native FAQ and the existing disabled quote experience. See roofing-landing-notes.md.
 - Source evidence: 26 headings; 492 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
 - Review: Migration H1 sits outside hero; native PageHero should own the visible H1.
 

@@ -1,0 +1,275 @@
+{
+  "hero": {
+    "eyebrow": "Roof King & Restoration · Built around your home",
+    "title": "Columbus, OH Roofing Company",
+    "description": "A dependable roof starts with a clear understanding of what it needs. Meet the Columbus roofing company that helps you make sense of damage, compare your options and plan the work with confidence.",
+    "image": {
+      "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+      "alt": "Overhead view of a gray shingle roof with multiple ridges and valleys"
+    },
+    "caption": "A closer look at the details above you.",
+    "action": "Plan my roofing estimate"
+  },
+  "services": {
+    "eyebrow": "A roof. A plan. The right team.",
+    "title": "What brought you here?",
+    "description": "A small leak and a worn-out roof call for different conversations. Start with what you’re noticing; we’ll help you understand the next step.",
+    "items": [
+      {
+        "title": "Something needs repairing.",
+        "description": "A ceiling stain, missing shingles or damaged flashing deserves attention. Explore inspections and repairs that address the problem and the condition of the surrounding roof.",
+        "href": "/roofing/repair/",
+        "label": "Explore roof repair",
+        "icon": "repair"
+      },
+      {
+        "title": "It’s time for a new roof.",
+        "description": "Compare your material options and the scope of a replacement. Understand what is being removed, what goes back on and which warranty applies to the proposed system.",
+        "href": "/roofing/replacement/",
+        "label": "Explore roof replacement",
+        "icon": "roof"
+      },
+      {
+        "title": "A storm changed things.",
+        "description": "Wind and hail can leave more than visible damage. Discuss an inspection and the restoration work your roof may need. Insurance coverage is determined by your policy and insurer.",
+        "href": "/columbus-oh/storm-damage/",
+        "label": "Explore storm restoration",
+        "icon": "storm"
+      }
+    ]
+  },
+  "decision": {
+    "eyebrow": "Repair or replace?",
+    "title": "Start with answers. Then make a decision.",
+    "paragraphs": [
+      "You shouldn’t have to decide on a new roof before you understand the one you have. A leak may be limited to one area; recurring problems or widespread wear can point to a bigger conversation.",
+      "Talk through the roof’s condition, previous repairs and the proposed work. A useful estimate explains the recommendation and gives you something concrete to compare."
+    ],
+    "checklistTitle": "Tell us what you’ve noticed",
+    "items": [
+      "Water marks or an active leak",
+      "Missing, lifted or broken shingles",
+      "A recent wind or hail event",
+      "Repairs that keep coming back",
+      "An older roof you want evaluated"
+    ],
+    "note": "Not sure what’s causing it? That’s a good place to start."
+  },
+  "projects": {
+    "eyebrow": "Above the everyday",
+    "title": "Look closer at the work.",
+    "description": "Explore images from Roof King’s existing roofing gallery, from work in progress to the finished roof. See more examples before planning your own project.",
+    "images": [
+      {
+        "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+        "alt": "Gray shingle roof seen from above, showing ridge lines, valleys and roof penetrations",
+        "caption": "The finished surface: roof lines, transitions and details, seen from above."
+      },
+      {
+        "src": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
+        "alt": "Aerial view of roof work in progress with exposed decking and underlayment",
+        "caption": "Under the shingles: preparation is part of the complete roofing project."
+      }
+    ]
+  },
+  "credentials": {
+    "eyebrow": "Know your roofing company",
+    "title": "Confidence should come with something to back it up.",
+    "items": [
+      {
+        "title": "GAF Master Elite®",
+        "description": "Explore our manufacturer certification and ask which GAF system and warranty options fit the work proposed for your home.",
+        "label": "View our GAF profile",
+        "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+        "mark": "GAF"
+      },
+      {
+        "title": "BBB Accredited · A+",
+        "description": "Read the independent business profile as part of choosing a contractor. Our BBB profile lists accreditation and an A+ business rating.",
+        "label": "Read our BBB profile",
+        "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
+        "mark": "A+"
+      },
+      {
+        "title": "5-year workmanship coverage",
+        "description": "Installation coverage and manufacturer coverage address different things. Review the written terms with your estimate so you know what applies.",
+        "label": "Explore workmanship coverage",
+        "href": "/offers/5-year-workmanship-warranty/",
+        "mark": "05"
+      }
+    ],
+    "note": "Warranty eligibility, coverage and conditions depend on the products installed and the written terms for your project."
+  },
+  "materials": {
+    "eyebrow": "Materials with a purpose",
+    "title": "Choose the roof. Understand the whole system.",
+    "description": "Color is a starting point. Underlayment, flashing, ventilation and installation details matter alongside the finish you see from the street.",
+    "items": [
+      {
+        "title": "Asphalt shingles",
+        "description": "Compare profiles, colors, wind and impact classifications, plus the specifications behind them. Explore GAF options and the accessories that work with the complete roof system.",
+        "image": {
+          "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+          "alt": "Red asphalt shingle roof on a blue-sided home"
+        },
+        "href": "/products/roofing/shingles/",
+        "label": "Compare shingle products",
+        "relatedHref": "/roofing/gaf/types/",
+        "relatedLabel": "Explore GAF shingles"
+      },
+      {
+        "title": "Metal roofing",
+        "description": "Explore a different finish and discuss the system suitable for your property. Compare the installation scope, detailing and written warranty before settling on a material.",
+        "image": {
+          "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+          "alt": "Metal roofing example from the existing roofing materials gallery"
+        },
+        "href": "/roofing/metal/",
+        "label": "Explore metal roofing",
+        "relatedHref": "/roofing/types/",
+        "relatedLabel": "Compare roofing materials"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "A clearer way forward",
+    "title": "Good work starts with a good conversation.",
+    "description": "From the first questions to the finished roof, keep the scope, materials and expectations in view.",
+    "items": [
+      {
+        "title": "Share what’s happening",
+        "description": "Tell us about the property, the problem you’ve noticed and what you want to achieve."
+      },
+      {
+        "title": "Understand the recommendation",
+        "description": "Discuss the roof’s condition, the proposed work and the options shown in your estimate."
+      },
+      {
+        "title": "Plan the installation",
+        "description": "Confirm the scope, material selection and scheduling with the team before work begins."
+      },
+      {
+        "title": "Review the result",
+        "description": "Talk through the finished work, your questions and the care and coverage information for your roof."
+      }
+    ]
+  },
+  "budget": {
+    "eyebrow": "Scope before price",
+    "title": "Know what your estimate includes.",
+    "description": "Roof size, access, material selection, removal and the condition beneath the covering can all affect the work. Compare the scope as carefully as the price.",
+    "items": [
+      "Materials and installation included",
+      "Removal, preparation and cleanup",
+      "How additional work will be discussed",
+      "Manufacturer and workmanship coverage"
+    ],
+    "financingTitle": "Make room for the right questions.",
+    "financingCopy": "Ask about current financing options and review the lender’s terms, rates and eligibility requirements before applying. Start with the actual project estimate.",
+    "financingNote": "Financing is subject to lender approval and applicable terms."
+  },
+  "reviews": {
+    "eyebrow": "A homeowner’s perspective",
+    "title": "The work matters. So does the experience.",
+    "quote": "I just had a roofing job done by them and the roofing job looks really great. They did a good job of cleaning up.",
+    "author": "Douglas C",
+    "sourceLabel": "Customer review on BBB",
+    "sourceUrl": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693"
+  },
+  "local": {
+    "eyebrow": "Rooted in Columbus",
+    "title": "A local team. A conversation about your home.",
+    "description": "Roof King & Restoration is based in Columbus. Talk with our team about your address, the condition of your roof and the work you have in mind. If you have photos or details of previous repairs, bring those to the conversation.",
+    "linkLabel": "Explore Columbus Ohio roofing services",
+    "linkHref": "/columbus-oh/roofing/"
+  },
+  "faq": {
+    "eyebrow": "Before you get started",
+    "title": "A few questions worth asking.",
+    "items": [
+      {
+        "question": "Does a leak mean I need a new roof?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Not necessarily. The location of the problem, surrounding roof condition and repair history all matter. An inspection helps you discuss whether a localized repair or broader work makes sense."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "What should I compare in roofing estimates?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Compare the scope of removal and preparation, exact materials, installation details, cleanup and written coverage. Ask how changes or additional work discovered during the project would be handled."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Can I compare shingles and metal roofing?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. Explore our shingle product library and metal roofing information, then ask which systems suit your home. Compare the complete installation scope and product-specific terms, not just the visible finish."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "How do the warranties differ?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Roof King publishes five-year workmanship coverage. Manufacturer warranties apply separately to the selected products or eligible systems. Review the written terms and eligibility for the exact project in your estimate."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "What if I noticed damage after a storm?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Contact the team to discuss an inspection and share what you can observe safely from the ground. Inspection findings can inform the proposed repair or restoration work. Insurance coverage depends on your policy and insurer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "question": "Can I ask about financing?",
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. Ask for current options, then review lender rates, approval requirements and repayment terms before you apply. Available financing does not replace a project-specific estimate."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Your roof. Your next step.",
+    "title": "Let’s talk about what your roof needs.",
+    "description": "A repair, a replacement or a question you haven’t figured out yet. Share what’s happening and start planning your roofing estimate with our Columbus team."
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:55:34.895Z",
+  "generatedAt": "2026-10-17T21:14:09.052Z",
   "scope": "All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.",
   "totalRoutes": 244,
   "canonicalTargets": 231,
@@ -28857,7 +28857,7 @@
       "issues": [
         "Migration H1 sits outside hero; native PageHero should own the visible H1."
       ],
-      "note": "Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.",
+      "note": "Editorial ServiceLanding is implemented from the client wireframe: LandingHero, ServicePaths, ProjectShowcase, ProcessSteps, linked credentials/materials, native FAQ and the existing disabled quote experience. See roofing-landing-notes.md.",
       "bodyHash": "02d5d7c7f5e092ced0d9101fbf976e87be2d572a6c12f4ef62310092a9f481a7",
       "nativeStatus": "Native service components",
       "role": "Primary candidate",

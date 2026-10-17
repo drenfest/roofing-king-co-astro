@@ -1,8 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
-import ServicePage from '../layouts/ServicePage.astro';
+import ServiceLanding from '../layouts/ServiceLanding.astro';
 import services from '../data/service-pages.json';
-import type { ServicePageData } from '../data/section-types';
+import landing from '../data/roofing-landing.json';
+import type { BrandSection } from '../data/section-types';
 const page=(await getCollection('pages')).find(page=>page.data.permalink==='/roofing/')!;
 ---
-<ServicePage {page} data={services['/roofing/'] as ServicePageData}/>
+<ServiceLanding {page} data={landing} brands={services['/roofing/'].sections.find(section=>section.type==='brands') as BrandSection}/>

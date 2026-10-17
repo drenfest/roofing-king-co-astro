@@ -75,7 +75,7 @@ const familyComponents = {
 };
 function specificNote(path,group) {
   if(path==='/')return 'Split HomeTrust and HomeWorkmanship before extending them. Homepage remains the visual reference; native sections already render here.';
-  if(path==='/roofing/')return 'Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.';
+  if(path==='/roofing/')return 'Editorial ServiceLanding is implemented from the client wireframe: LandingHero, ServicePaths, ProjectShowcase, ProcessSteps, linked credentials/materials, native FAQ and the existing disabled quote experience. See roofing-landing-notes.md.';
   if(path==='/roofing/replacement/')return 'Keep repair-versus-replacement guidance, warning signs, the replacement process, cost discussion and FAQ as distinct editable sections.';
   if(path==='/roofing/repair/')return 'Keep leak/damage diagnosis, repair scenarios and repair-versus-replacement guidance; do not inherit replacement copy wholesale.';
   if(path.includes('insurance-claims'))return 'Keep a dedicated claims process and factual limits. Do not promise coverage or route all inquiries to insurance automatically.';

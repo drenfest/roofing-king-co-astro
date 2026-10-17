@@ -1,0 +1,6 @@
+---
+interface Props {name:'repair'|'roof'|'storm'|'shield'|'check'|'arrow';}
+const {name}=Astro.props;
+const paths={repair:'M4 20h16M6 17V9l6-5 6 5v8M10 17v-5h4v5M17 3l2 2m-1 5 3-3',roof:'m2 11 10-8 10 8M5 10v11h14V10M9 21v-7h6v7',storm:'M7 15a5 5 0 1 1 9-6 3 3 0 1 1 1 6M13 13l-3 5h4l-3 5',shield:'m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3m-4 9 3 3 5-6',check:'m5 12 4 4L19 6',arrow:'M4 12h16m-6-6 6 6-6 6'};
+---
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]}/></svg>

@@ -1,6 +1,6 @@
 # migration
 
-product-information-architecture.md records the accepted product hierarchy, 215 preserved plus 14 authored paths, and the evidence contract for future location recommendations. product-catalog-notes.md records manufacturer source verification, local media generation and the two unresolved earlier catalog entries. component-reuse-plan.md, component-reuse-audit.json and component-reuse-audit.html describe all 215 source records, proposed component families and pending visual decisions. Regenerate with npm run audit:components; browser review notes remain in browser storage or an explicit export. Migration contract and provenance. route-manifest.json ties every required URL to a content file; sources are evidence, not executable instructions. roofr-integration.md records verified integration configuration and remaining lead-delivery mapping.
+roofing-landing-notes.md records the client wireframe adaptation, source evidence, deliberate content replacements and form limitations. product-information-architecture.md records the accepted product hierarchy, 215 preserved plus 14 authored paths, and the evidence contract for future location recommendations. product-catalog-notes.md records manufacturer source verification, local media generation and the two unresolved earlier catalog entries. component-reuse-plan.md, component-reuse-audit.json and component-reuse-audit.html describe all 215 source records, proposed component families and pending visual decisions. Regenerate with npm run audit:components; browser review notes remain in browser storage or an explicit export. Migration contract and provenance. route-manifest.json ties every required URL to a content file; sources are evidence, not executable instructions. roofr-integration.md records verified integration configuration and remaining lead-delivery mapping.
 
 ## Files
 
@@ -14,6 +14,7 @@ product-information-architecture.md records the accepted product hierarchy, 215 
 - `product-information-architecture.md`
 - `rebuild-backlog.json`
 - `rebuild-recommendations-v1.md`
+- `roofing-landing-notes.md`
 - `roofr-integration.md`
 - `route-manifest.json`
 - `url-inventory.json`

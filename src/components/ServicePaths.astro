@@ -1,0 +1,10 @@
+---
+import ServiceIcon from './ServiceIcon.astro';
+interface Props {section:{eyebrow:string;title:string;description:string;items:{title:string;description:string;href:string;label:string;icon:string}[]};}
+const {section}=Astro.props;
+---
+<section id="roofing-services" class="rk-landing-section rk-service-paths" data-component="ServicePaths" aria-labelledby="roofing-services-title"><div class="rk-section-inner">
+  <div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id="roofing-services-title">{section.title}</h2><p>{section.description}</p></div>
+  <div class="rk-service-path-list">{section.items.map((item,i)=><article><div class="rk-service-path-icon"><ServiceIcon name={item.icon as 'repair'|'roof'|'storm'}/><span>0{i+1}</span></div><h3>{item.title}</h3><p>{item.description}</p><a href={item.href}>{item.label}<ServiceIcon name="arrow"/></a></article>)}</div>
+  <p class="rk-landing-aside">Planning work for a business property? <a href="/commercial-roofing/">Explore commercial roofing.</a></p>
+</div></section>

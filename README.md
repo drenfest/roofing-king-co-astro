@@ -77,6 +77,10 @@ Some original media remains remotely hosted; `migration/build-audit.json` checks
 
 The homepage, all eight roofing-family pages and Cleveland roofing now share native components. See [component build progress](migration/component-build-progress.md) for completed routes, component contracts, validation and the next page sequence. Service content lives in `src/data/service-pages.json`; retained Markdown bodies remain migration evidence. Run `npm run check:services` for source-copy/link preservation checks and `npm run audit:components` to refresh the visual component map.
 
+## Roofing landing page
+
+The `/roofing/` landing uses `ServiceLanding.astro` and `src/data/roofing-landing.json`, adapting the client’s content wireframe to the established brand. LandingHero, ServicePaths, ProjectShowcase and ProcessSteps are reusable Astro sections; FAQSection, BrandStrip, QuoteExperience and the shared shell are reused. Earlier `/roofing/` service sections remain migration evidence, with its brandIds selection still active. See `migration/roofing-landing-notes.md` for editorial decisions, source checks and validation. Other service pages keep their existing ServicePage layout.
+
 ## Product pillar
 
 The accepted hierarchy is Home → Products → Product Type Products → Product → Brand → Brand Product Page. The first branch includes Products, Roofing Products and Shingles hubs, the retained GAF catalog, and eleven individual GAF product pages. All 215 original routes remain, with 29 authored routes bringing the total to 244. See `migration/product-information-architecture.md` for URL preservation, other product families and the evidence contract for future location recommendations. Native product pages share the existing color selector, specification/warranty panels and disabled quote dialog.

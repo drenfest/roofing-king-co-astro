@@ -9,7 +9,7 @@ for(const [path,data] of Object.entries(pages)){
   assert.equal($('[data-service-build="astro-components"]').length,1,path);
   assert.equal($('main').length,1,'Single main landmark on '+path);
   assert.equal($('h1').length,1);
-  assert.equal(clean($('.rk-home-hero h1').text()),placements[path]?.hero?.title || data.hero.title);
+  assert.equal(clean($('.rk-home-hero h1,.rk-landing-hero h1').text()),placements[path]?.hero?.title || data.hero.title);
   assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
   assert.equal($('meta[name=robots]').attr('content'),'noindex, nofollow');
   assert.equal($('.rk-quote-form button[type=submit]:disabled').length,2);
@@ -22,6 +22,19 @@ for(const [path,data] of Object.entries(pages)){
   for(const css of $('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(s=>s.startsWith('/'))){const text=await fs.readFile('dist'+css,'utf8');assert.ok(!text.includes('.rk-migration-banner'),'Legacy migration CSS must not load');}
   const source=await fs.readFile(data.sourceFile,'utf8');const before=cheerio.load(source.split('---').slice(2).join('---'));
   const rendered=clean($('main').text());
+  if(path==='/roofing/'){
+    // This page is an intentional editorial replacement, not a verbatim migration.
+    assert.equal($('[data-landing-build=editorial]').length,1);
+    assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
+    assert.equal($('.rk-landing-hero a[href="#estimate"]').length,1);
+    assert.equal($('#estimate #quote-form').length,1);
+    assert.equal($('.rk-service-faq details').length,6);
+    for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/past-projects/','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
+    assert.ok(!/\$47|Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
+    assert.equal($('.rk-landing-review blockquote').length,1);
+    assert.ok($('.rk-landing-review figcaption a').attr('href').startsWith('https://www.bbb.org/'));
+    continue;
+  }
   // Compare all substantive paragraphs and headings, not a self-generated fixture.
   before('.rk-page-section:not(.rk-page-final-cta) p,.rk-page-section:not(.rk-page-final-cta) h2,.rk-page-section:not(.rk-page-final-cta) h3,.rk-page-section summary').each((i,e)=>{
     const original=clean(before(e).text());const content=/^h[2-4]$/.test(e.tagName)?(placements[path]?.headings?.[original]||original):original;if(content)assert.ok(rendered.includes(content),'Lost source content on '+path+': '+content.slice(0,100));

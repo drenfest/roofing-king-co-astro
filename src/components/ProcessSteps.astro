@@ -1,0 +1,6 @@
+---
+import type {HeadingData} from '../data/section-types';
+interface Props {section:HeadingData & {items:{title:string;description:string}[]};}
+const {section}=Astro.props;
+---
+<section id="roofing-process" class="rk-landing-section rk-landing-process" data-component="ProcessSteps" aria-labelledby="roofing-process-title"><div class="rk-section-inner"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id="roofing-process-title">{section.title}</h2><p>{section.description}</p></div><ol>{section.items.map((item,i)=><li><span class="rk-process-number">0{i+1}</span><h3>{item.title}</h3><p>{item.description}</p></li>)}</ol></div></section>
