@@ -10,6 +10,8 @@
 .rk-service-landing .rk-home-eyebrow{color:#a54308;font-size:.78rem;letter-spacing:.09em;margin:0 0 1.1rem;}
 .rk-landing-section{padding-block:clamp(3.5rem,6.5vw,6.5rem);}
 .rk-landing-heading{max-width:760px;}
+.rk-service-paths>.rk-section-inner>.rk-landing-heading{max-width:1040px;}
+.rk-service-paths>.rk-section-inner>.rk-landing-heading>p:not(.rk-home-eyebrow){max-width:850px;}
 .rk-landing-heading>p:not(.rk-home-eyebrow){font-size:1.1rem;margin:0 0 1.25rem;}
 .rk-landing-text-link{display:inline-flex;align-items:center;gap:.85rem;font-weight:750;text-decoration:none;border-bottom:1px solid currentColor;padding-block:.3rem;}
 .rk-landing-hero{position:relative;isolation:isolate;background:var(--landing-dark);color:#fffaf0;overflow:hidden;}
@@ -59,6 +61,8 @@
 .rk-service-detail li svg{flex:none;width:18px;height:18px;}
 .rk-service-detail .rk-button{gap:1rem;min-height:46px;font-size:.91rem;}
 .rk-service-detail .rk-button svg{width:20px;height:20px;}
+.rk-service-related-links{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;border-top:1px solid #e2e7db;margin-top:1.3rem;padding-top:1rem;}
+.rk-service-related-links a{font-size:.88rem;font-weight:700;color:#2d5944;text-underline-offset:4px;}
 .rk-service-audience-banner{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;margin-top:1.6rem;padding:1.4rem 1.6rem;border-left:3px solid #e07a30;border-radius:0 10px 10px 10px;color:#fffaf0;background:linear-gradient(115deg,#173b2b,#253f35);}
 .rk-service-audience-copy{display:flex;align-items:center;gap:1.2rem;}
 .rk-service-audience-icon{display:grid;place-items:center;flex:none;width:46px;height:46px;border:1px solid #a8bc9b66;border-radius:50%;color:#ffba73;}

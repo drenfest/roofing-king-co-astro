@@ -4810,7 +4810,7 @@
   },
   "/commercial-roofing/": {
     "sourceFile": "src/content/pages/commercial-roofing/index.md",
-    "contentReview": "Native component migration. The original service headings, descriptions and contextual destinations are retained in ServicePaths, with additional planning context and a residential audience banner. Other imported business claims remain pending verification.",
+    "contentReview": "Native component migration. The original service headings, descriptions and contextual destinations are retained in ServicePaths, with additional planning context and a residential audience banner. Other imported business claims remain pending verification. Service preview copy is now summarized from each linked commercial detail page; the earlier card descriptions remain in the preserved source Markdown.",
     "hero": {
       "eyebrow": "Roof King",
       "title": "Columbus, OH Commercial Roofing Company",
@@ -4853,64 +4853,64 @@
           {
             "slug": "repair",
             "tabLabel": "Roof Repair",
-            "detail": "Discuss the location of the issue, any previous repairs and how the proposed work fits the condition of the surrounding roof. Explore the repair service before arranging the next step for your building.",
+            "detail": "The repair page outlines our use of GAF roofing products, published five-year workmanship coverage and roofing style options when replacement is needed.",
             "highlights": [
-              "Existing damage and roof condition",
-              "Repair scope and access",
-              "Questions for your inspection"
+              "Commercial roof and flat-roof repairs",
+              "Storm-related roofing damage",
+              "GAF products and workmanship coverage"
             ],
             "icon": "repair",
             "id": "commercial-service-repair",
             "title": "Commercial Roof Repair",
-            "description": "We can identify and resolve even the most challenging forms of commercial roofing damage, ensuring that your building will remain functional for years ahead.",
+            "description": "Roof King repairs commercial roofing damage, including missing materials, torn flat roofing and water leaks. Our commercial repair service covers storm-related damage and the roofing work needed to restore the affected areas.",
             "href": "/commercial-roofing/repair/",
             "label": "Explore roof repair"
           },
           {
             "slug": "replacement",
             "tabLabel": "Roof Replacement",
-            "detail": "Compare the proposed removal, preparation and installation scope alongside material options. Discuss access to the property and the work involved before confirming the project.",
+            "detail": "It also introduces our published five-year workmanship coverage and financing information. Explore the available roof types before discussing the replacement system and installation proposal for your building.",
             "highlights": [
-              "Removal and preparation",
-              "Proposed materials and installation",
-              "Property access and project planning"
+              "Commercial roof replacement",
+              "A choice of roofing styles",
+              "Workmanship coverage and financing information"
             ],
             "icon": "roof",
             "id": "commercial-service-replacement",
             "title": "Commercial Roof Replacement",
-            "description": "Our trusted commercial roofers can provide stunning roof replacements. These will both improve the visual appeal of your building and make it more durable.",
+            "description": "Our commercial roof replacement service installs a new roofing system for an existing business property. The service page covers roofing style choices, building appearance and the role of replacement in protecting the property.",
             "href": "/commercial-roofing/replacement/",
             "label": "Explore roof replacement"
           },
           {
             "slug": "types",
             "tabLabel": "Roof Types",
-            "detail": "Explore the commercial roofing types page, then discuss which system suits the building and the work proposed. Compare the product specifications, installation requirements and written coverage for the selected system.",
+            "detail": "Our team provides both repair and replacement services. Explore the building types and roofing options, then review the specified products and written coverage with the project proposal.",
             "highlights": [
-              "Roof-system choices",
-              "Building and installation requirements",
-              "Product-specific documentation"
+              "HOA and condominium roofing",
+              "Multifamily asphalt and metal systems",
+              "Commercial flat roofing"
             ],
             "icon": "roof",
             "id": "commercial-service-types",
             "title": "Commercial Roofing Types",
-            "description": "We offer all of the modern roofing options you need from trusted brands like GAF.",
+            "description": "Roof King’s commercial roofing types page covers HOA and condominium roofing, multifamily properties and flat roofs. Sloped asphalt and metal systems are among the options described for multifamily buildings.",
             "href": "/commercial-roofing/roof-types/",
             "label": "Explore roof types"
           },
           {
             "slug": "gutters",
             "tabLabel": "Commercial Gutters",
-            "detail": "Consider gutters and downspouts alongside the roof so water has a clear route away from the building. Discuss drainage, repairs or replacement, and whether gutter protection belongs in the project.",
+            "detail": "Explore Alu-Rex and its T-Rex system, along with LeafFilter, among the names listed on our gutter page. Confirm the products and installation scope available for your particular building.",
             "highlights": [
-              "Gutters and downspouts",
-              "Repair or replacement scope",
-              "Drainage and protection options"
+              "Commercial gutter installation and repair",
+              "Seamless gutters and downspouts",
+              "Gutter guards and protection options"
             ],
             "icon": "roof",
             "id": "commercial-service-gutters",
             "title": "Commercial Gutters",
-            "description": "Don’t forget the gutters! Our roofing crew would be happy to equip your commercial building with a fully functional system.",
+            "description": "Our commercial gutter service includes installation and repair for properties ranging from flat-roofed warehouses to sloped-roof multifamily buildings. The page covers seamless gutters, downspouts and gutter protection.",
             "href": "/commercial-roofing/gutters/",
             "label": "Explore commercial gutters"
           }

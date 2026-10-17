@@ -31,6 +31,8 @@ for(const [path,data] of Object.entries(pages)){
   if(path==='/roofing/'){
     // This page is an intentional editorial replacement, not a verbatim migration.
     assert.equal($('[data-landing-build=editorial]').length,1);
+    assert.equal($('#roofing-services-title').text(),'Residential Roofing Services Near Columbus, OH');
+    assert.equal($('.rk-landing-decision').length,0,'The service landing must not become a symptom checklist.');
     assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
     assert.equal($('.rk-landing-hero a[href="#estimate"]').length,1);
     assert.equal($('#estimate #quote-form').length,1);
@@ -47,6 +49,8 @@ for(const [path,data] of Object.entries(pages)){
   }
   // Compare all substantive paragraphs and headings, not a self-generated fixture.
   before('.rk-page-section:not(.rk-page-final-cta) p,.rk-page-section:not(.rk-page-final-cta) h2,.rk-page-section:not(.rk-page-final-cta) h3,.rk-page-section summary').each((i,e)=>{
+    // The commercial explorer now summarizes each linked detail page instead of its old teaser cards.
+    if(path==='/commercial-roofing/' && e.tagName==='p' && before(e).closest('.rk-page-service-card').length)return;
     const original=clean(before(e).text());const content=/^h[2-4]$/.test(e.tagName)?(placements[path]?.headings?.[original]||original):original;if(content)assert.ok(rendered.includes(content),'Lost source content on '+path+': '+content.slice(0,100));
   });
   const requiredLinks=before('.rk-page-section:not(.rk-page-final-cta) a[href^="/"]').filter((i,e)=>!before(e).closest('.rk-page-service-cta').length).map((i,e)=>before(e).attr('href')).get();

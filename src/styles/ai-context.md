@@ -1,6 +1,6 @@
 # src/styles
 
-service-landing.css owns the branded editorial hero, service paths, decision/checklist, gallery, credentials, materials, process, review and estimate layouts. products.css defines responsive performance badges and specification notes, product photos, color swatches, selected/focus states and native specification/warranty panels. services.css defines native service prose, cards, FAQ and responsive layouts; shared sections retain their WordPress design. Native homepage: base.css contains shared reference design rules; home.css contains homepage section rules; home-interactions.css adds native state, focus, dialogs and mobile fixes. Legacy pages keep wordpress-compatibility.css and migration.css. The homepage must not load compatibility behavior or styles.
+service-landing.css owns the branded editorial hero, service paths, gallery, credentials, materials, process, review and estimate layouts. products.css defines responsive performance badges and specification notes, product photos, color swatches, selected/focus states and native specification/warranty panels. services.css defines native service prose, cards, FAQ and responsive layouts; shared sections retain their WordPress design. Native homepage: base.css contains shared reference design rules; home.css contains homepage section rules; home-interactions.css adds native state, focus, dialogs and mobile fixes. Legacy pages keep wordpress-compatibility.css and migration.css. The homepage must not load compatibility behavior or styles.
 
 ## Files
 

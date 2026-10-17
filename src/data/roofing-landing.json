@@ -2,7 +2,7 @@
   "hero": {
     "eyebrow": "Roof King & Restoration · Built around your home",
     "title": "Columbus, OH Roofing Company",
-    "description": "A dependable roof starts with a clear understanding of what it needs. Meet the Columbus roofing company that helps you make sense of damage, compare your options and plan the work with confidence.",
+    "description": "Roof King & Restoration provides residential roof repair, roof replacement, GAF roofing installation and metal roofing in Columbus and nearby communities. Explore our services, compare roofing products and get to know the credentials and customer experience behind our work.",
     "image": {
       "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
       "alt": "Overhead view of a gray shingle roof with multiple ridges and valleys"
@@ -11,129 +11,201 @@
     "action": "Plan my roofing estimate"
   },
   "services": {
-    "eyebrow": "A roof. A plan. The right team.",
-    "title": "What brought you here?",
-    "description": "Explore the work, materials and planning questions behind your next roofing project. Choose a topic for a closer look, then visit its page for the full details.",
+    "eyebrow": "Residential roofing · Roof King & Restoration",
+    "title": "Residential Roofing Services Near Columbus, OH",
+    "description": "From roof repairs to a complete replacement, our Columbus team brings together professional installation, roofing product choices and written workmanship coverage. Explore each service, then see what our customers and industry credentials say about working with Roof King.",
     "items": [
       {
         "id": "roofing-service-repair",
         "tabLabel": "Roof Repair",
-        "title": "Get to the source of the problem.",
+        "title": "Does Your Roof Need Repair or Replacement?",
         "icon": "repair",
-        "description": "A ceiling stain, missing shingles or damaged flashing can point to very different repairs. Start by understanding where the damage is and how the surrounding roof is holding up.",
-        "detail": "Our repair page explains inspections and the work that may follow. Share what you have noticed and any previous repairs so the conversation starts with the condition of your roof.",
+        "description": "Find out whether your roof’s symptoms point to a repair or a full replacement. Learn how leaks, missing shingles and damaged flashing are assessed, and what goes into repairing the affected area.",
+        "detail": "Roof King’s repair service includes an inspection, removal of damaged materials and installation of replacement roofing where needed. See how the process works and how our five-year workmanship coverage supports the repair.",
         "highlights": [
-          "Leaks and water marks",
-          "Shingle and flashing damage",
-          "Repair scope after inspection"
+          "Inspection of the affected roof",
+          "Damaged material removal and replacement",
+          "Five-year workmanship coverage"
         ],
         "href": "/roofing/repair/",
-        "label": "Explore roof repair"
+        "label": "Learn about roof repair",
+        "related": [
+          {
+            "label": "Read homeowner reviews",
+            "href": "/reviews/"
+          },
+          {
+            "label": "Workmanship warranty information",
+            "href": "/offers/5-year-workmanship-warranty/"
+          }
+        ]
       },
       {
         "id": "roofing-service-replacement",
         "tabLabel": "Roof Replacement",
-        "title": "Plan more than a change of shingles.",
+        "title": "Complete Residential Roof Replacement",
         "icon": "roof",
-        "description": "A replacement is a chance to consider the roof as a complete system. Compare the material, preparation, installation details and written coverage alongside the finished appearance.",
-        "detail": "Explore the replacement page before discussing your project. Ask what the estimate includes, how the existing covering will be removed and how any underlying damage would be addressed.",
+        "description": "Our replacement service takes your project from roof inspection and material selection through tear-off, installation, cleanup and a final walkthrough. We review decking, flashing and ventilation as part of planning the new roof system.",
+        "detail": "Choose from asphalt and architectural shingles, GAF roofing systems and metal roofing options. The replacement page brings together the installation process, cost factors, financing and written warranty information.",
         "highlights": [
-          "Removal and preparation",
-          "Materials and roof-system details",
-          "Installation and coverage"
+          "Inspection and material selection",
+          "Tear-off and roof-system installation",
+          "Cleanup and final walkthrough"
         ],
         "href": "/roofing/replacement/",
-        "label": "Explore roof replacement"
+        "label": "Explore roof replacement",
+        "related": [
+          {
+            "label": "Browse roofing products",
+            "href": "/products/roofing/"
+          },
+          {
+            "label": "Compare GAF shingles",
+            "href": "/roofing/gaf/types/"
+          }
+        ]
       },
       {
         "id": "roofing-service-cost",
         "tabLabel": "Cost of a New Roof",
-        "title": "Put the price in the context of your roof.",
+        "title": "See What Affects the Cost of a New Roof",
         "icon": "cost",
-        "description": "Roof dimensions, slope, access, material choice and the work beneath the covering can all change the scope. A useful comparison starts with what each estimate actually includes.",
-        "detail": "Use the roof-cost guide to prepare questions for a project-specific estimate. Discuss removal, preparation, cleanup and how additional work would be agreed upon before treating two prices as equivalent.",
+        "description": "Find out how roof size, pitch, materials and installation complexity affect a replacement estimate. See where tear-off, underlayment, flashing, permits and disposal fit into the cost.",
+        "detail": "Compare the factors behind different proposals, including labor and warranty selections. Our cost guide and roofing calculator help you prepare a budget before getting an estimate for your home.",
         "highlights": [
-          "What affects the scope",
-          "What is included in the estimate",
-          "Questions to ask before choosing"
+          "Size, pitch and roof complexity",
+          "Materials, tear-off and protection layers",
+          "Permits, disposal, labor and warranty"
         ],
         "href": "/cost-of-a-new-roof/",
-        "label": "Explore roof cost factors"
+        "label": "Explore roof cost factors",
+        "related": [
+          {
+            "label": "Try the roofing calculator",
+            "href": "/roof-calculator/"
+          },
+          {
+            "label": "Financing information",
+            "href": "/offers/flexible-financing/"
+          }
+        ]
       },
       {
         "id": "roofing-service-calculator",
         "tabLabel": "Roofing Calculator",
-        "title": "Start exploring your project budget.",
+        "title": "Roof King’s Online Roofing Estimator",
         "icon": "calculator",
-        "description": "The roofing calculator offers another starting point when you are planning a replacement. Open the estimator to explore your property and the available inputs.",
-        "detail": "An online estimate is a planning tool. Confirm the roof condition, exact materials and final scope with the team before making an installation decision. The estimator opens on its own page.",
+        "description": "Start your roofing budget with Roof King’s published Roofr estimator. Our calculator page gives you access to the online tool for exploring a replacement project before arranging a detailed inspection and proposal.",
+        "detail": "An online estimate is a starting point. The final proposal accounts for the roof’s condition, selected materials and installation scope confirmed with our team.",
         "highlights": [
-          "Open the Roofr estimator",
-          "Explore the available project inputs",
-          "Follow up about your actual roof"
+          "Roof King’s Roofr estimator",
+          "Online replacement-budget planning",
+          "Follow up with a project-specific proposal"
         ],
         "href": "/roof-calculator/",
-        "label": "Open roofing calculator"
+        "label": "Open roofing calculator",
+        "related": [
+          {
+            "label": "Understand roof cost factors",
+            "href": "/cost-of-a-new-roof/"
+          }
+        ]
       },
       {
         "id": "roofing-service-gaf",
         "tabLabel": "GAF Roofing Installation",
-        "title": "Think in terms of a complete GAF system.",
+        "title": "Explore GAF Roofing Products and Installation",
         "icon": "roof",
-        "description": "Shingles are the visible surface, but the proposed installation also needs to address underlayment, flashing, ventilation and compatible accessories.",
-        "detail": "Explore our GAF roofing information, then compare the product pages for colors and published specifications. Ask which products and warranty options are included in the exact system proposed for your home.",
+        "description": "Compare GAF shingle styles and colors, discover the benefits of the roofing system and learn about installation by Roof King’s GAF Master Elite team.",
+        "detail": "Preview Timberline and designer shingles in our product library, with actual color images, wind and impact classifications, and published specifications. Review workmanship and manufacturer coverage alongside the products you choose.",
         "highlights": [
-          "GAF system and installation information",
-          "Compatible roofing components",
-          "Product and warranty questions"
+          "GAF shingle styles and colors",
+          "Professional roofing installation",
+          "Product and workmanship coverage"
         ],
         "href": "/roofing/gaf/",
-        "label": "Explore GAF roofing installation"
+        "label": "Explore GAF roofing installation",
+        "related": [
+          {
+            "label": "Browse GAF shingle products",
+            "href": "/roofing/gaf/types/"
+          },
+          {
+            "label": "Explore Timberline HDZ",
+            "href": "/products/roofing/shingles/gaf/timberline-hdz/"
+          }
+        ]
       },
       {
         "id": "roofing-service-certification",
         "tabLabel": "Master Elite Certification",
-        "title": "Understand the certification behind the company.",
+        "title": "Why Choose a GAF Master Elite Roofer?",
         "icon": "shield",
-        "description": "Roof King & Restoration holds GAF Master Elite certification. Learn what that designation means and how it relates to qualifying GAF roof systems.",
-        "detail": "Certification and warranty coverage are different questions. Review the specific products, eligibility requirements and written terms with the team rather than assuming every project carries the same coverage.",
+        "description": "Learn what GAF Master Elite certification means when choosing a roofing company. Explore the contractor credentials, insurance and ongoing training discussed in our certification guide.",
+        "detail": "See how GAF roof-system components, Timberline HDZ shingles and manufacturer warranty options fit together. You can also verify Roof King’s certification directly on GAF’s contractor profile.",
         "highlights": [
-          "About the Master Elite designation",
-          "Qualifying roof-system questions",
-          "Written coverage for your project"
+          "GAF Master Elite certification",
+          "Roof-system and shingle information",
+          "Manufacturer warranty options"
         ],
         "href": "/roofing/gaf/master-elite/",
-        "label": "Explore Master Elite certification"
+        "label": "Explore Master Elite certification",
+        "related": [
+          {
+            "label": "View our GAF contractor profile",
+            "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747"
+          },
+          {
+            "label": "Read homeowner reviews",
+            "href": "/reviews/"
+          }
+        ]
       },
       {
         "id": "roofing-service-metal",
         "tabLabel": "Metal Roofing",
-        "title": "Explore a different roof finish.",
+        "title": "Explore Metal Roofing for Your Home",
         "icon": "roof",
-        "description": "If you are considering metal roofing, compare the proposed system with the shape, details and appearance of your home. There is more to the decision than the surface color.",
-        "detail": "Our metal roofing page introduces the service. Discuss the available profiles and finishes, installation requirements and written warranty alongside your other material options.",
+        "description": "Compare the appearance, longevity, reflective properties and maintenance considerations of metal roofing. Learn about installation by Roof King and how this option differs from an asphalt shingle roof.",
+        "detail": "Explore the benefits described in our metal roofing guide, then discuss available systems, finishes and written product coverage with our team. Our published five-year workmanship coverage is separate from manufacturer terms.",
         "highlights": [
-          "Profiles and finishes",
-          "Installation scope and details",
-          "System-specific coverage"
+          "Residential metal roof installation",
+          "Appearance and maintenance considerations",
+          "Installation workmanship coverage"
         ],
         "href": "/roofing/metal/",
-        "label": "Explore metal roofing"
+        "label": "Explore metal roofing",
+        "related": [
+          {
+            "label": "Compare roofing material types",
+            "href": "/roofing/types/"
+          }
+        ]
       },
       {
         "id": "roofing-service-storm",
         "tabLabel": "Storm Damage",
-        "title": "Make sense of what a storm left behind.",
+        "title": "Roof and Exterior Storm Damage Restoration",
         "icon": "storm",
-        "description": "Wind and hail can cause damage that is not obvious from the ground. Discuss an inspection so you can understand the roof condition and the restoration work it may need.",
-        "detail": "Share when you noticed the problem and any photos you can take safely from the ground. The storm restoration page explains the service; insurance coverage depends on your policy and insurer.",
+        "description": "Learn how Roof King restores roofing and siding after hail, wind and ice damage, from exterior repairs to replacement work. Explore help for damage involving shingles, gutters and other exterior materials.",
+        "detail": "See how our storm restoration and insurance claims assistance services work together. We can help document and discuss the damage; coverage decisions remain with your insurer and policy.",
         "highlights": [
-          "Wind and hail concerns",
-          "Inspection and restoration questions",
-          "Documentation of what you noticed"
+          "Hail, wind and ice damage restoration",
+          "Roofing, siding and gutter repairs",
+          "Insurance claims assistance"
         ],
         "href": "/columbus-oh/storm-damage/",
-        "label": "Explore storm restoration"
+        "label": "Explore storm restoration",
+        "related": [
+          {
+            "label": "Explore roof repair services",
+            "href": "/roofing/repair/"
+          },
+          {
+            "label": "Read homeowner reviews",
+            "href": "/reviews/"
+          }
+        ]
       }
     ],
     "banner": {
@@ -144,23 +216,6 @@
       "label": "Explore commercial roofing",
       "icon": "building"
     }
-  },
-  "decision": {
-    "eyebrow": "Repair or replace?",
-    "title": "Start with answers. Then make a decision.",
-    "paragraphs": [
-      "You shouldn’t have to decide on a new roof before you understand the one you have. A leak may be limited to one area; recurring problems or widespread wear can point to a bigger conversation.",
-      "Talk through the roof’s condition, previous repairs and the proposed work. A useful estimate explains the recommendation and gives you something concrete to compare."
-    ],
-    "checklistTitle": "Tell us what you’ve noticed",
-    "items": [
-      "Water marks or an active leak",
-      "Missing, lifted or broken shingles",
-      "A recent wind or hail event",
-      "Repairs that keep coming back",
-      "An older roof you want evaluated"
-    ],
-    "note": "Not sure what’s causing it? That’s a good place to start."
   },
   "projects": {
     "eyebrow": "Above the everyday",
@@ -180,26 +235,26 @@
     ]
   },
   "credentials": {
-    "eyebrow": "Know your roofing company",
-    "title": "Confidence should come with something to back it up.",
+    "eyebrow": "Roofing credentials and workmanship",
+    "title": "A Columbus roofing company with credentials you can check.",
     "items": [
       {
         "title": "GAF Master Elite®",
-        "description": "Explore our manufacturer certification and ask which GAF system and warranty options fit the work proposed for your home.",
+        "description": "Roof King & Restoration holds GAF Master Elite certification. Verify our designation on GAF’s contractor profile and explore the GAF roof systems and manufacturer warranty options available for your project.",
         "label": "View our GAF profile",
         "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
         "mark": "GAF"
       },
       {
         "title": "BBB Accredited · A+",
-        "description": "Read the independent business profile as part of choosing a contractor. Our BBB profile lists accreditation and an A+ business rating.",
+        "description": "Our BBB business profile lists accreditation and an A+ business rating. Read the independent business details and customer feedback as you get to know our company.",
         "label": "Read our BBB profile",
         "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
         "mark": "A+"
       },
       {
         "title": "5-year workmanship coverage",
-        "description": "Installation coverage and manufacturer coverage address different things. Review the written terms with your estimate so you know what applies.",
+        "description": "Roof King publishes five-year coverage for its workmanship. This is separate from manufacturer product coverage; the written terms explain the protection associated with your installation.",
         "label": "Explore workmanship coverage",
         "href": "/offers/5-year-workmanship-warranty/",
         "mark": "05"
@@ -208,9 +263,9 @@
     "note": "Warranty eligibility, coverage and conditions depend on the products installed and the written terms for your project."
   },
   "materials": {
-    "eyebrow": "Materials with a purpose",
-    "title": "Choose the roof. Understand the whole system.",
-    "description": "Color is a starting point. Underlayment, flashing, ventilation and installation details matter alongside the finish you see from the street.",
+    "eyebrow": "Roofing product choices",
+    "title": "Asphalt shingles and metal roofing for your home.",
+    "description": "Explore GAF shingle styles and colors, compare published product specifications, or learn about metal roofing installation. Our product library brings the choices together before you plan your new roof.",
     "items": [
       {
         "title": "Asphalt shingles",
@@ -276,8 +331,8 @@
     "financingNote": "Financing is subject to lender approval and applicable terms."
   },
   "reviews": {
-    "eyebrow": "A homeowner’s perspective",
-    "title": "The work matters. So does the experience.",
+    "eyebrow": "Roof King customer reviews",
+    "title": "Roofing Reviews From Our Customers",
     "quote": "I just had a roofing job done by them and the roofing job looks really great. They did a good job of cleaning up.",
     "author": "Douglas C",
     "sourceLabel": "Customer review on BBB",
@@ -295,13 +350,13 @@
     "title": "A few questions worth asking.",
     "items": [
       {
-        "question": "Does a leak mean I need a new roof?",
+        "question": "What residential roofing services does Roof King provide?",
         "answer": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Not necessarily. The location of the problem, surrounding roof condition and repair history all matter. An inspection helps you discuss whether a localized repair or broader work makes sense."
+                "text": "Our residential roofing services include roof repair, complete replacement, GAF roofing installation, metal roofing and storm damage restoration. Explore the service pages for installation details, product options and the coverage to discuss with your project estimate."
               }
             ]
           }
