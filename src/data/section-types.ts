@@ -8,7 +8,7 @@ export type BrandSection = HeadingData & { items: ImageData[] };
 export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null}[] };
 export type ContentSectionData = { type:'content'; variant:'services'|'features'|'prose'; body:RichNode[]; cards:{title:string;body:RichNode[];href?:string}[] };
 export type GallerySection = HeadingData & { type:'gallery'; filters:{label:string;value:string}[];items:(ImageData & {tags:string[]})[] };
-export type MediaContentRowData = {type:'media-row';id:string;title:string;eyebrow:string;body:RichNode[];image:ImageData;caption?:string;reverse?:boolean;links:{label:string;href:string}[]};
+export type MediaContentRowData = {type:'media-row';id:string;title:string;eyebrow:string;body:RichNode[];image:ImageData;caption?:string;reverse?:boolean;linkPlacement?:'media';links:{label:string;href:string;icon?:'roof'|'shingles'|'brand'|'energy'}[]};
 export type ServiceSection = ContentSectionData | MediaContentRowData |
   (BrandSection & {type:'brands'}) |
   (CardSectionData & {type:'cards';kind:'offers'|'reviews'}) |

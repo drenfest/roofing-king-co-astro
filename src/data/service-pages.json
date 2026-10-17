@@ -4680,22 +4680,27 @@
         "links": [
           {
             "label": "Roofing products",
-            "href": "/products/roofing/"
+            "href": "/products/roofing/",
+            "icon": "roof"
           },
           {
             "label": "Compare shingles",
-            "href": "/products/roofing/shingles/"
+            "href": "/products/roofing/shingles/",
+            "icon": "shingles"
           },
           {
             "label": "Explore GAF shingles",
-            "href": "/roofing/gaf/types/"
+            "href": "/roofing/gaf/types/",
+            "icon": "brand"
           },
           {
             "label": "HDZ RS energy specifications",
-            "href": "/products/roofing/shingles/gaf/timberline-hdz-rs/#specifications"
+            "href": "/products/roofing/shingles/gaf/timberline-hdz-rs/#specifications",
+            "icon": "energy"
           }
         ],
-        "reverse": false
+        "reverse": false,
+        "linkPlacement": "media"
       },
       {
         "type": "media-row",
