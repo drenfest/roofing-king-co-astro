@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:31:38.047Z",
+  "generatedAt": "2026-10-17T20:35:31.275Z",
   "scope": "All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.",
   "totalRoutes": 229,
   "canonicalTargets": 216,
@@ -128,14 +128,14 @@
   ],
   "catalog": [
     {
-      "id": "ServiceGuide",
-      "name": "ServiceGuide / anchored service topics",
+      "id": "MediaContentRow",
+      "name": "MediaContentRow / service topic with media",
       "selector": null,
       "state": "reuse",
-      "from": "ServiceGuide.astro",
+      "from": "MediaContentRow.astro",
       "engine": "Astro",
-      "props": "typed introduction and ordered heading/body topics with stable anchor IDs",
-      "reason": "Break long location-service copy into readable sections with responsive navigation; proven on Cleveland roofing.",
+      "props": "heading, typed body, image/caption, alternating position, explicit internal links and preserved anchor ID",
+      "reason": "Give each service topic its own media-led row; connect local services to relevant product pillars and specifications.",
       "observedRoutes": [],
       "recommendedRoutes": [
         "/cleveland-oh/roofing/"
@@ -11511,7 +11511,7 @@
           "action": "adapt"
         },
         {
-          "id": "ServiceGuide",
+          "id": "MediaContentRow",
           "observed": false,
           "action": "reuse"
         }

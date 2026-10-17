@@ -8,8 +8,8 @@ export type BrandSection = HeadingData & { items: ImageData[] };
 export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null}[] };
 export type ContentSectionData = { type:'content'; variant:'services'|'features'|'prose'; body:RichNode[]; cards:{title:string;body:RichNode[];href?:string}[] };
 export type GallerySection = HeadingData & { type:'gallery'; filters:{label:string;value:string}[];items:(ImageData & {tags:string[]})[] };
-export type ServiceGuideData = {type:'guide';intro:RichNode[];items:{id:string;title:string;body:RichNode[]}[]};
-export type ServiceSection = ContentSectionData | ServiceGuideData |
+export type MediaContentRowData = {type:'media-row';id:string;title:string;eyebrow:string;body:RichNode[];image:ImageData;caption?:string;reverse?:boolean;links:{label:string;href:string}[]};
+export type ServiceSection = ContentSectionData | MediaContentRowData |
   (BrandSection & {type:'brands'}) |
   (CardSectionData & {type:'cards';kind:'offers'|'reviews'}) |
   GallerySection |

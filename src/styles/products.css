@@ -150,3 +150,12 @@
 .rk-accessory-infographic svg { display:block;width:100%;height:auto; }
 .rk-accessory-infographic figcaption { font-size:.85rem;line-height:1.65;padding:.85rem;background:#edf3e9;border-left:3px solid #e37318; }
 .rk-accessory-infographic strong { display:block;color:#264831; }
+
+.rk-product-energy { margin-top:2rem;padding-top:1.5rem;border-top:2px solid #d6ddcf;line-height:1.7; }
+.rk-product-energy h3 { font-size:1.4rem; }
+.rk-energy-table-scroll { overflow-x:auto;max-width:100%;border:1px solid #d6ddcf;margin:1rem 0; }
+.rk-energy-table-scroll table { border-collapse:collapse;width:100%;min-width:680px;font-size:.85rem; }
+.rk-energy-table-scroll th,.rk-energy-table-scroll td { padding:.75rem;text-align:left;border-bottom:1px solid #d6ddcf; }
+.rk-energy-table-scroll thead { background:#183c2a;color:white; }
+.rk-energy-table-scroll caption { padding:.7rem;text-align:left; }
+.rk-energy-table-scroll th small { display:block;font-weight:400; }

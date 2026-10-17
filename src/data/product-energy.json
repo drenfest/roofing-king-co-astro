@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-10-17",
+  "sourceDate": "2026-09-24",
+  "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf_energy_saving_products__ratings.pdf",
+  "rows": [
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Charcoal",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.92,
+      "sri": 21,
+      "crrcId": "0676-0136b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Hickory",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.92,
+      "sri": 21,
+      "crrcId": "0676-0138a",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Aged Chestnut",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.92,
+      "sri": 21,
+      "crrcId": "0676-0130b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Coastal Slate",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.92,
+      "sri": 21,
+      "crrcId": "0676-0131b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Sagewood",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.22,
+      "thermalEmittance": 0.92,
+      "sri": 22,
+      "crrcId": "0676-0132b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Sandalwood",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.23,
+      "thermalEmittance": 0.92,
+      "sri": 24,
+      "crrcId": "0676-0133b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz-rs",
+      "color": "Stone Gray",
+      "plant": "Shafter, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.93,
+      "sri": 22,
+      "crrcId": "0676-0137b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "grand-sequoia-rs",
+      "color": "Charcoal",
+      "plant": "Fontana, CA",
+      "solarReflectance": 0.21,
+      "thermalEmittance": 0.92,
+      "sri": 21,
+      "crrcId": "0676-0143b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "grand-sequoia-rs",
+      "color": "Forest Brown",
+      "plant": "Fontana, CA",
+      "solarReflectance": 0.22,
+      "thermalEmittance": 0.92,
+      "sri": 23,
+      "crrcId": "0676-0140b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "grand-sequoia-rs",
+      "color": "Ocean Gray",
+      "plant": "Fontana, CA",
+      "solarReflectance": 0.22,
+      "thermalEmittance": 0.92,
+      "sri": 22,
+      "crrcId": "0676-0142a",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "grand-sequoia-rs",
+      "color": "Sagewood",
+      "plant": "Fontana, CA",
+      "solarReflectance": 0.22,
+      "thermalEmittance": 0.92,
+      "sri": 23,
+      "crrcId": "0676-0139b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "grand-sequoia-rs",
+      "color": "Sandalwood",
+      "plant": "Fontana, CA",
+      "solarReflectance": 0.22,
+      "thermalEmittance": 0.92,
+      "sri": 23,
+      "crrcId": "0676-0141b",
+      "agedStatus": "Pending"
+    },
+    {
+      "productId": "timberline-hdz",
+      "color": "Fox Hollow Gray",
+      "plant": "Not specified in source row",
+      "solarReflectance": 0.2,
+      "thermalEmittance": 0.93,
+      "sri": 21,
+      "crrcId": "0676-0173",
+      "agedStatus": "Pending"
+    }
+  ]
+}

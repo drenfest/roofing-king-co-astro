@@ -38,7 +38,7 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 
 | Component | Observed source URLs | Recommended URLs | Work needed |
 | --- | ---: | ---: | --- |
-| ServiceGuide / anchored service topics | 0 | 1 | reuse — ServiceGuide.astro |
+| MediaContentRow / service topic with media | 0 | 1 | reuse — MediaContentRow.astro |
 | SiteChrome / document shell | 229 | 229 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
 | PageHero | 95 | 112 | reuse — PageHero.astro |
 | TrustStrip | 95 | 96 | reuse — TrustStrip.astro |
@@ -672,7 +672,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 #### /cleveland-oh/roofing/
 
 **Cleveland, OH Roofing Company** · wordpress · Native service components
-- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], FAQSection [proposed], ProjectGallery [observed], QuoteCTA [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed], ServiceGuide [proposed].
+- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], FAQSection [proposed], ProjectGallery [observed], QuoteCTA [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed], MediaContentRow [proposed].
 - Page-specific work: Use LocalServicePage with this route’s specific service intent. Preserve its detailed local copy and FAQs; add only verified project/review evidence for that service and location.
 - Source evidence: 21 headings; 524 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
 

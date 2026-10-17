@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 import sharp from 'sharp';
 import * as cheerio from 'cheerio';
 const catalog=JSON.parse(await fs.readFile('src/data/product-catalog.json','utf8'));
+const energy=JSON.parse(await fs.readFile('src/data/product-energy.json','utf8'));
+assert.equal(energy.rows.length,13);
+for(const row of energy.rows){assert.ok(row.solarReflectance>=0&&row.solarReflectance<=1);assert.ok(row.thermalEmittance>=0&&row.thermalEmittance<=1);assert.equal(row.agedStatus,'Pending');}
 const evidence=JSON.parse(await fs.readFile('migration/sources/gaf-product-catalog.json','utf8'));
 const $=cheerio.load(await fs.readFile('dist/roofing/gaf/types/index.html','utf8'));
 assert.equal($('.rk-product-card').length,Object.keys(catalog).length);
@@ -19,6 +22,8 @@ for(const [title,product]of Object.entries(catalog)){
   assert.ok(product.warrantyLabels.length>0);
   assert.deepEqual(product.specs,evidence.records[title].specs);
   assert.deepEqual(product.badges,evidence.records[title].badges);
+  assert.equal(card.find('[data-product-energy]').length,1);
+  assert.equal(card.find('.rk-product-energy tbody tr').length,energy.rows.filter(r=>r.productId===product.id).length);
   assert.equal(card.find('.rk-product-photo .rk-product-badge').length,4);
   assert.equal(card.find('.rk-product-badge-disclosure summary').length,4);
   assert.equal(card.find('.rk-product-badge-icon').length,4);

@@ -9,7 +9,7 @@ const manifest = JSON.parse(await fs.readFile('migration/route-manifest.json', '
 const wordpress = JSON.parse(await fs.readFile('migration/sources/wordpress-content.json', 'utf8'));
 const wpById = new Map(wordpress.records.map(r => [r.id, r]));
 const catalog = [
-  {id:'ServiceGuide',name:'ServiceGuide / anchored service topics',selector:null,state:'reuse',from:'ServiceGuide.astro',engine:'Astro',props:'typed introduction and ordered heading/body topics with stable anchor IDs',reason:'Break long location-service copy into readable sections with responsive navigation; proven on Cleveland roofing.'},
+  {id:'MediaContentRow',name:'MediaContentRow / service topic with media',selector:null,state:'reuse',from:'MediaContentRow.astro',engine:'Astro',props:'heading, typed body, image/caption, alternating position, explicit internal links and preserved anchor ID',reason:'Give each service topic its own media-led row; connect local services to relevant product pillars and specifications.'},
   {id:'SiteChrome',name:'SiteChrome / document shell',selector:'*',state:'adapt',from:'DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte',engine:'Astro + Svelte navigation/modal',props:'title, description, canonical, breadcrumbs, active navigation; one modal host per page',reason:'Move every family onto the native header/footer and metadata shell. Keep route identity outside layout selection.'},
   {id:'PageHero',name:'PageHero',selector:'.rk-home-hero',state:'adapt',from:'HomeHero.astro',engine:'Astro',props:'eyebrow, h1, copy, image, CTA card, variant',reason:'Generalize the homepage hero rather than importing home.json into every page. Put the one H1 inside the hero.'},
   {id:'TrustStrip',name:'TrustStrip',selector:'.rk-home-badges',state:'adapt',from:'HomeTrust.astro',engine:'Astro',props:'certifications, rating source, rating, review count',reason:'Split certifications/review summary from the brand strip; use one verified data source.'},
@@ -134,7 +134,7 @@ for(const route of manifest.routes) {
   if(route.source==='published-static-build')issues.push('Public static output only; original application/backend source is unavailable.');
   if(route.path==='/service-areas/')issues.push('Directory mixes geographic and non-geographic entries.');
   if(route.path==='/roofing/gaf/types/')recommended.push('ProductGrid');
-  if(route.path==='/cleveland-oh/roofing/')recommended.push('ServiceGuide');
+  if(route.path==='/cleveland-oh/roofing/')recommended.push('MediaContentRow');
   const componentPlan=[...new Set(recommended)].map(id=>({id,observed:observed.includes(id),action:byComponent.get(id).state}));
   records.push({...route,title:meta.title,category:meta.category,family:group,primaryWords,primaryExcerpt:primaryText.slice(0,600),headings,blocks,observed,components:componentPlan,issues,note:specificNote(route.path,group),bodyHash:crypto.createHash('sha256').update(primaryText).digest('hex'),nativeStatus:route.path==='/'?'Native homepage':observed.includes('RoofrEstimator')?'Imported page + native estimator':'Imported / reconstructed page',role:group==='homepage'?'Primary':((group==='services'&&['Service hub','Core service'].includes(meta.category))||(group==='products'&&meta.category==='Product hub'))?'Primary candidate':'Supporting / purpose-specific',reviewStatus:'Source audited; visual approval pending'});
 }

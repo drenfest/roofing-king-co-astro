@@ -4362,8 +4362,9 @@
         "cards": []
       },
       {
-        "type": "guide",
-        "intro": [
+        "type": "content",
+        "variant": "prose",
+        "body": [
           {
             "text": "\n      "
           },
@@ -4442,100 +4443,142 @@
             ]
           }
         ],
-        "items": [
+        "cards": []
+      },
+      {
+        "type": "media-row",
+        "id": "cleveland-durable-professional-roof-repair",
+        "title": "Durable & Professional Roof Repair",
+        "body": [
           {
-            "id": "cleveland-durable-professional-roof-repair",
-            "title": "Durable & Professional Roof Repair",
-            "body": [
+            "tag": "p",
+            "children": [
               {
-                "tag": "p",
+                "text": "Has your home’s roofing system sustained damage? Whether that’s because of weather or wear and tear, our team can help. We provide homeowners with the roof repair solutions they need to keep their homes in pristine condition over the years. We’ll start your remodel with a thorough roof inspection to find all signs of damage beneath the surface. From there, "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/repair/",
                 "children": [
                   {
-                    "text": "Has your home’s roofing system sustained damage? Whether that’s because of weather or wear and tear, our team can help. We provide homeowners with the roof repair solutions they need to keep their homes in pristine condition over the years. We’ll start your remodel with a thorough roof inspection to find all signs of damage beneath the surface. From there, "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/roofing/repair/",
-                    "children": [
-                      {
-                        "text": "we provide durable roof repairs"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " that prevent future damage from occurring."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "cleveland-pro-roof-replacements-in-cleveland",
-            "title": "Pro Roof Replacements in Cleveland",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Don’t wait a second longer than necessary to invest in your home roof replacement. Work with the best Cleveland roofing contractors from Roof King. We provide fast and "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/roofing/replacement/",
-                    "children": [
-                      {
-                        "text": "detail-oriented roof replacement services"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " to provide homeowners with durable, weather-resistant, and beautiful new roofing systems that improve the value of their homes."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "cleveland-expertise-with-various-roofing-types",
-            "title": "Expertise with Various Roofing Types",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "If you’ve been looking for roofers specializing in "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/roofing/types/",
-                    "children": [
-                      {
-                        "text": "various types of roofing systems"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ", you’ve come to the right place. Our team is proud to be GAF Master Elite Contractors for "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/roofing/gaf/",
-                    "children": [
-                      {
-                        "text": "precision GAF roof installations"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". We can get you the new roof you need to maintain energy efficiency and weather resistance year-round. Enjoy the following options and more:"
+                    "text": "we provide durable roof repairs"
                   }
                 ]
               },
               {
-                "tag": "ul",
+                "text": " that prevent future damage from occurring."
+              }
+            ]
+          }
+        ],
+        "eyebrow": "Repair the damage",
+        "image": {
+          "src": "/media/wordpress/717dd193ee03-before.jpg",
+          "alt": "Existing roof condition shown before an Ohio roof replacement"
+        },
+        "caption": "Existing roofing before a Roof King replacement project.",
+        "links": [
+          {
+            "label": "Explore roof repair",
+            "href": "/roofing/repair/"
+          },
+          {
+            "label": "Storm damage support",
+            "href": "/cleveland-oh/storm-damage/"
+          }
+        ],
+        "reverse": false
+      },
+      {
+        "type": "media-row",
+        "id": "cleveland-pro-roof-replacements-in-cleveland",
+        "title": "Pro Roof Replacements in Cleveland",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Don’t wait a second longer than necessary to invest in your home roof replacement. Work with the best Cleveland roofing contractors from Roof King. We provide fast and "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/replacement/",
                 "children": [
                   {
-                    "tag": "li",
+                    "text": "detail-oriented roof replacement services"
+                  }
+                ]
+              },
+              {
+                "text": " to provide homeowners with durable, weather-resistant, and beautiful new roofing systems that improve the value of their homes."
+              }
+            ]
+          }
+        ],
+        "eyebrow": "Plan a stronger replacement",
+        "image": {
+          "src": "/media/wordpress/6157f73c34cd-after.jpg",
+          "alt": "Roof after replacement in the Roof King Ohio project gallery"
+        },
+        "caption": "Completed Ohio roof replacement from the existing project gallery.",
+        "links": [
+          {
+            "label": "Roof replacement services",
+            "href": "/roofing/replacement/"
+          },
+          {
+            "label": "Cleveland replacement cost guide",
+            "href": "/cleveland-oh/roofing/cost-of-replacement/"
+          }
+        ],
+        "reverse": true
+      },
+      {
+        "type": "media-row",
+        "id": "cleveland-expertise-with-various-roofing-types",
+        "title": "Expertise with Various Roofing Types",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "If you’ve been looking for roofers specializing in "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/types/",
+                "children": [
+                  {
+                    "text": "various types of roofing systems"
+                  }
+                ]
+              },
+              {
+                "text": ", you’ve come to the right place. Our team is proud to be GAF Master Elite Contractors for "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/gaf/",
+                "children": [
+                  {
+                    "text": "precision GAF roof installations"
+                  }
+                ]
+              },
+              {
+                "text": ". We can get you the new roof you need to maintain energy efficiency and weather resistance year-round. Enjoy the following options and more:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "a",
+                    "href": "/products/roofing/shingles/",
                     "children": [
                       {
                         "tag": "strong",
@@ -4544,46 +4587,52 @@
                             "text": "Asphalt Shingles:"
                           }
                         ]
-                      },
-                      {
-                        "text": " We offer a comprehensive selection of asphalt shingles in a variety of colors, styles, and performance levels."
-                      },
-                      {
-                        "tag": "br",
-                        "children": []
                       }
                     ]
                   },
                   {
-                    "tag": "li",
+                    "text": " We offer a comprehensive selection of asphalt shingles in a variety of colors, styles, and performance levels."
+                  },
+                  {
+                    "tag": "br",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "strong",
                     "children": [
                       {
-                        "tag": "strong",
-                        "children": [
-                          {
-                            "text": "Metal Roofing:"
-                          }
-                        ]
-                      },
-                      {
-                        "text": " Work with our team for a "
-                      },
-                      {
-                        "tag": "a",
-                        "href": "/roofing/metal/",
-                        "children": [
-                          {
-                            "text": "high-value metal roof installation"
-                          }
-                        ]
-                      },
-                      {
-                        "text": " that will last decades longer than traditional materials."
+                        "text": "Metal Roofing:"
                       }
                     ]
                   },
                   {
-                    "tag": "li",
+                    "text": " Work with our team for a "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/metal/",
+                    "children": [
+                      {
+                        "text": "high-value metal roof installation"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " that will last decades longer than traditional materials."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "tag": "a",
+                    "href": "/roofing/gaf/types/",
                     "children": [
                       {
                         "tag": "strong",
@@ -4592,54 +4641,115 @@
                             "text": "GAF Products:"
                           }
                         ]
-                      },
-                      {
-                        "text": " Our business is a certified contractor for premium installations and can offer exclusive GAF roofing warranties."
                       }
                     ]
+                  },
+                  {
+                    "text": " Our business is a certified contractor for premium installations and can offer exclusive GAF roofing warranties."
                   }
                 ]
               }
             ]
           },
           {
-            "id": "cleveland-contact-our-cleveland-roofing-contractors-for-a-free-quote",
-            "title": "Contact Our Cleveland Roofing Contractors for a Free Quote",
-            "body": [
+            "tag": "p",
+            "children": [
               {
-                "tag": "p",
+                "text": "For energy-conscious product selection, compare color-specific solar reflectance, thermal emittance and Solar Reflectance Index rather than assuming every shingle performs alike. "
+              },
+              {
+                "tag": "a",
+                "href": "/products/roofing/shingles/gaf/timberline-hdz-rs/#specifications",
                 "children": [
                   {
-                    "text": "At Roof King, we provide homeowners with superior roof and "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/cleveland-oh/",
-                    "children": [
-                      {
-                        "text": "exterior remodeling in Cleveland"
-                      }
-                    ]
-                  },
-                  {
-                    "text": ". Our team serves "
-                  },
-                  {
-                    "tag": "span",
-                    "children": [
-                      {
-                        "text": "Columbus and the entire state of Ohio with home roofing, commercial roofing, attic insulation, siding, gutters, storm restoration, windows, and decking. Reach out today to get started on your home improvement with a free roofing quote!"
-                      }
-                    ]
+                    "text": "See the published energy specifications for Timberline HDZ RS"
                   }
                 ]
               },
               {
-                "text": "\n    "
+                "text": ". Consider these alongside attic insulation, ventilation and your home’s heating and cooling needs; product ratings do not predict a fixed saving on your energy bill."
               }
             ]
           }
-        ]
+        ],
+        "eyebrow": "Compare materials and performance",
+        "image": {
+          "src": "/media/wordpress/ef95be4093cb-1c7c63ad-8ab5-4468-be40-9a7dc9a04dd8.jpg",
+          "alt": "Residential roofing from Roof King’s existing roofing imagery"
+        },
+        "links": [
+          {
+            "label": "Roofing products",
+            "href": "/products/roofing/"
+          },
+          {
+            "label": "Compare shingles",
+            "href": "/products/roofing/shingles/"
+          },
+          {
+            "label": "Explore GAF shingles",
+            "href": "/roofing/gaf/types/"
+          },
+          {
+            "label": "HDZ RS energy specifications",
+            "href": "/products/roofing/shingles/gaf/timberline-hdz-rs/#specifications"
+          }
+        ],
+        "reverse": false
+      },
+      {
+        "type": "media-row",
+        "id": "cleveland-contact-our-cleveland-roofing-contractors-for-a-free-quote",
+        "title": "Contact Our Cleveland Roofing Contractors for a Free Quote",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "At Roof King, we provide homeowners with superior roof and "
+              },
+              {
+                "tag": "a",
+                "href": "/cleveland-oh/",
+                "children": [
+                  {
+                    "text": "exterior remodeling in Cleveland"
+                  }
+                ]
+              },
+              {
+                "text": ". Our team serves "
+              },
+              {
+                "tag": "span",
+                "children": [
+                  {
+                    "text": "Columbus and the entire state of Ohio with home roofing, commercial roofing, attic insulation, siding, gutters, storm restoration, windows, and decking. Reach out today to get started on your home improvement with a free roofing quote!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "\n    "
+          }
+        ],
+        "eyebrow": "Plan your next step",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        },
+        "links": [
+          {
+            "label": "Discuss your project",
+            "href": "/contact-us/"
+          },
+          {
+            "label": "Cleveland services",
+            "href": "/cleveland-oh/"
+          }
+        ],
+        "reverse": true
       },
       {
         "type": "brands",

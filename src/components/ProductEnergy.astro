@@ -1,0 +1,21 @@
+---
+import energy from '../data/product-energy.json';
+interface Props {productId:string;}
+const {productId}=Astro.props;
+const rows=energy.rows.filter(row=>row.productId===productId);
+---
+<section class="rk-product-energy" aria-labelledby={`energy-${productId}`} data-product-energy={productId}>
+  <h3 id={`energy-${productId}`}>Energy performance by color</h3>
+  <p>Solar reflectance measures sunlight reflected away; thermal emittance describes how readily the surface releases heat. Both use a 0–1 scale: a solar reflectance of 0.21 means 21% of incoming sunlight is reflected. Solar Reflectance Index (SRI) combines these properties for comparison—it is not a percentage of energy savings.</p>
+  {rows.length ? <>
+    <p>These are specific GAF product/color listings. Confirm the CRRC ID and manufacturing plant on the supplied product; matching a color name alone does not establish the same rating.</p>
+    <div class="rk-energy-table-scroll" role="region" aria-label="Color-specific energy ratings" tabindex="0"><table>
+      <caption>Initial ratings · {energy.sourceDate} manufacturer table</caption>
+      <thead><tr><th scope="col">Color / plant</th><th scope="col">Solar reflectance</th><th scope="col">Thermal emittance</th><th scope="col">SRI</th><th scope="col">3-year values</th><th scope="col">CRRC ID</th></tr></thead>
+      <tbody>{rows.map(row=><tr><th scope="row">{row.color}<small>{row.plant}</small></th><td>{row.solarReflectance.toFixed(2)}</td><td>{row.thermalEmittance.toFixed(2)}</td><td>{row.sri}</td><td>Pending</td><td>{row.crrcId}</td></tr>)}</tbody>
+    </table></div>
+    <p>Three-year reflectance, emittance and SRI are pending for these listings. GAF’s separate calculated Title 24 figures are not substituted for measured aged values.</p>
+  </> : <p>No matching product/color energy figures have been verified in the current source table for this catalog record. Ask for the exact CRRC-rated product/color before comparing efficiency; ratings from another shingle or color do not apply.</p>}
+  <p>These measurements describe the roof surface, not insulation R-value or a whole-home savings estimate. Climate, attic insulation, ventilation and building design affect the result.</p>
+  <a href={energy.sourceUrl} target="_blank" rel="noopener noreferrer">GAF solar-reflective product ratings (PDF) ↗</a> · <a href="https://www.energy.gov/sites/default/files/guide_to_cool_roofs.pdf" target="_blank" rel="noopener noreferrer">How cool-roof measurements work ↗</a>
+</section>
