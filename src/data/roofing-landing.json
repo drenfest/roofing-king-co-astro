@@ -330,11 +330,35 @@
     "description": "Selected customer review excerpts from Google, BBB and Birdeye. Follow each source link to read the original review."
   },
   "local": {
-    "eyebrow": "Based in Columbus, Ohio",
-    "title": "Local roofing support, from start to finish.",
-    "description": "Planning a repair, replacing an aging roof or dealing with storm damage? Connect with our Columbus team to discuss your home and the next steps for your roof.",
-    "linkLabel": "Columbus roofing services",
-    "linkHref": "/columbus-oh/roofing/"
+    "eyebrow": "Where we work",
+    "title": "Residential Roofing Service Locations",
+    "description": "Explore residential roofing services in Columbus, Cleveland, Cincinnati, Dayton and Delaware. Choose your location for roof repair, replacement and local service information.",
+    "items": [
+      {
+        "label": "Columbus, OH",
+        "href": "/columbus-oh/roofing/"
+      },
+      {
+        "label": "Cleveland, OH",
+        "href": "/cleveland-oh/roofing/"
+      },
+      {
+        "label": "Cincinnati, OH",
+        "href": "/cincinnati-oh/roofing/"
+      },
+      {
+        "label": "Dayton, OH",
+        "href": "/dayton-oh/roofing/"
+      },
+      {
+        "label": "Delaware, OH",
+        "href": "/delaware-oh/roofing/"
+      },
+      {
+        "label": "All service areas",
+        "href": "/service-areas/"
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Roofing questions, answered",

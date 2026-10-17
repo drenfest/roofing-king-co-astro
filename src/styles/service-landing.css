@@ -292,3 +292,8 @@
 [data-landing-build="editorial"] .rk-service-faq .rk-home-section-header h2::after{display:none;}
 [data-landing-build="editorial"] .rk-service-faq::before{content:'';position:absolute;z-index:0;left:-4rem;bottom:-2rem;width:min(44vw,580px);aspect-ratio:1058/521;background-image:var(--rk-logo-crown);background-position:left bottom;background-size:contain;background-repeat:no-repeat;transform:rotate(-18deg);opacity:.1;pointer-events:none;}
 @media(max-width:760px){[data-landing-build="editorial"] .rk-service-faq::before{width:90vw;left:-4rem;bottom:-1rem;opacity:.07;}}
+
+[data-landing-build="editorial"] .rk-landing-local-links{grid-template-columns:repeat(2,minmax(0,1fr));}
+[data-landing-build="editorial"] .rk-landing-local-links a{gap:.65rem;padding:1rem;font-size:.88rem;}
+[data-landing-build="editorial"] .rk-local-link-icon{width:32px;height:32px;}
+@media(max-width:760px){[data-landing-build="editorial"] .rk-landing-local-links{grid-template-columns:1fr;}}
