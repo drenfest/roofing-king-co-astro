@@ -39,3 +39,7 @@ Validation covers all route/asset/canonical contracts, the three hubs, eleven in
 - [Google breadcrumb guidance](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb): represent a typical user path rather than mechanically mirroring URLs.
 - [GAF shingle selection guide](https://www.gaf.com/en-us/plan-design/design-your-roof/how-to-choose-roof-shingles): product choice factors and manufacturer qualifications.
 - Per-product source URLs and image provenance: `migration/sources/gaf-product-catalog.json`.
+
+## Siding and decking brand branches — 2026-10-17
+
+User approved internal destinations for the manufacturer logos. Added ten authored URLs: siding and decking category hubs, vinyl/engineered-wood/fiber-cement/composite material hubs, and Variform/LP SmartSide/James Hardie/Trex brand pages. Current route total is 239: 215 original paths plus 24 authored product-pillar routes. Brand pages are overviews with current primary manufacturer references, material/design/installation considerations and internal service links; they do not assert stock, price, warranty duration or a populated individual-product catalog. Canonicals remain self-referential. BrandStrip uses brand-pages.json so the same logo destination applies throughout native pages. GAF certification marks link to existing GAF service/certification pages.

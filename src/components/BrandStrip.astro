@@ -1,12 +1,14 @@
 ---
 import HomeImage from './HomeImage.astro';
 import type { BrandSection } from '../data/section-types';
+import brandPages from '../data/brand-pages.json';
 interface Props { brands: BrandSection; }
 const { brands } = Astro.props;
 ---
 <section class="rk-home-brands rk-block-trusted-brands" aria-label="Trusted brands">
   <div class="rk-section-inner rk-brands-inner">
     <div class="rk-brands-heading"><p class="rk-home-eyebrow">{brands.eyebrow}</p><h2>{brands.title}</h2><p>{brands.description}</p></div>
-    <div class="rk-home-brand-list">{brands.items.map(image => <figure class="rk-home-brand-mark"><span class="rk-shingle-bg" aria-hidden="true"></span><HomeImage {...image} sizes="180px" /></figure>)}</div>
+    <div class="rk-home-brand-list">{brands.items.map(image => {const href=(brandPages as Record<string,string>)[image.alt];const Tag=href?'a':'figure';return <Tag class="rk-home-brand-mark" href={href} aria-label={href?`Explore ${image.alt}`:undefined}><span class="rk-shingle-bg" aria-hidden="true"></span><HomeImage {...image} sizes="180px" /></Tag>;})}</div>
   </div>
 </section>
+<style>.rk-home-brand-mark:focus-visible{outline:3px solid #bd5207;outline-offset:-5px;}</style>

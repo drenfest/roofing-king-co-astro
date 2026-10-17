@@ -8,7 +8,9 @@ Content at this preserved URL branch. index.md is an editable page; child direct
 
 ## Subdirectories
 
+- `decking/` - read its ai-context.md.
 - `roofing/` - read its ai-context.md.
+- `siding/` - read its ai-context.md.
 
 ## Change checks
 

@@ -99,3 +99,14 @@ for(const path of ['/products/','/products/roofing/','/products/roofing/shingles
   const hub=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(hub('h1').length,1);assert.equal(hub('[data-product-pillar="native"]').length,1);
 }
 console.log('Three product hubs, eleven individual product records, logical breadcrumbs/schema and retained catalog canonical passed.');
+
+const brandPages=JSON.parse(await fs.readFile('src/data/brand-pages.json','utf8'));
+const hubs=JSON.parse(await fs.readFile('src/data/product-pillar.json','utf8'));
+const cleveland=cheerio.load(await fs.readFile('dist/cleveland-oh/roofing/index.html','utf8'));
+for(const name of ['Variform','LP SmartSide','Trex','James Hardie']){
+  const path=brandPages[name];assert.ok(cleveland('.rk-home-brand-mark[href="'+path+'"]').length,'Logo must link internally: '+name);
+  const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('h1').length,1);assert.equal(page('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
+  assert.ok(page('.rk-native-breadcrumbs').text().includes(name));assert.ok(page('main').text().includes('manufacturer product information'));
+}
+for(const path of Object.keys(hubs)){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('[data-product-pillar=native]').length,1);}
+console.log('Four internal brand destinations, shared logo links and all material/category hubs passed.');

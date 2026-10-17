@@ -159,3 +159,4 @@
 .rk-energy-table-scroll thead { background:#183c2a;color:white; }
 .rk-energy-table-scroll caption { padding:.7rem;text-align:left; }
 .rk-energy-table-scroll th small { display:block;font-weight:400; }
+.rk-brand-page-logo { padding-block:2.5rem 0; }.rk-brand-page-logo img { width:240px;height:100px;object-fit:contain; }.rk-product-hub-brand-card img { height:160px;padding:1.5rem;object-fit:contain;box-sizing:border-box; }

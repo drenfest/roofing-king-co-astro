@@ -16,7 +16,7 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 
 | Family | URLs | Canonical targets |
 | --- | ---: | ---: |
-| Product hubs, guides and records | 16 | 16 |
+| Product hubs, guides and records | 26 | 26 |
 | Homepage | 1 | 1 |
 | Services | 33 | 33 |
 | City landing pages | 24 | 24 |
@@ -39,12 +39,12 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 | Component | Observed source URLs | Recommended URLs | Work needed |
 | --- | ---: | ---: | --- |
 | MediaContentRow / service topic with media | 0 | 1 | reuse — MediaContentRow.astro |
-| SiteChrome / document shell | 229 | 229 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
+| SiteChrome / document shell | 239 | 239 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
 | PageHero | 95 | 112 | reuse — PageHero.astro |
 | TrustStrip | 95 | 96 | reuse — TrustStrip.astro |
-| Breadcrumbs | 108 | 228 | reuse — Breadcrumbs.astro |
+| Breadcrumbs | 108 | 238 | reuse — Breadcrumbs.astro |
 | BrandStrip | 86 | 86 | reuse — BrandStrip.astro |
-| ContentSections / SplitSection | 85 | 155 | reuse — ContentSection.astro + RichContent.astro |
+| ContentSections / SplitSection | 85 | 165 | reuse — ContentSection.astro + RichContent.astro |
 | ServiceGrid / ServiceCard | 9 | 33 | reuse — ContentSection.astro services variant |
 | FeatureGrid / ProcessSteps | 15 | 15 | adapt — HomeWorkmanship.astro |
 | OfferGrid / OfferCard | 52 | 52 | adapt — HomeCardSection.astro |
@@ -88,21 +88,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 ## Page-by-page decisions
 
-### Product hubs, guides and records (16)
-
-#### /roofing/gaf/types/
-
-**GAF Shingles: Colors, Styles and Specifications** · wordpress · Native service components
-- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed], ProductGrid [proposed].
-- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 29 headings; 380 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
-
-#### /roofing/types/
-
-**Roofing Materials and Types** · wordpress · Native service components
-- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed].
-- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
+### Product hubs, guides and records (26)
 
 #### /products/
 
@@ -111,6 +97,27 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
 - Source evidence: 6 headings; 91 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/decking/
+
+**Decking Products** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 134 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/decking/composite/
+
+**Composite Decking Products** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 189 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/decking/composite/trex/
+
+**Trex Composite Decking** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 209 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
 #### /products/roofing/
 
@@ -127,28 +134,44 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 6 headings; 98 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
-#### /products/roofing/shingles/gaf/timberline-hdz/
+#### /products/roofing/shingles/gaf/camelot-ii/
 
-**Timberline HDZ Roofing Shingles** · authored-product-pillar · Native product pillar
+**Camelot II Roofing Shingles** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 82 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 4 headings; 44 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
-#### /products/roofing/shingles/gaf/timberline-uhdz/
+#### /products/roofing/shingles/gaf/grand-sequoia-as/
 
-**Timberline UHDZ Roofing Shingles** · authored-product-pillar · Native product pillar
+**Grand Sequoia AS Roofing Shingles** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 56 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
-#### /products/roofing/shingles/gaf/timberline-ns/
+#### /products/roofing/shingles/gaf/grand-sequoia-rs/
 
-**Timberline NS Roofing Shingles** · authored-product-pillar · Native product pillar
+**Grand Sequoia RS Roofing Shingles** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 50 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 4 headings; 43 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/grand-sequoia/
+
+**Grand Sequoia Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/royal-sovereign/
+
+**Royal Sovereign Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 58 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
 #### /products/roofing/shingles/gaf/timberline-as-ii/
@@ -167,12 +190,28 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 4 headings; 72 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
-#### /products/roofing/shingles/gaf/camelot-ii/
+#### /products/roofing/shingles/gaf/timberline-hdz/
 
-**Camelot II Roofing Shingles** · authored-product-pillar · Native product pillar
+**Timberline HDZ Roofing Shingles** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 44 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 4 headings; 82 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-ns/
+
+**Timberline NS Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 50 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-uhdz/
+
+**Timberline UHDZ Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 56 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
 #### /products/roofing/shingles/gaf/woodland/
@@ -183,37 +222,68 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
-#### /products/roofing/shingles/gaf/grand-sequoia/
+#### /products/siding/
 
-**Grand Sequoia Roofing Shingles** · authored-product-pillar · Native product pillar
+**Siding Products** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+- Source evidence: 8 headings; 220 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-#### /products/roofing/shingles/gaf/grand-sequoia-rs/
+#### /products/siding/engineered-wood/
 
-**Grand Sequoia RS Roofing Shingles** · authored-product-pillar · Native product pillar
+**Engineered Wood Siding Products** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 43 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+- Source evidence: 6 headings; 174 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-#### /products/roofing/shingles/gaf/grand-sequoia-as/
+#### /products/siding/engineered-wood/lp-smartside/
 
-**Grand Sequoia AS Roofing Shingles** · authored-product-pillar · Native product pillar
+**LP SmartSide Engineered Wood Siding** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+- Source evidence: 6 headings; 194 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-#### /products/roofing/shingles/gaf/royal-sovereign/
+#### /products/siding/fiber-cement/
 
-**Royal Sovereign Roofing Shingles** · authored-product-pillar · Native product pillar
+**Fiber Cement Siding Products** · authored-product-pillar · Native product pillar
 - Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
-- Source evidence: 4 headings; 58 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+- Source evidence: 6 headings; 182 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/siding/fiber-cement/james-hardie/
+
+**James Hardie Fiber Cement Siding** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 202 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/siding/vinyl/
+
+**Vinyl Siding Products** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 148 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/siding/vinyl/variform/
+
+**Variform Vinyl Siding** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 168 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /roofing/gaf/types/
+
+**GAF Shingles: Colors, Styles and Specifications** · wordpress · Native service components
+- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed], ProductGrid [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 29 headings; 380 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
+
+#### /roofing/types/
+
+**Roofing Materials and Types** · wordpress · Native service components
+- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 ### Homepage (1)
 
@@ -1189,40 +1259,19 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 1 headings; 10 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
-#### /category/roofing/
+#### /blog/page/2/
 
-**Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+**Roof King Blog - Page 2** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 157 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 1 headings; 90 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-#### /category/roof-replacement/
+#### /category/gaf-roofing/
 
-**Roof Replacement Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+**GAF Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 59 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-
-#### /category/storm-damage/
-
-**Storm Damage Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 69 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-
-#### /category/seasonal/
-
-**Seasonal Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 55 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-
-#### /category/roof-repair/
-
-**Roof Repair Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 29 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 1 headings; 12 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
 #### /category/gutters/
@@ -1233,6 +1282,43 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 1 headings; 19 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
+#### /category/ice-dam-removal/
+
+**Ice Dam Removal Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 15 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+
+#### /category/roof-repair/
+
+**Roof Repair Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 29 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+
+#### /category/roof-replacement/
+
+**Roof Replacement Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 59 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /category/roofing/
+
+**Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 157 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /category/seasonal/
+
+**Seasonal Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 55 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
 #### /category/siding/
 
 **Siding Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
@@ -1241,20 +1327,19 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 1 headings; 10 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
-#### /category/gaf-roofing/
+#### /category/storm-damage/
 
-**GAF Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+**Storm Damage Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 12 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+- Source evidence: 1 headings; 69 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-#### /category/ice-dam-removal/
+#### /tag/christmas-lights/
 
-**Ice Dam Removal Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+**Christmas Lights Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 15 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 1 headings; 11 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
 #### /tag/columbus-oh/
@@ -1264,36 +1349,20 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
 - Source evidence: 1 headings; 75 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
+#### /tag/cost-guides/
+
+**Cost Guides Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 20 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+
 #### /tag/dublin-oh/
 
 **Dublin, OH Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
 - Source evidence: 1 headings; 48 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
-
-#### /tag/roof-inspection/
-
-**Roof Inspection Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 33 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
-
-#### /tag/hiring-tips/
-
-**Hiring Tips Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 35 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
-
-#### /tag/winter-roofing/
-
-**Winter Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 32 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
 #### /tag/gaf-shingles/
@@ -1304,22 +1373,6 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 1 headings; 28 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
-#### /tag/wind-damage/
-
-**Wind Damage Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 33 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
-
-#### /tag/cost-guides/
-
-**Cost Guides Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
-- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
-- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 20 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
-- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
-
 #### /tag/hail-damage/
 
 **Hail Damage Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
@@ -1328,20 +1381,37 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 1 headings; 17 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
-#### /tag/christmas-lights/
+#### /tag/hiring-tips/
 
-**Christmas Lights Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+**Hiring Tips Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 11 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 1 headings; 35 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 - Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
-#### /blog/page/2/
+#### /tag/roof-inspection/
 
-**Roof King Blog - Page 2** · reconstructed-wordpress-archive · Imported / reconstructed page
+**Roof Inspection Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
 - Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
 - Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
-- Source evidence: 1 headings; 90 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Source evidence: 1 headings; 33 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+
+#### /tag/wind-damage/
+
+**Wind Damage Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 33 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
+
+#### /tag/winter-roofing/
+
+**Winter Roofing Articles** · reconstructed-wordpress-archive · Imported / reconstructed page
+- Components: SiteChrome [observed], ArchiveListing [observed], Breadcrumbs [proposed].
+- Page-specific work: Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.
+- Source evidence: 1 headings; 32 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Sparse or empty archive; validate taxonomy membership before adding an editorial introduction.
 
 ### Project detail pages (15)
 

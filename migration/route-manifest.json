@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 229,
+  "count": 239,
   "routes": [
     {
       "path": "/",
@@ -528,6 +528,17 @@
       "words": 1094
     },
     {
+      "path": "/blog/page/2/",
+      "file": "src/content/pages/blog/page/2/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/page/2/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 90
+    },
+    {
       "path": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
       "file": "src/content/pages/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
       "source": "wordpress-alternate-route",
@@ -568,6 +579,105 @@
       "canonicalPath": "/careers/",
       "notes": [],
       "words": 447
+    },
+    {
+      "path": "/category/gaf-roofing/",
+      "file": "src/content/pages/category/gaf-roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/gaf-roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/category/gutters/",
+      "file": "src/content/pages/category/gutters/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/gutters/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 19
+    },
+    {
+      "path": "/category/ice-dam-removal/",
+      "file": "src/content/pages/category/ice-dam-removal/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/ice-dam-removal/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 15
+    },
+    {
+      "path": "/category/roof-repair/",
+      "file": "src/content/pages/category/roof-repair/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roof-repair/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/category/roof-replacement/",
+      "file": "src/content/pages/category/roof-replacement/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roof-replacement/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 59
+    },
+    {
+      "path": "/category/roofing/",
+      "file": "src/content/pages/category/roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 157
+    },
+    {
+      "path": "/category/seasonal/",
+      "file": "src/content/pages/category/seasonal/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/seasonal/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 55
+    },
+    {
+      "path": "/category/siding/",
+      "file": "src/content/pages/category/siding/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/siding/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 10
+    },
+    {
+      "path": "/category/storm-damage/",
+      "file": "src/content/pages/category/storm-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/storm-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 69
     },
     {
       "path": "/centerville-oh/",
@@ -1447,6 +1557,250 @@
       "words": 1464
     },
     {
+      "path": "/products/",
+      "file": "src/content/pages/products/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 114
+    },
+    {
+      "path": "/products/decking/",
+      "file": "src/content/pages/products/decking/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/",
+      "notes": [],
+      "words": 148
+    },
+    {
+      "path": "/products/decking/composite/",
+      "file": "src/content/pages/products/decking/composite/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/",
+      "notes": [],
+      "words": 203
+    },
+    {
+      "path": "/products/decking/composite/trex/",
+      "file": "src/content/pages/products/decking/composite/trex/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/",
+      "notes": [],
+      "words": 223
+    },
+    {
+      "path": "/products/roofing/",
+      "file": "src/content/pages/products/roofing/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 143
+    },
+    {
+      "path": "/products/roofing/shingles/",
+      "file": "src/content/pages/products/roofing/shingles/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 109
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/camelot-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/camelot-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/camelot-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 61
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-as/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 60
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/royal-sovereign/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 75
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-as-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 84
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 89
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 99
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-ns/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-ns/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-ns/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 67
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-uhdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 73
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/woodland/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/woodland/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/woodland/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 63
+    },
+    {
+      "path": "/products/siding/",
+      "file": "src/content/pages/products/siding/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/",
+      "notes": [],
+      "words": 240
+    },
+    {
+      "path": "/products/siding/engineered-wood/",
+      "file": "src/content/pages/products/siding/engineered-wood/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/",
+      "notes": [],
+      "words": 188
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/",
+      "notes": [],
+      "words": 208
+    },
+    {
+      "path": "/products/siding/fiber-cement/",
+      "file": "src/content/pages/products/siding/fiber-cement/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/",
+      "notes": [],
+      "words": 196
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/",
+      "notes": [],
+      "words": 216
+    },
+    {
+      "path": "/products/siding/vinyl/",
+      "file": "src/content/pages/products/siding/vinyl/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/",
+      "notes": [],
+      "words": 162
+    },
+    {
+      "path": "/products/siding/vinyl/variform/",
+      "file": "src/content/pages/products/siding/vinyl/variform/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/",
+      "notes": [],
+      "words": 182
+    },
+    {
       "path": "/reviews/",
       "file": "src/content/pages/reviews/index.md",
       "source": "wordpress",
@@ -1777,6 +2131,116 @@
       "words": 610
     },
     {
+      "path": "/tag/christmas-lights/",
+      "file": "src/content/pages/tag/christmas-lights/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/christmas-lights/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 11
+    },
+    {
+      "path": "/tag/columbus-oh/",
+      "file": "src/content/pages/tag/columbus-oh/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/columbus-oh/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 75
+    },
+    {
+      "path": "/tag/cost-guides/",
+      "file": "src/content/pages/tag/cost-guides/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/cost-guides/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/tag/dublin-oh/",
+      "file": "src/content/pages/tag/dublin-oh/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/dublin-oh/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 48
+    },
+    {
+      "path": "/tag/gaf-shingles/",
+      "file": "src/content/pages/tag/gaf-shingles/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/gaf-shingles/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/tag/hail-damage/",
+      "file": "src/content/pages/tag/hail-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/hail-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 17
+    },
+    {
+      "path": "/tag/hiring-tips/",
+      "file": "src/content/pages/tag/hiring-tips/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/hiring-tips/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/tag/roof-inspection/",
+      "file": "src/content/pages/tag/roof-inspection/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/roof-inspection/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/tag/wind-damage/",
+      "file": "src/content/pages/tag/wind-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/wind-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/tag/winter-roofing/",
+      "file": "src/content/pages/tag/winter-roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/winter-roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 32
+    },
+    {
       "path": "/terms/",
       "file": "src/content/pages/terms/index.md",
       "source": "wordpress",
@@ -1846,383 +2310,9 @@
       "canonicalPath": "/zanesville-oh/",
       "notes": [],
       "words": 800
-    },
-    {
-      "path": "/category/roofing/",
-      "file": "src/content/pages/category/roofing/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/roofing/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 157
-    },
-    {
-      "path": "/category/roof-replacement/",
-      "file": "src/content/pages/category/roof-replacement/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/roof-replacement/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 59
-    },
-    {
-      "path": "/category/storm-damage/",
-      "file": "src/content/pages/category/storm-damage/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/storm-damage/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 69
-    },
-    {
-      "path": "/category/seasonal/",
-      "file": "src/content/pages/category/seasonal/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/seasonal/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 55
-    },
-    {
-      "path": "/category/roof-repair/",
-      "file": "src/content/pages/category/roof-repair/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/roof-repair/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 29
-    },
-    {
-      "path": "/category/gutters/",
-      "file": "src/content/pages/category/gutters/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/gutters/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 19
-    },
-    {
-      "path": "/category/siding/",
-      "file": "src/content/pages/category/siding/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/siding/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 10
-    },
-    {
-      "path": "/category/gaf-roofing/",
-      "file": "src/content/pages/category/gaf-roofing/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/gaf-roofing/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 12
-    },
-    {
-      "path": "/category/ice-dam-removal/",
-      "file": "src/content/pages/category/ice-dam-removal/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/category/ice-dam-removal/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 15
-    },
-    {
-      "path": "/tag/columbus-oh/",
-      "file": "src/content/pages/tag/columbus-oh/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/columbus-oh/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 75
-    },
-    {
-      "path": "/tag/dublin-oh/",
-      "file": "src/content/pages/tag/dublin-oh/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/dublin-oh/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 48
-    },
-    {
-      "path": "/tag/roof-inspection/",
-      "file": "src/content/pages/tag/roof-inspection/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/roof-inspection/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/tag/hiring-tips/",
-      "file": "src/content/pages/tag/hiring-tips/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/hiring-tips/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 35
-    },
-    {
-      "path": "/tag/winter-roofing/",
-      "file": "src/content/pages/tag/winter-roofing/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/winter-roofing/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 32
-    },
-    {
-      "path": "/tag/gaf-shingles/",
-      "file": "src/content/pages/tag/gaf-shingles/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/gaf-shingles/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 28
-    },
-    {
-      "path": "/tag/wind-damage/",
-      "file": "src/content/pages/tag/wind-damage/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/wind-damage/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/tag/cost-guides/",
-      "file": "src/content/pages/tag/cost-guides/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/cost-guides/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 20
-    },
-    {
-      "path": "/tag/hail-damage/",
-      "file": "src/content/pages/tag/hail-damage/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/hail-damage/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 17
-    },
-    {
-      "path": "/tag/christmas-lights/",
-      "file": "src/content/pages/tag/christmas-lights/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/tag/christmas-lights/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 11
-    },
-    {
-      "path": "/blog/page/2/",
-      "file": "src/content/pages/blog/page/2/index.md",
-      "source": "reconstructed-wordpress-archive",
-      "wordpressId": null,
-      "canonicalPath": "/blog/page/2/",
-      "notes": [
-        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
-      ],
-      "words": 90
-    },
-    {
-      "path": "/products/",
-      "file": "src/content/pages/products/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 114
-    },
-    {
-      "path": "/products/roofing/",
-      "file": "src/content/pages/products/roofing/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 143
-    },
-    {
-      "path": "/products/roofing/shingles/",
-      "file": "src/content/pages/products/roofing/shingles/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 109
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/timberline-hdz/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 99
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/timberline-uhdz/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-uhdz/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/timberline-uhdz/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 73
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/timberline-ns/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-ns/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/timberline-ns/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 67
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/timberline-as-ii/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-as-ii/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/timberline-as-ii/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 84
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz-rs/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 89
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/camelot-ii/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/camelot-ii/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/camelot-ii/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 61
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/woodland/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/woodland/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/woodland/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 63
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/grand-sequoia/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 64
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-rs/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 60
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/grand-sequoia-as/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-as/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-as/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 64
-    },
-    {
-      "path": "/products/roofing/shingles/gaf/royal-sovereign/",
-      "file": "src/content/pages/products/roofing/shingles/gaf/royal-sovereign/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/shingles/gaf/royal-sovereign/",
-      "notes": [
-        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
-      ],
-      "words": 75
     }
   ],
-  "updatedAt": "2026-10-17T20:03:36.227Z",
+  "updatedAt": "2026-10-17T20:39:31.151Z",
   "originalRouteCount": 215,
-  "authoredProductRouteCount": 14
+  "authoredProductRouteCount": 24
 }

@@ -21,6 +21,26 @@
         "href": "/products/roofing/",
         "action": "Explore Roofing Products",
         "product": "Timberline HDZ"
+      },
+      {
+        "title": "Siding Products",
+        "description": "Compare siding material families and explore the brands behind them.",
+        "href": "/products/siding/",
+        "action": "Explore Siding Products",
+        "image": {
+          "src": "/media/wordpress/d93df4e15198-variform.png",
+          "alt": "Variform"
+        }
+      },
+      {
+        "title": "Decking Products",
+        "description": "Compare decking material families and explore the brands behind them.",
+        "href": "/products/decking/",
+        "action": "Explore Decking Products",
+        "image": {
+          "src": "/media/wordpress/509654d4f5d1-trex.png",
+          "alt": "Trex"
+        }
       }
     ],
     "secondaryTitle": "Product choices, service expertise and local guidance",
@@ -149,5 +169,575 @@
         "copy": "Discuss wind and hail exposure, shade, roof design, ventilation and local requirements with the installation team."
       }
     ]
+  },
+  "/products/siding/": {
+    "title": "Siding Products",
+    "description": "Compare siding materials and brands with Roof King.",
+    "eyebrow": "Exterior product library",
+    "heading": "Explore siding products.",
+    "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Vinyl Siding",
+        "description": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
+        "href": "/products/siding/vinyl/",
+        "action": "Explore Vinyl Siding",
+        "image": {
+          "src": "/media/wordpress/d93df4e15198-variform.png",
+          "alt": "Variform"
+        }
+      },
+      {
+        "title": "Engineered Wood Siding",
+        "description": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
+        "href": "/products/siding/engineered-wood/",
+        "action": "Explore Engineered Wood Siding",
+        "image": {
+          "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+          "alt": "LP SmartSide"
+        }
+      },
+      {
+        "title": "Fiber Cement Siding",
+        "description": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
+        "href": "/products/siding/fiber-cement/",
+        "action": "Explore Fiber Cement Siding",
+        "image": {
+          "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+          "alt": "James Hardie"
+        }
+      }
+    ],
+    "secondaryTitle": "Compare the material and the complete project",
+    "secondary": [
+      {
+        "title": "Appearance and details",
+        "copy": "Compare texture, profile, color and how the material meets corners, openings and adjoining surfaces."
+      },
+      {
+        "title": "Product documentation",
+        "copy": "Review the specification and maintenance instructions for the exact product line, rather than assuming all products from one brand are alike."
+      },
+      {
+        "title": "Installation planning",
+        "copy": "Discuss condition, preparation, installation details and the full scope with Roof King.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ]
+  },
+  "/products/decking/": {
+    "title": "Decking Products",
+    "description": "Compare decking materials and brands with Roof King.",
+    "eyebrow": "Exterior product library",
+    "heading": "Explore decking products.",
+    "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Composite Decking",
+        "description": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
+        "href": "/products/decking/composite/",
+        "action": "Explore Composite Decking",
+        "image": {
+          "src": "/media/wordpress/509654d4f5d1-trex.png",
+          "alt": "Trex"
+        }
+      }
+    ],
+    "secondaryTitle": "Compare the material and the complete project",
+    "secondary": [
+      {
+        "title": "Appearance and details",
+        "copy": "Compare texture, profile, color and how the material meets corners, openings and adjoining surfaces."
+      },
+      {
+        "title": "Product documentation",
+        "copy": "Review the specification and maintenance instructions for the exact product line, rather than assuming all products from one brand are alike."
+      },
+      {
+        "title": "Installation planning",
+        "copy": "Discuss condition, preparation, installation details and the full scope with Roof King.",
+        "href": "/decks/",
+        "label": "Explore decking services"
+      }
+    ]
+  },
+  "/products/siding/vinyl/": {
+    "title": "Vinyl Siding Products",
+    "description": "Explore vinyl siding and Variform product options.",
+    "eyebrow": "Siding Products",
+    "heading": "Explore vinyl siding.",
+    "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Variform",
+        "description": "Explore the brand’s material options, design considerations and documentation to discuss with Roof King.",
+        "href": "/products/siding/vinyl/variform/",
+        "action": "Explore Variform",
+        "image": {
+          "src": "/media/wordpress/d93df4e15198-variform.png",
+          "alt": "Variform"
+        }
+      }
+    ],
+    "secondaryTitle": "Questions to resolve before choosing",
+    "secondary": [
+      {
+        "title": "Profiles and proportions",
+        "copy": "Horizontal siding and vertical board-and-batten create different patterns across a wall. Consider exposure, corner details, window trim and transitions before selecting a profile."
+      },
+      {
+        "title": "Color and matching details",
+        "copy": "Look at full-size samples outdoors and compare them with roofing, windows and masonry. Review the manufacturer’s color matrix for the chosen siding and coordinate soffit, trim and accessories rather than relying on a screen image."
+      },
+      {
+        "title": "Specifications to confirm",
+        "copy": "Ask for the exact product-line specification, fastening instructions, wind-performance documentation and applicable warranty. A brand name alone does not identify a panel’s thickness, performance or installation requirements."
+      }
+    ],
+    "reference": {
+      "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/",
+      "label": "Manufacturer product information"
+    }
+  },
+  "/products/siding/vinyl/variform/": {
+    "title": "Variform Vinyl Siding",
+    "description": "Explore Variform vinyl siding, design choices and installation planning with Roof King.",
+    "eyebrow": "Vinyl Siding · Variform",
+    "heading": "Variform products for your exterior.",
+    "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
+    "logo": {
+      "src": "/media/wordpress/d93df4e15198-variform.png",
+      "alt": "Variform"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding",
+        "href": "/products/siding/vinyl/"
+      },
+      {
+        "label": "Variform"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to compare with Variform",
+    "secondary": [
+      {
+        "title": "Profiles and proportions",
+        "copy": "Horizontal siding and vertical board-and-batten create different patterns across a wall. Consider exposure, corner details, window trim and transitions before selecting a profile."
+      },
+      {
+        "title": "Color and matching details",
+        "copy": "Look at full-size samples outdoors and compare them with roofing, windows and masonry. Review the manufacturer’s color matrix for the chosen siding and coordinate soffit, trim and accessories rather than relying on a screen image."
+      },
+      {
+        "title": "Specifications to confirm",
+        "copy": "Ask for the exact product-line specification, fastening instructions, wind-performance documentation and applicable warranty. A brand name alone does not identify a panel’s thickness, performance or installation requirements."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "reference": {
+      "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/",
+      "label": "Variform manufacturer product information"
+    }
+  },
+  "/products/siding/engineered-wood/": {
+    "title": "Engineered Wood Siding Products",
+    "description": "Explore engineered wood siding and LP SmartSide product options.",
+    "eyebrow": "Siding Products",
+    "heading": "Explore engineered wood siding.",
+    "copy": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Engineered Wood Siding"
+      }
+    ],
+    "cards": [
+      {
+        "title": "LP SmartSide",
+        "description": "Explore the brand’s material options, design considerations and documentation to discuss with Roof King.",
+        "href": "/products/siding/engineered-wood/lp-smartside/",
+        "action": "Explore LP SmartSide",
+        "image": {
+          "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+          "alt": "LP SmartSide"
+        }
+      }
+    ],
+    "secondaryTitle": "Questions to resolve before choosing",
+    "secondary": [
+      {
+        "title": "Build a coordinated exterior",
+        "copy": "Start with the main siding profile, then consider accent areas and matching trim. Lap siding, vertical panels and shakes produce different visual rhythms; use them deliberately around entryways, gables and larger wall areas."
+      },
+      {
+        "title": "Primed or prefinished",
+        "copy": "LP offers primed and ExpertFinish prefinished siding options. Ask which finishes and textures are available for the selected profile, review physical samples, and discuss paint and maintenance responsibilities as part of the project scope."
+      },
+      {
+        "title": "Installation and maintenance",
+        "copy": "Confirm clearance, flashing, fastening and finishing requirements for the exact product. Engineered wood still requires installation and care according to manufacturer instructions. Review product-specific warranties instead of assuming every item in the family has identical coverage."
+      }
+    ],
+    "reference": {
+      "href": "https://www.lpcorp.com/products/siding-trim",
+      "label": "Manufacturer product information"
+    }
+  },
+  "/products/siding/engineered-wood/lp-smartside/": {
+    "title": "LP SmartSide Engineered Wood Siding",
+    "description": "Explore LP SmartSide engineered wood siding, design choices and installation planning with Roof King.",
+    "eyebrow": "Engineered Wood Siding · LP SmartSide",
+    "heading": "LP SmartSide products for your exterior.",
+    "copy": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
+    "logo": {
+      "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+      "alt": "LP SmartSide"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Engineered Wood Siding",
+        "href": "/products/siding/engineered-wood/"
+      },
+      {
+        "label": "LP SmartSide"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to compare with LP SmartSide",
+    "secondary": [
+      {
+        "title": "Build a coordinated exterior",
+        "copy": "Start with the main siding profile, then consider accent areas and matching trim. Lap siding, vertical panels and shakes produce different visual rhythms; use them deliberately around entryways, gables and larger wall areas."
+      },
+      {
+        "title": "Primed or prefinished",
+        "copy": "LP offers primed and ExpertFinish prefinished siding options. Ask which finishes and textures are available for the selected profile, review physical samples, and discuss paint and maintenance responsibilities as part of the project scope."
+      },
+      {
+        "title": "Installation and maintenance",
+        "copy": "Confirm clearance, flashing, fastening and finishing requirements for the exact product. Engineered wood still requires installation and care according to manufacturer instructions. Review product-specific warranties instead of assuming every item in the family has identical coverage."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "reference": {
+      "href": "https://www.lpcorp.com/products/siding-trim",
+      "label": "LP SmartSide manufacturer product information"
+    }
+  },
+  "/products/siding/fiber-cement/": {
+    "title": "Fiber Cement Siding Products",
+    "description": "Explore fiber cement siding and James Hardie product options.",
+    "eyebrow": "Siding Products",
+    "heading": "Explore fiber cement siding.",
+    "copy": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Fiber Cement Siding"
+      }
+    ],
+    "cards": [
+      {
+        "title": "James Hardie",
+        "description": "Explore the brand’s material options, design considerations and documentation to discuss with Roof King.",
+        "href": "/products/siding/fiber-cement/james-hardie/",
+        "action": "Explore James Hardie",
+        "image": {
+          "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+          "alt": "James Hardie"
+        }
+      }
+    ],
+    "secondaryTitle": "Questions to resolve before choosing",
+    "secondary": [
+      {
+        "title": "Choose the siding profile",
+        "copy": "Lap siding creates a horizontal pattern that can work with a range of home styles. Discuss the visible exposure, surface texture and treatment of gables and accent areas, along with trim widths and corner details."
+      },
+      {
+        "title": "Coordinate the finish",
+        "copy": "Review current manufacturer finish options for the chosen product and region. Compare samples in daylight with existing brick, stone, roof colors and windows. Ask what is factory finished, what requires field painting, and how future touch-ups will be handled."
+      },
+      {
+        "title": "Review the complete assembly",
+        "copy": "Siding performance depends on more than the face material. Confirm flashing, clearances, fastening and water-management details against the applicable manufacturer instructions. Check the exact warranty and care guidance for the selected product and finish."
+      }
+    ],
+    "reference": {
+      "href": "https://www.jameshardie.com/product-catalog/exterior-siding-products/hardie-plank-lap-siding/",
+      "label": "Manufacturer product information"
+    }
+  },
+  "/products/siding/fiber-cement/james-hardie/": {
+    "title": "James Hardie Fiber Cement Siding",
+    "description": "Explore James Hardie fiber cement siding, design choices and installation planning with Roof King.",
+    "eyebrow": "Fiber Cement Siding · James Hardie",
+    "heading": "James Hardie products for your exterior.",
+    "copy": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
+    "logo": {
+      "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+      "alt": "James Hardie"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Fiber Cement Siding",
+        "href": "/products/siding/fiber-cement/"
+      },
+      {
+        "label": "James Hardie"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to compare with James Hardie",
+    "secondary": [
+      {
+        "title": "Choose the siding profile",
+        "copy": "Lap siding creates a horizontal pattern that can work with a range of home styles. Discuss the visible exposure, surface texture and treatment of gables and accent areas, along with trim widths and corner details."
+      },
+      {
+        "title": "Coordinate the finish",
+        "copy": "Review current manufacturer finish options for the chosen product and region. Compare samples in daylight with existing brick, stone, roof colors and windows. Ask what is factory finished, what requires field painting, and how future touch-ups will be handled."
+      },
+      {
+        "title": "Review the complete assembly",
+        "copy": "Siding performance depends on more than the face material. Confirm flashing, clearances, fastening and water-management details against the applicable manufacturer instructions. Check the exact warranty and care guidance for the selected product and finish."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "reference": {
+      "href": "https://www.jameshardie.com/product-catalog/exterior-siding-products/hardie-plank-lap-siding/",
+      "label": "James Hardie manufacturer product information"
+    }
+  },
+  "/products/decking/composite/": {
+    "title": "Composite Decking Products",
+    "description": "Explore composite decking and Trex product options.",
+    "eyebrow": "Decking Products",
+    "heading": "Explore composite decking.",
+    "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Composite Decking"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Trex",
+        "description": "Explore the brand’s material options, design considerations and documentation to discuss with Roof King.",
+        "href": "/products/decking/composite/trex/",
+        "action": "Explore Trex",
+        "image": {
+          "src": "/media/wordpress/509654d4f5d1-trex.png",
+          "alt": "Trex"
+        }
+      }
+    ],
+    "secondaryTitle": "Questions to resolve before choosing",
+    "secondary": [
+      {
+        "title": "Compare decking collections",
+        "copy": "Review the current Trex collections and physical samples for color and grain. Consider the deck’s sun exposure, barefoot use, furniture and traffic. Surface temperature and the way a board looks outdoors are useful questions to resolve before choosing a color."
+      },
+      {
+        "title": "Complete the outdoor space",
+        "copy": "Coordinate railing, stair details and lighting with the deck layout. Confirm which accessories suit the selected system and how they attach. The framing and support structure need their own assessment; new boards alone do not establish that an existing deck is sound."
+      },
+      {
+        "title": "Care and product documentation",
+        "copy": "Check cleaning guidance, required board spacing, approved fasteners and the exact product warranty. Composite decking has different care requirements from wood. Do not transfer a warranty length or performance claim from one collection to another."
+      }
+    ],
+    "reference": {
+      "href": "https://www.trex.com/products/decking/",
+      "label": "Manufacturer product information"
+    }
+  },
+  "/products/decking/composite/trex/": {
+    "title": "Trex Composite Decking",
+    "description": "Explore Trex composite decking, design choices and installation planning with Roof King.",
+    "eyebrow": "Composite Decking · Trex",
+    "heading": "Trex products for your exterior.",
+    "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
+    "logo": {
+      "src": "/media/wordpress/509654d4f5d1-trex.png",
+      "alt": "Trex"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Composite Decking",
+        "href": "/products/decking/composite/"
+      },
+      {
+        "label": "Trex"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to compare with Trex",
+    "secondary": [
+      {
+        "title": "Compare decking collections",
+        "copy": "Review the current Trex collections and physical samples for color and grain. Consider the deck’s sun exposure, barefoot use, furniture and traffic. Surface temperature and the way a board looks outdoors are useful questions to resolve before choosing a color."
+      },
+      {
+        "title": "Complete the outdoor space",
+        "copy": "Coordinate railing, stair details and lighting with the deck layout. Confirm which accessories suit the selected system and how they attach. The framing and support structure need their own assessment; new boards alone do not establish that an existing deck is sound."
+      },
+      {
+        "title": "Care and product documentation",
+        "copy": "Check cleaning guidance, required board spacing, approved fasteners and the exact product warranty. Composite decking has different care requirements from wood. Do not transfer a warranty length or performance claim from one collection to another."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/decks/",
+        "label": "Explore decking services"
+      }
+    ],
+    "reference": {
+      "href": "https://www.trex.com/products/decking/",
+      "label": "Trex manufacturer product information"
+    }
   }
 }
