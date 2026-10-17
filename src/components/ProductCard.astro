@@ -1,0 +1,26 @@
+---
+import ProductOptions from './ProductOptions.svelte';
+import RichContent from './RichContent.astro';
+import type { ProductPresentation } from '../data/product-types';
+import type { RichNode } from '../data/section-types';
+interface Props { item:{title:string;body:RichNode[]};product:ProductPresentation;detail?:boolean; }
+const { item, product, detail=false } = Astro.props;
+const Heading = detail ? 'h2' : 'h3';
+---
+<article class:list={["rk-product-card",{"rk-product-card-detail":detail}]} data-product={product.id} aria-labelledby={`product-${product.id}`}>
+      <div class="rk-product-card-heading"><p class="rk-home-eyebrow">GAF shingles</p><Heading class="rk-product-card-title" id={`product-${product.id}`}>{item.title}</Heading></div>
+      <div class="rk-product-visual"><ProductOptions {product} title={item.title} client:visible/></div>
+      <div class="rk-product-card-copy"><RichContent nodes={item.body}/></div>
+      <div class="rk-product-details">
+        <details><summary>Warranty &amp; protection</summary><div>
+          <p>Manufacturer-listed coverage options:</p><ul>{product.warrantyLabels.map(label=><li>{label}</li>)}</ul>
+          <p>Eligibility, coverage and exclusions depend on the product, labeling, installed system and applicable warranty terms.</p>
+          <a href="https://www.gaf.com/en-us/resources/warranties/residential" target="_blank" rel="noopener noreferrer">Read GAF warranty terms ↗</a>
+        </div></details>
+        <details><summary>Product specifications</summary><div><p>Nominal dimensions and manufacturer specifications.</p><dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl>
+          {product.documents.map(doc=><a class="rk-product-document" href={doc.url} target="_blank" rel="noopener noreferrer">{doc.label} (PDF) ↗</a>)}
+        </div></details>
+      </div>
+      <a class="rk-product-source" href={product.sourceUrl} target="_blank" rel="noopener noreferrer">View {item.title} at GAF ↗</a>
+    {!detail && <a class="rk-product-detail-link" href={'/products/roofing/shingles/gaf/'+product.id+'/'}>Explore {item.title} →</a>}
+</article>

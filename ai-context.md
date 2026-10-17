@@ -2,7 +2,7 @@
 
 ## Purpose and current scope
 
-Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 routes are preserved. The homepage and all eight routes in the `/roofing/` family now use native components. Other routes still use imported content. Editorial verification and production lead delivery remain pending.
+Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 original routes are preserved; 14 authored product-pillar routes bring the current total to 229. The homepage and all eight routes in the `/roofing/` family now use native components. The product pillar has three native hubs and eleven individual product pages; remaining legacy routes still use imported content. Editorial verification and production lead delivery remain pending.
 
 ## Read first
 
@@ -12,6 +12,7 @@ Build an SEO-focused static Roof King site using Astro and Svelte, retaining the
 - `migration/component-reuse-plan.md` and `component-reuse-audit.html`: all 215 source records mapped to reusable components and page families; visual approval remains pending. Regenerate with `npm run audit:components`.
 - `src/content.config.ts`: page schema and loader.
 - `src/data/site.json`: client-supplied business identity.
+- `migration/product-information-architecture.md`, `src/data/site-structure.json`, `product-pillar.json` and `product-details.json`: accepted product hierarchy, concise breadcrumbs and eleven individual product records. Keep location recommendations evidence-based; do not clone product catalogs into local pages.
 - `src/data/product-catalog.json` and `migration/product-catalog-notes.md`: verified GAF colors/specs/warranty labels, source provenance and earlier entries awaiting confirmation. Product options use genuine images, never tinted substitutes.
 - `src/layouts/SiteLayout.astro`: shared HTML and SEO shell.
 - `src/pages/index.astro` and `src/layouts/DocumentLayout.astro`: native homepage composition and metadata.

@@ -1,0 +1,7 @@
+---
+import { getCollection } from 'astro:content';
+import ProductHubPage from '../components/ProductHubPage.astro';
+import hubs from '../data/product-pillar.json';
+const page=(await getCollection('pages')).find(p=>p.data.permalink==='/products/')!;
+---
+<ProductHubPage {page} data={hubs['/products/']}/>

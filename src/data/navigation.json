@@ -35,27 +35,15 @@
               "children": []
             },
             {
-              "label": "Roof Types",
-              "href": "/roofing/types/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-roof-types",
-              "children": []
-            },
-            {
-              "label": "GAF Roof",
+              "label": "GAF Roofing Installation",
               "href": "/roofing/gaf/",
               "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gaf-roof",
               "children": []
             },
             {
-              "label": "GAF Master Elite",
+              "label": "Master Elite Certification",
               "href": "/roofing/gaf/master-elite/",
               "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gaf-master-elite",
-              "children": []
-            },
-            {
-              "label": "GAF Shingle Types",
-              "href": "/roofing/gaf/types/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gaf-shingle-types",
               "children": []
             },
             {
@@ -225,6 +213,38 @@
           "href": "/ice-dam-removal/",
           "classes": "rk-menu-item rk-menu-depth-1 rk-menu-slug-ice-dam-removal",
           "children": []
+        }
+      ]
+    },
+    {
+      "label": "Products",
+      "href": "/products/",
+      "classes": "rk-menu-item rk-menu-item-has-children",
+      "children": [
+        {
+          "label": "Roofing Products",
+          "href": "/products/roofing/",
+          "classes": "rk-menu-item rk-menu-item-has-children",
+          "children": [
+            {
+              "label": "Shingles",
+              "href": "/products/roofing/shingles/",
+              "classes": "rk-menu-item",
+              "children": []
+            },
+            {
+              "label": "GAF",
+              "href": "/roofing/gaf/types/",
+              "classes": "rk-menu-item",
+              "children": []
+            },
+            {
+              "label": "Roofing Materials",
+              "href": "/roofing/types/",
+              "classes": "rk-menu-item",
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -628,11 +648,15 @@
         {
           "label": "Customer Service",
           "href": "/customer-service/"
+        },
+        {
+          "label": "Browse Products",
+          "href": "/products/"
         }
       ]
     },
     {
-      "title": "Products",
+      "title": "Services",
       "links": [
         {
           "label": "Attic Insulation",

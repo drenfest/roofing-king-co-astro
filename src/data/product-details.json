@@ -1,0 +1,485 @@
+{
+  "/products/roofing/shingles/gaf/timberline-hdz/": {
+    "key": "Timberline HDZ",
+    "title": "Timberline HDZ",
+    "description": "Explore Timberline HDZ shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "The look people love, now with LayerLock Technology and the StainGuard Plus Algae Protection Limited Warranty"
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Timberline HDZ"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/timberline-uhdz/": {
+    "key": "Timberline UHDZ",
+    "title": "Timberline UHDZ",
+    "description": "Explore Timberline UHDZ shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Timberline UHDZ (Ultra High Definition) shingles offer a combination of beauty and benefits that go beyond any other GAF shingle."
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Timberline UHDZ"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/timberline-ns/": {
+    "key": "Timberline NS",
+    "title": "Timberline NS",
+    "description": "Explore Timberline NS shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Stylish yet practically priced shingles provide value and performance with a natural shadow effect."
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Timberline NS"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/timberline-as-ii/": {
+    "key": "Timberline AS II",
+    "title": "Timberline AS II",
+    "description": "Explore Timberline AS II shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Timberline AS II Shingles with UL 2218 Class 4 impact resistance give your roof a fighting chance in hail-prone areas1 and help "
+          },
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "protect it against wind and blue-green algae too."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Timberline AS II"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/timberline-hdz-rs/": {
+    "key": "Timberline HDZ RS",
+    "title": "Timberline HDZ RS",
+    "description": "Explore Timberline HDZ RS shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "Timberline HDZ RS shingles can be used to comply with 2022 Title 24, Part 6 Cool Roof Requirements of the California Code of Regulations and are rated by the Cool Roof Rating Council (CRRC)."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Timberline HDZ RS"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/camelot-ii/": {
+    "key": "Camelot II",
+    "title": "Camelot II",
+    "description": "Explore Camelot II shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "An artisan-crafted slate-like shape and custom palette conjure the romance of European architecture."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Camelot II"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/woodland/": {
+    "key": "Woodland",
+    "title": "Woodland",
+    "description": "Explore Woodland shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "The stylish look of hand-cut European shingles with 21st century style at an incredibly affordable price."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Woodland"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia/": {
+    "key": "Grand Sequoia",
+    "title": "Grand Sequoia",
+    "description": "Explore Grand Sequoia shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "Artisan-crafted shapes combined with oversized tabs result in a sophisticated beauty unmatched by typical shingles."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Grand Sequoia"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia-rs/": {
+    "key": "Grand Sequoia RS",
+    "title": "Grand Sequoia RS",
+    "description": "Explore Grand Sequoia RS shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "The cool roof you need with the distinctive style you crave."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Grand Sequoia RS"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia-as/": {
+    "key": "Grand Sequoia AS",
+    "title": "Grand Sequoia AS",
+    "description": "Explore Grand Sequoia AS shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "The look of rugged wood shakes with the protection of UL 2218 Class 4 impact resistance."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Grand Sequoia AS"
+      }
+    ]
+  },
+  "/products/roofing/shingles/gaf/royal-sovereign/": {
+    "key": "Royal Sovereign",
+    "title": "Royal Sovereign",
+    "description": "Explore Royal Sovereign shingle colors, nominal specifications and manufacturer warranty information with Roof King.",
+    "body": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "tag": "span",
+            "children": [
+              {
+                "text": "Beautiful. Reliable. Affordable. Simple, timeless beauty at a price you can afford. When the value is everything, living the dream has never looked so good."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "GAF",
+        "href": "/roofing/gaf/types/"
+      },
+      {
+        "label": "Royal Sovereign"
+      }
+    ]
+  }
+}

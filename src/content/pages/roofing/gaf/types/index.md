@@ -1,15 +1,18 @@
 ---
-title: "Columbus, OH GAF Roof Shingle Types"
-permalink: "/roofing/gaf/types/"
-description: "Explore GAF shingles: durable Timberline HDZ, stylish Camelot II, impact-resistant AS II, and cool roof options like Grand Sequoia RS. Beauty meets performance!"
-canonicalPath: "/roofing/gaf/types/"
-category: "Service detail"
-source: "wordpress"
-sourcePath: "/roofing/gaf/types/"
+title: "GAF Shingles: Colors, Styles and Specifications"
+permalink: /roofing/gaf/types/
+description: Browse GAF shingle colors, product specifications and manufacturer
+  warranty information. Compare verified product options with Roof King.
+canonicalPath: /roofing/gaf/types/
+category: Product catalog
+source: wordpress
+sourcePath: /roofing/gaf/types/
 wordpressId: 94
-reviewStatus: "imported-needs-review"
-notes: []
-priority: "preserve-and-improve"
+reviewStatus: imported-needs-review
+notes:
+  - Product-pillar placement and concise breadcrumbs; original permalink and
+    canonical retained.
+priority: preserve-and-improve
 ---
 
 

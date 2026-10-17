@@ -1,6 +1,6 @@
 # Component reuse audit
 
-All 215 preserved source records examined; page-by-page visual approval is still pending. No live crawl, URL deletion, redirect, navigation restructuring or canonical change performed.
+All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.
 
 ## What to build first
 
@@ -16,8 +16,9 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 
 | Family | URLs | Canonical targets |
 | --- | ---: | ---: |
+| Product hubs, guides and records | 16 | 16 |
 | Homepage | 1 | 1 |
-| Services | 35 | 35 |
+| Services | 33 | 33 |
 | City landing pages | 24 | 24 |
 | Service + city pages | 23 | 23 |
 | Articles | 30 | 21 |
@@ -37,12 +38,12 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 
 | Component | Observed source URLs | Recommended URLs | Work needed |
 | --- | ---: | ---: | --- |
-| SiteChrome / document shell | 215 | 215 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
+| SiteChrome / document shell | 229 | 229 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
 | PageHero | 95 | 112 | reuse — PageHero.astro |
 | TrustStrip | 95 | 96 | reuse — TrustStrip.astro |
-| Breadcrumbs | 108 | 214 | reuse — Breadcrumbs.astro |
+| Breadcrumbs | 108 | 228 | reuse — Breadcrumbs.astro |
 | BrandStrip | 86 | 86 | reuse — BrandStrip.astro |
-| ContentSections / SplitSection | 85 | 141 | reuse — ContentSection.astro + RichContent.astro |
+| ContentSections / SplitSection | 85 | 155 | reuse — ContentSection.astro + RichContent.astro |
 | ServiceGrid / ServiceCard | 9 | 33 | reuse — ContentSection.astro services variant |
 | FeatureGrid / ProcessSteps | 15 | 15 | adapt — HomeWorkmanship.astro |
 | OfferGrid / OfferCard | 52 | 52 | adapt — HomeCardSection.astro |
@@ -80,11 +81,138 @@ The audit found 35 non-article detail URLs using the blog wrapper. These need se
 
 Store page identity separately from rendering: permalink, canonicalPath, title, description, family, service/location IDs and ordered section data. Reference shared records by stable IDs; allow page-specific headings/copy and genuine local proof. Validate references, links, image sizes and required template fields. Collections should separate articles, projects, offers, reviews and locations so their templates cannot accidentally swap metadata.
 
-Retain every inventoried route and the existing canonical preferences until a separate content/SEO decision. Alternate routes may render the same underlying record without redirects. Proposed family/placement labels are recommendations; navigation is unchanged. Do not add nofollow or deindex supporting pages just to prioritize primary service pages.
+Retain every inventoried route and the existing canonical preferences until a separate content/SEO decision. Alternate routes may render the same underlying record without redirects. Product navigation and breadcrumb placement are implemented; other family/placement labels remain recommendations. Do not add nofollow or deindex supporting pages just to prioritize primary service pages.
 
 Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preserve disabled submission until the verified delivery path is built.
 
 ## Page-by-page decisions
+
+### Product hubs, guides and records (16)
+
+#### /roofing/gaf/types/
+
+**GAF Shingles: Colors, Styles and Specifications** · wordpress · Native service components
+- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed], ProductGrid [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 29 headings; 380 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
+
+#### /roofing/types/
+
+**Roofing Materials and Types** · wordpress · Native service components
+- Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
+
+#### /products/
+
+**Exterior Building Products** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 91 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/
+
+**Roofing Products and Materials** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 8 headings; 121 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/roofing/shingles/
+
+**Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 98 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-hdz/
+
+**Timberline HDZ Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 82 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-uhdz/
+
+**Timberline UHDZ Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 56 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-ns/
+
+**Timberline NS Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 50 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-as-ii/
+
+**Timberline AS II Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 67 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/timberline-hdz-rs/
+
+**Timberline HDZ RS Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 72 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/camelot-ii/
+
+**Camelot II Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 44 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/woodland/
+
+**Woodland Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/grand-sequoia/
+
+**Grand Sequoia Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/grand-sequoia-rs/
+
+**Grand Sequoia RS Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 43 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/grand-sequoia-as/
+
+**Grand Sequoia AS Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 47 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/roofing/shingles/gaf/royal-sovereign/
+
+**Royal Sovereign Roofing Shingles** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 58 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
 
 ### Homepage (1)
 
@@ -95,7 +223,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Page-specific work: Split HomeTrust and HomeWorkmanship before extending them. Homepage remains the visual reference; native sections already render here.
 - Source evidence: 36 headings; 421 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
-### Services (35)
+### Services (33)
 
 #### /attic-insulation/
 
@@ -251,13 +379,6 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Source evidence: 21 headings; 861 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 - Review: Migration H1 sits outside hero; native PageHero should own the visible H1.
 
-#### /roofing/gaf/types/
-
-**Columbus, OH GAF Roof Shingle Types** · wordpress · Native service components
-- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], ProductGrid [proposed].
-- Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
-- Source evidence: 29 headings; 380 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
-
 #### /roofing/metal/
 
 **Columbus, OH Metal Roof Company** · wordpress · Native service components
@@ -278,13 +399,6 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], FeatureGrid [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], FAQSection [observed].
 - Page-specific work: Keep repair-versus-replacement guidance, warning signs, the replacement process, cost discussion and FAQ as distinct editable sections.
 - Source evidence: 32 headings; 1020 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
-
-#### /roofing/types/
-
-**Columbus, OH Roof Types** · wordpress · Native service components
-- Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed].
-- Page-specific work: Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.
-- Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /siding/
 

@@ -13,7 +13,7 @@ const pages = defineCollection({
     source: z.string(),
     sourcePath: z.string(),
     wordpressId: z.number().nullable(),
-    reviewStatus: z.enum(['imported-needs-review', 'reviewed']),
+    reviewStatus: z.enum(['imported-needs-review', 'authored-needs-review', 'reviewed']),
     notes: z.array(z.string()),
     priority: z.string(),
   }),

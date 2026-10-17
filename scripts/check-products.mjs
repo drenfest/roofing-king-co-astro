@@ -37,3 +37,27 @@ for(const [title,product]of Object.entries(catalog)){
 }
 assert.equal(colors,73);
 console.log(`Product/color provenance, all variant assets, default SSR images, no-JS links and warranty/spec panels passed for 11 products / ${colors} colors.`);
+const detailRecords=JSON.parse(await fs.readFile('src/data/product-details.json','utf8'));
+for(const [path,data]of Object.entries(detailRecords)){
+  const detail=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
+  assert.equal(detail('h1').length,1);assert.equal(detail('main').length,1);
+  assert.equal(detail('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
+  const labels=detail('.rk-native-breadcrumbs li').map((i,e)=>detail(e).text()).get();
+  assert.deepEqual(labels,['Home','Products','Roofing Products','Shingles','GAF',data.title]);
+  const schemas=detail('script[type="application/ld+json"]').toArray().map(e=>JSON.parse(detail(e).text()));
+  const breadcrumbs=schemas.find(s=>s['@type']==='BreadcrumbList');
+  assert.deepEqual(breadcrumbs.itemListElement.map(i=>i.name),labels);
+  assert.equal(schemas.find(s=>s['@type']==='Product').name,data.title);
+  assert.equal(schemas.find(s=>s['@type']==='Product').offers,undefined);
+  assert.equal(detail('.rk-product-details details').length,2);
+  const record=catalog[data.key];
+  assert.equal(detail('.rk-product-swatches a').length,record.colors.length);
+  assert.ok($(`a[href="${path}"]`).length,'GAF catalog must link to each detail record');
+}
+assert.equal(Object.keys(detailRecords).length,11);
+assert.deepEqual($('.rk-native-breadcrumbs li').map((i,e)=>$(e).text()).get(),['Home','Products','Roofing Products','Shingles','GAF']);
+assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com/roofing/gaf/types/');
+for(const path of ['/products/','/products/roofing/','/products/roofing/shingles/']){
+  const hub=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(hub('h1').length,1);assert.equal(hub('[data-product-pillar="native"]').length,1);
+}
+console.log('Three product hubs, eleven individual product records, logical breadcrumbs/schema and retained catalog canonical passed.');

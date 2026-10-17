@@ -1,15 +1,17 @@
 ---
-title: "Columbus, OH Roof Types"
-permalink: "/roofing/types/"
-description: "Ready to install a new roof on your Columbus home? Browse our extensive collection of high-end roofing styles at Roof King & Restoration and get a quote today."
-canonicalPath: "/roofing/types/"
-category: "Service detail"
-source: "wordpress"
-sourcePath: "/roofing/types/"
+title: Roofing Materials and Types
+permalink: /roofing/types/
+description: Explore roofing materials and compare the options for your home with Roof King.
+canonicalPath: /roofing/types/
+category: Product guide
+source: wordpress
+sourcePath: /roofing/types/
 wordpressId: 85
-reviewStatus: "imported-needs-review"
-notes: []
-priority: "preserve-and-improve"
+reviewStatus: imported-needs-review
+notes:
+  - Product-pillar placement and concise breadcrumbs; original permalink and
+    canonical retained.
+priority: preserve-and-improve
 ---
 
 

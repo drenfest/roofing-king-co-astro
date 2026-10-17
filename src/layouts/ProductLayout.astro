@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/products.css';
+interface Props {page:CollectionEntry<'pages'>;heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];image?:string;}
+const {page,heading,eyebrow,copy,breadcrumbs,image}=Astro.props;
+---
+<DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} {image}>
+  <slot name="head" slot="head"/>
+  <SiteHeader client:load/>
+  <main id="content" class="rk-product-pillar" data-product-pillar="native">
+    <Breadcrumbs items={breadcrumbs}/>
+    <header class="rk-product-pillar-hero"><div class="rk-section-inner"><p class="rk-home-eyebrow">{eyebrow}</p><h1>{heading}</h1><p>{copy}</p></div></header>
+    <slot/>
+    <QuoteSection quote={{eyebrow:'Plan your project',title:'Talk with Roof King about your project',description:'Discuss product options, availability and installation for your home.'}}/>
+  </main>
+  <SiteFooter/>
+</DocumentLayout>

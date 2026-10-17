@@ -1,10 +1,11 @@
 # src/layouts
 
-ServicePage.astro renders the ordered service section union on the native shell without raw imported HTML. DocumentLayout.astro owns the native homepage and service HTML head, metadata and preview indexing policy. SiteLayout.astro remains the legacy imported-page shell for other routes. Both preserve canonical URLs and noindex until production approval.
+ProductLayout owns the native product shell and forwards page-specific schema. ServicePage.astro renders the ordered service section union on the native shell without raw imported HTML. DocumentLayout.astro owns the native homepage and service HTML head, metadata and preview indexing policy. SiteLayout.astro remains the legacy imported-page shell for other routes. Both preserve canonical URLs and noindex until production approval.
 
 ## Files
 
 - `DocumentLayout.astro`
+- `ProductLayout.astro`
 - `ServicePage.astro`
 - `SiteLayout.astro`
 

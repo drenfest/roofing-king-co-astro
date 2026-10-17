@@ -65,6 +65,7 @@ Preserved site pages. Each directory index.md has an explicit permalink, source 
 - `privacy/` - read its ai-context.md.
 - `privacy-policy/` - read its ai-context.md.
 - `privacy-policy-2/` - read its ai-context.md.
+- `products/` - read its ai-context.md.
 - `reviews/` - read its ai-context.md.
 - `roof-calculator/` - read its ai-context.md.
 - `roof-repair-dublin-oh/` - read its ai-context.md.

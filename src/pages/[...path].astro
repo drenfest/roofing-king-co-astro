@@ -5,8 +5,10 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import RoofrEstimator from '../components/RoofrEstimator.svelte';
 import roofr from '../data/roofr.json';
 import services from '../data/service-pages.json';
+import hubs from '../data/product-pillar.json';
+import details from '../data/product-details.json';
 export async function getStaticPaths() {
-  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services)).map(page => ({
+  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details)).map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
     props: { page },
   }));

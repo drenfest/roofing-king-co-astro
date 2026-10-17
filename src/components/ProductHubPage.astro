@@ -1,0 +1,14 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ProductLayout from '../layouts/ProductLayout.astro';
+import catalog from '../data/product-catalog.json';
+import type { ProductPresentation } from '../data/product-types';
+interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];cards:{title:string;description:string;href:string;action:string;product:string}[];secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
+interface Props {page:CollectionEntry<'pages'>;data:Hub;}
+const {page,data}=Astro.props;
+const products:Record<string,ProductPresentation>=catalog;
+---
+<ProductLayout {page} {...data}>
+  <section class="rk-section-inner rk-product-hub-cards" aria-label="Product categories">{data.cards.map(card=>{const product=products[card.product];const color=product.colors.find(c=>c.id===product.defaultColorId)!;return <a class="rk-product-hub-card" href={card.href}><img src={color.image.src} srcset={color.image.srcset} sizes="(max-width:760px) 100vw, 40vw" width={color.image.width} height={color.image.height} alt={`${card.product} in ${color.name}`} loading="lazy"/><div><h2>{card.title}</h2><p>{card.description}</p><strong>{card.action} →</strong></div></a>;})}</section>
+  <section class="rk-section-inner rk-product-hub-guidance"><h2>{data.secondaryTitle}</h2><div>{data.secondary.map(item=><article><h3>{item.title}</h3><p>{item.copy}</p>{item.href&&<a href={item.href}>{item.label} →</a>}</article>)}</div>{data.reference&&<p><a href={data.reference.href} target="_blank" rel="noopener noreferrer">{data.reference.label} ↗</a></p>}</section>
+</ProductLayout>

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 215,
+  "count": 229,
   "routes": [
     {
       "path": "/",
@@ -1623,7 +1623,9 @@
       "source": "wordpress",
       "wordpressId": 94,
       "canonicalPath": "/roofing/gaf/types/",
-      "notes": [],
+      "notes": [
+        "Product-pillar placement and concise breadcrumbs; original permalink and canonical retained."
+      ],
       "words": 719
     },
     {
@@ -1659,7 +1661,9 @@
       "source": "wordpress",
       "wordpressId": 85,
       "canonicalPath": "/roofing/types/",
-      "notes": [],
+      "notes": [
+        "Product-pillar placement and concise breadcrumbs; original permalink and canonical retained."
+      ],
       "words": 855
     },
     {
@@ -2062,6 +2066,163 @@
         "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
       ],
       "words": 90
+    },
+    {
+      "path": "/products/",
+      "file": "src/content/pages/products/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 114
+    },
+    {
+      "path": "/products/roofing/",
+      "file": "src/content/pages/products/roofing/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 143
+    },
+    {
+      "path": "/products/roofing/shingles/",
+      "file": "src/content/pages/products/roofing/shingles/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 109
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 99
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-uhdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 73
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-ns/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-ns/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-ns/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 67
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-as-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 84
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 89
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/camelot-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/camelot-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/camelot-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 61
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/woodland/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/woodland/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/woodland/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 63
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 60
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-as/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/royal-sovereign/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 75
     }
-  ]
+  ],
+  "updatedAt": "2026-10-17T20:03:36.227Z",
+  "originalRouteCount": 215,
+  "authoredProductRouteCount": 14
 }

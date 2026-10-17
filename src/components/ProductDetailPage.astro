@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { ProductPresentation, ProductDetailData } from '../data/product-types';
+import catalog from '../data/product-catalog.json';
+import site from '../data/site.json';
+import ProductLayout from '../layouts/ProductLayout.astro';
+import ProductCard from './ProductCard.astro';
+interface Props {page:CollectionEntry<'pages'>;data:ProductDetailData;}
+const {page,data}=Astro.props;
+const product=(catalog as Record<string,ProductPresentation>)[data.key];
+const color=product.colors.find(c=>c.id===product.defaultColorId)!;
+const schema={'@context':'https://schema.org','@type':'Product',name:data.title,description:data.description,brand:{'@type':'Brand',name:'GAF'},image:new URL(color.image.src,site.url).href,url:new URL(page.data.permalink,site.url).href};
+---
+<ProductLayout {page} heading={`${data.title} Roofing Shingles`} eyebrow="GAF product details" copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
+  <section class="rk-section-inner rk-product-detail-section" aria-label={`${data.title} colors and details`}><ProductCard item={{title:data.title,body:data.body}} {product} detail/></section>
+  <section class="rk-section-inner rk-product-hub-guidance"><h2>Plan your complete roofing system.</h2><p>Confirm color availability, physical samples, roof design, installation requirements and applicable warranty terms with Roof King.</p><div><article><h3>Compare the range</h3><a href="/roofing/gaf/types/">Back to GAF Shingles →</a></article><article><h3>Plan the work</h3><a href="/roofing/replacement/">Explore Roof Replacement →</a></article><article><h3>Talk about your home</h3><a href="/contact-us/">Discuss Your Project →</a></article></div></section>
+</ProductLayout>

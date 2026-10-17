@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import type { ServicePageData } from '../data/section-types';
 import { photo } from '../data/media';
 import { trust } from '../data/home.json';
+import { placements, replaceHeadings } from '../data/page-structure';
 import DocumentLayout from './DocumentLayout.astro';
 import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -24,12 +25,14 @@ import '../styles/home-interactions.css';
 import '../styles/services.css';
 interface Props { page:CollectionEntry<'pages'>; data:ServicePageData; }
 const { page, data } = Astro.props;
+const placement=placements[page.data.permalink];
+const hero={...data.hero,...placement?.hero};
 ---
 <DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image}>
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main"><article class="rk-native-service" data-service-build="astro-components" data-content-source={page.data.source}>
-    <PageHero hero={data.hero}/><TrustStrip {trust}/><Breadcrumbs items={data.breadcrumbs}/>
-    {data.sections.map(section=>section.type==='content'?<ContentSection {section}/>:
+    <PageHero {hero}/><TrustStrip {trust}/><Breadcrumbs items={placement?.breadcrumbs || data.breadcrumbs}/>
+    {data.sections.map(section=>section.type==='content'?<ContentSection section={{...section,body:replaceHeadings(section.body,placement?.headings)}}/>:
       section.type==='brands'?<BrandStrip brands={section}/>:
       section.type==='cards'?<CardSection kind={section.kind} section={section}/>:
       section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:

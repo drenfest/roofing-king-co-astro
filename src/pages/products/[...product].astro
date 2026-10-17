@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import ProductHubPage from '../../components/ProductHubPage.astro';
+import ProductDetailPage from '../../components/ProductDetailPage.astro';
+import hubs from '../../data/product-pillar.json';
+import details from '../../data/product-details.json';
+import type { ProductDetailData } from '../../data/product-types';
+export async function getStaticPaths(){const pages=await getCollection('pages');return [...Object.entries(hubs).filter(([path])=>path!=='/products/').map(([path,data])=>({params:{product:path.slice('/products/'.length,-1)},props:{page:pages.find(p=>p.data.permalink===path)!,hub:data}})),...Object.entries(details).map(([path,data])=>({params:{product:path.slice('/products/'.length,-1)},props:{page:pages.find(p=>p.data.permalink===path)!,detail:data as ProductDetailData}}))];}
+const {page,hub,detail}=Astro.props;
+---
+{hub?<ProductHubPage {page} data={hub}/>:detail?<ProductDetailPage {page} data={detail}/>:null}

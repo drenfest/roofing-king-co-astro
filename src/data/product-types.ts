@@ -1,3 +1,5 @@
+import type { RichNode } from './section-types';
+export type ProductDetailData={key:string;title:string;description:string;body:RichNode[];breadcrumbs:{label:string;href?:string}[]};
 export type ProductColor = {
   id:string;name:string;sourceImageUrl:string;
   image:{src:string;srcset:string;width:number;height:number};

@@ -1,0 +1,151 @@
+{
+  "pages": {
+    "/roofing/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing"
+        }
+      ]
+    },
+    "/roofing/repair/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing",
+          "href": "/roofing/"
+        },
+        {
+          "label": "Roof Repair"
+        }
+      ]
+    },
+    "/roofing/replacement/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing",
+          "href": "/roofing/"
+        },
+        {
+          "label": "Roof Replacement"
+        }
+      ]
+    },
+    "/roofing/metal/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing",
+          "href": "/roofing/"
+        },
+        {
+          "label": "Metal Roofing"
+        }
+      ]
+    },
+    "/roofing/gaf/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing",
+          "href": "/roofing/"
+        },
+        {
+          "label": "GAF Roofing Installation"
+        }
+      ]
+    },
+    "/roofing/gaf/master-elite/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Roofing",
+          "href": "/roofing/"
+        },
+        {
+          "label": "GAF Roofing Installation",
+          "href": "/roofing/gaf/"
+        },
+        {
+          "label": "Master Elite Certification"
+        }
+      ]
+    },
+    "/roofing/types/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Products",
+          "href": "/products/"
+        },
+        {
+          "label": "Roofing Products",
+          "href": "/products/roofing/"
+        },
+        {
+          "label": "Roofing Materials"
+        }
+      ],
+      "hero": {
+        "eyebrow": "Roofing materials",
+        "title": "Explore Roofing Materials for Your Home"
+      },
+      "headings": {
+        "Columbus, OH Roof Types": "Compare Roofing Materials"
+      }
+    },
+    "/roofing/gaf/types/": {
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Products",
+          "href": "/products/"
+        },
+        {
+          "label": "Roofing Products",
+          "href": "/products/roofing/"
+        },
+        {
+          "label": "Shingles",
+          "href": "/products/roofing/shingles/"
+        },
+        {
+          "label": "GAF"
+        }
+      ],
+      "hero": {
+        "eyebrow": "Product catalog",
+        "title": "GAF Shingles: Colors, Styles and Specifications",
+        "description": "Explore genuine color samples and compare product specifications and manufacturer warranty information."
+      },
+      "headings": {
+        "Columbus, OH GAF Roof Shingle Types": "Compare GAF Roofing Shingles"
+      }
+    }
+  }
+}

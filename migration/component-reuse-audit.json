@@ -1,11 +1,18 @@
 {
-  "generatedAt": "2026-10-17T18:58:27.720Z",
-  "scope": "All 215 preserved source records examined; page-by-page visual approval is still pending. No live crawl, URL deletion, redirect, navigation restructuring or canonical change performed.",
-  "totalRoutes": 215,
-  "canonicalTargets": 202,
+  "generatedAt": "2026-10-17T20:03:37.909Z",
+  "scope": "All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.",
+  "totalRoutes": 229,
+  "canonicalTargets": 216,
   "alternateRoutes": 13,
   "nonArticleBlogWrappers": 35,
   "families": [
+    {
+      "id": "products",
+      "name": "Product hubs, guides and records",
+      "description": "Products → Roofing Products → Shingles → GAF → individual products; preserve existing canonical URLs.",
+      "count": 16,
+      "canonicalCount": 16
+    },
     {
       "id": "homepage",
       "name": "Homepage",
@@ -17,8 +24,8 @@
       "id": "services",
       "name": "Services",
       "description": "ServicePage template with hub/detail/material/claims variants.",
-      "count": 35,
-      "canonicalCount": 35
+      "count": 33,
+      "canonicalCount": 33
     },
     {
       "id": "cities",
@@ -344,7 +351,21 @@
         "/tag/cost-guides/",
         "/tag/hail-damage/",
         "/tag/christmas-lights/",
-        "/blog/page/2/"
+        "/blog/page/2/",
+        "/products/",
+        "/products/roofing/",
+        "/products/roofing/shingles/",
+        "/products/roofing/shingles/gaf/timberline-hdz/",
+        "/products/roofing/shingles/gaf/timberline-uhdz/",
+        "/products/roofing/shingles/gaf/timberline-ns/",
+        "/products/roofing/shingles/gaf/timberline-as-ii/",
+        "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+        "/products/roofing/shingles/gaf/camelot-ii/",
+        "/products/roofing/shingles/gaf/woodland/",
+        "/products/roofing/shingles/gaf/grand-sequoia/",
+        "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+        "/products/roofing/shingles/gaf/grand-sequoia-as/",
+        "/products/roofing/shingles/gaf/royal-sovereign/"
       ],
       "recommendedRoutes": [
         "/",
@@ -561,9 +582,23 @@
         "/tag/cost-guides/",
         "/tag/hail-damage/",
         "/tag/christmas-lights/",
-        "/blog/page/2/"
+        "/blog/page/2/",
+        "/products/",
+        "/products/roofing/",
+        "/products/roofing/shingles/",
+        "/products/roofing/shingles/gaf/timberline-hdz/",
+        "/products/roofing/shingles/gaf/timberline-uhdz/",
+        "/products/roofing/shingles/gaf/timberline-ns/",
+        "/products/roofing/shingles/gaf/timberline-as-ii/",
+        "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+        "/products/roofing/shingles/gaf/camelot-ii/",
+        "/products/roofing/shingles/gaf/woodland/",
+        "/products/roofing/shingles/gaf/grand-sequoia/",
+        "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+        "/products/roofing/shingles/gaf/grand-sequoia-as/",
+        "/products/roofing/shingles/gaf/royal-sovereign/"
       ],
-      "observedCanonicalCount": 202
+      "observedCanonicalCount": 216
     },
     {
       "id": "PageHero",
@@ -1326,7 +1361,21 @@
         "/tag/cost-guides/",
         "/tag/hail-damage/",
         "/tag/christmas-lights/",
-        "/blog/page/2/"
+        "/blog/page/2/",
+        "/products/",
+        "/products/roofing/",
+        "/products/roofing/shingles/",
+        "/products/roofing/shingles/gaf/timberline-hdz/",
+        "/products/roofing/shingles/gaf/timberline-uhdz/",
+        "/products/roofing/shingles/gaf/timberline-ns/",
+        "/products/roofing/shingles/gaf/timberline-as-ii/",
+        "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+        "/products/roofing/shingles/gaf/camelot-ii/",
+        "/products/roofing/shingles/gaf/woodland/",
+        "/products/roofing/shingles/gaf/grand-sequoia/",
+        "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+        "/products/roofing/shingles/gaf/grand-sequoia-as/",
+        "/products/roofing/shingles/gaf/royal-sovereign/"
       ],
       "observedCanonicalCount": 104
     },
@@ -1754,7 +1803,21 @@
         "/westerville-oh/",
         "/windows/",
         "/worthington-oh/",
-        "/zanesville-oh/"
+        "/zanesville-oh/",
+        "/products/",
+        "/products/roofing/",
+        "/products/roofing/shingles/",
+        "/products/roofing/shingles/gaf/timberline-hdz/",
+        "/products/roofing/shingles/gaf/timberline-uhdz/",
+        "/products/roofing/shingles/gaf/timberline-ns/",
+        "/products/roofing/shingles/gaf/timberline-as-ii/",
+        "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+        "/products/roofing/shingles/gaf/camelot-ii/",
+        "/products/roofing/shingles/gaf/woodland/",
+        "/products/roofing/shingles/gaf/grand-sequoia/",
+        "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+        "/products/roofing/shingles/gaf/grand-sequoia-as/",
+        "/products/roofing/shingles/gaf/royal-sovereign/"
       ],
       "observedCanonicalCount": 82
     },
@@ -3459,9 +3522,35 @@
   ],
   "batches": [
     {
+      "id": "products",
+      "name": "Build the product pillar",
+      "description": "Separate product exploration and individual records from installation services and local context. Preserve existing catalog URLs and use concise logical breadcrumbs.",
+      "families": [
+        "products"
+      ],
+      "routes": [
+        "/roofing/gaf/types/",
+        "/roofing/types/",
+        "/products/",
+        "/products/roofing/",
+        "/products/roofing/shingles/",
+        "/products/roofing/shingles/gaf/timberline-hdz/",
+        "/products/roofing/shingles/gaf/timberline-uhdz/",
+        "/products/roofing/shingles/gaf/timberline-ns/",
+        "/products/roofing/shingles/gaf/timberline-as-ii/",
+        "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+        "/products/roofing/shingles/gaf/camelot-ii/",
+        "/products/roofing/shingles/gaf/woodland/",
+        "/products/roofing/shingles/gaf/grand-sequoia/",
+        "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+        "/products/roofing/shingles/gaf/grand-sequoia-as/",
+        "/products/roofing/shingles/gaf/royal-sovereign/"
+      ]
+    },
+    {
       "id": "foundation",
       "name": "Extract the shared homepage sections",
-      "description": "Split hardcoded homepage components into prop-driven hero, trust, brand, coverage, testimonial, card and CTA sections. Create one native shell/modal host. This is a dependency, not 215 finished pages.",
+      "description": "Split hardcoded homepage components into prop-driven hero, trust, brand, coverage, testimonial, card and CTA sections. Create one native shell/modal host. This is a dependency, not every page finished.",
       "families": [
         "homepage"
       ],
@@ -3498,11 +3587,9 @@
         "/roofing/",
         "/roofing/gaf/",
         "/roofing/gaf/master-elite/",
-        "/roofing/gaf/types/",
         "/roofing/metal/",
         "/roofing/repair/",
         "/roofing/replacement/",
-        "/roofing/types/",
         "/siding/",
         "/siding/replacement/",
         "/siding/types/",
@@ -26949,11 +27036,13 @@
       "source": "wordpress",
       "wordpressId": 94,
       "canonicalPath": "/roofing/gaf/types/",
-      "notes": [],
+      "notes": [
+        "Product-pillar placement and concise breadcrumbs; original permalink and canonical retained."
+      ],
       "words": 719,
-      "title": "Columbus, OH GAF Roof Shingle Types",
-      "category": "Service detail",
-      "family": "services",
+      "title": "GAF Shingles: Colors, Styles and Specifications",
+      "category": "Product catalog",
+      "family": "products",
       "primaryWords": 380,
       "primaryExcerpt": "Exterior Services Columbus, OH GAF Roof Shingle Types Explore GAF shingles: durable Timberline HDZ, stylish Camelot II, impact-resistant AS II, and cool roof options like Grand Sequoia RS. Beauty meets performance! Timberline HDZThe look people love, now with LayerLock Technology and the StainGuard Plus Algae Protection Limited WarrantyTimberline UHDZTimberline UHDZ (Ultra High Definition) shingles offer a combination of beauty and benefits that go beyond any other GAF shingle.Timberline NSStylish yet practically priced shingles provide value and performance with a natural shadow effect.Timber",
       "headings": [
@@ -27104,11 +27193,6 @@
           "action": "adapt"
         },
         {
-          "id": "PageHero",
-          "observed": true,
-          "action": "reuse"
-        },
-        {
           "id": "Breadcrumbs",
           "observed": true,
           "action": "reuse"
@@ -27119,12 +27203,12 @@
           "action": "reuse"
         },
         {
-          "id": "TrustStrip",
+          "id": "PageHero",
           "observed": true,
           "action": "reuse"
         },
         {
-          "id": "QuoteCTA",
+          "id": "TrustStrip",
           "observed": true,
           "action": "reuse"
         },
@@ -27154,13 +27238,18 @@
           "action": "adapt"
         },
         {
+          "id": "QuoteCTA",
+          "observed": true,
+          "action": "reuse"
+        },
+        {
           "id": "ProductGrid",
           "observed": false,
           "action": "reuse"
         }
       ],
       "issues": [],
-      "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
       "bodyHash": "853ec2060893e40193ba0729ec344eba06a01b37c949e23c06efc6ffb41fd70c",
       "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
@@ -27762,11 +27851,13 @@
       "source": "wordpress",
       "wordpressId": 85,
       "canonicalPath": "/roofing/types/",
-      "notes": [],
+      "notes": [
+        "Product-pillar placement and concise breadcrumbs; original permalink and canonical retained."
+      ],
       "words": 855,
-      "title": "Columbus, OH Roof Types",
-      "category": "Service detail",
-      "family": "services",
+      "title": "Roofing Materials and Types",
+      "category": "Product guide",
+      "family": "products",
       "primaryWords": 505,
       "primaryExcerpt": "Exterior Services Columbus, OH Roof Types Ready to install a new roof on your Columbus home? Browse our extensive collection of high-end roofing styles at Roof King & Restoration and get a quote today. If you’re ready to install new roofing on your Ohio home, you’ll be presented with multiple material options to choose from. Selecting the right roofing type is crucial for your home’s exterior curb appeal and lasting performance.Here at Roof King & Restoration, we have some of the most modern roofing types available in the industry. As an A+ rated and accredited business by the Better Business ",
       "headings": [
@@ -27873,11 +27964,6 @@
           "action": "adapt"
         },
         {
-          "id": "PageHero",
-          "observed": true,
-          "action": "reuse"
-        },
-        {
           "id": "Breadcrumbs",
           "observed": true,
           "action": "reuse"
@@ -27888,12 +27974,12 @@
           "action": "reuse"
         },
         {
-          "id": "TrustStrip",
+          "id": "PageHero",
           "observed": true,
           "action": "reuse"
         },
         {
-          "id": "QuoteCTA",
+          "id": "TrustStrip",
           "observed": true,
           "action": "reuse"
         },
@@ -27921,10 +28007,15 @@
           "id": "Testimonials",
           "observed": true,
           "action": "adapt"
+        },
+        {
+          "id": "QuoteCTA",
+          "observed": true,
+          "action": "reuse"
         }
       ],
       "issues": [],
-      "note": "Compose the service variant from shared hero, body sections, relevant product/service links and proof. Keep this service’s explanation, process and FAQs distinct.",
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
       "bodyHash": "7de3b02f34daa282a61a0c45a7eae41e6883b1adcee6363e82f2856f99413854",
       "nativeStatus": "Native service components",
       "role": "Supporting / purpose-specific",
@@ -31835,6 +31926,918 @@
       "note": "Use ArchiveListing backed by the actual topic/tag/author query. Provide a real empty state and useful intro where results are sparse; retain this exact URL.",
       "bodyHash": "9db7283ecb7ed8c45eaeb4aa4a29920fc0b6ae35153c8b782e1601a31584625e",
       "nativeStatus": "Imported / reconstructed page",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/",
+      "file": "src/content/pages/products/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 114,
+      "title": "Exterior Building Products",
+      "category": "Product hub",
+      "family": "products",
+      "primaryWords": 91,
+      "primaryExcerpt": "Find the right materials for your home.Start with the materials. Explore colors, styles, specifications and manufacturer warranty information, then discuss installation with our team.Roofing ProductsExplore shingle colors, compare roofing materials and review the details behind each product.Explore Roofing ProductsProduct choices, service expertise and local guidanceBrowse the productsKeep colors, specifications and manufacturer documents together so you can compare options in one place.Plan the installationOur service pages explain inspections, repairs, replacement and what to expect from the",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Find the right materials for your home."
+        },
+        {
+          "level": 2,
+          "text": "Roofing Products"
+        },
+        {
+          "level": 2,
+          "text": "Product choices, service expertise and local guidance"
+        },
+        {
+          "level": 3,
+          "text": "Browse the products"
+        },
+        {
+          "level": 3,
+          "text": "Plan the installation"
+        },
+        {
+          "level": 3,
+          "text": "Consider your location"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "698be08811feebf97d62fc7c432f9b6e0df0e0cad913d8297f1181d41eeb660e",
+      "nativeStatus": "Native product pillar",
+      "role": "Primary candidate",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/",
+      "file": "src/content/pages/products/roofing/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 143,
+      "title": "Roofing Products and Materials",
+      "category": "Product hub",
+      "family": "products",
+      "primaryWords": 121,
+      "primaryExcerpt": "Compare the products above your home.Explore materials and product details, then pair your choices with a clear plan for repair, replacement or installation.ShinglesExplore roofing shingle brands, then compare individual products, colors, specifications and manufacturer warranty information.Explore ShinglesRoofing Materials GuideExplore material options and the questions to discuss before choosing a roofing system.Compare Roofing MaterialsChoose for the home, the conditions and the complete systemWind and installationCompare the manufacturer’s wind-performance documentation and the installatio",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Compare the products above your home."
+        },
+        {
+          "level": 2,
+          "text": "Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Roofing Materials Guide"
+        },
+        {
+          "level": 2,
+          "text": "Choose for the home, the conditions and the complete system"
+        },
+        {
+          "level": 3,
+          "text": "Wind and installation"
+        },
+        {
+          "level": 3,
+          "text": "Hail and exposure"
+        },
+        {
+          "level": 3,
+          "text": "Shade and moisture"
+        },
+        {
+          "level": 3,
+          "text": "Design and budget"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "6aeb2b76ebe1e4caa935381f38b78900e8d346d3b3f5b210aa533c5c727a6288",
+      "nativeStatus": "Native product pillar",
+      "role": "Primary candidate",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/",
+      "file": "src/content/pages/products/roofing/shingles/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 109,
+      "title": "Roofing Shingles",
+      "category": "Product hub",
+      "family": "products",
+      "primaryWords": 98,
+      "primaryExcerpt": "Find your shingle style.Explore by manufacturer, then compare individual shingle products. Keep your product research together before discussing the right installation for your home.GAFCompare the verified GAF product range, browse genuine color samples, and explore each product in detail.Browse GAF ShinglesCompare products with your project in mindColors and profilesExplore the product photographs and color variants, then ask to see a physical sample before making a selection.Specifications and warrantiesReview each product’s manufacturer information and the requirements for the complete inst",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Find your shingle style."
+        },
+        {
+          "level": 2,
+          "text": "GAF"
+        },
+        {
+          "level": 2,
+          "text": "Compare products with your project in mind"
+        },
+        {
+          "level": 3,
+          "text": "Colors and profiles"
+        },
+        {
+          "level": 3,
+          "text": "Specifications and warranties"
+        },
+        {
+          "level": 3,
+          "text": "Conditions at your home"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "8d27f08ca2b75936be7719cea32a40757866d254744f19e86fccdc7b927a3ff0",
+      "nativeStatus": "Native product pillar",
+      "role": "Primary candidate",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 99,
+      "title": "Timberline HDZ Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 82,
+      "primaryExcerpt": "Timberline HDZ Roofing ShinglesThe look people love, now with LayerLock Technology and the StainGuard Plus Algae Protection Limited WarrantyColorsBarkwood, Birchwood, Biscayne Blue, Charcoal, Copper Canyon, Driftwood, Fox Hollow Gray, Golden Amber, Hickory, Hunter Green, Mission Brown, Oyster Gray, Patriot Red, Pewter Gray, Shakewood, Slate, Sunset Brick, Weathered Wood, Williamsburg Slate, Chestnut Valley, Cliffside, Midnight Mesa, Sierra SandNominal specificationsPieces per Square64Bundles per Square3Nails per Square256Exposure5 5/8\"Dimensions13 1/4\" x 39 3/8\"Manufacturer warranty informatio",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Timberline HDZ Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "d1918eb62e3de30e2133ba194590d418be9873a103fd53d35e961215e6c88441",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-uhdz/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 73,
+      "title": "Timberline UHDZ Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 56,
+      "primaryExcerpt": "Timberline UHDZ Roofing ShinglesTimberline UHDZ (Ultra High Definition) shingles offer a combination of beauty and benefits that go beyond any other GAF shingle.ColorsBarkwood, Charcoal, Pewter Gray, Shakewood, Slate, Weathered WoodNominal specificationsPieces per Square64Bundles per Square3Nails per Square256Exposure5 5/8\"Dimensions13 1/4\" x 39 3/8\"Manufacturer warranty informationStainGuard Plus PRO™ Algae Protection Limited Warranty; WindProven™ Limited Wind WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Timberline UHDZ Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "0af4a23a708611794e68011827517f5f8f1a4ff5ce693a7c675a61be689903bc",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-ns/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-ns/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-ns/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 67,
+      "title": "Timberline NS Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 50,
+      "primaryExcerpt": "Timberline NS Roofing ShinglesStylish yet practically priced shingles provide value and performance with a natural shadow effect.ColorsBarkwood, Charcoal, Hickory, Pewter Gray, Shakewood, Slate, Weathered WoodNominal specificationsPieces per Square64Bundles per Square3Nails per Square256Exposure5 5/8\" (144 mm)Dimensions13 1/4\" x 39 3/8\"Manufacturer warranty informationStainGuard™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Timberline NS Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "29129e4330d2ac772c0fb0e752aa19ab8135e601f2446fb5d65a16c3246cac84",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-as-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 84,
+      "title": "Timberline AS II Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 67,
+      "primaryExcerpt": "Timberline AS II Roofing ShinglesTimberline AS II Shingles with UL 2218 Class 4 impact resistance give your roof a fighting chance in hail-prone areas1 and help protect it against wind and blue-green algae too.ColorsBarkwood, Charcoal, Hickory, Pewter Gray, Shakewood, Slate, Weathered WoodNominal specificationsPieces per Square64Bundles per Square3Nails per Square256Exposure5 5/8\"Dimensions13 1/4\" x 39 3/8\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; WindProven™ Limited Wind WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Timberline AS II Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "e3c845e257787942ec7f4f17cf934d2b2efe898dc383de496607f5d02ed0ef7e",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/timberline-hdz-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 89,
+      "title": "Timberline HDZ RS Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 72,
+      "primaryExcerpt": "Timberline HDZ RS Roofing ShinglesTimberline HDZ RS shingles can be used to comply with 2022 Title 24, Part 6 Cool Roof Requirements of the California Code of Regulations and are rated by the Cool Roof Rating Council (CRRC).ColorsCharcoal, Hickory, Aged Chestnut, Coastal Slate, Sagewood, Sandalwood, Stone GrayNominal specificationsPieces per Square64Bundles per Square3Nails per Square256Exposure5 5/8\"Dimensions13 1/4\" x 39 3/8\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; WindProven™ Limited Wind WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Timberline HDZ RS Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "7f1e98923b820a8b0166ec1146daf48545382c87c01194908e476ce9bbbfdf3c",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/camelot-ii/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/camelot-ii/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/camelot-ii/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 61,
+      "title": "Camelot II Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 44,
+      "primaryExcerpt": "Camelot II Roofing ShinglesAn artisan-crafted slate-like shape and custom palette conjure the romance of European architecture.ColorsAntique Slate, Barkwood, Charcoal, Royal Slate, Weathered TimberNominal specificationsPieces per Square56Bundles per Square4Nails per Square280Exposure7.5\"Dimensions17\" x 34.5\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Camelot II Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "4734e210220d4b2e085f4ded8ffd8e0ed7192fe3238f082f4a1b99a6c49dc604",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/woodland/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/woodland/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/woodland/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 63,
+      "title": "Woodland Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 47,
+      "primaryExcerpt": "Woodland Roofing ShinglesThe stylish look of hand-cut European shingles with 21st century style at an incredibly affordable price.ColorsCastlewood Gray, Cedarwood AbbeyNominal specificationsPieces per Square56Bundles per Square4Nails per Square280Exposure6 1/2\" - 7 1/2\" Dimensions17\" x 40\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Woodland Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "0a6f1abd7b4d2244d166c299bdab67800c5e548248e92fae8b21eb73ef1553d7",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64,
+      "title": "Grand Sequoia Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 47,
+      "primaryExcerpt": "Grand Sequoia Roofing ShinglesArtisan-crafted shapes combined with oversized tabs result in a sophisticated beauty unmatched by typical shingles.ColorsAutumn Brown, Charcoal, Weathered Wood, Mesa Brown, CedarNominal specificationsPieces per Square72Bundles per Square5Nails per Square360Exposure5\"Dimensions17 1/4\" x 40\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Grand Sequoia Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "e2ded553fbec0858836576cb34d6a1e40ee5d3dd6984a7a96e249cb056b2a058",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-rs/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 60,
+      "title": "Grand Sequoia RS Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 43,
+      "primaryExcerpt": "Grand Sequoia RS Roofing ShinglesThe cool roof you need with the distinctive style you crave.ColorsCharcoal, Forest Brown, Ocean Gray, Sagewood, SandalwoodNominal specificationsPieces per Square72Bundles per Square5Nails per Square360Exposure5\"Dimensions17 1/4\" x 40\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Grand Sequoia RS Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "ac4b88ea083a1cfbca3fb5993208afb3e7a56dc678a65973377b9b09a941d4d5",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/grand-sequoia-as/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 64,
+      "title": "Grand Sequoia AS Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 47,
+      "primaryExcerpt": "Grand Sequoia AS Roofing ShinglesThe look of rugged wood shakes with the protection of UL 2218 Class 4 impact resistance.ColorsAdobe Sunset, Charcoal, Dusky Gray, Weathered WoodNominal specificationsPieces per Square72Bundles per Square4Nails per Square360Exposure5\"Dimensions17\" x 40\"Manufacturer warranty informationStainGuard Plus™ Algae Protection Limited Warranty; Lifetime† Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Grand Sequoia AS Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "99f69de1982a5f9bd90aa5fb366db7a48c06eb49136343805ad2cedaa8707e59",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "file": "src/content/pages/products/roofing/shingles/gaf/royal-sovereign/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "notes": [
+        "Authored product pillar; all original permalinks and canonical preferences remain unchanged."
+      ],
+      "words": 75,
+      "title": "Royal Sovereign Roofing Shingles",
+      "category": "Product detail",
+      "family": "products",
+      "primaryWords": 58,
+      "primaryExcerpt": "Royal Sovereign Roofing ShinglesBeautiful. Reliable. Affordable. Simple, timeless beauty at a price you can afford. When the value is everything, living the dream has never looked so good.ColorsWeathered Gray, CharcoalNominal specificationsPieces per Square79Bundles per Square3Nails per Square316Exposure5\" (127 mm)Dimensions12\"x 36\" (English); 13 1/4\"x 39 3/8\" (Metric)Manufacturer warranty informationStainGuard™ Algae Protection Limited Warranty; 25 year Limited WarrantyManufacturer product details",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Royal Sovereign Roofing Shingles"
+        },
+        {
+          "level": 2,
+          "text": "Colors"
+        },
+        {
+          "level": 2,
+          "text": "Nominal specifications"
+        },
+        {
+          "level": 2,
+          "text": "Manufacturer warranty information"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "006234594d2eb3d8aaf165a6c4910278b3a7e622ca1a385444545376c7f5ae7c",
+      "nativeStatus": "Native product pillar",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     }
