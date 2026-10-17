@@ -22,6 +22,8 @@ Open `http://127.0.0.1:4321/`. The searchable route/source review is at `/migrat
 
 `npm run verify` runs Astro diagnostics, content validation, a production static build, and checks for every protected route, canonical target, broken internal links, and referenced HTML assets. The same command runs in GitHub Actions.
 
+Initial validation on October 17, 2026 passed locally for all 215 content routes. The first GitHub Actions run was blocked before starting any jobs: GitHub reported failed account payments or a spending-limit issue. Resolve that account setting before relying on hosted CI; this is not a successful CI run.
+
 ## Where to edit
 
 - `src/content/pages/**/index.md`: one editable Markdown document per preserved URL. Frontmatter defines the exact `permalink` independently of navigation or file grouping. The body currently contains the imported HTML sections.
