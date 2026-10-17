@@ -1555,6 +1555,49 @@
   margin-top: 2rem;
 }
 
+.rk-review-attribution {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem .75rem;
+  padding-top: 1.25rem;
+}
+
+.rk-review-author {
+  color: #4e5d58;
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.rk-review-source {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 44px;
+  margin-left: auto;
+  padding: .45rem .75rem;
+  border: 1px solid #cbd8d1;
+  border-radius: .5rem;
+  background: #eef4ef;
+  color: #173d2c;
+  font-size: .78rem;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+
+.rk-review-source:hover {
+  background: #e0ece3;
+  border-color: #698571;
+}
+
+.rk-review-source:focus-visible {
+  outline: 3px solid #c65a16;
+  outline-offset: 3px;
+}
+
 .rk-home-reviews .rk-button-primary {
   background: linear-gradient(135deg, var(--rk-royal-deep), var(--rk-royal));
   border-color: rgb(255 177 93 / 28%);

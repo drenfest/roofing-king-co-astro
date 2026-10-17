@@ -318,17 +318,32 @@
       {
         "title": "Positive experience",
         "description": "5/5 Stars - Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…",
-        "image": null
+        "image": null,
+        "author": "Lloyd F.",
+        "source": {
+          "platform": "Roof King",
+          "url": "https://www.roofkingco.com/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/"
+        }
       },
       {
         "title": "Great Job on my roof!",
         "description": "5/5 Stars - I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…",
-        "image": null
+        "image": null,
+        "author": "Sou M.",
+        "source": {
+          "platform": "Roof King",
+          "url": "https://www.roofkingco.com/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/"
+        }
       },
       {
         "title": "Roofing repair",
         "description": "5/5 Stars - Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered.",
-        "image": null
+        "image": null,
+        "author": "Charles H.",
+        "source": {
+          "platform": "Roof King",
+          "url": "https://www.roofkingco.com/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/"
+        }
       }
     ]
   },
