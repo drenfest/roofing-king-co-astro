@@ -26,6 +26,9 @@ for(const [title,product]of Object.entries(catalog)){
   for(const badge of product.badges){assert.ok(product.specs.some(s=>s.label===badge.specLabel));
     assert.ok(card.find('summary[aria-label="Explain '+badge.label+': '+badge.value+'"]').length);
   }
+  assert.ok(card.find('[data-kind="wind"] summary').text().includes('150 mph'));
+  assert.ok(card.find('[data-kind="wind"] .rk-product-badge-explanation').text().includes('110 mph'));
+  assert.ok(card.find('[data-kind="wind"] .rk-product-badge-explanation').text().includes('not a prediction'));
   assert.equal(product.specs.find(s=>s.label==='Expected lifespan').value,'Varies by roof');
   assert.ok(product.specs.find(s=>s.label==='Expected lifespan').note.includes('not a lifespan guarantee'));
   assert.ok(product.sourceUrl.startsWith('https://www.gaf.com/'));

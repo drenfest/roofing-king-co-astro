@@ -6,8 +6,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -337,8 +338,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -364,8 +366,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -486,8 +489,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -513,8 +517,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -647,8 +652,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -674,8 +680,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -813,8 +820,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -840,8 +848,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -979,8 +988,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1006,8 +1016,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1125,8 +1136,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1152,8 +1164,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1231,8 +1244,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1258,8 +1272,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1373,8 +1388,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1400,8 +1416,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1515,8 +1532,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1542,8 +1560,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1645,8 +1664,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",
@@ -1672,8 +1692,9 @@
     "specs": [
       {
         "label": "Wind resistance",
-        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
-        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+        "value": "ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph",
+        "note": "Manufacturer-stated classification speeds under controlled laboratory conditions. Actual roof performance depends on roof design, exposure and installation; this is not a guaranteed storm speed or wind warranty.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/roofing-technology/advanced-protection"
       },
       {
         "label": "Impact resistance",
@@ -1755,8 +1776,9 @@
     "badges": [
       {
         "label": "Wind",
-        "value": "Class H",
-        "specLabel": "Wind resistance"
+        "value": "150 mph",
+        "specLabel": "Wind resistance",
+        "detail": "Class H rating"
       },
       {
         "label": "Impact",

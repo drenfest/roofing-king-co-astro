@@ -97,3 +97,7 @@
 .rk-product-card-detail .rk-product-photo > img { aspect-ratio:1; }
 .rk-product-badges { position:static; }
 .rk-product-badges { width:100%;box-sizing:border-box; }
+
+.rk-product-badge small { font-size:.58rem;line-height:1.2; }
+.rk-product-badge-explanation { bottom:114px;max-height:calc(100% - 130px); }
+.rk-product-spec-reference { display:block;margin-top:.4rem;font-size:.78rem;font-weight:400; }

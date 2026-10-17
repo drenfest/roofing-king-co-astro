@@ -36,7 +36,7 @@
                 <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
               {/if}
             </svg>
-            <span>{badge.label} <span aria-hidden="true">ⓘ</span></span><strong>{badge.value}</strong>
+            <span>{badge.label} <span aria-hidden="true">ⓘ</span></span><strong>{badge.value}</strong>{#if badge.detail}<small>{badge.detail}</small>{/if}
           </summary>
           <div class="rk-product-badge-explanation">
             <strong>{explanation.title}</strong><p>{explanation.body}</p>
