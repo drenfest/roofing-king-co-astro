@@ -28,6 +28,7 @@ for(const [path,data] of Object.entries(pages)){
   });
   const requiredLinks=before('.rk-page-section:not(.rk-page-final-cta) a[href^="/"]').filter((i,e)=>!before(e).closest('.rk-page-service-cta').length).map((i,e)=>before(e).attr('href')).get();
   for(const href of requiredLinks)assert.ok($(`main a[href="${href}"]`).length,'Lost contextual link '+href);
+  if(path==='/cleveland-oh/roofing/'){assert.equal($('[data-component=ServiceGuide]').length,1);assert.equal($('.rk-service-guide-topic').length,4);assert.equal($('main pre,main code').length,0,'Imported markup must not display as source code');}
   const gallery=data.sections.find(s=>s.type==='gallery');assert.equal($('.rk-project-gallery-item').length,gallery.items.length);
   const faq=data.sections.find(s=>s.type==='faq');assert.equal($('.rk-service-faq details').length,faq?.items.length||0);
 }

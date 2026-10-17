@@ -11,6 +11,7 @@ import PageHero from '../components/PageHero.astro';
 import TrustStrip from '../components/TrustStrip.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ContentSection from '../components/ContentSection.astro';
+import ServiceGuide from '../components/ServiceGuide.astro';
 import BrandStrip from '../components/BrandStrip.astro';
 import CardSection from '../components/CardSection.astro';
 import ProjectGallery from '../components/ProjectGallery.svelte';
@@ -33,6 +34,7 @@ const hero={...data.hero,...placement?.hero};
   <main id="content" class="rk-site-main"><article class="rk-native-service" data-service-build="astro-components" data-content-source={page.data.source}>
     <PageHero {hero}/><TrustStrip {trust}/><Breadcrumbs items={placement?.breadcrumbs || data.breadcrumbs}/>
     {data.sections.map(section=>section.type==='content'?<ContentSection section={{...section,body:replaceHeadings(section.body,placement?.headings)}}/>:
+      section.type==='guide'?<ServiceGuide {section}/>:
       section.type==='brands'?<BrandStrip brands={section}/>:
       section.type==='cards'?<CardSection kind={section.kind} section={section}/>:
       section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:

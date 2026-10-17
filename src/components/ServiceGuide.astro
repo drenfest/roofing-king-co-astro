@@ -1,0 +1,19 @@
+---
+import type {ServiceGuideData} from '../data/section-types';
+import RichContent from './RichContent.astro';
+interface Props {section:ServiceGuideData;}
+const {section}=Astro.props;
+---
+<section class="rk-service-guide" data-component="ServiceGuide">
+  <div class="rk-section-inner rk-service-guide-layout">
+    <nav class="rk-service-guide-nav" aria-label="Roofing services on this page">
+      <p class="rk-home-eyebrow">Explore this page</p>
+      <ol>{section.items.map(item=><li><a href={`#${item.id}`}>{item.title}</a></li>)}</ol>
+      <a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Discuss Your Roof</a>
+    </nav>
+    <div class="rk-service-prose">
+      <div class="rk-service-guide-intro"><RichContent nodes={section.intro}/></div>
+      {section.items.map(item=><section class="rk-service-guide-topic" id={item.id} aria-labelledby={`${item.id}-title`}><h2 id={`${item.id}-title`}>{item.title}</h2><RichContent nodes={item.body}/></section>)}
+    </div>
+  </div>
+</section>

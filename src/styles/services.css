@@ -29,3 +29,14 @@ a.rk-service-card:hover { box-shadow:0 10px 25px #10243414;transform:translateY(
 .rk-native-service :is(a,summary,input):focus-visible { outline:3px solid #ac8238;outline-offset:4px; }
 @media(max-width:900px){.rk-service-cards-services{grid-template-columns:repeat(2,minmax(0,1fr));}.rk-service-cards-services .rk-service-card-quote{grid-column:auto;grid-row:auto;}.rk-service-content-features > .rk-section-inner{grid-template-columns:1fr;}}
 @media(max-width:600px){.rk-service-cards-services{grid-template-columns:1fr;}.rk-service-card{padding:1.5rem;}.rk-native-page-hero .rk-home-hero-copy h1{font-size:2.15rem;}}
+
+.rk-service-guide { padding-block:clamp(2rem,5vw,5rem);background:#f7f5ef; }
+.rk-service-guide-layout { display:grid;grid-template-columns:minmax(220px,.8fr) minmax(0,2.2fr);gap:clamp(2rem,5vw,5rem);align-items:start; }
+.rk-service-guide-nav { position:sticky;top:110px;background:#fff;padding:1.5rem;border:1px solid #dfd8c8;border-top:4px solid #b99854;border-radius:8px; }
+.rk-service-guide-nav ol { padding-left:1.2rem;line-height:1.55; }
+.rk-service-guide-nav li { padding:.65rem 0;border-bottom:1px solid #e8e4d8; }
+.rk-service-guide-nav li a { color:#264c35;text-decoration:underline;text-underline-offset:3px; }
+.rk-service-guide-nav .rk-button { margin-top:1rem; }
+.rk-service-guide-topic { padding-top:2.5rem;margin-top:2rem;border-top:1px solid #d8d2c3;scroll-margin-top:120px; }
+.rk-service-guide-topic h2 { margin-top:0; }
+@media(max-width:850px){.rk-service-guide-layout{grid-template-columns:1fr;}.rk-service-guide-nav{position:static;}.rk-service-guide-nav ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 1.5rem;}}

@@ -2,7 +2,7 @@
 
 ## Purpose and current scope
 
-Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 original routes are preserved; 14 authored product-pillar routes bring the current total to 229. The homepage and all eight routes in the `/roofing/` family now use native components. The product pillar has three native hubs and eleven individual product pages; remaining legacy routes still use imported content. Editorial verification and production lead delivery remain pending.
+Build an SEO-focused static Roof King site using Astro and Svelte, retaining the WordPress design. All 215 original routes are preserved; 14 authored product-pillar routes bring the current total to 229. The homepage, all eight routes in the `/roofing/` family, and `/cleveland-oh/roofing/` now use native components. Cleveland uses the reusable ServiceGuide for long-form location-service copy. The product pillar has three native hubs and eleven individual product pages; remaining legacy routes still use imported content. Editorial verification and production lead delivery remain pending.
 
 ## Read first
 

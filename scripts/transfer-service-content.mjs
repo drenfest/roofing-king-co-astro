@@ -2,8 +2,10 @@ import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
 import YAML from 'yaml';
 // Explicit migration authoring step; normal builds read committed typed data only.
-const paths=['/roofing/','/roofing/repair/','/roofing/replacement/','/roofing/types/','/roofing/metal/','/roofing/gaf/','/roofing/gaf/types/','/roofing/gaf/master-elite/'];
-const result={};
+const defaults=['/roofing/','/roofing/repair/','/roofing/replacement/','/roofing/types/','/roofing/metal/','/roofing/gaf/','/roofing/gaf/types/','/roofing/gaf/master-elite/'];
+const paths=process.argv.length>2?process.argv.slice(2):defaults;
+const result=JSON.parse(await fs.readFile('src/data/service-pages.json','utf8'));
+for(const path of paths){if(!/^\/[a-z0-9/-]+\/$/.test(path))throw Error('Expected an explicit preserved permalink: '+path);}
 const clean=s=>s.replace(/\s+/g,' ').trim();
 for(const permalink of paths){
  const file='src/content/pages'+permalink+'index.md';const source=await fs.readFile(file,'utf8');const meta=YAML.parse(source.split('---')[1]);const $=cheerio.load(source.split('---').slice(2).join('---'));
@@ -30,4 +32,4 @@ for(const permalink of paths){
  result[permalink]={sourceFile:file,contentReview:'Imported business claims need editorial verification; delivery remains disabled.',hero:heroData,breadcrumbs:$('.rk-breadcrumbs a,.rk-breadcrumbs [aria-current]').map((i,e)=>({label:clean($(e).text()),href:$(e).attr('href')})).get(),sections};
 }
 await fs.writeFile('src/data/service-pages.json',JSON.stringify(result,null,2)+'\n');
-console.log('Transferred '+Object.keys(result).length+' service pages into structured section data.');
+console.log('Transferred '+paths.length+' service pages into structured section data.');

@@ -135,5 +135,19 @@
         "width": 800
       }
     ]
+  },
+  "/media/wordpress/ef95be4093cb-1c7c63ad-8ab5-4468-be40-9a7dc9a04dd8.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/ef95be4093cb-1c7c63ad-8ab5-4468-be40-9a7dc9a04dd8-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/ef95be4093cb-1c7c63ad-8ab5-4468-be40-9a7dc9a04dd8-800.webp",
+        "width": 800
+      }
+    ]
   }
 }

@@ -6,7 +6,7 @@ Astro with Svelte islands, seeded from the Roof King WordPress database and the 
 
 All published WordPress records and all inventoried routes are imported. Additional WordPress topic/tag archives and pagination discovered in internal links are also included. See `migration/route-manifest.json` for the authoritative count and content origins.
 
-The homepage now uses native Astro sections with Svelte islands for navigation, project filters/lightbox, before-and-after comparison, and the quote modal. The WordPress layout, imagery, content and links are retained. All eight routes in the `/roofing/` family now use the same native component system. The product pillar adds three native hubs and eleven individual product pages; remaining legacy routes still use the content-preservation baseline. Content has not been independently fact-checked, and this is not a production release.
+The homepage now uses native Astro sections with Svelte islands for navigation, project filters/lightbox, before-and-after comparison, and the quote modal. The WordPress layout, imagery, content and links are retained. All eight routes in the `/roofing/` family and `/cleveland-oh/roofing/` now use the same native component system. Cleveland adds a reusable ServiceGuide for anchored long-form service content. The product pillar adds three native hubs and eleven individual product pages; remaining legacy routes still use the content-preservation baseline. Content has not been independently fact-checked, and this is not a production release.
 
 The quote form and modal are built, with online submission deliberately disabled at the user's direction until lead delivery is connected. Calls and the existing Calendly inspection link remain available. Native dialogs provide modal focus handling and Escape support. Gallery images and all page text render on the server, while filters and comparison hydrate when visible.
 
@@ -75,7 +75,7 @@ Some original media remains remotely hosted; `migration/build-audit.json` checks
 
 ## Native page conversion
 
-The homepage and all eight roofing-family pages now share native components. See [component build progress](migration/component-build-progress.md) for completed routes, component contracts, validation and the next page sequence. Service content lives in `src/data/service-pages.json`; retained Markdown bodies remain migration evidence. Run `npm run check:services` for source-copy/link preservation checks and `npm run audit:components` to refresh the visual component map.
+The homepage, all eight roofing-family pages and Cleveland roofing now share native components. See [component build progress](migration/component-build-progress.md) for completed routes, component contracts, validation and the next page sequence. Service content lives in `src/data/service-pages.json`; retained Markdown bodies remain migration evidence. Run `npm run check:services` for source-copy/link preservation checks and `npm run audit:components` to refresh the visual component map.
 
 ## Product pillar
 

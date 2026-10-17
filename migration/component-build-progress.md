@@ -33,3 +33,9 @@ Browser checks covered roofing desktop layout, quote modal open/close, gallery h
 For each URL, inspect the actual section/content needs, extend the smallest useful component, migrate its data, verify content/links and interactions, then update the component audit. Do not mark untouched routes as native just because their future template exists. Retain all protected URLs and canonical preferences.
 
 Zapier delivery remains deferred; Jared Lane is the confirmed lead owner. Submission stays disabled until delivery is verified.
+
+## Cleveland roofing — 2026-10-17
+
+Converted `/cleveland-oh/roofing/` to ServicePage, preserving its permalink, canonical, source copy and contextual links. Imported HTML that previously appeared as code now renders through native components. ServiceGuide introduces typed introduction/topics with stable anchors and a responsive section navigation; its four topics retain repair, replacement, materials/brands and contact copy. Hero, trust strip, breadcrumbs, brands, offers, project gallery/lightbox, comparison slider, coverage, reviews and disabled quote experience reuse existing components.
+
+There are now nine native service records. Transfer authoring accepts explicit permalink arguments and merges only those records; the original eight were not reimported. Editing retained Markdown bodies does not change native page sections. The inherited Columbus financing reference and broad business claims remain flagged for review; shared Ohio project imagery is not asserted to depict Cleveland jobs. No product polishing in this batch. Continue with the next service/location URL selected by the user, using this component pattern where content fits.
