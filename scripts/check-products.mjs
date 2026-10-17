@@ -20,7 +20,12 @@ for(const [title,product]of Object.entries(catalog)){
   assert.deepEqual(product.specs,evidence.records[title].specs);
   assert.deepEqual(product.badges,evidence.records[title].badges);
   assert.equal(card.find('.rk-product-photo .rk-product-badge').length,4);
-  for(const badge of product.badges){assert.ok(product.specs.some(s=>s.label===badge.specLabel));}
+  assert.equal(card.find('.rk-product-badge-disclosure summary').length,4);
+  assert.equal(card.find('.rk-product-badge-icon').length,4);
+  assert.equal(card.find('.rk-product-badge-explanation a[href]').length,4);
+  for(const badge of product.badges){assert.ok(product.specs.some(s=>s.label===badge.specLabel));
+    assert.ok(card.find('summary[aria-label="Explain '+badge.label+': '+badge.value+'"]').length);
+  }
   assert.equal(product.specs.find(s=>s.label==='Expected lifespan').value,'Varies by roof');
   assert.ok(product.specs.find(s=>s.label==='Expected lifespan').note.includes('not a lifespan guarantee'));
   assert.ok(product.sourceUrl.startsWith('https://www.gaf.com/'));

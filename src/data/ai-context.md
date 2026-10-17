@@ -12,6 +12,7 @@ product-pillar.json defines the three hubs; product-details.json defines eleven 
 - `page-structure.ts`
 - `product-catalog.json`
 - `product-details.json`
+- `product-explanations.ts`
 - `product-pillar.json`
 - `product-types.ts`
 - `roofr.json`

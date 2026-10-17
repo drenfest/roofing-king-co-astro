@@ -75,3 +75,25 @@
 .rk-product-details details:target { outline:2px solid #cf5904;outline-offset:-2px; }
 .rk-product-details dd small { display:block;margin-top:.35rem;font-size:.8rem;font-weight:400;color:#59675a; }
 @media(max-width:400px){.rk-product-details dl > div{grid-template-columns:1fr;gap:.25rem;}}
+
+.rk-product-photo > img { padding-bottom:98px; }
+.rk-product-badge-disclosure { min-width:0;--badge-ink:#155c85;--badge-bg:#e8f4fc;--badge-border:#abcfe5; }
+.rk-product-badge-disclosure[data-kind=impact] { --badge-ink:#674599;--badge-bg:#f1eafa;--badge-border:#cdbbe1; }
+.rk-product-badge-disclosure[data-kind=fire] { --badge-ink:#9a3515;--badge-bg:#fff0e6;--badge-border:#e9b89e; }
+.rk-product-badge-disclosure[data-kind=lifespan] { --badge-ink:#246143;--badge-bg:#eaf4ec;--badge-border:#b4d4bd; }
+.rk-product-badge-disclosure summary { cursor:pointer;list-style:none;box-sizing:border-box;background:var(--badge-bg);color:var(--badge-ink);border-color:var(--badge-border); }
+.rk-product-badge-disclosure summary::-webkit-details-marker { display:none; }
+.rk-product-badge-disclosure summary:focus-visible { outline:3px solid var(--badge-ink);outline-offset:2px; }
+.rk-product-badge-disclosure[open] summary { background:var(--badge-ink);color:#fff; }
+.rk-product-badge-icon { width:21px;height:21px;flex-shrink:0; }
+.rk-product-badge-explanation { position:absolute;bottom:100px;left:10px;right:10px;z-index:2;max-height:calc(100% - 116px);overflow:auto;box-sizing:border-box;padding:1rem;background:#fff;border:1px solid var(--badge-border);border-top:4px solid var(--badge-ink);border-radius:8px;box-shadow:0 6px 25px #102a2333;text-align:left;color:#183c2a;font-size:.85rem;line-height:1.55; }
+.rk-product-badge-explanation > strong { font-size:1rem; }
+.rk-product-badge-explanation p { margin:.65rem 0; }
+.rk-product-badge-explanation a { color:#854000;text-decoration:underline; }
+.rk-product-badge-explanation button { display:block;margin-top:.7rem;padding:.4rem .65rem;background:#183c2a;color:white;border:0;border-radius:4px;cursor:pointer;font:inherit; }
+
+.rk-product-photo,.rk-product-card-detail .rk-product-photo { display:block;aspect-ratio:auto; }
+.rk-product-photo > img { height:auto;aspect-ratio:4/3;padding-bottom:0; }
+.rk-product-card-detail .rk-product-photo > img { aspect-ratio:1; }
+.rk-product-badges { position:static; }
+.rk-product-badges { width:100%;box-sizing:border-box; }
