@@ -1,14 +1,17 @@
 # scripts
 
-Build/import tools. import-wordpress.mjs is an explicit overwrite migration. check-content.mjs checks metadata/content; check-built-routes.mjs validates output and links. check-homepage.mjs verifies native homepage HTML, dimensions, accessibility labels and disabled form delivery.
+audit-component-reuse.mjs generates the complete source-based component audit using component-audit-template.html and the embedded brand asset thewebguy-logo.txt. Run npm run audit:components to regenerate. Build/import tools. import-wordpress.mjs is an explicit overwrite migration. check-content.mjs checks metadata/content; check-built-routes.mjs validates output and links. check-homepage.mjs verifies native homepage HTML, dimensions, accessibility labels and disabled form delivery.
 
 ## Files
 
+- `audit-component-reuse.mjs`
 - `check-built-routes.mjs`
 - `check-content.mjs`
 - `check-homepage.mjs`
+- `component-audit-template.html`
 - `import-wordpress.mjs`
 - `optimize-home-media.mjs`
+- `thewebguy-logo.txt`
 - `write-context-maps.mjs`
 
 ## Subdirectories

@@ -6,7 +6,7 @@ Verified October 17, 2026 through the signed-in Roof King & Restoration account.
 
 - Zapier is already connected. An existing lead-related token is present; no token was created, copied into this repository, rotated or deleted. The token's presence does not verify a working website automation.
 - A published Instant Estimator named **Website** already exists (estimator 14507). Its public share/embed URL is in `src/data/roofr.json`.
-- Its default job owner is currently **Jared Lane**, and its public point of contact is **Roof King & Restoration**. Confirmation of routing for custom website quote requests is pending.
+- Its default job owner is currently **Jared Lane**, and its public point of contact is **Roof King & Restoration**. The user confirmed Jared Lane as the lead owner for the new website.
 - The Website estimator's scheduling link is blank. The website already links to the existing Calendly roof/deck inspection booking page. A request for an appointment must not be presented as a confirmed booking.
 - Existing Roofr automations include SMS and email actions. No automation was enabled, disabled, edited or tested during discovery.
 - Roofr's Integrations screen shows Gmail and Google Calendar as available to connect. Do not connect an incidental developer account as the company's inbox/calendar.
@@ -34,8 +34,8 @@ For attribution, capture landing page and submitted page, referrer, UTM source/m
 
 ## Remaining decisions and acceptance checks
 
-- Inspect the correct Roof King Zapier account and website lead automation.
-- Confirm lead owner, workflow/stage and non-roofing service routing. Do not infer that all storm inquiries belong in an insurance workflow.
+- The user deferred Zapier configuration. Inspect the correct Roof King Zapier account and website lead automation when that work resumes.
+- Keep Jared Lane as the confirmed lead owner; confirm workflow/stage and non-roofing service routing. Do not infer that all storm inquiries belong in an insurance workflow.
 - Confirm the business booking calendar and populate the estimator's blank scheduling link if desired.
 - Use explicit test contacts and inspect notification behavior before creating test jobs; live automations can send messages.
 - Verify one submission creates the intended customer/job, attribution and consent survive, errors retain entered data, repeat clicks do not duplicate leads, and a confirmed receipt corresponds to the real downstream outcome.

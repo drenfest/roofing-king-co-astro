@@ -15,7 +15,8 @@
     "verify": "npm run check && npm run build && npm run check:routes && npm run check:homepage",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "check:homepage": "node scripts/check-homepage.mjs",
-    "optimize:home": "node scripts/optimize-home-media.mjs"
+    "optimize:home": "node scripts/optimize-home-media.mjs",
+    "audit:components": "node scripts/audit-component-reuse.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "9.1.0",
