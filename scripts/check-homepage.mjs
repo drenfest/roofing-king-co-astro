@@ -26,3 +26,12 @@ const ids = $('[id]').toArray().map(e => $(e).attr('id'));
 assert.equal(ids.length, new Set(ids).size, 'IDs must be unique across inline and modal forms.');
 assert.equal($('meta[name="robots"]').attr('content'), 'noindex, nofollow');
 console.log('Homepage SSR, gallery, image sizing, labels, and disconnected-form checks passed.');
+const roofr = JSON.parse(await fs.readFile('src/data/roofr.json', 'utf8'));
+assert.equal(new URL(roofr.estimatorUrl).origin, 'https://app.roofr.com');
+for (const route of roofr.calculatorPaths) {
+  const calculator = cheerio.load(await fs.readFile('dist' + route + 'index.html', 'utf8'));
+  assert.equal(calculator('#roofr-estimator').length, 1, 'Missing estimator on ' + route);
+  assert.ok(calculator('#roofr-estimator a').toArray().some(e => calculator(e).attr('href') === roofr.estimatorUrl), 'Missing no-JS estimator link.');
+  assert.equal(calculator('#roofr-estimator iframe').length, 0, 'Do not load Roofr until the visitor starts the estimator.');
+}
+console.log('Both calculator URLs preserve a click-to-load Roofr estimator and a direct-link fallback.');

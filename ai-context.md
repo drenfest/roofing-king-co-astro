@@ -14,6 +14,7 @@ Build an SEO-focused static Roof King site using Astro and Svelte, retaining the
 - `src/layouts/SiteLayout.astro`: shared HTML and SEO shell.
 - `src/pages/index.astro` and `src/layouts/DocumentLayout.astro`: native homepage composition and metadata.
 - `src/data/home.json`, `navigation.json`, `home-media.json`: homepage content, menus and responsive media.
+- `src/data/roofr.json` and `migration/roofr-integration.md`: verified public estimator configuration and pending custom-form delivery work. Keep all integration credentials out of browser code and Git.
 - `astro.config.mjs`: static output, production canonical host, trailing slashes, Svelte integration.
 
 ## Working rules

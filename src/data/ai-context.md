@@ -1,6 +1,6 @@
 # src/data
 
-site.json is the authoritative business identity. home.json contains WordPress homepage content; navigation.json contains menu/link data. home-media.json maps original media to dimensions and optimized WebP variants in public/media/home. imported-shell.json remains only for legacy pages. Do not treat imported claims as fact-checked.
+site.json is the authoritative business identity. home.json contains WordPress homepage content; navigation.json contains menu/link data. home-media.json maps original media to dimensions and optimized WebP variants in public/media/home. roofr.json holds only the public estimator URL and calculator route list; credentials belong in deployment secrets. imported-shell.json remains only for legacy pages. Do not treat imported claims as fact-checked.
 
 ## Files
 
@@ -8,6 +8,7 @@ site.json is the authoritative business identity. home.json contains WordPress h
 - `home.json`
 - `imported-shell.json`
 - `navigation.json`
+- `roofr.json`
 - `site.json`
 
 ## Subdirectories

@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import SiteLayout from '../layouts/SiteLayout.astro';
+import RoofrEstimator from '../components/RoofrEstimator.svelte';
+import roofr from '../data/roofr.json';
 export async function getStaticPaths() {
   return (await getCollection('pages')).filter(page => page.data.permalink !== '/').map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
@@ -15,5 +17,6 @@ const { Content } = await render(page);
 <SiteLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath}>
   <div data-content-source={page.data.source} data-review-status={page.data.reviewStatus}>
     <Content />
+    {roofr.calculatorPaths.includes(page.data.permalink) && <RoofrEstimator client:load />}
   </div>
 </SiteLayout>

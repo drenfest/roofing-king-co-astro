@@ -1,6 +1,6 @@
 # src/pages
 
-index.astro composes the native homepage. [...path].astro generates all other preserved routes from frontmatter and excludes the root path. 404, robots and migration review are explicit routes. This map is prefixed with an underscore to prevent publication.
+index.astro composes the native homepage. [...path].astro generates all other preserved routes from frontmatter and excludes the root path. Both calculator paths add the click-to-load Roofr estimator after their preserved content. 404, robots and migration review are explicit routes. This map is prefixed with an underscore to prevent publication.
 
 ## Files
 

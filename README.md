@@ -10,6 +10,8 @@ The homepage now uses native Astro sections with Svelte islands for navigation, 
 
 The quote form and modal are built, with online submission deliberately disabled at the user's direction until lead delivery is connected. Calls and the existing Calendly inspection link remain available. Native dialogs provide modal focus handling and Escape support. Gallery images and all page text render on the server, while filters and comparison hydrate when visible.
 
+The two preserved calculator URLs now use Roof King's existing published Roofr Website estimator. Its iframe loads only after the visitor starts it, with a direct link fallback. See `migration/roofr-integration.md` for verified account settings, lead-field mapping and the remaining Zapier/booking work. The custom quote form is not connected yet.
+
 ## Run and validate
 
 Requires Node 24 (Node >=22.12 also supported by this project).

@@ -1,6 +1,6 @@
 # src/components
 
-Native homepage sections: HomeHero, HomeTrust, HomeServices, HomeCardSection, HomeConfidence and HomeWorkmanship are Astro. HomeImage renders pre-sized responsive media. SectionHeading is shared. SiteHeader, ProjectGallery, BeforeAfter and QuoteExperience are Svelte islands; QuoteForm is used inline and in the native dialog. RouteReview powers the inventory. Keep static content in Astro, and use client hydration only for interaction.
+Native homepage sections: HomeHero, HomeTrust, HomeServices, HomeCardSection, HomeConfidence and HomeWorkmanship are Astro. HomeImage renders pre-sized responsive media. SectionHeading is shared. SiteHeader, ProjectGallery, BeforeAfter and QuoteExperience are Svelte islands; QuoteForm is used inline and in the native dialog. RouteReview powers the inventory. RoofrEstimator loads the verified public Roofr iframe on visitor activation, with a direct-link fallback. Keep static content in Astro, and use client hydration only for interaction.
 
 ## Files
 
@@ -15,6 +15,7 @@ Native homepage sections: HomeHero, HomeTrust, HomeServices, HomeCardSection, Ho
 - `ProjectGallery.svelte`
 - `QuoteExperience.svelte`
 - `QuoteForm.svelte`
+- `RoofrEstimator.svelte`
 - `RouteReview.svelte`
 - `SectionHeading.astro`
 - `SiteFooter.astro`
