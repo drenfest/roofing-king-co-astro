@@ -33,7 +33,7 @@ const catalog = [
 ];
 const implemented={PageHero:'PageHero.astro',TrustStrip:'TrustStrip.astro',Breadcrumbs:'Breadcrumbs.astro',BrandStrip:'BrandStrip.astro',ContentSections:'ContentSection.astro + RichContent.astro',ServiceGrid:'ContentSection.astro services variant',CoverageSection:'CoverageSection.astro',QuoteCTA:'QuoteSection.astro + QuoteExperience.svelte',FAQSection:'FAQSection.astro'};
 for(const item of catalog){if(implemented[item.id]){item.state='reuse';item.from=implemented[item.id];}}
-catalog.push({id:'ProductGrid',name:'ProductGrid',selector:null,state:'reuse',from:'ProductGrid.astro',engine:'Astro',props:'section heading and separate product title/rich-text records',reason:'Introduced by the GAF shingle page. Retain every product description in a scan-friendly card grid.'});
+catalog.push({id:'ProductGrid',name:'ProductGrid',selector:null,state:'reuse',from:'ProductGrid.astro + ProductOptions.svelte',engine:'Astro + Svelte color selector',props:'product records, exact color/photo mapping, warranty labels, nominal specs and source links',reason:'Verified products offer independent color previews and native detail panels; unresolved earlier entries keep their copy in a secondary section.'});
 const byComponent = new Map(catalog.map(c=>[c.id,c]));
 const familyDefinitions = [
   ['homepage','Homepage','Existing native homepage; extract shared sections first.'],

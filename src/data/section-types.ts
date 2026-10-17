@@ -12,7 +12,7 @@ export type ServiceSection = ContentSectionData |
   (BrandSection & {type:'brands'}) |
   (CardSectionData & {type:'cards';kind:'offers'|'reviews'}) |
   GallerySection |
-  (HeadingData & {type:'products';items:{title:string;body:RichNode[]}[]}) |
+  (HeadingData & {type:'products';items:{productId:string;title:string;body:RichNode[]}[]}) |
   (HeadingData & {type:'comparison';before:ImageData;after:ImageData}) |
   (HeadingData & {type:'coverage';image:ImageData}) |
   (HeadingData & {type:'quote'}) |

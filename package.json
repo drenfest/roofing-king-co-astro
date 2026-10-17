@@ -12,13 +12,15 @@
     "preview": "astro preview --host 127.0.0.1 --port 4321",
     "check": "astro check && svelte-check --tsconfig ./tsconfig.json && node scripts/check-content.mjs",
     "check:routes": "node scripts/check-built-routes.mjs",
-    "verify": "npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services",
+    "verify": "npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services && npm run check:products",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "check:homepage": "node scripts/check-homepage.mjs",
     "optimize:home": "node scripts/optimize-home-media.mjs",
     "audit:components": "node scripts/audit-component-reuse.mjs",
     "check:services": "node scripts/check-services.mjs",
-    "optimize:services": "node scripts/optimize-service-media.mjs"
+    "optimize:services": "node scripts/optimize-service-media.mjs",
+    "optimize:products": "node scripts/optimize-product-media.mjs",
+    "check:products": "node scripts/check-products.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "9.1.0",

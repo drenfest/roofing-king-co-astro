@@ -12,6 +12,7 @@ Build an SEO-focused static Roof King site using Astro and Svelte, retaining the
 - `migration/component-reuse-plan.md` and `component-reuse-audit.html`: all 215 source records mapped to reusable components and page families; visual approval remains pending. Regenerate with `npm run audit:components`.
 - `src/content.config.ts`: page schema and loader.
 - `src/data/site.json`: client-supplied business identity.
+- `src/data/product-catalog.json` and `migration/product-catalog-notes.md`: verified GAF colors/specs/warranty labels, source provenance and earlier entries awaiting confirmation. Product options use genuine images, never tinted substitutes.
 - `src/layouts/SiteLayout.astro`: shared HTML and SEO shell.
 - `src/pages/index.astro` and `src/layouts/DocumentLayout.astro`: native homepage composition and metadata.
 - `src/data/home.json`, `navigation.json`, `home-media.json`: homepage content, menus and responsive media.

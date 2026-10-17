@@ -1,8 +1,38 @@
 ---
 import type { HeadingData, RichNode } from '../data/section-types';
 import SectionHeading from './SectionHeading.astro';
+import '../styles/products.css';
 import RichContent from './RichContent.astro';
-interface Props { section:HeadingData & {items:{title:string;body:RichNode[]}[]}; }
+import ProductOptions from './ProductOptions.svelte';
+import catalog from '../data/product-catalog.json';
+import type { ProductPresentation } from '../data/product-types';
+interface Props { section:HeadingData & {items:{productId:string;title:string;body:RichNode[]}[]}; }
 const { section } = Astro.props;
+const products:Record<string,ProductPresentation> = Object.fromEntries(Object.values(catalog).map(product=>[product.id,product]));
+const current=section.items.filter(item=>products[item.productId]?.colors.length);
+const earlier=section.items.filter(item=>!products[item.productId]?.colors.length);
 ---
-<section class="rk-home-section rk-service-products" data-component="ProductGrid"><div class="rk-section-inner"><SectionHeading {...section}/><div class="rk-service-product-grid">{section.items.map(product=><article class="rk-service-card"><h3>{product.title}</h3><RichContent nodes={product.body}/></article>)}</div></div></section>
+<section class="rk-home-section rk-service-products" data-component="ProductGrid"><div class="rk-section-inner">
+  <SectionHeading {...section}/>
+  <p class="rk-product-intro">Explore the colors, compare the details, and find a look for your home. Color availability varies by region; confirm your selection with Roof King and a physical sample.</p>
+  <div class="rk-service-product-grid">{current.map(item=>{
+    const product=products[item.productId];
+    return <article class="rk-product-card" data-product={product.id} aria-labelledby={`product-${product.id}`}>
+      <div class="rk-product-card-heading"><p class="rk-home-eyebrow">GAF shingles</p><h3 id={`product-${product.id}`}>{item.title}</h3></div>
+      <ProductOptions {product} title={item.title} client:visible/>
+      <div class="rk-product-card-copy"><RichContent nodes={item.body}/></div>
+      <div class="rk-product-details">
+        <details><summary>Warranty &amp; protection</summary><div>
+          <p>Manufacturer-listed coverage options:</p><ul>{product.warrantyLabels.map(label=><li>{label}</li>)}</ul>
+          <p>Eligibility, coverage and exclusions depend on the product, labeling, installed system and applicable warranty terms.</p>
+          <a href="https://www.gaf.com/en-us/resources/warranties/residential" target="_blank" rel="noopener noreferrer">Read GAF warranty terms ↗</a>
+        </div></details>
+        <details><summary>Product specifications</summary><div><p>Nominal dimensions and manufacturer specifications.</p><dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl>
+          {product.documents.map(doc=><a class="rk-product-document" href={doc.url} target="_blank" rel="noopener noreferrer">{doc.label} (PDF) ↗</a>)}
+        </div></details>
+      </div>
+      <a class="rk-product-source" href={product.sourceUrl} target="_blank" rel="noopener noreferrer">View {item.title} at GAF ↗</a>
+    </article>;
+  })}</div>
+  {earlier.length>0 && <aside class="rk-product-earlier" aria-labelledby="earlier-products-title"><p class="rk-home-eyebrow">Earlier catalog entries</p><h3 id="earlier-products-title">Looking for another shingle?</h3><p>These products appeared in our previous catalog. Confirm current availability, colors and specifications with Roof King before making a selection.</p><div class="rk-product-earlier-grid">{earlier.map(item=><article class="rk-service-card" data-legacy-product={item.title}><h4>{item.title}</h4><RichContent nodes={item.body}/><details><summary>Availability, warranty &amp; specifications</summary><p>Current product and color data has not been confirmed for this earlier catalog entry. Contact Roof King for suitable options and applicable manufacturer documentation.</p><a href="/contact-us/">Ask about {item.title}</a></details></article>)}</div></aside>}
+</div></section>

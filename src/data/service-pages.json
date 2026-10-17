@@ -3029,7 +3029,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-hdz"
           },
           {
             "title": "Timberline UHDZ",
@@ -3042,7 +3043,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-uhdz"
           },
           {
             "title": "Timberline NS",
@@ -3055,7 +3057,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-ns"
           },
           {
             "title": "Timberline AS II",
@@ -3076,7 +3079,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-as-ii"
           },
           {
             "title": "Timberline HDZ RS+",
@@ -3094,7 +3098,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-hdz-rs-plus"
           },
           {
             "title": "Timberline HDZ RS",
@@ -3112,7 +3117,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "timberline-hdz-rs"
           },
           {
             "title": "Camelot II",
@@ -3130,7 +3136,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "camelot-ii"
           },
           {
             "title": "Woodland",
@@ -3148,7 +3155,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "woodland"
           },
           {
             "title": "Grand Canyon",
@@ -3166,7 +3174,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "grand-canyon"
           },
           {
             "title": "Grand Sequoia",
@@ -3184,7 +3193,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "grand-sequoia"
           },
           {
             "title": "Grand Sequoia RS",
@@ -3202,7 +3212,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "grand-sequoia-rs"
           },
           {
             "title": "Grand Sequoia AS",
@@ -3220,7 +3231,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "grand-sequoia-as"
           },
           {
             "title": "Royal Sovereign",
@@ -3238,7 +3250,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "productId": "royal-sovereign"
           }
         ]
       },

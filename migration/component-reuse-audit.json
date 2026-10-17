@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:51:14.713Z",
+  "generatedAt": "2026-10-17T18:58:27.720Z",
   "scope": "All 215 preserved source records examined; page-by-page visual approval is still pending. No live crawl, URL deletion, redirect, navigation restructuring or canonical change performed.",
   "totalRoutes": 215,
   "canonicalTargets": 202,
@@ -3446,10 +3446,10 @@
       "name": "ProductGrid",
       "selector": null,
       "state": "reuse",
-      "from": "ProductGrid.astro",
-      "engine": "Astro",
-      "props": "section heading and separate product title/rich-text records",
-      "reason": "Introduced by the GAF shingle page. Retain every product description in a scan-friendly card grid.",
+      "from": "ProductGrid.astro + ProductOptions.svelte",
+      "engine": "Astro + Svelte color selector",
+      "props": "product records, exact color/photo mapping, warranty labels, nominal specs and source links",
+      "reason": "Verified products offer independent color previews and native detail panels; unresolved earlier entries keep their copy in a secondary section.",
       "observedRoutes": [],
       "recommendedRoutes": [
         "/roofing/gaf/types/"

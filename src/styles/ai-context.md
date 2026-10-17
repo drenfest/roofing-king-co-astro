@@ -1,6 +1,6 @@
 # src/styles
 
-services.css defines native service prose, cards, FAQ and responsive layouts; shared sections retain their WordPress design. Native homepage: base.css contains shared reference design rules; home.css contains homepage section rules; home-interactions.css adds native state, focus, dialogs and mobile fixes. Legacy pages keep wordpress-compatibility.css and migration.css. The homepage must not load compatibility behavior or styles.
+products.css defines product photos, color swatches, selected/focus states and native specification/warranty panels. services.css defines native service prose, cards, FAQ and responsive layouts; shared sections retain their WordPress design. Native homepage: base.css contains shared reference design rules; home.css contains homepage section rules; home-interactions.css adds native state, focus, dialogs and mobile fixes. Legacy pages keep wordpress-compatibility.css and migration.css. The homepage must not load compatibility behavior or styles.
 
 ## Files
 
@@ -8,6 +8,7 @@ services.css defines native service prose, cards, FAQ and responsive layouts; sh
 - `home-interactions.css`
 - `home.css`
 - `migration.css`
+- `products.css`
 - `services.css`
 - `wordpress-compatibility.css`
 

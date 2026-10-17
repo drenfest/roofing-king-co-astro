@@ -1,10 +1,11 @@
 # migration/sources
 
-Published-content evidence only. wordpress-content.json contains raw block definitions; wordpress-rendered.json preserves the rendered database content. Do not expose source exports as public routes.
+gaf-product-catalog.json records verified product/color/specification and warranty-label evidence with primary URLs; it also records unresolved Grand Canyon/HDZ RS+ mappings. Published-content evidence only. wordpress-content.json contains raw block definitions; wordpress-rendered.json preserves the rendered database content. Do not expose source exports as public routes.
 
 ## Files
 
 - `established-site-crawl.json`
+- `gaf-product-catalog.json`
 - `wordpress-content.json`
 - `wordpress-rendered.json`
 

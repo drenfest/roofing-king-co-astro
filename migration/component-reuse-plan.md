@@ -58,7 +58,7 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 | RoofrEstimator / ToolFrame | 2 | 2 | reuse — RoofrEstimator.svelte |
 | LocationDirectory | 1 | 1 | new — Service areas index |
 | Specialized company / policy blocks | 0 | 22 | new — Company, contact, policy, careers and events pages |
-| ProductGrid | 0 | 1 | reuse — ProductGrid.astro |
+| ProductGrid | 0 | 1 | reuse — ProductGrid.astro + ProductOptions.svelte |
 
 Counts indicate section evidence in preserved source, not completed native migrations or fresh live-site verification.
 
