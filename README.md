@@ -37,6 +37,8 @@ Initial validation on October 17, 2026 passed locally for all 215 content routes
 
 Read `ai-context.md` at the root and in each directory you work in. `AGENTS.md` and `CLAUDE.md` point agents to these maps. Context files in content directories are excluded from the page collection by its `**/index.md` pattern.
 
+The route directory uses `src/pages/_ai-context.md` so Astro ignores the map instead of publishing it as a page.
+
 ## Preservation and source provenance
 
 The initial inventory had 195 exact paths. The import prioritizes:
