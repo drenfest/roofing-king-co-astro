@@ -29,7 +29,11 @@ for(const [title,product]of Object.entries(catalog)){
   assert.ok(card.find('[data-kind="wind"] summary').text().includes('150 mph'));
   assert.ok(card.find('[data-kind="wind"] .rk-product-badge-explanation').text().includes('110 mph'));
   assert.ok(card.find('[data-kind="wind"] .rk-product-badge-explanation').text().includes('not a prediction'));
-  assert.equal(product.specs.find(s=>s.label==='Expected lifespan').value,'Varies by roof');
+  assert.equal(product.specs.find(s=>s.label==='Expected lifespan').value,'20–25 years — general residential roof guide');
+  assert.ok(card.find('[data-kind=lifespan] summary').text().includes('General roof guide'));
+  assert.ok(card.find('[data-kind=fire] summary').text().includes('Severe exposure'));
+  if(product.badges.find(b=>b.label==='Impact').value==='Class 3')assert.ok(card.find('[data-kind=impact] .rk-product-badge-explanation').text().includes('17 feet'));
+  if(product.badges.find(b=>b.label==='Impact').value==='Class 4')assert.ok(card.find('[data-kind=impact] .rk-product-badge-explanation').text().includes('20 feet'));
   assert.ok(product.specs.find(s=>s.label==='Expected lifespan').note.includes('not a lifespan guarantee'));
   assert.ok(product.sourceUrl.startsWith('https://www.gaf.com/'));
   const selected=product.colors.find(c=>c.id===product.defaultColorId);

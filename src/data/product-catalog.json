@@ -12,18 +12,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 3",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 3 — 1.75-inch steel ball dropped 17 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -345,17 +348,20 @@
       {
         "label": "Impact",
         "value": "Class 3",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "1¾″ ball · 17 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -372,18 +378,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -496,17 +505,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -528,13 +540,15 @@
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -659,17 +673,20 @@
       {
         "label": "Impact",
         "value": "Not listed",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "No test class"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -686,18 +703,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -827,17 +847,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -854,18 +877,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 3",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 3 — 1.75-inch steel ball dropped 17 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -995,17 +1021,20 @@
       {
         "label": "Impact",
         "value": "Class 3",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "1¾″ ball · 17 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1022,18 +1051,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1143,17 +1175,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1170,18 +1205,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1251,17 +1289,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1278,18 +1319,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1395,17 +1439,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1422,18 +1469,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1539,17 +1589,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1566,18 +1619,21 @@
       },
       {
         "label": "Impact resistance",
-        "value": "UL 2218 Class 4",
-        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+        "value": "UL 2218 Class 4 — 2-inch steel ball dropped 20 feet",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling.",
+        "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-4-shingles"
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1671,17 +1727,20 @@
       {
         "label": "Impact",
         "value": "Class 4",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "2″ ball · 20 ft"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   },
@@ -1703,13 +1762,15 @@
       },
       {
         "label": "Fire classification",
-        "value": "Class A — ANSI/UL 790",
-        "note": "Roof assembly and installation must meet manufacturer requirements."
+        "value": "Class A — severe exterior fire exposure (ANSI/UL 790)",
+        "note": "Roof assembly and installation must meet manufacturer requirements.",
+        "sourceUrl": "https://webstore.ansi.org/standards/ul/UL790Ed2022"
       },
       {
         "label": "Expected lifespan",
-        "value": "Varies by roof",
-        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+        "value": "20–25 years — general residential roof guide",
+        "note": "GAF gives 20–25 years as general residential roof replacement guidance, not a product-specific lifespan estimate. Actual service life varies with materials, climate, installation, ventilation and maintenance. Limited warranty duration is not a lifespan guarantee.",
+        "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/how-often-should-you-replace-your-roof-7de31f47-7b47-4506-9885-24f6a3483fd6"
       },
       {
         "label": "Pieces per Square",
@@ -1783,17 +1844,20 @@
       {
         "label": "Impact",
         "value": "Not listed",
-        "specLabel": "Impact resistance"
+        "specLabel": "Impact resistance",
+        "detail": "No test class"
       },
       {
         "label": "Fire",
         "value": "Class A",
-        "specLabel": "Fire classification"
+        "specLabel": "Fire classification",
+        "detail": "Severe exposure"
       },
       {
         "label": "Lifespan",
-        "value": "Varies",
-        "specLabel": "Expected lifespan"
+        "value": "20–25 yrs",
+        "specLabel": "Expected lifespan",
+        "detail": "General roof guide"
       }
     ]
   }

@@ -101,3 +101,6 @@
 .rk-product-badge small { font-size:.58rem;line-height:1.2; }
 .rk-product-badge-explanation { bottom:114px;max-height:calc(100% - 130px); }
 .rk-product-spec-reference { display:block;margin-top:.4rem;font-size:.78rem;font-weight:400; }
+
+.rk-product-badge { height:100%; }
+.rk-product-badge small { text-transform:none;letter-spacing:0; }

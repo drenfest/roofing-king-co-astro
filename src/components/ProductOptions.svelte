@@ -41,7 +41,7 @@
           <div class="rk-product-badge-explanation">
             <strong>{explanation.title}</strong><p>{explanation.body}</p>
             <p>{product.specs.find(spec=>spec.label===badge.specLabel)?.note}</p>
-            <a href={explanation.sourceUrl || product.sourceUrl} target="_blank" rel="noopener noreferrer">Manufacturer reference ↗</a>
+            <a href={explanation.sourceUrl || product.sourceUrl} target="_blank" rel="noopener noreferrer">Source &amp; test details ↗</a>
             {#if enhanced}<button type="button" onclick={event=>event.currentTarget.closest('details')?.removeAttribute('open')}>Close explanation</button>{/if}
           </div>
         </details>
