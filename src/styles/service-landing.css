@@ -278,3 +278,17 @@
 [data-landing-build="editorial"] .rk-service-faq details>div p+p{margin-top:.85rem;}
 [data-landing-build="editorial"] .rk-landing-budget .rk-button,[data-landing-build="editorial"] .rk-estimate-contact .rk-button{gap:.75rem;}
 [data-landing-build="editorial"] .rk-landing-budget .rk-button svg,[data-landing-build="editorial"] .rk-estimate-contact .rk-button svg{width:19px;height:19px;}
+
+/* Estimate planning replaces the old process narrative inside the green band. */
+[data-landing-build="editorial"] .rk-roofing-planning{position:relative;isolation:isolate;color:#e2e9df;background:linear-gradient(135deg,#0f1b15,#213a30 54%,#263f34);clip-path:polygon(0 var(--rk-page-slant),100% 0,100% calc(100% - var(--rk-page-slant)),0 100%);padding-block:calc(4rem + var(--rk-page-slant));}
+[data-landing-build="editorial"] .rk-roofing-planning::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(114deg,transparent 0 48%,#ffb15d18 48% 49%,transparent 49%),repeating-linear-gradient(135deg,#ffb15d10 0 1px,transparent 1px 44px);pointer-events:none;}
+.rk-service-landing [data-landing-build="editorial"] .rk-roofing-planning .rk-landing-heading h2{color:#fffaf0;}
+.rk-service-landing [data-landing-build="editorial"] .rk-roofing-planning .rk-landing-heading>.rk-home-eyebrow{color:#ffb15d;}
+[data-landing-build="editorial"] .rk-roofing-planning .rk-budget-checks li{background:#ffffff09;border-color:#ffffff26;color:#e2e9df;}
+[data-landing-build="editorial"] .rk-roofing-planning .rk-budget-checks svg{color:#ffb15d;}
+[data-landing-build="editorial"] .rk-roofing-planning .rk-budget-financing{color:#19291f;}
+[data-landing-build="editorial"] .rk-service-faq{position:relative;isolation:isolate;overflow:hidden;}
+[data-landing-build="editorial"] .rk-service-faq>.rk-section-inner{position:relative;z-index:1;}
+[data-landing-build="editorial"] .rk-service-faq .rk-home-section-header h2::after{display:none;}
+[data-landing-build="editorial"] .rk-service-faq::before{content:'';position:absolute;z-index:0;left:-4rem;bottom:-2rem;width:min(44vw,580px);aspect-ratio:1058/521;background-image:var(--rk-logo-crown);background-position:left bottom;background-size:contain;background-repeat:no-repeat;transform:rotate(-18deg);opacity:.1;pointer-events:none;}
+@media(max-width:760px){[data-landing-build="editorial"] .rk-service-faq::before{width:90vw;left:-4rem;bottom:-1rem;opacity:.07;}}

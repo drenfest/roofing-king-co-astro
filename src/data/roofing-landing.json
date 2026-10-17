@@ -305,29 +305,6 @@
       }
     ]
   },
-  "process": {
-    "eyebrow": "Your roofing project",
-    "title": "From roof inspection to final review.",
-    "description": "Know what comes next as you plan a repair or replacement with Roof King.",
-    "items": [
-      {
-        "title": "Inspect your roof",
-        "description": "Discuss leaks, wear or storm damage and review the condition of your roof with our team."
-      },
-      {
-        "title": "Choose the right scope",
-        "description": "Review the repair or replacement recommendation, roofing materials and written estimate."
-      },
-      {
-        "title": "Plan the installation",
-        "description": "Confirm your material choices, installation scope and schedule before roofing work begins."
-      },
-      {
-        "title": "Review the finished work",
-        "description": "Walk through the result, ask questions and review care instructions and written coverage."
-      }
-    ]
-  },
   "budget": {
     "eyebrow": "Your roofing estimate",
     "title": "A clear scope. A better roofing decision.",
