@@ -35,16 +35,30 @@
 .rk-landing-trust a+a{border-left:1px solid #e3e5db;}
 .rk-landing-trust a>span:last-child{color:#a54308;}
 .rk-service-landing .rk-native-breadcrumbs{font-size:.85rem;background:white;}
-.rk-service-path-list{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.5rem,3vw,3.5rem);margin-top:2.5rem;}
-.rk-service-path-list article{border-top:2px solid #d5d6cb;padding-top:1.5rem;display:flex;flex-direction:column;align-items:flex-start;}
-.rk-service-path-list article:hover{border-color:#df6a27;}
-.rk-service-path-icon{display:flex;justify-content:space-between;align-items:center;width:100%;color:#ae4a0c;margin-bottom:1.2rem;}
-.rk-service-path-icon svg{width:36px;height:36px;}
-.rk-service-path-icon span{font-size:.8rem;color:#647364;font-weight:750;}
-.rk-service-path-list h3{max-width:18ch;margin:0 0 1rem;}
-.rk-service-path-list p{font-size:1.03rem;margin:0 0 1.35rem;}
-.rk-service-path-list a{display:flex;gap:.7rem;align-items:center;font-weight:750;text-decoration:none;margin-top:auto;}
-.rk-service-path-list a svg{width:20px;height:20px;}
+.rk-service-explorer{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:clamp(1.5rem,3vw,3rem);align-items:start;margin-top:2.2rem;}
+.rk-service-explorer-controls,.rk-service-explorer-content{min-width:0;}
+.rk-service-explorer-tabs{display:grid;border:1px solid #dce1d5;border-radius:10px 0 10px 0;overflow:hidden;background:#efeee6;}
+.rk-service-explorer-tabs a{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:51px;padding:.9rem 1.2rem;border-left:3px solid transparent;text-decoration:none;font-size:.98rem;line-height:1.3;font-weight:750;color:#405546;}
+.rk-service-explorer-tabs a+a{border-top:1px solid #dce1d5;}
+.rk-service-explorer-tabs a:hover{background:#e0e7d9;}
+.rk-service-explorer-tabs a:focus-visible{outline:3px solid #e38320;outline-offset:-4px;}
+.rk-service-explorer-tabs a[aria-selected=true]{border-left-color:#ff7a1d;background:#173b2b;color:#fffaf0;}
+.rk-service-explorer-tabs a svg{flex:none;width:18px;height:18px;opacity:.55;}
+.rk-service-explorer-tabs a[aria-selected=true] svg{opacity:1;color:#ffb15d;}
+.rk-service-explorer-mobile{display:none;}
+.rk-service-detail{padding:clamp(1.4rem,3vw,2.6rem);border:1px solid #dce1d5;border-top:3px solid #c86a2c;background:#fff;border-radius:0 12px 12px 12px;scroll-margin-top:120px;}
+.rk-service-detail+.rk-service-detail{margin-top:1.5rem;}
+.is-enhanced .rk-service-detail{margin-top:0;min-height:410px;}
+.rk-service-detail[hidden]{display:none;}
+.rk-service-detail-kicker{display:flex;align-items:center;gap:.8rem;color:#a54308;font-size:.78rem;font-weight:750;letter-spacing:.05em;text-transform:uppercase;margin-bottom:1.2rem;}
+.rk-service-detail-kicker svg{flex:none;}
+.rk-service-detail h3{font-size:clamp(1.5rem,2.5vw,2.15rem);max-width:30ch;margin:0 0 1.2rem;text-wrap:balance;}
+.rk-service-detail p{font-size:1.04rem;margin:0 0 1rem;}
+.rk-service-detail ul{display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;list-style:none;padding:0;margin:1.4rem 0 1.7rem;}
+.rk-service-detail li{display:flex;align-items:flex-start;gap:.4rem;font-size:.88rem;color:#45614b;}
+.rk-service-detail li svg{flex:none;width:18px;height:18px;}
+.rk-service-detail .rk-button{gap:1rem;min-height:46px;font-size:.91rem;}
+.rk-service-detail .rk-button svg{width:20px;height:20px;}
 .rk-landing-aside{font-size:.94rem;padding-top:1.5rem;margin:2rem 0 0;border-top:1px solid #dadfd3;}
 .rk-landing-aside a{font-weight:700;}
 .rk-landing-split{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:clamp(2rem,6vw,6rem);}
@@ -118,11 +132,12 @@
 .rk-service-landing #estimate{scroll-margin-top:110px;}
 @media(max-width:1060px){.rk-landing-hero-grid{gap:2rem;}.rk-landing-actions{gap:1.1rem;}.rk-landing-section-top{display:block;}.rk-landing-credential-list{gap:1.7rem;}.rk-landing-trust a{font-size:.85rem;}.rk-landing-process ol{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:760px){
- .rk-landing-hero-grid,.rk-landing-split,.rk-service-path-list,.rk-project-showcase-grid,.rk-landing-material-grid{grid-template-columns:1fr;}
+ .rk-landing-hero-grid,.rk-landing-split,.rk-project-showcase-grid,.rk-landing-material-grid{grid-template-columns:1fr;}
  .rk-landing-hero-grid{padding-block:2.8rem;gap:2rem;}.rk-landing-hero-copy{padding:0;}.rk-service-landing .rk-landing-hero h1{font-size:clamp(2.45rem,8.3vw,3.6rem);max-width:17ch;}.rk-landing-hero-photo img{height:300px;}.rk-landing-lede{font-size:1.05rem;}
  .rk-landing-trust>.rk-section-inner{grid-template-columns:1fr;}.rk-landing-trust a{justify-content:flex-start;padding:.85rem 0;}.rk-landing-trust a+a{border-left:0;border-top:1px solid #e2e6dc;}.rk-landing-trust svg{width:22px;height:22px;}
  .rk-landing-credential-list{grid-template-columns:1fr;gap:2rem;}.rk-credential-mark{font-size:2.1rem;}.rk-landing-credential-list p{max-width:58ch;}
- .rk-service-path-list{gap:2.3rem;}.rk-service-path-list h3{max-width:none;}.rk-landing-material-grid{gap:2.5rem;}.rk-project-showcase img{height:270px;}.rk-material-photo img{height:240px;}
+ .rk-service-explorer{grid-template-columns:1fr;gap:1rem;}.is-enhanced .rk-service-explorer-tabs{display:none;}.rk-service-explorer-mobile{display:block;}.rk-service-explorer-mobile label{display:block;font-size:.88rem;font-weight:750;margin-bottom:.55rem;}.rk-service-explorer-mobile select{width:100%;min-height:52px;border:1px solid #aebca6;border-radius:5px;padding:.8rem 2.2rem .8rem 1rem;background:#fff;color:#173b2b;font:inherit;font-weight:700;}.is-enhanced .rk-service-detail{min-height:0;}.rk-service-detail h3{font-size:1.5rem;}.rk-service-detail ul{display:grid;gap:.6rem;}
+ .rk-landing-material-grid{gap:2.5rem;}.rk-project-showcase img{height:270px;}.rk-material-photo img{height:240px;}
  .rk-service-landing .rk-brands-inner{grid-template-columns:1fr;gap:1rem;}.rk-landing-estimate .rk-landing-heading{position:static;}.rk-landing-estimate .rk-quote-strip-inner{grid-template-columns:1fr;}
  .rk-landing-hero-photo{padding-left:1rem;padding-bottom:1rem;}.rk-landing-hero-photo figcaption{left:1rem;bottom:1rem;font-size:.8rem;}.rk-landing-hero-photo::before{inset:1rem 1rem 0 0;}
  .rk-service-landing .rk-service-faq{padding-block:3.5rem;}

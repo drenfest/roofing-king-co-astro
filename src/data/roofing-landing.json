@@ -13,28 +13,127 @@
   "services": {
     "eyebrow": "A roof. A plan. The right team.",
     "title": "What brought you here?",
-    "description": "A small leak and a worn-out roof call for different conversations. Start with what you’re noticing; we’ll help you understand the next step.",
+    "description": "Explore the work, materials and planning questions behind your next roofing project. Choose a topic for a closer look, then visit its page for the full details.",
     "items": [
       {
-        "title": "Something needs repairing.",
-        "description": "A ceiling stain, missing shingles or damaged flashing deserves attention. Explore inspections and repairs that address the problem and the condition of the surrounding roof.",
+        "id": "roofing-service-repair",
+        "tabLabel": "Roof Repair",
+        "title": "Get to the source of the problem.",
+        "icon": "repair",
+        "description": "A ceiling stain, missing shingles or damaged flashing can point to very different repairs. Start by understanding where the damage is and how the surrounding roof is holding up.",
+        "detail": "Our repair page explains inspections and the work that may follow. Share what you have noticed and any previous repairs so the conversation starts with the condition of your roof.",
+        "highlights": [
+          "Leaks and water marks",
+          "Shingle and flashing damage",
+          "Repair scope after inspection"
+        ],
         "href": "/roofing/repair/",
-        "label": "Explore roof repair",
-        "icon": "repair"
+        "label": "Explore roof repair"
       },
       {
-        "title": "It’s time for a new roof.",
-        "description": "Compare your material options and the scope of a replacement. Understand what is being removed, what goes back on and which warranty applies to the proposed system.",
+        "id": "roofing-service-replacement",
+        "tabLabel": "Roof Replacement",
+        "title": "Plan more than a change of shingles.",
+        "icon": "roof",
+        "description": "A replacement is a chance to consider the roof as a complete system. Compare the material, preparation, installation details and written coverage alongside the finished appearance.",
+        "detail": "Explore the replacement page before discussing your project. Ask what the estimate includes, how the existing covering will be removed and how any underlying damage would be addressed.",
+        "highlights": [
+          "Removal and preparation",
+          "Materials and roof-system details",
+          "Installation and coverage"
+        ],
         "href": "/roofing/replacement/",
-        "label": "Explore roof replacement",
-        "icon": "roof"
+        "label": "Explore roof replacement"
       },
       {
-        "title": "A storm changed things.",
-        "description": "Wind and hail can leave more than visible damage. Discuss an inspection and the restoration work your roof may need. Insurance coverage is determined by your policy and insurer.",
+        "id": "roofing-service-cost",
+        "tabLabel": "Cost of a New Roof",
+        "title": "Put the price in the context of your roof.",
+        "icon": "cost",
+        "description": "Roof dimensions, slope, access, material choice and the work beneath the covering can all change the scope. A useful comparison starts with what each estimate actually includes.",
+        "detail": "Use the roof-cost guide to prepare questions for a project-specific estimate. Discuss removal, preparation, cleanup and how additional work would be agreed upon before treating two prices as equivalent.",
+        "highlights": [
+          "What affects the scope",
+          "What is included in the estimate",
+          "Questions to ask before choosing"
+        ],
+        "href": "/cost-of-a-new-roof/",
+        "label": "Explore roof cost factors"
+      },
+      {
+        "id": "roofing-service-calculator",
+        "tabLabel": "Roofing Calculator",
+        "title": "Start exploring your project budget.",
+        "icon": "calculator",
+        "description": "The roofing calculator offers another starting point when you are planning a replacement. Open the estimator to explore your property and the available inputs.",
+        "detail": "An online estimate is a planning tool. Confirm the roof condition, exact materials and final scope with the team before making an installation decision. The estimator opens on its own page.",
+        "highlights": [
+          "Open the Roofr estimator",
+          "Explore the available project inputs",
+          "Follow up about your actual roof"
+        ],
+        "href": "/roof-calculator/",
+        "label": "Open roofing calculator"
+      },
+      {
+        "id": "roofing-service-gaf",
+        "tabLabel": "GAF Roofing Installation",
+        "title": "Think in terms of a complete GAF system.",
+        "icon": "roof",
+        "description": "Shingles are the visible surface, but the proposed installation also needs to address underlayment, flashing, ventilation and compatible accessories.",
+        "detail": "Explore our GAF roofing information, then compare the product pages for colors and published specifications. Ask which products and warranty options are included in the exact system proposed for your home.",
+        "highlights": [
+          "GAF system and installation information",
+          "Compatible roofing components",
+          "Product and warranty questions"
+        ],
+        "href": "/roofing/gaf/",
+        "label": "Explore GAF roofing installation"
+      },
+      {
+        "id": "roofing-service-certification",
+        "tabLabel": "Master Elite Certification",
+        "title": "Understand the certification behind the company.",
+        "icon": "shield",
+        "description": "Roof King & Restoration holds GAF Master Elite certification. Learn what that designation means and how it relates to qualifying GAF roof systems.",
+        "detail": "Certification and warranty coverage are different questions. Review the specific products, eligibility requirements and written terms with the team rather than assuming every project carries the same coverage.",
+        "highlights": [
+          "About the Master Elite designation",
+          "Qualifying roof-system questions",
+          "Written coverage for your project"
+        ],
+        "href": "/roofing/gaf/master-elite/",
+        "label": "Explore Master Elite certification"
+      },
+      {
+        "id": "roofing-service-metal",
+        "tabLabel": "Metal Roofing",
+        "title": "Explore a different roof finish.",
+        "icon": "roof",
+        "description": "If you are considering metal roofing, compare the proposed system with the shape, details and appearance of your home. There is more to the decision than the surface color.",
+        "detail": "Our metal roofing page introduces the service. Discuss the available profiles and finishes, installation requirements and written warranty alongside your other material options.",
+        "highlights": [
+          "Profiles and finishes",
+          "Installation scope and details",
+          "System-specific coverage"
+        ],
+        "href": "/roofing/metal/",
+        "label": "Explore metal roofing"
+      },
+      {
+        "id": "roofing-service-storm",
+        "tabLabel": "Storm Damage",
+        "title": "Make sense of what a storm left behind.",
+        "icon": "storm",
+        "description": "Wind and hail can cause damage that is not obvious from the ground. Discuss an inspection so you can understand the roof condition and the restoration work it may need.",
+        "detail": "Share when you noticed the problem and any photos you can take safely from the ground. The storm restoration page explains the service; insurance coverage depends on your policy and insurer.",
+        "highlights": [
+          "Wind and hail concerns",
+          "Inspection and restoration questions",
+          "Documentation of what you noticed"
+        ],
         "href": "/columbus-oh/storm-damage/",
-        "label": "Explore storm restoration",
-        "icon": "storm"
+        "label": "Explore storm restoration"
       }
     ]
   },

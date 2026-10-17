@@ -7,7 +7,7 @@ The page keeps the “Columbus, OH Roofing Company” H1, title, canonical and U
 ## Adaptation
 
 - LandingHero uses the existing forest/orange/cream palette, serif typography and a separate optimized roof photograph. Its primary action anchors to the final estimate section. Header quote actions still open the existing dialog.
-- ServicePaths groups repair, replacement and storm damage by visitor need. Materials stay separate. Commercial roofing retains a contextual link.
+- ServicePaths uses ServiceExplorer.svelte to present eight topics: repair, replacement, cost, calculator, GAF installation, Master Elite certification, metal and storm damage. Desktop has vertical tabs in one column with content in two; mobile uses a native dropdown below 761px. Each panel has context, key points and a destination link. All panels and anchor links remain in the server HTML and readable without JS. Desktop supports Up/Down/Home/End keys, roving focus and automatic activation. Materials also retain their dedicated comparison section. Commercial roofing retains a contextual link.
 - Decision guidance is general editorial copy, not an asserted inspection outcome.
 - ProjectShowcase uses two existing roofing-gallery images with factual visual captions. No location, completion date, product model or case-study outcome is inferred. The unverified before/after pairing and generic statewide map were omitted from this landing; gallery and service-area destinations remain.
 - Credentials have visible source links. ProcessSteps adapts the existing consultation/workmanship/final-review narrative with project-scoping guidance; it adds no guaranteed timelines or inspection turnaround.

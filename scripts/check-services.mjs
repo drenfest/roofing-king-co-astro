@@ -29,6 +29,10 @@ for(const [path,data] of Object.entries(pages)){
     assert.equal($('.rk-landing-hero a[href="#estimate"]').length,1);
     assert.equal($('#estimate #quote-form').length,1);
     assert.equal($('.rk-service-faq details').length,6);
+    assert.equal($('[data-component=ServiceExplorer]').length,1);
+    assert.equal($('[data-service-panel]').length,8,'All service topics must be server rendered.');
+    assert.equal($('[data-service-panel][hidden]').length,0,'Without JS every topic and destination remains available.');
+    for(const panel of $('[data-service-panel]').toArray())assert.equal($(`.rk-service-explorer-tabs a[href="#${$(panel).attr('id')}"]`).length,1,'Fallback topic link must target its content.');
     for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/past-projects/','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
     assert.ok(!/\$47|Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
     assert.equal($('.rk-landing-review blockquote').length,1);
