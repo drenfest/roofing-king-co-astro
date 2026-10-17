@@ -17,6 +17,12 @@ for(const [title,product]of Object.entries(catalog)){
   assert.equal(card.find('.rk-product-swatches a[href]').length,product.colors.length,'Every color needs a non-JS image link.');
   assert.equal(product.colors.length,new Set(product.colors.map(c=>c.id)).size);
   assert.ok(product.warrantyLabels.length>0);
+  assert.deepEqual(product.specs,evidence.records[title].specs);
+  assert.deepEqual(product.badges,evidence.records[title].badges);
+  assert.equal(card.find('.rk-product-photo .rk-product-badge').length,4);
+  for(const badge of product.badges){assert.ok(product.specs.some(s=>s.label===badge.specLabel));}
+  assert.equal(product.specs.find(s=>s.label==='Expected lifespan').value,'Varies by roof');
+  assert.ok(product.specs.find(s=>s.label==='Expected lifespan').note.includes('not a lifespan guarantee'));
   assert.ok(product.sourceUrl.startsWith('https://www.gaf.com/'));
   const selected=product.colors.find(c=>c.id===product.defaultColorId);
   assert.ok(selected,'Default color must belong to this product');
@@ -50,6 +56,7 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(schemas.find(s=>s['@type']==='Product').name,data.title);
   assert.equal(schemas.find(s=>s['@type']==='Product').offers,undefined);
   assert.equal(detail('.rk-product-details details').length,2);
+  assert.equal(detail('.rk-product-photo .rk-product-badge').length,4);
   const record=catalog[data.key];
   assert.equal(detail('.rk-product-swatches a').length,record.colors.length);
   assert.ok($(`a[href="${path}"]`).length,'GAF catalog must link to each detail record');

@@ -19,6 +19,11 @@
       <img src={color.image.src} srcset={color.image.srcset} sizes="(max-width: 640px) 90vw, (max-width: 1000px) 45vw, 30vw" width={color.image.width} height={color.image.height} alt={`${title} in ${color.name}`} loading="lazy" decoding="async" onerror={()=>{failed=true;}} />
     {/key}
     {#if failed}<p class="rk-product-image-error" role="status">This image could not load. <a href={color.image.src}>Open the color sample</a>.</p>{/if}
+    <figcaption class="rk-product-badges" aria-label={`${title} performance at a glance`}>
+      {#each product.badges as badge}
+        <span class="rk-product-badge"><span>{badge.label}</span><strong>{badge.value}</strong></span>
+      {/each}
+    </figcaption>
   </figure>
   <div class="rk-product-color-caption" aria-live="polite"><span>Shown in</span> <strong>{color.name}</strong></div>
   <div class="rk-product-swatches" role="group" aria-label={`${title} colors`}>

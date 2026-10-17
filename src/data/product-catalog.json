@@ -5,6 +5,26 @@
     "checkedAt": "2026-10-17",
     "specs": [
       {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 3",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
+      {
         "label": "Pieces per Square",
         "value": "64"
       },
@@ -313,6 +333,28 @@
         },
         "swatch": "/media/products/timberline-hdz-clr0000093-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 3",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Timberline UHDZ": {
@@ -320,6 +362,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/timberline-uhdz-with-ultramat",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "64"
@@ -420,6 +482,28 @@
         },
         "swatch": "/media/products/timberline-uhdz-clr0000037-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Timberline NS": {
@@ -427,6 +511,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/timberline-ns",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "No class listed",
+        "note": "The manufacturer lists N/A for this product’s impact class."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "64"
@@ -539,6 +643,28 @@
         },
         "swatch": "/media/products/timberline-ns-clr0000037-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Not listed",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Timberline AS II": {
@@ -546,6 +672,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/timberline-as-ii",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "64"
@@ -663,6 +809,28 @@
         },
         "swatch": "/media/products/timberline-as-ii-clr0000037-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Timberline HDZ RS": {
@@ -670,6 +838,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/timberline-hdz-rs",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 3",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "64"
@@ -787,6 +975,28 @@
         },
         "swatch": "/media/products/timberline-hdz-rs-clr0000115-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 3",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Camelot II": {
@@ -794,6 +1004,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/camelot-ii",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "56"
@@ -891,6 +1121,28 @@
         },
         "swatch": "/media/products/camelot-ii-clr0000085-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Woodland": {
@@ -898,6 +1150,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/woodland",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "56"
@@ -955,6 +1227,28 @@
         },
         "swatch": "/media/products/woodland-clr0000052-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Grand Sequoia": {
@@ -962,6 +1256,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/grand-sequoia",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "72"
@@ -1055,6 +1369,28 @@
         },
         "swatch": "/media/products/grand-sequoia-clr0000051-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Grand Sequoia RS": {
@@ -1062,6 +1398,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/class-four-shingles/grand-sequoia-rs",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "72"
@@ -1155,6 +1511,28 @@
         },
         "swatch": "/media/products/grand-sequoia-rs-clr0000075-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Grand Sequoia AS": {
@@ -1162,6 +1540,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/grand-sequoia-as",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "UL 2218 Class 4",
+        "note": "Applies to appropriately labeled packages. Impact testing does not guarantee protection from hail damage; confirm current product labeling."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "72"
@@ -1243,6 +1641,28 @@
         },
         "swatch": "/media/products/grand-sequoia-as-clr0000037-swatch.webp"
       }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Class 4",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
+      }
     ]
   },
   "Royal Sovereign": {
@@ -1250,6 +1670,26 @@
     "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/shingles/royal-sovereign",
     "checkedAt": "2026-10-17",
     "specs": [
+      {
+        "label": "Wind resistance",
+        "value": "ASTM D7158 Class H; ASTM D3161 Class F",
+        "note": "Laboratory test classifications, not a guaranteed in-service wind speed or wind warranty."
+      },
+      {
+        "label": "Impact resistance",
+        "value": "No class listed",
+        "note": "The manufacturer lists N/A for this product’s impact class."
+      },
+      {
+        "label": "Fire classification",
+        "value": "Class A — ANSI/UL 790",
+        "note": "Roof assembly and installation must meet manufacturer requirements."
+      },
+      {
+        "label": "Expected lifespan",
+        "value": "Varies by roof",
+        "note": "No product-specific service-life estimate is provided in the cited specifications. Climate, ventilation, installation and maintenance affect roof life. Limited warranty duration is not a lifespan guarantee."
+      },
       {
         "label": "Pieces per Square",
         "value": "79"
@@ -1310,6 +1750,28 @@
           "srcset": "/media/products/royal-sovereign-clr0000010-400.webp 400w, /media/products/royal-sovereign-clr0000010-800.webp 800w"
         },
         "swatch": "/media/products/royal-sovereign-clr0000010-swatch.webp"
+      }
+    ],
+    "badges": [
+      {
+        "label": "Wind",
+        "value": "Class H",
+        "specLabel": "Wind resistance"
+      },
+      {
+        "label": "Impact",
+        "value": "Not listed",
+        "specLabel": "Impact resistance"
+      },
+      {
+        "label": "Fire",
+        "value": "Class A",
+        "specLabel": "Fire classification"
+      },
+      {
+        "label": "Lifespan",
+        "value": "Varies",
+        "specLabel": "Expected lifespan"
       }
     ]
   }

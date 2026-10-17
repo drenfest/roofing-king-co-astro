@@ -17,7 +17,7 @@ const Heading = detail ? 'h2' : 'h3';
           <p>Eligibility, coverage and exclusions depend on the product, labeling, installed system and applicable warranty terms.</p>
           <a href="https://www.gaf.com/en-us/resources/warranties/residential" target="_blank" rel="noopener noreferrer">Read GAF warranty terms ↗</a>
         </div></details>
-        <details><summary>Product specifications</summary><div><p>Nominal dimensions and manufacturer specifications.</p><dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl>
+        <details id={`specs-${product.id}`} name={`product-specs-${product.id}`}><summary>Product specifications</summary><div><p>Manufacturer-listed performance and nominal dimensions. Wind and impact test classes describe laboratory testing; warranty coverage has separate terms.</p><dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}{spec.note && <small>{spec.note}</small>}</dd></div>)}</dl>
           {product.documents.map(doc=><a class="rk-product-document" href={doc.url} target="_blank" rel="noopener noreferrer">{doc.label} (PDF) ↗</a>)}
         </div></details>
       </div>

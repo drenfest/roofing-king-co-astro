@@ -8,7 +8,8 @@ export type ProductColor = {
 export type ProductPresentation = {
   id:string;sourceUrl:string;checkedAt:string;defaultColorId:string;
   colors:ProductColor[];
-  specs:{label:string;value:string}[];
+  specs:{label:string;value:string;note?:string}[];
+  badges:{label:string;value:string;specLabel:string}[];
   warrantyLabels:string[];
   documents:{label:string;url:string}[];
 };
