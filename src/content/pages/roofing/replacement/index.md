@@ -119,7 +119,7 @@ priority: "preserve-and-improve"
       <div class="rk-page-feature-copy">
         <p class="rk-home-eyebrow">Installation process</p>
         <h2>A Roof Replacement Process Built Around Clarity</h2>
-        <p>Roof King keeps the project straightforward from inspection to cleanup. You get a clear scope, product guidance, schedule expectations, and a finished system designed to handle rain, wind, heat, ice, and everyday Ohio weather.</p>
+        <p>Roof King keeps the project straightforward from inspection to cleanup. Your estimate lists roofing materials, tear-off, installation and cleanup, along with scheduling information. We install a roofing system designed for Ohio’s rain, wind, heat and ice.</p>
       </div>
       <div class="rk-page-feature-list">
         <article><span class="rk-card-rule" aria-hidden="true"></span><h3>Inspection And Estimate</h3><p>We review shingles, flashing, decking, ventilation, storm damage, and leak history before recommending the right path.</p></article>
@@ -324,7 +324,7 @@ priority: "preserve-and-improve"
       <div class="rk-page-section-heading">
         <p class="rk-home-eyebrow">Roof replacement FAQs</p>
         <h2>Answers Before You Replace Your Roof</h2>
-        <p>Use these questions to understand scope, timing, warranty, and when replacement is the right move for your home.</p>
+        <p>Find answers about roof removal, installation, timing, warranty coverage and when replacement makes sense for your home.</p>
       </div>
       <div class="rk-page-faq-groups">
         <div class="rk-page-faq-group">

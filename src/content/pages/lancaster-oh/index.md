@@ -19,7 +19,7 @@ priority: "preserve-and-improve"
             <div class="rk-home-hero-copy">
                                     <p class="rk-home-eyebrow">Ohio Service Areas</p>
                                                     <h1>Lancaster's Roofing and Storm Restoration Experts</h1>
-                                                    <p>We can handle roofing and restoration services of all sizes and scopes.</p>
+                                                    <p>We handle roof repairs, roof replacements and storm damage restoration.</p>
                             </div>
                             <aside class="rk-home-hero-card" aria-label="Page call to action">
                                             <p class="rk-home-card-kicker">Limited time offer</p>

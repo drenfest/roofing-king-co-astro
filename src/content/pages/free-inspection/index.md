@@ -35,7 +35,7 @@ priority: "preserve-and-improve"
       </div>
       <h2>What happens next</h2>
       <p>We call to confirm a window that works for you. The inspection itself typically takes 45 to 90 minutes depending on the size and complexity of the roof. You do not need to be home for the exterior portion, though we do need access for the attic assessment.</p>
-      <p>Afterward you get the documentation and a written scope if work is warranted. If nothing is wrong, we tell you that and you have a dated record of your roof’s condition, which is worth having on file before the next storm.</p>
+      <p>Afterward you get the documentation and a written estimate for recommended roof repairs or replacement. If nothing is wrong, we tell you that and you have a dated record of your roof’s condition, which is worth having on file before the next storm.</p>
     </div>
     <div class="sticky">
 <div class="formcard">

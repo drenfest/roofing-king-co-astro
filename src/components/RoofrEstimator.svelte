@@ -8,7 +8,7 @@
 
 <section class="roofr-estimator" id="roofr-estimator" aria-labelledby="roofr-estimator-title">
   <h2 id="roofr-estimator-title">Get your instant roof estimate</h2>
-  <p>Answer a few questions about your property in Roof King's Roofr estimator. Your result is an estimated price range; a site inspection confirms the final scope and quote.</p>
+  <p>Answer a few questions about your property in Roof King's Roofr estimator. Your result is an estimated price range. A roof inspection identifies the materials, tear-off, decking repairs and installation needed for your written estimate.</p>
   {#if active}
     <iframe src={roofr.estimatorUrl} title="Roof King instant roof estimate" width="800" height="700" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <p>If the estimator does not load, <a href={roofr.estimatorUrl} target="_blank" rel="noopener noreferrer">open it in a new tab</a>.</p>

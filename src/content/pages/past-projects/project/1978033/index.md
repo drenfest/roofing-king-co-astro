@@ -126,7 +126,7 @@ High-quality GAF materials and careful installation gave the homeowner stronger 
 <ul>
 <li>Project: Full roofing replacement on Summerfield Dr, Lewis Center, OH</li>
 <li>Goal: Stop leaks, improve ventilation, boost curb appeal</li>
-<li>Scope: Tear-off, upgraded underlayment, new shingles, ridge ventilation</li>
+<li>Roof replacement: Tear-off, upgraded underlayment, new shingles, ridge ventilation</li>
 <li>Outcome: Durable, weather-ready roof backed by warranties</li>
 </ul>
 <p></p>

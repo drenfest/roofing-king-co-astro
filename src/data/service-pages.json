@@ -65,7 +65,7 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the scope of work for your home."
+                    "text": "Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the roof repairs or replacement your home needs."
                   }
                 ]
               },
@@ -1130,7 +1130,7 @@
             "tag": "p",
             "children": [
               {
-                "text": "Roof King keeps the project straightforward from inspection to cleanup. You get a clear scope, product guidance, schedule expectations, and a finished system designed to handle rain, wind, heat, ice, and everyday Ohio weather."
+                "text": "Roof King keeps the project straightforward from inspection to cleanup. Your estimate lists roofing materials, tear-off, installation and cleanup, along with scheduling information. We install a roofing system designed for Ohio’s rain, wind, heat and ice."
               }
             ]
           },
@@ -1491,7 +1491,7 @@
         "type": "faq",
         "eyebrow": "Roof replacement FAQs",
         "title": "Answers Before You Replace Your Roof",
-        "description": "Use these questions to understand scope, timing, warranty, and when replacement is the right move for your home.",
+        "description": "Find answers about roof removal, installation, timing, warranty coverage and when replacement makes sense for your home.",
         "items": [
           {
             "question": "How do I know if I need a roof replacement?",
@@ -4820,7 +4820,7 @@
           {
             "slug": "gutters",
             "tabLabel": "Commercial Gutters",
-            "detail": "Explore Alu-Rex and its T-Rex system, along with LeafFilter, among the names listed on our gutter page. Confirm the products and installation scope available for your particular building.",
+            "detail": "Explore Alu-Rex and its T-Rex system, along with LeafFilter, among the names listed on our gutter page. Confirm the gutter sizes, guard compatibility, downspout placement and fastening appropriate for your building.",
             "highlights": [
               "Commercial gutter installation and repair",
               "Seamless gutters and downspouts",

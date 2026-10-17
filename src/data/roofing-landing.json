@@ -96,7 +96,7 @@
         "title": "Roof King’s Online Roofing Estimator",
         "icon": "calculator",
         "description": "Start your roofing budget with Roof King’s published Roofr estimator. Our calculator page gives you access to the online tool for exploring a replacement project before arranging a detailed inspection and proposal.",
-        "detail": "An online estimate is a starting point. The final proposal accounts for the roof’s condition, selected materials and installation scope confirmed with our team.",
+        "detail": "An online estimate is a starting point. Your written roofing estimate identifies the selected materials, tear-off, any decking repairs, flashing and installation needed for your home.",
         "highlights": [
           "Roof King’s Roofr estimator",
           "Online replacement-budget planning",
@@ -293,7 +293,7 @@
       },
       {
         "title": "Metal roofing",
-        "description": "Explore a different finish and discuss the system suitable for your property. Compare the installation scope, detailing and written warranty before settling on a material.",
+        "description": "Explore metal roof styles and finishes for your home. Review the panels, fasteners, flashing, ventilation and written warranty with our roofing team.",
         "image": {
           "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
           "alt": "Metal roofing example from the existing roofing materials gallery"
@@ -312,7 +312,7 @@
     "items": [
       "Roofing materials & installation",
       "Tear-off, preparation & cleanup",
-      "Changes to the agreed scope",
+      "Approval of additional roof repairs",
       "Product & workmanship warranties"
     ],
     "financingTitle": "Roofing financing options",
@@ -410,7 +410,7 @@
             "tag": "p",
             "children": [
               {
-                "text": "Compare the scope of removal and preparation, exact materials, installation details, cleanup and written coverage. Ask how changes or additional work discovered during the project would be handled."
+                "text": "Check whether each roofing estimate includes tear-off and disposal, decking repairs, underlayment, flashing, ventilation, shingles or panels, and cleanup. Review the written warranties and ask how unexpected decking damage would be priced and approved."
               }
             ]
           }
@@ -423,7 +423,7 @@
             "tag": "p",
             "children": [
               {
-                "text": "Yes. Explore our shingle product library and metal roofing information, then ask which systems suit your home. Compare the complete installation scope and product-specific terms, not just the visible finish."
+                "text": "Yes. Browse shingle styles and colors, or explore metal roof panels and finishes. Discuss fastening, flashing, ventilation, maintenance and product-specific warranty terms with our team."
               }
             ]
           },

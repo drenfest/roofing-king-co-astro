@@ -7,6 +7,8 @@ for(const route of routes){
  const target='dist'+route.path+'index.html';
  let html;try{html=await fs.readFile(target,'utf8');}catch{failures.push('Missing output '+target);continue;}
  const $=cheerio.load(html);
+ const customerCopy=$('body').clone();customerCopy.find('script,style,template').remove();
+ if(/\bscop(?:e|es|ing)\b/i.test(customerCopy.text()))failures.push('Generic scope wording in customer copy '+route.path);
  if($('h1').length!==1)failures.push('Invalid H1 '+route.path);
  if(!$('link[rel="canonical"]').attr('href')?.endsWith(route.canonicalPath))failures.push('Canonical mismatch '+route.path);
  if($('meta[http-equiv="refresh"]').length)failures.push('Unexpected redirect '+route.path);

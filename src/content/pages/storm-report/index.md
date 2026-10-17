@@ -52,7 +52,7 @@ priority: "preserve-and-improve"
 <section class="sec"><div class="wrap">
   <div class="band">
     <h2>Dates on a map are a starting point, not an answer</h2>
-    <p>The roof settles it. We inspect, document every slope with test squares, and give you a written scope whether there is a claim in it or not.</p>
+    <p>The roof settles it. We inspect, document every slope with test squares, and give you a written roofing repair or replacement recommendation whether there is an insurance claim or not.</p>
     <div class="btn-row">
       <a class="btn btn-primary btn-lg" href="/free-inspection/">Book a Free Inspection</a>
       <a class="btn btn-onDark-ghost btn-lg" href="tel:+16143798893"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 379-8893</a>

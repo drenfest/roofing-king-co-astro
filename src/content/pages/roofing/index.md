@@ -78,7 +78,7 @@ priority: first-component-rebuild
       <div class="rk-page-section-heading">
         <p class="rk-home-eyebrow">Exterior Services</p>
         <h2>Meet your Columbus roofing team</h2>
-        <p>Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the scope of work for your home.</p><p>Need help choosing your next step? Explore <a href="/columbus-oh/roofing/">Columbus Ohio roofing services</a> for inspection, repair and replacement guidance.</p>
+        <p>Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the roof repairs or replacement your home needs.</p><p>Need help choosing your next step? Explore <a href="/columbus-oh/roofing/">Columbus Ohio roofing services</a> for inspection, repair and replacement guidance.</p>
       </div>
       <div class="rk-page-service-grid"><a class="rk-page-service-card" href="/roofing/repair/">
               <span class="rk-card-rule" aria-hidden="true"></span>
