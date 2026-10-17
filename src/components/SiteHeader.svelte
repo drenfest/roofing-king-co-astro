@@ -1,18 +1,27 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
+  import MegaMenu from './MegaMenu.svelte';
+  import '../styles/navigation.css';
   import navigation from '../data/navigation.json';
   import site from '../data/site.json';
+  let {quoteHref='#quote-form',quoteModal=true}:{quoteHref?:string;quoteModal?:boolean}=$props();
   type Item = { label: string; href: string; classes: string; children: Item[] };
   let enhanced = $state(false);
   let mobileOpen = $state(false);
   let desktop = $state(true);
   let active = $state<string | null>(null);
+  let branches=$state<Record<string,boolean>>({});
   let openedByHover = false;
   let closeTimer: ReturnType<typeof setTimeout> | undefined;
   let header: HTMLElement;
   let menuButton: HTMLButtonElement;
   function cancelClose() { clearTimeout(closeTimer); closeTimer = undefined; }
-  const close = () => { cancelClose(); mobileOpen = false; active = null; openedByHover = false; };
+  const close = () => { cancelClose(); mobileOpen = false; active = null; branches={}; openedByHover = false; };
+  async function enterMenu(event:KeyboardEvent,index:number){
+    if(!desktop || event.key!=='ArrowDown')return;
+    event.preventDefault();active=String(index);await tick();
+    header.querySelector<HTMLAnchorElement>(`#native-submenu-${index} .rk-mega-row>a`)?.focus();
+  }
   function leaveHeader(event: PointerEvent) {
     if (event.pointerType !== 'mouse' || !desktop) return;
     cancelClose();
@@ -53,11 +62,14 @@
   });
 </script>
 
-{#snippet children(items: Item[], depth: number)}
-  {#each items as item}
-    <li class={`rk-menu-item rk-menu-depth-${depth} ${item.classes}`}>
-      <div class="rk-menu-row"><a class={`rk-menu-link rk-menu-link-depth-${depth}`} href={item.href} onclick={close}>{item.label}</a></div>
-      {#if item.children.length}<ul class={`sub-menu rk-submenu rk-submenu-depth-${depth}`}>{@render children(item.children, depth + 1)}</ul>{/if}
+{#snippet children(items: Item[], depth: number, prefix:string)}
+  {#each items as item,index}
+    {@const key=`${prefix}-${index}`}
+    <li class={`rk-menu-item rk-menu-depth-${depth} ${item.classes}`} class:is-submenu-open={branches[key]}>
+      <div class="rk-menu-row"><a class={`rk-menu-link rk-menu-link-depth-${depth}`} href={item.href} onclick={close}>{item.label}</a>
+        {#if item.children.length}<button class="rk-submenu-toggle rk-nested-toggle" type="button" aria-label={`Toggle ${item.label} submenu`} aria-expanded={!!branches[key]} aria-controls={`mobile-branch-${key}`} onclick={()=>branches={...branches,[key]:!branches[key]}}><span aria-hidden="true"></span></button>{/if}
+      </div>
+      {#if item.children.length}<ul id={`mobile-branch-${key}`} class={`sub-menu rk-submenu rk-submenu-depth-${depth}`} hidden={enhanced&&!branches[key]}>{@render children(item.children, depth + 1,key)}</ul>{/if}
     </li>
   {/each}
 {/snippet}
@@ -74,14 +86,17 @@
           <li class={`rk-menu-item rk-menu-depth-0 ${item.classes}`} class:is-submenu-open={active === String(i)}
             onpointerenter={(event) => { if (event.pointerType === 'mouse' && desktop) { cancelClose(); active = String(i); openedByHover = true; } }}>
             <div class="rk-menu-row"><a class="rk-menu-link rk-menu-link-depth-0" href={item.href} onclick={close}>{item.label}</a>
-              {#if item.children.length}<button class="rk-submenu-toggle" type="button" aria-expanded={active === String(i)} aria-controls={`native-submenu-${i}`} aria-label={`Toggle ${item.label} submenu`} data-submenu={String(i)} onclick={(event) => { if (event.detail && openedByHover) { openedByHover = false; return; } active = active === String(i) ? null : String(i); }}><span aria-hidden="true"></span></button>{/if}
+              {#if item.children.length}<button class="rk-submenu-toggle" type="button" aria-expanded={active === String(i)} aria-controls={desktop?`native-submenu-${i}`:`native-mobile-submenu-${i}`} aria-label={`Toggle ${item.label} submenu`} data-submenu={String(i)} onkeydown={event=>enterMenu(event,i)} onclick={(event) => { if (event.detail && openedByHover) { openedByHover = false; return; } active = active === String(i) ? null : String(i); }}><span aria-hidden="true"></span></button>{/if}
             </div>
-            {#if item.children.length}<ul id={`native-submenu-${i}`} class="sub-menu rk-submenu rk-submenu-depth-0" inert={enhanced && active !== String(i)}>{@render children(item.children, 1)}</ul>{/if}
+            {#if item.children.length}
+              <div id={`native-submenu-${i}`} class="rk-native-mega-host" inert={!enhanced||!desktop||active!==String(i)}><MegaMenu root={item} onNavigate={close}/></div>
+              <ul id={`native-mobile-submenu-${i}`} class="sub-menu rk-submenu rk-submenu-depth-0 rk-mobile-tree" inert={enhanced&&(desktop||active!==String(i))} hidden={enhanced&&!desktop&&active!==String(i)}>{@render children(item.children, 1,String(i))}</ul>
+            {/if}
           </li>
         {/each}
       </ul>
-      <div class="rk-mobile-nav-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open onclick={close}>Get a Free Quote</a></div>
+      <div class="rk-mobile-nav-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href={quoteHref} data-quote-open={quoteModal?true:undefined} onclick={close}>Get a Free Quote</a></div>
     </nav>
-    <div class="rk-header-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get a Free Quote</a></div>
+    <div class="rk-header-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href={quoteHref} data-quote-open={quoteModal?true:undefined}>Get a Free Quote</a></div>
   </div>
 </header>

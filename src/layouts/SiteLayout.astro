@@ -1,6 +1,7 @@
 ---
 import site from '../data/site.json';
 import shell from '../data/imported-shell.json';
+import SiteHeader from '../components/SiteHeader.svelte';
 import '../styles/wordpress-compatibility.css';
 import '../styles/migration.css';
 interface Props { title: string; description: string; canonicalPath: string; }
@@ -31,15 +32,13 @@ const schema = {
   </head>
   <body>
     <a class="rk-skip-link" href="#content">Skip to content</a>
-    <Fragment set:html={shell.header} />
+    <SiteHeader quoteHref="/contact-us/" quoteModal={false} client:load/>
     <main id="content" class="rk-site-main"><slot /></main>
     <Fragment set:html={shell.footer} />
     <script>
-      import { initNavigation } from '../scripts/compatibility/navigation.js';
       import { initProjectGallery } from '../scripts/compatibility/gallery.js';
       import { initBeforeAfter } from '../scripts/compatibility/before-after.js';
       // Temporary browser behavior retained while native components are rebuilt.
-      initNavigation();
       initProjectGallery();
       initBeforeAfter();
     </script>

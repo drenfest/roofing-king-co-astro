@@ -3,10 +3,17 @@ import * as cheerio from 'cheerio';
 const {routes}=JSON.parse(await fs.readFile('migration/route-manifest.json','utf8'));
 const failures=[];const missingAssets=new Set();const brokenLinks=new Set();
 const paths=new Set(routes.map(r=>r.path));
+const navigation=JSON.parse(await fs.readFile('src/data/navigation.json','utf8'));
+const navigationLinks=[];function collect(items){for(const item of items){navigationLinks.push(item.href);collect(item.children);}}collect(navigation.items);
 for(const route of routes){
  const target='dist'+route.path+'index.html';
  let html;try{html=await fs.readFile(target,'utf8');}catch{failures.push('Missing output '+target);continue;}
  const $=cheerio.load(html);
+ const header=$('header.rk-native-header');
+ if(header.length!==1)failures.push('Missing shared native header '+route.path);
+ const headerLinks=new Set(header.find('a[href]').map((i,e)=>$(e).attr('href')).get());
+ for(const href of navigationLinks)if(!headerLinks.has(href))failures.push('Missing server-rendered navigation link '+href+' on '+route.path);
+ for(const button of header.find('button[aria-controls]').toArray())if(header.find(`[id="${$(button).attr('aria-controls')}"]`).length!==1)failures.push('Invalid navigation toggle target on '+route.path);
  const customerCopy=$('body').clone();customerCopy.find('script,style,template').remove();
  if(/\bscop(?:e|es|ing)\b/i.test(customerCopy.text()))failures.push('Generic scope wording in customer copy '+route.path);
  if($('h1').length!==1)failures.push('Invalid H1 '+route.path);
