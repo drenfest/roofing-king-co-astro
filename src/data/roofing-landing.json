@@ -307,7 +307,7 @@
   },
   "budget": {
     "eyebrow": "Your roofing estimate",
-    "title": "Roofing Items Included In The Estimate",
+    "title": "Included in Roofing Estimates",
     "description": "Understand what goes into your roof estimate, from tear-off and preparation to materials, installation and cleanup.",
     "items": [
       "Roofing materials & installation",
