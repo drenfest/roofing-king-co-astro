@@ -333,10 +333,12 @@
   "reviews": {
     "eyebrow": "Roof King customer reviews",
     "title": "Roofing Reviews From Our Customers",
-    "quote": "I just had a roofing job done by them and the roofing job looks really great. They did a good job of cleaning up.",
-    "author": "Douglas C",
-    "sourceLabel": "Customer review on BBB",
-    "sourceUrl": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693"
+    "reviewIds": [
+      "google-marianna-faria",
+      "bbb-douglas-c",
+      "birdeye-kenneth-g"
+    ],
+    "description": "Selected customer review excerpts from Google, BBB and Birdeye. Follow each source link to read the original review."
   },
   "local": {
     "eyebrow": "Rooted in Columbus",

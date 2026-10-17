@@ -1,7 +1,8 @@
 ---
 import { offers, blogs, reviews } from '../data/home.json';
 import CardSection from './CardSection.astro';
+import ReviewSection from './ReviewSection.astro';
 interface Props { kind: 'offers' | 'blogs' | 'reviews'; }
 const { kind } = Astro.props;
 ---
-<CardSection {kind} section={{offers, blogs, reviews}[kind]} />
+{kind==='reviews'?<ReviewSection section={reviews}/>:<CardSection {kind} section={{offers, blogs}[kind]} />}

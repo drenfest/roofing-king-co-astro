@@ -1570,6 +1570,18 @@
   font-weight: 600;
 }
 
+.rk-review-author small {
+  display: block;
+  margin-top: .2rem;
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+.rk-home-review-card .rk-review-platform {
+  font-size: .8rem;
+  letter-spacing: .02em;
+}
+
 .rk-review-source {
   display: inline-flex;
   align-items: center;

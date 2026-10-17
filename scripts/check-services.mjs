@@ -43,12 +43,15 @@ for(const [path,data] of Object.entries(pages)){
     for(const panel of $('[data-service-panel]').toArray())assert.equal($(`.rk-service-explorer-tabs a[href="#${$(panel).attr('id')}"]`).length,1,'Fallback topic link must target its content.');
     for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/past-projects/','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
     assert.ok(!/\$47|Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
-    assert.equal($('.rk-landing-review blockquote').length,1);
-    assert.ok($('.rk-landing-review figcaption a').attr('href').startsWith('https://www.bbb.org/'));
+    assert.equal($('.rk-home-review-card').length,3,'Roofing must use the same three-card review component as the homepage.');
+    assert.equal($('.rk-home-review-card .rk-review-source').length,3);
+    assert.ok($('.rk-review-source').toArray().some(e=>$(e).attr('href').startsWith('https://www.bbb.org/')));
     continue;
   }
   // Compare all substantive paragraphs and headings, not a self-generated fixture.
   before('.rk-page-section:not(.rk-page-final-cta) p,.rk-page-section:not(.rk-page-final-cta) h2,.rk-page-section:not(.rk-page-final-cta) h3,.rk-page-section summary').each((i,e)=>{
+    // The client replaced first-party testimonials with verified external review excerpts.
+    if(before(e).closest('.rk-page-reviews-section').length)return;
     // The commercial explorer now summarizes each linked detail page instead of its old teaser cards.
     if(path==='/commercial-roofing/' && e.tagName==='p' && before(e).closest('.rk-page-service-card').length)return;
     const original=clean(before(e).text());const content=/^h[2-4]$/.test(e.tagName)?(placements[path]?.headings?.[original]||original):original;if(content)assert.ok(rendered.includes(content),'Lost source content on '+path+': '+content.slice(0,100));

@@ -1,0 +1,42 @@
+{
+  "verifiedOn": "2026-10-17",
+  "items": [
+    {
+      "id": "google-marianna-faria",
+      "title": "Communication and scheduling",
+      "description": "Communication was extraordinary and Kozmo was very attentive, always answered questions quickly, and was able to get us scheduled quickly as well.",
+      "author": "Marianna Faria",
+      "source": {
+        "platform": "Google",
+        "url": "https://share.google/dEXPwUP42TtA0zGsc"
+      },
+      "evidenceUrl": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+      "evidenceNote": "Exact excerpt confirmed in the expanded Google review by Marianna Faria; direct URL copied from that review's Share dialog. GAF also displays the review as M.F. Individual rating was not exposed in the inspected Google markup, so no star score is displayed."
+    },
+    {
+      "id": "bbb-douglas-c",
+      "title": "Roof installation and cleanup",
+      "description": "I just had a roofing job done by them and the roofing job looks really great. They did a good job of cleaning up.",
+      "author": "Douglas C",
+      "rating": 5,
+      "publishedOn": "2026-07-22",
+      "source": {
+        "platform": "BBB",
+        "url": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews#0302_70125693_230066"
+      },
+      "evidenceNote": "Excerpt, display name, date and five-star rating verified directly on BBB. Fragment identifies the actual review list item. This individual score is separate from BBB's business rating and aggregate customer score."
+    },
+    {
+      "id": "birdeye-kenneth-g",
+      "title": "Guidance through the insurance process",
+      "description": "Great company to work with, highly recommend. Quevon made sure we understood the insurance process and the new roof looks great..",
+      "author": "Kenneth G.",
+      "rating": 5,
+      "source": {
+        "platform": "Birdeye",
+        "url": "https://reviews.birdeye.com/roof-king-restoration-164724786112437#1025011439"
+      },
+      "evidenceNote": "Text and five filled rating stars verified directly on Birdeye. Review is explicitly labeled 'on Birdeye', not Google. Fragment identifies its review container."
+    }
+  ]
+}

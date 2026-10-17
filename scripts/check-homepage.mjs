@@ -6,6 +6,18 @@ const $ = cheerio.load(html);
 assert.equal($('[data-homepage-build="astro-components"]').length, 1, 'Homepage must use the native component route.');
 assert.equal($('h1').length, 1);
 assert.equal($('.rk-home-service-card').length, 8);
+const featuredReviews=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;
+assert.equal($('.rk-home-review-card').length, featuredReviews.length);
+for(const review of featuredReviews){
+  const card=$('.rk-home-review-card').filter((i,e)=>$(e).find('.rk-review-author').text().startsWith(review.author));
+  assert.equal(card.length,1,'Featured review author must match the verified record.');
+  const link=card.find('.rk-review-source');
+  assert.equal(link.attr('href'),review.source.url);
+  assert.equal(link.attr('target'),'_blank');
+  assert.ok(!new URL(link.attr('href')).hostname.endsWith('roofkingco.com'),'Review sources must be third-party destinations.');
+  assert.equal(card.find('.rk-stars[aria-label]').length,review.rating?1:0,'Do not invent individual star scores.');
+  assert.ok(card.find('p').text().includes(review.description),'Keep the verified excerpt intact.');
+}
 assert.equal($('.rk-project-gallery-item').length, 10, 'Gallery images must exist in server-rendered HTML.');
 assert.equal($('.rk-home-faq-stack details').length, 3);
 assert.equal($('dialog').length, 2);

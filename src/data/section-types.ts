@@ -7,14 +7,16 @@ export type RichNode = { text: string; tag?: never; href?: never; children?: nev
 export type BrandSection = HeadingData & { brandIds: string[] };
 export type AudienceBannerData = {eyebrow:string;title:string;description:string;href:string;label:string;icon:'roof'|'building'};
 export type ServicePathsData = {id?:string;selectorLabel?:string;eyebrow:string;title:string;description:string;banner?:AudienceBannerData;items:{id:string;tabLabel:string;title:string;description:string;detail:string;highlights:string[];href:string;label:string;icon:string;related?:{label:string;href:string}[]}[]};
-export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null;author?:string;source?:{platform:string;url:string}}[] };
+export type ReviewSectionData = HeadingData & {reviewIds:string[]};
+export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null;author?:string;rating?:number;excerpt?:boolean;source?:{platform:string;url:string}}[] };
 export type ContentSectionData = { type:'content'; variant:'services'|'features'|'prose'; body:RichNode[]; cards:{title:string;body:RichNode[];href?:string}[] };
 export type GallerySection = HeadingData & { type:'gallery'; filters:{label:string;value:string}[];items:(ImageData & {tags:string[]})[] };
 export type MediaContentRowData = {type:'media-row';id:string;title:string;eyebrow:string;body:RichNode[];image:ImageData;caption?:string;reverse?:boolean;linkPlacement?:'media';links:{label:string;href:string;icon?:'roof'|'shingles'|'brand'|'energy'}[]};
 export type ServiceSection = ContentSectionData | MediaContentRowData |
   (ServicePathsData & {type:'service-paths'}) |
   (BrandSection & {type:'brands'}) |
-  (CardSectionData & {type:'cards';kind:'offers'|'reviews'}) |
+  (CardSectionData & {type:'cards';kind:'offers'}) |
+  (ReviewSectionData & {type:'cards';kind:'reviews'}) |
   GallerySection |
   (HeadingData & {type:'products';items:{productId:string;title:string;body:RichNode[]}[]}) |
   (HeadingData & {type:'comparison';before:ImageData;after:ImageData}) |

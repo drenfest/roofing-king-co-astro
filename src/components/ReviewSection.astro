@@ -1,0 +1,13 @@
+---
+import type { ReviewSectionData } from '../data/section-types';
+import reviews from '../data/featured-reviews.json';
+import CardSection from './CardSection.astro';
+interface Props { section: ReviewSectionData; }
+const {section}=Astro.props;
+const items=section.reviewIds.map(id=>{
+  const review=reviews.items.find(item=>item.id===id);
+  if(!review)throw new Error(`Unknown featured review: ${id}`);
+  return {...review,excerpt:true};
+});
+---
+<CardSection kind="reviews" section={{...section,items}}/>

@@ -14,7 +14,7 @@ The page keeps the “Columbus, OH Roofing Company” H1, title, canonical and U
 - Credentials have visible source links. ProcessSteps adapts the existing consultation/workmanship/final-review narrative with project-scoping guidance; it adds no guaranteed timelines or inspection turnaround.
 - Materials link to the product pillar, the GAF catalog and metal/type information. Brand selection remains configurable.
 - Cost guidance replaces the promotional offer-card row. No lender, monthly payment or seasonal promotion is asserted. Historical offer URLs remain accessible elsewhere and are preserved.
-- A short exact BBB customer excerpt replaces the anonymous testimonial cards and aggregate rating on this page. The root quote dialog suppresses its existing aggregate-rating block via the new optional showRating prop; other pages are unchanged.
+- ReviewSection now uses the same three-card layout on the homepage and native services, including this landing. Explicit reviewIds select verified excerpts from Google (Marianna Faria), BBB (Douglas C) and Birdeye (Kenneth G.). featured-reviews.json records verification notes and original destinations; badges no longer link to first-party review pages. Google has a review-specific share URL; BBB and Birdeye have verified review-container fragments. Headings are editorial and text is labeled as excerpts. Only individually verified numeric ratings render stars. No review/aggregate rating schema is added. The root quote dialog still suppresses its existing aggregate-rating block via showRating.
 - FAQs use native details. Quote delivery remains disabled as previously requested; no submission success, CRM delivery or Roofr automation is claimed.
 
 ## Evidence checked October 17, 2026

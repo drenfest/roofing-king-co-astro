@@ -14,6 +14,7 @@ import ContentSection from '../components/ContentSection.astro';
 import MediaContentRow from '../components/MediaContentRow.astro';
 import BrandStrip from '../components/BrandStrip.astro';
 import CardSection from '../components/CardSection.astro';
+import ReviewSection from '../components/ReviewSection.astro';
 import ProjectGallery from '../components/ProjectGallery.svelte';
 import ComparisonSection from '../components/ComparisonSection.astro';
 import CoverageSection from '../components/CoverageSection.astro';
@@ -39,7 +40,7 @@ const hero={...data.hero,...placement?.hero};
       section.type==='media-row'?<MediaContentRow {section}/>:
       section.type==='service-paths'?<ServicePaths {section}/>:
       section.type==='brands'?<BrandStrip brands={section}/>:
-      section.type==='cards'?<CardSection kind={section.kind} section={section}/>:
+      section.type==='cards'?(section.kind==='reviews'?<ReviewSection {section}/>:<CardSection kind={section.kind} section={section}/>):
       section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:
       section.type==='comparison'?<ComparisonSection comparison={section}/>:
       section.type==='coverage'?<CoverageSection coverage={section}/>:
