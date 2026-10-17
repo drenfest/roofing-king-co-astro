@@ -1,0 +1,47 @@
+---
+import site from '../data/site.json';
+import shell from '../data/imported-shell.json';
+import '../styles/wordpress-compatibility.css';
+import '../styles/migration.css';
+interface Props { title: string; description: string; canonicalPath: string; }
+const { title, description, canonicalPath } = Astro.props;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'RoofingContractor',
+  '@id': site.url + '/#business', name: site.name, url: site.url,
+  telephone: '+16143798893', address: { '@type': 'PostalAddress', ...site.address },
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Roof King &amp; Restoration</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={new URL(canonicalPath, site.url)} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(canonicalPath, site.url)} />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=Source+Sans+3:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="rk-skip-link" href="#content">Skip to content</a>
+    <Fragment set:html={shell.header} />
+    <main id="content" class="rk-site-main"><slot /></main>
+    <Fragment set:html={shell.footer} />
+    <script>
+      import { initNavigation } from '../scripts/compatibility/navigation.js';
+      import { initProjectGallery } from '../scripts/compatibility/gallery.js';
+      import { initBeforeAfter } from '../scripts/compatibility/before-after.js';
+      // Temporary browser behavior retained while native components are rebuilt.
+      initNavigation();
+      initProjectGallery();
+      initBeforeAfter();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "componentRebuildFirst": [
+    "/",
+    "/roofing/"
+  ],
+  "contentReviewPending": 215,
+  "lowTextRoutes": [
+    {
+      "path": "/blog/c.decking/",
+      "words": 2,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/blog/c.gutter-types/",
+      "words": 20,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/blog/c.gutters/",
+      "words": 19,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/blog/c.seamless-gutters/",
+      "words": 20,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/blog/c.siding-types/",
+      "words": 11,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/blog/c.siding/",
+      "words": 10,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/deck-visualizer/",
+      "words": 2,
+      "source": "wordpress"
+    },
+    {
+      "path": "/events/",
+      "words": 34,
+      "source": "live-browser-capture"
+    },
+    {
+      "path": "/category/roof-repair/",
+      "words": 29,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/category/gutters/",
+      "words": 19,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/category/siding/",
+      "words": 10,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/category/gaf-roofing/",
+      "words": 12,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/category/ice-dam-removal/",
+      "words": 15,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/roof-inspection/",
+      "words": 33,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/hiring-tips/",
+      "words": 35,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/winter-roofing/",
+      "words": 32,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/gaf-shingles/",
+      "words": 28,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/wind-damage/",
+      "words": 33,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/cost-guides/",
+      "words": 20,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/hail-damage/",
+      "words": 17,
+      "source": "reconstructed-wordpress-archive"
+    },
+    {
+      "path": "/tag/christmas-lights/",
+      "words": 11,
+      "source": "reconstructed-wordpress-archive"
+    }
+  ],
+  "featuresPending": [
+    "server-side lead handler and Zapier/Roofr verification",
+    "native quote modal/form",
+    "calculators, deck visualizer and storm-report integrations",
+    "analytics/conversion tracking",
+    "current offers, reviews and business-claim verification",
+    "original HTML converted into reusable Astro/Svelte sections"
+  ],
+  "indexing": "Preview remains noindex and robots-disallowed until launch approval"
+}

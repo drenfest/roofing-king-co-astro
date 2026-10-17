@@ -1,0 +1,2067 @@
+{
+  "generatedAt": "2026-10-17T17:42:18.387Z",
+  "count": 215,
+  "routes": [
+    {
+      "path": "/",
+      "file": "src/content/pages/index.md",
+      "source": "wordpress",
+      "wordpressId": 5,
+      "canonicalPath": "/",
+      "notes": [],
+      "words": 896
+    },
+    {
+      "path": "/about-us/",
+      "file": "src/content/pages/about-us/index.md",
+      "source": "wordpress",
+      "wordpressId": 6,
+      "canonicalPath": "/about-us/",
+      "notes": [],
+      "words": 697
+    },
+    {
+      "path": "/about/",
+      "file": "src/content/pages/about/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 6,
+      "canonicalPath": "/about-us/",
+      "notes": [
+        "Alternate path retained as a 200 response; canonical points to the preferred content URL."
+      ],
+      "words": 697
+    },
+    {
+      "path": "/accessibility/",
+      "file": "src/content/pages/accessibility/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/accessibility/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 177
+    },
+    {
+      "path": "/akron-oh/",
+      "file": "src/content/pages/akron-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 7,
+      "canonicalPath": "/akron-oh/",
+      "notes": [],
+      "words": 779
+    },
+    {
+      "path": "/athens-oh/",
+      "file": "src/content/pages/athens-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 8,
+      "canonicalPath": "/athens-oh/",
+      "notes": [],
+      "words": 788
+    },
+    {
+      "path": "/attic-insulation/",
+      "file": "src/content/pages/attic-insulation/index.md",
+      "source": "wordpress",
+      "wordpressId": 9,
+      "canonicalPath": "/attic-insulation/",
+      "notes": [],
+      "words": 791
+    },
+    {
+      "path": "/aurora-oh/",
+      "file": "src/content/pages/aurora-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 10,
+      "canonicalPath": "/aurora-oh/",
+      "notes": [],
+      "words": 691
+    },
+    {
+      "path": "/beavercreek-oh/",
+      "file": "src/content/pages/beavercreek-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 11,
+      "canonicalPath": "/beavercreek-oh/",
+      "notes": [],
+      "words": 685
+    },
+    {
+      "path": "/blog/",
+      "file": "src/content/pages/blog/index.md",
+      "source": "wordpress",
+      "wordpressId": 12,
+      "canonicalPath": "/blog/",
+      "notes": [],
+      "words": 441
+    },
+    {
+      "path": "/blog/a.jared-l/",
+      "file": "src/content/pages/blog/a.jared-l/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/a.jared-l/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 192
+    },
+    {
+      "path": "/blog/a.roof-king-restoration/",
+      "file": "src/content/pages/blog/a.roof-king-restoration/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/a.roof-king-restoration/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 194
+    },
+    {
+      "path": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "file": "src/content/pages/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 130,
+      "canonicalPath": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 1181
+    },
+    {
+      "path": "/blog/c.decking/",
+      "file": "src/content/pages/blog/c.decking/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.decking/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 2
+    },
+    {
+      "path": "/blog/c.gaf-roof/",
+      "file": "src/content/pages/blog/c.gaf-roof/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.gaf-roof/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 166
+    },
+    {
+      "path": "/blog/c.gutter-replacement/",
+      "file": "src/content/pages/blog/c.gutter-replacement/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.gutter-replacement/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 76
+    },
+    {
+      "path": "/blog/c.gutter-types/",
+      "file": "src/content/pages/blog/c.gutter-types/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.gutter-types/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/blog/c.gutters/",
+      "file": "src/content/pages/blog/c.gutters/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.gutters/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 19
+    },
+    {
+      "path": "/blog/c.metal-roof/",
+      "file": "src/content/pages/blog/c.metal-roof/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.metal-roof/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 166
+    },
+    {
+      "path": "/blog/c.roof-replacement/",
+      "file": "src/content/pages/blog/c.roof-replacement/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.roof-replacement/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 166
+    },
+    {
+      "path": "/blog/c.roofing-contractor-dublin-oh/",
+      "file": "src/content/pages/blog/c.roofing-contractor-dublin-oh/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.roofing-contractor-dublin-oh/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 160
+    },
+    {
+      "path": "/blog/c.roofing-repair/",
+      "file": "src/content/pages/blog/c.roofing-repair/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.roofing-repair/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 158
+    },
+    {
+      "path": "/blog/c.roofing/",
+      "file": "src/content/pages/blog/c.roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.roofing/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 157
+    },
+    {
+      "path": "/blog/c.seamless-gutters/",
+      "file": "src/content/pages/blog/c.seamless-gutters/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.seamless-gutters/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/blog/c.siding-replacement/",
+      "file": "src/content/pages/blog/c.siding-replacement/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.siding-replacement/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 59
+    },
+    {
+      "path": "/blog/c.siding-types/",
+      "file": "src/content/pages/blog/c.siding-types/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.siding-types/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 11
+    },
+    {
+      "path": "/blog/c.siding/",
+      "file": "src/content/pages/blog/c.siding/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/c.siding/",
+      "notes": [
+        "Archive recreated from imported published posts. Author attribution/topic mapping requires editorial verification."
+      ],
+      "words": 10
+    },
+    {
+      "path": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+      "file": "src/content/pages/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/index.md",
+      "source": "live-browser-capture",
+      "wordpressId": null,
+      "canonicalPath": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+      "notes": [],
+      "words": 1737
+    },
+    {
+      "path": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "file": "src/content/pages/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 127,
+      "canonicalPath": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 650
+    },
+    {
+      "path": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "file": "src/content/pages/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 126,
+      "canonicalPath": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 579
+    },
+    {
+      "path": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-long-does-a-roof-last-in-dublin-oh/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 133,
+      "canonicalPath": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 860
+    },
+    {
+      "path": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 134,
+      "canonicalPath": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 1094
+    },
+    {
+      "path": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-much-does-roof-repair-cost-in-dublin-oh/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 132,
+      "canonicalPath": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 1440
+    },
+    {
+      "path": "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "file": "src/content/pages/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/index.md",
+      "source": "wordpress",
+      "wordpressId": 115,
+      "canonicalPath": "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "notes": [],
+      "words": 531
+    },
+    {
+      "path": "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/",
+      "file": "src/content/pages/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/index.md",
+      "source": "wordpress",
+      "wordpressId": 116,
+      "canonicalPath": "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/",
+      "notes": [],
+      "words": 562
+    },
+    {
+      "path": "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/",
+      "file": "src/content/pages/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/index.md",
+      "source": "wordpress",
+      "wordpressId": 117,
+      "canonicalPath": "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/",
+      "notes": [],
+      "words": 467
+    },
+    {
+      "path": "/blog/p.250321000/the-5-step-roofing-process/",
+      "file": "src/content/pages/blog/p.250321000/the-5-step-roofing-process/index.md",
+      "source": "wordpress",
+      "wordpressId": 118,
+      "canonicalPath": "/blog/p.250321000/the-5-step-roofing-process/",
+      "notes": [],
+      "words": 562
+    },
+    {
+      "path": "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "file": "src/content/pages/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 119,
+      "canonicalPath": "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "notes": [],
+      "words": 642
+    },
+    {
+      "path": "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "file": "src/content/pages/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 120,
+      "canonicalPath": "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "notes": [],
+      "words": 565
+    },
+    {
+      "path": "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/",
+      "file": "src/content/pages/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/index.md",
+      "source": "wordpress",
+      "wordpressId": 121,
+      "canonicalPath": "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/",
+      "notes": [],
+      "words": 569
+    },
+    {
+      "path": "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "file": "src/content/pages/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/index.md",
+      "source": "wordpress",
+      "wordpressId": 122,
+      "canonicalPath": "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "notes": [],
+      "words": 745
+    },
+    {
+      "path": "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "file": "src/content/pages/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/index.md",
+      "source": "wordpress",
+      "wordpressId": 123,
+      "canonicalPath": "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "notes": [],
+      "words": 633
+    },
+    {
+      "path": "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "file": "src/content/pages/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/index.md",
+      "source": "wordpress",
+      "wordpressId": 124,
+      "canonicalPath": "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "notes": [],
+      "words": 601
+    },
+    {
+      "path": "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "file": "src/content/pages/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/index.md",
+      "source": "wordpress",
+      "wordpressId": 125,
+      "canonicalPath": "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "notes": [],
+      "words": 540
+    },
+    {
+      "path": "/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "file": "src/content/pages/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/index.md",
+      "source": "wordpress",
+      "wordpressId": 126,
+      "canonicalPath": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "notes": [],
+      "words": 579
+    },
+    {
+      "path": "/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "file": "src/content/pages/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/index.md",
+      "source": "wordpress",
+      "wordpressId": 127,
+      "canonicalPath": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "notes": [],
+      "words": 650
+    },
+    {
+      "path": "/blog/p.251124000/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "file": "src/content/pages/blog/p.251124000/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/index.md",
+      "source": "wordpress",
+      "wordpressId": 128,
+      "canonicalPath": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "notes": [],
+      "words": 613
+    },
+    {
+      "path": "/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "file": "src/content/pages/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 129,
+      "canonicalPath": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "notes": [],
+      "words": 630
+    },
+    {
+      "path": "/blog/p.260622000/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "file": "src/content/pages/blog/p.260622000/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/index.md",
+      "source": "wordpress",
+      "wordpressId": 130,
+      "canonicalPath": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "notes": [],
+      "words": 1181
+    },
+    {
+      "path": "/blog/p.260624000/signs-you-need-roof-repair-in-dublin-oh/",
+      "file": "src/content/pages/blog/p.260624000/signs-you-need-roof-repair-in-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 131,
+      "canonicalPath": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "notes": [],
+      "words": 1603
+    },
+    {
+      "path": "/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 132,
+      "canonicalPath": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "notes": [],
+      "words": 1440
+    },
+    {
+      "path": "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/",
+      "file": "src/content/pages/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 133,
+      "canonicalPath": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "notes": [],
+      "words": 860
+    },
+    {
+      "path": "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 134,
+      "canonicalPath": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "notes": [],
+      "words": 1094
+    },
+    {
+      "path": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "file": "src/content/pages/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 129,
+      "canonicalPath": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 630
+    },
+    {
+      "path": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "file": "src/content/pages/blog/signs-you-need-roof-repair-in-dublin-oh/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 131,
+      "canonicalPath": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 1603
+    },
+    {
+      "path": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "file": "src/content/pages/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 128,
+      "canonicalPath": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "notes": [
+        "Both historical and current article paths retained."
+      ],
+      "words": 613
+    },
+    {
+      "path": "/careers/",
+      "file": "src/content/pages/careers/index.md",
+      "source": "wordpress",
+      "wordpressId": 13,
+      "canonicalPath": "/careers/",
+      "notes": [],
+      "words": 447
+    },
+    {
+      "path": "/centerville-oh/",
+      "file": "src/content/pages/centerville-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 14,
+      "canonicalPath": "/centerville-oh/",
+      "notes": [],
+      "words": 804
+    },
+    {
+      "path": "/cincinnati-oh/",
+      "file": "src/content/pages/cincinnati-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 15,
+      "canonicalPath": "/cincinnati-oh/",
+      "notes": [],
+      "words": 814
+    },
+    {
+      "path": "/cincinnati-oh/roofing/",
+      "file": "src/content/pages/cincinnati-oh/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 63,
+      "canonicalPath": "/cincinnati-oh/roofing/",
+      "notes": [],
+      "words": 901
+    },
+    {
+      "path": "/cincinnati-oh/storm-damage/",
+      "file": "src/content/pages/cincinnati-oh/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 64,
+      "canonicalPath": "/cincinnati-oh/storm-damage/",
+      "notes": [],
+      "words": 962
+    },
+    {
+      "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "file": "src/content/pages/cincinnati-oh/the-cost-of-siding-replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 65,
+      "canonicalPath": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "notes": [],
+      "words": 898
+    },
+    {
+      "path": "/cleveland-oh/",
+      "file": "src/content/pages/cleveland-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 16,
+      "canonicalPath": "/cleveland-oh/",
+      "notes": [],
+      "words": 820
+    },
+    {
+      "path": "/cleveland-oh/roofing/",
+      "file": "src/content/pages/cleveland-oh/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 66,
+      "canonicalPath": "/cleveland-oh/roofing/",
+      "notes": [],
+      "words": 895
+    },
+    {
+      "path": "/cleveland-oh/roofing/cost-of-replacement/",
+      "file": "src/content/pages/cleveland-oh/roofing/cost-of-replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 92,
+      "canonicalPath": "/cleveland-oh/roofing/cost-of-replacement/",
+      "notes": [],
+      "words": 845
+    },
+    {
+      "path": "/cleveland-oh/storm-damage/",
+      "file": "src/content/pages/cleveland-oh/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 67,
+      "canonicalPath": "/cleveland-oh/storm-damage/",
+      "notes": [],
+      "words": 883
+    },
+    {
+      "path": "/columbus-oh/",
+      "file": "src/content/pages/columbus-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 17,
+      "canonicalPath": "/columbus-oh/",
+      "notes": [],
+      "words": 794
+    },
+    {
+      "path": "/columbus-oh/roofing/",
+      "file": "src/content/pages/columbus-oh/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 68,
+      "canonicalPath": "/columbus-oh/roofing/",
+      "notes": [],
+      "words": 852
+    },
+    {
+      "path": "/columbus-oh/storm-damage/",
+      "file": "src/content/pages/columbus-oh/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 69,
+      "canonicalPath": "/columbus-oh/storm-damage/",
+      "notes": [],
+      "words": 873
+    },
+    {
+      "path": "/columbus-ppc-company/",
+      "file": "src/content/pages/columbus-ppc-company/index.md",
+      "source": "wordpress",
+      "wordpressId": 18,
+      "canonicalPath": "/columbus-ppc-company/",
+      "notes": [],
+      "words": 740
+    },
+    {
+      "path": "/commercial-roofing/",
+      "file": "src/content/pages/commercial-roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 19,
+      "canonicalPath": "/commercial-roofing/",
+      "notes": [],
+      "words": 844
+    },
+    {
+      "path": "/commercial-roofing/gutters/",
+      "file": "src/content/pages/commercial-roofing/gutters/index.md",
+      "source": "wordpress",
+      "wordpressId": 70,
+      "canonicalPath": "/commercial-roofing/gutters/",
+      "notes": [],
+      "words": 871
+    },
+    {
+      "path": "/commercial-roofing/repair/",
+      "file": "src/content/pages/commercial-roofing/repair/index.md",
+      "source": "wordpress",
+      "wordpressId": 71,
+      "canonicalPath": "/commercial-roofing/repair/",
+      "notes": [],
+      "words": 859
+    },
+    {
+      "path": "/commercial-roofing/replacement/",
+      "file": "src/content/pages/commercial-roofing/replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 72,
+      "canonicalPath": "/commercial-roofing/replacement/",
+      "notes": [],
+      "words": 835
+    },
+    {
+      "path": "/commercial-roofing/roof-types/",
+      "file": "src/content/pages/commercial-roofing/roof-types/index.md",
+      "source": "wordpress",
+      "wordpressId": 73,
+      "canonicalPath": "/commercial-roofing/roof-types/",
+      "notes": [],
+      "words": 830
+    },
+    {
+      "path": "/commercial-siding/",
+      "file": "src/content/pages/commercial-siding/index.md",
+      "source": "wordpress",
+      "wordpressId": 20,
+      "canonicalPath": "/commercial-siding/",
+      "notes": [],
+      "words": 888
+    },
+    {
+      "path": "/contact-us/",
+      "file": "src/content/pages/contact-us/index.md",
+      "source": "wordpress",
+      "wordpressId": 21,
+      "canonicalPath": "/contact-us/",
+      "notes": [],
+      "words": 317
+    },
+    {
+      "path": "/contact/",
+      "file": "src/content/pages/contact/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 21,
+      "canonicalPath": "/contact-us/",
+      "notes": [
+        "Alternate path retained as a 200 response; canonical points to the preferred content URL."
+      ],
+      "words": 317
+    },
+    {
+      "path": "/cost-of-a-new-roof/",
+      "file": "src/content/pages/cost-of-a-new-roof/index.md",
+      "source": "wordpress",
+      "wordpressId": 22,
+      "canonicalPath": "/cost-of-a-new-roof/",
+      "notes": [],
+      "words": 955
+    },
+    {
+      "path": "/customer-service/",
+      "file": "src/content/pages/customer-service/index.md",
+      "source": "wordpress",
+      "wordpressId": 23,
+      "canonicalPath": "/customer-service/",
+      "notes": [],
+      "words": 384
+    },
+    {
+      "path": "/dayton-oh/",
+      "file": "src/content/pages/dayton-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 24,
+      "canonicalPath": "/dayton-oh/",
+      "notes": [],
+      "words": 811
+    },
+    {
+      "path": "/dayton-oh/roofing/",
+      "file": "src/content/pages/dayton-oh/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 74,
+      "canonicalPath": "/dayton-oh/roofing/",
+      "notes": [],
+      "words": 867
+    },
+    {
+      "path": "/dayton-oh/storm-damage/",
+      "file": "src/content/pages/dayton-oh/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 75,
+      "canonicalPath": "/dayton-oh/storm-damage/",
+      "notes": [],
+      "words": 938
+    },
+    {
+      "path": "/dayton-oh/the-cost-of-new-gutters/",
+      "file": "src/content/pages/dayton-oh/the-cost-of-new-gutters/index.md",
+      "source": "wordpress",
+      "wordpressId": 76,
+      "canonicalPath": "/dayton-oh/the-cost-of-new-gutters/",
+      "notes": [],
+      "words": 962
+    },
+    {
+      "path": "/dayton-roofers/",
+      "file": "src/content/pages/dayton-roofers/index.md",
+      "source": "wordpress",
+      "wordpressId": 25,
+      "canonicalPath": "/dayton-roofers/",
+      "notes": [],
+      "words": 830
+    },
+    {
+      "path": "/deck-visualizer/",
+      "file": "src/content/pages/deck-visualizer/index.md",
+      "source": "wordpress",
+      "wordpressId": 26,
+      "canonicalPath": "/deck-visualizer/",
+      "notes": [],
+      "words": 2
+    },
+    {
+      "path": "/decks/",
+      "file": "src/content/pages/decks/index.md",
+      "source": "wordpress",
+      "wordpressId": 27,
+      "canonicalPath": "/decks/",
+      "notes": [],
+      "words": 881
+    },
+    {
+      "path": "/decks/accessories/",
+      "file": "src/content/pages/decks/accessories/index.md",
+      "source": "wordpress",
+      "wordpressId": 1397,
+      "canonicalPath": "/decks/accessories/",
+      "notes": [],
+      "words": 584
+    },
+    {
+      "path": "/decks/installations/",
+      "file": "src/content/pages/decks/installations/index.md",
+      "source": "wordpress",
+      "wordpressId": 1394,
+      "canonicalPath": "/decks/installations/",
+      "notes": [],
+      "words": 603
+    },
+    {
+      "path": "/decks/refinishing/",
+      "file": "src/content/pages/decks/refinishing/index.md",
+      "source": "wordpress",
+      "wordpressId": 1396,
+      "canonicalPath": "/decks/refinishing/",
+      "notes": [],
+      "words": 586
+    },
+    {
+      "path": "/decks/repairs/",
+      "file": "src/content/pages/decks/repairs/index.md",
+      "source": "wordpress",
+      "wordpressId": 1395,
+      "canonicalPath": "/decks/repairs/",
+      "notes": [],
+      "words": 583
+    },
+    {
+      "path": "/decks/replacements/",
+      "file": "src/content/pages/decks/replacements/index.md",
+      "source": "wordpress",
+      "wordpressId": 1393,
+      "canonicalPath": "/decks/replacements/",
+      "notes": [],
+      "words": 604
+    },
+    {
+      "path": "/delaware-oh/",
+      "file": "src/content/pages/delaware-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 28,
+      "canonicalPath": "/delaware-oh/",
+      "notes": [],
+      "words": 836
+    },
+    {
+      "path": "/delaware-oh/roofing/",
+      "file": "src/content/pages/delaware-oh/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 77,
+      "canonicalPath": "/delaware-oh/roofing/",
+      "notes": [],
+      "words": 900
+    },
+    {
+      "path": "/delaware-oh/storm-damage/",
+      "file": "src/content/pages/delaware-oh/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 78,
+      "canonicalPath": "/delaware-oh/storm-damage/",
+      "notes": [],
+      "words": 900
+    },
+    {
+      "path": "/dublin-oh/",
+      "file": "src/content/pages/dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 29,
+      "canonicalPath": "/dublin-oh/",
+      "notes": [],
+      "words": 768
+    },
+    {
+      "path": "/emergency-roof-repair-dublin-oh/",
+      "file": "src/content/pages/emergency-roof-repair-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 30,
+      "canonicalPath": "/emergency-roof-repair-dublin-oh/",
+      "notes": [],
+      "words": 1494
+    },
+    {
+      "path": "/events/",
+      "file": "src/content/pages/events/index.md",
+      "source": "live-browser-capture",
+      "wordpressId": null,
+      "canonicalPath": "/events/",
+      "notes": [],
+      "words": 34
+    },
+    {
+      "path": "/exterior-painting/",
+      "file": "src/content/pages/exterior-painting/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/exterior-painting/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 273
+    },
+    {
+      "path": "/faq/",
+      "file": "src/content/pages/faq/index.md",
+      "source": "wordpress",
+      "wordpressId": 31,
+      "canonicalPath": "/faq/",
+      "notes": [],
+      "words": 1771
+    },
+    {
+      "path": "/financing/",
+      "file": "src/content/pages/financing/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/financing/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 400
+    },
+    {
+      "path": "/free-inspection/",
+      "file": "src/content/pages/free-inspection/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/free-inspection/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 258
+    },
+    {
+      "path": "/gaf-roofing-dublin-oh/",
+      "file": "src/content/pages/gaf-roofing-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 32,
+      "canonicalPath": "/gaf-roofing-dublin-oh/",
+      "notes": [],
+      "words": 2268
+    },
+    {
+      "path": "/gahanna-oh/",
+      "file": "src/content/pages/gahanna-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/gahanna-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 305
+    },
+    {
+      "path": "/gallery/",
+      "file": "src/content/pages/gallery/index.md",
+      "source": "wordpress",
+      "wordpressId": 33,
+      "canonicalPath": "/gallery/",
+      "notes": [],
+      "words": 350
+    },
+    {
+      "path": "/grove-city-oh/",
+      "file": "src/content/pages/grove-city-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/grove-city-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 312
+    },
+    {
+      "path": "/gutter-installation-dublin-oh/",
+      "file": "src/content/pages/gutter-installation-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 34,
+      "canonicalPath": "/gutter-installation-dublin-oh/",
+      "notes": [],
+      "words": 2034
+    },
+    {
+      "path": "/gutters/",
+      "file": "src/content/pages/gutters/index.md",
+      "source": "wordpress",
+      "wordpressId": 35,
+      "canonicalPath": "/gutters/",
+      "notes": [],
+      "words": 818
+    },
+    {
+      "path": "/gutters/guards/",
+      "file": "src/content/pages/gutters/guards/index.md",
+      "source": "wordpress",
+      "wordpressId": 79,
+      "canonicalPath": "/gutters/guards/",
+      "notes": [],
+      "words": 845
+    },
+    {
+      "path": "/gutters/seamless/",
+      "file": "src/content/pages/gutters/seamless/index.md",
+      "source": "wordpress",
+      "wordpressId": 80,
+      "canonicalPath": "/gutters/seamless/",
+      "notes": [],
+      "words": 867
+    },
+    {
+      "path": "/hail-damage-roof-repair-dublin-oh/",
+      "file": "src/content/pages/hail-damage-roof-repair-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 36,
+      "canonicalPath": "/hail-damage-roof-repair-dublin-oh/",
+      "notes": [],
+      "words": 1796
+    },
+    {
+      "path": "/hamilton-oh/",
+      "file": "src/content/pages/hamilton-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 37,
+      "canonicalPath": "/hamilton-oh/",
+      "notes": [],
+      "words": 795
+    },
+    {
+      "path": "/hilliard-oh/",
+      "file": "src/content/pages/hilliard-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/hilliard-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 319
+    },
+    {
+      "path": "/ice-dam-removal/",
+      "file": "src/content/pages/ice-dam-removal/index.md",
+      "source": "wordpress",
+      "wordpressId": 38,
+      "canonicalPath": "/ice-dam-removal/",
+      "notes": [],
+      "words": 884
+    },
+    {
+      "path": "/lancaster-oh/",
+      "file": "src/content/pages/lancaster-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 39,
+      "canonicalPath": "/lancaster-oh/",
+      "notes": [],
+      "words": 691
+    },
+    {
+      "path": "/lewis-center-oh/",
+      "file": "src/content/pages/lewis-center-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/lewis-center-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 310
+    },
+    {
+      "path": "/metal-roofing-dublin-oh/",
+      "file": "src/content/pages/metal-roofing-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 40,
+      "canonicalPath": "/metal-roofing-dublin-oh/",
+      "notes": [],
+      "words": 2238
+    },
+    {
+      "path": "/middletown-oh/",
+      "file": "src/content/pages/middletown-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 41,
+      "canonicalPath": "/middletown-oh/",
+      "notes": [],
+      "words": 685
+    },
+    {
+      "path": "/newark-oh/",
+      "file": "src/content/pages/newark-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 42,
+      "canonicalPath": "/newark-oh/",
+      "notes": [],
+      "words": 821
+    },
+    {
+      "path": "/offers/",
+      "file": "src/content/pages/offers/index.md",
+      "source": "wordpress",
+      "wordpressId": 43,
+      "canonicalPath": "/offers/",
+      "notes": [],
+      "words": 583
+    },
+    {
+      "path": "/offers/3-year-financing/",
+      "file": "src/content/pages/offers/3-year-financing/index.md",
+      "source": "wordpress",
+      "wordpressId": 95,
+      "canonicalPath": "/offers/3-year-financing/",
+      "notes": [],
+      "words": 460
+    },
+    {
+      "path": "/offers/5-year-financing/",
+      "file": "src/content/pages/offers/5-year-financing/index.md",
+      "source": "wordpress",
+      "wordpressId": 96,
+      "canonicalPath": "/offers/5-year-financing/",
+      "notes": [],
+      "words": 485
+    },
+    {
+      "path": "/offers/5-year-workmanship-warranty/",
+      "file": "src/content/pages/offers/5-year-workmanship-warranty/index.md",
+      "source": "wordpress",
+      "wordpressId": 97,
+      "canonicalPath": "/offers/5-year-workmanship-warranty/",
+      "notes": [],
+      "words": 437
+    },
+    {
+      "path": "/offers/christmas-lights-install/",
+      "file": "src/content/pages/offers/christmas-lights-install/index.md",
+      "source": "wordpress",
+      "wordpressId": 98,
+      "canonicalPath": "/offers/christmas-lights-install/",
+      "notes": [],
+      "words": 273
+    },
+    {
+      "path": "/offers/flexible-financing/",
+      "file": "src/content/pages/offers/flexible-financing/index.md",
+      "source": "wordpress",
+      "wordpressId": 99,
+      "canonicalPath": "/offers/flexible-financing/",
+      "notes": [],
+      "words": 550
+    },
+    {
+      "path": "/offers/gaf-golden-pledge/",
+      "file": "src/content/pages/offers/gaf-golden-pledge/index.md",
+      "source": "wordpress",
+      "wordpressId": 100,
+      "canonicalPath": "/offers/gaf-golden-pledge/",
+      "notes": [],
+      "words": 436
+    },
+    {
+      "path": "/offers/gaf-silver-pledge/",
+      "file": "src/content/pages/offers/gaf-silver-pledge/index.md",
+      "source": "wordpress",
+      "wordpressId": 101,
+      "canonicalPath": "/offers/gaf-silver-pledge/",
+      "notes": [],
+      "words": 457
+    },
+    {
+      "path": "/offers/gaf-system-plus/",
+      "file": "src/content/pages/offers/gaf-system-plus/index.md",
+      "source": "wordpress",
+      "wordpressId": 102,
+      "canonicalPath": "/offers/gaf-system-plus/",
+      "notes": [],
+      "words": 435
+    },
+    {
+      "path": "/offers/medallion-bank-financing/",
+      "file": "src/content/pages/offers/medallion-bank-financing/index.md",
+      "source": "wordpress",
+      "wordpressId": 103,
+      "canonicalPath": "/offers/medallion-bank-financing/",
+      "notes": [],
+      "words": 456
+    },
+    {
+      "path": "/offers/payments/",
+      "file": "src/content/pages/offers/payments/index.md",
+      "source": "wordpress",
+      "wordpressId": 104,
+      "canonicalPath": "/offers/payments/",
+      "notes": [],
+      "words": 550
+    },
+    {
+      "path": "/our-careers/",
+      "file": "src/content/pages/our-careers/index.md",
+      "source": "wordpress",
+      "wordpressId": 44,
+      "canonicalPath": "/our-careers/",
+      "notes": [],
+      "words": 348
+    },
+    {
+      "path": "/our-team/",
+      "file": "src/content/pages/our-team/index.md",
+      "source": "wordpress",
+      "wordpressId": 45,
+      "canonicalPath": "/our-team/",
+      "notes": [],
+      "words": 370
+    },
+    {
+      "path": "/past-projects/",
+      "file": "src/content/pages/past-projects/index.md",
+      "source": "wordpress",
+      "wordpressId": 46,
+      "canonicalPath": "/past-projects/",
+      "notes": [],
+      "words": 376
+    },
+    {
+      "path": "/past-projects/project/1706300/",
+      "file": "src/content/pages/past-projects/project/1706300/index.md",
+      "source": "wordpress",
+      "wordpressId": 135,
+      "canonicalPath": "/past-projects/project/1706300/",
+      "notes": [],
+      "words": 967
+    },
+    {
+      "path": "/past-projects/project/1706301/",
+      "file": "src/content/pages/past-projects/project/1706301/index.md",
+      "source": "wordpress",
+      "wordpressId": 136,
+      "canonicalPath": "/past-projects/project/1706301/",
+      "notes": [],
+      "words": 927
+    },
+    {
+      "path": "/past-projects/project/1706302/",
+      "file": "src/content/pages/past-projects/project/1706302/index.md",
+      "source": "wordpress",
+      "wordpressId": 137,
+      "canonicalPath": "/past-projects/project/1706302/",
+      "notes": [],
+      "words": 970
+    },
+    {
+      "path": "/past-projects/project/1706303/",
+      "file": "src/content/pages/past-projects/project/1706303/index.md",
+      "source": "wordpress",
+      "wordpressId": 138,
+      "canonicalPath": "/past-projects/project/1706303/",
+      "notes": [],
+      "words": 955
+    },
+    {
+      "path": "/past-projects/project/1706304/",
+      "file": "src/content/pages/past-projects/project/1706304/index.md",
+      "source": "wordpress",
+      "wordpressId": 139,
+      "canonicalPath": "/past-projects/project/1706304/",
+      "notes": [],
+      "words": 966
+    },
+    {
+      "path": "/past-projects/project/1706305/",
+      "file": "src/content/pages/past-projects/project/1706305/index.md",
+      "source": "wordpress",
+      "wordpressId": 140,
+      "canonicalPath": "/past-projects/project/1706305/",
+      "notes": [],
+      "words": 965
+    },
+    {
+      "path": "/past-projects/project/1706306/",
+      "file": "src/content/pages/past-projects/project/1706306/index.md",
+      "source": "wordpress",
+      "wordpressId": 141,
+      "canonicalPath": "/past-projects/project/1706306/",
+      "notes": [],
+      "words": 960
+    },
+    {
+      "path": "/past-projects/project/1706307/",
+      "file": "src/content/pages/past-projects/project/1706307/index.md",
+      "source": "wordpress",
+      "wordpressId": 142,
+      "canonicalPath": "/past-projects/project/1706307/",
+      "notes": [],
+      "words": 964
+    },
+    {
+      "path": "/past-projects/project/1706308/",
+      "file": "src/content/pages/past-projects/project/1706308/index.md",
+      "source": "wordpress",
+      "wordpressId": 143,
+      "canonicalPath": "/past-projects/project/1706308/",
+      "notes": [],
+      "words": 967
+    },
+    {
+      "path": "/past-projects/project/1706309/",
+      "file": "src/content/pages/past-projects/project/1706309/index.md",
+      "source": "wordpress",
+      "wordpressId": 144,
+      "canonicalPath": "/past-projects/project/1706309/",
+      "notes": [],
+      "words": 969
+    },
+    {
+      "path": "/past-projects/project/1978031/",
+      "file": "src/content/pages/past-projects/project/1978031/index.md",
+      "source": "wordpress",
+      "wordpressId": 145,
+      "canonicalPath": "/past-projects/project/1978031/",
+      "notes": [],
+      "words": 1152
+    },
+    {
+      "path": "/past-projects/project/1978032/",
+      "file": "src/content/pages/past-projects/project/1978032/index.md",
+      "source": "wordpress",
+      "wordpressId": 146,
+      "canonicalPath": "/past-projects/project/1978032/",
+      "notes": [],
+      "words": 1091
+    },
+    {
+      "path": "/past-projects/project/1978033/",
+      "file": "src/content/pages/past-projects/project/1978033/index.md",
+      "source": "wordpress",
+      "wordpressId": 147,
+      "canonicalPath": "/past-projects/project/1978033/",
+      "notes": [],
+      "words": 1162
+    },
+    {
+      "path": "/past-projects/project/1978034/",
+      "file": "src/content/pages/past-projects/project/1978034/index.md",
+      "source": "wordpress",
+      "wordpressId": 148,
+      "canonicalPath": "/past-projects/project/1978034/",
+      "notes": [],
+      "words": 1137
+    },
+    {
+      "path": "/past-projects/project/1980612/",
+      "file": "src/content/pages/past-projects/project/1980612/index.md",
+      "source": "wordpress",
+      "wordpressId": 149,
+      "canonicalPath": "/past-projects/project/1980612/",
+      "notes": [],
+      "words": 1141
+    },
+    {
+      "path": "/powell-oh/",
+      "file": "src/content/pages/powell-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/powell-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 333
+    },
+    {
+      "path": "/privacy-policy-2/",
+      "file": "src/content/pages/privacy-policy-2/index.md",
+      "source": "wordpress",
+      "wordpressId": 47,
+      "canonicalPath": "/privacy-policy/",
+      "notes": [],
+      "words": 1464
+    },
+    {
+      "path": "/privacy-policy/",
+      "file": "src/content/pages/privacy-policy/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 47,
+      "canonicalPath": "/privacy-policy/",
+      "notes": [
+        "Alternate path retained as a 200 response; canonical points to the preferred content URL."
+      ],
+      "words": 1464
+    },
+    {
+      "path": "/privacy/",
+      "file": "src/content/pages/privacy/index.md",
+      "source": "wordpress-alternate-route",
+      "wordpressId": 47,
+      "canonicalPath": "/privacy-policy/",
+      "notes": [
+        "Alternate path retained as a 200 response; canonical points to the preferred content URL."
+      ],
+      "words": 1464
+    },
+    {
+      "path": "/reviews/",
+      "file": "src/content/pages/reviews/index.md",
+      "source": "wordpress",
+      "wordpressId": 48,
+      "canonicalPath": "/reviews/",
+      "notes": [],
+      "words": 1100
+    },
+    {
+      "path": "/reviews/00601dee-df98-42ab-b364-4725af97794b/",
+      "file": "src/content/pages/reviews/00601dee-df98-42ab-b364-4725af97794b/index.md",
+      "source": "wordpress",
+      "wordpressId": 105,
+      "canonicalPath": "/reviews/00601dee-df98-42ab-b364-4725af97794b/",
+      "notes": [],
+      "words": 284
+    },
+    {
+      "path": "/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/",
+      "file": "src/content/pages/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/index.md",
+      "source": "wordpress",
+      "wordpressId": 106,
+      "canonicalPath": "/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/",
+      "notes": [],
+      "words": 443
+    },
+    {
+      "path": "/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/",
+      "file": "src/content/pages/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/index.md",
+      "source": "wordpress",
+      "wordpressId": 107,
+      "canonicalPath": "/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/",
+      "notes": [],
+      "words": 244
+    },
+    {
+      "path": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/",
+      "file": "src/content/pages/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/index.md",
+      "source": "wordpress",
+      "wordpressId": 108,
+      "canonicalPath": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/",
+      "notes": [],
+      "words": 306
+    },
+    {
+      "path": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/",
+      "file": "src/content/pages/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/index.md",
+      "source": "wordpress",
+      "wordpressId": 109,
+      "canonicalPath": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/",
+      "notes": [],
+      "words": 238
+    },
+    {
+      "path": "/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/",
+      "file": "src/content/pages/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/index.md",
+      "source": "wordpress",
+      "wordpressId": 110,
+      "canonicalPath": "/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/",
+      "notes": [],
+      "words": 274
+    },
+    {
+      "path": "/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/",
+      "file": "src/content/pages/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/index.md",
+      "source": "wordpress",
+      "wordpressId": 111,
+      "canonicalPath": "/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/",
+      "notes": [],
+      "words": 252
+    },
+    {
+      "path": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/",
+      "file": "src/content/pages/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/index.md",
+      "source": "wordpress",
+      "wordpressId": 112,
+      "canonicalPath": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/",
+      "notes": [],
+      "words": 257
+    },
+    {
+      "path": "/reviews/de023ff3-3871-4861-8121-0023190aec17/",
+      "file": "src/content/pages/reviews/de023ff3-3871-4861-8121-0023190aec17/index.md",
+      "source": "wordpress",
+      "wordpressId": 113,
+      "canonicalPath": "/reviews/de023ff3-3871-4861-8121-0023190aec17/",
+      "notes": [],
+      "words": 386
+    },
+    {
+      "path": "/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/",
+      "file": "src/content/pages/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/index.md",
+      "source": "wordpress",
+      "wordpressId": 114,
+      "canonicalPath": "/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/",
+      "notes": [],
+      "words": 284
+    },
+    {
+      "path": "/roof-calculator/",
+      "file": "src/content/pages/roof-calculator/index.md",
+      "source": "wordpress",
+      "wordpressId": 49,
+      "canonicalPath": "/roof-calculator/",
+      "notes": [],
+      "words": 217
+    },
+    {
+      "path": "/roof-repair-dublin-oh/",
+      "file": "src/content/pages/roof-repair-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 50,
+      "canonicalPath": "/roof-repair-dublin-oh/",
+      "notes": [],
+      "words": 2390
+    },
+    {
+      "path": "/roof-replacement-dublin-oh/",
+      "file": "src/content/pages/roof-replacement-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 51,
+      "canonicalPath": "/roof-replacement-dublin-oh/",
+      "notes": [],
+      "words": 2427
+    },
+    {
+      "path": "/roofing-calculator/",
+      "file": "src/content/pages/roofing-calculator/index.md",
+      "source": "wordpress",
+      "wordpressId": 52,
+      "canonicalPath": "/roofing-calculator/",
+      "notes": [],
+      "words": 567
+    },
+    {
+      "path": "/roofing-contractor-dublin-oh/",
+      "file": "src/content/pages/roofing-contractor-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 53,
+      "canonicalPath": "/roofing-contractor-dublin-oh/",
+      "notes": [],
+      "words": 2050
+    },
+    {
+      "path": "/roofing/",
+      "file": "src/content/pages/roofing/index.md",
+      "source": "wordpress",
+      "wordpressId": 54,
+      "canonicalPath": "/roofing/",
+      "notes": [],
+      "words": 897
+    },
+    {
+      "path": "/roofing/gaf/",
+      "file": "src/content/pages/roofing/gaf/index.md",
+      "source": "wordpress",
+      "wordpressId": 81,
+      "canonicalPath": "/roofing/gaf/",
+      "notes": [],
+      "words": 836
+    },
+    {
+      "path": "/roofing/gaf/master-elite/",
+      "file": "src/content/pages/roofing/gaf/master-elite/index.md",
+      "source": "wordpress",
+      "wordpressId": 93,
+      "canonicalPath": "/roofing/gaf/master-elite/",
+      "notes": [],
+      "words": 1204
+    },
+    {
+      "path": "/roofing/gaf/types/",
+      "file": "src/content/pages/roofing/gaf/types/index.md",
+      "source": "wordpress",
+      "wordpressId": 94,
+      "canonicalPath": "/roofing/gaf/types/",
+      "notes": [],
+      "words": 719
+    },
+    {
+      "path": "/roofing/metal/",
+      "file": "src/content/pages/roofing/metal/index.md",
+      "source": "wordpress",
+      "wordpressId": 82,
+      "canonicalPath": "/roofing/metal/",
+      "notes": [],
+      "words": 844
+    },
+    {
+      "path": "/roofing/repair/",
+      "file": "src/content/pages/roofing/repair/index.md",
+      "source": "wordpress",
+      "wordpressId": 83,
+      "canonicalPath": "/roofing/repair/",
+      "notes": [],
+      "words": 883
+    },
+    {
+      "path": "/roofing/replacement/",
+      "file": "src/content/pages/roofing/replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 84,
+      "canonicalPath": "/roofing/replacement/",
+      "notes": [],
+      "words": 1387
+    },
+    {
+      "path": "/roofing/types/",
+      "file": "src/content/pages/roofing/types/index.md",
+      "source": "wordpress",
+      "wordpressId": 85,
+      "canonicalPath": "/roofing/types/",
+      "notes": [],
+      "words": 855
+    },
+    {
+      "path": "/service-areas/",
+      "file": "src/content/pages/service-areas/index.md",
+      "source": "wordpress",
+      "wordpressId": 55,
+      "canonicalPath": "/service-areas/",
+      "notes": [],
+      "words": 542
+    },
+    {
+      "path": "/siding/",
+      "file": "src/content/pages/siding/index.md",
+      "source": "wordpress",
+      "wordpressId": 56,
+      "canonicalPath": "/siding/",
+      "notes": [],
+      "words": 806
+    },
+    {
+      "path": "/siding/replacement/",
+      "file": "src/content/pages/siding/replacement/index.md",
+      "source": "wordpress",
+      "wordpressId": 86,
+      "canonicalPath": "/siding/replacement/",
+      "notes": [],
+      "words": 873
+    },
+    {
+      "path": "/siding/types/",
+      "file": "src/content/pages/siding/types/index.md",
+      "source": "wordpress",
+      "wordpressId": 87,
+      "canonicalPath": "/siding/types/",
+      "notes": [],
+      "words": 873
+    },
+    {
+      "path": "/site-map/",
+      "file": "src/content/pages/site-map/index.md",
+      "source": "wordpress",
+      "wordpressId": 57,
+      "canonicalPath": "/site-map/",
+      "notes": [],
+      "words": 356
+    },
+    {
+      "path": "/storm-damage-roof-repair-dublin-oh/",
+      "file": "src/content/pages/storm-damage-roof-repair-dublin-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 58,
+      "canonicalPath": "/storm-damage-roof-repair-dublin-oh/",
+      "notes": [],
+      "words": 1018
+    },
+    {
+      "path": "/storm-damage/",
+      "file": "src/content/pages/storm-damage/index.md",
+      "source": "wordpress",
+      "wordpressId": 59,
+      "canonicalPath": "/storm-damage/",
+      "notes": [],
+      "words": 879
+    },
+    {
+      "path": "/storm-damage/commercial/",
+      "file": "src/content/pages/storm-damage/commercial/index.md",
+      "source": "wordpress",
+      "wordpressId": 88,
+      "canonicalPath": "/storm-damage/commercial/",
+      "notes": [],
+      "words": 898
+    },
+    {
+      "path": "/storm-damage/hail/",
+      "file": "src/content/pages/storm-damage/hail/index.md",
+      "source": "wordpress",
+      "wordpressId": 89,
+      "canonicalPath": "/storm-damage/hail/",
+      "notes": [],
+      "words": 852
+    },
+    {
+      "path": "/storm-damage/insurance-claims/",
+      "file": "src/content/pages/storm-damage/insurance-claims/index.md",
+      "source": "wordpress",
+      "wordpressId": 90,
+      "canonicalPath": "/storm-damage/insurance-claims/",
+      "notes": [],
+      "words": 863
+    },
+    {
+      "path": "/storm-damage/wind/",
+      "file": "src/content/pages/storm-damage/wind/index.md",
+      "source": "wordpress",
+      "wordpressId": 91,
+      "canonicalPath": "/storm-damage/wind/",
+      "notes": [],
+      "words": 865
+    },
+    {
+      "path": "/storm-report/",
+      "file": "src/content/pages/storm-report/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/storm-report/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 610
+    },
+    {
+      "path": "/terms/",
+      "file": "src/content/pages/terms/index.md",
+      "source": "wordpress",
+      "wordpressId": 60,
+      "canonicalPath": "/terms/",
+      "notes": [],
+      "words": 884
+    },
+    {
+      "path": "/upper-arlington-oh/",
+      "file": "src/content/pages/upper-arlington-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/upper-arlington-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 324
+    },
+    {
+      "path": "/warranty/",
+      "file": "src/content/pages/warranty/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/warranty/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 405
+    },
+    {
+      "path": "/westerville-oh/",
+      "file": "src/content/pages/westerville-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/westerville-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 327
+    },
+    {
+      "path": "/windows/",
+      "file": "src/content/pages/windows/index.md",
+      "source": "wordpress",
+      "wordpressId": 61,
+      "canonicalPath": "/windows/",
+      "notes": [],
+      "words": 788
+    },
+    {
+      "path": "/worthington-oh/",
+      "file": "src/content/pages/worthington-oh/index.md",
+      "source": "published-static-build",
+      "wordpressId": null,
+      "canonicalPath": "/worthington-oh/",
+      "notes": [
+        "Imported published HTML, not the original source repository. Verify claims and rebuild components."
+      ],
+      "words": 303
+    },
+    {
+      "path": "/zanesville-oh/",
+      "file": "src/content/pages/zanesville-oh/index.md",
+      "source": "wordpress",
+      "wordpressId": 62,
+      "canonicalPath": "/zanesville-oh/",
+      "notes": [],
+      "words": 800
+    },
+    {
+      "path": "/category/roofing/",
+      "file": "src/content/pages/category/roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 157
+    },
+    {
+      "path": "/category/roof-replacement/",
+      "file": "src/content/pages/category/roof-replacement/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roof-replacement/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 59
+    },
+    {
+      "path": "/category/storm-damage/",
+      "file": "src/content/pages/category/storm-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/storm-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 69
+    },
+    {
+      "path": "/category/seasonal/",
+      "file": "src/content/pages/category/seasonal/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/seasonal/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 55
+    },
+    {
+      "path": "/category/roof-repair/",
+      "file": "src/content/pages/category/roof-repair/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/roof-repair/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/category/gutters/",
+      "file": "src/content/pages/category/gutters/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/gutters/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 19
+    },
+    {
+      "path": "/category/siding/",
+      "file": "src/content/pages/category/siding/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/siding/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 10
+    },
+    {
+      "path": "/category/gaf-roofing/",
+      "file": "src/content/pages/category/gaf-roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/gaf-roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/category/ice-dam-removal/",
+      "file": "src/content/pages/category/ice-dam-removal/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/category/ice-dam-removal/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 15
+    },
+    {
+      "path": "/tag/columbus-oh/",
+      "file": "src/content/pages/tag/columbus-oh/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/columbus-oh/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 75
+    },
+    {
+      "path": "/tag/dublin-oh/",
+      "file": "src/content/pages/tag/dublin-oh/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/dublin-oh/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 48
+    },
+    {
+      "path": "/tag/roof-inspection/",
+      "file": "src/content/pages/tag/roof-inspection/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/roof-inspection/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/tag/hiring-tips/",
+      "file": "src/content/pages/tag/hiring-tips/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/hiring-tips/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/tag/winter-roofing/",
+      "file": "src/content/pages/tag/winter-roofing/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/winter-roofing/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/tag/gaf-shingles/",
+      "file": "src/content/pages/tag/gaf-shingles/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/gaf-shingles/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/tag/wind-damage/",
+      "file": "src/content/pages/tag/wind-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/wind-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/tag/cost-guides/",
+      "file": "src/content/pages/tag/cost-guides/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/cost-guides/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/tag/hail-damage/",
+      "file": "src/content/pages/tag/hail-damage/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/hail-damage/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 17
+    },
+    {
+      "path": "/tag/christmas-lights/",
+      "file": "src/content/pages/tag/christmas-lights/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/christmas-lights/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 11
+    },
+    {
+      "path": "/blog/page/2/",
+      "file": "src/content/pages/blog/page/2/index.md",
+      "source": "reconstructed-wordpress-archive",
+      "wordpressId": null,
+      "canonicalPath": "/blog/page/2/",
+      "notes": [
+        "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
+      ],
+      "words": 90
+    }
+  ]
+}

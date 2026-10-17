@@ -1,0 +1,8 @@
+---
+import manifest from '../../migration/route-manifest.json';
+import RouteReview from '../components/RouteReview.svelte';
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+<SiteLayout title="Content migration review" description="Review preserved routes and their content sources." canonicalPath="/">
+  <RouteReview client:load routes={manifest.routes} />
+</SiteLayout>

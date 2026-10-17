@@ -1,0 +1,15 @@
+/* Compatibility fixes only. Rebuild the homepage and roofing page components first. */
+:root { --rk-logo-crown: url('/media/wordpress/3af1e7693f5a-crown.svg'); }
+[data-reveal], .rk-reveal { opacity: 1 !important; transform: none !important; visibility: visible !important; }
+.rk-migration-title { max-width: 1180px; margin: 2rem auto; padding: 0 1.25rem; font-size: clamp(1.8rem, 4vw, 3.2rem); }
+.rk-migration-archive { max-width: 1000px; margin: 2.5rem auto; padding: 0 1.25rem; }
+.rk-migration-archive h1 { font-size: clamp(1.8rem, 4vw, 3rem); }
+.rk-migration-archive h2 { margin-top: 2rem; }
+.rk-migration-archive li { margin: .6rem 0; }
+.rk-migration-contact { max-width: 800px; margin: 2rem auto; padding: 1.5rem; }
+.rk-site-header { position: relative; }
+.rk-review-dashboard { max-width: 1180px; margin: 2rem auto; padding: 1.5rem; }
+.rk-review-dashboard input { width: 100%; padding: .8rem; margin-bottom: 1rem; font: inherit; }
+.rk-review-dashboard table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+.rk-review-dashboard td, .rk-review-dashboard th { padding: .7rem; border-bottom: 1px solid #d8ded5; text-align: left; overflow-wrap: anywhere; }
+.rk-review-table { overflow-x: auto; }

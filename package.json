@@ -1,0 +1,29 @@
+{
+  "name": "roofing-king-co-astro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4321",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1 --port 4321",
+    "check": "astro check && node scripts/check-content.mjs",
+    "check:routes": "node scripts/check-built-routes.mjs",
+    "verify": "npm run check && npm run build && npm run check:routes",
+    "import:wordpress": "node scripts/import-wordpress.mjs"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "9.1.0",
+    "astro": "7.4.0",
+    "svelte": "5.57.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "cheerio": "^1.1.2",
+    "typescript": "^5.9.3",
+    "yaml": "^2.9.1"
+  }
+}
