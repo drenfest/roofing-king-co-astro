@@ -43,11 +43,13 @@
     enhanced = true;
     const outside = (event: PointerEvent) => { if (!header.contains(event.target as Node)) close(); };
     document.addEventListener('pointerdown', outside);
+    header.addEventListener('pointerenter', cancelClose);
+    header.addEventListener('pointerleave', leaveHeader);
     const mq = matchMedia('(min-width: 1061px)');
     desktop = mq.matches;
     const resize = () => { desktop = mq.matches; close(); };
     mq.addEventListener('change', resize);
-    return () => { cancelClose(); document.removeEventListener('pointerdown', outside); mq.removeEventListener('change', resize); };
+    return () => { cancelClose(); header.removeEventListener('pointerenter', cancelClose); header.removeEventListener('pointerleave', leaveHeader); document.removeEventListener('pointerdown', outside); mq.removeEventListener('change', resize); };
   });
 </script>
 
@@ -61,8 +63,7 @@
 {/snippet}
 
 <svelte:window onkeydown={escape} />
-<header role="banner" class:rk-native-enhanced={enhanced} class="rk-site-header rk-native-header" bind:this={header}
-  onpointerenter={cancelClose} onpointerleave={leaveHeader}
+<header class:rk-native-enhanced={enhanced} class="rk-site-header rk-native-header" bind:this={header}
   onfocusout={(event) => { if (event.relatedTarget && !header.contains(event.relatedTarget as Node)) close(); }}>
   <div class="rk-header-inner">
     <a class="rk-logo" href="/" aria-label={site.name}><img src="/media/wordpress/2b1fb60b5770-logo.png" alt={site.name} width="154" height="106" /></a>
