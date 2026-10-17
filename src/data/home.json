@@ -37,23 +37,16 @@
     "eyebrow": "Trusted brands",
     "title": "Premium exterior products from proven manufacturers",
     "description": "Roofing, siding, decking, and trim systems selected for durability, warranty strength, and curb appeal.",
-    "items": [
-      {
-        "src": "/media/wordpress/d93df4e15198-variform.png",
-        "alt": "Variform"
-      },
-      {
-        "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-        "alt": "LP SmartSide"
-      },
-      {
-        "src": "/media/wordpress/509654d4f5d1-trex.png",
-        "alt": "Trex"
-      },
-      {
-        "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-        "alt": "James Hardie"
-      }
+    "brandIds": [
+      "gaf",
+      "variform",
+      "ply-gem",
+      "lp-smartside",
+      "james-hardie",
+      "trex",
+      "alu-rex",
+      "t-rex",
+      "leaffilter"
     ]
   },
   "services": {

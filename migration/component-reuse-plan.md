@@ -16,7 +16,7 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 
 | Family | URLs | Canonical targets |
 | --- | ---: | ---: |
-| Product hubs, guides and records | 26 | 26 |
+| Product hubs, guides and records | 31 | 31 |
 | Homepage | 1 | 1 |
 | Services | 33 | 33 |
 | City landing pages | 24 | 24 |
@@ -39,12 +39,12 @@ Route counts below are URLs, including aliases; they are not estimates of editor
 | Component | Observed source URLs | Recommended URLs | Work needed |
 | --- | ---: | ---: | --- |
 | MediaContentRow / service topic with media | 0 | 1 | reuse — MediaContentRow.astro |
-| SiteChrome / document shell | 239 | 239 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
+| SiteChrome / document shell | 244 | 244 | adapt — DocumentLayout.astro, SiteHeader.svelte, SiteFooter.astro, QuoteExperience.svelte |
 | PageHero | 95 | 112 | reuse — PageHero.astro |
 | TrustStrip | 95 | 96 | reuse — TrustStrip.astro |
-| Breadcrumbs | 108 | 238 | reuse — Breadcrumbs.astro |
+| Breadcrumbs | 108 | 243 | reuse — Breadcrumbs.astro |
 | BrandStrip | 86 | 86 | reuse — BrandStrip.astro |
-| ContentSections / SplitSection | 85 | 165 | reuse — ContentSection.astro + RichContent.astro |
+| ContentSections / SplitSection | 85 | 170 | reuse — ContentSection.astro + RichContent.astro |
 | ServiceGrid / ServiceCard | 9 | 33 | reuse — ContentSection.astro services variant |
 | FeatureGrid / ProcessSteps | 15 | 15 | adapt — HomeWorkmanship.astro |
 | OfferGrid / OfferCard | 52 | 52 | adapt — HomeCardSection.astro |
@@ -88,7 +88,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 ## Page-by-page decisions
 
-### Product hubs, guides and records (26)
+### Product hubs, guides and records (31)
 
 #### /products/
 
@@ -284,6 +284,42 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 - Components: SiteChrome [observed], Breadcrumbs [observed], ContentSections [observed], PageHero [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], ProjectGallery [observed], CoverageSection [observed], Testimonials [observed], QuoteCTA [observed].
 - Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
 - Source evidence: 18 headings; 505 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/coverage-map, roofkingco/reviews.
+
+#### /products/gutters/
+
+**Gutter Products** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 4 headings; 89 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+- Review: Very little purpose-specific text remains after removing shared sections; this needs content, not just a template.
+
+#### /products/gutters/guards/
+
+**Gutter Guards and Support Systems** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 5 headings; 116 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/gutters/guards/alu-rex/
+
+**Alu-Rex Gutter Systems and T-Rex** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 163 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/gutters/guards/leaffilter/
+
+**LeafFilter Gutter Protection** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 6 headings; 143 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
+
+#### /products/siding/vinyl/ply-gem/
+
+**Ply Gem Vinyl Siding** · authored-product-pillar · Native product pillar
+- Components: SiteChrome [observed], Breadcrumbs [proposed], ContentSections [proposed].
+- Page-specific work: Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.
+- Source evidence: 5 headings; 123 approximate body words after shared-section removal; WordPress blocks: none / reconstructed or public output.
 
 ### Homepage (1)
 

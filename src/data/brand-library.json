@@ -1,0 +1,124 @@
+{
+  "variform": {
+    "name": "Variform",
+    "pageKey": "Variform",
+    "image": {
+      "src": "/media/wordpress/d93df4e15198-variform.png",
+      "alt": "Variform",
+      "width": 250,
+      "height": 86
+    },
+    "categories": [
+      "siding"
+    ]
+  },
+  "lp-smartside": {
+    "name": "LP SmartSide",
+    "pageKey": "LP SmartSide",
+    "image": {
+      "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+      "alt": "LP SmartSide",
+      "width": 250,
+      "height": 52
+    },
+    "categories": [
+      "siding"
+    ]
+  },
+  "trex": {
+    "name": "Trex",
+    "pageKey": "Trex",
+    "image": {
+      "src": "/media/wordpress/509654d4f5d1-trex.png",
+      "alt": "Trex",
+      "width": 250,
+      "height": 139
+    },
+    "categories": [
+      "decking"
+    ]
+  },
+  "james-hardie": {
+    "name": "James Hardie",
+    "pageKey": "James Hardie",
+    "image": {
+      "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+      "alt": "James Hardie",
+      "width": 250,
+      "height": 76
+    },
+    "categories": [
+      "siding"
+    ]
+  },
+  "gaf": {
+    "name": "GAF",
+    "pageKey": "GAF",
+    "image": {
+      "src": "/media/brands/gaf.webp",
+      "alt": "GAF",
+      "width": 240,
+      "height": 143
+    },
+    "categories": [
+      "roofing"
+    ],
+    "sourceImageUrl": "https://www.gaf.com/-/media/images/navigation/footer/gaf/logo-footer.svg?as=0&width=168&hash=A60FFDDB2734CDD2954ABDAB18AF18AB"
+  },
+  "alu-rex": {
+    "name": "Alu-Rex",
+    "pageKey": "Alu-Rex",
+    "image": {
+      "src": "/media/brands/alu-rex.webp",
+      "alt": "Alu-Rex",
+      "width": 360,
+      "height": 255
+    },
+    "categories": [
+      "gutters"
+    ],
+    "sourceImageUrl": "https://alu-rex.com/hubfs/logos_Alurex/Logo_Alurex-black-web.svg"
+  },
+  "t-rex": {
+    "name": "T-Rex by Alu-Rex",
+    "pageKey": "T-Rex by Alu-Rex",
+    "image": {
+      "src": "/media/brands/t-rex.webp",
+      "alt": "T-Rex by Alu-Rex",
+      "width": 360,
+      "height": 89
+    },
+    "categories": [
+      "gutters"
+    ],
+    "sourceImageUrl": "https://alu-rex.com/hubfs/logo_t-rex.png"
+  },
+  "leaffilter": {
+    "name": "LeafFilter",
+    "pageKey": "LeafFilter",
+    "image": {
+      "src": "/media/brands/leaffilter.webp",
+      "alt": "LeafFilter",
+      "width": 360,
+      "height": 121
+    },
+    "categories": [
+      "gutters"
+    ],
+    "sourceImageUrl": "https://www.leaffilter.com/app/themes/leaf/assets/images/icon/logo.svg"
+  },
+  "ply-gem": {
+    "name": "Ply Gem",
+    "pageKey": "Ply Gem",
+    "image": {
+      "src": "/media/brands/ply-gem.webp",
+      "alt": "Ply Gem",
+      "width": 360,
+      "height": 78
+    },
+    "categories": [
+      "siding"
+    ],
+    "sourceImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/08/plygem-logo.png"
+  }
+}

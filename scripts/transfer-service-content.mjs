@@ -6,6 +6,7 @@ const defaults=['/roofing/','/roofing/repair/','/roofing/replacement/','/roofing
 const paths=process.argv.length>2?process.argv.slice(2):defaults;
 const result=JSON.parse(await fs.readFile('src/data/service-pages.json','utf8'));
 for(const path of paths){if(!/^\/[a-z0-9/-]+\/$/.test(path))throw Error('Expected an explicit preserved permalink: '+path);}
+const brandLibrary=JSON.parse(await fs.readFile('src/data/brand-library.json','utf8'));
 const clean=s=>s.replace(/\s+/g,' ').trim();
 for(const permalink of paths){
  const file='src/content/pages'+permalink+'index.md';const source=await fs.readFile(file,'utf8');const meta=YAML.parse(source.split('---')[1]);const $=cheerio.load(source.split('---').slice(2).join('---'));
@@ -18,7 +19,7 @@ for(const permalink of paths){
  function heading(el){const root=el.find('.rk-home-section-header,.rk-brands-heading,.rk-coverage-map-copy,.rk-home-before-copy').first();return {eyebrow:text(root,'.rk-home-eyebrow'),title:text(root,'h2'),description:clean(root.find('> p:not(.rk-home-eyebrow)').text())};}
  const article=$('article.rk-page-content');
  article.children().each((i,e)=>{const el=$(e);if(el.is('.rk-home-hero,.rk-home-badges,.rk-breadcrumbs'))return;
-  if(el.is('.rk-block-trusted-brands'))sections.push({type:'brands',...heading(el),items:el.find('.rk-home-brand-list img').map((i,e)=>image($(e))).get()});
+  if(el.is('.rk-block-trusted-brands'))sections.push({type:'brands',...heading(el),brandIds:permalink.includes('/roofing/')?['gaf']:el.find('.rk-home-brand-list img').map((i,e)=>{const alt=$(e).attr('alt');const id=Object.entries(brandLibrary).find(([id,b])=>b.image.alt===alt)?.[0];if(!id)throw Error('Unmapped brand '+alt);return id;}).get()});
   else if(el.is('.rk-offers-block,.rk-reviews-block')){const kind=el.is('.rk-offers-block')?'offers':'reviews';sections.push({type:'cards',kind,...heading(el),items:el.find(kind==='offers'?'.rk-home-offer-card':'.rk-home-review-card').map((i,e)=>{const c=$(e);return {title:text(c,'h3'),description:text(c,'p'),...(c.find('a').length?{href:c.find('a').attr('href')}:{}),...(c.find('img').length?{image:image(c.find('img').first())}:{})};}).get()});}
   else if(el.is('.rk-project-gallery-block'))sections.push({type:'gallery',...heading(el),filters:el.find('[data-rk-gallery-filter]').map((i,e)=>({label:clean($(e).text()),value:$(e).attr('data-rk-gallery-filter')})).get(),items:el.find('.rk-project-gallery-item').map((i,e)=>({...image($(e).find('img').first()),tags:($(e).attr('data-rk-gallery-tags')||'').split(/[\s,]+/).filter(Boolean)})).get()});
   else if(el.is('.rk-before-after-block'))sections.push({type:'comparison',...heading(el),before:image(el.find('.rk-before-after-before')),after:{...image(el.find('.rk-before-after-after')),alt:'Roof after replacement'}});

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 239,
+  "count": 244,
   "routes": [
     {
       "path": "/",
@@ -2310,9 +2310,64 @@
       "canonicalPath": "/zanesville-oh/",
       "notes": [],
       "words": 800
+    },
+    {
+      "path": "/products/gutters/",
+      "file": "src/content/pages/products/gutters/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 96
+    },
+    {
+      "path": "/products/gutters/guards/",
+      "file": "src/content/pages/products/gutters/guards/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 126
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 175
+    },
+    {
+      "path": "/products/gutters/guards/leaffilter/",
+      "file": "src/content/pages/products/gutters/guards/leaffilter/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/leaffilter/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 155
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 134
     }
   ],
-  "updatedAt": "2026-10-17T20:39:31.151Z",
+  "updatedAt": "2026-10-17T20:51:48.159Z",
   "originalRouteCount": 215,
-  "authoredProductRouteCount": 24
+  "authoredProductRouteCount": 29
 }

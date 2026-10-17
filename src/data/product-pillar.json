@@ -41,6 +41,18 @@
           "src": "/media/wordpress/509654d4f5d1-trex.png",
           "alt": "Trex"
         }
+      },
+      {
+        "title": "Gutter Products",
+        "description": "Explore gutter protection and support systems.",
+        "href": "/products/gutters/",
+        "action": "Explore Gutter Products",
+        "image": {
+          "src": "/media/brands/alu-rex.webp",
+          "alt": "Alu-Rex",
+          "width": 360,
+          "height": 255
+        }
       }
     ],
     "secondaryTitle": "Product choices, service expertise and local guidance",
@@ -61,7 +73,23 @@
         "href": "/service-areas/",
         "label": "Find Your Service Area"
       }
-    ]
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Brands for your exterior.",
+      "description": "Explore materials, product details and installation considerations for your project.",
+      "brandIds": [
+        "gaf",
+        "variform",
+        "ply-gem",
+        "lp-smartside",
+        "james-hardie",
+        "trex",
+        "alu-rex",
+        "t-rex",
+        "leaffilter"
+      ]
+    }
   },
   "/products/roofing/": {
     "title": "Roofing Products and Materials",
@@ -120,6 +148,14 @@
     "reference": {
       "label": "GAF’s guide to choosing shingles",
       "href": "https://www.gaf.com/en-us/plan-design/design-your-roof/how-to-choose-roof-shingles"
+    },
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "gaf"
+      ]
     }
   },
   "/products/roofing/shingles/": {
@@ -168,7 +204,15 @@
         "title": "Conditions at your home",
         "copy": "Discuss wind and hail exposure, shade, roof design, ventilation and local requirements with the installation team."
       }
-    ]
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "gaf"
+      ]
+    }
   },
   "/products/siding/": {
     "title": "Siding Products",
@@ -219,6 +263,18 @@
           "src": "/media/wordpress/67a6570aea50-jameshardie.png",
           "alt": "James Hardie"
         }
+      },
+      {
+        "title": "Ply Gem",
+        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "href": "/products/siding/vinyl/ply-gem/",
+        "action": "Explore Ply Gem",
+        "image": {
+          "src": "/media/brands/ply-gem.webp",
+          "alt": "Ply Gem",
+          "width": 360,
+          "height": 78
+        }
       }
     ],
     "secondaryTitle": "Compare the material and the complete project",
@@ -237,7 +293,18 @@
         "href": "/siding/",
         "label": "Explore siding services"
       }
-    ]
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ]
+    }
   },
   "/products/decking/": {
     "title": "Decking Products",
@@ -286,7 +353,15 @@
         "href": "/decks/",
         "label": "Explore decking services"
       }
-    ]
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "trex"
+      ]
+    }
   },
   "/products/siding/vinyl/": {
     "title": "Vinyl Siding Products",
@@ -321,6 +396,18 @@
           "src": "/media/wordpress/d93df4e15198-variform.png",
           "alt": "Variform"
         }
+      },
+      {
+        "title": "Ply Gem",
+        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "href": "/products/siding/vinyl/ply-gem/",
+        "action": "Explore Ply Gem",
+        "image": {
+          "src": "/media/brands/ply-gem.webp",
+          "alt": "Ply Gem",
+          "width": 360,
+          "height": 78
+        }
       }
     ],
     "secondaryTitle": "Questions to resolve before choosing",
@@ -341,6 +428,15 @@
     "reference": {
       "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/",
       "label": "Manufacturer product information"
+    },
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "variform",
+        "ply-gem"
+      ]
     }
   },
   "/products/siding/vinyl/variform/": {
@@ -454,6 +550,14 @@
     "reference": {
       "href": "https://www.lpcorp.com/products/siding-trim",
       "label": "Manufacturer product information"
+    },
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "lp-smartside"
+      ]
     }
   },
   "/products/siding/engineered-wood/lp-smartside/": {
@@ -567,6 +671,14 @@
     "reference": {
       "href": "https://www.jameshardie.com/product-catalog/exterior-siding-products/hardie-plank-lap-siding/",
       "label": "Manufacturer product information"
+    },
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "james-hardie"
+      ]
     }
   },
   "/products/siding/fiber-cement/james-hardie/": {
@@ -680,6 +792,14 @@
     "reference": {
       "href": "https://www.trex.com/products/decking/",
       "label": "Manufacturer product information"
+    },
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Explore brands for these materials.",
+      "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
+      "brandIds": [
+        "trex"
+      ]
     }
   },
   "/products/decking/composite/trex/": {
@@ -738,6 +858,333 @@
     "reference": {
       "href": "https://www.trex.com/products/decking/",
       "label": "Trex manufacturer product information"
+    }
+  },
+  "/products/gutters/": {
+    "title": "Gutter Products",
+    "description": "Compare gutter protection with the condition, size and drainage capacity of your gutters. Guards and hangers serve different purposes; choose them alongsid",
+    "eyebrow": "Gutter product library",
+    "heading": "Gutter Products",
+    "copy": "Compare gutter protection with the condition, size and drainage capacity of your gutters. Guards and hangers serve different purposes; choose them alongside downspouts, roof drainage and installation details.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Gutter Products"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Gutter Guards and Support",
+        "description": "Explore Alu-Rex systems and LeafFilter gutter protection.",
+        "href": "/products/gutters/guards/",
+        "action": "Explore Gutter Protection",
+        "image": {
+          "src": "/media/brands/alu-rex.webp",
+          "alt": "Alu-Rex",
+          "width": 360,
+          "height": 255
+        }
+      }
+    ],
+    "secondaryTitle": "What to consider",
+    "secondary": [
+      {
+        "title": "Gutters and downspouts",
+        "copy": "Start by checking slope, joints, outlets and the route water takes away from the house. A guard does not correct an undersized or damaged drainage system."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/gutters/",
+        "label": "Explore gutter services"
+      }
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Brands for your exterior.",
+      "description": "Explore materials, product details and installation considerations for your project.",
+      "brandIds": [
+        "alu-rex",
+        "t-rex",
+        "leaffilter"
+      ]
+    }
+  },
+  "/products/gutters/guards/": {
+    "title": "Gutter Guards and Support Systems",
+    "description": "Explore gutter guards and support systems. Confirm compatibility with your gutter profile, the debris around your home and the maintenance instructions for",
+    "eyebrow": "Gutter product library",
+    "heading": "Gutter Guards and Support Systems",
+    "copy": "Explore gutter guards and support systems. Confirm compatibility with your gutter profile, the debris around your home and the maintenance instructions for the selected product.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Gutter Products",
+        "href": "/products/gutters/"
+      },
+      {
+        "label": "Gutter Guards and Support"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Alu-Rex",
+        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "href": "/products/gutters/guards/alu-rex/",
+        "action": "Explore Alu-Rex",
+        "image": {
+          "src": "/media/brands/alu-rex.webp",
+          "alt": "Alu-Rex",
+          "width": 360,
+          "height": 255
+        }
+      },
+      {
+        "title": "LeafFilter",
+        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "href": "/products/gutters/guards/leaffilter/",
+        "action": "Explore LeafFilter",
+        "image": {
+          "src": "/media/brands/leaffilter.webp",
+          "alt": "LeafFilter",
+          "width": 360,
+          "height": 121
+        }
+      }
+    ],
+    "secondaryTitle": "What to consider",
+    "secondary": [
+      {
+        "title": "Continuous support",
+        "copy": "T-Rex is an Alu-Rex continuous hanger system. It supports gutters along their length and also screens debris. It is a different product from Trex composite decking.",
+        "href": "/products/gutters/guards/alu-rex/",
+        "label": "Explore Alu-Rex and T-Rex"
+      },
+      {
+        "title": "Debris screening",
+        "copy": "Compare openings, installation details, cleaning instructions and the exact warranty. Review how water enters the system and how the product fits the existing roof edge."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/gutters/",
+        "label": "Explore gutter services"
+      }
+    ],
+    "brands": {
+      "eyebrow": "Explore the manufacturers",
+      "title": "Brands for your exterior.",
+      "description": "Explore materials, product details and installation considerations for your project.",
+      "brandIds": [
+        "alu-rex",
+        "t-rex",
+        "leaffilter"
+      ]
+    }
+  },
+  "/products/gutters/guards/alu-rex/": {
+    "title": "Alu-Rex Gutter Systems and T-Rex",
+    "description": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the e",
+    "eyebrow": "Explore the brand",
+    "heading": "Alu-Rex Gutter Systems and T-Rex",
+    "copy": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the exact system with your gutter profile and installation plans.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Gutter Products",
+        "href": "/products/gutters/"
+      },
+      {
+        "label": "Gutter Guards and Support",
+        "href": "/products/gutters/guards/"
+      },
+      {
+        "label": "Alu-Rex"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to consider",
+    "secondary": [
+      {
+        "title": "T-Rex continuous hanger",
+        "copy": "Conventional hangers support a gutter at spaced points. T-Rex uses continuous support along the gutter, with a perforated surface that allows water through while screening debris. Confirm the appropriate model and installation instructions for the gutter profile."
+      },
+      {
+        "title": "Choose the installation approach",
+        "copy": "Discuss whether the project includes new gutters or protection for existing gutters. Alu-Rex offers different systems for different installation needs; T-Rex is a product line within Alu-Rex."
+      },
+      {
+        "title": "Check documentation and maintenance",
+        "copy": "Review the exact model specification, fastening requirements, cleaning guidance and warranty. Manufacturer warranty conditions and installation requirements should be reviewed before work begins."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/gutters/",
+        "label": "Explore gutter services"
+      }
+    ],
+    "logo": {
+      "src": "/media/brands/alu-rex.webp",
+      "alt": "Alu-Rex",
+      "width": 360,
+      "height": 255
+    },
+    "reference": {
+      "label": "Alu-Rex manufacturer product information",
+      "href": "https://alu-rex.com/en/t-rex"
+    }
+  },
+  "/products/gutters/guards/leaffilter/": {
+    "title": "LeafFilter Gutter Protection",
+    "description": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and c",
+    "eyebrow": "Explore the brand",
+    "heading": "LeafFilter Gutter Protection",
+    "copy": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and compare installation, maintenance and warranty details.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Gutter Products",
+        "href": "/products/gutters/"
+      },
+      {
+        "label": "Gutter Guards and Support",
+        "href": "/products/gutters/guards/"
+      },
+      {
+        "label": "LeafFilter"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to consider",
+    "secondary": [
+      {
+        "title": "Assess the existing gutters",
+        "copy": "Check gutter condition, pitch, outlets and downspouts first. Ask how the installation addresses any repairs needed before protection is fitted."
+      },
+      {
+        "title": "Screening and upkeep",
+        "copy": "Review how the micromesh handles the debris around your home. Ask for current cleaning and inspection instructions rather than assuming a guard removes all maintenance."
+      },
+      {
+        "title": "Confirm product and warranty",
+        "copy": "Roof King’s existing site names LeafFilter. Confirm current product availability, who supplies and installs the system, and the exact warranty terms in the project proposal."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/gutters/",
+        "label": "Explore gutter services"
+      }
+    ],
+    "logo": {
+      "src": "/media/brands/leaffilter.webp",
+      "alt": "LeafFilter",
+      "width": 360,
+      "height": 121
+    },
+    "reference": {
+      "label": "LeafFilter manufacturer product information",
+      "href": "https://www.leaffilter.com/"
+    }
+  },
+  "/products/siding/vinyl/ply-gem/": {
+    "title": "Ply Gem Vinyl Siding",
+    "description": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact produ",
+    "eyebrow": "Explore the brand",
+    "heading": "Ply Gem Vinyl Siding",
+    "copy": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact product line and accessories proposed for your home.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding",
+        "href": "/products/siding/vinyl/"
+      },
+      {
+        "label": "Ply Gem"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Variform",
+        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "href": "/products/siding/vinyl/variform/",
+        "action": "Explore Variform",
+        "image": {
+          "src": "/media/wordpress/d93df4e15198-variform.png",
+          "alt": "Variform",
+          "width": 250,
+          "height": 86
+        }
+      }
+    ],
+    "secondaryTitle": "What to consider",
+    "secondary": [
+      {
+        "title": "Variform by Ply Gem",
+        "copy": "Variform is the Ply Gem siding brand already featured on Roof King’s site. Review its profile, color, trim and accessory options together.",
+        "href": "/products/siding/vinyl/variform/",
+        "label": "Explore Variform"
+      },
+      {
+        "title": "Identify the exact panel",
+        "copy": "Ask for the product-line specification, approved fastening details, wind-performance documentation and applicable warranty. A parent brand alone does not identify a panel’s performance."
+      },
+      {
+        "title": "Plan the work with Roof King",
+        "copy": "Discuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your project proposal.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "logo": {
+      "src": "/media/brands/ply-gem.webp",
+      "alt": "Ply Gem",
+      "width": 360,
+      "height": 78
+    },
+    "reference": {
+      "label": "Ply Gem manufacturer product information",
+      "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/"
     }
   }
 }

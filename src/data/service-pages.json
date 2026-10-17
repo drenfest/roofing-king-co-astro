@@ -156,26 +156,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -734,26 +719,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -1404,18 +1374,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted Materials For A Stronger Roof",
-        "description": "Roof King pairs certified installation with proven roofing systems, premium warranties, and materials selected for Ohio homes.",
-        "items": [
-          {
-            "src": "/media/wordpress/88f26d1d1f40-masterelite.png",
-            "alt": "GAF Master Elite"
-          },
-          {
-            "src": "/media/wordpress/8d8a479c04f7-gafpresident.png",
-            "alt": "GAF President's Club"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -1935,26 +1898,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -2367,26 +2315,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -2780,26 +2713,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -3257,26 +3175,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -4133,26 +4036,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {
@@ -4758,26 +4646,11 @@
       },
       {
         "type": "brands",
-        "eyebrow": "Certified products",
-        "title": "Trusted materials for a stronger exterior",
-        "description": "Roof King pairs expert installation with proven roofing, siding, decking, and gutter systems.",
-        "items": [
-          {
-            "src": "/media/wordpress/d93df4e15198-variform.png",
-            "alt": "Variform"
-          },
-          {
-            "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
-            "alt": "LP SmartSide"
-          },
-          {
-            "src": "/media/wordpress/509654d4f5d1-trex.png",
-            "alt": "Trex"
-          },
-          {
-            "src": "/media/wordpress/67a6570aea50-jameshardie.png",
-            "alt": "James Hardie"
-          }
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Compare GAF shingles, colors and manufacturer specifications before planning your roofing project.",
+        "brandIds": [
+          "gaf"
         ]
       },
       {

@@ -4,7 +4,7 @@ export type RichNode = { text: string; tag?: never; href?: never; children?: nev
   tag: 'p'|'div'|'span'|'article'|'h2'|'h3'|'h4'|'a'|'ul'|'ol'|'li'|'strong'|'b'|'em'|'i'|'br';
   text?: never; href?: string; role?:'eyebrow'; children: RichNode[];
 };
-export type BrandSection = HeadingData & { items: ImageData[] };
+export type BrandSection = HeadingData & { brandIds: string[] };
 export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null}[] };
 export type ContentSectionData = { type:'content'; variant:'services'|'features'|'prose'; body:RichNode[]; cards:{title:string;body:RichNode[];href?:string}[] };
 export type GallerySection = HeadingData & { type:'gallery'; filters:{label:string;value:string}[];items:(ImageData & {tags:string[]})[] };

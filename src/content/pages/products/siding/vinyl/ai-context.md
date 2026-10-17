@@ -8,6 +8,7 @@ Content at this preserved URL branch. index.md is an editable page; child direct
 
 ## Subdirectories
 
+- `ply-gem/` - read its ai-context.md.
 - `variform/` - read its ai-context.md.
 
 ## Change checks

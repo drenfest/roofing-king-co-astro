@@ -43,3 +43,7 @@ There are now nine native service records. Transfer authoring accepts explicit p
 ### Cleveland layout revision
 
 The sidebar ServiceGuide was rejected by the user and removed. Cleveland now has an introductory ContentSection followed by four independent MediaContentRow sections (repair, replacement, types/brands and contact). Each has an image, meaningful internal links and the original stable topic anchor; alternating layout stacks on mobile. Existing source wording/links remain, with an added paragraph explaining energy metrics and linking to product-specific specifications. Shared Ohio photos are not relabeled as Cleveland work.
+
+## Selectable brand strip — 2026-10-17
+
+BrandSection now uses `brandIds` in place of embedded logo items. The shared library includes all nine brand/product-line names found on the site, with authentic sized logos. Home and Products show the full mix; material groups select relevant names. Roofing currently names GAF in the inspected sources, including the live metal page. Ply Gem, Alu-Rex and LeafFilter have internal overviews, with T-Rex correctly linked to Alu-Rex. See brand-inventory.md for evidence. Logos preserve intrinsic proportions, and original certification marks remain in TrustStrip.

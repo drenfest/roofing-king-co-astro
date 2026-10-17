@@ -102,11 +102,25 @@ console.log('Three product hubs, eleven individual product records, logical brea
 
 const brandPages=JSON.parse(await fs.readFile('src/data/brand-pages.json','utf8'));
 const hubs=JSON.parse(await fs.readFile('src/data/product-pillar.json','utf8'));
-const cleveland=cheerio.load(await fs.readFile('dist/cleveland-oh/roofing/index.html','utf8'));
-for(const name of ['Variform','LP SmartSide','Trex','James Hardie']){
-  const path=brandPages[name];assert.ok(cleveland('.rk-home-brand-mark[href="'+path+'"]').length,'Logo must link internally: '+name);
+const homeBrands=cheerio.load(await fs.readFile('dist/index.html','utf8'));
+for(const name of ['Variform','LP SmartSide','Trex','James Hardie','Ply Gem','Alu-Rex','LeafFilter']){
+  const path=brandPages[name];assert.ok(homeBrands('.rk-home-brand-mark[href="'+path+'"]').length,'Logo must link internally: '+name);
   const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('h1').length,1);assert.equal(page('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
   assert.ok(page('.rk-native-breadcrumbs').text().includes(name));assert.ok(page('main').text().includes('manufacturer product information'));
 }
 for(const path of Object.keys(hubs)){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('[data-product-pillar=native]').length,1);}
-console.log('Four internal brand destinations, shared logo links and all material/category hubs passed.');
+console.log('Seven internal brand overviews, shared logo links and all material/category hubs passed.');
+
+const brandLibrary=JSON.parse(await fs.readFile('src/data/brand-library.json','utf8'));
+const services=JSON.parse(await fs.readFile('src/data/service-pages.json','utf8'));
+const home=JSON.parse(await fs.readFile('src/data/home.json','utf8'));
+assert.deepEqual(new Set(home.brands.brandIds),new Set(Object.keys(brandLibrary)),'Homepage must include every inventoried brand/product line.');
+for(const [id,brand]of Object.entries(brandLibrary)){
+  const meta=await sharp('dist'+brand.image.src).metadata();
+  assert.equal(meta.width,brand.image.width);assert.equal(meta.height,brand.image.height);
+  assert.equal(homeBrands('[data-brand-id="'+id+'"]').attr('href'),brandPages[brand.pageKey]);
+}
+const selections=[['/',home.brands],...Object.entries(services).flatMap(([path,page])=>page.sections.filter(s=>s.type==='brands').map(s=>[path,s])),...Object.entries(hubs).filter(([path,hub])=>hub.brands).map(([path,hub])=>[path,hub.brands])];
+for(const [path,section]of selections){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.deepEqual(page('.rk-block-trusted-brands [data-brand-id]').map((i,e)=>page(e).attr('data-brand-id')).get(),section.brandIds);for(const id of section.brandIds){assert.ok(brandLibrary[id]);assert.ok(page('[data-brand-id="'+id+'"] img[width][height]').length);}}
+assert.deepEqual(services['/cleveland-oh/roofing/'].sections.find(s=>s.type==='brands').brandIds,['gaf']);
+console.log('Per-page brand selections, homepage mix, roofing-only GAF and sized brand images passed.');

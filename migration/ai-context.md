@@ -4,6 +4,7 @@ product-information-architecture.md records the accepted product hierarchy, 215 
 
 ## Files
 
+- `brand-inventory.md`
 - `build-audit.json`
 - `component-build-progress.md`
 - `component-reuse-audit.html`

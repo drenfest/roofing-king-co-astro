@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T20:39:54.732Z",
+  "generatedAt": "2026-10-17T20:52:16.123Z",
   "scope": "All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.",
-  "totalRoutes": 239,
-  "canonicalTargets": 226,
+  "totalRoutes": 244,
+  "canonicalTargets": 231,
   "alternateRoutes": 13,
   "nonArticleBlogWrappers": 35,
   "families": [
@@ -10,8 +10,8 @@
       "id": "products",
       "name": "Product hubs, guides and records",
       "description": "Products → Roofing Products → Shingles → GAF → individual products; preserve existing canonical URLs.",
-      "count": 26,
-      "canonicalCount": 26
+      "count": 31,
+      "canonicalCount": 31
     },
     {
       "id": "homepage",
@@ -390,7 +390,12 @@
         "/westerville-oh/",
         "/windows/",
         "/worthington-oh/",
-        "/zanesville-oh/"
+        "/zanesville-oh/",
+        "/products/gutters/",
+        "/products/gutters/guards/",
+        "/products/gutters/guards/alu-rex/",
+        "/products/gutters/guards/leaffilter/",
+        "/products/siding/vinyl/ply-gem/"
       ],
       "recommendedRoutes": [
         "/",
@@ -631,9 +636,14 @@
         "/westerville-oh/",
         "/windows/",
         "/worthington-oh/",
-        "/zanesville-oh/"
+        "/zanesville-oh/",
+        "/products/gutters/",
+        "/products/gutters/guards/",
+        "/products/gutters/guards/alu-rex/",
+        "/products/gutters/guards/leaffilter/",
+        "/products/siding/vinyl/ply-gem/"
       ],
-      "observedCanonicalCount": 226
+      "observedCanonicalCount": 231
     },
     {
       "id": "PageHero",
@@ -1420,7 +1430,12 @@
         "/westerville-oh/",
         "/windows/",
         "/worthington-oh/",
-        "/zanesville-oh/"
+        "/zanesville-oh/",
+        "/products/gutters/",
+        "/products/gutters/guards/",
+        "/products/gutters/guards/alu-rex/",
+        "/products/gutters/guards/leaffilter/",
+        "/products/siding/vinyl/ply-gem/"
       ],
       "observedCanonicalCount": 104
     },
@@ -1431,7 +1446,7 @@
       "state": "reuse",
       "from": "BrandStrip.astro",
       "engine": "Astro",
-      "props": "heading, copy, brandSet, logo assets",
+      "props": "heading, copy, ordered brandIds resolved through brand-library.json and brand-pages.json",
       "reason": "Select relevant roofing/siding/deck manufacturers; do not repeat an unrelated brand set everywhere.",
       "observedRoutes": [
         "/",
@@ -1872,7 +1887,12 @@
         "/westerville-oh/",
         "/windows/",
         "/worthington-oh/",
-        "/zanesville-oh/"
+        "/zanesville-oh/",
+        "/products/gutters/",
+        "/products/gutters/guards/",
+        "/products/gutters/guards/alu-rex/",
+        "/products/gutters/guards/leaffilter/",
+        "/products/siding/vinyl/ply-gem/"
       ],
       "observedCanonicalCount": 82
     },
@@ -3609,7 +3629,12 @@
         "/products/siding/vinyl/",
         "/products/siding/vinyl/variform/",
         "/roofing/gaf/types/",
-        "/roofing/types/"
+        "/roofing/types/",
+        "/products/gutters/",
+        "/products/gutters/guards/",
+        "/products/gutters/guards/alu-rex/",
+        "/products/gutters/guards/leaffilter/",
+        "/products/siding/vinyl/ply-gem/"
       ]
     },
     {
@@ -33586,6 +33611,337 @@
       "note": "Use CityLandingPage with this city’s service links, distinct introduction, real coverage and verified local work. Shared layout must not become a city-name substitution page.",
       "bodyHash": "5ea5659406f9ce729ade9ba94f5220c80ce6f5d825892a130ffca2a1136edf67",
       "nativeStatus": "Imported / reconstructed page",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/gutters/",
+      "file": "src/content/pages/products/gutters/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 96,
+      "title": "Gutter Products",
+      "category": "Product category",
+      "family": "products",
+      "primaryWords": 89,
+      "primaryExcerpt": "Gutter ProductsCompare gutter protection with the condition, size and drainage capacity of your gutters. Guards and hangers serve different purposes; choose them alongside downspouts, roof drainage and installation details.What to considerGutters and downspoutsStart by checking slope, joints, outlets and the route water takes away from the house. A guard does not correct an undersized or damaged drainage system.Plan the work with Roof KingDiscuss the products suitable for your home, confirm availability and review the installation scope. Product and finish selection should be confirmed in your",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Gutter Products"
+        },
+        {
+          "level": 2,
+          "text": "What to consider"
+        },
+        {
+          "level": 3,
+          "text": "Gutters and downspouts"
+        },
+        {
+          "level": 3,
+          "text": "Plan the work with Roof King"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [
+        "Very little purpose-specific text remains after removing shared sections; this needs content, not just a template."
+      ],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "cd8d71a4d10097d94b252396cac888b89ccb8c7e02b5cadb40fc7d3a3aef46b7",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/gutters/guards/",
+      "file": "src/content/pages/products/gutters/guards/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 126,
+      "title": "Gutter Guards and Support Systems",
+      "category": "Product category",
+      "family": "products",
+      "primaryWords": 116,
+      "primaryExcerpt": "Gutter Guards and Support SystemsExplore gutter guards and support systems. Confirm compatibility with your gutter profile, the debris around your home and the maintenance instructions for the selected product.What to considerContinuous supportT-Rex is an Alu-Rex continuous hanger system. It supports gutters along their length and also screens debris. It is a different product from Trex composite decking.Explore Alu-Rex and T-RexDebris screeningCompare openings, installation details, cleaning instructions and the exact warranty. Review how water enters the system and how the product fits the e",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Gutter Guards and Support Systems"
+        },
+        {
+          "level": 2,
+          "text": "What to consider"
+        },
+        {
+          "level": 3,
+          "text": "Continuous support"
+        },
+        {
+          "level": 3,
+          "text": "Debris screening"
+        },
+        {
+          "level": 3,
+          "text": "Plan the work with Roof King"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "7681707356c2baf3af3203931dc85ffaf2aae24485d50386818d65a3fc9212d8",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 175,
+      "title": "Alu-Rex Gutter Systems and T-Rex",
+      "category": "Product brand",
+      "family": "products",
+      "primaryWords": 163,
+      "primaryExcerpt": "Alu-Rex Gutter Systems and T-RexAlu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the exact system with your gutter profile and installation plans.What to considerT-Rex continuous hangerConventional hangers support a gutter at spaced points. T-Rex uses continuous support along the gutter, with a perforated surface that allows water through while screening debris. Confirm the appropriate model and installation instructions for the gutter profile.Choose the installation approachDiscuss whether the",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Alu-Rex Gutter Systems and T-Rex"
+        },
+        {
+          "level": 2,
+          "text": "What to consider"
+        },
+        {
+          "level": 3,
+          "text": "T-Rex continuous hanger"
+        },
+        {
+          "level": 3,
+          "text": "Choose the installation approach"
+        },
+        {
+          "level": 3,
+          "text": "Check documentation and maintenance"
+        },
+        {
+          "level": 3,
+          "text": "Plan the work with Roof King"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "478dc504334a01e6abd6ecb6074cf381684f59e6cd304fe994aae86c8fbb9565",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/gutters/guards/leaffilter/",
+      "file": "src/content/pages/products/gutters/guards/leaffilter/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/leaffilter/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 155,
+      "title": "LeafFilter Gutter Protection",
+      "category": "Product brand",
+      "family": "products",
+      "primaryWords": 143,
+      "primaryExcerpt": "LeafFilter Gutter ProtectionLeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and compare installation, maintenance and warranty details.What to considerAssess the existing guttersCheck gutter condition, pitch, outlets and downspouts first. Ask how the installation addresses any repairs needed before protection is fitted.Screening and upkeepReview how the micromesh handles the debris around your home. Ask for current cleaning and inspection instructions rather than assuming a guard removes all m",
+      "headings": [
+        {
+          "level": 1,
+          "text": "LeafFilter Gutter Protection"
+        },
+        {
+          "level": 2,
+          "text": "What to consider"
+        },
+        {
+          "level": 3,
+          "text": "Assess the existing gutters"
+        },
+        {
+          "level": 3,
+          "text": "Screening and upkeep"
+        },
+        {
+          "level": 3,
+          "text": "Confirm product and warranty"
+        },
+        {
+          "level": 3,
+          "text": "Plan the work with Roof King"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "c38f52636316229ddf9b353cfd204370e4e273c6705020af44f69081110ae468",
+      "nativeStatus": "Native product pillar",
+      "role": "Supporting / purpose-specific",
+      "reviewStatus": "Source audited; visual approval pending"
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 134,
+      "title": "Ply Gem Vinyl Siding",
+      "category": "Product brand",
+      "family": "products",
+      "primaryWords": 123,
+      "primaryExcerpt": "Ply Gem Vinyl SidingRoof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact product line and accessories proposed for your home.What to considerVariform by Ply GemVariform is the Ply Gem siding brand already featured on Roof King’s site. Review its profile, color, trim and accessory options together.Explore VariformIdentify the exact panelAsk for the product-line specification, approved fastening details, wind-performance documentation and applicable warranty. A parent brand alone does not identify a ",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ply Gem Vinyl Siding"
+        },
+        {
+          "level": 2,
+          "text": "What to consider"
+        },
+        {
+          "level": 3,
+          "text": "Variform by Ply Gem"
+        },
+        {
+          "level": 3,
+          "text": "Identify the exact panel"
+        },
+        {
+          "level": 3,
+          "text": "Plan the work with Roof King"
+        }
+      ],
+      "blocks": [],
+      "observed": [
+        "SiteChrome"
+      ],
+      "components": [
+        {
+          "id": "SiteChrome",
+          "observed": true,
+          "action": "adapt"
+        },
+        {
+          "id": "Breadcrumbs",
+          "observed": false,
+          "action": "reuse"
+        },
+        {
+          "id": "ContentSections",
+          "observed": false,
+          "action": "reuse"
+        }
+      ],
+      "issues": [],
+      "note": "Reuse the shared shell, hero and content primitives. Give the page a purpose-specific body and avoid filling gaps with unrelated global proof sections.",
+      "bodyHash": "1d60cdec7e7e50659d0a0664703fc2568e64cfa63760e53bbde15c14e40cf0e8",
+      "nativeStatus": "Native product pillar",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
     }

@@ -3,8 +3,10 @@ import type { CollectionEntry } from 'astro:content';
 import ProductLayout from '../layouts/ProductLayout.astro';
 import catalog from '../data/product-catalog.json';
 import HomeImage from './HomeImage.astro';
+import BrandStrip from './BrandStrip.astro';
+import type { BrandSection } from '../data/section-types';
 import type { ProductPresentation } from '../data/product-types';
-interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
+interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];brands?:BrandSection;logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
 interface Props {page:CollectionEntry<'pages'>;data:Hub;}
 const {page,data}=Astro.props;
 const products:Record<string,ProductPresentation>=catalog;
@@ -13,4 +15,5 @@ const products:Record<string,ProductPresentation>=catalog;
   {data.logo && <div class="rk-section-inner rk-brand-page-logo"><HomeImage {...data.logo} sizes="240px"/></div>}
   {data.cards.length>0 && <section class="rk-section-inner rk-product-hub-cards" aria-label="Product categories">{data.cards.map(card=>{const product=card.product?products[card.product]:undefined;const color=product?.colors.find(c=>c.id===product.defaultColorId);return <a class:list={['rk-product-hub-card',{'rk-product-hub-brand-card':!!card.image}]} href={card.href}>{card.image?<HomeImage {...card.image} sizes="240px"/>:color&&<img src={color.image.src} srcset={color.image.srcset} sizes="(max-width:760px) 100vw, 40vw" width={color.image.width} height={color.image.height} alt={`${card.product} in ${color.name}`} loading="lazy"/>}<div><h2>{card.title}</h2><p>{card.description}</p><strong>{card.action} →</strong></div></a>;})}</section>}
   <section class="rk-section-inner rk-product-hub-guidance"><h2>{data.secondaryTitle}</h2><div>{data.secondary.map(item=><article><h3>{item.title}</h3><p>{item.copy}</p>{item.href&&<a href={item.href}>{item.label} →</a>}</article>)}</div>{data.reference&&<p><a href={data.reference.href} target="_blank" rel="noopener noreferrer">{data.reference.label} ↗</a></p>}</section>
+  {data.brands && <BrandStrip brands={data.brands}/>}
 </ProductLayout>
