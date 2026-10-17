@@ -274,8 +274,8 @@
   },
   "materials": {
     "eyebrow": "Roofing product choices",
-    "title": "Asphalt shingles and metal roofing for your home.",
-    "description": "Explore GAF shingle styles and colors, compare published product specifications, or learn about metal roofing installation. Our product library brings the choices together before you plan your new roof.",
+    "title": "Residential Roofing Product Options",
+    "description": "Find the right look for your home. Compare shingle styles and specifications, or explore metal roofing with our installation team.",
     "items": [
       {
         "title": "Asphalt shingles",
@@ -285,9 +285,9 @@
           "alt": "Red asphalt shingle roof on a blue-sided home"
         },
         "href": "/products/roofing/shingles/",
-        "label": "Compare shingle products",
+        "label": "Compare shingles",
         "relatedHref": "/roofing/gaf/types/",
-        "relatedLabel": "Explore GAF shingles"
+        "relatedLabel": "Shop GAF styles & colors"
       },
       {
         "title": "Metal roofing",
@@ -299,7 +299,7 @@
         "href": "/roofing/metal/",
         "label": "Explore metal roofing",
         "relatedHref": "/roofing/types/",
-        "relatedLabel": "Compare roofing materials"
+        "relatedLabel": "Compare roof materials"
       }
     ]
   },

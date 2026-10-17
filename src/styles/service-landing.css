@@ -190,3 +190,30 @@
 [data-landing-build="editorial"] .rk-landing-local{background:linear-gradient(110deg,#eeeae0,#f8f6ef);clip-path:polygon(0 0,100% var(--rk-page-slant),100% 100%,0 calc(100% - var(--rk-page-slant)));padding-block:calc(3.5rem + var(--rk-page-slant));}
 [data-landing-build="editorial"] .rk-landing-estimate{clip-path:polygon(0 var(--rk-page-slant),100% 0,100% 100%,0 100%);padding-top:calc(4rem + var(--rk-page-slant));}
 @media(max-width:760px){[data-landing-build="editorial"]{--rk-page-slant:1.5rem;}[data-landing-build="editorial"] .rk-project-showcase{background:linear-gradient(108deg,#fff 0 70%,#f4f0e5 70% 100%);}}
+
+/* A diagonal seam separates the two residential material choices. */
+.rk-roof-options-heading{text-align:center;max-width:820px;margin:0 auto 2.5rem;}
+.rk-roof-options-heading>p:last-child{max-width:65ch;margin:0 auto;color:#536457;}
+.rk-roof-options-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;}
+.rk-roof-option{display:flex;flex-direction:column;overflow:hidden;}
+.rk-roof-option-shingles{color:#fffaf0;background:linear-gradient(145deg,#214b38,#173b2b);clip-path:polygon(0 0,100% 0,calc(100% - 4rem) 100%,0 100%);}
+.rk-roof-option-metal{color:#193b2c;background:#e4ece7;clip-path:polygon(4rem 0,100% 0,100% 100%,0 100%);}
+.rk-roof-option-photo{display:block;overflow:hidden;}
+.rk-roof-option-photo img{display:block;width:100%;height:290px;object-fit:cover;transition:transform .25s ease;}
+.rk-roof-option-photo:hover img{transform:scale(1.025);}
+.rk-roof-option-copy{display:flex;flex:1;flex-direction:column;padding:2rem 2.5rem 2.5rem;}
+.rk-roof-option-shingles .rk-roof-option-copy{padding-right:4rem;}
+.rk-roof-option-metal .rk-roof-option-copy{padding-left:4rem;}
+.rk-service-landing .rk-roof-option-shingles h3{color:#fffaf0;}
+.rk-roof-option h3{margin:0 0 1rem;}
+.rk-roof-option p{margin:0 0 1.75rem;font-size:1rem;}
+.rk-roof-option-shingles p{color:#dce7dc;}
+.rk-roof-option-actions{display:grid;gap:.75rem;margin-top:auto;}
+.rk-roof-option-actions a{display:flex;align-items:center;justify-content:space-between;gap:.8rem;min-height:48px;padding:.85rem 1rem;font-size:.88rem;line-height:1.3;}
+.rk-roof-option-actions svg{width:19px;height:19px;flex:none;}
+.rk-roof-option-secondary{color:inherit;border:1px solid #587766;border-radius:var(--rk-radius-control);text-decoration:none;font-weight:650;}
+.rk-roof-option-shingles .rk-roof-option-secondary{border-color:#ffffff55;}
+.rk-roof-option-secondary:hover{background:#ffffff16;}
+.rk-roof-option-actions a:focus-visible,.rk-roof-option-photo:focus-visible{outline:3px solid #ff9e47;outline-offset:-4px;}
+@media(max-width:760px){.rk-roof-options-grid{grid-template-columns:1fr;gap:1.25rem;}.rk-roof-option-shingles,.rk-roof-option-metal{clip-path:polygon(0 1.25rem,100% 0,100% calc(100% - 1.25rem),0 100%);}.rk-roof-option-photo img{height:230px;}.rk-roof-option-shingles .rk-roof-option-copy,.rk-roof-option-metal .rk-roof-option-copy{padding:1.5rem 1.5rem 2.75rem;}.rk-roof-options-heading{margin-bottom:1.75rem;}}
+@media(prefers-reduced-motion:reduce){.rk-roof-option-photo img{transition:none;}}

@@ -1,0 +1,24 @@
+---
+import HomeImage from './HomeImage.astro';
+import ServiceIcon from './ServiceIcon.astro';
+interface Props {
+  section:{eyebrow:string;title:string;description:string;items:{title:string;description:string;image:{src:string;alt:string};href:string;label:string;relatedHref:string;relatedLabel:string}[]};
+}
+const {section}=Astro.props;
+---
+<section id="roofing-materials" class="rk-landing-section rk-roof-options" aria-labelledby="roofing-materials-title">
+  <div class="rk-section-inner">
+    <div class="rk-roof-options-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id="roofing-materials-title">{section.title}</h2><p>{section.description}</p></div>
+    <div class="rk-roof-options-grid">
+      {section.items.map((item,index)=><article class:list={['rk-roof-option',index%2?'rk-roof-option-metal':'rk-roof-option-shingles']}>
+        <a class="rk-roof-option-photo" href={item.href} aria-label={item.label}><HomeImage {...item.image} sizes="(max-width:760px) 100vw, 50vw"/></a>
+        <div class="rk-roof-option-copy"><h3>{item.title}</h3><p>{item.description}</p>
+          <div class="rk-roof-option-actions">
+            <a class="rk-button rk-button-primary" href={item.href}>{item.label}<ServiceIcon name="arrow"/></a>
+            <a class="rk-roof-option-secondary" href={item.relatedHref}>{item.relatedLabel}<ServiceIcon name="arrow"/></a>
+          </div>
+        </div>
+      </article>)}
+    </div>
+  </div>
+</section>
