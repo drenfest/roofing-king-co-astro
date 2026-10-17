@@ -14,7 +14,15 @@
       "benefit": "A properly placed adhesive starter course helps secure the first shingle course at wind-vulnerable roof edges.",
       "longevity": "Helps reduce edge lift and blow-off risk, protecting the rows of shingles above it.",
       "selection": "Follow Timberline HDZ and starter-strip instructions for fastening, joint offsets and edge details.",
-      "sourceUrl": "https://www.gaf.com/en-us/blog/residential-roofing/what-is-a-shingle-starter-strip-2add9d1b-c408-4e15-ab87-70bef7ded1cd"
+      "sourceUrl": "https://www.gaf.com/en-us/blog/residential-roofing/what-is-a-shingle-starter-strip-2add9d1b-c408-4e15-ab87-70bef7ded1cd",
+      "image": {
+        "src": "/media/accessories/starter-640.webp",
+        "srcset": "/media/accessories/starter-320.webp 320w, /media/accessories/starter-640.webp 480w",
+        "width": 480,
+        "height": 480,
+        "alt": "Pro‑Start® Starter Strip Shingles",
+        "sourceImageUrl": "https://product-assets.gaf.com/media/catalog/product/p/r/prostart-shingle_1000.jpg"
+      }
     },
     {
       "id": "underlayment",
@@ -24,7 +32,15 @@
       "benefit": "Breathable underlayment adds a secondary layer against wind-driven rain and helps reduce trapped moisture.",
       "longevity": "Helps protect the supporting roof deck from moisture damage so the shingles have a sound foundation.",
       "selection": "Water resistant, not waterproof; underlayment does not replace leak barriers or attic ventilation.",
-      "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/roof-deck-protection/deck-armor-premium-breathable-roof-deck-protection"
+      "sourceUrl": "https://www.gaf.com/en-us/roofing-materials/residential-roofing-materials/roof-deck-protection/deck-armor-premium-breathable-roof-deck-protection",
+      "image": {
+        "src": "/media/accessories/underlayment-640.webp",
+        "srcset": "/media/accessories/underlayment-320.webp 320w, /media/accessories/underlayment-640.webp 480w",
+        "width": 480,
+        "height": 480,
+        "alt": "Deck-Armor™ Premium Breathable Roof Deck Protection",
+        "sourceImageUrl": "https://product-assets.gaf.com/media/catalog/product/d/e/deckarmor-new-package_1000.jpg"
+      }
     },
     {
       "id": "leak-barrier",
@@ -34,7 +50,15 @@
       "benefit": "A self-adhering barrier helps resist water intrusion from wind-driven rain and ice-dam backup.",
       "longevity": "Helps protect the deck and interior when water backs up beneath the shingle surface.",
       "selection": "A leak barrier helps manage water intrusion; it does not stop ice dams from forming. Placement depends on roof details and local requirements.",
-      "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/shield-your-roof-from-ice-and-water-damage-with-leak-barriers-241e73a2-0a13-43bf-adab-426ca85827db"
+      "sourceUrl": "https://www.gaf.com/en-us/blog/your-home/shield-your-roof-from-ice-and-water-damage-with-leak-barriers-241e73a2-0a13-43bf-adab-426ca85827db",
+      "image": {
+        "src": "/media/accessories/leak-barrier-640.webp",
+        "srcset": "/media/accessories/leak-barrier-320.webp 320w, /media/accessories/leak-barrier-640.webp 480w",
+        "width": 480,
+        "height": 480,
+        "alt": "A roll of GAF Storm Guard Leak Barrier",
+        "sourceImageUrl": "https://product-assets.gaf.com/media/catalog/product/s/t/stormguard-masthead-1.png"
+      }
     },
     {
       "id": "ventilation",
@@ -44,7 +68,15 @@
       "benefit": "An exhaust vent works with intake vents to let attic air circulate and help manage heat and moisture.",
       "longevity": "Balanced airflow helps reduce conditions that can contribute to moisture damage and premature roof-system deterioration.",
       "selection": "For suitable vented attic designs. Ridge exhaust needs correctly sized, unobstructed intake; adding exhaust alone is not a complete ventilation plan.",
-      "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/installation-instructions-%26-guides/cobra-plastic-ridge-vents-installation-instructions-trilingual.pdf"
+      "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/installation-instructions-%26-guides/cobra-plastic-ridge-vents-installation-instructions-trilingual.pdf",
+      "image": {
+        "src": "/media/accessories/ventilation-640.webp",
+        "srcset": "/media/accessories/ventilation-320.webp 320w, /media/accessories/ventilation-640.webp 480w",
+        "width": 480,
+        "height": 480,
+        "alt": "Cobra® SnowCountry® Advanced Premium Exhaust Vent for Roof Ridge",
+        "sourceImageUrl": "https://product-assets.gaf.com/media/catalog/product/c/o/cobra_snow-country-advanced_1000x1000.jpg"
+      }
     },
     {
       "id": "ridge-cap",
@@ -54,7 +86,15 @@
       "benefit": "Purpose-made cap shingles cover the joints where roof planes meet, with a dimensional finish that complements the field shingles.",
       "longevity": "Helps defend exposed hips and ridges against leaks instead of leaving these joints as weak points.",
       "selection": "Confirm the cap profile, color, fastening and vent assembly for the selected roof. Field-shingle impact ratings do not automatically apply to ridge caps.",
-      "sourceUrl": "https://www.gaf.com/en-us/blog/residential-roofing/ridge-cap-shingles-what-to-know-about-gaf-timbertex-and-timbercrest-1a2b69fa-a9ae-47f4-9aa9-c1a64fcc9832"
+      "sourceUrl": "https://www.gaf.com/en-us/blog/residential-roofing/ridge-cap-shingles-what-to-know-about-gaf-timbertex-and-timbercrest-1a2b69fa-a9ae-47f4-9aa9-c1a64fcc9832",
+      "image": {
+        "src": "/media/accessories/ridge-cap-640.webp",
+        "srcset": "/media/accessories/ridge-cap-320.webp 320w, /media/accessories/ridge-cap-640.webp 480w",
+        "width": 480,
+        "height": 480,
+        "alt": "TimberTex® Premium Ridge Cap Shingles",
+        "sourceImageUrl": "https://product-assets.gaf.com/media/catalog/product/t/i/timbertex-weathered-wood-carouse.jpg"
+      }
     }
   ],
   "systemSource": "https://www.gaf.com/en-us/resources/warranties/gaf-roofing-system",

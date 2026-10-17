@@ -1,0 +1,29 @@
+---
+interface Props {id:string;name:string;caption:string;}
+const {id,name,caption}=Astro.props;
+const active='#e37318',muted='#bfc9be';
+const color=(part:string)=>part===id?active:muted;
+const labels:Record<string,string>={starter:'Seal the roof edges',underlayment:'A second layer below shingles','leak-barrier':'Protect the eaves from water backup',ventilation:'Intake + exhaust move attic air','ridge-cap':'Cover the joint at the peak'};
+---
+<figure class="rk-accessory-infographic">
+  <svg viewBox="0 0 480 230" role="img" aria-labelledby={`diagram-${id}`}>
+    <title id={`diagram-${id}`}>{name}: {labels[id]}</title>
+    <defs><marker id={`arrow-${id}`} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#247da0"/></marker></defs>
+    <rect width="480" height="230" rx="12" fill="#f2f5ee"/>
+    <path d="M100 156 240 59 380 156V204H100Z" fill="#fff" stroke="#c9d1c5" stroke-width="2"/>
+    <path d="M100 155 240 61 380 155" fill="none" stroke="#a2ad9e" stroke-width="14"/>
+    <path d="M84 146 240 43 396 146" fill="none" stroke={color('underlayment')} stroke-width="12"/>
+    <path d="M83 141 240 37 397 141" fill="none" stroke="#405c48" stroke-width="9"/>
+    <path d="m80 145 49-33m223 1 49 32" fill="none" stroke={color('leak-barrier')} stroke-width="10"/>
+    <path d="m77 138 26-18m274 0 26 18" fill="none" stroke={color('starter')} stroke-width="8"/>
+    <path d="m213 51 27-18 27 18" fill="none" stroke={color('ridge-cap')} stroke-width="12" stroke-linejoin="round"/>
+    <path d="M224 62h32" stroke={color('ventilation')} stroke-width="8"/>
+    {id==='ventilation' && <g fill="none" stroke="#247da0" stroke-width="3" marker-end={`url(#arrow-${id})`}><path d="M73 182h48q38 0 74-60"/><path d="M407 182h-48q-38 0-74-60"/><path d="M233 92V12"/><path d="M248 92V12"/></g>}
+    {id==='starter' && <path d="m79 132-24-31H24" stroke={active} stroke-width="2" fill="none"/>}
+    {id==='underlayment' && <path d="m161 97-13-60H24" stroke={active} stroke-width="2" fill="none"/>}
+    {id==='leak-barrier' && <path d="m362 131 38-44h56" stroke={active} stroke-width="2" fill="none"/>}
+    {id==='ridge-cap' && <path d="m267 46 61-24h125" stroke={active} stroke-width="2" fill="none"/>}
+    <text x="240" y="220" text-anchor="middle" fill="#53624f" font-size="12">Concept diagram · layers exaggerated · not an installation detail</text>
+  </svg>
+  <figcaption><strong>{labels[id]}.</strong> {caption}</figcaption>
+</figure>

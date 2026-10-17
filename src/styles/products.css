@@ -142,3 +142,11 @@
 .rk-product-tab-panel .rk-product-companions { padding:0;border:0;background:transparent; }
 .rk-product-tab-panel .rk-product-companions > .rk-section-inner { width:100%;max-width:none;padding:0;margin:0; }
 @media(max-width:700px){.rk-product-card-detail{display:grid;grid-template-columns:1fr;grid-template-rows:auto;grid-template-areas:'heading' 'copy' 'photo' 'caption' 'swatches' 'source';}.rk-product-card-detail .rk-product-photo{width:100%;}.rk-product-tab-nav{gap:.25rem;}.rk-product-tab-nav a{padding:.8rem;font-size:.82rem;flex:1;text-align:center;}.rk-product-tab-panel.rk-product-details dl > div{grid-template-columns:1fr;gap:.3rem;}}
+
+.rk-accessory-photo { margin:-1.5rem -1.5rem 1.5rem;background:#fff;border-bottom:1px solid #e0e6d9;padding:1rem; }
+.rk-accessory-photo img { display:block;width:100%;height:210px;object-fit:contain; }
+.rk-accessory-photo figcaption { font-size:.7rem;color:#66715e;text-align:center;margin-top:.5rem; }
+.rk-accessory-infographic { margin:1rem 0 1.5rem; }
+.rk-accessory-infographic svg { display:block;width:100%;height:auto; }
+.rk-accessory-infographic figcaption { font-size:.85rem;line-height:1.65;padding:.85rem;background:#edf3e9;border-left:3px solid #e37318; }
+.rk-accessory-infographic strong { display:block;color:#264831; }

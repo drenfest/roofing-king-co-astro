@@ -76,6 +76,10 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(detail('[data-component=ProductCompanions]').length,record.id==='timberline-hdz'?1:0,'Pairings require an explicit reviewed mapping.');
   if(record.id==='timberline-hdz'){
     assert.equal(detail('[data-companion]').length,5);
+    assert.equal(detail('.rk-accessory-photo img[width][height][alt]').length,5);
+    assert.equal(detail('.rk-accessory-infographic svg[role=img]').length,5);
+    assert.equal(detail('.rk-accessory-infographic figcaption').length,5);
+    for(const img of detail('.rk-accessory-photo img').toArray()){const asset=detail(img).attr('src');const meta=await sharp('dist'+asset).metadata();assert.equal(meta.width,Number(detail(img).attr('width')));}
     assert.equal(detail('[data-companion] a[href^="https://www.gaf.com/"]').length,5);
     assert.ok(detail('#roof-system').text().includes('do not add a guaranteed number of years'));
     assert.ok(detail('#roof-system').text().includes('intake'));
