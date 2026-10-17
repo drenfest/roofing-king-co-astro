@@ -1,0 +1,20 @@
+---
+import ServiceExplorer from './ServiceExplorer.svelte';
+import RichContent from './RichContent.astro';
+import ServiceIcon from './ServiceIcon.astro';
+import type {ServiceOpening} from '../data/service-opening';
+interface Props {section:ServiceOpening;}
+const {section}=Astro.props;
+---
+<section id="service-topics" class="rk-service-landing rk-landing-section rk-service-paths" data-component="ServiceTopics" data-topic-mode={section.mode} aria-labelledby="service-topics-title">
+  <div class="rk-section-inner">
+    <div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.mode==='children'?'Explore our services':'Service information'}</p><h2 id="service-topics-title">{section.title}</h2></div>
+    <ServiceExplorer id="service-topics" label={section.mode==='children'?'Choose a service':'Choose a topic'} tabs={section.items.map(item=>({id:item.id,label:item.label}))} client:load>
+      {section.items.map(item=><article id={item.id} class="rk-service-detail rk-service-topic" data-service-panel aria-labelledby={`${item.id}-heading`}>
+        <div class="rk-service-detail-kicker"><ServiceIcon name="roof"/><span>{item.label}</span></div><h3 id={`${item.id}-heading`}>{item.title}</h3>
+        <RichContent nodes={item.body}/>
+        {item.href&&<a class="rk-button rk-button-secondary" href={item.href}>{item.action || item.label}<ServiceIcon name="arrow"/></a>}
+      </article>)}
+    </ServiceExplorer>
+  </div>
+</section>

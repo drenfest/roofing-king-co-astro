@@ -6,6 +6,7 @@ import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
 import ServicePaths from '../components/ServicePaths.astro';
+import {completeServicePaths} from '../data/service-opening';
 import CredentialsSection from '../components/CredentialsSection.astro';
 import ReviewSection from '../components/ReviewSection.astro';
 import ProjectShowcase from '../components/ProjectShowcase.astro';
@@ -32,7 +33,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
     <LandingHero hero={data.hero}/>
     <div class="rk-landing-trust"><div class="rk-section-inner">{data.credentials.items.map(item=><a href={item.href}><ServiceIcon name="shield"/><span>{item.title}</span><span aria-hidden="true">↗</span></a>)}</div></div>
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
-    <ServicePaths section={data.services as ServicePathsData}/>
+    <ServicePaths section={completeServicePaths(page.data.permalink,data.services as ServicePathsData)}/>
     <ReviewSection section={data.reviews}/>
     <CredentialsSection section={data.credentials}/>
     <RoofMaterialOptions section={data.materials}/>

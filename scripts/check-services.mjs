@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
+import YAML from 'yaml';
 const pages=JSON.parse(await fs.readFile('src/data/service-pages.json','utf8'));
 const placements=JSON.parse(await fs.readFile('src/data/site-structure.json','utf8')).pages;
 const clean=s=>s.replace(/\s+/g,' ').trim();
@@ -38,7 +39,7 @@ for(const [path,data] of Object.entries(pages)){
     assert.equal($('#estimate #quote-form').length,1);
     assert.equal($('.rk-service-faq details').length,6);
     assert.equal($('[data-component=ServiceExplorer]').length,1);
-    assert.equal($('[data-service-panel]').length,8,'All service topics must be server rendered.');
+    assert.equal($('[data-service-panel]').length,9,'All service topics must be server rendered.');
     assert.equal($('[data-service-panel][hidden]').length,0,'Without JS every topic and destination remains available.');
     for(const panel of $('[data-service-panel]').toArray())assert.equal($(`.rk-service-explorer-tabs a[href="#${$(panel).attr('id')}"]`).length,1,'Fallback topic link must target its content.');
     for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/past-projects/','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
@@ -63,3 +64,25 @@ for(const [path,data] of Object.entries(pages)){
   const faq=data.sections.find(s=>s.type==='faq');assert.equal($('.rk-service-faq details').length,faq?.items.length||0);
 }
 console.log('Native service content, contextual links, media, FAQ, landmarks and disabled delivery passed for '+Object.keys(pages).length+' pages.');
+
+// Every service route receives an opening explorer; URL ancestry controls child destinations.
+const manifest=JSON.parse(await fs.readFile('migration/route-manifest.json','utf8')).routes;
+const serviceRecords=await Promise.all(manifest.map(async route=>{
+ const source=await fs.readFile(route.file,'utf8');return {...route,...YAML.parse(source.split('---')[1])};
+}));
+let prepared=0;
+for(const record of serviceRecords.filter(r=>/service/i.test(r.category)||r.category==='Product guide')){
+ const $=cheerio.load(await fs.readFile('dist'+record.path+'index.html','utf8'));
+ const opening=$('[data-component=ServiceTopics],[data-component=ServicePaths]');
+ assert.equal(opening.length,1,'One opening service explorer: '+record.path);
+ assert.ok(opening.find('[data-service-panel]').length,'Actual topic content on '+record.path);
+ for(const panel of opening.find('[data-service-panel]').toArray()){const body=$(panel).clone();body.find('.rk-service-detail-kicker,h3').first().remove();body.children('h3').first().remove();assert.ok(clean(body.text()),'No empty topic panels: '+record.path);}
+ const children=serviceRecords.filter(r=>r.path!==record.path&&r.path.startsWith(record.path)&&!r.path.slice(record.path.length).replace(/\/$/,'').includes('/'));
+ for(const child of children)assert.ok(opening.find('a').toArray().some(e=>$(e).attr('href')===child.path),'Opening must link to child '+child.path);
+ const ids=$('[id]').map((_i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size,'Unique IDs on '+record.path);
+ prepared++;
+}
+for(const path of manifest.filter(r=>r.path.startsWith('/products/roofing/shingles/gaf/')).map(r=>r.path)){
+ const html=await fs.readFile('dist'+path+'index.html','utf8');assert.ok(!html.includes('Plan your complete roofing system.</h2>'),'Remove retired product planning section');
+}
+console.log('Opening child-service/topic explorers verified on '+prepared+' service routes.');

@@ -297,3 +297,16 @@
 [data-landing-build="editorial"] .rk-landing-local-links a{gap:.65rem;padding:1rem;font-size:.88rem;}
 [data-landing-build="editorial"] .rk-local-link-icon{width:32px;height:32px;}
 @media(max-width:760px){[data-landing-build="editorial"] .rk-landing-local-links{grid-template-columns:1fr;}}
+
+/* Topic bodies retain ordinary prose/list formatting inside the shared explorer. */
+[data-component="ServiceTopics"]{background:linear-gradient(110deg,#eef2ed,#dce4df);}
+.rk-service-topic :is(ul,ol){display:block;list-style:disc;padding-left:1.3rem;margin:1rem 0;}
+.rk-service-topic li{display:list-item;font-size:1rem;margin:.5rem 0;color:inherit;}
+.rk-service-topic :is(h3,h4):not(:first-of-type){font-size:1.25rem;margin-top:1.5rem;}
+.rk-service-topic>.rk-service-detail-kicker+h3{font-size:clamp(1.5rem,2.5vw,2.15rem);}
+.rk-service-topic>.rk-button{margin-top:1rem;}
+
+.rk-imported-content>section[data-component="ServiceTopics"]{width:100%;margin:0;padding-block:clamp(3.5rem,6.5vw,6.5rem);}
+.rk-imported-content [data-component="ServiceTopics"] .rk-button{color:#fffaf0;}
+.rk-imported-content [data-component="ServiceTopics"] :is(p,li){color:#243d31;}
+.rk-imported-content [data-component="ServiceTopics"] h3{font-size:clamp(1.5rem,2.5vw,2.15rem);}

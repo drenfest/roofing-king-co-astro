@@ -2,7 +2,7 @@ export type ImageData = { src: string; alt: string };
 export type HeadingData = { eyebrow: string; title: string; description?: string };
 export type RichNode = { text: string; tag?: never; href?: never; children?: never } | {
   tag: 'p'|'div'|'span'|'article'|'h2'|'h3'|'h4'|'a'|'ul'|'ol'|'li'|'strong'|'b'|'em'|'i'|'br';
-  text?: never; href?: string; role?:'eyebrow'; children: RichNode[];
+  text?: never; href?: string; id?:string; role?:'eyebrow'; children: RichNode[];
 };
 export type BrandSection = HeadingData & { brandIds: string[] };
 export type AudienceBannerData = {eyebrow:string;title:string;description:string;href:string;label:string;icon:'roof'|'building'};

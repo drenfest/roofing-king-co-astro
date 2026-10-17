@@ -3,4 +3,4 @@ import type { RichNode } from '../data/section-types';
 interface Props { nodes: RichNode[]; }
 const { nodes } = Astro.props;
 ---
-{nodes.map(node => node.tag ? <node.tag class={node.role==='eyebrow'?'rk-home-eyebrow':undefined} href={node.tag === 'a' ? node.href : undefined}><Astro.self nodes={node.children} /></node.tag> : node.text)}
+{nodes.map(node => node.tag ? <node.tag id={node.id} class={node.role==='eyebrow'?'rk-home-eyebrow':undefined} href={node.tag === 'a' ? node.href : undefined}><Astro.self nodes={node.children} /></node.tag> : node.text)}

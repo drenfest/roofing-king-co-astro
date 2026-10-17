@@ -7,6 +7,9 @@ import roofr from '../data/roofr.json';
 import services from '../data/service-pages.json';
 import hubs from '../data/product-pillar.json';
 import details from '../data/product-details.json';
+import ServiceTopics from '../components/ServiceTopics.astro';
+import {serviceOpening} from '../data/service-opening';
+import '../styles/service-landing.css';
 export async function getStaticPaths() {
   return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details)).map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
@@ -16,10 +19,11 @@ export async function getStaticPaths() {
 interface Props { page: CollectionEntry<'pages'>; }
 const { page } = Astro.props;
 const { Content } = await render(page);
+const opening=serviceOpening(page.data.permalink);
 ---
 <SiteLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath}>
   <div data-content-source={page.data.source} data-review-status={page.data.reviewStatus}>
-    <Content />
+    {opening?.after!==undefined ? <><Fragment set:html={opening.before}/><ServiceTopics section={opening.opening}/><Fragment set:html={opening.after}/></> : <Content />}
     {roofr.calculatorPaths.includes(page.data.permalink) && <RoofrEstimator client:load />}
   </div>
 </SiteLayout>
