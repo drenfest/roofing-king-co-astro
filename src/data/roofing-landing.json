@@ -218,19 +218,21 @@
     }
   },
   "projects": {
-    "eyebrow": "Above the everyday",
-    "title": "Look closer at the work.",
-    "description": "Explore images from Roof King’s existing roofing gallery, from work in progress to the finished roof. See more examples before planning your own project.",
+    "eyebrow": "Roofing work, up close",
+    "title": "The details that make a complete roof.",
+    "description": "See the preparation beneath the shingles and the finished roof above. Explore more of our roofing work in the project gallery.",
     "images": [
       {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
         "alt": "Gray shingle roof seen from above, showing ridge lines, valleys and roof penetrations",
-        "caption": "The finished surface: roof lines, transitions and details, seen from above."
+        "caption": "Ridges, valleys and roof penetrations form part of the finished roofing system.",
+        "label": "Finished roofing"
       },
       {
         "src": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
         "alt": "Aerial view of roof work in progress with exposed decking and underlayment",
-        "caption": "Under the shingles: preparation is part of the complete roofing project."
+        "caption": "Decking and underlayment preparation before the finished roof covering.",
+        "label": "Installation in progress"
       }
     ]
   },
@@ -304,40 +306,40 @@
     ]
   },
   "process": {
-    "eyebrow": "A clearer way forward",
-    "title": "Good work starts with a good conversation.",
-    "description": "From the first questions to the finished roof, keep the scope, materials and expectations in view.",
+    "eyebrow": "Your roofing project",
+    "title": "From roof inspection to final review.",
+    "description": "Know what comes next as you plan a repair or replacement with Roof King.",
     "items": [
       {
-        "title": "Share what’s happening",
-        "description": "Tell us about the property, the problem you’ve noticed and what you want to achieve."
+        "title": "Inspect your roof",
+        "description": "Discuss leaks, wear or storm damage and review the condition of your roof with our team."
       },
       {
-        "title": "Understand the recommendation",
-        "description": "Discuss the roof’s condition, the proposed work and the options shown in your estimate."
+        "title": "Choose the right scope",
+        "description": "Review the repair or replacement recommendation, roofing materials and written estimate."
       },
       {
         "title": "Plan the installation",
-        "description": "Confirm the scope, material selection and scheduling with the team before work begins."
+        "description": "Confirm your material choices, installation scope and schedule before roofing work begins."
       },
       {
-        "title": "Review the result",
-        "description": "Talk through the finished work, your questions and the care and coverage information for your roof."
+        "title": "Review the finished work",
+        "description": "Walk through the result, ask questions and review care instructions and written coverage."
       }
     ]
   },
   "budget": {
-    "eyebrow": "Scope before price",
-    "title": "Know what your estimate includes.",
-    "description": "Roof size, access, material selection, removal and the condition beneath the covering can all affect the work. Compare the scope as carefully as the price.",
+    "eyebrow": "Your roofing estimate",
+    "title": "A clear scope. A better roofing decision.",
+    "description": "Understand what goes into your roof estimate, from tear-off and preparation to materials, installation and cleanup.",
     "items": [
-      "Materials and installation included",
-      "Removal, preparation and cleanup",
-      "How additional work will be discussed",
-      "Manufacturer and workmanship coverage"
+      "Roofing materials & installation",
+      "Tear-off, preparation & cleanup",
+      "Changes to the agreed scope",
+      "Product & workmanship warranties"
     ],
-    "financingTitle": "Make room for the right questions.",
-    "financingCopy": "Ask about current financing options and review the lender’s terms, rates and eligibility requirements before applying. Start with the actual project estimate.",
+    "financingTitle": "Roofing financing options",
+    "financingCopy": "Explore ways to spread the cost of your roofing project. Ask our team about current options, then review lender rates and repayment terms.",
     "financingNote": "Financing is subject to lender approval and applicable terms."
   },
   "reviews": {
@@ -351,15 +353,15 @@
     "description": "Selected customer review excerpts from Google, BBB and Birdeye. Follow each source link to read the original review."
   },
   "local": {
-    "eyebrow": "Rooted in Columbus",
-    "title": "A local team. A conversation about your home.",
-    "description": "Roof King & Restoration is based in Columbus. Talk with our team about your address, the condition of your roof and the work you have in mind. If you have photos or details of previous repairs, bring those to the conversation.",
-    "linkLabel": "Explore Columbus Ohio roofing services",
+    "eyebrow": "Based in Columbus, Ohio",
+    "title": "Local roofing support, from start to finish.",
+    "description": "Planning a repair, replacing an aging roof or dealing with storm damage? Connect with our Columbus team to discuss your home and the next steps for your roof.",
+    "linkLabel": "Columbus roofing services",
     "linkHref": "/columbus-oh/roofing/"
   },
   "faq": {
-    "eyebrow": "Before you get started",
-    "title": "A few questions worth asking.",
+    "eyebrow": "Roofing questions, answered",
+    "title": "Before you plan your roof.",
     "items": [
       {
         "question": "What residential roofing services does Roof King provide?",
@@ -369,6 +371,32 @@
             "children": [
               {
                 "text": "Our residential roofing services include roof repair, complete replacement, GAF roofing installation, metal roofing and storm damage restoration. Explore the service pages for installation details, product options and the coverage to discuss with your project estimate."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "/roofing/repair/",
+                "children": [
+                  {
+                    "text": "Roof repair"
+                  }
+                ]
+              },
+              {
+                "text": " · "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/replacement/",
+                "children": [
+                  {
+                    "text": "Roof replacement"
+                  }
+                ]
               }
             ]
           }
@@ -397,6 +425,32 @@
                 "text": "Yes. Explore our shingle product library and metal roofing information, then ask which systems suit your home. Compare the complete installation scope and product-specific terms, not just the visible finish."
               }
             ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "/products/roofing/shingles/",
+                "children": [
+                  {
+                    "text": "Compare shingles"
+                  }
+                ]
+              },
+              {
+                "text": " · "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/metal/",
+                "children": [
+                  {
+                    "text": "Explore metal roofing"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -408,6 +462,32 @@
             "children": [
               {
                 "text": "Roof King publishes five-year workmanship coverage. Manufacturer warranties apply separately to the selected products or eligible systems. Review the written terms and eligibility for the exact project in your estimate."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "/offers/5-year-workmanship-warranty/",
+                "children": [
+                  {
+                    "text": "Workmanship coverage"
+                  }
+                ]
+              },
+              {
+                "text": " · "
+              },
+              {
+                "tag": "a",
+                "href": "/roofing/gaf/",
+                "children": [
+                  {
+                    "text": "GAF roof systems"
+                  }
+                ]
               }
             ]
           }
@@ -423,6 +503,20 @@
                 "text": "Contact the team to discuss an inspection and share what you can observe safely from the ground. Inspection findings can inform the proposed repair or restoration work. Insurance coverage depends on your policy and insurer."
               }
             ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "/columbus-oh/storm-damage/",
+                "children": [
+                  {
+                    "text": "Storm damage restoration"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -436,14 +530,29 @@
                 "text": "Yes. Ask for current options, then review lender rates, approval requirements and repayment terms before you apply. Available financing does not replace a project-specific estimate."
               }
             ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "/offers/flexible-financing/",
+                "children": [
+                  {
+                    "text": "Roofing financing"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
-    ]
+    ],
+    "description": "Services, materials, estimates and coverage—get the essentials before your inspection."
   },
   "quote": {
-    "eyebrow": "Your roof. Your next step.",
-    "title": "Let’s talk about what your roof needs.",
-    "description": "A repair, a replacement or a question you haven’t figured out yet. Share what’s happening and start planning your roofing estimate with our Columbus team."
+    "eyebrow": "Start with your roof",
+    "title": "Get your roofing project started.",
+    "description": "Talk with our Columbus team about a roof repair, replacement or storm damage inspection. Call us or book an inspection to get started."
   }
 }

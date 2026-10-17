@@ -217,3 +217,64 @@
 .rk-roof-option-actions a:focus-visible,.rk-roof-option-photo:focus-visible{outline:3px solid #ff9e47;outline-offset:-4px;}
 @media(max-width:760px){.rk-roof-options-grid{grid-template-columns:1fr;gap:1.25rem;}.rk-roof-option-shingles,.rk-roof-option-metal{clip-path:polygon(0 1.25rem,100% 0,100% calc(100% - 1.25rem),0 100%);}.rk-roof-option-photo img{height:230px;}.rk-roof-option-shingles .rk-roof-option-copy,.rk-roof-option-metal .rk-roof-option-copy{padding:1.5rem 1.5rem 2.75rem;}.rk-roof-options-heading{margin-bottom:1.75rem;}}
 @media(prefers-reduced-motion:reduce){.rk-roof-option-photo img{transition:none;}}
+
+/* Lower landing sections: project evidence, practical planning and clear next steps. */
+[data-landing-build="editorial"]>.rk-home-brands{padding-block:2rem;}
+[data-landing-build="editorial"]>.rk-home-brands .rk-brands-inner{grid-template-columns:1fr auto;gap:2rem;}
+[data-landing-build="editorial"]>.rk-home-brands .rk-home-brand-list{width:230px;}
+[data-landing-build="editorial"]>.rk-home-brands .rk-home-brand-mark{min-height:100px;}
+[data-landing-build="editorial"] .rk-project-showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;}
+[data-landing-build="editorial"] .rk-project-showcase-photo{position:relative;}
+[data-landing-build="editorial"] .rk-project-showcase-photo>span{position:absolute;bottom:1rem;left:1rem;background:#173b2bea;color:#fffaf0;padding:.5rem .8rem;font-size:.78rem;font-weight:700;clip-path:var(--rk-cut-corner);}
+[data-landing-build="editorial"] .rk-project-showcase figcaption{padding:1rem 1.25rem;margin-top:.75rem;background:#fff;border-left:3px solid #cc6526;max-width:none;font-size:.9rem;}
+[data-landing-build="editorial"] .rk-landing-section-top>.rk-button{flex-shrink:0;align-self:center;}
+[data-landing-build="editorial"] .rk-landing-process ol{gap:1rem;}
+[data-landing-build="editorial"] .rk-landing-process li{padding:1.5rem;background:#ffffff08;border:1px solid #ffffff22;clip-path:var(--rk-cut-corner);}
+[data-landing-build="editorial"] .rk-process-step-mark{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1.5rem;color:#ffb15d;}
+[data-landing-build="editorial"] .rk-process-step-mark>svg{width:32px;height:32px;}
+[data-landing-build="editorial"] .rk-process-number{font-family:var(--rk-font-body);font-size:.76rem;letter-spacing:.05em;font-weight:750;margin:0;text-transform:uppercase;}
+[data-landing-build="editorial"] .rk-landing-process h3{font-size:1.1rem;min-height:2.7em;}
+[data-landing-build="editorial"] .rk-landing-process li p{font-size:.94rem;color:#d9e4d9;}
+[data-landing-build="editorial"] :is(.rk-project-showcase,.rk-landing-process,.rk-landing-budget,.rk-landing-local,.rk-landing-estimate) h2{font-size:clamp(1.8rem,2.8vw,2.65rem);}
+[data-landing-build="editorial"] .rk-budget-checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin-block:1.75rem;}
+[data-landing-build="editorial"] .rk-budget-checks li{align-items:flex-start;background:#eff2eb;border:1px solid #dce2d5;padding:.85rem;font-size:.9rem;line-height:1.45;}
+[data-landing-build="editorial"] .rk-budget-checks li svg{width:18px;height:18px;margin-top:2px;}
+[data-landing-build="editorial"] .rk-budget-financing{background:#fffaf0;padding:2rem;border:1px solid #e2d8c5;border-top:4px solid #c85a16;}
+[data-landing-build="editorial"] .rk-financing-icon{display:inline-grid;place-items:center;width:48px;height:48px;background:#f6e6d4;color:#9a4212;clip-path:var(--rk-cut-corner);margin-bottom:1.25rem;}
+[data-landing-build="editorial"] .rk-budget-financing h3{font-size:1.65rem;}
+[data-landing-build="editorial"] .rk-budget-financing .rk-landing-small{font-size:.75rem;}
+[data-landing-build="editorial"] .rk-landing-split{gap:clamp(2rem,5vw,5rem);align-items:center;}
+[data-landing-build="editorial"] .rk-landing-local-links{gap:.75rem;}
+[data-landing-build="editorial"] .rk-landing-local-links a{display:grid;grid-template-columns:auto 1fr auto;gap:1rem;padding:1.1rem 1.25rem;background:#fff;border:1px solid #dce1d5;clip-path:var(--rk-cut-corner);font-size:.95rem;}
+[data-landing-build="editorial"] .rk-local-link-icon{display:grid;place-items:center;width:42px;height:42px;background:#eaf0e8;color:#214b38;}
+[data-landing-build="editorial"] .rk-landing-local-links small{display:block;font-size:.78rem;color:#677263;font-weight:400;margin-top:.25rem;}
+[data-landing-build="editorial"] .rk-landing-local-links a:hover{background:#f8faf5;}
+[data-landing-build="editorial"] .rk-service-faq>.rk-section-inner{display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(2rem,5vw,5rem);align-items:start;}
+[data-landing-build="editorial"] .rk-service-faq .rk-home-section-header{margin:0;text-align:left;}
+[data-landing-build="editorial"] .rk-service-faq .rk-home-section-header h2{font-size:clamp(1.8rem,2.8vw,2.65rem);}
+[data-landing-build="editorial"] .rk-service-faq .rk-home-section-header p{margin-inline:0;text-align:left;}
+[data-landing-build="editorial"] .rk-service-faq-list{margin:0;display:grid;gap:.75rem;}
+[data-landing-build="editorial"] .rk-service-faq details{padding:0;border:1px solid #dce1d5;background:#fff;}
+[data-landing-build="editorial"] .rk-service-faq summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.2rem;font-size:1rem;list-style:none;}
+[data-landing-build="editorial"] .rk-service-faq summary::-webkit-details-marker{display:none;}
+[data-landing-build="editorial"] .rk-service-faq summary::after{content:'+';flex:none;font-size:1.5rem;font-weight:400;color:#a94a15;}
+[data-landing-build="editorial"] .rk-service-faq details[open] summary::after{content:'−';}
+[data-landing-build="editorial"] .rk-service-faq details[open]{border-color:#a3b59e;background:#f8faf5;}
+[data-landing-build="editorial"] .rk-service-faq details>div{padding:0 1.2rem 1.2rem;font-size:.95rem;}
+[data-landing-build="editorial"] .rk-service-faq details>div p{margin:0;}
+[data-landing-build="editorial"] .rk-estimate-contact{display:grid;gap:1.25rem;margin-top:2rem;justify-items:start;}
+[data-landing-build="editorial"] .rk-landing-estimate-phone{margin:0;text-decoration:none;}
+[data-landing-build="editorial"] .rk-landing-estimate-phone span{display:block;font-size:.85rem;color:#d9e4d9;}
+[data-landing-build="editorial"] .rk-landing-estimate-phone strong{display:block;font-size:1.7rem;margin-top:.25rem;}
+[data-landing-build="editorial"] .rk-landing-estimate .rk-quote-form{padding:1.75rem;clip-path:var(--rk-cut-corner);border-radius:0;border-top:4px solid #fe6600;}
+.rk-service-landing+.rk-footer{border-top:1px solid #8b9a7c44;}
+.rk-service-landing+.rk-footer .rk-footer-heading{font-size:.85rem;letter-spacing:.06em;}
+.rk-service-landing+.rk-footer .rk-footer-menu a{font-size:.9rem;}
+.rk-service-landing+.rk-footer .rk-footer-menu a:hover{color:#ffb15d;text-decoration:underline;}
+@media(max-width:1060px){[data-landing-build="editorial"] .rk-landing-process h3{min-height:0;}}
+@media(max-width:760px){[data-landing-build="editorial"]>.rk-home-brands .rk-brands-inner{grid-template-columns:1fr;}[data-landing-build="editorial"]>.rk-home-brands .rk-home-brand-list{width:180px;}[data-landing-build="editorial"] .rk-project-showcase-grid,[data-landing-build="editorial"] .rk-service-faq>.rk-section-inner{grid-template-columns:1fr;}[data-landing-build="editorial"] .rk-landing-section-top>.rk-button{margin-top:.5rem;}[data-landing-build="editorial"] .rk-budget-checks{grid-template-columns:1fr;}[data-landing-build="editorial"] .rk-budget-financing{padding:1.5rem;}[data-landing-build="editorial"] .rk-landing-estimate .rk-quote-form{padding:1.25rem;}[data-landing-build="editorial"] .rk-landing-process li{padding:1.1rem;}[data-landing-build="editorial"] .rk-landing-process h3{font-size:1rem;}}
+
+[data-landing-build="editorial"] .rk-service-faq .rk-home-section-header h2::after{margin-left:0;}
+[data-landing-build="editorial"] .rk-service-faq details>div p+p{margin-top:.85rem;}
+[data-landing-build="editorial"] .rk-landing-budget .rk-button,[data-landing-build="editorial"] .rk-estimate-contact .rk-button{gap:.75rem;}
+[data-landing-build="editorial"] .rk-landing-budget .rk-button svg,[data-landing-build="editorial"] .rk-estimate-contact .rk-button svg{width:19px;height:19px;}
