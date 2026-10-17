@@ -135,7 +135,15 @@
         "href": "/columbus-oh/storm-damage/",
         "label": "Explore storm restoration"
       }
-    ]
+    ],
+    "banner": {
+      "eyebrow": "For business properties",
+      "title": "A roof over your business?",
+      "description": "Explore commercial roof repair, replacement, roofing systems and gutters.",
+      "href": "/commercial-roofing/",
+      "label": "Explore commercial roofing",
+      "icon": "building"
+    }
   },
   "decision": {
     "eyebrow": "Repair or replace?",

@@ -20,10 +20,12 @@ import CoverageSection from '../components/CoverageSection.astro';
 import FAQSection from '../components/FAQSection.astro';
 import QuoteSection from '../components/QuoteSection.astro';
 import ProductGrid from '../components/ProductGrid.astro';
+import ServicePaths from '../components/ServicePaths.astro';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/home-interactions.css';
 import '../styles/services.css';
+import '../styles/service-landing.css';
 interface Props { page:CollectionEntry<'pages'>; data:ServicePageData; }
 const { page, data } = Astro.props;
 const placement=placements[page.data.permalink];
@@ -31,10 +33,11 @@ const hero={...data.hero,...placement?.hero};
 ---
 <DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image}>
   <SiteHeader client:load/>
-  <main id="content" class="rk-site-main"><article class="rk-native-service" data-service-build="astro-components" data-content-source={page.data.source}>
+  <main id="content" class="rk-site-main"><article class:list={['rk-native-service',{'rk-service-landing':data.sections.some(section=>section.type==='service-paths')}]} data-service-build="astro-components" data-content-source={page.data.source}>
     <PageHero {hero}/><TrustStrip {trust}/><Breadcrumbs items={placement?.breadcrumbs || data.breadcrumbs}/>
     {data.sections.map(section=>section.type==='content'?<ContentSection section={{...section,body:replaceHeadings(section.body,placement?.headings)}}/>:
       section.type==='media-row'?<MediaContentRow {section}/>:
+      section.type==='service-paths'?<ServicePaths {section}/>:
       section.type==='brands'?<BrandStrip brands={section}/>:
       section.type==='cards'?<CardSection kind={section.kind} section={section}/>:
       section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:

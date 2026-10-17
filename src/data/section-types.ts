@@ -5,11 +5,14 @@ export type RichNode = { text: string; tag?: never; href?: never; children?: nev
   text?: never; href?: string; role?:'eyebrow'; children: RichNode[];
 };
 export type BrandSection = HeadingData & { brandIds: string[] };
+export type AudienceBannerData = {eyebrow:string;title:string;description:string;href:string;label:string;icon:'roof'|'building'};
+export type ServicePathsData = {id?:string;selectorLabel?:string;eyebrow:string;title:string;description:string;banner?:AudienceBannerData;items:{id:string;tabLabel:string;title:string;description:string;detail:string;highlights:string[];href:string;label:string;icon:string}[]};
 export type CardSectionData = HeadingData & { items: {title:string;description:string;href?:string;image?:ImageData|null}[] };
 export type ContentSectionData = { type:'content'; variant:'services'|'features'|'prose'; body:RichNode[]; cards:{title:string;body:RichNode[];href?:string}[] };
 export type GallerySection = HeadingData & { type:'gallery'; filters:{label:string;value:string}[];items:(ImageData & {tags:string[]})[] };
 export type MediaContentRowData = {type:'media-row';id:string;title:string;eyebrow:string;body:RichNode[];image:ImageData;caption?:string;reverse?:boolean;linkPlacement?:'media';links:{label:string;href:string;icon?:'roof'|'shingles'|'brand'|'energy'}[]};
 export type ServiceSection = ContentSectionData | MediaContentRowData |
+  (ServicePathsData & {type:'service-paths'}) |
   (BrandSection & {type:'brands'}) |
   (CardSectionData & {type:'cards';kind:'offers'|'reviews'}) |
   GallerySection |

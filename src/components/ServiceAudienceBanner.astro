@@ -1,0 +1,7 @@
+---
+import ServiceIcon from './ServiceIcon.astro';
+import type {AudienceBannerData} from '../data/section-types';
+interface Props {banner:AudienceBannerData;}
+const {banner}=Astro.props;
+---
+<aside class="rk-service-audience-banner" aria-label={banner.title} data-component="ServiceAudienceBanner"><div class="rk-service-audience-copy"><span class="rk-service-audience-icon"><ServiceIcon name={banner.icon}/></span><div><p class="rk-home-eyebrow">{banner.eyebrow}</p><h3>{banner.title}</h3><p>{banner.description}</p></div></div><a class="rk-button rk-button-primary" href={banner.href}>{banner.label}<ServiceIcon name="arrow"/></a></aside>

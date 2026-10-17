@@ -4807,5 +4807,395 @@
         "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
       }
     ]
+  },
+  "/commercial-roofing/": {
+    "sourceFile": "src/content/pages/commercial-roofing/index.md",
+    "contentReview": "Native component migration. The original service headings, descriptions and contextual destinations are retained in ServicePaths, with additional planning context and a residential audience banner. Other imported business claims remain pending verification.",
+    "hero": {
+      "eyebrow": "Roof King",
+      "title": "Columbus, OH Commercial Roofing Company",
+      "description": "Do you need to hire skilled commercial roofing contractors in Columbus, OH? Count on the pros at Roof King & Restoration and contact us today for a free…",
+      "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+      "booking": {
+        "eyebrow": "Next step",
+        "title": "Plan your project with Roof King",
+        "description": "Talk with our team about timing, products, and the best path for your home."
+      },
+      "bookingUrl": "/contact-us/",
+      "bookingLabel": "Get A Free Quote"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Columbus, OH Commercial Roofing Company"
+      }
+    ],
+    "sections": [
+      {
+        "type": "service-paths",
+        "id": "commercial-roofing-services",
+        "selectorLabel": "Choose a commercial roofing topic",
+        "eyebrow": "Exterior Services",
+        "title": "Columbus, OH Commercial Roofing Company",
+        "description": "As Columbus’ leading commercial roofing company, our experts at Roof King & Restoration can provide you with the reliable services your property needs for lasting performance.",
+        "banner": {
+          "eyebrow": "For homeowners",
+          "title": "Looking after the roof on your home?",
+          "description": "Meet our residential roofing team and explore the next step for your home.",
+          "href": "/roofing/",
+          "label": "Explore residential roofing",
+          "icon": "roof"
+        },
+        "items": [
+          {
+            "slug": "repair",
+            "tabLabel": "Roof Repair",
+            "detail": "Discuss the location of the issue, any previous repairs and how the proposed work fits the condition of the surrounding roof. Explore the repair service before arranging the next step for your building.",
+            "highlights": [
+              "Existing damage and roof condition",
+              "Repair scope and access",
+              "Questions for your inspection"
+            ],
+            "icon": "repair",
+            "id": "commercial-service-repair",
+            "title": "Commercial Roof Repair",
+            "description": "We can identify and resolve even the most challenging forms of commercial roofing damage, ensuring that your building will remain functional for years ahead.",
+            "href": "/commercial-roofing/repair/",
+            "label": "Explore roof repair"
+          },
+          {
+            "slug": "replacement",
+            "tabLabel": "Roof Replacement",
+            "detail": "Compare the proposed removal, preparation and installation scope alongside material options. Discuss access to the property and the work involved before confirming the project.",
+            "highlights": [
+              "Removal and preparation",
+              "Proposed materials and installation",
+              "Property access and project planning"
+            ],
+            "icon": "roof",
+            "id": "commercial-service-replacement",
+            "title": "Commercial Roof Replacement",
+            "description": "Our trusted commercial roofers can provide stunning roof replacements. These will both improve the visual appeal of your building and make it more durable.",
+            "href": "/commercial-roofing/replacement/",
+            "label": "Explore roof replacement"
+          },
+          {
+            "slug": "types",
+            "tabLabel": "Roof Types",
+            "detail": "Explore the commercial roofing types page, then discuss which system suits the building and the work proposed. Compare the product specifications, installation requirements and written coverage for the selected system.",
+            "highlights": [
+              "Roof-system choices",
+              "Building and installation requirements",
+              "Product-specific documentation"
+            ],
+            "icon": "roof",
+            "id": "commercial-service-types",
+            "title": "Commercial Roofing Types",
+            "description": "We offer all of the modern roofing options you need from trusted brands like GAF.",
+            "href": "/commercial-roofing/roof-types/",
+            "label": "Explore roof types"
+          },
+          {
+            "slug": "gutters",
+            "tabLabel": "Commercial Gutters",
+            "detail": "Consider gutters and downspouts alongside the roof so water has a clear route away from the building. Discuss drainage, repairs or replacement, and whether gutter protection belongs in the project.",
+            "highlights": [
+              "Gutters and downspouts",
+              "Repair or replacement scope",
+              "Drainage and protection options"
+            ],
+            "icon": "roof",
+            "id": "commercial-service-gutters",
+            "title": "Commercial Gutters",
+            "description": "Don’t forget the gutters! Our roofing crew would be happy to equip your commercial building with a fully functional system.",
+            "href": "/commercial-roofing/gutters/",
+            "label": "Explore commercial gutters"
+          }
+        ]
+      },
+      {
+        "type": "brands",
+        "eyebrow": "Roofing products",
+        "title": "Explore GAF roofing products",
+        "description": "Review roofing products and specifications with our team for your commercial project.",
+        "brandIds": [
+          "gaf"
+        ]
+      },
+      {
+        "type": "content",
+        "variant": "features",
+        "body": [
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "role": "eyebrow",
+            "children": [
+              {
+                "text": "Why Roof King"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "h2",
+            "children": [
+              {
+                "text": "Trusted Commercial Roofing Contractors in Columbus"
+              }
+            ]
+          },
+          {
+            "text": "\n        "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "\n                                It’s no secret that we’re considered one of the most reliable commercial roofing companies in the area. We have been in operation since 2020 and have already helped countless businesses with their roofing needs. We’ve been rated A+ and are accredited by the Better Business Bureau, giving you peace of mind that you’re truly hiring the best. Furthermore, we’re proud to be a locally owned and operated company that’s dedicated to the satisfaction of its local customers.\n                            "
+              }
+            ]
+          },
+          {
+            "text": "\n      "
+          }
+        ],
+        "cards": [
+          {
+            "title": "Affordable Options for All Customers",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Whether you’re interested in a luxurious installation or a more economical one, we have a wide selection of products for you to choose from."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Worry-Free Warranties",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "We offer a 5-year workmanship warranty on all of our installations, as well as trusted product warranties from GAF."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Experienced with Insurance Claims",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If you’ve experienced commercial roofing damage that’s covered by insurance, our claims specialists will have no problem assisting with the process."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "kind": "offers",
+        "eyebrow": "Limited time offers",
+        "title": "Current savings and financing options",
+        "description": "Review current offers before planning your project.",
+        "items": [
+          {
+            "title": "Payments As Low As $47",
+            "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+            "href": "/offers/payments/",
+            "image": {
+              "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+              "alt": "Payments As Low As $47"
+            }
+          },
+          {
+            "title": "Medallion Bank Financing for Home Improvements",
+            "description": "Explore Medallion Bank financing with Roof King & Restoration in Columbus. Affordable payment plans for roofing, windows, gutters, and more.…",
+            "href": "/offers/medallion-bank-financing/",
+            "image": {
+              "src": "/media/wordpress/9049a0717d07-b0245668-dd05-4ca2-bcf9-71c6b401fb38.jpg",
+              "alt": "Medallion Bank Financing for Home Improvements"
+            }
+          },
+          {
+            "title": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection",
+            "description": "Protect your roof with the GAF System Plus Manufacturer Warranty from Roof King & Restoration in Columbus. Enjoy complete coverage…",
+            "href": "/offers/gaf-system-plus/",
+            "image": {
+              "src": "/media/wordpress/a0ded2b8f0ca-cea044e9-5c46-46e3-91ab-abd2ba51273b.jpg",
+              "alt": "GAF System Plus Manufacturer Warranty—Comprehensive Roof Protection"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "eyebrow": "Project proof",
+        "title": "Commercial Roofing Projects Across Ohio",
+        "description": "Explore real Roof King projects and exterior transformations.",
+        "filters": [
+          {
+            "label": "All",
+            "value": "all"
+          },
+          {
+            "label": "Commercial Roof Repair",
+            "value": "commercial-roof-repair"
+          },
+          {
+            "label": "Commercial Roof Replacement",
+            "value": "commercial-roof-replacement"
+          },
+          {
+            "label": "Commercial Roofing Types",
+            "value": "commercial-roofing-types"
+          },
+          {
+            "label": "Commercial Gutters",
+            "value": "commercial-gutters"
+          }
+        ],
+        "items": [
+          {
+            "src": "/media/wordpress/bba00cdebf6f-bc3a9ffd-0391-40b8-b9d3-657affa2d835.jpg",
+            "alt": "Roof King Commercial Roof Repair project photo",
+            "tags": [
+              "commercial-roof-repair"
+            ]
+          },
+          {
+            "src": "/media/wordpress/507fd9199de0-0f02abec-7f18-4fa4-a07f-3e5c0988025a.jpg",
+            "alt": "Roof King Commercial Roof Repair project photo",
+            "tags": [
+              "commercial-roof-repair"
+            ]
+          },
+          {
+            "src": "/media/wordpress/cc41d375d8fd-82e7214e-c56a-4b1e-b25c-5ae0787b6ae8.jpg",
+            "alt": "Roof King Commercial Roof Repair project photo",
+            "tags": [
+              "commercial-roof-repair"
+            ]
+          },
+          {
+            "src": "/media/wordpress/982b73b90898-b9da1a6f-5687-4802-b217-9eca14140666.jpg",
+            "alt": "Roof King Commercial Roof Replacement project photo",
+            "tags": [
+              "commercial-roof-replacement"
+            ]
+          },
+          {
+            "src": "/media/wordpress/81bf970a6599-a151e3cb-470a-4866-a502-756aa7876358.jpg",
+            "alt": "Roof King Commercial Roof Replacement project photo",
+            "tags": [
+              "commercial-roof-replacement"
+            ]
+          },
+          {
+            "src": "/media/wordpress/163a64e6901d-daf8235e-ac1b-40f5-bb07-c5eaeab1641c.jpg",
+            "alt": "Roof King Commercial Roof Replacement project photo",
+            "tags": [
+              "commercial-roof-replacement"
+            ]
+          },
+          {
+            "src": "/media/wordpress/275d263eab92-0e4a2ef0-b97d-42ff-8870-7620595e6bdd.jpg",
+            "alt": "Roof King Commercial Roofing Types project photo",
+            "tags": [
+              "commercial-roofing-types"
+            ]
+          },
+          {
+            "src": "/media/wordpress/b7f0222f6c19-90fa1283-dfa9-4b75-9f9f-cab485e28578.jpg",
+            "alt": "Roof King Commercial Roofing Types project photo",
+            "tags": [
+              "commercial-roofing-types"
+            ]
+          },
+          {
+            "src": "/media/wordpress/4012e38ecf57-f4ecc984-b0e3-47bc-894c-15460b39897e.jpg",
+            "alt": "Roof King Commercial Roofing Types project photo",
+            "tags": [
+              "commercial-roofing-types"
+            ]
+          },
+          {
+            "src": "/media/wordpress/ac2e059ad288-ea5484fa-c9dc-4fe2-b0fc-45d1e67727e1.jpg",
+            "alt": "Roof King Commercial Gutters project photo",
+            "tags": [
+              "commercial-gutters"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "comparison",
+        "eyebrow": "Project transformation",
+        "title": "See the transformation",
+        "description": "Compare exterior improvements with a draggable before and after view.",
+        "before": {
+          "src": "/media/wordpress/717dd193ee03-before.jpg",
+          "alt": "Roof before replacement"
+        },
+        "after": {
+          "src": "/media/wordpress/6157f73c34cd-after.jpg",
+          "alt": "Roof after replacement"
+        }
+      },
+      {
+        "type": "coverage",
+        "eyebrow": "Ohio coverage",
+        "title": "Ohio’s Leading Commercial Roofing Experts",
+        "description": "Compared to other roofers in the region, we have a much more extensive service radius to better serve our customers. Our Columbus commercial roofing services are available all throughout the state with a focus on cities like Dayton, Cleveland, Cincinnati, and Delaware. No matter where your property is located, we’ll make sure that it’s provided with top-tier workmanship and durable products from premium brands. We’re committed to making sure that your commercial roof is in pristine condition, so find your location on our service areas list and reach out today.",
+        "image": {
+          "src": "/media/wordpress/485992cdfabe-map.jpg",
+          "alt": "Roof King Ohio service area map"
+        }
+      },
+      {
+        "type": "cards",
+        "kind": "reviews",
+        "eyebrow": "Testimonials",
+        "title": "Homeowners notice the Roof King standard",
+        "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+        "items": [
+          {
+            "title": "Positive experience",
+            "description": "5/5 Stars – Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…"
+          },
+          {
+            "title": "Great Job on my roof!",
+            "description": "5/5 Stars – I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…"
+          },
+          {
+            "title": "Roofing repair",
+            "description": "5/5 Stars – Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered."
+          }
+        ]
+      },
+      {
+        "type": "quote",
+        "eyebrow": "Ready for the next step?",
+        "title": "Get A Free Quote From Roof King",
+        "description": "Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project."
+      }
+    ]
   }
 }

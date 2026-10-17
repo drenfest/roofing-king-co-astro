@@ -1,6 +1,6 @@
 ---
 import type {CollectionEntry} from 'astro:content';
-import type {BrandSection,HeadingData,RichNode} from '../data/section-types';
+import type {BrandSection,HeadingData,RichNode,ServicePathsData} from '../data/section-types';
 import DocumentLayout from './DocumentLayout.astro';
 import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -30,7 +30,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
     <LandingHero hero={data.hero}/>
     <div class="rk-landing-trust"><div class="rk-section-inner">{data.credentials.items.map(item=><a href={item.href}><ServiceIcon name="shield"/><span>{item.title}</span><span aria-hidden="true">↗</span></a>)}</div></div>
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
-    <ServicePaths section={data.services}/>
+    <ServicePaths section={data.services as ServicePathsData}/>
     <section class="rk-landing-section rk-landing-decision" aria-labelledby="roofing-decision-title"><div class="rk-section-inner rk-landing-split">
       <div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.decision.eyebrow}</p><h2 id="roofing-decision-title">{data.decision.title}</h2>{data.decision.paragraphs.map(p=><p>{p}</p>)}<a class="rk-landing-text-link" href="#estimate">Talk through your options <span aria-hidden="true">↗</span></a></div>
       <aside class="rk-landing-checklist"><h3>{data.decision.checklistTitle}</h3><ul>{data.decision.items.map(item=><li><ServiceIcon name="check"/>{item}</li>)}</ul><p>{data.decision.note}</p></aside>

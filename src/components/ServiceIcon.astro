@@ -1,6 +1,6 @@
 ---
-interface Props {name:'repair'|'roof'|'storm'|'shield'|'check'|'arrow'|'cost'|'calculator';}
+interface Props {name:'repair'|'roof'|'storm'|'shield'|'check'|'arrow'|'cost'|'calculator'|'building';}
 const {name}=Astro.props;
-const paths={repair:'M4 20h16M6 17V9l6-5 6 5v8M10 17v-5h4v5M17 3l2 2m-1 5 3-3',roof:'m2 11 10-8 10 8M5 10v11h14V10M9 21v-7h6v7',storm:'M7 15a5 5 0 1 1 9-6 3 3 0 1 1 1 6M13 13l-3 5h4l-3 5',shield:'m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3m-4 9 3 3 5-6',check:'m5 12 4 4L19 6',arrow:'M4 12h16m-6-6 6 6-6 6',cost:'M12 3v18m5-14c-2-3-10-3-10 1s10 3 10 7-8 4-10 1',calculator:'M5 3h14v18H5V3m3 4h8M8 12h1m6 0h1m-8 4h1m6 0h1'};
+const paths={building:'M3 21h18M5 21V5l14-2v18M9 8h2m4-1h1M9 12h2m4-1h1M9 16h2m4-1h1',repair:'M4 20h16M6 17V9l6-5 6 5v8M10 17v-5h4v5M17 3l2 2m-1 5 3-3',roof:'m2 11 10-8 10 8M5 10v11h14V10M9 21v-7h6v7',storm:'M7 15a5 5 0 1 1 9-6 3 3 0 1 1 1 6M13 13l-3 5h4l-3 5',shield:'m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3m-4 9 3 3 5-6',check:'m5 12 4 4L19 6',arrow:'M4 12h16m-6-6 6 6-6 6',cost:'M12 3v18m5-14c-2-3-10-3-10 1s10 3 10 7-8 4-10 1',calculator:'M5 3h14v18H5V3m3 4h8M8 12h1m6 0h1m-8 4h1m6 0h1'};
 ---
 <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={paths[name]}/></svg>

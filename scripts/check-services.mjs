@@ -22,6 +22,12 @@ for(const [path,data] of Object.entries(pages)){
   for(const css of $('link[rel=stylesheet]').map((i,e)=>$(e).attr('href')).get().filter(s=>s.startsWith('/'))){const text=await fs.readFile('dist'+css,'utf8');assert.ok(!text.includes('.rk-migration-banner'),'Legacy migration CSS must not load');}
   const source=await fs.readFile(data.sourceFile,'utf8');const before=cheerio.load(source.split('---').slice(2).join('---'));
   const rendered=clean($('main').text());
+  if(path==='/roofing/' || path==='/commercial-roofing/'){
+    assert.equal($('[data-component=ServiceAudienceBanner]').length,1);
+    assert.equal($('[data-component=ServiceAudienceBanner] a').attr('href'),path==='/roofing/'?'/commercial-roofing/':'/roofing/');
+    assert.ok(!/^\d{2}\s*\//m.test($('.rk-service-detail-kicker').text()),'Explorer topics must not be numbered.');
+    if(path==='/commercial-roofing/')assert.equal($('[data-service-panel]').length,4);
+  }
   if(path==='/roofing/'){
     // This page is an intentional editorial replacement, not a verbatim migration.
     assert.equal($('[data-landing-build=editorial]').length,1);
