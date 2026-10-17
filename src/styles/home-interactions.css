@@ -1,0 +1,65 @@
+/* Native interaction states and accessibility additions to the WordPress design. */
+:root { --rk-logo-crown: url('/media/wordpress/3af1e7693f5a-crown.svg'); }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+html { overflow-x: clip; }
+body { overflow: visible; }
+button, input, select, textarea { font: inherit; }
+:focus-visible { outline: 3px solid #b44500; outline-offset: 4px; }
+.rk-native-header { position: sticky; }
+.rk-native-header .rk-logo img { height: auto; }
+.rk-home-hero { background-image: linear-gradient(102deg, rgb(8 20 22 / 96%), rgb(23 60 70 / 88%) 46%, rgb(122 158 159 / 30%) 72%, rgb(15 27 21 / 54%)); }
+.rk-home-hero::before { opacity: 1; background: linear-gradient(102deg, rgb(8 20 22 / 96%), rgb(23 60 70 / 88%) 46%, rgb(122 158 159 / 30%) 72%, rgb(15 27 21 / 54%)), linear-gradient(120deg, transparent 0 46%, rgb(255 177 93 / 12%) 46% 47%, transparent 47% 100%), repeating-linear-gradient(135deg, rgb(255 177 93 / 9%) 0 1px, transparent 1px 42px); }
+.rk-hero-background { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.rk-home-hero .rk-home-eyebrow { color: #ffb15d; }
+.rk-home-badges .rk-home-eyebrow { color: #ffb15d; }
+.rk-home-hero-copy h1 { overflow-wrap: normal; }
+.rk-gallery-filters button { min-height: 44px; }
+.rk-gallery-filters button:disabled { cursor: default; }
+.rk-before-after-compare:focus-within { outline: 3px solid #b44500; outline-offset: 4px; }
+.rk-before-after-range { cursor: ew-resize; touch-action: pan-y; }
+.rk-before-after-after-wrap { pointer-events: none; }
+.rk-home-comparison { min-width: 0; margin: 0; width: 100%; }
+.rk-before-after-inner > astro-island { min-width: 0; }
+.rk-native-lightbox:not([open]), .rk-native-quote-dialog:not([open]) { display: none; }
+.rk-native-lightbox { position: fixed; inset: 0; width: 100%; max-width: none; height: 100%; max-height: none; padding: 4rem 4.5rem 2rem; margin: 0; border: 0; color: white; background: rgb(8 16 13 / 96%); }
+.rk-native-lightbox[open] { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 1rem; }
+.rk-native-lightbox::backdrop, .rk-native-quote-dialog::backdrop { background: rgb(8 16 13 / 78%); }
+.rk-native-lightbox .rk-lightbox-figure { min-width: 0; margin: 0; }
+.rk-native-lightbox button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid rgb(255 255 255 / 48%); border-radius: 50%; color: white; background: #31493c; font-size: 1.8rem; cursor: pointer; }
+.rk-native-lightbox .rk-lightbox-close { position: absolute; top: 1rem; right: 1rem; }
+.rk-native-lightbox .rk-lightbox-figure img { width: auto; max-width: 100%; max-height: calc(100dvh - 11rem); margin: auto; object-fit: contain; }
+.rk-native-lightbox button:focus-visible { outline-color: #ffb15d; }
+.rk-native-quote-dialog { width: min(460px, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); padding: 0; border: 0; color: var(--rk-ink); background: transparent; overflow: auto; }
+.rk-native-quote-dialog .rk-modal-panel { width: 100%; max-height: none; overflow: visible; margin: 0; }
+.rk-native-quote-dialog .rk-modal-intro h2 { padding-right: 1.75rem; }
+.rk-form-status { padding: .85rem 1rem; border-left: 3px solid #fe6600; background: #fffaf0; color: #142019 !important; }
+.rk-quote-form button:disabled { opacity: .65; cursor: not-allowed; }
+.rk-home-final-cta #quote-form { min-width: 0; }
+.rk-home-final-cta .rk-quote-form > label { display: block; margin-top: 1rem; }
+.rk-home-final-cta .rk-quote-form > label.rk-consent-field { display: grid; }
+/* Server-rendered links remain reachable before hydration and when JS is disabled. */
+.rk-native-header:not(.rk-native-enhanced) .rk-menu-item:focus-within > .rk-submenu { visibility: visible; opacity: 1; pointer-events: auto; }
+.rk-native-header:not(.rk-native-enhanced) .rk-menu-item:focus-within > .rk-submenu * { visibility: visible; pointer-events: auto; }
+@media (max-width: 1060px) {
+  .rk-native-header { backdrop-filter: none; }
+  .rk-native-header.rk-native-enhanced .rk-primary-nav:not(.is-open) { display: none; }
+  .rk-native-header:not(.rk-native-enhanced) .rk-primary-nav { display: block; position: static; grid-column: 1 / -1; width: 100%; max-height: none; opacity: 1; visibility: visible; transform: none; }
+  .rk-native-header:not(.rk-native-enhanced) .rk-nav-toggle { display: none; }
+  .rk-native-header:not(.rk-native-enhanced) .rk-nav-list > .rk-menu-item > .rk-submenu { display: block; max-height: none; }
+  .rk-native-header .rk-primary-nav.is-open { height: 100dvh; max-height: 100dvh; overflow-y: auto; }
+  .rk-native-header .rk-menu-item.is-submenu-open > .rk-submenu { visibility: visible; max-height: none; }
+  .rk-native-header .rk-nav-list > .rk-menu-item.is-submenu-open > .rk-submenu { transform: none; }
+  .rk-native-header .rk-nav-list > .rk-menu-item > .rk-submenu .rk-submenu { display: grid; max-height: none; overflow: visible; padding: .25rem 0 .5rem .7rem; }
+  .rk-native-header .rk-mobile-nav-actions .rk-phone { display: block; }
+}
+@media (max-width: 640px) {
+  .rk-native-lightbox { padding: 4.5rem 1rem 1rem; }
+  .rk-native-lightbox[open] { grid-template-columns: 1fr 1fr; align-content: center; }
+  .rk-native-lightbox .rk-lightbox-figure { grid-column: 1 / -1; grid-row: 1; }
+  .rk-native-lightbox .rk-lightbox-prev, .rk-native-lightbox .rk-lightbox-next { grid-row: 2; justify-self: center; }
+  .rk-native-quote-dialog .rk-modal-panel { padding: 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,33 @@
+---
+import site from '../data/site.json';
+interface Props { title: string; description: string; canonicalPath: string; image?: string; }
+const { title, description, canonicalPath, image = '/media/wordpress/a102470cfba2-hero-roofing.jpg' } = Astro.props;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'RoofingContractor',
+  '@id': site.url + '/#business', name: site.name, url: site.url,
+  telephone: site.phoneHref.replace('tel:', ''), address: { '@type': 'PostalAddress', ...site.address },
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Roof King &amp; Restoration</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={new URL(canonicalPath, site.url)} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(canonicalPath, site.url)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={new URL(image, site.url)} />
+    <link rel="icon" href="/media/wordpress/2b1fb60b5770-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=Source+Sans+3:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+    <slot name="head" />
+  </head>
+  <body><a class="rk-skip-link" href="#content">Skip to content</a><slot /></body>
+</html>

@@ -1,0 +1,394 @@
+{
+  "hero": {
+    "eyebrow": "Ohio exterior remodeling",
+    "title": "Industry-leading roofing and siding services in Ohio",
+    "description": "Premium products, expert installation, and a team that treats every home like it belongs to royalty.",
+    "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+    "booking": {
+      "eyebrow": "Roof King inspection",
+      "title": "Book your roof and deck inspection",
+      "description": "Schedule time with the Roof King team to review your project and plan the right next step."
+    },
+    "bookingUrl": "https://calendly.com/roofkingco-info/30-minute-roof-deck-inspection"
+  },
+  "trust": {
+    "eyebrow": "Certified roofing excellence",
+    "title": "GAF Master Elite and President's Club recognition",
+    "description": "These badges represent elite manufacturer certification, premium warranty access, and a proven commitment to installation standards.",
+    "badges": [
+      {
+        "src": "/media/wordpress/88f26d1d1f40-masterelite.png",
+        "alt": "GAF Master Elite"
+      },
+      {
+        "src": "/media/wordpress/8d8a479c04f7-gafpresident.png",
+        "alt": "GAF President Club"
+      }
+    ],
+    "googleIcon": {
+      "src": "/media/wordpress/07fa58d42bb5-icon-google.png",
+      "alt": ""
+    },
+    "reviewsUrl": "https://www.google.com/search?q=Roof+King+%26+Restoration+Columbus+OH+Google+Reviews",
+    "rating": "4.8/5",
+    "count": 292
+  },
+  "brands": {
+    "eyebrow": "Trusted brands",
+    "title": "Premium exterior products from proven manufacturers",
+    "description": "Roofing, siding, decking, and trim systems selected for durability, warranty strength, and curb appeal.",
+    "items": [
+      {
+        "src": "/media/wordpress/d93df4e15198-variform.png",
+        "alt": "Variform"
+      },
+      {
+        "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
+        "alt": "LP SmartSide"
+      },
+      {
+        "src": "/media/wordpress/509654d4f5d1-trex.png",
+        "alt": "Trex"
+      },
+      {
+        "src": "/media/wordpress/67a6570aea50-jameshardie.png",
+        "alt": "James Hardie"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Exterior services",
+    "title": "Columbus, OH roof and siding company",
+    "description": "A full exterior remodeling team for roofing, siding, gutters, windows, decks, insulation, and storm restoration.",
+    "items": [
+      {
+        "title": "Roofing",
+        "description": "Roof replacements, roof repairs, and premium systems built for Ohio weather.",
+        "href": "/roofing/",
+        "image": null
+      },
+      {
+        "title": "Commercial Roofing",
+        "description": "Durable low-slope and commercial roofing solutions for local properties.",
+        "href": "/commercial-roofing/",
+        "image": null
+      },
+      {
+        "title": "Siding",
+        "description": "High-grade siding that sharpens curb appeal and protects the building envelope.",
+        "href": "/siding/",
+        "image": null
+      },
+      {
+        "title": "Gutters",
+        "description": "Gutter systems designed to move water away from your roofline and foundation.",
+        "href": "/gutters/",
+        "image": null
+      },
+      {
+        "title": "Storm Damage",
+        "description": "Fast inspections and restoration support after wind, hail, and severe storms.",
+        "href": "/storm-damage/",
+        "image": null
+      },
+      {
+        "title": "Windows",
+        "description": "Window replacements that improve comfort, efficiency, and exterior style.",
+        "href": "/windows/",
+        "image": null
+      },
+      {
+        "title": "Decks",
+        "description": "Outdoor living spaces built for everyday use and long-term performance.",
+        "href": "/decks/",
+        "image": null
+      },
+      {
+        "title": "Attic Insulation",
+        "description": "Efficiency upgrades that help stabilize comfort and monthly energy costs.",
+        "href": "/attic-insulation/",
+        "image": null
+      }
+    ]
+  },
+  "offers": {
+    "eyebrow": "Limited time offers",
+    "title": "Flexible ways to protect your home",
+    "description": "",
+    "items": [
+      {
+        "title": "Payments As Low As $47",
+        "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,…",
+        "href": "/offers/payments/",
+        "image": {
+          "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
+          "alt": "Payments As Low As $47"
+        }
+      },
+      {
+        "title": "Flexible 3-Year Financing for Your Home Projects",
+        "description": "Roof King & Restoration in Columbus offers 3-year financing for roofing, windows, gutters, and more. Flexible options for stress-free home…",
+        "href": "/offers/3-year-financing/",
+        "image": {
+          "src": "/media/wordpress/50457341409d-4f12851e-144d-4abc-8f97-9fa7d206db69.jpg",
+          "alt": "Flexible 3-Year Financing for Your Home Projects"
+        }
+      },
+      {
+        "title": "Affordable 5-Year Financing for Your Home Projects",
+        "description": "Roof King & Restoration in Columbus offers 5-year financing for roofing, siding, and home improvement services. Flexible and affordable options…",
+        "href": "/offers/5-year-financing/",
+        "image": {
+          "src": "/media/wordpress/c8b9eeaada2e-7922ff16-ca20-41af-b88a-db02eede803f.jpg",
+          "alt": "Affordable 5-Year Financing for Your Home Projects"
+        }
+      }
+    ]
+  },
+  "proof": {
+    "eyebrow": "Built for confidence",
+    "title": "Respected remodelers and roofing contractors in Ohio",
+    "description": "Roof King & Restoration pairs certified product knowledge with organized project communication, so homeowners know what is happening before, during, and after installation.",
+    "items": [
+      {
+        "title": "Manufacturer options for all budgets",
+        "description": "Choose from proven roofing, siding, gutter, and window materials with clear recommendations for your home."
+      },
+      {
+        "title": "Knowledgeable claim experts",
+        "description": "After storm damage, the team can document conditions and help you understand the next steps."
+      },
+      {
+        "title": "Financing options",
+        "description": "Flexible payment paths make urgent roof and exterior work easier to plan."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Project gallery",
+    "title": "Beautiful new roofing and more in Ohio",
+    "description": "Real exterior remodeling work from homes across the state.",
+    "filters": [
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Featured Projects",
+        "value": "featured-projects"
+      },
+      {
+        "label": "Gutters",
+        "value": "gutters"
+      },
+      {
+        "label": "Roofing",
+        "value": "roofing"
+      },
+      {
+        "label": "Siding",
+        "value": "siding"
+      },
+      {
+        "label": "Storm Damage",
+        "value": "storm-damage"
+      }
+    ],
+    "items": [
+      {
+        "src": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg",
+        "alt": "New shingle roofing installation",
+        "tags": [
+          "siding",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+        "alt": "Completed Ohio roof replacement",
+        "tags": [
+          "roofing",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg",
+        "alt": "Storm restoration roofing project",
+        "tags": [
+          "gutters",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg",
+        "alt": "Residential siding upgrade",
+        "tags": [
+          "storm-damage",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg",
+        "alt": "Roofing project with clean rooflines",
+        "tags": [
+          "storm-damage",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373.jpg",
+        "alt": "Fresh asphalt shingle roof",
+        "tags": [
+          "siding",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+        "alt": "Finished exterior remodeling project",
+        "tags": [
+          "roofing",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+        "alt": "Completed residential roofing project",
+        "tags": [
+          "roofing",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg",
+        "alt": "Roof deck protection installation",
+        "tags": [
+          "gutters",
+          "featured-projects"
+        ]
+      },
+      {
+        "src": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
+        "alt": "Freshly installed shingle roof",
+        "tags": [
+          "storm-damage",
+          "featured-projects"
+        ]
+      }
+    ]
+  },
+  "promo": {
+    "eyebrow": "Certified workmanship",
+    "title": "Skilled professionals ready to help",
+    "description": "Since 2020, the Roof King team has helped homeowners upgrade roofs, siding, gutters, windows, insulation, and decks with products from trusted manufacturers.",
+    "image": {
+      "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+      "alt": "Finished exterior remodeling project"
+    }
+  },
+  "process": {
+    "eyebrow": "Our process",
+    "title": "Exceptional exterior installation process",
+    "description": "A simple path from inspection to finished project.",
+    "items": [
+      {
+        "title": "Consultation and quote",
+        "description": "Share what is happening with your home and get a clear project recommendation.",
+        "image": null
+      },
+      {
+        "title": "Quality workmanship",
+        "description": "Certified crews install the right products with detail-driven preparation and cleanup.",
+        "image": null
+      },
+      {
+        "title": "Final review",
+        "description": "Your project is reviewed for workmanship, performance, and a finished look you can trust.",
+        "image": null
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "Ohio coverage",
+    "title": "Reliable exterior remodeling across Ohio",
+    "description": "From Columbus to Cleveland, Dayton, Cincinnati, Mansfield, and the surrounding communities, Roof King is built to support homeowners across the state.",
+    "image": {
+      "src": "/media/wordpress/485992cdfabe-map.jpg",
+      "alt": "Roof King Ohio service area map"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Testimonials",
+    "title": "Homeowners notice the Roof King standard",
+    "description": "Detailed communication, polished installations, and finished exteriors that feel handled from inspection to final review.",
+    "items": [
+      {
+        "title": "Positive experience",
+        "description": "5/5 Stars - Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering…",
+        "image": null
+      },
+      {
+        "title": "Great Job on my roof!",
+        "description": "5/5 Stars - I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free. I worked…",
+        "image": null
+      },
+      {
+        "title": "Roofing repair",
+        "description": "5/5 Stars - Excellent, very punctual, fair and knowledgeable. Didn't over sell and over delivered.",
+        "image": null
+      }
+    ]
+  },
+  "blogs": {
+    "eyebrow": "Blogs",
+    "title": "Helpful exterior remodeling resources",
+    "description": "",
+    "items": [
+      {
+        "title": "How Much Does a Roof Replacement Cost in Dublin, OH?",
+        "description": "Wondering how much a roof replacement costs in Dublin, OH? Learn what affects roofing costs, material options, insurance considerations, and when replacement…",
+        "href": "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+        "image": {
+          "src": "/media/wordpress/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4.png",
+          "alt": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        }
+      },
+      {
+        "title": "How Long Does a Roof Last in Dublin, OH?",
+        "description": "Wondering how long a roof lasts in Dublin, OH? Learn the lifespan of asphalt shingles, metal roofing, and factors that impact roof…",
+        "href": "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/",
+        "image": {
+          "src": "/media/wordpress/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11.png",
+          "alt": "How Long Does a Roof Last in Dublin, OH?"
+        }
+      },
+      {
+        "title": "How Much Does Roof Repair Cost in Dublin, OH",
+        "description": "Wondering how much roof repair costs in Dublin, OH? Learn what impacts roofing repair costs, common repairs, and when roof replacement may…",
+        "href": "/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/",
+        "image": {
+          "src": "/media/wordpress/4055d2a3cf0c-0a8cff3e-3887-403a-a1c8-e5aed4da80c6.png",
+          "alt": "How Much Does Roof Repair Cost in Dublin, OH"
+        }
+      }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Project transformation",
+    "title": "Before and after",
+    "description": "From roof replacements to siding, windows, and gutters, Roof King delivers exterior upgrades that protect the home and sharpen curb appeal.",
+    "before": {
+      "src": "/media/wordpress/717dd193ee03-before.jpg",
+      "alt": "Roof before replacement"
+    },
+    "after": {
+      "src": "/media/wordpress/6157f73c34cd-after.jpg",
+      "alt": "Roof after replacement"
+    }
+  },
+  "quote": {
+    "eyebrow": "Free estimate",
+    "title": "Ready to start your exterior project?",
+    "description": "Tell the team what you need and Roof King & Restoration will follow up with the next step."
+  }
+}

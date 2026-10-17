@@ -1,0 +1,18 @@
+---
+import { services } from '../data/home.json';
+import site from '../data/site.json';
+import SectionHeading from './SectionHeading.astro';
+---
+<section id="services" class="rk-home-section rk-home-services">
+  <div class="rk-section-inner"><SectionHeading {...services} />
+    <div class="rk-home-services-grid">
+      {services.items.map((service, i) => <a class={`rk-home-service-card rk-service-card-${i + 1}`} href={service.href}>
+        <h3>{service.title}</h3><p>{service.description}</p><strong>Learn More</strong>
+      </a>)}
+      <aside class="rk-home-service-visual rk-home-service-cta" aria-label="Request an exterior services quote">
+        <a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get A Free Quote Now</a>
+        <a class="rk-home-service-phone" href={site.phoneHref}>{site.phone}</a>
+      </aside>
+    </div>
+  </div>
+</section>

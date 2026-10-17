@@ -1,0 +1,8 @@
+---
+interface Props { eyebrow: string; title: string; description?: string; }
+const { eyebrow, title, description } = Astro.props;
+---
+<div class="rk-home-section-header">
+  <p class="rk-home-eyebrow">{eyebrow}</p><h2>{title}</h2>
+  {description && <p>{description}</p>}
+</div>

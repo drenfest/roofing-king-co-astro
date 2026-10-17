@@ -12,7 +12,7 @@ Astro site source. Pages use shared layouts and content collections; Svelte is u
 - `content/` - read its ai-context.md.
 - `data/` - read its ai-context.md.
 - `layouts/` - read its ai-context.md.
-- `pages/` - read its ai-context.md.
+- `pages/` - read its _ai-context.md.
 - `scripts/` - read its ai-context.md.
 - `styles/` - read its ai-context.md.
 

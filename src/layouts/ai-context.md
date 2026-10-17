@@ -1,9 +1,10 @@
 # src/layouts
 
-Shared document shell. SiteLayout.astro owns metadata, temporary imported header/footer and the preview indexing policy.
+DocumentLayout.astro owns the native homepage HTML head, metadata and preview indexing policy. SiteLayout.astro remains the legacy imported-page shell for other routes. Both preserve canonical URLs and noindex until production approval.
 
 ## Files
 
+- `DocumentLayout.astro`
 - `SiteLayout.astro`
 
 ## Subdirectories

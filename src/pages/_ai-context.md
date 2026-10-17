@@ -1,10 +1,11 @@
 # src/pages
 
-Astro routes. [...path].astro generates content routes from permalink frontmatter; 404, robots and the migration review are explicit routes.
+index.astro composes the native homepage. [...path].astro generates all other preserved routes from frontmatter and excludes the root path. 404, robots and migration review are explicit routes. This map is prefixed with an underscore to prevent publication.
 
 ## Files
 
 - `404.astro`
+- `index.astro`
 - `migration-review.astro`
 - `robots.txt.ts`
 - `[...path].astro`

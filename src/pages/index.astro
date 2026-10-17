@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import HomeHero from '../components/HomeHero.astro';
+import HomeTrust from '../components/HomeTrust.astro';
+import HomeServices from '../components/HomeServices.astro';
+import HomeCardSection from '../components/HomeCardSection.astro';
+import HomeConfidence from '../components/HomeConfidence.astro';
+import HomeWorkmanship from '../components/HomeWorkmanship.astro';
+import ProjectGallery from '../components/ProjectGallery.svelte';
+import BeforeAfter from '../components/BeforeAfter.svelte';
+import QuoteExperience from '../components/QuoteExperience.svelte';
+import { gallery, comparison, quote } from '../data/home.json';
+import media from '../data/home-media.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+const page = (await getCollection('pages')).find(page => page.data.permalink === '/')!;
+function photo(image: {src:string;alt:string}) {
+  const dimensions = media[image.src as keyof typeof media];
+  const variants = dimensions?.variants || [];
+  return { ...image, width: dimensions?.width, height: dimensions?.height,
+    thumbnail: (variants.find(v => v.width >= 800) || variants.at(-1))?.src || image.src,
+    srcset: variants.map(v => `${v.src} ${v.width}w`).join(', ') };
+}
+---
+<DocumentLayout title="Roofing and Siding Services in Ohio" description={page.data.description} canonicalPath="/">
+  <SiteHeader client:load />
+  <main id="content" class="rk-site-main">
+    <article class="rk-home" data-homepage-build="astro-components">
+      <HomeHero /><HomeTrust /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
+      <ProjectGallery {...gallery} items={gallery.items.map(image => ({...photo(image), tags:image.tags}))} client:visible />
+      <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
+      <section class="rk-home-before-after rk-before-after-block"><div class="rk-section-inner rk-home-two-col rk-before-after-inner">
+        <div class="rk-home-before-copy"><p class="rk-home-eyebrow">{comparison.eyebrow}</p><h2>{comparison.title}</h2><p>{comparison.description}</p><a class="rk-button rk-button-primary" href="/past-projects/">See Past Projects</a></div>
+        <BeforeAfter before={{...photo(comparison.before),src:photo(comparison.before).thumbnail}} after={{...comparison.after,src:photo(comparison.after).thumbnail}} client:visible />
+      </div></section>
+      <section class="rk-home-final-cta"><div class="rk-section-inner rk-quote-strip-inner">
+        <div><p class="rk-home-eyebrow">{quote.eyebrow}</p><h2>{quote.title}</h2><p>{quote.description}</p></div>
+        <QuoteExperience client:load />
+      </div></section>
+    </article>
+  </main>
+  <SiteFooter />
+</DocumentLayout>

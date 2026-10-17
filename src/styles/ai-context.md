@@ -1,9 +1,12 @@
 # src/styles
 
-Visual reference and migration styling. wordpress-compatibility.css is imported from WordPress; migration.css contains limited bridge fixes.
+Native homepage: base.css contains shared reference design rules; home.css contains homepage section rules; home-interactions.css adds native state, focus, dialogs and mobile fixes. Legacy pages keep wordpress-compatibility.css and migration.css. The homepage must not load compatibility behavior or styles.
 
 ## Files
 
+- `base.css`
+- `home-interactions.css`
+- `home.css`
 - `migration.css`
 - `wordpress-compatibility.css`
 

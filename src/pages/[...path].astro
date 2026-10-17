@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import SiteLayout from '../layouts/SiteLayout.astro';
 export async function getStaticPaths() {
-  return (await getCollection('pages')).map(page => ({
+  return (await getCollection('pages')).filter(page => page.data.permalink !== '/').map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
     props: { page },
   }));

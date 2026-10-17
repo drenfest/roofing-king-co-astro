@@ -1,6 +1,5 @@
 {
   "componentRebuildFirst": [
-    "/",
     "/roofing/"
   ],
   "contentReviewPending": 215,
@@ -119,5 +118,9 @@
     "current offers, reviews and business-claim verification",
     "original HTML converted into reusable Astro/Svelte sections"
   ],
-  "indexing": "Preview remains noindex and robots-disallowed until launch approval"
+  "indexing": "Preview remains noindex and robots-disallowed until launch approval",
+  "nativeComponentRoutes": [
+    "/"
+  ],
+  "homepageFormStatus": "UI built; submission disabled by user direction pending verified delivery."
 }

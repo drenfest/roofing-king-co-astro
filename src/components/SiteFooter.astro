@@ -1,0 +1,16 @@
+---
+import site from '../data/site.json';
+import navigation from '../data/navigation.json';
+---
+<footer class="rk-footer">
+  <div class="rk-section-inner rk-footer-grid">
+    <div class="rk-footer-contact">
+      <a href="/" aria-label={site.name}><img class="rk-footer-logo" src="/media/wordpress/2b1fb60b5770-logo.png" alt={site.name} width="154" height="106" loading="lazy" /></a>
+      <p><strong>Headquarters</strong><br />{site.address.streetAddress}<br />{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}, USA</p>
+      <a class="rk-phone" href={site.phoneHref}>{site.phone}</a>
+      <ul class="rk-social-menu" aria-label="Social links">{navigation.socials.map(social => <li><a class={`rk-social-link rk-social-link-${social.label.toLowerCase()}`} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.label}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d={social.path} /></svg></a></li>)}</ul>
+    </div>
+    {navigation.footer.map(column => <div><p class="rk-footer-heading">{column.title}</p><ul class="rk-footer-menu">{column.links.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul></div>)}
+  </div>
+  <div class="rk-copyright"><div class="rk-section-inner rk-footer-bottom"><span>© 2013 – {new Date().getFullYear()} {site.name}</span></div></div>
+</footer>

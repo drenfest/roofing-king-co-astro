@@ -1,0 +1,26 @@
+---
+import { offers, blogs, reviews } from '../data/home.json';
+import HomeImage from './HomeImage.astro';
+import SectionHeading from './SectionHeading.astro';
+interface Props { kind: 'offers' | 'blogs' | 'reviews'; }
+const { kind } = Astro.props;
+const section = { offers, blogs, reviews }[kind];
+const action = { offers: 'View All Offers', blogs: 'Read All Blogs', reviews: 'Read All Reviews' }[kind];
+const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
+---
+<section class={`rk-home-section rk-home-${kind}`}>
+  <div class="rk-section-inner">
+    {kind === 'offers' ? <div class="rk-home-split-heading"><SectionHeading {...section} /><a class="rk-button rk-button-light" href={href}>{action}</a></div> : <SectionHeading {...section} />}
+    <div class="rk-home-card-row">
+      {section.items.map(card => kind === 'reviews' ? <article class="rk-home-review-card">
+        <div class="rk-stars" aria-label="5 out of 5 stars">★★★★★</div><h3>{card.title}</h3><p>{card.description}</p>
+      </article> : <article class={kind === 'blogs' ? 'rk-blog-card rk-home-blog-card' : 'rk-home-offer-card'}>
+        <a href={'href' in card ? card.href : undefined}>
+          {card.image && <HomeImage {...card.image} sizes="(max-width: 760px) 100vw, 33vw" />}
+          <div class={kind === 'blogs' ? 'rk-blog-card-body' : undefined}><h3>{card.title}</h3><p>{card.description}</p><span class={kind === 'blogs' ? 'rk-blog-card-action' : undefined}>{kind === 'blogs' ? 'Read More' : 'Learn More'}</span></div>
+        </a>
+      </article>)}
+    </div>
+    {kind !== 'offers' && <div class="rk-home-centered-action"><a class="rk-button rk-button-primary" href={href}>{action}</a></div>}
+  </div>
+</section>

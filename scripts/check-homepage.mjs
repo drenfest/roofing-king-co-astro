@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import * as cheerio from 'cheerio';
+const html = await fs.readFile('dist/index.html', 'utf8');
+const $ = cheerio.load(html);
+assert.equal($('[data-homepage-build="astro-components"]').length, 1, 'Homepage must use the native component route.');
+assert.equal($('h1').length, 1);
+assert.equal($('.rk-home-service-card').length, 8);
+assert.equal($('.rk-project-gallery-item').length, 10, 'Gallery images must exist in server-rendered HTML.');
+assert.equal($('.rk-home-faq-stack details').length, 3);
+assert.equal($('dialog').length, 2);
+assert.equal($('.rk-quote-form').length, 2);
+assert.equal($('.rk-quote-form button[type="submit"]:disabled').length, 2, 'Do not enable lead submission before delivery is connected.');
+assert.equal($('.rk-quote-form[method="dialog"]').length, 2, 'Disconnected forms must not leak input into URL query strings without JS.');
+assert.equal($('.rk-before-after-range[aria-label]').length, 1);
+assert.ok($('.rk-home-hero img').attr('srcset'), 'Hero needs responsive image variants.');
+assert.equal($('.rk-home-hero img').attr('fetchpriority'), 'high');
+assert.equal($('main').text().includes('<div class='), false, 'Escaped import markup must never be visible.');
+for (const img of $('main img').toArray()) {
+  assert.ok($(img).attr('width') && $(img).attr('height'), 'Reserve space for ' + $(img).attr('src'));
+}
+for (const label of $('.rk-quote-form label[for]').toArray()) {
+  assert.equal($(`[id="${$(label).attr('for')}"]`).length, 1, 'Form labels must target unique input IDs.');
+}
+const ids = $('[id]').toArray().map(e => $(e).attr('id'));
+assert.equal(ids.length, new Set(ids).size, 'IDs must be unique across inline and modal forms.');
+assert.equal($('meta[name="robots"]').attr('content'), 'noindex, nofollow');
+console.log('Homepage SSR, gallery, image sizing, labels, and disconnected-form checks passed.');

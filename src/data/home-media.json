@@ -1,0 +1,318 @@
+{
+  "/media/wordpress/2b1fb60b5770-logo.png": {
+    "width": 154,
+    "height": 106,
+    "variants": []
+  },
+  "/media/wordpress/a102470cfba2-hero-roofing.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/home/a102470cfba2-hero-roofing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/a102470cfba2-hero-roofing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/home/a102470cfba2-hero-roofing-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/88f26d1d1f40-masterelite.png": {
+    "width": 250,
+    "height": 258,
+    "variants": []
+  },
+  "/media/wordpress/8d8a479c04f7-gafpresident.png": {
+    "width": 250,
+    "height": 250,
+    "variants": []
+  },
+  "/media/wordpress/07fa58d42bb5-icon-google.png": {
+    "width": 100,
+    "height": 100,
+    "variants": []
+  },
+  "/media/wordpress/d93df4e15198-variform.png": {
+    "width": 250,
+    "height": 86,
+    "variants": []
+  },
+  "/media/wordpress/c26640e78e39-lpsmartside.png": {
+    "width": 250,
+    "height": 52,
+    "variants": []
+  },
+  "/media/wordpress/509654d4f5d1-trex.png": {
+    "width": 250,
+    "height": 139,
+    "variants": []
+  },
+  "/media/wordpress/67a6570aea50-jameshardie.png": {
+    "width": 250,
+    "height": 76,
+    "variants": []
+  },
+  "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png": {
+    "width": 507,
+    "height": 292,
+    "variants": [
+      {
+        "src": "/media/home/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/media/wordpress/50457341409d-4f12851e-144d-4abc-8f97-9fa7d206db69.jpg": {
+    "width": 970,
+    "height": 545,
+    "variants": [
+      {
+        "src": "/media/home/50457341409d-4f12851e-144d-4abc-8f97-9fa7d206db69-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/50457341409d-4f12851e-144d-4abc-8f97-9fa7d206db69-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/c8b9eeaada2e-7922ff16-ca20-41af-b88a-db02eede803f.jpg": {
+    "width": 970,
+    "height": 545,
+    "variants": [
+      {
+        "src": "/media/home/c8b9eeaada2e-7922ff16-ca20-41af-b88a-db02eede803f-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/c8b9eeaada2e-7922ff16-ca20-41af-b88a-db02eede803f-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/home/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/485992cdfabe-map.jpg": {
+    "width": 720,
+    "height": 480,
+    "variants": [
+      {
+        "src": "/media/home/485992cdfabe-map-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/media/wordpress/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4.png": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/home/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11.png": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/home/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/4055d2a3cf0c-0a8cff3e-3887-403a-a1c8-e5aed4da80c6.png": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/home/4055d2a3cf0c-0a8cff3e-3887-403a-a1c8-e5aed4da80c6-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/4055d2a3cf0c-0a8cff3e-3887-403a-a1c8-e5aed4da80c6-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/717dd193ee03-before.jpg": {
+    "width": 800,
+    "height": 700,
+    "variants": [
+      {
+        "src": "/media/home/717dd193ee03-before-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/717dd193ee03-before-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/6157f73c34cd-after.jpg": {
+    "width": 800,
+    "height": 700,
+    "variants": [
+      {
+        "src": "/media/home/6157f73c34cd-after-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/home/6157f73c34cd-after-800.webp",
+        "width": 800
+      }
+    ]
+  }
+}
