@@ -468,7 +468,7 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 **Columbus, OH Roofing Company** · wordpress · Native service components
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], TrustStrip [observed], QuoteCTA [observed], BrandStrip [observed], ServiceGrid [observed], FeatureGrid [observed], OfferGrid [observed], ProjectGallery [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.
-- Source evidence: 26 headings; 465 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
+- Source evidence: 26 headings; 492 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
 - Review: Migration H1 sits outside hero; native PageHero should own the visible H1.
 
 #### /roofing/gaf/
@@ -799,10 +799,10 @@ Quote delivery remains deferred, with Jared Lane confirmed as lead owner. Preser
 
 #### /columbus-oh/roofing/
 
-**Columbus, OH Roofing Company** · wordpress · Imported / reconstructed page
+**Columbus Ohio Roofing Services** · wordpress · Imported / reconstructed page
 - Components: SiteChrome [observed], PageHero [observed], Breadcrumbs [observed], ContentSections [observed], FAQSection [proposed], ProjectGallery [observed], QuoteCTA [observed], TrustStrip [observed], BrandStrip [observed], OfferGrid [observed], BeforeAfter [observed], CoverageSection [observed], Testimonials [observed].
 - Page-specific work: Use LocalServicePage with this route’s specific service intent. Preserve its detailed local copy and FAQs; add only verified project/review evidence for that service and location.
-- Source evidence: 21 headings; 487 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
+- Source evidence: 21 headings; 513 approximate body words after shared-section removal; WordPress blocks: roofkingco/page-hero, roofkingco/breadcrumbs, core/html, roofkingco/trusted-brands, roofkingco/offers, roofkingco/project-gallery, roofkingco/before-after, roofkingco/coverage-map, roofkingco/reviews.
 
 #### /columbus-oh/storm-damage/
 

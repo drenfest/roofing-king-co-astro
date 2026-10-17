@@ -5,7 +5,7 @@
     "hero": {
       "eyebrow": "Roof King",
       "title": "Columbus, OH Roofing Company",
-      "description": "Looking for an experienced roofing company in Columbus? Search no further than our experts at Roof King & Restoration. Get a free quote from our team today.",
+      "description": "Meet Roof King & Restoration, a Columbus, OH roofing company. Explore our team, roofing materials, installation approach and warranty information.",
       "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
       "booking": {
         "eyebrow": "Next step",
@@ -54,7 +54,7 @@
                 "tag": "h2",
                 "children": [
                   {
-                    "text": "Columbus, OH Roofing Company"
+                    "text": "Meet your Columbus roofing team"
                   }
                 ]
               },
@@ -65,7 +65,7 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "With quality roofing services available for all types of homes, our expert Columbus roofing contractors at Roof King & Restoration are here to help."
+                    "text": "Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the scope of work for your home."
                   }
                 ]
               },
@@ -79,6 +79,26 @@
           },
           {
             "text": "\n    "
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Need help choosing your next step? Explore "
+              },
+              {
+                "tag": "a",
+                "href": "/columbus-oh/roofing/",
+                "children": [
+                  {
+                    "text": "Columbus Ohio roofing services"
+                  }
+                ]
+              },
+              {
+                "text": " for inspection, repair and replacement guidance."
+              }
+            ]
           }
         ],
         "cards": [

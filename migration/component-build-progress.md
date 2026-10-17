@@ -47,3 +47,7 @@ The sidebar ServiceGuide was rejected by the user and removed. Cleveland now has
 ## Selectable brand strip — 2026-10-17
 
 BrandSection now uses `brandIds` in place of embedded logo items. The shared library includes all nine brand/product-line names found on the site, with authentic sized logos. Home and Products show the full mix; material groups select relevant names. Roofing currently names GAF in the inspected sources, including the live metal page. Ply Gem, Alu-Rex and LeafFilter have internal overviews, with T-Rex correctly linked to Alu-Rex. See brand-inventory.md for evidence. Logos preserve intrinsic proportions, and original certification marks remain in TrustStrip.
+
+## Columbus page focus — 2026-10-17
+
+`/roofing/` targets “Columbus, OH Roofing Company” through its title, H1 and company-oriented introduction. `/columbus-oh/roofing/` targets “Columbus Ohio Roofing Services” through its title, H1, service-oriented introduction and repair/replacement headings. Reciprocal contextual links distinguish the company overview from local service guidance; the native location-menu label says Columbus Roofing Services. Both existing URLs retain their own canonical. The local page remains on its imported layout pending component migration; HTML indentation was normalized so its breadcrumbs and content render as HTML rather than Markdown code blocks. This establishes an editorial distinction, not a claim of measured ranking changes.

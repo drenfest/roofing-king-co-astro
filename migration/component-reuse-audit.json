@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:52:16.123Z",
+  "generatedAt": "2026-10-17T20:55:34.895Z",
   "scope": "All protected source records and authored product-pillar routes are included. Product navigation and logical breadcrumbs now distinguish materials from services. Page-by-page visual approval remains pending. No live crawl, URL deletion, redirect or existing canonical change performed.",
   "totalRoutes": 244,
   "canonicalTargets": 231,
@@ -12667,15 +12667,15 @@
       "canonicalPath": "/columbus-oh/roofing/",
       "notes": [],
       "words": 852,
-      "title": "Columbus, OH Roofing Company",
+      "title": "Columbus Ohio Roofing Services",
       "category": "Local service",
       "family": "local-services",
-      "primaryWords": 487,
-      "primaryExcerpt": "Exterior Services Columbus, OH Roofing Company Need assistance with your roof? Get started on your Columbus, OH roof remodel with a free quote from the professional roofers at Roof King & Restoration! Tackling your roofing project can seem like a headache without the right support. At Roof King & Restoration, we strive to provide friendly, knowledgeable, and courteous service to homeowners in Columbus, OH. Our BBB-accredited and A+ rated roofing company can help you achieve your home improvement goals using the highest quality products and services in the industry. Work with our team for the f",
+      "primaryWords": 513,
+      "primaryExcerpt": "Exterior Services Roof inspections, repairs and replacement in Columbus Find the roofing service that fits your Columbus home: start with an inspection, address roof damage or plan a replacement. Use this page to compare the work involved and decide on your next step.Looking for our team, installation approach and warranty overview? Meet your Columbus, OH roofing company. Tackling your roofing project can seem like a headache without the right support. At Roof King & Restoration, we strive to provide friendly, knowledgeable, and courteous service to homeowners in Columbus, OH. Our BBB-accredit",
       "headings": [
         {
           "level": 1,
-          "text": "Reputable, Local Roofing Business in Columbus"
+          "text": "Columbus Ohio Roofing Services"
         },
         {
           "level": 2,
@@ -12687,19 +12687,19 @@
         },
         {
           "level": 2,
-          "text": "Columbus, OH Roofing Company"
+          "text": "Roof inspections, repairs and replacement in Columbus"
         },
         {
           "level": 2,
-          "text": "Expert Repairs for Your Roof"
+          "text": "Roof repair services in Columbus"
         },
         {
           "level": 2,
-          "text": "Lasting Roof Replacement in Columbus"
+          "text": "Roof replacement services in Columbus"
         },
         {
           "level": 2,
-          "text": "Expertise in Various Roofing Systems"
+          "text": "Roofing materials for your Columbus project"
         },
         {
           "level": 2,
@@ -12852,7 +12852,7 @@
       ],
       "issues": [],
       "note": "Use LocalServicePage with this route’s specific service intent. Preserve its detailed local copy and FAQs; add only verified project/review evidence for that service and location.",
-      "bodyHash": "5d46f30d80087f0e1197827a3f3c567b655cc5d300febe8ed2ee2a8d07b4a9c8",
+      "bodyHash": "13416c70660612e2d25814951ac0baa3b7fa37f0449523363d0940b8d6821d53",
       "nativeStatus": "Imported / reconstructed page",
       "role": "Supporting / purpose-specific",
       "reviewStatus": "Source audited; visual approval pending"
@@ -28647,8 +28647,8 @@
       "title": "Columbus, OH Roofing Company",
       "category": "Service hub",
       "family": "services",
-      "primaryWords": 465,
-      "primaryExcerpt": "Columbus, OH Roofing Company Exterior Services Columbus, OH Roofing Company With quality roofing services available for all types of homes, our expert Columbus roofing contractors at Roof King & Restoration are here to help. Roof Repairs No damage is too severe for our team. We’ll make sure that you have the reliable repair services you need to restore your home after a damaging storm. Learn More Roof Replacements Whether you have a severely outdated roof or damage was too much to repair, our competent roof installation team will be able to get your home back up and running. Learn More Roofing",
+      "primaryWords": 492,
+      "primaryExcerpt": "Columbus, OH Roofing Company Exterior Services Meet your Columbus roofing team Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the scope of work for your home.Need help choosing your next step? Explore Columbus Ohio roofing services for inspection, repair and replacement guidance. Roof Repairs No damage is too severe for our team. We’ll make sure that you have the reliable repair services you need to restore your home after a damaging storm. Learn Mor",
       "headings": [
         {
           "level": 1,
@@ -28664,7 +28664,7 @@
         },
         {
           "level": 2,
-          "text": "Columbus, OH Roofing Company"
+          "text": "Meet your Columbus roofing team"
         },
         {
           "level": 3,
@@ -28858,7 +28858,7 @@
         "Migration H1 sits outside hero; native PageHero should own the visible H1."
       ],
       "note": "Build this first as the ServicePage pilot: repair/replacement/type links, feature content, offers, gallery and transformation. Use it to prove the shared components.",
-      "bodyHash": "012fbe609430ff26a179394270ad7a0ef9457a79ad2894cc166cb556a2f2e0ba",
+      "bodyHash": "02d5d7c7f5e092ced0d9101fbf976e87be2d572a6c12f4ef62310092a9f481a7",
       "nativeStatus": "Native service components",
       "role": "Primary candidate",
       "reviewStatus": "Source audited; visual approval pending"

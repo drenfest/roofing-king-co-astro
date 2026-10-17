@@ -1,15 +1,19 @@
 ---
-title: "Columbus, OH Roofing Company"
-permalink: "/roofing/"
-description: "Looking for an experienced roofing company in Columbus? Search no further than our experts at Roof King & Restoration. Get a free quote from our team today."
-canonicalPath: "/roofing/"
-category: "Service hub"
-source: "wordpress"
-sourcePath: "/roofing/"
+title: Columbus, OH Roofing Company
+permalink: /roofing/
+description: Meet Roof King & Restoration, a Columbus, OH roofing company.
+  Explore our team, roofing materials, installation approach and warranty
+  information.
+canonicalPath: /roofing/
+category: Service hub
+source: wordpress
+sourcePath: /roofing/
 wordpressId: 54
-reviewStatus: "imported-needs-review"
-notes: []
-priority: "first-component-rebuild"
+reviewStatus: imported-needs-review
+notes:
+  - "Editorial intent: Columbus, OH roofing company overview; location-specific
+    service guidance belongs at /columbus-oh/roofing/."
+priority: first-component-rebuild
 ---
 
 <h1 class="rk-migration-title">Columbus, OH Roofing Company</h1>
@@ -18,7 +22,7 @@ priority: "first-component-rebuild"
         <div class="rk-section-inner rk-home-hero-grid">
             <div class="rk-home-hero-copy">
                                     <p class="rk-home-eyebrow">Roof King</p>
-                                                                    <p>Looking for an experienced roofing company in Columbus? Search no further than our experts at Roof King &amp; Restoration. Get a free quote from our team today.</p>
+                                                                    <p>Meet Roof King & Restoration, a Columbus, OH roofing company. Explore our team, roofing materials, installation approach and warranty information.</p>
                             </div>
                             <aside class="rk-home-hero-card" aria-label="Page call to action">
                                             <p class="rk-home-card-kicker">Next step</p>
@@ -73,8 +77,8 @@ priority: "first-component-rebuild"
     <div class="rk-section-inner">
       <div class="rk-page-section-heading">
         <p class="rk-home-eyebrow">Exterior Services</p>
-        <h2>Columbus, OH Roofing Company</h2>
-        <p>With quality roofing services available for all types of homes, our expert Columbus roofing contractors at Roof King &amp; Restoration are here to help.</p>
+        <h2>Meet your Columbus roofing team</h2>
+        <p>Roof King & Restoration is a Columbus, OH roofing company helping homeowners plan repairs and replacement. Explore our roofing approach, material options and warranty information, then discuss the scope of work for your home.</p><p>Need help choosing your next step? Explore <a href="/columbus-oh/roofing/">Columbus Ohio roofing services</a> for inspection, repair and replacement guidance.</p>
       </div>
       <div class="rk-page-service-grid"><a class="rk-page-service-card" href="/roofing/repair/">
               <span class="rk-card-rule" aria-hidden="true"></span>
