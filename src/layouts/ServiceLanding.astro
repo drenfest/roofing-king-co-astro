@@ -6,6 +6,7 @@ import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
 import ServicePaths from '../components/ServicePaths.astro';
+import CredentialsSection from '../components/CredentialsSection.astro';
 import ReviewSection from '../components/ReviewSection.astro';
 import ProjectShowcase from '../components/ProjectShowcase.astro';
 import ProcessSteps from '../components/ProcessSteps.astro';
@@ -33,7 +34,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
     <ServicePaths section={data.services as ServicePathsData}/>
     <ReviewSection section={data.reviews}/>
-    <section class="rk-landing-section rk-landing-credentials" aria-labelledby="roofing-credentials-title"><div class="rk-section-inner"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.credentials.eyebrow}</p><h2 id="roofing-credentials-title">{data.credentials.title}</h2></div><div class="rk-landing-credential-list">{data.credentials.items.map(item=><article><span class="rk-credential-mark" aria-hidden="true">{item.mark}</span><h3>{item.title}</h3><p>{item.description}</p><a href={item.href}>{item.label} <span aria-hidden="true">↗</span></a></article>)}</div><p class="rk-landing-small">{data.credentials.note}</p><p class="rk-landing-small"><a href="/roofing/gaf/">Explore GAF roofing and warranty options</a> · <a href="/roofing/gaf/master-elite/">About our Master Elite certification</a></p></div></section>
+    <CredentialsSection section={data.credentials}/>
     <section id="roofing-materials" class="rk-landing-section rk-landing-materials" aria-labelledby="roofing-materials-title"><div class="rk-section-inner"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.materials.eyebrow}</p><h2 id="roofing-materials-title">{data.materials.title}</h2><p>{data.materials.description}</p></div><div class="rk-landing-material-grid">{data.materials.items.map(item=><article><a class="rk-material-photo" href={item.href} aria-label={item.label}><HomeImage {...item.image} sizes="(max-width:760px) 100vw, 50vw"/></a><h3>{item.title}</h3><p>{item.description}</p><div class="rk-material-links"><a href={item.href}>{item.label} <span aria-hidden="true">→</span></a><a href={item.relatedHref}>{item.relatedLabel} <span aria-hidden="true">↗</span></a></div></article>)}</div></div></section>
     <BrandStrip {brands}/>
     <ProjectShowcase section={data.projects}/>
