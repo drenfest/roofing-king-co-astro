@@ -1,0 +1,8 @@
+---
+import type {ProductPresentation} from '../data/product-types';
+interface Props {product:ProductPresentation;}
+const {product}=Astro.props;
+---
+<p>Manufacturer-listed performance and nominal dimensions. Wind and impact test classes describe laboratory testing; warranty coverage has separate terms.</p>
+<dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}{spec.note && <small>{spec.note}</small>}{spec.sourceUrl && <a class="rk-product-spec-reference" href={spec.sourceUrl} target="_blank" rel="noopener noreferrer">Source reference ↗</a>}</dd></div>)}</dl>
+{product.documents.map(doc=><a class="rk-product-document" href={doc.url} target="_blank" rel="noopener noreferrer">{doc.label} (PDF) ↗</a>)}

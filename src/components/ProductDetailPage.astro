@@ -6,15 +6,27 @@ import site from '../data/site.json';
 import ProductLayout from '../layouts/ProductLayout.astro';
 import ProductCard from './ProductCard.astro';
 import ProductCompanions from './ProductCompanions.astro';
+import ProductTabs from './ProductTabs.svelte';
+import ProductWarranty from './ProductWarranty.astro';
+import ProductSpecifications from './ProductSpecifications.astro';
+import companions from '../data/product-companions.json';
 interface Props {page:CollectionEntry<'pages'>;data:ProductDetailData;}
 const {page,data}=Astro.props;
 const product=(catalog as Record<string,ProductPresentation>)[data.key];
+const hasCompanions=companions.productIds.includes(product.id);
+const tabs=[{id:'warranty',label:'Warranty & Protection'},{id:'specifications',label:'Product Specifications'},...(hasCompanions?[{id:'roof-system',label:'Companion Products'}]:[])];
 const color=product.colors.find(c=>c.id===product.defaultColorId)!;
 const schema={'@context':'https://schema.org','@type':'Product',name:data.title,description:data.description,brand:{'@type':'Brand',name:'GAF'},image:new URL(color.image.src,site.url).href,url:new URL(page.data.permalink,site.url).href};
 ---
 <ProductLayout {page} heading={`${data.title} Roofing Shingles`} eyebrow="GAF product details" copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
   <section class="rk-section-inner rk-product-detail-section" aria-label={`${data.title} colors and details`}><ProductCard item={{title:data.title,body:data.body}} {product} detail/></section>
-  <ProductCompanions productId={product.id}/>
+  <section class="rk-product-information" aria-label="Product information and companion products">
+    <div class="rk-section-inner"><ProductTabs {tabs} client:load>
+      <section id="warranty" data-product-panel class="rk-product-tab-panel rk-product-details"><h2>Warranty &amp; Protection</h2><ProductWarranty {product}/></section>
+      <section id="specifications" data-product-panel class="rk-product-tab-panel rk-product-details"><h2>Product Specifications</h2><ProductSpecifications {product}/></section>
+      {hasCompanions && <section id="roof-system" data-product-panel class="rk-product-tab-panel"><ProductCompanions productId={product.id}/></section>}
+    </ProductTabs></div>
+  </section>
   <section class="rk-section-inner rk-product-hub-guidance"><h2>Plan your complete roofing system.</h2><p>Confirm color availability, physical samples, roof design, installation requirements and applicable warranty terms with Roof King.</p><div><article><h3>Compare the range</h3><a href="/roofing/gaf/types/">Back to GAF Shingles →</a></article><article><h3>Plan the work</h3><a href="/roofing/replacement/">Explore Roof Replacement →</a></article><article><h3>Talk about your home</h3><a href="/contact-us/">Discuss Your Project →</a></article></div></section>
 </ProductLayout>

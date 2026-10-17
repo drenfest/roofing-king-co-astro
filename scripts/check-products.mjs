@@ -67,7 +67,10 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.deepEqual(breadcrumbs.itemListElement.map(i=>i.name),labels);
   assert.equal(schemas.find(s=>s['@type']==='Product').name,data.title);
   assert.equal(schemas.find(s=>s['@type']==='Product').offers,undefined);
-  assert.equal(detail('.rk-product-details details').length,2);
+  assert.equal(detail('.rk-product-details details').length,0);
+  assert.equal(detail('[data-product-panel]').length,data.key==='Timberline HDZ'?3:2);
+  assert.equal(detail('#specifications dl > div').length,catalog[data.key].specs.length);
+  assert.equal(detail('.rk-product-tab-nav a').length,data.key==='Timberline HDZ'?3:2);
   assert.equal(detail('.rk-product-photo .rk-product-badge').length,4);
   const record=catalog[data.key];
   assert.equal(detail('[data-component=ProductCompanions]').length,record.id==='timberline-hdz'?1:0,'Pairings require an explicit reviewed mapping.');

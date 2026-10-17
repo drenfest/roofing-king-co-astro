@@ -4,7 +4,7 @@ interface Props { productId:string; }
 const {productId}=Astro.props;
 const eligible=companions.productIds.includes(productId);
 ---
-{eligible && <section class="rk-product-companions" id="roof-system" aria-labelledby="roof-system-title" data-component="ProductCompanions">
+{eligible && <section class="rk-product-companions" aria-labelledby="roof-system-title" data-component="ProductCompanions">
   <div class="rk-section-inner">
     <p class="rk-home-eyebrow">Better together · Timberline HDZ roofing system</p>
     <h2 id="roof-system-title">{companions.title}</h2>

@@ -120,3 +120,25 @@
 .rk-companion-notes { padding:1.5rem;background:#183c2a;color:#fff;border-radius:10px;line-height:1.75; }
 .rk-companion-notes h3 { margin-top:0;font-size:1.4rem; }
 .rk-companion-notes a { color:#ffbe75; }
+
+/* Detail overview: single color island spans the photograph and right-hand controls. */
+.rk-product-card-detail { grid-template-rows:auto auto auto auto 1fr;grid-template-areas:'photo heading' 'photo copy' 'photo caption' 'photo swatches' 'photo source'; }
+.rk-product-card-detail .rk-product-visual,.rk-product-card-detail .rk-product-options { display:contents; }
+.rk-product-card-detail .rk-product-photo { grid-area:photo;align-self:start; }
+.rk-product-card-detail .rk-product-color-caption { grid-area:caption;padding-top:.5rem; }
+.rk-product-card-detail .rk-product-swatches { grid-area:swatches;align-self:start; }
+.rk-product-card-detail .rk-product-source { align-self:start; }
+.rk-product-information { width:100%;background:#f5f5ef;border-block:1px solid #d8dfd2;margin-bottom:3rem;padding:2rem 0; }
+.rk-product-tab-nav { display:flex;gap:.4rem;flex-wrap:wrap;border-bottom:2px solid #183c2a; }
+.rk-product-tab-nav a { padding:1rem 1.5rem;color:#183c2a;text-decoration:none;font-weight:700;border-radius:8px 8px 0 0;background:#e7eadf; }
+.rk-product-tab-nav a[aria-selected=true] { color:#fff;background:#183c2a; }
+.rk-product-tab-nav a:focus-visible,.rk-product-tab-panel:focus-visible { outline:3px solid #ca5805;outline-offset:3px; }
+.rk-product-tab-panel { padding:2rem 0;scroll-margin-top:120px;line-height:1.75; }
+.rk-product-tab-panel[hidden] { display:none; }
+.rk-product-tab-panel h2 { font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.2; }
+.rk-product-tab-panel.rk-product-details { border:0; }
+.rk-product-tab-panel.rk-product-details dl > div { grid-template-columns:minmax(150px,1fr) 3fr; }
+.rk-product-tab-panel.rk-product-details dd small { max-width:850px; }
+.rk-product-tab-panel .rk-product-companions { padding:0;border:0;background:transparent; }
+.rk-product-tab-panel .rk-product-companions > .rk-section-inner { width:100%;max-width:none;padding:0;margin:0; }
+@media(max-width:700px){.rk-product-card-detail{display:grid;grid-template-columns:1fr;grid-template-rows:auto;grid-template-areas:'heading' 'copy' 'photo' 'caption' 'swatches' 'source';}.rk-product-card-detail .rk-product-photo{width:100%;}.rk-product-tab-nav{gap:.25rem;}.rk-product-tab-nav a{padding:.8rem;font-size:.82rem;flex:1;text-align:center;}.rk-product-tab-panel.rk-product-details dl > div{grid-template-columns:1fr;gap:.3rem;}}

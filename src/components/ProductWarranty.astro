@@ -1,0 +1,8 @@
+---
+import type {ProductPresentation} from '../data/product-types';
+interface Props {product:ProductPresentation;}
+const {product}=Astro.props;
+---
+<p>Manufacturer-listed coverage options:</p><ul>{product.warrantyLabels.map(label=><li>{label}</li>)}</ul>
+<p>Eligibility, coverage and exclusions depend on the product, labeling, installed system and applicable warranty terms.</p>
+<a href="https://www.gaf.com/en-us/resources/warranties/residential" target="_blank" rel="noopener noreferrer">Read GAF warranty terms ↗</a>
