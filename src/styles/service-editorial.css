@@ -1,0 +1,16 @@
+/* Shared editorial service composition; /roofing/ retains its approved template. */
+.rk-polished-service .rk-landing-hero-copy h1{font-size:clamp(2.05rem,4vw,3.6rem);max-width:20ch;}
+.rk-polished-service .rk-landing-hero-photo{min-width:0;}
+.rk-polished-service .rk-service-detail>h3{max-width:30ch;}
+.rk-polished-service .rk-service-detail .rk-button{white-space:normal;}
+.rk-polished-service .rk-media-content-row{padding-block:clamp(4rem,6vw,6rem);background:linear-gradient(108deg,#fcfbf7 0 63%,#f3efe5 63%);}
+.rk-polished-service .rk-media-content-row .rk-service-prose h2{font-size:clamp(1.8rem,3vw,2.7rem);}
+.rk-polished-service .rk-media-content-row img{aspect-ratio:4/3;object-fit:cover;}
+.rk-polished-service .rk-service-faq{position:relative;overflow:hidden;isolation:isolate;}
+.rk-polished-service .rk-service-faq::before{content:'';position:absolute;inset:auto auto -6rem -6rem;width:28rem;height:25rem;transform:rotate(-22deg);background:var(--rk-logo-crown) center/contain no-repeat;opacity:.045;z-index:-1;pointer-events:none;}
+.rk-polished-service .rk-service-faq .rk-heading-accent{display:none;}
+.rk-polished-service .rk-project-showcase-grid:has(>figure:only-child){grid-template-columns:1fr;max-width:850px;margin-inline:auto;}
+.rk-polished-service .rk-budget-financing h3{font-size:clamp(1.3rem,2vw,1.8rem);}
+.rk-editorial-estimator{padding-block:2rem 4rem;}
+@media(max-width:760px){.rk-polished-service .rk-landing-hero-copy h1{font-size:clamp(2rem,8vw,2.7rem);max-width:none;}.rk-polished-service .rk-landing-hero-grid{gap:2rem;}.rk-polished-service .rk-landing-trust>.rk-section-inner{grid-template-columns:1fr;}.rk-polished-service .rk-landing-trust a+a{border-left:0;border-top:1px solid #e3e5db;}.rk-polished-service .rk-media-content-row{background:#fcfbf7;}.rk-polished-service .rk-service-faq::before{width:20rem;height:18rem;}.rk-polished-service .rk-budget-checks{grid-template-columns:1fr;}}
+@media(prefers-reduced-motion:reduce){.rk-polished-service *{scroll-behavior:auto;}}

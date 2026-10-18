@@ -120,7 +120,8 @@ for(const [id,brand]of Object.entries(brandLibrary)){
   assert.equal(meta.width,brand.image.width);assert.equal(meta.height,brand.image.height);
   assert.equal(homeBrands('[data-brand-id="'+id+'"]').attr('href'),brandPages[brand.pageKey]);
 }
-const selections=[['/',home.brands],...Object.entries(services).flatMap(([path,page])=>page.sections.filter(s=>s.type==='brands').map(s=>[path,s])),...Object.entries(hubs).filter(([path,hub])=>hub.brands).map(([path,hub])=>[path,hub.brands])];
+const editorial=JSON.parse(await fs.readFile('src/data/service-editorial.json','utf8'));
+const selections=[['/',home.brands],...Object.entries(editorial).filter(([path,data])=>!data.reference).map(([path,data])=>[path,{brandIds:data.brandIds}]),...Object.entries(services).filter(([path])=>!editorial[path]||editorial[path].reference).flatMap(([path,page])=>page.sections.filter(s=>s.type==='brands').map(s=>[path,s])),...Object.entries(hubs).filter(([path,hub])=>hub.brands).map(([path,hub])=>[path,hub.brands])];
 for(const [path,section]of selections){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.deepEqual(page('.rk-block-trusted-brands [data-brand-id]').map((i,e)=>page(e).attr('data-brand-id')).get(),section.brandIds);for(const id of section.brandIds){assert.ok(brandLibrary[id]);assert.ok(page('[data-brand-id="'+id+'"] img[width][height]').length);}}
 assert.deepEqual(services['/cleveland-oh/roofing/'].sections.find(s=>s.type==='brands').brandIds,['gaf']);
 console.log('Per-page brand selections, homepage mix, roofing-only GAF and sized brand images passed.');

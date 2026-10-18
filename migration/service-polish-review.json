@@ -1,0 +1,1464 @@
+{
+  "date": "2026-10-17",
+  "reference": "/roofing/",
+  "count": 84,
+  "pages": [
+    {
+      "path": "/akron-oh/",
+      "title": "Roofing & Exterior Services in Akron, OH",
+      "family": "local",
+      "city": "Akron",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1153,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/akron-oh/index.md"
+    },
+    {
+      "path": "/athens-oh/",
+      "title": "Roofing & Exterior Services in Athens, OH",
+      "family": "local",
+      "city": "Athens",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/athens-oh/index.md"
+    },
+    {
+      "path": "/attic-insulation/",
+      "title": "Attic Insulation in Columbus, OH",
+      "family": "insulation",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 0,
+      "words": 1065,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/attic-insulation/index.md"
+    },
+    {
+      "path": "/aurora-oh/",
+      "title": "Roofing & Exterior Services in Aurora, OH",
+      "family": "local",
+      "city": "Aurora",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1137,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/aurora-oh/index.md"
+    },
+    {
+      "path": "/beavercreek-oh/",
+      "title": "Roofing & Exterior Services in Beavercreek, OH",
+      "family": "local",
+      "city": "Beavercreek",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/beavercreek-oh/index.md"
+    },
+    {
+      "path": "/centerville-oh/",
+      "title": "Roofing & Exterior Services in Centerville, OH",
+      "family": "local",
+      "city": "Centerville",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/centerville-oh/index.md"
+    },
+    {
+      "path": "/cincinnati-oh/",
+      "title": "Roofing & Exterior Services in Cincinnati, OH",
+      "family": "local",
+      "city": "Cincinnati",
+      "reference": false,
+      "topics": 5,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1260,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cincinnati-oh/index.md"
+    },
+    {
+      "path": "/cincinnati-oh/roofing/",
+      "title": "Residential Roofing Services in Cincinnati, OH",
+      "family": "roofing-local",
+      "city": "Cincinnati",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1157,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cincinnati-oh/roofing/index.md"
+    },
+    {
+      "path": "/cincinnati-oh/storm-damage/",
+      "title": "Storm Damage Restoration in Cincinnati, OH",
+      "family": "storm",
+      "city": "Cincinnati",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1276,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cincinnati-oh/storm-damage/index.md"
+    },
+    {
+      "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "title": "Siding Replacement Costs in Cincinnati, OH",
+      "family": "siding-cost",
+      "city": "Cincinnati",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cincinnati-oh/the-cost-of-siding-replacement/index.md"
+    },
+    {
+      "path": "/cleveland-oh/",
+      "title": "Roofing & Exterior Services in Cleveland, OH",
+      "family": "local",
+      "city": "Cleveland",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1206,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cleveland-oh/index.md"
+    },
+    {
+      "path": "/cleveland-oh/roofing/",
+      "title": "Residential Roofing Services in Cleveland, OH",
+      "family": "roofing-local",
+      "city": "Cleveland",
+      "reference": false,
+      "topics": 5,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1196,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cleveland-oh/roofing/index.md"
+    },
+    {
+      "path": "/cleveland-oh/roofing/cost-of-replacement/",
+      "title": "Roof Replacement Costs in Cleveland, OH",
+      "family": "roof-cost",
+      "city": "Cleveland",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1160,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cleveland-oh/roofing/cost-of-replacement/index.md"
+    },
+    {
+      "path": "/cleveland-oh/storm-damage/",
+      "title": "Storm Damage Restoration in Cleveland, OH",
+      "family": "storm",
+      "city": "Cleveland",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1268,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cleveland-oh/storm-damage/index.md"
+    },
+    {
+      "path": "/columbus-oh/",
+      "title": "Roofing & Exterior Services in Columbus, OH",
+      "family": "local",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1214,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/columbus-oh/index.md"
+    },
+    {
+      "path": "/columbus-oh/roofing/",
+      "title": "Residential Roofing Services in Columbus, OH",
+      "family": "roofing-local",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1157,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/columbus-oh/roofing/index.md"
+    },
+    {
+      "path": "/columbus-oh/storm-damage/",
+      "title": "Storm Damage Restoration in Columbus, OH",
+      "family": "storm",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1276,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/columbus-oh/storm-damage/index.md"
+    },
+    {
+      "path": "/commercial-roofing/",
+      "title": "Commercial Roofing in Columbus, OH",
+      "family": "commercial",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 2,
+      "words": 1221,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-roofing/index.md"
+    },
+    {
+      "path": "/commercial-roofing/gutters/",
+      "title": "Commercial Gutters in Columbus, OH",
+      "family": "commercial-gutters",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1199,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-roofing/gutters/index.md"
+    },
+    {
+      "path": "/commercial-roofing/repair/",
+      "title": "Commercial Roof Repair in Columbus, OH",
+      "family": "commercial-repair",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 2,
+      "words": 1087,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-roofing/repair/index.md"
+    },
+    {
+      "path": "/commercial-roofing/replacement/",
+      "title": "Commercial Roof Replacement in Columbus, OH",
+      "family": "commercial-replacement",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 2,
+      "words": 1081,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-roofing/replacement/index.md"
+    },
+    {
+      "path": "/commercial-roofing/roof-types/",
+      "title": "Commercial Roof Systems in Columbus, OH",
+      "family": "commercial-types",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 2,
+      "words": 1076,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-roofing/roof-types/index.md"
+    },
+    {
+      "path": "/commercial-siding/",
+      "title": "Commercial Siding in Columbus, OH",
+      "family": "commercial-siding",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ],
+      "photos": 2,
+      "words": 1152,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/commercial-siding/index.md"
+    },
+    {
+      "path": "/cost-of-a-new-roof/",
+      "title": "What Goes Into the Cost of a New Roof?",
+      "family": "roof-cost",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1152,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/cost-of-a-new-roof/index.md"
+    },
+    {
+      "path": "/dayton-oh/",
+      "title": "Roofing & Exterior Services in Dayton, OH",
+      "family": "local",
+      "city": "Dayton",
+      "reference": false,
+      "topics": 5,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1242,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dayton-oh/index.md"
+    },
+    {
+      "path": "/dayton-oh/roofing/",
+      "title": "Residential Roofing Services in Dayton, OH",
+      "family": "roofing-local",
+      "city": "Dayton",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1137,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dayton-oh/roofing/index.md"
+    },
+    {
+      "path": "/dayton-oh/storm-damage/",
+      "title": "Storm Damage Restoration in Dayton, OH",
+      "family": "storm",
+      "city": "Dayton",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1256,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dayton-oh/storm-damage/index.md"
+    },
+    {
+      "path": "/dayton-oh/the-cost-of-new-gutters/",
+      "title": "Gutter Replacement Costs in Dayton, OH",
+      "family": "gutter-cost",
+      "city": "Dayton",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1102,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dayton-oh/the-cost-of-new-gutters/index.md"
+    },
+    {
+      "path": "/dayton-roofers/",
+      "title": "Roofing Contractors Serving Dayton, OH",
+      "family": "roofing-local",
+      "city": "Dayton",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1152,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dayton-roofers/index.md"
+    },
+    {
+      "path": "/decks/",
+      "title": "Deck Services in Columbus, OH",
+      "family": "decks",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 6,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1260,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/index.md"
+    },
+    {
+      "path": "/decks/accessories/",
+      "title": "Deck Accessories in Columbus, OH",
+      "family": "deck-accessories",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1065,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/accessories/index.md"
+    },
+    {
+      "path": "/decks/installations/",
+      "title": "Deck Installation in Columbus, OH",
+      "family": "deck-install",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1108,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/installations/index.md"
+    },
+    {
+      "path": "/decks/refinishing/",
+      "title": "Deck Refinishing in Columbus, OH",
+      "family": "deck-refinish",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1112,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/refinishing/index.md"
+    },
+    {
+      "path": "/decks/repairs/",
+      "title": "Deck Repair in Columbus, OH",
+      "family": "deck-repair",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1077,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/repairs/index.md"
+    },
+    {
+      "path": "/decks/replacements/",
+      "title": "Deck Replacement in Columbus, OH",
+      "family": "deck-replace",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "trex"
+      ],
+      "photos": 0,
+      "words": 1086,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/decks/replacements/index.md"
+    },
+    {
+      "path": "/delaware-oh/",
+      "title": "Roofing & Exterior Services in Delaware, OH",
+      "family": "local",
+      "city": "Delaware",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1202,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/delaware-oh/index.md"
+    },
+    {
+      "path": "/delaware-oh/roofing/",
+      "title": "Residential Roofing Services in Delaware, OH",
+      "family": "roofing-local",
+      "city": "Delaware",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1145,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/delaware-oh/roofing/index.md"
+    },
+    {
+      "path": "/delaware-oh/storm-damage/",
+      "title": "Storm Damage Restoration in Delaware, OH",
+      "family": "storm",
+      "city": "Delaware",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1264,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/delaware-oh/storm-damage/index.md"
+    },
+    {
+      "path": "/dublin-oh/",
+      "title": "Roofing & Exterior Services in Dublin, OH",
+      "family": "local",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/dublin-oh/index.md"
+    },
+    {
+      "path": "/emergency-roof-repair-dublin-oh/",
+      "title": "Urgent Roof Repair in Dublin, OH",
+      "family": "repair",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1346,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/emergency-roof-repair-dublin-oh/index.md"
+    },
+    {
+      "path": "/exterior-painting/",
+      "title": "Exterior Painting in Columbus, OH",
+      "family": "painting",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 0,
+      "words": 1025,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/exterior-painting/index.md"
+    },
+    {
+      "path": "/gaf-roofing-dublin-oh/",
+      "title": "GAF Roofing in Dublin, OH",
+      "family": "gaf",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1212,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gaf-roofing-dublin-oh/index.md"
+    },
+    {
+      "path": "/gahanna-oh/",
+      "title": "Roofing & Exterior Services in Gahanna, OH",
+      "family": "local",
+      "city": "Gahanna",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gahanna-oh/index.md"
+    },
+    {
+      "path": "/grove-city-oh/",
+      "title": "Roofing & Exterior Services in Grove City, OH",
+      "family": "local",
+      "city": "Grove City",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/grove-city-oh/index.md"
+    },
+    {
+      "path": "/gutter-installation-dublin-oh/",
+      "title": "Gutter Services in Dublin, OH",
+      "family": "gutters",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1193,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gutter-installation-dublin-oh/index.md"
+    },
+    {
+      "path": "/gutters/",
+      "title": "Gutter Services in Columbus, OH",
+      "family": "gutters",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 3,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1217,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gutters/index.md"
+    },
+    {
+      "path": "/gutters/guards/",
+      "title": "Gutter Guards in Columbus, OH",
+      "family": "guards",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1233,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gutters/guards/index.md"
+    },
+    {
+      "path": "/gutters/seamless/",
+      "title": "Seamless Gutters in Columbus, OH",
+      "family": "seamless",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "alu-rex",
+        "leaffilter"
+      ],
+      "photos": 2,
+      "words": 1192,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/gutters/seamless/index.md"
+    },
+    {
+      "path": "/hail-damage-roof-repair-dublin-oh/",
+      "title": "Hail Damage Roof Repair in Dublin, OH",
+      "family": "hail",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1258,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/hail-damage-roof-repair-dublin-oh/index.md"
+    },
+    {
+      "path": "/hamilton-oh/",
+      "title": "Roofing & Exterior Services in Hamilton, OH",
+      "family": "local",
+      "city": "Hamilton",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/hamilton-oh/index.md"
+    },
+    {
+      "path": "/hilliard-oh/",
+      "title": "Roofing & Exterior Services in Hilliard, OH",
+      "family": "local",
+      "city": "Hilliard",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/hilliard-oh/index.md"
+    },
+    {
+      "path": "/ice-dam-removal/",
+      "title": "Ice Dam Removal in Columbus, OH",
+      "family": "ice",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 0,
+      "words": 1113,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/ice-dam-removal/index.md"
+    },
+    {
+      "path": "/lancaster-oh/",
+      "title": "Roofing & Exterior Services in Lancaster, OH",
+      "family": "local",
+      "city": "Lancaster",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1129,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/lancaster-oh/index.md"
+    },
+    {
+      "path": "/lewis-center-oh/",
+      "title": "Roofing & Exterior Services in Lewis Center, OH",
+      "family": "local",
+      "city": "Lewis Center",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1149,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/lewis-center-oh/index.md"
+    },
+    {
+      "path": "/metal-roofing-dublin-oh/",
+      "title": "Metal Roofing in Dublin, OH",
+      "family": "metal",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 0,
+      "words": 1169,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/metal-roofing-dublin-oh/index.md"
+    },
+    {
+      "path": "/middletown-oh/",
+      "title": "Roofing & Exterior Services in Middletown, OH",
+      "family": "local",
+      "city": "Middletown",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1129,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/middletown-oh/index.md"
+    },
+    {
+      "path": "/newark-oh/",
+      "title": "Roofing & Exterior Services in Newark, OH",
+      "family": "local",
+      "city": "Newark",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1137,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/newark-oh/index.md"
+    },
+    {
+      "path": "/powell-oh/",
+      "title": "Roofing & Exterior Services in Powell, OH",
+      "family": "local",
+      "city": "Powell",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/powell-oh/index.md"
+    },
+    {
+      "path": "/roof-calculator/",
+      "title": "Roof Calculator: Start Your Roofing Estimate",
+      "family": "calculator",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1272,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roof-calculator/index.md"
+    },
+    {
+      "path": "/roof-repair-dublin-oh/",
+      "title": "Roof Repair in Dublin, OH",
+      "family": "repair",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1297,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roof-repair-dublin-oh/index.md"
+    },
+    {
+      "path": "/roof-replacement-dublin-oh/",
+      "title": "Roof Replacement in Dublin, OH",
+      "family": "replacement",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1239,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roof-replacement-dublin-oh/index.md"
+    },
+    {
+      "path": "/roofing-calculator/",
+      "title": "Columbus Roofing Cost Calculator",
+      "family": "calculator",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1261,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing-calculator/index.md"
+    },
+    {
+      "path": "/roofing-contractor-dublin-oh/",
+      "title": "Roofing Contractor in Dublin, OH",
+      "family": "roofing-local",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1144,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing-contractor-dublin-oh/index.md"
+    },
+    {
+      "path": "/roofing/",
+      "title": "Columbus, OH Roofing Company",
+      "family": "roofing-local",
+      "city": "Columbus",
+      "reference": true,
+      "topics": 9,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1904,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/index.md"
+    },
+    {
+      "path": "/roofing/gaf/",
+      "title": "GAF Roofing in Columbus, OH",
+      "family": "gaf",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1292,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/gaf/index.md"
+    },
+    {
+      "path": "/roofing/gaf/master-elite/",
+      "title": "GAF Master Elite Certification in Columbus, OH",
+      "family": "certification",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1223,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/gaf/master-elite/index.md"
+    },
+    {
+      "path": "/roofing/metal/",
+      "title": "Metal Roofing in Columbus, OH",
+      "family": "metal",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 0,
+      "words": 1178,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/metal/index.md"
+    },
+    {
+      "path": "/roofing/repair/",
+      "title": "Roof Repair in Columbus, OH",
+      "family": "repair",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1317,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/repair/index.md"
+    },
+    {
+      "path": "/roofing/replacement/",
+      "title": "Roof Replacement in Columbus, OH",
+      "family": "replacement",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1248,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/replacement/index.md"
+    },
+    {
+      "path": "/roofing/types/",
+      "title": "Roofing Materials in Columbus, OH",
+      "family": "materials",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1231,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/roofing/types/index.md"
+    },
+    {
+      "path": "/siding/",
+      "title": "Siding Services in Columbus, OH",
+      "family": "siding",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ],
+      "photos": 2,
+      "words": 1204,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/siding/index.md"
+    },
+    {
+      "path": "/siding/replacement/",
+      "title": "Siding Replacement in Columbus, OH",
+      "family": "siding-replacement",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ],
+      "photos": 2,
+      "words": 1157,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/siding/replacement/index.md"
+    },
+    {
+      "path": "/siding/types/",
+      "title": "Siding Materials in Columbus, OH",
+      "family": "siding-types",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "variform",
+        "lp-smartside",
+        "james-hardie",
+        "ply-gem"
+      ],
+      "photos": 2,
+      "words": 1142,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/siding/types/index.md"
+    },
+    {
+      "path": "/storm-damage-roof-repair-dublin-oh/",
+      "title": "Storm Damage Restoration in Dublin, OH",
+      "family": "storm",
+      "city": "Dublin",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1272,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage-roof-repair-dublin-oh/index.md"
+    },
+    {
+      "path": "/storm-damage/",
+      "title": "Columbus, OH Storm Damage Restoration Company",
+      "family": "storm",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 5,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1431,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage/index.md"
+    },
+    {
+      "path": "/storm-damage/commercial/",
+      "title": "Commercial Storm Restoration in Columbus, OH",
+      "family": "commercial-storm",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 2,
+      "words": 1270,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage/commercial/index.md"
+    },
+    {
+      "path": "/storm-damage/hail/",
+      "title": "Hail Damage Roof Repair in Columbus, OH",
+      "family": "hail",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1263,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage/hail/index.md"
+    },
+    {
+      "path": "/storm-damage/insurance-claims/",
+      "title": "Storm Damage Documentation in Columbus, OH",
+      "family": "claims",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1201,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage/insurance-claims/index.md"
+    },
+    {
+      "path": "/storm-damage/wind/",
+      "title": "Wind Damage Roof Repair in Columbus, OH",
+      "family": "wind",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf"
+      ],
+      "photos": 2,
+      "words": 1284,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/storm-damage/wind/index.md"
+    },
+    {
+      "path": "/upper-arlington-oh/",
+      "title": "Roofing & Exterior Services in Upper Arlington, OH",
+      "family": "local",
+      "city": "Upper Arlington",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1137,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/upper-arlington-oh/index.md"
+    },
+    {
+      "path": "/westerville-oh/",
+      "title": "Roofing & Exterior Services in Westerville, OH",
+      "family": "local",
+      "city": "Westerville",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1129,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/westerville-oh/index.md"
+    },
+    {
+      "path": "/windows/",
+      "title": "Window Replacement in Columbus, OH",
+      "family": "windows",
+      "city": "Columbus",
+      "reference": false,
+      "topics": 4,
+      "brands": [],
+      "photos": 0,
+      "words": 1024,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/windows/index.md"
+    },
+    {
+      "path": "/worthington-oh/",
+      "title": "Roofing & Exterior Services in Worthington, OH",
+      "family": "local",
+      "city": "Worthington",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1141,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/worthington-oh/index.md"
+    },
+    {
+      "path": "/zanesville-oh/",
+      "title": "Roofing & Exterior Services in Zanesville, OH",
+      "family": "local",
+      "city": "Zanesville",
+      "reference": false,
+      "topics": 4,
+      "brands": [
+        "gaf",
+        "variform",
+        "lp-smartside",
+        "trex",
+        "james-hardie"
+      ],
+      "photos": 2,
+      "words": 1133,
+      "desktop": "Passed",
+      "mobile": "Passed",
+      "sourceFile": "src/content/pages/zanesville-oh/index.md"
+    }
+  ],
+  "checks": {
+    "preservedRoutes": 244,
+    "desktopPages": 84,
+    "mobilePages": 84,
+    "customFormDelivery": "Deferred by client; disabled",
+    "productionIndexing": "Blocked until release approval"
+  },
+  "next": [
+    "Review the pages and record any requested design or copy changes.",
+    "Polish the product pages as a separate pass.",
+    "Connect custom quote delivery to Roofr/Zapier when ready; retain Jared Lane as lead owner.",
+    "Add approved, dated project photographs and service-specific case studies when supplied.",
+    "Confirm current product availability, written warranty terms and final business details before release."
+  ]
+}

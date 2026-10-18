@@ -235,5 +235,588 @@
         "width": 800
       }
     ]
+  },
+  "/media/wordpress/87bf91bfb98f-94221041-c41e-4321-a182-d8393d63eb03.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/87bf91bfb98f-94221041-c41e-4321-a182-d8393d63eb03-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/87bf91bfb98f-94221041-c41e-4321-a182-d8393d63eb03-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/9d9910ecc2fe-hero-insulation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/9d9910ecc2fe-hero-insulation-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/9d9910ecc2fe-hero-insulation-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/5c460f35f997-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png": {
+    "width": 550,
+    "height": 309,
+    "variants": [
+      {
+        "src": "/media/services/5c460f35f997-e0c9545b-4321-4d4e-8367-ebe60f0c330f-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/media/wordpress/9fd3890efe2d-4f12851e-144d-4abc-8f97-9fa7d206db69.jpg": {
+    "width": 550,
+    "height": 309,
+    "variants": [
+      {
+        "src": "/media/services/9fd3890efe2d-4f12851e-144d-4abc-8f97-9fa7d206db69-480.webp",
+        "width": 480
+      }
+    ]
+  },
+  "/media/wordpress/f5c5b65a0237-4af75f56-536d-4fb5-b494-d64544a55755.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/f5c5b65a0237-4af75f56-536d-4fb5-b494-d64544a55755-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/f5c5b65a0237-4af75f56-536d-4fb5-b494-d64544a55755-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/52849e6f4ac8-27627ab3-7b6c-46b8-a8c3-06293478d3bd.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/52849e6f4ac8-27627ab3-7b6c-46b8-a8c3-06293478d3bd-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/52849e6f4ac8-27627ab3-7b6c-46b8-a8c3-06293478d3bd-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/1f3556139d97-hero-commercial-roofing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/1f3556139d97-hero-commercial-roofing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/1f3556139d97-hero-commercial-roofing-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/94febdbed607-286d9cc9-9e38-4569-9674-b19193677bbe.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/94febdbed607-286d9cc9-9e38-4569-9674-b19193677bbe-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/94febdbed607-286d9cc9-9e38-4569-9674-b19193677bbe-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/8b4bf9b92d80-98a228ca-b506-4cb1-a80b-c7b3b5b13262.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/8b4bf9b92d80-98a228ca-b506-4cb1-a80b-c7b3b5b13262-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/8b4bf9b92d80-98a228ca-b506-4cb1-a80b-c7b3b5b13262-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/13b26cd9aae3-hero-decks.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/13b26cd9aae3-hero-decks-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/13b26cd9aae3-hero-decks-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/13b26cd9aae3-hero-decks-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/9f3e0ae9da58-7a17512e-0d52-4540-9d25-6a00fc296f5c.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/9f3e0ae9da58-7a17512e-0d52-4540-9d25-6a00fc296f5c-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/9f3e0ae9da58-7a17512e-0d52-4540-9d25-6a00fc296f5c-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/522861ac238a-459fcc37-314d-413d-a1d4-a7a3808f8835.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/522861ac238a-459fcc37-314d-413d-a1d4-a7a3808f8835-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/522861ac238a-459fcc37-314d-413d-a1d4-a7a3808f8835-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/static-build/assets/img/gallery/original/dark-siding-two-story-house-5b80ee7f.avif": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/dark-siding-two-story-house-5b80ee7f-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/dark-siding-two-story-house-5b80ee7f-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/dark-siding-two-story-house-5b80ee7f-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/8f7f2cd5d262-810922b8-55ec-40a0-8d37-df791f4ff875.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/8f7f2cd5d262-810922b8-55ec-40a0-8d37-df791f4ff875-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/8f7f2cd5d262-810922b8-55ec-40a0-8d37-df791f4ff875-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/8f7f2cd5d262-810922b8-55ec-40a0-8d37-df791f4ff875-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/3536e26d9cc0-c77d0d95-4bcf-44c7-b4dd-9f92c979b5e1.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/3536e26d9cc0-c77d0d95-4bcf-44c7-b4dd-9f92c979b5e1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/3536e26d9cc0-c77d0d95-4bcf-44c7-b4dd-9f92c979b5e1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/3536e26d9cc0-c77d0d95-4bcf-44c7-b4dd-9f92c979b5e1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/b6b3120916a9-hero-gutters.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/b6b3120916a9-hero-gutters-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/b6b3120916a9-hero-gutters-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/b6b3120916a9-hero-gutters-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/fad69c32a02d-25905abd-f01c-438e-850e-62cae479aea4.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/fad69c32a02d-25905abd-f01c-438e-850e-62cae479aea4-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/fad69c32a02d-25905abd-f01c-438e-850e-62cae479aea4-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/2c6491ff27ac-032b81c8-4f02-4561-90a9-7462c3028445.jpg": {
+    "width": 270,
+    "height": 208,
+    "variants": []
+  },
+  "/media/wordpress/98e0e1dbc91f-6cad6ba1-f0cb-4590-840b-fe627dca7c90.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/98e0e1dbc91f-6cad6ba1-f0cb-4590-840b-fe627dca7c90-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/98e0e1dbc91f-6cad6ba1-f0cb-4590-840b-fe627dca7c90-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/56e954521021-64b1e749-136c-482c-87af-39f1d1b3a0ef.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/56e954521021-64b1e749-136c-482c-87af-39f1d1b3a0ef-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/56e954521021-64b1e749-136c-482c-87af-39f1d1b3a0ef-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/56e954521021-64b1e749-136c-482c-87af-39f1d1b3a0ef-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/a245b44397b3-aab30e03-9d9f-46d6-8d74-fa64e79fd72b.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/a245b44397b3-aab30e03-9d9f-46d6-8d74-fa64e79fd72b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/a245b44397b3-aab30e03-9d9f-46d6-8d74-fa64e79fd72b-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/28f32b9606de-8fef8714-f7cc-4d7d-85df-b8f649fca52d.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/28f32b9606de-8fef8714-f7cc-4d7d-85df-b8f649fca52d-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/28f32b9606de-8fef8714-f7cc-4d7d-85df-b8f649fca52d-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/28f32b9606de-8fef8714-f7cc-4d7d-85df-b8f649fca52d-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/14822f7141f5-calculator-img1.jpg": {
+    "width": 800,
+    "height": 700,
+    "variants": [
+      {
+        "src": "/media/services/14822f7141f5-calculator-img1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/14822f7141f5-calculator-img1-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/61ae23447598-94f11081-ba16-4b93-9d99-5f3ecb4ca335.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/61ae23447598-94f11081-ba16-4b93-9d99-5f3ecb4ca335-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/61ae23447598-94f11081-ba16-4b93-9d99-5f3ecb4ca335-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/61ae23447598-94f11081-ba16-4b93-9d99-5f3ecb4ca335-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/da1c8c8827f7-7aa83e22-a140-4307-99f2-2abde8f811b9.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/da1c8c8827f7-7aa83e22-a140-4307-99f2-2abde8f811b9-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/da1c8c8827f7-7aa83e22-a140-4307-99f2-2abde8f811b9-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/da1c8c8827f7-7aa83e22-a140-4307-99f2-2abde8f811b9-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/5d1e6002a0ca-521a6a40-e7dc-4da2-be30-1ab0af243196.jpg": {
+    "width": 1600,
+    "height": 1066,
+    "variants": [
+      {
+        "src": "/media/services/5d1e6002a0ca-521a6a40-e7dc-4da2-be30-1ab0af243196-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/5d1e6002a0ca-521a6a40-e7dc-4da2-be30-1ab0af243196-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/5d1e6002a0ca-521a6a40-e7dc-4da2-be30-1ab0af243196-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/92be7214fb97-c0fe0d39-be52-4c3a-84a9-3cd84f3b9808.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/92be7214fb97-c0fe0d39-be52-4c3a-84a9-3cd84f3b9808-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/92be7214fb97-c0fe0d39-be52-4c3a-84a9-3cd84f3b9808-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/92be7214fb97-c0fe0d39-be52-4c3a-84a9-3cd84f3b9808-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/ebed488d4b1b-hero-siding.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/ebed488d4b1b-hero-siding-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/ebed488d4b1b-hero-siding-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/ebed488d4b1b-hero-siding-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/de78f944fcd2-c73a29a9-4547-4485-86c7-6e0179815d2d.jpg": {
+    "width": 270,
+    "height": 208,
+    "variants": []
+  },
+  "/media/wordpress/5e84cfdc81c6-2367553f-e35b-4264-8f4d-7130458d8ef5.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/5e84cfdc81c6-2367553f-e35b-4264-8f4d-7130458d8ef5-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/5e84cfdc81c6-2367553f-e35b-4264-8f4d-7130458d8ef5-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/7bcb4546752d-dd237ade-9d4a-492b-96ac-152c372f6d50.jpg": {
+    "width": 1600,
+    "height": 1198,
+    "variants": [
+      {
+        "src": "/media/services/7bcb4546752d-dd237ade-9d4a-492b-96ac-152c372f6d50-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/7bcb4546752d-dd237ade-9d4a-492b-96ac-152c372f6d50-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/7bcb4546752d-dd237ade-9d4a-492b-96ac-152c372f6d50-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/eb3a67915989-hero-storm.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/eb3a67915989-hero-storm-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/eb3a67915989-hero-storm-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/eb3a67915989-hero-storm-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/wordpress/b182e4ce6444-176f7705-5447-41d5-991d-82e95dc4778c.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/b182e4ce6444-176f7705-5447-41d5-991d-82e95dc4778c-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/b182e4ce6444-176f7705-5447-41d5-991d-82e95dc4778c-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/6e4f58d40ad3-ac2f5077-8814-4a01-9d8c-a0d0db563f4a.jpg": {
+    "width": 270,
+    "height": 208,
+    "variants": []
+  },
+  "/media/wordpress/025839cb6c4f-c797f4ae-8253-4516-b638-5a9670e5e061.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/025839cb6c4f-c797f4ae-8253-4516-b638-5a9670e5e061-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/025839cb6c4f-c797f4ae-8253-4516-b638-5a9670e5e061-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/55b995754836-4b48aa7d-a440-4cbe-9b35-de342414e571.jpg": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/services/55b995754836-4b48aa7d-a440-4cbe-9b35-de342414e571-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/55b995754836-4b48aa7d-a440-4cbe-9b35-de342414e571-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/wordpress/23b06efb9d5f-hero-windows.jpg": {
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/services/23b06efb9d5f-hero-windows-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/23b06efb9d5f-hero-windows-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/23b06efb9d5f-hero-windows-1280.webp",
+        "width": 1280
+      }
+    ]
   }
 }

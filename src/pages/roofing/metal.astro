@@ -1,8 +1,7 @@
 ---
-import { getCollection } from 'astro:content';
-import ServicePage from '../../layouts/ServicePage.astro';
-import services from '../../data/service-pages.json';
-import type { ServicePageData } from '../../data/section-types';
+import {getCollection} from 'astro:content';
+import PolishedServicePage from '../../layouts/PolishedServicePage.astro';
+import editorial from '../../data/service-editorial.json';
 const page=(await getCollection('pages')).find(page=>page.data.permalink==='/roofing/metal/')!;
 ---
-<ServicePage {page} data={services['/roofing/metal/'] as ServicePageData}/>
+<PolishedServicePage {page} data={editorial['/roofing/metal/']}/>

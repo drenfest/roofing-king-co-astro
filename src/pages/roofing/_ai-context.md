@@ -1,6 +1,6 @@
 # src/pages/roofing
 
-Native roofing-family entry points use ServicePage and typed service data. Keep explicit routes excluded from the legacy catchall; do not introduce compatibility CSS or JS.
+Native service entry points use PolishedServicePage and service-editorial.json. /roofing/ remains the approved reference. The GAF types catalog continues through ServicePage and its product grid. Keep explicit URLs excluded from the legacy catchall.
 
 ## Files
 

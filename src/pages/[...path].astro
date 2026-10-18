@@ -10,8 +10,9 @@ import details from '../data/product-details.json';
 import ServiceTopics from '../components/ServiceTopics.astro';
 import {serviceOpening} from '../data/service-opening';
 import '../styles/service-landing.css';
+import editorial from '../data/service-editorial.json';
 export async function getStaticPaths() {
-  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details)).map(page => ({
+  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details) && !(page.data.permalink in editorial)).map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
     props: { page },
   }));

@@ -5,10 +5,11 @@ Supporting source directory. Read the parent map for its responsibility.
 ## Files
 
 - `roofing.astro`
+- `storm-damage.astro`
 
 ## Subdirectories
 
-- None.
+- `roofing/` - read its _ai-context.md.
 
 ## Change checks
 

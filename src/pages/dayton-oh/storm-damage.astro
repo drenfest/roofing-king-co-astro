@@ -1,0 +1,7 @@
+---
+import {getCollection} from 'astro:content';
+import PolishedServicePage from '../../layouts/PolishedServicePage.astro';
+import editorial from '../../data/service-editorial.json';
+const page=(await getCollection('pages')).find(page=>page.data.permalink==='/dayton-oh/storm-damage/')!;
+---
+<PolishedServicePage {page} data={editorial['/dayton-oh/storm-damage/']}/>

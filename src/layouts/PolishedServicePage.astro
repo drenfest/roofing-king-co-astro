@@ -1,0 +1,59 @@
+---
+import type {CollectionEntry} from 'astro:content';
+import type {HeadingData,RichNode,ServicePathsData} from '../data/section-types';
+import editorial from '../data/service-editorial.json';
+import reference from '../data/roofing-landing.json';
+import {items as featured} from '../data/featured-reviews.json';
+import site from '../data/site.json';
+import {hero as homeHero} from '../data/home.json';
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import LandingHero from '../components/LandingHero.astro';
+import ServicePaths from '../components/ServicePaths.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ReviewSection from '../components/ReviewSection.astro';
+import CredentialsSection from '../components/CredentialsSection.astro';
+import BrandStrip from '../components/BrandStrip.astro';
+import RoofMaterialOptions from '../components/RoofMaterialOptions.astro';
+import MediaContentRow from '../components/MediaContentRow.astro';
+import ProjectShowcase from '../components/ProjectShowcase.astro';
+import FAQSection from '../components/FAQSection.astro';
+import QuoteExperience from '../components/QuoteExperience.svelte';
+import RoofrEstimator from '../components/RoofrEstimator.svelte';
+import ServiceIcon from '../components/ServiceIcon.astro';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/service-editorial.css';
+interface Props {page:CollectionEntry<'pages'>;data:(typeof editorial)[keyof typeof editorial];}
+const {page,data}=Astro.props;
+const isRoof=['repair','replacement','materials','gaf','certification','metal','roofing-local','roof-cost','calculator','hail','wind','storm','claims'].includes(data.family);
+const credentials={...reference.credentials,eyebrow:'Roof King credentials & workmanship',title:'Know the Team. Know the Work.',description:'Check our independent business record, review the written coverage and ask about the products and installation proposed for your property.',items:isRoof?reference.credentials.items:[{...reference.credentials.items[1],description:'Get to know the team handling your exterior project. Roof King’s BBB profile lists accreditation, an A+ business rating and independent customer feedback.'},{...reference.credentials.items[2],description:'Roof King publishes five-year workmanship coverage. Review the written terms applicable to your project; manufacturer product coverage is separate.'},{title:'Named Products. Clear Details.',description:'Review the materials, preparation and installation in your estimate. Ask how any additional repairs will be documented and approved.',label:'Discuss your project',href:'#estimate',mark:'Project planning'}]};
+const materialItems=data.products.links.map((link,index)=>({title:link.label,description:index?data.guide.secondCopy:data.guide.copy,image:(editorial[link.href as keyof typeof editorial]?.hero.image)||(index&&data.projects?.images[0]?data.projects.images[0]:data.guide.image),href:link.href===page.data.permalink?'#service-topics':link.href,label:link.label,relatedHref:'#estimate',relatedLabel:'Discuss products & installation'}));
+const guide={type:'media-row' as const,id:'installation-details',eyebrow:`Your ${data.city} property`,title:data.guide.title,body:[{tag:'p' as const,children:[{text:data.guide.copy}]},{tag:'p' as const,children:[{text:data.focus}]}],image:data.guide.image,caption:'Materials and installation vary by project. Review the details for your property with our team.',links:data.guide.links.filter(l=>l.href!==page.data.permalink),linkPlacement:'media' as const};
+const schema={'@context':'https://schema.org','@type':'Service',name:data.title,serviceType:data.serviceType,description:data.description,url:new URL(page.data.permalink,site.url).href,provider:{'@id':site.url+'/#business'},areaServed:{'@type':'City',name:data.city+', Ohio'}};
+---
+<DocumentLayout title={data.title} description={data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image.src}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
+  <SiteHeader client:load/>
+  <main id="content" class="rk-site-main rk-service-landing"><article class="rk-polished-service" data-service-build="astro-components" data-landing-build="editorial" data-service-family={data.family} data-content-source={page.data.source}>
+    <LandingHero hero={data.hero}/>
+    <div class="rk-landing-trust"><div class="rk-section-inner"><a href={reference.credentials.items[1].href}><ServiceIcon name="shield"/><span>BBB Accredited</span><span aria-hidden="true">↗</span></a><a href="/offers/5-year-workmanship-warranty/"><ServiceIcon name="check"/><span>Written workmanship coverage</span><span aria-hidden="true">↗</span></a><a href="/reviews/"><ServiceIcon name="building"/><span>Verified review sources</span><span aria-hidden="true">↗</span></a></div></div>
+    <Breadcrumbs items={data.breadcrumbs}/>
+    <ServicePaths section={data.opening as ServicePathsData}/>
+    {data.family==='calculator'&&<div class="rk-section-inner rk-editorial-estimator"><RoofrEstimator client:load/></div>}
+    <ReviewSection section={{eyebrow:'Roof King customer reviews',title:'Hear From Roof King Customers',description:'Selected customer experiences from independent sources. Follow each badge to read the original review.',reviewIds:featured.map(item=>item.id)}}/>
+    <CredentialsSection section={credentials}/>
+    <RoofMaterialOptions section={{...data.products,items:materialItems}}/>
+    {data.brandIds.length>0&&<BrandStrip brands={{eyebrow:'Products for your project',title:'Explore the Brands Behind the Materials',description:'Follow a brand to compare its products and the details relevant to your installation.',brandIds:data.brandIds}}/>}
+    <MediaContentRow section={guide}/>
+    {data.projects&&<ProjectShowcase section={data.projects}/>}
+    <section class="rk-landing-section rk-landing-budget rk-roofing-planning" aria-labelledby="service-budget-title"><div class="rk-section-inner rk-landing-split"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.budget.eyebrow}</p><h2 id="service-budget-title">{data.budget.title}</h2><p>{data.budget.description}</p><ul class="rk-budget-checks">{data.budget.items.map(item=><li><ServiceIcon name="check"/>{item}</li>)}</ul><a class="rk-button rk-button-primary" href="#estimate">Discuss your estimate<ServiceIcon name="arrow"/></a></div><aside class="rk-budget-financing"><span class="rk-financing-icon"><ServiceIcon name="cost"/></span><p class="rk-home-eyebrow">Plan the work & payment</p><h3>{data.guide.secondTitle}</h3><p>{data.guide.secondCopy}</p><a class="rk-button rk-button-outline" href="/offers/flexible-financing/">Explore financing<ServiceIcon name="arrow"/></a><p class="rk-landing-small">Financing is subject to lender approval and applicable terms. Review the current rates and repayment terms before applying.</p></aside></div></section>
+    <section class="rk-landing-section rk-landing-local" aria-labelledby="related-services-title"><div class="rk-section-inner rk-landing-split"><div class="rk-landing-heading"><p class="rk-home-eyebrow">Keep exploring</p><h2 id="related-services-title">Services & Resources for Your {data.city} Project</h2><p>{data.focus}</p></div><nav class="rk-landing-local-links" aria-label="Related services and products">{data.related.map(item=><a href={item.href}><span class="rk-local-link-icon"><ServiceIcon name="roof"/></span><span>{item.label}</span><ServiceIcon name="arrow"/></a>)}<a href="/service-areas/"><span class="rk-local-link-icon"><ServiceIcon name="building"/></span><span>Explore all service locations</span><ServiceIcon name="arrow"/></a></nav></div></section>
+    <FAQSection section={data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]}}/>
+    <section id="estimate" class="rk-landing-section rk-home-final-cta rk-landing-estimate"><div class="rk-section-inner rk-quote-strip-inner"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.quote.eyebrow}</p><h2>{data.quote.title}</h2><p>{data.quote.description}</p><div class="rk-estimate-contact"><a class="rk-landing-estimate-phone" href={site.phoneHref}><span>Talk with our team</span><strong>{site.phone}</strong></a><a class="rk-button rk-button-primary" href={homeHero.bookingUrl}>Book an inspection<ServiceIcon name="arrow"/></a></div></div><QuoteExperience modalTitle={data.quote.title} modalDescription={data.quote.description} showRating={false} client:load/></div></section>
+  </article></main><SiteFooter/>
+</DocumentLayout>

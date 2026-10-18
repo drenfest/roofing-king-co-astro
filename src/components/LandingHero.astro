@@ -1,14 +1,14 @@
 ---
 import HomeImage from './HomeImage.astro';
 import site from '../data/site.json';
-interface Props {hero:{eyebrow:string;title:string;description:string;image:{src:string;alt:string};caption:string;action:string};}
+interface Props {hero:{eyebrow:string;title:string;description:string;image:{src:string;alt:string};caption:string;action:string;nextHref?:string;nextLabel?:string};}
 const {hero}=Astro.props;
 ---
 <section class="rk-landing-hero" data-component="LandingHero">
   <div class="rk-section-inner rk-landing-hero-grid">
     <div class="rk-landing-hero-copy"><p class="rk-home-eyebrow">{hero.eyebrow}</p><h1>{hero.title}</h1><p class="rk-landing-lede">{hero.description}</p>
       <div class="rk-landing-actions"><a class="rk-button rk-button-primary" href="#estimate">{hero.action} <span aria-hidden="true">↗</span></a><a href={site.phoneHref}>Talk with our team <strong>{site.phone}</strong></a></div>
-      <a class="rk-landing-text-link" href="#roofing-services">Find the right next step <span aria-hidden="true">↓</span></a>
+      <a class="rk-landing-text-link" href={hero.nextHref || '#roofing-services'}>{hero.nextLabel || 'Find the right next step'} <span aria-hidden="true">↓</span></a>
     </div>
     <figure class="rk-landing-hero-photo"><HomeImage {...hero.image} sizes="(max-width:760px) 100vw, 50vw" eager/><figcaption><span aria-hidden="true">01 /</span> {hero.caption}</figcaption></figure>
   </div>

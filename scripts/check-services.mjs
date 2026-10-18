@@ -2,10 +2,12 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
 import YAML from 'yaml';
+const editorial=JSON.parse(await fs.readFile('src/data/service-editorial.json','utf8'));
 const pages=JSON.parse(await fs.readFile('src/data/service-pages.json','utf8'));
 const placements=JSON.parse(await fs.readFile('src/data/site-structure.json','utf8')).pages;
 const clean=s=>s.replace(/\s+/g,' ').trim();
 for(const [path,data] of Object.entries(pages)){
+  if(editorial[path] && path!=='/roofing/')continue; // Intentional authored replacement; verified below.
   const $=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
   assert.equal($('[data-service-build="astro-components"]').length,1,path);
   assert.equal($('main').length,1,'Single main landmark on '+path);
@@ -63,7 +65,7 @@ for(const [path,data] of Object.entries(pages)){
   const gallery=data.sections.find(s=>s.type==='gallery');assert.equal($('.rk-project-gallery-item').length,gallery.items.length);
   const faq=data.sections.find(s=>s.type==='faq');assert.equal($('.rk-service-faq details').length,faq?.items.length||0);
 }
-console.log('Native service content, contextual links, media, FAQ, landmarks and disabled delivery passed for '+Object.keys(pages).length+' pages.');
+console.log('Approved reference and retained product catalog checks passed.');
 
 // Every service route receives an opening explorer; URL ancestry controls child destinations.
 const manifest=JSON.parse(await fs.readFile('migration/route-manifest.json','utf8')).routes;
@@ -86,3 +88,27 @@ for(const path of manifest.filter(r=>r.path.startsWith('/products/roofing/shingl
  const html=await fs.readFile('dist'+path+'index.html','utf8');assert.ok(!html.includes('Plan your complete roofing system.</h2>'),'Remove retired product planning section');
 }
 console.log('Opening child-service/topic explorers verified on '+prepared+' service routes.');
+
+// The authored service collection replaces imported marketing; validate the full rendered result.
+for(const [path,data] of Object.entries(editorial)){
+ const $=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
+ assert.equal($('[data-landing-build=editorial]').length,1,path);
+ assert.equal($('main').length,1);assert.equal($('h1').length,1);
+ if(path==='/roofing/')continue; // Approved reference has its dedicated checks above.
+ assert.equal($('h1').text(),data.title);
+ assert.equal($('meta[name=description]').attr('content'),data.description);
+ assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
+ assert.ok(clean($('main').text()).split(/\s+/).length>=500,'No thin service landing: '+path);
+ assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
+ assert.equal($('.rk-service-detail').length,data.opening.items.length);
+ assert.equal($('.rk-home-review-card .rk-review-source').length,3);
+ assert.equal($('.rk-landing-credential-list article').length,3);
+ assert.equal($('.rk-service-faq details').length,data.faq.items.length);
+ assert.equal($('dialog.rk-native-quote-dialog').length,1);
+ assert.equal($('.rk-quote-form button[type=submit]:disabled').length,2);
+ assert.equal($('.rk-imported-content,[data-rk-gallery],[data-rk-modal-open]').length,0);
+ assert.ok(!/292 Google Reviews|\$47|perfect installation|guaranteed approval|mint condition/i.test($('main').text()),'No retired marketing claims '+path);
+ for(const image of $('main img').toArray())assert.ok($(image).attr('width')&&$(image).attr('height'),'Sized image '+path+' '+$(image).attr('src'));
+ for(const file of $('link[rel=stylesheet]').map((_i,e)=>$(e).attr('href')).get().filter(p=>p.startsWith('/')))assert.ok(!file.includes('/SiteLayout.') && !(await fs.readFile('dist'+file,'utf8')).includes('.rk-migration-banner'),'No legacy CSS: '+path);
+}
+console.log('Full editorial composition, review sources, credentials, FAQs, image dimensions and disabled delivery passed for all 84 service routes.');
