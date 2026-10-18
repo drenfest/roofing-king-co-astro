@@ -67,7 +67,7 @@ for(const [path,data] of Object.entries(pages)){
 }
 console.log('Approved reference and retained product catalog checks passed.');
 
-// Every service route receives an opening explorer; URL ancestry controls child destinations.
+// Parent services use navigation; leaf services expose their content directly.
 const manifest=JSON.parse(await fs.readFile('migration/route-manifest.json','utf8')).routes;
 const serviceRecords=await Promise.all(manifest.map(async route=>{
  const source=await fs.readFile(route.file,'utf8');return {...route,...YAML.parse(source.split('---')[1])};
@@ -75,11 +75,13 @@ const serviceRecords=await Promise.all(manifest.map(async route=>{
 let prepared=0;
 for(const record of serviceRecords.filter(r=>/service/i.test(r.category)||r.category==='Product guide')){
  const $=cheerio.load(await fs.readFile('dist'+record.path+'index.html','utf8'));
- const opening=$('[data-component=ServiceTopics],[data-component=ServicePaths]');
+ const opening=$('[data-component=ServiceArticle],[data-component=ServiceTopics],[data-component=ServicePaths]');
  assert.equal(opening.length,1,'One opening service explorer: '+record.path);
- assert.ok(opening.find('[data-service-panel]').length,'Actual topic content on '+record.path);
+ assert.ok(opening.find('[data-service-panel],.rk-service-article-row').length,'Actual topic content on '+record.path);
  for(const panel of opening.find('[data-service-panel]').toArray()){const body=$(panel).clone();body.find('.rk-service-detail-kicker,h3').first().remove();body.children('h3').first().remove();assert.ok(clean(body.text()),'No empty topic panels: '+record.path);}
  const children=serviceRecords.filter(r=>r.path!==record.path&&r.path.startsWith(record.path)&&!r.path.slice(record.path.length).replace(/\/$/,'').includes('/'));
+ assert.equal($('[data-component=ServicePaths]').length,children.length?1:0,'Only parent pages use the tabbed service component: '+record.path);
+ if(!children.length)assert.equal($('[data-component=ServiceExplorer]').length,0,'Leaf pages must not hydrate a topic selector: '+record.path);
  for(const child of children)assert.ok(opening.find('a').toArray().some(e=>$(e).attr('href')===child.path),'Opening must link to child '+child.path);
  const ids=$('[id]').map((_i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size,'Unique IDs on '+record.path);
  prepared++;
@@ -100,7 +102,10 @@ for(const [path,data] of Object.entries(editorial)){
  assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
  assert.ok(clean($('main').text()).split(/\s+/).length>=500,'No thin service landing: '+path);
  assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
- assert.equal($('.rk-service-detail').length,data.opening.items.length);
+ const hasChildren=manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
+ assert.equal($('.rk-service-detail').length,hasChildren?data.opening.items.length:0);
+ assert.equal($('.rk-service-article-row').length,hasChildren?0:data.opening.items.length);
+ for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve topic destination on '+path);}
  assert.equal($('.rk-home-review-card .rk-review-source').length,3);
  assert.equal($('.rk-landing-credential-list article').length,3);
  assert.equal($('.rk-service-faq details').length,data.faq.items.length);

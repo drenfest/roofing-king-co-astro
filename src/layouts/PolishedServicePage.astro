@@ -11,6 +11,8 @@ import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
 import ServicePaths from '../components/ServicePaths.astro';
+import ServiceArticle from '../components/ServiceArticle.astro';
+import {hasServiceChildren} from '../data/service-hierarchy';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ReviewSection from '../components/ReviewSection.astro';
 import CredentialsSection from '../components/CredentialsSection.astro';
@@ -43,7 +45,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
     <LandingHero hero={data.hero}/>
     <div class="rk-landing-trust"><div class="rk-section-inner"><a href={reference.credentials.items[1].href}><ServiceIcon name="shield"/><span>BBB Accredited</span><span aria-hidden="true">↗</span></a><a href="/offers/5-year-workmanship-warranty/"><ServiceIcon name="check"/><span>Written workmanship coverage</span><span aria-hidden="true">↗</span></a><a href="/reviews/"><ServiceIcon name="building"/><span>Verified review sources</span><span aria-hidden="true">↗</span></a></div></div>
     <Breadcrumbs items={data.breadcrumbs}/>
-    <ServicePaths section={data.opening as ServicePathsData}/>
+    {hasServiceChildren(page.data.permalink)?<ServicePaths section={data.opening as ServicePathsData}/>:<ServiceArticle section={data.opening as ServicePathsData}/>}
     {data.family==='calculator'&&<div class="rk-section-inner rk-editorial-estimator"><RoofrEstimator client:load/></div>}
     <ReviewSection section={{eyebrow:'Roof King customer reviews',title:'Hear From Roof King Customers',description:'Selected customer experiences from independent sources. Follow each badge to read the original review.',reviewIds:featured.map(item=>item.id)}}/>
     <CredentialsSection section={credentials}/>

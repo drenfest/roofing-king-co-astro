@@ -1,6 +1,6 @@
 # src/components
 
-Polished services reuse LandingHero, ServicePaths, CredentialsSection, RoofMaterialOptions, BrandStrip, MediaContentRow, ProjectShowcase, FAQSection and QuoteExperience. LandingHero accepts optional nextHref/nextLabel; ProjectShowcase accepts optional destination href/label without changing the approved roofing reference. ServicePaths omits empty details and highlight lists. BrandStrip resolves explicitly selected brand IDs with intrinsic logo proportions. ReviewSection resolves verified third-party reviews and real platform badges; never fabricate local reviews or point badges to first-party pages. SiteHeader is shared throughout the site: four connected desktop columns, stable hover paths, keyboard controls and nested mobile toggles. Product components retain their catalog, genuine color samples, performance explanations and verified companion data. Quote forms remain disconnected and disabled. The removed product planning band must not return.
+ServiceArticle presents leaf-service topics as ordinary visible content rows, preserving topic IDs and links. Polished services reuse LandingHero, ServicePaths, CredentialsSection, RoofMaterialOptions, BrandStrip, MediaContentRow, ProjectShowcase, FAQSection and QuoteExperience. LandingHero accepts optional nextHref/nextLabel; ProjectShowcase accepts optional destination href/label without changing the approved roofing reference. ServicePaths omits empty details and highlight lists. BrandStrip resolves explicitly selected brand IDs with intrinsic logo proportions. ReviewSection resolves verified third-party reviews and real platform badges; never fabricate local reviews or point badges to first-party pages. SiteHeader is shared throughout the site: four connected desktop columns, stable hover paths, keyboard controls and nested mobile toggles. Product components retain their catalog, genuine color samples, performance explanations and verified companion data. Quote forms remain disconnected and disabled. The removed product planning band must not return.
 
 ## Files
 
@@ -48,6 +48,7 @@ Polished services reuse LandingHero, ServicePaths, CredentialsSection, RoofMater
 - `RoofrEstimator.svelte`
 - `RouteReview.svelte`
 - `SectionHeading.astro`
+- `ServiceArticle.astro`
 - `ServiceAudienceBanner.astro`
 - `ServiceExplorer.svelte`
 - `ServiceIcon.astro`
