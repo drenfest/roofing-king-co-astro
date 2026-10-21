@@ -69,3 +69,11 @@ html:has(body.rk-nav-open){overflow:hidden;}
 }
 @media(max-width:360px){.rk-native-header .rk-logo img{width:106px;}.rk-native-header .rk-header-inner{min-height:74px;gap:8px;}}
 @media(prefers-reduced-motion:reduce){.rk-native-header .rk-nav-toggle-lines i{transition:none;}}
+
+/* Mobile dropdowns fill the screen and keep every level in one reading column. */
+@media(max-width:1060px){
+ .rk-native-header .rk-logo{position:relative;z-index:90;}
+ .rk-native-header .rk-primary-nav.is-open{width:100%;max-width:none;inset-inline:0;border-left:0;}
+ .rk-native-header .rk-primary-nav .rk-nav-list,
+ .rk-native-header .rk-primary-nav .rk-nav-list .rk-submenu{grid-template-columns:minmax(0,1fr);grid-auto-flow:row;}
+}
