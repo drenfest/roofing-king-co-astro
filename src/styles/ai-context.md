@@ -52,3 +52,5 @@ PageHero and LandingHero share service-hero.css and rk-editorial-hero classes. H
 The client-selected site palette is ivory, charcoal and orange. Green/teal brand surfaces are replaced in both shared styles and component-local styles. Base and compatibility shells expose --rk-charcoal, --rk-charcoal-soft, --rk-paper and --rk-paper-soft; older green/blue/royal token names remain compatibility aliases to this neutral palette. Preserve authentic manufacturer/review logos, product photos and semantic performance badge colors. Retain existing diagonal layouts, typography and interaction states.
 
 Primary actions use orange surfaces and charcoal labels for contrast; secondary actions use charcoal with ivory labels. Keep native and compatibility action rules synchronized.
+
+The current ProjectGallery layout is component-scoped in ProjectGallery.svelte and supersedes the older dark masonry rules in home.css for that island. Its ivory background, borderless photos, captions, quiet filters and charcoal gallery link follow the latest reference; keep reduced-motion support.

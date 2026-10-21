@@ -32,7 +32,7 @@ function photo(image: {src:string;alt:string}) {
   <main id="content" class="rk-site-main">
     <article class="rk-home" data-homepage-build="astro-components">
       <HomeHero /><HomeTrust /><StormDamageCallout /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
-      <ProjectGallery {...gallery} items={gallery.items.map(image => ({...photo(image), tags:image.tags}))} client:visible />
+      <ProjectGallery {...gallery} items={gallery.items.map(image => ({...photo(image), tags:image.tags, category:image.category, caption:image.caption}))} client:visible />
       <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
       <ComparisonSection {comparison} />
       <QuoteSection {quote} />

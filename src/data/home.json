@@ -186,20 +186,12 @@
   },
   "gallery": {
     "eyebrow": "Project gallery",
-    "title": "Beautiful new roofing and more in Ohio",
-    "description": "Real exterior remodeling work from homes across the state.",
+    "title": "A closer look. A higher standard.",
+    "description": "Roofing, siding and exterior work. See the details that make the difference.",
     "filters": [
       {
-        "label": "All",
+        "label": "All projects",
         "value": "all"
-      },
-      {
-        "label": "Featured Projects",
-        "value": "featured-projects"
-      },
-      {
-        "label": "Gutters",
-        "value": "gutters"
       },
       {
         "label": "Roofing",
@@ -210,92 +202,117 @@
         "value": "siding"
       },
       {
-        "label": "Storm Damage",
+        "label": "Gutters",
+        "value": "gutters"
+      },
+      {
+        "label": "Storm damage",
         "value": "storm-damage"
       }
     ],
     "items": [
       {
         "src": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg",
-        "alt": "New shingle roofing installation",
+        "alt": "Front exterior of a two-story home with shingle roofing and light siding",
         "tags": [
           "siding",
           "featured-projects"
-        ]
+        ],
+        "category": "Roofing & exteriors",
+        "caption": "A fresh perspective"
       },
       {
         "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
-        "alt": "Completed Ohio roof replacement",
+        "alt": "Overhead view of a dark shingle roof with ridges and roof vents",
         "tags": [
           "roofing",
           "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg",
-        "alt": "Storm restoration roofing project",
-        "tags": [
-          "gutters",
-          "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg",
-        "alt": "Residential siding upgrade",
-        "tags": [
-          "storm-damage",
-          "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg",
-        "alt": "Roofing project with clean rooflines",
-        "tags": [
-          "storm-damage",
-          "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373.jpg",
-        "alt": "Fresh asphalt shingle roof",
-        "tags": [
-          "siding",
-          "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
-        "alt": "Finished exterior remodeling project",
-        "tags": [
-          "roofing",
-          "featured-projects"
-        ]
-      },
-      {
-        "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
-        "alt": "Completed residential roofing project",
-        "tags": [
-          "roofing",
-          "featured-projects"
-        ]
+        ],
+        "category": "Roofing",
+        "caption": "Every angle considered"
       },
       {
         "src": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg",
-        "alt": "Roof deck protection installation",
+        "alt": "Close view of roof underlayment, fasteners and a protective membrane",
         "tags": [
           "gutters",
           "featured-projects"
-        ]
+        ],
+        "category": "Craftsmanship",
+        "caption": "Details beneath the surface"
       },
       {
-        "src": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
-        "alt": "Freshly installed shingle roof",
+        "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+        "alt": "Side elevation of a home with horizontal siding, trim and downspouts",
+        "tags": [
+          "roofing",
+          "featured-projects"
+        ],
+        "category": "Siding & exteriors",
+        "caption": "A complete exterior view"
+      },
+      {
+        "src": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg",
+        "alt": "Aerial view of roof installation with exposed underlayment",
+        "tags": [
+          "gutters",
+          "featured-projects"
+        ],
+        "category": "Roofing",
+        "caption": "Installation in progress"
+      },
+      {
+        "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg",
+        "alt": "Aerial view of a gray shingle roof and covered porch",
         "tags": [
           "storm-damage",
           "featured-projects"
-        ]
+        ],
+        "category": "Roofing",
+        "caption": "A view from above"
+      },
+      {
+        "src": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg",
+        "alt": "Shingle roof ridges, vents and white gutters above a brick home",
+        "tags": [
+          "storm-damage",
+          "featured-projects"
+        ],
+        "category": "Roofing",
+        "caption": "Rooflines in detail"
+      },
+      {
+        "src": "/media/wordpress/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373.jpg",
+        "alt": "An OSB roof-decking panel with marked fastening lines",
+        "tags": [
+          "siding",
+          "featured-projects"
+        ],
+        "category": "Roof preparation",
+        "caption": "Beneath the shingles"
+      },
+      {
+        "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+        "alt": "Underlayment covering the roof of a brick home during installation",
+        "tags": [
+          "roofing",
+          "featured-projects"
+        ],
+        "category": "Roof preparation",
+        "caption": "Preparing the roof"
+      },
+      {
+        "src": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
+        "alt": "Front view of a home with light siding, shutters and shingle roofing",
+        "tags": [
+          "storm-damage",
+          "featured-projects"
+        ],
+        "category": "Siding & exteriors",
+        "caption": "The front of your home"
       }
-    ]
+    ],
+    "titleEmphasis": "A higher standard."
   },
   "promo": {
     "eyebrow": "Certified workmanship",

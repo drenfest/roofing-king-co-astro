@@ -60,3 +60,5 @@ Blog is a direct child of About, with its complete Categories and Topics branche
 Homepage hero titleEmphasis identifies the italic final phrase; note supplies the short helper line. Existing booking URL, review count and rating are retained.
 
 home.json services.items image records select existing site photography for all eight homepage service cards, including visibly damaged shingles for storm damage. These are illustrative service images, not claims of specific completed jobs.
+
+The homepage gallery has titleEmphasis, photo category and caption fields. Captions/alt text describe inspected source images without invented job locations or damage causes. All ten original images remain; ordering leads with exterior, overhead and preparation details.
