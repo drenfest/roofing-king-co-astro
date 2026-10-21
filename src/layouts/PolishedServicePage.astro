@@ -11,6 +11,7 @@ import DocumentLayout from './DocumentLayout.astro';
 import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
+import StormDamageCallout from '../components/StormDamageCallout.astro';
 import ServicePaths from '../components/ServicePaths.astro';
 import ServiceArticle from '../components/ServiceArticle.astro';
 import ServiceContentBand from '../components/ServiceContentBand.astro';
@@ -38,6 +39,7 @@ const isRoof=['repair','replacement','materials','gaf','certification','metal','
 const credentials={...reference.credentials,eyebrow:'Roof King credentials & workmanship',title:'Know the Team. Know the Work.',description:'Check our independent business record and review the written coverage for the materials and installation.',items:isRoof?reference.credentials.items:[{...reference.credentials.items[1],description:'Roof King’s BBB profile lists accreditation, an A+ business rating and independent customer feedback.'},{...reference.credentials.items[2],description:'Review Roof King’s written workmanship terms for your project. Manufacturer product coverage is separate.'},{title:'Materials & Installation, Explained',description:'Your estimate should identify the actual materials, preparation, installation and cleanup, including how additional repairs are approved.',label:'Discuss your project',href:'#estimate',mark:'Project details'}]};
 const budgetIndex=content.sections.findIndex(section=>/estimate|cost|price|proposal|records/i.test(section.title));
 const budget=budgetIndex>=0?content.sections[budgetIndex]:null;
+const showStormCallout=['repair','replacement','roofing-local','roof-cost','siding','siding-cost','siding-replacement','gutters','commercial','commercial-repair','commercial-replacement','commercial-siding','windows','local'].includes(data.family);
 const sections=content.sections.filter((_section,index)=>index!==budgetIndex);
 const schema={'@context':'https://schema.org','@type':'Service',name:data.title,serviceType:data.serviceType,description:data.description,url:new URL(page.data.permalink,site.url).href,provider:{'@id':site.url+'/#business'},areaServed:{'@type':'City',name:data.city+', Ohio'}};
 ---
@@ -49,6 +51,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
     <div class="rk-landing-trust"><div class="rk-section-inner"><a href={reference.credentials.items[1].href}><ServiceIcon name="shield"/><span>BBB Accredited</span><span aria-hidden="true">↗</span></a><a href="/offers/5-year-workmanship-warranty/"><ServiceIcon name="check"/><span>Written workmanship coverage</span><span aria-hidden="true">↗</span></a><a href="/reviews/"><ServiceIcon name="building"/><span>Verified review sources</span><span aria-hidden="true">↗</span></a></div></div>
     <Breadcrumbs items={data.breadcrumbs}/>
     {hasServiceChildren(page.data.permalink)?<ServicePaths section={data.opening as ServicePathsData}/>:<ServiceArticle section={data.opening as ServicePathsData}/>}
+    {showStormCallout&&<StormDamageCallout path={page.data.permalink}/>}
     {data.family==='calculator'&&<div class="rk-section-inner rk-editorial-estimator"><RoofrEstimator client:load/></div>}
     <ReviewSection section={{eyebrow:'Roof King customer reviews',title:'Hear From Roof King Customers',description:'Customer experiences from independent sources. Open each source badge to read the review.',reviewIds:featured.map(item=>item.id)}}/>
     <CredentialsSection section={credentials}/>

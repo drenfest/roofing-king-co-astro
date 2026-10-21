@@ -77,3 +77,5 @@ There are 83 explicit polished service entry points backed by service-editorial.
 ## Change checks
 
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+
+The homepage features StormDamageCallout directly after HomeTrust, linking the central storm hub and damage-specific resources.

@@ -48,3 +48,5 @@ service-copy.json contains the 83 PDF-derived page records: source IDs/pages/has
 service-overrides.json stores explicit client-directed revisions after the PDF transfer, with dated primary sources, complete page fields and independent expected content blocks. The Master Elite route now leads with homeowner benefits and verified GAF warranty choices. These overrides are reapplied by apply-service-pdf.mjs and must survive regeneration.
 
 The homepage inspection heading uses roof and siding (client correction); the verified booking URL retains its existing Calendly event slug.
+
+Storm Damage is a primary navigation item with hail, wind, documentation and commercial children; retain these destinations when editing menus. The homepage lists storm damage second and mentions restoration in the hero.

@@ -34,3 +34,5 @@ navigation.css owns the compact mobile masthead: three explicit columns, proport
 Mobile navigation now fills the viewport width and explicitly uses a single content column at every dropdown level, overriding legacy auto-fit/two-column grids. Desktop mega-menu columns remain unchanged.
 
 motion.css owns shared interaction timing, hover/focus feedback, tab/image/dialog entrances, progressive native disclosure interpolation and cross-document page fades. Reduced-motion disables all site animations, transitions and smooth scrolling. Badge explanations are excluded from height interpolation because their content overlays the product image.
+
+The dedicated Storm Damage top-level menu adds one navigation label. Between 1061px and 1240px the duplicate header phone text is hidden to preserve spacing; the quote action remains and mobile retains its call button.

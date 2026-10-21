@@ -217,6 +217,37 @@
       ]
     },
     {
+      "label": "Storm Damage",
+      "href": "/storm-damage/",
+      "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-item-has-children",
+      "children": [
+        {
+          "label": "Hail Damage",
+          "href": "/storm-damage/hail/",
+          "classes": "rk-menu-item rk-menu-slug-storm-damage",
+          "children": []
+        },
+        {
+          "label": "Wind Damage",
+          "href": "/storm-damage/wind/",
+          "classes": "rk-menu-item rk-menu-slug-storm-damage",
+          "children": []
+        },
+        {
+          "label": "Insurance Claims & Documentation",
+          "href": "/storm-damage/insurance-claims/",
+          "classes": "rk-menu-item rk-menu-slug-storm-damage",
+          "children": []
+        },
+        {
+          "label": "Commercial Storm Damage",
+          "href": "/storm-damage/commercial/",
+          "classes": "rk-menu-item rk-menu-slug-storm-damage",
+          "children": []
+        }
+      ]
+    },
+    {
       "label": "Products",
       "href": "/products/",
       "classes": "rk-menu-item rk-menu-item-has-children rk-menu-products",

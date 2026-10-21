@@ -75,3 +75,5 @@ ServiceArticle supports optional variant="benefits" to present static icon cards
 The native mobile masthead now groups a tap-to-call action and labeled Menu/Close toggle at the right edge. The hamburger uses an aria-hidden line wrapper; accessible expanded state, Escape and focus behavior remain on the real toggle button.
 
 SiteMotion.astro installs shared CSS feedback and a small vanilla entrance observer in both document shells. All interactive elements receive feedback; tabs, product samples, galleries, disclosures and dialogs receive state entrances. New components inherit the shared contract; use --rk-motion-fast, --rk-motion-panel and --rk-motion-ease for additional states. Do not animate the before/after drag position or hide content awaiting JavaScript.
+
+StormDamageCallout.astro is a static, responsive early-page storm inspection callout with hail, wind and insurance-documentation links. Its optional path selects an existing local storm page when one is present, otherwise the central storm hub. It inherits shared motion and adds no JavaScript.
