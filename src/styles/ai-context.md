@@ -41,8 +41,10 @@ reviews.css styles the native review hub: slanted source/share bands, proportion
 
 Editorial brand strips use fractional desktop columns instead of a fixed 230px/180px list. BrandStrip owns the shared tablet/mobile stacking and two-column phone grid. Preserve selected-brand counts, internal destinations, proportional logos and the existing motion/focus states.
 
-service-hero.css owns the shared full-bleed LandingHero treatment: positioned responsive photo, forest gradient behind text, homepage-like diagonal texture, responsive copy width and mobile framing. The source image occupies the whole hero, not a square column. Keep focus, page-transition and reduced-motion rules from motion.css.
+service-hero.css owns the shared full-bleed LandingHero treatment: positioned responsive photo, warm ivory gradient behind dark sentence-case text, restrained orange actions, responsive copy width and mobile framing. The source image occupies the whole hero, not a square column. Keep focus, page-transition and reduced-motion rules from motion.css.
 
 The leaf-opening mobile grid uses minmax(0,1fr), shrinkable children and safe long-heading wrapping to prevent 320px horizontal overflow. This is a responsive containment fix; service wording and heading hierarchy remain unchanged.
 
 Client-selected type pairing: --rk-font-display uses Playfair Display; --rk-font-body uses Inter in both base.css and the legacy compatibility shell. All six heading levels use the display font. Navigation (including mega-menu overview labels), buttons, paragraphs and eyebrow labels use Inter; decorative quote glyphs and logo artwork remain graphical assets.
+
+PageHero and LandingHero share service-hero.css and rk-editorial-hero classes. Homepage copy supports optional titleEmphasis and note; emphasis must be an exact title suffix. Mobile heroes place the full-width photo below the copy. TrustStrip uses three light certification/review columns and proportional source badges, stacking on phones. Keep generated-image credits, existing service paragraphs and booking destinations.

@@ -3,18 +3,32 @@ import HomeImage from './HomeImage.astro';
 import type home from '../data/home.json';
 interface Props { trust: typeof home.trust; }
 const { trust } = Astro.props;
+const labels = ["GAF Master Elite®", "President’s Club"];
+const descriptions = ['Certified roofing contractor', 'Manufacturer recognition'];
 ---
-
-<section class="rk-home-badges" aria-label="Roof King certifications">
-  <div class="rk-section-inner rk-home-trust-grid">
-    <div class="rk-home-certifications">
-      <div class="rk-home-badge-images">{trust.badges.map(image => <HomeImage {...image} sizes="120px" />)}</div>
-      <div><p class="rk-home-eyebrow">{trust.eyebrow}</p><h2>{trust.title}</h2><p>{trust.description}</p></div>
-    </div>
-    <div class="rk-home-google-proof"><div>
-      <a class="rk-home-google-label" href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer"><HomeImage {...trust.googleIcon} /><span>Google Reviews</span></a>
-      <div class="rk-stars" aria-hidden="true">★★★★★</div>
-      <p><strong>{trust.rating}</strong> out of {trust.count} <a href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer">Google Reviews</a> from homeowners across Ohio.</p>
-    </div></div>
+<section class="rk-editorial-trust" aria-label="Roof King certifications and reviews">
+  <div class="rk-section-inner rk-editorial-trust-grid">
+    {trust.badges.map((image,index) => <div class="rk-editorial-trust-item">
+      <HomeImage {...image} sizes="110px" />
+      <div><p class="rk-editorial-trust-title">{labels[index] || image.alt}</p><p>{descriptions[index]}</p></div>
+    </div>)}
+    <a class="rk-editorial-trust-item rk-editorial-google" href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer" aria-label={`${trust.rating}, ${trust.count} Google reviews — view on Google`}>
+      <HomeImage {...trust.googleIcon} sizes="64px"/>
+      <div><div class="rk-stars" aria-hidden="true">★★★★★</div><p class="rk-editorial-trust-title">{trust.rating}</p><p>{trust.count} Google reviews</p></div>
+    </a>
   </div>
 </section>
+<style>
+.rk-editorial-trust{padding:1.8rem 0;background:#f8f6f1;color:#20251f;border-block:1px solid #deded5;}
+.rk-editorial-trust-grid{display:grid;grid-template-columns:1fr 1fr .9fr;gap:2rem;align-items:center;width:min(100% - 8vw,1380px);max-width:1380px;}
+.rk-editorial-trust-item{display:flex;align-items:center;gap:1.5rem;min-width:0;min-height:100px;text-decoration:none;color:inherit;}
+.rk-editorial-trust-item+.rk-editorial-trust-item{border-left:1px solid #d1d4cc;padding-left:2rem;}
+.rk-editorial-trust-item :global(img){display:block;width:100px;height:110px;object-fit:contain;flex-shrink:0;}
+.rk-editorial-trust-item p{margin:0;color:#7a817a;font-size:.95rem;line-height:1.6;}
+.rk-editorial-trust-item .rk-editorial-trust-title{font-family:var(--rk-font-display);font-size:clamp(1.2rem,1.8vw,1.7rem);font-weight:600;color:#191d19;line-height:1.3;margin-bottom:.25rem;}
+.rk-editorial-google :global(img){width:60px;height:60px;}
+.rk-editorial-google .rk-stars{color:#ff7716;font-size:1.65rem;letter-spacing:.1em;line-height:1.3;}
+.rk-editorial-google:hover .rk-editorial-trust-title{text-decoration:underline;text-underline-offset:4px;}
+@media(max-width:1060px){.rk-editorial-trust-grid{gap:1rem;}.rk-editorial-trust-item{gap:.7rem;}.rk-editorial-trust-item+.rk-editorial-trust-item{padding-left:1rem;}.rk-editorial-trust-item :global(img){width:70px;height:85px;}.rk-editorial-google :global(img){width:42px;height:42px;}.rk-editorial-trust-item p{font-size:.8rem;}}
+@media(max-width:760px){.rk-editorial-trust{padding:1rem 0;}.rk-editorial-trust-grid{width:calc(100% - 2.5rem);grid-template-columns:1fr;gap:0;}.rk-editorial-trust-item{min-height:100px;gap:1.2rem;}.rk-editorial-trust-item+.rk-editorial-trust-item{padding-left:0;border-left:0;border-top:1px solid #deded5;}.rk-editorial-trust-item :global(img){width:70px;height:80px;}.rk-editorial-trust-item .rk-editorial-trust-title{font-size:1.3rem;}.rk-editorial-google :global(img){width:48px;height:48px;margin-inline:11px;}}
+</style>

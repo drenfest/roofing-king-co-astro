@@ -2,17 +2,24 @@
 import HomeImage from './HomeImage.astro';
 import site from '../data/site.json';
 import type { ServicePageData } from '../data/section-types';
-interface Props { hero: Omit<ServicePageData['hero'],'bookingLabel'> & {bookingLabel?:string}; variant?:'home'|'service'; }
+import '../styles/service-hero.css';
+interface Props { hero: Omit<ServicePageData['hero'],'bookingLabel'> & {bookingLabel?:string;titleEmphasis?:string;note?:string}; variant?:'home'|'service'; }
 const { hero, variant='service' } = Astro.props;
 const external = hero.bookingUrl.startsWith('https://');
+const emphasis = hero.titleEmphasis && hero.title.endsWith(hero.titleEmphasis) ? hero.titleEmphasis : '';
 ---
-<section class:list={['rk-home-hero',{'rk-native-page-hero':variant==='service'}]} data-component="PageHero">
+<section class:list={['rk-home-hero rk-editorial-hero',{'rk-native-page-hero':variant==='service','rk-home-editorial-hero':variant==='home'}]} data-component="PageHero">
   <HomeImage src={hero.image} alt="" class="rk-hero-background" sizes="100vw" eager />
-  <div class="rk-section-inner rk-home-hero-grid">
-    <div class="rk-home-hero-copy"><p class="rk-home-eyebrow">{hero.eyebrow}</p><h1>{hero.title}</h1><p>{hero.description}</p></div>
-    <aside class="rk-home-hero-card" aria-label="Plan your roofing project"><p class="rk-home-card-kicker">{hero.booking.eyebrow}</p><h2>{hero.booking.title}</h2><p>{hero.booking.description}</p>
-      <a class="rk-button rk-button-primary" href={hero.bookingUrl === '/contact-us/' ? '#quote-form' : hero.bookingUrl} data-quote-open={hero.bookingUrl === '/contact-us/' ? true : undefined} target={external?'_blank':undefined} rel={external?'noopener noreferrer':undefined}>{hero.bookingLabel || 'Book Inspection'}</a>
-      {variant==='service' && <a class="rk-home-hero-card-link" href={site.phoneHref}>{site.phone}</a>}
-    </aside>
+  <div class="rk-section-inner rk-home-hero-grid rk-editorial-hero-grid">
+    <div class="rk-home-hero-copy rk-editorial-hero-copy">
+      <p class="rk-home-eyebrow">{hero.eyebrow}</p>
+      <h1>{emphasis ? <>{hero.title.slice(0,-emphasis.length)}<em>{emphasis}</em></> : hero.title}</h1>
+      <p class="rk-editorial-hero-description">{hero.description}</p>
+      <div class="rk-editorial-hero-actions">
+        <a class="rk-button rk-button-primary" href={hero.bookingUrl === '/contact-us/' ? '#quote-form' : hero.bookingUrl} data-quote-open={hero.bookingUrl === '/contact-us/' ? true : undefined} target={external?'_blank':undefined} rel={external?'noopener noreferrer':undefined}>{hero.bookingLabel || 'Book an inspection'}<span aria-hidden="true">→</span></a>
+        {variant==='service' && <a class="rk-editorial-hero-phone" href={site.phoneHref}>{site.phone}</a>}
+      </div>
+      <p class="rk-editorial-hero-note">{hero.note || hero.booking.description}</p>
+    </div>
   </div>
 </section>

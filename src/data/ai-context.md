@@ -56,3 +56,5 @@ reviews-page.json contains the independent review profile destinations, topic ma
 roofing-heroes.json maps 41 roofing-related routes to individual illustrative generated hero images. roofing-hero-media.json supplies responsive dimensions/srcsets via media.ts. These presentation maps override source hero imagery without rewriting service-editorial.json or its PDF content. Rebuild assets with scripts/optimize-roofing-heroes.mjs after generation; provenance/prompts live in migration/roofing-hero-images.json.
 
 Blog is a direct child of About, with its complete Categories and Topics branches. The redundant Blog leaf under Resources was consolidated into that branch; all previous destination URLs remain available.
+
+Homepage hero titleEmphasis identifies the italic final phrase; note supplies the short helper line. Existing booking URL, review count and rating are retained.

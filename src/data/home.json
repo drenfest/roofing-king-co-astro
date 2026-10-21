@@ -1,15 +1,18 @@
 {
   "hero": {
     "eyebrow": "Ohio exterior remodeling",
-    "title": "Industry-leading roofing and siding services in Ohio",
-    "description": "Roofing, siding and storm-damage restoration with premium products, expert installation, and a team that treats every home like it belongs to royalty.",
+    "title": "Roofing & siding for Ohio homes.",
+    "description": "Protect your home. Refine its exterior. Roofing, siding and storm-damage restoration from the Roof King team.",
     "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
     "booking": {
       "eyebrow": "Roof King inspection",
       "title": "Book your roof and siding inspection",
       "description": "Schedule time with the Roof King team to review your project and plan the right next step."
     },
-    "bookingUrl": "https://calendly.com/roofkingco-info/30-minute-roof-deck-inspection"
+    "bookingUrl": "https://calendly.com/roofkingco-info/30-minute-roof-deck-inspection",
+    "titleEmphasis": "Ohio homes.",
+    "bookingLabel": "Book an inspection",
+    "note": "Tell us about your project. We’ll help with the next step."
   },
   "trust": {
     "eyebrow": "Certified roofing excellence",

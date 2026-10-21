@@ -32,3 +32,5 @@ ServiceLanding supplies Residential Roofing and PolishedServicePage supplies dat
 ServiceLanding and PolishedServicePage select generated roofing hero assets by route from roofing-heroes.json, including OG images. Every LandingHero uses the full-bleed photographic layout; other service pages retain their existing image source. No URL or body-copy migration is involved.
 
 DocumentLayout and SiteLayout request variable Inter 400–900 and Playfair Display 600–900 with display=swap and existing Google font preconnects. Both native and preserved legacy routes share this pairing.
+
+The client’s latest hero reference uses warm ivory fading into photography, dark sentence-case headings and inline inspection actions. PageHero and LandingHero share this presentation. Both document shells request true Playfair Display italics as well as upright weights.
