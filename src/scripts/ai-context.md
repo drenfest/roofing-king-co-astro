@@ -15,3 +15,5 @@ Browser behavior. This layer will shrink as native Astro/Svelte components repla
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
 
 motion.ts progressively animates below-fold top-level sections once using IntersectionObserver and the Web Animations API. Content is visible by default; hero/LCP and initial deep-link content are excluded. Animations stop on pagehide or a motion-preference change. No navigation interception, animation dependency or continuous scroll handler.
+
+service-area-map.ts lazily initializes Leaflet only near the viewport, with city polygon selection, existing service links, reset, ResizeObserver and reduced-motion support. Wheel zoom is off; one-finger map dragging is off on touch devices to preserve page scrolling.

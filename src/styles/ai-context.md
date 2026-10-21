@@ -76,3 +76,5 @@ MenuPreview atlas cells are square background layers cropped within the desktop/
 Atlas previews render at no more than 192px on desktop; mobile uses a compact 96px image alongside its destination caption, retaining full-width one-column menu links. This keeps thumbnails crisp and avoids enlarging a small sprite tile into a wide mobile banner.
 
 component-refinements.css is the shared editorial finish imported by SiteMotion in both shells: sentence-case presentation, flat orange/charcoal buttons and restrained accents/shadows while preserving diagonal section backgrounds and genuine/semantic artwork. It also owns the wider two-column desktop quote dialog and responsive field layout.
+
+service-area-map.css styles lazy Leaflet controls, restrained basemap colors, orange boundary feedback and accessible popup links. It is loaded with the map module, not the initial page styles.

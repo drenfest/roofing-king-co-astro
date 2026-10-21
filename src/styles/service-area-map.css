@@ -1,0 +1,14 @@
+.rk-area-map-interactive{width:100%;height:100%;background:#ede9df;font-family:Inter,Arial,sans-serif;}
+.rk-area-map .leaflet-tile-pane{filter:saturate(.3);}
+.rk-area-map .leaflet-control-zoom{border:1px solid #d2c9bb;border-radius:0;box-shadow:0 2px 8px #27262312;}
+.rk-area-map .leaflet-control-zoom a{color:#272623;background:#fffdf8;border-radius:0;}
+.rk-area-map .leaflet-control-attribution{font-size:10px;background:#fffdf8eb;color:#514c44;}
+.rk-area-map .leaflet-control-attribution a{color:#514c44;}
+.rk-area-map .leaflet-popup-content-wrapper{background:#fffdf8;border-radius:3px;box-shadow:0 4px 20px #27262320;}
+.rk-area-map .leaflet-popup-content{font:400 13px/1.6 Inter,Arial,sans-serif;}
+.rk-area-map .leaflet-popup-content strong{font-size:16px;}
+.rk-area-map .leaflet-popup-content p{margin:.5rem 0;}
+.rk-area-map .leaflet-popup-content a{color:#a54200;}
+.rk-area-map .leaflet-tooltip{border:1px solid #ded7cb;background:#fffdf8;font:500 12px Inter,Arial,sans-serif;box-shadow:none;}
+.rk-area-map .leaflet-interactive{transition:fill-opacity 160ms ease,stroke-width 160ms ease;}
+@media(prefers-reduced-motion:reduce){.rk-area-map .leaflet-interactive{transition:none;}}

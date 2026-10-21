@@ -126,3 +126,5 @@ ServiceContentBand comparison cards accept optional image/caption fields and dis
 SectionPhotoGallery renders exactly three distinct, responsive, lazy images with captions: a desktop photo column and compact one-wide/two-small phone layout. ServiceContentBand now receives pagePath and resolves optional reviewed galleries from service-section-galleries.json. Without a reviewed entry it retains the existing single figure. The gutters roof-edge section is the only example; further adoption belongs to the ten-page review cycle.
 
 IceDamDiagram.astro provides an accessible, static SVG cross-section for the ice-dam leaf opening. ServiceArticle accepts illustration="ice-dam" in place of a photograph; no new image request or client JavaScript is needed. It distinguishes trapped meltwater from structural sagging.
+
+ServiceAreaMap.astro replaces the coverage screenshot with a Census-derived geographic SVG fallback and lazy Leaflet street map. It shows 24 municipal boundaries and the Lewis Center community marker, with an accessible community selector, reset and existing city links. CoverageSection reuses it wherever rendered.

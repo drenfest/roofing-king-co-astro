@@ -1,0 +1,53 @@
+---
+import coverage from '../data/coverage-map.json';
+const labels=['Columbus','Cincinnati','Cleveland','Dayton','Mansfield','Akron','Athens','Zanesville'];
+---
+<div class="rk-area-map" data-service-area-map data-tile-url={coverage.tileUrl}>
+  <div class="rk-area-map-heading"><span class="rk-map-key">City boundaries</span><span>Ohio service areas</span></div>
+  <div class="rk-area-map-canvas" aria-label="Ohio service-area map" data-map-canvas>
+    <svg class="rk-area-map-fallback" viewBox="0 0 620 565" role="img" aria-labelledby="coverage-map-title coverage-map-desc">
+      <title id="coverage-map-title">Roof King service cities in Ohio</title>
+      <desc id="coverage-map-desc">Geographic map of Ohio with orange outlines around the cities we serve. Lewis Center is marked as an unincorporated community. All communities are also available in the list below.</desc>
+      <path d={coverage.state} fill="#e9e3d7" stroke="#b7afa2" stroke-width="1.5"/>
+      {coverage.cities.map(city=><path d={city.path} fill="#ff6b001f" stroke="#d85400" stroke-width="1.1"/>)}
+      {coverage.areas.filter(area=>labels.includes(area.name)).map(area=><g><circle cx={area.point[0]} cy={area.point[1]} r="3" fill="#d85400"/><text x={area.point[0]+7} y={area.point[1]-7}>{area.name}</text></g>)}
+      <text x="400" y="50" class="rk-map-lake">Lake Erie</text>
+    </svg>
+  </div>
+  <div class="rk-area-map-controls" hidden>
+    <label>Explore a community<select aria-label="Show a service community on the map" data-map-select><option value="all">All service areas</option>{coverage.areas.map(area=><option value={area.id}>{area.name}</option>)}</select></label>
+    <button type="button" data-map-reset>Reset view <span aria-hidden="true">↗</span></button>
+  </div>
+  <p class="rk-area-map-status" data-map-status aria-live="polite">Select a city to explore its boundary and local services.</p>
+  <div class="rk-area-map-footer"><a data-map-city-link href="/service-areas/">View all service areas <span aria-hidden="true">→</span></a><details><summary>All 25 communities</summary><ul>{coverage.areas.map(area=><li><a href={area.href}>{area.name}</a></li>)}</ul></details></div>
+  <p class="rk-area-map-note">Orange outlines show city limits. Lewis Center is marked as a community. We also serve surrounding areas—contact us about your address.</p>
+  <p class="rk-area-map-source">Boundaries: <a href="https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html" target="_blank" rel="noopener">U.S. Census Bureau</a>, 2026 · <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener">Report a map issue</a></p>
+</div>
+
+<script>
+  const observer=new IntersectionObserver(entries=>{
+    for(const entry of entries)if(entry.isIntersecting){
+      observer.unobserve(entry.target);
+      import('../scripts/service-area-map').then(({initializeServiceAreaMap})=>initializeServiceAreaMap(entry.target as HTMLElement)).catch(()=>{/* The geographic SVG and city links remain usable. */});
+    }
+  },{rootMargin:'150px'});
+  document.querySelectorAll<HTMLElement>('[data-service-area-map]').forEach(root=>observer.observe(root));
+</script>
+
+<style>
+  .rk-area-map{position:relative;min-width:0;background:#faf7f0;border:1px solid #ded7cb;border-top:3px solid #f66b0b;color:#272623;}
+  .rk-area-map-heading{display:flex;justify-content:space-between;gap:1rem;padding:1rem 1.2rem;font:600 .73rem/1.5 Inter,Arial,sans-serif;letter-spacing:.04em;}
+  .rk-map-key{display:flex;align-items:center;gap:.5rem;}.rk-map-key::before{content:'';width:16px;height:12px;border:2px solid #db5700;background:#ff6b0020;}
+  .rk-area-map-canvas{height:440px;background:#f2eee5;isolation:isolate;z-index:0;}
+  .rk-area-map-fallback{display:block;width:100%;height:100%;}.rk-area-map-fallback text{font:600 13px Inter,Arial,sans-serif;fill:#383630;paint-order:stroke;stroke:#faf7f0;stroke-width:3px;stroke-linejoin:round;}.rk-area-map-fallback .rk-map-lake{font-style:italic;fill:#6d8386;font-weight:400;}
+  .rk-area-map-controls{display:flex;align-items:end;gap:1rem;padding:1rem 1.2rem 0;}.rk-area-map-controls[hidden]{display:none;}
+  .rk-area-map-controls label{flex:1;min-width:0;font:500 .75rem/1.5 Inter,Arial,sans-serif;}
+  .rk-area-map-controls select{display:block;margin-top:.3rem;width:100%;min-height:44px;border:1px solid #c9c1b4;background:#fffdf8;padding:.5rem .6rem;color:#272623;font:400 .88rem Inter,Arial,sans-serif;border-radius:0;}
+  .rk-area-map-controls button{min-height:44px;padding:.5rem .7rem;background:none;border:1px solid #c9c1b4;color:#272623;font:500 .78rem Inter,Arial,sans-serif;cursor:pointer;white-space:nowrap;}
+  .rk-area-map-status{margin:.65rem 1.2rem!important;font-size:.78rem!important;line-height:1.5!important;color:#625e56;}
+  .rk-area-map-footer{display:flex;justify-content:space-between;gap:1rem;padding:.7rem 1.2rem;border-top:1px solid #ded7cb;font-size:.8rem;}
+  .rk-area-map-footer a{color:#38342d;}.rk-area-map-footer details{text-align:right;}.rk-area-map-footer summary{cursor:pointer;min-height:28px;}.rk-area-map-footer ul{list-style:none;margin:.7rem 0;padding:0;columns:2;text-align:left;}.rk-area-map-footer li{padding:.3rem 0;break-inside:avoid;}
+  .rk-area-map-note{margin:.5rem 1.2rem!important;font-size:.75rem!important;line-height:1.6!important;color:#625e56;}
+  .rk-area-map-source{margin:.7rem 1.2rem 1rem!important;font-size:.65rem!important;line-height:1.5!important;color:#756e63;}.rk-area-map-source a{color:inherit;}
+  @media(max-width:600px){.rk-area-map-canvas{height:360px;}.rk-area-map-controls{gap:.5rem;padding-inline:.8rem;}.rk-area-map-heading,.rk-area-map-footer{padding-inline:.8rem;}.rk-area-map-footer{flex-wrap:wrap;}.rk-area-map-footer details{text-align:left;}}
+</style>

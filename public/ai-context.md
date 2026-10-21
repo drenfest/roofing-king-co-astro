@@ -26,3 +26,5 @@ media/weather contains optimized responsive orange-lightning decorative backgrou
 media/siding-guide contains illustrative material-profile and window-trim images at 480/800/1200px in WebP. Originals remain outside public; migration/siding-guide-images.json records prompts, edits and file sizes.
 
 media/gutter-details contains four illustrative close-up photographs with three responsive WebP sizes each. Source PNGs stay under output/imagegen/gutter-details; full prompts and byte counts are in migration/gutter-detail-images.json.
+
+maps/ohio-service-areas.geojson holds simplified Census 2026 municipal boundaries and one OpenStreetMap-derived Lewis Center point. Tiles are requested directly only as the coverage section enters view, with visible OSM attribution and normal browser caching. No tile scraping or build-time tile downloads.

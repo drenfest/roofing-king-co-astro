@@ -54,3 +54,5 @@ optimize-service-heroes.mjs prepares the 43 supplementary custom heroes, caps fu
 
 
 build-menu-atlas.mjs resolves every unique navigation URL, rejects missing or duplicate normalized picture content, prepares 192px cells and exports one content-hashed WebP atlas within its transfer budget. It writes both full image provenance and the compact runtime cell map. Normal builds use committed output and never require source PNGs or generation.
+
+build-coverage-map.mjs explicitly refreshes Census TIGERweb city/state geometry and the overview from the reviewed community inventory. It writes provenance to migration/coverage-map-sources.json. Ordinary builds work offline and never query mapping services.

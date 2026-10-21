@@ -64,3 +64,5 @@ gutter-detail-images.json records the four built-in photographic generations for
 service-section-photo-review.json inventories all source media sections, flags currently rendered uses and tracks the three-photo pass within the ten-page review cycle. Batch 01’s report/checklist includes the one completed gutters example; the other rendered sections remain pending. section-gallery-drafts.json preserves prompts for three unreviewed roofing drafts generated before the client narrowed this pass; they remain outside public and are not displayed.
 
 roofing-hero-images.json retains the previous ice-dam scene and the built-in edit prompt for version 2. Revised WebP files and the hero review gallery show ice damming at the roof eave rather than only gutter icicles.
+
+coverage-map-sources.json records the 25-community inventory, Census boundary vintage and simplification, Lewis Center point/status sources and OSM tile policy. Refresh through scripts/build-coverage-map.mjs only when deliberately updating coverage.

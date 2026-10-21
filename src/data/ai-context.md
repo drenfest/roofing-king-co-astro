@@ -91,3 +91,5 @@ service-section-galleries.json is a page-and-section-specific presentation map f
 The ice-dam roofing hero now points to version 2, showing a roof-level ice ridge and backed-up meltwater. Its four responsive variants retain the roofing hero map contract. The menu atlas is rebuilt whenever a mapped hero changes.
 
 The ice-dam opening uses illustration="ice-dam" and three mechanism-specific H3 topics. Its client-directed copy and source-check expectations persist in service-overrides.json, with university extension and NWS evidence.
+
+coverage-map.json stores a simplified Ohio/city SVG overview, the explicit 25-community inventory and configurable tile URL. Detailed boundaries live in public/maps/ohio-service-areas.geojson. Do not invent service coverage from nearby municipal polygons; Lewis Center is a point because it is unincorporated.

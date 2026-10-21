@@ -1,0 +1,265 @@
+{
+  "checked": "2026-10-21",
+  "citySource": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/28",
+  "stateSource": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/80",
+  "vintage": "January 1, 2026",
+  "cityGeometryToleranceDegrees": 0.0006,
+  "overviewGeometryToleranceDegrees": 0.003,
+  "inventory": "23 cities with existing location pages plus Mansfield named in homepage coverage; Lewis Center is an unincorporated community marked as a point, not an invented city polygon.",
+  "lewisCenterSource": "https://www.openstreetmap.org/node/153841272",
+  "lewisCenterStatusSource": "https://co.delaware.oh.us/wp-content/uploads/2023/05/vacate-portion-of-Third-Street-Twp-Rd-in-unincorporated-Village-of-Lewis-in-Orange-Twp.pdf",
+  "tilePolicy": "https://operations.osmfoundation.org/policies/tiles/",
+  "features": [
+    {
+      "id": "akron",
+      "name": "Akron",
+      "href": "/akron-oh/",
+      "center": [
+        41.0798399,
+        -81.52193
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "href": "/athens-oh/",
+      "center": [
+        39.3269965,
+        -82.0989236
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "href": "/aurora-oh/",
+      "center": [
+        41.3118196,
+        -81.3451555
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "beavercreek",
+      "name": "Beavercreek",
+      "href": "/beavercreek-oh/",
+      "center": [
+        39.7309629,
+        -84.062385
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "centerville",
+      "name": "Centerville",
+      "href": "/centerville-oh/",
+      "center": [
+        39.6339012,
+        -84.1449217
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "cincinnati",
+      "name": "Cincinnati",
+      "href": "/cincinnati-oh/",
+      "center": [
+        39.1412561,
+        -84.506026
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "cleveland",
+      "name": "Cleveland",
+      "href": "/cleveland-oh/",
+      "center": [
+        41.4792826,
+        -81.6802736
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "columbus",
+      "name": "Columbus",
+      "href": "/columbus-oh/",
+      "center": [
+        39.9867813,
+        -82.9849351
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "dayton",
+      "name": "Dayton",
+      "href": "/dayton-oh/",
+      "center": [
+        39.7805424,
+        -84.2002709
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "delaware",
+      "name": "Delaware",
+      "href": "/delaware-oh/",
+      "center": [
+        40.2853561,
+        -83.0745425
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "href": "/dublin-oh/",
+      "center": [
+        40.1109413,
+        -83.1463041
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "gahanna",
+      "name": "Gahanna",
+      "href": "/gahanna-oh/",
+      "center": [
+        40.0251801,
+        -82.8637079
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "grove-city",
+      "name": "Grove City",
+      "href": "/grove-city-oh/",
+      "center": [
+        39.8644105,
+        -83.0705118
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "hamilton",
+      "name": "Hamilton",
+      "href": "/hamilton-oh/",
+      "center": [
+        39.3938411,
+        -84.5652271
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "hilliard",
+      "name": "Hilliard",
+      "href": "/hilliard-oh/",
+      "center": [
+        40.0353293,
+        -83.1578119
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster",
+      "href": "/lancaster-oh/",
+      "center": [
+        39.7252996,
+        -82.606184
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "lewis-center",
+      "name": "Lewis Center",
+      "href": "/lewis-center-oh/",
+      "center": [
+        40.1983958,
+        -83.0101843
+      ],
+      "kind": "community"
+    },
+    {
+      "id": "mansfield",
+      "name": "Mansfield",
+      "href": "/service-areas/",
+      "center": [
+        40.7655949,
+        -82.5274338
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "middletown",
+      "name": "Middletown",
+      "href": "/middletown-oh/",
+      "center": [
+        39.5031605,
+        -84.366499
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "newark",
+      "name": "Newark",
+      "href": "/newark-oh/",
+      "center": [
+        40.0707358,
+        -82.4249258
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "powell",
+      "name": "Powell",
+      "href": "/powell-oh/",
+      "center": [
+        40.1691526,
+        -83.0829695
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "upper-arlington",
+      "name": "Upper Arlington",
+      "href": "/upper-arlington-oh/",
+      "center": [
+        40.0271958,
+        -83.070379
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "westerville",
+      "name": "Westerville",
+      "href": "/westerville-oh/",
+      "center": [
+        40.1241148,
+        -82.9209557
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "worthington",
+      "name": "Worthington",
+      "href": "/worthington-oh/",
+      "center": [
+        40.0949665,
+        -83.0207938
+      ],
+      "kind": "city"
+    },
+    {
+      "id": "zanesville",
+      "name": "Zanesville",
+      "href": "/zanesville-oh/",
+      "center": [
+        39.9566296,
+        -82.0132598
+      ],
+      "kind": "city"
+    }
+  ],
+  "geojsonBytes": 189563
+}
