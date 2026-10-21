@@ -1,0 +1,69 @@
+{
+  "checkedOn": "2026-10-20",
+  "profiles": [
+    {
+      "platform": "Google",
+      "title": "Read our Google reviews",
+      "description": "Explore customer feedback and photos on our Google business profile.",
+      "href": "https://www.google.com/maps?cid=1803178415947519584"
+    },
+    {
+      "platform": "BBB",
+      "title": "Read our BBB reviews",
+      "description": "Read customer reviews, company responses and our business profile. BBB’s business rating is separate from customer star ratings.",
+      "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews"
+    },
+    {
+      "platform": "Birdeye",
+      "title": "Read our Birdeye reviews",
+      "description": "Explore the review collection on Birdeye, with each review’s original platform identified.",
+      "href": "https://reviews.birdeye.com/roof-king-restoration-164724786112437"
+    }
+  ],
+  "topics": {
+    "google-marianna-faria": "communication",
+    "bbb-douglas-c": "roofing",
+    "birdeye-kenneth-g": "roofing communication storm",
+    "bbb-nicholas-k": "communication storm",
+    "bbb-john-m": "storm",
+    "birdeye-ali46o": "communication storm"
+  },
+  "additionalReviews": [
+    {
+      "id": "bbb-nicholas-k",
+      "title": "Kept informed throughout the project",
+      "description": "kept us up to date during the whole process.",
+      "author": "Nicholas K",
+      "publishedOn": "2024-10-08",
+      "source": {
+        "platform": "BBB",
+        "url": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews"
+      },
+      "evidenceNote": "Exact excerpt from Nicholas K’s review, dated 10/08/2024. The full review discusses answering questions and help filing an insurance claim. No star score was exposed in the inspected source; do not invent one."
+    },
+    {
+      "id": "bbb-john-m",
+      "title": "Help after storm damage",
+      "description": "Had some storm damage. … I will definitely use him in the future.",
+      "author": "John M",
+      "publishedOn": "2024-09-28",
+      "source": {
+        "platform": "BBB",
+        "url": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews"
+      },
+      "evidenceNote": "Two exact excerpts from John M’s 09/28/2024 review, joined by an ellipsis. Omitted text contains a redacted name and the customer’s same-day experience; no same-day service promise is made. No star score was exposed in the inspected source."
+    },
+    {
+      "id": "birdeye-ali46o",
+      "title": "Questions answered, communication handled",
+      "description": "He answered all our questions and handled all the communication with our insurance.",
+      "author": "ali46o",
+      "source": {
+        "platform": "Birdeye",
+        "url": "https://reviews.birdeye.com/roof-king-restoration-164724786112437"
+      },
+      "evidenceNote": "Exact sentence from ali46o’s public review labeled on Birdeye, checked October 20, 2026. Original review refers to Quevon and Roof King. The profile exposes only a relative date and no individual star score in the inspected text; both are omitted."
+    }
+  ],
+  "writeReviewUrl": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/leave-a-review"
+}

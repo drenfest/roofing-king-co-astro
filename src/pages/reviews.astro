@@ -1,0 +1,54 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import LandingHero from '../components/LandingHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import ReviewCollection from '../components/ReviewCollection.svelte';
+import CredentialsSection from '../components/CredentialsSection.astro';
+import ProjectShowcase from '../components/ProjectShowcase.astro';
+import FAQSection from '../components/FAQSection.astro';
+import ServiceIcon from '../components/ServiceIcon.astro';
+import QuoteExperience from '../components/QuoteExperience.svelte';
+import featured from '../data/featured-reviews.json';
+import data from '../data/reviews-page.json';
+import platforms from '../data/review-platforms.json';
+import reference from '../data/roofing-landing.json';
+import site from '../data/site.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/reviews.css';
+const reviews=[...featured.items,...data.additionalReviews];
+const hero={eyebrow:'Roof King customer experiences',title:'Roof King & Restoration Reviews',description:'A new roof is a big decision. Hear how customers describe the installation, cleanup, communication and help after storm damage—then read their full reviews on the platforms where they shared them.',image:reference.hero.image,caption:'Explore our work alongside the customer feedback.',action:'Talk about your project',nextHref:'#customer-reviews',nextLabel:'Read customer reviews'};
+const faq={eyebrow:'About our customer reviews',title:'Read the Feedback. Know the Details.',items:[
+ {question:'Where can I read the complete reviews?',answer:[{type:'paragraph' as const,text:'Use the source badge on a review card to open its original review or the platform’s review collection. The Google, BBB and Birdeye links above also let you explore more feedback and any published company responses.'}]},
+ {question:'Do these excerpts represent every review?',answer:[{type:'paragraph' as const,text:'These are selected excerpts from public customer reviews. Read the full profiles for the wider range of feedback. We keep the customer’s wording in each excerpt and display individual star scores only when confirmed in the source.'}]},
+ {question:'Is the BBB business rating a customer star rating?',answer:[{type:'paragraph' as const,text:'No. BBB’s business rating and its customer review average are different measures. Reviews on Google and Birdeye also have their own ratings and totals. Follow each platform link to see its current information.'}]},
+ {question:'Can I see your roofing work and warranty information?',answer:[{type:'paragraph' as const,text:'Yes. Explore the project photos and credentials on this page, then visit our gallery, GAF Master Elite information and written workmanship warranty. Photos are shown separately from review excerpts; they are not presented as the reviewer’s property.'}]}
+]};
+---
+<DocumentLayout title="Roof King Reviews | Roofing, Siding & Storm Restoration" description="Read Roof King & Restoration customer review excerpts, explore Google, BBB and Birdeye feedback, see roofing projects and review our credentials." canonicalPath="/reviews/">
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-reviews-page">
+  <LandingHero {hero}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Reviews'}]}/>
+  <section id="review-sources" class="rk-review-sources rk-landing-section" aria-labelledby="review-sources-title"><div class="rk-section-inner">
+   <div class="rk-landing-heading"><p class="rk-home-eyebrow">Read them at the source</p><h2 id="review-sources-title">Read More Roof King Reviews</h2><p>Read more than the highlights. Open the profiles to see full reviews, customer photos and the latest feedback.</p></div>
+   <div class="rk-review-source-grid">{data.profiles.map(profile=>{const logo=platforms[profile.platform as keyof typeof platforms];return <a class="rk-review-profile" href={profile.href} target="_blank" rel="noopener noreferrer"><span class="rk-review-profile-logo"><img src={logo.src} width={logo.width} height={logo.height} alt={profile.platform} loading="lazy"/></span><h3>{profile.title}</h3><p>{profile.description}</p><strong>Visit {profile.platform}<ServiceIcon name="arrow"/></strong></a>;})}</div>
+  </div></section>
+  <section id="customer-reviews" class="rk-home-section rk-home-reviews rk-reviews-library" aria-labelledby="customer-reviews-title"><div class="rk-section-inner">
+   <div class="rk-home-section-header"><p class="rk-home-eyebrow">In our customers’ words</p><h2 id="customer-reviews-title">Roof King Customer Reviews</h2><p>Browse selected experiences by topic. Each excerpt links to the platform where it was published.</p></div>
+   <ReviewCollection total={reviews.length} client:load>{reviews.map(review=><div class="rk-review-entry" data-review-topics={data.topics[review.id as keyof typeof data.topics]}><ReviewCard card={{...review,excerpt:true}}/></div>)}</ReviewCollection>
+   <p class="rk-review-library-note">Selected excerpts. Individual experiences vary. Visit the source profiles for more reviews.</p>
+  </div></section>
+  <ProjectShowcase section={{...reference.projects,eyebrow:'Look closer at the work',title:'See Our Roofing Projects',description:'Review the finished roofing and the preparation underneath. These project photos are shown independently of the customer excerpts above.',href:'/gallery/',label:'View the project gallery'}}/>
+  <CredentialsSection section={{...reference.credentials,eyebrow:'Credentials you can check',title:'Reviews Are One Part of Choosing Your Roofer',description:'Check our manufacturer designation, business profile and written coverage as you plan your roofing project.'}}/>
+  <section class="rk-review-share rk-landing-section" aria-labelledby="share-review-title"><div class="rk-section-inner rk-review-share-inner"><div><p class="rk-home-eyebrow">Already worked with Roof King?</p><h2 id="share-review-title">Tell Us About Your Experience</h2><p>Your feedback helps other homeowners understand the work, communication and care involved in their project. Share an honest review, whether your experience was positive or could have been better.</p><div class="rk-review-share-actions"><a class="rk-button rk-button-primary" href={data.writeReviewUrl} target="_blank" rel="noopener noreferrer">Leave a BBB review<ServiceIcon name="arrow"/></a><a href={data.profiles[0].href} target="_blank" rel="noopener noreferrer">Open our Google profile ↗</a></div></div><aside><ServiceIcon name="repair"/><h3>Have a question about your project?</h3><p>Contact our team about installation, a repair or your written coverage.</p><a href="/customer-service/">Customer service<ServiceIcon name="arrow"/></a><a href={site.phoneHref}>{site.phone}</a></aside></div></section>
+  <FAQSection section={faq}/>
+  <section id="estimate" class="rk-landing-section rk-home-final-cta rk-landing-estimate"><div class="rk-section-inner rk-quote-strip-inner"><div class="rk-landing-heading"><p class="rk-home-eyebrow">Your home. Your next step.</p><h2>Let’s Talk About Your Roof or Exterior</h2><p>Planning a replacement, repairing siding or checking storm damage? Talk with Roof King about the materials, installation and next steps for your home.</p><a class="rk-button rk-button-primary" href={site.phoneHref}>Call {site.phone}<ServiceIcon name="arrow"/></a></div><QuoteExperience modalTitle="Talk with Roof King" modalDescription="Tell us about your roofing, siding or storm-damage project." showRating={false} client:load/></div></section>
+ </main><SiteFooter/>
+</DocumentLayout>

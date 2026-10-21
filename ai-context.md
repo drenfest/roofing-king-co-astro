@@ -53,3 +53,5 @@ The client authorized the Cloudways review deployment and automatic main-branch 
 ## Shared motion
 
 Every component inherits SiteMotion through DocumentLayout or SiteLayout. Use motion.css tokens for new interaction states; preserve native input responsiveness and reduced-motion support. No animation library or client router is required.
+
+The native /reviews/ hub now uses ReviewCard and ReviewCollection, sourced excerpts and independent platform profiles. It replaces the legacy hub presentation while retaining all child review URLs. See reviews-page.json for source evidence and topic mapping.

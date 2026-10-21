@@ -79,3 +79,5 @@ There are 83 explicit polished service entry points backed by service-editorial.
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
 
 The homepage features StormDamageCallout directly after HomeTrust, linking the central storm hub and damage-specific resources.
+
+reviews.astro is the native /reviews/ hub. The legacy catchall excludes only this hub; every protected /reviews/<id>/ path remains available. It composes sourced review cards, topic filters, third-party profile links, project photos, credentials, honest review submission, FAQs and disconnected quote forms.

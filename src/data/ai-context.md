@@ -50,3 +50,5 @@ service-overrides.json stores explicit client-directed revisions after the PDF t
 The homepage inspection heading uses roof and siding (client correction); the verified booking URL retains its existing Calendly event slug.
 
 Storm Damage is a primary navigation item with hail, wind, documentation and commercial children; retain these destinations when editing menus. The homepage lists storm damage second and mentions restoration in the hero.
+
+reviews-page.json contains the independent review profile destinations, topic mapping and three additional short BBB/Birdeye excerpts verified October 20, 2026. Existing featured-reviews.json remains the three-card sitewide selection. Keep exact excerpts, source provenance and dates; never infer stars or combine platform totals. No self-serving review/aggregate schema is generated.
