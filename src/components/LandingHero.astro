@@ -1,12 +1,14 @@
 ---
 import HomeImage from './HomeImage.astro';
 import site from '../data/site.json';
-interface Props {hero:{eyebrow:string;title:string;description:string;image:{src:string;alt:string};caption:string;action:string;nextHref?:string;nextLabel?:string};}
+import RichContent from './RichContent.astro';
+import type {RichNode} from '../data/section-types';
+interface Props {hero:{eyebrow:string;title:string;description:string;body?:RichNode[];image:{src:string;alt:string};caption:string;action:string;nextHref?:string;nextLabel?:string};}
 const {hero}=Astro.props;
 ---
 <section class="rk-landing-hero" data-component="LandingHero">
   <div class="rk-section-inner rk-landing-hero-grid">
-    <div class="rk-landing-hero-copy"><p class="rk-home-eyebrow">{hero.eyebrow}</p><h1>{hero.title}</h1><p class="rk-landing-lede">{hero.description}</p>
+    <div class="rk-landing-hero-copy"><p class="rk-home-eyebrow">{hero.eyebrow}</p><h1>{hero.title}</h1>{hero.body?<div class="rk-landing-lede"><RichContent nodes={hero.body}/></div>:<p class="rk-landing-lede">{hero.description}</p>}
       <div class="rk-landing-actions"><a class="rk-button rk-button-primary" href="#estimate">{hero.action} <span aria-hidden="true">↗</span></a><a href={site.phoneHref}>Talk with our team <strong>{site.phone}</strong></a></div>
       <a class="rk-landing-text-link" href={hero.nextHref || '#roofing-services'}>{hero.nextLabel || 'Find the right next step'} <span aria-hidden="true">↓</span></a>
     </div>

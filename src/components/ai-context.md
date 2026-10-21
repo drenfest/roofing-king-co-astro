@@ -65,3 +65,9 @@ ServiceArticle presents leaf-service topics as ordinary visible content rows, pr
 ## Change checks
 
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+
+## Service content interfaces
+
+ServiceContentBand.astro renders full source sections as alternating media rows or multi-topic comparisons using RichContent. ServiceSystemDiagram.astro supplies decorative code-native system SVGs, not installation specifications. ServiceArticle.astro renders leaf opening prose and optional media without a selector. ServicePaths.astro accepts optional rich intro/item bodies for real child services; its plain-text fallback preserves the approved roofing example. LandingHero accepts optional RichNode body to retain contextual lead links. Generated art is conceptual and its captions must not imply a completed Roof King project.
+
+ServiceArticle supports optional variant="benefits" to present static icon cards for homeowner benefits. This does not create a selector on a leaf page. Item icons use the shared ServiceIcon SVG system.

@@ -1,0 +1,16 @@
+---
+interface Props {theme:string;}
+const {theme}=Astro.props;
+const roof=['roof','metal','attic'].includes(theme);
+---
+<div class="rk-system-diagram" aria-hidden="true">
+  <svg viewBox="0 0 440 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 176H424" stroke="currentColor" opacity=".18"/>
+    {roof?<><path d="M65 114 218 32 373 114" stroke="currentColor" stroke-width="11" stroke-linejoin="round"/><path d="m77 122 141-75 142 75" stroke="#ef7c31" stroke-width="5"/><path d="M98 117v58h242v-58M101 135h237" stroke="currentColor" stroke-width="5"/>{theme==='attic'?<path d="M105 145h229v16H105z" fill="#ef7c31" opacity=".45"/>:<><path d="M154 89v-24h14v17M276 85V62h20v34" stroke="currentColor" stroke-width="5"/><path d="M204 141v34h33v-34z" fill="currentColor" opacity=".16"/></>}<path d="M127 118 218 71l92 47" stroke="currentColor" opacity=".23" stroke-width="3"/></>:
+    theme==='commercial'?<><path d="M76 90h289v85H76zM68 88h306v13H68z" stroke="currentColor" stroke-width="5"/><path d="M80 109h280" stroke="#ef7c31" stroke-width="6"/><path d="M140 87V65h65v22M249 87V73h37v14" stroke="currentColor" stroke-width="4"/><path d="M101 133h40v31h-40zM165 133h40v31h-40zM248 133h57v42" stroke="currentColor" stroke-width="3"/></>:
+    theme==='deck'?<><path d="M62 117h307v18H62zM82 135v41M212 135v41M347 135v41M75 78h283M75 68v48M358 68v48" stroke="currentColor" stroke-width="5"/><path d="M88 94h257M100 80v35M132 80v35M164 80v35M196 80v35M228 80v35M260 80v35M292 80v35M324 80v35" stroke="currentColor" stroke-width="3"/><path d="M333 136h34v14h23v14h23v12" stroke="#ef7c31" stroke-width="5"/></>:
+    theme==='gutter'?<><path d="m68 91 165-48 120 48H68zM95 100v73h223v-73" stroke="currentColor" stroke-width="5"/><path d="M64 103h299v12h-25v54l38 10" stroke="#ef7c31" stroke-width="8" stroke-linejoin="round"/><path d="M115 128h36v36h-36zM190 128h36v36h-36zM265 128h36v36h-36z" stroke="currentColor" opacity=".3" stroke-width="3"/></>:
+    <><path d="M89 40h254v135H89z" stroke="currentColor" stroke-width="5"/><path d="M106 61h86v93h-86zM236 61h86v93h-86z" stroke="currentColor" stroke-width="4"/><path d="M115 71h68v72h-68zM245 71h68v72h-68z" fill="currentColor" opacity=".13"/><path d="M149 72v71M279 72v71" stroke="currentColor" stroke-width="3"/><path d="M90 169h252" stroke="#ef7c31" stroke-width="7"/></>}
+    <circle cx="35" cy="40" r="9" fill="#ef7c31" opacity=".6"/><path d="M28 35h14M35 28v14" stroke="currentColor" stroke-width="2"/>
+  </svg>
+</div>

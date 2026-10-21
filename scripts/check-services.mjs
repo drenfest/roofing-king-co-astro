@@ -105,7 +105,7 @@ for(const [path,data] of Object.entries(editorial)){
  const hasChildren=manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
  assert.equal($('.rk-service-detail').length,hasChildren?data.opening.items.length:0);
  assert.equal($('.rk-service-article-row').length,hasChildren?0:data.opening.items.length);
- for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve topic destination on '+path);}
+ for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);if(hasChildren||!item.body)assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve child/topic destination on '+path);}
  assert.equal($('.rk-home-review-card .rk-review-source').length,3);
  assert.equal($('.rk-landing-credential-list article').length,3);
  assert.equal($('.rk-service-faq details').length,data.faq.items.length);

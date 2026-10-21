@@ -1,0 +1,83 @@
+[
+  {
+    "name": "roof-detail-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Architectural roofing detail illustration: shingles, vent boot, chimney flashing, decking and underlayment. Landscape 3:2; conceptual model; warm ivory, forest-green and copper accents; no text, labels, brands or job claims.",
+    "original": "migration/generated-service-art/roof-detail-v1.png",
+    "public": "/media/service-illustrations/roof-detail-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "commercial-roof-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "Create one premium educational architectural illustration for a commercial roofing service website, landscape 3:2. Three-quarter aerial view of a small low-slope commercial building roof as a precise photorealistic 3D architectural model. Light gray continuous roof membrane, raised parapet with coping, one carefully flashed rectangular HVAC curb, simple roof drain near one corner. One foreground edge is cleanly cut away to reveal membrane over cover board, rigid insulation and steel deck. Credible drainage layout, tidy roof, no damage and no workers. Warm ivory studio backdrop, restrained forest-green architectural accents and subtle warm copper details, soft studio daylight, tactile materials, clear spacious composition. This is a conceptual roof-system illustration, not a photograph of a real job or an installation specification. No writing, labels, numbers, brands, logos, watermarks, arrows or text. Keep all model parts well inside the frame.",
+    "original": "migration/generated-service-art/commercial-roof-v1.png",
+    "public": "/media/service-illustrations/commercial-roof-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "siding-wall-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "One premium photorealistic 3D architectural editorial illustration, landscape 3:2, of a residential exterior wall and window seen at a close three-quarter angle. A clean conceptual cutaway at the near wall corner reveals coordinated siding layers, wall sheathing, a light weather barrier and framing; the finished wall has forest-green horizontal lap siding with warm ivory trim and one crisp white-framed double-glazed window. Show the transition to a small gray shingle roof eave above, simple flashing at the window and a natural stone base below. Tactile believable materials, accurate straight geometry, tasteful garden edge, warm neutral background and soft daylight. Clearly an architectural model, not a real Roof King project. No workers, no brands, no text, no letters, no numbers, no labels, no arrows, no logo or watermark. Keep model comfortably within frame.",
+    "original": "migration/generated-service-art/siding-wall-v1.png",
+    "public": "/media/service-illustrations/siding-wall-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "gutter-drainage-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "One premium photorealistic 3D architectural editorial illustration for an exterior service website, landscape 3:2. Close three-quarter view of a house eave, showing charcoal asphalt shingles, white fascia, a continuous dark forest-green open gutter with a clean inside visible, and a matching downspout descending at a corner to a simple extension pointing away from a cutaway foundation edge. Gentle clear rainwater visible inside the gutter and at the outlet, no flooding. Keep connections physically plausible, straight and uncluttered. Warm ivory studio background, subtle warm copper accents, tactile materials, soft daylight. This is an educational architectural model, not a real contractor job or exact installation detail. No words, arrows, numbers, labels, brands, people, logos or watermark. Show gutter, downspout and discharge in one coherent composition.",
+    "original": "migration/generated-service-art/gutter-drainage-v1.png",
+    "public": "/media/service-illustrations/gutter-drainage-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "deck-structure-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "One polished photorealistic 3D architectural illustration for a deck service website, landscape 3:2. A compact residential deck model attached to an ivory house wall: warm gray composite-looking deck boards, clean dark forest-green metal railings, a short broad stair to a tasteful patio. One near edge is cleanly cut away to reveal believable joists, beam, posts and simple footings beneath the surface. All railings and stair geometry look complete and comfortable. Soft daylight and warm neutral studio setting with restrained landscaping. Premium tactile material quality, coherent architectural model with open negative space, not a photograph of a real job. No people, tools, labels, text, numbers, logos, brand-specific product claims or watermark.",
+    "original": "migration/generated-service-art/deck-structure-v1.png",
+    "public": "/media/service-illustrations/deck-structure-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "attic-insulation-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "A premium photorealistic 3D architectural editorial illustration, landscape 3:2, showing a tidy residential attic in section. Gray shingle roof and timber rafters above, soffit-to-attic ventilation space at the eave shown clearly, pale loose-fill insulation covering the attic floor between ceiling joists, ceiling layer beneath. A small clean cutaway reveals the joists without pretending all insulation should be flush with them; show generous insulation elsewhere. No spray foam, no machinery, no workers, no exact R-value or manufacturer representation. Warm ivory studio background, restrained forest-green architectural accents, natural wood texture, soft clear daylight, elegant tactile model. Educational conceptual illustration, not a photo of actual contractor work. No text, labels, arrows, measurements, logos or watermark.",
+    "original": "migration/generated-service-art/attic-insulation-v1.png",
+    "public": "/media/service-illustrations/attic-insulation-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "window-opening-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "A premium photorealistic 3D architectural editorial illustration for window replacement, landscape 3:2. Show one clean white-framed casement window in a modest ivory exterior wall, close three-quarter view. A precisely cut away wall edge reveals wood framing, sheathing and a weather-resistant layer beside the window opening. Show double glazing in the open sash edge, a finished warm-white trim surround and a simple sloped sill; coherent plausible construction and good proportion. Restrained forest-green accent inside, soft warm daylight and tactile architectural model quality. Clearly a conceptual architectural model rather than an actual installed brand product or contractor job. No people, tools, text, ratings, dimensions, labels, numbers, logos or watermark.",
+    "original": "migration/generated-service-art/window-opening-v1.png",
+    "public": "/media/service-illustrations/window-opening-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "standing-seam-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "One premium photorealistic 3D architectural editorial illustration, landscape 3:2, of a charcoal standing-seam metal residential roof at a close three-quarter angle. Crisp raised longitudinal seams, a modest roof-to-wall junction, tidy eave flashing and gutter, no exposed field fasteners. Clean cutaway at one foreground edge reveals wood decking and underlayment below the finished panels without showing invented technical fastening details. Warm ivory house, subtle forest-green architectural accents, soft studio daylight and tactile materials. Conceptual architectural model, not a specific manufacturer system or real contractor project. No people, no text, no labels, no measurements, no logos or watermark.",
+    "original": "migration/generated-service-art/standing-seam-v1.png",
+    "public": "/media/service-illustrations/standing-seam-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  },
+  {
+    "name": "exterior-painting-v1",
+    "tool": "built-in image_gen",
+    "date": "2026-10-20",
+    "prompt": "One polished editorial architectural illustration for exterior house painting, landscape 3:2. Close three-quarter view of a modest home's lap siding and window trim. Main wall has a beautifully finished muted forest-green coating with warm ivory trim. At one foreground corner show a small deliberate cutaway sample of the same wall: cleaned and smoothly prepared wood, a pale primed section and the final green finish, clearly arranged as an architectural demonstration rather than a before-and-after job claim. Two unlabeled color sample boards lean neatly on a small work surface. No people, no floating brushes, no drips, no rot, no brand products. Premium photorealistic 3D model with soft daylight, natural textures and warm cream backdrop. No text, words, numbers, labels, logos or watermark.",
+    "original": "migration/generated-service-art/exterior-painting-v1.png",
+    "public": "/media/service-illustrations/exterior-painting-v1.webp",
+    "classification": "AI-generated architectural illustration; not project photography or an installation specification"
+  }
+]

@@ -6,6 +6,8 @@ Build an SEO-focused static Roof King site using Astro and Svelte. All 244 prote
 
 ## Read first
 
+- `migration/service-content-master-review.md`: competitor research and proposed outlines for all 83 remaining service URLs, excluding /roofing/. Its 90-page linked review PDF is `output/pdf/roof-king-service-content-review.pdf`; evidence and report generation inputs are in `migration/service-content-research/`. Website content remains pending client review.
+
 - `README.md`: commands, release limits and provenance.
 - `migration/route-manifest.json`: every required static path and its content file.
 - `migration/url-inventory.json`: original three-source route contract.
@@ -37,3 +39,13 @@ The user explicitly chose to build the homepage form/modal now and connect deliv
 Run `npm run verify` before pushing. Ensure new code works on Linux CI as well as Windows. Normal builds must not access the source database or neighboring checkouts. Reimporting overwrites page bodies; do not rerun the importer after editorial work without a deliberate migration plan.
 
 Customer copy must use concrete roofing or exterior-product language. The client explicitly rejects “scope,” “scope of work,” “compare scope,” and similar wording across the entire website. Identify the actual materials, tear-off, decking repairs, flashing, fastening, installation, cleanup or coverage relevant to the page. Do not replace one generic term with another. The built-route check rejects this wording in rendered customer text. Retain original migration evidence separately.
+
+## Full service-copy implementation (2026-10-20)
+
+All 83 service URLs supplied in the 176-page PDF now render through PolishedServicePage.astro; /roofing/ remains the approved reference. service-copy.json holds full paragraphs, sections, FAQs and contextual links, while service-editorial.json holds page identity, hero, opening and presentation choices. Edit scripts/apply-service-pdf.mjs for source transformations; author-service-landings.mjs reapplies it after family defaults. Normal builds read committed JSON only. See migration/service-pdf-implementation.md for the route checklist and validation. The earlier competitor outline report remains separate evidence and is not a statement that the supplied copy is still unimplemented.
+
+## Naming preference
+
+Never add Codex or other AI/agent branding to branches, commits, pull request titles, deployment labels, or client-facing content unless the user explicitly requests it. Use neutral project names. This user preference overrides default agent branch-prefix conventions.
+
+The client authorized the Cloudways review deployment and automatic main-branch updates. Production DNS, indexing and custom lead delivery are not changed. See migration/cloudways-deployment.md for the target, recovery and GitHub billing prerequisite.

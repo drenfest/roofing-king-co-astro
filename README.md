@@ -65,7 +65,7 @@ The static build was imported from its public output. This repository does not c
 
 ## Before production
 
-All pages currently emit `noindex, nofollow`, and `robots.txt` disallows crawling. No deployment or DNS change is configured. Review and intentionally change this policy only when the site is approved for release.
+All pages currently emit `noindex, nofollow`, and `robots.txt` disallows crawling. Cloudways review deployment is configured; production DNS remains unchanged. Review and intentionally change this policy only when the site is approved for release.
 
 Source forms, active scripts and iframes are stripped from legacy imported content. The native homepage restores form fields and the modal, with disabled submission and a clear call/booking alternative. Lead capture, Zapier/Roofr delivery, booking embeds, calculators, storm reports, analytics and conversions still need implementation and end-to-end verification. No backend secrets or database credentials are included.
 
@@ -90,3 +90,7 @@ The accepted hierarchy is Home → Products → Product Type Products → Produc
 The Products menu includes all current category, material, brand and individual product pages. Run `node scripts/sync-product-navigation.mjs` after editing product-pillar.json or product-details.json breadcrumbs to update navigation.json and the temporary imported-page header together. The menu follows those breadcrumb relationships, including the retained GAF catalog URL.
 
 BrandStrip takes page-specific heading/copy and an ordered `brandIds` array. Available IDs live in `src/data/brand-library.json`: `gaf`, `variform`, `lp-smartside`, `trex`, `james-hardie`, `ply-gem`, `alu-rex`, `t-rex`, `leaffilter`. See `migration/brand-inventory.md` for site evidence and manufacturer/product-line distinctions. Set a roofing section to `"brandIds": ["gaf"]`, siding to the appropriate siding IDs, or use a mixed array on the homepage. Order follows the array; an empty array omits the strip. Unknown IDs fail the build. Names/logos/dimensions come from the library; destinations remain centralized in `brand-pages.json`. Selections live in home.json, service-pages.json and optional product-pillar.json brands records. Do not use certification badges as substitutes for manufacturer brands.
+
+## Cloudways review deployment
+
+Main commits run the verify, build, static upload and review smoke-check workflow. The initial build can be uploaded locally while GitHub billing blocks hosted Actions. See migration/cloudways-deployment.md for the target, backup, rollback and current automation status. Review indexing and custom quote delivery remain disabled.

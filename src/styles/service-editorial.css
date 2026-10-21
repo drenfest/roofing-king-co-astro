@@ -22,3 +22,69 @@
 .rk-service-article-row p{margin:0 0 1rem;}
 .rk-service-article-row a{color:#234d38;font-weight:750;text-underline-offset:5px;}
 @media(max-width:760px){.rk-service-article-row{grid-template-columns:1fr;gap:.8rem;padding-block:1.5rem;}.rk-service-article-row h3{max-width:none;}}
+
+/* Complete source-led service copy. Section rhythm follows the approved roofing page. */
+.rk-full-service{--copy-ink:#18362c;--copy-paper:#fcfbf7;--copy-cream:#f1ecdf;}
+.rk-full-service .rk-landing-hero-copy h1{max-width:21ch;}
+.rk-full-service .rk-landing-lede{font-size:clamp(1.03rem,1.25vw,1.18rem);line-height:1.75;}
+.rk-copy-opening-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(2rem,5vw,5rem);align-items:start;}
+.rk-copy-opening-media{margin:0;position:sticky;top:8rem;}
+.rk-copy-opening-media img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:1.1rem;clip-path:polygon(0 0,96% 0,100% 7%,100% 100%,4% 100%,0 93%);}
+.rk-copy-opening-media figcaption,.rk-copy-figure figcaption{font-size:.83rem;line-height:1.55;color:#5b6a5f;margin-top:.8rem;max-width:54ch;}
+.rk-copy-opening-grid .rk-service-article-row{display:block;padding-block:1.3rem;}
+.rk-copy-opening-grid .rk-service-article-row h3{max-width:none;font-size:1.2rem;margin:0 0 .7rem;}
+.rk-copy-opening-grid .rk-service-article-rows{margin-top:1.4rem;}
+.rk-full-service .rk-service-article{position:relative;padding-block:clamp(3rem,6vw,6rem);background:linear-gradient(112deg,#fcfbf7 0 61%,#f0f3ed 61%);}
+.rk-full-service .rk-service-article p{line-height:1.8;}
+.rk-full-service .rk-service-paths{padding-bottom:6rem;}
+.rk-full-service .rk-service-detail{min-height:0;}
+.rk-copy-band{position:relative;isolation:isolate;padding-block:clamp(4rem,7vw,7rem);margin-top:-1px;}
+.rk-copy-band::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;}
+.rk-copy-light{background:var(--copy-paper);}
+.rk-copy-light::before{background:#f2eee3;clip-path:polygon(69% 0,100% 0,100% 100%,56% 100%);}
+.rk-copy-cream{background:#f3eee3;}
+.rk-copy-cream::before{background:rgba(255,255,255,.65);clip-path:polygon(0 0,43% 0,31% 100%,0 100%);}
+.rk-copy-forest{color:#fffaf0;padding-block:clamp(5rem,8vw,8rem);background:#193e30;clip-path:polygon(0 2.2rem,100% 0,100% calc(100% - 2.2rem),0 100%);}
+.rk-copy-forest::before{background:repeating-linear-gradient(132deg,transparent 0 75px,rgba(229,182,103,.1) 75px 76px),linear-gradient(116deg,transparent 0 55%,rgba(255,255,255,.025) 55%);}
+.rk-copy-forest h2,.rk-copy-forest h3{color:#fffaf0;}
+.rk-copy-forest .rk-home-eyebrow{color:#ffb774;}
+.rk-copy-band p,.rk-copy-band li{line-height:1.85;}
+.rk-copy-band a,.rk-copy-opening-grid a{color:inherit;text-decoration-color:#d7763c;text-underline-offset:.25em;font-weight:650;}
+.rk-copy-band h2{font-size:clamp(1.8rem,3.3vw,3rem);line-height:1.17;max-width:27ch;margin:0 0 1.6rem;}
+.rk-copy-band h3{font-size:1.2rem;line-height:1.4;margin:0 0 .8rem;}
+.rk-copy-media-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(2rem,5vw,5rem);align-items:start;}
+.rk-copy-figure{margin:0;position:sticky;top:8rem;}
+.rk-copy-figure img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:1rem;clip-path:polygon(0 0,96% 0,100% 7%,100% 100%,4% 100%,0 93%);}
+.rk-copy-forest figcaption{color:#d1ddd2;}
+.rk-copy-reverse .rk-copy-figure{order:2;}
+.rk-copy-text>p:last-child{margin-bottom:0;}
+.rk-copy-detail-list{display:grid;gap:1.6rem;margin-top:1.8rem;}
+.rk-copy-detail-list>div{border-top:1px solid rgba(79,104,84,.25);padding-top:1.4rem;}
+.rk-copy-band-heading{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:3rem;align-items:center;}
+.rk-copy-band-heading>div>p{max-width:85ch;}
+.rk-system-diagram{width:100%;color:inherit;opacity:.8;}
+.rk-system-diagram svg{display:block;width:100%;height:auto;}
+.rk-copy-option-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1.5rem;margin-top:2.6rem;}
+.rk-copy-two-options{grid-template-columns:1fr 1fr;gap:2.2rem;}
+.rk-copy-option{position:relative;padding:2rem;background:rgba(255,255,255,.82);color:var(--copy-ink);clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px));}
+.rk-copy-option-rule{display:block;width:2.5rem;height:3px;background:#e06923;margin-bottom:1.4rem;}
+.rk-copy-option p:last-child{margin-bottom:0;}
+.rk-copy-forest .rk-copy-option{background:rgba(255,255,255,.065);color:#fffaf0;border:1px solid rgba(255,255,255,.2);}
+.rk-copy-light .rk-copy-two-options .rk-copy-option:first-child,.rk-copy-cream .rk-copy-two-options .rk-copy-option:first-child{background:#193e30;color:#fffaf0;}
+.rk-copy-two-options .rk-copy-option:first-child h3{color:inherit;}
+.rk-copy-estimate-band .rk-copy-budget-detail{margin-block:1.5rem;}
+.rk-copy-estimate-band .rk-copy-budget-detail h3{font-size:1.1rem;}
+.rk-full-service .rk-service-faq{padding-block:clamp(4rem,7vw,7rem);}
+.rk-full-service .rk-service-faq summary{line-height:1.5;}
+.rk-full-service .rk-home-final-cta .rk-landing-heading>p{max-width:65ch;}
+@media(max-width:1000px){.rk-copy-opening-grid,.rk-copy-media-layout{gap:2.2rem;}.rk-copy-band-heading{grid-template-columns:minmax(0,1fr) 220px;gap:2rem;}.rk-copy-option{padding:1.5rem;}}
+@media(max-width:760px){.rk-copy-opening-grid,.rk-copy-media-layout,.rk-copy-band-heading,.rk-copy-two-options{grid-template-columns:1fr;}.rk-copy-opening-media,.rk-copy-figure{position:static;}.rk-copy-reverse .rk-copy-figure{order:0;}.rk-system-diagram{max-width:280px;margin-inline:auto;}.rk-copy-band-heading{gap:1rem;}.rk-copy-option-grid{gap:1rem;}.rk-copy-band{padding-block:3.5rem;}.rk-copy-forest{padding-block:5rem;clip-path:polygon(0 1rem,100% 0,100% calc(100% - 1rem),0 100%);}.rk-full-service .rk-service-article{background:#fcfbf7;}.rk-copy-band h2{max-width:none;}.rk-copy-opening-media{max-width:620px;}.rk-full-service .rk-service-paths{padding-bottom:4rem;}}
+
+/* Optional benefit cards for credential/service pages; leaves remain static content. */
+.rk-service-benefits .rk-service-article-rows{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;}
+.rk-service-benefits .rk-service-article-row{display:block;margin:0;padding:2rem;background:#193e30;color:#fffaf0;border-top:3px solid #e66c24;clip-path:polygon(0 0,calc(100% - 20px) 0,100% 20px,100% 100%,20px 100%,0 calc(100% - 20px));}
+.rk-service-benefits .rk-service-article-row h3{color:inherit;max-width:none;font-size:1.45rem;margin:.8rem 0 1rem;}
+.rk-service-benefits .rk-service-article-row p{margin:0;}
+.rk-service-benefit-icon{display:inline-flex;color:#ffb774;}
+.rk-service-benefit-icon svg{width:2rem;height:2rem;}
+@media(max-width:760px){.rk-service-benefits .rk-service-article-rows{grid-template-columns:1fr;}.rk-service-benefits .rk-service-article-row{padding:1.5rem;}}

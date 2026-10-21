@@ -7,3 +7,5 @@
 *.avif binary
 *.woff binary
 *.woff2 binary
+
+*.sh text eol=lf

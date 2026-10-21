@@ -117,3 +117,6 @@ for(const [url,data] of Object.entries(out)){
  await fs.writeFile(target,`---\nimport {getCollection} from 'astro:content';\nimport PolishedServicePage from '${prefix}/layouts/PolishedServicePage.astro';\nimport editorial from '${prefix}/data/service-editorial.json';\nconst page=(await getCollection('pages')).find(page=>page.data.permalink==='${url}')!;\n---\n<PolishedServicePage {page} data={editorial['${url}']}/>\n`);
 }
 console.log('Authored '+Object.keys(out).length+' service landings from '+Object.keys(families).length+' service briefs.');
+
+// Reapply the approved source transfer after family defaults are regenerated.
+await import('./apply-service-pdf.mjs');

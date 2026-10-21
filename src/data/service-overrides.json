@@ -1,0 +1,715 @@
+{
+  "/roofing/gaf/master-elite/": {
+    "reviewedAt": "2026-10-20",
+    "reason": "Client requested a benefits-led Master Elite page; supersedes the cautious PDF wording for this route.",
+    "sources": [
+      {
+        "url": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.gaf.com/en-us/plan-design/homeowner-education/choose-gaf-roofer",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.gaf.com/en-us/document-library/documents/brochures-&-literature/partner-programs-residential-program-guidelines.pdf",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.gaf.com/en-us/resources/warranties/residential",
+        "checked": "2026-10-20"
+      },
+      {
+        "url": "https://www.gaf.com/en-us/document-library/documents/warranties/golden-pledge-limited-warranty-legal-sample-reswt161l.pdf",
+        "checked": "2026-10-20"
+      }
+    ],
+    "editorial": {
+      "title": "The Benefits of a GAF Master Elite® Roofer",
+      "seoTitle": "GAF Master Elite Contractor Benefits in Columbus, OH",
+      "description": "See the benefits of hiring Roof King, a GAF Master Elite contractor: Golden Pledge warranty access, system protection and GAF-backed workmanship coverage.",
+      "hero": {
+        "eyebrow": "GAF Master Elite® · Columbus, Ohio",
+        "title": "The Benefits of a GAF Master Elite® Roofer",
+        "description": "Hiring Roof King gives you access to GAF’s Golden Pledge® Limited Warranty on a qualifying new roof, along with a contractor whose certification carries insurance, licensing where required, and ongoing learning requirements. Choose your shingles, understand your protection, and plan your roof with our Columbus team.",
+        "image": {
+          "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+          "alt": "Overhead view of a gray shingle roof with multiple ridges and valleys"
+        },
+        "caption": "Roofing details, materials and installation with Roof King",
+        "action": "Plan Your GAF Roof",
+        "nextHref": "#service-topics",
+        "nextLabel": "See your Master Elite benefits",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hiring Roof King gives you access to GAF’s Golden Pledge® Limited Warranty on a qualifying new roof, along with a contractor whose certification carries insurance, licensing where required, and ongoing learning requirements. Choose your shingles, understand your protection, and plan your roof with our Columbus team."
+              }
+            ]
+          }
+        ]
+      },
+      "opening": {
+        "id": "service-topics",
+        "variant": "benefits",
+        "eyebrow": "What you receive",
+        "title": "The Benefits of Hiring a GAF Master Elite® Contractor",
+        "description": "A new roof is a major investment. Our certification gives you more ways to protect it, with warranty choices tied to the GAF roof you select.",
+        "intro": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "A new roof is a major investment. Our certification gives you more ways to protect it, with warranty choices tied to the GAF roof you select."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "tag": "a",
+                "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+                "children": [
+                  {
+                    "text": "See Roof King’s Master Elite certification at GAF"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorLabel": "Master Elite benefits",
+        "items": [
+          {
+            "id": "master-elite-benefit-1",
+            "tabLabel": "Golden Pledge® Access",
+            "title": "Golden Pledge® Access",
+            "description": "Only a GAF Master Elite contractor can offer Golden Pledge on an eligible roof. That gives you an enhanced warranty choice beyond what a non-certified installer can offer.",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Only a GAF Master Elite contractor can offer Golden Pledge on an eligible roof. That gives you an enhanced warranty choice beyond what a non-certified installer can offer."
+                  }
+                ]
+              }
+            ],
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Plan your GAF roof",
+            "icon": "shield"
+          },
+          {
+            "id": "master-elite-benefit-2",
+            "tabLabel": "50-Year Defect Protection Period",
+            "title": "50-Year Defect Protection Period",
+            "description": "Eligible Golden Pledge systems receive a 50-year Smart Choice® period for manufacturing defects. Non-prorated protection means covered remedies are not reduced for the age of the roof during that period.",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Eligible Golden Pledge systems receive a 50-year Smart Choice® period for manufacturing defects. Non-prorated protection means covered remedies are not reduced for the age of the roof during that period."
+                  }
+                ]
+              }
+            ],
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Plan your GAF roof",
+            "icon": "cost"
+          },
+          {
+            "id": "master-elite-benefit-3",
+            "tabLabel": "GAF-Backed Workmanship Coverage",
+            "title": "GAF-Backed Workmanship Coverage",
+            "description": "Golden Pledge also covers qualifying installation errors, including covered flashings. You can choose manufacturer-backed installation protection alongside Roof King’s separate workmanship coverage.",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Golden Pledge also covers qualifying installation errors, including covered flashings. You can choose manufacturer-backed installation protection alongside Roof King’s separate workmanship coverage."
+                  }
+                ]
+              }
+            ],
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Plan your GAF roof",
+            "icon": "check"
+          },
+          {
+            "id": "master-elite-benefit-4",
+            "tabLabel": "Qualifications You Can Verify",
+            "title": "Qualifications You Can Verify",
+            "description": "GAF’s program requires insurance and licensing where required, considers experience and reviews, and sets annual learning requirements for Master Elite renewal. You have a current manufacturer listing to check before hiring.",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "GAF’s program requires insurance and licensing where required, considers experience and reviews, and sets annual learning requirements for Master Elite renewal. You have a current manufacturer listing to check before hiring."
+                  }
+                ]
+              }
+            ],
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Plan your GAF roof",
+            "icon": "roof"
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Your Master Elite questions",
+        "title": "Understand Your GAF Roofing Benefits",
+        "description": "",
+        "items": [
+          {
+            "question": "What is the biggest benefit of hiring a Master Elite contractor?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Access to Golden Pledge on a qualifying roof, together with a contractor who meets GAF’s certification and renewal requirements. It gives you a broader choice of manufacturer protection when you replace your roof."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Is Golden Pledge automatically included with every Roof King roof?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "No. The roof must qualify, and the enhanced warranty must be selected and registered. Ask which warranty is included in your proposal."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "How is GAF-backed workmanship protection different from a product warranty?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Product coverage concerns manufacturing defects. Misapplication coverage concerns covered installation errors. Golden Pledge includes both, with the covered products, flashings, remedies and conditions defined in its written terms."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Does lifetime coverage mean the roof never needs replacing?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "No. Lifetime is a defined warranty term tied to eligible ownership and property types; it is not a prediction of roof life or a promise against all damage."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "Can I choose my own shingle color and style?",
+            "answer": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Yes. Explore GAF products, then discuss availability and the warranty choices for your selected shingles and accessories with our team."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "eyebrow": "Talk with Roof King",
+        "title": "Get More From Your New GAF Roof",
+        "description": "Talk with Roof King about the shingles, installation and warranty protection available for your home. We’ll help you see which GAF system fits your project and what is included.",
+        "action": "Plan Your GAF Roof"
+      }
+    },
+    "copy": {
+      "lead": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Hiring Roof King gives you access to GAF’s Golden Pledge® Limited Warranty on a qualifying new roof, along with a contractor whose certification carries insurance, licensing where required, and ongoing learning requirements. Choose your shingles, understand your protection, and plan your roof with our Columbus team."
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "golden-pledge-benefits",
+          "title": "Why Golden Pledge® Makes a Difference",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "A product warranty addresses manufacturing defects. Golden Pledge adds protection for covered installation errors, so the warranty you choose can address both the materials and how they were installed."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "tag": "a",
+                  "href": "https://www.gaf.com/en-us/document-library/documents/warranties/golden-pledge-limited-warranty-legal-sample-reswt161l.pdf",
+                  "children": [
+                    {
+                      "text": "Read GAF’s Golden Pledge warranty terms"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "title": "Protection for the roofing system",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Qualifying shingles and accessories receive enhanced manufacturing-defect protection. Necessary tear-off and disposal are included for covered claims under the warranty terms."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Help with covered installation errors",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "For an approved misapplication claim, GAF can arrange repairs or provide the remedy described in the warranty. Covered flashings include locations such as chimneys, valleys and plumbing vents."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/media/service-illustrations/roof-detail-v1.webp",
+            "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+          },
+          "caption": "Illustration of related components. Materials and details vary with the selected system.",
+          "variant": "comparison",
+          "tone": "forest"
+        },
+        {
+          "id": "master-elite-qualifications",
+          "title": "A Contractor Held to GAF’s Program Requirements",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Your roofer is responsible for the details you will not see once the shingles are on. Certification gives you another way to evaluate the company doing that work."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "tag": "a",
+                  "href": "https://www.gaf.com/en-us/document-library/documents/brochures-&-literature/partner-programs-residential-program-guidelines.pdf",
+                  "children": [
+                    {
+                      "text": "GAF contractor program requirements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "title": "Insurance and business qualifications",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "GAF’s published program requirements include liability and workers’ compensation insurance, with licensing where required. Experience and customer reviews are also factors in its certification process."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Continuing education",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Master Elite renewal includes annual learning credits. That keeps education about roofing products and installation part of maintaining the designation."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "A current, independent listing",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Roof King & Restoration appears in GAF’s contractor directory as Master Elite. Follow the manufacturer profile to verify the company and certification directly."
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+                      "children": [
+                        {
+                          "text": "View Roof King on GAF’s contractor directory"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/media/service-illustrations/roof-detail-v1.webp",
+            "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+          },
+          "caption": "Illustration of related components. Materials and details vary with the selected system.",
+          "variant": "media",
+          "tone": "cream"
+        },
+        {
+          "id": "gaf-complete-system",
+          "title": "Build the Roof That Qualifies for Your Protection",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Shingles, starter strips, underlayment, leak barriers, ridge caps and ventilation work together as a roof system. We can help you choose the visible finish while identifying the companion products and installation details required for your selected warranty."
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "title": "Choose the shingles you want",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Compare GAF profiles, colors and published performance specifications, then ask which warranty options are available for that combination."
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "href": "/products/roofing/shingles/",
+                      "children": [
+                        {
+                          "text": "Explore GAF shingle products and colors"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "href": "/roofing/gaf/types/",
+                      "children": [
+                        {
+                          "text": "View the GAF shingle catalog"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Include the supporting components",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Your proposal should name the accessories, flashing and ventilation work included. Enhanced warranty eligibility depends on the qualifying products and installation requirements."
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "href": "/roofing/gaf/",
+                      "children": [
+                        {
+                          "text": "Explore our GAF roofing installation service"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/media/service-illustrations/roof-detail-v1.webp",
+            "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+          },
+          "caption": "Illustration of related components. Materials and details vary with the selected system.",
+          "variant": "media",
+          "tone": "light"
+        },
+        {
+          "id": "gaf-warranty-choices",
+          "title": "Choose the GAF Warranty for Your Roof",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "System Plus®, Silver Pledge™ and Golden Pledge® offer different levels of protection. Golden Pledge is the option reserved for Master Elite contractors. Ask us to identify the warranty offered for your new roof and its price before you decide."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "tag": "a",
+                  "href": "https://www.gaf.com/en-us/resources/warranties/residential",
+                  "children": [
+                    {
+                      "text": "Compare GAF’s residential warranties"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "title": "System Plus®",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Enhanced manufacturing-defect protection for a qualifying roof system. Installation-error coverage is not included."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Silver Pledge™",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Adds manufacturer-backed coverage for qualifying installation errors. Available through GAF Certified Plus™ and Master Elite contractors."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Golden Pledge®",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Adds longer installation-error protection: a 25- or 30-year non-prorated period, depending on the shingle, with extended lifetime misapplication coverage for eligible single-family detached residences under the current terms."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/media/service-illustrations/roof-detail-v1.webp",
+            "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+          },
+          "caption": "Illustration of related components. Materials and details vary with the selected system.",
+          "variant": "comparison",
+          "tone": "forest"
+        },
+        {
+          "id": "master-elite-estimate",
+          "title": "Your GAF Roof Estimate and Warranty",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Ask for the shingle name and color, the compatible accessories, tear-off and decking repairs, flashing, ventilation, cleanup, and the warranty included in your estimate. Confirm whether an enhanced option is available for your chosen roof."
+                }
+              ]
+            }
+          ],
+          "cards": [
+            {
+              "title": "Registration and your warranty documents",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "GAF enhanced warranties require registration. Confirm that it will be handled and keep the warranty certificate with your installation records."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Manufacturer coverage and Roof King coverage",
+              "body": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "text": "Roof King’s published five-year workmanship coverage is separate from GAF’s warranty. Your proposal should explain both and tell you who to contact for help."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/media/service-illustrations/roof-detail-v1.webp",
+            "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+          },
+          "caption": "Illustration of related components. Materials and details vary with the selected system.",
+          "variant": "comparison",
+          "tone": "cream"
+        }
+      ],
+      "closingBody": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Talk with Roof King about the shingles, installation and warranty protection available for your home. We’ll help you see which GAF system fits your project and what is included."
+            }
+          ]
+        }
+      ],
+      "expectedBlocks": [
+        "The Benefits of a GAF Master Elite® Roofer",
+        "Hiring Roof King gives you access to GAF’s Golden Pledge® Limited Warranty on a qualifying new roof, along with a contractor whose certification carries insurance, licensing where required, and ongoing learning requirements. Choose your shingles, understand your protection, and plan your roof with our Columbus team.",
+        "The Benefits of Hiring a GAF Master Elite® Contractor",
+        "A new roof is a major investment. Our certification gives you more ways to protect it, with warranty choices tied to the GAF roof you select.",
+        "See Roof King’s Master Elite certification at GAF",
+        "Golden Pledge® Access",
+        "Only a GAF Master Elite contractor can offer Golden Pledge on an eligible roof. That gives you an enhanced warranty choice beyond what a non-certified installer can offer.",
+        "50-Year Defect Protection Period",
+        "Eligible Golden Pledge systems receive a 50-year Smart Choice® period for manufacturing defects. Non-prorated protection means covered remedies are not reduced for the age of the roof during that period.",
+        "GAF-Backed Workmanship Coverage",
+        "Golden Pledge also covers qualifying installation errors, including covered flashings. You can choose manufacturer-backed installation protection alongside Roof King’s separate workmanship coverage.",
+        "Qualifications You Can Verify",
+        "GAF’s program requires insurance and licensing where required, considers experience and reviews, and sets annual learning requirements for Master Elite renewal. You have a current manufacturer listing to check before hiring.",
+        "Why Golden Pledge® Makes a Difference",
+        "A product warranty addresses manufacturing defects. Golden Pledge adds protection for covered installation errors, so the warranty you choose can address both the materials and how they were installed.",
+        "Read GAF’s Golden Pledge warranty terms",
+        "Protection for the roofing system",
+        "Qualifying shingles and accessories receive enhanced manufacturing-defect protection. Necessary tear-off and disposal are included for covered claims under the warranty terms.",
+        "Help with covered installation errors",
+        "For an approved misapplication claim, GAF can arrange repairs or provide the remedy described in the warranty. Covered flashings include locations such as chimneys, valleys and plumbing vents.",
+        "A Contractor Held to GAF’s Program Requirements",
+        "Your roofer is responsible for the details you will not see once the shingles are on. Certification gives you another way to evaluate the company doing that work.",
+        "GAF contractor program requirements",
+        "Insurance and business qualifications",
+        "GAF’s published program requirements include liability and workers’ compensation insurance, with licensing where required. Experience and customer reviews are also factors in its certification process.",
+        "Continuing education",
+        "Master Elite renewal includes annual learning credits. That keeps education about roofing products and installation part of maintaining the designation.",
+        "A current, independent listing",
+        "Roof King & Restoration appears in GAF’s contractor directory as Master Elite. Follow the manufacturer profile to verify the company and certification directly.",
+        "View Roof King on GAF’s contractor directory",
+        "Build the Roof That Qualifies for Your Protection",
+        "Shingles, starter strips, underlayment, leak barriers, ridge caps and ventilation work together as a roof system. We can help you choose the visible finish while identifying the companion products and installation details required for your selected warranty.",
+        "Choose the shingles you want",
+        "Compare GAF profiles, colors and published performance specifications, then ask which warranty options are available for that combination.",
+        "Explore GAF shingle products and colors",
+        "View the GAF shingle catalog",
+        "Include the supporting components",
+        "Your proposal should name the accessories, flashing and ventilation work included. Enhanced warranty eligibility depends on the qualifying products and installation requirements.",
+        "Explore our GAF roofing installation service",
+        "Choose the GAF Warranty for Your Roof",
+        "System Plus®, Silver Pledge™ and Golden Pledge® offer different levels of protection. Golden Pledge is the option reserved for Master Elite contractors. Ask us to identify the warranty offered for your new roof and its price before you decide.",
+        "Compare GAF’s residential warranties",
+        "System Plus®",
+        "Enhanced manufacturing-defect protection for a qualifying roof system. Installation-error coverage is not included.",
+        "Silver Pledge™",
+        "Adds manufacturer-backed coverage for qualifying installation errors. Available through GAF Certified Plus™ and Master Elite contractors.",
+        "Golden Pledge®",
+        "Adds longer installation-error protection: a 25- or 30-year non-prorated period, depending on the shingle, with extended lifetime misapplication coverage for eligible single-family detached residences under the current terms.",
+        "Your GAF Roof Estimate and Warranty",
+        "Ask for the shingle name and color, the compatible accessories, tear-off and decking repairs, flashing, ventilation, cleanup, and the warranty included in your estimate. Confirm whether an enhanced option is available for your chosen roof.",
+        "Registration and your warranty documents",
+        "GAF enhanced warranties require registration. Confirm that it will be handled and keep the warranty certificate with your installation records.",
+        "Manufacturer coverage and Roof King coverage",
+        "Roof King’s published five-year workmanship coverage is separate from GAF’s warranty. Your proposal should explain both and tell you who to contact for help.",
+        "Understand Your GAF Roofing Benefits",
+        "What is the biggest benefit of hiring a Master Elite contractor?",
+        "Access to Golden Pledge on a qualifying roof, together with a contractor who meets GAF’s certification and renewal requirements. It gives you a broader choice of manufacturer protection when you replace your roof.",
+        "Is Golden Pledge automatically included with every Roof King roof?",
+        "No. The roof must qualify, and the enhanced warranty must be selected and registered. Ask which warranty is included in your proposal.",
+        "How is GAF-backed workmanship protection different from a product warranty?",
+        "Product coverage concerns manufacturing defects. Misapplication coverage concerns covered installation errors. Golden Pledge includes both, with the covered products, flashings, remedies and conditions defined in its written terms.",
+        "Does lifetime coverage mean the roof never needs replacing?",
+        "No. Lifetime is a defined warranty term tied to eligible ownership and property types; it is not a prediction of roof life or a promise against all damage.",
+        "Can I choose my own shingle color and style?",
+        "Yes. Explore GAF products, then discuss availability and the warranty choices for your selected shingles and accessories with our team.",
+        "Get More From Your New GAF Roof",
+        "Talk with Roof King about the shingles, installation and warranty protection available for your home. We’ll help you see which GAF system fits your project and what is included."
+      ],
+      "bodyWords": 990
+    }
+  }
+}

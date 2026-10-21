@@ -818,5 +818,167 @@
         "width": 1280
       }
     ]
+  },
+  "/media/service-illustrations/gutter-drainage-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/gutter-drainage-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/gutter-drainage-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/gutter-drainage-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/attic-insulation-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/attic-insulation-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/attic-insulation-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/attic-insulation-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/roof-detail-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/roof-detail-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/roof-detail-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/roof-detail-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/siding-wall-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/siding-wall-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/siding-wall-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/siding-wall-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/window-opening-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/window-opening-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/window-opening-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/window-opening-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/commercial-roof-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/commercial-roof-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/commercial-roof-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/commercial-roof-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/deck-structure-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/deck-structure-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/deck-structure-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/deck-structure-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/exterior-painting-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/exterior-painting-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/exterior-painting-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/exterior-painting-v1-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/service-illustrations/standing-seam-v1.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/services/standing-seam-v1-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/services/standing-seam-v1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/services/standing-seam-v1-1280.webp",
+        "width": 1280
+      }
+    ]
   }
 }

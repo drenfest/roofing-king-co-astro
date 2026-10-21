@@ -29,3 +29,11 @@ author-service-landings.mjs writes explicit native routes and service-editorial.
 ## Change checks
 
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+
+## PDF transfer and review tools
+
+extract-service-pdf.py extracts the 83 publishable entries with PDF page/font evidence; editorial notes are retained separately. apply-service-pdf.mjs explicitly adapts rejected terminology and reconciles identity, then writes service-copy.json, service-editorial.json and the audit. author-service-landings.mjs reapplies that overlay after family defaults. check-service-pdf.mjs independently compares every original block and link destination against built HTML using the recorded changes; npm run verify includes it. review-service-pages.mjs optionally uses Playwright (PLAYWRIGHT_MODULE and CHROME_PATH environment variables) to inspect all 84 pages at desktop/mobile, test tabs/FAQ, decode images and record screenshots under tmp/service-review. build-service-review.mjs creates the notes/export review index from those results. No authoring/network/PDF tooling runs during an ordinary build.
+
+apply-service-pdf.mjs now applies service-overrides.json after source normalization. check-service-pdf.mjs checks the complete reviewed override text for those routes and original PDF text for the others, preserving original contextual destinations. Never mutate the original source extraction to hide a client-directed content revision.
+
+deploy-cloudways.sh validates the target app marker, stages static output in private_html/astro-deploy, preserves old public files privately and restores them on a file-switch failure. check-cloudways-review.mjs checks public review URLs, noindex, static output and actual 404 status.

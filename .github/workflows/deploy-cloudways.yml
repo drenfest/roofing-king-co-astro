@@ -1,0 +1,52 @@
+name: Deploy Cloudways review
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cloudways-review
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: cloudways-review
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Verify and build the complete site
+        run: npm run verify
+      - name: Package static output
+        run: tar -czf "$RUNNER_TEMP/site.tar.gz" -C dist .
+      - name: Deploy verified output over pinned SSH
+        shell: bash
+        env:
+          DEPLOY_KEY: ${{ secrets.CLOUDWAYS_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ secrets.CLOUDWAYS_KNOWN_HOSTS }}
+          DEPLOY_HOST: ${{ vars.CLOUDWAYS_HOST }}
+          DEPLOY_USER: ${{ vars.CLOUDWAYS_USER }}
+          APP_ROOT: ${{ vars.CLOUDWAYS_APP_ROOT }}
+        run: |
+          set -euo pipefail
+          test -n "$DEPLOY_KEY" && test -n "$KNOWN_HOSTS"
+          [[ "$DEPLOY_HOST" =~ ^[a-zA-Z0-9.-]+$ ]]
+          [[ "$DEPLOY_USER" =~ ^[a-zA-Z0-9_-]+$ ]]
+          [[ "$APP_ROOT" =~ ^/[a-zA-Z0-9_./-]+$ ]]
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/cloudways_review
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          ssh_opts=(-i ~/.ssh/cloudways_review -o BatchMode=yes -o StrictHostKeyChecking=yes)
+          target="$DEPLOY_USER@$DEPLOY_HOST"
+          ssh "${ssh_opts[@]}" "$target" "mkdir -p '$APP_ROOT/private_html/astro-deploy/incoming'"
+          scp "${ssh_opts[@]}" "$RUNNER_TEMP/site.tar.gz" "$target:$APP_ROOT/private_html/astro-deploy/incoming/$GITHUB_SHA.tar.gz"
+          scp "${ssh_opts[@]}" scripts/deploy-cloudways.sh "$target:$APP_ROOT/private_html/astro-deploy/deploy.sh"
+          ssh "${ssh_opts[@]}" "$target" "bash '$APP_ROOT/private_html/astro-deploy/deploy.sh' '$APP_ROOT' '$GITHUB_SHA'"
+      - name: Check review site after deployment
+        run: node scripts/check-cloudways-review.mjs

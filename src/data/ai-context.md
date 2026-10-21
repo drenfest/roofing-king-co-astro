@@ -40,3 +40,9 @@ service-hierarchy.ts checks the preserved route manifest for direct child URLs; 
 ## Change checks
 
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+
+## Full service copy
+
+service-copy.json contains the 83 PDF-derived page records: source IDs/pages/hash, rich lead, content bands, closing copy, internal links and complete expected text. service-editorial.json supplies metadata, hero, parent/leaf openings, brands and FAQs. /roofing/ stays in roofing-landing.json. Rich paragraphs use section-types.ts RichNode, including inline anchors. service-media.json includes responsive variants for nine generated illustrations. Regenerate deliberately with scripts/apply-service-pdf.mjs; ordinary builds do not require the PDF or Python. Original copy and adaptations remain in migration evidence.
+
+service-overrides.json stores explicit client-directed revisions after the PDF transfer, with dated primary sources, complete page fields and independent expected content blocks. The Master Elite route now leads with homeowner benefits and verified GAF warranty choices. These overrides are reapplied by apply-service-pdf.mjs and must survive regeneration.
