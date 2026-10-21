@@ -12,6 +12,7 @@ archive="$work/incoming/$release_id.tar.gz"
 release="$work/releases/$release_id"
 [[ -f "$archive" && ! -e "$release" ]] || { echo "Missing archive or existing release" >&2; exit 1; }
 mkdir -p "$work/releases" "$work/backups"
+chmod 700 "$work" "$work/backups"
 # Reject archive paths that could escape the release directory.
 while IFS= read -r entry; do
   [[ "$entry" != /* && "$entry" != ../* && "$entry" != */../* ]] || { echo "Unsafe archive member" >&2; exit 1; }

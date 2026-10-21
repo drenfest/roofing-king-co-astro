@@ -28,3 +28,5 @@ GitHub Actions currently fails before jobs start due to account payment or spend
 ## Review settings
 
 The site retains noindex/nofollow, a disallow-all robots.txt and disabled custom quote submission. Phone, booking and click-to-load Roofr behavior remain available. No production hostname or DNS change is performed.
+
+SFTP is chrooted to the application root. Upload destinations use relative private_html paths; SSH commands use the verified absolute application path. The temporary hostname remains unchanged at the client’s request.

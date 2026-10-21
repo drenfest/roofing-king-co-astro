@@ -45,8 +45,8 @@ jobs:
           ssh_opts=(-i ~/.ssh/cloudways_review -o BatchMode=yes -o StrictHostKeyChecking=yes)
           target="$DEPLOY_USER@$DEPLOY_HOST"
           ssh "${ssh_opts[@]}" "$target" "mkdir -p '$APP_ROOT/private_html/astro-deploy/incoming'"
-          scp "${ssh_opts[@]}" "$RUNNER_TEMP/site.tar.gz" "$target:$APP_ROOT/private_html/astro-deploy/incoming/$GITHUB_SHA.tar.gz"
-          scp "${ssh_opts[@]}" scripts/deploy-cloudways.sh "$target:$APP_ROOT/private_html/astro-deploy/deploy.sh"
+          scp "${ssh_opts[@]}" "$RUNNER_TEMP/site.tar.gz" "$target:private_html/astro-deploy/incoming/$GITHUB_SHA.tar.gz"
+          scp "${ssh_opts[@]}" scripts/deploy-cloudways.sh "$target:private_html/astro-deploy/deploy.sh"
           ssh "${ssh_opts[@]}" "$target" "bash '$APP_ROOT/private_html/astro-deploy/deploy.sh' '$APP_ROOT' '$GITHUB_SHA'"
       - name: Check review site after deployment
         run: node scripts/check-cloudways-review.mjs
