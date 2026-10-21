@@ -81,3 +81,5 @@ StormDamageCallout.astro is a static, responsive early-page storm inspection cal
 ReviewCard.astro owns review excerpts, confirmed individual ratings, author/date and original platform badges for both CardSection and the review hub. ReviewCollection.svelte progressively filters static cards by their data-review-topics attribute. Without JS every review remains visible. Filters keep focus, announce counts and inherit shared reduced-motion behavior.
 
 BrandStrip stacks its heading above a full-width logo grid below 1000px, with at most two columns below 760px. Single-brand selections retain their 240px maximum. Never constrain the entire multi-brand list to one logo’s width; logos retain intrinsic aspect ratios.
+
+LandingHero accepts serviceName for service pages and generates the jump-link label Read More About {Service}. Non-service pages can retain hero.nextLabel. Keep the existing section destination and down arrow.

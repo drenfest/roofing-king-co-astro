@@ -31,7 +31,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
 <DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image.src}>
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main rk-service-landing"><article data-service-build="astro-components" data-landing-build="editorial" data-content-source={page.data.source}>
-    <LandingHero hero={data.hero}/>
+    <LandingHero hero={data.hero} serviceName="Residential Roofing"/>
     <div class="rk-landing-trust"><div class="rk-section-inner">{data.credentials.items.map(item=><a href={item.href}><ServiceIcon name="shield"/><span>{item.title}</span><span aria-hidden="true">↗</span></a>)}</div></div>
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
     <ServicePaths section={completeServicePaths(page.data.permalink,data.services as ServicePathsData)}/>

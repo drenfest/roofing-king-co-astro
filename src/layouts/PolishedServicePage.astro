@@ -47,7 +47,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main rk-service-landing"><article class="rk-polished-service rk-full-service" data-service-build="astro-components" data-landing-build="editorial" data-service-family={data.family} data-pdf-entry={content.sourceId} data-content-source={page.data.source}>
-    <LandingHero hero={{...data.hero,body:('body' in data.hero?data.hero.body:undefined) as RichNode[]|undefined}}/>
+    <LandingHero hero={{...data.hero,body:('body' in data.hero?data.hero.body:undefined) as RichNode[]|undefined}} serviceName={data.serviceType}/>
     <div class="rk-landing-trust"><div class="rk-section-inner"><a href={reference.credentials.items[1].href}><ServiceIcon name="shield"/><span>BBB Accredited</span><span aria-hidden="true">↗</span></a><a href="/offers/5-year-workmanship-warranty/"><ServiceIcon name="check"/><span>Written workmanship coverage</span><span aria-hidden="true">↗</span></a><a href="/reviews/"><ServiceIcon name="building"/><span>Verified review sources</span><span aria-hidden="true">↗</span></a></div></div>
     <Breadcrumbs items={data.breadcrumbs}/>
     {hasServiceChildren(page.data.permalink)?<ServicePaths section={data.opening as ServicePathsData}/>:<ServiceArticle section={data.opening as ServicePathsData}/>}

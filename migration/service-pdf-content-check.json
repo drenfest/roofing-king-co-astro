@@ -7,7 +7,7 @@
     {
       "path": "/akron-oh/",
       "sourceId": 1,
-      "bodyWords": 1205,
+      "bodyWords": 1208,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -18,7 +18,7 @@
     {
       "path": "/athens-oh/",
       "sourceId": 2,
-      "bodyWords": 1200,
+      "bodyWords": 1203,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -29,7 +29,7 @@
     {
       "path": "/attic-insulation/",
       "sourceId": 3,
-      "bodyWords": 1165,
+      "bodyWords": 1166,
       "pdfBlocks": 24,
       "reviewedOverride": false,
       "expectedBlocks": 24,
@@ -40,7 +40,7 @@
     {
       "path": "/aurora-oh/",
       "sourceId": 4,
-      "bodyWords": 1191,
+      "bodyWords": 1194,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -51,7 +51,7 @@
     {
       "path": "/beavercreek-oh/",
       "sourceId": 5,
-      "bodyWords": 1196,
+      "bodyWords": 1199,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -62,7 +62,7 @@
     {
       "path": "/centerville-oh/",
       "sourceId": 6,
-      "bodyWords": 1188,
+      "bodyWords": 1191,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -73,7 +73,7 @@
     {
       "path": "/cincinnati-oh/",
       "sourceId": 7,
-      "bodyWords": 1272,
+      "bodyWords": 1275,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -84,7 +84,7 @@
     {
       "path": "/cincinnati-oh/roofing/",
       "sourceId": 8,
-      "bodyWords": 1316,
+      "bodyWords": 1318,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -95,7 +95,7 @@
     {
       "path": "/cincinnati-oh/storm-damage/",
       "sourceId": 9,
-      "bodyWords": 1249,
+      "bodyWords": 1251,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -106,7 +106,7 @@
     {
       "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
       "sourceId": 10,
-      "bodyWords": 1239,
+      "bodyWords": 1241,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -117,7 +117,7 @@
     {
       "path": "/cleveland-oh/",
       "sourceId": 11,
-      "bodyWords": 1211,
+      "bodyWords": 1214,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -128,7 +128,7 @@
     {
       "path": "/cleveland-oh/roofing/",
       "sourceId": 12,
-      "bodyWords": 1363,
+      "bodyWords": 1365,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -139,7 +139,7 @@
     {
       "path": "/cleveland-oh/roofing/cost-of-replacement/",
       "sourceId": 13,
-      "bodyWords": 1280,
+      "bodyWords": 1282,
       "pdfBlocks": 29,
       "reviewedOverride": false,
       "expectedBlocks": 29,
@@ -150,7 +150,7 @@
     {
       "path": "/cleveland-oh/storm-damage/",
       "sourceId": 14,
-      "bodyWords": 1249,
+      "bodyWords": 1251,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -161,7 +161,7 @@
     {
       "path": "/columbus-oh/",
       "sourceId": 15,
-      "bodyWords": 1220,
+      "bodyWords": 1223,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -172,7 +172,7 @@
     {
       "path": "/columbus-oh/roofing/",
       "sourceId": 16,
-      "bodyWords": 1311,
+      "bodyWords": 1313,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -183,7 +183,7 @@
     {
       "path": "/columbus-oh/storm-damage/",
       "sourceId": 17,
-      "bodyWords": 1249,
+      "bodyWords": 1251,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -194,7 +194,7 @@
     {
       "path": "/commercial-roofing/",
       "sourceId": 18,
-      "bodyWords": 1190,
+      "bodyWords": 1191,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -205,7 +205,7 @@
     {
       "path": "/commercial-roofing/gutters/",
       "sourceId": 19,
-      "bodyWords": 1226,
+      "bodyWords": 1227,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -216,7 +216,7 @@
     {
       "path": "/commercial-roofing/repair/",
       "sourceId": 20,
-      "bodyWords": 1209,
+      "bodyWords": 1211,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -227,7 +227,7 @@
     {
       "path": "/commercial-roofing/replacement/",
       "sourceId": 21,
-      "bodyWords": 1244,
+      "bodyWords": 1246,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -238,7 +238,7 @@
     {
       "path": "/commercial-roofing/roof-types/",
       "sourceId": 22,
-      "bodyWords": 1191,
+      "bodyWords": 1193,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -249,7 +249,7 @@
     {
       "path": "/commercial-siding/",
       "sourceId": 23,
-      "bodyWords": 1215,
+      "bodyWords": 1216,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -260,7 +260,7 @@
     {
       "path": "/cost-of-a-new-roof/",
       "sourceId": 24,
-      "bodyWords": 1279,
+      "bodyWords": 1281,
       "pdfBlocks": 29,
       "reviewedOverride": false,
       "expectedBlocks": 29,
@@ -271,7 +271,7 @@
     {
       "path": "/dayton-oh/",
       "sourceId": 25,
-      "bodyWords": 1260,
+      "bodyWords": 1263,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -282,7 +282,7 @@
     {
       "path": "/dayton-oh/roofing/",
       "sourceId": 26,
-      "bodyWords": 1319,
+      "bodyWords": 1321,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -293,7 +293,7 @@
     {
       "path": "/dayton-oh/storm-damage/",
       "sourceId": 27,
-      "bodyWords": 1249,
+      "bodyWords": 1251,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -304,7 +304,7 @@
     {
       "path": "/dayton-oh/the-cost-of-new-gutters/",
       "sourceId": 28,
-      "bodyWords": 1181,
+      "bodyWords": 1183,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -315,7 +315,7 @@
     {
       "path": "/dayton-roofers/",
       "sourceId": 29,
-      "bodyWords": 1285,
+      "bodyWords": 1287,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -326,7 +326,7 @@
     {
       "path": "/decks/",
       "sourceId": 30,
-      "bodyWords": 1202,
+      "bodyWords": 1203,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -337,7 +337,7 @@
     {
       "path": "/decks/accessories/",
       "sourceId": 31,
-      "bodyWords": 1175,
+      "bodyWords": 1176,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -348,7 +348,7 @@
     {
       "path": "/decks/installations/",
       "sourceId": 32,
-      "bodyWords": 1171,
+      "bodyWords": 1172,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -359,7 +359,7 @@
     {
       "path": "/decks/refinishing/",
       "sourceId": 33,
-      "bodyWords": 1197,
+      "bodyWords": 1198,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -370,7 +370,7 @@
     {
       "path": "/decks/repairs/",
       "sourceId": 34,
-      "bodyWords": 1180,
+      "bodyWords": 1181,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -381,7 +381,7 @@
     {
       "path": "/decks/replacements/",
       "sourceId": 35,
-      "bodyWords": 1173,
+      "bodyWords": 1174,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -392,7 +392,7 @@
     {
       "path": "/delaware-oh/",
       "sourceId": 36,
-      "bodyWords": 1222,
+      "bodyWords": 1225,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -403,7 +403,7 @@
     {
       "path": "/delaware-oh/roofing/",
       "sourceId": 37,
-      "bodyWords": 1311,
+      "bodyWords": 1313,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -414,7 +414,7 @@
     {
       "path": "/delaware-oh/storm-damage/",
       "sourceId": 38,
-      "bodyWords": 1249,
+      "bodyWords": 1251,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -425,7 +425,7 @@
     {
       "path": "/dublin-oh/",
       "sourceId": 39,
-      "bodyWords": 1197,
+      "bodyWords": 1200,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -436,7 +436,7 @@
     {
       "path": "/emergency-roof-repair-dublin-oh/",
       "sourceId": 40,
-      "bodyWords": 1292,
+      "bodyWords": 1293,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -447,7 +447,7 @@
     {
       "path": "/exterior-painting/",
       "sourceId": 41,
-      "bodyWords": 1176,
+      "bodyWords": 1177,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -458,7 +458,7 @@
     {
       "path": "/gaf-roofing-dublin-oh/",
       "sourceId": 42,
-      "bodyWords": 1257,
+      "bodyWords": 1258,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -469,7 +469,7 @@
     {
       "path": "/gahanna-oh/",
       "sourceId": 43,
-      "bodyWords": 1190,
+      "bodyWords": 1193,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -480,7 +480,7 @@
     {
       "path": "/grove-city-oh/",
       "sourceId": 44,
-      "bodyWords": 1200,
+      "bodyWords": 1203,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -491,7 +491,7 @@
     {
       "path": "/gutter-installation-dublin-oh/",
       "sourceId": 45,
-      "bodyWords": 1198,
+      "bodyWords": 1199,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -502,7 +502,7 @@
     {
       "path": "/gutters/",
       "sourceId": 46,
-      "bodyWords": 1281,
+      "bodyWords": 1282,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -513,7 +513,7 @@
     {
       "path": "/gutters/guards/",
       "sourceId": 47,
-      "bodyWords": 1173,
+      "bodyWords": 1174,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -524,7 +524,7 @@
     {
       "path": "/gutters/seamless/",
       "sourceId": 48,
-      "bodyWords": 1188,
+      "bodyWords": 1189,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -535,7 +535,7 @@
     {
       "path": "/hail-damage-roof-repair-dublin-oh/",
       "sourceId": 49,
-      "bodyWords": 1245,
+      "bodyWords": 1248,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -546,7 +546,7 @@
     {
       "path": "/hamilton-oh/",
       "sourceId": 50,
-      "bodyWords": 1191,
+      "bodyWords": 1194,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -557,7 +557,7 @@
     {
       "path": "/hilliard-oh/",
       "sourceId": 51,
-      "bodyWords": 1190,
+      "bodyWords": 1193,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -568,7 +568,7 @@
     {
       "path": "/ice-dam-removal/",
       "sourceId": 52,
-      "bodyWords": 1190,
+      "bodyWords": 1192,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -579,7 +579,7 @@
     {
       "path": "/lancaster-oh/",
       "sourceId": 53,
-      "bodyWords": 1191,
+      "bodyWords": 1194,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -590,7 +590,7 @@
     {
       "path": "/lewis-center-oh/",
       "sourceId": 54,
-      "bodyWords": 1201,
+      "bodyWords": 1204,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -601,7 +601,7 @@
     {
       "path": "/metal-roofing-dublin-oh/",
       "sourceId": 55,
-      "bodyWords": 1244,
+      "bodyWords": 1245,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -612,7 +612,7 @@
     {
       "path": "/middletown-oh/",
       "sourceId": 56,
-      "bodyWords": 1187,
+      "bodyWords": 1190,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -623,7 +623,7 @@
     {
       "path": "/newark-oh/",
       "sourceId": 57,
-      "bodyWords": 1190,
+      "bodyWords": 1193,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -634,7 +634,7 @@
     {
       "path": "/powell-oh/",
       "sourceId": 58,
-      "bodyWords": 1191,
+      "bodyWords": 1194,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -645,7 +645,7 @@
     {
       "path": "/roof-calculator/",
       "sourceId": 59,
-      "bodyWords": 1281,
+      "bodyWords": 1283,
       "pdfBlocks": 24,
       "reviewedOverride": false,
       "expectedBlocks": 24,
@@ -656,7 +656,7 @@
     {
       "path": "/roof-repair-dublin-oh/",
       "sourceId": 60,
-      "bodyWords": 1858,
+      "bodyWords": 1859,
       "pdfBlocks": 59,
       "reviewedOverride": false,
       "expectedBlocks": 59,
@@ -667,7 +667,7 @@
     {
       "path": "/roof-replacement-dublin-oh/",
       "sourceId": 61,
-      "bodyWords": 1313,
+      "bodyWords": 1314,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -678,7 +678,7 @@
     {
       "path": "/roofing-calculator/",
       "sourceId": 62,
-      "bodyWords": 1268,
+      "bodyWords": 1270,
       "pdfBlocks": 28,
       "reviewedOverride": false,
       "expectedBlocks": 28,
@@ -689,7 +689,7 @@
     {
       "path": "/roofing-contractor-dublin-oh/",
       "sourceId": 63,
-      "bodyWords": 1285,
+      "bodyWords": 1287,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -700,7 +700,7 @@
     {
       "path": "/roofing/gaf/",
       "sourceId": 64,
-      "bodyWords": 1335,
+      "bodyWords": 1336,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -711,7 +711,7 @@
     {
       "path": "/roofing/gaf/master-elite/",
       "sourceId": 65,
-      "bodyWords": 1564,
+      "bodyWords": 1566,
       "pdfBlocks": 23,
       "reviewedOverride": true,
       "expectedBlocks": 67,
@@ -722,7 +722,7 @@
     {
       "path": "/roofing/metal/",
       "sourceId": 66,
-      "bodyWords": 1244,
+      "bodyWords": 1245,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -733,7 +733,7 @@
     {
       "path": "/roofing/repair/",
       "sourceId": 67,
-      "bodyWords": 1256,
+      "bodyWords": 1257,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -744,7 +744,7 @@
     {
       "path": "/roofing/replacement/",
       "sourceId": 68,
-      "bodyWords": 1321,
+      "bodyWords": 1322,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -755,7 +755,7 @@
     {
       "path": "/roofing/types/",
       "sourceId": 69,
-      "bodyWords": 1197,
+      "bodyWords": 1198,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -766,7 +766,7 @@
     {
       "path": "/siding/",
       "sourceId": 70,
-      "bodyWords": 1243,
+      "bodyWords": 1244,
       "pdfBlocks": 28,
       "reviewedOverride": false,
       "expectedBlocks": 28,
@@ -777,7 +777,7 @@
     {
       "path": "/siding/replacement/",
       "sourceId": 71,
-      "bodyWords": 1228,
+      "bodyWords": 1229,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -788,7 +788,7 @@
     {
       "path": "/siding/types/",
       "sourceId": 72,
-      "bodyWords": 1189,
+      "bodyWords": 1190,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -799,7 +799,7 @@
     {
       "path": "/storm-damage-roof-repair-dublin-oh/",
       "sourceId": 73,
-      "bodyWords": 1241,
+      "bodyWords": 1243,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -810,7 +810,7 @@
     {
       "path": "/storm-damage/",
       "sourceId": 74,
-      "bodyWords": 1506,
+      "bodyWords": 1508,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -821,7 +821,7 @@
     {
       "path": "/storm-damage/commercial/",
       "sourceId": 75,
-      "bodyWords": 1173,
+      "bodyWords": 1175,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -832,7 +832,7 @@
     {
       "path": "/storm-damage/hail/",
       "sourceId": 76,
-      "bodyWords": 1247,
+      "bodyWords": 1250,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -843,7 +843,7 @@
     {
       "path": "/storm-damage/insurance-claims/",
       "sourceId": 77,
-      "bodyWords": 1212,
+      "bodyWords": 1214,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -854,7 +854,7 @@
     {
       "path": "/storm-damage/wind/",
       "sourceId": 78,
-      "bodyWords": 1236,
+      "bodyWords": 1239,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -865,7 +865,7 @@
     {
       "path": "/upper-arlington-oh/",
       "sourceId": 79,
-      "bodyWords": 1195,
+      "bodyWords": 1198,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -876,7 +876,7 @@
     {
       "path": "/westerville-oh/",
       "sourceId": 80,
-      "bodyWords": 1185,
+      "bodyWords": 1188,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -887,7 +887,7 @@
     {
       "path": "/windows/",
       "sourceId": 81,
-      "bodyWords": 1252,
+      "bodyWords": 1253,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -898,7 +898,7 @@
     {
       "path": "/worthington-oh/",
       "sourceId": 82,
-      "bodyWords": 1191,
+      "bodyWords": 1194,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -909,7 +909,7 @@
     {
       "path": "/zanesville-oh/",
       "sourceId": 83,
-      "bodyWords": 1189,
+      "bodyWords": 1192,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,

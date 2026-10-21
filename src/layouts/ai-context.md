@@ -26,3 +26,5 @@ PolishedServicePage.astro consumes service-editorial.json and service-copy.json 
 DocumentLayout and SiteLayout both include SiteMotion. Navigation uses browser-native cross-document crossfades, preserving full document loads and fresh island initialization.
 
 ServiceLanding and relevant roofing, siding, gutter, window, commercial and location families in PolishedServicePage show StormDamageCallout after the opening content. Dedicated storm pages and unrelated services avoid a redundant promotion.
+
+ServiceLanding supplies Residential Roofing and PolishedServicePage supplies data.serviceType to LandingHero.serviceName so every service hero has a descriptive Read More About link. The paused ten-page heading/hierarchy review remains separate.
