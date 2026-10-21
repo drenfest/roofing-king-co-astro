@@ -40,7 +40,7 @@
 
 <div class="rk-mega-intro"><span>{root.label}</span><a href={root.href} onclick={onNavigate}>Explore all {root.label.toLowerCase()} <span aria-hidden="true">↗</span></a></div>
 <div class="rk-mega-body"><div class="rk-mega-columns" style={`grid-template-columns:repeat(${columns.length},minmax(0,1fr))`}>
-  {#each columns as column,level}
+  {#each columns as column,level (`${level}:${column.parent.href}`)}
     <section class="rk-mega-column" aria-label={`${column.parent.label} choices`}>
       <div class="rk-mega-heading">
         {#if level===3&&trail.length}<button type="button" class="rk-mega-back" onclick={()=>trail=trail.slice(0,-1)} aria-label="Back to previous menu level">← Back</button>{/if}

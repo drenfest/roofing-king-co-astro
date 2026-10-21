@@ -100,3 +100,6 @@ StormDamageCallout accepts optional title, description and headingLevel (2 by de
 
 
 MenuPreview.svelte renders a shared contextual menu photo and destination caption. MegaMenu keeps photography outside all four link columns, updating on pointer hover and keyboard focus. SiteHeader renders one mobile preview directly inside the deepest expanded branch; nested toggles move and update it, and collapsing restores the open ancestor. Images mount only when a dropdown is active. Sibling mobile branches collapse when another opens. Navigation URLs and no-JS link fallbacks remain unchanged.
+
+
+MenuPreview pre-decodes responsive images and crossfades loaded layers with Svelte fade; canceled requests cannot overwrite a newer hover choice. The previous image remains until the next is ready. Reduced-motion removes the crossfade. MegaMenu keys columns by their depth and parent destination so branch changes receive a restrained entrance without changing keyboard controls. Collapsed mobile branches are inert during their visual closing transition.

@@ -59,3 +59,6 @@ Batch 01 reading refinements are scoped to data-content-review="01": sentence-ca
 
 
 navigation.css gives desktop menus an independent photo panel beside all four link columns, switching to a compact image strip at smaller desktop widths. Mobile dropdowns show one wide contextual preview. Photo entrances honor reduced-motion and use existing motion timing.
+
+
+The menu uses editorial ivory surfaces, fine separators, lighter Inter links, a Playfair panel title and restrained orange branch accents. Mobile rows replace legacy raised cards and filled toggles. Desktop panels fade/translate; mobile disclosure display transitions progressively enhance modern browsers with immediate accessible hidden/inert state. No-JS navigation remains static and readable. Keep reduced-motion overrides and full-width nested mobile lists.

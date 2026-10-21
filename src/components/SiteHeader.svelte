@@ -90,7 +90,7 @@
       <div class="rk-menu-row"><a class={`rk-menu-link rk-menu-link-depth-${depth}`} href={item.href} onclick={close}>{item.label}</a>
         {#if item.children.length}<button class="rk-submenu-toggle rk-nested-toggle" type="button" aria-label={`Toggle ${item.label} submenu`} aria-expanded={!!branches[key]} aria-controls={`mobile-branch-${key}`} onclick={()=>toggleBranch(key)}><span aria-hidden="true"></span></button>{/if}
       </div>
-      {#if item.children.length}<ul id={`mobile-branch-${key}`} class={`sub-menu rk-submenu rk-submenu-depth-${depth}`} hidden={enhanced&&!branches[key]}>{@render children(item.children, depth + 1,key)}</ul>{/if}
+      {#if item.children.length}<ul id={`mobile-branch-${key}`} class={`sub-menu rk-submenu rk-submenu-depth-${depth}`} hidden={enhanced&&!branches[key]} inert={enhanced&&!branches[key]}>{@render children(item.children, depth + 1,key)}</ul>{/if}
     </li>
   {/each}
 {/snippet}
