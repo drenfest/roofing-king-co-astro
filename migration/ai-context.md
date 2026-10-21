@@ -43,3 +43,5 @@ cloudways-deployment.md records the authorized review deployment, verified appli
 cloudways-review-check.json records the successful public verification of all 244 preserved URLs after GitHub deployment. Billing is resolved and the main deployment workflow has a confirmed successful hosted run.
 
 roofing-hero-images.json inventories all 41 roofing-related routes, per-image prompts, built-in generation method, original paths and optimized image byte counts. Images are illustrative architectural scenes, never customer-project evidence. roofing-hero-check.json records desktop/mobile rendering checks and byte budgets.
+
+service-review-batch-01.json and service-review-batch-01.md record the first ten individually reviewed siding/gutter routes, old/new core headings and browser checks. The other 73 service pages remain pending; keep batch status separate from the earlier full-site migration report.

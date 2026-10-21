@@ -1,0 +1,2599 @@
+{
+  "batch": "01",
+  "date": "2026-10-20",
+  "status": "Revised and visually checked; ready for client review",
+  "pages": [
+    {
+      "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "service": "Siding",
+      "beforeCoreHeadings": [
+        "Measure the walls, openings and trim",
+        "Material choice changes more than the panel price",
+        "Preparation can change the budget",
+        "Check the items around the siding",
+        "Compare two project approaches"
+      ],
+      "afterCoreHeadings": [
+        "How siding area and trim affect replacement cost",
+        "Compare siding materials and installation costs",
+        "What adds to a siding replacement quote?",
+        "What a Cincinnati siding estimate should include"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Compare siding materials and installation costs",
+          "subtopics": [
+            "Vinyl siding",
+            "Engineered wood siding: LP SmartSide",
+            "Fiber cement siding: James Hardie"
+          ]
+        },
+        {
+          "heading": "What adds to a siding replacement quote?",
+          "subtopics": [
+            "Old siding removal and concealed wall repairs",
+            "Window trim, corners, soffits and fixtures",
+            "Like-for-like siding or a redesigned exterior"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Siding Replacement Costs in Cincinnati, OH"
+        },
+        {
+          "level": 2,
+          "text": "Measure the walls, openings and trim"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Preparation can change the budget"
+        },
+        {
+          "level": 2,
+          "text": "Check the items around the siding"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare two project approaches"
+        },
+        {
+          "level": 2,
+          "text": "Material choice changes more than the panel price"
+        },
+        {
+          "level": 3,
+          "text": "Vinyl siding"
+        },
+        {
+          "level": 3,
+          "text": "Engineered wood"
+        },
+        {
+          "level": 3,
+          "text": "Fiber cement"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Siding cost questions"
+        },
+        {
+          "level": 2,
+          "text": "Request a siding estimate in Cincinnati"
+        }
+      ],
+      "beforeH2": 11,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Siding Replacement Costs in Cincinnati, OH"
+        },
+        {
+          "level": 2,
+          "text": "How siding area and trim affect replacement cost"
+        },
+        {
+          "level": 3,
+          "text": "Example: measuring a 300-square-foot wall"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to siding, trim or flashing?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Siding installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Siding materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Compare siding materials and installation costs"
+        },
+        {
+          "level": 3,
+          "text": "Vinyl siding"
+        },
+        {
+          "level": 3,
+          "text": "Engineered wood siding: LP SmartSide"
+        },
+        {
+          "level": 3,
+          "text": "Fiber cement siding: James Hardie"
+        },
+        {
+          "level": 3,
+          "text": "Explore siding manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "What adds to a siding replacement quote?"
+        },
+        {
+          "level": 3,
+          "text": "Old siding removal and concealed wall repairs"
+        },
+        {
+          "level": 3,
+          "text": "Window trim, corners, soffits and fixtures"
+        },
+        {
+          "level": 3,
+          "text": "Like-for-like siding or a redesigned exterior"
+        },
+        {
+          "level": 2,
+          "text": "What a Cincinnati siding estimate should include"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Siding questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a siding replacement estimate in Cincinnati"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 16,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Measured wall areas and window/door trim details."
+    },
+    {
+      "route": "/siding/",
+      "service": "Siding",
+      "beforeCoreHeadings": [
+        "Choose the work your exterior needs",
+        "More about siding services",
+        "Inspect more than the visible panel",
+        "Compare the material families",
+        "Coordinate the parts that meet the siding"
+      ],
+      "afterCoreHeadings": [
+        "Residential siding services in Columbus",
+        "Assessing siding damage before repair or replacement",
+        "Choosing siding materials, trim and exterior details",
+        "What is included in a siding service estimate?"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Assessing siding damage before repair or replacement",
+          "subtopics": [
+            "Repairing a limited area of damaged siding",
+            "Checking flashing and moisture behind siding"
+          ]
+        },
+        {
+          "heading": "Choosing siding materials, trim and exterior details",
+          "subtopics": [
+            "Vinyl siding: Variform by Ply Gem",
+            "Engineered wood siding: LP SmartSide",
+            "Fiber cement siding: James Hardie",
+            "Coordinating siding with windows, roofing and gutters"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Siding Services in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Choose the work your exterior needs"
+        },
+        {
+          "level": 3,
+          "text": "Replace worn or damaged siding"
+        },
+        {
+          "level": 3,
+          "text": "Compare siding materials"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "More about siding services"
+        },
+        {
+          "level": 3,
+          "text": "Assess a limited damaged area"
+        },
+        {
+          "level": 2,
+          "text": "Inspect more than the visible panel"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare the material families"
+        },
+        {
+          "level": 3,
+          "text": "Vinyl"
+        },
+        {
+          "level": 3,
+          "text": "Engineered wood"
+        },
+        {
+          "level": 3,
+          "text": "Fiber cement"
+        },
+        {
+          "level": 2,
+          "text": "Coordinate the parts that meet the siding"
+        },
+        {
+          "level": 2,
+          "text": "Included in Siding Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Siding service questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the exterior you want to repair or renew"
+        }
+      ],
+      "beforeH2": 12,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Siding Services in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Residential siding services in Columbus"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement: panels, flashing and trim"
+        },
+        {
+          "level": 3,
+          "text": "Compare vinyl, engineered wood and fiber cement"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to siding, trim or flashing?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Siding installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Siding materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Assessing siding damage before repair or replacement"
+        },
+        {
+          "level": 3,
+          "text": "Repairing a limited area of damaged siding"
+        },
+        {
+          "level": 3,
+          "text": "Checking flashing and moisture behind siding"
+        },
+        {
+          "level": 2,
+          "text": "Choosing siding materials, trim and exterior details"
+        },
+        {
+          "level": 3,
+          "text": "Vinyl siding: Variform by Ply Gem"
+        },
+        {
+          "level": 3,
+          "text": "Engineered wood siding: LP SmartSide"
+        },
+        {
+          "level": 3,
+          "text": "Fiber cement siding: James Hardie"
+        },
+        {
+          "level": 3,
+          "text": "Coordinating siding with windows, roofing and gutters"
+        },
+        {
+          "level": 3,
+          "text": "Explore siding manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "What is included in a siding service estimate?"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Siding questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a siding service estimate in Columbus"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 17,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Whole-home siding views and a repair close-up."
+    },
+    {
+      "route": "/siding/replacement/",
+      "service": "Siding replacement",
+      "beforeCoreHeadings": [
+        "Decide whether replacement fits the condition",
+        "Select the new siding and the complete exterior palette",
+        "What removal can reveal",
+        "Prepare the wall and its openings",
+        "Finish the project beyond the panels",
+        "Plan access and cleanup"
+      ],
+      "afterCoreHeadings": [
+        "When to replace siding instead of repairing it",
+        "Selecting replacement siding, colors and trim",
+        "How the wall is prepared for new siding",
+        "What to include in your siding replacement estimate"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Selecting replacement siding, colors and trim",
+          "subtopics": [
+            "Match siding profiles and colors to your home",
+            "Corners, fascia, fixtures and finishing work"
+          ]
+        },
+        {
+          "heading": "How the wall is prepared for new siding",
+          "subtopics": [
+            "Concealed sheathing damage after siding removal",
+            "Supporting surface and water-management layers",
+            "Windows and doors",
+            "Roof and material transitions",
+            "Property access, debris removal and final inspection"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Siding Replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Decide whether replacement fits the condition"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Select the new siding and the complete exterior palette"
+        },
+        {
+          "level": 2,
+          "text": "What removal can reveal"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Prepare the wall and its openings"
+        },
+        {
+          "level": 3,
+          "text": "Supporting surface and water-management layers"
+        },
+        {
+          "level": 3,
+          "text": "Windows and doors"
+        },
+        {
+          "level": 3,
+          "text": "Roof and material transitions"
+        },
+        {
+          "level": 2,
+          "text": "Finish the project beyond the panels"
+        },
+        {
+          "level": 2,
+          "text": "Plan access and cleanup"
+        },
+        {
+          "level": 2,
+          "text": "Included in Siding Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Siding replacement questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan a complete siding replacement"
+        }
+      ],
+      "beforeH2": 13,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Siding Replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "When to replace siding instead of repairing it"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to siding, trim or flashing?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Siding installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Siding materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Selecting replacement siding, colors and trim"
+        },
+        {
+          "level": 3,
+          "text": "Match siding profiles and colors to your home"
+        },
+        {
+          "level": 3,
+          "text": "Corners, fascia, fixtures and finishing work"
+        },
+        {
+          "level": 3,
+          "text": "Explore siding manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "How the wall is prepared for new siding"
+        },
+        {
+          "level": 3,
+          "text": "Concealed sheathing damage after siding removal"
+        },
+        {
+          "level": 3,
+          "text": "Supporting surface and water-management layers"
+        },
+        {
+          "level": 3,
+          "text": "Windows and doors"
+        },
+        {
+          "level": 3,
+          "text": "Roof and material transitions"
+        },
+        {
+          "level": 3,
+          "text": "Property access, debris removal and final inspection"
+        },
+        {
+          "level": 2,
+          "text": "What to include in your siding replacement estimate"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Siding replacement questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Plan your siding replacement in Columbus"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 16,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Old siding removal, repaired sheathing and completed trim."
+    },
+    {
+      "route": "/siding/types/",
+      "service": "Siding materials",
+      "beforeCoreHeadings": [
+        "Vinyl siding: Variform by Ply Gem",
+        "Engineered wood: LP SmartSide",
+        "Fiber cement: James Hardie",
+        "Compare the whole exterior, not isolated panels"
+      ],
+      "afterCoreHeadings": [
+        "Vinyl siding: profiles, insulation and care",
+        "Engineered wood and fiber cement siding options",
+        "Comparing siding appearance, installation and maintenance",
+        "Specifying your siding material in an estimate"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Engineered wood and fiber cement siding options",
+          "subtopics": [
+            "LP SmartSide engineered wood siding",
+            "James Hardie fiber cement siding"
+          ]
+        },
+        {
+          "heading": "Comparing siding appearance, installation and maintenance",
+          "subtopics": [
+            "Siding profiles, colors and matching",
+            "Siding removal, wall repairs and installation",
+            "Siding maintenance and warranty terms"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Siding Materials in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Vinyl siding: Variform by Ply Gem"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Engineered wood: LP SmartSide"
+        },
+        {
+          "level": 2,
+          "text": "Fiber cement: James Hardie"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare the whole exterior, not isolated panels"
+        },
+        {
+          "level": 3,
+          "text": "Appearance and matching"
+        },
+        {
+          "level": 3,
+          "text": "Preparation and installation"
+        },
+        {
+          "level": 3,
+          "text": "Care and coverage"
+        },
+        {
+          "level": 2,
+          "text": "Included in Siding Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Siding material questions"
+        },
+        {
+          "level": 2,
+          "text": "Narrow the choices, then confirm the installation"
+        }
+      ],
+      "beforeH2": 10,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Siding Materials in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Vinyl siding: profiles, insulation and care"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Siding installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Siding materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Engineered wood and fiber cement siding options"
+        },
+        {
+          "level": 3,
+          "text": "LP SmartSide engineered wood siding"
+        },
+        {
+          "level": 3,
+          "text": "James Hardie fiber cement siding"
+        },
+        {
+          "level": 3,
+          "text": "Explore siding manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Comparing siding appearance, installation and maintenance"
+        },
+        {
+          "level": 3,
+          "text": "Siding profiles, colors and matching"
+        },
+        {
+          "level": 3,
+          "text": "Siding removal, wall repairs and installation"
+        },
+        {
+          "level": 3,
+          "text": "Siding maintenance and warranty terms"
+        },
+        {
+          "level": 2,
+          "text": "Specifying your siding material in an estimate"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Siding materials questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Compare siding materials for your Columbus home"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 13,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Comparable close-ups of the actual siding profiles offered."
+    },
+    {
+      "route": "/commercial-siding/",
+      "service": "Commercial siding",
+      "beforeCoreHeadings": [
+        "Assess the wall before selecting the finish",
+        "Repair selected areas or replace a broader elevation",
+        "Compare materials with the actual building requirements",
+        "Resolve the details behind the new exterior",
+        "Plan around tenants and operations",
+        "Keep the completed exterior easy to maintain"
+      ],
+      "afterCoreHeadings": [
+        "Inspecting commercial siding damage",
+        "Commercial siding repair, replacement and material choices",
+        "Planning a commercial siding installation",
+        "What a commercial siding estimate should identify"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Commercial siding repair, replacement and material choices",
+          "subtopics": [
+            "Selective siding repair or full-elevation replacement",
+            "Choosing siding for the building and its use"
+          ]
+        },
+        {
+          "heading": "Planning a commercial siding installation",
+          "subtopics": [
+            "Commercial siding removal and wall repairs",
+            "Flashing at windows, doors and roof intersections",
+            "Signs, lighting and roof-to-wall connections",
+            "Access, staging and tenant communication",
+            "Siding maintenance records and product warranties"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Siding in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Assess the wall before selecting the finish"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Repair selected areas or replace a broader elevation"
+        },
+        {
+          "level": 2,
+          "text": "Compare materials with the actual building requirements"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Resolve the details behind the new exterior"
+        },
+        {
+          "level": 3,
+          "text": "Wall preparation"
+        },
+        {
+          "level": 3,
+          "text": "Openings and transitions"
+        },
+        {
+          "level": 3,
+          "text": "Fixtures and adjoining work"
+        },
+        {
+          "level": 2,
+          "text": "Plan around tenants and operations"
+        },
+        {
+          "level": 2,
+          "text": "Keep the completed exterior easy to maintain"
+        },
+        {
+          "level": 2,
+          "text": "Included in Siding Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial siding questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the building's exterior"
+        }
+      ],
+      "beforeH2": 13,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Siding in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Inspecting commercial siding damage"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to siding, trim or flashing?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial siding: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Siding materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Commercial siding repair, replacement and material choices"
+        },
+        {
+          "level": 3,
+          "text": "Selective siding repair or full-elevation replacement"
+        },
+        {
+          "level": 3,
+          "text": "Choosing siding for the building and its use"
+        },
+        {
+          "level": 3,
+          "text": "Explore siding manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Planning a commercial siding installation"
+        },
+        {
+          "level": 3,
+          "text": "Commercial siding removal and wall repairs"
+        },
+        {
+          "level": 3,
+          "text": "Flashing at windows, doors and roof intersections"
+        },
+        {
+          "level": 3,
+          "text": "Signs, lighting and roof-to-wall connections"
+        },
+        {
+          "level": 3,
+          "text": "Access, staging and tenant communication"
+        },
+        {
+          "level": 3,
+          "text": "Siding maintenance records and product warranties"
+        },
+        {
+          "level": 2,
+          "text": "What a commercial siding estimate should identify"
+        },
+        {
+          "level": 3,
+          "text": "Siding replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Commercial siding questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a commercial siding assessment in Columbus"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 16,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Commercial building elevations, wall details and access arrangements."
+    },
+    {
+      "route": "/gutters/",
+      "service": "Gutters",
+      "beforeCoreHeadings": [
+        "Find why the water is going wrong",
+        "Choose the gutter and downspout arrangement together",
+        "What installation needs to address",
+        "Compare seamless gutters and guards",
+        "Coordinate roof-edge and wall repairs"
+      ],
+      "afterCoreHeadings": [
+        "Gutter installation, replacement and protection in Columbus",
+        "Gutter systems: layout, downspouts and protection",
+        "Installing gutters on a sound roof edge",
+        "What is included in a gutter installation estimate?"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Gutter systems: layout, downspouts and protection",
+          "subtopics": [
+            "Gutter runs, corners and outlet placement",
+            "Downspouts and rainwater discharge",
+            "Gutter materials, profiles and finishes",
+            "Seamless gutters and gutter guards: different benefits"
+          ]
+        },
+        {
+          "heading": "Installing gutters on a sound roof edge",
+          "subtopics": [
+            "Inspecting gutter overflow before installation",
+            "Gutter measurements, fascia repairs and attachment",
+            "Coordinating gutters with roof and siding repairs"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Services in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Find why the water is going wrong"
+        },
+        {
+          "level": 3,
+          "text": "Gutter Guards in Columbus, OH"
+        },
+        {
+          "level": 3,
+          "text": "Seamless Gutters in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Choose the gutter and downspout arrangement together"
+        },
+        {
+          "level": 3,
+          "text": "Runs, outlets and corners"
+        },
+        {
+          "level": 3,
+          "text": "Downspouts and discharge"
+        },
+        {
+          "level": 3,
+          "text": "Materials, profiles and finish"
+        },
+        {
+          "level": 2,
+          "text": "What installation needs to address"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare seamless gutters and guards"
+        },
+        {
+          "level": 2,
+          "text": "Coordinate roof-edge and wall repairs"
+        },
+        {
+          "level": 2,
+          "text": "Included in Gutter Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Gutter questions in Columbus"
+        },
+        {
+          "level": 2,
+          "text": "Plan the full drainage route"
+        }
+      ],
+      "beforeH2": 12,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Services in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation, replacement and protection in Columbus"
+        },
+        {
+          "level": 3,
+          "text": "Gutter guards for debris management"
+        },
+        {
+          "level": 3,
+          "text": "Seamless gutter runs and downspouts"
+        },
+        {
+          "level": 3,
+          "text": "Storm-damaged gutters or downspouts?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Gutter systems: layout, downspouts and protection"
+        },
+        {
+          "level": 3,
+          "text": "Gutter runs, corners and outlet placement"
+        },
+        {
+          "level": 3,
+          "text": "Downspouts and rainwater discharge"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, profiles and finishes"
+        },
+        {
+          "level": 3,
+          "text": "Seamless gutters and gutter guards: different benefits"
+        },
+        {
+          "level": 3,
+          "text": "Explore gutter and guard manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Installing gutters on a sound roof edge"
+        },
+        {
+          "level": 3,
+          "text": "Inspecting gutter overflow before installation"
+        },
+        {
+          "level": 3,
+          "text": "Gutter measurements, fascia repairs and attachment"
+        },
+        {
+          "level": 3,
+          "text": "Coordinating gutters with roof and siding repairs"
+        },
+        {
+          "level": 2,
+          "text": "What is included in a gutter installation estimate?"
+        },
+        {
+          "level": 3,
+          "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutters questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a gutter installation estimate in Columbus"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 18,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Installed gutters, outlets, downspouts and discharge points."
+    },
+    {
+      "route": "/gutters/seamless/",
+      "service": "Seamless gutters",
+      "beforeCoreHeadings": [
+        "What seamless does and does not mean",
+        "Measure the roof edge and the water route",
+        "Choose the specified system",
+        "How the installation comes together",
+        "Decide whether to add guards"
+      ],
+      "afterCoreHeadings": [
+        "How seamless gutters reduce joints along your roofline",
+        "Choosing seamless gutters, downspouts and guards",
+        "How seamless gutters are measured and installed",
+        "What to specify in a seamless gutter estimate"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Choosing seamless gutters, downspouts and guards",
+          "subtopics": [
+            "Gutter lengths, outlets and downspout locations",
+            "Gutter material, profile, size and finish",
+            "Adding compatible gutter guards"
+          ]
+        },
+        {
+          "heading": "How seamless gutters are measured and installed",
+          "subtopics": [
+            "Measuring and fabricating seamless gutter runs",
+            "Removing old gutters and repairing fascia",
+            "Gutter supports, slope and connections",
+            "Downspout discharge and installation checks"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Seamless Gutters in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "What seamless does and does not mean"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Measure the roof edge and the water route"
+        },
+        {
+          "level": 2,
+          "text": "Choose the specified system"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "How the installation comes together"
+        },
+        {
+          "level": 3,
+          "text": "Measurement and fabrication"
+        },
+        {
+          "level": 3,
+          "text": "Removal and preparation"
+        },
+        {
+          "level": 3,
+          "text": "Attachment and connections"
+        },
+        {
+          "level": 3,
+          "text": "Discharge and completion"
+        },
+        {
+          "level": 2,
+          "text": "Decide whether to add guards"
+        },
+        {
+          "level": 2,
+          "text": "Included in Gutter Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Seamless gutter questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan a continuous gutter system for your home"
+        }
+      ],
+      "beforeH2": 11,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Seamless Gutters in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "How seamless gutters reduce joints along your roofline"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Choosing seamless gutters, downspouts and guards"
+        },
+        {
+          "level": 3,
+          "text": "Gutter lengths, outlets and downspout locations"
+        },
+        {
+          "level": 3,
+          "text": "Gutter material, profile, size and finish"
+        },
+        {
+          "level": 3,
+          "text": "Adding compatible gutter guards"
+        },
+        {
+          "level": 3,
+          "text": "Explore gutter and guard manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "How seamless gutters are measured and installed"
+        },
+        {
+          "level": 3,
+          "text": "Measuring and fabricating seamless gutter runs"
+        },
+        {
+          "level": 3,
+          "text": "Removing old gutters and repairing fascia"
+        },
+        {
+          "level": 3,
+          "text": "Gutter supports, slope and connections"
+        },
+        {
+          "level": 3,
+          "text": "Downspout discharge and installation checks"
+        },
+        {
+          "level": 2,
+          "text": "What to specify in a seamless gutter estimate"
+        },
+        {
+          "level": 3,
+          "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Seamless gutters questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Plan a seamless gutter installation in Columbus"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 15,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Continuous gutter fabrication and completed connection details."
+    },
+    {
+      "route": "/gutters/guards/",
+      "service": "Gutter guards",
+      "beforeCoreHeadings": [
+        "Start with a working gutter system",
+        "Debris screening and gutter support are different functions",
+        "Compare the actual product, not the category name",
+        "Understand installation on existing gutters",
+        "Keep maintenance in the decision"
+      ],
+      "afterCoreHeadings": [
+        "Preparing existing gutters before adding guards",
+        "Choosing gutter guards for debris control and support",
+        "Installing and maintaining gutter guards",
+        "What a gutter guard installation quote should cover"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Choosing gutter guards for debris control and support",
+          "subtopics": [
+            "Screening leaves and other debris",
+            "Continuous support and gutter attachment",
+            "Product compatibility, cleaning and warranty details"
+          ]
+        },
+        {
+          "heading": "Installing and maintaining gutter guards",
+          "subtopics": [
+            "Cleaning and repairs before gutter guard installation",
+            "Gutter guard inspection and debris removal"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Guards in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Start with a working gutter system"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Debris screening and gutter support are different functions"
+        },
+        {
+          "level": 3,
+          "text": "Screening"
+        },
+        {
+          "level": 3,
+          "text": "Support"
+        },
+        {
+          "level": 2,
+          "text": "Compare the actual product, not the category name"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Understand installation on existing gutters"
+        },
+        {
+          "level": 2,
+          "text": "Keep maintenance in the decision"
+        },
+        {
+          "level": 2,
+          "text": "Included in Gutter Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Gutter guard questions"
+        },
+        {
+          "level": 2,
+          "text": "Choose protection for the system you have"
+        }
+      ],
+      "beforeH2": 11,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Guards in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Preparing existing gutters before adding guards"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Choosing gutter guards for debris control and support"
+        },
+        {
+          "level": 3,
+          "text": "Screening leaves and other debris"
+        },
+        {
+          "level": 3,
+          "text": "Continuous support and gutter attachment"
+        },
+        {
+          "level": 3,
+          "text": "Product compatibility, cleaning and warranty details"
+        },
+        {
+          "level": 3,
+          "text": "Explore gutter and guard manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Installing and maintaining gutter guards"
+        },
+        {
+          "level": 3,
+          "text": "Cleaning and repairs before gutter guard installation"
+        },
+        {
+          "level": 3,
+          "text": "Gutter guard inspection and debris removal"
+        },
+        {
+          "level": 2,
+          "text": "What a gutter guard installation quote should cover"
+        },
+        {
+          "level": 3,
+          "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutter guards questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Discuss gutter guard options for your Columbus home"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 13,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Installed guard products, attachment details and cleaning access."
+    },
+    {
+      "route": "/dayton-oh/the-cost-of-new-gutters/",
+      "service": "Gutters",
+      "beforeCoreHeadings": [
+        "Measure gutter runs and downspouts separately",
+        "What changes the installed cost",
+        "Gutters, seamless fabrication and guards are separate choices",
+        "Compare a replacement with an upgraded layout",
+        "From measurement to completed gutters"
+      ],
+      "afterCoreHeadings": [
+        "How gutter and downspout measurements affect cost",
+        "What affects gutter replacement cost in Dayton?",
+        "Gutter products and installation details to include in pricing",
+        "Comparing gutter replacement estimates in Dayton"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "What affects gutter replacement cost in Dayton?",
+          "subtopics": [
+            "Gutter material, profile and drainage capacity",
+            "Roof height, corners and installation access",
+            "Old gutter removal and fascia repairs",
+            "Keeping existing outlets or changing the gutter layout"
+          ]
+        },
+        {
+          "heading": "Gutter products and installation details to include in pricing",
+          "subtopics": [
+            "Seamless gutter fabrication and gutter guard costs",
+            "Measurement, installation and drainage checks"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Replacement Costs in Dayton, OH"
+        },
+        {
+          "level": 2,
+          "text": "Measure gutter runs and downspouts separately"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Gutters, seamless fabrication and guards are separate choices"
+        },
+        {
+          "level": 2,
+          "text": "Compare a replacement with an upgraded layout"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "From measurement to completed gutters"
+        },
+        {
+          "level": 2,
+          "text": "What changes the installed cost"
+        },
+        {
+          "level": 3,
+          "text": "Material, profile and capacity"
+        },
+        {
+          "level": 3,
+          "text": "Corners, height and access"
+        },
+        {
+          "level": 3,
+          "text": "Removal and fascia repairs"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Gutter cost questions"
+        },
+        {
+          "level": 2,
+          "text": "Get a measured Dayton gutter estimate"
+        }
+      ],
+      "beforeH2": 10,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Replacement Costs in Dayton, OH"
+        },
+        {
+          "level": 2,
+          "text": "How gutter and downspout measurements affect cost"
+        },
+        {
+          "level": 3,
+          "text": "Example: separate gutter and downspout quantities"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "What affects gutter replacement cost in Dayton?"
+        },
+        {
+          "level": 3,
+          "text": "Gutter material, profile and drainage capacity"
+        },
+        {
+          "level": 3,
+          "text": "Roof height, corners and installation access"
+        },
+        {
+          "level": 3,
+          "text": "Old gutter removal and fascia repairs"
+        },
+        {
+          "level": 3,
+          "text": "Keeping existing outlets or changing the gutter layout"
+        },
+        {
+          "level": 2,
+          "text": "Gutter products and installation details to include in pricing"
+        },
+        {
+          "level": 3,
+          "text": "Seamless gutter fabrication and gutter guard costs"
+        },
+        {
+          "level": 3,
+          "text": "Measurement, installation and drainage checks"
+        },
+        {
+          "level": 3,
+          "text": "Explore gutter and guard manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Comparing gutter replacement estimates in Dayton"
+        },
+        {
+          "level": 3,
+          "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutters questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a measured gutter estimate in Dayton"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 15,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "Gutter runs and downspout measurements from an approved project."
+    },
+    {
+      "route": "/gutter-installation-dublin-oh/",
+      "service": "Gutters",
+      "beforeCoreHeadings": [
+        "Find why the water is going wrong",
+        "Choose the gutter and downspout arrangement together",
+        "What installation needs to address",
+        "Compare seamless gutters and guards",
+        "Coordinate roof-edge and wall repairs"
+      ],
+      "afterCoreHeadings": [
+        "Gutter installation starts with a drainage inspection",
+        "Gutter layout, materials and downspout placement",
+        "Gutter installation: preparation, attachment and drainage",
+        "What a Dublin gutter installation estimate should include"
+      ],
+      "groupedTopics": [
+        {
+          "heading": "Gutter layout, materials and downspout placement",
+          "subtopics": [
+            "Gutter runs, corners and outlet placement",
+            "Downspouts and rainwater discharge",
+            "Gutter materials, profiles and finishes",
+            "When seamless gutters and guards are useful"
+          ]
+        },
+        {
+          "heading": "Gutter installation: preparation, attachment and drainage",
+          "subtopics": [
+            "Preparing the fascia and installing gutter runs",
+            "Roof-edge repairs before new gutters are fitted"
+          ]
+        }
+      ],
+      "paragraphsRetained": true,
+      "notes": [
+        "Original paragraphs and contextual links retained; generic labels rewritten.",
+        "Manufacturer strip is an H3 within the relevant material/product section.",
+        "Estimate placement uses an explicit section ID, not a keyword match.",
+        "Parent pages retain child-service tabs; leaf pages remain plain content."
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Installation in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Find why the water is going wrong"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Choose the gutter and downspout arrangement together"
+        },
+        {
+          "level": 3,
+          "text": "Runs, outlets and corners"
+        },
+        {
+          "level": 3,
+          "text": "Downspouts and discharge"
+        },
+        {
+          "level": 3,
+          "text": "Materials, profiles and finish"
+        },
+        {
+          "level": 2,
+          "text": "What installation needs to address"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare seamless gutters and guards"
+        },
+        {
+          "level": 2,
+          "text": "Coordinate roof-edge and wall repairs"
+        },
+        {
+          "level": 2,
+          "text": "Included in Gutter Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Gutter questions in Dublin"
+        },
+        {
+          "level": 2,
+          "text": "Plan the full drainage route"
+        }
+      ],
+      "beforeH2": 12,
+      "browserChecks": [
+        {
+          "width": 320,
+          "status": "passed"
+        },
+        {
+          "width": 390,
+          "status": "passed"
+        },
+        {
+          "width": 820,
+          "status": "passed"
+        },
+        {
+          "width": 1440,
+          "status": "passed"
+        }
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Gutter Installation in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation starts with a drainage inspection"
+        },
+        {
+          "level": 3,
+          "text": "Storm-damaged gutters or downspouts?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: workmanship and business credentials"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "Gutter layout, materials and downspout placement"
+        },
+        {
+          "level": 3,
+          "text": "Gutter runs, corners and outlet placement"
+        },
+        {
+          "level": 3,
+          "text": "Downspouts and rainwater discharge"
+        },
+        {
+          "level": 3,
+          "text": "Gutter materials, profiles and finishes"
+        },
+        {
+          "level": 3,
+          "text": "When seamless gutters and guards are useful"
+        },
+        {
+          "level": 3,
+          "text": "Explore gutter and guard manufacturers"
+        },
+        {
+          "level": 2,
+          "text": "Gutter installation: preparation, attachment and drainage"
+        },
+        {
+          "level": 3,
+          "text": "Preparing the fascia and installing gutter runs"
+        },
+        {
+          "level": 3,
+          "text": "Roof-edge repairs before new gutters are fitted"
+        },
+        {
+          "level": 2,
+          "text": "What a Dublin gutter installation estimate should include"
+        },
+        {
+          "level": 3,
+          "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutters questions: materials, installation and estimates"
+        },
+        {
+          "level": 2,
+          "text": "Request a gutter installation estimate in Dublin"
+        }
+      ],
+      "afterH2": 8,
+      "afterH3": 15,
+      "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
+      "photoToAdd": "A completed gutter installation with fascia and discharge details."
+    }
+  ],
+  "remainingPages": 73,
+  "errors": [],
+  "unreviewedPageDataUnchanged": true
+}

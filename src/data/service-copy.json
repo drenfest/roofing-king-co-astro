@@ -2252,7 +2252,7 @@
     "sections": [
       {
         "id": "service-copy-10-2",
-        "title": "Material choice changes more than the panel price",
+        "title": "Compare siding materials and installation costs",
         "body": [],
         "cards": [
           {
@@ -2269,7 +2269,7 @@
             ]
           },
           {
-            "title": "Engineered wood",
+            "title": "Engineered wood siding: LP SmartSide",
             "body": [
               {
                 "tag": "p",
@@ -2282,7 +2282,7 @@
             ]
           },
           {
-            "title": "Fiber cement",
+            "title": "Fiber cement siding: James Hardie",
             "body": [
               {
                 "tag": "p",
@@ -2313,39 +2313,74 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       },
       {
         "id": "service-copy-10-3",
-        "title": "Preparation can change the budget",
-        "body": [
+        "title": "What adds to a siding replacement quote?",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Old siding removal and concealed wall repairs",
+            "body": [
               {
-                "text": "Removal exposes the wall beneath the old siding. Deteriorated sheathing or trim, unresolved water entry and incomplete flashing may need attention before the new finish is installed. Ask how those findings will be photographed, priced and approved. A new panel cannot correct a concealed wall problem that remains untreated."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Removal exposes the wall beneath the old siding. Deteriorated sheathing or trim, unresolved water entry and incomplete flashing may need attention before the new finish is installed. Ask how those findings will be photographed, priced and approved. A new panel cannot correct a concealed wall problem that remains untreated."
+                  }
+                ]
               }
             ]
+          },
+          {
+            "title": "Window trim, corners, soffits and fixtures",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Corners, window and door trim, roof-to-wall transitions, soffit or fascia work, fixture removal and reinstallation, and cleanup all affect the work. Identify what is included and what will remain. If painting or gutter work is separate, record the boundary and sequence so the finished exterior is coordinated."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-10-4"
+          },
+          {
+            "title": "Like-for-like siding or a redesigned exterior",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A like-for-like replacement with limited trim changes differs from a project that introduces new accent areas, extensive opening details or wall repairs. Both may cover similar wall areas. The useful comparison lists the material, preparation and finish work before the total. Approved measured pricing is needed to turn either approach into a project budget."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-10-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
           "alt": "Siding Replacement Costs example from the existing Roof King image library"
         },
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "media",
-        "tone": "cream"
+        "tone": "cream",
+        "eyebrow": "Siding materials and installation"
       },
       {
-        "id": "service-copy-10-4",
-        "title": "Check the items around the siding",
+        "id": "review-01-cincinnati-oh-the-cost-of-siding-replacement-estimate",
+        "title": "What a Cincinnati siding estimate should include",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Corners, window and door trim, roof-to-wall transitions, soffit or fascia work, fixture removal and reinstallation, and cleanup all affect the work. Identify what is included and what will remain. If painting or gutter work is separate, record the boundary and sequence so the finished exterior is coordinated."
+                "text": "Check that the Cincinnati quote identifies measured wall area, the chosen siding and finish, window and door trim, flashing, removal and disposal. Ask how concealed sheathing repairs and separate painting or gutter work are priced so you can compare complete replacements."
               }
             ]
           }
@@ -2357,29 +2392,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-10-5",
-        "title": "Compare two project approaches",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "A like-for-like replacement with limited trim changes differs from a project that introduces new accent areas, extensive opening details or wall repairs. Both may cover similar wall areas. The useful comparison lists the material, preparation and finish work before the total. Approved measured pricing is needed to turn either approach into a project budget."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/siding-wall-v1.webp",
-          "alt": "Architectural illustration of siding, wall layers and a window opening"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       }
     ],
     "closingBody": [
@@ -2449,32 +2463,40 @@
     "bodyWords": 595,
     "expectedBlocks": [
       "New siding is priced as a complete wall project, not just a stack of panels. Roof King helps Cincinnati homeowners understand how measured area, material choice, preparation and finishing affect a replacement estimate. Use this guide to compare what is included before comparing totals.",
-      "Measure the walls, openings and trim",
+      "How siding area and trim affect replacement cost",
       "Measurement starts with the wall surfaces and their shapes. Stories, gables, corners, windows and doors affect the quantity of siding and the details around it. Openings can reduce panel area while adding trim and flashing work, so subtracting every window from a wall does not describe the complete labor or material requirement.",
       "As an arithmetic illustration, a rectangular wall 30 feet long and 10 feet high has 300 square feet of gross surface area. That does not include a gable above it, and it does not determine the ordered quantity. Openings, profiles, cutting requirements and trim still need to be measured. This is an example, not a Roof King project or quote.",
-      "Material choice changes more than the panel price",
+      "Compare siding materials and installation costs",
       "Vinyl siding",
       "Vinyl profiles and finishes have their own accessory and attachment systems. Compare the selected panel, corner and opening details, and whether a particular insulation component is included. Standard vinyl and insulated products should not be treated as the same specification.",
-      "Engineered wood",
+      "Engineered wood siding: LP SmartSide",
       "Engineered wood combines a wood-based siding appearance with product-specific finishing and installation requirements. The estimate needs to identify the finish, trim and treatment of cut edges and connections for the chosen product.",
-      "Fiber cement",
+      "Fiber cement siding: James Hardie",
       "Fiber cement offers different profiles and finish choices, with its own handling, fastening and detailing requirements. Compare the complete installation rather than assuming a material category comes with one universal price. The siding materials guide explains these options further.",
-      "Preparation can change the budget",
+      "Old siding removal and concealed wall repairs",
       "Removal exposes the wall beneath the old siding. Deteriorated sheathing or trim, unresolved water entry and incomplete flashing may need attention before the new finish is installed. Ask how those findings will be photographed, priced and approved. A new panel cannot correct a concealed wall problem that remains untreated.",
-      "Check the items around the siding",
+      "Window trim, corners, soffits and fixtures",
       "Corners, window and door trim, roof-to-wall transitions, soffit or fascia work, fixture removal and reinstallation, and cleanup all affect the work. Identify what is included and what will remain. If painting or gutter work is separate, record the boundary and sequence so the finished exterior is coordinated.",
-      "Compare two project approaches",
+      "Like-for-like siding or a redesigned exterior",
       "A like-for-like replacement with limited trim changes differs from a project that introduces new accent areas, extensive opening details or wall repairs. Both may cover similar wall areas. The useful comparison lists the material, preparation and finish work before the total. Approved measured pricing is needed to turn either approach into a project budget.",
-      "Siding cost questions",
+      "Siding questions: materials, installation and estimates",
       "Can I price the project from the home's floor area?",
       "Floor area is not exterior wall area. The number of stories, wall shapes, attached structures and openings change the measurement and work involved.",
       "Should every window be deducted from the quote?",
       "The contractor's measurement and pricing method should be explained. Openings reduce some panel area but create trim, cutting and flashing work; a simple net-area comparison may miss those items.",
       "Does a financing offer change the construction total?",
       "Compare the accepted project price with the separate financing agreement. Eligibility, interest, fees and repayment terms need current written confirmation.",
-      "Request a siding estimate in Cincinnati",
-      "Tell Roof King the property address and whether you want the current appearance retained or changed. Review siding replacement and the siding product library to prepare your selections. For adjoining projects, return to Cincinnati exterior services."
-    ]
+      "Request a siding replacement estimate in Cincinnati",
+      "Tell Roof King the property address and whether you want the current appearance retained or changed. Review siding replacement and the siding product library to prepare your selections. For adjoining projects, return to Cincinnati exterior services.",
+      "How siding area and trim affect replacement cost",
+      "Request a siding replacement estimate in Cincinnati",
+      "Siding questions: materials, installation and estimates",
+      "Compare siding materials and installation costs",
+      "What adds to a siding replacement quote?",
+      "What a Cincinnati siding estimate should include",
+      "Check that the Cincinnati quote identifies measured wall area, the chosen siding and finish, window and door trim, flashing, removal and disposal. Ask how concealed sheathing repairs and separate painting or gutter work are priced so you can compare complete replacements."
+    ],
+    "budgetSectionId": "review-01-cincinnati-oh-the-cost-of-siding-replacement-estimate"
   },
   "/cleveland-oh/": {
     "sourceId": 11,
@@ -5511,79 +5533,77 @@
     "sections": [
       {
         "id": "service-copy-23-2",
-        "title": "Repair selected areas or replace a broader elevation",
-        "body": [
+        "title": "Commercial siding repair, replacement and material choices",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Selective siding repair or full-elevation replacement",
+            "body": [
               {
-                "text": "Selective repair depends on the surrounding material, product availability and the ability to restore the connection. A visually close match may still differ because of weathering or discontinued profiles. Widespread deterioration, repeated failures or a planned change in appearance can make replacement the more useful comparison. Record which areas are included and which remain."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Selective repair depends on the surrounding material, product availability and the ability to restore the connection. A visually close match may still differ because of weathering or discontinued profiles. Widespread deterioration, repeated failures or a planned change in appearance can make replacement the more useful comparison. Record which areas are included and which remain."
+                  }
+                ]
               }
             ]
+          },
+          {
+            "title": "Choosing siding for the building and its use",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Vinyl, engineered wood and fiber cement have different panel, trim, attachment and finishing requirements. The "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/siding/types/",
+                    "children": [
+                      {
+                        "text": "siding materials guide"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " explains those families and the "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/products/siding/",
+                    "children": [
+                      {
+                        "text": "product library"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " helps identify specific choices. Residential product availability does not establish suitability for every commercial building; confirm the assembly, design requirements and installation details for the application."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-23-3"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
-      },
-      {
-        "id": "service-copy-23-3",
-        "title": "Compare materials with the actual building requirements",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Vinyl, engineered wood and fiber cement have different panel, trim, attachment and finishing requirements. The "
-              },
-              {
-                "tag": "a",
-                "href": "/siding/types/",
-                "children": [
-                  {
-                    "text": "siding materials guide"
-                  }
-                ]
-              },
-              {
-                "text": " explains those families and the "
-              },
-              {
-                "tag": "a",
-                "href": "/products/siding/",
-                "children": [
-                  {
-                    "text": "product library"
-                  }
-                ]
-              },
-              {
-                "text": " helps identify specific choices. Residential product availability does not establish suitability for every commercial building; confirm the assembly, design requirements and installation details for the application."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
-          "alt": "Commercial Siding example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       },
       {
         "id": "service-copy-23-4",
-        "title": "Resolve the details behind the new exterior",
+        "title": "Planning a commercial siding installation",
         "body": [],
         "cards": [
           {
-            "title": "Wall preparation",
+            "title": "Commercial siding removal and wall repairs",
             "body": [
               {
                 "tag": "p",
@@ -5596,7 +5616,7 @@
             ]
           },
           {
-            "title": "Openings and transitions",
+            "title": "Flashing at windows, doors and roof intersections",
             "body": [
               {
                 "tag": "p",
@@ -5609,7 +5629,7 @@
             ]
           },
           {
-            "title": "Fixtures and adjoining work",
+            "title": "Signs, lighting and roof-to-wall connections",
             "body": [
               {
                 "tag": "p",
@@ -5632,47 +5652,54 @@
                 ]
               }
             ]
-          }
-        ],
-        "image": {
-          "src": "/media/service-illustrations/siding-wall-v1.webp",
-          "alt": "Architectural illustration of siding, wall layers and a window opening"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-23-5",
-        "title": "Plan around tenants and operations",
-        "body": [
+          },
           {
-            "tag": "p",
-            "children": [
+            "title": "Access, staging and tenant communication",
+            "body": [
               {
-                "text": "Agree on access, lift or staging areas, entrances, deliveries and communication with occupants. Phasing may help manage the work, but the practical arrangement depends on the building and project. Include protected routes and any periods when particular areas need to be cleared. Confirm the decision-maker for material selections and additional repairs."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Agree on access, lift or staging areas, entrances, deliveries and communication with occupants. Phasing may help manage the work, but the practical arrangement depends on the building and project. Include protected routes and any periods when particular areas need to be cleared. Confirm the decision-maker for material selections and additional repairs."
+                  }
+                ]
               }
-            ]
+            ],
+            "id": "service-copy-23-5"
+          },
+          {
+            "title": "Siding maintenance records and product warranties",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Retain the material, color, finish and care information by elevation or project area. Record changes, separate repair estimates and applicable warranties. The property team should know which components need inspection and how later attachments or alterations should be coordinated."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-23-6"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "media",
-        "tone": "forest"
+        "tone": "cream",
+        "eyebrow": "Siding materials and installation"
       },
       {
-        "id": "service-copy-23-6",
-        "title": "Keep the completed exterior easy to maintain",
+        "id": "review-01-commercial-siding-estimate",
+        "title": "What a commercial siding estimate should identify",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Retain the material, color, finish and care information by elevation or project area. Record changes, separate repair estimates and applicable warranties. The property team should know which components need inspection and how later attachments or alterations should be coordinated."
+                "text": "Identify the included building elevations, cladding and finish, wall repairs, flashing and responsibility for signs, lighting and service lines. The commercial siding estimate should also explain access, staging, phasing, occupant communication and approval of additional repairs."
               }
             ]
           }
@@ -5684,7 +5711,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       }
     ],
     "closingBody": [
@@ -5714,33 +5742,41 @@
     "bodyWords": 554,
     "expectedBlocks": [
       "Commercial siding work needs to protect the wall and account for the people using the building. Roof King helps Columbus property owners and managers discuss exterior repairs and replacement around the existing cladding, affected areas and operational requirements. Identify the building type and selected system when requesting an assessment.",
-      "Assess the wall before selecting the finish",
+      "Inspecting commercial siding damage",
       "Loose or damaged cladding may be a localized problem, but staining, movement or repeated water entry can point to conditions behind the visible surface. The assessment should identify affected elevations, openings and transitions. If covered areas cannot be evaluated initially, the estimate should explain the investigation or additional-work process.",
-      "Repair selected areas or replace a broader elevation",
+      "Selective siding repair or full-elevation replacement",
       "Selective repair depends on the surrounding material, product availability and the ability to restore the connection. A visually close match may still differ because of weathering or discontinued profiles. Widespread deterioration, repeated failures or a planned change in appearance can make replacement the more useful comparison. Record which areas are included and which remain.",
-      "Compare materials with the actual building requirements",
+      "Choosing siding for the building and its use",
       "Vinyl, engineered wood and fiber cement have different panel, trim, attachment and finishing requirements. The siding materials guide explains those families and the product library helps identify specific choices. Residential product availability does not establish suitability for every commercial building; confirm the assembly, design requirements and installation details for the application.",
-      "Resolve the details behind the new exterior",
-      "Wall preparation",
+      "Planning a commercial siding installation",
+      "Commercial siding removal and wall repairs",
       "Removal can expose deteriorated sheathing, damaged trim or unresolved moisture. Address those findings before new cladding conceals them. The proposal should explain how additional repairs are documented and authorized.",
-      "Openings and transitions",
+      "Flashing at windows, doors and roof intersections",
       "Windows, doors, roof intersections, parapets and changes in material need appropriate flashing and trim connections. Replacing panels alone may leave the original failure at a transition unresolved.",
-      "Fixtures and adjoining work",
+      "Signs, lighting and roof-to-wall connections",
       "Signs, lighting, service lines and other attached items can affect the sequence. Identify who removes and reinstalls them and whether another trade is involved. Coordinate relevant work with commercial roofing where the wall and roof meet.",
-      "Plan around tenants and operations",
+      "Access, staging and tenant communication",
       "Agree on access, lift or staging areas, entrances, deliveries and communication with occupants. Phasing may help manage the work, but the practical arrangement depends on the building and project. Include protected routes and any periods when particular areas need to be cleared. Confirm the decision-maker for material selections and additional repairs.",
-      "Keep the completed exterior easy to maintain",
+      "Siding maintenance records and product warranties",
       "Retain the material, color, finish and care information by elevation or project area. Record changes, separate repair estimates and applicable warranties. The property team should know which components need inspection and how later attachments or alterations should be coordinated.",
-      "Commercial siding questions",
+      "Commercial siding questions: materials, installation and estimates",
       "Can one elevation be replaced first?",
       "Possibly, if the boundaries and connections can be addressed appropriately. Compare matching, access and future phases before deciding the sequence.",
       "Are tenant notices and approvals included?",
       "Confirm responsibility for building permissions, design review, applications and occupant communication in the project arrangement. Do not assume every administrative task is included in the construction price.",
       "What changes the cost?",
       "Area, height, access, material, removal, wall repairs, openings, trim and fixture coordination all affect the work. Compare the same work before comparing totals.",
-      "Discuss the building's exterior",
-      "Share the address, affected elevations and operating constraints with Roof King. The estimate should connect the wall work with the building's use and the selected finish."
-    ]
+      "Request a commercial siding assessment in Columbus",
+      "Share the address, affected elevations and operating constraints with Roof King. The estimate should connect the wall work with the building's use and the selected finish.",
+      "Inspecting commercial siding damage",
+      "Request a commercial siding assessment in Columbus",
+      "Commercial siding questions: materials, installation and estimates",
+      "Commercial siding repair, replacement and material choices",
+      "Planning a commercial siding installation",
+      "What a commercial siding estimate should identify",
+      "Identify the included building elevations, cladding and finish, wall repairs, flashing and responsibility for signs, lighting and service lines. The commercial siding estimate should also explain access, staging, phasing, occupant communication and approval of additional repairs."
+    ],
+    "budgetSectionId": "review-01-commercial-siding-estimate"
   },
   "/cost-of-a-new-roof/": {
     "sourceId": 24,
@@ -6908,11 +6944,11 @@
     "sections": [
       {
         "id": "service-copy-28-2",
-        "title": "What changes the installed cost",
+        "title": "What affects gutter replacement cost in Dayton?",
         "body": [],
         "cards": [
           {
-            "title": "Material, profile and capacity",
+            "title": "Gutter material, profile and drainage capacity",
             "body": [
               {
                 "tag": "p",
@@ -6925,7 +6961,7 @@
             ]
           },
           {
-            "title": "Corners, height and access",
+            "title": "Roof height, corners and installation access",
             "body": [
               {
                 "tag": "p",
@@ -6938,7 +6974,7 @@
             ]
           },
           {
-            "title": "Removal and fascia repairs",
+            "title": "Old gutter removal and fascia repairs",
             "body": [
               {
                 "tag": "p",
@@ -6949,6 +6985,20 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Keeping existing outlets or changing the gutter layout",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A like-for-like job may retain the existing outlet locations if they are suitable. Another project may need changed downspout positions, additional preparation or a different system. Equal gutter lengths do not make those estimates equal. Ask what problem the proposed layout resolves and where the water will discharge."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-28-4"
           }
         ],
         "image": {
@@ -6957,60 +7007,81 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       },
       {
         "id": "service-copy-28-3",
-        "title": "Gutters, seamless fabrication and guards are separate choices",
-        "body": [
+        "title": "Gutter products and installation details to include in pricing",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Seamless gutter fabrication and gutter guard costs",
+            "body": [
               {
-                "tag": "a",
-                "href": "/gutters/seamless/",
+                "tag": "p",
                 "children": [
                   {
-                    "text": "Seamless gutters"
-                  }
-                ]
-              },
-              {
-                "text": " reduce joints along straight runs, while corners, outlets and ends still need connections. "
-              },
-              {
-                "tag": "a",
-                "href": "/gutters/guards/",
-                "children": [
+                    "tag": "a",
+                    "href": "/gutters/seamless/",
+                    "children": [
+                      {
+                        "text": "Seamless gutters"
+                      }
+                    ]
+                  },
                   {
-                    "text": "Gutter guards"
+                    "text": " reduce joints along straight runs, while corners, outlets and ends still need connections. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/gutters/guards/",
+                    "children": [
+                      {
+                        "text": "Gutter guards"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " address debris entry or other product-specific functions. They do not replace the need for a correctly arranged drainage system. Price accessories separately enough to understand what each contributes."
                   }
                 ]
-              },
-              {
-                "text": " address debris entry or other product-specific functions. They do not replace the need for a correctly arranged drainage system. Price accessories separately enough to understand what each contributes."
               }
             ]
+          },
+          {
+            "title": "Measurement, installation and drainage checks",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Measurement, material selection, removal, preparation, attachment and drainage checks all belong in the project discussion. Confirm color, the treatment of downspouts and which discharge connections are included. Cleaning underground lines or changing site drainage is separate work unless explicitly included."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-28-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
           "alt": "Gutter Replacement Costs example from the existing Roof King image library"
         },
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "media",
-        "tone": "cream"
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
       },
       {
-        "id": "service-copy-28-4",
-        "title": "Compare a replacement with an upgraded layout",
+        "id": "review-01-dayton-oh-the-cost-of-new-gutters-estimate",
+        "title": "Comparing gutter replacement estimates in Dayton",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "A like-for-like job may retain the existing outlet locations if they are suitable. Another project may need changed downspout positions, additional preparation or a different system. Equal gutter lengths do not make those estimates equal. Ask what problem the proposed layout resolves and where the water will discharge."
+                "text": "Compare gutter and downspout quantities separately, then check corners, elbows, outlets, removal, fascia repairs and access arrangements. Identify seamless fabrication, guards and discharge connections so a lower total is not simply omitting work included in another estimate."
               }
             ]
           }
@@ -7022,29 +7093,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-28-5",
-        "title": "From measurement to completed gutters",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Measurement, material selection, removal, preparation, attachment and drainage checks all belong in the project discussion. Confirm color, the treatment of downspouts and which discharge connections are included. Cleaning underground lines or changing site drainage is separate work unless explicitly included."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/gutter-drainage-v1.webp",
-          "alt": "Illustration showing a gutter, downspout and the discharge route"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       }
     ],
     "closingBody": [
@@ -7102,32 +7152,40 @@
     "bodyWords": 572,
     "expectedBlocks": [
       "The price of new gutters depends on the route the water needs to take, not only the length of the roof edge. Roof King helps Dayton homeowners compare gutter runs, outlets, downspouts, preparation and accessories in a measured replacement estimate.",
-      "Measure gutter runs and downspouts separately",
+      "How gutter and downspout measurements affect cost",
       "Horizontal gutter lengths and vertical downspouts perform different jobs and should be identifiable in the proposal. Corners, end caps, outlets and discharge connections also matter. Height and access affect installation, while fascia condition can change the preparation needed before attachment.",
       "An illustrative layout with two 40-foot gutter runs contains 80 linear feet of gutter. If it also has four 10-foot downspout sections, those add 40 linear feet of downspout, not another 40 feet of gutter. The layout still needs outlets, elbows, supports and discharge details. This is a quantity example only; it is not a drainage design or a Roof King price.",
-      "What changes the installed cost",
-      "Material, profile and capacity",
+      "What affects gutter replacement cost in Dayton?",
+      "Gutter material, profile and drainage capacity",
       "The selected gutter and downspout system needs to suit the roof and runoff arrangement. Available sizes, materials and finishes affect the quote. Capacity is not established by choosing the largest-looking gutter without assessing outlets and discharge.",
-      "Corners, height and access",
+      "Roof height, corners and installation access",
       "Several short runs with many corners differ from one uninterrupted edge of the same total length. Higher areas or restricted access can require different working arrangements. Include detached or lower roof sections explicitly if they are part of the project.",
-      "Removal and fascia repairs",
+      "Old gutter removal and fascia repairs",
       "The proposal should state whether old gutters are being removed and disposed of. Deteriorated fascia or related roof-edge damage may need separate repair before the new system is installed. Define how additional findings will be handled.",
-      "Gutters, seamless fabrication and guards are separate choices",
+      "Seamless gutter fabrication and gutter guard costs",
       "Seamless gutters reduce joints along straight runs, while corners, outlets and ends still need connections. Gutter guards address debris entry or other product-specific functions. They do not replace the need for a correctly arranged drainage system. Price accessories separately enough to understand what each contributes.",
-      "Compare a replacement with an upgraded layout",
+      "Keeping existing outlets or changing the gutter layout",
       "A like-for-like job may retain the existing outlet locations if they are suitable. Another project may need changed downspout positions, additional preparation or a different system. Equal gutter lengths do not make those estimates equal. Ask what problem the proposed layout resolves and where the water will discharge.",
-      "From measurement to completed gutters",
+      "Measurement, installation and drainage checks",
       "Measurement, material selection, removal, preparation, attachment and drainage checks all belong in the project discussion. Confirm color, the treatment of downspouts and which discharge connections are included. Cleaning underground lines or changing site drainage is separate work unless explicitly included.",
-      "Gutter cost questions",
+      "Gutters questions: materials, installation and estimates",
       "Can I replace only the damaged side?",
       "It may be possible if the retained gutters are serviceable and the connections can be made appropriately. Review the cause of the damage and any matching limitations before choosing partial work.",
       "Are guards always included?",
       "No. The quote should identify the product, coverage area, attachment and maintenance requirements when guards are selected. Do not assume a gutter replacement includes them.",
       "Does a per-foot price cover the entire project?",
       "Only if its stated work includes everything needed. Corners, downspouts, accessories, removal, repairs and access can change the total. Ask for those inclusions and exclusions in writing.",
-      "Get a measured Dayton gutter estimate",
-      "Tell Roof King where overflow or damage occurs and which areas you want replaced. Explore gutter services for the drainage decisions and Dayton exterior services for connected roofing or siding work."
-    ]
+      "Request a measured gutter estimate in Dayton",
+      "Tell Roof King where overflow or damage occurs and which areas you want replaced. Explore gutter services for the drainage decisions and Dayton exterior services for connected roofing or siding work.",
+      "How gutter and downspout measurements affect cost",
+      "Request a measured gutter estimate in Dayton",
+      "Gutters questions: materials, installation and estimates",
+      "What affects gutter replacement cost in Dayton?",
+      "Gutter products and installation details to include in pricing",
+      "Comparing gutter replacement estimates in Dayton",
+      "Compare gutter and downspout quantities separately, then check corners, elbows, outlets, removal, fascia repairs and access arrangements. Identify seamless fabrication, guards and discharge connections so a lower total is not simply omitting work included in another estimate."
+    ],
+    "budgetSectionId": "review-01-dayton-oh-the-cost-of-new-gutters-estimate"
   },
   "/dayton-roofers/": {
     "sourceId": 29,
@@ -10914,11 +10972,11 @@
     "sections": [
       {
         "id": "service-copy-45-2",
-        "title": "Choose the gutter and downspout arrangement together",
+        "title": "Gutter layout, materials and downspout placement",
         "body": [],
         "cards": [
           {
-            "title": "Runs, outlets and corners",
+            "title": "Gutter runs, corners and outlet placement",
             "body": [
               {
                 "tag": "p",
@@ -10931,7 +10989,7 @@
             ]
           },
           {
-            "title": "Downspouts and discharge",
+            "title": "Downspouts and rainwater discharge",
             "body": [
               {
                 "tag": "p",
@@ -10944,7 +11002,7 @@
             ]
           },
           {
-            "title": "Materials, profiles and finish",
+            "title": "Gutter materials, profiles and finishes",
             "body": [
               {
                 "tag": "p",
@@ -10955,6 +11013,49 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "When seamless gutters and guards are useful",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "href": "/gutters/seamless/",
+                    "children": [
+                      {
+                        "text": "Seamless gutters"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/gutters/guards/",
+                    "children": [
+                      {
+                        "text": "Gutter guards"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-45-4"
           }
         ],
         "image": {
@@ -10963,114 +11064,84 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       },
       {
         "id": "service-copy-45-3",
-        "title": "What installation needs to address",
-        "body": [
+        "title": "Gutter installation: preparation, attachment and drainage",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Preparing the fascia and installing gutter runs",
+            "body": [
               {
-                "text": "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process."
+                  }
+                ]
               }
             ]
+          },
+          {
+            "title": "Roof-edge repairs before new gutters are fitted",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For connected projects, explore "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/dublin-oh/",
+                    "children": [
+                      {
+                        "text": "roofing and exterior services in Dublin"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " and "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roof-repair-dublin-oh/",
+                    "children": [
+                      {
+                        "text": "Dublin roof repair"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-45-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
           "alt": "Gutter Services example from the existing Roof King image library"
         },
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "media",
-        "tone": "cream"
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
       },
       {
-        "id": "service-copy-45-4",
-        "title": "Compare seamless gutters and guards",
+        "id": "review-01-gutter-installation-dublin-oh-estimate",
+        "title": "What a Dublin gutter installation estimate should include",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "tag": "a",
-                "href": "/gutters/seamless/",
-                "children": [
-                  {
-                    "text": "Seamless gutters"
-                  }
-                ]
-              },
-              {
-                "text": " use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. "
-              },
-              {
-                "tag": "a",
-                "href": "/gutters/guards/",
-                "children": [
-                  {
-                    "text": "Gutter guards"
-                  }
-                ]
-              },
-              {
-                "text": " address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement."
-              }
-            ]
-          },
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/gutter-drainage-v1.webp",
-          "alt": "Illustration showing a gutter, downspout and the discharge route"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-45-5",
-        "title": "Coordinate roof-edge and wall repairs",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For connected projects, explore "
-              },
-              {
-                "tag": "a",
-                "href": "/dublin-oh/",
-                "children": [
-                  {
-                    "text": "roofing and exterior services in Dublin"
-                  }
-                ]
-              },
-              {
-                "text": " and "
-              },
-              {
-                "tag": "a",
-                "href": "/roof-repair-dublin-oh/",
-                "children": [
-                  {
-                    "text": "Dublin roof repair"
-                  }
-                ]
-              },
-              {
-                "text": "."
+                "text": "Review the proposed gutter lengths and material, downspout positions and discharge route for your Dublin home. Confirm which fascia or roof-edge repairs, removal, supports, connections, cleanup and accessories are included before agreeing to the installation."
               }
             ]
           }
@@ -11081,8 +11152,9 @@
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "variant": "comparison",
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       }
     ],
     "closingBody": [
@@ -11116,32 +11188,40 @@
     "bodyWords": 536,
     "expectedBlocks": [
       "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Dublin homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge.",
-      "Find why the water is going wrong",
+      "Gutter installation starts with a drainage inspection",
       "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas.",
-      "Choose the gutter and downspout arrangement together",
-      "Runs, outlets and corners",
+      "Gutter layout, materials and downspout placement",
+      "Gutter runs, corners and outlet placement",
       "The roof area and flow paths influence the drainage arrangement. Corners, valleys and adjoining roof sections can concentrate water. The proposed system should identify the runs and outlets it will include.",
-      "Downspouts and discharge",
+      "Downspouts and rainwater discharge",
       "Downspouts complete the route from the gutter. Their positions should account for the building, paths and the point where water leaves the system. An underground connection or site-drainage problem may need separate work.",
-      "Materials, profiles and finish",
+      "Gutter materials, profiles and finishes",
       "Confirm the size, profile, material and color offered for the project. Capacity and appearance should be considered with the outlets and supporting construction. A generic gutter description does not establish the exact system being installed.",
-      "What installation needs to address",
+      "Preparing the fascia and installing gutter runs",
       "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process.",
-      "Compare seamless gutters and guards",
+      "When seamless gutters and guards are useful",
       "Seamless gutters use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. Gutter guards address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement.",
       "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions.",
-      "Coordinate roof-edge and wall repairs",
+      "Roof-edge repairs before new gutters are fitted",
       "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For connected projects, explore roofing and exterior services in Dublin and Dublin roof repair.",
-      "Gutter questions in Dublin",
+      "Gutters questions: materials, installation and estimates",
       "Can one damaged section be replaced?",
       "Possibly, when retained components are serviceable and the connection can be restored. The material, profile, finish and cause of damage all need to be considered. Confirm the repair option available for your system.",
       "Do larger gutters automatically fix overflow?",
       "No. Blockage, outlets, downspouts and discharge can still cause problems. The arrangement needs to address the source of the overflow as a whole.",
       "Are gutters with guards maintenance-free?",
       "No. Inspection and cleaning requirements depend on the system, debris and surrounding conditions. Follow the selected manufacturer's instructions and have persistent overflow assessed.",
-      "Plan the full drainage route",
-      "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge."
-    ]
+      "Request a gutter installation estimate in Dublin",
+      "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge.",
+      "Gutter installation starts with a drainage inspection",
+      "Request a gutter installation estimate in Dublin",
+      "Gutters questions: materials, installation and estimates",
+      "Gutter layout, materials and downspout placement",
+      "Gutter installation: preparation, attachment and drainage",
+      "What a Dublin gutter installation estimate should include",
+      "Review the proposed gutter lengths and material, downspout positions and discharge route for your Dublin home. Confirm which fascia or roof-edge repairs, removal, supports, connections, cleanup and accessories are included before agreeing to the installation."
+    ],
+    "budgetSectionId": "review-01-gutter-installation-dublin-oh-estimate"
   },
   "/gutters/": {
     "sourceId": 46,
@@ -11164,11 +11244,11 @@
     "sections": [
       {
         "id": "service-copy-46-2",
-        "title": "Choose the gutter and downspout arrangement together",
+        "title": "Gutter systems: layout, downspouts and protection",
         "body": [],
         "cards": [
           {
-            "title": "Runs, outlets and corners",
+            "title": "Gutter runs, corners and outlet placement",
             "body": [
               {
                 "tag": "p",
@@ -11181,7 +11261,7 @@
             ]
           },
           {
-            "title": "Downspouts and discharge",
+            "title": "Downspouts and rainwater discharge",
             "body": [
               {
                 "tag": "p",
@@ -11194,7 +11274,7 @@
             ]
           },
           {
-            "title": "Materials, profiles and finish",
+            "title": "Gutter materials, profiles and finishes",
             "body": [
               {
                 "tag": "p",
@@ -11205,6 +11285,49 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Seamless gutters and gutter guards: different benefits",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "href": "/gutters/seamless/",
+                    "children": [
+                      {
+                        "text": "Seamless gutters"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/gutters/guards/",
+                    "children": [
+                      {
+                        "text": "Gutter guards"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-46-4"
           }
         ],
         "image": {
@@ -11213,114 +11336,97 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       },
       {
         "id": "service-copy-46-3",
-        "title": "What installation needs to address",
-        "body": [
+        "title": "Installing gutters on a sound roof edge",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Inspecting gutter overflow before installation",
+            "body": [
               {
-                "text": "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas."
+                  }
+                ]
               }
             ]
+          },
+          {
+            "title": "Gutter measurements, fascia repairs and attachment",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Coordinating gutters with roof and siding repairs",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For adjoining work, review "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/repair/",
+                    "children": [
+                      {
+                        "text": "roof repair"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/siding/",
+                    "children": [
+                      {
+                        "text": "siding services"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-46-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
           "alt": "Gutter Services example from the existing Roof King image library"
         },
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "media",
-        "tone": "cream"
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
       },
       {
-        "id": "service-copy-46-4",
-        "title": "Compare seamless gutters and guards",
+        "id": "review-01-gutters-estimate",
+        "title": "What is included in a gutter installation estimate?",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "tag": "a",
-                "href": "/gutters/seamless/",
-                "children": [
-                  {
-                    "text": "Seamless gutters"
-                  }
-                ]
-              },
-              {
-                "text": " use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. "
-              },
-              {
-                "tag": "a",
-                "href": "/gutters/guards/",
-                "children": [
-                  {
-                    "text": "Gutter guards"
-                  }
-                ]
-              },
-              {
-                "text": " address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement."
-              }
-            ]
-          },
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/gutter-drainage-v1.webp",
-          "alt": "Illustration showing a gutter, downspout and the discharge route"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-46-5",
-        "title": "Coordinate roof-edge and wall repairs",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For adjoining work, review "
-              },
-              {
-                "tag": "a",
-                "href": "/roofing/repair/",
-                "children": [
-                  {
-                    "text": "roof repair"
-                  }
-                ]
-              },
-              {
-                "text": " or "
-              },
-              {
-                "tag": "a",
-                "href": "/siding/",
-                "children": [
-                  {
-                    "text": "siding services"
-                  }
-                ]
-              },
-              {
-                "text": "."
+                "text": "Look for measured gutter runs, corners, outlets, downspout locations and discharge connections. The gutter estimate should separate old-system removal, fascia repairs, supports, installation, cleanup and any guards or accessories."
               }
             ]
           }
@@ -11331,8 +11437,9 @@
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "variant": "comparison",
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       }
     ],
     "closingBody": [
@@ -11366,32 +11473,40 @@
     "bodyWords": 531,
     "expectedBlocks": [
       "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Columbus homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge.",
-      "Find why the water is going wrong",
+      "Gutter installation, replacement and protection in Columbus",
       "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas.",
-      "Choose the gutter and downspout arrangement together",
-      "Runs, outlets and corners",
+      "Gutter systems: layout, downspouts and protection",
+      "Gutter runs, corners and outlet placement",
       "The roof area and flow paths influence the drainage arrangement. Corners, valleys and adjoining roof sections can concentrate water. The proposed system should identify the runs and outlets it will include.",
-      "Downspouts and discharge",
+      "Downspouts and rainwater discharge",
       "Downspouts complete the route from the gutter. Their positions should account for the building, paths and the point where water leaves the system. An underground connection or site-drainage problem may need separate work.",
-      "Materials, profiles and finish",
+      "Gutter materials, profiles and finishes",
       "Confirm the size, profile, material and color offered for the project. Capacity and appearance should be considered with the outlets and supporting construction. A generic gutter description does not establish the exact system being installed.",
-      "What installation needs to address",
+      "Gutter measurements, fascia repairs and attachment",
       "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process.",
-      "Compare seamless gutters and guards",
+      "Seamless gutters and gutter guards: different benefits",
       "Seamless gutters use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. Gutter guards address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement.",
       "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions.",
-      "Coordinate roof-edge and wall repairs",
+      "Coordinating gutters with roof and siding repairs",
       "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For adjoining work, review roof repair or siding services.",
-      "Gutter questions in Columbus",
+      "Gutters questions: materials, installation and estimates",
       "Can one damaged section be replaced?",
       "Possibly, when retained components are serviceable and the connection can be restored. The material, profile, finish and cause of damage all need to be considered. Confirm the repair option available for your system.",
       "Do larger gutters automatically fix overflow?",
       "No. Blockage, outlets, downspouts and discharge can still cause problems. The arrangement needs to address the source of the overflow as a whole.",
       "Are gutters with guards maintenance-free?",
       "No. Inspection and cleaning requirements depend on the system, debris and surrounding conditions. Follow the selected manufacturer's instructions and have persistent overflow assessed.",
-      "Plan the full drainage route",
-      "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge."
-    ]
+      "Request a gutter installation estimate in Columbus",
+      "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge.",
+      "Gutter installation, replacement and protection in Columbus",
+      "Request a gutter installation estimate in Columbus",
+      "Gutters questions: materials, installation and estimates",
+      "Gutter systems: layout, downspouts and protection",
+      "Installing gutters on a sound roof edge",
+      "What is included in a gutter installation estimate?",
+      "Look for measured gutter runs, corners, outlets, downspout locations and discharge connections. The gutter estimate should separate old-system removal, fascia repairs, supports, installation, cleanup and any guards or accessories."
+    ],
+    "budgetSectionId": "review-01-gutters-estimate"
   },
   "/gutters/guards/": {
     "sourceId": 47,
@@ -11414,11 +11529,11 @@
     "sections": [
       {
         "id": "service-copy-47-2",
-        "title": "Debris screening and gutter support are different functions",
+        "title": "Choosing gutter guards for debris control and support",
         "body": [],
         "cards": [
           {
-            "title": "Screening",
+            "title": "Screening leaves and other debris",
             "body": [
               {
                 "tag": "p",
@@ -11431,7 +11546,7 @@
             ]
           },
           {
-            "title": "Support",
+            "title": "Continuous support and gutter attachment",
             "body": [
               {
                 "tag": "p",
@@ -11442,6 +11557,32 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Product compatibility, cleaning and warranty details",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "The proposal should name the guard, its material, intended coverage and installation method. Confirm compatibility with the gutter profile and roof-edge details. Products that look similar from the ground can have different attachment, cleaning and warranty requirements. Use the "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/products/gutters/guards/",
+                    "children": [
+                      {
+                        "text": "gutter guard product information"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " as a selection starting point, with current availability confirmed by the team."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-47-3"
           }
         ],
         "image": {
@@ -11450,51 +11591,60 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
-      },
-      {
-        "id": "service-copy-47-3",
-        "title": "Compare the actual product, not the category name",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "The proposal should name the guard, its material, intended coverage and installation method. Confirm compatibility with the gutter profile and roof-edge details. Products that look similar from the ground can have different attachment, cleaning and warranty requirements. Use the "
-              },
-              {
-                "tag": "a",
-                "href": "/products/gutters/guards/",
-                "children": [
-                  {
-                    "text": "gutter guard product information"
-                  }
-                ]
-              },
-              {
-                "text": " as a selection starting point, with current availability confirmed by the team."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
-          "alt": "Gutter Guards example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       },
       {
         "id": "service-copy-47-4",
-        "title": "Understand installation on existing gutters",
+        "title": "Installing and maintaining gutter guards",
+        "body": [],
+        "cards": [
+          {
+            "title": "Cleaning and repairs before gutter guard installation",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "The existing gutters need to be suitable for the selected accessory. Cleaning, repairs or replacement may be necessary before fitting it. Clarify whether the installation affects roofing materials and how any existing product warranty conditions will be respected. An accessory estimate should identify the work area and preparation rather than simply describe a whole-house package."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Gutter guard inspection and debris removal",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Debris can collect on or around a guard, and outlets and discharge points still need attention. Follow the specific inspection and cleaning guidance. A product warranty is not a promise that every blockage, overflow or winter condition is eliminated. If performance changes, the cause may be in the gutter arrangement as well as the guard."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-47-5"
+          }
+        ],
+        "image": {
+          "src": "/media/service-illustrations/gutter-drainage-v1.webp",
+          "alt": "Illustration showing a gutter, downspout and the discharge route"
+        },
+        "caption": "Illustration of related components. Materials and details vary with the selected system.",
+        "variant": "media",
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
+      },
+      {
+        "id": "review-01-gutters-guards-estimate",
+        "title": "What a gutter guard installation quote should cover",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "The existing gutters need to be suitable for the selected accessory. Cleaning, repairs or replacement may be necessary before fitting it. Clarify whether the installation affects roofing materials and how any existing product warranty conditions will be respected. An accessory estimate should identify the work area and preparation rather than simply describe a whole-house package."
+                "text": "Ask for the guard manufacturer and product, covered gutter runs, attachment method and required cleaning or repairs before fitting. Identify any gutter replacement separately and review product care instructions alongside the written warranty conditions."
               }
             ]
           }
@@ -11506,29 +11656,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-47-5",
-        "title": "Keep maintenance in the decision",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Debris can collect on or around a guard, and outlets and discharge points still need attention. Follow the specific inspection and cleaning guidance. A product warranty is not a promise that every blockage, overflow or winter condition is eliminated. If performance changes, the cause may be in the gutter arrangement as well as the guard."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/gutter-drainage-v1.webp",
-          "alt": "Illustration showing a gutter, downspout and the discharge route"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       }
     ],
     "closingBody": [
@@ -11558,20 +11687,20 @@
     "bodyWords": 541,
     "expectedBlocks": [
       "Gutter guards can change how debris enters a gutter, but the right choice depends on the existing system and the product being installed. Roof King helps Columbus homeowners review gutter condition, accessory compatibility and the care requirements before adding protection.",
-      "Start with a working gutter system",
+      "Preparing existing gutters before adding guards",
       "Blocked outlets, damaged sections, poor support or a restricted discharge route need attention before a guard is fitted. Covering a gutter does not resolve every overflow problem. The assessment should consider the runs, downspouts, fascia and roof-edge connection so an accessory is not expected to correct an unrelated failure.",
-      "Debris screening and gutter support are different functions",
-      "Screening",
+      "Choosing gutter guards for debris control and support",
+      "Screening leaves and other debris",
       "A screen or filter is intended to limit entry of particular debris while allowing water into the gutter. Opening size, surface design, attachment and surrounding trees can affect how the product needs to be cared for. Fine material may behave differently from broad leaves, so compare the selected system's instructions and limitations.",
-      "Support",
+      "Continuous support and gutter attachment",
       "Some accessories contribute to the way a gutter is supported. That structural function is different from screening debris, even where one product combines the roles. Ask what the proposed component is intended to do and how it attaches to the gutter and supporting construction.",
-      "Compare the actual product, not the category name",
+      "Product compatibility, cleaning and warranty details",
       "The proposal should name the guard, its material, intended coverage and installation method. Confirm compatibility with the gutter profile and roof-edge details. Products that look similar from the ground can have different attachment, cleaning and warranty requirements. Use the gutter guard product information as a selection starting point, with current availability confirmed by the team.",
-      "Understand installation on existing gutters",
+      "Cleaning and repairs before gutter guard installation",
       "The existing gutters need to be suitable for the selected accessory. Cleaning, repairs or replacement may be necessary before fitting it. Clarify whether the installation affects roofing materials and how any existing product warranty conditions will be respected. An accessory estimate should identify the work area and preparation rather than simply describe a whole-house package.",
-      "Keep maintenance in the decision",
+      "Gutter guard inspection and debris removal",
       "Debris can collect on or around a guard, and outlets and discharge points still need attention. Follow the specific inspection and cleaning guidance. A product warranty is not a promise that every blockage, overflow or winter condition is eliminated. If performance changes, the cause may be in the gutter arrangement as well as the guard.",
-      "Gutter guard questions",
+      "Gutter guards questions: materials, installation and estimates",
       "Can guards be installed on my existing gutters?",
       "Possibly, if the condition, profile and attachment are compatible. The assessment should establish whether preparation or replacement is needed first.",
       "Do guards prevent ice dams?",
@@ -11580,9 +11709,17 @@
       "Performance depends on the selected product and conditions. Review the manufacturer's intended function and maintenance instructions rather than expecting a single accessory to eliminate all cleaning.",
       "Should I replace the gutters at the same time?",
       "That depends on their condition and suitability. Compare seamless gutter replacement if the existing system already needs broader work.",
-      "Choose protection for the system you have",
-      "Tell Roof King about overflow, debris and existing gutter condition. The estimate should explain the selected accessory, preparation, fitting and continuing care."
-    ]
+      "Discuss gutter guard options for your Columbus home",
+      "Tell Roof King about overflow, debris and existing gutter condition. The estimate should explain the selected accessory, preparation, fitting and continuing care.",
+      "Preparing existing gutters before adding guards",
+      "Discuss gutter guard options for your Columbus home",
+      "Gutter guards questions: materials, installation and estimates",
+      "Choosing gutter guards for debris control and support",
+      "Installing and maintaining gutter guards",
+      "What a gutter guard installation quote should cover",
+      "Ask for the guard manufacturer and product, covered gutter runs, attachment method and required cleaning or repairs before fitting. Identify any gutter replacement separately and review product care instructions alongside the written warranty conditions."
+    ],
+    "budgetSectionId": "review-01-gutters-guards-estimate"
   },
   "/gutters/seamless/": {
     "sourceId": 48,
@@ -11605,55 +11742,76 @@
     "sections": [
       {
         "id": "service-copy-48-2",
-        "title": "Measure the roof edge and the water route",
-        "body": [
+        "title": "Choosing seamless gutters, downspouts and guards",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Gutter lengths, outlets and downspout locations",
+            "body": [
               {
-                "text": "The estimate should identify gutter lengths, corner arrangements, outlets and downspouts. Roof geometry affects where water collects and how it reaches each outlet. Consider the route after it leaves the downspout as well; an unsuitable discharge point is not corrected by a continuous gutter run alone."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "The estimate should identify gutter lengths, corner arrangements, outlets and downspouts. Roof geometry affects where water collects and how it reaches each outlet. Consider the route after it leaves the downspout as well; an unsuitable discharge point is not corrected by a continuous gutter run alone."
+                  }
+                ]
               }
             ]
+          },
+          {
+            "title": "Gutter material, profile, size and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Confirm the material, profile, size and color available for the project. The supporting arrangement and outlet layout need to suit the roof and runoff, not just the preferred appearance. Compare compatible downspout and accessory details at the same time so the proposal describes the finished system."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-48-3"
+          },
+          {
+            "title": "Adding compatible gutter guards",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "tag": "a",
+                    "href": "/gutters/guards/",
+                    "children": [
+                      {
+                        "text": "Gutter guards"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " serve a different function from seamless fabrication. A guard may help manage debris according to its design, while continuous runs reduce intermediate joints. Neither replaces the need for sound supports, suitable outlets and ongoing care. Review the exact accessory and its compatibility before adding it to the proposal."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-48-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/gutter-drainage-v1.webp",
           "alt": "Illustration showing a gutter, downspout and the discharge route"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
-      },
-      {
-        "id": "service-copy-48-3",
-        "title": "Choose the specified system",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Confirm the material, profile, size and color available for the project. The supporting arrangement and outlet layout need to suit the roof and runoff, not just the preferred appearance. Compare compatible downspout and accessory details at the same time so the proposal describes the finished system."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
-          "alt": "Seamless Gutters example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       },
       {
         "id": "service-copy-48-4",
-        "title": "How the installation comes together",
+        "title": "How seamless gutters are measured and installed",
         "body": [],
         "cards": [
           {
-            "title": "Measurement and fabrication",
+            "title": "Measuring and fabricating seamless gutter runs",
             "body": [
               {
                 "tag": "p",
@@ -11666,7 +11824,7 @@
             ]
           },
           {
-            "title": "Removal and preparation",
+            "title": "Removing old gutters and repairing fascia",
             "body": [
               {
                 "tag": "p",
@@ -11679,7 +11837,7 @@
             ]
           },
           {
-            "title": "Attachment and connections",
+            "title": "Gutter supports, slope and connections",
             "body": [
               {
                 "tag": "p",
@@ -11692,7 +11850,7 @@
             ]
           },
           {
-            "title": "Discharge and completion",
+            "title": "Downspout discharge and installation checks",
             "body": [
               {
                 "tag": "p",
@@ -11710,27 +11868,19 @@
           "alt": "Illustration showing a gutter, downspout and the discharge route"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light"
+        "variant": "media",
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
       },
       {
-        "id": "service-copy-48-5",
-        "title": "Decide whether to add guards",
+        "id": "review-01-gutters-seamless-estimate",
+        "title": "What to specify in a seamless gutter estimate",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "tag": "a",
-                "href": "/gutters/guards/",
-                "children": [
-                  {
-                    "text": "Gutter guards"
-                  }
-                ]
-              },
-              {
-                "text": " serve a different function from seamless fabrication. A guard may help manage debris according to its design, while continuous runs reduce intermediate joints. Neither replaces the need for sound supports, suitable outlets and ongoing care. Review the exact accessory and its compatibility before adding it to the proposal."
+                "text": "Confirm the continuous run lengths, gutter profile and finish, corners, outlets, supports and downspouts. The estimate should identify removal and fascia preparation, how the gutters will be fabricated, where downspouts discharge and whether guards are included."
               }
             ]
           }
@@ -11741,8 +11891,9 @@
           "alt": "Illustration showing a gutter, downspout and the discharge route"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "media",
-        "tone": "forest"
+        "variant": "comparison",
+        "tone": "light",
+        "eyebrow": "Gutter systems and installation"
       }
     ],
     "closingBody": [
@@ -11780,33 +11931,41 @@
     "bodyWords": 552,
     "expectedBlocks": [
       "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge.",
-      "What seamless does and does not mean",
+      "How seamless gutters reduce joints along your roofline",
       "A straight run is made to the required length instead of assembled from several short sections. The system still needs joints and connections at corners, end caps and outlets. Those details remain important to performance and maintenance. Seamless does not mean joint-free, leak-proof or exempt from future care.",
-      "Measure the roof edge and the water route",
+      "Gutter lengths, outlets and downspout locations",
       "The estimate should identify gutter lengths, corner arrangements, outlets and downspouts. Roof geometry affects where water collects and how it reaches each outlet. Consider the route after it leaves the downspout as well; an unsuitable discharge point is not corrected by a continuous gutter run alone.",
-      "Choose the specified system",
+      "Gutter material, profile, size and finish",
       "Confirm the material, profile, size and color available for the project. The supporting arrangement and outlet layout need to suit the roof and runoff, not just the preferred appearance. Compare compatible downspout and accessory details at the same time so the proposal describes the finished system.",
-      "How the installation comes together",
-      "Measurement and fabrication",
+      "How seamless gutters are measured and installed",
+      "Measuring and fabricating seamless gutter runs",
       "The measured runs establish the lengths and connection details. Seamless gutters are commonly formed from coil through equipment that creates the selected profile. Confirm the fabrication arrangement for the project rather than assuming every installer uses the same on-site setup.",
-      "Removal and preparation",
+      "Removing old gutters and repairing fascia",
       "Old gutters may need removal before the fascia and roof edge can be fully assessed. Deteriorated supporting material needs attention before new gutters are attached. Identify any repairs and the way additional findings will be priced and approved.",
-      "Attachment and connections",
+      "Gutter supports, slope and connections",
       "The gutter needs suitable supports and the intended fall toward its outlets. Corners, ends, outlets and downspouts need compatible connections. The installation should account for the selected product and the construction it attaches to.",
-      "Discharge and completion",
+      "Downspout discharge and installation checks",
       "Confirm where each downspout ends and which extensions or connections are included. The completed system should be checked against the agreed layout, with cleanup and product information provided as part of the agreed materials and work.",
-      "Decide whether to add guards",
+      "Adding compatible gutter guards",
       "Gutter guards serve a different function from seamless fabrication. A guard may help manage debris according to its design, while continuous runs reduce intermediate joints. Neither replaces the need for sound supports, suitable outlets and ongoing care. Review the exact accessory and its compatibility before adding it to the proposal.",
-      "Seamless gutter questions",
+      "Seamless gutters questions: materials, installation and estimates",
       "Can one seamless run be repaired?",
       "The option depends on the damage, material and connection. In some situations a section or complete run may need replacement. The assessment should explain the suitable approach and appearance differences.",
       "Will seamless gutters fix overflow?",
       "Only if the cause is addressed. Blockage, outlet placement, downspouts and discharge can affect overflow even when the gutter run itself is sound.",
       "What maintenance remains?",
       "Follow the selected system's care guidance, including attention to debris, connections, supports and outlets. Have persistent leaks or overflow assessed rather than assuming they are normal.",
-      "Plan a continuous gutter system for your home",
-      "Tell Roof King where the current gutters fail and which roof edges need replacement. Visit gutter services to review the broader drainage and preparation questions."
-    ]
+      "Plan a seamless gutter installation in Columbus",
+      "Tell Roof King where the current gutters fail and which roof edges need replacement. Visit gutter services to review the broader drainage and preparation questions.",
+      "How seamless gutters reduce joints along your roofline",
+      "Plan a seamless gutter installation in Columbus",
+      "Seamless gutters questions: materials, installation and estimates",
+      "Choosing seamless gutters, downspouts and guards",
+      "How seamless gutters are measured and installed",
+      "What to specify in a seamless gutter estimate",
+      "Confirm the continuous run lengths, gutter profile and finish, corners, outlets, supports and downspouts. The estimate should identify removal and fascia preparation, how the gutters will be fabricated, where downspouts discharge and whether guards are included."
+    ],
+    "budgetSectionId": "review-01-gutters-seamless-estimate"
   },
   "/hail-damage-roof-repair-dublin-oh/": {
     "sourceId": 49,
@@ -17089,11 +17248,11 @@
     "sections": [
       {
         "id": "service-copy-70-1",
-        "title": "More about siding services",
+        "title": "Assessing siding damage before repair or replacement",
         "body": [],
         "cards": [
           {
-            "title": "Assess a limited damaged area",
+            "title": "Repairing a limited area of damaged siding",
             "body": [
               {
                 "tag": "p",
@@ -17104,6 +17263,20 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Checking flashing and moisture behind siding",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Loose siding, damaged trim, staining and water near a window can arise from different failures. The assessment should consider the affected component and the neighboring details. A replacement panel alone may not resolve a failed flashing or moisture connection. Areas concealed by siding may require further investigation once material is removed."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-70-2"
           }
         ],
         "image": {
@@ -17112,37 +17285,16 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "media",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-70-2",
-        "title": "Inspect more than the visible panel",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Loose siding, damaged trim, staining and water near a window can arise from different failures. The assessment should consider the affected component and the neighboring details. A replacement panel alone may not resolve a failed flashing or moisture connection. Areas concealed by siding may require further investigation once material is removed."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/service-illustrations/siding-wall-v1.webp",
-          "alt": "Architectural illustration of siding, wall layers and a window opening"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       },
       {
         "id": "service-copy-70-3",
-        "title": "Compare the material families",
+        "title": "Choosing siding materials, trim and exterior details",
         "body": [],
         "cards": [
           {
-            "title": "Vinyl",
+            "title": "Vinyl siding: Variform by Ply Gem",
             "body": [
               {
                 "tag": "p",
@@ -17155,7 +17307,7 @@
             ]
           },
           {
-            "title": "Engineered wood",
+            "title": "Engineered wood siding: LP SmartSide",
             "body": [
               {
                 "tag": "p",
@@ -17168,7 +17320,7 @@
             ]
           },
           {
-            "title": "Fiber cement",
+            "title": "Fiber cement siding: James Hardie",
             "body": [
               {
                 "tag": "p",
@@ -17179,6 +17331,20 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Coordinating siding with windows, roofing and gutters",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Windows, doors, roof intersections, gutters, fascia and exterior fixtures can affect the sequence. Decide which trim will be replaced or retained and which surfaces need separate painting. Select the roof, siding and trim palette together where more than one material is changing, while keeping the materials, preparation and installation for each service clear."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-70-4"
           }
         ],
         "image": {
@@ -17186,18 +17352,19 @@
           "alt": "Siding Services example from the existing Roof King image library"
         },
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
+        "variant": "comparison",
+        "tone": "cream",
+        "eyebrow": "Siding materials and installation"
       },
       {
-        "id": "service-copy-70-4",
-        "title": "Coordinate the parts that meet the siding",
+        "id": "review-01-siding-estimate",
+        "title": "What is included in a siding service estimate?",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Windows, doors, roof intersections, gutters, fascia and exterior fixtures can affect the sequence. Decide which trim will be replaced or retained and which surfaces need separate painting. Select the roof, siding and trim palette together where more than one material is changing, while keeping the materials, preparation and installation for each service clear."
+                "text": "A siding estimate should name the areas being repaired or replaced, selected panels and trim, wall preparation and flashing at openings. Ask whether fixture removal, painting and cleanup are included and how concealed damage is approved."
               }
             ]
           }
@@ -17209,7 +17376,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "light"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       }
     ],
     "closingBody": [
@@ -17239,34 +17407,42 @@
     "bodyWords": 558,
     "expectedBlocks": [
       "Siding gives a home its visible finish, but the project also needs to address the wall and connections behind it. Roof King helps Columbus homeowners assess damaged siding, compare replacement options and coordinate the panels, trim and adjoining exterior details.",
-      "Choose the work your exterior needs",
-      "Replace worn or damaged siding",
+      "Residential siding services in Columbus",
+      "Siding replacement: panels, flashing and trim",
       "Siding replacement includes removal, wall preparation, the selected cladding and the details around openings and transitions. A complete list of materials and installation work explains what is being retained and how concealed damage will be handled.",
-      "Compare siding materials",
+      "Compare vinyl, engineered wood and fiber cement",
       "The siding materials guide introduces vinyl, engineered wood and fiber cement, including the different installation and maintenance considerations. Use the product library for exact profiles, colors and manufacturer information.",
-      "Assess a limited damaged area",
+      "Repairing a limited area of damaged siding",
       "A localized repair may be worth discussing where the surrounding wall and cladding remain serviceable. Suitability depends on the cause, compatible material availability and the ability to restore the connection. Matching can be limited by age, weathering or discontinued products. Confirm the repair estimate the team can provide for your siding.",
-      "Inspect more than the visible panel",
+      "Checking flashing and moisture behind siding",
       "Loose siding, damaged trim, staining and water near a window can arise from different failures. The assessment should consider the affected component and the neighboring details. A replacement panel alone may not resolve a failed flashing or moisture connection. Areas concealed by siding may require further investigation once material is removed.",
-      "Compare the material families",
-      "Vinyl",
+      "Choosing siding materials, trim and exterior details",
+      "Vinyl siding: Variform by Ply Gem",
       "Vinyl siding offers different profiles and finishes, including options in the Variform by Ply Gem range. The panel, accessories and attachment need to be treated as a system. Confirm whether a selected product has insulation rather than assuming all vinyl provides the same thermal benefit.",
-      "Engineered wood",
+      "Engineered wood siding: LP SmartSide",
       "LP SmartSide is an engineered wood siding family with its own finishing, clearance and installation requirements. Review the actual product and finish, including how edges and trim will be handled.",
-      "Fiber cement",
+      "Fiber cement siding: James Hardie",
       "James Hardie offers fiber cement products in different profiles and finishes. Installation and care need to follow the selected product's documents. No siding material eliminates the need for correct wall details and ongoing inspection.",
-      "Coordinate the parts that meet the siding",
+      "Coordinating siding with windows, roofing and gutters",
       "Windows, doors, roof intersections, gutters, fascia and exterior fixtures can affect the sequence. Decide which trim will be replaced or retained and which surfaces need separate painting. Select the roof, siding and trim palette together where more than one material is changing, while keeping the materials, preparation and installation for each service clear.",
-      "Siding service questions",
+      "Siding questions: materials, installation and estimates",
       "Is a full replacement needed for one damaged area?",
       "Not automatically. The surrounding condition, cause and available matching material determine whether a local repair is practical. A wider replacement may be appropriate when deterioration or unresolved problems extend beyond the visible area.",
       "Does new siding fix every wall leak?",
       "No. The source needs to be identified and the relevant flashing, preparation or adjoining repair included. Cladding should not conceal an unresolved wall problem.",
       "What should the estimate contain?",
       "Look for the included elevations, selected material, removal, preparation, trim, flashing, fixture work, cleanup and additional-repair terms. Confirm applicable coverage for both the products and workmanship.",
-      "Discuss the exterior you want to repair or renew",
-      "Tell Roof King the address, affected areas and whether you want the current appearance retained or changed. The next step is an estimate that connects the wall condition with the selected siding."
-    ]
+      "Request a siding service estimate in Columbus",
+      "Tell Roof King the address, affected areas and whether you want the current appearance retained or changed. The next step is an estimate that connects the wall condition with the selected siding.",
+      "Residential siding services in Columbus",
+      "Request a siding service estimate in Columbus",
+      "Siding questions: materials, installation and estimates",
+      "Assessing siding damage before repair or replacement",
+      "Choosing siding materials, trim and exterior details",
+      "What is included in a siding service estimate?",
+      "A siding estimate should name the areas being repaired or replaced, selected panels and trim, wall preparation and flashing at openings. Ask whether fixture removal, painting and cleanup are included and how concealed damage is approved."
+    ],
+    "budgetSectionId": "review-01-siding-estimate"
   },
   "/siding/replacement/": {
     "sourceId": 71,
@@ -17289,65 +17465,88 @@
     "sections": [
       {
         "id": "service-copy-71-2",
-        "title": "Select the new siding and the complete exterior palette",
-        "body": [
+        "title": "Selecting replacement siding, colors and trim",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "Match siding profiles and colors to your home",
+            "body": [
               {
-                "text": "Compare vinyl, engineered wood and fiber cement on the "
-              },
-              {
-                "tag": "a",
-                "href": "/siding/types/",
+                "tag": "p",
                 "children": [
                   {
-                    "text": "siding materials page"
+                    "text": "Compare vinyl, engineered wood and fiber cement on the "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/siding/types/",
+                    "children": [
+                      {
+                        "text": "siding materials page"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Material, profile, color and finish are separate decisions. Review samples beside retained masonry, roofing, windows and doors, then identify the selected product in the estimate. Accent areas and trim can change both appearance and labor, even when the main wall area is unchanged."
                   }
                 ]
-              },
-              {
-                "text": ". Material, profile, color and finish are separate decisions. Review samples beside retained masonry, roofing, windows and doors, then identify the selected product in the estimate. Accent areas and trim can change both appearance and labor, even when the main wall area is unchanged."
               }
             ]
+          },
+          {
+            "title": "Corners, fascia, fixtures and finishing work",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Corners, soffit or fascia work, lighting, outlets, downspouts and other fixtures can affect installation. Confirm which items are being removed and reinstalled, which need another trade and which surfaces require paint. The "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/products/siding/",
+                    "children": [
+                      {
+                        "text": "siding product library"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " helps identify compatible finishing choices."
+                  }
+                ]
+              }
+            ],
+            "id": "service-copy-71-5"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       },
       {
         "id": "service-copy-71-3",
-        "title": "What removal can reveal",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Old siding may conceal deteriorated sheathing, damaged trim or incomplete water-management details. The initial assessment cannot establish every covered condition. The proposal should explain how new findings will be recorded, priced and approved. Resolve affected wall components before the new exterior covers them."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
-          "alt": "Siding Replacement example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
-      },
-      {
-        "id": "service-copy-71-4",
-        "title": "Prepare the wall and its openings",
+        "title": "How the wall is prepared for new siding",
         "body": [],
         "cards": [
+          {
+            "title": "Concealed sheathing damage after siding removal",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Old siding may conceal deteriorated sheathing, damaged trim or incomplete water-management details. The initial assessment cannot establish every covered condition. The proposal should explain how new findings will be recorded, priced and approved. Resolve affected wall components before the new exterior covers them."
+                  }
+                ]
+              }
+            ]
+          },
           {
             "title": "Supporting surface and water-management layers",
             "body": [
@@ -17359,7 +17558,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "id": "service-copy-71-4"
           },
           {
             "title": "Windows and doors",
@@ -17386,59 +17586,40 @@
                 ]
               }
             ]
-          }
-        ],
-        "image": {
-          "src": "/media/service-illustrations/window-opening-v1.webp",
-          "alt": "Architectural illustration of a window frame, glazing and wall opening"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light"
-      },
-      {
-        "id": "service-copy-71-5",
-        "title": "Finish the project beyond the panels",
-        "body": [
+          },
           {
-            "tag": "p",
-            "children": [
+            "title": "Property access, debris removal and final inspection",
+            "body": [
               {
-                "text": "Corners, soffit or fascia work, lighting, outlets, downspouts and other fixtures can affect installation. Confirm which items are being removed and reinstalled, which need another trade and which surfaces require paint. The "
-              },
-              {
-                "tag": "a",
-                "href": "/products/siding/",
+                "tag": "p",
                 "children": [
                   {
-                    "text": "siding product library"
+                    "text": "Discuss landscaping, entrances, delivery areas and where removed material will be collected. Agree on the project contact and how additional work or weather interruptions will be communicated. The completed-work review should cover the agreed elevations, transitions, fixture treatment and cleanup, along with the documents for the selected materials."
                   }
                 ]
-              },
-              {
-                "text": " helps identify compatible finishing choices."
               }
-            ]
+            ],
+            "id": "service-copy-71-6"
           }
         ],
-        "cards": [],
         "image": {
-          "src": "/media/service-illustrations/siding-wall-v1.webp",
-          "alt": "Architectural illustration of siding, wall layers and a window opening"
+          "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
+          "alt": "Siding Replacement example from the existing Roof King image library"
         },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
+        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "media",
-        "tone": "forest"
+        "tone": "cream",
+        "eyebrow": "Siding materials and installation"
       },
       {
-        "id": "service-copy-71-6",
-        "title": "Plan access and cleanup",
+        "id": "review-01-siding-replacement-estimate",
+        "title": "What to include in your siding replacement estimate",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Discuss landscaping, entrances, delivery areas and where removed material will be collected. Agree on the project contact and how additional work or weather interruptions will be communicated. The completed-work review should cover the agreed elevations, transitions, fixture treatment and cleanup, along with the documents for the selected materials."
+                "text": "Check the replacement estimate for old siding removal, sheathing repair arrangements, water-management layers, flashing, selected panels, trim and fixture reinstallation. Record any separate painting, soffit, fascia or gutter work before installation."
               }
             ]
           }
@@ -17450,7 +17631,8 @@
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       }
     ],
     "closingBody": [
@@ -17476,33 +17658,41 @@
     "bodyWords": 561,
     "expectedBlocks": [
       "Replacing siding is an opportunity to address the wall beneath the old finish as well as the appearance of the home. Roof King helps Columbus homeowners plan the selected panels, preparation, flashing and trim as one connected project.",
-      "Decide whether replacement fits the condition",
+      "When to replace siding instead of repairing it",
       "Widespread wear, repeated damage, limited matching options or a planned change in appearance can support replacement. A smaller repair may be practical when the surrounding materials and connections remain suitable. The assessment should identify the problem and explain why the proposed work is appropriate.",
-      "Select the new siding and the complete exterior palette",
+      "Match siding profiles and colors to your home",
       "Compare vinyl, engineered wood and fiber cement on the siding materials page. Material, profile, color and finish are separate decisions. Review samples beside retained masonry, roofing, windows and doors, then identify the selected product in the estimate. Accent areas and trim can change both appearance and labor, even when the main wall area is unchanged.",
-      "What removal can reveal",
+      "Concealed sheathing damage after siding removal",
       "Old siding may conceal deteriorated sheathing, damaged trim or incomplete water-management details. The initial assessment cannot establish every covered condition. The proposal should explain how new findings will be recorded, priced and approved. Resolve affected wall components before the new exterior covers them.",
-      "Prepare the wall and its openings",
+      "How the wall is prepared for new siding",
       "Supporting surface and water-management layers",
       "The wall needs an appropriate surface for the selected product and the specified protection behind it. The retained and new layers should be identified in the work, with connections suited to the existing construction.",
       "Windows and doors",
       "Openings need coordinated flashing and trim details. New siding alone does not correct every window or door leak. Identify whether the existing trim stays, is altered or is replaced, and whether separate opening repairs are required.",
       "Roof and material transitions",
       "Where siding meets a roof, another cladding material or a lower wall detail, the connection needs to direct water appropriately. The estimate should explain the relevant flashing and clearance requirements for the selected product rather than rely on general sealing alone.",
-      "Finish the project beyond the panels",
+      "Corners, fascia, fixtures and finishing work",
       "Corners, soffit or fascia work, lighting, outlets, downspouts and other fixtures can affect installation. Confirm which items are being removed and reinstalled, which need another trade and which surfaces require paint. The siding product library helps identify compatible finishing choices.",
-      "Plan access and cleanup",
+      "Property access, debris removal and final inspection",
       "Discuss landscaping, entrances, delivery areas and where removed material will be collected. Agree on the project contact and how additional work or weather interruptions will be communicated. The completed-work review should cover the agreed elevations, transitions, fixture treatment and cleanup, along with the documents for the selected materials.",
-      "Siding replacement questions",
+      "Siding replacement questions: materials, installation and estimates",
       "Can only one side of the house be replaced?",
       "It may be possible if the boundaries and connections can be completed appropriately. Consider matching, retained trim and future work before selecting a partial replacement.",
       "Will new siding improve insulation?",
       "That depends on the selected product and assembly. A particular insulated panel or added layer must be identified; a new exterior finish alone does not establish a specific thermal improvement or bill saving.",
       "What affects the price?",
       "Wall area, stories, access, material, removal, wall repairs, openings, trim and finishing all matter. Compare the same work before comparing totals.",
-      "Plan a complete siding replacement",
-      "Tell Roof King which areas you want replaced and the appearance you have in mind. A useful estimate explains the wall preparation and connections as clearly as the visible product."
-    ]
+      "Plan your siding replacement in Columbus",
+      "Tell Roof King which areas you want replaced and the appearance you have in mind. A useful estimate explains the wall preparation and connections as clearly as the visible product.",
+      "When to replace siding instead of repairing it",
+      "Plan your siding replacement in Columbus",
+      "Siding replacement questions: materials, installation and estimates",
+      "Selecting replacement siding, colors and trim",
+      "How the wall is prepared for new siding",
+      "What to include in your siding replacement estimate",
+      "Check the replacement estimate for old siding removal, sheathing repair arrangements, water-management layers, flashing, selected panels, trim and fixture reinstallation. Record any separate painting, soffit, fascia or gutter work before installation."
+    ],
+    "budgetSectionId": "review-01-siding-replacement-estimate"
   },
   "/siding/types/": {
     "sourceId": 72,
@@ -17525,71 +17715,69 @@
     "sections": [
       {
         "id": "service-copy-72-2",
-        "title": "Engineered wood: LP SmartSide",
-        "body": [
+        "title": "Engineered wood and fiber cement siding options",
+        "body": [],
+        "cards": [
           {
-            "tag": "p",
-            "children": [
+            "title": "LP SmartSide engineered wood siding",
+            "body": [
               {
-                "text": "LP SmartSide is an engineered wood product family. Appearance, finish and installation need to be compared at the line level. The selected siding has requirements for clearances, joints, fastening, cut-edge treatment and finishing that belong in the installation plan."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "LP SmartSide is an engineered wood product family. Appearance, finish and installation need to be compared at the line level. The selected siding has requirements for clearances, joints, fastening, cut-edge treatment and finishing that belong in the installation plan."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Confirm whether the proposal uses a particular factory finish or requires painting as part of the project. Keep that distinction clear when comparing the total and later maintenance. A wood-based appearance does not mean every coating or repair method is suitable for the chosen product."
+                  }
+                ]
               }
             ]
           },
           {
-            "tag": "p",
-            "children": [
+            "title": "James Hardie fiber cement siding",
+            "body": [
               {
-                "text": "Confirm whether the proposal uses a particular factory finish or requires painting as part of the project. Keep that distinction clear when comparing the total and later maintenance. A wood-based appearance does not mean every coating or repair method is suitable for the chosen product."
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "James Hardie fiber cement products offer a different material base, with profile and finish choices that need their own selection. Handling, fastening, cutting, clearance and finishing requirements should follow the current documents for the actual product and application."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Compare the selected finish and care guidance, including any future painting considerations. Fiber cement should not be treated as a reason to ignore moisture details at openings and transitions. The wall assembly and installation still matter."
+                  }
+                ]
               }
-            ]
+            ],
+            "id": "service-copy-72-3"
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "forest"
-      },
-      {
-        "id": "service-copy-72-3",
-        "title": "Fiber cement: James Hardie",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "James Hardie fiber cement products offer a different material base, with profile and finish choices that need their own selection. Handling, fastening, cutting, clearance and finishing requirements should follow the current documents for the actual product and application."
-              }
-            ]
-          },
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Compare the selected finish and care guidance, including any future painting considerations. Fiber cement should not be treated as a reason to ignore moisture details at openings and transitions. The wall assembly and installation still matter."
-              }
-            ]
-          }
-        ],
-        "cards": [],
-        "image": {
-          "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
-          "alt": "Siding Materials example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       },
       {
         "id": "service-copy-72-4",
-        "title": "Compare the whole exterior, not isolated panels",
+        "title": "Comparing siding appearance, installation and maintenance",
         "body": [],
         "cards": [
           {
-            "title": "Appearance and matching",
+            "title": "Siding profiles, colors and matching",
             "body": [
               {
                 "tag": "p",
@@ -17602,7 +17790,7 @@
             ]
           },
           {
-            "title": "Preparation and installation",
+            "title": "Siding removal, wall repairs and installation",
             "body": [
               {
                 "tag": "p",
@@ -17627,7 +17815,7 @@
             ]
           },
           {
-            "title": "Care and coverage",
+            "title": "Siding maintenance and warranty terms",
             "body": [
               {
                 "tag": "p",
@@ -17645,8 +17833,32 @@
           "alt": "Architectural illustration of siding, wall layers and a window opening"
         },
         "caption": "Illustration of related components. Materials and details vary with the selected system.",
+        "variant": "media",
+        "tone": "cream",
+        "eyebrow": "Siding materials and installation"
+      },
+      {
+        "id": "review-01-siding-types-estimate",
+        "title": "Specifying your siding material in an estimate",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Specify the manufacturer, product line, profile, color and finish in the siding estimate. Compare the installation and trim details alongside care instructions and the written product and workmanship terms; a material family alone does not describe the finished wall."
+              }
+            ]
+          }
+        ],
+        "cards": [],
+        "image": {
+          "src": "/media/service-illustrations/siding-wall-v1.webp",
+          "alt": "Architectural illustration of siding, wall layers and a window opening"
+        },
+        "caption": "Illustration of related components. Materials and details vary with the selected system.",
         "variant": "comparison",
-        "tone": "light"
+        "tone": "light",
+        "eyebrow": "Siding materials and installation"
       }
     ],
     "closingBody": [
@@ -17684,32 +17896,40 @@
     "bodyWords": 568,
     "expectedBlocks": [
       "Choose siding by material, profile and finish together. Roof King helps Columbus homeowners compare vinyl, engineered wood and fiber cement with the preparation, trim and care each selected product requires. A brand name is the starting point; the proposal should identify the exact line and finish.",
-      "Vinyl siding: Variform by Ply Gem",
+      "Vinyl siding: profiles, insulation and care",
       "Vinyl profiles can create different horizontal, vertical or accent appearances depending on the offered product. The panel, starter, corners and opening accessories work together, with installation details that account for material movement. Review the profile and color beside retained exterior features rather than selecting from a small online image alone.",
       "Cleaning and care should follow the selected product's guidance. If an insulated option is being considered, identify that specific product and its documented properties. Do not assume every vinyl panel has the same insulation benefit or that a material category establishes a whole-wall performance value.",
-      "Engineered wood: LP SmartSide",
+      "LP SmartSide engineered wood siding",
       "LP SmartSide is an engineered wood product family. Appearance, finish and installation need to be compared at the line level. The selected siding has requirements for clearances, joints, fastening, cut-edge treatment and finishing that belong in the installation plan.",
       "Confirm whether the proposal uses a particular factory finish or requires painting as part of the project. Keep that distinction clear when comparing the total and later maintenance. A wood-based appearance does not mean every coating or repair method is suitable for the chosen product.",
-      "Fiber cement: James Hardie",
+      "James Hardie fiber cement siding",
       "James Hardie fiber cement products offer a different material base, with profile and finish choices that need their own selection. Handling, fastening, cutting, clearance and finishing requirements should follow the current documents for the actual product and application.",
       "Compare the selected finish and care guidance, including any future painting considerations. Fiber cement should not be treated as a reason to ignore moisture details at openings and transitions. The wall assembly and installation still matter.",
-      "Compare the whole exterior, not isolated panels",
-      "Appearance and matching",
+      "Comparing siding appearance, installation and maintenance",
+      "Siding profiles, colors and matching",
       "Profiles, textures and shadow lines change the way a wall looks. Review the main siding, corners, opening trim and accent areas together. New material beside retained weathered siding may not match perfectly even when the color name is similar.",
-      "Preparation and installation",
+      "Siding removal, wall repairs and installation",
       "Removal, wall repairs, water-management layers, flashing and trim can differ between proposals. A lower panel price does not establish a lower complete project cost. The replacement service explains those construction items.",
-      "Care and coverage",
+      "Siding maintenance and warranty terms",
       "Read the selected product's cleaning, finishing and warranty information. Coverage can depend on installation, use and maintenance conditions. Product warranty and contractor workmanship terms should be reviewed separately.",
-      "Siding material questions",
+      "Siding materials questions: materials, installation and estimates",
       "Which material is best for my home?",
       "The useful choice depends on your preferred appearance, existing wall, materials and work included, budget and willingness to maintain the finish. Compare specific products and installed proposals for the same property.",
       "Can different materials be combined?",
       "They can be considered in a coordinated design, but transitions, trim and compatibility need to be resolved. The proposal should identify each area and its selected product.",
       "Can every siding product be repainted?",
       "No universal rule applies. The material, existing finish and manufacturer's guidance determine whether painting is appropriate and which products or colors are permitted.",
-      "Narrow the choices, then confirm the installation",
-      "Use the siding product library to explore the available profiles and finishes. Bring your preferences to Roof King so the selected material and wall preparation can be included in one replacement estimate."
-    ]
+      "Compare siding materials for your Columbus home",
+      "Use the siding product library to explore the available profiles and finishes. Bring your preferences to Roof King so the selected material and wall preparation can be included in one replacement estimate.",
+      "Vinyl siding: profiles, insulation and care",
+      "Compare siding materials for your Columbus home",
+      "Siding materials questions: materials, installation and estimates",
+      "Engineered wood and fiber cement siding options",
+      "Comparing siding appearance, installation and maintenance",
+      "Specifying your siding material in an estimate",
+      "Specify the manufacturer, product line, profile, color and finish in the siding estimate. Compare the installation and trim details alongside care instructions and the written product and workmanship terms; a material family alone does not describe the finished wall."
+    ],
+    "budgetSectionId": "review-01-siding-types-estimate"
   },
   "/storm-damage-roof-repair-dublin-oh/": {
     "sourceId": 73,

@@ -43,3 +43,5 @@ optimize-roofing-heroes.mjs copies original generated PNGs into the project outp
 check-roofing-heroes.mjs runs in npm run verify to protect all 41 unique hero mappings, responsive/eager markup, public image budgets, illustrative labels and the noindex review gallery. It reads only committed optimized assets and never requires original PNGs or generation credentials.
 
 build-roofing-hero-review.mjs writes the noindex public gallery from the hero manifest and recomputes size totals; visual inspection status is recorded separately and must never be inferred from generation success.
+
+check-service-reviews.mjs runs in verify for the explicit ten-page batches. It checks real heading progression, fewer top-level headings than the captured prior outlines, subordinate manufacturer headings, deliberate estimate placement and valid accessible heading targets. Future review batches register through migration/service-review-batch-NN.json.

@@ -11,7 +11,7 @@ const id=section.id || 'service-topics';
   <div class:list={['rk-section-inner',{'rk-copy-opening-grid':!!section.image}]}>
     {section.image&&<figure class="rk-copy-opening-media"><HomeImage {...section.image}/>{section.caption&&<figcaption>{section.caption}</figcaption>}</figure>}
     <div><div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id={`${id}-title`}>{section.title}</h2>{section.intro?.length?<RichContent nodes={section.intro}/>:section.description&&<p>{section.description}</p>}</div>
-    <div class="rk-service-article-rows">{section.items.map(item=><article id={item.id} class="rk-service-article-row" aria-labelledby={`${item.id}-heading`}>
+    <div class="rk-service-article-rows">{section.items.map(item=><article id={item.id} class="rk-service-article-row" aria-labelledby={(section.items.length>1||item.title!==section.title)?`${item.id}-heading`:`${id}-title`}>
       {section.variant==='benefits'&&<span class="rk-service-benefit-icon"><ServiceIcon name={item.icon==='shield'?'shield':item.icon==='cost'?'cost':item.icon==='check'?'check':'roof'}/></span>}
       {(section.items.length>1||item.title!==section.title)&&<h3 id={`${item.id}-heading`}>{item.title}</h3>}
       <div>{item.body?<RichContent nodes={item.body}/>:<><p>{item.description}</p>{item.detail&&<p>{item.detail}</p>}</>}{item.highlights.length>0&&<ul>{item.highlights.map(text=><li>{text}</li>)}</ul>}{!item.body&&<a href={item.href}>{item.label} <span aria-hidden="true">→</span></a>}{item.related?.length&&<div class="rk-service-related-links">{item.related.map(link=><a href={link.href}>{link.label} ↗</a>)}</div>}</div>

@@ -3003,10 +3003,19 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "Measure the walls, openings and trim",
+      "eyebrow": "Siding Replacement Costs · Cincinnati, Ohio",
+      "title": "How siding area and trim affect replacement cost",
       "description": "",
-      "intro": [],
+      "intro": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Measurement starts with the wall surfaces and their shapes. Stories, gables, corners, windows and doors affect the quantity of siding and the details around it. Openings can reduce panel area while adding trim and flashing work, so subtracting every window from a wall does not describe the complete labor or material requirement."
+            }
+          ]
+        }
+      ],
       "image": {
         "src": "/media/service-illustrations/window-opening-v1.webp",
         "alt": "Architectural illustration of a window frame, glazing and wall opening"
@@ -3017,16 +3026,8 @@
         {
           "id": "service-detail-10-1",
           "tabLabel": "Measure the walls, openings and trim",
-          "title": "Measure the walls, openings and trim",
+          "title": "Example: measuring a 300-square-foot wall",
           "body": [
-            {
-              "tag": "p",
-              "children": [
-                {
-                  "text": "Measurement starts with the wall surfaces and their shapes. Stories, gables, corners, windows and doors affect the quantity of siding and the details around it. Openings can reduce panel area while adding trim and flashing work, so subtracting every window from a wall does not describe the complete labor or material requirement."
-                }
-              ]
-            },
             {
               "tag": "p",
               "children": [
@@ -3036,7 +3037,7 @@
               ]
             }
           ],
-          "description": "Measurement starts with the wall surfaces and their shapes. Stories, gables, corners, windows and doors affect the quantity of siding and the details around it. Openings can reduce panel area while adding trim and flashing work, so subtracting every window from a wall does not describe the complete labor or material requirement.",
+          "description": "As an arithmetic illustration, a rectangular wall 30 feet long and 10 feet high has 300 square feet of gross surface area. That does not include a gable above it, and it does not determine the ordered quantity. Openings, profiles, cutting requirements and trim still need to be measured. This is an example, not a Roof King project or quote.",
           "detail": "",
           "highlights": [],
           "href": "#estimate",
@@ -3121,7 +3122,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Siding cost questions",
+      "title": "Siding questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -3167,8 +3168,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Request a siding estimate in Cincinnati",
-      "description": "Tell Roof King the property address and whether you want the current appearance retained or changed. Review siding replacement and the siding product library to prepare your selections. For adjoining projects, return to Cincinnati exterior services.",
+      "title": "Request a siding replacement estimate in Cincinnati",
+      "description": "Discuss siding replacement, the condition of your home and the work to include in an estimate.",
       "action": "Request a Siding Estimate"
     },
     "related": [
@@ -3200,7 +3201,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Siding Replacement Costs in Cincinnati, OH"
+    "seoTitle": "Siding Replacement Costs in Cincinnati, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Siding installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore siding manufacturers",
+      "brandsDescription": "Follow each brand to compare its products, finishes and care information.",
+      "brandsSectionId": "service-copy-10-2",
+      "financeTitle": "Siding replacement financing"
+    }
   },
   "/cleveland-oh/": {
     "family": "local",
@@ -6479,8 +6489,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Assess the wall before selecting the finish",
+      "eyebrow": "Commercial Siding · Columbus, Ohio",
+      "title": "Inspecting commercial siding damage",
       "description": "",
       "intro": [],
       "image": {
@@ -6493,7 +6503,7 @@
         {
           "id": "service-detail-23-1",
           "tabLabel": "Assess the wall before selecting the finish",
-          "title": "Assess the wall before selecting the finish",
+          "title": "Inspecting commercial siding damage",
           "body": [
             {
               "tag": "p",
@@ -6589,7 +6599,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Commercial siding questions",
+      "title": "Commercial siding questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -6635,8 +6645,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Discuss the building's exterior",
-      "description": "Share the address, affected elevations and operating constraints with Roof King. The estimate should connect the wall work with the building's use and the selected finish.",
+      "title": "Request a commercial siding assessment in Columbus",
+      "description": "Discuss commercial siding, the condition of your home and the work to include in an estimate.",
       "action": "Request a Commercial Siding Estimate"
     },
     "related": [
@@ -6668,7 +6678,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Siding in Columbus, OH"
+    "seoTitle": "Commercial Siding in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Commercial siding: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore siding manufacturers",
+      "brandsDescription": "Follow each brand to compare its products, finishes and care information.",
+      "brandsSectionId": "service-copy-23-2",
+      "financeTitle": "Siding replacement financing"
+    }
   },
   "/cost-of-a-new-roof/": {
     "family": "roof-cost",
@@ -7820,10 +7839,19 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "Measure gutter runs and downspouts separately",
+      "eyebrow": "Gutter Replacement Costs · Dayton, Ohio",
+      "title": "How gutter and downspout measurements affect cost",
       "description": "",
-      "intro": [],
+      "intro": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Horizontal gutter lengths and vertical downspouts perform different jobs and should be identifiable in the proposal. Corners, end caps, outlets and discharge connections also matter. Height and access affect installation, while fascia condition can change the preparation needed before attachment."
+            }
+          ]
+        }
+      ],
       "image": {
         "src": "/media/service-illustrations/gutter-drainage-v1.webp",
         "alt": "Illustration showing a gutter, downspout and the discharge route"
@@ -7834,16 +7862,8 @@
         {
           "id": "service-detail-28-1",
           "tabLabel": "Measure gutter runs and downspouts separately",
-          "title": "Measure gutter runs and downspouts separately",
+          "title": "Example: separate gutter and downspout quantities",
           "body": [
-            {
-              "tag": "p",
-              "children": [
-                {
-                  "text": "Horizontal gutter lengths and vertical downspouts perform different jobs and should be identifiable in the proposal. Corners, end caps, outlets and discharge connections also matter. Height and access affect installation, while fascia condition can change the preparation needed before attachment."
-                }
-              ]
-            },
             {
               "tag": "p",
               "children": [
@@ -7853,7 +7873,7 @@
               ]
             }
           ],
-          "description": "Horizontal gutter lengths and vertical downspouts perform different jobs and should be identifiable in the proposal. Corners, end caps, outlets and discharge connections also matter. Height and access affect installation, while fascia condition can change the preparation needed before attachment.",
+          "description": "An illustrative layout with two 40-foot gutter runs contains 80 linear feet of gutter. If it also has four 10-foot downspout sections, those add 40 linear feet of downspout, not another 40 feet of gutter. The layout still needs outlets, elbows, supports and discharge details. This is a quantity example only; it is not a drainage design or a Roof King price.",
           "detail": "",
           "highlights": [],
           "href": "#estimate",
@@ -7936,7 +7956,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Gutter cost questions",
+      "title": "Gutters questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -7982,8 +8002,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Get a measured Dayton gutter estimate",
-      "description": "Tell Roof King where overflow or damage occurs and which areas you want replaced. Explore gutter services for the drainage decisions and Dayton exterior services for connected roofing or siding work.",
+      "title": "Request a measured gutter estimate in Dayton",
+      "description": "Discuss gutter installation, the condition of your home and the work to include in an estimate.",
       "action": "Request a Gutter Estimate"
     },
     "related": [
@@ -8015,7 +8035,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Gutter Replacement Costs in Dayton, OH"
+    "seoTitle": "Gutter Replacement Costs in Dayton, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore gutter and guard manufacturers",
+      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsSectionId": "service-copy-28-3",
+      "financeTitle": "Gutter installation financing"
+    }
   },
   "/dayton-roofers/": {
     "family": "roofing-local",
@@ -12521,8 +12550,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Find why the water is going wrong",
+      "eyebrow": "Gutter Services · Dublin, Ohio",
+      "title": "Gutter installation starts with a drainage inspection",
       "description": "",
       "intro": [],
       "image": {
@@ -12535,7 +12564,7 @@
         {
           "id": "service-detail-45-1",
           "tabLabel": "Find why the water is going wrong",
-          "title": "Find why the water is going wrong",
+          "title": "Gutter installation starts with a drainage inspection",
           "body": [
             {
               "tag": "p",
@@ -12629,7 +12658,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Gutter questions in Dublin",
+      "title": "Gutters questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -12675,8 +12704,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan the full drainage route",
-      "description": "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge.",
+      "title": "Request a gutter installation estimate in Dublin",
+      "description": "Discuss gutter installation, the condition of your home and the work to include in an estimate.",
       "action": "Request a Gutter Estimate"
     },
     "related": [
@@ -12708,7 +12737,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Gutter Installation in Dublin, OH"
+    "seoTitle": "Gutter Installation in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore gutter and guard manufacturers",
+      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsSectionId": "service-copy-45-2",
+      "financeTitle": "Gutter installation financing"
+    }
   },
   "/gutters/": {
     "family": "gutters",
@@ -12755,25 +12793,25 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Find why the water is going wrong",
+      "eyebrow": "Gutter Services · Columbus, Ohio",
+      "title": "Gutter installation, replacement and protection in Columbus",
       "description": "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas.",
       "intro": [
         {
           "tag": "p",
           "children": [
             {
-              "text": "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas."
+              "text": "Replace worn gutter runs, plan seamless gutters and downspouts, or add guards to a suitable existing system. Explore each service, then review the preparation, outlets and discharge details that make the installation work as a complete drainage route."
             }
           ]
         }
       ],
-      "selectorLabel": "Choose a service",
+      "selectorLabel": "Choose a gutter service",
       "items": [
         {
           "id": "service-child-46-1",
           "tabLabel": "Gutter Guards",
-          "title": "Gutter Guards in Columbus, OH",
+          "title": "Gutter guards for debris management",
           "body": [
             {
               "tag": "p",
@@ -12803,7 +12841,7 @@
         {
           "id": "service-child-46-2",
           "tabLabel": "Seamless Gutters",
-          "title": "Seamless Gutters in Columbus, OH",
+          "title": "Seamless gutter runs and downspouts",
           "body": [
             {
               "tag": "p",
@@ -12906,7 +12944,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Gutter questions in Columbus",
+      "title": "Gutters questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -12952,8 +12990,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan the full drainage route",
-      "description": "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge.",
+      "title": "Request a gutter installation estimate in Columbus",
+      "description": "Discuss gutter installation, the condition of your home and the work to include in an estimate.",
       "action": "Request a Gutter Estimate"
     },
     "related": [
@@ -12985,7 +13023,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Gutter Services in Columbus, OH"
+    "seoTitle": "Gutter Services in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore gutter and guard manufacturers",
+      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsSectionId": "service-copy-46-2",
+      "financeTitle": "Gutter installation financing"
+    }
   },
   "/gutters/guards/": {
     "family": "guards",
@@ -13036,8 +13083,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Start with a working gutter system",
+      "eyebrow": "Gutter Guards · Columbus, Ohio",
+      "title": "Preparing existing gutters before adding guards",
       "description": "",
       "intro": [],
       "image": {
@@ -13050,7 +13097,7 @@
         {
           "id": "service-detail-47-1",
           "tabLabel": "Start with a working gutter system",
-          "title": "Start with a working gutter system",
+          "title": "Preparing existing gutters before adding guards",
           "body": [
             {
               "tag": "p",
@@ -13144,7 +13191,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Gutter guard questions",
+      "title": "Gutter guards questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -13227,8 +13274,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Choose protection for the system you have",
-      "description": "Tell Roof King about overflow, debris and existing gutter condition. The estimate should explain the selected accessory, preparation, fitting and continuing care.",
+      "title": "Discuss gutter guard options for your Columbus home",
+      "description": "Discuss gutter guard installation, the condition of your home and the work to include in an estimate.",
       "action": "Discuss Gutter Guard Options"
     },
     "related": [
@@ -13260,7 +13307,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Gutter Guards in Columbus, OH"
+    "seoTitle": "Gutter Guards in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore gutter and guard manufacturers",
+      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsSectionId": "service-copy-47-2",
+      "financeTitle": "Gutter installation financing"
+    }
   },
   "/gutters/seamless/": {
     "family": "seamless",
@@ -13311,8 +13367,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "What seamless does and does not mean",
+      "eyebrow": "Seamless Gutters · Columbus, Ohio",
+      "title": "How seamless gutters reduce joints along your roofline",
       "description": "",
       "intro": [],
       "image": {
@@ -13325,7 +13381,7 @@
         {
           "id": "service-detail-48-1",
           "tabLabel": "What seamless does and does not mean",
-          "title": "What seamless does and does not mean",
+          "title": "How seamless gutters reduce joints along your roofline",
           "body": [
             {
               "tag": "p",
@@ -13419,7 +13475,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Seamless gutter questions",
+      "title": "Seamless gutters questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -13465,8 +13521,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan a continuous gutter system for your home",
-      "description": "Tell Roof King where the current gutters fail and which roof edges need replacement. Visit gutter services to review the broader drainage and preparation questions.",
+      "title": "Plan a seamless gutter installation in Columbus",
+      "description": "Discuss seamless gutter installation, the condition of your home and the work to include in an estimate.",
       "action": "Request a Seamless Gutter Estimate"
     },
     "related": [
@@ -13494,7 +13550,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Seamless Gutters in Columbus, OH"
+    "seoTitle": "Seamless Gutters in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore gutter and guard manufacturers",
+      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsSectionId": "service-copy-48-2",
+      "financeTitle": "Gutter installation financing"
+    }
   },
   "/hail-damage-roof-repair-dublin-oh/": {
     "family": "hail",
@@ -20247,16 +20312,25 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Choose the work your exterior needs",
+      "eyebrow": "Siding Services · Columbus, Ohio",
+      "title": "Residential siding services in Columbus",
       "description": "Explore the services and product information below.",
-      "intro": [],
+      "intro": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Replace worn siding, compare vinyl, engineered wood and fiber cement, or discuss repairs to a damaged wall. The services below cover siding panels, trim, wall preparation and flashing around windows, doors and roof connections."
+            }
+          ]
+        }
+      ],
       "selectorLabel": "Choose a service",
       "items": [
         {
           "id": "service-child-70-1",
-          "tabLabel": "Replace worn or damaged siding",
-          "title": "Replace worn or damaged siding",
+          "tabLabel": "Siding replacement",
+          "title": "Siding replacement: panels, flashing and trim",
           "body": [
             {
               "tag": "p",
@@ -20285,8 +20359,8 @@
         },
         {
           "id": "service-child-70-2",
-          "tabLabel": "Compare siding materials",
-          "title": "Compare siding materials",
+          "tabLabel": "Siding material options",
+          "title": "Compare vinyl, engineered wood and fiber cement",
           "body": [
             {
               "tag": "p",
@@ -20406,7 +20480,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Siding service questions",
+      "title": "Siding questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -20452,8 +20526,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Discuss the exterior you want to repair or renew",
-      "description": "Tell Roof King the address, affected areas and whether you want the current appearance retained or changed. The next step is an estimate that connects the wall condition with the selected siding.",
+      "title": "Request a siding service estimate in Columbus",
+      "description": "Discuss siding replacement, the condition of your home and the work to include in an estimate.",
       "action": "Request a Siding Estimate"
     },
     "related": [
@@ -20485,7 +20559,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Siding Services in Columbus, OH"
+    "seoTitle": "Siding Services in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Siding installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore siding manufacturers",
+      "brandsDescription": "Follow each brand to compare its products, finishes and care information.",
+      "brandsSectionId": "service-copy-70-3",
+      "financeTitle": "Siding replacement financing"
+    }
   },
   "/siding/replacement/": {
     "family": "siding-replacement",
@@ -20536,8 +20619,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Decide whether replacement fits the condition",
+      "eyebrow": "Siding Replacement · Columbus, Ohio",
+      "title": "When to replace siding instead of repairing it",
       "description": "",
       "intro": [],
       "image": {
@@ -20550,7 +20633,7 @@
         {
           "id": "service-detail-71-1",
           "tabLabel": "Decide whether replacement fits the condition",
-          "title": "Decide whether replacement fits the condition",
+          "title": "When to replace siding instead of repairing it",
           "body": [
             {
               "tag": "p",
@@ -20646,7 +20729,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Siding replacement questions",
+      "title": "Siding replacement questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -20692,8 +20775,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan a complete siding replacement",
-      "description": "Tell Roof King which areas you want replaced and the appearance you have in mind. A useful estimate explains the wall preparation and connections as clearly as the visible product.",
+      "title": "Plan your siding replacement in Columbus",
+      "description": "Discuss siding replacement, the condition of your home and the work to include in an estimate.",
       "action": "Request a Siding Replacement Estimate"
     },
     "related": [
@@ -20721,7 +20804,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Siding Replacement in Columbus, OH"
+    "seoTitle": "Siding Replacement in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Siding installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore siding manufacturers",
+      "brandsDescription": "Follow each brand to compare its products, finishes and care information.",
+      "brandsSectionId": "service-copy-71-2",
+      "financeTitle": "Siding replacement financing"
+    }
   },
   "/siding/types/": {
     "family": "siding-types",
@@ -20772,8 +20864,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Vinyl siding: Variform by Ply Gem",
+      "eyebrow": "Siding Materials · Columbus, Ohio",
+      "title": "Vinyl siding: profiles, insulation and care",
       "description": "",
       "intro": [],
       "image": {
@@ -20786,7 +20878,7 @@
         {
           "id": "service-detail-72-1",
           "tabLabel": "Vinyl siding: Variform by Ply Gem",
-          "title": "Vinyl siding: Variform by Ply Gem",
+          "title": "Vinyl siding: profiles, insulation and care",
           "body": [
             {
               "tag": "p",
@@ -20890,7 +20982,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Siding material questions",
+      "title": "Siding materials questions: materials, installation and estimates",
       "description": "",
       "items": [
         {
@@ -20936,8 +21028,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Narrow the choices, then confirm the installation",
-      "description": "Use the siding product library to explore the available profiles and finishes. Bring your preferences to Roof King so the selected material and wall preparation can be included in one replacement estimate.",
+      "title": "Compare siding materials for your Columbus home",
+      "description": "Discuss siding replacement, the condition of your home and the work to include in an estimate.",
       "action": "Compare Siding Options"
     },
     "related": [
@@ -20969,7 +21061,16 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Siding Materials in Columbus, OH"
+    "seoTitle": "Siding Materials in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "01",
+      "credentialsTitle": "Siding installation: workmanship and business credentials",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Explore siding manufacturers",
+      "brandsDescription": "Follow each brand to compare its products, finishes and care information.",
+      "brandsSectionId": "service-copy-72-2",
+      "financeTitle": "Siding replacement financing"
+    }
   },
   "/storm-damage-roof-repair-dublin-oh/": {
     "family": "storm",

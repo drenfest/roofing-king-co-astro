@@ -106,13 +106,13 @@
     {
       "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
       "sourceId": 10,
-      "bodyWords": 1231,
+      "bodyWords": 1267,
       "pdfBlocks": 26,
-      "reviewedOverride": false,
-      "expectedBlocks": 26,
+      "reviewedOverride": true,
+      "expectedBlocks": 33,
       "faqItems": 3,
-      "contentBands": 3,
-      "images": 12
+      "contentBands": 2,
+      "images": 11
     },
     {
       "path": "/cleveland-oh/",
@@ -249,13 +249,13 @@
     {
       "path": "/commercial-siding/",
       "sourceId": 23,
-      "bodyWords": 1206,
+      "bodyWords": 1208,
       "pdfBlocks": 27,
-      "reviewedOverride": false,
-      "expectedBlocks": 27,
+      "reviewedOverride": true,
+      "expectedBlocks": 34,
       "faqItems": 3,
-      "contentBands": 5,
-      "images": 12
+      "contentBands": 2,
+      "images": 11
     },
     {
       "path": "/cost-of-a-new-roof/",
@@ -304,13 +304,13 @@
     {
       "path": "/dayton-oh/the-cost-of-new-gutters/",
       "sourceId": 28,
-      "bodyWords": 1173,
+      "bodyWords": 1208,
       "pdfBlocks": 26,
-      "reviewedOverride": false,
-      "expectedBlocks": 26,
+      "reviewedOverride": true,
+      "expectedBlocks": 33,
       "faqItems": 3,
-      "contentBands": 3,
-      "images": 10
+      "contentBands": 2,
+      "images": 9
     },
     {
       "path": "/dayton-roofers/",
@@ -491,46 +491,46 @@
     {
       "path": "/gutter-installation-dublin-oh/",
       "sourceId": 45,
-      "bodyWords": 1189,
+      "bodyWords": 1191,
       "pdfBlocks": 26,
-      "reviewedOverride": false,
-      "expectedBlocks": 26,
+      "reviewedOverride": true,
+      "expectedBlocks": 33,
       "faqItems": 3,
-      "contentBands": 4,
-      "images": 10
+      "contentBands": 2,
+      "images": 9
     },
     {
       "path": "/gutters/",
       "sourceId": 46,
-      "bodyWords": 1272,
+      "bodyWords": 1309,
       "pdfBlocks": 26,
-      "reviewedOverride": false,
-      "expectedBlocks": 26,
+      "reviewedOverride": true,
+      "expectedBlocks": 33,
       "faqItems": 3,
-      "contentBands": 4,
-      "images": 9
+      "contentBands": 2,
+      "images": 8
     },
     {
       "path": "/gutters/guards/",
       "sourceId": 47,
-      "bodyWords": 1164,
+      "bodyWords": 1167,
       "pdfBlocks": 25,
-      "reviewedOverride": false,
-      "expectedBlocks": 25,
+      "reviewedOverride": true,
+      "expectedBlocks": 32,
       "faqItems": 4,
-      "contentBands": 4,
-      "images": 10
+      "contentBands": 2,
+      "images": 9
     },
     {
       "path": "/gutters/seamless/",
       "sourceId": 48,
-      "bodyWords": 1179,
+      "bodyWords": 1181,
       "pdfBlocks": 27,
-      "reviewedOverride": false,
-      "expectedBlocks": 27,
+      "reviewedOverride": true,
+      "expectedBlocks": 34,
       "faqItems": 3,
-      "contentBands": 4,
-      "images": 10
+      "contentBands": 2,
+      "images": 9
     },
     {
       "path": "/hail-damage-roof-repair-dublin-oh/",
@@ -766,34 +766,34 @@
     {
       "path": "/siding/",
       "sourceId": 70,
-      "bodyWords": 1234,
+      "bodyWords": 1255,
       "pdfBlocks": 28,
-      "reviewedOverride": false,
-      "expectedBlocks": 28,
+      "reviewedOverride": true,
+      "expectedBlocks": 35,
       "faqItems": 3,
-      "contentBands": 4,
-      "images": 11
+      "contentBands": 2,
+      "images": 10
     },
     {
       "path": "/siding/replacement/",
       "sourceId": 71,
-      "bodyWords": 1219,
+      "bodyWords": 1215,
       "pdfBlocks": 27,
-      "reviewedOverride": false,
-      "expectedBlocks": 27,
+      "reviewedOverride": true,
+      "expectedBlocks": 34,
       "faqItems": 3,
-      "contentBands": 5,
-      "images": 12
+      "contentBands": 2,
+      "images": 11
     },
     {
       "path": "/siding/types/",
       "sourceId": 72,
-      "bodyWords": 1180,
+      "bodyWords": 1192,
       "pdfBlocks": 26,
-      "reviewedOverride": false,
-      "expectedBlocks": 26,
+      "reviewedOverride": true,
+      "expectedBlocks": 33,
       "faqItems": 3,
-      "contentBands": 3,
+      "contentBands": 2,
       "images": 11
     },
     {

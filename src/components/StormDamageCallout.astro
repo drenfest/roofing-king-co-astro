@@ -1,15 +1,16 @@
 ---
 import ServiceIcon from './ServiceIcon.astro';
 import editorial from '../data/service-editorial.json';
-interface Props { path?: string; }
-const {path='/'}=Astro.props;
+interface Props { path?: string; headingLevel?:2|3; title?:string; description?:string; }
+const {path='/',headingLevel=2,title='Hail or Wind Damage to Your Home?',description='Have your roof, siding and gutters inspected. Explore repairs, storm-damage documentation and the next steps for your home.'}=Astro.props;
+const Heading=headingLevel===3?'h3':'h2';
 const localPath=`/${path.split('/').filter(Boolean)[0]}/storm-damage/`;
 const href=localPath in editorial?localPath:'/storm-damage/';
 ---
 <aside class="rk-storm-callout" aria-label="Storm damage inspections" data-component="StormDamageCallout">
   <div class="rk-storm-callout-inner">
     <span class="rk-storm-callout-icon"><ServiceIcon name="storm"/></span>
-    <div class="rk-storm-callout-copy"><p class="rk-home-eyebrow">After the storm</p><h2>Hail or Wind Damage to Your Home?</h2><p>Have your roof, siding and gutters inspected. Explore repairs, storm-damage documentation and the next steps for your home.</p>
+    <div class="rk-storm-callout-copy"><p class="rk-home-eyebrow">After the storm</p><Heading class="rk-storm-callout-heading">{title}</Heading><p>{description}</p>
       <nav aria-label="Storm damage resources"><a href="/storm-damage/hail/">Hail damage</a><a href="/storm-damage/wind/">Wind damage</a><a href="/storm-damage/insurance-claims/">Insurance documentation</a></nav>
     </div>
     <a class="rk-button rk-button-primary" href={href}>Explore storm damage<ServiceIcon name="arrow"/></a>
@@ -19,7 +20,7 @@ const href=localPath in editorial?localPath:'/storm-damage/';
   .rk-storm-callout{background:#f5efe3;border-block:1px solid #e5dccb;position:relative;}
   .rk-storm-callout-inner{max-width:1240px;margin:auto;padding:2rem 2rem;display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:1.4rem;align-items:center;}
   .rk-storm-callout-icon{display:grid;place-items:center;align-self:start;width:56px;height:60px;background:#242321;color:#ffb76f;clip-path:polygon(0 0,80% 0,100% 20%,100% 100%,20% 100%,0 80%);}
-  .rk-storm-callout h2{font-size:clamp(1.25rem,2.1vw,1.65rem);line-height:1.25;margin:.3rem 0 .5rem;}
+  .rk-storm-callout .rk-storm-callout-heading{font-size:clamp(1.25rem,2.1vw,1.65rem);line-height:1.25;margin:.3rem 0 .5rem;}
   .rk-storm-callout-copy>p:not(.rk-home-eyebrow){margin:0;max-width:65ch;font-size:1rem;line-height:1.6;}
   .rk-storm-callout .rk-home-eyebrow{margin:0;font-size:.75rem;}
   .rk-storm-callout nav{display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;margin-top:.65rem;font-size:.9rem;font-weight:650;}
