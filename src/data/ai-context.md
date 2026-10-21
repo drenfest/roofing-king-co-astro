@@ -49,8 +49,10 @@ service-overrides.json stores explicit client-directed revisions after the PDF t
 
 The homepage inspection heading uses roof and siding (client correction); the verified booking URL retains its existing Calendly event slug.
 
-Storm Damage is a primary navigation item with hail, wind, documentation and commercial children; retain these destinations when editing menus. The homepage lists storm damage second and mentions restoration in the hero.
+Storm Damage appears in Services directly below Commercial Roofing, with hail, wind, documentation and commercial children; retain these destinations when editing menus. The homepage lists storm damage second and mentions restoration in the hero.
 
 reviews-page.json contains the independent review profile destinations, topic mapping and three additional short BBB/Birdeye excerpts verified October 20, 2026. Existing featured-reviews.json remains the three-card sitewide selection. Keep exact excerpts, source provenance and dates; never infer stars or combine platform totals. No self-serving review/aggregate schema is generated.
 
 roofing-heroes.json maps 41 roofing-related routes to individual illustrative generated hero images. roofing-hero-media.json supplies responsive dimensions/srcsets via media.ts. These presentation maps override source hero imagery without rewriting service-editorial.json or its PDF content. Rebuild assets with scripts/optimize-roofing-heroes.mjs after generation; provenance/prompts live in migration/roofing-hero-images.json.
+
+Blog is a direct child of About, with its complete Categories and Topics branches. The redundant Blog leaf under Resources was consolidated into that branch; all previous destination URLs remain available.

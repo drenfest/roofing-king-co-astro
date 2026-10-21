@@ -98,6 +98,37 @@
           ]
         },
         {
+          "label": "Storm Damage",
+          "href": "/storm-damage/",
+          "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-item-has-children rk-menu-depth-1",
+          "children": [
+            {
+              "label": "Hail Damage",
+              "href": "/storm-damage/hail/",
+              "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-2",
+              "children": []
+            },
+            {
+              "label": "Wind Damage",
+              "href": "/storm-damage/wind/",
+              "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-2",
+              "children": []
+            },
+            {
+              "label": "Insurance Claims & Documentation",
+              "href": "/storm-damage/insurance-claims/",
+              "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-2",
+              "children": []
+            },
+            {
+              "label": "Commercial Storm Damage",
+              "href": "/storm-damage/commercial/",
+              "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-2",
+              "children": []
+            }
+          ]
+        },
+        {
           "label": "Decks",
           "href": "/decks/",
           "classes": "rk-menu-item rk-menu-depth-1 rk-menu-slug-decks rk-menu-item-has-children",
@@ -212,37 +243,6 @@
           "label": "Ice Dam Removal",
           "href": "/ice-dam-removal/",
           "classes": "rk-menu-item rk-menu-depth-1 rk-menu-slug-ice-dam-removal",
-          "children": []
-        }
-      ]
-    },
-    {
-      "label": "Storm Damage",
-      "href": "/storm-damage/",
-      "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-item-has-children",
-      "children": [
-        {
-          "label": "Hail Damage",
-          "href": "/storm-damage/hail/",
-          "classes": "rk-menu-item rk-menu-slug-storm-damage",
-          "children": []
-        },
-        {
-          "label": "Wind Damage",
-          "href": "/storm-damage/wind/",
-          "classes": "rk-menu-item rk-menu-slug-storm-damage",
-          "children": []
-        },
-        {
-          "label": "Insurance Claims & Documentation",
-          "href": "/storm-damage/insurance-claims/",
-          "classes": "rk-menu-item rk-menu-slug-storm-damage",
-          "children": []
-        },
-        {
-          "label": "Commercial Storm Damage",
-          "href": "/storm-damage/commercial/",
-          "classes": "rk-menu-item rk-menu-slug-storm-damage",
           "children": []
         }
       ]
@@ -566,141 +566,6 @@
       "children": []
     },
     {
-      "label": "Blog",
-      "href": "/blog/",
-      "classes": "rk-menu-panel-blog rk-menu-item rk-menu-depth-0 rk-menu-slug-blog rk-menu-item-mega rk-menu-top-blog rk-menu-item-has-children",
-      "children": [
-        {
-          "label": "Categories",
-          "href": "/blog/",
-          "classes": "rk-menu-column-categories rk-menu-item rk-menu-depth-1 rk-menu-slug-categories rk-menu-item-has-children",
-          "children": [
-            {
-              "label": "Roofing",
-              "href": "/category/roofing/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-roofing",
-              "children": []
-            },
-            {
-              "label": "Roof Replacement",
-              "href": "/category/roof-replacement/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-roof-replacement",
-              "children": []
-            },
-            {
-              "label": "Storm Damage",
-              "href": "/category/storm-damage/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-storm-damage",
-              "children": []
-            },
-            {
-              "label": "Seasonal",
-              "href": "/category/seasonal/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-seasonal",
-              "children": []
-            },
-            {
-              "label": "Roof Repair",
-              "href": "/category/roof-repair/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-roof-repair",
-              "children": []
-            },
-            {
-              "label": "Gutters",
-              "href": "/category/gutters/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gutters",
-              "children": []
-            },
-            {
-              "label": "Siding",
-              "href": "/category/siding/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-siding",
-              "children": []
-            },
-            {
-              "label": "GAF Roofing",
-              "href": "/category/gaf-roofing/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gaf-roofing",
-              "children": []
-            },
-            {
-              "label": "Ice Dam Removal",
-              "href": "/category/ice-dam-removal/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-ice-dam-removal",
-              "children": []
-            }
-          ]
-        },
-        {
-          "label": "Topics",
-          "href": "/blog/",
-          "classes": "rk-menu-column-topics rk-menu-item rk-menu-depth-1 rk-menu-slug-topics rk-menu-item-has-children",
-          "children": [
-            {
-              "label": "Columbus, OH",
-              "href": "/tag/columbus-oh/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-columbus-oh",
-              "children": []
-            },
-            {
-              "label": "Dublin, OH",
-              "href": "/tag/dublin-oh/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-dublin-oh",
-              "children": []
-            },
-            {
-              "label": "Roof Inspection",
-              "href": "/tag/roof-inspection/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-roof-inspection",
-              "children": []
-            },
-            {
-              "label": "Hiring Tips",
-              "href": "/tag/hiring-tips/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-hiring-tips",
-              "children": []
-            },
-            {
-              "label": "Winter Roofing",
-              "href": "/tag/winter-roofing/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-winter-roofing",
-              "children": []
-            },
-            {
-              "label": "GAF Shingles",
-              "href": "/tag/gaf-shingles/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-gaf-shingles",
-              "children": []
-            },
-            {
-              "label": "Wind Damage",
-              "href": "/tag/wind-damage/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-wind-damage",
-              "children": []
-            },
-            {
-              "label": "Cost Guides",
-              "href": "/tag/cost-guides/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-cost-guides",
-              "children": []
-            },
-            {
-              "label": "Hail Damage",
-              "href": "/tag/hail-damage/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-hail-damage",
-              "children": []
-            },
-            {
-              "label": "Christmas Lights",
-              "href": "/tag/christmas-lights/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-christmas-lights",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "label": "About",
       "href": "/about-us/",
       "classes": "rk-menu-panel-about rk-menu-item rk-menu-depth-0 rk-menu-slug-about rk-menu-item-mega rk-menu-top-about rk-menu-item-has-children",
@@ -733,6 +598,141 @@
               "href": "/customer-service/",
               "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-customer-service",
               "children": []
+            }
+          ]
+        },
+        {
+          "label": "Blog",
+          "href": "/blog/",
+          "classes": "rk-menu-item rk-menu-slug-blog rk-menu-item-has-children rk-menu-depth-1",
+          "children": [
+            {
+              "label": "Categories",
+              "href": "/blog/",
+              "classes": "rk-menu-column-categories rk-menu-item rk-menu-slug-categories rk-menu-item-has-children rk-menu-depth-2",
+              "children": [
+                {
+                  "label": "Roofing",
+                  "href": "/category/roofing/",
+                  "classes": "rk-menu-item rk-menu-slug-roofing rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Roof Replacement",
+                  "href": "/category/roof-replacement/",
+                  "classes": "rk-menu-item rk-menu-slug-roof-replacement rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Storm Damage",
+                  "href": "/category/storm-damage/",
+                  "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Seasonal",
+                  "href": "/category/seasonal/",
+                  "classes": "rk-menu-item rk-menu-slug-seasonal rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Roof Repair",
+                  "href": "/category/roof-repair/",
+                  "classes": "rk-menu-item rk-menu-slug-roof-repair rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Gutters",
+                  "href": "/category/gutters/",
+                  "classes": "rk-menu-item rk-menu-slug-gutters rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Siding",
+                  "href": "/category/siding/",
+                  "classes": "rk-menu-item rk-menu-slug-siding rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "GAF Roofing",
+                  "href": "/category/gaf-roofing/",
+                  "classes": "rk-menu-item rk-menu-slug-gaf-roofing rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Ice Dam Removal",
+                  "href": "/category/ice-dam-removal/",
+                  "classes": "rk-menu-item rk-menu-slug-ice-dam-removal rk-menu-depth-3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "Topics",
+              "href": "/blog/",
+              "classes": "rk-menu-column-topics rk-menu-item rk-menu-slug-topics rk-menu-item-has-children rk-menu-depth-2",
+              "children": [
+                {
+                  "label": "Columbus, OH",
+                  "href": "/tag/columbus-oh/",
+                  "classes": "rk-menu-item rk-menu-slug-columbus-oh rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Dublin, OH",
+                  "href": "/tag/dublin-oh/",
+                  "classes": "rk-menu-item rk-menu-slug-dublin-oh rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Roof Inspection",
+                  "href": "/tag/roof-inspection/",
+                  "classes": "rk-menu-item rk-menu-slug-roof-inspection rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Hiring Tips",
+                  "href": "/tag/hiring-tips/",
+                  "classes": "rk-menu-item rk-menu-slug-hiring-tips rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Winter Roofing",
+                  "href": "/tag/winter-roofing/",
+                  "classes": "rk-menu-item rk-menu-slug-winter-roofing rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "GAF Shingles",
+                  "href": "/tag/gaf-shingles/",
+                  "classes": "rk-menu-item rk-menu-slug-gaf-shingles rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Wind Damage",
+                  "href": "/tag/wind-damage/",
+                  "classes": "rk-menu-item rk-menu-slug-wind-damage rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Cost Guides",
+                  "href": "/tag/cost-guides/",
+                  "classes": "rk-menu-item rk-menu-slug-cost-guides rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Hail Damage",
+                  "href": "/tag/hail-damage/",
+                  "classes": "rk-menu-item rk-menu-slug-hail-damage rk-menu-depth-3",
+                  "children": []
+                },
+                {
+                  "label": "Christmas Lights",
+                  "href": "/tag/christmas-lights/",
+                  "classes": "rk-menu-item rk-menu-slug-christmas-lights rk-menu-depth-3",
+                  "children": []
+                }
+              ]
             }
           ]
         },
@@ -807,12 +807,6 @@
               "label": "FAQ",
               "href": "/faq/",
               "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-faq",
-              "children": []
-            },
-            {
-              "label": "Blog",
-              "href": "/blog/",
-              "classes": "rk-menu-item rk-menu-depth-2 rk-menu-slug-blog",
               "children": []
             }
           ]
