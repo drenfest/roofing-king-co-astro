@@ -1,27 +1,31 @@
 /* WordPress visual design, scoped to native base components. */
 :root {
-  --rk-ink: #142019;
-  --rk-muted: #56645f;
-  --rk-line: #d8ded5;
-  --rk-surface: #f8f6ef;
-  --rk-soft: #eef2ed;
-  --rk-teal: #31493c;
-  --rk-steel: #7a9e9f;
+  --rk-charcoal: #242321;
+  --rk-charcoal-soft: #34312d;
+  --rk-paper: #f8f5ee;
+  --rk-paper-soft: #f0ebe2;
+  --rk-ink: var(--rk-charcoal);
+  --rk-muted: #625e57;
+  --rk-line: #ded7cb;
+  --rk-surface: var(--rk-paper);
+  --rk-soft: var(--rk-paper-soft);
+  --rk-teal: var(--rk-charcoal-soft);
+  --rk-steel: #9a9287;
   --rk-orange: #fe6600;
   --rk-primary-cta: #fe6600;
-  --rk-secondary-cta: #31493c;
+  --rk-secondary-cta: var(--rk-charcoal);
   --rk-green-cta: #fe6600;
-  --rk-gold: #c85a16;
+  --rk-gold: #b94a00;
   --rk-gold-bright: #ffb15d;
-  --rk-royal: #213a30;
-  --rk-royal-deep: #0f1b15;
-  --rk-blue-deep: #235664;
-  --rk-blue-dark: #173c46;
-  --rk-blue-soft: #e8f0f1;
-  --rk-blue-gradient: linear-gradient(135deg, #173c46 0%, #3f7682 48%, #7a9e9f 100%);
-  --rk-ivory: #fffaf0;
-  --rk-green: #31493c;
-  --rk-blue: #7a9e9f;
+  --rk-royal: var(--rk-charcoal-soft);
+  --rk-royal-deep: #1c1b19;
+  --rk-blue-deep: var(--rk-charcoal-soft);
+  --rk-blue-dark: var(--rk-charcoal);
+  --rk-blue-soft: var(--rk-paper-soft);
+  --rk-blue-gradient: linear-gradient(135deg, #242321 0%, #3b3833 60%, #625e57 100%);
+  --rk-ivory: var(--rk-paper);
+  --rk-green: var(--rk-charcoal-soft);
+  --rk-blue: #9a9287;
   --rk-radius: 8px;
   --rk-radius-lg: 18px;
   --rk-radius-panel: 18px 4px 18px 4px;
@@ -31,8 +35,8 @@
   --rk-crown-gradient: linear-gradient(135deg, #742c0b 0%, #fe6600 30%, var(--rk-gold-bright) 52%, #c94f0d 74%, #7f3511 100%);
   --rk-font-body: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --rk-font-display: "Playfair Display", Georgia, "Times New Roman", serif;
-  --rk-shadow: 0 22px 60px rgb(16 27 21 / 18%);
-  --rk-royal-shadow: 0 28px 76px rgb(9 18 14 / 26%);
+  --rk-shadow: 0 22px 60px rgb(36 35 33 / 18%);
+  --rk-royal-shadow: 0 28px 76px rgb(36 35 33 / 26%);
   --rk-max: 1180px;
   color-scheme: light;
 }
@@ -101,7 +105,7 @@ h6,
   font-size: 0.92rem;
   font-weight: 750;
   text-align: center;
-  box-shadow: inset 0 -1px 0 rgb(122 158 159 / 36%);
+  box-shadow: inset 0 -1px 0 rgb(130 123 113 / 36%);
 }
 
 .rk-site-header {
@@ -113,8 +117,8 @@ h6,
   border-bottom: 0;
   backdrop-filter: blur(12px);
   box-shadow:
-    inset 0 -1px 0 rgb(122 158 159 / 46%),
-    0 16px 36px rgb(16 27 21 / 12%);
+    inset 0 -1px 0 rgb(130 123 113 / 46%),
+    0 16px 36px rgb(36 35 33 / 12%);
 }
 
 .rk-header-inner,
@@ -185,7 +189,7 @@ h6,
 .rk-menu-link:hover,
 .rk-menu-link:focus-visible {
   color: var(--rk-royal-deep);
-  background: linear-gradient(135deg, rgb(255 177 93 / 16%), rgb(49 73 60 / 8%));
+  background: linear-gradient(135deg, rgb(255 177 93 / 16%), rgb(52 49 45 / 8%));
   box-shadow: inset 0 -2px 0 var(--rk-gold);
 }
 
@@ -231,10 +235,10 @@ h6,
   padding: 1.15rem;
   overflow: auto;
   background:
-    linear-gradient(118deg, rgb(15 27 21 / 7%) 0 18%, transparent 18% 100%),
+    linear-gradient(118deg, rgb(36 35 33 / 7%) 0 18%, transparent 18% 100%),
     linear-gradient(135deg, rgb(255 250 240 / 98%), rgb(255 255 255 / 98%)),
     #fff;
-  border: 1px solid rgb(49 73 60 / 18%);
+  border: 1px solid rgb(52 49 45 / 18%);
   border-top: 2px solid var(--rk-orange);
   border-radius: 0;
   box-shadow: var(--rk-royal-shadow);
@@ -262,7 +266,7 @@ h6,
   z-index: 0;
   background:
     linear-gradient(122deg, transparent 0 63%, rgb(254 102 0 / 10%) 63% 63.55%, transparent 63.55% 100%),
-    linear-gradient(122deg, transparent 0 72%, rgb(49 73 60 / 9%) 72% 72.45%, transparent 72.45% 100%);
+    linear-gradient(122deg, transparent 0 72%, rgb(52 49 45 / 9%) 72% 72.45%, transparent 72.45% 100%);
   content: "";
   pointer-events: none;
 }
@@ -284,7 +288,7 @@ h6,
   width: 100%;
   min-height: 0;
   padding: 0.54rem 0.58rem;
-  color: #283831;
+  color: #242321;
   font-size: 0.88rem;
   line-height: 1.22;
   white-space: normal;
@@ -388,7 +392,7 @@ h6,
   clip-path: var(--rk-cut-corner);
   box-shadow:
     inset 0 -3px 0 rgb(0 0 0 / 16%),
-    0 12px 24px rgb(16 27 21 / 16%);
+    0 12px 24px rgb(36 35 33 / 16%);
   transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
 
@@ -396,7 +400,7 @@ h6,
   transform: translateY(-1px);
   box-shadow:
     inset 0 -3px 0 rgb(0 0 0 / 18%),
-    0 18px 30px rgb(16 27 21 / 20%);
+    0 18px 30px rgb(36 35 33 / 20%);
 }
 
 .rk-button-primary {
@@ -414,7 +418,7 @@ h6,
 .rk-button-ghost {
   color: #fff;
   border-color: rgb(255 177 93 / 54%);
-  background: rgb(15 27 21 / 44%);
+  background: rgb(36 35 33 / 44%);
   box-shadow:
     inset 0 -3px 0 rgb(0 0 0 / 18%),
     0 12px 28px rgb(0 0 0 / 22%);
@@ -499,9 +503,9 @@ h6,
 .rk-button-secondary {
   color: #fff;
   background:
-    linear-gradient(135deg, #31493c, #173c46 74%),
+    linear-gradient(135deg, #34312d, #242321 74%),
     var(--rk-secondary-cta);
-  border-color: rgb(122 158 159 / 46%);
+  border-color: rgb(130 123 113 / 46%);
 }
 
 .rk-page-service-cta .rk-button {
@@ -658,7 +662,7 @@ body.rk-modal-open {
 }
 
 .rk-google-mark {
-  color: #4b5563;
+  color: #5b5751;
   font-size: 1.6rem;
   font-weight: 900;
   line-height: 1;
@@ -773,12 +777,12 @@ body.rk-modal-open {
 .rk-home-services .rk-button-primary,
 .rk-home-blogs .rk-button-primary {
   background: var(--rk-blue-gradient);
-  border-color: rgb(122 158 159 / 48%);
+  border-color: rgb(130 123 113 / 48%);
 }
 
 .rk-home-services .rk-button-primary:hover,
 .rk-home-blogs .rk-button-primary:hover {
-  background: linear-gradient(135deg, #245d6c, #7a9e9f);
+  background: linear-gradient(135deg, #5b5751, #827b71);
 }
 
 .rk-home-gallery .rk-button-primary {
@@ -811,10 +815,10 @@ body.rk-modal-open {
 .rk-coverage-map-block .rk-button-outline {
   color: var(--rk-royal-deep);
   background: #fff;
-  border-color: rgb(49 73 60 / 15%);
+  border-color: rgb(52 49 45 / 15%);
   box-shadow:
-    inset 0 -3px 0 rgb(49 73 60 / 14%),
-    0 14px 28px rgb(16 27 21 / 10%);
+    inset 0 -3px 0 rgb(52 49 45 / 14%),
+    0 14px 28px rgb(36 35 33 / 10%);
 }
 
 .rk-home-reviews .rk-section-inner {
@@ -829,7 +833,7 @@ body.rk-modal-open {
   margin-bottom: 1.2rem;
   padding: 0.45rem 0.65rem 0.38rem;
   color: var(--rk-gold-bright);
-  background: linear-gradient(135deg, var(--rk-blue-dark), #235664);
+  background: linear-gradient(135deg, var(--rk-blue-dark), #34312d);
   border: 1px solid rgb(255 177 93 / 22%);
   border-radius: var(--rk-radius-control);
   clip-path: var(--rk-cut-corner);
@@ -845,7 +849,7 @@ body.rk-modal-open {
 }
 
 .rk-home-reviews .rk-button-primary:hover {
-  background: linear-gradient(135deg, #182a22, #31493c);
+  background: linear-gradient(135deg, #242321, #34312d);
 }
 
 .rk-home-final-cta .rk-quote-strip-inner {
@@ -854,7 +858,7 @@ body.rk-modal-open {
 
 .rk-footer {
   background:
-    linear-gradient(135deg, var(--rk-royal-deep), #111612 72%);
+    linear-gradient(135deg, var(--rk-royal-deep), #242321 72%);
   color: #fff;
   border-top: 5px solid var(--rk-gold);
 }
@@ -877,7 +881,7 @@ body.rk-modal-open {
 
 .rk-footer-heading {
   margin: 1rem 0 0.55rem;
-  color: var(--rk-gold);
+  color: var(--rk-gold-bright);
   font-weight: 900;
 }
 
@@ -1000,7 +1004,7 @@ body.rk-modal-open {
     background:
       linear-gradient(150deg, rgb(255 255 255 / 98%), rgb(248 246 239 / 98%)),
       #fff;
-    border-left: 1px solid rgb(49 73 60 / 18%);
+    border-left: 1px solid rgb(52 49 45 / 18%);
     box-shadow: var(--rk-shadow);
     opacity: 0;
     visibility: hidden;
@@ -1029,9 +1033,9 @@ body.rk-modal-open {
     min-height: 48px;
     padding: 0.82rem 0.88rem;
     background: #fff;
-    border: 1px solid rgb(49 73 60 / 13%);
+    border: 1px solid rgb(52 49 45 / 13%);
     border-radius: var(--rk-radius-control);
-    box-shadow: 0 10px 22px rgb(16 27 21 / 7%);
+    box-shadow: 0 10px 22px rgb(36 35 33 / 7%);
     font-size: 0.95rem;
     white-space: normal;
   }
@@ -1044,7 +1048,7 @@ body.rk-modal-open {
     margin: 0;
     color: #fff;
     background: linear-gradient(135deg, var(--rk-blue-dark), var(--rk-teal));
-    border: 1px solid rgb(122 158 159 / 34%);
+    border: 1px solid rgb(130 123 113 / 34%);
     box-shadow: inset 0 -2px rgb(0 0 0 / 22%);
     clip-path: var(--rk-cut-corner);
   }
@@ -1112,7 +1116,7 @@ body.rk-modal-open {
     gap: 0.75rem;
     padding-top: 1rem;
     margin-top: 1rem;
-    border-top: 1px solid rgb(49 73 60 / 14%);
+    border-top: 1px solid rgb(52 49 45 / 14%);
   }
 
   .rk-mobile-nav-phone {
@@ -1169,4 +1173,18 @@ body.rk-modal-open {
   .rk-page-final-cta .rk-page-action-row .rk-button {
     width: auto;
   }
+}
+
+/* Consistent orange actions with readable charcoal labels across native and retained pages. */
+html body a.rk-button.rk-button-primary,
+html body button.rk-button.rk-button-primary {
+  background: var(--rk-orange);
+  color: var(--rk-charcoal);
+  border-color: var(--rk-orange);
+  text-shadow: none;
+}
+html body a.rk-button.rk-button-primary:hover,
+html body button.rk-button.rk-button-primary:hover {
+  background: #ff812e;
+  color: var(--rk-charcoal);
 }

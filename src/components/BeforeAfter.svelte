@@ -21,7 +21,7 @@
   .rk-before-after-divider {
     width:2px;
     background:#fff;
-    box-shadow:0 0 0 1px #183c2a26,0 0 15px #102b2433;
+    box-shadow:0 0 0 1px #24232126,0 0 15px #24232133;
   }
   .rk-before-after-handle {
     display:grid;
@@ -33,14 +33,14 @@
     border-radius:50%;
     color:#bd5006;
     background:#fff;
-    box-shadow:0 0 0 5px #ffffff2e,0 4px 16px #102a2340;
+    box-shadow:0 0 0 5px #ffffff2e,0 4px 16px #24232140;
     transition:box-shadow .18s ease,transform .18s ease;
   }
   .rk-before-after-handle::before,.rk-before-after-handle::after { content:none; }
   .rk-before-after-handle svg { display:block;width:38px;height:24px; }
-  .rk-comparison-grip { stroke:#b6c2b6;stroke-width:1.5; }
+  .rk-comparison-grip { stroke:#afa69a;stroke-width:1.5; }
   .rk-home-comparison:hover .rk-before-after-handle {
-    box-shadow:0 0 0 7px #ffffff38,0 5px 20px #102a2352;
+    box-shadow:0 0 0 7px #ffffff38,0 5px 20px #24232152;
     transform:translate(-50%,-50%) scale(1.04);
   }
   .rk-home-comparison:has(.rk-before-after-range:focus-visible) .rk-before-after-handle {

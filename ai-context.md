@@ -61,3 +61,5 @@ Roofing heroes now have a separate presentation map and optimized responsive ass
 The site typography is Playfair Display for headings and Inter for body copy, navigation and controls, selected by the client. Keep the shared tokens and both document-shell font requests in sync.
 
 The latest client hero reference supersedes the earlier forest overlay: shared homepage/service heroes use warm ivory fading into photography, dark sentence-case Playfair headings and inline inspection actions. Existing service copy, imagery and URLs remain intact.
+
+The client-selected site palette is ivory, charcoal and orange. Green/teal brand surfaces are replaced in both shared styles and component-local styles. Base and compatibility shells expose --rk-charcoal, --rk-charcoal-soft, --rk-paper and --rk-paper-soft; older green/blue/royal token names remain compatibility aliases to this neutral palette. Preserve authentic manufacturer/review logos, product photos and semantic performance badge colors. Retain existing diagonal layouts, typography and interaction states.

@@ -11,5 +11,5 @@
 .rk-review-dashboard { max-width: 1180px; margin: 2rem auto; padding: 1.5rem; }
 .rk-review-dashboard input { width: 100%; padding: .8rem; margin-bottom: 1rem; font: inherit; }
 .rk-review-dashboard table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-.rk-review-dashboard td, .rk-review-dashboard th { padding: .7rem; border-bottom: 1px solid #d8ded5; text-align: left; overflow-wrap: anywhere; }
+.rk-review-dashboard td, .rk-review-dashboard th { padding: .7rem; border-bottom: 1px solid #d9d1c4; text-align: left; overflow-wrap: anywhere; }
 .rk-review-table { overflow-x: auto; }

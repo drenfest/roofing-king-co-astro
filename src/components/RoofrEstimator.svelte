@@ -20,9 +20,9 @@
 </section>
 
 <style>
-  .roofr-estimator { width: min(100% - 2rem, 1000px); margin: 3rem auto; padding: clamp(1rem, 3vw, 2rem); background: #fffaf0; border: 1px solid #d8ded5; border-top: 4px solid #fe6600; border-radius: 18px 4px 18px 4px; }
-  h2 { margin-top: 0; color: #142019; font-size: clamp(1.6rem, 4vw, 2.4rem); line-height: 1.15; }
-  p { color: #31493c; }
+  .roofr-estimator { width: min(100% - 2rem, 1000px); margin: 3rem auto; padding: clamp(1rem, 3vw, 2rem); background: #fffaf0; border: 1px solid #d9d1c4; border-top: 4px solid #fe6600; border-radius: 18px 4px 18px 4px; }
+  h2 { margin-top: 0; color: #242321; font-size: clamp(1.6rem, 4vw, 2.4rem); line-height: 1.15; }
+  p { color: #34312d; }
   iframe { display: block; width: 100%; height: min(80dvh, 850px); min-height: 600px; margin-top: 1.5rem; border: 0; background: white; }
   button:disabled { opacity: .6; }
   button:focus-visible, a:focus-visible { outline: 3px solid #b44500; outline-offset: 4px; }
