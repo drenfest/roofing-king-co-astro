@@ -3,13 +3,14 @@ import type {ServicePathsData} from '../data/section-types';
 import RichContent from './RichContent.astro';
 import HomeImage from './HomeImage.astro';
 import ServiceIcon from './ServiceIcon.astro';
+import IceDamDiagram from './IceDamDiagram.astro';
 interface Props {section:ServicePathsData;}
 const {section}=Astro.props;
 const id=section.id || 'service-topics';
 ---
 <section id={id} class:list={['rk-landing-section','rk-service-article',{'rk-service-benefits':section.variant==='benefits'}]} data-component="ServiceArticle" aria-labelledby={`${id}-title`}>
-  <div class:list={['rk-section-inner',{'rk-copy-opening-grid':!!section.image}]}>
-    {section.image&&<figure class="rk-copy-opening-media"><HomeImage {...section.image}/>{section.caption&&<figcaption>{section.caption}</figcaption>}</figure>}
+  <div class:list={['rk-section-inner',{'rk-copy-opening-grid':!!(section.image||section.illustration)}]}>
+    {(section.image||section.illustration)&&<figure class="rk-copy-opening-media">{section.illustration==='ice-dam'?<IceDamDiagram/>:section.image&&<HomeImage {...section.image}/>}{section.caption&&<figcaption>{section.caption}</figcaption>}</figure>}
     <div><div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id={`${id}-title`}>{section.title}</h2>{section.intro?.length?<RichContent nodes={section.intro}/>:section.description&&<p>{section.description}</p>}</div>
     <div class="rk-service-article-rows">{section.items.map(item=><article id={item.id} class="rk-service-article-row" aria-labelledby={(section.items.length>1||item.title!==section.title)?`${item.id}-heading`:`${id}-title`}>
       {section.variant==='benefits'&&<span class="rk-service-benefit-icon"><ServiceIcon name={item.icon==='shield'?'shield':item.icon==='cost'?'cost':item.icon==='check'?'check':'roof'}/></span>}

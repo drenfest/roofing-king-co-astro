@@ -1,0 +1,50 @@
+<div class="ice-dam-diagram">
+  <svg viewBox="0 0 600 550" role="img" aria-labelledby="ice-dam-diagram-title ice-dam-diagram-desc">
+    <title id="ice-dam-diagram-title">How an ice dam traps water at the roof edge</title>
+    <desc id="ice-dam-diagram-desc">A cutaway roof shows snow melting above a warm attic. Meltwater runs downhill toward the colder overhang, where an ice ridge blocks drainage. Water pools behind the ridge. A dashed blue line shows a possible route beneath the shingles and into the exterior wall. The roof is shown without sagging.</desc>
+    <defs>
+      <marker id="ice-water-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#24718b"/></marker>
+      <marker id="ice-heat-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#e76619"/></marker>
+    </defs>
+    <rect width="600" height="550" rx="18" fill="#f2ede3"/>
+    <text x="30" y="39" class="diagram-kicker">ICE DAM · ROOF CROSS-SECTION</text>
+    <!-- Exposed structure and living-space wall, not an installation detail. -->
+    <path d="M110 340 550 142 550 420 230 420 230 340Z" fill="#e3d7c4"/>
+    <path d="M230 340V490H270V358L550 232V202Z" fill="#c9ad86"/>
+    <path d="M270 420H550V490H270Z" fill="#fffaf1"/>
+    <path d="M270 420H550" stroke="#a28e74" stroke-width="12"/>
+    <path d="M116 331 554 134 558 150 120 347Z" fill="#c5a279"/>
+    <path d="M110 321 550 123 554 136 116 334Z" fill="#333330"/>
+    <path d="m292 239 46-21m28-13 46-21m28-13 46-21m28-13 35-16" stroke="#8b8981" stroke-width="2"/>
+    <!-- Snow remains upslope; the cold eave freezes the runoff. -->
+    <path d="M282 225 550 105V70L282 189Z" fill="#fff" stroke="#d7e2e5" stroke-width="2"/>
+    <path d="m287 223 263-118" stroke="#b6dce7" stroke-width="6"/>
+    <path d="M153 302 186 270 210 273 225 284 247 263 288 245 288 249Z" fill="#b1d9e5" stroke="#5595ab" stroke-width="2"/>
+    <path d="m225 284 60-27 2-12-40 18Z" fill="#438eac"/>
+    <path d="m427 169-91 41" fill="none" stroke="#24718b" stroke-width="3" marker-end="url(#ice-water-arrow)"/>
+    <path d="m271 268 53-15-13 25-62 29 2 137" fill="none" stroke="#24718b" stroke-width="4" stroke-dasharray="6 7" marker-end="url(#ice-water-arrow)"/>
+    <path d="M330 378V323m85 30v-55" fill="none" stroke="#e76619" stroke-width="3" marker-end="url(#ice-heat-arrow)"/>
+    <!-- Short callouts remain readable on a phone. -->
+    <g class="diagram-label">
+      <text x="30" y="92">Snow melts on</text><text x="30" y="113">the warmer roof</text>
+      <path d="M175 107H211L323 184" class="leader"/>
+      <text x="30" y="190">Meltwater pools</text><text x="30" y="211">behind the ice</text>
+      <path d="M173 207 250 267" class="leader"/>
+      <text x="30" y="390">Ice ridge at the</text><text x="30" y="411">colder roof edge</text>
+      <path d="M143 369 185 297" class="leader"/>
+      <text x="315" y="459" fill="#24718b">Possible leak path</text><text x="315" y="481" fill="#24718b">into the roof or wall</text>
+      <path d="M304 462 259 437" class="leader"/>
+    </g>
+    <text x="330" y="402" class="diagram-small">Heat from inside</text>
+    <text x="30" y="527" class="diagram-small">Conceptual illustration · not to scale</text>
+  </svg>
+</div>
+
+<style>
+  .ice-dam-diagram svg{display:block;width:100%;height:auto;}
+  .ice-dam-diagram text{font-family:Inter,Arial,sans-serif;fill:#292926;}
+  .diagram-kicker{font-size:13px;letter-spacing:1.3px;font-weight:700;}
+  .diagram-label{font-size:18px;font-weight:600;}
+  .diagram-small{font-size:14px;fill:#655e54;}
+  .leader{fill:none;stroke:#8d877c;stroke-width:1.5;}
+</style>

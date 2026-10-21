@@ -1,0 +1,54 @@
+{
+  "mode": "built-in image generation",
+  "images": [
+    {
+      "id": "material-samples",
+      "prompt": "Use case: photorealistic-natural. Asset type: educational material comparison photo for a high-end siding contractor website. Landscape 3:2 product photography of THREE GENERIC UNBRANDED siding sample boards side by side on warm ivory tabletop, carefully organized with clear spacing. Left: pale cool gray hollow extruded VINYL LAP SIDING cross section visible at the lower cut edge, a thin formed plastic profile with folded return, realistic subtle molded grain. Center: warm taupe ENGINEERED WOOD LAP SIDING board with painted cedar grain front and exposed compressed wood-strand cut edge. Right: off-white FIBER CEMENT LAP SIDING plank with smooth painted face and dense gray fine cement cross section visible. Three distinct materials, each a single horizontal sample board 30cm wide, slightly angled to reveal face and cut edge. Soft natural studio daylight, credible physical textures, highly realistic editorial macro detail, neutral quiet palette. No logos, no labels, no text, no letters, no arrows, no people, no claims of exact named manufacturer products. Show all three boards clearly, no installed house, no tools. This is an illustrative comparison still life, not a technical dimensioned installation drawing.",
+      "editPrompt": "Edit only the LEFT vinyl siding sample in this material comparison photograph. It is currently incorrectly rendered as a thick multi-cell hollow plank. Replace it with authentic thin single-skin formed PVC horizontal lap siding, approximately 1 mm wall thickness, open-backed folded profile, one lap projection and a curled hem at the lower edge. NO internal ribs, NO closed rectangular hollow chambers, NO thick extrusion. A thin sheet with an open folded lap profile, exactly like common residential vinyl siding. Keep its pale cool gray color and subtle molded grain. Keep the center engineered wood board and right fiber cement board, tabletop, camera perspective and studio lighting unchanged. No text, logos, arrows or people. Photorealistic material sample photo. The open-backed thin vinyl profile must be visibly different from the two thick solid board samples.",
+      "original": "output/imagegen/siding-guide/material-samples.png",
+      "variants": [
+        {
+          "path": "public/media/siding-guide/material-samples-480.webp",
+          "bytes": 8790
+        },
+        {
+          "path": "public/media/siding-guide/material-samples-800.webp",
+          "bytes": 22974
+        },
+        {
+          "path": "public/media/siding-guide/material-samples-1200.webp",
+          "bytes": 47346
+        }
+      ]
+    },
+    {
+      "id": "window-trim",
+      "prompt": "Use case: photorealistic-natural. Asset type: siding architectural detail photograph for an educational contractor website section. Landscape 3:2 close-up professionally finished exterior siding around the upper corner of a white-trimmed house window. Matte warm gray painted horizontal lap siding with realistic subtle cedar grain, crisp white painted substantial flat window casing, simple projecting metal head flashing visible as a thin crisp dark top edge above the head trim with drip lip, natural tiny realistic clearances, believable properly aligned courses. Include the window upper-right corner and enough wall to see board exposure, shadows and trim proportions. Soft cloudy daylight, tiny residual rain droplets on glass, extremely realistic architectural material photography, warm neutral ivory-charcoal tones. The purpose is to show appearance of trim and siding transitions, not a construction cutaway. Generic material with no named product identity. No labels, no words, no logos, no people, no tools, no houses in distance, no absurd gaps, no exaggerated mold or damage, no arrows, no diagrams. Not a specific real customer job.",
+      "original": "output/imagegen/siding-guide/window-trim.png",
+      "variants": [
+        {
+          "path": "public/media/siding-guide/window-trim-480.webp",
+          "bytes": 12874
+        },
+        {
+          "path": "public/media/siding-guide/window-trim-800.webp",
+          "bytes": 33034
+        },
+        {
+          "path": "public/media/siding-guide/window-trim-1200.webp",
+          "bytes": 65788
+        }
+      ]
+    }
+  ],
+  "variants": "public/media/siding-guide/<id>-480.webp, <id>-800.webp, <id>-1200.webp",
+  "limits": "Illustrative generic materials and architectural detail; not exact manufacturer profiles or customer projects.",
+  "technicalReferences": [
+    "https://vinylsiding.org/wp-content/uploads/2020/06/2020-VSI-Installation-Manual.pdf",
+    "https://basc.pnnl.gov/resource-guides/drainage-plane-behind-exterior-wall-cladding",
+    "https://basc.pnnl.gov/resource-guides/windows-and-doors-are-fully-flashed",
+    "https://lpcorp.com/resources/product-literature/installation-instructions/lp-smartside-care-maintenance-instructions",
+    "https://www.lpcorp.com/project-resources/blog/7-tips-for-care-maintenance-of-lp-smartside-siding",
+    "https://www.jameshardie.com/faq/"
+  ]
+}

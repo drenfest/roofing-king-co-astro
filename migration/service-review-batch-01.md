@@ -6,6 +6,21 @@ This batch replaces generic headings with service-specific topics, groups relate
 
 Each page was checked at 320, 390, 820 and 1440px. Parent pages retain child-service tabs; leaf pages use visible topic content. Photo additions below are opportunities for the next review, not claims that new project photos were supplied.
 
+## Photo pass for every ten-page review
+
+The client added section photography to the review cycle. Complete it page by page within each ten-page batch; do not roll it out across unreviewed pages in advance.
+
+The first example is [Installing gutters on a sound roof edge](http://127.0.0.1:4321/gutters/#service-copy-46-3). It has three supporting images opposite the existing copy: the gutter run/outlet, fascia/soffit attachment detail and downspout discharge. Desktop uses a three-photo column; phones use one wide image above two supporting images. Copy is unchanged.
+
+For each reviewed page:
+
+- Inventory all uses of the media-section component on that page.
+- Select three distinct, relevant images for each section, with useful alt text and truthful captions. Do not apply a generic topic/image set to every page.
+- Optimize responsive WebP versions, preserve dimensions and lazy loading, and check desktop/mobile crops and layout.
+- Run the full verification and record image checks alongside the heading/copy review.
+
+The inventory in `service-section-photo-review.json` distinguishes 133 source media candidates from the 121 currently rendered media sections on 82 pages. One example is ready for review; the other 120 rendered sections remain pending. The related MediaContentRow component has no current rendered uses. The other pages in this completed copy batch still need the new photo pass.
+
 ## Siding Replacement Costs in Cincinnati, OH
 
 [Review page](https://wordpress-1269393-6519803.cloudwaysapps.com/cincinnati-oh/the-cost-of-siding-replacement/)

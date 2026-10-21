@@ -54,3 +54,13 @@ service-hero-images.json records the complete 43-route supplementary hero plan, 
 
 
 navigation-extra-images.json records the complete built-in generation prompts and project-local originals for the winter, seasonal-lighting and composite-decking menu concepts. navigation-images.json contains the provenance and uniqueness fingerprint for every actual destination; navigation-atlas.json describes the single downloaded sprite.
+
+storm-banner-image.json records the decorative storm banner generation prompt, project original and optimized WebP byte counts. The imagery is atmospheric illustration, not customer project or actual storm evidence.
+
+siding-guide-images.json records the built-in generation prompts, targeted vinyl-profile correction, project originals and optimized variants used by SidingProductGuide. It also lists the primary technical references; artwork is illustrative, not named manufacturer samples or actual client projects.
+
+gutter-detail-images.json records the four built-in photographic generations for the gutter systems cards, project source paths and optimized variants. These illustrate concepts and do not assert actual customer jobs, exact named products or offered metal/profile selections.
+
+service-section-photo-review.json inventories all source media sections, flags currently rendered uses and tracks the three-photo pass within the ten-page review cycle. Batch 01’s report/checklist includes the one completed gutters example; the other rendered sections remain pending. section-gallery-drafts.json preserves prompts for three unreviewed roofing drafts generated before the client narrowed this pass; they remain outside public and are not displayed.
+
+roofing-hero-images.json retains the previous ice-dam scene and the built-in edit prompt for version 2. Revised WebP files and the hero review gallery show ice damming at the roof eave rather than only gutter icicles.

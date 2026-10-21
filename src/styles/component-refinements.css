@@ -1,0 +1,62 @@
+/* Shared editorial finish. Keep section slants, genuine artwork and semantic badge colors. */
+:root{
+  --rk-crown-gradient:var(--rk-orange,#fe6600)!important;
+  --rk-blue-gradient:var(--rk-charcoal,#242321)!important;
+  --rk-shadow:0 6px 20px #24232108;
+  --rk-royal-shadow:0 12px 32px #24232112;
+}
+body :is(h1,h2,h3,h4,h5,h6){text-transform:none!important;letter-spacing:-.015em;}
+body :is(.rk-button,.rk-editorial-gallery .rk-gallery-link){min-height:48px;gap:.8rem;padding:.8rem 1.15rem;font-family:var(--rk-font-body);font-size:.88rem;font-weight:600;line-height:1.25;text-transform:none!important;letter-spacing:0;border-radius:2px;clip-path:none;box-shadow:none!important;transform:none!important;translate:none!important;}
+body .rk-button-primary{background:var(--rk-orange,#fe6600)!important;color:#242321!important;border:1px solid transparent;}
+body .rk-button-primary:hover{background:#f47b24!important;color:#242321!important;}
+body :is(.rk-button-secondary,.rk-button-ghost){background:#242321!important;color:#f8f5ee!important;border:1px solid #625e57;}
+body :is(.rk-button-secondary,.rk-button-ghost):hover{background:#3b3833!important;}
+body :is(.rk-button-light,.rk-button-outline){background:#f8f5ee!important;color:#242321!important;border:1px solid #bcb4a6;}
+body :is(.rk-button-light,.rk-button-outline):hover{background:#eee6d8!important;border-color:#8f8574;}
+body .rk-button svg{flex-shrink:0;width:20px;height:20px;}
+body :is(.rk-home-service-card,.rk-home-offer-card,.rk-home-review-card,.rk-home-blog-card,.rk-blog-card,.rk-home-before-copy,.rk-landing-checklist,.rk-product-card){box-shadow:none!important;}
+body :is(.rk-home-service-card,.rk-home-offer-card,.rk-home-review-card,.rk-home-blog-card,.rk-blog-card):hover{transform:none;}
+body :is(.rk-home-service-card,.rk-home-offer-card,.rk-home-review-card,.rk-home-blog-card,.rk-blog-card){background:#fffdf8;}
+body :is(.rk-home-service-card,.rk-home-review-card,.rk-home-offer-card,.rk-home-before-copy)::before{background:var(--rk-orange,#fe6600);height:2px!important;}
+body .rk-home-reviews .rk-home-review-card:nth-child(2){transform:none;}
+body .rk-home-service-card::after{display:none;}
+body .rk-home-service-card>strong{display:inline-flex;align-items:center;min-height:44px;padding:.6rem .85rem;background:#242321;color:#f8f5ee;font-family:var(--rk-font-body);font-size:.78rem;font-weight:600;text-transform:none;border-radius:2px;clip-path:none;box-shadow:none;}
+body :is(.rk-home-offer-card span,.rk-home-blog-card .rk-blog-card-action){min-height:44px;padding:.6rem .85rem;background:#242321;color:#f8f5ee;border-radius:2px;clip-path:none;box-shadow:none;font-family:var(--rk-font-body);font-size:.78rem;font-weight:600;text-transform:none;}
+body :is(.rk-home-section-header,.rk-home-before-copy,.rk-home-promo-card>div)::before,
+body .rk-home-section-header::after{background:var(--rk-orange,#fe6600);}
+body .rk-home-section-header::after{width:38px;height:2px;clip-path:none;}
+body .rk-home-section-header h2::after{width:38px;height:2px;background:var(--rk-orange,#fe6600);clip-path:none;}
+body :is(.rk-home-offer-card,.rk-home-blog-card,.rk-home-review-card)::after{box-shadow:none;}
+body .rk-site-header{box-shadow:none;border-bottom:1px solid var(--rk-line);}
+
+/* One scroll container, visible labels and comfortable controls in the quote dialog. */
+body .rk-native-quote-dialog{width:min(1080px,calc(100% - 2rem));max-width:none;max-height:calc(100dvh - 2rem);padding:0;border:0;background:#f8f5ee;overflow:auto;border-radius:4px;}
+body .rk-native-quote-dialog .rk-modal-panel{display:grid;grid-template-columns:minmax(0,.68fr) minmax(0,1.32fr);align-items:start;gap:2.5rem;width:100%;max-height:none;padding:2.4rem;overflow:visible;background:#f8f5ee;border-radius:4px;box-shadow:none;}
+body .rk-native-quote-dialog .rk-modal-intro{padding:1rem 0 0;text-align:left;}
+body .rk-native-quote-dialog .rk-modal-intro h2{max-width:none;padding:0;margin:.6rem 0 1rem;font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.12;}
+body .rk-native-quote-dialog .rk-modal-intro p{margin:0 0 1rem;font-size:.9rem;line-height:1.65;}
+body .rk-native-quote-dialog .rk-modal-intro .rk-home-eyebrow{font-size:.65rem;letter-spacing:.08em;color:#a54305;}
+body .rk-native-quote-dialog .rk-review-summary{justify-content:start;margin:1.4rem 0 0;}
+body .rk-native-quote-dialog .rk-quote-form{min-width:0;padding:0;border:0;background:transparent;box-shadow:none;}
+body .rk-native-quote-dialog .rk-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem 1rem;margin-bottom:.9rem;}
+body .rk-native-quote-dialog .rk-form-grid label{margin:0;}
+body .rk-native-quote-dialog .rk-quote-form label{display:grid;gap:.35rem;font-size:.75rem;font-weight:500;}
+body .rk-native-quote-dialog .rk-quote-form :is(input,select,textarea){font-size:.88rem;border-radius:2px;min-height:46px;padding:.65rem .75rem;}
+body .rk-native-quote-dialog .rk-quote-form textarea{min-height:78px;}
+body .rk-native-quote-dialog .rk-consent-field{grid-template-columns:18px minmax(0,1fr);align-items:start;gap:.65rem;margin:.9rem 0;font-size:.68rem;line-height:1.5;font-weight:400;}
+body .rk-native-quote-dialog .rk-consent-field input{width:18px;height:18px;min-height:18px;padding:0;}
+body .rk-native-quote-dialog .rk-form-status{margin:.9rem 0;padding:.7rem .8rem;font-size:.75rem;line-height:1.55;background:#eee8de;border-left-width:2px;}
+body .rk-native-quote-dialog .rk-modal-close{position:absolute;top:.65rem;right:.65rem;width:44px;height:44px;background:transparent;border:1px solid #ded7cb;border-radius:2px;}
+body .rk-native-quote-dialog .rk-modal-close:hover{background:#eee8de;}
+@media(max-width:800px){
+  body .rk-native-quote-dialog .rk-modal-panel{grid-template-columns:minmax(0,1fr);gap:1.1rem;padding:1.5rem;}
+  body .rk-native-quote-dialog .rk-modal-intro{padding:0 2.2rem 0 0;}
+  body .rk-native-quote-dialog .rk-modal-intro h2{font-size:1.9rem;margin:.4rem 0 .6rem;}
+  body .rk-native-quote-dialog .rk-modal-intro p{margin-bottom:0;}
+  body .rk-native-quote-dialog .rk-review-summary{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:.75rem 0 0;font-size:.72rem;}
+}
+@media(max-width:480px){
+  body .rk-native-quote-dialog{width:calc(100% - 1rem);max-height:calc(100dvh - 1rem);}
+  body .rk-native-quote-dialog .rk-modal-panel{padding:1.25rem;}
+  body .rk-native-quote-dialog .rk-form-grid{grid-template-columns:minmax(0,1fr);gap:.75rem;}
+}

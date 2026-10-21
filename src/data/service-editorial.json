@@ -14623,39 +14623,78 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Why an ice dam can cause a leak",
+      "eyebrow": "Ice dams, trapped water and winter roof leaks",
+      "title": "How ice dams form and let water into your home",
       "description": "",
       "intro": [],
-      "image": {
-        "src": "/media/service-illustrations/attic-insulation-v1.webp",
-        "alt": "Architectural illustration of attic insulation and the roof-edge ventilation space"
-      },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "The ice ridge blocks drainage at the eave. Blue arrows show meltwater and a possible route beneath the shingles into the roof or exterior wall.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-52-1",
-          "tabLabel": "Why an ice dam can cause a leak",
-          "title": "Why an ice dam can cause a leak",
+          "tabLabel": "Melting snow refreezes at the roof edge",
+          "title": "Melting snow refreezes at the roof edge",
           "body": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "Water from melting snow can reach a colder roof edge and refreeze. A buildup can restrict drainage, allowing water to collect behind it and reach vulnerable roof connections. Heat escaping from the building can contribute, but the actual roof, attic and weather conditions need assessment. A visible icicle alone does not establish the cause or extent of a leak."
+                  "text": "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave."
                 }
               ]
             }
           ],
-          "description": "Water from melting snow can reach a colder roof edge and refreeze. A buildup can restrict drainage, allowing water to collect behind it and reach vulnerable roof connections. Heat escaping from the building can contribute, but the actual roof, attic and weather conditions need assessment. A visible icicle alone does not establish the cause or extent of a leak.",
+          "description": "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave.",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Call About Roof-Edge Ice",
+          "icon": "roof"
+        },
+        {
+          "id": "ice-dam-mechanism-2",
+          "tabLabel": "Water collects behind the ice ridge",
+          "title": "Water collects behind the ice ridge",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen."
+                }
+              ]
+            }
+          ],
+          "description": "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen.",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Call About Roof-Edge Ice",
+          "icon": "roof"
+        },
+        {
+          "id": "ice-dam-mechanism-3",
+          "tabLabel": "Leaks can reach ceilings and exterior walls",
+          "title": "Leaks can reach ceilings and exterior walls",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment."
+                }
+              ]
+            }
+          ],
+          "description": "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment.",
           "detail": "",
           "highlights": [],
           "href": "#estimate",
           "label": "Call About Roof-Edge Ice",
           "icon": "roof"
         }
-      ]
+      ],
+      "illustration": "ice-dam"
     },
     "products": {
       "eyebrow": "Products & installation",

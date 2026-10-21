@@ -11258,7 +11258,12 @@
                   }
                 ]
               }
-            ]
+            ],
+            "image": {
+              "src": "/media/gutter-details/gutter-corner-1200.webp",
+              "alt": "Close-up of an illustrative gutter corner, open run and downspout outlet"
+            },
+            "caption": "Illustrative gutter corner and outlet arrangement."
           },
           {
             "title": "Downspouts and rainwater discharge",
@@ -11271,7 +11276,12 @@
                   }
                 ]
               }
-            ]
+            ],
+            "image": {
+              "src": "/media/gutter-details/downspout-discharge-1200.webp",
+              "alt": "Illustrative downspout connected to an extension carrying water away from the foundation"
+            },
+            "caption": "Illustrative downspout and above-ground discharge extension."
           },
           {
             "title": "Gutter materials, profiles and finishes",
@@ -11284,7 +11294,12 @@
                   }
                 ]
               }
-            ]
+            ],
+            "image": {
+              "src": "/media/gutter-details/gutter-profiles-1200.webp",
+              "alt": "Illustrative white and charcoal metal gutter samples beside a copper half-round profile"
+            },
+            "caption": "Illustrative metal profiles and finishes; not a confirmed product selection."
           },
           {
             "title": "Seamless gutters and gutter guards: different benefits",
@@ -11327,7 +11342,12 @@
                 ]
               }
             ],
-            "id": "service-copy-46-4"
+            "id": "service-copy-46-4",
+            "image": {
+              "src": "/media/gutter-details/gutter-protection-1200.webp",
+              "alt": "Illustrative mesh gutter guard holding leaves above the gutter opening"
+            },
+            "caption": "Illustrative mesh guard and debris protection detail."
           }
         ],
         "image": {
@@ -12876,8 +12896,13 @@
     "bodyWords": 562,
     "expectedBlocks": [
       "Ice collecting at the roof edge can interfere with drainage and contribute to water entering the home. If you are seeing roof-edge buildup or a winter leak in Columbus, contact Roof King with the address, affected area and whether water is entering now. Availability and the appropriate next step need to be confirmed directly.",
-      "Why an ice dam can cause a leak",
-      "Water from melting snow can reach a colder roof edge and refreeze. A buildup can restrict drainage, allowing water to collect behind it and reach vulnerable roof connections. Heat escaping from the building can contribute, but the actual roof, attic and weather conditions need assessment. A visible icicle alone does not establish the cause or extent of a leak.",
+      "How ice dams form and let water into your home",
+      "Melting snow refreezes at the roof edge",
+      "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave.",
+      "Water collects behind the ice ridge",
+      "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen.",
+      "Leaks can reach ceilings and exterior walls",
+      "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment.",
       "Keep the area clear while arranging help",
       "Avoid climbing onto an icy roof, breaking ice with improvised tools or standing beneath unstable buildup. Falling ice and slippery access create hazards. Share observations or photographs only from a safe position, and describe any active interior water entry when contacting the team.",
       "What removal needs to consider",

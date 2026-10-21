@@ -1,0 +1,106 @@
+{
+  "mode": "built-in image generation",
+  "purpose": "Four illustrative topic photos for /gutters/ gutter systems cards. Not customer project photos, exact brand products or a confirmed offering of every displayed metal/profile.",
+  "images": [
+    {
+      "id": "gutter-corner",
+      "prompt": "Use case: photorealistic-natural. Asset: premium gutter contractor educational card photograph, landscape 3:2. Realistic residential roof-edge components, credible construction geometry and ordinary Ohio home materials, soft natural daylight, clean neutral ivory/charcoal colors. No writing, logos, labels, people, collage or diagrams. Generic illustrative architecture, not a named manufacturer sample or actual customer project. Subject: close-up three-quarter view from slightly above a clean white aluminum K-style gutter turning a 90-degree outside roof corner, showing the miter joint, a long straight gutter run and the round downspout outlet opening visible inside the gutter near the far end, with a rectangular downspout descending the fascia on that side. Real asphalt shingles and white fascia above/behind, a few soft trees blurred beyond. Keep the open gutter and corner the focal point; no gutter guards in this image. No impossible plumbing, no detached parts.",
+      "original": "output/imagegen/gutter-details/gutter-corner.png",
+      "variants": [
+        {
+          "src": "/media/gutter-details/gutter-corner-480.webp",
+          "width": 480,
+          "bytes": 20236,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-corner-800.webp",
+          "width": 800,
+          "bytes": 48986,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-corner-1200.webp",
+          "width": 1200,
+          "bytes": 92662,
+          "quality": 72
+        }
+      ]
+    },
+    {
+      "id": "downspout-discharge",
+      "prompt": "Use case: photorealistic-natural. Asset: premium gutter contractor educational card photograph, landscape 3:2. Realistic residential roof-edge components, credible construction geometry and ordinary Ohio home materials, soft natural daylight, clean neutral ivory/charcoal colors. No writing, logos, labels, people, collage or diagrams. Generic illustrative architecture, not a named manufacturer sample or actual customer project. Subject: ground-level view along the side of a tasteful light-gray sided house, a white rectangular aluminum downspout descending the corner and turning through a real elbow into a long rectangular above-ground downspout extension that carries water several feet out into the yard, away from the foundation. The full extension is visibly connected to the vertical downspout; it slopes gently across a simple gravel strip toward a lawn. No disconnected pipe, no underground opening, no water pouring onto the foundation, no wall damage. Quiet useful architectural detail, modest lawn visible.",
+      "original": "output/imagegen/gutter-details/downspout-discharge.png",
+      "variants": [
+        {
+          "src": "/media/gutter-details/downspout-discharge-480.webp",
+          "width": 480,
+          "bytes": 29902,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/downspout-discharge-800.webp",
+          "width": 800,
+          "bytes": 65472,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/downspout-discharge-1200.webp",
+          "width": 1200,
+          "bytes": 103210,
+          "quality": 64
+        }
+      ]
+    },
+    {
+      "id": "gutter-profiles",
+      "prompt": "Use case: photorealistic-natural. Asset: premium gutter contractor educational card photograph, landscape 3:2. Credible real product geometry and natural materials. No writing, logos, labels, people, collage, diagrams, text or watermarks. Generic illustrative components, not exact named manufacturer products or actual customer work. A professional studio tabletop photograph of THREE short real metal gutter sample sections arranged side by side on a warm ivory work surface. Left a white painted aluminum K-style open-top gutter cross section, center a charcoal painted aluminum K-style open-top gutter section, right a classic semicircular copper half-round open-top gutter section with natural copper color. All sections are hollow open rainwater troughs formed from thin bent sheet metal, not solid plastic blocks. Each about 30cm long with the open cross sections facing camera enough to show their different profiles and thin folded rims. Soft shadows and realistic lightly textured factory coatings. Refined neutral background, no tools. Show the difference in finish and shape clearly without artificial labels.",
+      "original": "output/imagegen/gutter-details/gutter-profiles.png",
+      "variants": [
+        {
+          "src": "/media/gutter-details/gutter-profiles-480.webp",
+          "width": 480,
+          "bytes": 5310,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-profiles-800.webp",
+          "width": 800,
+          "bytes": 10688,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-profiles-1200.webp",
+          "width": 1200,
+          "bytes": 18630,
+          "quality": 72
+        }
+      ]
+    },
+    {
+      "id": "gutter-protection",
+      "prompt": "Use case: photorealistic-natural. Asset: premium gutter contractor educational card photograph, landscape 3:2. Credible real product geometry and natural materials. No writing, logos, labels, people, collage, diagrams, text or watermarks. Generic illustrative components, not exact named manufacturer products or actual customer work. Close-up roof-edge photograph from slightly above of a fine stainless steel mesh gutter guard fitted across a clean charcoal aluminum K-style gutter below architectural asphalt shingles. Correct connection to the gutter front lip, a realistic thin frame holding a taut fine mesh panel over the open gutter. A few dry brown oak leaves rest ON TOP of the mesh; the clean trough is protected underneath. White fascia and softly blurred leafy background. Useful detail of mesh texture and debris separation, believable ordinary residential roof edge, soft daylight. No brand identity, no detached mesh, no downspout in this photo, no large perforated holes, no cutaway or arrows.",
+      "original": "output/imagegen/gutter-details/gutter-protection.png",
+      "variants": [
+        {
+          "src": "/media/gutter-details/gutter-protection-480.webp",
+          "width": 480,
+          "bytes": 29582,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-protection-800.webp",
+          "width": 800,
+          "bytes": 77702,
+          "quality": 72
+        },
+        {
+          "src": "/media/gutter-details/gutter-protection-1200.webp",
+          "width": 1200,
+          "bytes": 104704,
+          "quality": 40
+        }
+      ]
+    }
+  ]
+}

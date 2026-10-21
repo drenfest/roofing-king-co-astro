@@ -3,7 +3,7 @@ import { proof } from '../data/home.json';
 ---
 <section class="rk-home-section rk-home-proof" style="--rk-proof-bg: url('/media/wordpress/3d45bb9e4842-accordion-bg.jpg')">
   <div class="rk-section-inner rk-home-two-col">
-    <div><p class="rk-home-eyebrow">{proof.eyebrow}</p><h2>{proof.title}</h2><p>{proof.description}</p><a class="rk-button rk-button-primary" href="/reviews/">Read Reviews</a></div>
+    <div><p class="rk-home-eyebrow">{proof.eyebrow}</p><h2>{proof.title}</h2><p>{proof.description}</p><a class="rk-button rk-button-primary" href="/reviews/">Read reviews</a></div>
     <div class="rk-home-faq-stack">{proof.items.map(item => <details><summary>{item.title}</summary><p>{item.description}</p></details>)}</div>
   </div>
 </section>

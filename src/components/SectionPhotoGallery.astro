@@ -1,0 +1,20 @@
+---
+import HomeImage from './HomeImage.astro';
+import type {ImageData} from '../data/section-types';
+interface Props {photos:{image:ImageData;caption:string}[];label:string;}
+const {photos,label}=Astro.props;
+if(photos.length!==3)throw new Error(`SectionPhotoGallery needs three images: ${label}`);
+if(new Set(photos.map(photo=>photo.image.src)).size!==3)throw new Error(`SectionPhotoGallery repeats an image: ${label}`);
+---
+<div class="rk-section-photo-gallery" role="group" aria-label={label} data-component="SectionPhotoGallery">
+  {photos.map((photo,index)=><figure><HomeImage {...photo.image} sizes={index===0?'(max-width:760px) calc(100vw - 2rem), 45vw':'(max-width:760px) calc(50vw - 1.5rem), 45vw'}/><figcaption>{photo.caption}</figcaption></figure>)}
+</div>
+<style>
+  .rk-section-photo-gallery{display:grid;grid-template-columns:minmax(0,1fr);gap:1.3rem;align-content:start;min-width:0;}
+  figure{margin:0;min-width:0;}
+  figure:first-child{grid-column:1/-1;}
+  figure :global(img){display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:2px;}
+  figure:first-child :global(img){clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,16px 100%,0 calc(100% - 16px));}
+  figcaption{margin-top:.6rem;font-size:.7rem;line-height:1.6;color:inherit;opacity:.78;}
+  @media(max-width:760px){.rk-section-photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem .8rem;}figure:not(:first-child) :global(img){aspect-ratio:4/3;}figcaption{font-size:.67rem;}}
+</style>

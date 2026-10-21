@@ -5,7 +5,7 @@ import SectionHeading from './SectionHeading.astro';
 import ReviewCard from './ReviewCard.astro';
 interface Props { kind: 'offers' | 'blogs' | 'reviews'; section: CardSectionData; }
 const { kind, section } = Astro.props;
-const action = { offers: 'View All Offers', blogs: 'Read All Blogs', reviews: 'Read All Reviews' }[kind];
+const action = { offers: 'View all offers', blogs: 'Read all blogs', reviews: 'Read all reviews' }[kind];
 const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
 ---
 <section class={`rk-home-section rk-home-${kind}`}>
@@ -15,7 +15,7 @@ const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind]
       {section.items.map(card => kind === 'reviews' ? <ReviewCard {card}/> : <article class={kind === 'blogs' ? 'rk-blog-card rk-home-blog-card' : 'rk-home-offer-card'}>
         <a href={'href' in card ? card.href : undefined}>
           {card.image && <HomeImage {...card.image} sizes="(max-width: 760px) 100vw, 33vw" />}
-          <div class={kind === 'blogs' ? 'rk-blog-card-body' : undefined}><h3>{card.title}</h3><p>{card.description}</p><span class={kind === 'blogs' ? 'rk-blog-card-action' : undefined}>{kind === 'blogs' ? 'Read More' : 'Learn More'}</span></div>
+          <div class={kind === 'blogs' ? 'rk-blog-card-body' : undefined}><h3>{card.title}</h3><p>{card.description}</p><span class={kind === 'blogs' ? 'rk-blog-card-action' : undefined}>{kind === 'blogs' ? 'Read more' : 'Learn more'}</span></div>
         </a>
       </article>)}
     </div>

@@ -1,18 +1,14 @@
 ---
-import { promo, process, coverage } from '../data/home.json';
+import { promo, coverage } from '../data/home.json';
 import HomeImage from './HomeImage.astro';
 import CoverageSection from './CoverageSection.astro';
-import SectionHeading from './SectionHeading.astro';
 ---
 <section class="rk-home-promo">
   <div class="rk-section-inner rk-home-promo-card">
     <div><p class="rk-home-eyebrow">{promo.eyebrow}</p><h2>{promo.title}</h2><p>{promo.description}</p>
-      <div class="rk-home-action-row"><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get a Free Quote</a><a class="rk-button rk-button-outline" href="/about-us/">Learn More</a></div>
+      <div class="rk-home-action-row"><a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get a free quote</a><a class="rk-button rk-button-outline" href="/about-us/">Learn more</a></div>
     </div>
     <HomeImage {...promo.image} />
   </div>
 </section>
-<section class="rk-home-section rk-home-process"><div class="rk-section-inner">
-  <SectionHeading {...process} /><div class="rk-home-process-row">{process.items.map((item, i) => <article><span>{String(i + 1).padStart(2, '0')}</span><h3>{item.title}</h3><p>{item.description}</p></article>)}</div>
-</div></section>
 <CoverageSection {coverage} />

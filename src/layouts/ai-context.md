@@ -42,3 +42,7 @@ ProductLayout now resolves a responsive hero image through product-presentation.
 
 
 PolishedServicePage resolves both service-heroes.json and roofing-heroes.json, so all native service pages use individual generated hero scenes. Their imagery remains explicitly illustrative. The approved roofing reference and all source copy remain intact; shared ServicePaths previews resolve the exact same destination asset.
+
+QuoteExperience now fixes the modal title to Get a free quote; service layouts pass only the contextual description and rating preference.
+
+PolishedServicePage passes the original permalink to ServiceContentBand so reviewed photo galleries resolve by page and section without modifying copy or other pages.

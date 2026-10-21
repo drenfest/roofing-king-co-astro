@@ -71,3 +71,5 @@ All 29 native product routes now have ProductHero photographic/sample heroes and
 
 
 All 84 native service pages now have individual illustrative custom heroes. The 43 additional scenes and responsive WebP assets are recorded in migration/service-hero-images.json. Shared ServicePaths panels display each destination hero immediately under the eyebrow. Navigation uses a lazy-loaded, content-hashed image atlas with one unique image per distinct destination; the atlas is cached across page loads and eliminates per-hover image downloads.
+
+The client moved three-image media-section galleries into the ten-page service review cycle. Only /gutters/#service-copy-46-3 is implemented as the example. Keep other pages unchanged until their review batch; do not bulk-apply generic image sets. This photo pass does not rewrite copy. See migration/service-section-photo-review.json and the photo-pass checklist in service-review-batch-01.md. The inventory distinguishes source candidates from currently rendered sections.

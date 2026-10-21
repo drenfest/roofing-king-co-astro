@@ -79,3 +79,15 @@ service-heroes.json and service-hero-media.json add 43 individual illustrative s
 
 
 navigation-photo-selections.json curates topic/product/brand source choices; native service destinations resolve their actual custom hero automatically when building the menu atlas. navigation-images.json records the complete 121-image provenance/fingerprints. navigation-atlas.json is the small runtime cell map and content-hashed WebP URL. Repeated links to the same destination share its cell; different destinations cannot share picture content.
+
+Homepage card headings use sentence case, preserving Ohio/Dublin names and supplied offer terms. The unused process data is retained as source evidence; its numbered block is no longer rendered.
+
+product-pillar.json guidance=siding selects SidingProductGuide for /products/siding/. Other hubs retain the shared guidance grid. The siding hub’s redundant generic secondary cards are removed.
+
+gutter-detail-media.json registers responsive 480/800/1200px WebP card photos in media.ts. Optional ServiceCopySection card image/caption fields enrich the gutter systems section without changing its original paragraphs, headings or links. Keep the card media in service-copy.json and its matching service-overrides.json source.
+
+service-section-galleries.json is a page-and-section-specific presentation map for three-photo media galleries. Only the gutters example is populated. Leave service copy unchanged and add further entries during each ten-page review, following migration/service-section-photo-review.json.
+
+The ice-dam roofing hero now points to version 2, showing a roof-level ice ridge and backed-up meltwater. Its four responsive variants retain the roofing hero map contract. The menu atlas is rebuilt whenever a mapped hero changes.
+
+The ice-dam opening uses illustration="ice-dam" and three mechanism-specific H3 topics. Its client-directed copy and source-check expectations persist in service-overrides.json, with university extension and NWS evidence.

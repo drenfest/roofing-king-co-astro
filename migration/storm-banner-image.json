@@ -1,0 +1,20 @@
+{
+  "mode": "built-in image generation",
+  "prompt": "Use case: photorealistic-natural. Asset type: wide decorative storm background for a premium roofing website banner. Generate a photographic long-exposure image of REAL branching cloud-to-cloud and cloud-to-ground lightning in a dark warm charcoal storm sky. Natural chaotic fractal branching with extremely fine hairline tendrils, irregular branching angles, varying luminous thickness, a hot pale amber core and realistic restrained orange atmospheric bloom in brand orange #ff7900. Main lightning strike concentrated in the RIGHT THIRD, spreading asymmetrically to the right and down, organically forked, not evenly spaced zigzags. Deep charcoal #242321 near-black negative space throughout the LEFT TWO THIRDS for overlaid website text. Subtle actual turbulent storm clouds in the right third, left side almost flat dark charcoal. Wide panoramic 3:1 composition. Photographic realism, not vector, not neon tube art, not diagram, not drawn lines. No houses, landscape, horizon, people, logos, writing, UI or borders. This is only the sky/background, not a website mockup. Keep the lightning crisp and physically plausible, orange color graded storm photography.",
+  "source": "output/imagegen/weather/orange-lightning.png",
+  "purpose": "Decorative illustrative weather atmosphere; not a customer project or record of an actual local storm.",
+  "variants": [
+    {
+      "path": "public/media/weather/orange-lightning-960.webp",
+      "bytes": 10910
+    },
+    {
+      "path": "public/media/weather/orange-lightning-1600.webp",
+      "bytes": 25700
+    },
+    {
+      "path": "public/media/weather/orange-lightning-mobile-640.webp",
+      "bytes": 17598
+    }
+  ]
+}

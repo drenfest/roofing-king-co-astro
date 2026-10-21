@@ -1,0 +1,68 @@
+---
+const materials=[
+  {title:'Vinyl: movement matters',copy:'Vinyl panels expand in warm weather and contract as temperatures fall. Slotted fasteners and clearance at trim let them move without bowing. Driving nails tight against the panel can pin it in place and create ripples.',href:'/products/siding/vinyl/',label:'Explore vinyl siding'},
+  {title:'Engineered wood: protect the edges',copy:'Engineered wood combines a wood-strand core with a textured, painted face. Cutting a board exposes the core, so those edges need protection. With LP SmartSide, exposed substrate must be sealed; keeping the finish intact helps keep moisture out.',href:'/products/siding/engineered-wood/',label:'Explore engineered wood'},
+  {title:'Fiber cement: a rigid board with a painted finish',copy:'Fiber cement gives lap siding a solid, defined edge. Hardie siding resists rot and is available primed or with a factory-applied ColorPlus finish. The board and its coating do different jobs: a durable core still needs cleaning and attention to the painted surface.',href:'/products/siding/fiber-cement/',label:'Explore fiber cement'},
+];
+const picture=(id:string)=>({src:`/media/siding-guide/${id}-800.webp`,srcset:[480,800,1200].map(w=>`/media/siding-guide/${id}-${w}.webp ${w}w`).join(', ')});
+---
+<section class="rk-siding-guide" aria-labelledby="product-guidance-title" data-component="SidingProductGuide">
+  <div class="rk-section-inner">
+    <header class="rk-siding-guide-heading"><p class="rk-home-eyebrow">Understand your siding</p><h2 id="product-guidance-title">How siding materials and wall protection work together</h2><p>The panel gives your home its look. The material, protective layers and details around openings determine how the finished wall manages weather.</p></header>
+    <article class="rk-siding-guide-row" aria-labelledby="siding-materials-title">
+      <figure><img {...picture('material-samples')} width="1536" height="1024" sizes="(max-width:800px) 100vw, 50vw" alt="Illustrative comparison of a thin formed vinyl panel, a wood-strand board and a solid fiber cement board" loading="lazy" decoding="async"/><figcaption>Illustrative material profiles, from left: vinyl, engineered wood and fiber cement. Not exact manufacturer samples.</figcaption></figure>
+      <div><p class="rk-home-eyebrow">Material differences</p><h3 id="siding-materials-title">Vinyl, engineered wood and fiber cement explained</h3><div class="rk-siding-material-notes">{materials.map(material=><section aria-label={material.title}><h4>{material.title}</h4><p>{material.copy}</p><a href={material.href}>{material.label}<span aria-hidden="true">→</span></a></section>)}</div></div>
+    </article>
+    <article class="rk-siding-guide-row rk-siding-guide-water" aria-labelledby="siding-drainage-title">
+      <div><p class="rk-home-eyebrow">Behind the siding</p><h3 id="siding-drainage-title">How water drains behind siding</h3><p>Siding sheds most rain, but joints and openings can let some water behind it. A water-resistive barrier protects the wall sheathing and connects to flashing that directs that water back outside.</p><dl><div><dt>Sheathing supports the wall</dt><dd>Soft or damaged sheathing is a repair issue beneath the new finish. Covering it with siding leaves the underlying damage in place.</dd></div><div><dt>The barrier manages water</dt><dd>Its laps and connections to window, door and wall flashing keep water moving down and out instead of into the wall.</dd></div><div><dt>Drainage paths stay open</dt><dd>Sealing every visible gap can trap water. Drainage outlets belong in the wall design; they are not unfinished work.</dd></div></dl><a class="rk-siding-guide-link" href="/siding/replacement/">See what siding replacement involves<span aria-hidden="true">→</span></a></div>
+      <figure class="rk-siding-wall-diagram">
+        <svg viewBox="0 0 520 390" role="img" aria-labelledby="siding-wall-title siding-wall-description" xmlns="http://www.w3.org/2000/svg">
+          <title id="siding-wall-title">How a wall drains behind its siding</title><desc id="siding-wall-description">An exploded side view separates the wall sheathing, water-resistive barrier and outer siding. Orange arrows show water travelling down the outer face of the barrier and out at flashing near the base.</desc>
+          <rect x="54" y="72" width="62" height="240" fill="#c4ad8e"/><path d="m54 72 24-17h62l-24 17M116 72l24-17v240l-24 17" fill="#ad9372"/>
+          <rect x="178" y="72" width="12" height="240" fill="#625e57"/><path d="m178 72 24-17h12l-24 17M190 72l24-17v240l-24 17" fill="#8e887c"/>
+          <g fill="#e6e1d5" stroke="#9f998d" stroke-width="1.2"><path d="m300 71 44 13 8 53-52-13Z"/><path d="m300 122 44 13 8 53-52-13Z"/><path d="m300 173 44 13 8 53-52-13Z"/><path d="m300 224 44 13 8 53-52-13Z"/></g>
+          <path d="M224 101v181q0 27 28 27h111" fill="none" stroke="#d75c09" stroke-width="3" stroke-dasharray="5 6"/><path d="m218 155 6 9 6-9m-12 67 6 9 6-9m123 81 10 6-10 6" fill="none" stroke="#d75c09" stroke-width="2.5"/>
+          <path d="M195 294v23h159l13 10" fill="none" stroke="#242321" stroke-width="4"/>
+          <g fill="#242321" font-family="Inter, sans-serif" font-size="17"><text x="34" y="33">Sheathing</text><text x="152" y="360">Water-resistive barrier</text><text x="290" y="33">Outer siding</text><text x="371" y="297" fill="#a54305">Water out</text></g>
+          <g stroke="#9e9689" fill="none"><path d="M80 40v26M184 342v-23M323 40v22M377 304l-12 4"/></g>
+        </svg>
+        <figcaption>Conceptual wall layers and drainage direction. Layer spacing is exaggerated to show the water path.</figcaption>
+      </figure>
+    </article>
+    <article class="rk-siding-guide-row" aria-labelledby="siding-trim-title">
+      <figure><img {...picture('window-trim')} width="1536" height="1024" sizes="(max-width:800px) 100vw, 50vw" alt="Illustrative close-up of lap siding, white window casing and head flashing above the trim" loading="lazy" decoding="async"/><figcaption>Illustrative window and trim detail. The visible finish is only part of the water protection.</figcaption></figure>
+      <div><p class="rk-home-eyebrow">The finishing details</p><h3 id="siding-trim-title">Siding details around windows and corners</h3><p>Wide window casing and deeper lap profiles create stronger shadow lines; narrow trim and smoother boards give a quieter finish. Those choices also affect where boards end, how joints line up and which edges need protection.</p><dl><div><dt>Flashing does more than caulk</dt><dd>Head flashing above an opening diverts water outward. Its connection to the barrier behind the siding matters as much as the metal you can see.</dd></div><div><dt>Clearance protects the lower edges</dt><dd>Boards held away from soil, paving and roofing are less exposed to standing water and splashback. The right separation depends on the selected material and detail.</dd></div><div><dt>Maintenance follows the material</dt><dd>Painted siding needs checks for damaged coating and exposed edges. LP recommends gentle cleaning rather than pressure washing, which can damage the finish or drive water behind it.</dd></div></dl><a class="rk-siding-guide-link" href="/siding/">Explore siding installation and replacement<span aria-hidden="true">→</span></a></div>
+    </article>
+    <footer class="rk-siding-guide-sources"><p>Technical references</p><div><a href="https://vinylsiding.org/wp-content/uploads/2020/06/2020-VSI-Installation-Manual.pdf" target="_blank" rel="noopener noreferrer">Vinyl movement and fastening ↗</a><a href="https://basc.pnnl.gov/resource-guides/drainage-plane-behind-exterior-wall-cladding" target="_blank" rel="noopener noreferrer">Wall drainage and flashing ↗</a><a href="https://www.lpcorp.com/project-resources/blog/7-tips-for-care-maintenance-of-lp-smartside-siding" target="_blank" rel="noopener noreferrer">LP siding care ↗</a><a href="https://www.jameshardie.com/faq/" target="_blank" rel="noopener noreferrer">Hardie materials and finishes ↗</a></div></footer>
+  </div>
+</section>
+<style>
+  .rk-siding-guide{padding:clamp(3.5rem,6vw,5.5rem) 0;background:var(--rk-paper-soft);clip-path:polygon(0 20px,100% 0,100% calc(100% - 20px),0 100%);}
+  .rk-siding-guide-heading{max-width:780px;margin-bottom:3rem;}
+  .rk-siding-guide h2{font-size:clamp(2rem,3.5vw,3rem);line-height:1.16;font-weight:600;margin:.7rem 0 1rem;}
+  .rk-siding-guide p,.rk-siding-guide dd{font-size:.95rem;line-height:1.75;color:#57524b;}
+  .rk-siding-guide-heading>p:last-child{max-width:65ch;}
+  .rk-siding-guide-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center;padding:3rem 0;border-top:1px solid #d2c9bb;}
+  .rk-siding-guide-row>div{min-width:0;}
+  .rk-siding-guide figure{margin:0;min-width:0;}
+  .rk-siding-guide img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+  .rk-siding-guide figcaption{font-size:.7rem;color:#686159;line-height:1.6;margin-top:.7rem;max-width:60ch;}
+  .rk-siding-guide h3{font-size:clamp(1.7rem,2.7vw,2.3rem);font-weight:600;line-height:1.2;margin:.6rem 0 1.3rem;}
+  .rk-siding-material-notes{display:grid;gap:1.3rem;}
+  .rk-siding-material-notes h4{font-size:1.15rem;font-weight:600;line-height:1.4;margin:0 0 .4rem;}
+  .rk-siding-material-notes p{font-size:.89rem;margin:0 0 .5rem;}
+  .rk-siding-guide a{display:inline-flex;gap:.8rem;font-size:.8rem;font-weight:550;text-underline-offset:5px;}
+  .rk-siding-guide a:hover{color:#a54305;}
+  .rk-siding-guide a:focus-visible{outline:2px solid #a54305;outline-offset:5px;}
+  .rk-siding-guide dl{display:grid;gap:1rem;margin:1.5rem 0;}
+  .rk-siding-guide dl>div{padding-left:1rem;border-left:2px solid #d75c09;}
+  .rk-siding-guide dt{font-size:.9rem;font-weight:600;margin-bottom:.3rem;}
+  .rk-siding-guide dd{font-size:.88rem;margin:0;}
+  .rk-siding-wall-diagram{padding:1.7rem;background:#faf7f0;}
+  .rk-siding-wall-diagram svg{display:block;width:100%;height:auto;}
+  .rk-siding-guide-sources{border-top:1px solid #d2c9bb;padding-top:1.3rem;}
+  .rk-siding-guide-sources p{font-size:.7rem;margin:0 0 .6rem;}
+  .rk-siding-guide-sources>div{display:flex;flex-wrap:wrap;gap:.8rem 1.5rem;}
+  .rk-siding-guide-sources a{font-size:.7rem;color:#625b51;}
+  @media(max-width:800px){.rk-siding-guide-row{grid-template-columns:minmax(0,1fr);gap:1.7rem;padding-block:2rem;}.rk-siding-guide-water>figure{grid-row:1;}.rk-siding-guide-heading{margin-bottom:1.5rem;}.rk-siding-guide img{aspect-ratio:3/2;}.rk-siding-wall-diagram{padding:1rem;}.rk-siding-guide{clip-path:polygon(0 12px,100% 0,100% calc(100% - 12px),0 100%);}}
+</style>

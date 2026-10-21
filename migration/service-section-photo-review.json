@@ -1,0 +1,975 @@
+{
+  "workflow": "Ten-page service review batches",
+  "clientDirection": "Finish one example, then include the photo pass in each ten-page review. Photos only in this pass; leave copy changes for the page review.",
+  "example": {
+    "route": "/gutters/",
+    "sectionId": "service-copy-46-3",
+    "galleryData": "src/data/service-section-galleries.json",
+    "component": "src/components/SectionPhotoGallery.astro",
+    "validation": {
+      "browserWidths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "photos": 3,
+      "responsiveWebP": true,
+      "lazyLoading": true,
+      "copyUnchanged": true,
+      "otherPageGalleriesUnchanged": true,
+      "largestTransferredImageBytes": 65472,
+      "checks": "npm run verify and focused browser review passed"
+    }
+  },
+  "checklist": [
+    "Review this page’s headings, hierarchy and copy in its ten-page batch.",
+    "Find every rendered media section on the page; choose three distinct images tied to that specific section.",
+    "Preserve existing section IDs, links and text unless a copy revision is part of the batch.",
+    "Check photo content; retain truthful illustrative/existing-site attribution and descriptive alt text.",
+    "Use responsive WebP with intrinsic dimensions, appropriate sizes and lazy loading. Optimize new photos to a maximum 110 KB per variant where practical.",
+    "Check desktop placement opposite the copy, mobile stacking, keyboard/link access and reduced motion.",
+    "Run npm run verify and record browser checks before marking the page’s photo review complete."
+  ],
+  "inventory": {
+    "sourceMediaSections": 133,
+    "renderedMediaSections": 121,
+    "pagesWithRenderedMediaSections": 82,
+    "examplesCompleted": 1,
+    "pendingRenderedSections": 120,
+    "renderedMediaContentRows": 0
+  },
+  "sections": [
+    {
+      "route": "/akron-oh/",
+      "sectionId": "service-copy-1-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/athens-oh/",
+      "sectionId": "service-copy-2-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/attic-insulation/",
+      "sectionId": "service-copy-3-3",
+      "title": "Insulation, air sealing and ventilation have different jobs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/attic-insulation/",
+      "sectionId": "service-copy-3-5",
+      "title": "Read the installation estimate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/aurora-oh/",
+      "sectionId": "service-copy-4-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/beavercreek-oh/",
+      "sectionId": "service-copy-5-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/centerville-oh/",
+      "sectionId": "service-copy-6-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "sectionId": "service-copy-7-1",
+      "title": "More about roofing & exterior services",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "sectionId": "service-copy-7-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-copy-8-3",
+      "title": "The parts of a complete roofing installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-copy-8-5",
+      "title": "Prepare the property for roofing work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "sectionId": "service-copy-10-3",
+      "title": "What adds to a siding replacement quote?",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/",
+      "sectionId": "service-copy-11-1",
+      "title": "More about roofing & exterior services",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/",
+      "sectionId": "service-copy-11-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-3",
+      "title": "The parts of a complete roofing installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-5",
+      "title": "Prepare the property for roofing work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-3",
+      "title": "Compare two installation examples",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-5",
+      "title": "Use a calculator as a starting point",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-copy-14-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-copy-14-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/columbus-oh/",
+      "sectionId": "service-copy-15-1",
+      "title": "More about roofing & exterior services",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/columbus-oh/",
+      "sectionId": "service-copy-15-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "sectionId": "service-copy-16-3",
+      "title": "The parts of a complete roofing installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "sectionId": "service-copy-16-5",
+      "title": "Prepare the property for roofing work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "sectionId": "service-copy-17-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "sectionId": "service-copy-17-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/commercial-roofing/",
+      "sectionId": "service-copy-18-3",
+      "title": "Work around the building's operations",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-3",
+      "title": "Separate external gutters from other roof drainage",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-5",
+      "title": "Coordinate installation with the property contact",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-copy-20-3",
+      "title": "Check what the visible repair would leave beneath it",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-copy-20-5",
+      "title": "Know when to compare broader work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "sectionId": "service-copy-21-3",
+      "title": "Decide what stays and what is removed",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "sectionId": "service-copy-21-5",
+      "title": "Resolve drainage and equipment connections",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "sectionId": "service-copy-21-7",
+      "title": "Close out with a usable roof record",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "sectionId": "service-copy-22-3",
+      "title": "Understand the layers below the covering",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "sectionId": "service-copy-22-5",
+      "title": "Coating and recover decisions need evidence",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/commercial-siding/",
+      "sectionId": "service-copy-23-4",
+      "title": "Planning a commercial siding installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "sectionId": "service-copy-24-3",
+      "title": "Compare two installation examples",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "sectionId": "service-copy-24-5",
+      "title": "Use a calculator as a starting point",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/",
+      "sectionId": "service-copy-25-1",
+      "title": "More about roofing & exterior services",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/",
+      "sectionId": "service-copy-25-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-3",
+      "title": "The parts of a complete roofing installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-5",
+      "title": "Prepare the property for roofing work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/dayton-oh/the-cost-of-new-gutters/",
+      "sectionId": "service-copy-28-3",
+      "title": "Gutter products and installation details to include in pricing",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "sectionId": "service-copy-29-3",
+      "title": "Read the materials and installation included",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "sectionId": "service-copy-29-5",
+      "title": "Use reviews and project examples carefully",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/",
+      "sectionId": "service-copy-30-3",
+      "title": "Plan the space around everyday use",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/accessories/",
+      "sectionId": "service-copy-31-3",
+      "title": "Coordinate the finishing components",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/accessories/",
+      "sectionId": "service-copy-31-5",
+      "title": "Compare the railings, stairs and finishing details",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/installations/",
+      "sectionId": "service-copy-32-3",
+      "title": "Understand what supports the surface",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/installations/",
+      "sectionId": "service-copy-32-5",
+      "title": "What the deck installation should include",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/refinishing/",
+      "sectionId": "service-copy-33-3",
+      "title": "Preparation determines the coating plan",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/refinishing/",
+      "sectionId": "service-copy-33-5",
+      "title": "Plan application and return to use",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/repairs/",
+      "sectionId": "service-copy-34-3",
+      "title": "What the repair should include",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/replacements/",
+      "sectionId": "service-copy-35-3",
+      "title": "Keep the footprint or improve the layout",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/decks/replacements/",
+      "sectionId": "service-copy-35-5",
+      "title": "From removal to the finished deck",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/",
+      "sectionId": "service-copy-36-1",
+      "title": "More about roofing & exterior services",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/",
+      "sectionId": "service-copy-36-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "sectionId": "service-copy-37-3",
+      "title": "The parts of a complete roofing installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "sectionId": "service-copy-37-5",
+      "title": "Prepare the property for roofing work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "sectionId": "service-copy-38-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "sectionId": "service-copy-38-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/dublin-oh/",
+      "sectionId": "service-copy-39-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-3",
+      "title": "Temporary protection and repair have different purposes",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-5",
+      "title": "Move from the findings to a permanent solution",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/exterior-painting/",
+      "sectionId": "service-copy-41-3",
+      "title": "What preparation may involve",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/exterior-painting/",
+      "sectionId": "service-copy-41-5",
+      "title": "Plan protection, weather and return to use",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "sectionId": "service-copy-42-3",
+      "title": "Connect the product selection to the installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "sectionId": "service-copy-42-5",
+      "title": "Confirm the warranty for your selected system",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gahanna-oh/",
+      "sectionId": "service-copy-43-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/grove-city-oh/",
+      "sectionId": "service-copy-44-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gutter-installation-dublin-oh/",
+      "sectionId": "service-copy-45-3",
+      "title": "Gutter installation: preparation, attachment and drainage",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gutters/",
+      "sectionId": "service-copy-46-3",
+      "title": "Installing gutters on a sound roof edge",
+      "renderedAsMediaSection": true,
+      "status": "example-ready-for-review"
+    },
+    {
+      "route": "/gutters/guards/",
+      "sectionId": "service-copy-47-4",
+      "title": "Installing and maintaining gutter guards",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/gutters/seamless/",
+      "sectionId": "service-copy-48-4",
+      "title": "How seamless gutters are measured and installed",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-3",
+      "title": "Decide whether the affected roofing can be repaired",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-5",
+      "title": "Read impact classifications carefully",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/hamilton-oh/",
+      "sectionId": "service-copy-50-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/hilliard-oh/",
+      "sectionId": "service-copy-51-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "sectionId": "service-copy-52-3",
+      "title": "What removal needs to consider",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "sectionId": "service-copy-52-5",
+      "title": "Investigate recurring conditions",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/lancaster-oh/",
+      "sectionId": "service-copy-53-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/lewis-center-oh/",
+      "sectionId": "service-copy-54-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "sectionId": "service-copy-55-3",
+      "title": "Compare metal and shingles as complete roofs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "sectionId": "service-copy-55-5",
+      "title": "Plan for upkeep and future work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/middletown-oh/",
+      "sectionId": "service-copy-56-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/newark-oh/",
+      "sectionId": "service-copy-57-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/powell-oh/",
+      "sectionId": "service-copy-58-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roof-calculator/",
+      "sectionId": "service-copy-59-3",
+      "title": "Understand what the estimate can and cannot establish",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/roof-calculator/",
+      "sectionId": "service-copy-59-5",
+      "title": "From an online estimate to a roofing proposal",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-3",
+      "title": "Find where the water gets in",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-5",
+      "title": "Repair the problem or replace the roof?",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-3",
+      "title": "What happens beneath the new roof",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-5",
+      "title": "Compare what is behind the total",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "sectionId": "service-copy-62-3",
+      "title": "Why the measured proposal can change",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-3",
+      "title": "Read the materials and installation included",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-5",
+      "title": "Use reviews and project examples carefully",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "sectionId": "service-copy-64-3",
+      "title": "Connect the product selection to the installation",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "sectionId": "service-copy-64-5",
+      "title": "Confirm the warranty for your selected system",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "sectionId": "master-elite-qualifications",
+      "title": "A Contractor Held to GAF’s Program Requirements",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "sectionId": "gaf-complete-system",
+      "title": "Build the Roof That Qualifies for Your Protection",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/metal/",
+      "sectionId": "service-copy-66-3",
+      "title": "Compare metal and shingles as complete roofs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/metal/",
+      "sectionId": "service-copy-66-5",
+      "title": "Plan for upkeep and future work",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/repair/",
+      "sectionId": "service-copy-67-3",
+      "title": "The roof areas and materials included in the repair",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/repair/",
+      "sectionId": "service-copy-67-5",
+      "title": "Cost depends on the failing detail",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-3",
+      "title": "What happens beneath the new roof",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-5",
+      "title": "Compare what is behind the total",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/roofing/types/",
+      "sectionId": "service-copy-69-3",
+      "title": "Compare the details that affect the whole project",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/siding/",
+      "sectionId": "service-copy-70-1",
+      "title": "Assessing siding damage before repair or replacement",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/siding/replacement/",
+      "sectionId": "service-copy-71-3",
+      "title": "How the wall is prepared for new siding",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/siding/types/",
+      "sectionId": "service-copy-72-4",
+      "title": "Comparing siding appearance, installation and maintenance",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/storm-damage/",
+      "sectionId": "service-copy-74-3",
+      "title": "See the affected areas and recommended repairs",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/",
+      "sectionId": "service-copy-74-5",
+      "title": "Keep construction records and insurance decisions separate",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-copy-75-3",
+      "title": "Build a location-based damage record",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-copy-75-5",
+      "title": "Plan the work around the property",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "sectionId": "service-copy-76-3",
+      "title": "Decide whether the affected roofing can be repaired",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "sectionId": "service-copy-76-5",
+      "title": "Read impact classifications carefully",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "sectionId": "service-copy-77-3",
+      "title": "Keep the responsibilities clear",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "sectionId": "service-copy-77-5",
+      "title": "Retain records after repairs",
+      "renderedAsMediaSection": false,
+      "status": "not-rendered-in-this-layout"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "sectionId": "service-copy-78-3",
+      "title": "Define the permanent repair",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "sectionId": "service-copy-78-5",
+      "title": "Read wind claims with the installation requirements",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/upper-arlington-oh/",
+      "sectionId": "service-copy-79-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/westerville-oh/",
+      "sectionId": "service-copy-80-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/windows/",
+      "sectionId": "service-copy-81-3",
+      "title": "Understand the frame and glass specification",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/windows/",
+      "sectionId": "service-copy-81-5",
+      "title": "Coordinate adjoining siding and finishes",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/worthington-oh/",
+      "sectionId": "service-copy-82-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    },
+    {
+      "route": "/zanesville-oh/",
+      "sectionId": "service-copy-83-3",
+      "title": "Other projects around your home",
+      "renderedAsMediaSection": true,
+      "status": "pending-page-review"
+    }
+  ]
+}

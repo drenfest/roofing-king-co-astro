@@ -2454,7 +2454,12 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "image": {
+                "src": "/media/gutter-details/gutter-corner-1200.webp",
+                "alt": "Close-up of an illustrative gutter corner, open run and downspout outlet"
+              },
+              "caption": "Illustrative gutter corner and outlet arrangement."
             },
             {
               "title": "Downspouts and rainwater discharge",
@@ -2467,7 +2472,12 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "image": {
+                "src": "/media/gutter-details/downspout-discharge-1200.webp",
+                "alt": "Illustrative downspout connected to an extension carrying water away from the foundation"
+              },
+              "caption": "Illustrative downspout and above-ground discharge extension."
             },
             {
               "title": "Gutter materials, profiles and finishes",
@@ -2480,7 +2490,12 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "image": {
+                "src": "/media/gutter-details/gutter-profiles-1200.webp",
+                "alt": "Illustrative white and charcoal metal gutter samples beside a copper half-round profile"
+              },
+              "caption": "Illustrative metal profiles and finishes; not a confirmed product selection."
             },
             {
               "title": "Seamless gutters and gutter guards: different benefits",
@@ -2523,7 +2538,12 @@
                   ]
                 }
               ],
-              "id": "service-copy-46-4"
+              "id": "service-copy-46-4",
+              "image": {
+                "src": "/media/gutter-details/gutter-protection-1200.webp",
+                "alt": "Illustrative mesh gutter guard holding leaves above the gutter opening"
+              },
+              "caption": "Illustrative mesh guard and debris protection detail."
             }
           ],
           "image": {
@@ -3922,6 +3942,136 @@
         "Gutter installation: preparation, attachment and drainage",
         "What a Dublin gutter installation estimate should include",
         "Review the proposed gutter lengths and material, downspout positions and discharge route for your Dublin home. Confirm which fascia or roof-edge repairs, removal, supports, connections, cleanup and accessories are included before agreeing to the installation."
+      ]
+    }
+  },
+  "/ice-dam-removal/": {
+    "reviewedAt": "2026-10-21",
+    "reason": "Client requested an ice-dam cross-section and a clearer explanation of refreezing, trapped meltwater, roof and wall leaks, and the separate effects of snow and ice weight.",
+    "sources": [
+      {
+        "url": "https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/dealing-with-and-preventing-ice-dams",
+        "checked": "2026-10-21"
+      },
+      {
+        "url": "https://extension.missouri.edu/news/ice-dams-on-the-roof-can-damage-your-home",
+        "checked": "2026-10-21"
+      },
+      {
+        "url": "https://www.weather.gov/grr/roofIceDams?lv=true",
+        "checked": "2026-10-21"
+      }
+    ],
+    "editorial": {
+      "opening": {
+        "id": "service-topics",
+        "eyebrow": "Ice dams, trapped water and winter roof leaks",
+        "title": "How ice dams form and let water into your home",
+        "description": "",
+        "intro": [],
+        "caption": "The ice ridge blocks drainage at the eave. Blue arrows show meltwater and a possible route beneath the shingles into the roof or exterior wall.",
+        "selectorLabel": "Service details",
+        "items": [
+          {
+            "id": "service-detail-52-1",
+            "tabLabel": "Melting snow refreezes at the roof edge",
+            "title": "Melting snow refreezes at the roof edge",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave."
+                  }
+                ]
+              }
+            ],
+            "description": "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave.",
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Call About Roof-Edge Ice",
+            "icon": "roof"
+          },
+          {
+            "id": "ice-dam-mechanism-2",
+            "tabLabel": "Water collects behind the ice ridge",
+            "title": "Water collects behind the ice ridge",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen."
+                  }
+                ]
+              }
+            ],
+            "description": "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen.",
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Call About Roof-Edge Ice",
+            "icon": "roof"
+          },
+          {
+            "id": "ice-dam-mechanism-3",
+            "tabLabel": "Leaks can reach ceilings and exterior walls",
+            "title": "Leaks can reach ceilings and exterior walls",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment."
+                  }
+                ]
+              }
+            ],
+            "description": "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment.",
+            "detail": "",
+            "highlights": [],
+            "href": "#estimate",
+            "label": "Call About Roof-Edge Ice",
+            "icon": "roof"
+          }
+        ],
+        "illustration": "ice-dam"
+      }
+    },
+    "copy": {
+      "expectedBlocks": [
+        "Ice collecting at the roof edge can interfere with drainage and contribute to water entering the home. If you are seeing roof-edge buildup or a winter leak in Columbus, contact Roof King with the address, affected area and whether water is entering now. Availability and the appropriate next step need to be confirmed directly.",
+        "How ice dams form and let water into your home",
+        "Melting snow refreezes at the roof edge",
+        "Heat escaping into an attic can warm the roof enough to melt snow. That water runs downhill to the colder overhang, where it refreezes. Repeated melting and freezing can build a thick ridge of ice along the eave.",
+        "Water collects behind the ice ridge",
+        "As the ridge grows, it blocks normal runoff and creates a pocket of meltwater behind it. Water can back up beneath the shingles and enter through gaps or vulnerable roof details. The roof does not have to sink or sag for this to happen.",
+        "Leaks can reach ceilings and exterior walls",
+        "Once water gets beneath the roof covering, it can wet the roof deck and attic insulation, then travel into ceilings or down an exterior wall. The stain indoors may appear away from the entry point. Heavy snow and ice also add weight that can damage the roof edge or gutters; visible roof sagging is a separate concern that needs prompt assessment.",
+        "Keep the area clear while arranging help",
+        "Avoid climbing onto an icy roof, breaking ice with improvised tools or standing beneath unstable buildup. Falling ice and slippery access create hazards. Share observations or photographs only from a safe position, and describe any active interior water entry when contacting the team.",
+        "What removal needs to consider",
+        "The roof material, ice location, access and condition influence the appropriate method. An assessment should establish the affected area and the practical way to address the buildup without treating the covering as an interchangeable surface. Confirm the method and equipment to be used for the specific job before the work is agreed.",
+        "The initial work should identify what ice area is being addressed, any access limitations and what follow-up assessment remains. Removal may restore a drainage path or reduce the immediate buildup, but it does not establish that the roofing or interior has been fully repaired.",
+        "Check the roof after the immediate problem",
+        "Affected shingles, flashing, roof edges or other details may need roof repair. Water-damaged insulation or interior finishes can require separate work. The proposal should distinguish removal, roofing repairs and interior effects so each part is understood and authorized.",
+        "Investigate recurring conditions",
+        "Air leakage",
+        "Unintended movement of warm indoor air into the attic can contribute to heat loss. The relevant openings and connections need assessment rather than assuming insulation covers every air leak.",
+        "Insulation",
+        "Coverage, condition and the selected material affect resistance to heat flow. More material is not automatically the solution if moisture or air leakage remains unresolved. The attic insulation service explains the assessment and preparation questions.",
+        "Ventilation and roof arrangement",
+        "The intended attic ventilation path and roof details should be considered with the other findings. No single accessory or blanket remedy can be assumed to resolve every recurring ice condition.",
+        "Ice dam questions",
+        "Does removal guarantee the ice will not return?",
+        "No. Weather and the conditions contributing to the buildup may persist. Immediate removal and investigation of recurrence are separate decisions.",
+        "Will gutter guards prevent ice dams?",
+        "They should not be treated as a universal prevention method. Roof-edge ice can involve the roof and attic beyond debris in the gutters.",
+        "What affects the estimate?",
+        "Access, roof height, the location and extent of the buildup, the roof condition and any separate repair work affect the work. Confirm what the removal visit includes and what follow-up work will be assessed separately.",
+        "Tell us about the ice and any active leak",
+        "Contact Roof King with the property address and a description of the affected roof edge. The team can discuss current availability and the next step toward removal, repair and any necessary attic assessment."
       ]
     }
   }

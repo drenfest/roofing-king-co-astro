@@ -2595,5 +2595,15 @@
   ],
   "remainingPages": 73,
   "errors": [],
-  "unreviewedPageDataUnchanged": true
+  "unreviewedPageDataUnchanged": true,
+  "sectionPhotoReview": {
+    "standard": "Three topic-matched photos opposite media-section copy; responsive optimized images and mobile checks.",
+    "inventory": "migration/service-section-photo-review.json",
+    "example": {
+      "route": "/gutters/",
+      "sectionId": "service-copy-46-3"
+    },
+    "status": "One example ready; other sections pending their ten-page photo pass.",
+    "copyChangesInThisPhotoPass": false
+  }
 }

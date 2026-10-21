@@ -1,0 +1,27 @@
+{
+  "/gutters/": {
+    "service-copy-46-3": [
+      {
+        "image": {
+          "src": "/media/gutter-details/gutter-corner-1200.webp",
+          "alt": "Illustrative open gutter run, corner and outlet showing the water route to inspect"
+        },
+        "caption": "Illustrative gutter run and outlet: inspect the water route before replacement."
+      },
+      {
+        "image": {
+          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+          "alt": "Existing-site photograph of gutter attachment beside the fascia, soffit and siding"
+        },
+        "caption": "Roof-edge detail from the existing site: fascia, soffit and gutter attachment."
+      },
+      {
+        "image": {
+          "src": "/media/gutter-details/downspout-discharge-1200.webp",
+          "alt": "Illustrative connected downspout extension carrying water away from the wall"
+        },
+        "caption": "Illustrative downspout extension: complete the discharge route away from the wall."
+      }
+    ]
+  }
+}

@@ -219,7 +219,7 @@
     "description": "Compare siding materials and brands with Roof King.",
     "eyebrow": "Exterior product library",
     "heading": "Siding products that shape your exterior.",
-    "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
+    "copy": "Vinyl, engineered wood and fiber cement can create a similar lap-siding look, but they handle movement, moisture and maintenance differently. Explore the materials below, then see how the protective layers and finishing details work together.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -235,7 +235,7 @@
     ],
     "cards": [
       {
-        "title": "Vinyl Siding",
+        "title": "Vinyl siding",
         "description": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
         "href": "/products/siding/vinyl/",
         "action": "Explore Vinyl Siding",
@@ -245,7 +245,7 @@
         }
       },
       {
-        "title": "Engineered Wood Siding",
+        "title": "Engineered wood siding",
         "description": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
         "href": "/products/siding/engineered-wood/",
         "action": "Explore Engineered Wood Siding",
@@ -255,7 +255,7 @@
         }
       },
       {
-        "title": "Fiber Cement Siding",
+        "title": "Fiber cement siding",
         "description": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
         "href": "/products/siding/fiber-cement/",
         "action": "Explore Fiber Cement Siding",
@@ -266,7 +266,7 @@
       },
       {
         "title": "Ply Gem",
-        "description": "Explore product choices, installation requirements and manufacturer documentation.",
+        "description": "Ply Gem brings together siding and exterior-product brands, including Variform vinyl siding. Explore its brand overview to connect siding profiles with coordinated trim and exterior finishes.",
         "href": "/products/siding/vinyl/ply-gem/",
         "action": "Explore Ply Gem",
         "image": {
@@ -277,23 +277,8 @@
         }
       }
     ],
-    "secondaryTitle": "Siding materials, finishes and installation details",
-    "secondary": [
-      {
-        "title": "Appearance and details",
-        "copy": "Compare texture, profile, color and how the material meets corners, openings and adjoining surfaces."
-      },
-      {
-        "title": "Product documentation",
-        "copy": "Review the specification and maintenance instructions for the exact product line, rather than assuming all products from one brand are alike."
-      },
-      {
-        "title": "Installation planning",
-        "copy": "Review existing wall condition, panel fastening, flashing, trim and finishing with Roof King.",
-        "href": "/siding/",
-        "label": "Explore siding services"
-      }
-    ],
+    "secondaryTitle": "How siding materials and wall protection work together",
+    "secondary": [],
     "brands": {
       "eyebrow": "Explore the manufacturers",
       "title": "Explore brands for these materials.",
@@ -304,7 +289,8 @@
         "james-hardie",
         "ply-gem"
       ]
-    }
+    },
+    "guidance": "siding"
   },
   "/products/decking/": {
     "title": "Decking Products",

@@ -80,7 +80,7 @@ StormDamageCallout.astro is a static, responsive early-page storm inspection cal
 
 ReviewCard.astro owns review excerpts, confirmed individual ratings, author/date and original platform badges for both CardSection and the review hub. ReviewCollection.svelte progressively filters static cards by their data-review-topics attribute. Without JS every review remains visible. Filters keep focus, announce counts and inherit shared reduced-motion behavior.
 
-BrandStrip stacks its heading above a full-width logo grid below 1000px, with at most two columns below 760px. Single-brand selections retain their 240px maximum. Never constrain the entire multi-brand list to one logo’s width; logos retain intrinsic aspect ratios.
+BrandStrip stacks its heading above the full-width native logo carousel below 1000px. Three logos fit on desktop and two on phones, with touch swiping and progressive arrow controls. Logos retain intrinsic aspect ratios.
 
 LandingHero accepts serviceName for service pages and generates the jump-link label Read More About {Service}. Non-service pages can retain hero.nextLabel. Keep the existing section destination and down arrow.
 
@@ -112,3 +112,17 @@ ServicePaths resolves each tab destination through service-hero.ts and renders i
 
 
 MenuPreview now renders a cell from navigation-atlas.json instead of fetching separate photos. One module-level decoded image promise is shared by every preview instance; the atlas is requested only on first menu opening, then CSS background positions swap with reduced-motion-aware fades. Every distinct destination has an explicit cell; no family fallback images remain.
+
+StormDamageCallout uses a slanted charcoal weather band with decorative background wind swirls and a photographic-style orange lightning background, aligned copy and a separate action. The lightning uses a lazy responsive WebP (26 KB desktop / 18 KB mobile), with a dark readability overlay. Wind swirls remain inline SVG; their slight hover motion respects reduced motion. No JavaScript is added. Preserve the optional heading level, local storm destination and existing resource links.
+
+BrandStrip now uses native horizontal scroll snapping with touch swiping, proportional linked logos and small progressive arrow controls. All brands remain SSR links with no autoplay or carousel dependency. QuoteExperience has a fixed Get a free quote heading and a wider responsive layout; compact QuoteForm changes textarea rows only and preserves all labels, consent, disabled submission and phone/booking alternatives. HomeWorkmanship omits the numbered process block.
+
+The brand carousel has its own soft-ivory diagonal band, with shallower clipped edges on phones. Native overflow handles touch swipes and snap alignment; previous/next buttons move a page of logos without autoplay.
+
+SidingProductGuide replaces the siding product hub’s generic guidance cards with illustrated material comparisons, a static accessible wall-drainage diagram and window/trim explanations. Photographs are explicitly illustrative and use lazy responsive WebP sources; the section adds no client island. It names technical reasons for movement, moisture control, edge protection and coating care, with primary-source references.
+
+ServiceContentBand comparison cards accept optional image/caption fields and display lazy responsive photographs above their existing headings and rich body copy. /gutters/ uses four separate illustrative close-ups for layout, discharge, profiles and protection. Image metadata is shared through gutter-detail-media.json; reviewed card imagery persists in service-overrides.json.
+
+SectionPhotoGallery renders exactly three distinct, responsive, lazy images with captions: a desktop photo column and compact one-wide/two-small phone layout. ServiceContentBand now receives pagePath and resolves optional reviewed galleries from service-section-galleries.json. Without a reviewed entry it retains the existing single figure. The gutters roof-edge section is the only example; further adoption belongs to the ten-page review cycle.
+
+IceDamDiagram.astro provides an accessible, static SVG cross-section for the ice-dam leaf opening. ServiceArticle accepts illustration="ice-dam" in place of a photograph; no new image request or client JavaScript is needed. It distinguishes trapped meltwater from structural sagging.

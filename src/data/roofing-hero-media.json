@@ -879,24 +879,24 @@
       }
     ]
   },
-  "/media/roofing-heroes/ice-dam-removal-1672.webp": {
+  "/media/roofing-heroes/ice-dam-removal-v2-1672.webp": {
     "width": 1672,
     "height": 941,
     "variants": [
       {
-        "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+        "src": "/media/roofing-heroes/ice-dam-removal-v2-640.webp",
         "width": 640
       },
       {
-        "src": "/media/roofing-heroes/ice-dam-removal-960.webp",
+        "src": "/media/roofing-heroes/ice-dam-removal-v2-960.webp",
         "width": 960
       },
       {
-        "src": "/media/roofing-heroes/ice-dam-removal-1280.webp",
+        "src": "/media/roofing-heroes/ice-dam-removal-v2-1280.webp",
         "width": 1280
       },
       {
-        "src": "/media/roofing-heroes/ice-dam-removal-1672.webp",
+        "src": "/media/roofing-heroes/ice-dam-removal-v2-1672.webp",
         "width": 1672
       }
     ]

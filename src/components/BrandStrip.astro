@@ -17,19 +17,62 @@ const selected=[...new Set(brands.brandIds)].map(id=>{
 {selected.length>0 && <section class="rk-home-brands rk-block-trusted-brands" aria-label="Trusted brands">
   <div class="rk-section-inner rk-brands-inner">
     <div class="rk-brands-heading"><p class="rk-home-eyebrow">{brands.eyebrow}</p><Heading class="rk-brand-heading-title">{brands.title}</Heading><p>{brands.description}</p></div>
-    <div class="rk-home-brand-list" style={`--brand-columns:${Math.min(selected.length,4)};--brand-mobile-columns:${Math.min(selected.length,2)};--brand-max-width:${selected.length*240}px`}>{selected.map(brand=><a class="rk-home-brand-mark" href={brand.href} data-brand-id={brand.id} aria-label={`Explore ${brand.name}`}><span class="rk-shingle-bg" aria-hidden="true"></span><img {...brand.image} loading="lazy" decoding="async"/></a>)}</div>
+    <div class="rk-brand-carousel" data-brand-carousel role="region" aria-roledescription="carousel" aria-label="Product manufacturers">
+      <div class="rk-home-brand-list" tabindex="0" aria-label="Manufacturer links; scroll for more brands">{selected.map(brand=><a class="rk-home-brand-mark" href={brand.href} data-brand-id={brand.id} aria-label={`Explore ${brand.name}`}><img {...brand.image} loading="lazy" decoding="async"/></a>)}</div>
+      <div class="rk-brand-controls" hidden>
+        <span class="rk-brand-status" aria-live="polite" aria-atomic="true"></span>
+        <button type="button" data-brand-prev aria-label="Previous brands"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m14 6-6 6 6 6M8 12h13"/></svg></button>
+        <button type="button" data-brand-next aria-label="Next brands"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m10 6 6 6-6 6M16 12H3"/></svg></button>
+      </div>
+    </div>
   </div>
 </section>}
 <style>
-  .rk-home-brand-mark:focus-visible{outline:3px solid #bd5207;outline-offset:-5px;}
-  .rk-home-brand-list{grid-template-columns:repeat(var(--brand-columns),minmax(0,1fr));width:100%;max-width:var(--brand-max-width);}
-  .rk-home-brand-mark img{width:auto;height:auto;max-width:min(76%,172px);max-height:58px;object-fit:contain;}
-  @media(max-width:1000px){
-    section.rk-block-trusted-brands .rk-brands-inner{grid-template-columns:minmax(0,1fr);gap:1.5rem;}
-    section.rk-block-trusted-brands .rk-home-brand-list{width:100%;min-width:0;justify-self:start;}
-  }
-  @media(max-width:760px){
-    section.rk-block-trusted-brands .rk-home-brand-list{grid-template-columns:repeat(var(--brand-mobile-columns),minmax(0,1fr));gap:1rem;}
-    section.rk-block-trusted-brands .rk-home-brand-mark{min-width:0;min-height:104px;}
-  }
+  section.rk-block-trusted-brands{padding-block:2.8rem;background:var(--rk-paper-soft,#f0ebe2);border:0;clip-path:polygon(0 18px,100% 0,100% calc(100% - 18px),0 100%);}
+  section.rk-block-trusted-brands::before,section.rk-block-trusted-brands::after{display:none;}
+  section.rk-block-trusted-brands .rk-brands-inner{grid-template-columns:minmax(220px,.8fr) minmax(0,1.5fr);gap:2.5rem;align-items:center;}
+  .rk-brands-heading .rk-brand-heading-title{font-size:clamp(1.35rem,2vw,1.75rem);line-height:1.25;margin:.5rem 0;max-width:26ch;}
+  .rk-brands-heading>p:not(.rk-home-eyebrow){font-size:.85rem;line-height:1.65;margin:0;}
+  .rk-brand-carousel{min-width:0;}
+  section.rk-block-trusted-brands .rk-home-brand-list{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:1rem;width:100%;max-width:none;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#bcb4a6 transparent;padding:4px 2px 10px;}
+  section.rk-block-trusted-brands .rk-home-brand-mark{flex:0 0 calc((100% - 2rem)/3);min-width:0;min-height:88px;border:1px solid var(--rk-line,#ded7cb);border-radius:2px;background:#fff;box-shadow:none;clip-path:none;scroll-snap-align:start;transform:none;translate:none;}
+  .rk-home-brand-mark::before,.rk-home-brand-mark::after{display:none;}
+  .rk-home-brand-mark:focus-visible{outline:2px solid #bd5207;outline-offset:-4px;}
+  .rk-home-brand-mark img{width:auto;height:auto;max-width:min(78%,150px);max-height:48px;object-fit:contain;}
+  section.rk-block-trusted-brands .rk-home-brand-mark:hover{border-color:#bd5207;box-shadow:none;transform:none;}
+  .rk-brand-controls{display:flex;justify-content:flex-end;align-items:center;gap:.4rem;margin-top:.3rem;}
+  .rk-brand-controls[hidden]{display:none;}
+  .rk-brand-status{margin-right:auto;color:var(--rk-muted);font-size:.72rem;font-variant-numeric:tabular-nums;}
+  .rk-brand-controls button{display:grid;place-items:center;min-width:44px;height:44px;border:1px solid var(--rk-line);border-radius:2px;background:transparent;color:var(--rk-ink);cursor:pointer;}
+  .rk-brand-controls button:hover:not(:disabled){background:var(--rk-ink);color:var(--rk-paper);}
+  .rk-brand-controls button:disabled{opacity:.3;cursor:default;}
+  .rk-brand-controls svg{width:20px;height:20px;stroke:currentColor;stroke-width:1.4;}
+  @media(max-width:1000px){section.rk-block-trusted-brands .rk-brands-inner{grid-template-columns:minmax(0,1fr);gap:1.1rem;}.rk-brands-heading .rk-brand-heading-title{max-width:none;}.rk-brands-heading>p:not(.rk-home-eyebrow){max-width:65ch;}}
+  @media(max-width:600px){section.rk-block-trusted-brands .rk-home-brand-mark{flex-basis:calc((100% - 1rem)/2);min-height:84px;}section.rk-block-trusted-brands{padding-block:2rem;clip-path:polygon(0 10px,100% 0,100% calc(100% - 10px),0 100%);}}
+  @media(prefers-reduced-motion:reduce){section.rk-block-trusted-brands .rk-home-brand-list{scroll-behavior:auto;}}
 </style>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-brand-carousel]').forEach(root=>{
+    const track=root.querySelector<HTMLElement>('.rk-home-brand-list')!;
+    const slides=Array.from(track.querySelectorAll<HTMLElement>('.rk-home-brand-mark'));
+    const controls=root.querySelector<HTMLElement>('.rk-brand-controls')!;
+    const previous=root.querySelector<HTMLButtonElement>('[data-brand-prev]')!;
+    const next=root.querySelector<HTMLButtonElement>('[data-brand-next]')!;
+    const status=root.querySelector<HTMLElement>('.rk-brand-status')!;
+    let frame=0;
+    const update=()=>{
+      const bounds=track.getBoundingClientRect();
+      const visible=slides.map((slide,index)=>({index,rect:slide.getBoundingClientRect()})).filter(({rect})=>rect.right>bounds.left+4&&rect.left<bounds.right-4);
+      controls.hidden=track.scrollWidth<=track.clientWidth+4;
+      previous.disabled=track.scrollLeft<4;
+      next.disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-4;
+      const label=visible.length?`${visible[0].index+1}–${visible.at(-1)!.index+1} of ${slides.length} brands`:'';
+      if(status.textContent!==label)status.textContent=label;
+    };
+    const schedule=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(update);};
+    for(const [button,direction] of [[previous,-1],[next,1]] as const){button.addEventListener('click',()=>track.scrollBy({left:direction*(track.clientWidth+16),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));}
+    track.addEventListener('scroll',schedule,{passive:true});
+    new ResizeObserver(schedule).observe(track);
+    update();
+  });
+</script>

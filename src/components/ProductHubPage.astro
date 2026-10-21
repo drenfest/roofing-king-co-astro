@@ -8,7 +8,8 @@ import type { BrandSection } from '../data/section-types';
 import type { ProductPresentation } from '../data/product-types';
 import {productHeroImage,productFamily} from '../data/product-presentation';
 import ServiceIcon from './ServiceIcon.astro';
-interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];brands?:BrandSection;logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
+import SidingProductGuide from './SidingProductGuide.astro';
+interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];brands?:BrandSection;logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];guidance?:string;secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
 interface Props {page:CollectionEntry<'pages'>;data:Hub;}
 const {page,data}=Astro.props;
 const products:Record<string,ProductPresentation>=catalog;
@@ -26,10 +27,10 @@ const products:Record<string,ProductPresentation>=catalog;
       </a>;
     })}</div>
   </section>}
-  <section id={data.cards.length?undefined:'product-range'} class="rk-product-guidance-band" aria-labelledby="product-guidance-title"><div class="rk-section-inner rk-product-hub-guidance">
+  {data.guidance==='siding'?<SidingProductGuide/>:<section id={data.cards.length?undefined:'product-range'} class="rk-product-guidance-band" aria-labelledby="product-guidance-title"><div class="rk-section-inner rk-product-hub-guidance">
     <div class="rk-product-section-heading"><p class="rk-home-eyebrow">{data.breadcrumbs.at(-1)?.label} · buying considerations</p><h2 id="product-guidance-title">{data.secondaryTitle}</h2></div>
     <div class="rk-product-guidance-grid" data-count={data.secondary.length}>{data.secondary.map((item,index)=><article><span class="rk-product-guidance-icon"><ServiceIcon name={productFamily(page.data.permalink)==='roofing'?(['shield','storm','roof','cost'] as const)[index%4]:(['roof','shield','cost','check'] as const)[index%4]}/></span><h3>{item.title}</h3><p>{item.copy}</p>{item.href&&<a href={item.href}>{item.label}<span aria-hidden="true">→</span></a>}</article>)}</div>
     {data.reference&&<p class="rk-product-guidance-reference"><a href={data.reference.href} target="_blank" rel="noopener noreferrer">{data.reference.label} <span aria-hidden="true">↗</span></a></p>}
-  </div></section>
+  </div></section>}
   {data.brands && <BrandStrip brands={data.brands}/>}
 </ProductLayout>

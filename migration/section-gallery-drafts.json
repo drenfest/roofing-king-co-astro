@@ -1,0 +1,21 @@
+{
+  "mode": "built-in image generation",
+  "status": "Deferred drafts: client requested only one gutters example, then page-by-page adoption in ten-page reviews. Not reviewed, optimized, published or used by the site.",
+  "images": [
+    {
+      "id": "roof-flashing",
+      "prompt": "Use case: photorealistic-natural. Asset: premium exterior contractor educational photo, wide landscape 3:2. Extremely realistic ordinary residential construction materials and believable geometry. Neutral charcoal/ivory palette, natural daylight. No logos, writing, annotations, diagrams, split screens, people, faces, text or watermarks. Illustrative generic scene, not an actual customer project, not a named product or a dimensioned installation instruction. Close-up of a correctly integrated black rubber plumbing vent boot on an architectural asphalt-shingle roof, vent pipe vertical, upper flange tucked underneath the upslope shingle courses and lower flange lying over the downslope shingles to shed water. Neat realistic roof work, weathered but intact shingles, simple slope, no piles of sealant, no other objects, camera looking obliquely down from above.",
+      "original": "output/imagegen/section-gallery-drafts/roof-flashing.png"
+    },
+    {
+      "id": "ridge-vent",
+      "prompt": "Use case: photorealistic-natural. Asset: premium exterior contractor educational photo, wide landscape 3:2. Extremely realistic ordinary residential construction materials and believable geometry. Neutral charcoal/ivory palette, natural daylight. No logos, writing, annotations, diagrams, split screens, people, faces, text or watermarks. Illustrative generic scene, not an actual customer project, not a named product or a dimensioned installation instruction. Close-up of a realistic asphalt shingle roof ridge with a low-profile continuous ridge vent beneath overlapping matching ridge-cap shingles, viewed along the ridge at a low angle. The dark narrow ventilation slot is visible beneath the edge of the cap shingles, correctly integrated continuous lines, trees softly blurred, ordinary residential roof, not a dramatic huge building.",
+      "original": "output/imagegen/section-gallery-drafts/ridge-vent.png"
+    },
+    {
+      "id": "site-staging",
+      "prompt": "Use case: photorealistic-natural. Asset: premium exterior contractor educational photo, wide landscape 3:2. Extremely realistic ordinary residential construction materials and believable geometry. Neutral charcoal/ivory palette, natural daylight. No logos, writing, annotations, diagrams, split screens, people, faces, text or watermarks. Illustrative generic scene, not an actual customer project, not a named product or a dimensioned installation instruction. Wide three-quarter view of an ordinary suburban home's driveway prepared for roof replacement. A small neatly placed stack of wrapped shingle bundles with plain unprinted packaging, a protective tarp over a shrub near the wall, clear pedestrian route to the front door, a compact roof debris container set well back at the drive edge, no workers or machinery in motion. Show protected landscaping, driveway access and tidy material staging together, realistic modest house.",
+      "original": "output/imagegen/section-gallery-drafts/site-staging.png"
+    }
+  ]
+}

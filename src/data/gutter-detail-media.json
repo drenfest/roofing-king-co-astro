@@ -1,0 +1,74 @@
+{
+  "/media/gutter-details/gutter-corner-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/gutter-details/gutter-corner-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/gutter-details/gutter-corner-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/gutter-details/gutter-corner-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/gutter-details/downspout-discharge-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/gutter-details/downspout-discharge-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/gutter-details/downspout-discharge-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/gutter-details/downspout-discharge-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/gutter-details/gutter-profiles-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/gutter-details/gutter-profiles-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/gutter-details/gutter-profiles-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/gutter-details/gutter-profiles-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/gutter-details/gutter-protection-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/gutter-details/gutter-protection-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/gutter-details/gutter-protection-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/gutter-details/gutter-protection-1200.webp",
+        "width": 1200
+      }
+    ]
+  }
+}

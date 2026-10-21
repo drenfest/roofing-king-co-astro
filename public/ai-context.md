@@ -20,3 +20,9 @@ media/service-heroes contains responsive WebP versions of the 43 supplementary s
 
 
 media/navigation/menu-thumbnails-<hash>.webp contains all 121 distinct navigation thumbnails. It loads once on first menu opening and is immutable-cacheable because its filename includes a content hash. The three separate 640px source concepts are authoring inputs only; the menu never requests them individually.
+
+media/weather contains optimized responsive orange-lightning decorative backgrounds, including a separate mobile crop. Original generated PNG and full prompt provenance are outside public in output/imagegen/weather and migration/storm-banner-image.json.
+
+media/siding-guide contains illustrative material-profile and window-trim images at 480/800/1200px in WebP. Originals remain outside public; migration/siding-guide-images.json records prompts, edits and file sizes.
+
+media/gutter-details contains four illustrative close-up photographs with three responsive WebP sizes each. Source PNGs stay under output/imagegen/gutter-details; full prompts and byte counts are in migration/gutter-detail-images.json.

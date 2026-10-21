@@ -1445,48 +1445,76 @@
     },
     {
       "route": "/ice-dam-removal/",
-      "slug": "ice-dam-removal",
+      "slug": "ice-dam-removal-v2",
       "family": "ice",
       "service": "Ice Dam Removal",
       "city": "Columbus",
       "objectPosition": "70% center",
-      "prompt": "Create one premium ultra-wide 16:9 photorealistic architectural editorial photograph for a full-bleed roof ice-dam service hero. A realistic Ohio suburban home in quiet winter conditions, close elevated oblique perspective focusing on snow-covered charcoal shingles at the right eave with a modest ice buildup at the gutter and short natural icicles. Intact roof and home, no dramatic destruction. Clean winter light, soft leafless trees beyond, understated forest green evergreen accents. Most important roof detail on right half, simpler darker left background for white headline. No people, unsafe work, ladders, tools, text, logos, watermarks, diagrams or collage. Illustrative architectural scene, not a documentary client project.",
+      "prompt": "Edit this existing winter roof photograph so it clearly depicts an actual ROOF ICE DAM, rather than merely icicles on a gutter. Preserve the same house, stone-and-siding facade, camera angle, snowy surroundings, trees, winter lighting and wide composition. Change the eave in the right half: build a substantial continuous irregular ridge/berm of layered translucent white-gray refrozen ICE resting ON THE SHINGLE ROOF over the cold eave, extending roughly 12 to 24 inches UPSLOPE from the gutter. The thick lumpy ice ridge spans the visible lower roof edge, visually raised above the shingle plane, with a shallow darker wet meltwater strip immediately BEHIND/UPSLOPE of the ice ridge where water is trapped below the snowpack. Keep deeper undisturbed snow higher up the slope. Some ice can spill over the gutter with a few modest icicles, but the main subject is the broad ridge of ice ON THE ROOF holding back meltwater, not dangling icicles or just a frozen gutter. Realistic gravity, scale, irregular ice layering and cloudy translucent texture. Make the roof ice dam unmistakable and readable in a website hero crop. No giant ice wall, no cutaway, no diagrams, arrows, text, people, tools, logos, structural destruction or flooded roof swimming pool. Photorealistic editorial winter architecture; illustrative, not an actual customer job.\n",
       "status": "generated",
-      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-692c7927-218b-4acf-9e41-ab1768ff9599.png",
+      "generatedFile": "C:/Users/drenf/.codex/generated_images/01a14a9f-9bc3-7c13-818d-0a11374b44af/exec-b8e16a23-63c3-4c27-9b19-83f8d45dfe02.png",
       "assets": [
         {
-          "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+          "src": "/media/roofing-heroes/ice-dam-removal-v2-640.webp",
           "width": 640,
-          "bytes": 43450
+          "bytes": 44004
         },
         {
-          "src": "/media/roofing-heroes/ice-dam-removal-960.webp",
+          "src": "/media/roofing-heroes/ice-dam-removal-v2-960.webp",
           "width": 960,
-          "bytes": 80818
+          "bytes": 80858
         },
         {
-          "src": "/media/roofing-heroes/ice-dam-removal-1280.webp",
+          "src": "/media/roofing-heroes/ice-dam-removal-v2-1280.webp",
           "width": 1280,
-          "bytes": 127608
+          "bytes": 124536
         },
         {
-          "src": "/media/roofing-heroes/ice-dam-removal-1672.webp",
+          "src": "/media/roofing-heroes/ice-dam-removal-v2-1672.webp",
           "width": 1672,
-          "bytes": 183456
+          "bytes": 169830
         }
       ],
-      "originalBytes": 2807213,
-      "visualReview": "Inspected full-resolution generated image for relevant roof drainage or ice-dam subject, realistic architecture, clear composition and absence of documentary-project claims.",
-      "originalFile": "output/imagegen/roofing-heroes/ice-dam-removal.png"
+      "originalBytes": 2754283,
+      "visualReview": "Edited original winter scene: broad irregular ice ridge on the roof over the eave, with a shallow wet band upslope, snow farther up the slope and modest gutter icicles. Inspected at full resolution; not a customer project.",
+      "originalFile": "output/imagegen/roofing-heroes/ice-dam-removal-v2.png",
+      "previousVersion": {
+        "prompt": "Create one premium ultra-wide 16:9 photorealistic architectural editorial photograph for a full-bleed roof ice-dam service hero. A realistic Ohio suburban home in quiet winter conditions, close elevated oblique perspective focusing on snow-covered charcoal shingles at the right eave with a modest ice buildup at the gutter and short natural icicles. Intact roof and home, no dramatic destruction. Clean winter light, soft leafless trees beyond, understated forest green evergreen accents. Most important roof detail on right half, simpler darker left background for white headline. No people, unsafe work, ladders, tools, text, logos, watermarks, diagrams or collage. Illustrative architectural scene, not a documentary client project.",
+        "originalFile": "output/imagegen/roofing-heroes/ice-dam-removal.png",
+        "assets": [
+          {
+            "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+            "width": 640,
+            "bytes": 43450
+          },
+          {
+            "src": "/media/roofing-heroes/ice-dam-removal-960.webp",
+            "width": 960,
+            "bytes": 80818
+          },
+          {
+            "src": "/media/roofing-heroes/ice-dam-removal-1280.webp",
+            "width": 1280,
+            "bytes": 127608
+          },
+          {
+            "src": "/media/roofing-heroes/ice-dam-removal-1672.webp",
+            "width": 1672,
+            "bytes": 183456
+          }
+        ]
+      },
+      "editSourceImage": "output/imagegen/roofing-heroes/ice-dam-removal.png",
+      "method": "built-in image generation, edit mode"
     }
   ],
   "metrics": {
     "images": 41,
     "variants": 164,
-    "originalBytes": 116400542,
-    "optimizedBytes": 19763716,
+    "originalBytes": 116347612,
+    "optimizedBytes": 19747612,
     "largestVariantBytes": 278112,
-    "averageMobileBytes": 44750,
-    "fullSizeBytes": 8178706
+    "averageMobileBytes": 44764,
+    "fullSizeBytes": 8165080
   }
 }

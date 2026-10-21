@@ -10,10 +10,10 @@ import SectionHeading from './SectionHeading.astro';
       {services.items.map((service, i) => <a class={`rk-home-service-card rk-service-card-${i + 1}`} href={service.href}>
         <h3>{service.title}</h3>
         {service.image && <HomeImage {...service.image} class="rk-home-service-image" sizes="(max-width: 760px) calc(100vw - 5rem), (max-width: 1060px) 43vw, 350px"/>}
-        <p>{service.description}</p><strong>Learn More</strong>
+        <p>{service.description}</p><strong>Learn more</strong>
       </a>)}
       <aside class="rk-home-service-visual rk-home-service-cta" aria-label="Request an exterior services quote">
-        <a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get A Free Quote Now</a>
+        <a class="rk-button rk-button-primary" href="#quote-form" data-quote-open>Get a free quote</a>
         <a class="rk-home-service-phone" href={site.phoneHref}>{site.phone}</a>
       </aside>
     </div>

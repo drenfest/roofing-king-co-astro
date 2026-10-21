@@ -39,7 +39,7 @@ The dedicated Storm Damage top-level menu adds one navigation label. Between 106
 
 reviews.css styles the native review hub: slanted source/share bands, proportional platform logos, responsive review grids, topic filters and full readable excerpts. It inherits motion.css and existing card branding; no carousel or external review widget is loaded.
 
-Editorial brand strips use fractional desktop columns instead of a fixed 230px/180px list. BrandStrip owns the shared tablet/mobile stacking and two-column phone grid. Preserve selected-brand counts, internal destinations, proportional logos and the existing motion/focus states.
+BrandStrip owns its compact diagonal band, horizontal scroll-snap track, three/two visible logo proportions and progressive controls. Preserve selected-brand counts, internal destinations, proportional logos, native mobile swiping and reduced-motion/focus states.
 
 service-hero.css owns the shared full-bleed LandingHero treatment: positioned responsive photo, warm ivory gradient behind dark sentence-case text, restrained orange actions, responsive copy width and mobile framing. The source image occupies the whole hero, not a square column. Keep focus, page-transition and reduced-motion rules from motion.css.
 
@@ -74,3 +74,5 @@ MenuPreview atlas cells are square background layers cropped within the desktop/
 
 
 Atlas previews render at no more than 192px on desktop; mobile uses a compact 96px image alongside its destination caption, retaining full-width one-column menu links. This keeps thumbnails crisp and avoids enlarging a small sprite tile into a wide mobile banner.
+
+component-refinements.css is the shared editorial finish imported by SiteMotion in both shells: sentence-case presentation, flat orange/charcoal buttons and restrained accents/shadows while preserving diagonal section backgrounds and genuine/semantic artwork. It also owns the wider two-column desktop quote dialog and responsive field layout.
