@@ -57,3 +57,5 @@ Every component inherits SiteMotion through DocumentLayout or SiteLayout. Use mo
 The native /reviews/ hub now uses ReviewCard and ReviewCollection, sourced excerpts and independent platform profiles. It replaces the legacy hub presentation while retaining all child review URLs. See reviews-page.json for source evidence and topic mapping.
 
 Roofing heroes now have a separate presentation map and optimized responsive assets. LandingHero follows the homepage full-width photographic direction. The paused ten-page copy/heading review remains pending; hero work does not change the PDF paragraphs or service heading hierarchy.
+
+The site typography is Playfair Display for headings and Inter for body copy, navigation and controls, selected by the client. Keep the shared tokens and both document-shell font requests in sync.

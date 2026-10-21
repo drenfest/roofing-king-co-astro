@@ -44,3 +44,5 @@ Editorial brand strips use fractional desktop columns instead of a fixed 230px/1
 service-hero.css owns the shared full-bleed LandingHero treatment: positioned responsive photo, forest gradient behind text, homepage-like diagonal texture, responsive copy width and mobile framing. The source image occupies the whole hero, not a square column. Keep focus, page-transition and reduced-motion rules from motion.css.
 
 The leaf-opening mobile grid uses minmax(0,1fr), shrinkable children and safe long-heading wrapping to prevent 320px horizontal overflow. This is a responsive containment fix; service wording and heading hierarchy remain unchanged.
+
+Client-selected type pairing: --rk-font-display uses Playfair Display; --rk-font-body uses Inter in both base.css and the legacy compatibility shell. All six heading levels use the display font. Navigation (including mega-menu overview labels), buttons, paragraphs and eyebrow labels use Inter; decorative quote glyphs and logo artwork remain graphical assets.

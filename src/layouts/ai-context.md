@@ -30,3 +30,5 @@ ServiceLanding and relevant roofing, siding, gutter, window, commercial and loca
 ServiceLanding supplies Residential Roofing and PolishedServicePage supplies data.serviceType to LandingHero.serviceName so every service hero has a descriptive Read More About link. The paused ten-page heading/hierarchy review remains separate.
 
 ServiceLanding and PolishedServicePage select generated roofing hero assets by route from roofing-heroes.json, including OG images. Every LandingHero uses the full-bleed photographic layout; other service pages retain their existing image source. No URL or body-copy migration is involved.
+
+DocumentLayout and SiteLayout request variable Inter 400–900 and Playfair Display 600–900 with display=swap and existing Google font preconnects. Both native and preserved legacy routes share this pairing.

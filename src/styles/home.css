@@ -1,7 +1,7 @@
 /* WordPress visual design, scoped to native home components. */
 .rk-home-eyebrow,
 .rk-home-card-kicker {
-  font-family: var(--rk-font-display);
+  font-family: var(--rk-font-body);
   letter-spacing: 0;
   text-transform: uppercase;
 }

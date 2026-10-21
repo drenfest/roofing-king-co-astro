@@ -15,7 +15,7 @@ html:has(body.rk-nav-open){overflow:hidden;}
 .rk-native-header .rk-mega-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));min-height:320px;}
 .rk-native-header .rk-mega-overview{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:1rem;padding:2rem;background:linear-gradient(120deg,#f6f2e8,#e7eee4);border-left:1px solid #dce3d7;}
 .rk-native-header .rk-mega-overview>span{font-size:.75rem;color:#9b4212;font-weight:750;text-transform:uppercase;letter-spacing:.06em;}
-.rk-native-header .rk-mega-overview>strong{font-family:var(--rk-font-display);font-size:1.5rem;color:#193b2c;}
+.rk-native-header .rk-mega-overview>strong{font-family:var(--rk-font-body);font-size:1.5rem;color:#193b2c;}
 .rk-native-header .rk-mega-overview>a{color:#193b2c;font-size:.9rem;font-weight:650;text-underline-offset:4px;}
 .rk-native-header:not(.rk-native-enhanced) .rk-menu-item:focus-within>.rk-submenu{visibility:visible;opacity:1;pointer-events:auto;}
 .rk-native-header .rk-mega-column{min-width:0;padding:1rem;}
