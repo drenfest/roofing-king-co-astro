@@ -28,3 +28,5 @@ Preserve explicit content permalinks and source attribution. Update this map whe
 service-editorial.css now also owns rk-full-service content bands, two-column media rows, source-topic comparisons, decorative system diagrams, rich leaf openings and the full-copy estimate band. These rules are isolated from the approved /roofing/ reference. Wide layouts alternate forest/cream/light slanted bands; mobile stacks media/content with normal document flow. Do not hide source text to make rows shorter.
 
 The optional rk-service-benefits class displays ServiceArticle items as two forest-green icon cards per row on desktop and one per row on mobile, preserving slanted corners and static readable HTML.
+
+navigation.css owns the compact mobile masthead: three explicit columns, proportional 116px logo, 44px phone target and branded Menu/Close control. Tablet retains the quote action; desktop layout is unchanged. Native toggle span resets override the legacy base.css animation selectors.

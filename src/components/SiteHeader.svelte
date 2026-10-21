@@ -79,7 +79,7 @@
   onfocusout={(event) => { if (event.relatedTarget && !header.contains(event.relatedTarget as Node)) close(); }}>
   <div class="rk-header-inner">
     <a class="rk-logo" href="/" aria-label={site.name}><img src="/media/wordpress/2b1fb60b5770-logo.png" alt={site.name} width="154" height="106" /></a>
-    <button class="rk-nav-toggle" class:is-active={mobileOpen} type="button" aria-label={mobileOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileOpen} aria-controls="native-primary-nav" bind:this={menuButton} onclick={() => { mobileOpen = !mobileOpen; active = null; }}><span></span><span></span><span></span></button>
+    <button class="rk-nav-toggle" class:is-active={mobileOpen} type="button" aria-label={mobileOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileOpen} aria-controls="native-primary-nav" bind:this={menuButton} onclick={() => { mobileOpen = !mobileOpen; active = null; }}><span class="rk-nav-toggle-label">{mobileOpen ? 'Close' : 'Menu'}</span><span class="rk-nav-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span></button>
     <nav id="native-primary-nav" class="rk-primary-nav" class:is-open={mobileOpen} aria-label="Primary" inert={enhanced && !desktop && !mobileOpen}>
       <ul class="rk-nav-list">
         {#each navigation.items as item, i}
@@ -97,6 +97,7 @@
       </ul>
       <div class="rk-mobile-nav-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href={quoteHref} data-quote-open={quoteModal?true:undefined} onclick={close}>Get a Free Quote</a></div>
     </nav>
+    <a class="rk-header-mobile-call" href={site.phoneHref} aria-label={`Call Roof King at ${site.phone}`}><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 3 3 5-2 2a14 14 0 0 0 6 6l2-2 5 3-1 4C11 22 2 13 3 4l4-1Z"/></svg></a>
     <div class="rk-header-actions"><a class="rk-phone" href={site.phoneHref}>{site.phone}</a><a class="rk-button rk-button-primary" href={quoteHref} data-quote-open={quoteModal?true:undefined}>Get a Free Quote</a></div>
   </div>
 </header>
