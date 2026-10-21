@@ -8,6 +8,8 @@ release_id=$2
 [[ -d "$app_root/public_html" && ! -L "$app_root/public_html" ]] || { echo "Unexpected web root" >&2; exit 1; }
 [[ "$(cat "$app_root/private_html/astro-deploy/app-id")" == "6519803" ]] || { echo "Wrong Cloudways application" >&2; exit 1; }
 work="$app_root/private_html/astro-deploy"
+exec 9>"$work/deploy.lock"
+flock -w 300 9
 archive="$work/incoming/$release_id.tar.gz"
 release="$work/releases/$release_id"
 [[ -f "$archive" && ! -e "$release" ]] || { echo "Missing archive or existing release" >&2; exit 1; }
