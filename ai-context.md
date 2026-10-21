@@ -55,3 +55,5 @@ The client authorized the Cloudways review deployment and automatic main-branch 
 Every component inherits SiteMotion through DocumentLayout or SiteLayout. Use motion.css tokens for new interaction states; preserve native input responsiveness and reduced-motion support. No animation library or client router is required.
 
 The native /reviews/ hub now uses ReviewCard and ReviewCollection, sourced excerpts and independent platform profiles. It replaces the legacy hub presentation while retaining all child review URLs. See reviews-page.json for source evidence and topic mapping.
+
+Roofing heroes now have a separate presentation map and optimized responsive assets. LandingHero follows the homepage full-width photographic direction. The paused ten-page copy/heading review remains pending; hero work does not change the PDF paragraphs or service heading hierarchy.

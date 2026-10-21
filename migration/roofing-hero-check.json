@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-20",
+  "pages": 41,
+  "viewports": [
+    390,
+    1440
+  ],
+  "checks": [
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "cincinnati-oh-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "cincinnati-oh-storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "cleveland-oh-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "width": 390,
+      "heroHeight": 803,
+      "image": "cleveland-oh-roofing-cost-of-replacement-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "cleveland-oh-storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "columbus-oh-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "columbus-oh-storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "commercial-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "width": 390,
+      "heroHeight": 795,
+      "image": "commercial-roofing-repair-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "commercial-roofing-replacement-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "commercial-roofing-roof-types-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "width": 390,
+      "heroHeight": 803,
+      "image": "cost-of-a-new-roof-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "dayton-oh-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "dayton-oh-storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "dayton-roofers-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "delaware-oh-roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "delaware-oh-storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "emergency-roof-repair-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "width": 390,
+      "heroHeight": 700,
+      "image": "gaf-roofing-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "hail-damage-roof-repair-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "width": 390,
+      "heroHeight": 700,
+      "image": "metal-roofing-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-calculator/",
+      "width": 390,
+      "heroHeight": 700,
+      "image": "roof-calculator-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "width": 390,
+      "heroHeight": 671,
+      "image": "roof-repair-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "width": 390,
+      "heroHeight": 709,
+      "image": "roof-replacement-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "width": 390,
+      "heroHeight": 729,
+      "image": "roofing-calculator-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "roofing-contractor-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/",
+      "width": 390,
+      "heroHeight": 695,
+      "image": "roofing-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "width": 390,
+      "heroHeight": 700,
+      "image": "roofing-gaf-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "width": 390,
+      "heroHeight": 699,
+      "image": "roofing-gaf-master-elite-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/metal/",
+      "width": 390,
+      "heroHeight": 729,
+      "image": "roofing-metal-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/repair/",
+      "width": 390,
+      "heroHeight": 729,
+      "image": "roofing-repair-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "width": 390,
+      "heroHeight": 709,
+      "image": "roofing-replacement-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/types/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "roofing-types-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "storm-damage-roof-repair-dublin-oh-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/",
+      "width": 390,
+      "heroHeight": 737,
+      "image": "storm-damage-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "width": 390,
+      "heroHeight": 775,
+      "image": "storm-damage-commercial-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "storm-damage-hail-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "width": 390,
+      "heroHeight": 795,
+      "image": "storm-damage-insurance-claims-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "storm-damage-wind-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "width": 390,
+      "heroHeight": 766,
+      "image": "commercial-roofing-gutters-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "width": 390,
+      "heroHeight": 729,
+      "image": "ice-dam-removal-640.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "cincinnati-oh-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "width": 1440,
+      "heroHeight": 789,
+      "image": "cincinnati-oh-storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "cleveland-oh-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "cleveland-oh-roofing-cost-of-replacement-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "width": 1440,
+      "heroHeight": 789,
+      "image": "cleveland-oh-storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "columbus-oh-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "width": 1440,
+      "heroHeight": 789,
+      "image": "columbus-oh-storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "commercial-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "commercial-roofing-repair-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "commercial-roofing-replacement-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "commercial-roofing-roof-types-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "cost-of-a-new-roof-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "dayton-oh-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "width": 1440,
+      "heroHeight": 720,
+      "image": "dayton-oh-storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "dayton-roofers-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "delaware-oh-roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "width": 1440,
+      "heroHeight": 789,
+      "image": "delaware-oh-storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "emergency-roof-repair-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "gaf-roofing-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "hail-damage-roof-repair-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "metal-roofing-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-calculator/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roof-calculator-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 720,
+      "image": "roof-repair-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 720,
+      "image": "roof-replacement-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "width": 1440,
+      "heroHeight": 783,
+      "image": "roofing-calculator-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "roofing-contractor-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/",
+      "width": 1440,
+      "heroHeight": 745,
+      "image": "roofing-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roofing-gaf-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roofing-gaf-master-elite-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/metal/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roofing-metal-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/repair/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roofing-repair-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "width": 1440,
+      "heroHeight": 720,
+      "image": "roofing-replacement-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/roofing/types/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "roofing-types-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "width": 1440,
+      "heroHeight": 720,
+      "image": "storm-damage-roof-repair-dublin-oh-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/",
+      "width": 1440,
+      "heroHeight": 789,
+      "image": "storm-damage-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "width": 1440,
+      "heroHeight": 820,
+      "image": "storm-damage-commercial-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "storm-damage-hail-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "storm-damage-insurance-claims-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "storm-damage-wind-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "width": 1440,
+      "heroHeight": 852,
+      "image": "commercial-roofing-gutters-1672.webp",
+      "status": "passed"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "width": 1440,
+      "heroHeight": 752,
+      "image": "ice-dam-removal-1672.webp",
+      "status": "passed"
+    }
+  ],
+  "sourceImages": "All 41 images inspected in labeled contact sheets.",
+  "noJavascript": "passed",
+  "sharedHeroPages": "siding/reviews/cincinnati siding cost checked at 320px",
+  "navigation": "mobile menu, Escape and service jump passed",
+  "metrics": {
+    "images": 41,
+    "variants": 164,
+    "originalBytes": 116400542,
+    "optimizedBytes": 19763716,
+    "largestVariantBytes": 278112,
+    "averageMobileBytes": 44750,
+    "fullSizeBytes": 8178706
+  },
+  "narrowPhone": {
+    "width": 320,
+    "pagesChecked": 41,
+    "horizontalOverflow": 0
+  }
+}

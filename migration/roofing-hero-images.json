@@ -1,0 +1,1492 @@
+{
+  "date": "2026-10-20",
+  "method": "built-in image generation",
+  "provenance": "Illustrative generated roofing scenes, not customer projects or exact branded product samples.",
+  "pages": [
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "slug": "cincinnati-oh-roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Cincinnati",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Cincinnati, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-fee67f88-6e30-45eb-b959-7a951b5593e5.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-roofing-640.webp",
+          "width": 640,
+          "bytes": 48872
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-roofing-960.webp",
+          "width": 960,
+          "bytes": 94084
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 155200
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 221800
+        }
+      ],
+      "originalBytes": 2881546,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cincinnati-oh-roofing.png"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "slug": "cincinnati-oh-storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Cincinnati",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Cincinnati, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-9794191f-1c11-4668-b1da-949a38e58662.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-640.webp",
+          "width": 640,
+          "bytes": 45912
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-960.webp",
+          "width": 960,
+          "bytes": 94754
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 165832
+        },
+        {
+          "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 198914
+        }
+      ],
+      "originalBytes": 3009734,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cincinnati-oh-storm-damage.png"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "slug": "cleveland-oh-roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Cleveland",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Cleveland, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-c33cba2e-9ffd-4a40-810b-c4734a311f15.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-640.webp",
+          "width": 640,
+          "bytes": 67854
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-960.webp",
+          "width": 960,
+          "bytes": 136132
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 230052
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 278112
+        }
+      ],
+      "originalBytes": 3456811,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cleveland-oh-roofing.png"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "slug": "cleveland-oh-roofing-cost-of-replacement",
+      "family": "roof-cost",
+      "service": "Roof Replacement Costs",
+      "city": "Cleveland",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Detailed elevated architectural view of a realistic residential roof with multiple connected planes, a modest dormer and chimney flashing, side view reveals roof area and complexity, grounded ordinary Ohio home, not paperwork or price graphics. Distinct scene for Roof Replacement Costs in Cleveland, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-def7a026-f95f-442e-8b68-adc41441894a.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-640.webp",
+          "width": 640,
+          "bytes": 44862
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-960.webp",
+          "width": 960,
+          "bytes": 90612
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-1280.webp",
+          "width": 1280,
+          "bytes": 152770
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-1672.webp",
+          "width": 1672,
+          "bytes": 225806
+        }
+      ],
+      "originalBytes": 2855761,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cleveland-oh-roofing-cost-of-replacement.png"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "slug": "cleveland-oh-storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Cleveland",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Cleveland, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-ed9ce7fb-d62d-4e47-a881-252c0c6e433d.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-storm-damage-640.webp",
+          "width": 640,
+          "bytes": 38888
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-storm-damage-960.webp",
+          "width": 960,
+          "bytes": 74856
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 123346
+        },
+        {
+          "src": "/media/roofing-heroes/cleveland-oh-storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 178960
+        }
+      ],
+      "originalBytes": 2585022,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cleveland-oh-storm-damage.png"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "slug": "columbus-oh-roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Columbus, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-40d91ae4-341c-4273-8d8a-039eacc590c9.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/columbus-oh-roofing-640.webp",
+          "width": 640,
+          "bytes": 60362
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-roofing-960.webp",
+          "width": 960,
+          "bytes": 123096
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 207528
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 251912
+        }
+      ],
+      "originalBytes": 3256017,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/columbus-oh-roofing.png"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "slug": "columbus-oh-storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Columbus, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-e3f3fcf4-98bc-421a-bf24-cb69e8886fe4.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/columbus-oh-storm-damage-640.webp",
+          "width": 640,
+          "bytes": 46652
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-storm-damage-960.webp",
+          "width": 960,
+          "bytes": 89568
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 147484
+        },
+        {
+          "src": "/media/roofing-heroes/columbus-oh-storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 213366
+        }
+      ],
+      "originalBytes": 2774611,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/columbus-oh-storm-damage.png"
+    },
+    {
+      "route": "/commercial-roofing/",
+      "slug": "commercial-roofing",
+      "family": "commercial",
+      "service": "Commercial Roofing",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Wide architectural view of a low-rise commercial property with a neat low-slope membrane roof, realistic parapets, properly distributed rooftop equipment and unobstructed drainage, Ohio trees in background, neutral warm daylight. Distinct scene for Commercial Roofing in Columbus, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-52f25eac-e117-4881-93b5-3373380d0f5f.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-640.webp",
+          "width": 640,
+          "bytes": 23348
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-960.webp",
+          "width": 960,
+          "bytes": 47626
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 83414
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 120722
+        }
+      ],
+      "originalBytes": 2263728,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/commercial-roofing.png"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "slug": "commercial-roofing-repair",
+      "family": "commercial-repair",
+      "service": "Commercial Roof Repair",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close elevated architectural view across a low-slope commercial membrane roof, emphasis on realistic flashing at one roof penetration and a small isolated weathered seam, low-rise warehouse beyond, calm overcast light, no disaster or flooded roof. Distinct scene for Commercial Roof Repair in Columbus, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-2539185e-eafd-48fb-9e6e-815400d2609c.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-repair-640.webp",
+          "width": 640,
+          "bytes": 22978
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-repair-960.webp",
+          "width": 960,
+          "bytes": 44470
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-repair-1280.webp",
+          "width": 1280,
+          "bytes": 78886
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-repair-1672.webp",
+          "width": 1672,
+          "bytes": 117190
+        }
+      ],
+      "originalBytes": 2418243,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/commercial-roofing-repair.png"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "slug": "commercial-roofing-replacement",
+      "family": "commercial-replacement",
+      "service": "Commercial Roof Replacement",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Expansive newly finished low-slope membrane roof on an ordinary low-rise commercial building, clean parapet coping, realistic rooftop vents and mechanical equipment, elevated diagonal perspective, late afternoon light. Distinct scene for Commercial Roof Replacement in Columbus, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-03d35a7d-31fc-49e6-b2e6-caf67d08d8cd.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-replacement-640.webp",
+          "width": 640,
+          "bytes": 39868
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-replacement-960.webp",
+          "width": 960,
+          "bytes": 82838
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-replacement-1280.webp",
+          "width": 1280,
+          "bytes": 142986
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-replacement-1672.webp",
+          "width": 1672,
+          "bytes": 214238
+        }
+      ],
+      "originalBytes": 2670584,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/commercial-roofing-replacement.png"
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "slug": "commercial-roofing-roof-types",
+      "family": "commercial-types",
+      "service": "Commercial Roof Systems",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Architectural view of neighboring low-rise commercial roof systems: one clean light-colored membrane roof foreground and a standing-seam metal pitched roof farther right, visually coherent actual buildings rather than a split screen or collage. Distinct scene for Commercial Roof Systems in Columbus, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-16e40684-21b1-49bc-96c7-fe5369c9cef8.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-roof-types-640.webp",
+          "width": 640,
+          "bytes": 30754
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-roof-types-960.webp",
+          "width": 960,
+          "bytes": 61100
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-roof-types-1280.webp",
+          "width": 1280,
+          "bytes": 104302
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-roof-types-1672.webp",
+          "width": 1672,
+          "bytes": 154400
+        }
+      ],
+      "originalBytes": 2325193,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/commercial-roofing-roof-types.png"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "slug": "cost-of-a-new-roof",
+      "family": "roof-cost",
+      "service": "Roof Replacement Costs",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Detailed elevated architectural view of a realistic residential roof with multiple connected planes, a modest dormer and chimney flashing, side view reveals roof area and complexity, grounded ordinary Ohio home, not paperwork or price graphics. Distinct scene for Roof Replacement Costs in Columbus, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-10e83840-407f-43d5-b08b-dbf8028561bc.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/cost-of-a-new-roof-640.webp",
+          "width": 640,
+          "bytes": 50554
+        },
+        {
+          "src": "/media/roofing-heroes/cost-of-a-new-roof-960.webp",
+          "width": 960,
+          "bytes": 101386
+        },
+        {
+          "src": "/media/roofing-heroes/cost-of-a-new-roof-1280.webp",
+          "width": 1280,
+          "bytes": 172006
+        },
+        {
+          "src": "/media/roofing-heroes/cost-of-a-new-roof-1672.webp",
+          "width": 1672,
+          "bytes": 205528
+        }
+      ],
+      "originalBytes": 3094914,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/cost-of-a-new-roof.png"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "slug": "dayton-oh-roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Dayton",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Dayton, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-8a7b0ace-e512-4320-afa7-8cec9880f120.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/dayton-oh-roofing-640.webp",
+          "width": 640,
+          "bytes": 51402
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-roofing-960.webp",
+          "width": 960,
+          "bytes": 103836
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 175654
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 210304
+        }
+      ],
+      "originalBytes": 3062366,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/dayton-oh-roofing.png"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "slug": "dayton-oh-storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Dayton",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Dayton, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-356cf092-da8b-43b9-aad7-68412a71ea1b.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/dayton-oh-storm-damage-640.webp",
+          "width": 640,
+          "bytes": 40342
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-storm-damage-960.webp",
+          "width": 960,
+          "bytes": 78950
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 128454
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-oh-storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 186152
+        }
+      ],
+      "originalBytes": 2616563,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/dayton-oh-storm-damage.png"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "slug": "dayton-roofers",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Dayton",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Dayton, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-c057d7df-e935-45bb-ae3a-0f85f2e0e152.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/dayton-roofers-640.webp",
+          "width": 640,
+          "bytes": 56654
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-roofers-960.webp",
+          "width": 960,
+          "bytes": 115678
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-roofers-1280.webp",
+          "width": 1280,
+          "bytes": 198988
+        },
+        {
+          "src": "/media/roofing-heroes/dayton-roofers-1672.webp",
+          "width": 1672,
+          "bytes": 245438
+        }
+      ],
+      "originalBytes": 3249444,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/dayton-roofers.png"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "slug": "delaware-oh-roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Delaware",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Delaware, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-4e9ef711-94ff-4ecd-9d71-71162a710adb.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/delaware-oh-roofing-640.webp",
+          "width": 640,
+          "bytes": 55424
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-roofing-960.webp",
+          "width": 960,
+          "bytes": 112402
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-roofing-1280.webp",
+          "width": 1280,
+          "bytes": 185580
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-roofing-1672.webp",
+          "width": 1672,
+          "bytes": 224758
+        }
+      ],
+      "originalBytes": 3131260,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/delaware-oh-roofing.png"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "slug": "delaware-oh-storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Delaware",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Delaware, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-649932ee-40df-4f5d-b5f1-4a3202c46e07.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/delaware-oh-storm-damage-640.webp",
+          "width": 640,
+          "bytes": 39498
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-storm-damage-960.webp",
+          "width": 960,
+          "bytes": 72594
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 116446
+        },
+        {
+          "src": "/media/roofing-heroes/delaware-oh-storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 162972
+        }
+      ],
+      "originalBytes": 2503140,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/delaware-oh-storm-damage.png"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "slug": "emergency-roof-repair-dublin-oh",
+      "family": "repair",
+      "service": "Roof Repair",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close architectural view of an asphalt shingle roof on an ordinary well-kept Ohio home, a small localized section with lifted or missing shingles and worn flashing clearly visible on the right, intact surrounding roof, natural overcast light. No catastrophic damage. Distinct scene for Roof Repair in Dublin, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-a12f0ece-08de-44ba-ae15-9081314791f4.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 35876
+        },
+        {
+          "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 66028
+        },
+        {
+          "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 109032
+        },
+        {
+          "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 159914
+        }
+      ],
+      "originalBytes": 2620922,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/emergency-roof-repair-dublin-oh.png"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "slug": "gaf-roofing-dublin-oh",
+      "family": "gaf",
+      "service": "GAF Roofing",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Architectural asphalt shingle roof with richly dimensional overlapping charcoal courses on a refined but attainable Ohio home, carefully finished ridge caps, valleys and eaves. Brand-neutral depiction, no claim of exact GAF product appearance. Distinct scene for GAF Roofing in Dublin, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-edc7c967-f0db-41ab-a344-c1280c7804cd.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 43280
+        },
+        {
+          "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 86224
+        },
+        {
+          "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 145932
+        },
+        {
+          "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 215536
+        }
+      ],
+      "originalBytes": 2907551,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/gaf-roofing-dublin-oh.png"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "slug": "hail-damage-roof-repair-dublin-oh",
+      "family": "hail",
+      "service": "Hail Damage Roof Repair",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close photographic view of dark asphalt shingles with a small localized area of plausible hail-impact granule loss, modest small hailstones melting in an adjacent gutter, intact roof geometry, clearing overcast daylight, no craters or catastrophic damage. Distinct scene for Hail Damage Roof Repair in Dublin, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-868b11d0-3e7c-4f41-9151-1833b1b97811.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 53830
+        },
+        {
+          "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 103898
+        },
+        {
+          "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 170872
+        },
+        {
+          "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 214194
+        }
+      ],
+      "originalBytes": 3045881,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/hail-damage-roof-repair-dublin-oh.png"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "slug": "metal-roofing-dublin-oh",
+      "family": "metal",
+      "service": "Metal Roofing",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Refined standing-seam metal roof with straight graphite vertical seams on a contemporary Ohio farmhouse with understated timber porch, realistic valleys, eaves and simple gable, forest-green landscaping, not overly luxurious. Distinct scene for Metal Roofing in Dublin, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-e557a416-23c1-4dda-a6f6-1614d3d39455.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/metal-roofing-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 40086
+        },
+        {
+          "src": "/media/roofing-heroes/metal-roofing-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 79084
+        },
+        {
+          "src": "/media/roofing-heroes/metal-roofing-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 134090
+        },
+        {
+          "src": "/media/roofing-heroes/metal-roofing-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 196524
+        }
+      ],
+      "originalBytes": 2682217,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/metal-roofing-dublin-oh.png"
+    },
+    {
+      "route": "/roof-calculator/",
+      "slug": "roof-calculator",
+      "family": "calculator",
+      "service": "Roofing Estimate Calculator",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Elevated oblique aerial view of a suburban Ohio home with clearly visible simple roof planes, gables and ridge geometry for a roof-estimate theme, realistic architectural shingles and tidy yard, no measurement lines, calculator UI, diagrams, numbers or lettering. Distinct scene for Roofing Estimate Calculator in Columbus, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-216c56a0-2ffc-4821-9e7d-29158fd73873.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roof-calculator-640.webp",
+          "width": 640,
+          "bytes": 56878
+        },
+        {
+          "src": "/media/roofing-heroes/roof-calculator-960.webp",
+          "width": 960,
+          "bytes": 115634
+        },
+        {
+          "src": "/media/roofing-heroes/roof-calculator-1280.webp",
+          "width": 1280,
+          "bytes": 194716
+        },
+        {
+          "src": "/media/roofing-heroes/roof-calculator-1672.webp",
+          "width": 1672,
+          "bytes": 235586
+        }
+      ],
+      "originalBytes": 3179984,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roof-calculator.png"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "slug": "roof-repair-dublin-oh",
+      "family": "repair",
+      "service": "Roof Repair",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close architectural view of an asphalt shingle roof on an ordinary well-kept Ohio home, a small localized section with lifted or missing shingles and worn flashing clearly visible on the right, intact surrounding roof, natural overcast light. No catastrophic damage. Distinct scene for Roof Repair in Dublin, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-32b9b3d5-b06e-48d0-8175-186b3af2267e.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roof-repair-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 33238
+        },
+        {
+          "src": "/media/roofing-heroes/roof-repair-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 65810
+        },
+        {
+          "src": "/media/roofing-heroes/roof-repair-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 111816
+        },
+        {
+          "src": "/media/roofing-heroes/roof-repair-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 166874
+        }
+      ],
+      "originalBytes": 2687354,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roof-repair-dublin-oh.png"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "slug": "roof-replacement-dublin-oh",
+      "family": "replacement",
+      "service": "Roof Replacement",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A complete residential roof replacement visual: beautiful freshly installed charcoal asphalt shingles on a modest two-story gabled home, crisp ridge and valley details, some clean construction materials safely staged on ground far right, no people. Distinct scene for Roof Replacement in Dublin, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-ca5f16d0-923a-4b53-a3ef-121c8af9990c.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 45516
+        },
+        {
+          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 99436
+        },
+        {
+          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 174394
+        },
+        {
+          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 216034
+        }
+      ],
+      "originalBytes": 2977704,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roof-replacement-dublin-oh.png"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "slug": "roofing-calculator",
+      "family": "calculator",
+      "service": "Roofing Estimate Calculator",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Elevated oblique aerial view of a suburban Ohio home with clearly visible simple roof planes, gables and ridge geometry for a roof-estimate theme, realistic architectural shingles and tidy yard, no measurement lines, calculator UI, diagrams, numbers or lettering. Distinct scene for Roofing Estimate Calculator in Columbus, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-08e97961-e6e4-4843-9892-4b12233d3698.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-calculator-640.webp",
+          "width": 640,
+          "bytes": 53222
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-calculator-960.webp",
+          "width": 960,
+          "bytes": 110122
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-calculator-1280.webp",
+          "width": 1280,
+          "bytes": 191456
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-calculator-1672.webp",
+          "width": 1672,
+          "bytes": 232252
+        }
+      ],
+      "originalBytes": 3128045,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-calculator.png"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "slug": "roofing-contractor-dublin-oh",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic well-kept Ohio residential street, camera elevated toward the nearest home’s architectural-shingle roof on the right, a distinct ordinary two-story house, mature broadleaf trees, restrained landscaping, calm natural light. No identifiable actual address or landmark. Distinct scene for Residential Roofing Services in Dublin, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-72091204-0a5a-4d15-b553-f985af3c2cf9.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 57778
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 116016
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 193630
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 235648
+        }
+      ],
+      "originalBytes": 3189143,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-contractor-dublin-oh.png"
+    },
+    {
+      "route": "/roofing/",
+      "slug": "roofing",
+      "family": "roofing-local",
+      "service": "Residential Roofing Services",
+      "city": "Columbus",
+      "prompt": "Create a premium architectural editorial photograph for a full-bleed roofing company website hero. Ultra-wide landscape composition, approximately 16:9. A refined two-story Ohio suburban home with a beautifully detailed charcoal architectural asphalt shingle roof, clean ridgelines, realistic flashing and gutters, mature trees, understated landscaping. Camera elevated oblique angle emphasizing roof on right half of frame; left half simpler and darker for white headline overlay. Warm late-afternoon natural light, restrained forest green and warm neutral palette, photorealistic, expensive architecture magazine photography, realistic building geometry. No people, lettering, logos, watermark, brand marks, collage, badges, graphic elements, captions, exaggerated luxury mansion, or visible defects. This is conceptual roofing imagery, not a documentary customer project. Deliver one finished image.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:/Users/drenf/.codex/generated_images/01a14a9f-9bc3-7c13-818d-0a11374b44af/exec-fa14d7a1-9479-4a4a-a53d-694c98382f70.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-640.webp",
+          "width": 640,
+          "bytes": 40300
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-960.webp",
+          "width": 960,
+          "bytes": 86818
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-1280.webp",
+          "width": 1280,
+          "bytes": 152904
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-1672.webp",
+          "width": 1672,
+          "bytes": 230736
+        }
+      ],
+      "originalBytes": 2954469,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing.png"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "slug": "roofing-gaf",
+      "family": "gaf",
+      "service": "GAF Roofing",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Architectural asphalt shingle roof with richly dimensional overlapping charcoal courses on a refined but attainable Ohio home, carefully finished ridge caps, valleys and eaves. Brand-neutral depiction, no claim of exact GAF product appearance. Distinct scene for GAF Roofing in Columbus, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-2d46ec19-4ff2-401b-bbb6-d6691e16dc1f.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-640.webp",
+          "width": 640,
+          "bytes": 38710
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-960.webp",
+          "width": 960,
+          "bytes": 77862
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-1280.webp",
+          "width": 1280,
+          "bytes": 132862
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-1672.webp",
+          "width": 1672,
+          "bytes": 194144
+        }
+      ],
+      "originalBytes": 2768014,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-gaf.png"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "slug": "roofing-gaf-master-elite",
+      "family": "certification",
+      "service": "GAF Master Elite Certification",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Premium close elevated view of precise architectural-shingle installation details on a suburban roof: straight courses, crisp ridge cap and neat valley flashing, finished home and mature trees beyond, conveys craftsmanship without seals or certification graphics. Distinct scene for GAF Master Elite Certification in Columbus, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-5f66c21d-3b31-4874-a668-ccf27c4b56b5.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-master-elite-640.webp",
+          "width": 640,
+          "bytes": 48838
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-master-elite-960.webp",
+          "width": 960,
+          "bytes": 96348
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-master-elite-1280.webp",
+          "width": 1280,
+          "bytes": 165482
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-gaf-master-elite-1672.webp",
+          "width": 1672,
+          "bytes": 196418
+        }
+      ],
+      "originalBytes": 3062575,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-gaf-master-elite.png"
+    },
+    {
+      "route": "/roofing/metal/",
+      "slug": "roofing-metal",
+      "family": "metal",
+      "service": "Metal Roofing",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Refined standing-seam metal roof with straight graphite vertical seams on a contemporary Ohio farmhouse with understated timber porch, realistic valleys, eaves and simple gable, forest-green landscaping, not overly luxurious. Distinct scene for Metal Roofing in Columbus, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-a6de3d72-3f32-4236-beb9-ac82f2ddcba3.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-metal-640.webp",
+          "width": 640,
+          "bytes": 51590
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-metal-960.webp",
+          "width": 960,
+          "bytes": 105850
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-metal-1280.webp",
+          "width": 1280,
+          "bytes": 184764
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-metal-1672.webp",
+          "width": 1672,
+          "bytes": 226236
+        }
+      ],
+      "originalBytes": 3078235,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-metal.png"
+    },
+    {
+      "route": "/roofing/repair/",
+      "slug": "roofing-repair",
+      "family": "repair",
+      "service": "Roof Repair",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close architectural view of an asphalt shingle roof on an ordinary well-kept Ohio home, a small localized section with lifted or missing shingles and worn flashing clearly visible on the right, intact surrounding roof, natural overcast light. No catastrophic damage. Distinct scene for Roof Repair in Columbus, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-1e3c1b78-68dd-41cb-b8dd-26da0b8985b7.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-repair-640.webp",
+          "width": 640,
+          "bytes": 37184
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-repair-960.webp",
+          "width": 960,
+          "bytes": 69200
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-repair-1280.webp",
+          "width": 1280,
+          "bytes": 114042
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-repair-1672.webp",
+          "width": 1672,
+          "bytes": 166014
+        }
+      ],
+      "originalBytes": 2691742,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-repair.png"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "slug": "roofing-replacement",
+      "family": "replacement",
+      "service": "Roof Replacement",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A complete residential roof replacement visual: beautiful freshly installed charcoal asphalt shingles on a modest two-story gabled home, crisp ridge and valley details, some clean construction materials safely staged on ground far right, no people. Distinct scene for Roof Replacement in Columbus, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-addbead9-0297-483e-80f7-227b24385562.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-replacement-640.webp",
+          "width": 640,
+          "bytes": 50316
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-replacement-960.webp",
+          "width": 960,
+          "bytes": 105176
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-replacement-1280.webp",
+          "width": 1280,
+          "bytes": 181096
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-replacement-1672.webp",
+          "width": 1672,
+          "bytes": 219920
+        }
+      ],
+      "originalBytes": 3076549,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-replacement.png"
+    },
+    {
+      "route": "/roofing/types/",
+      "slug": "roofing-types",
+      "family": "materials",
+      "service": "Roofing Materials",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Elegant architectural material study showing adjoining real roof surfaces: dimensional asphalt shingles on a foreground gabled home and standing-seam metal on a secondary roof, realistic finished architecture, clear differences of material texture, not a product collage. Distinct scene for Roofing Materials in Columbus, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-644d379d-4bb8-498d-a1d6-608c1a1f4f4b.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/roofing-types-640.webp",
+          "width": 640,
+          "bytes": 42856
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-types-960.webp",
+          "width": 960,
+          "bytes": 83796
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-types-1280.webp",
+          "width": 1280,
+          "bytes": 138564
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-types-1672.webp",
+          "width": 1672,
+          "bytes": 199388
+        }
+      ],
+      "originalBytes": 2656996,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/roofing-types.png"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "slug": "storm-damage-roof-repair-dublin-oh",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Dublin",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Dublin, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-66e295b0-8039-400c-ad57-7ddb1fce9056.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 47524
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 91270
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 148384
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-1672.webp",
+          "width": 1672,
+          "bytes": 211550
+        }
+      ],
+      "originalBytes": 2738693,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage-roof-repair-dublin-oh.png"
+    },
+    {
+      "route": "/storm-damage/",
+      "slug": "storm-damage",
+      "family": "storm",
+      "service": "Storm Damage Restoration",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Ohio suburban home after a passing windstorm, clearing dark clouds, a small localized patch of displaced asphalt shingles on right roof plane and a few fallen leaves, realistic calm aftermath, no lightning, destroyed homes or emergency crews. Distinct scene for Storm Damage Restoration in Columbus, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-b5955521-c19d-48f1-ae6f-10ceaff68386.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-640.webp",
+          "width": 640,
+          "bytes": 43676
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-960.webp",
+          "width": 960,
+          "bytes": 86956
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-1280.webp",
+          "width": 1280,
+          "bytes": 146218
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-1672.webp",
+          "width": 1672,
+          "bytes": 211618
+        }
+      ],
+      "originalBytes": 2832804,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage.png"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "slug": "storm-damage-commercial",
+      "family": "commercial-storm",
+      "service": "Commercial Storm Restoration",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A realistic low-rise commercial roof after a passing storm, rain-darkened parapet, slight localized roof-edge wear visible on right, clearing clouds and natural subdued light, no flooding or dramatic destruction. Distinct scene for Commercial Storm Restoration in Columbus, Ohio. Environmental variation: gentle late-autumn daylight.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-c6f728fe-9092-4824-a3c2-a68d80b00981.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-commercial-640.webp",
+          "width": 640,
+          "bytes": 29438
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-commercial-960.webp",
+          "width": 960,
+          "bytes": 56858
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-commercial-1280.webp",
+          "width": 1280,
+          "bytes": 96788
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-commercial-1672.webp",
+          "width": 1672,
+          "bytes": 138830
+        }
+      ],
+      "originalBytes": 2363761,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage-commercial.png"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "slug": "storm-damage-hail",
+      "family": "hail",
+      "service": "Hail Damage Roof Repair",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Close photographic view of dark asphalt shingles with a small localized area of plausible hail-impact granule loss, modest small hailstones melting in an adjacent gutter, intact roof geometry, clearing overcast daylight, no craters or catastrophic damage. Distinct scene for Hail Damage Roof Repair in Columbus, Ohio. Environmental variation: early autumn with subtle amber trees.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-6e0b5772-8059-4ef3-9b21-c68e49e7065c.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-hail-640.webp",
+          "width": 640,
+          "bytes": 52400
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-hail-960.webp",
+          "width": 960,
+          "bytes": 97770
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-hail-1280.webp",
+          "width": 1280,
+          "bytes": 158198
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-hail-1672.webp",
+          "width": 1672,
+          "bytes": 225736
+        }
+      ],
+      "originalBytes": 2927696,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage-hail.png"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "slug": "storm-damage-insurance-claims",
+      "family": "claims",
+      "service": "Storm Damage Documentation",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Architectural scene of an Ohio home with a localized storm-damaged roof area clearly visible on the right, good inspection visibility of roof planes and flashing, calm neutral daylight, supports documentation and assessment theme without paperwork, logos or any implied claim approval. Distinct scene for Storm Damage Documentation in Columbus, Ohio. Environmental variation: fresh late-spring greenery.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-4c6564e9-339c-4184-90e2-312080d8cf32.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-insurance-claims-640.webp",
+          "width": 640,
+          "bytes": 56342
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-insurance-claims-960.webp",
+          "width": 960,
+          "bytes": 105850
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-insurance-claims-1280.webp",
+          "width": 1280,
+          "bytes": 172272
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-insurance-claims-1672.webp",
+          "width": 1672,
+          "bytes": 205268
+        }
+      ],
+      "originalBytes": 3046862,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage-insurance-claims.png"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "slug": "storm-damage-wind",
+      "family": "wind",
+      "service": "Wind Damage Roof Repair",
+      "city": "Columbus",
+      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: Photographic view of a real-looking residential shingle roof with several wind-lifted tabs near the right eave and ridge, subtle windblown leaves in surrounding trees, intact home, weather clearing, no airborne debris or exaggerated destruction. Distinct scene for Wind Damage Roof Repair in Columbus, Ohio. Environmental variation: soft summer morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-4a0b518f-43b6-43c3-853a-6a1e5487ef56.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/storm-damage-wind-640.webp",
+          "width": 640,
+          "bytes": 41390
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-wind-960.webp",
+          "width": 960,
+          "bytes": 76272
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-wind-1280.webp",
+          "width": 1280,
+          "bytes": 120628
+        },
+        {
+          "src": "/media/roofing-heroes/storm-damage-wind-1672.webp",
+          "width": 1672,
+          "bytes": 171458
+        }
+      ],
+      "originalBytes": 2581706,
+      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/storm-damage-wind.png"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "slug": "commercial-roofing-gutters",
+      "family": "commercial-gutters",
+      "service": "Commercial Gutters",
+      "city": "Columbus",
+      "objectPosition": "70% center",
+      "prompt": "Create one premium ultra-wide 16:9 architectural editorial photograph for a full-bleed commercial roofing service hero. A realistic low-rise Ohio commercial building, elevated oblique perspective emphasizing a substantial dark metal external gutter at the right roof edge, neatly connected downspout and clean parapet coping, low-slope roof and restrained landscaping. Clear believable roof drainage details. Right-weighted composition with simpler darker background on the left for white website copy. Refined neutral natural daylight, warm cream and forest green palette. No text, logos, people, graphic measurements, collage or badges. Illustrative architecture, never a claimed customer project.",
+      "status": "generated",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-f7389d88-4a69-4dd1-8c1a-4e38500667cf.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-gutters-640.webp",
+          "width": 640,
+          "bytes": 26828
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-gutters-960.webp",
+          "width": 960,
+          "bytes": 48386
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-gutters-1280.webp",
+          "width": 1280,
+          "bytes": 80100
+        },
+        {
+          "src": "/media/roofing-heroes/commercial-roofing-gutters-1672.webp",
+          "width": 1672,
+          "bytes": 114800
+        }
+      ],
+      "originalBytes": 2239489,
+      "visualReview": "Inspected full-resolution generated image for relevant roof drainage or ice-dam subject, realistic architecture, clear composition and absence of documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/commercial-roofing-gutters.png"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "slug": "ice-dam-removal",
+      "family": "ice",
+      "service": "Ice Dam Removal",
+      "city": "Columbus",
+      "objectPosition": "70% center",
+      "prompt": "Create one premium ultra-wide 16:9 photorealistic architectural editorial photograph for a full-bleed roof ice-dam service hero. A realistic Ohio suburban home in quiet winter conditions, close elevated oblique perspective focusing on snow-covered charcoal shingles at the right eave with a modest ice buildup at the gutter and short natural icicles. Intact roof and home, no dramatic destruction. Clean winter light, soft leafless trees beyond, understated forest green evergreen accents. Most important roof detail on right half, simpler darker left background for white headline. No people, unsafe work, ladders, tools, text, logos, watermarks, diagrams or collage. Illustrative architectural scene, not a documentary client project.",
+      "status": "generated",
+      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-692c7927-218b-4acf-9e41-ab1768ff9599.png",
+      "assets": [
+        {
+          "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+          "width": 640,
+          "bytes": 43450
+        },
+        {
+          "src": "/media/roofing-heroes/ice-dam-removal-960.webp",
+          "width": 960,
+          "bytes": 80818
+        },
+        {
+          "src": "/media/roofing-heroes/ice-dam-removal-1280.webp",
+          "width": 1280,
+          "bytes": 127608
+        },
+        {
+          "src": "/media/roofing-heroes/ice-dam-removal-1672.webp",
+          "width": 1672,
+          "bytes": 183456
+        }
+      ],
+      "originalBytes": 2807213,
+      "visualReview": "Inspected full-resolution generated image for relevant roof drainage or ice-dam subject, realistic architecture, clear composition and absence of documentary-project claims.",
+      "originalFile": "output/imagegen/roofing-heroes/ice-dam-removal.png"
+    }
+  ],
+  "metrics": {
+    "images": 41,
+    "variants": 164,
+    "originalBytes": 116400542,
+    "optimizedBytes": 19763716,
+    "largestVariantBytes": 278112,
+    "averageMobileBytes": 44750,
+    "fullSizeBytes": 8178706
+  }
+}

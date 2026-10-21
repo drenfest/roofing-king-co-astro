@@ -40,3 +40,7 @@ The dedicated Storm Damage top-level menu adds one navigation label. Between 106
 reviews.css styles the native review hub: slanted source/share bands, proportional platform logos, responsive review grids, topic filters and full readable excerpts. It inherits motion.css and existing card branding; no carousel or external review widget is loaded.
 
 Editorial brand strips use fractional desktop columns instead of a fixed 230px/180px list. BrandStrip owns the shared tablet/mobile stacking and two-column phone grid. Preserve selected-brand counts, internal destinations, proportional logos and the existing motion/focus states.
+
+service-hero.css owns the shared full-bleed LandingHero treatment: positioned responsive photo, forest gradient behind text, homepage-like diagonal texture, responsive copy width and mobile framing. The source image occupies the whole hero, not a square column. Keep focus, page-transition and reduced-motion rules from motion.css.
+
+The leaf-opening mobile grid uses minmax(0,1fr), shrinkable children and safe long-heading wrapping to prevent 320px horizontal overflow. This is a responsive containment fix; service wording and heading hierarchy remain unchanged.

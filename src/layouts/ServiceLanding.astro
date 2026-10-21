@@ -5,6 +5,7 @@ import DocumentLayout from './DocumentLayout.astro';
 import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
+import roofingHeroes from '../data/roofing-heroes.json';
 import StormDamageCallout from '../components/StormDamageCallout.astro';
 import ServicePaths from '../components/ServicePaths.astro';
 import {completeServicePaths} from '../data/service-opening';
@@ -26,12 +27,13 @@ import '../styles/services.css';
 import '../styles/service-landing.css';
 interface Props {page:CollectionEntry<'pages'>;data:typeof import('../data/roofing-landing.json');brands:BrandSection;}
 const {page,data,brands}=Astro.props;
+const heroAsset=(roofingHeroes as Record<string,{image:{src:string;alt:string};generated:boolean}>)[page.data.permalink];
 const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]};
 ---
-<DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={data.hero.image.src}>
+<DocumentLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath} image={heroAsset?.image.src||data.hero.image.src}>
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main rk-service-landing"><article data-service-build="astro-components" data-landing-build="editorial" data-content-source={page.data.source}>
-    <LandingHero hero={data.hero} serviceName="Residential Roofing"/>
+    <LandingHero hero={{...data.hero,image:heroAsset?.image||data.hero.image}} serviceName="Residential Roofing" generatedImage={!!heroAsset?.generated}/>
     <div class="rk-landing-trust"><div class="rk-section-inner">{data.credentials.items.map(item=><a href={item.href}><ServiceIcon name="shield"/><span>{item.title}</span><span aria-hidden="true">↗</span></a>)}</div></div>
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
     <ServicePaths section={completeServicePaths(page.data.permalink,data.services as ServicePathsData)}/>

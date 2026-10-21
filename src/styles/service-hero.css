@@ -1,0 +1,24 @@
+/* Full-bleed service heroes share the homepage's photographic forest treatment. */
+section.rk-landing-hero.rk-immersive-hero{position:relative;isolation:isolate;background:#10291f;min-height:640px;overflow:hidden;}
+section.rk-landing-hero.rk-immersive-hero>.rk-service-hero-background{position:absolute;inset:0;z-index:0;display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:70% center;border-radius:0;}
+section.rk-landing-hero.rk-immersive-hero::before{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#0c261df5 0%,#102d24ed 24%,#132f28cf 45%,#132f286b 67%,#132f2826 100%),repeating-linear-gradient(135deg,transparent 0 100px,#ffb15d0a 100px 101px);}
+section.rk-landing-hero.rk-immersive-hero::after{z-index:1;pointer-events:none;opacity:.4;}
+section.rk-landing-hero.rk-immersive-hero>.rk-landing-hero-grid{position:relative;z-index:2;display:flex;align-items:center;min-height:640px;padding-block:clamp(4rem,6vw,6.5rem);}
+.rk-immersive-hero .rk-landing-hero-copy{width:min(64%,760px);padding:0;}
+section.rk-landing-hero.rk-immersive-hero .rk-landing-hero-copy h1{font-size:clamp(2.5rem,4.4vw,4.5rem);max-width:18ch;line-height:1.08;}
+.rk-immersive-hero .rk-landing-lede{max-width:58ch;font-size:1.08rem;color:#f1f3eb;text-shadow:0 1px 8px #071d1855;}
+.rk-immersive-hero .rk-landing-lede p:last-child{margin-bottom:0;}
+.rk-immersive-hero .rk-landing-actions{margin-block:1.8rem;}
+.rk-immersive-hero .rk-landing-text-link{max-width:100%;}
+section.rk-immersive-hero>.rk-service-hero-credit{position:absolute;z-index:2;right:max(1.2rem,calc((100vw - 1180px)/2));bottom:calc(var(--rk-page-slant,24px) + .9rem);margin:0;padding:.2rem .5rem;background:#10291fbd;color:#e3e9df;font-size:.7rem;letter-spacing:.025em;}
+@media(max-width:1060px){.rk-immersive-hero .rk-landing-hero-copy{width:min(78%,760px);}section.rk-landing-hero.rk-immersive-hero::before{background:linear-gradient(90deg,#0c261df5 0%,#102d24e6 45%,#132f2873 100%);}section.rk-landing-hero.rk-immersive-hero>.rk-service-hero-background{object-position:65% center;}}
+@media(max-width:760px){
+ section.rk-landing-hero.rk-immersive-hero{min-height:0;}
+ section.rk-landing-hero.rk-immersive-hero>.rk-landing-hero-grid{min-height:620px;padding-block:3.5rem 4.5rem;}
+ .rk-immersive-hero .rk-landing-hero-copy{width:100%;}
+ section.rk-landing-hero.rk-immersive-hero .rk-landing-hero-copy h1{font-size:clamp(2.15rem,8vw,3.3rem);max-width:20ch;}
+ .rk-immersive-hero .rk-landing-lede{font-size:1rem;line-height:1.75;}
+ section.rk-landing-hero.rk-immersive-hero::before{background:linear-gradient(90deg,#0c261fe8,#102d24c9),linear-gradient(0deg,#10291f66,transparent 55%);}
+ section.rk-landing-hero.rk-immersive-hero>.rk-service-hero-background{object-position:72% center;}
+ section.rk-immersive-hero>.rk-service-hero-credit{font-size:.65rem;bottom:calc(var(--rk-page-slant,24px) + .65rem);}
+}

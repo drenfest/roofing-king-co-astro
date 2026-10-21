@@ -28,3 +28,5 @@ DocumentLayout and SiteLayout both include SiteMotion. Navigation uses browser-n
 ServiceLanding and relevant roofing, siding, gutter, window, commercial and location families in PolishedServicePage show StormDamageCallout after the opening content. Dedicated storm pages and unrelated services avoid a redundant promotion.
 
 ServiceLanding supplies Residential Roofing and PolishedServicePage supplies data.serviceType to LandingHero.serviceName so every service hero has a descriptive Read More About link. The paused ten-page heading/hierarchy review remains separate.
+
+ServiceLanding and PolishedServicePage select generated roofing hero assets by route from roofing-heroes.json, including OG images. Every LandingHero uses the full-bleed photographic layout; other service pages retain their existing image source. No URL or body-copy migration is involved.

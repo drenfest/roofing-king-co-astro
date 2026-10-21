@@ -1,0 +1,904 @@
+{
+  "/media/roofing-heroes/cincinnati-oh-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/cincinnati-oh-storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/cleveland-oh-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/cleveland-oh-storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cleveland-oh-storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/columbus-oh-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/columbus-oh-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/columbus-oh-storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/columbus-oh-storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/columbus-oh-storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/commercial-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/commercial-roofing-repair-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-repair-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-repair-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-repair-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-repair-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/commercial-roofing-replacement-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-replacement-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-replacement-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-replacement-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-replacement-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/commercial-roofing-roof-types-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-roof-types-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-roof-types-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-roof-types-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-roof-types-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/cost-of-a-new-roof-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/cost-of-a-new-roof-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/cost-of-a-new-roof-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/cost-of-a-new-roof-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/cost-of-a-new-roof-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/dayton-oh-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/dayton-oh-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/dayton-oh-storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/dayton-oh-storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-oh-storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/dayton-roofers-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/dayton-roofers-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-roofers-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-roofers-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/dayton-roofers-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/delaware-oh-roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/delaware-oh-roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/delaware-oh-storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/delaware-oh-storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/delaware-oh-storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/emergency-roof-repair-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/gaf-roofing-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/metal-roofing-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/metal-roofing-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/metal-roofing-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/metal-roofing-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/metal-roofing-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roof-calculator-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roof-calculator-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roof-calculator-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roof-calculator-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roof-calculator-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roof-repair-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roof-repair-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roof-repair-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roof-repair-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roof-repair-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roof-replacement-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-calculator-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-calculator-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-calculator-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-calculator-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-calculator-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-contractor-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-gaf-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-gaf-master-elite-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-master-elite-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-master-elite-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-master-elite-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-gaf-master-elite-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-metal-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-metal-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-metal-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-metal-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-metal-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-repair-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-repair-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-repair-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-repair-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-repair-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-replacement-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-replacement-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-replacement-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-replacement-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-replacement-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/roofing-types-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-types-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-types-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-types-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-types-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-commercial-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-commercial-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-commercial-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-commercial-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-commercial-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-hail-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-hail-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-hail-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-hail-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-hail-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-insurance-claims-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-insurance-claims-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-insurance-claims-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-insurance-claims-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-insurance-claims-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/storm-damage-wind-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/storm-damage-wind-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-wind-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-wind-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/storm-damage-wind-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/commercial-roofing-gutters-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-gutters-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-gutters-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-gutters-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/commercial-roofing-gutters-1672.webp",
+        "width": 1672
+      }
+    ]
+  },
+  "/media/roofing-heroes/ice-dam-removal-1672.webp": {
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/ice-dam-removal-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/ice-dam-removal-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/ice-dam-removal-1672.webp",
+        "width": 1672
+      }
+    ]
+  }
+}

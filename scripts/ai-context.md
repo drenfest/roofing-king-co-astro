@@ -37,3 +37,9 @@ extract-service-pdf.py extracts the 83 publishable entries with PDF page/font ev
 apply-service-pdf.mjs now applies service-overrides.json after source normalization. check-service-pdf.mjs checks the complete reviewed override text for those routes and original PDF text for the others, preserving original contextual destinations. Never mutate the original source extraction to hide a client-directed content revision.
 
 deploy-cloudways.sh validates the target app marker, stages static output in private_html/astro-deploy, preserves old public files privately and restores them on a file-switch failure. check-cloudways-review.mjs checks public review URLs, noindex, static output and actual 404 status.
+
+optimize-roofing-heroes.mjs copies original generated PNGs into the project output directory, creates four WebP sizes per roofing hero, enforces a 300KB per-variant maximum, writes hero/media data and records byte counts in the provenance manifest. It is an explicit asset-preparation task, never part of ordinary builds.
+
+check-roofing-heroes.mjs runs in npm run verify to protect all 41 unique hero mappings, responsive/eager markup, public image budgets, illustrative labels and the noindex review gallery. It reads only committed optimized assets and never requires original PNGs or generation credentials.
+
+build-roofing-hero-review.mjs writes the noindex public gallery from the hero manifest and recomputes size totals; visual inspection status is recorded separately and must never be inferred from generation success.

@@ -88,3 +88,6 @@
 .rk-service-benefit-icon{display:inline-flex;color:#ffb774;}
 .rk-service-benefit-icon svg{width:2rem;height:2rem;}
 @media(max-width:760px){.rk-service-benefits .rk-service-article-rows{grid-template-columns:1fr;}.rk-service-benefits .rk-service-article-row{padding:1.5rem;}}
+
+/* Keep narrow leaf-page content from widening the viewport below the hero. */
+@media(max-width:760px){.rk-copy-opening-grid{grid-template-columns:minmax(0,1fr);}.rk-copy-opening-grid>*{min-width:0;}.rk-copy-opening-grid h2{overflow-wrap:anywhere;}}

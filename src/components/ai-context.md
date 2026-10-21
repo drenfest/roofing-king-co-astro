@@ -83,3 +83,5 @@ ReviewCard.astro owns review excerpts, confirmed individual ratings, author/date
 BrandStrip stacks its heading above a full-width logo grid below 1000px, with at most two columns below 760px. Single-brand selections retain their 240px maximum. Never constrain the entire multi-brand list to one logo’s width; logos retain intrinsic aspect ratios.
 
 LandingHero accepts serviceName for service pages and generates the jump-link label Read More About {Service}. Non-service pages can retain hero.nextLabel. Keep the existing section destination and down arrow.
+
+LandingHero now renders an edge-to-edge decorative background photo with forest overlays and angled section treatment, matching the homepage hero direction. The old boxed figure is removed. generatedImage adds a discreet illustrative-imagery label. Preserve all hero body copy, service-specific jump links, actions, eager responsive loading and reduced-motion behavior.
