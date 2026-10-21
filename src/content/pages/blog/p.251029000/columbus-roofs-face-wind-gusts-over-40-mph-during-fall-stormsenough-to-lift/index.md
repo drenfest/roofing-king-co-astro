@@ -2,13 +2,13 @@
 title: "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
 permalink: "/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/"
 description: "Roof King helps Columbus, OH homes prepare for fall wind damage. Ask about wind-rated shingles and maintenance packages to protect your roof."
-canonicalPath: "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/"
+canonicalPath: "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/"
 wordpressId: 127
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

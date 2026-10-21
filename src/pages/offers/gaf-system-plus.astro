@@ -1,0 +1,43 @@
+---
+import DocumentLayout from '../../layouts/DocumentLayout.astro';
+import SiteHeader from '../../components/SiteHeader.svelte';
+import SiteFooter from '../../components/SiteFooter.astro';
+import PageHero from '../../components/PageHero.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CardSection from '../../components/CardSection.astro';
+import MediaContentRow from '../../components/MediaContentRow.astro';
+import WarrantyComparison from '../../components/WarrantyComparison.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ResourceLinks from '../../components/ResourceLinks.astro';
+import QuoteSection from '../../components/QuoteSection.astro';
+import {gafWarrantySources,systemPlusFAQ} from '../../data/warranty-page';
+import {hero} from '../../data/home.json';
+import '../../styles/base.css';
+import '../../styles/home.css';
+import '../../styles/home-interactions.css';
+import '../../styles/services.css';
+import '../../styles/service-landing.css';
+import '../../styles/warranty.css';
+const image='/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg';
+---
+<DocumentLayout title="GAF System Plus limited warranty" description="Understand GAF System Plus manufacturing-defect coverage, the qualifying 50-year Smart Choice period, registration and separate workmanship protection with Roof King." canonicalPath="/offers/gaf-system-plus/" {image}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-warranty-page" data-landing-build="editorial" data-component="WarrantyPage">
+  <PageHero variant="service" hero={{...hero,image,eyebrow:'Roof King · GAF warranty options',title:'GAF System Plus limited warranty',description:'Enhanced manufacturing-defect protection for qualifying GAF roofing products. Understand the coverage and eligibility before choosing your new roof.',bookingUrl:'#warranty-benefits',bookingLabel:'Explore the coverage',note:'Ask which warranty is included in your roofing estimate.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Offers',href:'/offers/'},{label:'GAF System Plus'}]}/>
+  <div id="warranty-benefits"><CardSection kind="blogs" itemAction="Read the GAF terms" actionHref={gafWarrantySources.sample} actionLabel="Read the System Plus warranty" section={{eyebrow:'Enhanced product protection',title:'What System Plus adds to a qualifying roof',description:'The Smart Choice protection period extends initial non-prorated coverage for eligible GAF products.',items:[
+   {title:'50-year Smart Choice period',description:'For qualifying lifetime shingles on eligible, individually owned single-family detached homes. Other ownership and building types have different terms.',href:gafWarrantySources.sample},
+   {title:'Covered defect-repair costs',description:'Covered claims can include replacement products and installation labor, plus necessary tear-off and disposal, under GAF’s terms.',href:gafWarrantySources.sample},
+   {title:'Manufacturer-backed coverage',description:'System Plus is offered through eligible GAF contractors and registered to the property owner.',href:gafWarrantySources.guide}
+  ]}}/></div>
+  <MediaContentRow section={{type:'media-row',id:'system-plus-eligibility',eyebrow:'Products and installation',title:'Choose the system and the coverage together',image:{src:'/media/wordpress/a29973eff5e6-b99598e0-ed16-446e-b846-c3afb0e52f3e.jpg',alt:'GAF Timberline HDZ shingle bundles and rolls of roofing underlayment on pallets'},body:[{tag:'p',children:[{text:'System Plus requires qualifying GAF shingles, at least three qualifying accessories and an eligible GAF-certified contractor.'}]},{tag:'p',children:[{text:'Labor paid to remedy a covered product defect is different from protection against installation errors. System Plus does not include installation-error coverage. Roof King’s written workmanship terms are separate.'}]}],links:[{label:'GAF Master Elite benefits',href:'/roofing/gaf/master-elite/'},{label:'Roof King workmanship terms',href:'/offers/5-year-workmanship-warranty/'}]}}/>
+  <WarrantyComparison id="gaf-warranty-comparison" eyebrow="Know the difference" title="Compare GAF manufacturer protection" description="If manufacturer-backed installation-error protection matters to you, discuss Silver Pledge or Golden Pledge alongside System Plus." columns={['Manufacturing defects','Installation errors','Eligible contractor']} rows={[
+   {label:'System Plus',highlight:true,cells:['Covered under its terms','Not covered','GAF Certified, Certified Plus or Master Elite']},
+   {label:'Silver Pledge',cells:['Covered under its terms','Covered under its terms','GAF Certified Plus or Master Elite']},
+   {label:'Golden Pledge',cells:['Covered under its terms','Covered under its terms','GAF Master Elite']}
+  ]} note="Product, installation, ownership and registration conditions apply. The issued warranty defines the coverage, duration and exclusions." sourceHref={gafWarrantySources.guide} sourceLabel="Compare GAF warranties"/>
+  <section class="rk-warranty-documents" aria-labelledby="warranty-documents-title"><div class="rk-section-inner rk-warranty-document-layout"><div><p class="rk-home-eyebrow">Keep the written details</p><h2 id="warranty-documents-title">Your warranty documents matter</h2><p>Keep your proposal, product list, paid invoice, registration and issued warranty together.</p></div><ResourceLinks tiles links={[{label:'System Plus sample warranty (PDF)',href:gafWarrantySources.sample,icon:'brand'},{label:'GAF warranty comparison',href:gafWarrantySources.guide,icon:'brand'},{label:'Roof King workmanship coverage',href:'/offers/5-year-workmanship-warranty/',icon:'roof'},{label:'Storm damage assessment',href:'/storm-damage/',icon:'roof'}]}/></div></section>
+  <FAQSection section={systemPlusFAQ}/>
+  <QuoteSection quote={{eyebrow:'Plan your GAF roof',title:'Discuss your roof and warranty options',description:'Tell us about your home and the roofing work you are considering. We can discuss products, installation and the warranty offered for your project.'}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

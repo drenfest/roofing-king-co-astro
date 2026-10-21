@@ -46,3 +46,27 @@ PolishedServicePage resolves both service-heroes.json and roofing-heroes.json, s
 QuoteExperience now fixes the modal title to Get a free quote; service layouts pass only the contextual description and rating preference.
 
 PolishedServicePage passes the original permalink to ServiceContentBand so reviewed photo galleries resolve by page and section without modifying copy or other pages.
+
+PolishedServicePage renders a ServiceGallery matched to data.family. ServiceLanding replaces its old two-photo showcase with the roofing selection while preserving #roofing-work. The retained GAF catalog uses asphalt-only roofing photos. Each service gallery links to its matching filter in the homepage gallery.
+
+
+Location hubs explicitly render ServicePaths even without URL children, showing all 11 service groups. Other leaf services retain ServiceArticle. City-specific reviewPresentation titles apply to gallery, brands, credentials, financing and reviews. All service layouts mount FeaturedArticles, which renders only when relevant existing posts are available; it is static and retains published destinations.
+
+
+BlogLayout composes existing DocumentLayout, SiteHeader, PageHero, Breadcrumbs, CardSection slots and SiteFooter. Breadcrumbs appear after the hero and use the same services.css rules as other native pages. /blog/, both resource hubs and all ten /tag/* archives use this shell. Topic archives add a linked Topics ancestor to the breadcrumb trail.
+
+
+BlogLayout now places BlogNavigation beside its shared CardSection content instead of a horizontal resource tab row. SiteLayout accepts optional blogAside for legacy articles without an existing sidebar; imported article sidebars retain their content and their Categories/Topics heading links now resolve to the new hubs.
+
+
+All 19 category/tag collection hubs use BlogLayout.isArchive for their linked Categories/Topics breadcrumb ancestor. Legacy Article records now always get one shared BlogNavigation aside; the catchall renders the original HTML article without its old sidebar and converts nested main elements to divs. This avoids Markdown code-block navigation and duplicate asides while retaining article copy. Two broken imported service links are corrected at render time.
+
+
+ArticleLayout is the sole native article shell, reusing shared hero, breadcrumbs, aside, prose, FAQ and booking components. The catchall no longer renders Article records; category-prefixed routes and the one unassigned flat article select compiled data. SiteLayout no longer accepts legacy blogAside.
+
+
+ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience used on the homepage, outside the reading/sidebar grid. It replaces the compact ServiceAudienceBanner and its article-only styles. Header quote actions open the shared modal; form submission remains disabled during review.
+
+OfferLayout composes shared PageHero, Breadcrumbs, ContentSection, MediaContentRow, ArticleChecklist, FAQSection, ResourceLinks and QuoteSection for nine financing/warranty/seasonal pages. It preserves URLs, disabled forms and native no-JS content.
+
+Existing authored Service, Product, BlogPosting and BreadcrumbList scripts feed the shared structured-data compiler. The final document has one graph, not duplicate per-layout/per-component entities. WebSite, business and canonical page IDs are stable and linked. Keep source schema facts in the layouts/components; the compiler normalizes and enriches them from rendered content.

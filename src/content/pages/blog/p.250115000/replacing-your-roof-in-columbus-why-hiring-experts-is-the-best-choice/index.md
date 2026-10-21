@@ -2,13 +2,13 @@
 title: "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
 permalink: "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/"
 description: "Trust Roof King & Restoration in Columbus for expert roof repair, roof replacement, and roof installation services. Call now for your free consultation!"
-canonicalPath: "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/"
+canonicalPath: "/blog/roof-replacement/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/"
 wordpressId: 115
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

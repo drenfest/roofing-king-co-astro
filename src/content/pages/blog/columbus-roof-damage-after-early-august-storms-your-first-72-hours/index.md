@@ -8,7 +8,7 @@ source: "live-browser-capture"
 sourcePath: "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/"
 wordpressId: null
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

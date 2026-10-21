@@ -1,0 +1,4516 @@
+{
+  "reviewedAt": "2026-10-21",
+  "strategy": "One full-service hub per existing location. Retain existing local service URLs; use main service pages for services without a local page. Future dedicated city/service pages require a separate competitive need and are not created here.",
+  "locations": [
+    {
+      "path": "/akron-oh/",
+      "city": "Akron",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.akronohio.gov/Documents/Departments/Planning%20and%20Urban%20Development/neighborhoods_akron_85x11_2023_update.pdf"
+    },
+    {
+      "path": "/athens-oh/",
+      "city": "Athens",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.ci.athens.oh.us/DocumentCenter/View/195/Phase-II-Implementation-Ch-6-General-Environmental-Initiatives"
+    },
+    {
+      "path": "/aurora-oh/",
+      "city": "Aurora",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.weather.gov/cle/climate_info"
+    },
+    {
+      "path": "/beavercreek-oh/",
+      "city": "Beavercreek",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.beavercreekohio.gov/"
+    },
+    {
+      "path": "/centerville-oh/",
+      "city": "Centerville",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.centervilleohio.gov/260/Historic-Uptown"
+    },
+    {
+      "path": "/cincinnati-oh/",
+      "city": "Cincinnati",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/cincinnati-oh/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            },
+            {
+              "label": "Cincinnati siding replacement costs",
+              "href": "/cincinnati-oh/the-cost-of-siding-replacement/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/cincinnati-oh/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [
+        "/cincinnati-oh/roofing/",
+        "/cincinnati-oh/storm-damage/",
+        "/cincinnati-oh/the-cost-of-siding-replacement/"
+      ],
+      "source": "https://www.cincinnati-oh.gov/cincyparks/news/the-hills-of-cincinnati/"
+    },
+    {
+      "path": "/cleveland-oh/",
+      "city": "Cleveland",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/cleveland-oh/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            },
+            {
+              "label": "Cleveland roof replacement costs",
+              "href": "/cleveland-oh/roofing/cost-of-replacement/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/cleveland-oh/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [
+        "/cleveland-oh/roofing/",
+        "/cleveland-oh/roofing/cost-of-replacement/",
+        "/cleveland-oh/storm-damage/"
+      ],
+      "source": "https://planning.clevelandohio.gov/cwp/chapterspdf/pres.pdf"
+    },
+    {
+      "path": "/columbus-oh/",
+      "city": "Columbus",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/columbus-oh/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/columbus-oh/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [
+        "/columbus-oh/roofing/",
+        "/columbus-oh/storm-damage/"
+      ],
+      "source": "https://www.columbus.gov/Business-Development/Building-Zoning-Services/Zoning-Maps"
+    },
+    {
+      "path": "/dayton-oh/",
+      "city": "Dayton",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/dayton-oh/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            },
+            {
+              "label": "Dayton roofing services",
+              "href": "/dayton-roofers/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/dayton-oh/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            },
+            {
+              "label": "Dayton gutter costs",
+              "href": "/dayton-oh/the-cost-of-new-gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [
+        "/dayton-oh/roofing/",
+        "/dayton-oh/storm-damage/",
+        "/dayton-oh/the-cost-of-new-gutters/"
+      ],
+      "source": "https://www.daytonohio.gov/223/Historic-Districts-Information"
+    },
+    {
+      "path": "/delaware-oh/",
+      "city": "Delaware",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/delaware-oh/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/delaware-oh/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [
+        "/delaware-oh/roofing/",
+        "/delaware-oh/storm-damage/"
+      ],
+      "source": "https://www.delawareohio.net/government/departments/planning-community-development/planning-zoning/zoning-development-forms/downtown-historic-district"
+    },
+    {
+      "path": "/dublin-oh/",
+      "city": "Dublin",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing-contractor-dublin-oh/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roof-repair-dublin-oh/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roof-replacement-dublin-oh/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/metal-roofing-dublin-oh/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/gaf-roofing-dublin-oh/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            },
+            {
+              "label": "Emergency roof repair in Dublin",
+              "href": "/emergency-roof-repair-dublin-oh/"
+            },
+            {
+              "label": "Dublin roof replacement costs",
+              "href": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/"
+            },
+            {
+              "label": "Dublin roof repair costs",
+              "href": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage-roof-repair-dublin-oh/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/hail-damage-roof-repair-dublin-oh/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutter-installation-dublin-oh/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roof-repair-dublin-oh/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://communityplan.dublinohiousa.gov/implementation/character-environment"
+    },
+    {
+      "path": "/gahanna-oh/",
+      "city": "Gahanna",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://gahanna.gov/281/History"
+    },
+    {
+      "path": "/grove-city-oh/",
+      "city": "Grove City",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.grovecityohio.gov/257/Plans"
+    },
+    {
+      "path": "/hamilton-oh/",
+      "city": "Hamilton",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.hamilton-oh.gov/adrb"
+    },
+    {
+      "path": "/hilliard-oh/",
+      "city": "Hilliard",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://hilliardohio.gov/history/"
+    },
+    {
+      "path": "/lancaster-oh/",
+      "city": "Lancaster",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.ci.lancaster.oh.us/626/Historic-Properties-and-Districts"
+    },
+    {
+      "path": "/lewis-center-oh/",
+      "city": "Lewis Center",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.orangetwp.org/about/"
+    },
+    {
+      "path": "/middletown-oh/",
+      "city": "Middletown",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.cityofmiddletown.org/200/Historic-Districts-and-Landmarks"
+    },
+    {
+      "path": "/newark-oh/",
+      "city": "Newark",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.newarkohio.gov/our-history/"
+    },
+    {
+      "path": "/powell-oh/",
+      "city": "Powell",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.cityofpowell.us/About-Us/Departments/Planning-Department/Development-Toolkit"
+    },
+    {
+      "path": "/upper-arlington-oh/",
+      "city": "Upper Arlington",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://uahistorytrail.upperarlingtonoh.gov/"
+    },
+    {
+      "path": "/westerville-oh/",
+      "city": "Westerville",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.westerville.org/services/planning-development/uptown-westerville"
+    },
+    {
+      "path": "/worthington-oh/",
+      "city": "Worthington",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.worthington.org/facilities/facility/details/Village-Green-17"
+    },
+    {
+      "path": "/zanesville-oh/",
+      "city": "Zanesville",
+      "services": [
+        {
+          "label": "Roofing",
+          "href": "/roofing/",
+          "related": [
+            {
+              "label": "Roof repair",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Roof replacement",
+              "href": "/roofing/replacement/"
+            },
+            {
+              "label": "Metal roofing",
+              "href": "/roofing/metal/"
+            },
+            {
+              "label": "GAF roofing installation",
+              "href": "/roofing/gaf/"
+            },
+            {
+              "label": "Master Elite certification",
+              "href": "/roofing/gaf/master-elite/"
+            },
+            {
+              "label": "Roofing materials",
+              "href": "/roofing/types/"
+            },
+            {
+              "label": "GAF shingle collections",
+              "href": "/roofing/gaf/types/"
+            },
+            {
+              "label": "Roof replacement costs",
+              "href": "/cost-of-a-new-roof/"
+            },
+            {
+              "label": "Roofing calculator",
+              "href": "/roof-calculator/"
+            }
+          ]
+        },
+        {
+          "label": "Siding",
+          "href": "/siding/",
+          "related": [
+            {
+              "label": "Siding replacement",
+              "href": "/siding/replacement/"
+            },
+            {
+              "label": "Siding types and materials",
+              "href": "/siding/types/"
+            },
+            {
+              "label": "Siding product collections",
+              "href": "/products/siding/"
+            }
+          ]
+        },
+        {
+          "label": "Storm damage",
+          "href": "/storm-damage/",
+          "related": [
+            {
+              "label": "Hail damage repairs",
+              "href": "/storm-damage/hail/"
+            },
+            {
+              "label": "Wind damage repairs",
+              "href": "/storm-damage/wind/"
+            },
+            {
+              "label": "Storm documentation and claims",
+              "href": "/storm-damage/insurance-claims/"
+            },
+            {
+              "label": "Commercial storm damage",
+              "href": "/storm-damage/commercial/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial roofing",
+          "href": "/commercial-roofing/",
+          "related": [
+            {
+              "label": "Commercial roof repair",
+              "href": "/commercial-roofing/repair/"
+            },
+            {
+              "label": "Commercial roof replacement",
+              "href": "/commercial-roofing/replacement/"
+            },
+            {
+              "label": "Commercial roof types",
+              "href": "/commercial-roofing/roof-types/"
+            },
+            {
+              "label": "Commercial gutters",
+              "href": "/commercial-roofing/gutters/"
+            }
+          ]
+        },
+        {
+          "label": "Commercial siding",
+          "href": "/commercial-siding/",
+          "related": []
+        },
+        {
+          "label": "Gutters",
+          "href": "/gutters/",
+          "related": [
+            {
+              "label": "Seamless gutters",
+              "href": "/gutters/seamless/"
+            },
+            {
+              "label": "Gutter guards",
+              "href": "/gutters/guards/"
+            }
+          ]
+        },
+        {
+          "label": "Windows",
+          "href": "/windows/",
+          "related": []
+        },
+        {
+          "label": "Decks",
+          "href": "/decks/",
+          "related": [
+            {
+              "label": "Deck installation",
+              "href": "/decks/installations/"
+            },
+            {
+              "label": "Deck repair",
+              "href": "/decks/repairs/"
+            },
+            {
+              "label": "Deck replacement",
+              "href": "/decks/replacements/"
+            },
+            {
+              "label": "Deck refinishing",
+              "href": "/decks/refinishing/"
+            },
+            {
+              "label": "Railings, stairs and accessories",
+              "href": "/decks/accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Attic insulation",
+          "href": "/attic-insulation/",
+          "related": []
+        },
+        {
+          "label": "Exterior painting",
+          "href": "/exterior-painting/",
+          "related": []
+        },
+        {
+          "label": "Ice dam removal",
+          "href": "/ice-dam-removal/",
+          "related": [
+            {
+              "label": "Roof repairs",
+              "href": "/roofing/repair/"
+            },
+            {
+              "label": "Attic insulation",
+              "href": "/attic-insulation/"
+            }
+          ]
+        }
+      ],
+      "childRoutes": [],
+      "source": "https://www.coz.org/232/History"
+    }
+  ]
+}

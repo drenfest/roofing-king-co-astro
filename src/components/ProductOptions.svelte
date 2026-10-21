@@ -19,7 +19,7 @@
     {#key color.id}
       <img src={color.image.src} srcset={color.image.srcset} sizes="(max-width: 640px) 90vw, (max-width: 1000px) 45vw, 30vw" width={color.image.width} height={color.image.height} alt={`${title} in ${color.name}`} loading="lazy" decoding="async" onerror={()=>{failed=true;}} />
     {/key}
-    {#if failed}<p class="rk-product-image-error" role="status">This image could not load. <a href={color.image.src}>Open the color sample</a>.</p>{/if}
+    {#if failed}<p class="rk-product-image-error" role="status">This image could not load. <a title={`Open ${title} in ${color.name}`} href={color.image.src}>Open the color sample</a>.</p>{/if}
     <figcaption class="rk-product-badges" aria-label={`${title} performance at a glance`}>
       {#each product.badges as badge}
         {@const explanation = explainProductBadge(badge)}
@@ -41,7 +41,7 @@
           <div class="rk-product-badge-explanation">
             <strong>{explanation.title}</strong><p>{explanation.body}</p>
             <p>{product.specs.find(spec=>spec.label===badge.specLabel)?.note}</p>
-            <a href={explanation.sourceUrl || product.sourceUrl} target="_blank" rel="noopener noreferrer">Source &amp; test details ↗</a>
+            <a title={`Source and test details for ${title}`} href={explanation.sourceUrl || product.sourceUrl} target="_blank" rel="noopener noreferrer">Source &amp; test details ↗</a>
             {#if enhanced}<button type="button" onclick={event=>event.currentTarget.closest('details')?.removeAttribute('open')}>Close explanation</button>{/if}
           </div>
         </details>

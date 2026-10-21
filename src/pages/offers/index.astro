@@ -1,0 +1,26 @@
+---
+import DocumentLayout from '../../layouts/DocumentLayout.astro';
+import SiteHeader from '../../components/SiteHeader.svelte';
+import SiteFooter from '../../components/SiteFooter.astro';
+import PageHero from '../../components/PageHero.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CardSection from '../../components/CardSection.astro';
+import QuoteSection from '../../components/QuoteSection.astro';
+import {offerGroups} from '../../data/offer-pages';
+import {hero} from '../../data/home.json';
+import '../../styles/base.css';
+import '../../styles/home.css';
+import '../../styles/home-interactions.css';
+import '../../styles/services.css';
+import '../../styles/service-landing.css';
+import '../../styles/offers.css';
+---
+<DocumentLayout title="Financing and warranty options | Roof King & Restoration" description="Explore exterior project financing, GAF roofing warranties, Roof King workmanship protection and seasonal lighting services." canonicalPath="/offers/" image={hero.image}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-offers-page rk-offers-hub" data-component="OffersHub">
+  <PageHero variant="resource" hero={{...hero,eyebrow:'Roof King · Offers and options',title:'Plan the investment. Know the protection.',description:'Explore payment options for your exterior project, understand your roofing warranty choices and plan seasonal services with our team.',bookingUrl:'#offer-options',bookingLabel:'Explore your options',note:'Ask about current availability and the terms for your project.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Offers'}]}/>
+  <div id="offer-options">{offerGroups.map((group,index)=><CardSection kind="blogs" id={`offers-${index}`} itemAction="Explore this option" actionHref="/contact-us/" actionLabel="Discuss your project" section={{eyebrow:index===0?'Project payments':index===1?'Installation and product coverage':'Plan ahead',title:group.title,description:group.description,items:[...group.items.map(page=>({title:page.label,description:page.description,href:`/offers/${page.slug}/`,image:page.image})),...(index===1?[{title:'GAF System Plus',description:'Enhanced manufacturing-defect protection for a qualifying GAF roofing system, separate from installation-error coverage.',href:'/offers/gaf-system-plus/',image:group.items[0].image}]:[])]}}/>)}</div>
+  <QuoteSection quote={{eyebrow:'Your exterior project',title:'Start with a clear estimate',description:'Tell us about your home and the work you need. Discuss materials, installation, payment options and the protection offered with your project.'}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

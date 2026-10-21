@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import QuoteForm from './QuoteForm.svelte';
-  let { modalDescription = 'Tell us about your roofing or exterior project, or book an inspection with our team.', showRating = true }: {modalDescription?:string;showRating?:boolean} = $props();
+  let { modalDescription = 'Tell us about your roofing or exterior project, or book an inspection with our team.', showRating = true, showInlineForm = true }: {modalDescription?:string;showRating?:boolean;showInlineForm?:boolean} = $props();
   let dialog: HTMLDialogElement;
   let trigger: HTMLElement | null = null;
   function close() { dialog.close(); }
@@ -16,7 +16,7 @@
     return () => { document.removeEventListener('click', open); document.body.classList.remove('rk-modal-open'); };
   });
 </script>
-<div id="quote-form"><QuoteForm id="homepage-quote" /></div>
+{#if showInlineForm}<div id="quote-form"><QuoteForm id="homepage-quote" /></div>{/if}
 <dialog class="rk-native-quote-dialog" bind:this={dialog} aria-labelledby="quote-dialog-title" onclose={restore} onclick={event => { if (event.target === dialog) close(); }}>
   <div class="rk-modal-panel">
     <button class="rk-modal-close" type="button" aria-label="Close quote form" onclick={close}>×</button>

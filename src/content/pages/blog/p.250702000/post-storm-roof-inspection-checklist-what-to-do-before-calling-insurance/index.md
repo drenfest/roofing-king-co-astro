@@ -2,13 +2,13 @@
 title: "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
 permalink: "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/"
 description: "Looking for storm restoration contractors in Columbus? Contact Roof King & Restoration today for a free quote and more details on our roof restoration services."
-canonicalPath: "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/"
+canonicalPath: "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/"
 wordpressId: 122
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

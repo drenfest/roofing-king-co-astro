@@ -11,11 +11,11 @@
   <p>Answer a few questions about your property in Roof King's Roofr estimator. Your result is an estimated price range. A roof inspection identifies the materials, tear-off, decking repairs and installation needed for your written estimate.</p>
   {#if active}
     <iframe src={roofr.estimatorUrl} title="Roof King instant roof estimate" width="800" height="700" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    <p>If the estimator does not load, <a href={roofr.estimatorUrl} target="_blank" rel="noopener noreferrer">open it in a new tab</a>.</p>
+    <p>If the estimator does not load, <a title="Open the roofing estimator in a new tab" href={roofr.estimatorUrl} target="_blank" rel="noopener noreferrer">open it in a new tab</a>.</p>
   {:else}
     <p>The estimator is provided by Roofr and loads when you choose to start.</p>
     <button class="rk-button rk-button-primary" type="button" disabled={!enhanced} onclick={() => active = true}>Start my roof estimate</button>
-    <p><a href={roofr.estimatorUrl} target="_blank" rel="noopener noreferrer">Open the estimator in a new tab</a></p>
+    <p><a title="Open the roofing estimator in a new tab" href={roofr.estimatorUrl} target="_blank" rel="noopener noreferrer">Open the estimator in a new tab</a></p>
   {/if}
 </section>
 

@@ -59,3 +59,12 @@ Content at this preserved URL branch. index.md is an editable page; child direct
 ## Change checks
 
 Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+
+
+categories/ and topics/ are client-authored hub provenance records rendered by the native blog/[hub].astro entry point. Existing imported posts, categories, tags and their URLs remain unchanged.
+
+
+Client-directed navigation update: existing individual article sidebars now link Categories and Topics to their dedicated hub URLs. Article wording, provenance and canonical paths remain unchanged.
+
+
+Client-approved category/tag blog URLs: imported article permalink/sourcePath records remain as historical evidence, with canonicalPath updated to the new article URL. The catchall renders their bodies at that canonical only; historical numeric and flat routes permanently redirect.

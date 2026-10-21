@@ -2,13 +2,13 @@
 title: "How to Spot Roof Damage This Storm Season"
 permalink: "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/"
 description: "Are you searching for a reliable roofing company in Columbus, OH? Work with the roofers at Roof King & Restoration and request a free pricing estimate today!"
-canonicalPath: "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/"
+canonicalPath: "/blog/roofing/how-to-spot-roof-damage-this-storm-season/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/"
 wordpressId: 121
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

@@ -38,18 +38,18 @@
   }
 </script>
 
-<div class="rk-mega-intro"><span>{root.label}</span><a href={root.href} onclick={onNavigate}>Explore all {root.label.toLowerCase()} <span aria-hidden="true">↗</span></a></div>
+<div class="rk-mega-intro"><span>{root.label}</span></div>
 <div class="rk-mega-body"><div class="rk-mega-columns" style={`grid-template-columns:repeat(${columns.length},minmax(0,1fr))`}>
   {#each columns as column,level (`${level}:${column.parent.href}`)}
     <section class="rk-mega-column" aria-label={`${column.parent.label} choices`}>
       <div class="rk-mega-heading">
         {#if level===3&&trail.length}<button type="button" class="rk-mega-back" onclick={()=>trail=trail.slice(0,-1)} aria-label="Back to previous menu level">← Back</button>{/if}
-        <a href={column.parent.href} onclick={onNavigate} onfocus={()=>preview=column.parent} onpointerenter={()=>preview=column.parent}>{column.parent.label} <span aria-hidden="true">↗</span></a>
+        <span class="rk-mega-column-label">{column.parent.label}</span>
       </div>
       <ul>{#each column.items as item,index}
         <li>
           <div class="rk-mega-row" class:is-selected={level===0?first===index:level===1?second===index:level===2?thirdIndex===index:false}>
-            <a href={item.href} onclick={onNavigate} onpointerenter={event=>{if(event.pointerType==='mouse'){preview=item;if(level<3)choose(level,index);}}} onfocus={()=>preview=item} onkeydown={event=>key(event,level,index)}>{item.label}</a>
+            <a title={item.label} href={item.href} onclick={onNavigate} onpointerenter={event=>{if(event.pointerType==='mouse'){preview=item;if(level<3)choose(level,index);}}} onfocus={()=>preview=item} onkeydown={event=>key(event,level,index)}>{item.label}</a>
             {#if item.children.length}<button type="button" aria-label={`Show ${item.label} options`} aria-expanded={level===0?first===index:level===1?second===index:level===2?thirdIndex===index:false} onpointerenter={event=>{if(event.pointerType==='mouse'){preview=item;if(level<3)choose(level,index);}}} onclick={()=>choose(level,index)} onfocus={()=>preview=item} onkeydown={event=>key(event,level,index)}><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>{/if}
           </div>
         </li>
@@ -57,5 +57,5 @@
     </section>
   {/each}
 </div>
-  {#if visible}<aside class="rk-mega-photo"><MenuPreview item={preview||branch||root} {onNavigate}/></aside>{/if}
+  {#if visible}<aside class="rk-mega-photo"><MenuPreview item={preview||branch||root}/></aside>{/if}
 </div>

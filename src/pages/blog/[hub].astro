@@ -1,0 +1,9 @@
+---
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import BlogHub from '../../components/BlogHub.astro';
+import hubs from '../../data/blog-hubs.json';
+export function getStaticPaths(){return (['categories','topics'] as const).map(kind=>({params:{hub:kind},props:{kind}}));}
+interface Props {kind:'categories'|'topics';}
+const {kind}=Astro.props;const hub=hubs[kind];
+---
+<BlogLayout kind={kind} title={hub.title} description={hub.description} path={hub.path}><BlogHub {kind}/></BlogLayout>

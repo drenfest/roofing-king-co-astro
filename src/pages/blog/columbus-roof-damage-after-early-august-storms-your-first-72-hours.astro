@@ -1,0 +1,7 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import articles from '../../data/blog-articles.json';
+import type {BlogArticleData} from '../../data/blog-article-types';
+const article=articles['/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/'] as unknown as BlogArticleData;
+---
+<ArticleLayout {article}/>

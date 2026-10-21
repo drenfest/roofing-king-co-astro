@@ -2,13 +2,13 @@
 title: "Winter Roofing Services in Columbus, OH: What Homeowners Should Know"
 permalink: "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/"
 description: "Roof King & Restoration in Columbus, OH offers expert winter roofing services. Don’t wait for spring—schedule roof work now to stay protected."
-canonicalPath: "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/"
+canonicalPath: "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/"
 category: "Article"
 source: "wordpress-alternate-route"
 sourcePath: "/blog/p.251124000/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/"
 wordpressId: 128
 reviewStatus: "imported-needs-review"
-notes: ["Both historical and current article paths retained."]
+notes: ["Both historical and current article paths retained.","Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

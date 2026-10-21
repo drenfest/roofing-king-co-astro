@@ -14,7 +14,7 @@
   <div class="rk-review-table">
     <table>
       <thead><tr><th scope="col">Path</th><th scope="col">Source</th><th scope="col">Words</th><th scope="col">Canonical path</th></tr></thead>
-      <tbody>{#each filtered as route}<tr><td><a href={route.path}>{route.path}</a></td><td>{route.source}</td><td>{route.words}</td><td>{route.canonicalPath}</td></tr>{/each}</tbody>
+      <tbody>{#each filtered as route}<tr><td><a title={`Review ${route.path}`} href={route.path}>{route.path}</a></td><td>{route.source}</td><td>{route.words}</td><td>{route.canonicalPath}</td></tr>{/each}</tbody>
     </table>
   </div>
 </section>

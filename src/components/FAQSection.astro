@@ -2,7 +2,9 @@
 import type { HeadingData, RichNode } from '../data/section-types';
 import SectionHeading from './SectionHeading.astro';
 import RichContent from './RichContent.astro';
-interface Props { section: HeadingData & {items:{question:string;answer:RichNode[]}[]}; }
-const { section } = Astro.props;
+interface Props { section: HeadingData & {items:{question:string;answer:RichNode[]}[]}; contained?:boolean; }
+const { section, contained=false } = Astro.props;
 ---
-<section class="rk-home-section rk-service-faq" data-component="FAQSection"><div class="rk-section-inner"><SectionHeading {...section}/><div class="rk-service-faq-list">{section.items.map(item=><details><summary>{item.question}</summary><div><RichContent nodes={item.answer}/></div></details>)}</div></div></section>
+<section class:list={['rk-home-section','rk-service-faq',{'rk-contained-faq':contained}]} data-component="FAQSection"><div class:list={{'rk-section-inner':!contained}}><SectionHeading {...section}/><div class="rk-service-faq-list">{section.items.map(item=><details><summary>{item.question}</summary><div><RichContent nodes={item.answer}/></div></details>)}</div></div></section>
+
+<style>.rk-service-faq.rk-contained-faq{padding:0;background:transparent;}</style>

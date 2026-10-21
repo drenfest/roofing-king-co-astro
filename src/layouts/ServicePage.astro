@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import type { ServicePageData } from '../data/section-types';
-import { photo } from '../data/media';
 import { trust } from '../data/home.json';
 import { placements, replaceHeadings } from '../data/page-structure';
 import DocumentLayout from './DocumentLayout.astro';
@@ -15,7 +14,8 @@ import MediaContentRow from '../components/MediaContentRow.astro';
 import BrandStrip from '../components/BrandStrip.astro';
 import CardSection from '../components/CardSection.astro';
 import ReviewSection from '../components/ReviewSection.astro';
-import ProjectGallery from '../components/ProjectGallery.svelte';
+import ServiceGallery from '../components/ServiceGallery.astro';
+import FeaturedArticles from '../components/FeaturedArticles.astro';
 import ComparisonSection from '../components/ComparisonSection.astro';
 import CoverageSection from '../components/CoverageSection.astro';
 import FAQSection from '../components/FAQSection.astro';
@@ -46,11 +46,12 @@ const sections=opening?.sections || data.sections;
       section.type==='service-paths'?<ServicePaths section={completeServicePaths(page.data.permalink,section)}/>:
       section.type==='brands'?<BrandStrip brands={section}/>:
       section.type==='cards'?(section.kind==='reviews'?<ReviewSection {section}/>:<CardSection kind={section.kind} section={section}/>):
-      section.type==='gallery'?<ProjectGallery {...section} description={section.description || ''} items={section.items.map(item=>({...photo(item),tags:item.tags}))} client:visible/>:
+      section.type==='gallery'?<ServiceGallery family="gaf-catalog"/>:
       section.type==='comparison'?<ComparisonSection comparison={section}/>:
       section.type==='coverage'?<CoverageSection coverage={section}/>:
       section.type==='faq'?<FAQSection {section}/>:
       section.type==='products'?<ProductGrid {section}/>:
       section.type==='quote'?<QuoteSection quote={section}/>:null)}
+    <FeaturedArticles family="gaf" path={page.data.permalink}/>
   </article></main><SiteFooter/>
 </DocumentLayout>

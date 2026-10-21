@@ -1,0 +1,8 @@
+---
+import BlogArchive from '../../components/BlogArchive.astro';
+import archives from '../../data/blog-archives.json';
+export function getStaticPaths(){return Object.entries(archives).filter(([path])=>path.startsWith('/category/')).map(([path])=>({params:{category:path.split('/')[2]},props:{path}}));}
+interface Props {path:keyof typeof archives;}
+const {path}=Astro.props;
+---
+<BlogArchive {path}/>

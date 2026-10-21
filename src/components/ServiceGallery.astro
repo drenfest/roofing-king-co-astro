@@ -1,0 +1,8 @@
+---
+import ProjectGallery from './ProjectGallery.svelte';
+import {galleryFor} from '../data/project-gallery';
+interface Props{family?:string;id?:string;title?:string;}
+const {family='all',id='service-gallery',title}=Astro.props;
+const {topic,...gallery}=galleryFor(family);
+---
+<ProjectGallery {...gallery} title={title||gallery.title} {id} compact client:visible/>

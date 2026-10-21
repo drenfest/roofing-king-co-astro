@@ -2,13 +2,13 @@
 title: "How Long Does a Roof Last in Dublin, OH?"
 permalink: "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/"
 description: "Wondering how long a roof lasts in Dublin, OH? Learn the lifespan of asphalt shingles, metal roofing, and factors that impact roof longevity from the experts at Roof King."
-canonicalPath: "/blog/how-long-does-a-roof-last-in-dublin-oh/"
+canonicalPath: "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/"
 wordpressId: 133
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

@@ -1,0 +1,20 @@
+---
+import ContentSection from './ContentSection.astro';
+import FAQSection from './FAQSection.astro';
+import ArticleImage from './ArticleImage.astro';
+import ArticleChecklist from './ArticleChecklist.astro';
+import type {ArticleSectionData} from '../data/blog-article-types';
+import type {RichNode} from '../data/section-types';
+interface Props {section:ArticleSectionData;}
+const {section}=Astro.props;
+const heading:RichNode={tag:'h2',id:section.id+'-title',children:[{text:section.title}]};
+---
+<section id={section.id} class="rk-article-section" aria-labelledby={section.kind==='faq'?undefined:section.id+'-title'} data-component="ArticleSection">
+ {section.kind==='faq'?<>
+  {section.preamble.length>0&&<ContentSection contained section={{type:'content',variant:'prose',body:section.preamble,cards:[]}}/>}
+  <FAQSection contained section={{eyebrow:'Questions from homeowners',title:section.title,items:section.items}}/>
+ </>:<>
+  <ContentSection contained section={{type:'content',variant:'prose',body:[heading],cards:[]}}/>
+  {section.blocks.map(block=>block.kind==='image'?<ArticleImage image={block.image}/>:block.kind==='checklist'?<ArticleChecklist items={block.items}/>:<ContentSection contained section={{type:'content',variant:'prose',body:block.nodes,cards:[]}}/>)}
+ </>}
+</section>

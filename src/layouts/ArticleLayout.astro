@@ -1,0 +1,41 @@
+---
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BlogNavigation from '../components/BlogNavigation.astro';
+import ContentSection from '../components/ContentSection.astro';
+import ArticleImage from '../components/ArticleImage.astro';
+import ArticleChecklist from '../components/ArticleChecklist.astro';
+import ArticleSection from '../components/ArticleSection.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import routes from '../data/blog-routes.json';
+import site from '../data/site.json';
+import type {BlogArticleData} from '../data/blog-article-types';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/articles.css';
+interface Props {article:BlogArticleData;}
+const {article}=Astro.props;const post=routes.posts.find(p=>p.canonicalPath===article.path)!;
+const term=post.term;const collection=term?`/${term.kind==='category'?'category':'tag'}/${term.slug}/`:undefined;
+const publishedLabel=article.publishedAt?new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'America/New_York'}).format(new Date(article.publishedAt)):null;
+const schema={'@context':'https://schema.org','@type':'BlogPosting',headline:article.title,description:article.description,url:new URL(article.path,site.url).href,mainEntityOfPage:new URL(article.path,site.url).href,image:new URL(article.hero.src,site.url).href,...(article.publishedAt?{datePublished:article.publishedAt}:{}),...(article.author?{author:{'@type':article.author.includes('Roof King')?'Organization':'Person',name:article.author}}:{}),publisher:{'@id':site.url+'/#business'}};
+---
+<DocumentLayout title={article.title} description={article.description} canonicalPath={article.path} image={article.hero.src}>
+ <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-article-page" data-component="NativeArticle" data-article-path={article.path}>
+  <PageHero variant="resource" generatedImage={article.hero.generated} hero={{eyebrow:term?`${term.name} · Roof King blog`:'Roof King blog',title:article.title,description:article.description,image:article.hero.src,bookingUrl:'#article-content',bookingLabel:'Read the article',booking:{eyebrow:'',title:'',description:''}}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Blog',href:'/blog/'},...(term?[{label:term.name,href:collection}]:[]),{label:article.title}]}/>
+  <div class="rk-section-inner rk-article-layout"><BlogNavigation path={article.path}/><article id="article-content" class="rk-article-reading" aria-label={article.title} data-content-source={article.source}>
+   <div class="rk-article-byline">{article.author&&<span>By {article.author}</span>}{publishedLabel&&<time datetime={article.publishedAt||undefined}>{publishedLabel}</time>}<span>{article.readingMinutes} min read</span></div>
+   {article.lead.map(block=>block.kind==='image'?<ArticleImage image={block.image}/>:block.kind==='checklist'?<ArticleChecklist items={block.items}/>:<ContentSection contained section={{type:'content',variant:'prose',body:block.nodes,cards:[]}}/>)}
+   {article.sections.map(section=><ArticleSection {section}/>)}
+  </article></div>
+  <QuoteSection quote={{eyebrow:"Talk with Roof King",title:"Get a free quote",description:"Tell us about your roofing or exterior project. Our team can help you plan the next step."}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

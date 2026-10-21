@@ -78,3 +78,43 @@ Atlas previews render at no more than 192px on desktop; mobile uses a compact 96
 component-refinements.css is the shared editorial finish imported by SiteMotion in both shells: sentence-case presentation, flat orange/charcoal buttons and restrained accents/shadows while preserving diagonal section backgrounds and genuine/semantic artwork. It also owns the wider two-column desktop quote dialog and responsive field layout.
 
 service-area-map.css styles lazy Leaflet controls, restrained basemap colors, orange boundary feedback and accessible popup links. It is loaded with the map module, not the initial page styles.
+
+
+service-landing.css styles related service links as flat ivory bordered grid cells, aligned orange arrows, restrained hover/focus states and single-column mobile targets. Location explorer scrolling is component-scoped in ServiceExplorer. FeaturedArticles owns its responsive four/two/one-column editorial grid, thumbnail crops and reduced-motion image feedback.
+
+
+articles.css sets native long-form typography, section-level separators, metadata and responsive aside/reading layout. ArticleChecklist owns compact bullets with no per-item borders. Shared component styling supplies FAQs and hero styling.
+
+
+ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience used on the homepage, outside the reading/sidebar grid. It replaces the compact ServiceAudienceBanner and its article-only styles. Header quote actions open the shared modal; form submission remains disabled during review.
+
+
+Article prose immediately preceding ArticleChecklist has its trailing paragraph margin removed; the adjacent list starts .4rem below the label. Other paragraph and section spacing is unchanged.
+
+
+contact.css owns only native contact-page typography, two contact-method cards, office address/map and responsive diagonal office band. Shared hero, form and button styling remain reused.
+
+
+about.css styles only the About hero typography, diagonal story background and service-card refinements. Credentials, carousel, reviews, coverage map and quote form retain shared styling.
+
+
+projects.css styles only Past Projects hero typography and its diagonal service-link section. Shared ProjectGallery owns all gallery behavior and layout; ResourceLinks and QuoteSection remain reused.
+
+
+faq.css styles the dedicated FAQ hero, diagonal topic directory, compact shared accordions and topic links. ServiceExplorer and FAQSection retain their existing behavior; no FAQ animation library or new form is introduced.
+
+
+navigation.css styles rk-mega-column-label spans in place of redundant heading anchors. Removed preview-link focus/arrow hover rules since MenuPreview is now a visual rather than another copy of the selected link.
+
+
+warranty.css styles only the native warranty hero, summary cards, material row, document resources and shared FAQ. WarrantyComparison owns its semantic responsive table styling. Existing optimized gallery photos are reused without new downloads or enlargement.
+
+
+customer-service.css styles the support hero, existing-project help cards, diagonal call-preparation checklist and document resources. Shared FAQ, quote form and header behavior stay unchanged; form submission remains disabled.
+
+
+careers.css owns Careers hero typography, experience cards, the diagonal introduction checklist and phone inquiry band. Shared FAQs and global motion remain reused. No customer quote strip is rendered in the recruiting content.
+
+service-areas.css styles the native map/directory split, ivory location cards and recursive service disclosures. Mobile places the map above the cards; no page overflow or map trapping.
+
+offers.css provides native offer hero sizing, flat feature cards, diagonal photo bands, a call-preparation checklist and grouped hub cards. It inherits shared motion, buttons and FAQ behavior.

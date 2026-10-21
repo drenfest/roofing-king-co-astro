@@ -2,13 +2,13 @@
 title: "How Much Does Roof Repair Cost in Dublin, OH"
 permalink: "/blog/how-much-does-roof-repair-cost-in-dublin-oh/"
 description: "Wondering how much roof repair costs in Dublin, OH? Learn what impacts roofing repair costs, common repairs, and when roof replacement may be the better option."
-canonicalPath: "/blog/how-much-does-roof-repair-cost-in-dublin-oh/"
+canonicalPath: "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/"
 category: "Article"
 source: "wordpress-alternate-route"
 sourcePath: "/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/"
 wordpressId: 132
 reviewStatus: "imported-needs-review"
-notes: ["Both historical and current article paths retained."]
+notes: ["Both historical and current article paths retained.","Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

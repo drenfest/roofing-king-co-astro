@@ -1,0 +1,9 @@
+import type {HeadingData,RichNode} from './section-types';
+export const gafWarrantySources={guide:'https://www.gaf.com/en-us/resources/warranties/residential',sample:'https://documents.gaf.com/warranties/gaf-system-plus-limited-warranty-reswt162-legal-sample.pdf',checkedAt:'2026-10-21'};
+const p=(text:string):RichNode=>({tag:'p',children:[{text}]});
+export const systemPlusFAQ:HeadingData & {items:{question:string;answer:RichNode[]}[]}={eyebrow:'Coverage questions',title:'GAF System Plus questions, answered',items:[
+ {question:'Is System Plus automatically included with a new roof?',answer:[p('No. Confirm the selected warranty in your proposal. Product eligibility, registration and payment requirements must be satisfied. Keep the warranty issued for your installation.')]},
+ {question:'Does 50 years mean my roof is guaranteed to last that long?',answer:[p('No. The Smart Choice period describes qualifying manufacturing-defect coverage. It is not a roof-life prediction. Wind and algae coverage have their own terms.')]},
+ {question:'Who registers my System Plus warranty?',answer:[p('The contractor registers it. GAF’s current sample requires registration within 45 days of installation. If your warranty has not arrived within 60 days, follow up with GAF using the contact details in the sample.')]},
+ {question:'Can the warranty transfer if I sell my home?',answer:[p('One transfer may be available, subject to GAF’s notification and timing requirements. Review the transfer section of your issued warranty when ownership changes.')]},
+ {question:'Does System Plus replace storm-damage insurance?',answer:[p('No. Hail damage is not covered as a manufacturing defect, and wind coverage has specific conditions. Report damage promptly and review the applicable warranty and insurance policy.')]}]};

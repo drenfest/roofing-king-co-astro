@@ -35,7 +35,7 @@ const schema = {
   <body>
     <a class="rk-skip-link" href="#content">Skip to content</a>
     <SiteHeader quoteHref="/contact-us/" quoteModal={false} client:load/>
-    <main id="content" class="rk-site-main"><slot /></main>
+    <main id="content" class="rk-site-main"><slot/></main>
     <Fragment set:html={shell.footer} />
     <script>
       import { initProjectGallery } from '../scripts/compatibility/gallery.js';

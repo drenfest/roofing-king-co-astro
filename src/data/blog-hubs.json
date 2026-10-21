@@ -1,0 +1,656 @@
+{
+  "categories": {
+    "path": "/blog/categories/",
+    "title": "Blog categories",
+    "description": "Find roofing, siding, gutter and storm-damage articles organized by service.",
+    "groups": [
+      {
+        "label": "Roofing",
+        "href": "/category/roofing/",
+        "description": "Roofing materials, installation and maintenance advice to help protect your home.",
+        "count": 16,
+        "image": {
+          "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-720.webp",
+          "alt": "Signs You Need Roof Repair in Dublin, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
+            "title": "Signs You Need Roof Repair in Dublin, OH"
+          },
+          {
+            "href": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+            "title": "How Much Does Roof Repair Cost in Dublin, OH"
+          }
+        ]
+      },
+      {
+        "label": "Roof Replacement",
+        "href": "/category/roof-replacement/",
+        "description": "Plan a new roof, understand installation and compare the factors that affect replacement costs.",
+        "count": 6,
+        "image": {
+          "src": "/media/articles/how-long-does-a-roof-last-in-dublin-oh-720.webp",
+          "alt": "How Long Does a Roof Last in Dublin, OH?",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/how-long-does-a-roof-last-in-dublin-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/how-long-does-a-roof-last-in-dublin-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
+            "title": "How Long Does a Roof Last in Dublin, OH?"
+          },
+          {
+            "href": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+            "title": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+          }
+        ]
+      },
+      {
+        "label": "Storm Damage",
+        "href": "/category/storm-damage/",
+        "description": "Recognize hail and wind damage, plan an inspection and prepare repair documentation.",
+        "count": 6,
+        "image": {
+          "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-720.webp",
+          "alt": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+            "title": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+          },
+          {
+            "href": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+            "title": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
+          }
+        ]
+      },
+      {
+        "label": "Seasonal",
+        "href": "/category/seasonal/",
+        "description": "Prepare your roof and exterior for changing weather and seasonal projects.",
+        "count": 5,
+        "image": {
+          "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-720.webp",
+          "alt": "Winter Roofing Services in Columbus, OH: What Homeowners Should Know",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+            "title": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+          },
+          {
+            "href": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+            "title": "Winter Roofing Services in Columbus, OH: What Homeowners Should Know"
+          }
+        ]
+      },
+      {
+        "label": "Roof Repair",
+        "href": "/category/roof-repair/",
+        "description": "Understand leak warning signs, damaged shingles and the choice between repair and replacement.",
+        "count": 3,
+        "image": {
+          "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-720.webp",
+          "alt": "How Much Does Roof Repair Cost in Dublin, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
+            "title": "Signs You Need Roof Repair in Dublin, OH"
+          },
+          {
+            "href": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+            "title": "How Much Does Roof Repair Cost in Dublin, OH"
+          }
+        ]
+      },
+      {
+        "label": "Gutters",
+        "href": "/category/gutters/",
+        "description": "Explore drainage, gutter maintenance and guards that help keep roof runoff moving.",
+        "count": 2,
+        "image": {
+          "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-720.webp",
+          "alt": "Why Gutter Guard Installation in Columbus, OH is a Good Idea",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+            "title": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+          },
+          {
+            "href": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/",
+            "title": "The Importance of Gutters for Your Columbus Home"
+          }
+        ]
+      },
+      {
+        "label": "Siding",
+        "href": "/category/siding/",
+        "description": "Learn about replacing worn siding and protecting the walls behind your home’s exterior.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/replace-your-home-siding-in-columbus-with-expert-help-720.webp",
+          "alt": "Replace Your Home Siding in Columbus with Expert Help",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/replace-your-home-siding-in-columbus-with-expert-help-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/replace-your-home-siding-in-columbus-with-expert-help-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-replacement/replace-your-home-siding-in-columbus-with-expert-help/",
+            "title": "Replace Your Home Siding in Columbus with Expert Help"
+          }
+        ]
+      },
+      {
+        "label": "GAF Roofing",
+        "href": "/category/gaf-roofing/",
+        "description": "Explore GAF shingles and the installation choices that go into a new roofing system.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-720.webp",
+          "alt": "Should I Go with GAF Shingles for My Roof Replacement?",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+            "title": "Should I Go with GAF Shingles for My Roof Replacement?"
+          }
+        ]
+      },
+      {
+        "label": "Ice Dam Removal",
+        "href": "/category/ice-dam-removal/",
+        "description": "Understand winter ice buildup, drainage problems and roof-edge leak prevention.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-720.webp",
+          "alt": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+            "title": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+          }
+        ]
+      }
+    ]
+  },
+  "topics": {
+    "path": "/blog/topics/",
+    "title": "Blog topics",
+    "description": "Browse Roof King articles by location, project questions and seasonal concerns.",
+    "groups": [
+      {
+        "label": "Columbus, OH",
+        "href": "/tag/columbus-oh/",
+        "description": "Roofing, siding, gutter and storm advice written for Columbus homeowners.",
+        "count": 7,
+        "image": {
+          "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-720.webp",
+          "alt": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+            "title": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+          },
+          {
+            "href": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+            "title": "Winter Roofing Services in Columbus, OH: What Homeowners Should Know"
+          }
+        ]
+      },
+      {
+        "label": "Dublin, OH",
+        "href": "/tag/dublin-oh/",
+        "description": "Dublin roofing guides covering repairs, replacement, service life and contractor selection.",
+        "count": 5,
+        "image": {
+          "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-720.webp",
+          "alt": "Signs You Need Roof Repair in Dublin, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/signs-you-need-roof-repair-in-dublin-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
+            "title": "Signs You Need Roof Repair in Dublin, OH"
+          },
+          {
+            "href": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+            "title": "How Much Does Roof Repair Cost in Dublin, OH"
+          }
+        ]
+      },
+      {
+        "label": "Roof Inspection",
+        "href": "/tag/roof-inspection/",
+        "description": "Learn what damage to look for and how a roof inspection informs the next repair step.",
+        "count": 3,
+        "image": {
+          "src": "/media/articles/how-to-spot-roof-damage-this-storm-season-720.webp",
+          "alt": "How to Spot Roof Damage This Storm Season",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/how-to-spot-roof-damage-this-storm-season-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/how-to-spot-roof-damage-this-storm-season-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+            "title": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+          },
+          {
+            "href": "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+            "title": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+          }
+        ]
+      },
+      {
+        "label": "Hiring Tips",
+        "href": "/tag/hiring-tips/",
+        "description": "Know what to discuss with a roofing contractor before choosing your installation team.",
+        "count": 3,
+        "image": {
+          "src": "/media/articles/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a-720.webp",
+          "alt": "Best Roofing Contractors Dublin OH: What Homeowners Should Know Before Hiring a Roofing Company",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+            "title": "Best Roofing Contractors Dublin OH: What Homeowners Should Know Before Hiring a Roofing Company"
+          },
+          {
+            "href": "/blog/roof-replacement/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+            "title": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+          }
+        ]
+      },
+      {
+        "label": "Winter Roofing",
+        "href": "/tag/winter-roofing/",
+        "description": "Cold-weather repairs, winter preparation and ice-dam considerations for Ohio homes.",
+        "count": 3,
+        "image": {
+          "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-720.webp",
+          "alt": "Winter Roofing Services in Columbus, OH: What Homeowners Should Know",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/winter-roofing-services-in-columbus-oh-what-homeowners-should-know-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+            "title": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+          },
+          {
+            "href": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+            "title": "Winter Roofing Services in Columbus, OH: What Homeowners Should Know"
+          }
+        ]
+      },
+      {
+        "label": "GAF Shingles",
+        "href": "/tag/gaf-shingles/",
+        "description": "Read about GAF shingle choices when planning your roof replacement.",
+        "count": 2,
+        "image": {
+          "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-720.webp",
+          "alt": "Should I Go with GAF Shingles for My Roof Replacement?",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/should-i-go-with-gaf-shingles-for-my-roof-replacement-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+            "title": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
+          },
+          {
+            "href": "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+            "title": "Should I Go with GAF Shingles for My Roof Replacement?"
+          }
+        ]
+      },
+      {
+        "label": "Wind Damage",
+        "href": "/tag/wind-damage/",
+        "description": "Understand lifted shingles, exposed roof layers and inspections after strong winds.",
+        "count": 2,
+        "image": {
+          "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-720.webp",
+          "alt": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+            "title": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
+          },
+          {
+            "href": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+            "title": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+          }
+        ]
+      },
+      {
+        "label": "Cost Guides",
+        "href": "/tag/cost-guides/",
+        "description": "Learn which materials, roof details and repair conditions affect a roofing estimate.",
+        "count": 2,
+        "image": {
+          "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-720.webp",
+          "alt": "How Much Does Roof Repair Cost in Dublin, OH",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/how-much-does-roof-repair-cost-in-dublin-oh-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+            "title": "How Much Does Roof Repair Cost in Dublin, OH"
+          },
+          {
+            "href": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+            "title": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+          }
+        ]
+      },
+      {
+        "label": "Hail Damage",
+        "href": "/tag/hail-damage/",
+        "description": "Identify signs of hail damage and understand when to request a closer inspection.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
+          "alt": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+            "title": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+          }
+        ]
+      },
+      {
+        "label": "Christmas Lights",
+        "href": "/tag/christmas-lights/",
+        "description": "Read about planning seasonal exterior lighting and arranging installation.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/hub-christmas-lights-600.webp",
+          "alt": "Why Now’s the Time to Schedule Christmas Light Installation",
+          "width": 522,
+          "height": 400,
+          "variants": [
+            {
+              "src": "/media/articles/hub-christmas-lights-600.webp",
+              "width": 522
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/seasonal/why-nows-the-time-to-schedule-christmas-light-installation/",
+            "title": "Why Now’s the Time to Schedule Christmas Light Installation"
+          }
+        ]
+      },
+      {
+        "label": "Insurance Claims",
+        "href": "/tag/insurance-claims/",
+        "description": "Roof inspections, storm documentation and questions to prepare before discussing an insurance claim.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance-720.webp",
+          "alt": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+            "title": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+          }
+        ]
+      },
+      {
+        "label": "Gutter Guards",
+        "href": "/tag/gutter-guards/",
+        "description": "Learn about debris protection, gutter guard installation and ongoing gutter maintenance.",
+        "count": 1,
+        "image": {
+          "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-720.webp",
+          "alt": "Why Gutter Guard Installation in Columbus, OH is a Good Idea",
+          "width": 720,
+          "height": 480,
+          "variants": [
+            {
+              "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-400.webp",
+              "width": 400
+            },
+            {
+              "src": "/media/articles/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea-720.webp",
+              "width": 720
+            }
+          ]
+        },
+        "articles": [
+          {
+            "href": "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+            "title": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+          }
+        ]
+      }
+    ]
+  }
+}

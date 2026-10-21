@@ -2,13 +2,13 @@
 title: "Should I Go with GAF Shingles for My Roof Replacement?"
 permalink: "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/"
 description: "Want a top-tier Columbus roof replacement? Get in touch with Roof King & Restoration today for a free estimate on our roofing services and to learn more."
-canonicalPath: "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/"
+canonicalPath: "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/"
 wordpressId: 119
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

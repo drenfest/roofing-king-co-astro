@@ -2,11 +2,11 @@
 import type { ContentSectionData } from '../data/section-types';
 import RichContent from './RichContent.astro';
 import site from '../data/site.json';
-interface Props { section: ContentSectionData; }
-const { section } = Astro.props;
+interface Props { section: ContentSectionData; contained?:boolean; }
+const { section, contained=false } = Astro.props;
 ---
-<section class={`rk-service-content rk-service-content-${section.variant}`} data-component="ContentSection">
-  <div class="rk-section-inner">
+<section class={`rk-service-content rk-service-content-${section.variant} ${contained?'rk-contained-content-section':''}`} data-component="ContentSection">
+  <div class:list={{'rk-section-inner':!contained}}>
     <div class="rk-service-prose"><RichContent nodes={section.body} /></div>
     {section.cards.length > 0 && <div class={`rk-service-cards rk-service-cards-${section.variant}`}>
       {section.cards.map(card => card.href ? <a class="rk-service-card" href={card.href}><h3>{card.title}</h3><RichContent nodes={card.body}/><strong>Learn More</strong></a> : <article class="rk-service-card"><h3>{card.title}</h3><RichContent nodes={card.body}/></article>)}
@@ -14,3 +14,5 @@ const { section } = Astro.props;
     </div>}
   </div>
 </section>
+
+<style>.rk-service-content.rk-contained-content-section{padding:0;background:transparent;}</style>

@@ -1,0 +1,47 @@
+{
+  "articleCount": 19,
+  "pagesWithFeaturedArticles": 76,
+  "unfilledServices": [
+    {
+      "path": "/decks/",
+      "family": "decks",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/decks/accessories/",
+      "family": "deck-accessories",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/decks/installations/",
+      "family": "deck-install",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/decks/refinishing/",
+      "family": "deck-refinish",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/decks/repairs/",
+      "family": "deck-repair",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/decks/replacements/",
+      "family": "deck-replace",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/exterior-painting/",
+      "family": "painting",
+      "reason": "No relevant published articles available in the existing blog."
+    },
+    {
+      "path": "/windows/",
+      "family": "windows",
+      "reason": "No relevant published articles available in the existing blog."
+    }
+  ],
+  "note": "Existing articles only. Empty service categories are not padded with unrelated posts. Add dedicated articles during the ten-page content reviews."
+}

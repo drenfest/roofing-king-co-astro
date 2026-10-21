@@ -1,0 +1,416 @@
+{
+  "eyebrow": "Project & service gallery",
+  "title": "A closer look. A higher standard.",
+  "titleEmphasis": "A higher standard.",
+  "description": "Roofing, siding and exterior details. Explore the work, materials and finishes in our photo library.",
+  "filters": [
+    {
+      "label": "All photos",
+      "value": "all"
+    },
+    {
+      "label": "Roofing",
+      "value": "roofing"
+    },
+    {
+      "label": "Commercial roofing",
+      "value": "commercial-roofing"
+    },
+    {
+      "label": "Siding",
+      "value": "siding"
+    },
+    {
+      "label": "Gutters",
+      "value": "gutters"
+    },
+    {
+      "label": "Windows",
+      "value": "windows"
+    },
+    {
+      "label": "Decks",
+      "value": "decks"
+    },
+    {
+      "label": "Attic insulation",
+      "value": "insulation"
+    },
+    {
+      "label": "Storm damage",
+      "value": "storm-damage"
+    }
+  ],
+  "items": [
+    {
+      "id": "photo-24",
+      "src": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg",
+      "tags": [
+        "siding",
+        "roofing"
+      ],
+      "category": "Siding",
+      "caption": "A fresh perspective",
+      "alt": "Front exterior of a two-story home with shingle roofing and light siding",
+      "source": "gallery",
+      "context": {
+        "roofing": {
+          "caption": "Shingle rooflines above the exterior"
+        }
+      }
+    },
+    {
+      "id": "photo-11",
+      "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "Every angle considered",
+      "alt": "Overhead view of a dark shingle roof with ridges and roof vents",
+      "source": "/roofing/repair/"
+    },
+    {
+      "id": "photo-29",
+      "src": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg",
+      "tags": [
+        "roofing",
+        "storm-damage"
+      ],
+      "category": "Roofing",
+      "caption": "Details beneath the surface",
+      "alt": "Close view of roof underlayment, fasteners and a protective membrane",
+      "source": "gallery",
+      "context": {
+        "storm-damage": {
+          "caption": "Underlayment and protective roof layers"
+        }
+      }
+    },
+    {
+      "id": "photo-12",
+      "src": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg",
+      "tags": [
+        "siding",
+        "gutters",
+        "windows"
+      ],
+      "category": "Siding",
+      "caption": "Siding, trim and drainage",
+      "alt": "Side elevation of a home with horizontal siding, windows, trim and downspouts",
+      "source": "/roofing/repair/",
+      "context": {
+        "windows": {
+          "caption": "Windows and trim along the side elevation"
+        },
+        "gutters": {
+          "caption": "Downspouts along the side elevation"
+        }
+      }
+    },
+    {
+      "id": "photo-1",
+      "src": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
+      "tags": [
+        "roofing",
+        "storm-damage"
+      ],
+      "category": "Roofing",
+      "caption": "Roof installation from above",
+      "alt": "Neighborhood roofs with exposed decking and underlayment during installation",
+      "source": "/roofing/",
+      "context": {
+        "storm-damage": {
+          "caption": "Roof replacement preparation"
+        }
+      }
+    },
+    {
+      "id": "photo-3",
+      "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "Ridges and valleys",
+      "alt": "Overhead view of a gray shingle roof with ridges, valleys and roof penetrations",
+      "source": "/roofing/"
+    },
+    {
+      "id": "photo-5",
+      "src": "/media/wordpress/a5b9955f1d39-4f621074-e634-48c7-8d9f-f53b5192764e.jpg",
+      "tags": [
+        "roofing",
+        "gutters",
+        "metal"
+      ],
+      "category": "Roofing",
+      "caption": "Metal roofing at the eave",
+      "alt": "Standing-seam metal roof above a white gutter and downspout",
+      "source": "/roofing/",
+      "context": {
+        "gutters": {
+          "caption": "Gutter run beneath a metal roof"
+        },
+        "metal": {
+          "caption": "Standing seams above the eave"
+        }
+      }
+    },
+    {
+      "id": "photo-7",
+      "src": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "Shingle profiles and color",
+      "alt": "Stone-front home with a brown architectural shingle roof",
+      "source": "/roofing/"
+    },
+    {
+      "id": "photo-9",
+      "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+      "tags": [
+        "roofing",
+        "metal"
+      ],
+      "category": "Roofing",
+      "caption": "Textured metal roof panels",
+      "alt": "Close view of a gray metal roof with tile-shaped panels",
+      "source": "/roofing/"
+    },
+    {
+      "id": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "The roof above the entry",
+      "alt": "Gray shingle roof above the front entry of a brick home",
+      "source": "/roofing/repair/"
+    },
+    {
+      "id": "photo-14",
+      "src": "/media/wordpress/bba00cdebf6f-bc3a9ffd-0391-40b8-b9d3-657affa2d835.jpg",
+      "tags": [
+        "commercial-roofing"
+      ],
+      "category": "Commercial roofing",
+      "caption": "Low-slope roof surfaces",
+      "alt": "Dark low-slope roof covering with perimeter flashing",
+      "source": "/commercial-roofing/"
+    },
+    {
+      "id": "photo-17",
+      "src": "/media/wordpress/982b73b90898-b9da1a6f-5687-4802-b217-9eca14140666.jpg",
+      "tags": [
+        "commercial-roofing"
+      ],
+      "category": "Commercial roofing",
+      "caption": "A light-colored roof membrane",
+      "alt": "Large light-colored low-slope roof with repeated rooftop penetrations",
+      "source": "/commercial-roofing/"
+    },
+    {
+      "id": "photo-20",
+      "src": "/media/wordpress/275d263eab92-0e4a2ef0-b97d-42ff-8870-7620595e6bdd.jpg",
+      "tags": [
+        "commercial-roofing"
+      ],
+      "category": "Commercial roofing",
+      "caption": "Commercial roof from above",
+      "alt": "Aerial view of a large light-colored commercial roof",
+      "source": "/commercial-roofing/"
+    },
+    {
+      "id": "photo-23",
+      "src": "/media/wordpress/ac2e059ad288-ea5484fa-c9dc-4fe2-b0fc-45d1e67727e1.jpg",
+      "tags": [
+        "siding",
+        "gutters"
+      ],
+      "category": "Siding",
+      "caption": "Siding and roof-edge details",
+      "alt": "Horizontal siding below white roof-edge trim and gutters",
+      "source": "/commercial-roofing/",
+      "context": {
+        "gutters": {
+          "caption": "Gutters above horizontal siding"
+        }
+      }
+    },
+    {
+      "id": "photo-25",
+      "src": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "Installation in progress",
+      "alt": "Aerial view of roof installation with exposed underlayment",
+      "source": "gallery"
+    },
+    {
+      "id": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "A view from above",
+      "alt": "Aerial view of a gray shingle roof and covered porch",
+      "source": "gallery"
+    },
+    {
+      "id": "photo-27",
+      "src": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg",
+      "tags": [
+        "roofing",
+        "gutters"
+      ],
+      "category": "Roofing",
+      "caption": "Rooflines in detail",
+      "alt": "Shingle roof ridges, vents and white gutters above a brick home",
+      "source": "gallery",
+      "context": {
+        "gutters": {
+          "caption": "White gutters along the roof edge"
+        }
+      }
+    },
+    {
+      "id": "photo-28",
+      "src": "/media/wordpress/fe44e47d0473-e17071b5-44ef-439b-a887-3a37946ca373.jpg",
+      "tags": [
+        "roofing",
+        "storm-damage"
+      ],
+      "category": "Roofing",
+      "caption": "Beneath the shingles",
+      "alt": "An OSB roof-decking panel with marked fastening lines",
+      "source": "gallery",
+      "context": {
+        "storm-damage": {
+          "caption": "Decking inspected before roof covering"
+        }
+      }
+    },
+    {
+      "id": "photo-30",
+      "src": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
+      "tags": [
+        "siding",
+        "roofing",
+        "windows"
+      ],
+      "category": "Siding",
+      "caption": "The front of your home",
+      "alt": "Front view of a home with light siding, shutters and shingle roofing",
+      "source": "gallery",
+      "context": {
+        "windows": {
+          "caption": "Window frames and shutters"
+        },
+        "roofing": {
+          "caption": "Rooflines above the front porch"
+        }
+      }
+    },
+    {
+      "id": "photo-31",
+      "src": "/media/wordpress/1f946f26dca8-d2191c9b-2929-4beb-939f-9ee225dabc86.jpg",
+      "tags": [
+        "siding",
+        "windows"
+      ],
+      "category": "Siding",
+      "caption": "An exterior view",
+      "alt": "Front and side of a home with light siding, white trim and dark shutters",
+      "source": "gallery",
+      "context": {
+        "windows": {
+          "caption": "Windows across two elevations"
+        }
+      }
+    },
+    {
+      "id": "photo-32",
+      "src": "/media/wordpress/a29973eff5e6-b99598e0-ed16-446e-b846-c3afb0e52f3e.jpg",
+      "tags": [
+        "roofing"
+      ],
+      "category": "Roofing",
+      "caption": "Materials ready for installation",
+      "alt": "Wrapped roofing shingles and rolls of underlayment stacked on pallets",
+      "source": "gallery"
+    },
+    {
+      "id": "photo-33",
+      "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
+      "tags": [
+        "siding"
+      ],
+      "category": "Siding",
+      "caption": "Siding profiles and trim",
+      "alt": "Light horizontal siding, white trim and contrasting shutters on a home",
+      "source": "Existing site service photography"
+    },
+    {
+      "id": "photo-34",
+      "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+      "tags": [
+        "gutters"
+      ],
+      "category": "Gutters",
+      "caption": "Gutters and downspout connections",
+      "alt": "White gutter and downspout at the corner of a house",
+      "source": "Existing site service photography"
+    },
+    {
+      "id": "photo-35",
+      "src": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
+      "tags": [
+        "windows"
+      ],
+      "category": "Windows",
+      "caption": "Windows across the front elevation",
+      "alt": "Front elevation of a home with white-framed windows and a central entry",
+      "source": "Existing site service photography"
+    },
+    {
+      "id": "photo-36",
+      "src": "/media/wordpress/13b26cd9aae3-hero-decks.jpg",
+      "tags": [
+        "decks"
+      ],
+      "category": "Decks",
+      "caption": "Deck boards and railings",
+      "alt": "Wood deck boards with white railings and a furnished seating area",
+      "source": "Existing site service photography"
+    },
+    {
+      "id": "photo-37",
+      "src": "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg",
+      "tags": [
+        "insulation"
+      ],
+      "category": "Attic insulation",
+      "caption": "Insulation between attic joists",
+      "alt": "A worker placing fiberglass insulation between attic joists",
+      "source": "Existing site service photography"
+    },
+    {
+      "id": "photo-38",
+      "src": "/media/wordpress/eb3a67915989-hero-storm.jpg",
+      "tags": [
+        "storm-damage"
+      ],
+      "category": "Storm damage",
+      "caption": "Roof exposure during a storm",
+      "alt": "Rain and hail falling on a shingle roof",
+      "source": "Existing site service photography"
+    }
+  ]
+}

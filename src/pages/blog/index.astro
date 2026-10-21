@@ -1,0 +1,8 @@
+---
+import BlogLayout from '../../layouts/BlogLayout.astro';
+import CardSection from '../../components/CardSection.astro';
+import articles from '../../data/blog-index.json';
+---
+<BlogLayout kind="articles" title="Roofing and exterior advice for Ohio homeowners" description="Explore roof repairs, replacement, siding, gutters and storm damage with practical guides from Roof King." path="/blog/">
+ <CardSection filterable contained id="blog-collections" kind="blogs" actionLabel="Browse blog categories" actionHref="/blog/categories/" section={{eyebrow:'From the Roof King blog',title:'Roofing, siding and storm damage articles',description:'Read our published guides or browse categories and topics to find advice for your project.',items:articles.map(post=>({title:post.title,description:post.description,href:post.href,image:post.image}))}}/>
+</BlogLayout>

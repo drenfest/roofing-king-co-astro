@@ -1,0 +1,7 @@
+---
+import hubs from '../data/blog-hubs.json';
+import CardSection from './CardSection.astro';
+interface Props {kind:'categories'|'topics';}
+const {kind}=Astro.props;const hub=hubs[kind];
+---
+<CardSection filterable contained id="blog-collections" kind="blogs" itemAction="View collection" actionLabel={kind==='categories'?'Browse blog topics':'Browse blog categories'} actionHref={kind==='categories'?'/blog/topics/':'/blog/categories/'} section={{eyebrow:'Explore the blog',title:kind==='categories'?'Browse articles by service':'Explore locations and project topics',description:'Choose a collection to explore its published guides.',items:hub.groups.map(group=>({title:group.label,href:group.href,description:group.description+' '+group.count+' '+(group.count===1?'article.':'articles.'),image:group.image}))}}/>

@@ -17,7 +17,7 @@ export async function initializeServiceAreaMap(root:HTMLElement){
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   const map=L.map(interactive,{scrollWheelZoom:false,dragging:!matchMedia('(pointer: coarse)').matches,zoomAnimation:!reduced,fadeAnimation:!reduced,minZoom:6,maxZoom:15,zoomSnap:.25,attributionControl:true});
   map.attributionControl.setPrefix(false);
-  L.tileLayer(root.dataset.tileUrl!,{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',updateWhenIdle:true,keepBuffer:1}).addTo(map);
+  L.tileLayer(root.dataset.tileUrl!,{maxZoom:19,attribution:'&copy; <a title="OpenStreetMap copyright and contributors" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',updateWhenIdle:true,keepBuffer:1}).addTo(map);
   const layers=new Map<string,import('leaflet').Layer>();
   const baseStyle={color:'#d95300',weight:1.8,opacity:1,fillColor:'#ff750c',fillOpacity:.16};
   const boundary=L.geoJSON(data,{
@@ -30,7 +30,7 @@ export async function initializeServiceAreaMap(root:HTMLElement){
       const popup=document.createElement('div');
       const title=document.createElement('strong');title.textContent=area.name;
       const description=document.createElement('p');description.textContent=area.kind==='city'?'City boundary':'Unincorporated community';
-      const link=document.createElement('a');link.href=area.href;link.textContent=area.name==='Mansfield'?'Explore our service areas →':`${area.name} services →`;
+      const link=document.createElement('a');link.href=area.href;link.title=`Explore ${area.name} services`;link.textContent=area.name==='Mansfield'?'Explore our service areas →':`${area.name} services →`;
       popup.append(title,description,link);layer.bindPopup(popup);
       layer.on('click',()=>selectArea(area.id,false));
       layer.on('mouseover',()=>{if(layer instanceof L.Path)layer.setStyle({weight:3,fillOpacity:.28});});
@@ -45,16 +45,17 @@ export async function initializeServiceAreaMap(root:HTMLElement){
   function styleFor(id:string){return {...baseStyle,...(selected===id?{weight:3,fillOpacity:.35}:{}),...(id==='lewis-center'?{fillOpacity:.8}:{})};}
   function selectArea(id:string,zoom=true){
     selected=id;select.value=id;
+    root.dispatchEvent(new CustomEvent('service-area-selected',{detail:id,bubbles:true}));
     for(const [key,layer] of layers)if(layer instanceof L.Path)layer.setStyle(styleFor(key));
     const feature=data.features.find(f=>f.properties.id===id);
     if(!feature){
       map.closePopup();map.fitBounds(overview,{animate:!reduced});
       status.textContent='24 city boundaries and Lewis Center. Select a community to explore.';
-      cityLink.href='/service-areas/';cityLink.textContent='View all service areas →';return;
+      cityLink.href='/service-areas/';cityLink.title='View all service areas';cityLink.textContent='View all service areas →';return;
     }
     const area=feature.properties;const layer=layers.get(id)!;
     status.textContent=area.kind==='city'?`${area.name} city limits highlighted in orange.`:'Lewis Center is unincorporated and shown with a community marker.';
-    cityLink.href=area.href;cityLink.textContent=area.name==='Mansfield'?'Explore our service areas →':`${area.name} services →`;
+    cityLink.href=area.href;cityLink.title=`Explore ${area.name} services`;cityLink.textContent=area.name==='Mansfield'?'Explore our service areas →':`${area.name} services →`;
     if(zoom){
       if(layer instanceof L.Polygon)map.fitBounds(layer.getBounds(),{padding:[24,24],maxZoom:12,animate:!reduced});
       else map.setView(area.center,12,{animate:!reduced});

@@ -2,13 +2,13 @@
 title: "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
 permalink: "/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/"
 description: "Roof King & Restoration offers expert ice dam removal in Columbus, OH. Act now to protect your home this winter—schedule safe, fast service today!"
-canonicalPath: "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/"
+canonicalPath: "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/"
 wordpressId: 129
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

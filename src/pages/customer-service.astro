@@ -1,0 +1,53 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSection from '../components/ContentSection.astro';
+import ArticleChecklist from '../components/ArticleChecklist.astro';
+import ResourceLinks from '../components/ResourceLinks.astro';
+import FAQSection from '../components/FAQSection.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import site from '../data/site.json';
+import {hero} from '../data/home.json';
+import editorial from '../data/service-editorial.json';
+import type {RichNode} from '../data/section-types';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/customer-service.css';
+const image='/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg';
+const p=(text:string):RichNode=>({tag:'p',children:[{text}]});
+const callDetails:RichNode[][]=[
+ [{tag:'p',children:[{tag:'strong',children:[{text:'Your property and contact details'}]},{text:' — the project address, your name and the best phone number to reach you.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'The work involved'}]},{text:' — roofing, siding or another exterior service, plus the approximate installation or project date.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'What you have noticed'}]},{text:' — where the concern appears, when it started and whether it changes with the weather.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'Photos and project records'}]},{text:' — existing photos, your proposal, invoice and warranty documents, if available. Take photos only from a safe location.'}]}]
+];
+const faq:{eyebrow:string;title:string;items:{question:string;answer:RichNode[]}[]}={eyebrow:'Customer support questions',title:'Help with an existing Roof King project',items:[
+ {question:'How do I ask for an update on my project?',answer:[p('Call our team with the property address and the work you are asking about. Explain whether your question concerns scheduling, materials, a project document or a change you would like to discuss.')]},
+ {question:'How should I report a concern after installation?',answer:[p('Call and describe the affected area, when you first noticed the issue and any changes since the work was completed. Have existing photos and project records ready so the team can discuss the concern with you.')]},
+ {question:'How do I know whether a concern is covered by a warranty?',answer:[{tag:'p',children:[{text:'Coverage depends on the cause of the issue and the applicable written terms. Manufacturer product protection and contractor workmanship coverage are separate. Review your issued warranty and our '},{tag:'a',href:'/offers/5-year-workmanship-warranty/',children:[{text:'workmanship information'}]},{text:' with the team rather than assuming every concern has the same coverage.'}]}]},
+ editorial['/roofing/repair/'].faq.items.find(item=>item.question==='What if water is coming in now?')! as unknown as {question:string;answer:RichNode[]},
+ {question:'Where is the Roof King office?',answer:[{tag:'p',children:[{text:`Our office is at ${site.address.streetAddress}, ${site.address.addressLocality}, ${site.address.addressRegion} ${site.address.postalCode}. Find the map and directions on our `},{tag:'a',href:'/contact-us/#office',children:[{text:'contact page'}]},{text:'.'}]}]}
+]};
+---
+<DocumentLayout title="Roof King customer service" description="Get help with an existing Roof King project, ask about scheduling, report an installation concern or find your product and workmanship warranty information." canonicalPath="/customer-service/" {image}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-customer-service-page" data-landing-build="editorial" data-component="CustomerServicePage">
+  <PageHero variant="resource" hero={{...hero,image,eyebrow:'Roof King customer service',title:'Help with your Roof King project.',description:'Questions about your installation, project schedule or a concern after the work? Speak with our team about your property and what needs attention.',bookingUrl:site.phoneHref,bookingLabel:`Call ${site.phone}`,note:'Have your project address and paperwork handy.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Customer service'}]}/>
+  <div id="project-support"><ContentSection section={{type:'content',variant:'features',body:[{tag:'p',role:'eyebrow',children:[{text:'Support for your home'}]},{tag:'h2',children:[{text:'Tell us how we can help with your project'}]},p('Call Roof King to discuss work that is underway or a concern about a completed installation. Your property address helps us understand which project you are asking about.'),{tag:'p',children:[{tag:'a',href:site.phoneHref,children:[{text:site.phone}]}]},{tag:'p',children:[{tag:'a',href:'/contact-us/#office',children:[{text:'Office details and directions'}]}]}],cards:[
+   {title:'Scheduling and project updates',body:[p('Ask about your project arrangements, materials or a change you would like to discuss. Have the property address and any project reference available when you call.')]},
+   {title:'Concerns after installation',body:[p('Tell us what you are seeing, the affected part of the roof or exterior, and when the concern began. Existing photos and notes about any recent weather can help explain the issue.')]},
+   {title:'Warranty and product paperwork',body:[p('Have the product details and issued warranty ready. The team can discuss your documents and help distinguish manufacturer coverage from the separate workmanship terms.')]}
+  ]}}/></div>
+  <section class="rk-support-preparation" aria-labelledby="support-preparation-title"><div class="rk-section-inner rk-support-preparation-layout"><div><p class="rk-home-eyebrow">Helpful details for your call</p><h2 id="support-preparation-title">Have your project details ready</h2><p>You do not need to diagnose the problem before calling. Share what you know and describe what has changed.</p></div><ArticleChecklist items={callDetails}/></div></section>
+  <section class="rk-support-resources" aria-labelledby="support-resources-title"><div class="rk-section-inner rk-support-resource-layout"><div><p class="rk-home-eyebrow">Project information</p><h2 id="support-resources-title">Find service and warranty information</h2><p>Read about the relevant service or coverage, then call us with questions about your own project.</p></div><ResourceLinks tiles links={[{label:'Frequently asked questions',href:'/faq/',icon:'roof'},{label:'Workmanship warranty information',href:'/offers/5-year-workmanship-warranty/',icon:'brand'},{label:'GAF System Plus coverage',href:'/offers/gaf-system-plus/',icon:'brand'},{label:'Storm damage assessment',href:'/storm-damage/',icon:'roof'}]}/></div></section>
+  <FAQSection section={faq}/>
+  <QuoteSection quote={{eyebrow:'Planning additional work?',title:'Get a quote for your next project',description:'For help with an existing project, call our customer service team above. If you are planning new roofing or exterior work, tell us what you have in mind here.'}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

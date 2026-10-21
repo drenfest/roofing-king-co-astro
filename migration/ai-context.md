@@ -66,3 +66,27 @@ service-section-photo-review.json inventories all source media sections, flags c
 roofing-hero-images.json retains the previous ice-dam scene and the built-in edit prompt for version 2. Revised WebP files and the hero review gallery show ice damming at the roof eave rather than only gutter icicles.
 
 coverage-map-sources.json records the 25-community inventory, Census boundary vintage and simplification, Lewis Center point/status sources and OSM tile policy. Refresh through scripts/build-coverage-map.mjs only when deliberately updating coverage.
+
+gallery-library-review.json records inspected source photos, corrected categories/context captions and excluded 270px thumbnails. route-redirects.json records the explicit client-approved /gallery/ to /#projects consolidation; check-built-routes permits no other redirect.
+
+
+location-service-review.json inventories the 24 location hubs, existing descendants, local URL choices and source context. featured-article-review.json lists existing article coverage and services without relevant published posts; these gaps belong in later ten-page reviews, not invented articles or unrelated filler.
+
+
+route-manifest.json now adds the two explicitly requested Blog Categories/Topics resource hubs to the 244 original protected routes. No original category, tag, article or service URL was removed or renamed.
+
+
+blog-url-migration.json records the explicit client-approved article URL migration. route-redirects.json now includes historical numeric/flat article aliases in addition to Gallery; every alias targets its canonical directly. route-manifest retains all original protected paths as content or approved redirects and adds canonical article targets referencing original source files.
+
+
+The two authored-topic-archive manifest additions expose existing Insurance Claims and Gutter Guards tags as real hubs. Original term assignments and source routes are unchanged; all original protected paths still exist as content or approved redirects.
+
+
+blog-article-components.json records native article source coverage, grouped checklist items, FAQ counts and original image counts. Code-fence artifacts are excluded. Original WordPress records remain evidence and supply list ordering; previously reviewed heading levels and wording are preserved.
+
+
+GAF System Plus copy checked 2026-10-21 against https://www.gaf.com/en-us/resources/warranties/residential and https://documents.gaf.com/warranties/gaf-system-plus-limited-warranty-reswt162-legal-sample.pdf (2026 RESWT162L sample). Corrects old unsupported workmanship/complete-protection claims. Source includes 50-year qualifying individual-owner single-family Smart Choice coverage, manufacturing-defect repair labor/necessary tear-off/disposal, no installation-error cover, contractor registration within 45 days and follow-up after 60 days. Original imported warranty HTML remains evidence.
+
+offers-about-review.md records all eleven rebuilt/checked offer URLs, About-menu audit, official source checks, validation and business terms still needed before publishing numerical promotions or detailed contractual promises.
+
+structured-data-review.md documents the component/schema matrix, stable canonical entities, deliberate exclusions and primary standards sources. The structured-data compiler runs server-side and at final static build; check:schema is part of verify.

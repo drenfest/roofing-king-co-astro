@@ -3,12 +3,20 @@ import * as cheerio from 'cheerio';
 const {routes}=JSON.parse(await fs.readFile('migration/route-manifest.json','utf8'));
 const failures=[];const missingAssets=new Set();const brokenLinks=new Set();
 const paths=new Set(routes.map(r=>r.path));
+const redirects=JSON.parse(await fs.readFile('migration/route-redirects.json','utf8'));
 const navigation=JSON.parse(await fs.readFile('src/data/navigation.json','utf8'));
 const navigationLinks=[];function collect(items){for(const item of items){navigationLinks.push(item.href);collect(item.children);}}collect(navigation.items);
+if(new Set(navigationLinks).size!==navigationLinks.length)failures.push('Duplicate primary menu destinations');
+if(JSON.stringify(navigation.items).includes('Our Story'))failures.push('Removed Our Story menu item returned');
 for(const route of routes){
  const target='dist'+route.path+'index.html';
  let html;try{html=await fs.readFile(target,'utf8');}catch{failures.push('Missing output '+target);continue;}
  const $=cheerio.load(html);
+ if(redirects[route.path]){
+  const refresh=$('meta[http-equiv="refresh"]').attr('content')||'';
+  if(!refresh.includes(redirects[route.path]))failures.push('Invalid client-approved redirect '+route.path);
+  continue;
+ }
  const header=$('header.rk-native-header');
  if(header.length!==1)failures.push('Missing shared native header '+route.path);
  const headerLinks=new Set(header.find('a[href]').map((i,e)=>$(e).attr('href')).get());

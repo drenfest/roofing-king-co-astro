@@ -1,0 +1,37 @@
+---
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSection from '../components/ContentSection.astro';
+import MediaContentRow from '../components/MediaContentRow.astro';
+import ArticleChecklist from '../components/ArticleChecklist.astro';
+import FAQSection from '../components/FAQSection.astro';
+import ResourceLinks from '../components/ResourceLinks.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import {hero} from '../data/home.json';
+import site from '../data/site.json';
+import {p,type OfferPage} from '../data/offer-pages';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/offers.css';
+interface Props {page:OfferPage;}
+const {page}=Astro.props;
+---
+<DocumentLayout title={`${page.label} | Roof King & Restoration`} description={page.description} canonicalPath={`/offers/${page.slug}/`} image={page.image.src}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-offers-page" data-component="OfferPage" data-offer={page.slug}>
+  <PageHero variant="resource" hero={{...hero,image:page.image.src,eyebrow:`Roof King · ${page.group}`,title:page.title,description:page.description,bookingUrl:page.slug==='payments'?site.phoneHref:'#offer-details',bookingLabel:page.slug==='payments'?'Call for payment details':page.group==='Warranty'?'Explore the protection':page.group==='Seasonal'?'Plan your display':'Explore payment planning',note:page.slug==='payments'?'Call for current rates and terms. Subject to lender approval.':page.group==='Financing'?'Available programs and terms are confirmed with your project inquiry.':'Discuss the details with our team.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Offers',href:'/offers/'},{label:page.label}]}/>
+  <div id="offer-details"><ContentSection section={{type:'content',variant:'features',body:[{tag:'p',role:'eyebrow',children:[{text:page.intro.eyebrow}]},{tag:'h2',children:[{text:page.intro.title}]},...page.intro.paragraphs.map(p)],cards:page.intro.cards.map(card=>({title:card.title,body:[p(card.text)]}))}}/></div>
+  <MediaContentRow section={{type:'media-row',id:'offer-planning',eyebrow:page.group==='Warranty'?'Coverage and installation':page.group==='Seasonal'?'Your home, your display':'Project and payment details',title:page.row.title,image:page.row.image,body:page.row.paragraphs.map(p),links:[]}}/>
+  <section class="rk-offer-checklist" aria-labelledby="offer-checklist-title"><div class="rk-section-inner rk-offer-checklist-layout"><div><p class="rk-home-eyebrow">Before you decide</p><h2 id="offer-checklist-title">{page.checklist.title}</h2><p>{page.checklist.intro}</p></div><ArticleChecklist items={page.checklist.items.map(([label,text])=>[{tag:'p',children:[{tag:'strong',children:[{text:label}]},{text:` — ${text}`}]}])}/></div></section>
+  <FAQSection section={{eyebrow:`${page.group} questions`,title:page.group==='Seasonal'?'Christmas lighting questions':`${page.label} questions`,items:page.faq.map(([question,answer])=>({question,answer:[p(answer)]}))}}/>
+  <section class="rk-offer-resources" aria-labelledby="offer-resources-title"><div class="rk-section-inner"><p class="rk-home-eyebrow">Explore the details</p><h2 id="offer-resources-title">{page.group==='Financing'?'Project and financing resources':page.group==='Warranty'?'Warranty documents and support':'Seasonal planning resources'}</h2><ResourceLinks tiles links={page.resources}/></div></section>
+  <QuoteSection quote={page.quote}/>
+ </main><SiteFooter/>
+</DocumentLayout>

@@ -1,0 +1,37 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import MediaContentRow from '../components/MediaContentRow.astro';
+import CredentialsSection from '../components/CredentialsSection.astro';
+import CardSection from '../components/CardSection.astro';
+import ReviewSection from '../components/ReviewSection.astro';
+import BrandStrip from '../components/BrandStrip.astro';
+import CoverageSection from '../components/CoverageSection.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import {hero,coverage} from '../data/home.json';
+import reference from '../data/roofing-landing.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/about.css';
+const credentials={...reference.credentials,eyebrow:'Credentials you can check',title:'Know who is working on your home',description:'Manufacturer certification, an independent business profile and written workmanship terms give you specific things to review before choosing a contractor.',items:reference.credentials.items.map(item=>({...item,title:item.title==='BBB Accredited'?'BBB accredited':item.title,description:item.title==='BBB Accredited'?'Roof King is BBB accredited with an A+ business rating. Visit the independent profile to review business information and customer feedback.':item.description}))};
+---
+<DocumentLayout title="About Roof King & Restoration" description="Meet Roof King & Restoration, a Columbus-based roofing and exterior remodeling company serving Ohio since 2020. Explore our credentials, services and customer reviews." canonicalPath="/about-us/" image="/media/company/about-roof-970.webp">
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-about-page" data-landing-build="editorial" data-component="AboutPage">
+  <PageHero variant="service" hero={{...hero,image:'/media/company/about-roof-970.webp',eyebrow:'About Roof King & Restoration',title:'Meet Roof King & Restoration.',description:'Based in Columbus and serving Ohio since 2020, Roof King brings roofing, storm restoration and exterior remodeling together under one team.',bookingLabel:'Talk about your project',bookingUrl:'#quote-form',note:'Learn about our company, check our credentials and hear from customers.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'About us'}]}/>
+  <MediaContentRow section={{type:'media-row',id:'our-company',eyebrow:'Columbus roots · Ohio homes',title:'A Columbus company serving Ohio since 2020.',image:{src:'/media/company/community-750.webp',alt:'Youth basketball players and adults in orange and black shirts holding trophies at a gym'},caption:'',body:[{tag:'p',children:[{text:'Roof King & Restoration is a Columbus-based exterior remodeling company. Since 2020, we have helped homeowners and commercial property owners with roof repairs, replacement and improvements to the exterior around them.'}]},{tag:'p',children:[{text:'A damaged shingle, leaking roof edge or worn siding can affect more than the surface you first notice. We discuss the condition of the surrounding materials, the repair or replacement options and the work needed to put them together properly.'}]},{tag:'p',children:[{text:'Our work includes roofing, siding, gutters, windows, decks and attic insulation. When hail or wind damages a property, we also help document the visible damage and discuss the repairs. Insurance coverage decisions remain with the insurer.'}]}],links:[{label:'Read customer reviews',href:'/reviews/'},{label:'Contact our team',href:'/contact-us/'}]}}/>
+  <CredentialsSection section={credentials}/>
+  <CardSection kind="blogs" itemAction="Explore this service" actionHref="/service-areas/" actionLabel="Find your service area" section={{eyebrow:'What we do',title:'Roofing, storm repairs and exterior improvements',description:'Start with the part of your property that needs attention. We can also discuss adjoining roof, siding and drainage work when those repairs need to fit together.',items:[{title:'Residential and commercial roofing',description:'Roof inspections, leak repairs, replacement and roofing systems for homes and business properties.',href:'/roofing/'},{title:'Storm damage restoration',description:'Hail and wind damage inspections, repair recommendations and documentation to support your conversations with the insurer.',href:'/storm-damage/'},{title:'Siding and exterior remodeling',description:'Siding replacement, gutters, windows, decks and attic insulation for the parts of your home beyond the roof.',href:'/siding/'}]}}/>
+  <BrandStrip brands={{eyebrow:'Materials for your home',title:'Get to know the products we install',description:'Explore manufacturer product lines, finishes and care information before selecting materials for your project.',brandIds:['gaf','james-hardie','lp-smartside','variform','alu-rex','trex']}}/>
+  <ReviewSection section={{eyebrow:'From our customers',title:'Hear about the experience of working with us',description:'Read customer feedback about communication, roofing work and help after storm damage. Each excerpt links to its independent source.',reviewIds:['google-marianna-faria','bbb-douglas-c','birdeye-kenneth-g']}}/>
+  <CoverageSection coverage={{...coverage,eyebrow:'Based in Columbus · Serving Ohio',title:'Find Roof King in your area',description:'We work with homeowners across Columbus, Cleveland, Dayton, Cincinnati, Mansfield and surrounding Ohio communities. Explore your location to see the roofing and exterior services available.'}}/>
+  <QuoteSection quote={{eyebrow:'Start with your home',title:'Let’s talk about your project',description:'Tell us what needs attention, where your property is and what you would like to improve. You can also call our team or book an inspection.'}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

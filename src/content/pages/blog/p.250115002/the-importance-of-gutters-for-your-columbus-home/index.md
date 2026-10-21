@@ -2,13 +2,13 @@
 title: "The Importance of Gutters for Your Columbus Home"
 permalink: "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/"
 description: "Upgrade your Columbus home with expert gutter replacement by Roof King & Restoration. Call now for a free quote for seamless gutters, gutter guards, and more!"
-canonicalPath: "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/"
+canonicalPath: "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/"
 wordpressId: 117
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

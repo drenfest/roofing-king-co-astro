@@ -1,0 +1,8 @@
+---
+import type {LocationServiceLink} from '../data/service-area-directory';
+interface Props {items:LocationServiceLink[];}
+const {items}=Astro.props;
+---
+<ul class="rk-location-service-links">
+ {items.map(item=><li>{item.children.length>0?<details><summary>{item.label}</summary><a href={item.href} title={`View ${item.label.toLowerCase()}`}>View {item.label.toLowerCase()} <span aria-hidden="true">→</span></a><Astro.self items={item.children}/></details>:<a href={item.href} title={`View ${item.label.toLowerCase()}`}>{item.label}<span aria-hidden="true">↗</span></a>}</li>)}
+</ul>

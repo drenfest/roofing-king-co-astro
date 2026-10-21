@@ -1,0 +1,55 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHero from '../components/PageHero.astro';
+import ServiceAreaMap from '../components/ServiceAreaMap.astro';
+import LocationServiceLinks from '../components/LocationServiceLinks.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import {serviceAreaDirectory} from '../data/service-area-directory';
+import {hero,quote} from '../data/home.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-areas.css';
+---
+<DocumentLayout title="Ohio service areas | Roof King & Restoration" description="Explore Roof King’s Ohio service-area map and browse local roofing, siding, storm damage and exterior services by community." canonicalPath="/service-areas/">
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-areas-page">
+  <PageHero variant="resource" hero={{...hero,eyebrow:'Ohio service areas',title:'Exterior care, across Ohio.',description:'Roofing, siding, gutters and storm damage repairs for the communities we serve. Find your location and explore the services available for your property.',bookingUrl:'#service-area-directory',bookingLabel:'Find your community',note:'Browse the map and local service pages below.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Service areas'}]}/>
+  <section id="service-area-directory" class="rk-area-directory-band" aria-labelledby="area-directory-title" data-area-directory>
+   <div class="rk-section-inner rk-area-directory-layout">
+    <div class="rk-directory-map"><ServiceAreaMap/></div>
+    <div class="rk-area-directory-list"><p class="rk-home-eyebrow">Browse by location</p><h2 id="area-directory-title">Our Ohio communities</h2><p class="rk-area-directory-note">Each location hub covers our full range of exterior services. Open a card to explore its dedicated local service pages, or go straight to the location hub.</p>
+     <div class="rk-area-directory-filter" hidden><label for="area-search">Find a community</label><input id="area-search" type="search" placeholder="City or community name" autocomplete="off"/><button type="button" data-area-clear>Show all communities</button><p data-area-count role="status" aria-live="polite"></p></div>
+     <div class="rk-location-cards">{serviceAreaDirectory.map(area=><article class="rk-location-card" id={`area-${area.id}`} data-area-card={area.id} data-area-name={area.name.toLowerCase()}>
+      {area.services.length>0?<details class="rk-location-disclosure"><summary><h3>{area.name}, Ohio</h3><span>{area.services.length} local service pages</span></summary><div class="rk-location-card-body"><a class="rk-location-hub-link" href={area.href} title={`View all ${area.name} services`}>View all {area.name} services <span aria-hidden="true">→</span></a><LocationServiceLinks items={area.services}/></div></details>:<div class="rk-location-card-body"><h3><a href={area.hasHub?area.href:'/contact-us/'} title={area.hasHub?`View ${area.name} services`:`Ask about service in ${area.name}`}>{area.name}, Ohio <span aria-hidden="true">↗</span></a></h3><p>{area.hasHub?'Roofing, siding, storm damage and exterior services.':'Contact our team about service at your address.'}</p></div>}
+     </article>)}</div>
+     <p data-area-empty hidden>No communities match your selection. Try another name or show all communities.</p>
+    </div>
+   </div>
+  </section>
+  <QuoteSection quote={quote}/>
+ </main><SiteFooter/>
+</DocumentLayout>
+<script>
+ document.querySelectorAll<HTMLElement>('[data-area-directory]').forEach(root=>{
+  const search=root.querySelector<HTMLInputElement>('#area-search')!;
+  const map=root.querySelector<HTMLElement>('[data-service-area-map]')!;
+  const cards=[...root.querySelectorAll<HTMLElement>('[data-area-card]')];
+  let selected='all';
+  function filter(){
+   const query=search.value.trim().toLowerCase();let count=0;
+   for(const card of cards){card.hidden=!(selected==='all'||card.dataset.areaCard===selected)||!card.dataset.areaName!.includes(query);if(!card.hidden)count++;}
+   root.querySelector<HTMLElement>('[data-area-count]')!.textContent=`${count} ${count===1?'community':'communities'} shown`;
+   root.querySelector<HTMLElement>('[data-area-empty]')!.hidden=count>0;
+  }
+  map.addEventListener('service-area-selected',event=>{selected=(event as CustomEvent<string>).detail;search.value='';filter();});
+  search.addEventListener('input',filter);
+  root.querySelector('[data-area-clear]')!.addEventListener('click',()=>{selected='all';search.value='';map.querySelector<HTMLButtonElement>('[data-map-reset]')!.click();filter();});
+  root.querySelector<HTMLElement>('.rk-area-directory-filter')!.hidden=false;filter();
+ });
+</script>

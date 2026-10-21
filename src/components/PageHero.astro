@@ -3,12 +3,12 @@ import HomeImage from './HomeImage.astro';
 import site from '../data/site.json';
 import type { ServicePageData } from '../data/section-types';
 import '../styles/service-hero.css';
-interface Props { hero: Omit<ServicePageData['hero'],'bookingLabel'> & {bookingLabel?:string;titleEmphasis?:string;note?:string}; variant?:'home'|'service'; }
-const { hero, variant='service' } = Astro.props;
+interface Props { hero: Omit<ServicePageData['hero'],'bookingLabel'> & {bookingLabel?:string;titleEmphasis?:string;note?:string}; variant?:'home'|'service'|'resource'; generatedImage?:boolean; }
+const { hero, variant='service', generatedImage=false } = Astro.props;
 const external = hero.bookingUrl.startsWith('https://');
 const emphasis = hero.titleEmphasis && hero.title.endsWith(hero.titleEmphasis) ? hero.titleEmphasis : '';
 ---
-<section class:list={['rk-home-hero rk-editorial-hero',{'rk-native-page-hero':variant==='service','rk-home-editorial-hero':variant==='home'}]} data-component="PageHero">
+<section class:list={['rk-home-hero rk-editorial-hero',{'rk-native-page-hero':variant!=='home','rk-home-editorial-hero':variant==='home'}]} data-component="PageHero">
   <HomeImage src={hero.image} alt="" class="rk-hero-background" sizes="100vw" eager />
   <div class="rk-section-inner rk-home-hero-grid rk-editorial-hero-grid">
     <div class="rk-home-hero-copy rk-editorial-hero-copy">
@@ -19,7 +19,8 @@ const emphasis = hero.titleEmphasis && hero.title.endsWith(hero.titleEmphasis) ?
         <a class="rk-button rk-button-primary" href={hero.bookingUrl === '/contact-us/' ? '#quote-form' : hero.bookingUrl} data-quote-open={hero.bookingUrl === '/contact-us/' ? true : undefined} target={external?'_blank':undefined} rel={external?'noopener noreferrer':undefined}>{hero.bookingLabel || 'Book an inspection'}<span aria-hidden="true">→</span></a>
         {variant==='service' && <a class="rk-editorial-hero-phone" href={site.phoneHref}>{site.phone}</a>}
       </div>
-      <p class="rk-editorial-hero-note">{hero.note || hero.booking.description}</p>
+      {(hero.note || hero.booking.description)&&<p class="rk-editorial-hero-note">{hero.note || hero.booking.description}</p>}
     </div>
   </div>
+ {generatedImage&&<p class="rk-service-hero-credit">Illustrative service imagery</p>}
 </section>

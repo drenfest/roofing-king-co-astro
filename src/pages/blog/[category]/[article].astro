@@ -1,0 +1,9 @@
+---
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import articles from '../../../data/blog-articles.json';
+import type {BlogArticleData} from '../../../data/blog-article-types';
+export function getStaticPaths(){return (Object.values(articles) as unknown as BlogArticleData[]).filter(article=>article.path.split('/').filter(Boolean).length===3).map(article=>({params:{category:article.path.split('/')[2],article:article.path.split('/')[3]},props:{article}}));}
+interface Props {article:BlogArticleData;}
+const {article}=Astro.props;
+---
+<ArticleLayout {article}/>

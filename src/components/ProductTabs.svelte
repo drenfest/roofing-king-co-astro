@@ -24,7 +24,7 @@
 <div class="rk-product-tabs" bind:this={root}>
   <div class="rk-product-tab-nav" role={enhanced?'tablist':undefined} aria-label="Product information">
     {#each tabs as tab,index}
-      <a href={`#${tab.id}`} id={`tab-${tab.id}`} role={enhanced?'tab':undefined} aria-controls={enhanced?tab.id:undefined} aria-selected={enhanced?selected===tab.id:undefined} tabindex={enhanced&&selected!==tab.id?-1:0} onclick={event=>{if(enhanced){event.preventDefault();select(tab.id);}}} onkeydown={event=>{if(enhanced)keyboard(event,index);}}>{tab.label}</a>
+      <a title={tab.label} href={`#${tab.id}`} id={`tab-${tab.id}`} role={enhanced?'tab':undefined} aria-controls={enhanced?tab.id:undefined} aria-selected={enhanced?selected===tab.id:undefined} tabindex={enhanced&&selected!==tab.id?-1:0} onclick={event=>{if(enhanced){event.preventDefault();select(tab.id);}}} onkeydown={event=>{if(enhanced)keyboard(event,index);}}>{tab.label}</a>
     {/each}
   </div>
   {@render children?.()}

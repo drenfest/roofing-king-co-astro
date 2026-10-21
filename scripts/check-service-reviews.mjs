@@ -12,7 +12,7 @@ for(const file of batches){
   assert.equal($('[data-content-review]').attr('data-content-review'),batch.batch,page.route+' batch marker');
   const headings=$('main h1,main h2,main h3,main h4').toArray();let previous=0;
   for(const heading of headings){const level=Number(heading.tagName[1]);assert.ok(level<=previous+1,page.route+' skipped heading level: '+$(heading).text());previous=level;}
-  assert.ok($('main h2').length<page.beforeH2,page.route+' retain reviewed heading grouping');
+  assert.ok($('main h2').not('[data-component=FeaturedArticles] h2').length<page.beforeH2,page.route+' retain reviewed heading grouping');
   assert.equal($('.rk-home-brands h2').length,0,page.route+' manufacturers are a subsection');
   assert.equal($('[data-component=ServiceContentBand] .rk-home-brands h3').length,1,page.route+' nested manufacturer heading');
   assert.ok($('#'+copy[page.route].budgetSectionId+' #service-budget-title').length===1,page.route+' explicit estimate section');

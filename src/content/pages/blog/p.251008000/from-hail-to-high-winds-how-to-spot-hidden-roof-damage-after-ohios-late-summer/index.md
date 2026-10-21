@@ -2,13 +2,13 @@
 title: "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
 permalink: "/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/"
 description: "Roof King helps Ohio homeowners spot storm damage like lifted shingles and granule loss. Schedule a free roof inspection before fall rains cause bigger issues."
-canonicalPath: "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/"
+canonicalPath: "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/"
 wordpressId: 126
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

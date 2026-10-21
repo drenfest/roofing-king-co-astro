@@ -44,7 +44,7 @@ for(const [path,data] of Object.entries(pages)){
     assert.equal($('[data-service-panel]').length,9,'All service topics must be server rendered.');
     assert.equal($('[data-service-panel][hidden]').length,0,'Without JS every topic and destination remains available.');
     for(const panel of $('[data-service-panel]').toArray())assert.equal($(`.rk-service-explorer-tabs a[href="#${$(panel).attr('id')}"]`).length,1,'Fallback topic link must target its content.');
-    for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/past-projects/','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
+    for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/#projects-roofing','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
     assert.ok(!/\$47|Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
     assert.equal($('.rk-home-review-card').length,3,'Roofing must use the same three-card review component as the homepage.');
     assert.equal($('.rk-home-review-card .rk-review-source').length,3);
@@ -62,7 +62,7 @@ for(const [path,data] of Object.entries(pages)){
   const requiredLinks=before('.rk-page-section:not(.rk-page-final-cta) a[href^="/"]').filter((i,e)=>!before(e).closest('.rk-page-service-cta').length).map((i,e)=>before(e).attr('href')).get();
   for(const href of requiredLinks)assert.ok($(`main a[href="${href}"]`).length,'Lost contextual link '+href);
   if(path==='/cleveland-oh/roofing/'){assert.equal($('[data-component=ServiceGuide]').length,0);assert.equal($('[data-component=MediaContentRow]').length,4);assert.equal($('.rk-media-content-row img').length,4);assert.ok($('a[href="/products/roofing/"]').length);assert.ok($('a[href="/roofing/gaf/types/"]').length);assert.equal($('main pre,main code').length,0,'Imported markup must not display as source code');}
-  const gallery=data.sections.find(s=>s.type==='gallery');assert.equal($('.rk-project-gallery-item').length,gallery.items.length);
+  const galleryLibrary=JSON.parse(await fs.readFile('src/data/project-gallery.json','utf8'));assert.equal($('.rk-project-gallery-item').length,galleryLibrary.items.filter(item=>item.tags.includes('roofing')&&!item.tags.includes('metal')).length);
   const faq=data.sections.find(s=>s.type==='faq');assert.equal($('.rk-service-faq details').length,faq?.items.length||0);
 }
 console.log('Approved reference and retained product catalog checks passed.');
@@ -80,8 +80,9 @@ for(const record of serviceRecords.filter(r=>/service/i.test(r.category)||r.cate
  assert.ok(opening.find('[data-service-panel],.rk-service-article-row').length,'Actual topic content on '+record.path);
  for(const panel of opening.find('[data-service-panel]').toArray()){const body=$(panel).clone();body.find('.rk-service-detail-kicker,h3').first().remove();body.children('h3').first().remove();assert.ok(clean(body.text()),'No empty topic panels: '+record.path);}
  const children=serviceRecords.filter(r=>r.path!==record.path&&r.path.startsWith(record.path)&&!r.path.slice(record.path.length).replace(/\/$/,'').includes('/'));
- assert.equal($('[data-component=ServicePaths]').length,children.length?1:0,'Only parent pages use the tabbed service component: '+record.path);
- if(!children.length)assert.equal($('[data-component=ServiceExplorer]').length,0,'Leaf pages must not hydrate a topic selector: '+record.path);
+ const isLocation=editorial[record.path]?.family==='local';
+ assert.equal($('[data-component=ServicePaths]').length,children.length||isLocation?1:0,'Parent services and full-service location hubs use the selector: '+record.path);
+ if(!children.length&&!isLocation)assert.equal($('[data-component=ServiceExplorer]').length,0,'Leaf pages must not hydrate a topic selector: '+record.path);
  for(const child of children)assert.ok(opening.find('a').toArray().some(e=>$(e).attr('href')===child.path),'Opening must link to child '+child.path);
  const ids=$('[id]').map((_i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size,'Unique IDs on '+record.path);
  prepared++;
@@ -94,6 +95,10 @@ console.log('Opening child-service/topic explorers verified on '+prepared+' serv
 // The authored service collection replaces imported marketing; validate the full rendered result.
 for(const [path,data] of Object.entries(editorial)){
  const $=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
+ for(const panel of $('[data-service-panel],.rk-service-article-row').toArray()){
+  assert.ok(!$(panel).contents().toArray().some(node=>node.type==='text'&&node.data.trim()==='0'),'No numeric fallback from empty related links: '+path);
+ }
+ for(const nav of $('.rk-service-related-links').toArray())assert.ok($(nav).find('a').length>0,'No empty related-link container: '+path);
  assert.equal($('[data-landing-build=editorial]').length,1,path);
  assert.equal($('main').length,1);assert.equal($('h1').length,1);
  if(path==='/roofing/')continue; // Approved reference has its dedicated checks above.
@@ -102,7 +107,7 @@ for(const [path,data] of Object.entries(editorial)){
  assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
  assert.ok(clean($('main').text()).split(/\s+/).length>=500,'No thin service landing: '+path);
  assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
- const hasChildren=manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
+ const hasChildren=data.family==='local'||manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
  assert.equal($('.rk-service-detail').length,hasChildren?data.opening.items.length:0);
  assert.equal($('.rk-service-article-row').length,hasChildren?0:data.opening.items.length);
  for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);if(hasChildren||!item.body)assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve child/topic destination on '+path);}

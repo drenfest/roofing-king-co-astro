@@ -1,0 +1,7 @@
+---
+import HomeImage from './HomeImage.astro';
+interface Props {image:{src:string;alt:string};}
+const {image}=Astro.props;
+---
+<figure class="rk-article-image" data-component="ArticleImage"><HomeImage src={image.src} alt={image.alt} sizes="(max-width: 900px) calc(100vw - 40px), 850px"/></figure>
+<style>.rk-article-image{margin:1.5rem 0 2.2rem;}.rk-article-image :global(img){display:block;max-width:100%;width:100%;height:auto;border-radius:3px;}</style>

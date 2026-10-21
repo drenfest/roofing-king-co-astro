@@ -10,7 +10,7 @@ for(const record of manifest.routes){
  const match=raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
  if(!match)throw Error('Invalid frontmatter '+record.file);
  const data=parse(match[1]),content=match[2];
- if(data.permalink!==record.path)failures.push('Permalink mismatch '+record.path);
+ if(data.permalink!==record.path&&!(record.source==='blog-canonical'&&data.canonicalPath===record.path))failures.push('Permalink mismatch '+record.path);
  if(!data.title||!content.trim())failures.push('Empty content '+record.path);
  const $=cheerio.load(content);if($('h1').length!==1)failures.push('Expected one H1 '+record.path);
  if($('form,script,iframe').length)failures.push('Unreviewed active embed '+record.path);

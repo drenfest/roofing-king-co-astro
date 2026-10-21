@@ -2,13 +2,13 @@
 title: "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
 permalink: "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/"
 description: "Roof King Restoration & Roofing is a local storm restoration company that can help with your fall and winter roof damage. Schedule a free Ohio roof inspection!"
-canonicalPath: "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/"
+canonicalPath: "/blog/roofing/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/"
 wordpressId: 125
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

@@ -1,0 +1,15 @@
+---
+import SectionHeading from './SectionHeading.astro';
+interface Props {id:string;eyebrow:string;title:string;description:string;columns:string[];rows:{label:string;cells:string[];highlight?:boolean}[];note:string;sourceHref:string;sourceLabel:string;}
+const {id,eyebrow,title,description,columns,rows,note,sourceHref,sourceLabel}=Astro.props;
+---
+<section class="rk-warranty-comparison" aria-labelledby={`${id}-title`} data-component="WarrantyComparison"><div class="rk-section-inner">
+ <div id={`${id}-title`}><SectionHeading {eyebrow} {title} {description}/></div>
+ <p class="rk-warranty-swipe-hint">Swipe to compare all coverage details <span aria-hidden="true">→</span></p>
+ <div class="rk-warranty-table-scroll" role="region" aria-label={title} tabindex="0"><table><caption class="rk-warranty-table-caption">{title}</caption><thead><tr><th scope="col">Warranty</th>{columns.map(column=><th scope="col">{column}</th>)}</tr></thead><tbody>{rows.map(row=><tr class:list={{'rk-warranty-selected':row.highlight}}><th scope="row">{row.label}</th>{row.cells.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div>
+ <div class="rk-warranty-comparison-note"><p>{note}</p><a href={sourceHref} target="_blank" rel="noopener noreferrer">{sourceLabel}<span aria-hidden="true"> ↗</span></a></div>
+</div></section>
+<style>
+ .rk-warranty-comparison{background:#f3eee4;padding-block:4.5rem;}.rk-warranty-table-scroll{overflow-x:auto;scrollbar-width:thin;}.rk-warranty-table-scroll:focus-visible{outline:2px solid #bc4c06;outline-offset:4px;}.rk-warranty-comparison table{width:100%;min-width:650px;border-collapse:collapse;text-align:left;font-size:.9rem;line-height:1.75;background:#fffdf9;}.rk-warranty-comparison th,.rk-warranty-comparison td{padding:1.3rem 1.5rem;border-bottom:1px solid #d9d0c2;vertical-align:top;}.rk-warranty-comparison thead th{background:#242321;color:#fcfaf5;font-size:.78rem;font-weight:600;}.rk-warranty-comparison tbody th{font-weight:650;min-width:175px;}.rk-warranty-selected{background:#fff2e3;}.rk-warranty-selected th{box-shadow:inset 3px 0 #ee650d;}.rk-warranty-comparison-note{display:flex;justify-content:space-between;align-items:start;gap:2rem;margin-top:1.3rem;}.rk-warranty-comparison-note p{max-width:75ch;margin:0;font-size:.8rem;color:#6c6459;line-height:1.8;}.rk-warranty-comparison-note a{flex-shrink:0;color:#a74106;font-size:.83rem;font-weight:600;min-height:44px;display:inline-flex;align-items:center;}.rk-warranty-table-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);}@media(max-width:760px){.rk-warranty-comparison{padding-block:3rem;}.rk-warranty-comparison-note{display:block;}.rk-warranty-comparison-note a{margin-top:.6rem;}.rk-warranty-comparison th,.rk-warranty-comparison td{padding:1rem;}}
+</style>
+<style>.rk-warranty-swipe-hint{display:none;}@media(max-width:760px){.rk-warranty-swipe-hint{display:flex;justify-content:space-between;gap:1rem;font-size:.74rem;color:#a74106;margin:0 0 .8rem;}.rk-warranty-comparison tbody th{position:sticky;left:0;min-width:130px;background:#fffdf9;}.rk-warranty-comparison .rk-warranty-selected th{background:#fff2e3;}}</style>

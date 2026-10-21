@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 244,
+  "count": 268,
   "routes": [
     {
       "path": "/",
@@ -123,7 +123,7 @@
       "file": "src/content/pages/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 130,
-      "canonicalPath": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "canonicalPath": "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
       "notes": [
         "Both historical and current article paths retained."
       ],
@@ -284,6 +284,17 @@
       "words": 10
     },
     {
+      "path": "/blog/categories/",
+      "file": "src/content/pages/blog/categories/index.md",
+      "source": "authored-blog-hub",
+      "wordpressId": null,
+      "canonicalPath": "/blog/categories/",
+      "notes": [
+        "Client-requested blog collection hub; original routes retained."
+      ],
+      "words": 29
+    },
+    {
       "path": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
       "file": "src/content/pages/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/index.md",
       "source": "live-browser-capture",
@@ -297,7 +308,7 @@
       "file": "src/content/pages/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 127,
-      "canonicalPath": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "canonicalPath": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
       "notes": [
         "Both historical and current article paths retained."
       ],
@@ -308,18 +319,51 @@
       "file": "src/content/pages/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 126,
-      "canonicalPath": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "canonicalPath": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
       "notes": [
         "Both historical and current article paths retained."
       ],
       "words": 579
     },
     {
+      "path": "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "file": "src/content/pages/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 119,
+      "canonicalPath": "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 642
+    },
+    {
+      "path": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/",
+      "file": "src/content/pages/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 117,
+      "canonicalPath": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 467
+    },
+    {
+      "path": "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "file": "src/content/pages/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 123,
+      "canonicalPath": "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 633
+    },
+    {
       "path": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
       "file": "src/content/pages/blog/how-long-does-a-roof-last-in-dublin-oh/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 133,
-      "canonicalPath": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
       "notes": [
         "Both historical and current article paths retained."
       ],
@@ -330,7 +374,7 @@
       "file": "src/content/pages/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 134,
-      "canonicalPath": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
       "notes": [
         "Both historical and current article paths retained."
       ],
@@ -341,18 +385,29 @@
       "file": "src/content/pages/blog/how-much-does-roof-repair-cost-in-dublin-oh/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 132,
-      "canonicalPath": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
       "notes": [
         "Both historical and current article paths retained."
       ],
       "words": 1440
     },
     {
+      "path": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "file": "src/content/pages/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 129,
+      "canonicalPath": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 630
+    },
+    {
       "path": "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
       "file": "src/content/pages/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/index.md",
       "source": "wordpress",
       "wordpressId": 115,
-      "canonicalPath": "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "canonicalPath": "/blog/roof-replacement/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
       "notes": [],
       "words": 531
     },
@@ -361,7 +416,7 @@
       "file": "src/content/pages/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/index.md",
       "source": "wordpress",
       "wordpressId": 116,
-      "canonicalPath": "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/",
+      "canonicalPath": "/blog/roof-replacement/replace-your-home-siding-in-columbus-with-expert-help/",
       "notes": [],
       "words": 562
     },
@@ -370,7 +425,7 @@
       "file": "src/content/pages/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/index.md",
       "source": "wordpress",
       "wordpressId": 117,
-      "canonicalPath": "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/",
+      "canonicalPath": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/",
       "notes": [],
       "words": 467
     },
@@ -379,7 +434,7 @@
       "file": "src/content/pages/blog/p.250321000/the-5-step-roofing-process/index.md",
       "source": "wordpress",
       "wordpressId": 118,
-      "canonicalPath": "/blog/p.250321000/the-5-step-roofing-process/",
+      "canonicalPath": "/blog/roofing/the-5-step-roofing-process/",
       "notes": [],
       "words": 562
     },
@@ -388,7 +443,7 @@
       "file": "src/content/pages/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/index.md",
       "source": "wordpress",
       "wordpressId": 119,
-      "canonicalPath": "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "canonicalPath": "/blog/gaf-roofing/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
       "notes": [],
       "words": 642
     },
@@ -397,7 +452,7 @@
       "file": "src/content/pages/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/index.md",
       "source": "wordpress",
       "wordpressId": 120,
-      "canonicalPath": "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "canonicalPath": "/blog/roof-repair/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
       "notes": [],
       "words": 565
     },
@@ -406,7 +461,7 @@
       "file": "src/content/pages/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/index.md",
       "source": "wordpress",
       "wordpressId": 121,
-      "canonicalPath": "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/",
+      "canonicalPath": "/blog/roofing/how-to-spot-roof-damage-this-storm-season/",
       "notes": [],
       "words": 569
     },
@@ -415,7 +470,7 @@
       "file": "src/content/pages/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/index.md",
       "source": "wordpress",
       "wordpressId": 122,
-      "canonicalPath": "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "canonicalPath": "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
       "notes": [],
       "words": 745
     },
@@ -424,7 +479,7 @@
       "file": "src/content/pages/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/index.md",
       "source": "wordpress",
       "wordpressId": 123,
-      "canonicalPath": "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "canonicalPath": "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
       "notes": [],
       "words": 633
     },
@@ -433,7 +488,7 @@
       "file": "src/content/pages/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/index.md",
       "source": "wordpress",
       "wordpressId": 124,
-      "canonicalPath": "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "canonicalPath": "/blog/seasonal/why-nows-the-time-to-schedule-christmas-light-installation/",
       "notes": [],
       "words": 601
     },
@@ -442,7 +497,7 @@
       "file": "src/content/pages/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/index.md",
       "source": "wordpress",
       "wordpressId": 125,
-      "canonicalPath": "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "canonicalPath": "/blog/roofing/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
       "notes": [],
       "words": 540
     },
@@ -451,7 +506,7 @@
       "file": "src/content/pages/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/index.md",
       "source": "wordpress",
       "wordpressId": 126,
-      "canonicalPath": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "canonicalPath": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
       "notes": [],
       "words": 579
     },
@@ -460,7 +515,7 @@
       "file": "src/content/pages/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/index.md",
       "source": "wordpress",
       "wordpressId": 127,
-      "canonicalPath": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "canonicalPath": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
       "notes": [],
       "words": 650
     },
@@ -469,7 +524,7 @@
       "file": "src/content/pages/blog/p.251124000/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/index.md",
       "source": "wordpress",
       "wordpressId": 128,
-      "canonicalPath": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "canonicalPath": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
       "notes": [],
       "words": 613
     },
@@ -478,7 +533,7 @@
       "file": "src/content/pages/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
       "source": "wordpress",
       "wordpressId": 129,
-      "canonicalPath": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "canonicalPath": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
       "notes": [],
       "words": 630
     },
@@ -487,7 +542,7 @@
       "file": "src/content/pages/blog/p.260622000/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/index.md",
       "source": "wordpress",
       "wordpressId": 130,
-      "canonicalPath": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "canonicalPath": "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
       "notes": [],
       "words": 1181
     },
@@ -496,7 +551,7 @@
       "file": "src/content/pages/blog/p.260624000/signs-you-need-roof-repair-in-dublin-oh/index.md",
       "source": "wordpress",
       "wordpressId": 131,
-      "canonicalPath": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
       "notes": [],
       "words": 1603
     },
@@ -505,7 +560,7 @@
       "file": "src/content/pages/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/index.md",
       "source": "wordpress",
       "wordpressId": 132,
-      "canonicalPath": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
       "notes": [],
       "words": 1440
     },
@@ -514,7 +569,7 @@
       "file": "src/content/pages/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/index.md",
       "source": "wordpress",
       "wordpressId": 133,
-      "canonicalPath": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
       "notes": [],
       "words": 860
     },
@@ -523,7 +578,7 @@
       "file": "src/content/pages/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/index.md",
       "source": "wordpress",
       "wordpressId": 134,
-      "canonicalPath": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
       "notes": [],
       "words": 1094
     },
@@ -543,29 +598,216 @@
       "file": "src/content/pages/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 129,
-      "canonicalPath": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "canonicalPath": "/blog/ice-dam-removal/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
       "notes": [
         "Both historical and current article paths retained."
       ],
       "words": 630
     },
     {
+      "path": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-much-does-roof-repair-cost-in-dublin-oh/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 132,
+      "canonicalPath": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 1440
+    },
+    {
+      "path": "/blog/roof-repair/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "file": "src/content/pages/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 120,
+      "canonicalPath": "/blog/roof-repair/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 565
+    },
+    {
+      "path": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
+      "file": "src/content/pages/blog/signs-you-need-roof-repair-in-dublin-oh/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 131,
+      "canonicalPath": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 1603
+    },
+    {
+      "path": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-long-does-a-roof-last-in-dublin-oh/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 133,
+      "canonicalPath": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 860
+    },
+    {
+      "path": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "file": "src/content/pages/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 134,
+      "canonicalPath": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 1094
+    },
+    {
+      "path": "/blog/roof-replacement/replace-your-home-siding-in-columbus-with-expert-help/",
+      "file": "src/content/pages/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 116,
+      "canonicalPath": "/blog/roof-replacement/replace-your-home-siding-in-columbus-with-expert-help/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 562
+    },
+    {
+      "path": "/blog/roof-replacement/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "file": "src/content/pages/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 115,
+      "canonicalPath": "/blog/roof-replacement/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 531
+    },
+    {
+      "path": "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "file": "src/content/pages/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 130,
+      "canonicalPath": "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 1181
+    },
+    {
+      "path": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "file": "src/content/pages/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 127,
+      "canonicalPath": "/blog/roofing/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 650
+    },
+    {
+      "path": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "file": "src/content/pages/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 126,
+      "canonicalPath": "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 579
+    },
+    {
+      "path": "/blog/roofing/how-to-spot-roof-damage-this-storm-season/",
+      "file": "src/content/pages/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 121,
+      "canonicalPath": "/blog/roofing/how-to-spot-roof-damage-this-storm-season/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 569
+    },
+    {
+      "path": "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "file": "src/content/pages/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 122,
+      "canonicalPath": "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 745
+    },
+    {
+      "path": "/blog/roofing/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "file": "src/content/pages/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 125,
+      "canonicalPath": "/blog/roofing/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 540
+    },
+    {
+      "path": "/blog/roofing/the-5-step-roofing-process/",
+      "file": "src/content/pages/blog/p.250321000/the-5-step-roofing-process/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 118,
+      "canonicalPath": "/blog/roofing/the-5-step-roofing-process/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 562
+    },
+    {
+      "path": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "file": "src/content/pages/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 128,
+      "canonicalPath": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 613
+    },
+    {
+      "path": "/blog/seasonal/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "file": "src/content/pages/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/index.md",
+      "source": "blog-canonical",
+      "wordpressId": 124,
+      "canonicalPath": "/blog/seasonal/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "notes": [
+        "Client-approved category/tag article URL; renders the existing source article without duplicating its content record."
+      ],
+      "words": 601
+    },
+    {
       "path": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
       "file": "src/content/pages/blog/signs-you-need-roof-repair-in-dublin-oh/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 131,
-      "canonicalPath": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "canonicalPath": "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/",
       "notes": [
         "Both historical and current article paths retained."
       ],
       "words": 1603
     },
     {
+      "path": "/blog/topics/",
+      "file": "src/content/pages/blog/topics/index.md",
+      "source": "authored-blog-hub",
+      "wordpressId": null,
+      "canonicalPath": "/blog/topics/",
+      "notes": [
+        "Client-requested blog collection hub; original routes retained."
+      ],
+      "words": 29
+    },
+    {
       "path": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
       "file": "src/content/pages/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/index.md",
       "source": "wordpress-alternate-route",
       "wordpressId": 128,
-      "canonicalPath": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "canonicalPath": "/blog/roofing/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
       "notes": [
         "Both historical and current article paths retained."
       ],
@@ -1117,7 +1359,7 @@
       "file": "src/content/pages/gallery/index.md",
       "source": "wordpress",
       "wordpressId": 33,
-      "canonicalPath": "/gallery/",
+      "canonicalPath": "/",
       "notes": [],
       "words": 350
     },
@@ -1595,6 +1837,50 @@
       "words": 223
     },
     {
+      "path": "/products/gutters/",
+      "file": "src/content/pages/products/gutters/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 96
+    },
+    {
+      "path": "/products/gutters/guards/",
+      "file": "src/content/pages/products/gutters/guards/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 126
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 175
+    },
+    {
+      "path": "/products/gutters/guards/leaffilter/",
+      "file": "src/content/pages/products/gutters/guards/leaffilter/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/leaffilter/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 155
+    },
+    {
       "path": "/products/roofing/",
       "file": "src/content/pages/products/roofing/index.md",
       "source": "authored-product-pillar",
@@ -1790,6 +2076,17 @@
       "canonicalPath": "/products/siding/vinyl/",
       "notes": [],
       "words": 162
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/index.md",
+      "source": "authored-product-pillar",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/",
+      "notes": [
+        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
+      ],
+      "words": 134
     },
     {
       "path": "/products/siding/vinyl/variform/",
@@ -2186,6 +2483,17 @@
       "words": 28
     },
     {
+      "path": "/tag/gutter-guards/",
+      "file": "src/content/pages/tag/gutter-guards/index.md",
+      "source": "authored-topic-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/gutter-guards/",
+      "notes": [
+        "Exposes a previously assigned article tag with a native collection hub."
+      ],
+      "words": 26
+    },
+    {
       "path": "/tag/hail-damage/",
       "file": "src/content/pages/tag/hail-damage/index.md",
       "source": "reconstructed-wordpress-archive",
@@ -2206,6 +2514,17 @@
         "Additional WordPress taxonomy/pagination path discovered in rendered internal links. Recreated from published post terms."
       ],
       "words": 35
+    },
+    {
+      "path": "/tag/insurance-claims/",
+      "file": "src/content/pages/tag/insurance-claims/index.md",
+      "source": "authored-topic-archive",
+      "wordpressId": null,
+      "canonicalPath": "/tag/insurance-claims/",
+      "notes": [
+        "Exposes a previously assigned article tag with a native collection hub."
+      ],
+      "words": 24
     },
     {
       "path": "/tag/roof-inspection/",
@@ -2310,61 +2629,6 @@
       "canonicalPath": "/zanesville-oh/",
       "notes": [],
       "words": 800
-    },
-    {
-      "path": "/products/gutters/",
-      "file": "src/content/pages/products/gutters/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/gutters/",
-      "notes": [
-        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
-      ],
-      "words": 96
-    },
-    {
-      "path": "/products/gutters/guards/",
-      "file": "src/content/pages/products/gutters/guards/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/gutters/guards/",
-      "notes": [
-        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
-      ],
-      "words": 126
-    },
-    {
-      "path": "/products/gutters/guards/alu-rex/",
-      "file": "src/content/pages/products/gutters/guards/alu-rex/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/gutters/guards/alu-rex/",
-      "notes": [
-        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
-      ],
-      "words": 175
-    },
-    {
-      "path": "/products/gutters/guards/leaffilter/",
-      "file": "src/content/pages/products/gutters/guards/leaffilter/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/gutters/guards/leaffilter/",
-      "notes": [
-        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
-      ],
-      "words": 155
-    },
-    {
-      "path": "/products/siding/vinyl/ply-gem/",
-      "file": "src/content/pages/products/siding/vinyl/ply-gem/index.md",
-      "source": "authored-product-pillar",
-      "wordpressId": null,
-      "canonicalPath": "/products/siding/vinyl/ply-gem/",
-      "notes": [
-        "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
-      ],
-      "words": 134
     }
   ],
   "updatedAt": "2026-10-17T20:51:48.159Z",

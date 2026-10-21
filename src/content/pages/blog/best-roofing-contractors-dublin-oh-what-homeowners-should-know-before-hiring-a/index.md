@@ -2,13 +2,13 @@
 title: "Best Roofing Contractors Dublin OH: What Homeowners Should Know Before Hiring a Roofing Company"
 permalink: "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/"
 description: "Looking for roofing contractors in Dublin, OH? Learn about roof repair, roof replacement, storm damage restoration, metal roofing, GAF roofing, and emergency roof repair services."
-canonicalPath: "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/"
+canonicalPath: "/blog/roofing/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/"
 category: "Article"
 source: "wordpress-alternate-route"
 sourcePath: "/blog/p.260622000/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/"
 wordpressId: 130
 reviewStatus: "imported-needs-review"
-notes: ["Both historical and current article paths retained."]
+notes: ["Both historical and current article paths retained.","Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

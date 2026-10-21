@@ -1,0 +1,37 @@
+---
+interface Props {categories:string[];topics:string[];count:number;}
+const {categories,topics,count}=Astro.props;
+const noun=categories.length||topics.length?'articles':'collections';
+---
+<div class="rk-blog-filters" data-blog-filters hidden>
+ <div class="rk-blog-filter-fields">
+  <label class="rk-blog-search"><span>Search {noun}</span><input type="search" data-blog-search placeholder={noun==='articles'?'Search articles…':'Find a collection…'} autocomplete="off"/></label>
+  {categories.length>0&&<label><span>Category</span><select data-blog-category><option value="">All categories</option>{categories.map(value=><option value={value}>{value}</option>)}</select></label>}
+  {topics.length>0&&<label><span>Topic</span><select data-blog-topic><option value="">All topics</option>{topics.map(value=><option value={value}>{value}</option>)}</select></label>}
+  <button type="button" data-blog-reset>Clear filters</button>
+ </div>
+ <p role="status" aria-live="polite" aria-atomic="true" data-blog-count data-noun={noun}>{count} {noun}</p>
+</div>
+<script>
+ for(const root of document.querySelectorAll<HTMLElement>('[data-blog-filterable]')){
+  const controls=root.querySelector<HTMLElement>('[data-blog-filters]');
+  const search=root.querySelector<HTMLInputElement>('[data-blog-search]');
+  if(!controls||!search)continue;
+  const category=root.querySelector<HTMLSelectElement>('[data-blog-category]');
+  const topic=root.querySelector<HTMLSelectElement>('[data-blog-topic]');
+  const count=root.querySelector<HTMLElement>('[data-blog-count]')!;
+  const empty=root.querySelector<HTMLElement>('[data-blog-empty]')!;
+  const cards=[...root.querySelectorAll<HTMLElement>('[data-blog-card]')].map(el=>({el,categories:JSON.parse(el.dataset.categories||'[]') as string[],topics:JSON.parse(el.dataset.topics||'[]') as string[]}));
+  function update(){
+   const words=search!.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);let matches=0;
+   for(const card of cards){const show=words.every(w=>card.el.dataset.search?.includes(w))&&(!category?.value||card.categories.includes(category.value))&&(!topic?.value||card.topics.includes(topic.value));card.el.hidden=!show;if(show)matches++;}
+   const noun=count.dataset.noun!;count.textContent=`${matches} of ${cards.length} ${noun}`;empty.hidden=matches>0;
+  }
+  search.addEventListener('input',update);category?.addEventListener('change',update);topic?.addEventListener('change',update);
+  root.querySelector('[data-blog-reset]')?.addEventListener('click',()=>{search.value='';if(category)category.value='';if(topic)topic.value='';update();search.focus();});
+  controls.hidden=false;
+ }
+</script>
+<style>
+ .rk-blog-filters{margin:0 0 1.8rem;padding-block:1.2rem;border-block:1px solid #d7cebf;}.rk-blog-filters[hidden]{display:none;}.rk-blog-filter-fields{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;}.rk-blog-filter-fields label{display:grid;gap:.45rem;flex:1 1 150px;min-width:0;}.rk-blog-filter-fields .rk-blog-search{flex:2 1 220px;}.rk-blog-filter-fields label>span{font-size:.76rem;font-weight:600;color:#59534a;}.rk-blog-filter-fields :is(input,select){width:100%;min-width:0;min-height:46px;border:1px solid #cfc5b6;border-radius:3px;background:#fffdf8;padding:.65rem .75rem;color:#242321;font:inherit;font-size:.85rem;}.rk-blog-filter-fields :is(input,select,button):focus-visible{outline:2px solid #ba4b06;outline-offset:3px;}.rk-blog-filter-fields button{min-height:46px;border:0;background:transparent;color:#a44305;font:inherit;font-size:.8rem;font-weight:600;cursor:pointer;padding:.65rem .2rem;}.rk-blog-filters>p{font-size:.76rem;color:#72695e;margin:.9rem 0 0;}@media(max-width:600px){.rk-blog-filter-fields .rk-blog-search{flex-basis:100%;}.rk-blog-filter-fields label{flex-basis:calc(50% - 1rem);}.rk-blog-filter-fields button{margin-left:auto;}}
+</style>

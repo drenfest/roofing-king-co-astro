@@ -1,0 +1,26 @@
+---
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import BlogNavigation from '../components/BlogNavigation.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import gallery from '../data/project-gallery.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+interface Props {kind:'articles'|'categories'|'topics';title:string;description:string;path:string;isArchive?:boolean;}
+const {kind,title,description,path,isArchive=false}=Astro.props;
+const image=gallery.items[kind==='categories'?0:kind==='topics'?1:3].src;
+const label=kind==='articles'?'Read the articles':`Browse ${kind}`;
+---
+<DocumentLayout {title} {description} image={image} canonicalPath={path}><SiteHeader quoteHref="/contact-us/" quoteModal={false} client:load/><main id="content" class="rk-site-main rk-service-landing">
+ <PageHero variant="resource" hero={{eyebrow:'Roof King resources',title,description,image,bookingUrl:'#blog-collections',bookingLabel:label,booking:{eyebrow:'',title:'',description:''}}}/>
+ <Breadcrumbs items={[{label:'Home',href:'/'},...(kind==='articles'?[{label:'Blog'}]:[{label:'Blog',href:'/blog/'},...(isArchive?[{label:kind==='categories'?'Categories':'Topics',href:kind==='categories'?'/blog/categories/':'/blog/topics/'}]:[]),{label:title}])]}/>
+ <div class="rk-section-inner rk-blog-resource-layout"><BlogNavigation {path}/><div class="rk-blog-resource-content"><slot/></div></div>
+ </main><SiteFooter/></DocumentLayout>
+<style>
+ .rk-blog-resource-layout{display:grid;grid-template-columns:240px minmax(0,1fr);align-items:start;gap:3rem;padding-block:3.5rem 5rem;}.rk-blog-resource-content{min-width:0;}@media(max-width:1100px){.rk-blog-resource-layout{grid-template-columns:210px minmax(0,1fr);gap:2rem;}}@media(max-width:900px){.rk-blog-resource-layout{grid-template-columns:minmax(0,1fr);gap:2rem;padding-top:1rem;}}
+</style>

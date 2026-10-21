@@ -93,3 +93,53 @@ The ice-dam roofing hero now points to version 2, showing a roof-level ice ridge
 The ice-dam opening uses illustration="ice-dam" and three mechanism-specific H3 topics. Its client-directed copy and source-check expectations persist in service-overrides.json, with university extension and NWS evidence.
 
 coverage-map.json stores a simplified Ohio/city SVG overview, the explicit 25-community inventory and configurable tile URL. Detailed boundaries live in public/maps/ohio-service-areas.geojson. Do not invent service coverage from nearby municipal polygons; Lewis Center is a point because it is unincorporated.
+
+project-gallery.json is the canonical gallery library: inspected existing-site photographs with corrected topics, contextual captions and no invented job/customer/damage claims. gallery-media.json contains optimized variants; project-gallery.ts resolves each native service family. Legacy source galleries remain migration evidence. Low-resolution 270px thumbnails are excluded. The old home.json gallery remains historical input, not runtime gallery data.
+
+
+location-profiles.json supplies sourced individual context for the 24 full-service location hubs. scripts/polish-location-hubs.mjs persists the authored hub text and city-specific headings in editorial/copy/overrides. Prefer existing local descendants and Dublin aliases, then main service URLs; no new city/service pages. ServicePathsData.scrollableTabs enables the long desktop list. featured-articles.json records existing published article destinations, concise summaries, topics/cities and optimized thumbnails; featured-articles.ts selects relevant posts by service, favoring matching cities for location hubs. Empty blog topics are never filled with unrelated posts.
+
+
+blog-hubs.json contains the two curated resource indexes, sourced from the existing nine category and ten topic archives. Counts and article links come from published archives; thumbnails reuse optimized article assets. Rebuild explicitly with scripts/build-blog-hubs.mjs after taxonomy changes. Navigation Categories/Topics now point to /blog/categories/ and /blog/topics/ and have distinct atlas photos.
+
+
+blog-index.json includes all 21 unique existing article destinations, concise excerpts, published dates where present and optimized thumbnail records. blog-archives.json maps all ten preserved /tag/* archives to their actual article membership. article-media.json registers those thumbnails for responsive HomeImage rendering. build-blog-hubs.mjs refreshes these authored indexes; no new articles or publication dates are invented.
+
+
+blog-archives.json now contains all 19 category/topic collection hubs with kind identifying the appropriate parent breadcrumb/sidebar branch. No category/tag URL or article membership changed.
+
+
+Blog is now a top-level primary menu item, before About, per the latest client request. Categories and Topics remain its children with all archive destinations. It is removed from About. The blog authoring/check scripts resolve the top-level branch; the existing menu atlas remains valid because destination URLs did not change.
+
+
+blog-routes.json persists one category/tag canonical and original source file per article; blog-url-map.json maps every retired alias directly to it. First assigned category wins, otherwise first assigned tag in original exported order. featured articles, hub/index cards and authored service links use canonical paths. One captured article has no assigned taxonomy and retains its already-clean URL. Normal builds do not infer or reorder terms.
+
+
+All original assigned article topics now have collection hubs, including Insurance Claims and Gutter Guards. blog-hubs.json, blog-archives.json and navigation include these two previously unexposed assignments; original article category/tag assignments are unchanged. BlogNavigation resolves the canonical article from blog-routes.json to show every assigned category/tag, not just its primary canonical term.
+
+
+blog-articles.json stores 21 full native articles, source metadata, original first-image heroes, semantic checklist groups and FAQ data. blog-article-media.json registers optimized responsive original images with no enlargement. blog-article-types.ts defines typed prose, checklist and image blocks. These files are explicitly authored by build-blog-articles.mjs, not normal builds.
+
+
+blog-index and archive items now persist source author alongside original publication date. Unknown author/date remain null; collection cards have no fabricated publication metadata.
+
+
+company-media.json registers original About roof and existing community-event photos as responsive WebP variants. media.ts includes these records; no enlargement or generated team portrait is used.
+
+
+faq-page.ts defines seven topic groups and 28 questions. Most answers are referenced from service-editorial by exact question text, with a build failure if a selected source disappears; only clearer question labels are overridden. Four getting-started answers use the current service coverage, booking URL and contact page. Existing source answers, links and coverage limitations remain intact.
+
+
+navigation.json is deduplicated globally by destination (124 distinct entries). About is flattened; /about-us/ remains the top-level About link. Commercial Storm Damage remains under Commercial Roofing. Existing atlas coverage is unchanged because no unique destination was removed.
+
+
+warranty-page.ts holds the official GAF comparison/sample document URLs, checkedAt date and five System Plus FAQs. Manufacturing-defect remedies are distinct from installation-error coverage. The qualifying 50-year period includes ownership/building restrictions; registration, transfer and exclusions follow the official sample.
+
+
+company-media.json now also registers responsive WebP variants of the existing original careers team photo. The original 750x500 image is never enlarged. No generated staff imagery is used.
+
+service-area-directory.ts derives local service descendants from the preserved route manifest and editorial labels, including the existing flat Dublin service URLs. Mansfield is explicitly identified as having no location hub.
+
+offer-pages.ts holds distinct financing, warranty and seasonal content plus official source links. Published repayment lengths are discussion options rather than guaranteed approvals or current rate quotes. The client confirmed the 47-dollar promotion; visitors call for APR, financed amount, fees, repayment period and eligibility details. No missing loan values are invented. Existing gallery photos use the responsive media registry. home.json offer cards are aligned with the new payment planning copy.
+
+The Offers branch is labeled Offers & Financing and appears first in the About dropdown on both desktop and mobile. Footer navigation uses the same label; /offers/ and its child destinations are unchanged.

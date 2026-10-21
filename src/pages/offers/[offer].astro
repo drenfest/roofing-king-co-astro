@@ -1,0 +1,8 @@
+---
+import OfferLayout from '../../layouts/OfferLayout.astro';
+import {offerPages,type OfferPage} from '../../data/offer-pages';
+export function getStaticPaths(){return offerPages.map(page=>({params:{offer:page.slug},props:{page}}));}
+interface Props {page:OfferPage;}
+const {page}=Astro.props;
+---
+<OfferLayout {page}/>

@@ -34,3 +34,5 @@ SFTP is chrooted to the application root. Upload destinations use relative priva
 ## Completion checks
 
 All 244 protected public URLs returned HTTP 200 with matching page headings, canonicals and review noindex metadata. See cloudways-review-check.json. Unknown URLs return 404. The original WordPress web files are retained in private_html/astro-deploy/backups/web-root-20261021T001217Z; the Cloudways files/database recovery point remains available. No WordPress runtime remains in public_html.
+
+The public release.json marker identifies the deployed Git commit. The deployment smoke test now checks every canonical sitemap page against the verified build, plus current schema/components, sitemap, essential assets, review crawl restrictions and 404 behavior.

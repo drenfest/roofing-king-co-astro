@@ -2,13 +2,13 @@
 title: "Replace Your Home Siding in Columbus with Expert Help"
 permalink: "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/"
 description: "Upgrade your Columbus home with expert siding replacement by Roof King & Restoration. Call now for a free consultation and hassle-free service from our pros!"
-canonicalPath: "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/"
+canonicalPath: "/blog/roof-replacement/replace-your-home-siding-in-columbus-with-expert-help/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/"
 wordpressId: 116
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

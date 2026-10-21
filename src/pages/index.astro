@@ -13,26 +13,20 @@ import HomeWorkmanship from '../components/HomeWorkmanship.astro';
 import ProjectGallery from '../components/ProjectGallery.svelte';
 import ComparisonSection from '../components/ComparisonSection.astro';
 import QuoteSection from '../components/QuoteSection.astro';
-import { gallery, comparison, quote } from '../data/home.json';
-import media from '../data/home-media.json';
+import { comparison, quote } from '../data/home.json';
+import library from '../data/project-gallery.json';
+import {galleryFor} from '../data/project-gallery';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/home-interactions.css';
 const page = (await getCollection('pages')).find(page => page.data.permalink === '/')!;
-function photo(image: {src:string;alt:string}) {
-  const dimensions = media[image.src as keyof typeof media];
-  const variants = dimensions?.variants || [];
-  return { ...image, width: dimensions?.width, height: dimensions?.height,
-    thumbnail: (variants.find(v => v.width >= 800) || variants.at(-1))?.src || image.src,
-    srcset: variants.map(v => `${v.src} ${v.width}w`).join(', ') };
-}
 ---
 <DocumentLayout title="Roofing and Siding Services in Ohio" description={page.data.description} canonicalPath="/">
   <SiteHeader client:load />
   <main id="content" class="rk-site-main">
     <article class="rk-home" data-homepage-build="astro-components">
       <HomeHero /><HomeTrust /><StormDamageCallout /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
-      <ProjectGallery {...gallery} items={gallery.items.map(image => ({...photo(image), tags:image.tags, category:image.category, caption:image.caption}))} client:visible />
+      <ProjectGallery {...galleryFor('all')} id="projects" title={library.title} titleEmphasis={library.titleEmphasis} description={library.description} client:visible />
       <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
       <ComparisonSection {comparison} />
       <QuoteSection {quote} />

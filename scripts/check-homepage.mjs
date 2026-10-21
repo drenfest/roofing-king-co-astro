@@ -18,7 +18,8 @@ for(const review of featuredReviews){
   assert.equal(card.find('.rk-stars[aria-label]').length,review.rating?1:0,'Do not invent individual star scores.');
   assert.ok(card.find('p').text().includes(review.description),'Keep the verified excerpt intact.');
 }
-assert.equal($('.rk-project-gallery-item').length, 10, 'Gallery images must exist in server-rendered HTML.');
+const galleryLibrary=JSON.parse(await fs.readFile('src/data/project-gallery.json','utf8'));
+assert.equal($('.rk-project-gallery-item').length,galleryLibrary.items.length,'Every retained gallery photo must exist in server-rendered HTML.');
 assert.equal($('.rk-home-faq-stack details').length, 3);
 assert.equal($('dialog').length, 2);
 assert.equal($('.rk-quote-form').length, 2);

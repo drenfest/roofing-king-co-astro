@@ -1,0 +1,51 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSection from '../components/ContentSection.astro';
+import ArticleChecklist from '../components/ArticleChecklist.astro';
+import FAQSection from '../components/FAQSection.astro';
+import QuoteExperience from '../components/QuoteExperience.svelte';
+import ServiceIcon from '../components/ServiceIcon.astro';
+import site from '../data/site.json';
+import {hero} from '../data/home.json';
+import type {RichNode} from '../data/section-types';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/careers.css';
+const p=(text:string):RichNode=>({tag:'p',children:[{text}]});
+const details:RichNode[][]=[
+ [{tag:'p',children:[{tag:'strong',children:[{text:'Your experience'}]},{text:' — the trades, projects or customer-facing work you have handled.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'The kind of work you want'}]},{text:' — installation, estimating, customer communication or project support.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'Your location and availability'}]},{text:' — where you are based, when you could start and any scheduling or travel questions.'}]}],
+ [{tag:'p',children:[{tag:'strong',children:[{text:'Relevant qualifications'}]},{text:' — certifications, training or examples of your work you would like to discuss.'}]}]
+];
+const faq:{eyebrow:string;title:string;items:{question:string;answer:RichNode[]}[]}={eyebrow:'Before you reach out',title:'Questions about working with Roof King',items:[
+ {question:'How can I find out about current openings?',answer:[p(`Call ${site.phone} and ask about career opportunities. The team can confirm which positions are available, the role requirements and how to apply.`)]},
+ {question:'Do I need roofing experience?',answer:[p('Requirements depend on the position. Share your background in exterior trades, estimating, customer communication or project coordination and ask which experience or qualifications the role requires.')]},
+ {question:'Where is Roof King based?',answer:[p(`Our office is at ${site.address.streetAddress}, ${site.address.addressLocality}, ${site.address.addressRegion} ${site.address.postalCode}. Confirm the working location, travel expectations and schedule for the specific opportunity you discuss.`)]},
+ {question:'Where should I send my résumé?',answer:[p('Call to confirm the hiring contact and the preferred application method before sending your résumé or other documents.')]},
+ {question:'How do I learn about pay, benefits and the schedule?',answer:[p('Ask for the compensation, employment arrangement, benefits, schedule and travel details for the specific position. Discuss those terms directly with the team as part of your inquiry.')]}]};
+---
+<DocumentLayout title="Careers at Roof King & Restoration" description="Interested in working with Roof King & Restoration? Learn about our exterior remodeling work and contact our Columbus team about current opportunities and how to apply." canonicalPath="/our-careers/" image="/media/company/careers-team-750.webp">
+ <SiteHeader quoteHref="/contact-us/#quote-form" client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-careers-page" data-landing-build="editorial" data-component="CareersPage">
+  <PageHero variant="resource" hero={{...hero,image:'/media/company/careers-team-750.webp',eyebrow:'Careers at Roof King & Restoration',title:'Bring your experience to Roof King.',description:'Interested in roofing, exterior remodeling or helping homeowners plan their projects? Introduce yourself to our Columbus-based team and ask about current opportunities.',bookingUrl:site.phoneHref,bookingLabel:'Ask about opportunities',note:'Call to discuss current openings, requirements and how to apply.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Careers'}]}/>
+  <div id="career-experience"><ContentSection section={{type:'content',variant:'features',body:[{tag:'p',role:'eyebrow',children:[{text:'The work we do'}]},{tag:'h2',children:[{text:'Tell us where your skills fit'}]},p('Roof King works on roofing, siding, gutters, windows, decks and attic insulation for Ohio properties. That work involves hands-on exterior trades, customer conversations and coordination around each project.'),p('When you reach out, tell us about the work you know and the kind of opportunity you are looking for.'),{tag:'p',children:[{tag:'a',href:'/about-us/',children:[{text:'Get to know Roof King'}]}]}],cards:[
+   {title:'Roofing and exterior trades',body:[p('Share your installation, repair or related trade experience. Describe the materials and projects you have worked with and any relevant training.')]},
+   {title:'Estimating and homeowner communication',body:[p('Tell us about your experience explaining products, discussing project needs, preparing estimates or keeping customers informed.')]},
+   {title:'Project coordination and support',body:[p('Describe your background organizing work, handling project information, communicating schedules or supporting customers and installation teams.')]}
+  ]}}/></div>
+  <section class="rk-career-preparation" aria-labelledby="career-preparation-title"><div class="rk-section-inner rk-career-preparation-layout"><div><p class="rk-home-eyebrow">Start with a conversation</p><h2 id="career-preparation-title">What to share when you reach out</h2><p>A short introduction helps the team understand your background and the work you are interested in.</p></div><ArticleChecklist items={details}/></div></section>
+  <FAQSection section={faq}/>
+  <section id="career-contact" class="rk-career-contact" aria-labelledby="career-contact-title"><div class="rk-section-inner rk-career-contact-layout"><div><p class="rk-home-eyebrow">Career inquiries</p><h2 id="career-contact-title">Talk with our Columbus team</h2><p>Ask about current openings and confirm the next step for your application.</p></div><div class="rk-career-contact-actions"><a class="rk-button rk-button-primary" href={site.phoneHref}>Call {site.phone}<ServiceIcon name="arrow"/></a><a class="rk-career-office-link" href="/contact-us/#office">Office details and directions<ServiceIcon name="arrow"/></a></div></div></section>
+ </main>
+ <QuoteExperience showInlineForm={false} showRating={false} client:load/>
+ <SiteFooter/>
+</DocumentLayout>

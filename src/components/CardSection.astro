@@ -3,22 +3,35 @@ import type { CardSectionData } from '../data/section-types';
 import HomeImage from './HomeImage.astro';
 import SectionHeading from './SectionHeading.astro';
 import ReviewCard from './ReviewCard.astro';
-interface Props { kind: 'offers' | 'blogs' | 'reviews'; section: CardSectionData; }
-const { kind, section } = Astro.props;
-const action = { offers: 'View all offers', blogs: 'Read all blogs', reviews: 'Read all reviews' }[kind];
-const href = { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
+import BlogCardFilters from './BlogCardFilters.astro';
+import posts from '../data/blog-index.json';
+import routes from '../data/blog-routes.json';
+interface Props { kind: 'offers' | 'blogs' | 'reviews'; section: CardSectionData; id?:string; itemAction?:string; actionLabel?:string; actionHref?:string; contained?:boolean; filterable?:boolean; }
+const { kind, section, id, itemAction, actionLabel, actionHref, contained=false, filterable=false } = Astro.props;
+const cards=section.items.map(card=>{const post=posts.find(p=>p.href===card.href);const route=routes.posts.find(p=>p.canonicalPath===card.href);return {...card,blogAuthor:post?.author,date:post?.date,categories:route?.categories||[],topics:route?.tags||[]};});
+const categories=[...new Set(cards.flatMap(c=>c.categories))].sort();const topics=[...new Set(cards.flatMap(c=>c.topics))].sort();
+const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'America/New_York'}).format(new Date(date));
+const action = actionLabel || { offers: 'View all offers', blogs: 'Read all blogs', reviews: 'Read all reviews' }[kind];
+const href = actionHref || { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
 ---
-<section class={`rk-home-section rk-home-${kind}`}>
-  <div class="rk-section-inner">
+<section id={id} data-blog-filterable={filterable?true:undefined} data-component="CardSection" class={`rk-home-section rk-home-${kind} ${contained?'rk-contained-card-section':''}`}>
+  <div class:list={{'rk-section-inner':!contained}}>
     {kind === 'offers' ? <div class="rk-home-split-heading"><SectionHeading {...section} /><a class="rk-button rk-button-light" href={href}>{action}</a></div> : <SectionHeading {...section} />}
+    {filterable&&<BlogCardFilters {categories} {topics} count={cards.length}/>}
     <div class="rk-home-card-row">
-      {section.items.map(card => kind === 'reviews' ? <ReviewCard {card}/> : <article class={kind === 'blogs' ? 'rk-blog-card rk-home-blog-card' : 'rk-home-offer-card'}>
+      {cards.map(card => kind === 'reviews' ? <ReviewCard {card}/> : <article data-blog-card={filterable?true:undefined} data-search={filterable?[card.title,card.description,...card.categories,...card.topics].join(" ").toLowerCase():undefined} data-categories={filterable?JSON.stringify(card.categories):undefined} data-topics={filterable?JSON.stringify(card.topics):undefined} class={kind === 'blogs' ? 'rk-blog-card rk-home-blog-card' : 'rk-home-offer-card'}>
         <a href={'href' in card ? card.href : undefined}>
           {card.image && <HomeImage {...card.image} sizes="(max-width: 760px) 100vw, 33vw" />}
-          <div class={kind === 'blogs' ? 'rk-blog-card-body' : undefined}><h3>{card.title}</h3><p>{card.description}</p><span class={kind === 'blogs' ? 'rk-blog-card-action' : undefined}>{kind === 'blogs' ? 'Read more' : 'Learn more'}</span></div>
+          <div class={kind === 'blogs' ? 'rk-blog-card-body' : undefined}><h3>{card.title}</h3>{kind==='blogs'&&(card.blogAuthor||card.date)&&<div class="rk-blog-card-meta">{card.blogAuthor&&<span>By {card.blogAuthor}</span>}{card.date&&<time datetime={card.date}>{formatDate(card.date)}</time>}</div>}<p>{card.description}</p><span class={kind === 'blogs' ? 'rk-blog-card-action' : undefined}>{itemAction || (kind === 'blogs' ? 'Read more' : 'Learn more')}</span></div>
         </a>
       </article>)}
     </div>
+    {filterable&&<p class="rk-blog-filter-empty" data-blog-empty hidden>No matches found. Try a different search or clear the filters.</p>}
     {kind !== 'offers' && <div class="rk-home-centered-action"><a class="rk-button rk-button-primary" href={href}>{action}</a></div>}
   </div>
 </section>
+
+<style>
+ [data-blog-card][hidden]{display:none!important;}.rk-blog-card-meta{display:flex;flex-wrap:wrap;gap:.35rem 1rem;color:#72695e;font-size:.74rem;line-height:1.6;}.rk-blog-card-meta time{white-space:nowrap;}
+ .rk-contained-card-section{padding:0;}@media(min-width:761px) and (max-width:1100px){.rk-contained-card-section .rk-home-card-row{grid-template-columns:repeat(2,minmax(0,1fr));}}
+</style>

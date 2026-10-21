@@ -2,13 +2,13 @@
 title: "How Much Does a Roof Replacement Cost in Dublin, OH?"
 permalink: "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/"
 description: "Wondering how much a roof replacement costs in Dublin, OH? Learn what affects roofing costs, material options, insurance considerations, and when replacement may be the best investment."
-canonicalPath: "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/"
+canonicalPath: "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/"
 wordpressId: 134
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

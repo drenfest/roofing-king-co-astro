@@ -61,8 +61,15 @@
 .rk-service-detail li svg{flex:none;width:18px;height:18px;}
 .rk-service-detail .rk-button{gap:1rem;min-height:46px;font-size:.91rem;}
 .rk-service-detail .rk-button svg{width:20px;height:20px;}
-.rk-service-related-links{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;border-top:1px solid #eee9df;margin-top:1.3rem;padding-top:1rem;}
-.rk-service-related-links a{font-size:.88rem;font-weight:700;color:#34312d;text-underline-offset:4px;}
+.rk-service-related-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem;border-top:1px solid #e3ddd2;margin-top:1.5rem;padding-top:1.25rem;}
+.rk-service-related-links a{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-width:0;min-height:52px;padding:.8rem .9rem;border:1px solid #e3ddd2;background:#f8f5ee;font-size:.84rem;font-weight:600;line-height:1.45;color:#34312d;text-decoration:none;transition:background .18s ease,border-color .18s ease;}
+.rk-service-related-links a span{min-width:0;}
+.rk-service-related-links a svg{flex:0 0 18px;width:18px;height:18px;color:#b54a05;transition:transform .18s ease;}
+.rk-service-related-links a:hover{background:#f0eade;border-color:#c6b8a3;}
+.rk-service-related-links a:hover svg{transform:translateX(3px);}
+.rk-service-related-links a:focus-visible{outline:2px solid #b54a05;outline-offset:3px;}
+@media(max-width:600px){.rk-service-related-links{grid-template-columns:minmax(0,1fr);}}
+@media(prefers-reduced-motion:reduce){.rk-service-related-links a,.rk-service-related-links a svg{transition:none;}}
 .rk-service-audience-banner{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;margin-top:1.6rem;padding:1.4rem 1.6rem;border-left:3px solid #e07a30;border-radius:0 10px 10px 10px;color:#fffaf0;background:linear-gradient(115deg,#242321,#242321);}
 .rk-service-audience-copy{display:flex;align-items:center;gap:1.2rem;}
 .rk-service-audience-icon{display:grid;place-items:center;flex:none;width:46px;height:46px;border:1px solid #afa69a66;border-radius:50%;color:#ffba73;}

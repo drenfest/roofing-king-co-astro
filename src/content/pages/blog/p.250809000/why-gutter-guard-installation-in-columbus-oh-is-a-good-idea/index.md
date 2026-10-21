@@ -2,13 +2,13 @@
 title: "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
 permalink: "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/"
 description: "Thinking about gutter guard installation in Columbus, OH? Discover key benefits of gutter guards and more! Get gutter guard quote from Roof King & Restoration."
-canonicalPath: "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/"
+canonicalPath: "/blog/gutters/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/"
 wordpressId: 123
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

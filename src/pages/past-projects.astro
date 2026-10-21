@@ -1,0 +1,42 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ProjectGallery from '../components/ProjectGallery.svelte';
+import ResourceLinks from '../components/ResourceLinks.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import library from '../data/project-gallery.json';
+import {galleryFor} from '../data/project-gallery';
+import {hero} from '../data/home.json';
+import type {MediaContentRowData} from '../data/section-types';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/projects.css';
+const gallery=galleryFor('all');
+const heroImage=library.items[0].src;
+const serviceLinks:MediaContentRowData['links']=[
+ {label:'Residential roofing',href:'/roofing/',icon:'roof'},
+ {label:'Storm damage restoration',href:'/storm-damage/',icon:'brand'},
+ {label:'Siding replacement',href:'/siding/',icon:'shingles'},
+ {label:'Commercial roofing',href:'/commercial-roofing/',icon:'roof'},
+ {label:'Gutters and downspouts',href:'/gutters/',icon:'roof'},
+ {label:'Replacement windows',href:'/windows/',icon:'energy'},
+ {label:'Decks and outdoor spaces',href:'/decks/',icon:'shingles'},
+ {label:'Attic insulation',href:'/attic-insulation/',icon:'energy'}
+];
+---
+<DocumentLayout title="Past projects & exterior photos" description="Explore Roof King roofing, siding and exterior photos. Filter by service, browse photo groups and open images for a closer look at materials and installation details." canonicalPath="/past-projects/" image={heroImage}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-projects-page" data-component="PastProjectsPage">
+  <PageHero variant="service" hero={{...hero,image:heroImage,eyebrow:'Past projects · Roof King & Restoration',title:'Roofing, siding and exterior projects.',description:'Browse finished exteriors, roofing installations and close-up material details. Choose a service below and open any photo for a closer look.',bookingUrl:'#projects',bookingLabel:'Explore the photos',note:'Planning work of your own? Call our team to discuss your home.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Past projects'}]}/>
+  <ProjectGallery {...gallery} id="projects" title={library.title} titleEmphasis={library.titleEmphasis} description="Finished exteriors and installation details, organized by service. Browse each group of photos or open an image to see more." client:visible/>
+  <section class="rk-project-service-links" aria-labelledby="project-services-title"><div class="rk-section-inner rk-project-services-layout"><div><p class="rk-home-eyebrow">From inspiration to your project</p><h2 id="project-services-title">View Our Exterior Services</h2><p>A photo can help you find a look you like. Our service guides explain the repair options, materials and installation details to consider for your own property.</p><a class="rk-project-contact-link" href="/contact-us/">Talk about your home<span aria-hidden="true"> →</span></a></div><ResourceLinks links={serviceLinks} tiles/></div></section>
+  <QuoteSection quote={{eyebrow:'Your home could be next',title:'Have a project in mind?',description:'Tell us what caught your eye and what you would like to change. Share your property address and the roofing or exterior work you’re considering.'}}/>
+ </main><SiteFooter/>
+</DocumentLayout>

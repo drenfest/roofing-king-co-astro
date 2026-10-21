@@ -11,16 +11,21 @@ import ServiceTopics from '../components/ServiceTopics.astro';
 import {serviceOpening} from '../data/service-opening';
 import '../styles/service-landing.css';
 import editorial from '../data/service-editorial.json';
+import blogHubs from '../data/blog-hubs.json';
+import blogArchives from '../data/blog-archives.json';
 export async function getStaticPaths() {
-  return (await getCollection('pages')).filter(page => page.data.permalink !== '/' && page.data.permalink !== '/reviews/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details) && !(page.data.permalink in editorial)).map(page => ({
+  const all=await getCollection('pages');
+  const regular=all.filter(page => page.data.category!=='Article' && !(page.data.permalink in blogArchives) && !Object.values(blogHubs).some(hub=>hub.path===page.data.permalink) && page.data.permalink !== '/blog/' && page.data.permalink !== '/' && page.data.permalink !== '/service-areas/' && page.data.permalink !== '/our-careers/' && page.data.permalink !== '/customer-service/' && !page.data.permalink.startsWith('/offers/') && page.data.permalink !== '/faq/' && page.data.permalink !== '/past-projects/' && page.data.permalink !== '/about-us/' && page.data.permalink !== '/contact-us/' && page.data.permalink !== '/reviews/' && page.data.permalink !== '/gallery/' && !(page.data.permalink in services) && !(page.data.permalink in hubs) && !(page.data.permalink in details) && !(page.data.permalink in editorial)).map(page => ({
     params: { path: page.data.permalink === '/' ? undefined : page.data.permalink.slice(1, -1) },
     props: { page },
   }));
+  return regular;
 }
 interface Props { page: CollectionEntry<'pages'>; }
 const { page } = Astro.props;
 const { Content } = await render(page);
 const opening=serviceOpening(page.data.permalink);
+
 ---
 <SiteLayout title={page.data.title} description={page.data.description} canonicalPath={page.data.canonicalPath}>
   <div data-content-source={page.data.source} data-review-status={page.data.reviewStatus}>

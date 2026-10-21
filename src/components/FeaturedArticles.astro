@@ -1,0 +1,33 @@
+---
+import {featuredArticles} from '../data/featured-articles';
+import ServiceIcon from './ServiceIcon.astro';
+interface Props {family:string;city?:string;path?:string;}
+const {family,city,path}=Astro.props;
+const {items,title,description}=featuredArticles(family,city,path);
+---
+{items.length>0&&<section class="rk-landing-section rk-featured-articles" aria-labelledby="featured-articles-title" data-component="FeaturedArticles"><div class="rk-section-inner">
+ <div class="rk-articles-heading"><div class="rk-landing-heading"><p class="rk-home-eyebrow">From the Roof King blog</p><h2 id="featured-articles-title">{title}</h2><p>{description}</p></div><a class="rk-articles-all" href="/blog/">Explore the blog<ServiceIcon name="arrow"/></a></div>
+ <div class="rk-articles-grid">{items.map(item=><article><a href={item.href} class="rk-article-link"><div class="rk-article-thumbnail"><img src={item.image.src} srcset={item.image.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width:600px) 90vw, (max-width:1000px) 45vw, 300px" width={item.image.width} height={item.image.height} alt={item.image.alt} loading="lazy" decoding="async"/></div><div class="rk-article-copy"><p class="rk-article-topic">{item.city?`${item.city}, Ohio`:'Roof King guide'}</p><h3>{item.title}</h3><p>{item.description}</p><span class="rk-article-action">Read article<ServiceIcon name="arrow"/></span></div></a></article>)}</div>
+ </div></section>}
+<style>
+ .rk-featured-articles{background:#f3eee4;}
+ .rk-articles-heading{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2.5rem;}
+ .rk-articles-heading .rk-landing-heading{max-width:780px;}
+ .rk-articles-all{display:inline-flex;align-items:center;gap:.8rem;flex-shrink:0;min-height:44px;color:#34312d;font-size:.88rem;font-weight:600;}
+ .rk-articles-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.5rem;}
+ .rk-articles-grid article{min-width:0;}
+ .rk-article-link{display:flex;flex-direction:column;height:100%;color:#242321;text-decoration:none;border-bottom:1px solid #cfc5b6;}
+ .rk-article-thumbnail{aspect-ratio:3/2;overflow:hidden;background:#e9e2d6;}
+ .rk-article-thumbnail img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease;}
+ .rk-article-copy{display:flex;flex-direction:column;flex:1;padding:1.3rem 0;}
+ .rk-article-copy .rk-article-topic{margin:0 0 .65rem;font-size:.68rem;letter-spacing:.08em;font-weight:600;color:#a44305;}
+ .rk-article-copy h3{font-size:1.3rem;line-height:1.35;margin:0 0 .75rem;}
+ .rk-article-copy>p:not(.rk-article-topic){font-size:.88rem;line-height:1.7;margin:0 0 1.3rem;color:#59554e;}
+ .rk-article-action{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:44px;font-size:.83rem;font-weight:600;}
+ .rk-article-action svg{width:21px;color:#b54a05;transition:transform .2s ease;}
+ .rk-article-link:hover img{transform:scale(1.025);}.rk-article-link:hover .rk-article-action svg{transform:translateX(3px);}
+ .rk-article-link:focus-visible{outline:2px solid #b54a05;outline-offset:6px;}
+ @media(max-width:1000px){.rk-articles-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+ @media(max-width:600px){.rk-articles-heading{display:block;}.rk-articles-all{margin-top:1rem;}.rk-articles-grid{grid-template-columns:minmax(0,1fr);gap:2rem;}}
+ @media(prefers-reduced-motion:reduce){.rk-article-thumbnail img,.rk-article-action svg{transition:none;}}
+</style>

@@ -1,0 +1,11 @@
+---
+import BlogLayout from '../layouts/BlogLayout.astro';
+import CardSection from './CardSection.astro';
+import archives from '../data/blog-archives.json';
+interface Props {path:keyof typeof archives;}
+const {path}=Astro.props;const archive=archives[path];
+const kind=archive.kind as 'categories'|'topics';
+---
+<BlogLayout {kind} title={archive.title} description={archive.description} {path} isArchive>
+ <CardSection filterable contained id="blog-collections" kind="blogs" actionLabel={`Browse all blog ${kind}`} actionHref={`/blog/${kind}/`} section={{eyebrow:'From the Roof King blog',title:`Read about ${archive.label}`,description:`Explore ${archive.items.length} published ${archive.items.length===1?'article':'articles'} in this collection.`,items:archive.items.map(post=>({title:post.title,description:post.description,href:post.href,image:post.image}))}}/>
+</BlogLayout>

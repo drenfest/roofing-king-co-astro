@@ -73,3 +73,52 @@ All 29 native product routes now have ProductHero photographic/sample heroes and
 All 84 native service pages now have individual illustrative custom heroes. The 43 additional scenes and responsive WebP assets are recorded in migration/service-hero-images.json. Shared ServicePaths panels display each destination hero immediately under the eyebrow. Navigation uses a lazy-loaded, content-hashed image atlas with one unique image per distinct destination; the atlas is cached across page loads and eliminates per-hover image downloads.
 
 The client moved three-image media-section galleries into the ten-page service review cycle. Only /gutters/#service-copy-46-3 is implemented as the example. Keep other pages unchanged until their review batch; do not bulk-apply generic image sets. This photo pass does not rewrite copy. See migration/service-section-photo-review.json and the photo-pass checklist in service-review-batch-01.md. The inventory distinguishes source candidates from currently rendered sections.
+
+Client approved consolidating the standalone /gallery/ into /#projects. This is the single explicit redirect exception to protected URL presentation; all service/location routes remain unchanged. Gallery is removed from both menu positions. Homepage and topic-specific service galleries share the inspected photo library.
+
+
+Every rendered image must have an alt attribute and every hyperlink must have a nonempty title attribute, per client instruction. Preserve descriptive alternatives and intentional empty alt for decorative images. Astro middleware enforces rendered HTML in dev/prerender; the required-html-attributes build integration covers all final HTML including public review files. Svelte and map-created links set titles directly so interaction retains the same contract. npm run check:html-attributes audits every output HTML file; an unrecognized image missing alt fails the build rather than inventing a description.
+
+
+The client added two resource hubs, /blog/categories/ and /blog/topics/. All 244 original protected URLs remain; route-manifest.json now includes these two authored additions (246 total). Blog menu Categories and Topics point to their respective hubs while original category/tag/article paths remain intact.
+
+
+Blog is now a top-level primary menu item, before About, per the latest client request. Categories and Topics remain its children with all archive destinations. It is removed from About. The blog authoring/check scripts resolve the top-level branch; the existing menu atlas remains valid because destination URLs did not change.
+
+
+Client-authorized blog URL migration supersedes the older keep-every-article-URL rule. Existing article content now has one /blog/{first-assigned-category}/{slug}/ canonical, falling back to the first assigned tag. With neither assigned, retain its existing clean URL. Old numeric-ID and flat aliases remain as direct permanent redirects. Article source bodies are retained once, and the canonical manifest entries reference those original files. Service/location/category/tag paths are unchanged.
+
+
+All 21 unique blog articles now render through ArticleLayout and shared native components. Original first images become optimized responsive heroes without body duplication; articles without images retain service heroes. Original WordPress list grouping/order is recovered while reviewed heading levels and wording are retained. FAQs use the existing FAQSection. check:native-articles is part of verify.
+
+
+/contact-us/ now has a dedicated native contact-us.astro page. The original imported Markdown remains evidence and is excluded from the legacy catchall. It reuses PageHero, Breadcrumbs, QuoteSection/QuoteExperience, header/footer and central site address/phone; direct call and calendar options, lazy office map and service-area link replace the placeholder map and self-linking buttons. Lead delivery remains disabled.
+
+
+The native /about-us/ page reuses shared hero, media row, credentials, service cards, brands, reviews, coverage and quote components. Original Markdown remains evidence and is excluded from the catchall. Official GAF and BBB profiles were checked on 2026-10-21 for credentials and the 2020 start date.
+
+
+/past-projects/ now renders as a native page reusing PageHero, Breadcrumbs, the complete optimized ProjectGallery, ResourceLinks and QuoteSection. It keeps the protected URL while the separately removed /gallery/ redirect and homepage gallery remain unchanged. No customer names, project dates, job locations or generated project imagery are added.
+
+
+/faq/ now renders as a native page with 28 useful answers in seven topic groups, replacing legacy placeholder metadata and repetitive DIY copy. It reuses ServiceExplorer and FAQSection, shared hero/breadcrumbs and the quote component. Existing service FAQ answers are selected by stable question text; four introductory answers use current service/contact data. The original imported FAQ remains evidence.
+
+
+Primary navigation now has one data entry per distinct destination. Our Story and redundant About wrappers are removed; About links directly to Reviews, Past Projects, FAQ, Offers, Careers, Contact and Customer Service. Redundant View All Areas and the second Commercial Storm Damage entry are removed while every distinct destination is retained.
+
+
+The preserved /offers/gaf-system-plus/ route now renders as a native warranty page with a coverage summary, manufacturer comparison, original optimized photos, official GAF documents, shared FAQ and quote components. The old imported post layout and incorrect installation-error coverage claims are no longer rendered.
+
+
+The preserved /customer-service/ route now has a native support page for existing projects: direct phone action, scheduling/installation/warranty guidance, a call-preparation checklist, service resources and shared FAQs. The quote section is explicitly for additional work. No service-ticket backend, support email, response-time promise or expanded warranty coverage is invented.
+
+
+/our-careers/ now has a native recruitment-focused page with original team photography, experience areas, an introduction checklist, shared FAQs and a direct phone inquiry. It publishes no unverified job vacancies, compensation or benefit promises and no fake application form. Customer quote UI is available only through the header modal.
+
+/service-areas/ now reuses the homepage boundary map with a searchable location card directory. Existing local service descendants expand recursively; Dublin flat service URLs are explicitly included. Mansfield has no hub and links to a coverage inquiry. No new service URLs or coverage areas are created.
+
+All eleven /offers/ URLs now render natively: the grouped offers hub, nine distinct financing/warranty/seasonal pages through OfferLayout, and the existing System Plus page. The old blog-style imported offers are excluded from rendering. The client confirmed the 47-dollar promotion and directed visitors to call for loan details; the payment page, menu and homepage retain it with a clear call-for-terms action. GAF/lender sources were checked on 2026-10-21. About dropdown destinations were audited; Reviews headings and its retired gallery link were corrected. Original offer Markdown remains evidence.
+
+Schema.org is compiled server-side from rendered shared components into one linked JSON-LD graph per canonical content page. scripts/structured-data.mjs runs in middleware and the final build integration, preserving authored service/product/article facts and breadcrumbs while adding WebSite/WebPage specializations, real FAQs, collections, gallery/images, brands, product specifications, coverage maps and navigation. Canonical aliases, redirects, 404 and internal review pages do not redefine canonical-page entities. No ratings, jobs, credit products, made-up prices, disabled-form actions or unsupported search actions are generated. check:schema is included in verify; migration/structured-data-review.md explains coverage.
+
+sitemap.xml is generated from the final built HTML on every build by scripts/sitemap.mjs. Only same-origin, self-canonical public content URLs are included; aliases, redirects, error and internal review pages are omitted. No modification dates are invented. robots.txt declares the production sitemap while retaining the client's existing review crawl block. check:sitemap is included in verify.

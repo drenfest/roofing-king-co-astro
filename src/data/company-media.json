@@ -1,0 +1,48 @@
+{
+  "/media/company/careers-team-750.webp": {
+    "width": 750,
+    "height": 500,
+    "variants": [
+      {
+        "src": "/media/company/careers-team-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/company/careers-team-750.webp",
+        "width": 750
+      }
+    ]
+  },
+  "/media/company/about-roof-970.webp": {
+    "width": 970,
+    "height": 546,
+    "variants": [
+      {
+        "src": "/media/company/about-roof-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/company/about-roof-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/company/about-roof-970.webp",
+        "width": 970
+      }
+    ]
+  },
+  "/media/company/community-750.webp": {
+    "width": 750,
+    "height": 500,
+    "variants": [
+      {
+        "src": "/media/company/community-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/company/community-750.webp",
+        "width": 750
+      }
+    ]
+  }
+}

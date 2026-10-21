@@ -2,13 +2,13 @@
 title: "Signs You Need Roof Repair in Dublin, OH"
 permalink: "/blog/signs-you-need-roof-repair-in-dublin-oh/"
 description: "10 Signs You Need Roof Repair in Dublin, OH | Roof King"
-canonicalPath: "/blog/signs-you-need-roof-repair-in-dublin-oh/"
+canonicalPath: "/blog/roof-repair/signs-you-need-roof-repair-in-dublin-oh/"
 category: "Article"
 source: "wordpress-alternate-route"
 sourcePath: "/blog/p.260624000/signs-you-need-roof-repair-in-dublin-oh/"
 wordpressId: 131
 reviewStatus: "imported-needs-review"
-notes: ["Both historical and current article paths retained."]
+notes: ["Both historical and current article paths retained.","Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

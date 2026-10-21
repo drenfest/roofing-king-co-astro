@@ -1,0 +1,24 @@
+/* Native long-form reading reuses the shared hero, prose, FAQ and aside components. */
+.rk-article-page .rk-editorial-hero .rk-editorial-hero-copy h1{font-size:clamp(2.2rem,3.25vw,3.5rem);max-width:25ch;line-height:1.1;}
+.rk-article-page .rk-editorial-hero .rk-editorial-hero-copy{width:54%;max-width:760px;}
+.rk-article-page .rk-editorial-hero .rk-editorial-hero-description{max-width:48ch;}
+.rk-article-page .rk-native-breadcrumbs{font-size:.76rem;line-height:1.7;}
+.rk-article-page .rk-native-breadcrumbs li:last-child{max-width:65ch;}
+.rk-article-layout{display:grid;grid-template-columns:240px minmax(0,1fr);align-items:start;gap:clamp(2rem,4vw,4.5rem);padding-block:3.5rem 5rem;}
+.rk-article-reading{min-width:0;max-width:850px;scroll-margin-top:8rem;}
+.rk-article-byline{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;border-bottom:1px solid #d7cebf;padding-bottom:1.3rem;margin-bottom:1.8rem;color:#696156;font-size:.78rem;line-height:1.6;}
+.rk-article-reading .rk-service-prose{max-width:74ch;}
+.rk-article-reading .rk-service-prose p{font-size:1.02rem;line-height:1.9;margin:0 0 1.4rem;}
+.rk-article-reading .rk-service-prose h2{font-size:clamp(1.65rem,2.3vw,2.3rem);line-height:1.22;margin:0 0 1.4rem;}
+.rk-article-reading .rk-service-prose h3{font-size:clamp(1.25rem,1.6vw,1.55rem);line-height:1.35;margin:1.8rem 0 .9rem;}
+.rk-article-reading .rk-contained-content-section:has(+ .rk-article-checklist) .rk-service-prose > :last-child{margin-bottom:0;}
+.rk-article-reading .rk-contained-content-section + .rk-article-checklist{margin-top:.4rem;}
+.rk-article-reading .rk-service-prose :is(ul,ol){padding-left:1.4rem;margin:0 0 1.5rem;}
+.rk-article-reading .rk-service-prose li{font-size:1rem;line-height:1.85;margin-bottom:.55rem;padding-left:.2rem;}
+.rk-article-reading .rk-service-prose li::marker{color:#b54a05;}
+.rk-article-reading a:not(.rk-button){color:#34312d;text-underline-offset:4px;text-decoration-color:#bb6c37;}
+.rk-article-section{border-top:1px solid #d7cebf;padding-top:2.3rem;margin-top:2.6rem;scroll-margin-top:8rem;}
+.rk-article-page .rk-contained-faq .rk-home-section-header{text-align:left;margin-bottom:1.5rem;}.rk-article-page .rk-contained-faq .rk-home-section-header::before,.rk-article-page .rk-contained-faq .rk-home-section-header::after,.rk-article-page .rk-contained-faq .rk-home-section-header h2::after{display:none;}.rk-article-page .rk-contained-faq h2{font-size:clamp(1.65rem,2.3vw,2.3rem);line-height:1.22;}.rk-article-page .rk-contained-faq .rk-home-eyebrow{font-size:.65rem;}.rk-article-page .rk-service-faq-list summary{font-size:1rem;line-height:1.5;}.rk-article-page .rk-service-faq-list p{font-size:.98rem;line-height:1.85;}
+@media(max-width:1100px){.rk-article-layout{grid-template-columns:210px minmax(0,1fr);gap:2rem;}}
+@media(max-width:900px){.rk-article-layout{grid-template-columns:minmax(0,1fr);gap:2.5rem;padding-top:1.5rem;}.rk-article-reading{max-width:none;}}
+@media(max-width:760px){.rk-article-page .rk-editorial-hero .rk-editorial-hero-copy{width:100%;max-width:none;}.rk-article-page .rk-editorial-hero .rk-editorial-hero-copy h1{font-size:clamp(2rem,7.5vw,2.8rem);max-width:none;}.rk-article-reading .rk-service-prose p{font-size:1rem;line-height:1.85;}.rk-article-page .rk-native-breadcrumbs li:last-child{max-width:100%;overflow-wrap:anywhere;}}

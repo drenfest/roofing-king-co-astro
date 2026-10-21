@@ -2,13 +2,13 @@
 title: "How to Know If You Need a Roof Repair or Roof Replacement"
 permalink: "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/"
 description: "Are you searching for a reliable roofing company in Columbus, OH? Work with the roofing professionals at Roof King & Restoration and request a free pricing estimate!"
-canonicalPath: "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/"
+canonicalPath: "/blog/roof-repair/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/"
 wordpressId: 120
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

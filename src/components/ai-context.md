@@ -128,3 +128,48 @@ SectionPhotoGallery renders exactly three distinct, responsive, lazy images with
 IceDamDiagram.astro provides an accessible, static SVG cross-section for the ice-dam leaf opening. ServiceArticle accepts illustration="ice-dam" in place of a photograph; no new image request or client JavaScript is needed. It distinguishes trapped meltwater from structural sagging.
 
 ServiceAreaMap.astro replaces the coverage screenshot with a Census-derived geographic SVG fallback and lazy Leaflet street map. It shows 24 municipal boundaries and the Lewis Center community marker, with an accessible community selector, reset and existing city links. CoverageSection reuses it wherever rendered.
+
+ProjectGallery now swaps complete groups (four photos/two rows on desktop, two photos/two rows on phones), with touch swipes, native lightbox keys/focus restoration, reduced-motion-aware group fades and lazy responsive WebP. Hidden groups remain SSR; a noscript list links every photo. ServiceGallery supplies topic-matched selections; active category labels/captions reflect the current filter. ProjectShowcase is retained as an unused migration component.
+
+
+ServicePaths and ServiceArticle render related destinations as accessible two-column ivory link grids with aligned orange arrows, single-column mobile tap targets and reduced-motion feedback. FeaturedArticles is a static article-card section, with up to four relevant existing posts, optimized lazy thumbnails and H3 titles under a contextual H2. It adds no browser JavaScript.
+
+
+Every Svelte hyperlink now declares a contextual title in source, including dynamically replaced mega-menu previews, gallery filters/photo groups, product error/source links and form actions. All image elements retain alt attributes; intentional decorative alt="" is valid. Astro and imported static HTML share the middleware/build-time enforcement.
+
+
+BlogHub renders static category/topic collection cards with thumbnails, descriptions, source article counts and direct post/archive links. Its H2/H3 hierarchy and responsive three/two/one-column grid inherit the ivory/charcoal/orange design and reduced-motion rules. It requires no client JavaScript.
+
+
+BlogHub is now only a data adapter around the existing CardSection (which already reuses SectionHeading and HomeImage); its separate custom card/grid styling was removed at client direction. CardSection accepts optional id, itemAction, actionLabel and actionHref for resource collections while retaining existing defaults. PageHero adds resource to its existing variant union: the shared photographic hero omits the service phone action and empty note, preserving typography/layout.
+
+
+BlogNavigation is the shared sidebar linking All articles, Categories and Topics, with native expandable lists of the existing collections. It is sticky on desktop and stacks on narrow screens. CardSection.contained removes its nested container/padding when composed beside this aside, while all existing non-contained uses keep their presentation.
+
+
+BlogArchive is the single data adapter used by both category and tag routes; all 19 collections compose the same BlogLayout, CardSection and BlogNavigation. Original published article membership is preserved.
+
+
+On canonical article URLs, BlogNavigation resolves blog-routes.json and displays an Article tags section with all assigned Categories and Topics as linked chips. Both groups use their existing collection hubs, and an entirely unassigned article renders no taxonomy wrapper. Generic hub pages omit the article-specific section. Desktop asides scroll within the viewport when long; mobile stays in normal flow.
+
+
+ArticleSection uses shared contained ContentSection and FAQSection for article prose and FAQs. ArticleChecklist provides semantic lists without per-item rules. ArticleImage uses responsive HomeImage for remaining inline images. ContentSection and FAQSection contained props remove nested section containers only when requested; PageHero generatedImage labels illustrative fallback images.
+
+
+ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience used on the homepage, outside the reading/sidebar grid. It replaces the compact ServiceAudienceBanner and its article-only styles. Header quote actions open the shared modal; form submission remains disabled during review.
+
+
+CardSection resolves article bylines/publication dates from blog-index and taxonomy from blog-routes. Its filterable prop adds BlogCardFilters with vanilla search, category/topic intersection, clear/reset, live counts and empty states. Only blog hub/index/archive callers enable filters; collection cards get search without invented author/date metadata. Controls are hidden without JavaScript and all cards remain available.
+
+
+MegaMenu introduction and column headings are non-link labels because their destinations already exist in the primary/parent rows. MenuPreview is now a non-interactive visual, retaining image swapping on desktop hover and mobile toggles without duplicate destination links. Menu rows remain the single navigation targets; distinct URLs and four-level service navigation remain available.
+
+
+WarrantyComparison is a reusable native semantic table with row/column headers, an optional highlighted warranty, accessible overflow region and a mobile swipe hint/sticky row labels. It uses shared SectionHeading and needs no client script.
+
+
+QuoteExperience accepts showInlineForm (default true). False keeps only the shared customer quote modal so non-customer flows such as Careers can retain header quote behavior without an unrelated inline quote form. All existing callers retain the original default form and disconnected submission.
+
+LocationServiceLinks.astro recursively renders local-service branches using native details and actual destination links; no JavaScript is required to browse descendants.
+
+Schema metadata is compiled from rendered component content by scripts/structured-data.mjs. FAQSection questions/answers, CardSection/FeaturedArticles membership and metadata, ServicePaths panels, ProductCard specifications, product collections/companions, ProjectGallery captions/photos, BrandStrip, ServiceAreaMap and BlogNavigation are mapped without adding repeated component-level script blocks. Decorative components and disconnected quote forms do not invent schema entities/actions.

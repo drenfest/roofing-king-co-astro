@@ -2,13 +2,13 @@
 title: "Why Now’s the Time to Schedule Christmas Light Installation"
 permalink: "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/"
 description: "Schedule your Christmas light installation early with Roof King in Columbus, OH. Avoid DIY risks and get your deck holiday-ready with professional service."
-canonicalPath: "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/"
+canonicalPath: "/blog/seasonal/why-nows-the-time-to-schedule-christmas-light-installation/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/"
 wordpressId: 124
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

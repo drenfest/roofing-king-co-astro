@@ -28,3 +28,23 @@ media/siding-guide contains illustrative material-profile and window-trim images
 media/gutter-details contains four illustrative close-up photographs with three responsive WebP sizes each. Source PNGs stay under output/imagegen/gutter-details; full prompts and byte counts are in migration/gutter-detail-images.json.
 
 maps/ohio-service-areas.geojson holds simplified Census 2026 municipal boundaries and one OpenStreetMap-derived Lewis Center point. Tiles are requested directly only as the coverage section enters view, with visible OSM attribution and normal browser caching. No tile scraping or build-time tile downloads.
+
+media/gallery/ contains responsive WebP gallery photographs, including optimized enlarged views. Gallery source records are preserved outside public. .htaccess permanently redirects the retired /gallery/ URL to /#projects; other protected paths keep their content.
+
+
+media/articles/hub-christmas-lights-600.webp is an optimized crop of the existing published seasonal article image used on the Topics hub. Menu atlas now contains 122 unique destinations, including the new Categories and Topics hubs; older hashes remain for cached pages.
+
+
+The BLOG REDIRECTS block in .htaccess contains explicit permanent 301 rules from all retired article aliases to category/tag canonical destinations. Astro redirects provide static preview fallbacks; Apache performs the actual 301 on Cloudways. Keep both maps synchronized via scripts/migrate-blog-urls.mjs.
+
+
+The current menu atlas includes 124 distinct destinations, including Insurance Claims and Gutter Guards. Previous atlas files are retained for cached pages.
+
+
+media/articles/body contains responsive WebP renditions of original blog photos with intrinsic sizes and no enlargement. Each original first photo is used as its article hero; remaining original photos render inline. Existing generated service hero fallback remains only for posts without an original image.
+
+
+media/company holds original About roof and community-photo WebP variants without enlargement.
+
+
+media/company includes optimized original careers-team WebP variants in addition to existing About/community photos, without enlargement.

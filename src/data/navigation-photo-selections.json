@@ -11,9 +11,6 @@
   "/service-areas/": {
     "sourceImage": "/media/wordpress/485992cdfabe-map.jpg"
   },
-  "/gallery/": {
-    "sourceImage": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg"
-  },
   "/about-us/": {
     "sourceImage": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg"
   },
@@ -177,5 +174,17 @@
   },
   "/products/roofing/shingles/": {
     "sourceImage": "/media/products/timberline-uhdz-clr0000006-500.webp"
+  },
+  "/blog/categories/": {
+    "sourceImage": "/media/wordpress/f70bf206b9e5-250d0a1e-c40d-4e86-9375-d520fa3e1c29.jpg"
+  },
+  "/blog/topics/": {
+    "sourceImage": "/media/wordpress/553c885b3b52-c184dd05-7b79-44e0-8dd8-9b1a44c41d1b.jpg"
+  },
+  "/tag/insurance-claims/": {
+    "sourceImage": "/media/wordpress/0725022ab2cd-7a7aae39-c6de-43ee-8835-4851fb6946f3.jpg"
+  },
+  "/tag/gutter-guards/": {
+    "sourceImage": "/media/wordpress/95d7f57eb90b-10d9c011-cd81-434e-a44e-38162c2d9531.jpg"
   }
 }

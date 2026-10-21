@@ -1,0 +1,10 @@
+---
+import RichContent from './RichContent.astro';
+import type {RichNode} from '../data/section-types';
+interface Props {items:RichNode[][];}
+const {items}=Astro.props;
+---
+<ul class:list={['rk-article-checklist',{'rk-article-checklist-columns':items.length>=4}]} data-component="ArticleChecklist">{items.map(nodes=><li><RichContent {nodes}/></li>)}</ul>
+<style>
+ .rk-article-checklist{list-style:none;padding:0;margin:1.7rem 0 2rem;display:grid;gap:0 1.5rem;}.rk-article-checklist>li{position:relative;min-width:0;padding:.45rem .2rem .45rem 1.25rem;}.rk-article-checklist>li::before{content:'';position:absolute;top:.95rem;left:0;width:5px;height:5px;background:#d65b0b;}.rk-article-checklist :global(p){margin:0;font-size:.95rem;line-height:1.8;}.rk-article-checklist :global(p+p){margin-top:.65rem;}.rk-article-checklist :global(h3){font-size:1.3rem;line-height:1.35;margin:0 0 .7rem;}.rk-article-checklist :global(a){color:#34312d;text-decoration-color:#c65a16;text-underline-offset:4px;}@media(min-width:1101px){.rk-article-checklist-columns{grid-template-columns:repeat(2,minmax(0,1fr));}}
+</style>

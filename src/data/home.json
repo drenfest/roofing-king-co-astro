@@ -132,35 +132,35 @@
     ]
   },
   "offers": {
-    "eyebrow": "Limited time offers",
-    "title": "Flexible ways to protect your home",
-    "description": "",
+    "eyebrow": "Financing options",
+    "title": "Plan your project payments",
+    "description": "Discuss available plans and compare the full terms with your written estimate.",
     "items": [
       {
         "title": "Payments as low as $47",
-        "description": "Ask Roof King & Restoration about affordable payment options for qualifying exterior projects in Columbus, Ohio, including roofing, windows, gutters,\u2026",
+        "description": "Call for current rates, repayment terms and eligibility details for your roof replacement.",
         "href": "/offers/payments/",
         "image": {
-          "src": "/media/wordpress/710149537e46-e0c9545b-4321-4d4e-8367-ebe60f0c330f.png",
-          "alt": "Payments As Low As $47"
+          "src": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
+          "alt": "Overhead view of a dark shingle roof with ridges and roof vents"
         }
       },
       {
-        "title": "Flexible 3-year financing for your home projects",
-        "description": "Roof King & Restoration in Columbus offers 3-year financing for roofing, windows, gutters, and more. Flexible options for stress-free home\u2026",
+        "title": "Three-year financing",
+        "description": "Explore a shorter repayment period and ask which current programs fit your project.",
         "href": "/offers/3-year-financing/",
         "image": {
-          "src": "/media/wordpress/50457341409d-4f12851e-144d-4abc-8f97-9fa7d206db69.jpg",
-          "alt": "Flexible 3-Year Financing for Your Home Projects"
+          "src": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg",
+          "alt": "Front exterior of a two-story home with shingle roofing and light siding"
         }
       },
       {
-        "title": "Affordable 5-year financing for your home projects",
-        "description": "Roof King & Restoration in Columbus offers 5-year financing for roofing, siding, and home improvement services. Flexible and affordable options\u2026",
+        "title": "Five-year financing",
+        "description": "Compare a longer repayment period with its monthly payment and total borrowing cost.",
         "href": "/offers/5-year-financing/",
         "image": {
-          "src": "/media/wordpress/c8b9eeaada2e-7922ff16-ca20-41af-b88a-db02eede803f.jpg",
-          "alt": "Affordable 5-Year Financing for Your Home Projects"
+          "src": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg",
+          "alt": "Close view of roof underlayment, fasteners and a protective membrane"
         }
       }
     ]
@@ -371,8 +371,8 @@
     "items": [
       {
         "title": "How much does a roof replacement cost in Dublin, OH?",
-        "description": "Wondering how much a roof replacement costs in Dublin, OH? Learn what affects roofing costs, material options, insurance considerations, and when replacement\u2026",
-        "href": "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+        "description": "Wondering how much a roof replacement costs in Dublin, OH? Learn what affects roofing costs, material options, insurance considerations, and when replacement…",
+        "href": "/blog/roof-replacement/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
         "image": {
           "src": "/media/wordpress/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4.png",
           "alt": "How Much Does a Roof Replacement Cost in Dublin, OH?"
@@ -380,8 +380,8 @@
       },
       {
         "title": "How long does a roof last in Dublin, OH?",
-        "description": "Wondering how long a roof lasts in Dublin, OH? Learn the lifespan of asphalt shingles, metal roofing, and factors that impact roof\u2026",
-        "href": "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/",
+        "description": "Wondering how long a roof lasts in Dublin, OH? Learn the lifespan of asphalt shingles, metal roofing, and factors that impact roof…",
+        "href": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
         "image": {
           "src": "/media/wordpress/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11.png",
           "alt": "How Long Does a Roof Last in Dublin, OH?"
@@ -389,8 +389,8 @@
       },
       {
         "title": "How much does roof repair cost in Dublin, OH",
-        "description": "Wondering how much roof repair costs in Dublin, OH? Learn what impacts roofing repair costs, common repairs, and when roof replacement may\u2026",
-        "href": "/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/",
+        "description": "Wondering how much roof repair costs in Dublin, OH? Learn what impacts roofing repair costs, common repairs, and when roof replacement may…",
+        "href": "/blog/roof-repair/how-much-does-roof-repair-cost-in-dublin-oh/",
         "image": {
           "src": "/media/wordpress/4055d2a3cf0c-0a8cff3e-3887-403a-a1c8-e5aed4da80c6.png",
           "alt": "How Much Does Roof Repair Cost in Dublin, OH"

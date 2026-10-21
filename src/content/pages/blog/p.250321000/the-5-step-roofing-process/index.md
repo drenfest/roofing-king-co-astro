@@ -2,13 +2,13 @@
 title: "The 5 Step Roofing Process"
 permalink: "/blog/p.250321000/the-5-step-roofing-process/"
 description: "Are you searching for a reliable roofing company in Columbus, OH? Work with the roofers at Roof King & Restoration and request a free pricing estimate today!"
-canonicalPath: "/blog/p.250321000/the-5-step-roofing-process/"
+canonicalPath: "/blog/roofing/the-5-step-roofing-process/"
 category: "Article"
 source: "wordpress"
 sourcePath: "/blog/p.250321000/the-5-step-roofing-process/"
 wordpressId: 118
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client-approved category/tag canonical URL. Historical article URLs permanently redirect to one canonical article."]
 priority: "preserve-and-improve"
 ---
 

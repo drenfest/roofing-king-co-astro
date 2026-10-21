@@ -2,13 +2,13 @@
 title: "Gallery"
 permalink: "/gallery/"
 description: "Explore our gallery to view previous projects completed by Roof King & Restoration. Dive in now for a dose of inspiration from our captivating images."
-canonicalPath: "/gallery/"
+canonicalPath: "/"
 category: "Project hub"
 source: "wordpress"
 sourcePath: "/gallery/"
 wordpressId: 33
 reviewStatus: "imported-needs-review"
-notes: []
+notes: ["Client consolidated the gallery into the homepage; this source is retained as migration evidence. /gallery/ redirects to /#projects."]
 priority: "preserve-and-improve"
 ---
 

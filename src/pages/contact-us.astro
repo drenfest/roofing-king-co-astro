@@ -1,0 +1,43 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import ServiceIcon from '../components/ServiceIcon.astro';
+import site from '../data/site.json';
+import {hero} from '../data/home.json';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/contact.css';
+const address=`${site.address.streetAddress}, ${site.address.addressLocality}, ${site.address.addressRegion} ${site.address.postalCode}`;
+const directions=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.name+' '+address)}`;
+const map=`https://maps.google.com/maps?q=${encodeURIComponent(address)}&z=14&output=embed`;
+---
+<DocumentLayout title="Contact Roof King & Restoration" description="Call Roof King & Restoration, book an inspection, or discuss your roofing, siding and exterior project. Find our Columbus office and contact details." canonicalPath="/contact-us/" image={hero.image}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-service-landing rk-contact-page" data-component="ContactPage">
+  <PageHero variant="service" hero={{...hero,eyebrow:'Contact Roof King & Restoration',title:'Let’s talk about your home.',description:'Roof repairs, new siding or damage after a storm? Tell us what’s happening at your property and what you’d like to improve.',bookingUrl:hero.bookingUrl,bookingLabel:'Book an inspection',note:'Prefer to talk first? Call our team about your project.'}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Contact us'}]}/>
+  <section id="contact-options" class="rk-contact-options" aria-labelledby="contact-options-title">
+   <div class="rk-section-inner">
+    <div class="rk-contact-heading"><p class="rk-home-eyebrow">Start the conversation</p><h2 id="contact-options-title">Choose how to get in touch</h2><p>Speak with our team, reserve a time for an inspection, or share your project details below.</p></div>
+    <div class="rk-contact-methods">
+     <a class="rk-contact-method" href={site.phoneHref}><span class="rk-contact-number" aria-hidden="true"><ServiceIcon name="roof"/></span><div><h3>Call Roof King</h3><strong>{site.phone}</strong><p>Have a question about your roof or exterior? Talk through the work you’re considering. For an active leak or storm damage, describe the affected area when you call.</p><span class="rk-contact-action">Talk with our team<ServiceIcon name="arrow"/></span></div></a>
+     <a class="rk-contact-method" href={hero.bookingUrl} target="_blank" rel="noopener noreferrer"><span class="rk-contact-number" aria-hidden="true"><ServiceIcon name="check"/></span><div><h3>Book an inspection</h3><strong>Find a time that works for you</strong><p>Use our online calendar to arrange a conversation about your home. Include the property address and a short description of the issue or project.</p><span class="rk-contact-action">Open the booking calendar<ServiceIcon name="arrow"/></span></div></a>
+    </div>
+   </div>
+  </section>
+  <QuoteSection quote={{eyebrow:'Your project, in a few details',title:'Get a free quote',description:'Tell us where the property is, what needs attention and which improvements you’re considering. Photos and notes about when a problem started are helpful to have ready for your conversation.'}}/>
+  <section id="office" class="rk-contact-office" aria-labelledby="office-title">
+   <div class="rk-section-inner rk-contact-office-grid">
+    <div class="rk-contact-office-copy"><p class="rk-home-eyebrow">Columbus, Ohio</p><h2 id="office-title">Find our Columbus office</h2><p class="rk-contact-business">{site.name}</p><address>{site.address.streetAddress}<br/>{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}</address><a class="rk-button rk-button-outline" href={directions} target="_blank" rel="noopener noreferrer">Get directions<ServiceIcon name="arrow"/></a><div class="rk-contact-coverage"><h3>Helping homeowners across Ohio</h3><p>Our Columbus office supports roofing, siding and exterior projects throughout our service areas. Check your location or call to discuss your property.</p><a href="/service-areas/">Explore our service areas<ServiceIcon name="arrow"/></a></div></div>
+    <div class="rk-contact-map"><iframe src={map} title={`Map showing ${site.name} at ${address}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a href={directions} target="_blank" rel="noopener noreferrer">View our office in Google Maps<ServiceIcon name="arrow"/></a></div>
+   </div>
+  </section>
+ </main><SiteFooter/>
+</DocumentLayout>

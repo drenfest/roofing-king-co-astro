@@ -608,47 +608,19 @@
     "illustrative": true,
     "fingerprint": "e3b8699a6af055cf89ed88d83179d0f010013b942b0cb68cf8686ade10ef4876"
   },
-  "/gallery/": {
-    "sourceImage": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg",
-    "thumbnailSource": "/media/home/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "40979345d78de325fe1e26e62d0df0e41c179e8eb6a69256b4334f71b83a8a9a"
-  },
-  "/about-us/": {
-    "sourceImage": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
-    "thumbnailSource": "/media/home/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "33a7c57a01de16ceee0201eb89a42729f2a36a51b58d4e05260a7eb2242f41fa"
-  },
-  "/our-careers/": {
-    "sourceImage": "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg",
-    "thumbnailSource": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "2f8c3ee8a80f017a12ad6fc5bac7ef70453cec1f58940c947404061a6d5a1db7"
-  },
-  "/contact-us/": {
-    "sourceImage": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
-    "thumbnailSource": "/media/services/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "c235a8cfc32db12170206f63e00aaf337953359218ac16ac3f505afce26cd986"
-  },
-  "/customer-service/": {
-    "sourceImage": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
-    "thumbnailSource": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "b6ba25daa66186c10b47488925ae571fa4f2f58cb8e721098e05e4a215484e18"
-  },
   "/blog/": {
     "sourceImage": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg",
     "thumbnailSource": "/media/home/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05-480.webp",
     "fit": "cover",
     "illustrative": false,
     "fingerprint": "66c601c5fb82fd5ec5d27732cf6ee2707cc1d142b02324834c424ad736a6cdbb"
+  },
+  "/blog/categories/": {
+    "sourceImage": "/media/wordpress/f70bf206b9e5-250d0a1e-c40d-4e86-9375-d520fa3e1c29.jpg",
+    "thumbnailSource": "/media/wordpress/f70bf206b9e5-250d0a1e-c40d-4e86-9375-d520fa3e1c29.jpg",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "db63a89b50a0d931e381efe35048292f0744d7e5ee22f6e51707ba6e586c7157"
   },
   "/category/roofing/": {
     "sourceImage": "/media/roofing-heroes/dayton-roofers-1672.webp",
@@ -712,6 +684,13 @@
     "fit": "cover",
     "illustrative": false,
     "fingerprint": "ef091e7db86e2c372ed105c28c9adc197ed8856492c02afda5ff63fc8af61a73"
+  },
+  "/blog/topics/": {
+    "sourceImage": "/media/wordpress/553c885b3b52-c184dd05-7b79-44e0-8dd8-9b1a44c41d1b.jpg",
+    "thumbnailSource": "/media/wordpress/553c885b3b52-c184dd05-7b79-44e0-8dd8-9b1a44c41d1b.jpg",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "168ae48a8e68423de5806f5e762c03dfcff9be85d5bdbb0b45800def1c0fd8ca"
   },
   "/tag/columbus-oh/": {
     "sourceImage": "/media/wordpress/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a.jpg",
@@ -782,6 +761,48 @@
     "fit": "cover",
     "illustrative": true,
     "fingerprint": "147f8c85edf17ae5a2256b5db5967e1588dc03f028be7ec21b40b6ae9f059369"
+  },
+  "/tag/insurance-claims/": {
+    "sourceImage": "/media/wordpress/0725022ab2cd-7a7aae39-c6de-43ee-8835-4851fb6946f3.jpg",
+    "thumbnailSource": "/media/wordpress/0725022ab2cd-7a7aae39-c6de-43ee-8835-4851fb6946f3.jpg",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c43945a6df759017741e6cee2e1e3ddc4df95fb4ec60696f1e2976fab3433974"
+  },
+  "/tag/gutter-guards/": {
+    "sourceImage": "/media/wordpress/95d7f57eb90b-10d9c011-cd81-434e-a44e-38162c2d9531.jpg",
+    "thumbnailSource": "/media/wordpress/95d7f57eb90b-10d9c011-cd81-434e-a44e-38162c2d9531.jpg",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ae36e463f79220f9ce8a9726c33d1d2af3e865baf30f3972ac20cdd21eb82f28"
+  },
+  "/about-us/": {
+    "sourceImage": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg",
+    "thumbnailSource": "/media/home/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "33a7c57a01de16ceee0201eb89a42729f2a36a51b58d4e05260a7eb2242f41fa"
+  },
+  "/our-careers/": {
+    "sourceImage": "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg",
+    "thumbnailSource": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "2f8c3ee8a80f017a12ad6fc5bac7ef70453cec1f58940c947404061a6d5a1db7"
+  },
+  "/contact-us/": {
+    "sourceImage": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+    "thumbnailSource": "/media/services/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c235a8cfc32db12170206f63e00aaf337953359218ac16ac3f505afce26cd986"
+  },
+  "/customer-service/": {
+    "sourceImage": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+    "thumbnailSource": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "b6ba25daa66186c10b47488925ae571fa4f2f58cb8e721098e05e4a215484e18"
   },
   "/offers/": {
     "sourceImage": "/media/service-heroes/athens-oh-1600.webp",

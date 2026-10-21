@@ -67,7 +67,7 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(detail('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
   const labels=detail('.rk-native-breadcrumbs li').map((i,e)=>detail(e).text()).get();
   assert.deepEqual(labels,['Home','Products','Roofing Products','Shingles','GAF',data.title]);
-  const schemas=detail('script[type="application/ld+json"]').toArray().map(e=>JSON.parse(detail(e).text()));
+  const schemas=detail('script[type="application/ld+json"]').toArray().flatMap(e=>{const schema=JSON.parse(detail(e).text());return schema['@graph']||[schema];});
   const breadcrumbs=schemas.find(s=>s['@type']==='BreadcrumbList');
   assert.deepEqual(breadcrumbs.itemListElement.map(i=>i.name),labels);
   assert.equal(schemas.find(s=>s['@type']==='Product').name,data.title);
