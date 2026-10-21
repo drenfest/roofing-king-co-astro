@@ -87,3 +87,5 @@ LandingHero accepts serviceName for service pages and generates the jump-link la
 LandingHero now renders an edge-to-edge decorative background photo with a warm ivory fade, dark sentence-case headings and simple inline inspection actions, following the client’s latest reference. The old boxed figure is removed. generatedImage adds a discreet illustrative-imagery label. Preserve all hero body copy, service-specific jump links, actions, eager responsive loading and reduced-motion behavior.
 
 PageHero and LandingHero share service-hero.css and rk-editorial-hero classes. Homepage copy supports optional titleEmphasis and note; emphasis must be an exact title suffix. Mobile heroes place the full-width photo below the copy. TrustStrip uses three light certification/review columns and proportional source badges, stacking on phones. Keep generated-image credits, existing service paragraphs and booking destinations.
+
+HomeServices renders the explicitly selected service.image directly under each card heading using HomeImage. All eight cards use lazy responsive images with a consistent crop; preserve the central quote action and service destinations.

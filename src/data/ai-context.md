@@ -58,3 +58,5 @@ roofing-heroes.json maps 41 roofing-related routes to individual illustrative ge
 Blog is a direct child of About, with its complete Categories and Topics branches. The redundant Blog leaf under Resources was consolidated into that branch; all previous destination URLs remain available.
 
 Homepage hero titleEmphasis identifies the italic final phrase; note supplies the short helper line. Existing booking URL, review count and rating are retained.
+
+home.json services.items image records select existing site photography for all eight homepage service cards, including visibly damaged shingles for storm damage. These are illustrative service images, not claims of specific completed jobs.

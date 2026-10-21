@@ -61,49 +61,73 @@
         "title": "Roofing",
         "description": "Roof replacements, roof repairs, and premium systems built for Ohio weather.",
         "href": "/roofing/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+          "alt": "Blue home with a red shingle roof"
+        }
       },
       {
         "title": "Storm Damage",
         "description": "Roof, siding and gutter inspections after hail and wind, with repairs and storm-damage documentation.",
         "href": "/storm-damage/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/717dd193ee03-before.jpg",
+          "alt": "Missing and damaged asphalt shingles"
+        }
       },
       {
         "title": "Commercial Roofing",
         "description": "Durable low-slope and commercial roofing solutions for local properties.",
         "href": "/commercial-roofing/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
+          "alt": "Metal commercial roof with rooftop vents"
+        }
       },
       {
         "title": "Siding",
         "description": "High-grade siding that sharpens curb appeal and protects the building envelope.",
         "href": "/siding/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
+          "alt": "Horizontal siding and exterior trim on a home"
+        }
       },
       {
         "title": "Gutters",
         "description": "Gutter systems designed to move water away from your roofline and foundation.",
         "href": "/gutters/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+          "alt": "White gutters and downspout along a roof edge"
+        }
       },
       {
         "title": "Windows",
         "description": "Window replacements that improve comfort, efficiency, and exterior style.",
         "href": "/windows/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
+          "alt": "Home with white-framed replacement-style windows"
+        }
       },
       {
         "title": "Decks",
         "description": "Outdoor living spaces built for everyday use and long-term performance.",
         "href": "/decks/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/13b26cd9aae3-hero-decks.jpg",
+          "alt": "Wood deck with white railings and outdoor seating"
+        }
       },
       {
         "title": "Attic Insulation",
         "description": "Efficiency upgrades that help stabilize comfort and monthly energy costs.",
         "href": "/attic-insulation/",
-        "image": null
+        "image": {
+          "src": "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg",
+          "alt": "Insulation being fitted between attic floor joists"
+        }
       }
     ]
   },
