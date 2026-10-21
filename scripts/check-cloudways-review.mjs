@@ -6,7 +6,10 @@ const base='https://wordpress-1269393-6519803.cloudwaysapps.com';
 const expected=process.env.REVIEW_EXPECTED_COMMIT||process.env.GITHUB_SHA;
 const query=expected?`?release=${expected}`:'';
 async function get(path){
- const response=await fetch(base+path+query,{cache:'no-store',signal:AbortSignal.timeout(30000)});
+ const target=new URL(path,base);
+ assert.equal(target.origin,base,'Deployment checks must use the Cloudways application origin');
+ if(expected)target.searchParams.set('release',expected);
+ const response=await fetch(target,{cache:'no-store',signal:AbortSignal.timeout(30000)});
  assert.equal(response.status,200,path);return response;
 }
 const release=await(await get('/release.json')).json();
@@ -33,7 +36,8 @@ await Promise.all(Array.from({length:6},async()=>{
 const remoteSitemap=load(await(await get('/sitemap.xml')).text(),{xmlMode:true});assert.deepEqual(remoteSitemap('loc').map((_i,el)=>remoteSitemap(el).text()).get(),urls);
 const robots=await(await get('/robots.txt')).text();assert.match(robots,/Disallow: \//);assert.match(robots,/Sitemap: https:\/\/www\.roofkingco\.com\/sitemap\.xml/);
 const home=load(await fs.readFile('dist/index.html','utf8'));
-const assets=[home('link[rel=stylesheet]').first().attr('href'),home('script[type=module][src]').first().attr('src'),home('header img').first().attr('src')].filter(Boolean);
+const stylesheet=home('link[rel=stylesheet]').toArray().map(el=>home(el).attr('href')).find(href=>href?.startsWith('/'));
+const assets=[stylesheet,home('script[type=module][src]').first().attr('src'),home('header img').first().attr('src')].filter(href=>href?.startsWith('/'));
 for(const asset of [...new Set(assets)])await get(asset);
 const review=await(await get('/service-page-review.html')).text();assert.match(review,/noindex/i);
 const missing=await fetch(base+'/this-page-does-not-exist-review-check/'+query,{signal:AbortSignal.timeout(30000)});assert.equal(missing.status,404);
