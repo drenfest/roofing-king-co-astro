@@ -38,3 +38,5 @@ motion.css owns shared interaction timing, hover/focus feedback, tab/image/dialo
 The dedicated Storm Damage top-level menu adds one navigation label. Between 1061px and 1240px the duplicate header phone text is hidden to preserve spacing; the quote action remains and mobile retains its call button.
 
 reviews.css styles the native review hub: slanted source/share bands, proportional platform logos, responsive review grids, topic filters and full readable excerpts. It inherits motion.css and existing card branding; no carousel or external review widget is loaded.
+
+Editorial brand strips use fractional desktop columns instead of a fixed 230px/180px list. BrandStrip owns the shared tablet/mobile stacking and two-column phone grid. Preserve selected-brand counts, internal destinations, proportional logos and the existing motion/focus states.
