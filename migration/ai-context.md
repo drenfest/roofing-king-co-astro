@@ -45,3 +45,6 @@ cloudways-review-check.json records the successful public verification of all 24
 roofing-hero-images.json inventories all 41 roofing-related routes, per-image prompts, built-in generation method, original paths and optimized image byte counts. Images are illustrative architectural scenes, never customer-project evidence. roofing-hero-check.json records desktop/mobile rendering checks and byte budgets.
 
 service-review-batch-01.json and service-review-batch-01.md record the first ten individually reviewed siding/gutter routes, old/new core headings and browser checks. The other 73 service pages remain pending; keep batch status separate from the earlier full-site migration report.
+
+
+product-collection-images.json contains full prompts, built-in generation mode, illustration limits, source PNG locations and optimized variant paths/byte sizes for five material scenes. The 29 native product routes and retained GAF catalog receive presentation QA while genuine specifications, color samples, warranties, schema and canonical URLs remain protected.

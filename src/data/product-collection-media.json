@@ -1,0 +1,92 @@
+{
+  "vinyl-siding": {
+    "width": 1200,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/product-collections/vinyl-siding-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/product-collections/vinyl-siding-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/product-collections/vinyl-siding-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "engineered-wood-siding": {
+    "width": 1200,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/product-collections/engineered-wood-siding-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/product-collections/engineered-wood-siding-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/product-collections/engineered-wood-siding-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "fiber-cement-siding": {
+    "width": 1200,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/product-collections/fiber-cement-siding-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/product-collections/fiber-cement-siding-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/product-collections/fiber-cement-siding-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "perforated-gutter-guard": {
+    "width": 1200,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/product-collections/perforated-gutter-guard-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/product-collections/perforated-gutter-guard-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/product-collections/perforated-gutter-guard-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "fine-mesh-gutter-guard": {
+    "width": 1200,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/product-collections/fine-mesh-gutter-guard-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/product-collections/fine-mesh-gutter-guard-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/product-collections/fine-mesh-gutter-guard-1200.webp",
+        "width": 1200
+      }
+    ]
+  }
+}

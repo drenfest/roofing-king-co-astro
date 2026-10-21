@@ -45,3 +45,6 @@ check-roofing-heroes.mjs runs in npm run verify to protect all 41 unique hero ma
 build-roofing-hero-review.mjs writes the noindex public gallery from the hero manifest and recomputes size totals; visual inspection status is recorded separately and must never be inferred from generation success.
 
 check-service-reviews.mjs runs in verify for the explicit ten-page batches. It checks real heading progression, fewer top-level headings than the captured prior outlines, subordinate manufacturer headings, deliberate estimate placement and valid accessible heading targets. Future review batches register through migration/service-review-batch-NN.json.
+
+
+optimize-product-collections.mjs prepares five generated material scenes into three responsive WebP sizes and writes product-collection-media.json. Source PNGs remain outside public under output/imagegen/product-collections. Ordinary builds need only committed optimized assets. check-products.mjs also protects all native product heroes, unique collection photos, dimensions, image budgets, source copy, links and heading levels.

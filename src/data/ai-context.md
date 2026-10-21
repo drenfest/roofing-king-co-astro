@@ -67,3 +67,6 @@ Batch 01 client-directed revisions are persisted in service-overrides.json and a
 
 
 navigation-images.json is a compact menu-only image registry extracted from existing optimized service photos, illustrative roofing heroes and genuine GAF color samples. MenuPreview resolves exact route images first, then service/category fallbacks. Keep responsive WebP sources, intrinsic dimensions and illustrative labels; do not import full editorial or product records into the header client bundle.
+
+
+product-presentation.ts resolves category imagery, explicit material concepts and genuine default-color shingle samples, with contextual installation destinations. product-collection-media.json records five optimized material scenes at 480/800/1200px. The generated scenes are visibly labeled illustrative and never replace manufacturer samples or logos. Product-pillar headings now name the actual material or manufacturer; comparison copy and destinations are preserved.

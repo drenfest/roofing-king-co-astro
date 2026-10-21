@@ -125,3 +125,26 @@ const selections=[['/',home.brands],...Object.entries(editorial).filter(([path,d
 for(const [path,section]of selections){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.deepEqual(page('.rk-block-trusted-brands [data-brand-id]').map((i,e)=>page(e).attr('data-brand-id')).get(),section.brandIds);for(const id of section.brandIds){assert.ok(brandLibrary[id]);assert.ok(page('[data-brand-id="'+id+'"] img[width][height]').length);}}
 assert.deepEqual(services['/cleveland-oh/roofing/'].sections.find(s=>s.type==='brands').brandIds,['gaf']);
 console.log('Per-page brand selections, homepage mix, roofing-only GAF and sized brand images passed.');
+/* Protect the complete product presentation, not just the original three hubs. */
+for(const path of [...Object.keys(hubs),...Object.keys(detailRecords)]){
+ const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
+ const hero=page('[data-component=ProductHero]');assert.equal(hero.length,1,'Product route needs its image-led hero: '+path);
+ const image=hero.children('img');assert.equal(image.attr('loading'),'eager');assert.equal(image.attr('fetchpriority'),'high');
+ assert.ok(image.attr('src').endsWith('.webp'),'Optimized hero fallback: '+path);assert.ok(image.attr('srcset'));
+ assert.ok(Number(image.attr('width'))>0&&Number(image.attr('height'))>0);
+ const asset=await sharp('dist'+image.attr('src')).metadata();assert.ok(asset.width&&asset.height);
+ const target=hero.find('a[href^="#"]').attr('href');assert.ok(target&&page(target).length,'Hero action must reach real content: '+path);
+ if(hubs[path]){
+  const data=hubs[path],text=page('main').text().replace(/\s+/g,' ');
+  assert.ok(text.includes(data.copy));
+  assert.equal(page('.rk-product-guidance-grid h3').length,data.secondary.length);
+  for(const item of data.secondary){assert.ok(text.includes(item.copy),'Keep comparison copy: '+path);if(item.href)assert.ok(page('main a[href="'+item.href+'"]').length);}
+  for(const card of data.cards){assert.ok(page('.rk-product-hub-card[href="'+card.href+'"] h3').length,'Preserve child destinations and heading hierarchy');assert.ok(text.includes(card.description));}
+  const sources=page('.rk-product-hub-card figure>img').map((_,e)=>page(e).attr('src')).get();assert.equal(new Set(sources).size,sources.length,'Distinct pictures within every collection: '+path);
+ }
+}
+const collectionMedia=JSON.parse(await fs.readFile('src/data/product-collection-media.json','utf8'));
+for(const record of Object.values(collectionMedia))for(const variant of record.variants){
+ const filename='dist'+variant.src,meta=await sharp(filename).metadata();assert.equal(meta.width,variant.width);assert.equal(meta.height,Math.round(variant.width/1.6));assert.ok((await fs.stat(filename)).size<190000,'Keep material images within their WebP budget');
+}
+console.log('All 29 product heroes, real jump targets, collection uniqueness, source descriptions/links, subordinate headings and 15 optimized material assets passed.');

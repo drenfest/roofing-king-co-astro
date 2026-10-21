@@ -18,9 +18,9 @@ const tabs=[{id:'warranty',label:'Warranty & Protection'},{id:'specifications',l
 const color=product.colors.find(c=>c.id===product.defaultColorId)!;
 const schema={'@context':'https://schema.org','@type':'Product',name:data.title,description:data.description,brand:{'@type':'Brand',name:'GAF'},image:new URL(color.image.src,site.url).href,url:new URL(page.data.permalink,site.url).href};
 ---
-<ProductLayout {page} heading={`${data.title} Roofing Shingles`} eyebrow="GAF product details" copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src}>
+<ProductLayout {page} heading={`${data.title} Roofing Shingles`} eyebrow="GAF product details" copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src} productKey={data.key}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
-  <section class="rk-section-inner rk-product-detail-section" aria-label={`${data.title} colors and details`}><ProductCard item={{title:data.title,body:data.body}} {product} detail/></section>
+  <section id="product-overview" class="rk-section-inner rk-product-detail-section" aria-label={`${data.title} colors and details`}><ProductCard item={{title:data.title,body:data.body}} {product} detail/></section>
   <section class="rk-product-information" aria-label="Product information and companion products">
     <div class="rk-section-inner"><ProductTabs {tabs} client:load>
       <section id="warranty" data-product-panel class="rk-product-tab-panel rk-product-details"><h2>Warranty &amp; Protection</h2><ProductWarranty {product}/></section>

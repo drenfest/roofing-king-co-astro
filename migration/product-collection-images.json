@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-20",
+  "mode": "Built-in image generation",
+  "usage": "Illustrative material scenes, not manufacturer product samples or verified Roof King installations. Genuine GAF samples and manufacturer logos remain separate.",
+  "images": [
+    {
+      "id": "vinyl-siding",
+      "prompt": "High-end editorial architectural photograph-style illustration for a home exterior products collection. Wide landscape 16:10 image. Close oblique view of pale warm-gray horizontal double-lap VINYL SIDING on a clean well-built Ohio-style suburban home, authentic thin molded courses and subtle woodgrain, white corner post and white-trimmed window, a little garden greenery at edge. Soft natural morning light, restrained elegant framing emphasizing siding texture, photorealistic but an illustrative material concept, no logos, no writing, no people, no installation cutaway, no brand-specific claims. Show siding as the main subject. Distinct from engineered wood vertical siding and dark fiber cement lap siding.",
+      "source": "output/imagegen/product-collections/vinyl-siding.png",
+      "variants": [
+        {
+          "src": "/media/product-collections/vinyl-siding-480.webp",
+          "width": 480,
+          "bytes": 21048
+        },
+        {
+          "src": "/media/product-collections/vinyl-siding-800.webp",
+          "width": 800,
+          "bytes": 50110
+        },
+        {
+          "src": "/media/product-collections/vinyl-siding-1200.webp",
+          "width": 1200,
+          "bytes": 92036
+        }
+      ],
+      "visualReview": "Inspected: material distinction, believable details, no text or branding; responsive derivatives checked."
+    },
+    {
+      "id": "engineered-wood-siding",
+      "prompt": "High-end editorial architectural photograph-style illustration for a home exterior material collection. Wide landscape 16:10 image. Close architectural view of a modern craftsman home's muted sage-green ENGINEERED WOOD BOARD-AND-BATTEN SIDING, broad vertical panels, narrow vertical battens, realistic subtle woodgrain texture, a warm cedar porch accent, small white-trimmed window at edge, natural garden. Soft overcast daylight, refined composition dominated by the vertical siding, realistic construction, no logos, no writing, no people. This is an illustrative material concept, not a named manufacturer's product or completed contractor project. Different building and viewpoint from a pale-gray horizontal vinyl siding photo.",
+      "source": "output/imagegen/product-collections/engineered-wood-siding.png",
+      "variants": [
+        {
+          "src": "/media/product-collections/engineered-wood-siding-480.webp",
+          "width": 480,
+          "bytes": 29104
+        },
+        {
+          "src": "/media/product-collections/engineered-wood-siding-800.webp",
+          "width": 800,
+          "bytes": 73498
+        },
+        {
+          "src": "/media/product-collections/engineered-wood-siding-1200.webp",
+          "width": 1200,
+          "bytes": 144942
+        }
+      ],
+      "visualReview": "Inspected: material distinction, believable details, no text or branding; responsive derivatives checked."
+    },
+    {
+      "id": "fiber-cement-siding",
+      "prompt": "High-end editorial architectural photograph-style illustration for a home exterior material collection. Wide landscape 16:10 image. Angled detail of a thoughtfully designed contemporary traditional home clad in deep charcoal-blue FIBER CEMENT HORIZONTAL LAP SIDING, broad clean flat planks with subtle woodgrain, crisp off-white trim at an elegant window, natural stone foundation at bottom and green landscaping along edge. Soft bright afternoon light, authentic siding joints and trim details, restrained realistic architectural photography. No text, no logos, no people, no brand-specific claims. Illustrative material concept, not a real completed job. Distinct from pale-gray molded vinyl siding and sage-green vertical board-and-batten engineered wood.",
+      "source": "output/imagegen/product-collections/fiber-cement-siding.png",
+      "variants": [
+        {
+          "src": "/media/product-collections/fiber-cement-siding-480.webp",
+          "width": 480,
+          "bytes": 41132
+        },
+        {
+          "src": "/media/product-collections/fiber-cement-siding-800.webp",
+          "width": 800,
+          "bytes": 96050
+        },
+        {
+          "src": "/media/product-collections/fiber-cement-siding-1200.webp",
+          "width": 1200,
+          "bytes": 179750
+        }
+      ],
+      "visualReview": "Inspected: material distinction, believable details, no text or branding; responsive derivatives checked."
+    },
+    {
+      "id": "perforated-gutter-guard",
+      "prompt": "Use case: photorealistic-natural. Asset: wide landscape 16:10 editorial material illustration for a gutter-products collection. Close architectural roof-edge view of a clean white aluminum gutter with a fitted matte-silver PERFORATED METAL GUTTER COVER, a tidy dark asphalt shingle roof and white fascia. Perforated cover spanning the gutter opening, realistic small regular holes, convincing metal texture, subtle green garden bokeh beyond the roofline. Bright soft daylight, premium photographic composition with the cover clearly visible. No logos, text, people, labels, cutaways or impossible floating parts. Generic illustrative gutter protection concept, not an exact manufacturer product or installation instruction.",
+      "source": "output/imagegen/product-collections/perforated-gutter-guard.png",
+      "variants": [
+        {
+          "src": "/media/product-collections/perforated-gutter-guard-480.webp",
+          "width": 480,
+          "bytes": 29280
+        },
+        {
+          "src": "/media/product-collections/perforated-gutter-guard-800.webp",
+          "width": 800,
+          "bytes": 63154
+        },
+        {
+          "src": "/media/product-collections/perforated-gutter-guard-1200.webp",
+          "width": 1200,
+          "bytes": 109004
+        }
+      ],
+      "visualReview": "Inspected: material distinction, believable details, no text or branding; responsive derivatives checked."
+    },
+    {
+      "id": "fine-mesh-gutter-guard",
+      "prompt": "Use case: photorealistic-natural. Asset: wide landscape 16:10 editorial material illustration for a gutter-protection collection. Distinct close view from a low diagonal side angle of a cream-colored gutter fitted with a FINE STAINLESS-STEEL MESH COVER in a slim light frame beneath charcoal asphalt shingles, clean crisp white fascia, soft warm background of autumn garden foliage. Focus on the fine continuous mesh surface instead of large punched holes, physically credible roof edge assembly. Soft afternoon sun, high-end architectural detail photography style, horizontal landscape framing. No logos, people, writing, labels or cutaways. Generic illustrative fine-mesh protection concept, not a specific manufacturer's product or verified contractor installation.",
+      "source": "output/imagegen/product-collections/fine-mesh-gutter-guard.png",
+      "variants": [
+        {
+          "src": "/media/product-collections/fine-mesh-gutter-guard-480.webp",
+          "width": 480,
+          "bytes": 36774
+        },
+        {
+          "src": "/media/product-collections/fine-mesh-gutter-guard-800.webp",
+          "width": 800,
+          "bytes": 90446
+        },
+        {
+          "src": "/media/product-collections/fine-mesh-gutter-guard-1200.webp",
+          "width": 1200,
+          "bytes": 169098
+        }
+      ],
+      "visualReview": "Inspected: material distinction, believable details, no text or branding; responsive derivatives checked."
+    }
+  ]
+}

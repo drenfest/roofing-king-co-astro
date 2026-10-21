@@ -62,3 +62,6 @@ navigation.css gives desktop menus an independent photo panel beside all four li
 
 
 The menu uses editorial ivory surfaces, fine separators, lighter Inter links, a Playfair panel title and restrained orange branch accents. Mobile rows replace legacy raised cards and filled toggles. Desktop panels fade/translate; mobile disclosure display transitions progressively enhance modern browsers with immediate accessible hidden/inert state. No-JS navigation remains static and readable. Keep reduced-motion overrides and full-width nested mobile lists.
+
+
+Product pages reuse service-hero.css through ProductHero; product-specific refinements live in products.css. Collection cards use full photographs and proportional manufacturer marks, with subordinate H3 titles. Guidance uses two columns for four items, three for three items, and one on mobile. Native product detail panels use underline tabs, quieter product surfaces and sentence-case hierarchy; semantic badge colors remain unchanged.

@@ -3,7 +3,7 @@
     "title": "Exterior Building Products",
     "description": "Explore roofing products, compare materials, and find product details to discuss with Roof King.",
     "eyebrow": "The product library",
-    "heading": "Find the right materials for your home.",
+    "heading": "Exterior products for a home that feels like yours.",
     "copy": "Start with the materials. Explore colors, styles, specifications and manufacturer warranty information, then discuss installation with our team.",
     "breadcrumbs": [
       {
@@ -55,7 +55,7 @@
         }
       }
     ],
-    "secondaryTitle": "Product choices, service expertise and local guidance",
+    "secondaryTitle": "Materials, installation and choosing the right products",
     "secondary": [
       {
         "title": "Browse the products",
@@ -95,7 +95,7 @@
     "title": "Roofing Products and Materials",
     "description": "Browse GAF shingle colors, specifications and warranty information, compare roofing materials, and plan questions for your project.",
     "eyebrow": "Roofing product library",
-    "heading": "Compare the products above your home.",
+    "heading": "Roofing products for your home.",
     "copy": "Explore materials and product details, then pair your choices with a clear plan for repair, replacement or installation.",
     "breadcrumbs": [
       {
@@ -126,7 +126,7 @@
         "product": "Grand Sequoia"
       }
     ],
-    "secondaryTitle": "Choose for the home, the conditions and the complete system",
+    "secondaryTitle": "What to compare when choosing roofing materials",
     "secondary": [
       {
         "title": "Wind and installation",
@@ -162,7 +162,7 @@
     "title": "Roofing Shingles",
     "description": "Explore roofing shingles and browse individual GAF products, color options, specifications and warranty information.",
     "eyebrow": "Roofing products",
-    "heading": "Find your shingle style.",
+    "heading": "Roofing shingles. Color, character and protection.",
     "copy": "Explore by manufacturer, then compare individual shingle products. Keep your product research together before discussing the right installation for your home.",
     "breadcrumbs": [
       {
@@ -190,7 +190,7 @@
         "product": "Timberline HDZ"
       }
     ],
-    "secondaryTitle": "Compare products with your project in mind",
+    "secondaryTitle": "Shingle colors, ratings and roof-system details",
     "secondary": [
       {
         "title": "Colors and profiles",
@@ -218,7 +218,7 @@
     "title": "Siding Products",
     "description": "Compare siding materials and brands with Roof King.",
     "eyebrow": "Exterior product library",
-    "heading": "Explore siding products.",
+    "heading": "Siding products that shape your exterior.",
     "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
     "breadcrumbs": [
       {
@@ -277,7 +277,7 @@
         }
       }
     ],
-    "secondaryTitle": "Compare the material and the complete project",
+    "secondaryTitle": "Siding materials, finishes and installation details",
     "secondary": [
       {
         "title": "Appearance and details",
@@ -310,7 +310,7 @@
     "title": "Decking Products",
     "description": "Compare decking materials and brands with Roof King.",
     "eyebrow": "Exterior product library",
-    "heading": "Explore decking products.",
+    "heading": "Decking products for your outdoor space.",
     "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
     "breadcrumbs": [
       {
@@ -337,7 +337,7 @@
         }
       }
     ],
-    "secondaryTitle": "Compare the material and the complete project",
+    "secondaryTitle": "Decking materials, railings and everyday care",
     "secondary": [
       {
         "title": "Appearance and details",
@@ -367,7 +367,7 @@
     "title": "Vinyl Siding Products",
     "description": "Explore vinyl siding and Variform product options.",
     "eyebrow": "Siding Products",
-    "heading": "Explore vinyl siding.",
+    "heading": "Vinyl siding. Profiles, colors and finishing details.",
     "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
     "breadcrumbs": [
       {
@@ -410,7 +410,7 @@
         }
       }
     ],
-    "secondaryTitle": "Questions to resolve before choosing",
+    "secondaryTitle": "Vinyl siding profiles, trim and installation",
     "secondary": [
       {
         "title": "Profiles and proportions",
@@ -443,7 +443,7 @@
     "title": "Variform Vinyl Siding",
     "description": "Explore Variform vinyl siding, design choices and installation planning with Roof King.",
     "eyebrow": "Vinyl Siding · Variform",
-    "heading": "Variform products for your exterior.",
+    "heading": "Variform vinyl siding for your home.",
     "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
     "logo": {
       "src": "/media/wordpress/d93df4e15198-variform.png",
@@ -471,7 +471,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to compare with Variform",
+    "secondaryTitle": "Variform profiles, color choices and product care",
     "secondary": [
       {
         "title": "Profiles and proportions",
@@ -501,7 +501,7 @@
     "title": "Engineered Wood Siding Products",
     "description": "Explore engineered wood siding and LP SmartSide product options.",
     "eyebrow": "Siding Products",
-    "heading": "Explore engineered wood siding.",
+    "heading": "Engineered wood siding for your exterior.",
     "copy": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
     "breadcrumbs": [
       {
@@ -532,7 +532,7 @@
         }
       }
     ],
-    "secondaryTitle": "Questions to resolve before choosing",
+    "secondaryTitle": "Engineered wood siding, finishes and trim",
     "secondary": [
       {
         "title": "Build a coordinated exterior",
@@ -564,7 +564,7 @@
     "title": "LP SmartSide Engineered Wood Siding",
     "description": "Explore LP SmartSide engineered wood siding, design choices and installation planning with Roof King.",
     "eyebrow": "Engineered Wood Siding · LP SmartSide",
-    "heading": "LP SmartSide products for your exterior.",
+    "heading": "LP SmartSide siding and trim.",
     "copy": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
     "logo": {
       "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
@@ -592,7 +592,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to compare with LP SmartSide",
+    "secondaryTitle": "LP SmartSide profiles, finishes and installation",
     "secondary": [
       {
         "title": "Build a coordinated exterior",
@@ -622,7 +622,7 @@
     "title": "Fiber Cement Siding Products",
     "description": "Explore fiber cement siding and James Hardie product options.",
     "eyebrow": "Siding Products",
-    "heading": "Explore fiber cement siding.",
+    "heading": "Fiber cement siding for your home.",
     "copy": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
     "breadcrumbs": [
       {
@@ -653,7 +653,7 @@
         }
       }
     ],
-    "secondaryTitle": "Questions to resolve before choosing",
+    "secondaryTitle": "Fiber cement profiles, finishes and maintenance",
     "secondary": [
       {
         "title": "Choose the siding profile",
@@ -685,7 +685,7 @@
     "title": "James Hardie Fiber Cement Siding",
     "description": "Explore James Hardie fiber cement siding, design choices and installation planning with Roof King.",
     "eyebrow": "Fiber Cement Siding · James Hardie",
-    "heading": "James Hardie products for your exterior.",
+    "heading": "James Hardie fiber cement siding.",
     "copy": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
     "logo": {
       "src": "/media/wordpress/67a6570aea50-jameshardie.png",
@@ -713,7 +713,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to compare with James Hardie",
+    "secondaryTitle": "James Hardie siding, trim and finish choices",
     "secondary": [
       {
         "title": "Choose the siding profile",
@@ -743,7 +743,7 @@
     "title": "Composite Decking Products",
     "description": "Explore composite decking and Trex product options.",
     "eyebrow": "Decking Products",
-    "heading": "Explore composite decking.",
+    "heading": "Composite decking. Build your outdoor palette.",
     "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
     "breadcrumbs": [
       {
@@ -774,7 +774,7 @@
         }
       }
     ],
-    "secondaryTitle": "Questions to resolve before choosing",
+    "secondaryTitle": "Composite deck boards, railings and maintenance",
     "secondary": [
       {
         "title": "Compare decking collections",
@@ -806,7 +806,7 @@
     "title": "Trex Composite Decking",
     "description": "Explore Trex composite decking, design choices and installation planning with Roof King.",
     "eyebrow": "Composite Decking · Trex",
-    "heading": "Trex products for your exterior.",
+    "heading": "Trex composite decking and railing.",
     "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
     "logo": {
       "src": "/media/wordpress/509654d4f5d1-trex.png",
@@ -834,7 +834,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to compare with Trex",
+    "secondaryTitle": "Trex deck boards, railing and product care",
     "secondary": [
       {
         "title": "Compare decking collections",
@@ -864,7 +864,7 @@
     "title": "Gutter Products",
     "description": "Compare gutter protection with the condition, size and drainage capacity of your gutters. Guards and hangers serve different purposes; choose them alongsid",
     "eyebrow": "Gutter product library",
-    "heading": "Gutter Products",
+    "heading": "Gutter products for your roofline.",
     "copy": "Compare gutter protection with the condition, size and drainage capacity of your gutters. Guards and hangers serve different purposes; choose them alongside downspouts, roof drainage and installation details.",
     "breadcrumbs": [
       {
@@ -893,7 +893,7 @@
         }
       }
     ],
-    "secondaryTitle": "What to consider",
+    "secondaryTitle": "Gutter compatibility, support and installation",
     "secondary": [
       {
         "title": "Gutters and downspouts",
@@ -921,7 +921,7 @@
     "title": "Gutter Guards and Support Systems",
     "description": "Explore gutter guards and support systems. Confirm compatibility with your gutter profile, the debris around your home and the maintenance instructions for",
     "eyebrow": "Gutter product library",
-    "heading": "Gutter Guards and Support Systems",
+    "heading": "Gutter guards and support systems.",
     "copy": "Explore gutter guards and support systems. Confirm compatibility with your gutter profile, the debris around your home and the maintenance instructions for the selected product.",
     "breadcrumbs": [
       {
@@ -966,7 +966,7 @@
         }
       }
     ],
-    "secondaryTitle": "What to consider",
+    "secondaryTitle": "Gutter protection, cleaning and system compatibility",
     "secondary": [
       {
         "title": "Continuous support",
@@ -1000,7 +1000,7 @@
     "title": "Alu-Rex Gutter Systems and T-Rex",
     "description": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the e",
     "eyebrow": "Explore the brand",
-    "heading": "Alu-Rex Gutter Systems and T-Rex",
+    "heading": "Alu-Rex gutter systems and T-Rex.",
     "copy": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the exact system with your gutter profile and installation plans.",
     "breadcrumbs": [
       {
@@ -1024,7 +1024,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to consider",
+    "secondaryTitle": "Alu-Rex products, installation and warranty details",
     "secondary": [
       {
         "title": "T-Rex continuous hanger",
@@ -1060,7 +1060,7 @@
     "title": "LeafFilter Gutter Protection",
     "description": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and c",
     "eyebrow": "Explore the brand",
-    "heading": "LeafFilter Gutter Protection",
+    "heading": "LeafFilter gutter protection.",
     "copy": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and compare installation, maintenance and warranty details.",
     "breadcrumbs": [
       {
@@ -1084,7 +1084,7 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "What to consider",
+    "secondaryTitle": "LeafFilter compatibility, installation and care",
     "secondary": [
       {
         "title": "Assess the existing gutters",
@@ -1120,7 +1120,7 @@
     "title": "Ply Gem Vinyl Siding",
     "description": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact produ",
     "eyebrow": "Explore the brand",
-    "heading": "Ply Gem Vinyl Siding",
+    "heading": "Ply Gem vinyl siding.",
     "copy": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact product line and accessories proposed for your home.",
     "breadcrumbs": [
       {
@@ -1157,7 +1157,7 @@
         }
       }
     ],
-    "secondaryTitle": "What to consider",
+    "secondaryTitle": "Ply Gem siding profiles, colors and documentation",
     "secondary": [
       {
         "title": "Variform by Ply Gem",

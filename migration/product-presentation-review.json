@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-20",
+  "routes": [
+    {
+      "route": "/products/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/decking/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/vinyl/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/vinyl/variform/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/engineered-wood/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/engineered-wood/lp-smartside/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/fiber-cement/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/fiber-cement/james-hardie/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/decking/composite/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/decking/composite/trex/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/gutters/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/gutters/guards/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/gutters/guards/alu-rex/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/gutters/guards/leaffilter/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/siding/vinyl/ply-gem/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/timberline-ns/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/camelot-ii/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/woodland/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/roofing/gaf/types/",
+      "widths": [
+        1440,
+        820,
+        390,
+        320
+      ],
+      "heroImageLoaded": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "collectionImages": "Every collection checked for distinct image sources; new material scenes visually reviewed.",
+  "interactions": "All 11 shingle detail pages: alternate color, specification tab, wind badge explanation. HDZ companion tab includes five accessory images and diagrams. No-JS panels, sample links and disabled lead submission checked.",
+  "verification": "npm run verify passed; all 244 protected routes retained.",
+  "imageryEvidence": "migration/product-collection-images.json"
+}

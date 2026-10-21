@@ -36,3 +36,6 @@ DocumentLayout and SiteLayout request variable Inter 400–900 and Playfair Disp
 The client’s latest hero reference uses warm ivory fading into photography, dark sentence-case headings and inline inspection actions. PageHero and LandingHero share this presentation. Both document shells request true Playfair Display italics as well as upright weights.
 
 PolishedServicePage reads optional per-route reviewPresentation, uses explicit copy.budgetSectionId before the legacy estimate-title heuristic, and nests brand strips at the reviewed material section as H3s. Defaults preserve pages outside the current ten-page review batch; /roofing/ remains separate.
+
+
+ProductLayout now resolves a responsive hero image through product-presentation.ts and renders ProductHero before breadcrumbs. productKey selects genuine manufacturer samples for individual shingles; optional logo appears in the hero. Preserve canonical and Product/Breadcrumb schemas, disconnected quote experience and all existing paths.

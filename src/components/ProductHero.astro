@@ -1,0 +1,19 @@
+---
+import type {ProductHeroImage} from '../data/product-presentation';
+import {productService} from '../data/product-presentation';
+import '../styles/service-hero.css';
+import HomeImage from './HomeImage.astro';
+interface Props {heading:string;eyebrow:string;copy:string;path:string;image:ProductHeroImage;detail?:boolean;logo?:{src:string;alt:string};}
+const {heading,eyebrow,copy,path,image,detail=false,logo}=Astro.props;
+const service=productService(path);
+---
+<section class:list={['rk-editorial-hero','rk-product-hero',{'rk-product-sample-hero':image.sample}]} data-component="ProductHero">
+ <img src={image.src} srcset={image.srcset} sizes="100vw" width={image.width} height={image.height} alt="" loading="eager" fetchpriority="high" decoding="async"/>
+ <div class="rk-section-inner rk-editorial-hero-grid"><div class="rk-editorial-hero-copy">
+  {logo&&<HomeImage {...logo} class="rk-product-hero-logo" sizes="150px" eager/>}<p class="rk-home-eyebrow">{eyebrow}</p><h1>{heading}</h1>
+  <p class="rk-editorial-hero-description">{copy}</p>
+  <div class="rk-editorial-hero-actions"><a class="rk-button rk-button-primary" href={detail?'#product-overview':'#product-range'}>{detail?'Explore colors & details':'Explore the products'}<span aria-hidden="true">↓</span></a><a class="rk-product-hero-service" href={service.href}>{service.label}<span aria-hidden="true">↗</span></a></div>
+  <p class="rk-editorial-hero-note">{detail?'Explore genuine color samples, product specifications and manufacturer warranty information.':'Explore materials and finishes. Confirm availability and physical samples with our team.'}</p>
+ </div></div>
+ <p class="rk-service-hero-credit">{image.caption}</p>
+</section>

@@ -11,3 +11,6 @@ media/service-illustrations/ holds nine generated conceptual WebP illustrations;
 media/roofing-heroes/ holds only optimized WebP hero variants. The 41 generated scenes are illustrative, not verified Roof King projects or branded product samples. Original PNGs stay under output/imagegen/roofing-heroes outside the web root. roofing-hero-review.html is the noindex visual review gallery.
 
 service-review-batch-01.html is the ten-page siding/gutter review index, with source/revised heading outlines, page links and project-photo requests. It is noindex and uses relative links for both review environments. Review evidence is in migration/service-review-batch-01.json and .md.
+
+
+media/product-collections holds five illustrative material scenes with 480/800/1200px WebP variants. They are not named-manufacturer samples or actual Roof King installations. Prompts, source filenames and asset byte counts are recorded in migration/product-collection-images.json; originals remain outside public.

@@ -103,3 +103,6 @@ MenuPreview.svelte renders a shared contextual menu photo and destination captio
 
 
 MenuPreview pre-decodes responsive images and crossfades loaded layers with Svelte fade; canceled requests cannot overwrite a newer hover choice. The previous image remains until the next is ready. Reduced-motion removes the crossfade. MegaMenu keys columns by their depth and parent destination so branch changes receive a restrained entrance without changing keyboard controls. Collapsed mobile branches are inert during their visual closing transition.
+
+
+ProductHero.astro supplies all 29 native product pages with the shared ivory photographic hero, contextual service link, catalog jump link and an honest imagery caption. Brand logos retain their proportions. ProductHubPage has H2 collection/guidance headings and H3 cards, unique material photographs per collection, and a balanced icon-led consideration grid. ProductDetailPage retains color interactions, semantic badges, full-width warranty/spec/companion tabs and exact catalog data.
