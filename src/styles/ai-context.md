@@ -65,3 +65,12 @@ The menu uses editorial ivory surfaces, fine separators, lighter Inter links, a 
 
 
 Product pages reuse service-hero.css through ProductHero; product-specific refinements live in products.css. Collection cards use full photographs and proportional manufacturer marks, with subordinate H3 titles. Guidance uses two columns for four items, three for three items, and one on mobile. Native product detail panels use underline tabs, quieter product surfaces and sentence-case hierarchy; semantic badge colors remain unchanged.
+
+
+ServicePaths panel imagery uses rk-service-tab-image directly after the eyebrow: a responsive 2:1 crop on desktop and 16:9 on phones, intrinsic image sizing and a discreet illustrative label. Existing tab selection, panel entrance motion and reduced-motion rules remain in force.
+
+
+MenuPreview atlas cells are square background layers cropped within the desktop/mobile preview frame, preserving photo proportions. Authentic manufacturer logos are pre-composited proportionally on ivory within each cell. All crossfades and existing menu motion retain reduced-motion support.
+
+
+Atlas previews render at no more than 192px on desktop; mobile uses a compact 96px image alongside its destination caption, retaining full-width one-column menu links. This keeps thumbnails crisp and avoids enlarging a small sprite tile into a wide mobile banner.

@@ -1,0 +1,948 @@
+{
+  "/media/service-heroes/akron-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/akron-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/akron-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/akron-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/akron-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/athens-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/athens-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/athens-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/athens-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/athens-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/attic-insulation-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/attic-insulation-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/attic-insulation-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/attic-insulation-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/attic-insulation-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/aurora-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/aurora-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/aurora-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/aurora-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/aurora-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/beavercreek-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/beavercreek-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/beavercreek-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/beavercreek-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/beavercreek-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/centerville-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/centerville-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/centerville-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/centerville-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/centerville-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/cincinnati-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/cincinnati-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/cleveland-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/cleveland-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/cleveland-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/cleveland-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/cleveland-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/columbus-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/columbus-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/columbus-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/columbus-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/columbus-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/commercial-siding-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/commercial-siding-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/commercial-siding-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/commercial-siding-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/commercial-siding-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/dayton-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/dayton-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-accessories-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-accessories-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-accessories-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-accessories-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-accessories-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-installations-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-installations-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-installations-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-installations-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-installations-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-refinishing-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-refinishing-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-refinishing-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-refinishing-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-refinishing-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-repairs-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-repairs-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-repairs-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-repairs-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-repairs-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/decks-replacements-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/decks-replacements-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/decks-replacements-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/decks-replacements-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/decks-replacements-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/delaware-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/delaware-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/delaware-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/delaware-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/delaware-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/dublin-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/dublin-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/exterior-painting-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/exterior-painting-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/exterior-painting-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/exterior-painting-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/exterior-painting-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/gahanna-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/gahanna-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/gahanna-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/gahanna-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/gahanna-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/grove-city-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/grove-city-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/grove-city-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/grove-city-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/grove-city-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/gutter-installation-dublin-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/gutter-installation-dublin-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/gutter-installation-dublin-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/gutter-installation-dublin-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/gutter-installation-dublin-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/gutters-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/gutters-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/gutters-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/gutters-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/gutters-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/gutters-guards-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/gutters-guards-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/gutters-guards-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/gutters-guards-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/gutters-guards-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/gutters-seamless-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/gutters-seamless-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/gutters-seamless-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/gutters-seamless-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/gutters-seamless-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/hamilton-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/hamilton-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/hamilton-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/hamilton-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/hamilton-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/hilliard-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/hilliard-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/hilliard-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/hilliard-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/hilliard-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/lancaster-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/lancaster-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/lancaster-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/lancaster-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/lancaster-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/lewis-center-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/lewis-center-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/lewis-center-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/lewis-center-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/lewis-center-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/middletown-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/middletown-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/middletown-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/middletown-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/middletown-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/newark-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/newark-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/newark-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/newark-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/newark-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/powell-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/powell-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/powell-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/powell-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/powell-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/siding-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/siding-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/siding-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/siding-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/siding-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/siding-replacement-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/siding-replacement-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/siding-replacement-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/siding-replacement-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/siding-replacement-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/siding-types-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/siding-types-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/siding-types-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/siding-types-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/siding-types-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/upper-arlington-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/upper-arlington-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/upper-arlington-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/upper-arlington-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/upper-arlington-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/westerville-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/westerville-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/westerville-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/westerville-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/westerville-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/windows-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/windows-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/windows-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/windows-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/windows-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/worthington-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/worthington-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/worthington-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/worthington-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/worthington-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/media/service-heroes/zanesville-oh-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/service-heroes/zanesville-oh-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/service-heroes/zanesville-oh-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/service-heroes/zanesville-oh-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/service-heroes/zanesville-oh-1600.webp",
+        "width": 1600
+      }
+    ]
+  }
+}

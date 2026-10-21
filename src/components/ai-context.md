@@ -106,3 +106,9 @@ MenuPreview pre-decodes responsive images and crossfades loaded layers with Svel
 
 
 ProductHero.astro supplies all 29 native product pages with the shared ivory photographic hero, contextual service link, catalog jump link and an honest imagery caption. Brand logos retain their proportions. ProductHubPage has H2 collection/guidance headings and H3 cards, unique material photographs per collection, and a balanced icon-led consideration grid. ProductDetailPage retains color interactions, semantic badges, full-width warranty/spec/companion tabs and exact catalog data.
+
+
+ServicePaths resolves each tab destination through service-hero.ts and renders its responsive hero photograph immediately after the panel eyebrow, before its H3. Images are lazy-loaded, dimensioned and captioned when illustrative. The shared Astro implementation applies to every parent service page; ServiceExplorer tabs/select, keyboard behavior and leaf ServiceArticle rendering stay unchanged.
+
+
+MenuPreview now renders a cell from navigation-atlas.json instead of fetching separate photos. One module-level decoded image promise is shared by every preview instance; the atlas is requested only on first menu opening, then CSS background positions swap with reduced-motion-aware fades. Every distinct destination has an explicit cell; no family fallback images remain.

@@ -1,0 +1,1872 @@
+{
+  "date": "2026-10-20",
+  "method": "built-in image generation",
+  "provenance": "Illustrative service scenes, not actual Roof King projects, city landmarks or exact manufacturer samples.",
+  "pages": [
+    {
+      "route": "/akron-oh/",
+      "slug": "akron-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a modest cream-sided two-story home with a charcoal gabled roof, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/akron-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/akron-oh-640.webp",
+          "width": 640,
+          "bytes": 42114
+        },
+        {
+          "src": "/media/service-heroes/akron-oh-960.webp",
+          "width": 960,
+          "bytes": 91176
+        },
+        {
+          "src": "/media/service-heroes/akron-oh-1280.webp",
+          "width": 1280,
+          "bytes": 159712
+        },
+        {
+          "src": "/media/service-heroes/akron-oh-1600.webp",
+          "width": 1600,
+          "bytes": 228042
+        }
+      ],
+      "originalBytes": 2915606,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/athens-oh/",
+      "slug": "athens-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a red-brick ranch with pale trim and mature maple trees, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/athens-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/athens-oh-640.webp",
+          "width": 640,
+          "bytes": 62454
+        },
+        {
+          "src": "/media/service-heroes/athens-oh-960.webp",
+          "width": 960,
+          "bytes": 135544
+        },
+        {
+          "src": "/media/service-heroes/athens-oh-1280.webp",
+          "width": 1280,
+          "bytes": 201954
+        },
+        {
+          "src": "/media/service-heroes/athens-oh-1600.webp",
+          "width": 1600,
+          "bytes": 231952
+        }
+      ],
+      "originalBytes": 3628126,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/attic-insulation/",
+      "slug": "attic-insulation",
+      "service": "Attic Insulation",
+      "family": "insulation",
+      "subjectKey": "insulation",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A clean realistic residential attic interior with evenly installed unfaced fiberglass batts between floor joists, visible wood rafters and a clear air channel near the eaves. Natural soft light from a small gable opening on the right. No people, no plastic vapor sheet, no wiring errors, no labels, no cutaway illustration. Lighting: warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/attic-insulation.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/attic-insulation-640.webp",
+          "width": 640,
+          "bytes": 26744
+        },
+        {
+          "src": "/media/service-heroes/attic-insulation-960.webp",
+          "width": 960,
+          "bytes": 49498
+        },
+        {
+          "src": "/media/service-heroes/attic-insulation-1280.webp",
+          "width": 1280,
+          "bytes": 80006
+        },
+        {
+          "src": "/media/service-heroes/attic-insulation-1600.webp",
+          "width": 1600,
+          "bytes": 106762
+        }
+      ],
+      "originalBytes": 2375283,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/aurora-oh/",
+      "slug": "aurora-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a warm-white Cape Cod house with a tidy front garden, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/aurora-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/aurora-oh-640.webp",
+          "width": 640,
+          "bytes": 55340
+        },
+        {
+          "src": "/media/service-heroes/aurora-oh-960.webp",
+          "width": 960,
+          "bytes": 117268
+        },
+        {
+          "src": "/media/service-heroes/aurora-oh-1280.webp",
+          "width": 1280,
+          "bytes": 199830
+        },
+        {
+          "src": "/media/service-heroes/aurora-oh-1600.webp",
+          "width": 1600,
+          "bytes": 225572
+        }
+      ],
+      "originalBytes": 3229828,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/beavercreek-oh/",
+      "slug": "beavercreek-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a soft-blue suburban house with a broad hipped roof, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/beavercreek-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/beavercreek-oh-640.webp",
+          "width": 640,
+          "bytes": 42218
+        },
+        {
+          "src": "/media/service-heroes/beavercreek-oh-960.webp",
+          "width": 960,
+          "bytes": 94274
+        },
+        {
+          "src": "/media/service-heroes/beavercreek-oh-1280.webp",
+          "width": 1280,
+          "bytes": 169322
+        },
+        {
+          "src": "/media/service-heroes/beavercreek-oh-1600.webp",
+          "width": 1600,
+          "bytes": 203012
+        }
+      ],
+      "originalBytes": 3072877,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/centerville-oh/",
+      "slug": "centerville-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a traditional tan-sided home with a brick porch base, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/centerville-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/centerville-oh-640.webp",
+          "width": 640,
+          "bytes": 49558
+        },
+        {
+          "src": "/media/service-heroes/centerville-oh-960.webp",
+          "width": 960,
+          "bytes": 105886
+        },
+        {
+          "src": "/media/service-heroes/centerville-oh-1280.webp",
+          "width": 1280,
+          "bytes": 185666
+        },
+        {
+          "src": "/media/service-heroes/centerville-oh-1600.webp",
+          "width": 1600,
+          "bytes": 215382
+        }
+      ],
+      "originalBytes": 3163550,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "slug": "cincinnati-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a compact brick-and-siding colonial with dark shutters, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/cincinnati-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/cincinnati-oh-640.webp",
+          "width": 640,
+          "bytes": 47738
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-960.webp",
+          "width": 960,
+          "bytes": 96584
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-1280.webp",
+          "width": 1280,
+          "bytes": 163342
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-1600.webp",
+          "width": 1600,
+          "bytes": 224390
+        }
+      ],
+      "originalBytes": 2993014,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "slug": "cincinnati-oh-the-cost-of-siding-replacement",
+      "service": "Siding Replacement Costs",
+      "family": "siding-cost",
+      "subjectKey": "siding-cost",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A homeowner-view architectural detail of a house with fresh horizontal lap siding, contrasting trim, window openings and an adjoining wall, illustrating the exterior surfaces involved in siding replacement. No money, numbers, charts or paperwork. Lighting: clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/cincinnati-oh-the-cost-of-siding-replacement.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-640.webp",
+          "width": 640,
+          "bytes": 39246
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-960.webp",
+          "width": 960,
+          "bytes": 79910
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1280.webp",
+          "width": 1280,
+          "bytes": 133056
+        },
+        {
+          "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1600.webp",
+          "width": 1600,
+          "bytes": 183904
+        }
+      ],
+      "originalBytes": 2634230,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/cleveland-oh/",
+      "slug": "cleveland-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a modest cream-sided two-story home with a charcoal gabled roof, in bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/cleveland-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/cleveland-oh-640.webp",
+          "width": 640,
+          "bytes": 31816
+        },
+        {
+          "src": "/media/service-heroes/cleveland-oh-960.webp",
+          "width": 960,
+          "bytes": 68342
+        },
+        {
+          "src": "/media/service-heroes/cleveland-oh-1280.webp",
+          "width": 1280,
+          "bytes": 119882
+        },
+        {
+          "src": "/media/service-heroes/cleveland-oh-1600.webp",
+          "width": 1600,
+          "bytes": 167676
+        }
+      ],
+      "originalBytes": 2611129,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/columbus-oh/",
+      "slug": "columbus-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a red-brick ranch with pale trim and mature maple trees, in bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/columbus-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/columbus-oh-640.webp",
+          "width": 640,
+          "bytes": 61686
+        },
+        {
+          "src": "/media/service-heroes/columbus-oh-960.webp",
+          "width": 960,
+          "bytes": 138204
+        },
+        {
+          "src": "/media/service-heroes/columbus-oh-1280.webp",
+          "width": 1280,
+          "bytes": 198992
+        },
+        {
+          "src": "/media/service-heroes/columbus-oh-1600.webp",
+          "width": 1600,
+          "bytes": 232522
+        }
+      ],
+      "originalBytes": 3732009,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/commercial-siding/",
+      "slug": "commercial-siding",
+      "service": "Commercial Siding",
+      "family": "commercial-siding",
+      "subjectKey": "commercial-siding",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A realistic small two-story professional office building with well-finished contemporary lap siding and vertical panel accents, clean trim and landscaped frontage. This is a business exterior, not a warehouse or luxury apartment tower. Lighting: warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/commercial-siding.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/commercial-siding-640.webp",
+          "width": 640,
+          "bytes": 33226
+        },
+        {
+          "src": "/media/service-heroes/commercial-siding-960.webp",
+          "width": 960,
+          "bytes": 67558
+        },
+        {
+          "src": "/media/service-heroes/commercial-siding-1280.webp",
+          "width": 1280,
+          "bytes": 114272
+        },
+        {
+          "src": "/media/service-heroes/commercial-siding-1600.webp",
+          "width": 1600,
+          "bytes": 157194
+        }
+      ],
+      "originalBytes": 2423140,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/dayton-oh/",
+      "slug": "dayton-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a warm-white Cape Cod house with a tidy front garden, in bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/dayton-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/dayton-oh-640.webp",
+          "width": 640,
+          "bytes": 51236
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-960.webp",
+          "width": 960,
+          "bytes": 106622
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-1280.webp",
+          "width": 1280,
+          "bytes": 182308
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-1600.webp",
+          "width": 1600,
+          "bytes": 207458
+        }
+      ],
+      "originalBytes": 3168223,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/dayton-oh/the-cost-of-new-gutters/",
+      "slug": "dayton-oh-the-cost-of-new-gutters",
+      "service": "Gutter Replacement Costs",
+      "family": "gutter-cost",
+      "subjectKey": "gutter-cost",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A clear diagonal architectural view of a suburban roof edge, white fascia, a clean aluminum gutter run and downspout turning down the corner of a home. Show the connected drainage components, with no prices or measuring annotations. Lighting: clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/dayton-oh-the-cost-of-new-gutters.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-640.webp",
+          "width": 640,
+          "bytes": 22378
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-960.webp",
+          "width": 960,
+          "bytes": 39840
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1280.webp",
+          "width": 1280,
+          "bytes": 62592
+        },
+        {
+          "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1600.webp",
+          "width": 1600,
+          "bytes": 84130
+        }
+      ],
+      "originalBytes": 2136613,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/",
+      "slug": "decks",
+      "service": "Deck Services",
+      "family": "decks",
+      "subjectKey": "decks",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A welcoming residential outdoor deck with clean deck boards, coordinated railings, a short safe stairway and restrained patio furniture, viewed from a garden in natural daylight. Lighting: bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-640.webp",
+          "width": 640,
+          "bytes": 52052
+        },
+        {
+          "src": "/media/service-heroes/decks-960.webp",
+          "width": 960,
+          "bytes": 101280
+        },
+        {
+          "src": "/media/service-heroes/decks-1280.webp",
+          "width": 1280,
+          "bytes": 162446
+        },
+        {
+          "src": "/media/service-heroes/decks-1600.webp",
+          "width": 1600,
+          "bytes": 218708
+        }
+      ],
+      "originalBytes": 2922389,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/accessories/",
+      "slug": "decks-accessories",
+      "service": "Deck Accessories",
+      "family": "deck-accessories",
+      "subjectKey": "deck-accessories",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An elegant close architectural composition of deck railing posts, slim balusters, secure stair handrails and coordinating deck trim on a residential porch. Emphasize railing and stair details rather than furniture. Lighting: warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks-accessories.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-accessories-640.webp",
+          "width": 640,
+          "bytes": 41628
+        },
+        {
+          "src": "/media/service-heroes/decks-accessories-960.webp",
+          "width": 960,
+          "bytes": 77700
+        },
+        {
+          "src": "/media/service-heroes/decks-accessories-1280.webp",
+          "width": 1280,
+          "bytes": 122254
+        },
+        {
+          "src": "/media/service-heroes/decks-accessories-1600.webp",
+          "width": 1600,
+          "bytes": 164534
+        }
+      ],
+      "originalBytes": 2404478,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/installations/",
+      "slug": "decks-installations",
+      "service": "Deck Installation",
+      "family": "deck-install",
+      "subjectKey": "deck-installation",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A newly completed medium-sized residential deck attached to a modest home, with straight deck-board lines, neatly finished perimeter, coordinated railings and stairs into a tidy garden. No construction crew or exposed unsafe work. Lighting: clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks-installations.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-installations-640.webp",
+          "width": 640,
+          "bytes": 60808
+        },
+        {
+          "src": "/media/service-heroes/decks-installations-960.webp",
+          "width": 960,
+          "bytes": 120520
+        },
+        {
+          "src": "/media/service-heroes/decks-installations-1280.webp",
+          "width": 1280,
+          "bytes": 197692
+        },
+        {
+          "src": "/media/service-heroes/decks-installations-1600.webp",
+          "width": 1600,
+          "bytes": 222040
+        }
+      ],
+      "originalBytes": 3093275,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/refinishing/",
+      "slug": "decks-refinishing",
+      "service": "Deck Refinishing",
+      "family": "deck-refinish",
+      "subjectKey": "deck-refinishing",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A close, low-angle view of freshly refinished warm natural wood deck boards, realistic subtle wood grain and a clean matching railing, with a small glimpse of a home and garden beyond. Clearly a wood deck, no composite branding. Lighting: clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks-refinishing.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-refinishing-640.webp",
+          "width": 640,
+          "bytes": 44432
+        },
+        {
+          "src": "/media/service-heroes/decks-refinishing-960.webp",
+          "width": 960,
+          "bytes": 81116
+        },
+        {
+          "src": "/media/service-heroes/decks-refinishing-1280.webp",
+          "width": 1280,
+          "bytes": 127376
+        },
+        {
+          "src": "/media/service-heroes/decks-refinishing-1600.webp",
+          "width": 1600,
+          "bytes": 167398
+        }
+      ],
+      "originalBytes": 2774837,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/repairs/",
+      "slug": "decks-repairs",
+      "service": "Deck Repair",
+      "family": "deck-repair",
+      "subjectKey": "deck-repair",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A residential wood deck with a clearly localized neatly replaced board section and a securely finished railing connection. Natural weathering on adjacent boards, no dangerous gaps or exaggerated disrepair. Focus on the repaired deck detail, no split-screen comparison. Lighting: bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks-repairs.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-repairs-640.webp",
+          "width": 640,
+          "bytes": 34684
+        },
+        {
+          "src": "/media/service-heroes/decks-repairs-960.webp",
+          "width": 960,
+          "bytes": 59134
+        },
+        {
+          "src": "/media/service-heroes/decks-repairs-1280.webp",
+          "width": 1280,
+          "bytes": 92710
+        },
+        {
+          "src": "/media/service-heroes/decks-repairs-1600.webp",
+          "width": 1600,
+          "bytes": 122826
+        }
+      ],
+      "originalBytes": 2423964,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/decks/replacements/",
+      "slug": "decks-replacements",
+      "service": "Deck Replacement",
+      "family": "deck-replace",
+      "subjectKey": "deck-replacement",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A thoughtfully rebuilt residential deck with fresh warm-neutral deck boards and simple modern railings, replacing an older outdoor platform in a mature garden setting. Finished architecture only, no demolition debris. Lighting: warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/decks-replacements.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/decks-replacements-640.webp",
+          "width": 640,
+          "bytes": 61608
+        },
+        {
+          "src": "/media/service-heroes/decks-replacements-960.webp",
+          "width": 960,
+          "bytes": 120260
+        },
+        {
+          "src": "/media/service-heroes/decks-replacements-1280.webp",
+          "width": 1280,
+          "bytes": 191678
+        },
+        {
+          "src": "/media/service-heroes/decks-replacements-1600.webp",
+          "width": 1600,
+          "bytes": 213864
+        }
+      ],
+      "originalBytes": 3096277,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/delaware-oh/",
+      "slug": "delaware-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a warm-white Cape Cod house with a tidy front garden, in warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/delaware-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/delaware-oh-640.webp",
+          "width": 640,
+          "bytes": 53914
+        },
+        {
+          "src": "/media/service-heroes/delaware-oh-960.webp",
+          "width": 960,
+          "bytes": 112684
+        },
+        {
+          "src": "/media/service-heroes/delaware-oh-1280.webp",
+          "width": 1280,
+          "bytes": 188516
+        },
+        {
+          "src": "/media/service-heroes/delaware-oh-1600.webp",
+          "width": 1600,
+          "bytes": 214638
+        }
+      ],
+      "originalBytes": 3136642,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/dublin-oh/",
+      "slug": "dublin-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a soft-blue suburban house with a broad hipped roof, in warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/dublin-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 39630
+        },
+        {
+          "src": "/media/service-heroes/dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 84132
+        },
+        {
+          "src": "/media/service-heroes/dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 148144
+        },
+        {
+          "src": "/media/service-heroes/dublin-oh-1600.webp",
+          "width": 1600,
+          "bytes": 211126
+        }
+      ],
+      "originalBytes": 2804425,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/exterior-painting/",
+      "slug": "exterior-painting",
+      "service": "Exterior Painting",
+      "family": "painting",
+      "subjectKey": "painting",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A modest residential exterior with freshly finished ivory painted lap siding, charcoal painted trim and a tasteful porch door, captured at an oblique angle emphasizing the painted facade and clean edges. No paint spills, brand buckets or text. Lighting: bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/exterior-painting.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/exterior-painting-640.webp",
+          "width": 640,
+          "bytes": 33710
+        },
+        {
+          "src": "/media/service-heroes/exterior-painting-960.webp",
+          "width": 960,
+          "bytes": 64796
+        },
+        {
+          "src": "/media/service-heroes/exterior-painting-1280.webp",
+          "width": 1280,
+          "bytes": 105466
+        },
+        {
+          "src": "/media/service-heroes/exterior-painting-1600.webp",
+          "width": 1600,
+          "bytes": 142176
+        }
+      ],
+      "originalBytes": 2452561,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/gahanna-oh/",
+      "slug": "gahanna-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a compact brick-and-siding colonial with dark shutters, in warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/gahanna-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/gahanna-oh-640.webp",
+          "width": 640,
+          "bytes": 55472
+        },
+        {
+          "src": "/media/service-heroes/gahanna-oh-960.webp",
+          "width": 960,
+          "bytes": 114680
+        },
+        {
+          "src": "/media/service-heroes/gahanna-oh-1280.webp",
+          "width": 1280,
+          "bytes": 197180
+        },
+        {
+          "src": "/media/service-heroes/gahanna-oh-1600.webp",
+          "width": 1600,
+          "bytes": 225446
+        }
+      ],
+      "originalBytes": 3145294,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/grove-city-oh/",
+      "slug": "grove-city-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a pale sage home with a simple porch and mature garden, in warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/grove-city-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/grove-city-oh-640.webp",
+          "width": 640,
+          "bytes": 57580
+        },
+        {
+          "src": "/media/service-heroes/grove-city-oh-960.webp",
+          "width": 960,
+          "bytes": 118472
+        },
+        {
+          "src": "/media/service-heroes/grove-city-oh-1280.webp",
+          "width": 1280,
+          "bytes": 201570
+        },
+        {
+          "src": "/media/service-heroes/grove-city-oh-1600.webp",
+          "width": 1600,
+          "bytes": 232386
+        }
+      ],
+      "originalBytes": 3258889,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/gutter-installation-dublin-oh/",
+      "slug": "gutter-installation-dublin-oh",
+      "service": "Gutter Services",
+      "family": "gutters",
+      "subjectKey": "gutters",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A long clean white aluminum gutter and tidy downspout following the roof edge of a well-maintained Ohio house, realistic roof shingles, fascia and landscaping. Emphasize the gutter as a complete residential exterior system. Lighting: clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/gutter-installation-dublin-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/gutter-installation-dublin-oh-640.webp",
+          "width": 640,
+          "bytes": 33998
+        },
+        {
+          "src": "/media/service-heroes/gutter-installation-dublin-oh-960.webp",
+          "width": 960,
+          "bytes": 62044
+        },
+        {
+          "src": "/media/service-heroes/gutter-installation-dublin-oh-1280.webp",
+          "width": 1280,
+          "bytes": 96714
+        },
+        {
+          "src": "/media/service-heroes/gutter-installation-dublin-oh-1600.webp",
+          "width": 1600,
+          "bytes": 129314
+        }
+      ],
+      "originalBytes": 2347721,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/gutters/",
+      "slug": "gutters",
+      "service": "Gutter Services",
+      "family": "gutters",
+      "subjectKey": "gutters",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A long clean white aluminum gutter and tidy downspout following the roof edge of a well-maintained Ohio house, realistic roof shingles, fascia and landscaping. Emphasize the gutter as a complete residential exterior system. Lighting: bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/gutters.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/gutters-640.webp",
+          "width": 640,
+          "bytes": 27232
+        },
+        {
+          "src": "/media/service-heroes/gutters-960.webp",
+          "width": 960,
+          "bytes": 48888
+        },
+        {
+          "src": "/media/service-heroes/gutters-1280.webp",
+          "width": 1280,
+          "bytes": 74292
+        },
+        {
+          "src": "/media/service-heroes/gutters-1600.webp",
+          "width": 1600,
+          "bytes": 97972
+        }
+      ],
+      "originalBytes": 2190321,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/gutters/guards/",
+      "slug": "gutters-guards",
+      "service": "Gutter Guards",
+      "family": "guards",
+      "subjectKey": "gutter-guards",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A close architectural photograph-style illustration of a clean gutter fitted with a generic fine perforated protective cover beneath a shingle roof edge, convincing fascia connection, a few soft-focus autumn leaves in the distant background. No brand-specific product design, no cutaway or diagrams. Lighting: warm late-summer afternoon light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/gutters-guards.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/gutters-guards-640.webp",
+          "width": 640,
+          "bytes": 40134
+        },
+        {
+          "src": "/media/service-heroes/gutters-guards-960.webp",
+          "width": 960,
+          "bytes": 73398
+        },
+        {
+          "src": "/media/service-heroes/gutters-guards-1280.webp",
+          "width": 1280,
+          "bytes": 116174
+        },
+        {
+          "src": "/media/service-heroes/gutters-guards-1600.webp",
+          "width": 1600,
+          "bytes": 156000
+        }
+      ],
+      "originalBytes": 2572917,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/gutters/seamless/",
+      "slug": "gutters-seamless",
+      "service": "Seamless Gutters",
+      "family": "seamless",
+      "subjectKey": "seamless",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A crisp close architectural view along a long uninterrupted seamless aluminum gutter run toward a neatly formed corner and downspout, on a warm-white house with charcoal shingles. Emphasize the continuous gutter length, no oversized seams or invented installation features. Lighting: clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/gutters-seamless.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/gutters-seamless-640.webp",
+          "width": 640,
+          "bytes": 32154
+        },
+        {
+          "src": "/media/service-heroes/gutters-seamless-960.webp",
+          "width": 960,
+          "bytes": 57574
+        },
+        {
+          "src": "/media/service-heroes/gutters-seamless-1280.webp",
+          "width": 1280,
+          "bytes": 91542
+        },
+        {
+          "src": "/media/service-heroes/gutters-seamless-1600.webp",
+          "width": 1600,
+          "bytes": 122274
+        }
+      ],
+      "originalBytes": 2418674,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/hamilton-oh/",
+      "slug": "hamilton-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a soft-blue suburban house with a broad hipped roof, in clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/hamilton-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/hamilton-oh-640.webp",
+          "width": 640,
+          "bytes": 41592
+        },
+        {
+          "src": "/media/service-heroes/hamilton-oh-960.webp",
+          "width": 960,
+          "bytes": 93110
+        },
+        {
+          "src": "/media/service-heroes/hamilton-oh-1280.webp",
+          "width": 1280,
+          "bytes": 169182
+        },
+        {
+          "src": "/media/service-heroes/hamilton-oh-1600.webp",
+          "width": 1600,
+          "bytes": 239382
+        }
+      ],
+      "originalBytes": 3084999,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/hilliard-oh/",
+      "slug": "hilliard-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a traditional tan-sided home with a brick porch base, in clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/hilliard-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/hilliard-oh-640.webp",
+          "width": 640,
+          "bytes": 50170
+        },
+        {
+          "src": "/media/service-heroes/hilliard-oh-960.webp",
+          "width": 960,
+          "bytes": 105806
+        },
+        {
+          "src": "/media/service-heroes/hilliard-oh-1280.webp",
+          "width": 1280,
+          "bytes": 181670
+        },
+        {
+          "src": "/media/service-heroes/hilliard-oh-1600.webp",
+          "width": 1600,
+          "bytes": 208710
+        }
+      ],
+      "originalBytes": 3090969,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/lancaster-oh/",
+      "slug": "lancaster-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a compact brick-and-siding colonial with dark shutters, in clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/lancaster-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/lancaster-oh-640.webp",
+          "width": 640,
+          "bytes": 48170
+        },
+        {
+          "src": "/media/service-heroes/lancaster-oh-960.webp",
+          "width": 960,
+          "bytes": 105892
+        },
+        {
+          "src": "/media/service-heroes/lancaster-oh-1280.webp",
+          "width": 1280,
+          "bytes": 183898
+        },
+        {
+          "src": "/media/service-heroes/lancaster-oh-1600.webp",
+          "width": 1600,
+          "bytes": 213294
+        }
+      ],
+      "originalBytes": 3129289,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/lewis-center-oh/",
+      "slug": "lewis-center-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a pale sage home with a simple porch and mature garden, in clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/lewis-center-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/lewis-center-oh-640.webp",
+          "width": 640,
+          "bytes": 49866
+        },
+        {
+          "src": "/media/service-heroes/lewis-center-oh-960.webp",
+          "width": 960,
+          "bytes": 102684
+        },
+        {
+          "src": "/media/service-heroes/lewis-center-oh-1280.webp",
+          "width": 1280,
+          "bytes": 174940
+        },
+        {
+          "src": "/media/service-heroes/lewis-center-oh-1600.webp",
+          "width": 1600,
+          "bytes": 200474
+        }
+      ],
+      "originalBytes": 3074907,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/middletown-oh/",
+      "slug": "middletown-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a modest cream-sided two-story home with a charcoal gabled roof, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/middletown-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/middletown-oh-640.webp",
+          "width": 640,
+          "bytes": 38846
+        },
+        {
+          "src": "/media/service-heroes/middletown-oh-960.webp",
+          "width": 960,
+          "bytes": 82438
+        },
+        {
+          "src": "/media/service-heroes/middletown-oh-1280.webp",
+          "width": 1280,
+          "bytes": 142834
+        },
+        {
+          "src": "/media/service-heroes/middletown-oh-1600.webp",
+          "width": 1600,
+          "bytes": 201620
+        }
+      ],
+      "originalBytes": 2864605,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/newark-oh/",
+      "slug": "newark-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a red-brick ranch with pale trim and mature maple trees, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/newark-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/newark-oh-640.webp",
+          "width": 640,
+          "bytes": 63430
+        },
+        {
+          "src": "/media/service-heroes/newark-oh-960.webp",
+          "width": 960,
+          "bytes": 142082
+        },
+        {
+          "src": "/media/service-heroes/newark-oh-1280.webp",
+          "width": 1280,
+          "bytes": 207380
+        },
+        {
+          "src": "/media/service-heroes/newark-oh-1600.webp",
+          "width": 1600,
+          "bytes": 215754
+        }
+      ],
+      "originalBytes": 3728713,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/powell-oh/",
+      "slug": "powell-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a light-gray craftsman home with a sheltered front porch, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/powell-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/powell-oh-640.webp",
+          "width": 640,
+          "bytes": 47708
+        },
+        {
+          "src": "/media/service-heroes/powell-oh-960.webp",
+          "width": 960,
+          "bytes": 97476
+        },
+        {
+          "src": "/media/service-heroes/powell-oh-1280.webp",
+          "width": 1280,
+          "bytes": 162704
+        },
+        {
+          "src": "/media/service-heroes/powell-oh-1600.webp",
+          "width": 1600,
+          "bytes": 226966
+        }
+      ],
+      "originalBytes": 2974222,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/siding/",
+      "slug": "siding",
+      "service": "Siding Services",
+      "family": "siding",
+      "subjectKey": "siding",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A realistic suburban home with beautifully finished pale-gray horizontal siding, clean off-white window trim, a small porch and coordinated architectural roofing. Three-quarter facade view emphasizing siding surfaces and proportions. Lighting: clear early-autumn morning with restrained amber foliage.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/siding.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/siding-640.webp",
+          "width": 640,
+          "bytes": 39184
+        },
+        {
+          "src": "/media/service-heroes/siding-960.webp",
+          "width": 960,
+          "bytes": 83892
+        },
+        {
+          "src": "/media/service-heroes/siding-1280.webp",
+          "width": 1280,
+          "bytes": 145476
+        },
+        {
+          "src": "/media/service-heroes/siding-1600.webp",
+          "width": 1600,
+          "bytes": 203564
+        }
+      ],
+      "originalBytes": 2861666,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/siding/replacement/",
+      "slug": "siding-replacement",
+      "service": "Siding Replacement",
+      "family": "siding-replacement",
+      "subjectKey": "siding-replacement",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A freshly renewed suburban home exterior with clean warm ivory lap siding, neatly finished corners, window trim and a contrasting front door, framed to emphasize the complete replaced wall and adjoining surfaces. Finished architecture only, no crew or debris. Lighting: clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/siding-replacement.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/siding-replacement-640.webp",
+          "width": 640,
+          "bytes": 46064
+        },
+        {
+          "src": "/media/service-heroes/siding-replacement-960.webp",
+          "width": 960,
+          "bytes": 93246
+        },
+        {
+          "src": "/media/service-heroes/siding-replacement-1280.webp",
+          "width": 1280,
+          "bytes": 156938
+        },
+        {
+          "src": "/media/service-heroes/siding-replacement-1600.webp",
+          "width": 1600,
+          "bytes": 216370
+        }
+      ],
+      "originalBytes": 2911681,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/siding/types/",
+      "slug": "siding-types",
+      "service": "Siding Materials",
+      "family": "siding-types",
+      "subjectKey": "siding-materials",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A tasteful craftsman home exterior combining muted sage horizontal lap siding and subtle vertical board-and-batten accents with white trim. Show clear material profiles and architectural detailing in a single believable facade, not a collage or a fake manufacturer sample. Lighting: bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/siding-types.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/siding-types-640.webp",
+          "width": 640,
+          "bytes": 37018
+        },
+        {
+          "src": "/media/service-heroes/siding-types-960.webp",
+          "width": 960,
+          "bytes": 79520
+        },
+        {
+          "src": "/media/service-heroes/siding-types-1280.webp",
+          "width": 1280,
+          "bytes": 136964
+        },
+        {
+          "src": "/media/service-heroes/siding-types-1600.webp",
+          "width": 1600,
+          "bytes": 191126
+        }
+      ],
+      "originalBytes": 2831294,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/upper-arlington-oh/",
+      "slug": "upper-arlington-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a compact brick-and-siding colonial with dark shutters, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/upper-arlington-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/upper-arlington-oh-640.webp",
+          "width": 640,
+          "bytes": 39926
+        },
+        {
+          "src": "/media/service-heroes/upper-arlington-oh-960.webp",
+          "width": 960,
+          "bytes": 87934
+        },
+        {
+          "src": "/media/service-heroes/upper-arlington-oh-1280.webp",
+          "width": 1280,
+          "bytes": 153984
+        },
+        {
+          "src": "/media/service-heroes/upper-arlington-oh-1600.webp",
+          "width": 1600,
+          "bytes": 216116
+        }
+      ],
+      "originalBytes": 2960086,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/westerville-oh/",
+      "slug": "westerville-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a pale sage home with a simple porch and mature garden, in clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/westerville-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/westerville-oh-640.webp",
+          "width": 640,
+          "bytes": 48988
+        },
+        {
+          "src": "/media/service-heroes/westerville-oh-960.webp",
+          "width": 960,
+          "bytes": 100576
+        },
+        {
+          "src": "/media/service-heroes/westerville-oh-1280.webp",
+          "width": 1280,
+          "bytes": 170540
+        },
+        {
+          "src": "/media/service-heroes/westerville-oh-1600.webp",
+          "width": 1600,
+          "bytes": 235746
+        }
+      ],
+      "originalBytes": 3043101,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/windows/",
+      "slug": "windows",
+      "service": "Window Replacement",
+      "family": "windows",
+      "subjectKey": "windows",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: A high-end architectural close view of a modest home facade with clean newly fitted white-framed double-hung windows, realistic glass reflections, precise exterior trim and muted siding, with garden planting below. Focus on the windows and their trim rather than the roof. Lighting: clear soft spring morning light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/windows.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/windows-640.webp",
+          "width": 640,
+          "bytes": 44482
+        },
+        {
+          "src": "/media/service-heroes/windows-960.webp",
+          "width": 960,
+          "bytes": 80382
+        },
+        {
+          "src": "/media/service-heroes/windows-1280.webp",
+          "width": 1280,
+          "bytes": 125618
+        },
+        {
+          "src": "/media/service-heroes/windows-1600.webp",
+          "width": 1600,
+          "bytes": 166296
+        }
+      ],
+      "originalBytes": 2599983,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/worthington-oh/",
+      "slug": "worthington-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a red-brick ranch with pale trim and mature maple trees, in bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/worthington-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/worthington-oh-640.webp",
+          "width": 640,
+          "bytes": 58466
+        },
+        {
+          "src": "/media/service-heroes/worthington-oh-960.webp",
+          "width": 960,
+          "bytes": 129048
+        },
+        {
+          "src": "/media/service-heroes/worthington-oh-1280.webp",
+          "width": 1280,
+          "bytes": 221652
+        },
+        {
+          "src": "/media/service-heroes/worthington-oh-1600.webp",
+          "width": 1600,
+          "bytes": 233996
+        }
+      ],
+      "originalBytes": 3563090,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    },
+    {
+      "route": "/zanesville-oh/",
+      "slug": "zanesville-oh",
+      "service": "Roofing & Exterior Services",
+      "family": "local",
+      "subjectKey": "local",
+      "prompt": "Use case: photorealistic-natural. Asset: premium full-bleed exterior-service website hero, wide landscape 16:9 composition. Create one distinct photorealistic architectural editorial scene. Place the main subject in the right half with a calmer natural environment on the left for an ivory website fade and headline. Bright natural light, realistic ordinary Ohio architecture, tasteful neutral materials, true-to-life texture and construction geometry. No text, logos, watermarks, badges, typography, collage, cutaways, giant mansions, people or invented city landmarks. This is illustrative service imagery, not a documentary contractor job or exact branded product. Subject: An ordinary, beautifully maintained Ohio home with an architectural shingle roof, clearly visible siding, windows and a clean gutter line, seen in a three-quarter exterior view. Emphasize the complete home exterior rather than a city skyline. For this distinct composition use a light-gray craftsman home with a sheltered front porch, in bright overcast early-summer light.",
+      "status": "generated",
+      "objectPosition": "70% center",
+      "originalFile": "output/imagegen/service-heroes/zanesville-oh.png",
+      "assets": [
+        {
+          "src": "/media/service-heroes/zanesville-oh-640.webp",
+          "width": 640,
+          "bytes": 39324
+        },
+        {
+          "src": "/media/service-heroes/zanesville-oh-960.webp",
+          "width": 960,
+          "bytes": 82702
+        },
+        {
+          "src": "/media/service-heroes/zanesville-oh-1280.webp",
+          "width": 1280,
+          "bytes": 143486
+        },
+        {
+          "src": "/media/service-heroes/zanesville-oh-1600.webp",
+          "width": 1600,
+          "bytes": 201102
+        }
+      ],
+      "originalBytes": 2905953,
+      "visualReview": {
+        "contactSheet": true,
+        "browserWidths": [
+          1440,
+          390,
+          320
+        ],
+        "notes": "Distinct service scene; no logos or text; illustrative labeling retained."
+      }
+    }
+  ],
+  "metrics": {
+    "images": 43,
+    "variants": 172,
+    "originalBytes": 124750850,
+    "optimizedBytes": 20723364,
+    "largestVariantBytes": 239382
+  },
+  "validation": {
+    "nativeServicePages": 84,
+    "customHeroes": 84,
+    "parentPages": 13,
+    "childHeroPreviews": 41,
+    "browserHeroChecks": 252,
+    "browserTabSelections": 123,
+    "sourceCopyAndRoutes": "npm run verify passed"
+  }
+}

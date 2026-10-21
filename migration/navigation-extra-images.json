@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "method": "built-in image generation",
+  "usage": "Illustrative menu imagery, not actual contractor jobs or branded product samples.",
+  "images": {
+    "winter-roofing": {
+      "src": "/media/navigation/winter-roofing-640.webp",
+      "width": 640,
+      "height": 360,
+      "illustrative": true,
+      "prompt": "Photorealistic editorial architectural illustration for a winter roofing information menu preview, landscape 16:9. Close three-quarter roofline of a modest Ohio home after light snowfall, a thin realistic layer of snow on charcoal asphalt shingles, clean white fascia and gutter with only a few small icicles, leafless trees softly behind, crisp bright winter daylight. Emphasize roof details on right and clear natural depth. No people, text, logos, watermarks, disaster, giant icicles or unsafe work. Illustrative winter home maintenance imagery, not an actual contractor job.",
+      "originalFile": "output/imagegen/navigation/winter-roofing.png"
+    },
+    "holiday-lighting": {
+      "src": "/media/navigation/holiday-lighting-640.webp",
+      "width": 640,
+      "height": 360,
+      "illustrative": true,
+      "prompt": "Premium architectural editorial photo-style illustration for an exterior home seasonal article menu preview. Landscape 16:9. A modest tasteful suburban house at blue-hour twilight with a neat single warm-white string of holiday lights along the roof eaves and porch, clean roofing and gutter silhouette, a restrained small evergreen wreath, realistic scale and soft winter landscaping. No people, brand names, written text, watermarks, snowstorm, giant decorations, installation ladders or unsafe electrical details. Illustrative home exterior seasonal scene, not an actual customer project.",
+      "originalFile": "output/imagegen/navigation/holiday-lighting.png"
+    },
+    "composite-decking": {
+      "src": "/media/navigation/composite-decking-640.webp",
+      "width": 640,
+      "height": 360,
+      "illustrative": true,
+      "prompt": "Premium architectural editorial photograph-style illustration for a composite decking material collection menu preview. Landscape 16:9. Low garden-side view of a refined medium-sized deck with muted warm-gray composite-style deck boards, neat uniform board gaps, clean dark slim railings, one simple outdoor armchair and a modest light-sided house in the background. Main focus on deck-board texture and finished railing detail in bright soft daylight. Material concept only, no named manufacturer or exact product claims, no people, logos, writing, watermarks, diagrams or construction crew.",
+      "originalFile": "output/imagegen/navigation/composite-decking.png"
+    }
+  }
+}

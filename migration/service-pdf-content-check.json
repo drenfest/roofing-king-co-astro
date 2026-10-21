@@ -7,7 +7,7 @@
     {
       "path": "/akron-oh/",
       "sourceId": 1,
-      "bodyWords": 1199,
+      "bodyWords": 1201,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -18,7 +18,7 @@
     {
       "path": "/athens-oh/",
       "sourceId": 2,
-      "bodyWords": 1194,
+      "bodyWords": 1196,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -29,7 +29,7 @@
     {
       "path": "/attic-insulation/",
       "sourceId": 3,
-      "bodyWords": 1156,
+      "bodyWords": 1158,
       "pdfBlocks": 24,
       "reviewedOverride": false,
       "expectedBlocks": 24,
@@ -40,7 +40,7 @@
     {
       "path": "/aurora-oh/",
       "sourceId": 4,
-      "bodyWords": 1185,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -51,7 +51,7 @@
     {
       "path": "/beavercreek-oh/",
       "sourceId": 5,
-      "bodyWords": 1190,
+      "bodyWords": 1192,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -62,7 +62,7 @@
     {
       "path": "/centerville-oh/",
       "sourceId": 6,
-      "bodyWords": 1182,
+      "bodyWords": 1184,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -73,13 +73,13 @@
     {
       "path": "/cincinnati-oh/",
       "sourceId": 7,
-      "bodyWords": 1266,
+      "bodyWords": 1271,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 12
+      "images": 15
     },
     {
       "path": "/cincinnati-oh/roofing/",
@@ -106,7 +106,7 @@
     {
       "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
       "sourceId": 10,
-      "bodyWords": 1267,
+      "bodyWords": 1269,
       "pdfBlocks": 26,
       "reviewedOverride": true,
       "expectedBlocks": 33,
@@ -117,24 +117,24 @@
     {
       "path": "/cleveland-oh/",
       "sourceId": 11,
-      "bodyWords": 1205,
+      "bodyWords": 1209,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 12
+      "images": 14
     },
     {
       "path": "/cleveland-oh/roofing/",
       "sourceId": 12,
-      "bodyWords": 1358,
+      "bodyWords": 1359,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
       "faqItems": 3,
       "contentBands": 4,
-      "images": 9
+      "images": 10
     },
     {
       "path": "/cleveland-oh/roofing/cost-of-replacement/",
@@ -161,13 +161,13 @@
     {
       "path": "/columbus-oh/",
       "sourceId": 15,
-      "bodyWords": 1214,
+      "bodyWords": 1218,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 12
+      "images": 14
     },
     {
       "path": "/columbus-oh/roofing/",
@@ -194,13 +194,13 @@
     {
       "path": "/commercial-roofing/",
       "sourceId": 18,
-      "bodyWords": 1183,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 2,
-      "images": 6
+      "images": 10
     },
     {
       "path": "/commercial-roofing/gutters/",
@@ -249,7 +249,7 @@
     {
       "path": "/commercial-siding/",
       "sourceId": 23,
-      "bodyWords": 1208,
+      "bodyWords": 1210,
       "pdfBlocks": 27,
       "reviewedOverride": true,
       "expectedBlocks": 34,
@@ -271,13 +271,13 @@
     {
       "path": "/dayton-oh/",
       "sourceId": 25,
-      "bodyWords": 1254,
+      "bodyWords": 1259,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 12
+      "images": 15
     },
     {
       "path": "/dayton-oh/roofing/",
@@ -304,7 +304,7 @@
     {
       "path": "/dayton-oh/the-cost-of-new-gutters/",
       "sourceId": 28,
-      "bodyWords": 1208,
+      "bodyWords": 1210,
       "pdfBlocks": 26,
       "reviewedOverride": true,
       "expectedBlocks": 33,
@@ -326,18 +326,18 @@
     {
       "path": "/decks/",
       "sourceId": 30,
-      "bodyWords": 1193,
+      "bodyWords": 1200,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 7
+      "images": 12
     },
     {
       "path": "/decks/accessories/",
       "sourceId": 31,
-      "bodyWords": 1166,
+      "bodyWords": 1168,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -348,7 +348,7 @@
     {
       "path": "/decks/installations/",
       "sourceId": 32,
-      "bodyWords": 1162,
+      "bodyWords": 1164,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -359,7 +359,7 @@
     {
       "path": "/decks/refinishing/",
       "sourceId": 33,
-      "bodyWords": 1188,
+      "bodyWords": 1190,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -370,7 +370,7 @@
     {
       "path": "/decks/repairs/",
       "sourceId": 34,
-      "bodyWords": 1171,
+      "bodyWords": 1173,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -381,7 +381,7 @@
     {
       "path": "/decks/replacements/",
       "sourceId": 35,
-      "bodyWords": 1164,
+      "bodyWords": 1166,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -392,13 +392,13 @@
     {
       "path": "/delaware-oh/",
       "sourceId": 36,
-      "bodyWords": 1216,
+      "bodyWords": 1220,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 12
+      "images": 14
     },
     {
       "path": "/delaware-oh/roofing/",
@@ -425,7 +425,7 @@
     {
       "path": "/dublin-oh/",
       "sourceId": 39,
-      "bodyWords": 1191,
+      "bodyWords": 1193,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -447,7 +447,7 @@
     {
       "path": "/exterior-painting/",
       "sourceId": 41,
-      "bodyWords": 1167,
+      "bodyWords": 1169,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
@@ -469,7 +469,7 @@
     {
       "path": "/gahanna-oh/",
       "sourceId": 43,
-      "bodyWords": 1184,
+      "bodyWords": 1186,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -480,7 +480,7 @@
     {
       "path": "/grove-city-oh/",
       "sourceId": 44,
-      "bodyWords": 1194,
+      "bodyWords": 1196,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -491,7 +491,7 @@
     {
       "path": "/gutter-installation-dublin-oh/",
       "sourceId": 45,
-      "bodyWords": 1191,
+      "bodyWords": 1193,
       "pdfBlocks": 26,
       "reviewedOverride": true,
       "expectedBlocks": 33,
@@ -502,18 +502,18 @@
     {
       "path": "/gutters/",
       "sourceId": 46,
-      "bodyWords": 1309,
+      "bodyWords": 1313,
       "pdfBlocks": 26,
       "reviewedOverride": true,
       "expectedBlocks": 33,
       "faqItems": 3,
       "contentBands": 2,
-      "images": 8
+      "images": 10
     },
     {
       "path": "/gutters/guards/",
       "sourceId": 47,
-      "bodyWords": 1167,
+      "bodyWords": 1169,
       "pdfBlocks": 25,
       "reviewedOverride": true,
       "expectedBlocks": 32,
@@ -524,7 +524,7 @@
     {
       "path": "/gutters/seamless/",
       "sourceId": 48,
-      "bodyWords": 1181,
+      "bodyWords": 1183,
       "pdfBlocks": 27,
       "reviewedOverride": true,
       "expectedBlocks": 34,
@@ -546,7 +546,7 @@
     {
       "path": "/hamilton-oh/",
       "sourceId": 50,
-      "bodyWords": 1185,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -557,7 +557,7 @@
     {
       "path": "/hilliard-oh/",
       "sourceId": 51,
-      "bodyWords": 1184,
+      "bodyWords": 1186,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -579,7 +579,7 @@
     {
       "path": "/lancaster-oh/",
       "sourceId": 53,
-      "bodyWords": 1185,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -590,7 +590,7 @@
     {
       "path": "/lewis-center-oh/",
       "sourceId": 54,
-      "bodyWords": 1195,
+      "bodyWords": 1197,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -612,7 +612,7 @@
     {
       "path": "/middletown-oh/",
       "sourceId": 56,
-      "bodyWords": 1181,
+      "bodyWords": 1183,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -623,7 +623,7 @@
     {
       "path": "/newark-oh/",
       "sourceId": 57,
-      "bodyWords": 1184,
+      "bodyWords": 1186,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -634,7 +634,7 @@
     {
       "path": "/powell-oh/",
       "sourceId": 58,
-      "bodyWords": 1185,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -700,13 +700,13 @@
     {
       "path": "/roofing/gaf/",
       "sourceId": 64,
-      "bodyWords": 1329,
+      "bodyWords": 1330,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
       "faqItems": 3,
       "contentBands": 4,
-      "images": 9
+      "images": 11
     },
     {
       "path": "/roofing/gaf/master-elite/",
@@ -766,18 +766,18 @@
     {
       "path": "/siding/",
       "sourceId": 70,
-      "bodyWords": 1255,
+      "bodyWords": 1259,
       "pdfBlocks": 28,
       "reviewedOverride": true,
       "expectedBlocks": 35,
       "faqItems": 3,
       "contentBands": 2,
-      "images": 10
+      "images": 12
     },
     {
       "path": "/siding/replacement/",
       "sourceId": 71,
-      "bodyWords": 1215,
+      "bodyWords": 1217,
       "pdfBlocks": 27,
       "reviewedOverride": true,
       "expectedBlocks": 34,
@@ -788,7 +788,7 @@
     {
       "path": "/siding/types/",
       "sourceId": 72,
-      "bodyWords": 1192,
+      "bodyWords": 1194,
       "pdfBlocks": 26,
       "reviewedOverride": true,
       "expectedBlocks": 33,
@@ -810,13 +810,13 @@
     {
       "path": "/storm-damage/",
       "sourceId": 74,
-      "bodyWords": 1501,
+      "bodyWords": 1505,
       "pdfBlocks": 26,
       "reviewedOverride": false,
       "expectedBlocks": 26,
       "faqItems": 3,
       "contentBands": 3,
-      "images": 8
+      "images": 12
     },
     {
       "path": "/storm-damage/commercial/",
@@ -865,7 +865,7 @@
     {
       "path": "/upper-arlington-oh/",
       "sourceId": 79,
-      "bodyWords": 1189,
+      "bodyWords": 1191,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -876,7 +876,7 @@
     {
       "path": "/westerville-oh/",
       "sourceId": 80,
-      "bodyWords": 1179,
+      "bodyWords": 1181,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -887,7 +887,7 @@
     {
       "path": "/windows/",
       "sourceId": 81,
-      "bodyWords": 1243,
+      "bodyWords": 1245,
       "pdfBlocks": 27,
       "reviewedOverride": false,
       "expectedBlocks": 27,
@@ -898,7 +898,7 @@
     {
       "path": "/worthington-oh/",
       "sourceId": 82,
-      "bodyWords": 1185,
+      "bodyWords": 1187,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,
@@ -909,7 +909,7 @@
     {
       "path": "/zanesville-oh/",
       "sourceId": 83,
-      "bodyWords": 1183,
+      "bodyWords": 1185,
       "pdfBlocks": 25,
       "reviewedOverride": false,
       "expectedBlocks": 25,

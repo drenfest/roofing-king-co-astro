@@ -48,3 +48,9 @@ check-service-reviews.mjs runs in verify for the explicit ten-page batches. It c
 
 
 optimize-product-collections.mjs prepares five generated material scenes into three responsive WebP sizes and writes product-collection-media.json. Source PNGs remain outside public under output/imagegen/product-collections. Ordinary builds need only committed optimized assets. check-products.mjs also protects all native product heroes, unique collection photos, dimensions, image budgets, source copy, links and heading levels.
+
+
+optimize-service-heroes.mjs prepares the 43 supplementary custom heroes, caps full size at 1600px, exports four responsive WebP sizes with an enforced 300KB maximum, and keeps source PNGs under output/imagegen/service-heroes. --complete requires every planned source. check-services.mjs protects all 84 unique custom heroes and checks every ServicePaths preview against the destination page hero, position, lazy loading and illustrative label.
+
+
+build-menu-atlas.mjs resolves every unique navigation URL, rejects missing or duplicate normalized picture content, prepares 192px cells and exports one content-hashed WebP atlas within its transfer budget. It writes both full image provenance and the compact runtime cell map. Normal builds use committed output and never require source PNGs or generation.

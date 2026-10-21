@@ -70,3 +70,12 @@ navigation-images.json is a compact menu-only image registry extracted from exis
 
 
 product-presentation.ts resolves category imagery, explicit material concepts and genuine default-color shingle samples, with contextual installation destinations. product-collection-media.json records five optimized material scenes at 480/800/1200px. The generated scenes are visibly labeled illustrative and never replace manufacturer samples or logos. Product-pillar headings now name the actual material or manufacturer; comparison copy and destinations are preserved.
+
+
+service-hero.ts resolves a tab destination hero using the same priority as service layouts: roofing-heroes.json first, then editorial hero imagery, then the retained legacy service record. Missing destinations fail the build instead of silently displaying an unrelated image. No image or content records are copied into the Svelte tab island.
+
+
+service-heroes.json and service-hero-media.json add 43 individual illustrative service heroes for all remaining non-roofing/location pages. media.ts merges these responsive assets alongside the existing 41 roofing heroes. The complete native service inventory now has a distinct hero per route; service-hero.ts and PolishedServicePage use both maps with the roofing map taking precedence. Prompts and asset budgets live in migration/service-hero-images.json.
+
+
+navigation-photo-selections.json curates topic/product/brand source choices; native service destinations resolve their actual custom hero automatically when building the menu atlas. navigation-images.json records the complete 121-image provenance/fingerprints. navigation-atlas.json is the small runtime cell map and content-hashed WebP URL. Repeated links to the same destination share its cell; different destinations cannot share picture content.

@@ -12,6 +12,7 @@ import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
 import roofingHeroes from '../data/roofing-heroes.json';
+import serviceHeroes from '../data/service-heroes.json';
 import StormDamageCallout from '../components/StormDamageCallout.astro';
 import ServicePaths from '../components/ServicePaths.astro';
 import ServiceArticle from '../components/ServiceArticle.astro';
@@ -34,7 +35,7 @@ import '../styles/service-landing.css';
 import '../styles/service-editorial.css';
 interface Props {page:CollectionEntry<'pages'>;data:(typeof editorial)[keyof typeof editorial]&{seoTitle?:string};}
 const {page,data}=Astro.props;
-const heroAsset=(roofingHeroes as Record<string,{image:{src:string;alt:string};generated:boolean}>)[page.data.permalink];
+const heroAsset=({...serviceHeroes,...roofingHeroes} as Record<string,{image:{src:string;alt:string};generated:boolean}>)[page.data.permalink];
 const content=(fullCopy as unknown as Record<string,ServiceCopyData>)[page.data.permalink];
 if(!content)throw new Error('Missing full service content: '+page.data.permalink);
 const presentation=('reviewPresentation' in data?data.reviewPresentation:{}) as {batch?:string;credentialsTitle?:string;reviewsTitle?:string;brandsTitle?:string;brandsDescription?:string;brandsSectionId?:string;financeTitle?:string};

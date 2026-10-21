@@ -3,6 +3,8 @@ import ServiceIcon from './ServiceIcon.astro';
 import ServiceExplorer from './ServiceExplorer.svelte';
 import ServiceAudienceBanner from './ServiceAudienceBanner.astro';
 import RichContent from './RichContent.astro';
+import HomeImage from './HomeImage.astro';
+import {serviceHero} from '../data/service-hero';
 import type {ServicePathsData} from '../data/section-types';
 interface Props {section:ServicePathsData;}
 const {section}=Astro.props;
@@ -11,9 +13,11 @@ const id=section.id || 'roofing-services';
 <section id={id} class="rk-landing-section rk-service-paths" data-component="ServicePaths" aria-labelledby={`${id}-title`}><div class="rk-section-inner">
   <div class="rk-landing-heading"><p class="rk-home-eyebrow">{section.eyebrow}</p><h2 id={`${id}-title`}>{section.title}</h2>{section.intro?.length?<RichContent nodes={section.intro}/>:<p>{section.description}</p>}</div>
   <ServiceExplorer {id} label={section.selectorLabel || 'Choose a roofing topic'} tabs={section.items.map(item=>({id:item.id,label:item.tabLabel}))} client:load>
-    {section.items.map(item=><article id={item.id} class="rk-service-detail" data-service-panel aria-labelledby={`${item.id}-heading`}>
-      <div class="rk-service-detail-kicker"><ServiceIcon name={item.icon as 'repair'|'roof'|'storm'|'shield'|'cost'|'calculator'}/><span>{item.tabLabel}</span></div><h3 id={`${item.id}-heading`}>{item.title}</h3>{item.body?<RichContent nodes={item.body}/>:<><p>{item.description}</p>{item.detail && <p>{item.detail}</p>}</>}{item.highlights.length>0 && <ul>{item.highlights.map(text=><li><ServiceIcon name="check"/>{text}</li>)}</ul>}<a class="rk-button rk-button-secondary" href={item.href}>{item.label}<ServiceIcon name="arrow"/></a>{item.related?.length && <div class="rk-service-related-links">{item.related.map(link=><a href={link.href}>{link.label} <span aria-hidden="true">↗</span></a>)}</div>}
-    </article>)}
+    {section.items.map(item=>{const hero=serviceHero(item.href);return <article id={item.id} class="rk-service-detail" data-service-panel aria-labelledby={`${item.id}-heading`}>
+      <div class="rk-service-detail-kicker"><ServiceIcon name={item.icon as 'repair'|'roof'|'storm'|'shield'|'cost'|'calculator'}/><span>{item.tabLabel}</span></div>
+      <figure class="rk-service-tab-image" data-child-hero={item.href}><HomeImage {...hero.image} sizes="(max-width:760px) 90vw, (max-width:1100px) 60vw, 740px"/>{hero.generated&&<figcaption>Illustrative image</figcaption>}</figure>
+      <h3 id={`${item.id}-heading`}>{item.title}</h3>{item.body?<RichContent nodes={item.body}/>:<><p>{item.description}</p>{item.detail && <p>{item.detail}</p>}</>}{item.highlights.length>0 && <ul>{item.highlights.map(text=><li><ServiceIcon name="check"/>{text}</li>)}</ul>}<a class="rk-button rk-button-secondary" href={item.href}>{item.label}<ServiceIcon name="arrow"/></a>{item.related?.length && <div class="rk-service-related-links">{item.related.map(link=><a href={link.href}>{link.label} <span aria-hidden="true">↗</span></a>)}</div>}
+    </article>;})}
   </ServiceExplorer>
   {section.banner && <ServiceAudienceBanner banner={section.banner}/>}
 </div></section>

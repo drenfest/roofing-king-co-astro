@@ -1,0 +1,181 @@
+{
+  "/#services": {
+    "sourceImage": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg"
+  },
+  "/deck-visualizer/": {
+    "sourceImage": "/media/wordpress/98e0e1dbc91f-6cad6ba1-f0cb-4590-840b-fe627dca7c90.jpg"
+  },
+  "/roofing/gaf/types/": {
+    "sourceImage": "/media/wordpress/6d0acbe3aa5e-e21ed39e-0acf-4cc9-b7f1-9245bc203cfb.jpg"
+  },
+  "/service-areas/": {
+    "sourceImage": "/media/wordpress/485992cdfabe-map.jpg"
+  },
+  "/gallery/": {
+    "sourceImage": "/media/wordpress/0fa6956a47df-f499e49c-1e6a-44ee-8357-0c83a00cc908.jpg"
+  },
+  "/about-us/": {
+    "sourceImage": "/media/wordpress/5b350044e5bb-cd3fbd5b-b6cb-4880-b7ef-43c09f3cd5ef.jpg"
+  },
+  "/our-careers/": {
+    "sourceImage": "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg"
+  },
+  "/contact-us/": {
+    "sourceImage": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg"
+  },
+  "/customer-service/": {
+    "sourceImage": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+  },
+  "/blog/": {
+    "sourceImage": "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg"
+  },
+  "/category/roof-replacement/": {
+    "sourceImage": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg"
+  },
+  "/category/storm-damage/": {
+    "sourceImage": "/media/wordpress/717dd193ee03-before.jpg"
+  },
+  "/category/seasonal/": {
+    "sourceImage": "/media/wordpress/eb3a67915989-hero-storm.jpg"
+  },
+  "/category/gutters/": {
+    "sourceImage": "/media/wordpress/fad69c32a02d-25905abd-f01c-438e-850e-62cae479aea4.jpg"
+  },
+  "/category/siding/": {
+    "sourceImage": "/media/wordpress/ac2e059ad288-ea5484fa-c9dc-4fe2-b0fc-45d1e67727e1.jpg"
+  },
+  "/category/gaf-roofing/": {
+    "sourceImage": "/media/wordpress/6157f73c34cd-after.jpg"
+  },
+  "/category/ice-dam-removal/": {
+    "sourceImage": "/media/wordpress/a245b44397b3-aab30e03-9d9f-46d6-8d74-fa64e79fd72b.jpg"
+  },
+  "/tag/columbus-oh/": {
+    "sourceImage": "/media/wordpress/22128f5e4a06-95083698-ed87-4ffc-b4c7-76921bb2a07a.jpg"
+  },
+  "/tag/dublin-oh/": {
+    "sourceImage": "/media/wordpress/ab7f670ccf93-1614afef-34de-4b2f-9881-b74c331d9d11.png"
+  },
+  "/tag/roof-inspection/": {
+    "sourceImage": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg"
+  },
+  "/tag/hiring-tips/": {
+    "sourceImage": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg"
+  },
+  "/tag/gaf-shingles/": {
+    "sourceImage": "/media/wordpress/87bf91bfb98f-94221041-c41e-4321-a182-d8393d63eb03.jpg"
+  },
+  "/tag/hail-damage/": {
+    "sourceImage": "/media/wordpress/b182e4ce6444-176f7705-5447-41d5-991d-82e95dc4778c.jpg"
+  },
+  "/reviews/": {
+    "sourceImage": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg"
+  },
+  "/past-projects/": {
+    "sourceImage": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+  },
+  "/products/": {
+    "sourceImage": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg"
+  },
+  "/products/roofing/": {
+    "sourceImage": "/media/wordpress/a102470cfba2-hero-roofing.jpg"
+  },
+  "/products/siding/": {
+    "sourceImage": "/media/wordpress/ebed488d4b1b-hero-siding.jpg"
+  },
+  "/products/decking/": {
+    "sourceImage": "/media/wordpress/13b26cd9aae3-hero-decks.jpg"
+  },
+  "/products/gutters/": {
+    "sourceImage": "/media/wordpress/b6b3120916a9-hero-gutters.jpg"
+  },
+  "/category/roofing/": {
+    "sourceHero": "/dayton-roofers/"
+  },
+  "/category/roof-repair/": {
+    "sourceHero": "/roof-repair-dublin-oh/"
+  },
+  "/tag/wind-damage/": {
+    "sourceHero": "/storm-damage-roof-repair-dublin-oh/"
+  },
+  "/tag/cost-guides/": {
+    "sourceHero": "/cleveland-oh/roofing/cost-of-replacement/"
+  },
+  "/offers/": {
+    "sourceHero": "/athens-oh/"
+  },
+  "/offers/payments/": {
+    "sourceHero": "/aurora-oh/"
+  },
+  "/offers/3-year-financing/": {
+    "sourceHero": "/beavercreek-oh/"
+  },
+  "/offers/5-year-financing/": {
+    "sourceHero": "/centerville-oh/"
+  },
+  "/offers/medallion-bank-financing/": {
+    "sourceHero": "/grove-city-oh/"
+  },
+  "/offers/gaf-system-plus/": {
+    "sourceHero": "/gaf-roofing-dublin-oh/"
+  },
+  "/faq/": {
+    "sourceHero": "/roofing-contractor-dublin-oh/"
+  },
+  "/tag/winter-roofing/": {
+    "extra": "winter-roofing"
+  },
+  "/tag/christmas-lights/": {
+    "extra": "holiday-lighting"
+  },
+  "/products/decking/composite/": {
+    "extra": "composite-decking"
+  },
+  "/products/siding/vinyl/": {
+    "sourceImage": "/media/product-collections/vinyl-siding-800.webp",
+    "illustrative": true
+  },
+  "/products/siding/engineered-wood/": {
+    "sourceImage": "/media/product-collections/engineered-wood-siding-800.webp",
+    "illustrative": true
+  },
+  "/products/siding/fiber-cement/": {
+    "sourceImage": "/media/product-collections/fiber-cement-siding-800.webp",
+    "illustrative": true
+  },
+  "/products/gutters/guards/": {
+    "sourceImage": "/media/product-collections/perforated-gutter-guard-800.webp",
+    "illustrative": true
+  },
+  "/products/siding/vinyl/variform/": {
+    "sourceImage": "/media/wordpress/d93df4e15198-variform.png",
+    "fit": "contain"
+  },
+  "/products/siding/engineered-wood/lp-smartside/": {
+    "sourceImage": "/media/wordpress/c26640e78e39-lpsmartside.png",
+    "fit": "contain"
+  },
+  "/products/siding/fiber-cement/james-hardie/": {
+    "sourceImage": "/media/wordpress/67a6570aea50-jameshardie.png",
+    "fit": "contain"
+  },
+  "/products/decking/composite/trex/": {
+    "sourceImage": "/media/wordpress/509654d4f5d1-trex.png",
+    "fit": "contain"
+  },
+  "/products/gutters/guards/alu-rex/": {
+    "sourceImage": "/media/brands/alu-rex.webp",
+    "fit": "contain"
+  },
+  "/products/gutters/guards/leaffilter/": {
+    "sourceImage": "/media/brands/leaffilter.webp",
+    "fit": "contain"
+  },
+  "/products/siding/vinyl/ply-gem/": {
+    "sourceImage": "/media/brands/ply-gem.webp",
+    "fit": "contain"
+  },
+  "/products/roofing/shingles/": {
+    "sourceImage": "/media/products/timberline-uhdz-clr0000006-500.webp"
+  }
+}

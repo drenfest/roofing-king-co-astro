@@ -39,3 +39,6 @@ PolishedServicePage reads optional per-route reviewPresentation, uses explicit c
 
 
 ProductLayout now resolves a responsive hero image through product-presentation.ts and renders ProductHero before breadcrumbs. productKey selects genuine manufacturer samples for individual shingles; optional logo appears in the hero. Preserve canonical and Product/Breadcrumb schemas, disconnected quote experience and all existing paths.
+
+
+PolishedServicePage resolves both service-heroes.json and roofing-heroes.json, so all native service pages use individual generated hero scenes. Their imagery remains explicitly illustrative. The approved roofing reference and all source copy remain intact; shared ServicePaths previews resolve the exact same destination asset.

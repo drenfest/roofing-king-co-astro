@@ -48,3 +48,9 @@ service-review-batch-01.json and service-review-batch-01.md record the first ten
 
 
 product-collection-images.json contains full prompts, built-in generation mode, illustration limits, source PNG locations and optimized variant paths/byte sizes for five material scenes. The 29 native product routes and retained GAF catalog receive presentation QA while genuine specifications, color samples, warranties, schema and canonical URLs remain protected.
+
+
+service-hero-images.json records the complete 43-route supplementary hero plan, full prompts, generation mode, project-local original filenames, optimized variants and byte counts. Together with roofing-hero-images.json, it covers all 84 native service pages. Existing source copy, URLs and product data remain unchanged.
+
+
+navigation-extra-images.json records the complete built-in generation prompts and project-local originals for the winter, seasonal-lighting and composite-decking menu concepts. navigation-images.json contains the provenance and uniqueness fingerprint for every actual destination; navigation-atlas.json describes the single downloaded sprite.

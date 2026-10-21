@@ -1,0 +1,432 @@
+{
+  "/akron-oh/": {
+    "image": {
+      "src": "/media/service-heroes/akron-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/athens-oh/": {
+    "image": {
+      "src": "/media/service-heroes/athens-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/attic-insulation/": {
+    "image": {
+      "src": "/media/service-heroes/attic-insulation-1600.webp",
+      "alt": "Illustrative attic insulation scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/aurora-oh/": {
+    "image": {
+      "src": "/media/service-heroes/aurora-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/beavercreek-oh/": {
+    "image": {
+      "src": "/media/service-heroes/beavercreek-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/centerville-oh/": {
+    "image": {
+      "src": "/media/service-heroes/centerville-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/cincinnati-oh/": {
+    "image": {
+      "src": "/media/service-heroes/cincinnati-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/cincinnati-oh/the-cost-of-siding-replacement/": {
+    "image": {
+      "src": "/media/service-heroes/cincinnati-oh-the-cost-of-siding-replacement-1600.webp",
+      "alt": "Illustrative siding replacement costs scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/cleveland-oh/": {
+    "image": {
+      "src": "/media/service-heroes/cleveland-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/columbus-oh/": {
+    "image": {
+      "src": "/media/service-heroes/columbus-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/commercial-siding/": {
+    "image": {
+      "src": "/media/service-heroes/commercial-siding-1600.webp",
+      "alt": "Illustrative commercial siding scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/dayton-oh/": {
+    "image": {
+      "src": "/media/service-heroes/dayton-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/dayton-oh/the-cost-of-new-gutters/": {
+    "image": {
+      "src": "/media/service-heroes/dayton-oh-the-cost-of-new-gutters-1600.webp",
+      "alt": "Illustrative gutter replacement costs scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/": {
+    "image": {
+      "src": "/media/service-heroes/decks-1600.webp",
+      "alt": "Illustrative deck services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/accessories/": {
+    "image": {
+      "src": "/media/service-heroes/decks-accessories-1600.webp",
+      "alt": "Illustrative deck accessories scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/installations/": {
+    "image": {
+      "src": "/media/service-heroes/decks-installations-1600.webp",
+      "alt": "Illustrative deck installation scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/refinishing/": {
+    "image": {
+      "src": "/media/service-heroes/decks-refinishing-1600.webp",
+      "alt": "Illustrative deck refinishing scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/repairs/": {
+    "image": {
+      "src": "/media/service-heroes/decks-repairs-1600.webp",
+      "alt": "Illustrative deck repair scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/decks/replacements/": {
+    "image": {
+      "src": "/media/service-heroes/decks-replacements-1600.webp",
+      "alt": "Illustrative deck replacement scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/delaware-oh/": {
+    "image": {
+      "src": "/media/service-heroes/delaware-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/dublin-oh/": {
+    "image": {
+      "src": "/media/service-heroes/dublin-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/exterior-painting/": {
+    "image": {
+      "src": "/media/service-heroes/exterior-painting-1600.webp",
+      "alt": "Illustrative exterior painting scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/gahanna-oh/": {
+    "image": {
+      "src": "/media/service-heroes/gahanna-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/grove-city-oh/": {
+    "image": {
+      "src": "/media/service-heroes/grove-city-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/gutter-installation-dublin-oh/": {
+    "image": {
+      "src": "/media/service-heroes/gutter-installation-dublin-oh-1600.webp",
+      "alt": "Illustrative gutter services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/gutters/": {
+    "image": {
+      "src": "/media/service-heroes/gutters-1600.webp",
+      "alt": "Illustrative gutter services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/gutters/guards/": {
+    "image": {
+      "src": "/media/service-heroes/gutters-guards-1600.webp",
+      "alt": "Illustrative gutter guards scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/gutters/seamless/": {
+    "image": {
+      "src": "/media/service-heroes/gutters-seamless-1600.webp",
+      "alt": "Illustrative seamless gutters scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/hamilton-oh/": {
+    "image": {
+      "src": "/media/service-heroes/hamilton-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/hilliard-oh/": {
+    "image": {
+      "src": "/media/service-heroes/hilliard-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/lancaster-oh/": {
+    "image": {
+      "src": "/media/service-heroes/lancaster-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/lewis-center-oh/": {
+    "image": {
+      "src": "/media/service-heroes/lewis-center-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/middletown-oh/": {
+    "image": {
+      "src": "/media/service-heroes/middletown-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/newark-oh/": {
+    "image": {
+      "src": "/media/service-heroes/newark-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/powell-oh/": {
+    "image": {
+      "src": "/media/service-heroes/powell-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/siding/": {
+    "image": {
+      "src": "/media/service-heroes/siding-1600.webp",
+      "alt": "Illustrative siding services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/siding/replacement/": {
+    "image": {
+      "src": "/media/service-heroes/siding-replacement-1600.webp",
+      "alt": "Illustrative siding replacement scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/siding/types/": {
+    "image": {
+      "src": "/media/service-heroes/siding-types-1600.webp",
+      "alt": "Illustrative siding materials scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/upper-arlington-oh/": {
+    "image": {
+      "src": "/media/service-heroes/upper-arlington-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/westerville-oh/": {
+    "image": {
+      "src": "/media/service-heroes/westerville-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/windows/": {
+    "image": {
+      "src": "/media/service-heroes/windows-1600.webp",
+      "alt": "Illustrative window replacement scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/worthington-oh/": {
+    "image": {
+      "src": "/media/service-heroes/worthington-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  },
+  "/zanesville-oh/": {
+    "image": {
+      "src": "/media/service-heroes/zanesville-oh-1600.webp",
+      "alt": "Illustrative roofing & exterior services scene",
+      "width": 1600,
+      "height": 900
+    },
+    "generated": true,
+    "objectPosition": "70% center"
+  }
+}

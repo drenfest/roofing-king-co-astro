@@ -14,3 +14,9 @@ service-review-batch-01.html is the ten-page siding/gutter review index, with so
 
 
 media/product-collections holds five illustrative material scenes with 480/800/1200px WebP variants. They are not named-manufacturer samples or actual Roof King installations. Prompts, source filenames and asset byte counts are recorded in migration/product-collection-images.json; originals remain outside public.
+
+
+media/service-heroes contains responsive WebP versions of the 43 supplementary service hero scenes. Originals are outside public. These are illustrative scenes, not verified customer projects or exact manufacturer samples. Every native service page now resolves an individual hero and parent-tab previews use the same optimized assets.
+
+
+media/navigation/menu-thumbnails-<hash>.webp contains all 121 distinct navigation thumbnails. It loads once on first menu opening and is immutable-cacheable because its filename includes a content hash. The three separate 640px source concepts are authoring inputs only; the menu never requests them individually.

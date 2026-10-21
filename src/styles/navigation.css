@@ -178,3 +178,15 @@ html:has(body.rk-nav-open){overflow:hidden;}
   @starting-style{.rk-site-header.rk-native-header .rk-primary-nav .rk-nav-list .rk-submenu:not([hidden]){height:0;padding-block:0;}}
  }
 }
+
+/* One decoded atlas supplies every thumbnail; square cells crop within the frame. */
+.rk-native-header .rk-menu-atlas-tile{position:absolute;left:0;top:50%;width:100%;aspect-ratio:1;transform:translateY(-50%);background-repeat:no-repeat;}
+
+/* Keep atlas thumbnails within their intended display size, without upscaling. */
+@media(min-width:1241px){.rk-native-header .rk-mega-photo .rk-menu-preview{max-width:192px;margin-inline:auto;}}
+@media(max-width:1060px){
+ .rk-native-header .rk-mobile-preview .rk-menu-preview{display:grid;grid-template-columns:96px minmax(0,1fr);align-items:center;gap:1rem;}
+ .rk-native-header .rk-mobile-preview .rk-menu-preview-photo{aspect-ratio:1;}
+ .rk-native-header .rk-mobile-preview .rk-menu-preview-caption{font-size:.85rem;border-bottom:0;padding:0;}
+ .rk-native-header .rk-mobile-preview .rk-menu-preview-credit{font-size:.48rem;inset:auto .25rem .25rem;padding:.12rem .2rem;text-align:center;}
+}

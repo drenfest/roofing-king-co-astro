@@ -68,3 +68,6 @@ The ten-page review has resumed in Batch 01: five siding and five gutter URLs, l
 
 
 All 29 native product routes now have ProductHero photographic/sample heroes and editorial collection/detail presentation. The retained GAF catalog keeps its existing photographic hero and receives shared product-card refinements. Five new illustrative material scenes give collection cards distinct imagery; source prompts and optimization details are in migration/product-collection-images.json. Existing product/color/warranty data and protected URLs remain unchanged.
+
+
+All 84 native service pages now have individual illustrative custom heroes. The 43 additional scenes and responsive WebP assets are recorded in migration/service-hero-images.json. Shared ServicePaths panels display each destination hero immediately under the eyebrow. Navigation uses a lazy-loaded, content-hashed image atlas with one unique image per distinct destination; the atlas is cached across page loads and eliminates per-hover image downloads.

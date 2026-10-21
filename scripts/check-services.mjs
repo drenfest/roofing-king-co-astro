@@ -117,3 +117,40 @@ for(const [path,data] of Object.entries(editorial)){
  for(const file of $('link[rel=stylesheet]').map((_i,e)=>$(e).attr('href')).get().filter(p=>p.startsWith('/')))assert.ok(!file.includes('/SiteLayout.') && !(await fs.readFile('dist'+file,'utf8')).includes('.rk-migration-banner'),'No legacy CSS: '+path);
 }
 console.log('Full editorial composition, review sources, credentials, FAQs, image dimensions and disabled delivery passed for all 84 service routes.');
+// Service tab previews must use their actual destination page's hero.
+let tabImages=0,tabParents=0;
+for(const route of manifest){
+ const page=cheerio.load(await fs.readFile('dist'+route.path+'index.html','utf8'));
+ const paths=page('[data-component=ServicePaths]');if(!paths.length)continue;tabParents++;
+ for(const panel of paths.find('[data-service-panel]').toArray()){
+  const item=page(panel),figure=item.children('.rk-service-tab-image'),href=item.children('a.rk-button').attr('href');
+  assert.equal(figure.length,1,'Every tab needs a child hero on '+route.path);
+  assert.ok(figure.prev().hasClass('rk-service-detail-kicker'),'Child image follows the eyebrow');assert.ok(figure.next().is('h3'),'Preserve subordinate tab headings');
+  const child=cheerio.load(await fs.readFile('dist'+href+'index.html','utf8'));const actual=child('.rk-editorial-hero>img').first();const preview=figure.children('img');
+  assert.equal(preview.attr('src'),actual.attr('src'),'Preview must match its destination: '+href);assert.equal(preview.attr('srcset'),actual.attr('srcset'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));
+  if(child('.rk-service-hero-credit').length)assert.ok(figure.find('figcaption').text().includes('Illustrative'));
+  tabImages++;
+ }
+}
+const newHeroes=JSON.parse(await fs.readFile('src/data/service-heroes.json','utf8'));
+const roofHeroes=JSON.parse(await fs.readFile('src/data/roofing-heroes.json','utf8'));
+const customHeroes={...newHeroes,...roofHeroes};const newMedia=JSON.parse(await fs.readFile('src/data/service-hero-media.json','utf8'));
+const {createHash}=await import('node:crypto');const hashes=new Set();
+assert.deepEqual(Object.keys(customHeroes).sort(),Object.keys(editorial).sort(),'All native service pages have their own custom hero');
+for(const [path,asset]of Object.entries(customHeroes)){
+ const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));const hero=page('.rk-editorial-hero>img').first();assert.ok(hero.attr('src').includes('/media/roofing-heroes/')||hero.attr('src').includes('/media/service-heroes/'),'No generic hero fallback: '+path);
+ const hash=createHash('sha256').update(await fs.readFile('dist'+asset.image.src)).digest('hex');assert.ok(!hashes.has(hash),'Do not copy the same hero across routes');hashes.add(hash);
+ assert.equal(page('.rk-service-hero-credit').length,1,'Retain illustrative disclosure: '+path);
+}
+for(const record of Object.values(newMedia))for(const variant of record.variants){assert.ok(variant.src.endsWith('.webp'));assert.ok((await fs.stat('dist'+variant.src)).size<=300000,'Custom service hero exceeds WebP budget');}
+console.log(`${tabImages} child hero previews on ${tabParents} parent pages match their destinations; all ${hashes.size} service pages have distinct optimized custom heroes.`);
+const atlas=JSON.parse(await fs.readFile('src/data/navigation-atlas.json','utf8'));
+const nav=JSON.parse(await fs.readFile('src/data/navigation.json','utf8'));
+const menuSources=JSON.parse(await fs.readFile('src/data/navigation-images.json','utf8'));
+const menuHrefs=[...new Set((function walk(items){return items.flatMap(item=>[item.href,...walk(item.children)]);})(nav.items))];
+assert.deepEqual(Object.keys(atlas.items).sort(),menuHrefs.sort(),'Every navigation destination needs an atlas cell');
+assert.equal(new Set(Object.values(atlas.items).map(i=>i.column+':'+i.row)).size,menuHrefs.length,'No reused cells for different destinations');
+assert.equal(new Set(Object.values(menuSources).map(i=>i.fingerprint)).size,menuHrefs.length,'No duplicated menu image content');
+const atlasBytes=(await fs.stat('dist'+atlas.src)).size;assert.equal(atlasBytes,atlas.bytes);assert.ok(atlasBytes<=750000,'Keep the single menu request within its transfer budget');
+const {default:sharpImage}=await import('sharp');const atlasInfo=await sharpImage('dist'+atlas.src).metadata();assert.equal(atlasInfo.width,atlas.columns*atlas.tileSize);assert.equal(atlasInfo.height,atlas.rows*atlas.tileSize);
+console.log(`${menuHrefs.length} unique destination images protected in one ${Math.round(atlas.bytes/1024)}KB WebP menu atlas.`);
