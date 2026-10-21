@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
   import MegaMenu from './MegaMenu.svelte';
+  import MenuPreview from './MenuPreview.svelte';
   import '../styles/navigation.css';
   import navigation from '../data/navigation.json';
   import site from '../data/site.json';
@@ -11,6 +12,25 @@
   let desktop = $state(true);
   let active = $state<string | null>(null);
   let branches=$state<Record<string,boolean>>({});
+  const mobilePreview=$derived.by(()=>{
+    if(active===null)return null;
+    let item=navigation.items[Number(active)],prefix=active;
+    while(item){
+      const index=item.children.findIndex((_,i)=>branches[`${prefix}-${i}`]);
+      if(index<0)break;
+      prefix+=`-${index}`;item=item.children[index];
+    }
+    return {item,key:prefix};
+  });
+  function toggleBranch(key:string){
+    const opening=!branches[key];
+    const parent=key.slice(0,key.lastIndexOf('-'));
+    const next={...branches};
+    for(const existing of Object.keys(next)){
+      if(existing.startsWith(key+'-') || (existing.startsWith(parent+'-')&&existing!==key))delete next[existing];
+    }
+    next[key]=opening;branches=next;
+  }
   let openedByHover = false;
   let closeTimer: ReturnType<typeof setTimeout> | undefined;
   let header: HTMLElement;
@@ -63,11 +83,12 @@
 </script>
 
 {#snippet children(items: Item[], depth: number, prefix:string)}
+  {#if enhanced&&!desktop&&mobilePreview?.key===prefix}<li class="rk-mobile-preview"><MenuPreview item={mobilePreview.item} onNavigate={close}/></li>{/if}
   {#each items as item,index}
     {@const key=`${prefix}-${index}`}
     <li class={`rk-menu-item rk-menu-depth-${depth} ${item.classes}`} class:is-submenu-open={branches[key]}>
       <div class="rk-menu-row"><a class={`rk-menu-link rk-menu-link-depth-${depth}`} href={item.href} onclick={close}>{item.label}</a>
-        {#if item.children.length}<button class="rk-submenu-toggle rk-nested-toggle" type="button" aria-label={`Toggle ${item.label} submenu`} aria-expanded={!!branches[key]} aria-controls={`mobile-branch-${key}`} onclick={()=>branches={...branches,[key]:!branches[key]}}><span aria-hidden="true"></span></button>{/if}
+        {#if item.children.length}<button class="rk-submenu-toggle rk-nested-toggle" type="button" aria-label={`Toggle ${item.label} submenu`} aria-expanded={!!branches[key]} aria-controls={`mobile-branch-${key}`} onclick={()=>toggleBranch(key)}><span aria-hidden="true"></span></button>{/if}
       </div>
       {#if item.children.length}<ul id={`mobile-branch-${key}`} class={`sub-menu rk-submenu rk-submenu-depth-${depth}`} hidden={enhanced&&!branches[key]}>{@render children(item.children, depth + 1,key)}</ul>{/if}
     </li>
@@ -89,7 +110,7 @@
               {#if item.children.length}<button class="rk-submenu-toggle" type="button" aria-expanded={active === String(i)} aria-controls={desktop?`native-submenu-${i}`:`native-mobile-submenu-${i}`} aria-label={`Toggle ${item.label} submenu`} data-submenu={String(i)} onkeydown={event=>enterMenu(event,i)} onclick={(event) => { if (event.detail && openedByHover) { openedByHover = false; return; } active = active === String(i) ? null : String(i); }}><span aria-hidden="true"></span></button>{/if}
             </div>
             {#if item.children.length}
-              <div id={`native-submenu-${i}`} class="rk-native-mega-host" inert={!enhanced||!desktop||active!==String(i)}><MegaMenu root={item} onNavigate={close}/></div>
+              <div id={`native-submenu-${i}`} class="rk-native-mega-host" inert={!enhanced||!desktop||active!==String(i)}><MegaMenu root={item} onNavigate={close} visible={enhanced&&desktop&&active===String(i)}/></div>
               <ul id={`native-mobile-submenu-${i}`} class="sub-menu rk-submenu rk-submenu-depth-0 rk-mobile-tree" inert={enhanced&&(desktop||active!==String(i))} hidden={enhanced&&!desktop&&active!==String(i)}>{@render children(item.children, 1,String(i))}</ul>
             {/if}
           </li>

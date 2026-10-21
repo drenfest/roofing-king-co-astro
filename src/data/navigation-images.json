@@ -1,0 +1,422 @@
+{
+  "home": {
+    "src": "/media/home/a102470cfba2-hero-roofing-480.webp",
+    "srcset": "/media/home/a102470cfba2-hero-roofing-480.webp 480w, /media/home/a102470cfba2-hero-roofing-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "commercial": {
+    "src": "/media/services/1f3556139d97-hero-commercial-roofing-480.webp",
+    "srcset": "/media/services/1f3556139d97-hero-commercial-roofing-480.webp 480w, /media/services/1f3556139d97-hero-commercial-roofing-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "siding": {
+    "src": "/media/services/ebed488d4b1b-hero-siding-480.webp",
+    "srcset": "/media/services/ebed488d4b1b-hero-siding-480.webp 480w, /media/services/ebed488d4b1b-hero-siding-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "gutters": {
+    "src": "/media/services/b6b3120916a9-hero-gutters-480.webp",
+    "srcset": "/media/services/b6b3120916a9-hero-gutters-480.webp 480w, /media/services/b6b3120916a9-hero-gutters-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "windows": {
+    "src": "/media/services/23b06efb9d5f-hero-windows-480.webp",
+    "srcset": "/media/services/23b06efb9d5f-hero-windows-480.webp 480w, /media/services/23b06efb9d5f-hero-windows-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "decks": {
+    "src": "/media/services/13b26cd9aae3-hero-decks-480.webp",
+    "srcset": "/media/services/13b26cd9aae3-hero-decks-480.webp 480w, /media/services/13b26cd9aae3-hero-decks-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "insulation": {
+    "src": "/media/services/9d9910ecc2fe-hero-insulation-480.webp",
+    "srcset": "/media/services/9d9910ecc2fe-hero-insulation-480.webp 480w, /media/services/9d9910ecc2fe-hero-insulation-800.webp 800w",
+    "width": 1600,
+    "height": 800,
+    "illustrative": false
+  },
+  "storm": {
+    "src": "/media/home/717dd193ee03-before-480.webp",
+    "srcset": "/media/home/717dd193ee03-before-480.webp 480w, /media/home/717dd193ee03-before-800.webp 800w",
+    "width": 800,
+    "height": 700,
+    "illustrative": false
+  },
+  "/cincinnati-oh/roofing/": {
+    "src": "/media/roofing-heroes/cincinnati-oh-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/cincinnati-oh-roofing-640.webp 640w, /media/roofing-heroes/cincinnati-oh-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/cincinnati-oh/storm-damage/": {
+    "src": "/media/roofing-heroes/cincinnati-oh-storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/cincinnati-oh-storm-damage-640.webp 640w, /media/roofing-heroes/cincinnati-oh-storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/cleveland-oh/roofing/": {
+    "src": "/media/roofing-heroes/cleveland-oh-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/cleveland-oh-roofing-640.webp 640w, /media/roofing-heroes/cleveland-oh-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/cleveland-oh/roofing/cost-of-replacement/": {
+    "src": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-640.webp",
+    "srcset": "/media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-640.webp 640w, /media/roofing-heroes/cleveland-oh-roofing-cost-of-replacement-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/cleveland-oh/storm-damage/": {
+    "src": "/media/roofing-heroes/cleveland-oh-storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/cleveland-oh-storm-damage-640.webp 640w, /media/roofing-heroes/cleveland-oh-storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/columbus-oh/roofing/": {
+    "src": "/media/roofing-heroes/columbus-oh-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/columbus-oh-roofing-640.webp 640w, /media/roofing-heroes/columbus-oh-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/columbus-oh/storm-damage/": {
+    "src": "/media/roofing-heroes/columbus-oh-storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/columbus-oh-storm-damage-640.webp 640w, /media/roofing-heroes/columbus-oh-storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/commercial-roofing/": {
+    "src": "/media/roofing-heroes/commercial-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/commercial-roofing-640.webp 640w, /media/roofing-heroes/commercial-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/commercial-roofing/repair/": {
+    "src": "/media/roofing-heroes/commercial-roofing-repair-640.webp",
+    "srcset": "/media/roofing-heroes/commercial-roofing-repair-640.webp 640w, /media/roofing-heroes/commercial-roofing-repair-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/commercial-roofing/replacement/": {
+    "src": "/media/roofing-heroes/commercial-roofing-replacement-640.webp",
+    "srcset": "/media/roofing-heroes/commercial-roofing-replacement-640.webp 640w, /media/roofing-heroes/commercial-roofing-replacement-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/commercial-roofing/roof-types/": {
+    "src": "/media/roofing-heroes/commercial-roofing-roof-types-640.webp",
+    "srcset": "/media/roofing-heroes/commercial-roofing-roof-types-640.webp 640w, /media/roofing-heroes/commercial-roofing-roof-types-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/cost-of-a-new-roof/": {
+    "src": "/media/roofing-heroes/cost-of-a-new-roof-640.webp",
+    "srcset": "/media/roofing-heroes/cost-of-a-new-roof-640.webp 640w, /media/roofing-heroes/cost-of-a-new-roof-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/dayton-oh/roofing/": {
+    "src": "/media/roofing-heroes/dayton-oh-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/dayton-oh-roofing-640.webp 640w, /media/roofing-heroes/dayton-oh-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/dayton-oh/storm-damage/": {
+    "src": "/media/roofing-heroes/dayton-oh-storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/dayton-oh-storm-damage-640.webp 640w, /media/roofing-heroes/dayton-oh-storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/dayton-roofers/": {
+    "src": "/media/roofing-heroes/dayton-roofers-640.webp",
+    "srcset": "/media/roofing-heroes/dayton-roofers-640.webp 640w, /media/roofing-heroes/dayton-roofers-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/delaware-oh/roofing/": {
+    "src": "/media/roofing-heroes/delaware-oh-roofing-640.webp",
+    "srcset": "/media/roofing-heroes/delaware-oh-roofing-640.webp 640w, /media/roofing-heroes/delaware-oh-roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/delaware-oh/storm-damage/": {
+    "src": "/media/roofing-heroes/delaware-oh-storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/delaware-oh-storm-damage-640.webp 640w, /media/roofing-heroes/delaware-oh-storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/emergency-roof-repair-dublin-oh/": {
+    "src": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/emergency-roof-repair-dublin-oh-640.webp 640w, /media/roofing-heroes/emergency-roof-repair-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/gaf-roofing-dublin-oh/": {
+    "src": "/media/roofing-heroes/gaf-roofing-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/gaf-roofing-dublin-oh-640.webp 640w, /media/roofing-heroes/gaf-roofing-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/hail-damage-roof-repair-dublin-oh/": {
+    "src": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/hail-damage-roof-repair-dublin-oh-640.webp 640w, /media/roofing-heroes/hail-damage-roof-repair-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/metal-roofing-dublin-oh/": {
+    "src": "/media/roofing-heroes/metal-roofing-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/metal-roofing-dublin-oh-640.webp 640w, /media/roofing-heroes/metal-roofing-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roof-calculator/": {
+    "src": "/media/roofing-heroes/roof-calculator-640.webp",
+    "srcset": "/media/roofing-heroes/roof-calculator-640.webp 640w, /media/roofing-heroes/roof-calculator-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roof-repair-dublin-oh/": {
+    "src": "/media/roofing-heroes/roof-repair-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/roof-repair-dublin-oh-640.webp 640w, /media/roofing-heroes/roof-repair-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roof-replacement-dublin-oh/": {
+    "src": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp 640w, /media/roofing-heroes/roof-replacement-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing-calculator/": {
+    "src": "/media/roofing-heroes/roofing-calculator-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-calculator-640.webp 640w, /media/roofing-heroes/roofing-calculator-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing-contractor-dublin-oh/": {
+    "src": "/media/roofing-heroes/roofing-contractor-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-contractor-dublin-oh-640.webp 640w, /media/roofing-heroes/roofing-contractor-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/": {
+    "src": "/media/roofing-heroes/roofing-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-640.webp 640w, /media/roofing-heroes/roofing-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/gaf/": {
+    "src": "/media/roofing-heroes/roofing-gaf-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-gaf-640.webp 640w, /media/roofing-heroes/roofing-gaf-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/gaf/master-elite/": {
+    "src": "/media/roofing-heroes/roofing-gaf-master-elite-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-gaf-master-elite-640.webp 640w, /media/roofing-heroes/roofing-gaf-master-elite-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/metal/": {
+    "src": "/media/roofing-heroes/roofing-metal-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-metal-640.webp 640w, /media/roofing-heroes/roofing-metal-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/repair/": {
+    "src": "/media/roofing-heroes/roofing-repair-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-repair-640.webp 640w, /media/roofing-heroes/roofing-repair-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/replacement/": {
+    "src": "/media/roofing-heroes/roofing-replacement-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-replacement-640.webp 640w, /media/roofing-heroes/roofing-replacement-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/roofing/types/": {
+    "src": "/media/roofing-heroes/roofing-types-640.webp",
+    "srcset": "/media/roofing-heroes/roofing-types-640.webp 640w, /media/roofing-heroes/roofing-types-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage-roof-repair-dublin-oh/": {
+    "src": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-roof-repair-dublin-oh-640.webp 640w, /media/roofing-heroes/storm-damage-roof-repair-dublin-oh-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage/": {
+    "src": "/media/roofing-heroes/storm-damage-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-640.webp 640w, /media/roofing-heroes/storm-damage-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage/commercial/": {
+    "src": "/media/roofing-heroes/storm-damage-commercial-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-commercial-640.webp 640w, /media/roofing-heroes/storm-damage-commercial-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage/hail/": {
+    "src": "/media/roofing-heroes/storm-damage-hail-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-hail-640.webp 640w, /media/roofing-heroes/storm-damage-hail-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage/insurance-claims/": {
+    "src": "/media/roofing-heroes/storm-damage-insurance-claims-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-insurance-claims-640.webp 640w, /media/roofing-heroes/storm-damage-insurance-claims-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/storm-damage/wind/": {
+    "src": "/media/roofing-heroes/storm-damage-wind-640.webp",
+    "srcset": "/media/roofing-heroes/storm-damage-wind-640.webp 640w, /media/roofing-heroes/storm-damage-wind-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/commercial-roofing/gutters/": {
+    "src": "/media/roofing-heroes/commercial-roofing-gutters-640.webp",
+    "srcset": "/media/roofing-heroes/commercial-roofing-gutters-640.webp 640w, /media/roofing-heroes/commercial-roofing-gutters-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/ice-dam-removal/": {
+    "src": "/media/roofing-heroes/ice-dam-removal-640.webp",
+    "srcset": "/media/roofing-heroes/ice-dam-removal-640.webp 640w, /media/roofing-heroes/ice-dam-removal-960.webp 960w",
+    "width": 1672,
+    "height": 941,
+    "illustrative": true
+  },
+  "/products/roofing/shingles/gaf/timberline-hdz/": {
+    "src": "/media/products/timberline-hdz-clr0000027-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/timberline-hdz-clr0000027-400.webp 400w, /media/products/timberline-hdz-clr0000027-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/timberline-uhdz/": {
+    "src": "/media/products/timberline-uhdz-clr0000027-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/timberline-uhdz-clr0000027-400.webp 400w, /media/products/timberline-uhdz-clr0000027-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/timberline-ns/": {
+    "src": "/media/products/timberline-ns-clr0000010-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/timberline-ns-clr0000010-400.webp 400w, /media/products/timberline-ns-clr0000010-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/timberline-as-ii/": {
+    "src": "/media/products/timberline-as-ii-clr0000010-800.webp",
+    "width": 1000,
+    "height": 1000,
+    "srcset": "/media/products/timberline-as-ii-clr0000010-400.webp 400w, /media/products/timberline-as-ii-clr0000010-800.webp 800w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/timberline-hdz-rs/": {
+    "src": "/media/products/timberline-hdz-rs-clr0000010-800.webp",
+    "width": 1201,
+    "height": 1200,
+    "srcset": "/media/products/timberline-hdz-rs-clr0000010-400.webp 400w, /media/products/timberline-hdz-rs-clr0000010-800.webp 800w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/camelot-ii/": {
+    "src": "/media/products/camelot-ii-clr0000010-800.webp",
+    "width": 1000,
+    "height": 1000,
+    "srcset": "/media/products/camelot-ii-clr0000010-400.webp 400w, /media/products/camelot-ii-clr0000010-800.webp 800w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/woodland/": {
+    "src": "/media/products/woodland-clr0000050-800.webp",
+    "width": 1000,
+    "height": 1000,
+    "srcset": "/media/products/woodland-clr0000050-400.webp 400w, /media/products/woodland-clr0000050-800.webp 800w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia/": {
+    "src": "/media/products/grand-sequoia-clr0000037-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/grand-sequoia-clr0000037-400.webp 400w, /media/products/grand-sequoia-clr0000037-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia-rs/": {
+    "src": "/media/products/grand-sequoia-rs-clr0000010-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/grand-sequoia-rs-clr0000010-400.webp 400w, /media/products/grand-sequoia-rs-clr0000010-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/grand-sequoia-as/": {
+    "src": "/media/products/grand-sequoia-as-clr0000010-500.webp",
+    "width": 500,
+    "height": 500,
+    "srcset": "/media/products/grand-sequoia-as-clr0000010-400.webp 400w, /media/products/grand-sequoia-as-clr0000010-500.webp 500w",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/gaf/royal-sovereign/": {
+    "src": "/media/products/royal-sovereign-clr0000010-800.webp",
+    "width": 1493,
+    "height": 1493,
+    "srcset": "/media/products/royal-sovereign-clr0000010-400.webp 400w, /media/products/royal-sovereign-clr0000010-800.webp 800w",
+    "illustrative": false
+  }
+}

@@ -1,7 +1,9 @@
 <script lang="ts">
   import {tick} from 'svelte';
+  import MenuPreview from './MenuPreview.svelte';
   type Item={label:string;href:string;children:Item[]};
-  let {root,onNavigate}:{root:Item;onNavigate:()=>void}=$props();
+  let {root,onNavigate,visible=false}:{root:Item;onNavigate:()=>void;visible?:boolean}=$props();
+  let preview=$state<Item|null>(null);
   let first=$state(0);
   let second=$state(-1);
   let thirdIndex=$state(-1);
@@ -12,6 +14,7 @@
   const fourth=$derived.by(()=>{let item=fourthRoot;for(const index of trail)item=item?.children[index];return item?.children.length?item:undefined;});
   const columns=$derived([{parent:root,items:root.children},...(branch?.children.length?[{parent:branch,items:branch.children}]:[]),...(third?.children.length?[{parent:third,items:third.children}]:[]),...(fourth?[{parent:fourth,items:fourth.children}]:[])]);
   function choose(level:number,index:number){
+    preview=columns[level]?.items[index]||root;
     if(level===0){if(first!==index){first=index;second=-1;thirdIndex=-1;trail=[];}}
     else if(level===1){if(second!==index){second=index;thirdIndex=-1;trail=[];}}
     else if(level===2){if(thirdIndex!==index){thirdIndex=index;trail=[];}}
@@ -36,22 +39,23 @@
 </script>
 
 <div class="rk-mega-intro"><span>{root.label}</span><a href={root.href} onclick={onNavigate}>Explore all {root.label.toLowerCase()} <span aria-hidden="true">↗</span></a></div>
-<div class="rk-mega-columns">
+<div class="rk-mega-body"><div class="rk-mega-columns" style={`grid-template-columns:repeat(${columns.length},minmax(0,1fr))`}>
   {#each columns as column,level}
     <section class="rk-mega-column" aria-label={`${column.parent.label} choices`}>
       <div class="rk-mega-heading">
         {#if level===3&&trail.length}<button type="button" class="rk-mega-back" onclick={()=>trail=trail.slice(0,-1)} aria-label="Back to previous menu level">← Back</button>{/if}
-        <a href={column.parent.href} onclick={onNavigate}>{column.parent.label} <span aria-hidden="true">↗</span></a>
+        <a href={column.parent.href} onclick={onNavigate} onfocus={()=>preview=column.parent} onpointerenter={()=>preview=column.parent}>{column.parent.label} <span aria-hidden="true">↗</span></a>
       </div>
       <ul>{#each column.items as item,index}
         <li>
           <div class="rk-mega-row" class:is-selected={level===0?first===index:level===1?second===index:level===2?thirdIndex===index:false}>
-            <a href={item.href} onclick={onNavigate} onpointerenter={event=>{if(event.pointerType==='mouse'&&level<3)choose(level,index);}} onkeydown={event=>key(event,level,index)}>{item.label}</a>
-            {#if item.children.length}<button type="button" aria-label={`Show ${item.label} options`} aria-expanded={level===0?first===index:level===1?second===index:level===2?thirdIndex===index:false} onpointerenter={event=>{if(event.pointerType==='mouse'&&level<3)choose(level,index);}} onclick={()=>choose(level,index)} onkeydown={event=>key(event,level,index)}><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>{/if}
+            <a href={item.href} onclick={onNavigate} onpointerenter={event=>{if(event.pointerType==='mouse'){preview=item;if(level<3)choose(level,index);}}} onfocus={()=>preview=item} onkeydown={event=>key(event,level,index)}>{item.label}</a>
+            {#if item.children.length}<button type="button" aria-label={`Show ${item.label} options`} aria-expanded={level===0?first===index:level===1?second===index:level===2?thirdIndex===index:false} onpointerenter={event=>{if(event.pointerType==='mouse'){preview=item;if(level<3)choose(level,index);}}} onclick={()=>choose(level,index)} onfocus={()=>preview=item} onkeydown={event=>key(event,level,index)}><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>{/if}
           </div>
         </li>
       {/each}</ul>
     </section>
   {/each}
-  {#if columns.length<4}<aside class="rk-mega-overview" style={`grid-column:span ${4-columns.length}`}><span>Explore</span><strong>{branch?.label || root.label}</strong><a href={branch?.href || root.href} onclick={onNavigate}>View {(branch?.label || root.label).toLowerCase()} <span aria-hidden="true">↗</span></a></aside>{/if}
+</div>
+  {#if visible}<aside class="rk-mega-photo"><MenuPreview item={preview||branch||root} {onNavigate}/></aside>{/if}
 </div>

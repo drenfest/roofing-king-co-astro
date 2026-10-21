@@ -64,3 +64,6 @@ home.json services.items image records select existing site photography for all 
 The homepage gallery has titleEmphasis, photo category and caption fields. Captions/alt text describe inspected source images without invented job locations or damage causes. All ten original images remain; ordering leads with exterior, overhead and preparation details.
 
 Batch 01 client-directed revisions are persisted in service-overrides.json and applied to service-editorial.json/service-copy.json. reviewPresentation selects route-specific trust/product/finance titles and a batch marker; copy.budgetSectionId explicitly selects the estimate section. Optional section eyebrow and card IDs preserve topic context and old section anchors while grouping detail under H3 headings.
+
+
+navigation-images.json is a compact menu-only image registry extracted from existing optimized service photos, illustrative roofing heroes and genuine GAF color samples. MenuPreview resolves exact route images first, then service/category fallbacks. Keep responsive WebP sources, intrinsic dimensions and illustrative labels; do not import full editorial or product records into the header client bundle.

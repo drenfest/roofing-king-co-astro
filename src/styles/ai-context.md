@@ -56,3 +56,6 @@ Primary actions use orange surfaces and charcoal labels for contrast; secondary 
 The current ProjectGallery layout is component-scoped in ProjectGallery.svelte and supersedes the older dark masonry rules in home.css for that island. Its ivory background, borderless photos, captions, quiet filters and charcoal gallery link follow the latest reference; keep reduced-motion support.
 
 Batch 01 reading refinements are scoped to data-content-review="01": sentence-case topic headings, smaller subordinate titles, responsive media/prose rows and nested ivory manufacturer strips. Other service pages retain their current heading presentation.
+
+
+navigation.css gives desktop menus an independent photo panel beside all four link columns, switching to a compact image strip at smaller desktop widths. Mobile dropdowns show one wide contextual preview. Photo entrances honor reduced-motion and use existing motion timing.
