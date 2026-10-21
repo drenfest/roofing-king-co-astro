@@ -73,3 +73,5 @@ ServiceContentBand.astro renders full source sections as alternating media rows 
 ServiceArticle supports optional variant="benefits" to present static icon cards for homeowner benefits. This does not create a selector on a leaf page. Item icons use the shared ServiceIcon SVG system.
 
 The native mobile masthead now groups a tap-to-call action and labeled Menu/Close toggle at the right edge. The hamburger uses an aria-hidden line wrapper; accessible expanded state, Escape and focus behavior remain on the real toggle button.
+
+SiteMotion.astro installs shared CSS feedback and a small vanilla entrance observer in both document shells. All interactive elements receive feedback; tabs, product samples, galleries, disclosures and dialogs receive state entrances. New components inherit the shared contract; use --rk-motion-fast, --rk-motion-panel and --rk-motion-ease for additional states. Do not animate the before/after drag position or hide content awaiting JavaScript.

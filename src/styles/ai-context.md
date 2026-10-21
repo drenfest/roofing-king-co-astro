@@ -32,3 +32,5 @@ The optional rk-service-benefits class displays ServiceArticle items as two fore
 navigation.css owns the compact mobile masthead: three explicit columns, proportional 116px logo, 44px phone target and branded Menu/Close control. Tablet retains the quote action; desktop layout is unchanged. Native toggle span resets override the legacy base.css animation selectors.
 
 Mobile navigation now fills the viewport width and explicitly uses a single content column at every dropdown level, overriding legacy auto-fit/two-column grids. Desktop mega-menu columns remain unchanged.
+
+motion.css owns shared interaction timing, hover/focus feedback, tab/image/dialog entrances, progressive native disclosure interpolation and cross-document page fades. Reduced-motion disables all site animations, transitions and smooth scrolling. Badge explanations are excluded from height interpolation because their content overlays the product image.

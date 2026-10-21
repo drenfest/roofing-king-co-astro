@@ -1,0 +1,50 @@
+/* Shared contract for every component. Animate feedback, never delay input or hide content. */
+:root {
+  --rk-motion-fast: 160ms;
+  --rk-motion-panel: 240ms;
+  --rk-motion-ease: cubic-bezier(.2,.7,.2,1);
+}
+@view-transition { navigation: auto; }
+::view-transition-old(root) { animation: rk-page-out 160ms ease both; }
+::view-transition-new(root) { animation: rk-page-in 220ms ease both; }
+@keyframes rk-page-out { to { opacity: 0; } }
+@keyframes rk-page-in { from { opacity: 0; } }
+@keyframes rk-panel-in { from { opacity: .65; translate: 0 4px; } to { opacity: 1; translate: 0 0; } }
+body :where(a, button, summary, input:not([type='range']), select, textarea) {
+  transition: color var(--rk-motion-fast) ease, background-color var(--rk-motion-fast) ease,
+    border-color var(--rk-motion-fast) ease, box-shadow var(--rk-motion-fast) ease,
+    outline-offset var(--rk-motion-fast) ease;
+}
+body :where(.rk-button, .rk-home-brand-mark, .rk-product-swatches a) {
+  transition: translate var(--rk-motion-fast) var(--rk-motion-ease),
+    color var(--rk-motion-fast) ease, background-color var(--rk-motion-fast) ease,
+    border-color var(--rk-motion-fast) ease, box-shadow var(--rk-motion-fast) ease;
+}
+@media (hover: hover) {
+  body :where(.rk-button, .rk-home-brand-mark, .rk-product-swatches a):not(:disabled):hover { translate: 0 -2px; }
+}
+body :where(.rk-button, .rk-home-brand-mark, .rk-product-swatches a):not(:disabled):active { translate: 0 0; }
+body :where(a, button, summary, input, select, textarea):focus-visible { outline-offset: 5px; }
+body :where([data-service-panel], [data-product-panel]):not([hidden]),
+body :where(details[open] > :not(summary), dialog[open], .rk-mega-column, .rk-project-gallery-item),
+body .rk-product-photo > img, body .rk-lightbox-figure > img {
+  animation: rk-panel-in var(--rk-motion-panel) var(--rk-motion-ease);
+}
+body dialog[open]::backdrop { animation: rk-page-in var(--rk-motion-panel) ease; }
+/* Native disclosure height interpolation where supported; other browsers retain instant close. */
+@supports (interpolate-size: allow-keywords) and (transition-behavior: allow-discrete) {
+  body details:not(.rk-product-badge-disclosure) { interpolate-size: allow-keywords; }
+  body details:not(.rk-product-badge-disclosure)::details-content {
+    block-size: 0;
+    overflow: clip;
+    transition: block-size var(--rk-motion-panel) var(--rk-motion-ease),
+      content-visibility var(--rk-motion-panel) allow-discrete;
+  }
+  body details:not(.rk-product-badge-disclosure)[open]::details-content { block-size: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  @view-transition { navigation: none; }
+  html, html body { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}

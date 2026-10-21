@@ -22,3 +22,5 @@ Preserve explicit content permalinks and source attribution. Update this map whe
 ## Full service composition
 
 PolishedServicePage.astro consumes service-editorial.json and service-copy.json for the 83 supplied pages. It retains complete source-led content, parent child-service tabs or static leaf prose, verified review sources, credentials, alternating media bands, contextual brands, estimate/financing, FAQs and the disconnected quote experience. One estimate/cost/records source section moves to the green planning band without dropping its text. /roofing/ continues through ServiceLanding.astro unchanged. Calculators retain click-to-load Roofr; no form delivery is enabled.
+
+DocumentLayout and SiteLayout both include SiteMotion. Navigation uses browser-native cross-document crossfades, preserving full document loads and fresh island initialization.

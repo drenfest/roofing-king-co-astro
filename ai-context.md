@@ -49,3 +49,7 @@ All 83 service URLs supplied in the 176-page PDF now render through PolishedServ
 Never add Codex or other AI/agent branding to branches, commits, pull request titles, deployment labels, or client-facing content unless the user explicitly requests it. Use neutral project names. This user preference overrides default agent branch-prefix conventions.
 
 The client authorized the Cloudways review deployment and automatic main-branch updates. Production DNS, indexing and custom lead delivery are not changed. See migration/cloudways-deployment.md for the target, recovery and GitHub billing prerequisite.
+
+## Shared motion
+
+Every component inherits SiteMotion through DocumentLayout or SiteLayout. Use motion.css tokens for new interaction states; preserve native input responsiveness and reduced-motion support. No animation library or client router is required.

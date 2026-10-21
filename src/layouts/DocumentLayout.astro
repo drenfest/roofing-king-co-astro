@@ -1,5 +1,6 @@
 ---
 import site from '../data/site.json';
+import SiteMotion from '../components/SiteMotion.astro';
 interface Props { title: string; description: string; canonicalPath: string; image?: string; }
 const { title, description, canonicalPath, image = '/media/wordpress/a102470cfba2-hero-roofing.jpg' } = Astro.props;
 const schema = {
@@ -28,6 +29,7 @@ const schema = {
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&amp;family=Source+Sans+3:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet" />
     <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
     <slot name="head" />
+    <SiteMotion />
   </head>
   <body><a class="rk-skip-link" href="#content">Skip to content</a><slot /></body>
 </html>
