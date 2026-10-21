@@ -39,3 +39,5 @@ service-pdf-source.json is the independent extraction of the supplied 83-page-en
 The Master Elite homeowner-benefits revision is recorded in master-elite-benefits-notes.md. Its dated GAF sources and replacement content live in src/data/service-overrides.json; the original PDF extraction remains immutable evidence.
 
 cloudways-deployment.md records the authorized review deployment, verified application directory, backup time, private rollback files and GitHub automation prerequisite.
+
+cloudways-review-check.json records the successful public verification of all 244 preserved URLs after GitHub deployment. Billing is resolved and the main deployment workflow has a confirmed successful hosted run.

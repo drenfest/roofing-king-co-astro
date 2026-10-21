@@ -23,10 +23,14 @@ Repository: drenfest/roofing-king-co-astro. Deploy branch: main. Workflow: `.git
 
 The workflow verifies the complete site, packages only dist, uploads through pinned SSH, retains previous files, and checks public review URLs. It requires no database credential or full-account API token. Configuration names are documented in the workflow; secret values stay outside the repository.
 
-GitHub Actions currently fails before jobs start due to account payment or spending settings. The account owner must resolve that before automatic builds can run. Initial deployment can use the locally verified build. Do not describe configured automation as a successful hosted run until one completes.
+The client resolved GitHub billing. Automatic deployment run 39519928064 completed successfully for commit d5c6e77 on main, including verification, pinned SSH upload and the public smoke check. The initial locally verified deployment was followed by this confirmed GitHub-hosted update.
 
 ## Review settings
 
 The site retains noindex/nofollow, a disallow-all robots.txt and disabled custom quote submission. Phone, booking and click-to-load Roofr behavior remain available. No production hostname or DNS change is performed.
 
 SFTP is chrooted to the application root. Upload destinations use relative private_html paths; SSH commands use the verified absolute application path. The temporary hostname remains unchanged at the client’s request.
+
+## Completion checks
+
+All 244 protected public URLs returned HTTP 200 with matching page headings, canonicals and review noindex metadata. See cloudways-review-check.json. Unknown URLs return 404. The original WordPress web files are retained in private_html/astro-deploy/backups/web-root-20261021T001217Z; the Cloudways files/database recovery point remains available. No WordPress runtime remains in public_html.

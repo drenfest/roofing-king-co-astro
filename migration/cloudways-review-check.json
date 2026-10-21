@@ -1,0 +1,1716 @@
+{
+  "checkedAt": "2026-10-21T00:14:45.786Z",
+  "base": "https://wordpress-1269393-6519803.cloudwaysapps.com",
+  "pages": 244,
+  "failures": [],
+  "results": [
+    {
+      "path": "/about-us/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/accessibility/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/attic-insulation/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/akron-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/aurora-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/athens-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/a.jared-l/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/beavercreek-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/a.roof-king-restoration/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.gutter-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.decking/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.gaf-roof/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.gutter-types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.metal-roof/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.roofing-contractor-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.roof-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.roofing-repair/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.seamless-gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.siding-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.siding-types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/c.siding/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/how-long-does-a-roof-last-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250115001/replace-your-home-siding-in-columbus-with-expert-help/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250115000/replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250115002/the-importance-of-gutters-for-your-columbus-home/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250321000/the-5-step-roofing-process/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250409000/should-i-go-with-gaf-shingles-for-my-roof-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250520000/how-to-know-if-you-need-a-roof-repair-or-roof-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250610000/how-to-spot-roof-damage-this-storm-season/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250809000/why-gutter-guard-installation-in-columbus-oh-is-a-good-idea/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250702000/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250901000/why-nows-the-time-to-schedule-christmas-light-installation/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.250917000/storm-ready-roofing-protecting-your-home-from-fall-winter-storms/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.251008000/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.251029000/columbus-roofs-face-wind-gusts-over-40-mph-during-fall-stormsenough-to-lift/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.251204000/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.251124000/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.260622000/best-roofing-contractors-dublin-oh-what-homeowners-should-know-before-hiring-a/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.260624000/signs-you-need-roof-repair-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/page/2/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.260624002/how-long-does-a-roof-last-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/prevent-roof-damage-this-winter-with-ice-dam-removal-in-columbus-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.260624001/how-much-does-roof-repair-cost-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/p.260624003/how-much-does-a-roof-replacement-cost-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/signs-you-need-roof-repair-in-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/gaf-roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/blog/winter-roofing-services-in-columbus-oh-what-homeowners-should-know/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/careers/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/ice-dam-removal/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/roof-repair/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/roof-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/seasonal/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/siding/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/category/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/centerville-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cincinnati-oh/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cincinnati-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cincinnati-oh/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cleveland-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cleveland-oh/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cleveland-oh/roofing/cost-of-replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cleveland-oh/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/columbus-ppc-company/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/columbus-oh/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/columbus-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/columbus-oh/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-roofing/gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-roofing/repair/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-roofing/replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-roofing/roof-types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/commercial-siding/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/contact-us/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/cost-of-a-new-roof/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/customer-service/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dayton-oh/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dayton-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dayton-oh/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dayton-oh/the-cost-of-new-gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dayton-roofers/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/deck-visualizer/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/accessories/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/repairs/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/refinishing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/installations/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/decks/replacements/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/delaware-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/delaware-oh/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/delaware-oh/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/emergency-roof-repair-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/events/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/financing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/exterior-painting/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/free-inspection/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gallery/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gaf-roofing-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gahanna-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gutter-installation-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/grove-city-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gutters/seamless/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/gutters/guards/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/hail-damage-roof-repair-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/hamilton-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/hilliard-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/ice-dam-removal/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/lancaster-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/middletown-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/lewis-center-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/metal-roofing-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/newark-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/3-year-financing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/5-year-financing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/5-year-workmanship-warranty/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/flexible-financing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/christmas-lights-install/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/gaf-golden-pledge/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/gaf-silver-pledge/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/gaf-system-plus/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/medallion-bank-financing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/offers/payments/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/our-careers/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/our-team/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706301/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706300/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706302/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706303/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706304/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706305/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706307/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706306/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706308/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1706309/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1978031/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1978032/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1978033/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/privacy-policy-2/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/powell-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1980612/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/past-projects/project/1978034/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/decking/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/decking/composite/trex/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/decking/composite/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/camelot-ii/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-as/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia-rs/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/royal-sovereign/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-as-ii/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/grand-sequoia/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz-rs/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-uhdz/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-ns/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/woodland/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/roofing/shingles/gaf/timberline-hdz/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/engineered-wood/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/fiber-cement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/vinyl/variform/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/vinyl/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/00601dee-df98-42ab-b364-4725af97794b/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/de023ff3-3871-4861-8121-0023190aec17/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roof-calculator/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roof-repair-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roof-replacement-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing-contractor-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing-calculator/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/gaf/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/gaf/master-elite/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/metal/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/repair/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/service-areas/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/roofing/gaf/types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/siding/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/siding/replacement/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/site-map/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/siding/types/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage-roof-repair-dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage/commercial/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-report/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage/hail/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/christmas-lights/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage/insurance-claims/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/storm-damage/wind/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/columbus-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/cost-guides/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/dublin-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/hail-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/gaf-shingles/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/hiring-tips/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/roof-inspection/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/wind-damage/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/tag/winter-roofing/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/upper-arlington-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/warranty/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/westerville-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/gutters/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/windows/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/worthington-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/zanesville-oh/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/gutters/guards/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/gutters/guards/leaffilter/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/",
+      "status": 200,
+      "titleMatches": true,
+      "noindex": true,
+      "canonicalMatches": true
+    }
+  ]
+}

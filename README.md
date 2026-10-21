@@ -93,4 +93,4 @@ BrandStrip takes page-specific heading/copy and an ordered `brandIds` array. Ava
 
 ## Cloudways review deployment
 
-Main commits run the verify, build, static upload and review smoke-check workflow. The initial build can be uploaded locally while GitHub billing blocks hosted Actions. See migration/cloudways-deployment.md for the target, backup, rollback and current automation status. Review indexing and custom quote delivery remain disabled.
+Main commits run the verify, build, static upload and review smoke-check workflow. Billing is resolved, and automatic deployment run 39519928064 successfully published main to Cloudways. See migration/cloudways-deployment.md for the target, backup, rollback and current automation status. Review indexing and custom quote delivery remain disabled.
