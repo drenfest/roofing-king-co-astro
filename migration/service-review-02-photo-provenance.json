@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-21",
+  "generator": "image_gen.imagegen",
+  "type": "Illustrative educational scenes; not actual customer jobs or employee photographs. Generic material samples are not branded product photography.",
+  "prompts": {
+    "roof-deck-repair": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Close-up of a sloped residential roof during tear-off. A small clearly deteriorated plywood decking area beside sound wood, old asphalt shingles pulled back at the top and side, visible eave context. Do not show an open hole to an occupied room. No workers.",
+    "roof-underlayment-edge": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Close-up of a residential roof being prepared before shingles, unbranded dark waterproof underlayment neatly lapped on sound plywood at the eave and a valley transition, metal drip edge visible, a few finished charcoal shingles at one edge. Show a real layered construction detail, not an exploded diagram.",
+    "chimney-step-flashing": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Crisp close-up of properly integrated step flashing and counterflashing where charcoal asphalt shingles meet a red brick chimney, including roof-to-wall junction and the upslope side. Realistic subdued metal and dimensional shingles, no exaggerated sealant or impossible exposed fasteners.",
+    "roof-ridge-vent": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Close-up along the ridge of a charcoal architectural asphalt shingle roof, showing a slim ridge vent beneath matching ridge caps and the slopes on both sides. A leafy residential background softly out of focus, sound installation, no cutaway.",
+    "simple-gable-roof": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Elevated three-quarter photograph of a modest Ohio house with a simple clean gable roof, charcoal architectural shingles, accessible driveway and tidy lawn. Minimal roof intersections. Emphasize clear roof geometry, not a luxury house. No people or vehicles.",
+    "complex-roof-valleys": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Elevated three-quarter architectural photograph of an Ohio house roof with two dormers, intersecting gables, a masonry chimney and clearly visible shingled valleys. Crisp charcoal shingles and realistic flashing transitions. Emphasize additional roof connections, not storm damage.",
+    "roof-material-samples": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Editorial product-detail photograph of generic unbranded architectural asphalt shingle samples in gray and brown beside a small charcoal standing-seam metal panel sample, laid neatly on an ivory work surface outdoors. True material textures and realistic profiles, no labels or product packaging.",
+    "metal-panel-seam": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Close-up looking up a charcoal standing-seam residential metal roof, crisp vertical raised seams, clean hemmed eave trim and adjoining gutter visible. Show concealed-attachment finished panels with no screws through the open panel field. No person or commercial logo.",
+    "roof-pipe-boot": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Close-up of a plausible plumbing vent pipe with a clean black elastomeric collar and metal base correctly integrated into charcoal asphalt shingles. Upper flange concealed beneath upslope shingle courses; lower apron over downslope shingles. Educational flashing detail, no huge sealant blobs.",
+    "roof-plan-review": "Generate one photoreal editorial photograph, landscape 3:2, crisp architectural/construction detail in natural Ohio daylight, restrained ivory/charcoal palette with natural material colors. This is an illustrative educational scene, not a claimed Roof King project or employee. No text, labels, logos, watermarks, collages, exposed unsafe people or company branding. Physically plausible roofing construction. Editorial photo of an anonymous homeowner's gloved or neutral hands reviewing a simple unbranded roof sketch and material samples on a portable work surface outside a house. Paper has only faint schematic roof lines and no legible words, totals, measurements or software UI. Roof in soft background. No face, staff uniform or customer identity.",
+    "metal-roof-flashing": "Photoreal editorial construction photograph landscape 3:2. Close-up of a charcoal standing-seam metal roof meeting a brick chimney, neatly folded metal sidewall and counterflashing integrated with panel seams; physically plausible detail, no sealant blobs, no visible screws through open panel fields, no people, labels, logos or watermarks. Natural daylight. Illustrative scene, not a claimed customer project.",
+    "metal-roof-preparation": "Photoreal editorial landscape 3:2 close-up of a sloped residential roof during standing-seam metal installation. One side has neat unbranded gray underlayment on a sound plywood roof deck; the other has newly fitted charcoal metal panels with raised seams. A small exposed panel-edge strip shows concealed metal attachment clips along a seam before the adjacent panel covers them. Realistic modest roof perspective, no workers, text, logos, labels or watermarks. Educational illustrative scene, not a claimed customer project."
+  },
+  "originals": "output/imagegen/service-review-02/*.png",
+  "optimization": {
+    "format": "WebP",
+    "widths": "480, 800 and up to 1200; four high-detail images capped at 1000 to retain quality within the transfer budget",
+    "maxBytes": 110000,
+    "noEnlargement": true
+  },
+  "assets": [
+    {
+      "src": "/media/service-review-02/roof-deck-repair-480.webp",
+      "width": 480,
+      "bytes": 44794,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-deck-repair-800.webp",
+      "width": 800,
+      "bytes": 108666,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-deck-repair-1000.webp",
+      "width": 1000,
+      "bytes": 109356,
+      "quality": 68
+    },
+    {
+      "src": "/media/service-review-02/roof-underlayment-edge-480.webp",
+      "width": 480,
+      "bytes": 22088,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-underlayment-edge-800.webp",
+      "width": 800,
+      "bytes": 54644,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-underlayment-edge-1200.webp",
+      "width": 1200,
+      "bytes": 108632,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/chimney-step-flashing-480.webp",
+      "width": 480,
+      "bytes": 45100,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/chimney-step-flashing-800.webp",
+      "width": 800,
+      "bytes": 108718,
+      "quality": 78
+    },
+    {
+      "src": "/media/service-review-02/chimney-step-flashing-1000.webp",
+      "width": 1000,
+      "bytes": 109132,
+      "quality": 46
+    },
+    {
+      "src": "/media/service-review-02/roof-ridge-vent-480.webp",
+      "width": 480,
+      "bytes": 46650,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-ridge-vent-800.webp",
+      "width": 800,
+      "bytes": 98814,
+      "quality": 78
+    },
+    {
+      "src": "/media/service-review-02/roof-ridge-vent-1000.webp",
+      "width": 1000,
+      "bytes": 109664,
+      "quality": 60
+    },
+    {
+      "src": "/media/service-review-02/simple-gable-roof-480.webp",
+      "width": 480,
+      "bytes": 37720,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/simple-gable-roof-800.webp",
+      "width": 800,
+      "bytes": 102620,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/simple-gable-roof-1200.webp",
+      "width": 1200,
+      "bytes": 106372,
+      "quality": 46
+    },
+    {
+      "src": "/media/service-review-02/complex-roof-valleys-480.webp",
+      "width": 480,
+      "bytes": 38410,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/complex-roof-valleys-800.webp",
+      "width": 800,
+      "bytes": 93132,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/complex-roof-valleys-1200.webp",
+      "width": 1200,
+      "bytes": 105318,
+      "quality": 58
+    },
+    {
+      "src": "/media/service-review-02/roof-material-samples-480.webp",
+      "width": 480,
+      "bytes": 31264,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-material-samples-800.webp",
+      "width": 800,
+      "bytes": 80318,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-material-samples-1200.webp",
+      "width": 1200,
+      "bytes": 108914,
+      "quality": 58
+    },
+    {
+      "src": "/media/service-review-02/metal-panel-seam-480.webp",
+      "width": 480,
+      "bytes": 23942,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-panel-seam-800.webp",
+      "width": 800,
+      "bytes": 49854,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-panel-seam-1200.webp",
+      "width": 1200,
+      "bytes": 91540,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-pipe-boot-480.webp",
+      "width": 480,
+      "bytes": 43542,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-pipe-boot-800.webp",
+      "width": 800,
+      "bytes": 99302,
+      "quality": 78
+    },
+    {
+      "src": "/media/service-review-02/roof-pipe-boot-1000.webp",
+      "width": 1000,
+      "bytes": 108262,
+      "quality": 56
+    },
+    {
+      "src": "/media/service-review-02/roof-plan-review-480.webp",
+      "width": 480,
+      "bytes": 27634,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-plan-review-800.webp",
+      "width": 800,
+      "bytes": 57786,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/roof-plan-review-1200.webp",
+      "width": 1200,
+      "bytes": 105724,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-flashing-480.webp",
+      "width": 480,
+      "bytes": 20008,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-flashing-800.webp",
+      "width": 800,
+      "bytes": 45544,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-flashing-1200.webp",
+      "width": 1200,
+      "bytes": 88080,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-preparation-480.webp",
+      "width": 480,
+      "bytes": 23862,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-preparation-800.webp",
+      "width": 800,
+      "bytes": 53862,
+      "quality": 82
+    },
+    {
+      "src": "/media/service-review-02/metal-roof-preparation-1200.webp",
+      "width": 1200,
+      "bytes": 102830,
+      "quality": 82
+    }
+  ],
+  "reusedManufacturerImage": {
+    "sourceUrl": "https://product-assets.gaf.com/media/catalog/product/t/i/timberlinehdz_barkwood_shingle-min.png",
+    "localSource": "public/media/products/timberline-hdz-clr0000006-800.webp",
+    "derivatives": [
+      {
+        "src": "/media/service-review-02/gaf-timberline-hdz-barkwood-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/service-review-02/gaf-timberline-hdz-barkwood-600.webp",
+        "width": 600
+      }
+    ],
+    "reason": "Actual GAF profile/color evidence on Master Elite page; generic metal-inclusive samples would confuse the qualifying shingle-system discussion."
+  }
+}

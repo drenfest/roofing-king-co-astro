@@ -48,3 +48,21 @@ media/company holds original About roof and community-photo WebP variants withou
 
 
 media/company includes optimized original careers-team WebP variants in addition to existing About/community photos, without enlargement.
+
+
+media/service-review-01 contains 30 optimized WebP derivatives of ten illustrative siding/gutter detail scenes, at 480/800/1200px and <=110 KB per file. Source originals stay in output/imagegen/service-review-01; captions do not claim customer project provenance.
+
+
+media/service-review-02 contains 36 WebP derivatives of twelve illustrative roof-detail scenes, plus two optimized copies of an existing genuine GAF Timberline HDZ Barkwood product image. Variants stay <=110 KB; the most detailed scenes cap at 1000px instead of 1200px. Do not present generic sample images as branded GAF products.
+
+
+media/service-review-03 has 42 WebP derivatives of fourteen illustrative commercial/storm scenes. Every variant is <=110 KB with no enlargement. An ambiguous scupper generation was rejected and excluded from public assets; an internal roof-drain detail replaces it. Provenance is recorded under migration.
+
+
+media/client-photography contains optimized responsive versions of fourteen inspected supplied sources; no camera originals, EXIF or GPS are published. media/service-review-04 contains six derivatives of two attic illustrations. roofing-heroes/dublin-replacement-client-* replaces one generated hero with four real-photo crops; remaining generated heroes retain their disclosures. Sources and limits are recorded in migration/client-photography-review.json.
+
+
+media/service-review-05 contains nine landscape WebP derivatives of four inspected client-supplied originals, plus three derivatives of the existing ice-dam illustration. All are <=110 KB, with no enlargement or camera metadata. No new image generation. Source records and exact topic placements are in migration/service-review-05-photo-provenance.json and client-photography-review.json.
+
+
+media/client-gallery/ contains 265 optimized responsive WebP variants for 77 unique supplied photographs (180 KB per-file limit). Original HEIF/JPEG/reference files remain outside public. Small sources are never upscaled; image metadata is stripped. Exact file/alias/graphic dispositions and byte totals are in migration/client-gallery-inventory.json.

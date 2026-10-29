@@ -145,7 +145,8 @@ assert.deepEqual(Object.keys(customHeroes).sort(),Object.keys(editorial).sort(),
 for(const [path,asset]of Object.entries(customHeroes)){
  const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));const hero=page('.rk-editorial-hero>img').first();assert.ok(hero.attr('src').includes('/media/roofing-heroes/')||hero.attr('src').includes('/media/service-heroes/'),'No generic hero fallback: '+path);
  const hash=createHash('sha256').update(await fs.readFile('dist'+asset.image.src)).digest('hex');assert.ok(!hashes.has(hash),'Do not copy the same hero across routes');hashes.add(hash);
- assert.equal(page('.rk-service-hero-credit').length,1,'Retain illustrative disclosure: '+path);
+ assert.equal(page('.rk-service-hero-credit').length,asset.generated?1:0,'Use source-appropriate illustration disclosure: '+path);
+ if(!asset.generated){assert.equal(asset.source?.type,'client-photography');assert.ok(asset.source?.url&&asset.source?.fileId,'Real hero needs source provenance: '+path);}
 }
 for(const record of Object.values(newMedia))for(const variant of record.variants){assert.ok(variant.src.endsWith('.webp'));assert.ok((await fs.stat('dist'+variant.src)).size<=300000,'Custom service hero exceeds WebP budget');}
 console.log(`${tabImages} child hero previews on ${tabParents} parent pages match their destinations; all ${hashes.size} service pages have distinct optimized custom heroes.`);

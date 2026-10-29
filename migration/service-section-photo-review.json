@@ -1,6 +1,6 @@
 {
   "workflow": "Ten-page service review batches",
-  "clientDirection": "Finish one example, then include the photo pass in each ten-page review. Photos only in this pass; leave copy changes for the page review.",
+  "clientDirection": "Continue ten-page review batches. In every three-photo media section, pair each photo with a relevant heading and paragraph on the opposing side. On mobile keep each photo directly above its matching copy.",
   "example": {
     "route": "/gutters/",
     "sectionId": "service-copy-46-3",
@@ -16,15 +16,15 @@
       "photos": 3,
       "responsiveWebP": true,
       "lazyLoading": true,
-      "copyUnchanged": true,
+      "eachPhotoPairedToCopy": true,
+      "originalParagraphsRetained": true,
       "otherPageGalleriesUnchanged": true,
-      "largestTransferredImageBytes": 65472,
-      "checks": "npm run verify and focused browser review passed"
+      "checks": "npm run verify; npm run check:service-photos; 40 responsive browser checks; visual review of all ten desktop sections and mobile examples"
     }
   },
   "checklist": [
     "Review this page’s headings, hierarchy and copy in its ten-page batch.",
-    "Find every rendered media section on the page; choose three distinct images tied to that specific section.",
+    "Find every rendered media section; select three distinct photos and explicitly map each to its opposing heading and paragraph. Group related subtopics under an H3 with subordinate H4s when needed.",
     "Preserve existing section IDs, links and text unless a copy revision is part of the batch.",
     "Check photo content; retain truthful illustrative/existing-site attribution and descriptive alt text.",
     "Use responsive WebP with intrinsic dimensions, appropriate sizes and lazy loading. Optimize new photos to a maximum 110 KB per variant where practical.",
@@ -32,179 +32,199 @@
     "Run npm run verify and record browser checks before marking the page’s photo review complete."
   ],
   "inventory": {
-    "sourceMediaSections": 133,
-    "renderedMediaSections": 121,
-    "pagesWithRenderedMediaSections": 82,
-    "examplesCompleted": 1,
-    "pendingRenderedSections": 120,
-    "renderedMediaContentRows": 0
+    "sourceMediaSections": 95,
+    "renderedMediaSections": 74,
+    "pagesWithRenderedMediaSections": 64,
+    "examplesCompleted": 50,
+    "pendingRenderedSections": 24,
+    "renderedMediaContentRows": 0,
+    "completedRenderedSections": 50,
+    "originalSourceMediaCandidates": 133
   },
   "sections": [
     {
       "route": "/akron-oh/",
       "sectionId": "service-copy-1-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Akron",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/athens-oh/",
       "sectionId": "service-copy-2-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Athens",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/attic-insulation/",
       "sectionId": "service-copy-3-3",
-      "title": "Insulation, air sealing and ventilation have different jobs",
+      "title": "Attic performance: insulation coverage, air sealing and ventilation paths",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/attic-insulation/",
       "sectionId": "service-copy-3-5",
-      "title": "Read the installation estimate",
+      "title": "Your attic insulation estimate: area, product, preparation and completion records",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/aurora-oh/",
       "sectionId": "service-copy-4-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Aurora",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/beavercreek-oh/",
       "sectionId": "service-copy-5-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Beavercreek",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/centerville-oh/",
       "sectionId": "service-copy-6-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Centerville",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/cincinnati-oh/",
       "sectionId": "service-copy-7-1",
-      "title": "More about roofing & exterior services",
+      "title": "Cincinnati exterior repairs: roof-to-wall flashing, fascia and storm damage",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/",
       "sectionId": "service-copy-7-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Roofing and exterior services for Cincinnati homes and commercial properties",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/roofing/",
       "sectionId": "service-copy-8-3",
-      "title": "The parts of a complete roofing installation",
+      "title": "Cincinnati roof replacement: deck repairs, chimney flashing and ridge details",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/roofing/",
       "sectionId": "service-copy-8-5",
-      "title": "Prepare the property for roofing work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your Cincinnati roofing estimate: access, adjoining work and cleanup",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/storm-damage/",
       "sectionId": "service-copy-9-3",
-      "title": "See the affected areas and recommended repairs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Locating storm findings on your Cincinnati roof and exterior",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/storm-damage/",
       "sectionId": "service-copy-9-5",
-      "title": "Keep construction records and insurance decisions separate",
+      "title": "Your Cincinnati storm repair estimate and construction records",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
       "sectionId": "service-copy-10-3",
       "title": "What adds to a siding replacement quote?",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/",
       "sectionId": "service-copy-11-1",
-      "title": "More about roofing & exterior services",
+      "title": "Cleveland exterior repairs: dormer walls, roof-edge drainage and storm findings",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/",
       "sectionId": "service-copy-11-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Roofing and exterior services for Cleveland homes and managed buildings",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/roofing/",
       "sectionId": "service-copy-12-3",
-      "title": "The parts of a complete roofing installation",
+      "title": "Cleveland roof replacement: prepared decking, protective layers and attic airflow",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/roofing/",
       "sectionId": "service-copy-12-5",
-      "title": "Prepare the property for roofing work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your Cleveland roofing estimate: installation details, access and cleanup",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/roofing/cost-of-replacement/",
       "sectionId": "service-copy-13-3",
-      "title": "Compare two installation examples",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing straightforward and complex Cleveland roof replacement estimates",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/roofing/cost-of-replacement/",
       "sectionId": "service-copy-13-5",
-      "title": "Use a calculator as a starting point",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Using a roof calculator before a Cleveland property assessment",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/storm-damage/",
       "sectionId": "service-copy-14-3",
-      "title": "See the affected areas and recommended repairs",
+      "title": "Cleveland storm records: roof locations, material observations and repair decisions",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cleveland-oh/storm-damage/",
       "sectionId": "service-copy-14-5",
-      "title": "Keep construction records and insurance decisions separate",
+      "title": "Your Cleveland storm repair estimate, changes and completion records",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/columbus-oh/",
       "sectionId": "service-copy-15-1",
-      "title": "More about roofing & exterior services",
+      "title": "Coordinating roofing, siding and storm repairs in Columbus",
       "renderedAsMediaSection": true,
       "status": "pending-page-review"
     },
     {
       "route": "/columbus-oh/",
       "sectionId": "service-copy-15-3",
-      "title": "Other projects around your home",
+      "title": "Exterior services for homes and businesses in Columbus",
       "renderedAsMediaSection": true,
       "status": "pending-page-review"
     },
@@ -239,142 +259,163 @@
     {
       "route": "/commercial-roofing/",
       "sectionId": "service-copy-18-3",
-      "title": "Work around the building's operations",
+      "title": "Planning commercial roof work around building operations",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/gutters/",
       "sectionId": "service-copy-19-3",
-      "title": "Separate external gutters from other roof drainage",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "External gutters, scuppers and internal drains have different roles",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/gutters/",
       "sectionId": "service-copy-19-5",
-      "title": "Coordinate installation with the property contact",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Commercial gutter installation access and written estimate",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/repair/",
       "sectionId": "service-copy-20-3",
-      "title": "Check what the visible repair would leave beneath it",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Moisture beneath a commercial roof repair area",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/repair/",
       "sectionId": "service-copy-20-5",
-      "title": "Know when to compare broader work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "When recurring commercial roof leaks need a replacement assessment",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/replacement/",
       "sectionId": "service-copy-21-3",
-      "title": "Decide what stays and what is removed",
+      "title": "Commercial roof replacement: tear-off, recover and rebuilt connections",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/replacement/",
       "sectionId": "service-copy-21-5",
       "title": "Resolve drainage and equipment connections",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate"
     },
     {
       "route": "/commercial-roofing/replacement/",
       "sectionId": "service-copy-21-7",
-      "title": "Close out with a usable roof record",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Commercial roof replacement estimate and handover documents",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/roof-types/",
       "sectionId": "service-copy-22-3",
-      "title": "Understand the layers below the covering",
+      "title": "Commercial roof assemblies: covering, insulation and connections",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-roofing/roof-types/",
       "sectionId": "service-copy-22-5",
-      "title": "Coating and recover decisions need evidence",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing commercial roof coating and recover proposals",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/commercial-siding/",
       "sectionId": "service-copy-23-4",
       "title": "Planning a commercial siding installation",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cost-of-a-new-roof/",
       "sectionId": "service-copy-24-3",
-      "title": "Compare two installation examples",
+      "title": "Why similar-size roofs can have different replacement costs",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/cost-of-a-new-roof/",
       "sectionId": "service-copy-24-5",
-      "title": "Use a calculator as a starting point",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Using a roof calculator before a measured estimate",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/",
       "sectionId": "service-copy-25-1",
-      "title": "More about roofing & exterior services",
+      "title": "Dayton exterior repairs: porch junctions, retained trim and gutter connections",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/",
       "sectionId": "service-copy-25-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Roofing and exterior services for Dayton homes and commercial properties",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/roofing/",
       "sectionId": "service-copy-26-3",
-      "title": "The parts of a complete roofing installation",
+      "title": "Dayton roof replacement: deck preparation, porch connections and finished covering",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-05",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/roofing/",
       "sectionId": "service-copy-26-5",
-      "title": "Prepare the property for roofing work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your Dayton roofing estimate: access, project arrangements and cleanup",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/storm-damage/",
       "sectionId": "service-copy-27-3",
-      "title": "See the affected areas and recommended repairs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Recording the affected Dayton roof areas before choosing repairs",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/storm-damage/",
       "sectionId": "service-copy-27-5",
-      "title": "Keep construction records and insurance decisions separate",
+      "title": "Your Dayton storm repair estimate and construction documentation",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-oh/the-cost-of-new-gutters/",
       "sectionId": "service-copy-28-3",
       "title": "Gutter products and installation details to include in pricing",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/dayton-roofers/",
@@ -463,14 +504,14 @@
     {
       "route": "/delaware-oh/",
       "sectionId": "service-copy-36-1",
-      "title": "More about roofing & exterior services",
+      "title": "Coordinating roofing, siding and storm repairs in Delaware",
       "renderedAsMediaSection": true,
       "status": "pending-page-review"
     },
     {
       "route": "/delaware-oh/",
       "sectionId": "service-copy-36-3",
-      "title": "Other projects around your home",
+      "title": "Exterior services for homes and businesses in Delaware",
       "renderedAsMediaSection": true,
       "status": "pending-page-review"
     },
@@ -505,23 +546,25 @@
     {
       "route": "/dublin-oh/",
       "sectionId": "service-copy-39-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Dublin",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/emergency-roof-repair-dublin-oh/",
       "sectionId": "service-copy-40-3",
-      "title": "Temporary protection and repair have different purposes",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Temporary roof protection and the permanent repair estimate",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/emergency-roof-repair-dublin-oh/",
       "sectionId": "service-copy-40-5",
-      "title": "Move from the findings to a permanent solution",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Choosing a permanent roof repair after the urgent response",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/exterior-painting/",
@@ -540,29 +583,31 @@
     {
       "route": "/gaf-roofing-dublin-oh/",
       "sectionId": "service-copy-42-3",
-      "title": "Connect the product selection to the installation",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Planning tear-off, deliveries and roof access in Dublin",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/gaf-roofing-dublin-oh/",
       "sectionId": "service-copy-42-5",
-      "title": "Confirm the warranty for your selected system",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your Dublin GAF estimate, warranty and registration",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/gahanna-oh/",
       "sectionId": "service-copy-43-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Gahanna",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/grove-city-oh/",
       "sectionId": "service-copy-44-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Grove City",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
@@ -570,406 +615,617 @@
       "sectionId": "service-copy-45-3",
       "title": "Gutter installation: preparation, attachment and drainage",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/gutters/",
       "sectionId": "service-copy-46-3",
       "title": "Installing gutters on a sound roof edge",
       "renderedAsMediaSection": true,
-      "status": "example-ready-for-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/gutters/guards/",
       "sectionId": "service-copy-47-4",
       "title": "Installing and maintaining gutter guards",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/gutters/seamless/",
       "sectionId": "service-copy-48-4",
       "title": "How seamless gutters are measured and installed",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/hail-damage-roof-repair-dublin-oh/",
       "sectionId": "service-copy-49-3",
-      "title": "Decide whether the affected roofing can be repaired",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Hail-damaged roofing: focused repair or wider replacement",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/hail-damage-roof-repair-dublin-oh/",
       "sectionId": "service-copy-49-5",
-      "title": "Read impact classifications carefully",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Shingle impact classifications and their limits in real hailstorms",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/hamilton-oh/",
       "sectionId": "service-copy-50-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Hamilton",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/hilliard-oh/",
       "sectionId": "service-copy-51-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Hilliard",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/ice-dam-removal/",
       "sectionId": "service-copy-52-3",
-      "title": "What removal needs to consider",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your ice dam removal estimate: method, access and follow-up limits",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/ice-dam-removal/",
       "sectionId": "service-copy-52-5",
-      "title": "Investigate recurring conditions",
+      "title": "Recurring ice dams: air leakage, insulation and attic ventilation",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/lancaster-oh/",
       "sectionId": "service-copy-53-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Lancaster",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/lewis-center-oh/",
       "sectionId": "service-copy-54-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Lewis Center",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/metal-roofing-dublin-oh/",
       "sectionId": "service-copy-55-3",
-      "title": "Compare metal and shingles as complete roofs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing metal roofing and GAF shingles as installed systems",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/metal-roofing-dublin-oh/",
       "sectionId": "service-copy-55-5",
-      "title": "Plan for upkeep and future work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Maintaining metal roof fasteners, finishes and future penetrations",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/middletown-oh/",
       "sectionId": "service-copy-56-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Middletown",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/newark-oh/",
       "sectionId": "service-copy-57-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Newark",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/powell-oh/",
       "sectionId": "service-copy-58-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Powell",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/roof-calculator/",
       "sectionId": "service-copy-59-3",
-      "title": "Understand what the estimate can and cannot establish",
-      "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "title": "What an online roof estimate cannot inspect",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roof-calculator/",
       "sectionId": "service-copy-59-5",
-      "title": "From an online estimate to a roofing proposal",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "From an online result to a written roofing proposal",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roof-repair-dublin-oh/",
       "sectionId": "service-copy-60-3",
-      "title": "Find where the water gets in",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Tracing a roof leak from the interior symptom to the entry point",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roof-repair-dublin-oh/",
       "sectionId": "service-copy-60-5",
-      "title": "Repair the problem or replace the roof?",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Localized roof repair or replacement of a deteriorated roof?",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roof-replacement-dublin-oh/",
       "sectionId": "service-copy-61-3",
-      "title": "What happens beneath the new roof",
+      "title": "Dublin roof replacement: removal, protective layers and rebuilt connections",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roof-replacement-dublin-oh/",
       "sectionId": "service-copy-61-5",
-      "title": "Compare what is behind the total",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your Dublin replacement roof estimate: what is included behind the total",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing-calculator/",
       "sectionId": "service-copy-62-3",
-      "title": "Why the measured proposal can change",
+      "title": "Why a measured roofing proposal can differ from the calculator",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing-contractor-dublin-oh/",
       "sectionId": "service-copy-63-3",
-      "title": "Read the materials and installation included",
+      "title": "Comparing Dublin roofing proposals: materials, arrangements and coverage",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing-contractor-dublin-oh/",
       "sectionId": "service-copy-63-5",
-      "title": "Use reviews and project examples carefully",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Using roofing reviews and project photos to ask better questions",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/gaf/",
       "sectionId": "service-copy-64-3",
-      "title": "Connect the product selection to the installation",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Planning GAF tear-off, preparation and installation",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/gaf/",
       "sectionId": "service-copy-64-5",
-      "title": "Confirm the warranty for your selected system",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "GAF roof warranties, registration and your written estimate",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/gaf/master-elite/",
       "sectionId": "master-elite-qualifications",
-      "title": "A Contractor Held to GAF’s Program Requirements",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "GAF Master Elite requirements you can verify",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/gaf/master-elite/",
       "sectionId": "gaf-complete-system",
-      "title": "Build the Roof That Qualifies for Your Protection",
+      "title": "Choosing a roof system that qualifies for your GAF warranty",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/metal/",
       "sectionId": "service-copy-66-3",
-      "title": "Compare metal and shingles as complete roofs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing metal roofing with GAF shingles",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/metal/",
       "sectionId": "service-copy-66-5",
-      "title": "Plan for upkeep and future work",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Metal roof maintenance and written installation terms",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/repair/",
       "sectionId": "service-copy-67-3",
-      "title": "The roof areas and materials included in the repair",
+      "title": "How a roof repair connects to the surrounding roof",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/repair/",
       "sectionId": "service-copy-67-5",
-      "title": "Cost depends on the failing detail",
+      "title": "What a Columbus roof repair estimate should include",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/replacement/",
       "sectionId": "service-copy-68-3",
-      "title": "What happens beneath the new roof",
+      "title": "Roof replacement: decking, flashing and ventilation",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/replacement/",
       "sectionId": "service-copy-68-5",
-      "title": "Compare what is behind the total",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing roof replacement estimates in Columbus",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/roofing/types/",
       "sectionId": "service-copy-69-3",
-      "title": "Compare the details that affect the whole project",
+      "title": "Comparing roofing materials for your roof’s shape and upkeep",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/siding/",
       "sectionId": "service-copy-70-1",
       "title": "Assessing siding damage before repair or replacement",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/siding/replacement/",
       "sectionId": "service-copy-71-3",
       "title": "How the wall is prepared for new siding",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/siding/types/",
       "sectionId": "service-copy-72-4",
       "title": "Comparing siding appearance, installation and maintenance",
       "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "status": "reviewed-batch-01",
+      "photoReviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage-roof-repair-dublin-oh/",
       "sectionId": "service-copy-73-3",
-      "title": "See the affected areas and recommended repairs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Roof damage records: connect photographs with locations and proposed repairs",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage-roof-repair-dublin-oh/",
       "sectionId": "service-copy-73-5",
-      "title": "Keep construction records and insurance decisions separate",
+      "title": "Your Dublin storm repair estimate and insurance documentation",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/",
       "sectionId": "service-copy-74-3",
-      "title": "See the affected areas and recommended repairs",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Photographs and locations that explain suspected storm damage",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/",
       "sectionId": "service-copy-74-5",
-      "title": "Keep construction records and insurance decisions separate",
+      "title": "Storm repair estimates and the insurance documentation record",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/commercial/",
       "sectionId": "service-copy-75-3",
       "title": "Build a location-based damage record",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate"
     },
     {
       "route": "/storm-damage/commercial/",
       "sectionId": "service-copy-75-5",
-      "title": "Plan the work around the property",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Coordinating temporary protection and permanent commercial repairs",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/hail/",
       "sectionId": "service-copy-76-3",
-      "title": "Decide whether the affected roofing can be repaired",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Hail-damaged roofing: localized repair or wider replacement",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/hail/",
       "sectionId": "service-copy-76-5",
-      "title": "Read impact classifications carefully",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Shingle impact classifications and the limits of hail protection",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/insurance-claims/",
       "sectionId": "service-copy-77-3",
-      "title": "Keep the responsibilities clear",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Construction findings, owner authorization and insurer decisions",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/insurance-claims/",
       "sectionId": "service-copy-77-5",
-      "title": "Retain records after repairs",
+      "title": "Storm repair estimates, invoices and the completed-work record",
       "renderedAsMediaSection": false,
-      "status": "not-rendered-in-this-layout"
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/wind/",
       "sectionId": "service-copy-78-3",
-      "title": "Define the permanent repair",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your wind repair estimate and remaining permanent work",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/storm-damage/wind/",
       "sectionId": "service-copy-78-5",
-      "title": "Read wind claims with the installation requirements",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Shingle wind classifications, accessories and installation conditions",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/upper-arlington-oh/",
       "sectionId": "service-copy-79-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Upper Arlington",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/westerville-oh/",
       "sectionId": "service-copy-80-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Westerville",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/windows/",
       "sectionId": "service-copy-81-3",
-      "title": "Understand the frame and glass specification",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Comparing window frame, glazing and whole-unit performance ratings",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/windows/",
       "sectionId": "service-copy-81-5",
-      "title": "Coordinate adjoining siding and finishes",
-      "renderedAsMediaSection": true,
-      "status": "pending-page-review"
+      "title": "Your window replacement estimate: trim, finishes and adjoining siding",
+      "renderedAsMediaSection": false,
+      "status": "reviewed-as-grouped-prose-or-estimate",
+      "reviewedAt": "2026-10-28"
     },
     {
       "route": "/worthington-oh/",
       "sectionId": "service-copy-82-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Worthington",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
     },
     {
       "route": "/zanesville-oh/",
       "sectionId": "service-copy-83-3",
-      "title": "Other projects around your home",
-      "renderedAsMediaSection": true,
+      "title": "Roofing, siding and storm repair estimates in Zanesville",
+      "renderedAsMediaSection": false,
       "status": "pending-page-review"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "sectionId": "service-copy-42-2",
+      "title": "GAF roof-system details for Dublin homes",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "sectionId": "service-copy-62-2",
+      "title": "Comparing roof estimates with the same areas and materials",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "sectionId": "service-copy-64-2",
+      "title": "GAF roof-system components beneath and around the shingles",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/roofing/metal/",
+      "sectionId": "service-copy-66-2",
+      "title": "Metal roof installation: deck, attachment and flashing",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-02",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-2",
+      "title": "Commercial gutter layout: collection, discharge and attachment",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-copy-20-2",
+      "title": "Commercial roof repairs at seams, curbs and drainage connections",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage/",
+      "sectionId": "service-copy-74-2",
+      "title": "Wind, hail and debris damage affect different roof connections",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-copy-75-2",
+      "title": "Commercial storm inspection: membranes, curbs and roof drainage",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "sectionId": "service-copy-76-2",
+      "title": "Hail inspection observations: shingles, metal and adjoining exteriors",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "sectionId": "service-copy-77-2",
+      "title": "Connecting roof observations, photographs and the repair estimate",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "sectionId": "service-copy-78-2",
+      "title": "Wind damage inspection beyond the first missing shingle",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-03",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-4",
+      "title": "Emergency leak assessment: entry points, exposed layers and follow-up",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-2",
+      "title": "Dublin hail inspections: roof covering, metal and adjoining exterior areas",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "sectionId": "service-copy-55-2",
+      "title": "Metal roof installation: the deck, attachment and flashing beneath the finish",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-4",
+      "title": "Dublin roof repairs: opening the area, reconnecting layers and defining the finish",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-2",
+      "title": "Dublin storm inspections: wind, hail and debris affect different details",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/windows/",
+      "sectionId": "service-copy-81-4",
+      "title": "Window installation: the opening, wall flashing and trim connections",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-04",
+      "reviewedAt": "2026-10-28"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-2",
+      "title": "Cincinnati storm inspection: displaced shingles, hail observations and debris",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-2",
+      "title": "Cleveland replacement roof pricing: layout, removal and system components",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-05"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-4",
+      "title": "Dayton storm repair decisions: local failure, wider damage and roof-to-wall work",
+      "renderedAsMediaSection": true,
+      "status": "reviewed-batch-05"
     }
-  ]
+  ],
+  "inventoryNote": "Counts recalculated from current built service pages after grouping reviewed topics and moving explicit estimate content. Former media candidates retained as reviewed prose/estimate records rather than counted as pending photos."
 }

@@ -1,20 +1,36 @@
 ---
 import HomeImage from './HomeImage.astro';
-import type {ImageData} from '../data/section-types';
-interface Props {photos:{image:ImageData;caption:string}[];label:string;}
-const {photos,label}=Astro.props;
+import RichContent from './RichContent.astro';
+import type {ImageData,ServiceCopySection} from '../data/section-types';
+interface Props {photos:{image:ImageData;caption:string;heading:string;topics:string[]}[];label:string;id:string;cards:ServiceCopySection['cards'];reverse?:boolean;}
+const {photos,label,id,cards,reverse=false}=Astro.props;
 if(photos.length!==3)throw new Error(`SectionPhotoGallery needs three images: ${label}`);
 if(new Set(photos.map(photo=>photo.image.src)).size!==3)throw new Error(`SectionPhotoGallery repeats an image: ${label}`);
+const topics=photos.flatMap(photo=>photo.topics);
+if(topics.length!==cards.length||new Set(topics).size!==cards.length||!cards.every(card=>topics.includes(card.title)))throw new Error(`Each photo must map to its own copy topics exactly once: ${label}`);
+const rows=photos.map((photo,index)=>{
+ const matched=photo.topics.map(title=>cards.find(card=>card.title===title)!);
+ const titleId=matched.length===1&&matched[0].id?`${matched[0].id}-title`:`${id}-photo-topic-${index+1}`;
+ return {...photo,cards:matched,titleId};
+});
 ---
-<div class="rk-section-photo-gallery" role="group" aria-label={label} data-component="SectionPhotoGallery">
-  {photos.map((photo,index)=><figure><HomeImage {...photo.image} sizes={index===0?'(max-width:760px) calc(100vw - 2rem), 45vw':'(max-width:760px) calc(50vw - 1.5rem), 45vw'}/><figcaption>{photo.caption}</figcaption></figure>)}
+<div class:list={['rk-section-photo-gallery',{'is-reversed':reverse}]} role="group" aria-label={label} data-component="SectionPhotoGallery">
+ {rows.map(row=><div class="rk-section-photo-pair" role="group" aria-labelledby={row.titleId} data-photo-pair data-photo-topics={row.topics.join('|')}>
+  <figure><HomeImage {...row.image} sizes="(max-width:760px) calc(100vw - 2rem), (max-width:1100px) 43vw, 530px"/><figcaption>{row.caption}</figcaption></figure>
+  <div class="rk-section-photo-copy"><h3 id={row.titleId}>{row.heading}</h3>{row.cards.map(card=><div id={card.id}>{row.cards.length>1&&<h4 id={card.id?`${card.id}-title`:undefined}>{card.title}</h4>}<RichContent nodes={card.body}/></div>)}</div>
+ </div>)}
 </div>
 <style>
-  .rk-section-photo-gallery{display:grid;grid-template-columns:minmax(0,1fr);gap:1.3rem;align-content:start;min-width:0;}
+  .rk-section-photo-gallery{display:grid;gap:clamp(2rem,4vw,3.5rem);min-width:0;margin-top:2.2rem;}
+  .rk-section-photo-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(2rem,5vw,5rem);align-items:center;min-width:0;}
+  .rk-section-photo-copy{min-width:0;}.rk-section-photo-copy h3{font-size:clamp(1.45rem,2.2vw,2rem);line-height:1.25;margin:0 0 1rem;text-transform:none;}
+  .rk-section-photo-copy h4{font-size:1.14rem;line-height:1.4;margin:1.2rem 0 .5rem;text-transform:none;}
+  .rk-section-photo-copy :global(p){font-size:1rem;line-height:1.85;}.rk-section-photo-copy :global(p:last-child){margin-bottom:0;}
+  .is-reversed .rk-section-photo-pair{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);}.is-reversed figure{order:2;}.is-reversed .rk-section-photo-copy{order:1;}
   figure{margin:0;min-width:0;}
-  figure:first-child{grid-column:1/-1;}
-  figure :global(img){display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:2px;}
-  figure:first-child :global(img){clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,16px 100%,0 calc(100% - 16px));}
+  figure :global(img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:2px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,16px 100%,0 calc(100% - 16px));transition:filter var(--rk-motion-fast,180ms);}
+  .rk-section-photo-pair:hover figure :global(img){filter:brightness(1.025);}
   figcaption{margin-top:.6rem;font-size:.7rem;line-height:1.6;color:inherit;opacity:.78;}
-  @media(max-width:760px){.rk-section-photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem .8rem;}figure:not(:first-child) :global(img){aspect-ratio:4/3;}figcaption{font-size:.67rem;}}
+  @media(max-width:760px){.rk-section-photo-pair,.is-reversed .rk-section-photo-pair{grid-template-columns:minmax(0,1fr);gap:1.2rem;}.is-reversed figure,.is-reversed .rk-section-photo-copy{order:initial;}.rk-section-photo-gallery{gap:2.5rem;}figcaption{font-size:.67rem;}}
+  @media(prefers-reduced-motion:reduce){figure :global(img){transition:none;}}
 </style>

@@ -900,5 +900,27 @@
         "width": 1672
       }
     ]
+  },
+  "/media/roofing-heroes/dublin-replacement-client-1600.webp": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/dublin-replacement-client-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/dublin-replacement-client-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/dublin-replacement-client-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/media/roofing-heroes/dublin-replacement-client-1600.webp",
+        "width": 1600
+      }
+    ]
   }
 }

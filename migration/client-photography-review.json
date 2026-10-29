@@ -1,0 +1,1185 @@
+{
+  "date": "2026-10-28",
+  "folder": "https://drive.google.com/drive/folders/1jQLcmgT2IXFWLtGNT7KDc1X_fV_-MgsE",
+  "email": {
+    "subject": "Folder shared with you: \"Roof Photos\"",
+    "sender": "Riley Dempsey via Google Drive",
+    "date": "2026-10-21"
+  },
+  "inventoryCount": 104,
+  "downloadedImages": 34,
+  "selected": [
+    {
+      "key": "installation",
+      "id": "1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R",
+      "title": "4B12A4B130DCB7DF9210014A7F8135E6.JPG",
+      "mime_type": "image/jpeg",
+      "size": "10515681",
+      "url": "https://drive.google.com/file/d/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:14.873Z",
+      "modified_time": "2023-06-06T22:54:56.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R.jpg",
+      "dimensions": {
+        "width": 5472,
+        "height": 3648
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "neighborhood",
+      "id": "1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B",
+      "title": "IMG_2345.jpg",
+      "mime_type": "image/jpeg",
+      "size": "343591",
+      "url": "https://drive.google.com/file/d/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:19.222Z",
+      "modified_time": "2024-03-12T15:53:16.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B.jpg",
+      "dimensions": {
+        "width": 1290,
+        "height": 842
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "underlayment",
+      "id": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "title": "IMG_6922.jpg",
+      "mime_type": "image/jpeg",
+      "size": "877955",
+      "url": "https://drive.google.com/file/d/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:13.998Z",
+      "modified_time": "2023-03-14T21:42:12.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1604
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "lowRoof",
+      "id": "1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe",
+      "title": "IMG_6923.jpg",
+      "mime_type": "image/jpeg",
+      "size": "561788",
+      "url": "https://drive.google.com/file/d/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:13.998Z",
+      "modified_time": "2023-03-14T21:42:03.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1660
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "ridge",
+      "id": "1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8",
+      "title": "IMG_6626.jpg",
+      "mime_type": "image/jpeg",
+      "size": "790515",
+      "url": "https://drive.google.com/file/d/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:18.240Z",
+      "modified_time": "2023-03-02T17:36:36.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1414
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "completed",
+      "id": "1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap",
+      "title": "IMG_6625.jpg",
+      "mime_type": "image/jpeg",
+      "size": "492860",
+      "url": "https://drive.google.com/file/d/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:16.722Z",
+      "modified_time": "2023-03-02T17:36:28.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 930
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "roofPlan",
+      "id": "1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS",
+      "title": "IMG_6628.jpg",
+      "mime_type": "image/jpeg",
+      "size": "638035",
+      "url": "https://drive.google.com/file/d/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:18.240Z",
+      "modified_time": "2023-03-02T17:36:50.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1131
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "complex",
+      "id": "1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou",
+      "title": "IMG_6621.jpg",
+      "mime_type": "image/jpeg",
+      "size": "833062",
+      "url": "https://drive.google.com/file/d/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:17.523Z",
+      "modified_time": "2023-03-02T17:35:32.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1097
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "brickHouse",
+      "id": "1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh",
+      "title": "IMG_6623.jpg",
+      "mime_type": "image/jpeg",
+      "size": "900896",
+      "url": "https://drive.google.com/file/d/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:16.722Z",
+      "modified_time": "2023-03-02T17:36:11.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh.jpg",
+      "dimensions": {
+        "width": 1283,
+        "height": 1230
+      },
+      "interpretation": "Camera photograph supplied in Riley’s Roof Photos folder. No project city or completion claim inferred."
+    },
+    {
+      "key": "windCrease",
+      "id": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "title": "Creased .jpeg",
+      "mime_type": "image/jpeg",
+      "size": "299188",
+      "url": "https://drive.google.com/file/d/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:31.784Z",
+      "modified_time": "2022-07-06T21:37:39.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "interpretation": "Supplied damage reference photograph; source ownership not independently established. Caption as supplied reference, not a named Roof King project."
+    },
+    {
+      "key": "missingLayer",
+      "id": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "title": "Missing Layer.jpeg",
+      "mime_type": "image/jpeg",
+      "size": "306250",
+      "url": "https://drive.google.com/file/d/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:21.861Z",
+      "modified_time": "2022-07-06T21:36:42.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "interpretation": "Supplied damage reference photograph; source ownership not independently established. Caption as supplied reference, not a named Roof King project."
+    },
+    {
+      "key": "windArea",
+      "id": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "title": "Wind Damage .jpeg",
+      "mime_type": "image/jpeg",
+      "size": "157546",
+      "url": "https://drive.google.com/file/d/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:25.731Z",
+      "modified_time": "2022-07-06T19:45:15.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk.jpeg",
+      "dimensions": {
+        "width": 576,
+        "height": 768
+      },
+      "interpretation": "Supplied damage reference photograph; source ownership not independently established. Caption as supplied reference, not a named Roof King project."
+    },
+    {
+      "key": "fasteners",
+      "id": "1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6",
+      "title": "Pull Throughs 1 .jpeg",
+      "mime_type": "image/jpeg",
+      "size": "328060",
+      "url": "https://drive.google.com/file/d/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:26.105Z",
+      "modified_time": "2022-07-06T19:41:32.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 1024
+      },
+      "interpretation": "Supplied damage reference photograph; source ownership not independently established. Caption as supplied reference, not a named Roof King project."
+    },
+    {
+      "key": "sidingDamage",
+      "id": "1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp",
+      "title": "siding-wind-damage.jpeg",
+      "mime_type": "image/jpeg",
+      "size": "137246",
+      "url": "https://drive.google.com/file/d/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2024-07-26T20:16:23.149Z",
+      "modified_time": "2022-07-09T18:59:53.000Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": true,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified",
+      "can_download": true,
+      "can_list_children": false,
+      "localPath": "output/client-photos/riley-2026-10/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp.jpeg",
+      "dimensions": {
+        "width": 800,
+        "height": 555
+      },
+      "interpretation": "Supplied damage reference photograph; source ownership not independently established. Caption as supplied reference, not a named Roof King project."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "IMG_5458.HEIC",
+      "reason": "HEIF decoder unavailable; original retained, no derivative used.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-01"
+      }
+    },
+    {
+      "title": "203f10cc-567e-413f-8249-75f7a312a19e.jpeg",
+      "reason": "Other contractor branding; not used as client photography.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "non-photographic",
+        "reason": "Roof-system illustration branded for another contractor"
+      }
+    },
+    {
+      "title": "IMG_5811.HEIC",
+      "reason": "HEIF decoder unavailable; original retained, no derivative used.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-13"
+      }
+    },
+    {
+      "title": "IMG_6620.jpg",
+      "reason": "Promotional overlay or unrelated reference image; not selected.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-22"
+      }
+    },
+    {
+      "title": "IMG_6619.jpg",
+      "reason": "Promotional overlay or unrelated reference image; not selected.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-23"
+      }
+    },
+    {
+      "title": "IMG_6006.HEIC",
+      "reason": "HEIF decoder unavailable; original retained, no derivative used.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-25"
+      }
+    },
+    {
+      "title": "IMG_6299.jpg",
+      "reason": "Promotional overlay or unrelated reference image; not selected.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-26"
+      }
+    },
+    {
+      "title": "IMG_0125.jpeg",
+      "reason": "HEIF decoder unavailable; original retained, no derivative used.",
+      "completeGalleryDisposition": {
+        "date": "2026-10-29",
+        "disposition": "gallery",
+        "galleryId": "riley-28"
+      }
+    }
+  ],
+  "optimization": {
+    "format": "WebP",
+    "maxBytes": 110000,
+    "noEnlargement": true,
+    "exifRemoved": true
+  },
+  "assets": [
+    {
+      "id": "installation",
+      "src": "/media/client-photography/installation-480.webp",
+      "width": 480,
+      "bytes": 42790,
+      "quality": 82
+    },
+    {
+      "id": "installation",
+      "src": "/media/client-photography/installation-800.webp",
+      "width": 800,
+      "bytes": 97632,
+      "quality": 78
+    },
+    {
+      "id": "installation",
+      "src": "/media/client-photography/installation-1000.webp",
+      "width": 1000,
+      "bytes": 103866,
+      "quality": 62
+    },
+    {
+      "id": "neighborhood",
+      "src": "/media/client-photography/neighborhood-480.webp",
+      "width": 480,
+      "bytes": 33504,
+      "quality": 82
+    },
+    {
+      "id": "neighborhood",
+      "src": "/media/client-photography/neighborhood-800.webp",
+      "width": 800,
+      "bytes": 67304,
+      "quality": 82
+    },
+    {
+      "id": "neighborhood",
+      "src": "/media/client-photography/neighborhood-1200.webp",
+      "width": 1200,
+      "bytes": 107804,
+      "quality": 82
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/client-photography/underlayment-480.webp",
+      "width": 480,
+      "bytes": 65062,
+      "quality": 82
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/client-photography/underlayment-800.webp",
+      "width": 800,
+      "bytes": 109830,
+      "quality": 66
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/client-photography/underlayment-800.webp",
+      "width": 800,
+      "bytes": 109830,
+      "quality": 66
+    },
+    {
+      "id": "lowRoof",
+      "src": "/media/client-photography/lowRoof-480.webp",
+      "width": 480,
+      "bytes": 30242,
+      "quality": 82
+    },
+    {
+      "id": "lowRoof",
+      "src": "/media/client-photography/lowRoof-800.webp",
+      "width": 800,
+      "bytes": 70082,
+      "quality": 82
+    },
+    {
+      "id": "lowRoof",
+      "src": "/media/client-photography/lowRoof-1200.webp",
+      "width": 1200,
+      "bytes": 108416,
+      "quality": 78
+    },
+    {
+      "id": "ridge",
+      "src": "/media/client-photography/ridge-480.webp",
+      "width": 480,
+      "bytes": 61636,
+      "quality": 82
+    },
+    {
+      "id": "ridge",
+      "src": "/media/client-photography/ridge-800.webp",
+      "width": 800,
+      "bytes": 109666,
+      "quality": 58
+    },
+    {
+      "id": "ridge",
+      "src": "/media/client-photography/ridge-800.webp",
+      "width": 800,
+      "bytes": 109666,
+      "quality": 58
+    },
+    {
+      "id": "completed",
+      "src": "/media/client-photography/completed-480.webp",
+      "width": 480,
+      "bytes": 44980,
+      "quality": 82
+    },
+    {
+      "id": "completed",
+      "src": "/media/client-photography/completed-800.webp",
+      "width": 800,
+      "bytes": 108806,
+      "quality": 82
+    },
+    {
+      "id": "completed",
+      "src": "/media/client-photography/completed-1200.webp",
+      "width": 1200,
+      "bytes": 106508,
+      "quality": 50
+    },
+    {
+      "id": "roofPlan",
+      "src": "/media/client-photography/roofPlan-480.webp",
+      "width": 480,
+      "bytes": 35470,
+      "quality": 82
+    },
+    {
+      "id": "roofPlan",
+      "src": "/media/client-photography/roofPlan-800.webp",
+      "width": 800,
+      "bytes": 109688,
+      "quality": 82
+    },
+    {
+      "id": "roofPlan",
+      "src": "/media/client-photography/roofPlan-1000.webp",
+      "width": 1000,
+      "bytes": 108698,
+      "quality": 62
+    },
+    {
+      "id": "complex",
+      "src": "/media/client-photography/complex-480.webp",
+      "width": 480,
+      "bytes": 57940,
+      "quality": 82
+    },
+    {
+      "id": "complex",
+      "src": "/media/client-photography/complex-800.webp",
+      "width": 800,
+      "bytes": 106628,
+      "quality": 58
+    },
+    {
+      "id": "complex",
+      "src": "/media/client-photography/complex-800.webp",
+      "width": 800,
+      "bytes": 106628,
+      "quality": 58
+    },
+    {
+      "id": "brickHouse",
+      "src": "/media/client-photography/brickHouse-480.webp",
+      "width": 480,
+      "bytes": 61040,
+      "quality": 82
+    },
+    {
+      "id": "brickHouse",
+      "src": "/media/client-photography/brickHouse-800.webp",
+      "width": 800,
+      "bytes": 108282,
+      "quality": 58
+    },
+    {
+      "id": "brickHouse",
+      "src": "/media/client-photography/brickHouse-800.webp",
+      "width": 800,
+      "bytes": 108282,
+      "quality": 58
+    },
+    {
+      "id": "windCrease",
+      "src": "/media/client-photography/windCrease-480.webp",
+      "width": 480,
+      "bytes": 109510,
+      "quality": 66
+    },
+    {
+      "id": "windCrease",
+      "src": "/media/client-photography/windCrease-468.webp",
+      "width": 468,
+      "bytes": 109400,
+      "quality": 74
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/client-photography/missingLayer-480.webp",
+      "width": 480,
+      "bytes": 107722,
+      "quality": 62
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/client-photography/missingLayer-468.webp",
+      "width": 468,
+      "bytes": 107874,
+      "quality": 70
+    },
+    {
+      "id": "windArea",
+      "src": "/media/client-photography/windArea-480.webp",
+      "width": 480,
+      "bytes": 104588,
+      "quality": 78
+    },
+    {
+      "id": "windArea",
+      "src": "/media/client-photography/windArea-476.webp",
+      "width": 476,
+      "bytes": 103744,
+      "quality": 78
+    },
+    {
+      "id": "fasteners",
+      "src": "/media/client-photography/fasteners-480.webp",
+      "width": 480,
+      "bytes": 107208,
+      "quality": 70
+    },
+    {
+      "id": "fasteners",
+      "src": "/media/client-photography/fasteners-468.webp",
+      "width": 468,
+      "bytes": 103500,
+      "quality": 74
+    },
+    {
+      "id": "sidingDamage",
+      "src": "/media/client-photography/sidingDamage-480.webp",
+      "width": 480,
+      "bytes": 30164,
+      "quality": 82
+    },
+    {
+      "id": "sidingDamage",
+      "src": "/media/client-photography/sidingDamage-800.webp",
+      "width": 800,
+      "bytes": 73144,
+      "quality": 82
+    },
+    {
+      "id": "windCrease",
+      "src": "/media/service-review-05/client-windCrease-480.webp",
+      "width": 480,
+      "bytes": 65412,
+      "quality": 84,
+      "sourceId": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windCrease",
+      "src": "/media/service-review-05/client-windCrease-640.webp",
+      "width": 640,
+      "bytes": 103792,
+      "quality": 80,
+      "sourceId": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/service-review-05/client-missingLayer-480.webp",
+      "width": 480,
+      "bytes": 75126,
+      "quality": 84,
+      "sourceId": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/service-review-05/client-missingLayer-640.webp",
+      "width": 640,
+      "bytes": 107696,
+      "quality": 68,
+      "sourceId": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windArea",
+      "src": "/media/service-review-05/client-windArea-480.webp",
+      "width": 480,
+      "bytes": 67032,
+      "quality": 84,
+      "sourceId": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windArea",
+      "src": "/media/service-review-05/client-windArea-576.webp",
+      "width": 576,
+      "bytes": 103702,
+      "quality": 84,
+      "sourceId": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-480.webp",
+      "width": 480,
+      "bytes": 40898,
+      "quality": 84,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-800.webp",
+      "width": 800,
+      "bytes": 106438,
+      "quality": 84,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-1000.webp",
+      "width": 1000,
+      "bytes": 108234,
+      "quality": 72,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    }
+  ],
+  "replacements": [
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-3",
+      "position": 0,
+      "old": "/media/service-review-02/roof-underlayment-edge-1200.webp",
+      "replacement": "/media/client-photography/installation-1000.webp",
+      "reason": "Photo supplied by Roof King: a roof in progress shows why preparation and covering are separate stages."
+    },
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-3",
+      "position": 2,
+      "old": "/media/service-review-02/roof-ridge-vent-1000.webp",
+      "replacement": "/media/client-photography/ridge-800.webp",
+      "reason": "Photo supplied by Roof King: completed ridge details; the attic ventilation arrangement needs assessment."
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "sectionId": "service-copy-21-3",
+      "position": 1,
+      "old": "/media/service-review-03/commercial-roof-overview-1200.webp",
+      "replacement": "/media/client-photography/lowRoof-1200.webp",
+      "reason": "Photo supplied by Roof King: assess the retained covering and details before choosing a recover approach."
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "sectionId": "service-copy-78-2",
+      "position": 0,
+      "old": "/media/service-review-03/wind-lifted-shingles-1200.webp",
+      "replacement": "/media/client-photography/windCrease-468.webp",
+      "reason": "Supplied reference: lifted and creased material needs assessment beside the apparent failure."
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-topics",
+      "old": "/media/service-review-03/commercial-roof-overview-1200.webp",
+      "replacement": "/media/client-photography/lowRoof-1200.webp",
+      "reason": "A real low-slope roof is relevant to the commercial roof assessment."
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "sectionId": "service-topics",
+      "old": "/media/service-review-03/commercial-roof-overview-1200.webp",
+      "replacement": "/media/client-photography/lowRoof-1200.webp",
+      "reason": "A real low-slope roof is relevant to the commercial roof assessment."
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-topics",
+      "old": "/media/service-review-03/commercial-roof-overview-1200.webp",
+      "replacement": "/media/client-photography/lowRoof-1200.webp",
+      "reason": "A real low-slope roof is relevant to the commercial roof assessment."
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-4",
+      "position": 0,
+      "replacement": "/media/client-photography/windCrease-468.webp",
+      "reason": "Supplied reference: a lifted shingle is one observation to connect with the reported leak."
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-2",
+      "position": 0,
+      "replacement": "/media/client-photography/missingLayer-468.webp",
+      "reason": "Supplied reference: record the affected shingle material; a photograph alone does not establish its cause."
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-2",
+      "position": 2,
+      "replacement": "/media/client-photography/sidingDamage-800.webp",
+      "reason": "Supplied reference: damaged adjoining siding needs its own assessment and repair decision."
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-4",
+      "position": 1,
+      "replacement": "/media/client-photography/windCrease-468.webp",
+      "reason": "Supplied reference: retained shingles must be assessed before new material is integrated."
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-3",
+      "position": 0,
+      "replacement": "/media/client-photography/installation-1000.webp",
+      "reason": "Photo supplied by Roof King: installation in progress shows prepared and newly covered roof areas."
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-3",
+      "position": 2,
+      "replacement": "/media/client-photography/ridge-800.webp",
+      "reason": "Photo supplied by Roof King: ridge finishing is part of the completed roof; attic airflow needs a separate assessment."
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/roofPlan-1000.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-3",
+      "position": 0,
+      "replacement": "/media/client-photography/underlayment-800.webp",
+      "reason": "Photo supplied by Roof King: underlayment and penetration details belong in the material description."
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-3",
+      "position": 1,
+      "replacement": "/media/client-photography/installation-1000.webp",
+      "reason": "Photo supplied by Roof King: roof work also requires access, staging and property arrangements."
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/completed-1200.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-2",
+      "position": 0,
+      "replacement": "/media/client-photography/windArea-476.webp",
+      "reason": "Supplied reference: mark the affected shingle area and assess the surrounding courses."
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-2",
+      "position": 2,
+      "replacement": "/media/client-photography/sidingDamage-800.webp",
+      "reason": "Supplied reference: record affected exterior walls separately from the roofing."
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page."
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "hero",
+      "old": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
+      "replacement": "/media/roofing-heroes/dublin-replacement-client-1600.webp",
+      "sourceId": "1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R",
+      "reason": "Real roofing installation supplied by the client; the page offers Dublin service without claiming this project was in Dublin."
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "sectionId": "service-copy-7-1",
+      "position": 0,
+      "replacement": "/media/client-photography/completed-1200.webp",
+      "reason": "Photo supplied by Roof King: a porch roof and adjoining wall illustrate the connection to coordinate; project location is unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "sectionId": "service-copy-7-1",
+      "position": 2,
+      "replacement": "/media/service-review-05/client-windArea-576.webp",
+      "reason": "Supplied reference: record the roof finding separately from any affected wall or drainage area.",
+      "batch": "05"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-copy-8-3",
+      "position": 2,
+      "replacement": "/media/client-photography/ridge-800.webp",
+      "reason": "Photo supplied by Roof King: visible ridge finishing; the project city and attic arrangement are not inferred.",
+      "batch": "05"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/completed-1200.webp",
+      "reason": "Photo supplied by Roof King; project location unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-2",
+      "position": 0,
+      "replacement": "/media/service-review-05/client-windCrease-640.webp",
+      "reason": "Supplied reference: a lifted and creased shingle is an observation to investigate in its roof context.",
+      "batch": "05"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-topics",
+      "replacement": "/media/service-review-05/client-windCrease-640.webp",
+      "reason": "Supplied reference photograph; the affected material and cause need assessment at your property.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/",
+      "sectionId": "service-copy-11-1",
+      "position": 0,
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King: roof valleys and upper walls illustrate areas to identify; this is not a confirmed Cleveland project.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/",
+      "sectionId": "service-copy-11-1",
+      "position": 2,
+      "replacement": "/media/client-photography/sidingDamage-800.webp",
+      "reason": "Supplied reference: a wall finding should have its own repair record alongside the roofing observations.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-3",
+      "position": 0,
+      "replacement": "/media/client-photography/installation-1000.webp",
+      "reason": "Photo supplied by Roof King: preparation and finished covering appear at different stages; the project location is unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-3",
+      "position": 1,
+      "replacement": "/media/service-review-05/client-underlayment-1000.webp",
+      "reason": "Photo supplied by Roof King: underlayment and penetration details before the finished covering.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-2",
+      "position": 0,
+      "replacement": "/media/client-photography/roofPlan-1000.webp",
+      "reason": "Photo supplied by Roof King: roof geometry illustrates a price variable; no location or price quotation is assigned.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-2",
+      "position": 1,
+      "replacement": "/media/client-photography/installation-1000.webp",
+      "reason": "Photo supplied by Roof King: preparation is part of the installed roof; this image is not either hypothetical estimate example below.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-2",
+      "position": 2,
+      "replacement": "/media/client-photography/ridge-800.webp",
+      "reason": "Photo supplied by Roof King: finishing details belong in the product and accessory comparison.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/roofPlan-1000.webp",
+      "reason": "Photo supplied by Roof King; project location unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-copy-14-3",
+      "position": 0,
+      "replacement": "/media/client-photography/complex-800.webp",
+      "reason": "Photo supplied by Roof King: a broad roof view helps locate connections; this is not evidence of a storm finding or a confirmed Cleveland job.",
+      "batch": "05"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-topics",
+      "replacement": "/media/service-review-05/client-windArea-576.webp",
+      "reason": "Supplied reference photograph; the affected material and cause need assessment at your property.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/",
+      "sectionId": "service-copy-25-1",
+      "position": 0,
+      "replacement": "/media/client-photography/brickHouse-800.webp",
+      "reason": "Photo supplied by Roof King: porch and main-roof relationships are visible; the project city is unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/",
+      "sectionId": "service-copy-25-1",
+      "position": 2,
+      "replacement": "/media/service-review-05/client-windCrease-640.webp",
+      "reason": "Supplied reference: keep a roof finding identifiable when coordinating other exterior repairs.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-3",
+      "position": 1,
+      "replacement": "/media/service-review-05/client-underlayment-1000.webp",
+      "reason": "Photo supplied by Roof King: protective layers follow the roof geometry before the new covering is installed.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-3",
+      "position": 2,
+      "replacement": "/media/client-photography/completed-1200.webp",
+      "reason": "Photo supplied by Roof King: completed covering and porch-roof appearance; the location and product are not assigned to this Dayton service.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-topics",
+      "replacement": "/media/client-photography/brickHouse-800.webp",
+      "reason": "Photo supplied by Roof King; project location unconfirmed.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-4",
+      "position": 0,
+      "replacement": "/media/service-review-05/client-windArea-576.webp",
+      "reason": "Supplied reference: assess the surrounding courses before integrating a localized repair.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-4",
+      "position": 1,
+      "replacement": "/media/client-photography/roofPlan-1000.webp",
+      "reason": "Photo supplied by Roof King: an overhead view explains roof layout, not the presence or extent of storm damage.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-4",
+      "position": 2,
+      "replacement": "/media/client-photography/sidingDamage-800.webp",
+      "reason": "Supplied reference: adjoining wall damage needs its own work description alongside roofing repairs.",
+      "batch": "05"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-topics",
+      "replacement": "/media/service-review-05/client-missingLayer-640.webp",
+      "reason": "Supplied reference photograph; the affected material and cause need assessment at your property.",
+      "batch": "05"
+    }
+  ],
+  "imageInventoryCount": 98,
+  "completeGalleryUpdate": {
+    "date": "2026-10-29",
+    "inventory": "migration/client-gallery-inventory.json",
+    "imageFilesDownloaded": 98,
+    "uniquePhotographs": 77,
+    "heifDecoded": 4,
+    "note": "The selected/replacements/excluded fields above describe the earlier service-photo pass. The complete gallery inventory supersedes its decoder-unavailable exclusions and contains all unique supplied photographs."
+  }
+}

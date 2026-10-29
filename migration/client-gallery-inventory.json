@@ -1,0 +1,4927 @@
+{
+  "date": "2026-10-29",
+  "folder": "https://drive.google.com/drive/folders/1jQLcmgT2IXFWLtGNT7KDc1X_fV_-MgsE",
+  "nestedFolder": "https://drive.google.com/drive/folders/1ta0lTOQZsfCYLzqgvbNs0He5ALHdxRP7",
+  "totalFolderEntries": 104,
+  "imageFiles": 98,
+  "notes": [
+    "All 98 image files downloaded and visually inspected, including four decoded HEIF originals.",
+    "Photo captions describe visible subjects; no project city, damage cause or installation ownership is inferred.",
+    "All unique photographs are included, including supplied material references and unrelated reference photos under Other references. Non-photographic diagrams, badges and logos are retained in this inventory, not presented as project photos.",
+    "Duplicate files and alternate crops map to one gallery photograph. The supplied full-resolution installation photograph upgrades the existing photo-25 entry.",
+    "Source photographs remain offline. Public variants strip EXIF/GPS, do not upscale, and have a 180 KB per-file ceiling."
+  ],
+  "records": [
+    {
+      "index": 0,
+      "driveId": "1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B",
+      "filename": "IMG_2345.jpg",
+      "url": "https://drive.google.com/file/d/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B/view?usp=drivesdk",
+      "sha256": "5c3d77a17e1960b5567e283bb0a88ea1371af5c292e0b91eb202b2830fbf7c99",
+      "sourcePath": "output/client-photos/riley-2026-10/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B.jpg",
+      "sourceBytes": 343591,
+      "width": 1290,
+      "height": 842,
+      "disposition": "gallery",
+      "galleryId": "riley-00",
+      "caption": "Neighborhood rooflines from above",
+      "alt": "Aerial view of neighboring shingle roofs, yards and a road with work vehicles",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1290,
+        "height": 842,
+        "variants": [
+          {
+            "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-320.webp",
+            "width": 320,
+            "bytes": 21126,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-480.webp",
+            "width": 480,
+            "bytes": 41394,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-800.webp",
+            "width": 800,
+            "bytes": 84622,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp",
+            "width": 1280,
+            "bytes": 142592,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 289734,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 1,
+      "driveId": "1PMxL_f8nSAgJLSHgSXnKqx9HGQpcgghW",
+      "filename": "IMG_5458.HEIC",
+      "url": "https://drive.google.com/file/d/1PMxL_f8nSAgJLSHgSXnKqx9HGQpcgghW/view?usp=drivesdk",
+      "sha256": "87547b832fbd9b5d404900ca45062889f69b03111ddbca2b711bd11e721963ee",
+      "sourcePath": "output/client-photos/riley-2026-10/decoded-1PMxL_f8nSAgJLSHgSXnKqx9HGQpcgghW.png",
+      "originalPath": "output/client-photos/riley-2026-10/1PMxL_f8nSAgJLSHgSXnKqx9HGQpcgghW.heic",
+      "sourceBytes": 2182119,
+      "width": 3024,
+      "height": 4032,
+      "disposition": "gallery",
+      "galleryId": "riley-01",
+      "caption": "At the building exterior",
+      "alt": "Scaffolding beside a tall white building with a Roof King truck in the foreground",
+      "tags": [
+        "company",
+        "scaffolding",
+        "truck",
+        "building",
+        "exterior"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60,
+      "optimization": {
+        "width": 3024,
+        "height": 4032,
+        "variants": [
+          {
+            "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-320.webp",
+            "width": 320,
+            "bytes": 27516,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-480.webp",
+            "width": 480,
+            "bytes": 56304,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-800.webp",
+            "width": 800,
+            "bytes": 156664,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-1088.webp",
+            "width": 1088,
+            "bytes": 164692,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 405176,
+        "metadataRemoved": true,
+        "sourceFormat": "png"
+      }
+    },
+    {
+      "index": 2,
+      "driveId": "1jcNCYLClyXgR8bEsTLhzyykA0BVhRmqU",
+      "filename": "IMG_1106 2.jpg",
+      "url": "https://drive.google.com/file/d/1jcNCYLClyXgR8bEsTLhzyykA0BVhRmqU/view?usp=drivesdk",
+      "sha256": "4dcf4eb202e3ffc53efcbdf8ea407d814680719b2410b1455f5bd94f9d060253",
+      "sourcePath": "output/client-photos/riley-2026-10/1jcNCYLClyXgR8bEsTLhzyykA0BVhRmqU.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1jcNCYLClyXgR8bEsTLhzyykA0BVhRmqU.jpg",
+      "sourceBytes": 314435,
+      "width": 1283,
+      "height": 645,
+      "disposition": "gallery",
+      "galleryId": "riley-02",
+      "caption": "The team together outdoors",
+      "alt": "Group photograph outside the Blackwing Shooting Center",
+      "tags": [
+        "company",
+        "team",
+        "group"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60,
+      "optimization": {
+        "width": 1283,
+        "height": 645,
+        "variants": [
+          {
+            "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-320.webp",
+            "width": 320,
+            "bytes": 13956,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-480.webp",
+            "width": 480,
+            "bytes": 29138,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-800.webp",
+            "width": 800,
+            "bytes": 72016,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-1280.webp",
+            "width": 1280,
+            "bytes": 150052,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 265162,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 3,
+      "driveId": "1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R",
+      "filename": "4B12A4B130DCB7DF9210014A7F8135E6.JPG",
+      "url": "https://drive.google.com/file/d/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R/view?usp=drivesdk",
+      "sha256": "3f050a6228917b287f0c15387ae0a2ba5804c57a45477703d4f14265e6ee708e",
+      "sourcePath": "output/client-photos/riley-2026-10/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R.jpg",
+      "sourceBytes": 10515681,
+      "width": 5472,
+      "height": 3648,
+      "disposition": "gallery",
+      "galleryId": "photo-25",
+      "caption": "Roof preparation and shingle installation",
+      "alt": "Aerial view of a large brick home with underlayment exposed on one roof section and shingles on others",
+      "tags": [
+        "roofing",
+        "installation",
+        "underlayment",
+        "aerial"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 5472,
+        "height": 3648,
+        "variants": [
+          {
+            "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-320.webp",
+            "width": 320,
+            "bytes": 25466,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-480.webp",
+            "width": 480,
+            "bytes": 53384,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-800.webp",
+            "width": 800,
+            "bytes": 141296,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp",
+            "width": 1088,
+            "bytes": 176250,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 396396,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 4,
+      "driveId": "16FhiRHFxuZR1wDuNoWDeKz3rIi3k0rwu",
+      "filename": "203f10cc-567e-413f-8249-75f7a312a19e.jpeg",
+      "url": "https://drive.google.com/file/d/16FhiRHFxuZR1wDuNoWDeKz3rIi3k0rwu/view?usp=drivesdk",
+      "sha256": "96c0dcd28e4b19b7fdef3643cfa5784bf368774d0118dbd5e1eb3d48e4a41a83",
+      "sourcePath": "output/client-photos/riley-2026-10/16FhiRHFxuZR1wDuNoWDeKz3rIi3k0rwu.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/16FhiRHFxuZR1wDuNoWDeKz3rIi3k0rwu.jpeg",
+      "sourceBytes": 107863,
+      "width": 800,
+      "height": 800,
+      "disposition": "non-photographic",
+      "reason": "Roof-system illustration branded for another contractor"
+    },
+    {
+      "index": 5,
+      "driveId": "1MhlsODR68kBaakJXunfS1022mN9JKtch",
+      "filename": "IMG_6917.jpg",
+      "url": "https://drive.google.com/file/d/1MhlsODR68kBaakJXunfS1022mN9JKtch/view?usp=drivesdk",
+      "sha256": "1ba8074a60608cdde87e8bf6743de476f6c380ef21073832bcfb7638ad01e82e",
+      "sourcePath": "output/client-photos/riley-2026-10/1MhlsODR68kBaakJXunfS1022mN9JKtch.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1MhlsODR68kBaakJXunfS1022mN9JKtch.jpg",
+      "sourceBytes": 254652,
+      "width": 1283,
+      "height": 798,
+      "disposition": "gallery",
+      "galleryId": "riley-05",
+      "caption": "Rooflines at sunset",
+      "alt": "Sunset above a neighborhood of houses with shingle roofs",
+      "tags": [
+        "roofing",
+        "aerial",
+        "sunset",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 798,
+        "variants": [
+          {
+            "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-320.webp",
+            "width": 320,
+            "bytes": 12026,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-480.webp",
+            "width": 480,
+            "bytes": 23958,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-800.webp",
+            "width": 800,
+            "bytes": 52880,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-1280.webp",
+            "width": 1280,
+            "bytes": 96040,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 184904,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 6,
+      "driveId": "1-UYj2gq7JfLdAkQUUClddNZ7WgEkRDSr",
+      "filename": "IMG_6918.jpg",
+      "url": "https://drive.google.com/file/d/1-UYj2gq7JfLdAkQUUClddNZ7WgEkRDSr/view?usp=drivesdk",
+      "sha256": "72f3d97f24fc3d6a466f7f5936e8e4f55b6d4196cdc17811c0d2644dd1d9010c",
+      "sourcePath": "output/client-photos/riley-2026-10/1-UYj2gq7JfLdAkQUUClddNZ7WgEkRDSr.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1-UYj2gq7JfLdAkQUUClddNZ7WgEkRDSr.jpg",
+      "sourceBytes": 235669,
+      "width": 1283,
+      "height": 762,
+      "disposition": "gallery",
+      "galleryId": "riley-06",
+      "caption": "An overhead view of the neighborhood",
+      "alt": "Overhead view of houses, roof shapes and a curved neighborhood road",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 762,
+        "variants": [
+          {
+            "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-320.webp",
+            "width": 320,
+            "bytes": 13064,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-480.webp",
+            "width": 480,
+            "bytes": 24514,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-800.webp",
+            "width": 800,
+            "bytes": 49284,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-1280.webp",
+            "width": 1280,
+            "bytes": 84552,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 171414,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 7,
+      "driveId": "16FdhXVWTe_DVZSDdZ60IYDhnUjFggSBu",
+      "filename": "IMG_6919.jpg",
+      "url": "https://drive.google.com/file/d/16FdhXVWTe_DVZSDdZ60IYDhnUjFggSBu/view?usp=drivesdk",
+      "sha256": "cd80d66496872c27a52856684a4e56722873efd6012732b43b43f1cee44e79e3",
+      "sourcePath": "output/client-photos/riley-2026-10/16FdhXVWTe_DVZSDdZ60IYDhnUjFggSBu.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/16FdhXVWTe_DVZSDdZ60IYDhnUjFggSBu.jpg",
+      "sourceBytes": 335750,
+      "width": 1283,
+      "height": 825,
+      "disposition": "duplicate",
+      "duplicateOf": "1kXNQqD5FUUHe88jDN6wnqV3AJ4nLdy8B",
+      "reason": "Alternate crop of the same aerial photograph",
+      "galleryId": "riley-00",
+      "caption": "Neighborhood rooflines from above",
+      "alt": "Aerial view of neighboring shingle roofs, yards and a road with work vehicles",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0
+    },
+    {
+      "index": 8,
+      "driveId": "1hk6gQdPUSH6WHCpzRCT39BUGDD9Rfnqv",
+      "filename": "IMG_6920.jpg",
+      "url": "https://drive.google.com/file/d/1hk6gQdPUSH6WHCpzRCT39BUGDD9Rfnqv/view?usp=drivesdk",
+      "sha256": "99a7e7a491294186727c223f7d316222af4742b9eed1df59b01d35a4fa104c51",
+      "sourcePath": "output/client-photos/riley-2026-10/1hk6gQdPUSH6WHCpzRCT39BUGDD9Rfnqv.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1hk6gQdPUSH6WHCpzRCT39BUGDD9Rfnqv.jpg",
+      "sourceBytes": 269153,
+      "width": 1283,
+      "height": 829,
+      "disposition": "gallery",
+      "galleryId": "riley-08",
+      "caption": "Roof shapes across adjoining homes",
+      "alt": "Aerial view of adjoining homes with dark roofs, lawns and vehicles along the road",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 829,
+        "variants": [
+          {
+            "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-320.webp",
+            "width": 320,
+            "bytes": 17412,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-480.webp",
+            "width": 480,
+            "bytes": 31738,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-800.webp",
+            "width": 800,
+            "bytes": 59334,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-1280.webp",
+            "width": 1280,
+            "bytes": 100736,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 209220,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 9,
+      "driveId": "1ETXJjfhI2I5EcxQ5UuC8Hpv5IbBBgzyY",
+      "filename": "IMG_6921.jpg",
+      "url": "https://drive.google.com/file/d/1ETXJjfhI2I5EcxQ5UuC8Hpv5IbBBgzyY/view?usp=drivesdk",
+      "sha256": "3a66bce8782dca6b69abe088573b0c3d3ad99af60526acb9684687916bf3ae3e",
+      "sourcePath": "output/client-photos/riley-2026-10/1ETXJjfhI2I5EcxQ5UuC8Hpv5IbBBgzyY.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1ETXJjfhI2I5EcxQ5UuC8Hpv5IbBBgzyY.jpg",
+      "sourceBytes": 306703,
+      "width": 1283,
+      "height": 905,
+      "disposition": "gallery",
+      "galleryId": "riley-09",
+      "caption": "Brick buildings and window details",
+      "alt": "Brick apartment buildings with white-framed windows and entry steps",
+      "tags": [
+        "windows",
+        "brick",
+        "commercial-exterior",
+        "exterior"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Windows",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 905,
+        "variants": [
+          {
+            "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-320.webp",
+            "width": 320,
+            "bytes": 16438,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-480.webp",
+            "width": 480,
+            "bytes": 32886,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-800.webp",
+            "width": 800,
+            "bytes": 70452,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-1280.webp",
+            "width": 1280,
+            "bytes": 126316,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 246092,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 10,
+      "driveId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "filename": "IMG_6922.jpg",
+      "url": "https://drive.google.com/file/d/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX/view?usp=drivesdk",
+      "sha256": "2b4782531cf8706eeaf62e9fe9539680ebd7b6991dd083c45c3d25f26f539845",
+      "sourcePath": "output/client-photos/riley-2026-10/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX.jpg",
+      "sourceBytes": 877955,
+      "width": 1283,
+      "height": 1604,
+      "disposition": "gallery",
+      "galleryId": "riley-10",
+      "caption": "Underlayment around roof vents",
+      "alt": "Roof underlayment surrounding several vents, with neighboring buildings beyond",
+      "tags": [
+        "roofing",
+        "commercial-roofing",
+        "installation",
+        "underlayment",
+        "ventilation"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1604,
+        "variants": [
+          {
+            "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-320.webp",
+            "width": 320,
+            "bytes": 36830,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-480.webp",
+            "width": 480,
+            "bytes": 78420,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-800.webp",
+            "width": 800,
+            "bytes": 169514,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-924.webp",
+            "width": 924,
+            "bytes": 165398,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 450162,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 11,
+      "driveId": "1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe",
+      "filename": "IMG_6923.jpg",
+      "url": "https://drive.google.com/file/d/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe/view?usp=drivesdk",
+      "sha256": "2d68379a231dc49f01295eedaef17fa57a327d1edd685b8d152b8df447addc66",
+      "sourcePath": "output/client-photos/riley-2026-10/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1y3Gk1Yb9hB0qqS_QwmlqnHVXnTem7jfe.jpg",
+      "sourceBytes": 561788,
+      "width": 1283,
+      "height": 1660,
+      "disposition": "gallery",
+      "galleryId": "riley-11",
+      "caption": "Low-slope seams and penetrations",
+      "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations",
+      "tags": [
+        "commercial-roofing",
+        "membrane",
+        "seams",
+        "penetrations",
+        "repair"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1660,
+        "variants": [
+          {
+            "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-320.webp",
+            "width": 320,
+            "bytes": 20192,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-480.webp",
+            "width": 480,
+            "bytes": 38472,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-800.webp",
+            "width": 800,
+            "bytes": 90698,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-1280.webp",
+            "width": 1280,
+            "bytes": 155870,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 305232,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 12,
+      "driveId": "1zl8zMfp53GPO6lY3A9GDJ6fFtoC7uq-U",
+      "filename": "IMG_6847.jpg",
+      "url": "https://drive.google.com/file/d/1zl8zMfp53GPO6lY3A9GDJ6fFtoC7uq-U/view?usp=drivesdk",
+      "sha256": "d5047090244605b194cca2f2b9a78130a06cc039dffe02f15d71d7844ef391d8",
+      "sourcePath": "output/client-photos/riley-2026-10/1zl8zMfp53GPO6lY3A9GDJ6fFtoC7uq-U.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1zl8zMfp53GPO6lY3A9GDJ6fFtoC7uq-U.jpg",
+      "sourceBytes": 222437,
+      "width": 1283,
+      "height": 680,
+      "disposition": "gallery",
+      "galleryId": "riley-12",
+      "caption": "The Roof King team outdoors",
+      "alt": "Eight team members wearing Roof King shirts standing together outdoors",
+      "tags": [
+        "company",
+        "team",
+        "group"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60,
+      "optimization": {
+        "width": 1283,
+        "height": 680,
+        "variants": [
+          {
+            "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-320.webp",
+            "width": 320,
+            "bytes": 13332,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-480.webp",
+            "width": 480,
+            "bytes": 23236,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-800.webp",
+            "width": 800,
+            "bytes": 45380,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-1280.webp",
+            "width": 1280,
+            "bytes": 81798,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 163746,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 13,
+      "driveId": "1UdL0uch5M97cmiKfrLoqfp_e-IDYoC1l",
+      "filename": "IMG_5811.HEIC",
+      "url": "https://drive.google.com/file/d/1UdL0uch5M97cmiKfrLoqfp_e-IDYoC1l/view?usp=drivesdk",
+      "sha256": "9828f17b64ff437b9d602ff2c1a6292d0e2723601866cad67e94aa378758dc4c",
+      "sourcePath": "output/client-photos/riley-2026-10/decoded-1UdL0uch5M97cmiKfrLoqfp_e-IDYoC1l.png",
+      "originalPath": "output/client-photos/riley-2026-10/1UdL0uch5M97cmiKfrLoqfp_e-IDYoC1l.heic",
+      "sourceBytes": 219752,
+      "width": 1170,
+      "height": 1963,
+      "disposition": "gallery",
+      "galleryId": "riley-13",
+      "caption": "A smaller member of the team",
+      "alt": "A kitten with a Roof King cap",
+      "tags": [
+        "company",
+        "team",
+        "culture",
+        "kitten"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60,
+      "optimization": {
+        "width": 1170,
+        "height": 1963,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-320.webp",
+            "width": 320,
+            "bytes": 34428,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-480.webp",
+            "width": 480,
+            "bytes": 66848,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-800.webp",
+            "width": 800,
+            "bytes": 137836,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-1170.webp",
+            "width": 1170,
+            "bytes": 178370,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 417482,
+        "metadataRemoved": true,
+        "sourceFormat": "png"
+      }
+    },
+    {
+      "index": 14,
+      "driveId": "1Qq-dMiFx73HcebKDzBKZljSMjAE-fl-c",
+      "filename": "IMG_6842 2.jpg",
+      "url": "https://drive.google.com/file/d/1Qq-dMiFx73HcebKDzBKZljSMjAE-fl-c/view?usp=drivesdk",
+      "sha256": "a439367b4eb039bbbba4e4b537985a510243e206e655e154b1bdff3e5480ad9b",
+      "sourcePath": "output/client-photos/riley-2026-10/1Qq-dMiFx73HcebKDzBKZljSMjAE-fl-c.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1Qq-dMiFx73HcebKDzBKZljSMjAE-fl-c.jpg",
+      "sourceBytes": 242713,
+      "width": 1009,
+      "height": 1216,
+      "disposition": "gallery",
+      "galleryId": "riley-14",
+      "caption": "The roofline at the end of the day",
+      "alt": "Silhouetted people on a roof at sunset, with a ladder at the eave",
+      "tags": [
+        "roofing",
+        "company",
+        "sunset",
+        "roofline"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 0,
+      "optimization": {
+        "width": 1009,
+        "height": 1216,
+        "variants": [
+          {
+            "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-320.webp",
+            "width": 320,
+            "bytes": 13828,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-480.webp",
+            "width": 480,
+            "bytes": 24028,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-800.webp",
+            "width": 800,
+            "bytes": 51406,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-1009.webp",
+            "width": 1009,
+            "bytes": 74814,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 164076,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 15,
+      "driveId": "1lG-AQcH200sFxly_3God6jQX8hWTOUpT",
+      "filename": "IMG_6841.jpg",
+      "url": "https://drive.google.com/file/d/1lG-AQcH200sFxly_3God6jQX8hWTOUpT/view?usp=drivesdk",
+      "sha256": "47e4b1a351bd62de8755c49bf78d8d26f2ca7a90b8ff7d6bbed8adaaca0ab3b9",
+      "sourcePath": "output/client-photos/riley-2026-10/1lG-AQcH200sFxly_3God6jQX8hWTOUpT.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1lG-AQcH200sFxly_3God6jQX8hWTOUpT.jpg",
+      "sourceBytes": 432836,
+      "width": 1017,
+      "height": 993,
+      "disposition": "duplicate",
+      "duplicateOf": "1h_VHW27wMwlPCiD0ukSXcewaJEb3K4e7",
+      "reason": "Office group crop; use the full-resolution original",
+      "galleryId": "riley-25",
+      "caption": "Together at the Roof King office",
+      "alt": "Team group photograph beneath the Roof King office wall logo",
+      "tags": [
+        "company",
+        "team",
+        "office",
+        "group"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60
+    },
+    {
+      "index": 16,
+      "driveId": "1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS",
+      "filename": "IMG_6628.jpg",
+      "url": "https://drive.google.com/file/d/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS/view?usp=drivesdk",
+      "sha256": "58567d572d0b27b0da17ec8e4c9816e4d8901a3750e50d188430073cca6e7853",
+      "sourcePath": "output/client-photos/riley-2026-10/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1SIKL_GghaPjpmrexjnG8f5hty_vYv_ZS.jpg",
+      "sourceBytes": 638035,
+      "width": 1283,
+      "height": 1131,
+      "disposition": "gallery",
+      "galleryId": "riley-16",
+      "caption": "A finished shingle roof from above",
+      "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "ridges",
+        "valleys"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1131,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-320.webp",
+            "width": 320,
+            "bytes": 19784,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-480.webp",
+            "width": 480,
+            "bytes": 45942,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-800.webp",
+            "width": 800,
+            "bytes": 137012,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+            "width": 1088,
+            "bytes": 177398,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 380136,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 17,
+      "driveId": "1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8",
+      "filename": "IMG_6626.jpg",
+      "url": "https://drive.google.com/file/d/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8/view?usp=drivesdk",
+      "sha256": "7e7abda892300f063d73acdbd3dfd9d19cb4def7a69a44a75fb8a904838edb1b",
+      "sourcePath": "output/client-photos/riley-2026-10/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1i4yWe2J7qPSFpEmzF9UYdTuE0znu-4Y8.jpg",
+      "sourceBytes": 790515,
+      "width": 1283,
+      "height": 1414,
+      "disposition": "gallery",
+      "galleryId": "riley-17",
+      "caption": "Along the ridge toward the chimney",
+      "alt": "Close view along shingle ridge caps toward a brick chimney",
+      "tags": [
+        "roofing",
+        "ridge-caps",
+        "chimney",
+        "shingles"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1414,
+        "variants": [
+          {
+            "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-320.webp",
+            "width": 320,
+            "bytes": 32680,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-480.webp",
+            "width": 480,
+            "bytes": 70576,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-800.webp",
+            "width": 800,
+            "bytes": 164074,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-924.webp",
+            "width": 924,
+            "bytes": 171652,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 438982,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 18,
+      "driveId": "1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap",
+      "filename": "IMG_6625.jpg",
+      "url": "https://drive.google.com/file/d/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap/view?usp=drivesdk",
+      "sha256": "78bf87496397ae23a694c613229bb58fdf41892fec143891a89b877b33320dcc",
+      "sourcePath": "output/client-photos/riley-2026-10/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1aPnZ1qzHe-nAvRrX7V4GdWGrW1N9uKap.jpg",
+      "sourceBytes": 492860,
+      "width": 1283,
+      "height": 930,
+      "disposition": "gallery",
+      "galleryId": "riley-18",
+      "caption": "Roofing above a dark-sided exterior",
+      "alt": "Two-story house with dark siding, a covered porch and a shingle roof",
+      "tags": [
+        "roofing",
+        "siding",
+        "windows",
+        "exterior",
+        "porch"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Siding",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 930,
+        "variants": [
+          {
+            "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-320.webp",
+            "width": 320,
+            "bytes": 24902,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-480.webp",
+            "width": 480,
+            "bytes": 53862,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-800.webp",
+            "width": 800,
+            "bytes": 129392,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-1280.webp",
+            "width": 1280,
+            "bytes": 160444,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 368600,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      },
+      "context": {
+        "roofing": {
+          "caption": "Shingle rooflines above a covered porch"
+        },
+        "siding": {
+          "caption": "Dark siding, trim and a covered porch"
+        },
+        "windows": {
+          "caption": "White-framed windows across a two-story home"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "driveId": "1jOicgTJJoBEpAHMDoJFL2RliRNlKee6c",
+      "filename": "IMG_6624.jpg",
+      "url": "https://drive.google.com/file/d/1jOicgTJJoBEpAHMDoJFL2RliRNlKee6c/view?usp=drivesdk",
+      "sha256": "8e262a06d578418136998691a1041ba4aca47168b477044b3241a9c2a380e657",
+      "sourcePath": "output/client-photos/riley-2026-10/1jOicgTJJoBEpAHMDoJFL2RliRNlKee6c.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1jOicgTJJoBEpAHMDoJFL2RliRNlKee6c.jpg",
+      "sourceBytes": 408074,
+      "width": 1283,
+      "height": 907,
+      "disposition": "gallery",
+      "galleryId": "riley-19",
+      "caption": "Adjoining roofs and yards",
+      "alt": "Aerial view across adjoining homes with shingle roofs and enclosed yards",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 907,
+        "variants": [
+          {
+            "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-320.webp",
+            "width": 320,
+            "bytes": 18890,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-480.webp",
+            "width": 480,
+            "bytes": 44146,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-800.webp",
+            "width": 800,
+            "bytes": 107168,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-1280.webp",
+            "width": 1280,
+            "bytes": 160632,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 330836,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 20,
+      "driveId": "1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh",
+      "filename": "IMG_6623.jpg",
+      "url": "https://drive.google.com/file/d/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh/view?usp=drivesdk",
+      "sha256": "8313f7b6a4cf717f9dd6f6a550c9456b4cc799197f3a1a85a36dc146fca723b4",
+      "sourcePath": "output/client-photos/riley-2026-10/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh.jpg",
+      "sourceBytes": 900896,
+      "width": 1283,
+      "height": 1230,
+      "disposition": "gallery",
+      "galleryId": "riley-20",
+      "caption": "Brick, shingles and the front elevation",
+      "alt": "Two-story brick home with white-framed windows, a porch and a shingle roof",
+      "tags": [
+        "roofing",
+        "windows",
+        "exterior",
+        "brick"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Windows",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1230,
+        "variants": [
+          {
+            "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-320.webp",
+            "width": 320,
+            "bytes": 32406,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-480.webp",
+            "width": 480,
+            "bytes": 73850,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-800.webp",
+            "width": 800,
+            "bytes": 178208,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+            "width": 924,
+            "bytes": 177820,
+            "quality": 70
+          }
+        ],
+        "totalBytes": 462284,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      },
+      "context": {
+        "windows": {
+          "caption": "White-framed windows in a brick exterior"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "driveId": "1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou",
+      "filename": "IMG_6621.jpg",
+      "url": "https://drive.google.com/file/d/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou/view?usp=drivesdk",
+      "sha256": "84f87d10be465c2d7d186c29c056450b1560cf7ae383370e7336430079c49ab2",
+      "sourcePath": "output/client-photos/riley-2026-10/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou.jpg",
+      "sourceBytes": 833062,
+      "width": 1283,
+      "height": 1097,
+      "disposition": "gallery",
+      "galleryId": "riley-21",
+      "caption": "Dormers, valleys and intersecting roofs",
+      "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "dormers",
+        "valleys"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1097,
+        "variants": [
+          {
+            "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-320.webp",
+            "width": 320,
+            "bytes": 29902,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-480.webp",
+            "width": 480,
+            "bytes": 70476,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-800.webp",
+            "width": 800,
+            "bytes": 170852,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp",
+            "width": 924,
+            "bytes": 175304,
+            "quality": 70
+          }
+        ],
+        "totalBytes": 446534,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 22,
+      "driveId": "17Ag15i_kj7Rx4X4SzZ6glimggv74f8AQ",
+      "filename": "IMG_6620.jpg",
+      "url": "https://drive.google.com/file/d/17Ag15i_kj7Rx4X4SzZ6glimggv74f8AQ/view?usp=drivesdk",
+      "sha256": "5aefdab73137fc4c29cde4f2070e537a9e083a5f9ad69c01948f102c8c265fdb",
+      "sourcePath": "output/client-photos/riley-2026-10/17Ag15i_kj7Rx4X4SzZ6glimggv74f8AQ.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/17Ag15i_kj7Rx4X4SzZ6glimggv74f8AQ.jpg",
+      "sourceBytes": 544093,
+      "width": 1283,
+      "height": 1257,
+      "disposition": "gallery",
+      "galleryId": "riley-22",
+      "caption": "An overhead roof view from Roof King",
+      "alt": "Promotional aerial roof photograph with a Roof King logo and phone number overlaid",
+      "tags": [
+        "roofing",
+        "aerial",
+        "company",
+        "promotional"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1257,
+        "variants": [
+          {
+            "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-320.webp",
+            "width": 320,
+            "bytes": 28898,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-480.webp",
+            "width": 480,
+            "bytes": 55538,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-800.webp",
+            "width": 800,
+            "bytes": 116988,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-1280.webp",
+            "width": 1280,
+            "bytes": 152658,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 354082,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 23,
+      "driveId": "1UjarJ0HcsHLF9uADbQZESbkErPCy1YnK",
+      "filename": "IMG_6619.jpg",
+      "url": "https://drive.google.com/file/d/1UjarJ0HcsHLF9uADbQZESbkErPCy1YnK/view?usp=drivesdk",
+      "sha256": "dbde6c869baebf772a7ce805a45a8d2e779972abce33aba6a872350a82b26ee7",
+      "sourcePath": "output/client-photos/riley-2026-10/1UjarJ0HcsHLF9uADbQZESbkErPCy1YnK.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1UjarJ0HcsHLF9uADbQZESbkErPCy1YnK.jpg",
+      "sourceBytes": 805040,
+      "width": 1283,
+      "height": 1256,
+      "disposition": "gallery",
+      "galleryId": "riley-23",
+      "caption": "Skylights within the roof",
+      "alt": "Promotional overhead roof photograph showing skylights, with a Roof King logo and phone number",
+      "tags": [
+        "roofing",
+        "skylights",
+        "aerial",
+        "company",
+        "promotional"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 1283,
+        "height": 1256,
+        "variants": [
+          {
+            "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-320.webp",
+            "width": 320,
+            "bytes": 37318,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-480.webp",
+            "width": 480,
+            "bytes": 81392,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-800.webp",
+            "width": 800,
+            "bytes": 169254,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-924.webp",
+            "width": 924,
+            "bytes": 161410,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 449374,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 24,
+      "driveId": "1rlmLoLYj0krRejMVCfjSBB1WHAlW_72v",
+      "filename": "Roof Sunset.pdf.png",
+      "url": "https://drive.google.com/file/d/1rlmLoLYj0krRejMVCfjSBB1WHAlW_72v/view?usp=drivesdk",
+      "sha256": "6297943f2901afc3442deb20f8e781487b0ac1f3a1b436e8983366c4bcfc2cb6",
+      "sourcePath": "output/client-photos/riley-2026-10/1rlmLoLYj0krRejMVCfjSBB1WHAlW_72v.png",
+      "originalPath": "output/client-photos/riley-2026-10/1rlmLoLYj0krRejMVCfjSBB1WHAlW_72v.png",
+      "sourceBytes": 3661677,
+      "width": 1545,
+      "height": 2000,
+      "disposition": "duplicate",
+      "duplicateOf": "1fdtTlEh7k6Gf-4fpgxPxcl3Rhwu6YQaN",
+      "reason": "Export of the same sunset photograph; use the full-resolution original",
+      "galleryId": "riley-28",
+      "caption": "On the roof at sunset",
+      "alt": "Person standing beside a roof at sunset, with bare trees in the background",
+      "tags": [
+        "roofing",
+        "company",
+        "sunset",
+        "roofline"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 0
+    },
+    {
+      "index": 25,
+      "driveId": "1h_VHW27wMwlPCiD0ukSXcewaJEb3K4e7",
+      "filename": "IMG_6006.HEIC",
+      "url": "https://drive.google.com/file/d/1h_VHW27wMwlPCiD0ukSXcewaJEb3K4e7/view?usp=drivesdk",
+      "sha256": "20f161f1e116fff07336677f3975574920ea00f9ab813e5b4d986a3d0a1ceb04",
+      "sourcePath": "output/client-photos/riley-2026-10/decoded-1h_VHW27wMwlPCiD0ukSXcewaJEb3K4e7.png",
+      "originalPath": "output/client-photos/riley-2026-10/1h_VHW27wMwlPCiD0ukSXcewaJEb3K4e7.heic",
+      "sourceBytes": 3161929,
+      "width": 3024,
+      "height": 4032,
+      "disposition": "gallery",
+      "galleryId": "riley-25",
+      "caption": "Together at the Roof King office",
+      "alt": "Team group photograph beneath the Roof King office wall logo",
+      "tags": [
+        "company",
+        "team",
+        "office",
+        "group"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60,
+      "optimization": {
+        "width": 3024,
+        "height": 4032,
+        "variants": [
+          {
+            "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-320.webp",
+            "width": 320,
+            "bytes": 34296,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-480.webp",
+            "width": 480,
+            "bytes": 69738,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-800.webp",
+            "width": 800,
+            "bytes": 179848,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-924.webp",
+            "width": 924,
+            "bytes": 166796,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 450678,
+        "metadataRemoved": true,
+        "sourceFormat": "png"
+      }
+    },
+    {
+      "index": 26,
+      "driveId": "1mHzXGF42GFF0SNJaKRefcmkuRngP_poc",
+      "filename": "IMG_6299.jpg",
+      "url": "https://drive.google.com/file/d/1mHzXGF42GFF0SNJaKRefcmkuRngP_poc/view?usp=drivesdk",
+      "sha256": "670dc8e2ed70d864f26546ac67e10c451ebfb831263fcfdaf098e395e7d4849d",
+      "sourcePath": "output/client-photos/riley-2026-10/1mHzXGF42GFF0SNJaKRefcmkuRngP_poc.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1mHzXGF42GFF0SNJaKRefcmkuRngP_poc.jpg",
+      "sourceBytes": 297680,
+      "width": 1207,
+      "height": 1150,
+      "disposition": "gallery",
+      "galleryId": "riley-26",
+      "caption": "An interior color reference",
+      "alt": "Kitchen color reference showing green cabinets and a Pewter Green SW 6208 label",
+      "tags": [
+        "other-references",
+        "interior",
+        "color-reference"
+      ],
+      "kind": "other",
+      "sourceLabel": "Other reference",
+      "category": "Other references",
+      "contain": true,
+      "sort": 90,
+      "optimization": {
+        "width": 1207,
+        "height": 1150,
+        "variants": [
+          {
+            "src": "/media/client-gallery/an-interior-color-reference-88075665c0-320.webp",
+            "width": 320,
+            "bytes": 16714,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-interior-color-reference-88075665c0-480.webp",
+            "width": 480,
+            "bytes": 29166,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-interior-color-reference-88075665c0-800.webp",
+            "width": 800,
+            "bytes": 54016,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/an-interior-color-reference-88075665c0-1207.webp",
+            "width": 1207,
+            "bytes": 96392,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 196288,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 27,
+      "driveId": "1m8mGVcBVfbb5MBQT4PW9wUtfQjACHhRb",
+      "filename": "Picture2.jpg",
+      "url": "https://drive.google.com/file/d/1m8mGVcBVfbb5MBQT4PW9wUtfQjACHhRb/view?usp=drivesdk",
+      "sha256": "2734412b8b3ef46edc337b005e8ca1b4bcc88341d20a067fe97d2643f5541343",
+      "sourcePath": "output/client-photos/riley-2026-10/1m8mGVcBVfbb5MBQT4PW9wUtfQjACHhRb.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1m8mGVcBVfbb5MBQT4PW9wUtfQjACHhRb.jpg",
+      "sourceBytes": 154887,
+      "width": 948,
+      "height": 690,
+      "disposition": "gallery",
+      "galleryId": "riley-27",
+      "caption": "The whole roof and property",
+      "alt": "Overhead photograph of a shingle roof, driveway and enclosed yard",
+      "tags": [
+        "roofing",
+        "aerial",
+        "shingles",
+        "property"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0,
+      "optimization": {
+        "width": 948,
+        "height": 690,
+        "variants": [
+          {
+            "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-320.webp",
+            "width": 320,
+            "bytes": 16836,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-480.webp",
+            "width": 480,
+            "bytes": 31374,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-800.webp",
+            "width": 800,
+            "bytes": 63622,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-948.webp",
+            "width": 948,
+            "bytes": 78332,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 190164,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 28,
+      "driveId": "1fdtTlEh7k6Gf-4fpgxPxcl3Rhwu6YQaN",
+      "filename": "IMG_0125.jpeg",
+      "url": "https://drive.google.com/file/d/1fdtTlEh7k6Gf-4fpgxPxcl3Rhwu6YQaN/view?usp=drivesdk",
+      "sha256": "9f8ff9cd49b0562b81d04289d812647dc253403262559b38dfc224f425744dd5",
+      "sourcePath": "output/client-photos/riley-2026-10/decoded-1fdtTlEh7k6Gf-4fpgxPxcl3Rhwu6YQaN.png",
+      "originalPath": "output/client-photos/riley-2026-10/1fdtTlEh7k6Gf-4fpgxPxcl3Rhwu6YQaN.jpeg",
+      "sourceBytes": 1246624,
+      "width": 3024,
+      "height": 4032,
+      "disposition": "gallery",
+      "galleryId": "riley-28",
+      "caption": "On the roof at sunset",
+      "alt": "Person standing beside a roof at sunset, with bare trees in the background",
+      "tags": [
+        "roofing",
+        "company",
+        "sunset",
+        "roofline"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 0,
+      "optimization": {
+        "width": 3024,
+        "height": 4032,
+        "variants": [
+          {
+            "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-320.webp",
+            "width": 320,
+            "bytes": 31376,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-480.webp",
+            "width": 480,
+            "bytes": 52768,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-800.webp",
+            "width": 800,
+            "bytes": 99794,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-1280.webp",
+            "width": 1280,
+            "bytes": 155840,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 339778,
+        "metadataRemoved": true,
+        "sourceFormat": "png"
+      }
+    },
+    {
+      "index": 29,
+      "driveId": "1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp",
+      "filename": "siding-wind-damage.jpeg",
+      "url": "https://drive.google.com/file/d/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp/view?usp=drivesdk",
+      "sha256": "119bd3f047a81aadff6586adb3ec8cf653ba37d5993113181e578cb6e5096374",
+      "sourcePath": "output/client-photos/riley-2026-10/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1kWt1Lg-Hr20HZZgY1A-5XXWclYMO2BLp.jpeg",
+      "sourceBytes": 137246,
+      "width": 800,
+      "height": 555,
+      "disposition": "gallery",
+      "galleryId": "riley-29",
+      "caption": "Displaced siding and exposed housewrap",
+      "alt": "Displaced lap siding below a gable exposing the housewrap behind it",
+      "tags": [
+        "siding",
+        "storm-damage",
+        "inspection",
+        "housewrap",
+        "displaced-siding"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Siding",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 800,
+        "height": 555,
+        "variants": [
+          {
+            "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-320.webp",
+            "width": 320,
+            "bytes": 18046,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-480.webp",
+            "width": 480,
+            "bytes": 36146,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-800.webp",
+            "width": 800,
+            "bytes": 83750,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 137942,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 30,
+      "driveId": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "filename": "Creased .jpeg",
+      "url": "https://drive.google.com/file/d/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p/view?usp=drivesdk",
+      "sha256": "964a2dc0667d8db219e97eeefb88a0a2750cae15a34ab6ed214a2e6e6dc6b537",
+      "sourcePath": "output/client-photos/riley-2026-10/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p.jpeg",
+      "sourceBytes": 299188,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-30",
+      "caption": "Inspecting a creased shingle tab",
+      "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "creases"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-320.webp",
+            "width": 320,
+            "bytes": 64594,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-480.webp",
+            "width": 480,
+            "bytes": 151070,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-554.webp",
+            "width": 554,
+            "bytes": 170130,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 385794,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 31,
+      "driveId": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "filename": "Missing Layer.jpeg",
+      "url": "https://drive.google.com/file/d/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O/view?usp=drivesdk",
+      "sha256": "672936117c083b2489ef694665b986cc381da591adb18fb1140292f42d24afb3",
+      "sourcePath": "output/client-photos/riley-2026-10/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O.jpeg",
+      "sourceBytes": 306250,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-31",
+      "caption": "A lifted shingle layer",
+      "alt": "Close-up of a lifted shingle tab and exposed layer marked with a red X",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "layers"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-320.webp",
+            "width": 320,
+            "bytes": 66392,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-480.webp",
+            "width": 480,
+            "bytes": 153436,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-554.webp",
+            "width": 554,
+            "bytes": 173898,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 393726,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 32,
+      "driveId": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "filename": "Wind Damage .jpeg",
+      "url": "https://drive.google.com/file/d/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk/view?usp=drivesdk",
+      "sha256": "208f35ee9d36e83807fc2137628617129778769185a4cd6a40575619d109ace5",
+      "sourcePath": "output/client-photos/riley-2026-10/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk.jpeg",
+      "sourceBytes": 157546,
+      "width": 576,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-32",
+      "caption": "Missing and lifted shingle tabs",
+      "alt": "Shingle roof with missing and lifted tabs marked with blue chalk",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "missing-tabs"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 576,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-320.webp",
+            "width": 320,
+            "bytes": 54942,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-480.webp",
+            "width": 480,
+            "bytes": 132590,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-576.webp",
+            "width": 576,
+            "bytes": 166836,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 354368,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 33,
+      "driveId": "1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6",
+      "filename": "Pull Throughs 1 .jpeg",
+      "url": "https://drive.google.com/file/d/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6/view?usp=drivesdk",
+      "sha256": "b8e67dd476843ae2298631192372f6dafc8d770bbdbd801c220a155b72c5b29b",
+      "sourcePath": "output/client-photos/riley-2026-10/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1R2Q2NNpfUkLAbEXt1bcwavD3e8ktAYi6.jpeg",
+      "sourceBytes": 328060,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-33",
+      "caption": "Shingle creases near the fasteners",
+      "alt": "Close view of shingle creases and chalk markings near the fastening area",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "fasteners",
+        "creases"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-320.webp",
+            "width": 320,
+            "bytes": 57036,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-480.webp",
+            "width": 480,
+            "bytes": 144126,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-554.webp",
+            "width": 554,
+            "bytes": 169600,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 370762,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 34,
+      "driveId": "1nhmfSbcPouF-OIRMiTDtJaPcgPEdinrX",
+      "filename": "IMG_6917.jpg",
+      "url": "https://drive.google.com/file/d/1nhmfSbcPouF-OIRMiTDtJaPcgPEdinrX/view?usp=drivesdk",
+      "sha256": "1ba8074a60608cdde87e8bf6743de476f6c380ef21073832bcfb7638ad01e82e",
+      "sourcePath": "output/client-photos/riley-2026-10/1nhmfSbcPouF-OIRMiTDtJaPcgPEdinrX.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1nhmfSbcPouF-OIRMiTDtJaPcgPEdinrX.jpg",
+      "sourceBytes": 254652,
+      "width": 1283,
+      "height": 798,
+      "disposition": "duplicate",
+      "duplicateOf": "1MhlsODR68kBaakJXunfS1022mN9JKtch",
+      "reason": "Exact byte duplicate",
+      "galleryId": "riley-05",
+      "caption": "Rooflines at sunset",
+      "alt": "Sunset above a neighborhood of houses with shingle roofs",
+      "tags": [
+        "roofing",
+        "aerial",
+        "sunset",
+        "neighborhood"
+      ],
+      "kind": "supplied",
+      "sourceLabel": "Supplied photo",
+      "category": "Roofing",
+      "contain": false,
+      "sort": 0
+    },
+    {
+      "index": 35,
+      "driveId": "1lVsqsTrx2zmSUNd4ZW5ZFFqlICxvTw9t",
+      "filename": "8AEBC6B3-8C8A-4FD5-A407-285FBED15D36.JPG",
+      "url": "https://drive.google.com/file/d/1lVsqsTrx2zmSUNd4ZW5ZFFqlICxvTw9t/view?usp=drivesdk",
+      "sha256": "20d20170e14bb096252c9ba9d4f9dc66daeab62b3adcf91956d13899de77e47d",
+      "sourcePath": "output/client-photos/riley-2026-10/1lVsqsTrx2zmSUNd4ZW5ZFFqlICxvTw9t.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1lVsqsTrx2zmSUNd4ZW5ZFFqlICxvTw9t.jpg",
+      "sourceBytes": 416914,
+      "width": 1284,
+      "height": 712,
+      "disposition": "duplicate",
+      "duplicateOf": "1jcNCYLClyXgR8bEsTLhzyykA0BVhRmqU",
+      "reason": "Alternate crop of the same team photograph",
+      "galleryId": "riley-02",
+      "caption": "The team together outdoors",
+      "alt": "Group photograph outside the Blackwing Shooting Center",
+      "tags": [
+        "company",
+        "team",
+        "group"
+      ],
+      "kind": "company",
+      "sourceLabel": "Team & company",
+      "category": "Team & company",
+      "contain": true,
+      "sort": 60
+    },
+    {
+      "index": 36,
+      "driveId": "1TJtfEHeDOWjetEznoYTHlmEtgzwpURKj",
+      "filename": "1-1.webp",
+      "url": "https://drive.google.com/file/d/1TJtfEHeDOWjetEznoYTHlmEtgzwpURKj/view?usp=drivesdk",
+      "sha256": "5ca776910e7bfecee1631cc1cdfbd1749a299ecee5e82d24dea4332e729c2ffa",
+      "sourcePath": "output/client-photos/riley-2026-10/1TJtfEHeDOWjetEznoYTHlmEtgzwpURKj.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1TJtfEHeDOWjetEznoYTHlmEtgzwpURKj.webp",
+      "sourceBytes": 82952,
+      "width": 696,
+      "height": 696,
+      "disposition": "non-photographic",
+      "reason": "Labeled drip-edge illustration"
+    },
+    {
+      "index": 37,
+      "driveId": "1WbuiWvAhak7M91DWSTAM2ZwXOYbbyz0U",
+      "filename": "Roof_Drip_Edge_Flashing_312_DJFse.jpeg",
+      "url": "https://drive.google.com/file/d/1WbuiWvAhak7M91DWSTAM2ZwXOYbbyz0U/view?usp=drivesdk",
+      "sha256": "2c5177982277e190de7f4df14aac660616a734b16fbc569b14c2c483ff9c66d7",
+      "sourcePath": "output/client-photos/riley-2026-10/1WbuiWvAhak7M91DWSTAM2ZwXOYbbyz0U.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1WbuiWvAhak7M91DWSTAM2ZwXOYbbyz0U.jpeg",
+      "sourceBytes": 104308,
+      "width": 829,
+      "height": 569,
+      "disposition": "non-photographic",
+      "reason": "Copyrighted drip-edge cross-section drawing"
+    },
+    {
+      "index": 38,
+      "driveId": "14kQ1JdyIhFdNSDHnPF8Q216T31EaCUAM",
+      "filename": "DeckingRotten-1.jpeg",
+      "url": "https://drive.google.com/file/d/14kQ1JdyIhFdNSDHnPF8Q216T31EaCUAM/view?usp=drivesdk",
+      "sha256": "97b76bc101cdb5ad547a2442ddae54ed144249ece9dab05ad9a3514ad5ddb58d",
+      "sourcePath": "output/client-photos/riley-2026-10/14kQ1JdyIhFdNSDHnPF8Q216T31EaCUAM.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/14kQ1JdyIhFdNSDHnPF8Q216T31EaCUAM.jpeg",
+      "sourceBytes": 71543,
+      "width": 425,
+      "height": 524,
+      "disposition": "gallery",
+      "galleryId": "riley-38",
+      "caption": "Deteriorated decking beside a chimney",
+      "alt": "Exposed deteriorated roof decking beside a brick chimney",
+      "tags": [
+        "roofing",
+        "inspection",
+        "decking",
+        "chimney",
+        "deterioration"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 425,
+        "height": 524,
+        "variants": [
+          {
+            "src": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-320.webp",
+            "width": 320,
+            "bytes": 57696,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-425.webp",
+            "width": 425,
+            "bytes": 97260,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 154956,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 39,
+      "driveId": "11ue2OBIAYmgvpVUMb_DOo7N94_g35k2K",
+      "filename": "bad-decking-under-shingles.jpeg",
+      "url": "https://drive.google.com/file/d/11ue2OBIAYmgvpVUMb_DOo7N94_g35k2K/view?usp=drivesdk",
+      "sha256": "a16d0d0a76420476dab9ab1b50ccd17d64f32eb1d17ea474dfdceb65ad1b4036",
+      "sourcePath": "output/client-photos/riley-2026-10/11ue2OBIAYmgvpVUMb_DOo7N94_g35k2K.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/11ue2OBIAYmgvpVUMb_DOo7N94_g35k2K.jpeg",
+      "sourceBytes": 33397,
+      "width": 500,
+      "height": 305,
+      "disposition": "gallery",
+      "galleryId": "riley-39",
+      "caption": "Decking beneath the shingle layers",
+      "alt": "Photo reference with arrows and text pointing to deteriorated decking under shingles",
+      "tags": [
+        "roofing",
+        "inspection",
+        "decking",
+        "deterioration"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 500,
+        "height": 305,
+        "variants": [
+          {
+            "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-320.webp",
+            "width": 320,
+            "bytes": 26104,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-480.webp",
+            "width": 480,
+            "bytes": 50880,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-500.webp",
+            "width": 500,
+            "bytes": 50762,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 127746,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 40,
+      "driveId": "12Dt2UYWnT98sg2lnOFPNlWZyjiaDhuQQ",
+      "filename": "126202-58b08afcecbf9_20140629123702.jpeg",
+      "url": "https://drive.google.com/file/d/12Dt2UYWnT98sg2lnOFPNlWZyjiaDhuQQ/view?usp=drivesdk",
+      "sha256": "1853df2e83d91218b05d2911f3d2a77b7e08781c935bf2a49709d2d9b25688f9",
+      "sourcePath": "output/client-photos/riley-2026-10/12Dt2UYWnT98sg2lnOFPNlWZyjiaDhuQQ.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/12Dt2UYWnT98sg2lnOFPNlWZyjiaDhuQQ.jpeg",
+      "sourceBytes": 32592,
+      "width": 270,
+      "height": 480,
+      "disposition": "gallery",
+      "galleryId": "riley-40",
+      "caption": "A closer look at exposed roof boards",
+      "alt": "Exposed roof boards showing gaps and areas of deterioration",
+      "tags": [
+        "roofing",
+        "inspection",
+        "decking",
+        "boards",
+        "deterioration"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 270,
+        "height": 480,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-closer-look-at-exposed-roof-boards-cf289f6f1e-270.webp",
+            "width": 270,
+            "bytes": 39628,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 39628,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 41,
+      "driveId": "1PjuVbjJUlnTtY842YzcTKGuwljwxRSHD",
+      "filename": "4371-1610349831-complete-tear-off-before-roof-replacement.jpg.jpg",
+      "url": "https://drive.google.com/file/d/1PjuVbjJUlnTtY842YzcTKGuwljwxRSHD/view?usp=drivesdk",
+      "sha256": "96e5b02019f1bf4832c6ee76e649c27ffb97a2baf7aeab30b6c0beacbf90bb4d",
+      "sourcePath": "output/client-photos/riley-2026-10/1PjuVbjJUlnTtY842YzcTKGuwljwxRSHD.jpg",
+      "originalPath": "output/client-photos/riley-2026-10/1PjuVbjJUlnTtY842YzcTKGuwljwxRSHD.jpg",
+      "sourceBytes": 62243,
+      "width": 840,
+      "height": 630,
+      "disposition": "gallery",
+      "galleryId": "riley-41",
+      "caption": "Removing the old roof covering",
+      "alt": "Worker removing red roofing shingles in a photo bearing a Christian Brothers Roofing logo",
+      "tags": [
+        "roofing",
+        "installation",
+        "tear-off",
+        "third-party-reference"
+      ],
+      "kind": "third-party",
+      "sourceLabel": "Third-party reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 840,
+        "height": 630,
+        "variants": [
+          {
+            "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-320.webp",
+            "width": 320,
+            "bytes": 21298,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-480.webp",
+            "width": 480,
+            "bytes": 42792,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-800.webp",
+            "width": 800,
+            "bytes": 92956,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-840.webp",
+            "width": 840,
+            "bytes": 93364,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 250410,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 42,
+      "driveId": "1Y_pEGY9bYac-N2KciMxVDzH0PWvmVVx3",
+      "filename": "Tearing-Off-Old-Roofing.jpeg",
+      "url": "https://drive.google.com/file/d/1Y_pEGY9bYac-N2KciMxVDzH0PWvmVVx3/view?usp=drivesdk",
+      "sha256": "187fcd877782e5ecfbccb6bb7119df7308480130cfad09ac20ff855503303032",
+      "sourcePath": "output/client-photos/riley-2026-10/1Y_pEGY9bYac-N2KciMxVDzH0PWvmVVx3.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1Y_pEGY9bYac-N2KciMxVDzH0PWvmVVx3.jpeg",
+      "sourceBytes": 124934,
+      "width": 1080,
+      "height": 750,
+      "disposition": "gallery",
+      "galleryId": "riley-42",
+      "caption": "Tear-off and ground protection",
+      "alt": "Workers removing a roof covering above protective tarps",
+      "tags": [
+        "roofing",
+        "installation",
+        "tear-off",
+        "tarps"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1080,
+        "height": 750,
+        "variants": [
+          {
+            "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-320.webp",
+            "width": 320,
+            "bytes": 14640,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-480.webp",
+            "width": 480,
+            "bytes": 29898,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-800.webp",
+            "width": 800,
+            "bytes": 62658,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-1080.webp",
+            "width": 1080,
+            "bytes": 91074,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 198270,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 43,
+      "driveId": "1IQNINi39tVpLl03MffAZ3vILNYUJJb93",
+      "filename": "cobra-snowcountry_1000.webp",
+      "url": "https://drive.google.com/file/d/1IQNINi39tVpLl03MffAZ3vILNYUJJb93/view?usp=drivesdk",
+      "sha256": "f6029771e4014dc3e52f91cb055db11fe18be252209c4e0f9925e8903e5daf94",
+      "sourcePath": "output/client-photos/riley-2026-10/1IQNINi39tVpLl03MffAZ3vILNYUJJb93.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1IQNINi39tVpLl03MffAZ3vILNYUJJb93.webp",
+      "sourceBytes": 20450,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "non-photographic",
+      "reason": "Isolated ridge-vent product rendering"
+    },
+    {
+      "index": 44,
+      "driveId": "13KnDupUKIhsZuMUT8buu99yR-4N7y5lz",
+      "filename": "timbertex-weathered-wood-carousel-image_1000.webp",
+      "url": "https://drive.google.com/file/d/13KnDupUKIhsZuMUT8buu99yR-4N7y5lz/view?usp=drivesdk",
+      "sha256": "e8abd8192398ba9b5d3e0b8a7cf3adeafa64a12555fd28ea99db1c996e7b56ee",
+      "sourcePath": "output/client-photos/riley-2026-10/13KnDupUKIhsZuMUT8buu99yR-4N7y5lz.webp",
+      "originalPath": "output/client-photos/riley-2026-10/13KnDupUKIhsZuMUT8buu99yR-4N7y5lz.webp",
+      "sourceBytes": 209054,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-44",
+      "caption": "TimberTex ridge-cap appearance",
+      "alt": "GAF reference photo showing TimberTex Weathered Wood ridge-cap shingles with a product label",
+      "tags": [
+        "roofing",
+        "materials",
+        "ridge-caps",
+        "gaf",
+        "timbertex"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-320.webp",
+            "width": 320,
+            "bytes": 28174,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-480.webp",
+            "width": 480,
+            "bytes": 71910,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-800.webp",
+            "width": 800,
+            "bytes": 160684,
+            "quality": 78
+          },
+          {
+            "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-850.webp",
+            "width": 850,
+            "bytes": 164426,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 425194,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 45,
+      "driveId": "1cJhHhr30OkJwRS5Y4Di98nqkqtbXlNpB",
+      "filename": "seal-a-ridge-weathered-wood-carousel-image_1000.webp",
+      "url": "https://drive.google.com/file/d/1cJhHhr30OkJwRS5Y4Di98nqkqtbXlNpB/view?usp=drivesdk",
+      "sha256": "eb6740adf251217f03fa8af5d91697b75e2b74df07191a0f948ed6119b6e9a82",
+      "sourcePath": "output/client-photos/riley-2026-10/1cJhHhr30OkJwRS5Y4Di98nqkqtbXlNpB.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1cJhHhr30OkJwRS5Y4Di98nqkqtbXlNpB.webp",
+      "sourceBytes": 228816,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-45",
+      "caption": "Seal-A-Ridge ridge-cap appearance",
+      "alt": "GAF reference photo showing Seal-A-Ridge Weathered Wood shingles with a product label",
+      "tags": [
+        "roofing",
+        "materials",
+        "ridge-caps",
+        "gaf",
+        "seal-a-ridge"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-320.webp",
+            "width": 320,
+            "bytes": 29474,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-480.webp",
+            "width": 480,
+            "bytes": 77278,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-800.webp",
+            "width": 800,
+            "bytes": 175010,
+            "quality": 78
+          },
+          {
+            "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-850.webp",
+            "width": 850,
+            "bytes": 175646,
+            "quality": 70
+          }
+        ],
+        "totalBytes": 457408,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 46,
+      "driveId": "1XECwYX4owUHCBWuBPNaybWdk07tjN9Sb",
+      "filename": "weatherblocker_1000.webp",
+      "url": "https://drive.google.com/file/d/1XECwYX4owUHCBWuBPNaybWdk07tjN9Sb/view?usp=drivesdk",
+      "sha256": "250c29e55523a95ea6544627d87e1528efa5915977e4fed620957694752d412c",
+      "sourcePath": "output/client-photos/riley-2026-10/1XECwYX4owUHCBWuBPNaybWdk07tjN9Sb.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1XECwYX4owUHCBWuBPNaybWdk07tjN9Sb.webp",
+      "sourceBytes": 32148,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "non-photographic",
+      "reason": "Isolated starter-strip product rendering"
+    },
+    {
+      "index": 47,
+      "driveId": "11qp0gfohpLDv2sQJcFuX5IOy16Kf1A3p",
+      "filename": "weatherblocker-halfsheet-install_1000.webp",
+      "url": "https://drive.google.com/file/d/11qp0gfohpLDv2sQJcFuX5IOy16Kf1A3p/view?usp=drivesdk",
+      "sha256": "2b32aceefd15f0ddcc9346d0ad8011539b94d0a95bf87aab9758777baac4092c",
+      "sourcePath": "output/client-photos/riley-2026-10/11qp0gfohpLDv2sQJcFuX5IOy16Kf1A3p.webp",
+      "originalPath": "output/client-photos/riley-2026-10/11qp0gfohpLDv2sQJcFuX5IOy16Kf1A3p.webp",
+      "sourceBytes": 129488,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-47",
+      "caption": "Starter-strip and shingle detail",
+      "alt": "GAF reference photograph of starter-strip and shingle layers at the roof edge",
+      "tags": [
+        "roofing",
+        "materials",
+        "starter-strip",
+        "gaf",
+        "roof-edge"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-320.webp",
+            "width": 320,
+            "bytes": 34802,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-480.webp",
+            "width": 480,
+            "bytes": 77564,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-800.webp",
+            "width": 800,
+            "bytes": 165178,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-1000.webp",
+            "width": 1000,
+            "bytes": 166936,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 444480,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 48,
+      "driveId": "1inExIuVYDEEBQNQ7ruBFKt60f3gwSVFj",
+      "filename": "tile-warranties-lifetimeltd2.webp",
+      "url": "https://drive.google.com/file/d/1inExIuVYDEEBQNQ7ruBFKt60f3gwSVFj/view?usp=drivesdk",
+      "sha256": "3cc9fd4bf22f5b3a3e58c417b8088586089fd575363406c7e96354ce423e4051",
+      "sourcePath": "output/client-photos/riley-2026-10/1inExIuVYDEEBQNQ7ruBFKt60f3gwSVFj.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1inExIuVYDEEBQNQ7ruBFKt60f3gwSVFj.webp",
+      "sourceBytes": 10792,
+      "width": 720,
+      "height": 480,
+      "disposition": "non-photographic",
+      "reason": "Warranty badge graphic"
+    },
+    {
+      "index": 49,
+      "driveId": "1xz67WbgJ5LW_7DBpicX4Y6Sk5oFzm4i1",
+      "filename": "tile-warranties-windproven2.webp",
+      "url": "https://drive.google.com/file/d/1xz67WbgJ5LW_7DBpicX4Y6Sk5oFzm4i1/view?usp=drivesdk",
+      "sha256": "59d87e1e119611e8b5c61bf52025ef8177f4b8a08508730a8437e6fc3906f5d5",
+      "sourcePath": "output/client-photos/riley-2026-10/1xz67WbgJ5LW_7DBpicX4Y6Sk5oFzm4i1.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1xz67WbgJ5LW_7DBpicX4Y6Sk5oFzm4i1.webp",
+      "sourceBytes": 14344,
+      "width": 720,
+      "height": 480,
+      "disposition": "non-photographic",
+      "reason": "Warranty badge graphic"
+    },
+    {
+      "index": 50,
+      "driveId": "1PcCUfCqzEbJTxFS66qRoWf9CMpqYxL3_",
+      "filename": "tile-warranties-stainguard2.webp",
+      "url": "https://drive.google.com/file/d/1PcCUfCqzEbJTxFS66qRoWf9CMpqYxL3_/view?usp=drivesdk",
+      "sha256": "50a68959b59f4991b2b00c4dad8062213b589ec27c73444a179a69a647ed18b0",
+      "sourcePath": "output/client-photos/riley-2026-10/1PcCUfCqzEbJTxFS66qRoWf9CMpqYxL3_.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1PcCUfCqzEbJTxFS66qRoWf9CMpqYxL3_.webp",
+      "sourceBytes": 13428,
+      "width": 720,
+      "height": 480,
+      "disposition": "non-photographic",
+      "reason": "Warranty badge graphic"
+    },
+    {
+      "index": 51,
+      "driveId": "19pj55N61IeqB369fPaDRSnwqnGehWyM6",
+      "filename": "hdz-ww-1000x1000.webp",
+      "url": "https://drive.google.com/file/d/19pj55N61IeqB369fPaDRSnwqnGehWyM6/view?usp=drivesdk",
+      "sha256": "2d90ce35762c572cce687cbf5f6a877e99fb5fe2b38d604ac8417e703c6f875a",
+      "sourcePath": "output/client-photos/riley-2026-10/19pj55N61IeqB369fPaDRSnwqnGehWyM6.webp",
+      "originalPath": "output/client-photos/riley-2026-10/19pj55N61IeqB369fPaDRSnwqnGehWyM6.webp",
+      "sourceBytes": 155300,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-51",
+      "caption": "Timberline HDZ on a home",
+      "alt": "GAF Timberline HDZ reference photo of a home with a shingle roof and product branding",
+      "tags": [
+        "roofing",
+        "materials",
+        "shingles",
+        "gaf",
+        "timberline-hdz"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-320.webp",
+            "width": 320,
+            "bytes": 35840,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-480.webp",
+            "width": 480,
+            "bytes": 79970,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-800.webp",
+            "width": 800,
+            "bytes": 160114,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-1000.webp",
+            "width": 1000,
+            "bytes": 178408,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 454332,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 52,
+      "driveId": "1y7DkqJLLiBfyIOVvmnzYyn811kRrkp_J",
+      "filename": "tlns-weatheredwood-house-hero_1000.webp",
+      "url": "https://drive.google.com/file/d/1y7DkqJLLiBfyIOVvmnzYyn811kRrkp_J/view?usp=drivesdk",
+      "sha256": "5c1d70752726d91efc0aef3b5b7e1d7a88ee0c5d8b015b498c4330289233eb5e",
+      "sourcePath": "output/client-photos/riley-2026-10/1y7DkqJLLiBfyIOVvmnzYyn811kRrkp_J.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1y7DkqJLLiBfyIOVvmnzYyn811kRrkp_J.webp",
+      "sourceBytes": 88208,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-52",
+      "caption": "Timberline Natural Shadow roof appearance",
+      "alt": "GAF Timberline Natural Shadow reference photo of a home with a shingle roof and product branding",
+      "tags": [
+        "roofing",
+        "materials",
+        "shingles",
+        "gaf",
+        "natural-shadow"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-320.webp",
+            "width": 320,
+            "bytes": 26378,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-480.webp",
+            "width": 480,
+            "bytes": 54394,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-800.webp",
+            "width": 800,
+            "bytes": 105212,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-1000.webp",
+            "width": 1000,
+            "bytes": 120096,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 306080,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 53,
+      "driveId": "1PICE10N6_q1HFukLNvsmrNyU7aVRZNYi",
+      "filename": "weatherwatch-rolled-on-rooftop_1000.webp",
+      "url": "https://drive.google.com/file/d/1PICE10N6_q1HFukLNvsmrNyU7aVRZNYi/view?usp=drivesdk",
+      "sha256": "a912aee4063051d0a2ef98011dfb397fb0cddfed5d50815dc484b78221dc8357",
+      "sourcePath": "output/client-photos/riley-2026-10/1PICE10N6_q1HFukLNvsmrNyU7aVRZNYi.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1PICE10N6_q1HFukLNvsmrNyU7aVRZNYi.webp",
+      "sourceBytes": 142830,
+      "width": 1000,
+      "height": 1000,
+      "disposition": "gallery",
+      "galleryId": "riley-53",
+      "caption": "Rolling out roof-deck protection",
+      "alt": "GAF WeatherWatch reference photo showing a worker rolling membrane over a roof deck",
+      "tags": [
+        "roofing",
+        "materials",
+        "installation",
+        "underlayment",
+        "gaf",
+        "weatherwatch"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 1000,
+        "variants": [
+          {
+            "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-320.webp",
+            "width": 320,
+            "bytes": 20910,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-480.webp",
+            "width": 480,
+            "bytes": 45500,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-800.webp",
+            "width": 800,
+            "bytes": 111124,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-1000.webp",
+            "width": 1000,
+            "bytes": 163356,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 340890,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 54,
+      "driveId": "1OcNBzxLIc8AJfqgvoXzz7L--BeBeQcmL",
+      "filename": "05119450.webp",
+      "url": "https://drive.google.com/file/d/1OcNBzxLIc8AJfqgvoXzz7L--BeBeQcmL/view?usp=drivesdk",
+      "sha256": "01f25d527fba3b099c74f77630997afcce091c0525eb6cd9bc47d110a9637602",
+      "sourcePath": "output/client-photos/riley-2026-10/1OcNBzxLIc8AJfqgvoXzz7L--BeBeQcmL.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1OcNBzxLIc8AJfqgvoXzz7L--BeBeQcmL.webp",
+      "sourceBytes": 587584,
+      "width": 2500,
+      "height": 1663,
+      "disposition": "gallery",
+      "galleryId": "riley-54",
+      "caption": "FeltBuster underlayment installation",
+      "alt": "GAF reference photo of a worker installing FeltBuster underlayment over roof decking",
+      "tags": [
+        "roofing",
+        "materials",
+        "installation",
+        "underlayment",
+        "gaf",
+        "feltbuster"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 2500,
+        "height": 1663,
+        "variants": [
+          {
+            "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-320.webp",
+            "width": 320,
+            "bytes": 21652,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-480.webp",
+            "width": 480,
+            "bytes": 42560,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-800.webp",
+            "width": 800,
+            "bytes": 96838,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-1280.webp",
+            "width": 1280,
+            "bytes": 162084,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 323134,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 55,
+      "driveId": "126E3ZGima3nkewwUft90URM3COULhjWw",
+      "filename": "coke-logo-10.jpeg",
+      "url": "https://drive.google.com/file/d/126E3ZGima3nkewwUft90URM3COULhjWw/view?usp=drivesdk",
+      "sha256": "338fa81c4ab6ed1cb1fd7dec7fa40d36c4112f9ebd4d017aea42e5c0bfaacc3b",
+      "sourcePath": "output/client-photos/riley-2026-10/126E3ZGima3nkewwUft90URM3COULhjWw.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/126E3ZGima3nkewwUft90URM3COULhjWw.jpeg",
+      "sourceBytes": 28327,
+      "width": 570,
+      "height": 426,
+      "disposition": "non-photographic",
+      "reason": "Unrelated Coca-Cola logo"
+    },
+    {
+      "index": 56,
+      "driveId": "1dqfrGNFSAyKguGhRclLnhc5shmGFX77T",
+      "filename": "GAF-01-HDZ-Shingles.webp",
+      "url": "https://drive.google.com/file/d/1dqfrGNFSAyKguGhRclLnhc5shmGFX77T/view?usp=drivesdk",
+      "sha256": "e20d676b7703dd1784c198bb217331e63e5f443d29c6ac82fdfbada86b88342a",
+      "sourcePath": "output/client-photos/riley-2026-10/1dqfrGNFSAyKguGhRclLnhc5shmGFX77T.webp",
+      "originalPath": "output/client-photos/riley-2026-10/1dqfrGNFSAyKguGhRclLnhc5shmGFX77T.webp",
+      "sourceBytes": 110034,
+      "width": 550,
+      "height": 550,
+      "disposition": "gallery",
+      "galleryId": "riley-56",
+      "caption": "Timberline HDZ material reference",
+      "alt": "GAF-branded house and shingle-roof photograph used as a Timberline HDZ material reference",
+      "tags": [
+        "roofing",
+        "materials",
+        "shingles",
+        "gaf",
+        "timberline-hdz"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 550,
+        "height": 550,
+        "variants": [
+          {
+            "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-320.webp",
+            "width": 320,
+            "bytes": 36804,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-480.webp",
+            "width": 480,
+            "bytes": 68444,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-550.webp",
+            "width": 550,
+            "bytes": 99736,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 204984,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 57,
+      "driveId": "1koy8T8NqZeZL4wc6ZcnZFPdkHEoRHHSx",
+      "filename": "GAF Roofing Timberline Natural Shadow Brochure Thumb.jpeg",
+      "url": "https://drive.google.com/file/d/1koy8T8NqZeZL4wc6ZcnZFPdkHEoRHHSx/view?usp=drivesdk",
+      "sha256": "fb05bde056b02d36ce229fdd7a1c2fd65f3e104c9f27eaa2109fde48cb4cc53e",
+      "sourcePath": "output/client-photos/riley-2026-10/1koy8T8NqZeZL4wc6ZcnZFPdkHEoRHHSx.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1koy8T8NqZeZL4wc6ZcnZFPdkHEoRHHSx.jpeg",
+      "sourceBytes": 32475,
+      "width": 533,
+      "height": 324,
+      "disposition": "gallery",
+      "galleryId": "riley-57",
+      "caption": "GAF roofing brochure reference",
+      "alt": "GAF roofing brochure cover with a house photograph and manufacturer branding",
+      "tags": [
+        "roofing",
+        "materials",
+        "literature",
+        "gaf",
+        "brochure"
+      ],
+      "kind": "manufacturer",
+      "sourceLabel": "Manufacturer reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 533,
+        "height": 324,
+        "variants": [
+          {
+            "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-320.webp",
+            "width": 320,
+            "bytes": 16978,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-480.webp",
+            "width": 480,
+            "bytes": 32212,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-533.webp",
+            "width": 533,
+            "bytes": 38506,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 87696,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 58,
+      "driveId": "1jmweEcdJVCje5tSUwsp7QuM6YFrx7y34",
+      "filename": "CElogo.png",
+      "url": "https://drive.google.com/file/d/1jmweEcdJVCje5tSUwsp7QuM6YFrx7y34/view?usp=drivesdk",
+      "sha256": "192497b8142e1a647c60ab8a70dcb7a29f4e6b6dae499a41894e3c992d3b85e0",
+      "sourcePath": "output/client-photos/riley-2026-10/1jmweEcdJVCje5tSUwsp7QuM6YFrx7y34.png",
+      "originalPath": "output/client-photos/riley-2026-10/1jmweEcdJVCje5tSUwsp7QuM6YFrx7y34.png",
+      "sourceBytes": 54294,
+      "width": 250,
+      "height": 258,
+      "disposition": "non-photographic",
+      "reason": "GAF certification badge"
+    },
+    {
+      "index": 59,
+      "driveId": "11D7Z8JbTTYXk9ZrPBKGL-WqS831l3ZoU",
+      "filename": "1200px-GAF_logo.svg.png",
+      "url": "https://drive.google.com/file/d/11D7Z8JbTTYXk9ZrPBKGL-WqS831l3ZoU/view?usp=drivesdk",
+      "sha256": "9a5d8d17de27c9a073a449a56828fbd469df1312925adafd5b6037ff421cc752",
+      "sourcePath": "output/client-photos/riley-2026-10/11D7Z8JbTTYXk9ZrPBKGL-WqS831l3ZoU.png",
+      "originalPath": "output/client-photos/riley-2026-10/11D7Z8JbTTYXk9ZrPBKGL-WqS831l3ZoU.png",
+      "sourceBytes": 11382,
+      "width": 1200,
+      "height": 1200,
+      "disposition": "non-photographic",
+      "reason": "GAF logo"
+    },
+    {
+      "index": 60,
+      "driveId": "1YIiKa-JNhLhxKTH2ui-zwdlNnl8_wZnz",
+      "filename": "State-Farm-Logo-2012-present.png",
+      "url": "https://drive.google.com/file/d/1YIiKa-JNhLhxKTH2ui-zwdlNnl8_wZnz/view?usp=drivesdk",
+      "sha256": "0af4f7ae268f3163cf2f5a1b00d0df866212e7dc723848bf45e0808691a1094b",
+      "sourcePath": "output/client-photos/riley-2026-10/1YIiKa-JNhLhxKTH2ui-zwdlNnl8_wZnz.png",
+      "originalPath": "output/client-photos/riley-2026-10/1YIiKa-JNhLhxKTH2ui-zwdlNnl8_wZnz.png",
+      "sourceBytes": 27368,
+      "width": 3840,
+      "height": 2160,
+      "disposition": "non-photographic",
+      "reason": "State Farm logo"
+    },
+    {
+      "index": 61,
+      "driveId": "1u82Gt5FGMRQVpLreuLCZEC2P_iDLjU2N",
+      "filename": "dscf0499-1-1-862x647.jpeg",
+      "url": "https://drive.google.com/file/d/1u82Gt5FGMRQVpLreuLCZEC2P_iDLjU2N/view?usp=drivesdk",
+      "sha256": "f0a74d351c4c321bd3e4cebc20aeb0554e63692b83a21a23d10cd017370a411c",
+      "sourcePath": "output/client-photos/riley-2026-10/1u82Gt5FGMRQVpLreuLCZEC2P_iDLjU2N.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1u82Gt5FGMRQVpLreuLCZEC2P_iDLjU2N.jpeg",
+      "sourceBytes": 80642,
+      "width": 862,
+      "height": 647,
+      "disposition": "gallery",
+      "galleryId": "riley-61",
+      "caption": "Buckled and displaced siding courses",
+      "alt": "Close-up of buckled lap siding and a displaced siding section",
+      "tags": [
+        "siding",
+        "inspection",
+        "displaced-siding",
+        "buckling"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Siding",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 862,
+        "height": 647,
+        "variants": [
+          {
+            "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-320.webp",
+            "width": 320,
+            "bytes": 16462,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-480.webp",
+            "width": 480,
+            "bytes": 28714,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-800.webp",
+            "width": 800,
+            "bytes": 57276,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-862.webp",
+            "width": 862,
+            "bytes": 63948,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 166400,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 62,
+      "driveId": "1EJNBt9rY8hFZNfYh_lAUTsz02MbKLiPN",
+      "filename": "cracked-Shingles-4.jpeg",
+      "url": "https://drive.google.com/file/d/1EJNBt9rY8hFZNfYh_lAUTsz02MbKLiPN/view?usp=drivesdk",
+      "sha256": "522c2c3bd17e9fdc708c43d15e9afcaf8f858889db4992358544bb313e6dc385",
+      "sourcePath": "output/client-photos/riley-2026-10/1EJNBt9rY8hFZNfYh_lAUTsz02MbKLiPN.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1EJNBt9rY8hFZNfYh_lAUTsz02MbKLiPN.jpeg",
+      "sourceBytes": 78617,
+      "width": 687,
+      "height": 384,
+      "disposition": "gallery",
+      "galleryId": "riley-62",
+      "caption": "Cracks across shingle tabs",
+      "alt": "Close-up of reddish shingles with cracks across several tabs",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "cracks"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 687,
+        "height": 384,
+        "variants": [
+          {
+            "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-320.webp",
+            "width": 320,
+            "bytes": 23040,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-480.webp",
+            "width": 480,
+            "bytes": 54976,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-687.webp",
+            "width": 687,
+            "bytes": 104080,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 182096,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 63,
+      "driveId": "1QfEKJy9bpf5nPFmF-ce3BJHn3Jx9O2jh",
+      "filename": "Thermal Cracking.jpeg",
+      "url": "https://drive.google.com/file/d/1QfEKJy9bpf5nPFmF-ce3BJHn3Jx9O2jh/view?usp=drivesdk",
+      "sha256": "522c2c3bd17e9fdc708c43d15e9afcaf8f858889db4992358544bb313e6dc385",
+      "sourcePath": "output/client-photos/riley-2026-10/1QfEKJy9bpf5nPFmF-ce3BJHn3Jx9O2jh.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1QfEKJy9bpf5nPFmF-ce3BJHn3Jx9O2jh.jpeg",
+      "sourceBytes": 78617,
+      "width": 687,
+      "height": 384,
+      "disposition": "duplicate",
+      "duplicateOf": "1EJNBt9rY8hFZNfYh_lAUTsz02MbKLiPN",
+      "reason": "Exact byte duplicate",
+      "galleryId": "riley-62",
+      "caption": "Cracks across shingle tabs",
+      "alt": "Close-up of reddish shingles with cracks across several tabs",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "cracks"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40
+    },
+    {
+      "index": 64,
+      "driveId": "1OPuqow1Z4TOpL33K3ZlEwy0xjea6QEPy",
+      "filename": "1-2-1024x768.jpeg",
+      "url": "https://drive.google.com/file/d/1OPuqow1Z4TOpL33K3ZlEwy0xjea6QEPy/view?usp=drivesdk",
+      "sha256": "c19f9613dc418ee3eeba6717e5ef13a29c1a38fb911864ae72fc3c7c27570a5f",
+      "sourcePath": "output/client-photos/riley-2026-10/1OPuqow1Z4TOpL33K3ZlEwy0xjea6QEPy.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1OPuqow1Z4TOpL33K3ZlEwy0xjea6QEPy.jpeg",
+      "sourceBytes": 320036,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-64",
+      "caption": "Inspecting a marked shingle surface",
+      "alt": "Fingertip beside a yellow chalk circle on a shingle surface",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "surface-marks"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-320.webp",
+            "width": 320,
+            "bytes": 38570,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-480.webp",
+            "width": 480,
+            "bytes": 84338,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-800.webp",
+            "width": 800,
+            "bytes": 171014,
+            "quality": 78
+          },
+          {
+            "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp",
+            "width": 870,
+            "bytes": 175216,
+            "quality": 70
+          }
+        ],
+        "totalBytes": 469138,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 65,
+      "driveId": "19r3J_pBNFKuFDS9UrIAgaJiyw89u0hDG",
+      "filename": "blisters-in-shingles-002.jpeg",
+      "url": "https://drive.google.com/file/d/19r3J_pBNFKuFDS9UrIAgaJiyw89u0hDG/view?usp=drivesdk",
+      "sha256": "ea331b53243ef94ef4b3bc9479c20e891478035d3f678b51c2676dd6dc80df0f",
+      "sourcePath": "output/client-photos/riley-2026-10/19r3J_pBNFKuFDS9UrIAgaJiyw89u0hDG.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/19r3J_pBNFKuFDS9UrIAgaJiyw89u0hDG.jpeg",
+      "sourceBytes": 96132,
+      "width": 640,
+      "height": 480,
+      "disposition": "gallery",
+      "galleryId": "riley-65",
+      "caption": "Shingle surface texture up close",
+      "alt": "Close-up of granular shingle surfaces with small areas of exposed material",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "surface-texture"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 640,
+        "height": 480,
+        "variants": [
+          {
+            "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-320.webp",
+            "width": 320,
+            "bytes": 43334,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-480.webp",
+            "width": 480,
+            "bytes": 90984,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-640.webp",
+            "width": 640,
+            "bytes": 140966,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 275284,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 66,
+      "driveId": "1LzxJ1Uo-pgwfiiqnUNHxWYOhZZkkvaWa",
+      "filename": "Paint splatter kid.jpeg",
+      "url": "https://drive.google.com/file/d/1LzxJ1Uo-pgwfiiqnUNHxWYOhZZkkvaWa/view?usp=drivesdk",
+      "sha256": "452bde62946f0992b33cfec9b08c94f1215ea27f9822ecf9d8c5d5ae04900233",
+      "sourcePath": "output/client-photos/riley-2026-10/1LzxJ1Uo-pgwfiiqnUNHxWYOhZZkkvaWa.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1LzxJ1Uo-pgwfiiqnUNHxWYOhZZkkvaWa.jpeg",
+      "sourceBytes": 255188,
+      "width": 940,
+      "height": 650,
+      "disposition": "gallery",
+      "galleryId": "riley-66",
+      "caption": "A paint-splatter art reference",
+      "alt": "Child standing beside a brightly paint-splattered art wall",
+      "tags": [
+        "other-references",
+        "art",
+        "paint-splatter"
+      ],
+      "kind": "other",
+      "sourceLabel": "Other reference",
+      "category": "Other references",
+      "contain": true,
+      "sort": 90,
+      "optimization": {
+        "width": 940,
+        "height": 650,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-320.webp",
+            "width": 320,
+            "bytes": 33246,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-480.webp",
+            "width": 480,
+            "bytes": 73976,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-800.webp",
+            "width": 800,
+            "bytes": 173110,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 280332,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 67,
+      "driveId": "16c_EHiUSm2X_6Iz2weESbHLE8W2qLQrS",
+      "filename": "Paint splatter.webp",
+      "url": "https://drive.google.com/file/d/16c_EHiUSm2X_6Iz2weESbHLE8W2qLQrS/view?usp=drivesdk",
+      "sha256": "214d0f8e1f26252951516fdc4a956988786439ed3a44910b09de6dcca165df2a",
+      "sourcePath": "output/client-photos/riley-2026-10/16c_EHiUSm2X_6Iz2weESbHLE8W2qLQrS.webp",
+      "originalPath": "output/client-photos/riley-2026-10/16c_EHiUSm2X_6Iz2weESbHLE8W2qLQrS.webp",
+      "sourceBytes": 23024,
+      "width": 640,
+      "height": 362,
+      "disposition": "gallery",
+      "galleryId": "riley-67",
+      "caption": "Paint splatter on siding and trim",
+      "alt": "Paint splatter visible on horizontal siding and adjoining trim",
+      "tags": [
+        "painting",
+        "siding",
+        "inspection",
+        "paint-splatter",
+        "trim"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Painting",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 640,
+        "height": 362,
+        "variants": [
+          {
+            "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-320.webp",
+            "width": 320,
+            "bytes": 7510,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-480.webp",
+            "width": 480,
+            "bytes": 12660,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-640.webp",
+            "width": 640,
+            "bytes": 22696,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 42866,
+        "metadataRemoved": true,
+        "sourceFormat": "webp"
+      }
+    },
+    {
+      "index": 68,
+      "driveId": "1_KSr0QdHHh_Ff_3rcFBCzTAuBNKPN99s",
+      "filename": "mETAL ROOF 2.jpeg",
+      "url": "https://drive.google.com/file/d/1_KSr0QdHHh_Ff_3rcFBCzTAuBNKPN99s/view?usp=drivesdk",
+      "sha256": "b768b7e946e69af03d3ddabbeaa9aad7f8ac9366d7f7cc9720640dbeb885b63d",
+      "sourcePath": "output/client-photos/riley-2026-10/1_KSr0QdHHh_Ff_3rcFBCzTAuBNKPN99s.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1_KSr0QdHHh_Ff_3rcFBCzTAuBNKPN99s.jpeg",
+      "sourceBytes": 12417,
+      "width": 275,
+      "height": 183,
+      "disposition": "gallery",
+      "galleryId": "riley-68",
+      "caption": "Standing-seam metal at a dormer",
+      "alt": "Small reference photo of a standing-seam metal roof around a dormer",
+      "tags": [
+        "roofing",
+        "metal",
+        "materials",
+        "standing-seam",
+        "dormer"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 275,
+        "height": 183,
+        "variants": [
+          {
+            "src": "/media/client-gallery/standing-seam-metal-at-a-dormer-9a0149f6d9-275.webp",
+            "width": 275,
+            "bytes": 18208,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 18208,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 69,
+      "driveId": "1jKCcE0YxRk_3JVjfPilAb_Wo9LkAB9GH",
+      "filename": "mETAL ROOF.jpeg",
+      "url": "https://drive.google.com/file/d/1jKCcE0YxRk_3JVjfPilAb_Wo9LkAB9GH/view?usp=drivesdk",
+      "sha256": "f0b333cc71a69b46230a68f74868468b8c2f77242874e3d9f1612f6d64d6357e",
+      "sourcePath": "output/client-photos/riley-2026-10/1jKCcE0YxRk_3JVjfPilAb_Wo9LkAB9GH.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1jKCcE0YxRk_3JVjfPilAb_Wo9LkAB9GH.jpeg",
+      "sourceBytes": 8042,
+      "width": 300,
+      "height": 168,
+      "disposition": "gallery",
+      "galleryId": "riley-69",
+      "caption": "Metal panels during installation",
+      "alt": "Small reference photo of metal roof panels beside exposed roof decking",
+      "tags": [
+        "roofing",
+        "metal",
+        "materials",
+        "installation",
+        "panels"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 300,
+        "height": 168,
+        "variants": [
+          {
+            "src": "/media/client-gallery/metal-panels-during-installation-09f36df8d3-300.webp",
+            "width": 300,
+            "bytes": 11946,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 11946,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 70,
+      "driveId": "1kerZ81B-kO0yHnJieVYGxQCVpVxTcdNe",
+      "filename": "Designer Shingle .jpeg",
+      "url": "https://drive.google.com/file/d/1kerZ81B-kO0yHnJieVYGxQCVpVxTcdNe/view?usp=drivesdk",
+      "sha256": "6855f0f5f93f1d30451e5038316ae53fe3fc2ecc2e0075d80f59ddcc7e6926ce",
+      "sourcePath": "output/client-photos/riley-2026-10/1kerZ81B-kO0yHnJieVYGxQCVpVxTcdNe.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1kerZ81B-kO0yHnJieVYGxQCVpVxTcdNe.jpeg",
+      "sourceBytes": 82529,
+      "width": 500,
+      "height": 500,
+      "disposition": "gallery",
+      "galleryId": "riley-70",
+      "caption": "Designer shingle roof appearance",
+      "alt": "Reference photograph of a large home with a patterned designer shingle roof",
+      "tags": [
+        "roofing",
+        "materials",
+        "designer-shingles",
+        "exterior"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 500,
+        "height": 500,
+        "variants": [
+          {
+            "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-320.webp",
+            "width": 320,
+            "bytes": 35588,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-480.webp",
+            "width": 480,
+            "bytes": 75228,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-500.webp",
+            "width": 500,
+            "bytes": 83312,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 194128,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 71,
+      "driveId": "1Xwlr-9KG5FZLbiSGv1NWGkTmaYajgzr9",
+      "filename": "Spatter marks .jpeg",
+      "url": "https://drive.google.com/file/d/1Xwlr-9KG5FZLbiSGv1NWGkTmaYajgzr9/view?usp=drivesdk",
+      "sha256": "028a3accf5b1919fe31d6bbef092fe1a5bd9b8638ae149756ab5940bfc1f8ab2",
+      "sourcePath": "output/client-photos/riley-2026-10/1Xwlr-9KG5FZLbiSGv1NWGkTmaYajgzr9.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1Xwlr-9KG5FZLbiSGv1NWGkTmaYajgzr9.jpeg",
+      "sourceBytes": 144201,
+      "width": 576,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-71",
+      "caption": "A weathered roof surface",
+      "alt": "Weathered shingle roof surface with scattered marks and color variations",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "surface-marks"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 576,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-320.webp",
+            "width": 320,
+            "bytes": 56532,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-480.webp",
+            "width": 480,
+            "bytes": 131612,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-576.webp",
+            "width": 576,
+            "bytes": 172506,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 360650,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 72,
+      "driveId": "14K0jD-v-pfXrPv4WPAaLzeWTgoXdALau",
+      "filename": "1024x1024N.jpeg",
+      "url": "https://drive.google.com/file/d/14K0jD-v-pfXrPv4WPAaLzeWTgoXdALau/view?usp=drivesdk",
+      "sha256": "468e56ab8e230320f7bc1380a09e606f489c923033722d2f5b8649ae5b2d109a",
+      "sourcePath": "output/client-photos/riley-2026-10/14K0jD-v-pfXrPv4WPAaLzeWTgoXdALau.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/14K0jD-v-pfXrPv4WPAaLzeWTgoXdALau.jpeg",
+      "sourceBytes": 330592,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-72",
+      "caption": "Chalk-marked shingle creases",
+      "alt": "Close view of shingle creases marked with chalk",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "creases"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-320.webp",
+            "width": 320,
+            "bytes": 58962,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-480.webp",
+            "width": 480,
+            "bytes": 147400,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-554.webp",
+            "width": 554,
+            "bytes": 171236,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 377598,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 73,
+      "driveId": "1c0zhKW3G9odUmQBuaPYJ0rFd0yfDcl3H",
+      "filename": "20 YR 3 TAB WIND.jpeg",
+      "url": "https://drive.google.com/file/d/1c0zhKW3G9odUmQBuaPYJ0rFd0yfDcl3H/view?usp=drivesdk",
+      "sha256": "6b2ce8f74027274689fdbc1cbecb429e0a88f120d7a112096891288419516dc1",
+      "sourcePath": "output/client-photos/riley-2026-10/1c0zhKW3G9odUmQBuaPYJ0rFd0yfDcl3H.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1c0zhKW3G9odUmQBuaPYJ0rFd0yfDcl3H.jpeg",
+      "sourceBytes": 288558,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-73",
+      "caption": "Lifting a three-tab shingle for inspection",
+      "alt": "Gloved hand lifting a three-tab shingle beside a blue chalk mark",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "three-tab"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-320.webp",
+            "width": 320,
+            "bytes": 61984,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-480.webp",
+            "width": 480,
+            "bytes": 147228,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-554.webp",
+            "width": 554,
+            "bytes": 178562,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 387774,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 74,
+      "driveId": "144Gy6vojfo4CO7KgRF2kmYUEpu_DDbJN",
+      "filename": "Pulled fastner .jpeg",
+      "url": "https://drive.google.com/file/d/144Gy6vojfo4CO7KgRF2kmYUEpu_DDbJN/view?usp=drivesdk",
+      "sha256": "2b005ea914266fb10690ed1b9e2bf4834c57e83f898f784315c16e35221d024c",
+      "sourcePath": "output/client-photos/riley-2026-10/144Gy6vojfo4CO7KgRF2kmYUEpu_DDbJN.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/144Gy6vojfo4CO7KgRF2kmYUEpu_DDbJN.jpeg",
+      "sourceBytes": 216559,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-74",
+      "caption": "Inspecting the fastener area",
+      "alt": "Close-up of a lifted shingle tab and its fastener area",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "fasteners"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-320.webp",
+            "width": 320,
+            "bytes": 30954,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-480.webp",
+            "width": 480,
+            "bytes": 71360,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-800.webp",
+            "width": 800,
+            "bytes": 158084,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-870.webp",
+            "width": 870,
+            "bytes": 162236,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 422634,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 75,
+      "driveId": "1eOsdCpYldJFbhjCVNxdFm1qOuGfIP5nQ",
+      "filename": "tile.jpeg",
+      "url": "https://drive.google.com/file/d/1eOsdCpYldJFbhjCVNxdFm1qOuGfIP5nQ/view?usp=drivesdk",
+      "sha256": "a9d498dfb5d7e3c9a1da51177cbda1f329a51521b77e672cf1d0cc886ca11fae",
+      "sourcePath": "output/client-photos/riley-2026-10/1eOsdCpYldJFbhjCVNxdFm1qOuGfIP5nQ.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1eOsdCpYldJFbhjCVNxdFm1qOuGfIP5nQ.jpeg",
+      "sourceBytes": 1476940,
+      "width": 1600,
+      "height": 1023,
+      "disposition": "gallery",
+      "galleryId": "riley-75",
+      "caption": "Tile courses across a finished roof",
+      "alt": "Reference photograph of a home with a tiled roof",
+      "tags": [
+        "roofing",
+        "materials",
+        "tile",
+        "exterior"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1600,
+        "height": 1023,
+        "variants": [
+          {
+            "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-320.webp",
+            "width": 320,
+            "bytes": 21444,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-480.webp",
+            "width": 480,
+            "bytes": 45274,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-800.webp",
+            "width": 800,
+            "bytes": 117798,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-1280.webp",
+            "width": 1280,
+            "bytes": 179158,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 363674,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 76,
+      "driveId": "1RFxdKFCcjYbbc3brur9kInf1G41l10f0",
+      "filename": "tile_roof.jpeg",
+      "url": "https://drive.google.com/file/d/1RFxdKFCcjYbbc3brur9kInf1G41l10f0/view?usp=drivesdk",
+      "sha256": "1bc917fbe57593c499eb47f2d600b3f4c1716998d0c05c6a5dd92def318205ae",
+      "sourcePath": "output/client-photos/riley-2026-10/1RFxdKFCcjYbbc3brur9kInf1G41l10f0.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1RFxdKFCcjYbbc3brur9kInf1G41l10f0.jpeg",
+      "sourceBytes": 29167,
+      "width": 500,
+      "height": 333,
+      "disposition": "gallery",
+      "galleryId": "riley-76",
+      "caption": "Placing roof tiles",
+      "alt": "Reference photograph of a worker placing red roof tiles",
+      "tags": [
+        "roofing",
+        "materials",
+        "tile",
+        "installation"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 500,
+        "height": 333,
+        "variants": [
+          {
+            "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-320.webp",
+            "width": 320,
+            "bytes": 13142,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-480.webp",
+            "width": 480,
+            "bytes": 23940,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-500.webp",
+            "width": 500,
+            "bytes": 25362,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 62444,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 77,
+      "driveId": "1YNHmvWCRj10VPFmh0SEQfzVboYESkYQG",
+      "filename": "22, 11_33_01 AM.jpeg",
+      "url": "https://drive.google.com/file/d/1YNHmvWCRj10VPFmh0SEQfzVboYESkYQG/view?usp=drivesdk",
+      "sha256": "734928d65f152b98a73be5adc8270a2b3d4ce3fb2a2559ba2d158a3b4ea392b7",
+      "sourcePath": "output/client-photos/riley-2026-10/1YNHmvWCRj10VPFmh0SEQfzVboYESkYQG.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1YNHmvWCRj10VPFmh0SEQfzVboYESkYQG.jpeg",
+      "sourceBytes": 116957,
+      "width": 960,
+      "height": 640,
+      "disposition": "gallery",
+      "galleryId": "riley-77",
+      "caption": "Slate across an intricate roofline",
+      "alt": "Reference photograph of a decorative slate roof with a turret",
+      "tags": [
+        "roofing",
+        "materials",
+        "slate",
+        "turret"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 960,
+        "height": 640,
+        "variants": [
+          {
+            "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-320.webp",
+            "width": 320,
+            "bytes": 17590,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-480.webp",
+            "width": 480,
+            "bytes": 37242,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-800.webp",
+            "width": 800,
+            "bytes": 95626,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-960.webp",
+            "width": 960,
+            "bytes": 138026,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 288484,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 78,
+      "driveId": "1Q7jA6-3xGlbVL-V3vwZ1pPUiRVbxJZVm",
+      "filename": "Slate roof.jpeg",
+      "url": "https://drive.google.com/file/d/1Q7jA6-3xGlbVL-V3vwZ1pPUiRVbxJZVm/view?usp=drivesdk",
+      "sha256": "d7bbf7bd0726217bcb7ffd84920cc2228b59948427c735a72ccb57dff08bf603",
+      "sourcePath": "output/client-photos/riley-2026-10/1Q7jA6-3xGlbVL-V3vwZ1pPUiRVbxJZVm.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1Q7jA6-3xGlbVL-V3vwZ1pPUiRVbxJZVm.jpeg",
+      "sourceBytes": 540005,
+      "width": 2119,
+      "height": 1192,
+      "disposition": "gallery",
+      "galleryId": "riley-78",
+      "caption": "Slate texture and overlapping courses",
+      "alt": "Reference photograph of overlapping slate roof tiles",
+      "tags": [
+        "roofing",
+        "materials",
+        "slate",
+        "texture"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 2119,
+        "height": 1192,
+        "variants": [
+          {
+            "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-320.webp",
+            "width": 320,
+            "bytes": 17332,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-480.webp",
+            "width": 480,
+            "bytes": 38598,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-800.webp",
+            "width": 800,
+            "bytes": 107510,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-1280.webp",
+            "width": 1280,
+            "bytes": 169056,
+            "quality": 74
+          }
+        ],
+        "totalBytes": 332496,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 79,
+      "driveId": "1OS-6p7e514XpwMu85taDMv_Jr4v6Zm-b",
+      "filename": "roll.roofing.jpeg",
+      "url": "https://drive.google.com/file/d/1OS-6p7e514XpwMu85taDMv_Jr4v6Zm-b/view?usp=drivesdk",
+      "sha256": "f9d15e7a4f684097cbc47a8491cd7acfc9ac402a72790f743626ac855418a46f",
+      "sourcePath": "output/client-photos/riley-2026-10/1OS-6p7e514XpwMu85taDMv_Jr4v6Zm-b.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1OS-6p7e514XpwMu85taDMv_Jr4v6Zm-b.jpeg",
+      "sourceBytes": 136865,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-79",
+      "caption": "Roll roofing beside a shingle slope",
+      "alt": "Reference photograph of a roll-roofing transition beside shingles and a worker",
+      "tags": [
+        "roofing",
+        "commercial-roofing",
+        "materials",
+        "roll-roofing",
+        "transitions"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-320.webp",
+            "width": 320,
+            "bytes": 15546,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-480.webp",
+            "width": 480,
+            "bytes": 41168,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-800.webp",
+            "width": 800,
+            "bytes": 111498,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-1024.webp",
+            "width": 1024,
+            "bytes": 163838,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 332050,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 80,
+      "driveId": "1s2BrKMU8QGERfhCF-gzbdL1SG5JI--lL",
+      "filename": "Rolled roofing.jpeg",
+      "url": "https://drive.google.com/file/d/1s2BrKMU8QGERfhCF-gzbdL1SG5JI--lL/view?usp=drivesdk",
+      "sha256": "47035656e44ed1910d973bda438987d5df124870eecad7434cb412f78f3f329a",
+      "sourcePath": "output/client-photos/riley-2026-10/1s2BrKMU8QGERfhCF-gzbdL1SG5JI--lL.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1s2BrKMU8QGERfhCF-gzbdL1SG5JI--lL.jpeg",
+      "sourceBytes": 247794,
+      "width": 1088,
+      "height": 605,
+      "disposition": "gallery",
+      "galleryId": "riley-80",
+      "caption": "A low-slope roof beside solar panels",
+      "alt": "Reference photograph of a low-slope roll-roofing surface beside solar panels",
+      "tags": [
+        "roofing",
+        "commercial-roofing",
+        "materials",
+        "roll-roofing",
+        "solar-panels"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1088,
+        "height": 605,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-320.webp",
+            "width": 320,
+            "bytes": 12304,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-480.webp",
+            "width": 480,
+            "bytes": 31082,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-800.webp",
+            "width": 800,
+            "bytes": 102598,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-1088.webp",
+            "width": 1088,
+            "bytes": 168006,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 313990,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 81,
+      "driveId": "1UqTVnRdKTDgVceKv2ls6P_C1kTJfb0vI",
+      "filename": "EPDM 2.jpeg",
+      "url": "https://drive.google.com/file/d/1UqTVnRdKTDgVceKv2ls6P_C1kTJfb0vI/view?usp=drivesdk",
+      "sha256": "079fe54dc58c3321a9e45dd43175496e9148879b049454f6791f2387c0203401",
+      "sourcePath": "output/client-photos/riley-2026-10/1UqTVnRdKTDgVceKv2ls6P_C1kTJfb0vI.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1UqTVnRdKTDgVceKv2ls6P_C1kTJfb0vI.jpeg",
+      "sourceBytes": 99436,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-81",
+      "caption": "Membrane roofing and parapets",
+      "alt": "Reference photograph of a low-slope membrane roof surrounded by parapets",
+      "tags": [
+        "commercial-roofing",
+        "materials",
+        "epdm",
+        "membrane",
+        "parapets"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-320.webp",
+            "width": 320,
+            "bytes": 14782,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-480.webp",
+            "width": 480,
+            "bytes": 30792,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-800.webp",
+            "width": 800,
+            "bytes": 69424,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-1024.webp",
+            "width": 1024,
+            "bytes": 99242,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 214240,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 82,
+      "driveId": "1e65IDS4gr_WYL0uRwr4t13xptF0NJUK-",
+      "filename": "EPDM ROOF.jpeg",
+      "url": "https://drive.google.com/file/d/1e65IDS4gr_WYL0uRwr4t13xptF0NJUK-/view?usp=drivesdk",
+      "sha256": "e1ac16c27bf6d2f57838d9b929e66e270f83e85b5b66d2251e0f03dc89e6be58",
+      "sourcePath": "output/client-photos/riley-2026-10/1e65IDS4gr_WYL0uRwr4t13xptF0NJUK-.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1e65IDS4gr_WYL0uRwr4t13xptF0NJUK-.jpeg",
+      "sourceBytes": 93430,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-82",
+      "caption": "Membrane seams and rooftop vents",
+      "alt": "Reference photograph of membrane seams, patches and rooftop vents",
+      "tags": [
+        "commercial-roofing",
+        "inspection",
+        "membrane",
+        "seams",
+        "ventilation"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Commercial roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-320.webp",
+            "width": 320,
+            "bytes": 19190,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-480.webp",
+            "width": 480,
+            "bytes": 42060,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-768.webp",
+            "width": 768,
+            "bytes": 95750,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 157000,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 83,
+      "driveId": "1ZIKBRyfDpvRpxhuulnhWjuYNtXq-6ho0",
+      "filename": "1024x1024.jpeg",
+      "url": "https://drive.google.com/file/d/1ZIKBRyfDpvRpxhuulnhWjuYNtXq-6ho0/view?usp=drivesdk",
+      "sha256": "9e31c1b0eda4ee8c8919564598b9baf4c030c5961dbf2eddccc001fa35be971b",
+      "sourcePath": "output/client-photos/riley-2026-10/1ZIKBRyfDpvRpxhuulnhWjuYNtXq-6ho0.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1ZIKBRyfDpvRpxhuulnhWjuYNtXq-6ho0.jpeg",
+      "sourceBytes": 223933,
+      "width": 768,
+      "height": 1024,
+      "disposition": "gallery",
+      "galleryId": "riley-83",
+      "caption": "Three-tab shingles and roof vents",
+      "alt": "Reference photograph of a brown three-tab shingle roof with several vents",
+      "tags": [
+        "roofing",
+        "materials",
+        "three-tab",
+        "ventilation"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 768,
+        "height": 1024,
+        "variants": [
+          {
+            "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-320.webp",
+            "width": 320,
+            "bytes": 50170,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-480.webp",
+            "width": 480,
+            "bytes": 117038,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-652.webp",
+            "width": 652,
+            "bytes": 171716,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 338924,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 84,
+      "driveId": "1Bp9zhoz6DAxcvo8tg3cctVcVmbYjV-1U",
+      "filename": "Minneapolis-wood-shake-roof-repair-contractor-1024x682.jpeg",
+      "url": "https://drive.google.com/file/d/1Bp9zhoz6DAxcvo8tg3cctVcVmbYjV-1U/view?usp=drivesdk",
+      "sha256": "76178267dfe8a84d9bd9902f7206eecfc1022416c69775a5c3c531ba60c20538",
+      "sourcePath": "output/client-photos/riley-2026-10/1Bp9zhoz6DAxcvo8tg3cctVcVmbYjV-1U.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1Bp9zhoz6DAxcvo8tg3cctVcVmbYjV-1U.jpeg",
+      "sourceBytes": 262108,
+      "width": 1024,
+      "height": 682,
+      "disposition": "gallery",
+      "galleryId": "riley-84",
+      "caption": "Weathered wood-shake roof courses",
+      "alt": "Reference photograph of a weathered wood-shake roof with roof vents",
+      "tags": [
+        "roofing",
+        "materials",
+        "wood-shake",
+        "ventilation"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1024,
+        "height": 682,
+        "variants": [
+          {
+            "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-320.webp",
+            "width": 320,
+            "bytes": 26124,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-480.webp",
+            "width": 480,
+            "bytes": 51584,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-800.webp",
+            "width": 800,
+            "bytes": 116744,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-1024.webp",
+            "width": 1024,
+            "bytes": 156472,
+            "quality": 82
+          }
+        ],
+        "totalBytes": 350924,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 85,
+      "driveId": "1a2dqAlE8QuFOydqg_RIMXFEfLowe76ZI",
+      "filename": "Cedar Shake.jpeg",
+      "url": "https://drive.google.com/file/d/1a2dqAlE8QuFOydqg_RIMXFEfLowe76ZI/view?usp=drivesdk",
+      "sha256": "80dfecf1a4f28edd7ca87e9832dcdd8b24632834ddf213dc543c567e7f0298bf",
+      "sourcePath": "output/client-photos/riley-2026-10/1a2dqAlE8QuFOydqg_RIMXFEfLowe76ZI.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1a2dqAlE8QuFOydqg_RIMXFEfLowe76ZI.jpeg",
+      "sourceBytes": 194728,
+      "width": 1000,
+      "height": 750,
+      "disposition": "gallery",
+      "galleryId": "riley-85",
+      "caption": "Cedar shake texture",
+      "alt": "Reference photograph showing overlapping cedar shake roofing",
+      "tags": [
+        "roofing",
+        "materials",
+        "cedar-shake",
+        "texture"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1000,
+        "height": 750,
+        "variants": [
+          {
+            "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-320.webp",
+            "width": 320,
+            "bytes": 23238,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-480.webp",
+            "width": 480,
+            "bytes": 45724,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-800.webp",
+            "width": 800,
+            "bytes": 102972,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-1000.webp",
+            "width": 1000,
+            "bytes": 147684,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 319618,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 86,
+      "driveId": "16QYbmDJ2-ULhtLEz7TyrZjM9LtKiIm66",
+      "filename": "Organic 3 tab.jpeg",
+      "url": "https://drive.google.com/file/d/16QYbmDJ2-ULhtLEz7TyrZjM9LtKiIm66/view?usp=drivesdk",
+      "sha256": "9b5f379b313d90c5705814afb6b0ee61ec563714ab8a521dcee0bd552ece5873",
+      "sourcePath": "output/client-photos/riley-2026-10/16QYbmDJ2-ULhtLEz7TyrZjM9LtKiIm66.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/16QYbmDJ2-ULhtLEz7TyrZjM9LtKiIm66.jpeg",
+      "sourceBytes": 47447,
+      "width": 600,
+      "height": 398,
+      "disposition": "gallery",
+      "galleryId": "riley-86",
+      "caption": "Curling shingle edges",
+      "alt": "Reference photograph of a shingle roof with curled edges and visible deterioration",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "curling",
+        "deterioration"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 600,
+        "height": 398,
+        "variants": [
+          {
+            "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-320.webp",
+            "width": 320,
+            "bytes": 25338,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-480.webp",
+            "width": 480,
+            "bytes": 44792,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-600.webp",
+            "width": 600,
+            "bytes": 57836,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 127966,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 87,
+      "driveId": "1wgS2KRNgXLHlch7N4lB6bF95gF1YQo3V",
+      "filename": "Organic Shingles.jpeg",
+      "url": "https://drive.google.com/file/d/1wgS2KRNgXLHlch7N4lB6bF95gF1YQo3V/view?usp=drivesdk",
+      "sha256": "289615a5c5d42de65891aa0591cfd2b46eb53d8b7526d5beb6d13102b4fae9ec",
+      "sourcePath": "output/client-photos/riley-2026-10/1wgS2KRNgXLHlch7N4lB6bF95gF1YQo3V.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1wgS2KRNgXLHlch7N4lB6bF95gF1YQo3V.jpeg",
+      "sourceBytes": 41959,
+      "width": 448,
+      "height": 336,
+      "disposition": "gallery",
+      "galleryId": "riley-87",
+      "caption": "Severely curled roof shingles",
+      "alt": "Close-up reference photograph of curled and deteriorated shingles",
+      "tags": [
+        "roofing",
+        "inspection",
+        "shingles",
+        "curling",
+        "deterioration"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 448,
+        "height": 336,
+        "variants": [
+          {
+            "src": "/media/client-gallery/severely-curled-roof-shingles-ae09af281a-320.webp",
+            "width": 320,
+            "bytes": 27740,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/severely-curled-roof-shingles-ae09af281a-448.webp",
+            "width": 448,
+            "bytes": 51970,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 79710,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 88,
+      "driveId": "1AdjTB7Nw-itMQEotoPdXrc_Ddbj0m30d",
+      "filename": "3 tab.jpeg",
+      "url": "https://drive.google.com/file/d/1AdjTB7Nw-itMQEotoPdXrc_Ddbj0m30d/view?usp=drivesdk",
+      "sha256": "95cad262da6e2bc74226e3df0a1915e756feba0ed64bee6c9770e9eeaa52a153",
+      "sourcePath": "output/client-photos/riley-2026-10/1AdjTB7Nw-itMQEotoPdXrc_Ddbj0m30d.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1AdjTB7Nw-itMQEotoPdXrc_Ddbj0m30d.jpeg",
+      "sourceBytes": 237583,
+      "width": 768,
+      "height": 1024,
+      "disposition": "duplicate",
+      "duplicateOf": "1ZIKBRyfDpvRpxhuulnhWjuYNtXq-6ho0",
+      "reason": "Alternate crop of the same three-tab roof photograph",
+      "galleryId": "riley-83",
+      "caption": "Three-tab shingles and roof vents",
+      "alt": "Reference photograph of a brown three-tab shingle roof with several vents",
+      "tags": [
+        "roofing",
+        "materials",
+        "three-tab",
+        "ventilation"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50
+    },
+    {
+      "index": 89,
+      "driveId": "1NVniNBbcxDT1seQtrg9jmjHzuR_ORrEH",
+      "filename": "30 year shingle.jpeg",
+      "url": "https://drive.google.com/file/d/1NVniNBbcxDT1seQtrg9jmjHzuR_ORrEH/view?usp=drivesdk",
+      "sha256": "8b63d47e589d2319500a42a5eede55e4313e1d866476512e3fdfeda1841199f4",
+      "sourcePath": "output/client-photos/riley-2026-10/1NVniNBbcxDT1seQtrg9jmjHzuR_ORrEH.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1NVniNBbcxDT1seQtrg9jmjHzuR_ORrEH.jpeg",
+      "sourceBytes": 224039,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-89",
+      "caption": "Architectural shingles across a roof slope",
+      "alt": "Reference photograph of an architectural shingle roof with a worker near the edge",
+      "tags": [
+        "roofing",
+        "materials",
+        "architectural-shingles"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-320.webp",
+            "width": 320,
+            "bytes": 24082,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-480.webp",
+            "width": 480,
+            "bytes": 60198,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-800.webp",
+            "width": 800,
+            "bytes": 160212,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-870.webp",
+            "width": 870,
+            "bytes": 170200,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 414692,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 90,
+      "driveId": "1U6Mc-jxN_LKXEwqQTxFJs4mZ2s4Qq89F",
+      "filename": "Wind damage 30 yr.jpeg",
+      "url": "https://drive.google.com/file/d/1U6Mc-jxN_LKXEwqQTxFJs4mZ2s4Qq89F/view?usp=drivesdk",
+      "sha256": "964a2dc0667d8db219e97eeefb88a0a2750cae15a34ab6ed214a2e6e6dc6b537",
+      "sourcePath": "output/client-photos/riley-2026-10/1U6Mc-jxN_LKXEwqQTxFJs4mZ2s4Qq89F.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1U6Mc-jxN_LKXEwqQTxFJs4mZ2s4Qq89F.jpeg",
+      "sourceBytes": 299188,
+      "width": 768,
+      "height": 1024,
+      "disposition": "duplicate",
+      "duplicateOf": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "reason": "Exact byte duplicate",
+      "galleryId": "riley-30",
+      "caption": "Inspecting a creased shingle tab",
+      "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "creases"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40
+    },
+    {
+      "index": 91,
+      "driveId": "104Yog1CwAGkBpfmAFztXjScnqjg_U5UP",
+      "filename": "Pull throughs.jpeg",
+      "url": "https://drive.google.com/file/d/104Yog1CwAGkBpfmAFztXjScnqjg_U5UP/view?usp=drivesdk",
+      "sha256": "29e1b74dde3bee1940a318e415d4e796779833d17ce74c8f924de213c60ca5c2",
+      "sourcePath": "output/client-photos/riley-2026-10/104Yog1CwAGkBpfmAFztXjScnqjg_U5UP.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/104Yog1CwAGkBpfmAFztXjScnqjg_U5UP.jpeg",
+      "sourceBytes": 232553,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-91",
+      "caption": "A lifted tab at the fastening point",
+      "alt": "Close-up of a lifted shingle tab and a hole at the fastening area",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "fasteners"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-320.webp",
+            "width": 320,
+            "bytes": 34298,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-480.webp",
+            "width": 480,
+            "bytes": 79602,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-800.webp",
+            "width": 800,
+            "bytes": 174756,
+            "quality": 82
+          },
+          {
+            "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-870.webp",
+            "width": 870,
+            "bytes": 179634,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 468290,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 92,
+      "driveId": "1xpdrJSYPpNG6aB8uLdwP3zF_QOv74cmC",
+      "filename": "Pull throughs 2.jpeg",
+      "url": "https://drive.google.com/file/d/1xpdrJSYPpNG6aB8uLdwP3zF_QOv74cmC/view?usp=drivesdk",
+      "sha256": "84db66cd6093c38918bf053fea8e323fd84a64d84b411811b7e261e6979c9432",
+      "sourcePath": "output/client-photos/riley-2026-10/1xpdrJSYPpNG6aB8uLdwP3zF_QOv74cmC.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1xpdrJSYPpNG6aB8uLdwP3zF_QOv74cmC.jpeg",
+      "sourceBytes": 5343,
+      "width": 150,
+      "height": 113,
+      "disposition": "duplicate",
+      "duplicateOf": "104Yog1CwAGkBpfmAFztXjScnqjg_U5UP",
+      "reason": "150-pixel thumbnail of the same fastener photograph",
+      "galleryId": "riley-91",
+      "caption": "A lifted tab at the fastening point",
+      "alt": "Close-up of a lifted shingle tab and a hole at the fastening area",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "fasteners"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40
+    },
+    {
+      "index": 93,
+      "driveId": "1LS5RdRWqm5qKhE4JhsUrCoq_2WDZSBET",
+      "filename": "Pulled Fastner.jpeg",
+      "url": "https://drive.google.com/file/d/1LS5RdRWqm5qKhE4JhsUrCoq_2WDZSBET/view?usp=drivesdk",
+      "sha256": "52a7ef2effa5eb2df3d820e0a313e2350ac5a77d64d691767d468d12b891e512",
+      "sourcePath": "output/client-photos/riley-2026-10/1LS5RdRWqm5qKhE4JhsUrCoq_2WDZSBET.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1LS5RdRWqm5qKhE4JhsUrCoq_2WDZSBET.jpeg",
+      "sourceBytes": 183023,
+      "width": 1024,
+      "height": 768,
+      "disposition": "gallery",
+      "galleryId": "riley-93",
+      "caption": "Fastener inspection beneath a shingle",
+      "alt": "Gloved hand lifting a shingle tab to show the fastening area beneath",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "shingles",
+        "fasteners"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 1024,
+        "height": 768,
+        "variants": [
+          {
+            "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-320.webp",
+            "width": 320,
+            "bytes": 25932,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-480.webp",
+            "width": 480,
+            "bytes": 61084,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-800.webp",
+            "width": 800,
+            "bytes": 153878,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp",
+            "width": 1024,
+            "bytes": 174794,
+            "quality": 78
+          }
+        ],
+        "totalBytes": 415688,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 94,
+      "driveId": "1jhwktKKWxj6EQrIbRo9HnCc3FVVFJHPZ",
+      "filename": "HVAC Photo.jpeg",
+      "url": "https://drive.google.com/file/d/1jhwktKKWxj6EQrIbRo9HnCc3FVVFJHPZ/view?usp=drivesdk",
+      "sha256": "2257144b51a338d8872f53c61af608669829ecbc9b271d085326914c68cb38ae",
+      "sourcePath": "output/client-photos/riley-2026-10/1jhwktKKWxj6EQrIbRo9HnCc3FVVFJHPZ.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1jhwktKKWxj6EQrIbRo9HnCc3FVVFJHPZ.jpeg",
+      "sourceBytes": 8699,
+      "width": 275,
+      "height": 183,
+      "disposition": "gallery",
+      "galleryId": "riley-94",
+      "caption": "An exhaust vent at the roof surface",
+      "alt": "Small reference photograph of an exhaust vent on a roof",
+      "tags": [
+        "roofing",
+        "materials",
+        "ventilation",
+        "exhaust-vent"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 275,
+        "height": 183,
+        "variants": [
+          {
+            "src": "/media/client-gallery/an-exhaust-vent-at-the-roof-surface-4be266a956-275.webp",
+            "width": 275,
+            "bytes": 12682,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 12682,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 95,
+      "driveId": "1AlUYyAYZOwQbhEYQqDehmcCfVI7utTsY",
+      "filename": "HVAC Photos.jpeg",
+      "url": "https://drive.google.com/file/d/1AlUYyAYZOwQbhEYQqDehmcCfVI7utTsY/view?usp=drivesdk",
+      "sha256": "8fd180a2e1607aa98834b56b376f3369d90fabb8366bb37e11d3f68d2b43db52",
+      "sourcePath": "output/client-photos/riley-2026-10/1AlUYyAYZOwQbhEYQqDehmcCfVI7utTsY.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1AlUYyAYZOwQbhEYQqDehmcCfVI7utTsY.jpeg",
+      "sourceBytes": 10442,
+      "width": 316,
+      "height": 160,
+      "disposition": "gallery",
+      "galleryId": "riley-95",
+      "caption": "Several roof ventilation outlets",
+      "alt": "Small reference photograph of ventilation outlets above a roof surface",
+      "tags": [
+        "roofing",
+        "materials",
+        "ventilation",
+        "roof-vents"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 316,
+        "height": 160,
+        "variants": [
+          {
+            "src": "/media/client-gallery/several-roof-ventilation-outlets-8f34254a7e-316.webp",
+            "width": 316,
+            "bytes": 16610,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 16610,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 96,
+      "driveId": "10zfCuoExwHDm6yYM6Hn9epzWPWht-WvF",
+      "filename": "Skylight hail damage .jpeg",
+      "url": "https://drive.google.com/file/d/10zfCuoExwHDm6yYM6Hn9epzWPWht-WvF/view?usp=drivesdk",
+      "sha256": "ccd00a80541ed6e5b0a0d51500e82add751fae4b4e8f5fe96c68acd3fe611ecd",
+      "sourcePath": "output/client-photos/riley-2026-10/10zfCuoExwHDm6yYM6Hn9epzWPWht-WvF.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/10zfCuoExwHDm6yYM6Hn9epzWPWht-WvF.jpeg",
+      "sourceBytes": 195238,
+      "width": 686,
+      "height": 503,
+      "disposition": "gallery",
+      "galleryId": "riley-96",
+      "caption": "Dents around a skylight curb",
+      "alt": "Reference photograph of dents visible in metal flashing around a skylight curb",
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "inspection",
+        "skylights",
+        "flashing",
+        "dents"
+      ],
+      "kind": "inspection",
+      "sourceLabel": "Inspection reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 40,
+      "optimization": {
+        "width": 686,
+        "height": 503,
+        "variants": [
+          {
+            "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-320.webp",
+            "width": 320,
+            "bytes": 25168,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-480.webp",
+            "width": 480,
+            "bytes": 52296,
+            "quality": 86
+          },
+          {
+            "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-686.webp",
+            "width": 686,
+            "bytes": 95662,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 173126,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    },
+    {
+      "index": 97,
+      "driveId": "1O0Id3tq7pW8ombR9cP4PMQwu0jopduf4",
+      "filename": "Skylight Photo.jpeg",
+      "url": "https://drive.google.com/file/d/1O0Id3tq7pW8ombR9cP4PMQwu0jopduf4/view?usp=drivesdk",
+      "sha256": "73bd14d912ee88d3595a78429d64faaec7c18d3aa792b58d7234ebf1c6936416",
+      "sourcePath": "output/client-photos/riley-2026-10/1O0Id3tq7pW8ombR9cP4PMQwu0jopduf4.jpeg",
+      "originalPath": "output/client-photos/riley-2026-10/1O0Id3tq7pW8ombR9cP4PMQwu0jopduf4.jpeg",
+      "sourceBytes": 10219,
+      "width": 275,
+      "height": 183,
+      "disposition": "gallery",
+      "galleryId": "riley-97",
+      "caption": "An open skylight on a tile roof",
+      "alt": "Small reference photograph of an open skylight surrounded by roof tiles",
+      "tags": [
+        "roofing",
+        "materials",
+        "skylights",
+        "tile"
+      ],
+      "kind": "reference",
+      "sourceLabel": "Material & service reference",
+      "category": "Roofing",
+      "contain": true,
+      "sort": 50,
+      "optimization": {
+        "width": 275,
+        "height": 183,
+        "variants": [
+          {
+            "src": "/media/client-gallery/an-open-skylight-on-a-tile-roof-bcc2556adc-275.webp",
+            "width": 275,
+            "bytes": 13446,
+            "quality": 86
+          }
+        ],
+        "totalBytes": 13446,
+        "metadataRemoved": true,
+        "sourceFormat": "jpeg"
+      }
+    }
+  ],
+  "summary": {
+    "imageFiles": 98,
+    "uniquePhotographs": 77,
+    "duplicateFiles": 9,
+    "nonPhotographicFiles": 12,
+    "retainedExistingPhotos": 26,
+    "totalGalleryPhotos": 103,
+    "newVariantFiles": 265,
+    "sourceBytes": 36368650,
+    "optimizedBytes": 21519440,
+    "largestVariantBytes": 179848,
+    "lowResolutionPhotos": 27
+  },
+  "verification": {
+    "date": "2026-10-29",
+    "status": "local checks passed; client visual review required",
+    "fullSite": "npm run verify passed; zero errors, one existing ReviewCollection.svelte warning",
+    "finalBuild": "Build plus gallery, homepage and Schema.org checks passed after caption refinements",
+    "browser": [
+      {
+        "width": 1440,
+        "visibleCards": 4,
+        "initialGalleryImageRequests": 4,
+        "smallOriginal": {
+          "rendered": 275,
+          "natural": 275,
+          "fit": "contain"
+        },
+        "errors": []
+      },
+      {
+        "width": 390,
+        "visibleCards": 2,
+        "initialGalleryImageRequests": 2,
+        "smallOriginal": {
+          "rendered": 275,
+          "natural": 275,
+          "fit": "contain"
+        },
+        "errors": []
+      },
+      {
+        "width": 320,
+        "visibleCards": 2,
+        "initialGalleryImageRequests": 2,
+        "smallOriginal": {
+          "rendered": 275,
+          "natural": 275,
+          "fit": "contain"
+        },
+        "errors": []
+      }
+    ],
+    "javaScriptDisabledPhotoLinks": 103,
+    "serviceRoutesChecked": [
+      "/roofing/",
+      "/commercial-roofing/",
+      "/siding/",
+      "/windows/",
+      "/exterior-painting/",
+      "/cleveland-oh/"
+    ],
+    "privateSourceIdsAbsentFromPublicGallery": true,
+    "publication": "Not committed, pushed or deployed"
+  }
+}

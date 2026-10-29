@@ -1,0 +1,2979 @@
+{
+  "batch": "03",
+  "date": "2026-10-21",
+  "status": "Revised and visually checked; ready for local review",
+  "pages": [
+    {
+      "route": "/commercial-roofing/",
+      "service": "Commercial roofing",
+      "beforeH2": 10,
+      "beforeCoreHeadings": [
+        "Decide from the condition of the assembly",
+        "Work around the building's operations",
+        "Keep records that are useful after the job"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Choose the commercial service you need"
+        },
+        {
+          "level": 3,
+          "text": "Address external drainage"
+        },
+        {
+          "level": 3,
+          "text": "Repair an identified problem"
+        },
+        {
+          "level": 3,
+          "text": "Plan replacement"
+        },
+        {
+          "level": 3,
+          "text": "Understand the existing system"
+        },
+        {
+          "level": 3,
+          "text": "Looking for residential roofing?"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Decide from the condition of the assembly"
+        },
+        {
+          "level": 2,
+          "text": "Work around the building's operations"
+        },
+        {
+          "level": 2,
+          "text": "Keep records that are useful after the job"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof surfaces and details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the building and the roof together"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Commercial roof repair, replacement or recover: assessing the assembly",
+        "Planning commercial roof work around building operations",
+        "Commercial roofing estimates, completion records and future maintenance"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-18-3",
+          "heading": "Keeping entrances, deliveries and staging areas coordinated",
+          "topics": [
+            "Keeping entrances, deliveries and staging areas coordinated"
+          ],
+          "image": "/media/service-review-01/commercial-access-planning-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-18-3",
+          "heading": "Coordinating rooftop equipment and service access",
+          "topics": [
+            "Coordinating rooftop equipment and service access"
+          ],
+          "image": "/media/service-review-03/commercial-roof-walkway-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-18-3",
+          "heading": "Phasing removal and weather protection",
+          "topics": [
+            "Phasing removal and weather protection"
+          ],
+          "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing services for Columbus properties"
+        },
+        {
+          "level": 3,
+          "text": "Commercial gutters and external drainage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof leak repairs"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof replacement"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof systems and materials"
+        },
+        {
+          "level": 3,
+          "text": "Looking for residential roofing?"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to your commercial roof or drainage?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof materials and installation"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof repair, replacement or recover: assessing the assembly"
+        },
+        {
+          "level": 2,
+          "text": "Planning commercial roof work around building operations"
+        },
+        {
+          "level": 3,
+          "text": "Keeping entrances, deliveries and staging areas coordinated"
+        },
+        {
+          "level": 3,
+          "text": "Coordinating rooftop equipment and service access"
+        },
+        {
+          "level": 3,
+          "text": "Phasing removal and weather protection"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing estimates, completion records and future maintenance"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the roof at your Columbus commercial property"
+        }
+      ],
+      "afterH2": 9,
+      "afterH3": 20,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 3,
+      "retainedParagraphHashes": [
+        "89e0327c1b33a15a1c0ba667afbc0304e1b3b9b1ed42d0db27f1cf9a02febf2a",
+        "080931d9a8ccb8e501e5ac0011751ca4bc9a01d9de499818197fecd64b0501f9",
+        "0d6a892270a123d8e2ea59a2a6a327a729a1f82f0b8b48e76daebe299301422a"
+      ]
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "service": "Commercial gutter",
+      "beforeH2": 13,
+      "beforeCoreHeadings": [
+        "Plan the full route from roof to discharge",
+        "Separate external gutters from other roof drainage",
+        "Choose materials and details for the building",
+        "Coordinate installation with the property contact",
+        "Plan for inspection and upkeep"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Gutters in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Identify the source of the drainage problem"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Plan the full route from roof to discharge"
+        },
+        {
+          "level": 3,
+          "text": "Roof edge and collection areas"
+        },
+        {
+          "level": 3,
+          "text": "Outlets and downspouts"
+        },
+        {
+          "level": 3,
+          "text": "Attachments and supporting construction"
+        },
+        {
+          "level": 2,
+          "text": "Separate external gutters from other roof drainage"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Choose materials and details for the building"
+        },
+        {
+          "level": 2,
+          "text": "Coordinate installation with the property contact"
+        },
+        {
+          "level": 2,
+          "text": "Plan for inspection and upkeep"
+        },
+        {
+          "level": 2,
+          "text": "Included in Gutter Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Gutter and drainage articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter questions"
+        },
+        {
+          "level": 2,
+          "text": "Request a commercial drainage assessment"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Commercial gutter layout: collection, discharge and attachment",
+        "External gutters, scuppers and internal drains have different roles",
+        "Commercial gutter profiles, materials and connection details",
+        "Commercial gutter installation access and written estimate",
+        "Gutter inspection, cleaning access and protection products"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-19-2",
+          "heading": "Roof edge and collection areas",
+          "topics": [
+            "Roof edge and collection areas"
+          ],
+          "image": "/media/service-review-03/commercial-gutter-run-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-19-2",
+          "heading": "Outlets and downspouts",
+          "topics": [
+            "Outlets and downspouts"
+          ],
+          "image": "/media/gutter-details/downspout-discharge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-19-2",
+          "heading": "Attachments and supporting construction",
+          "topics": [
+            "Attachments and supporting construction"
+          ],
+          "image": "/media/service-review-03/commercial-gutter-support-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial gutters in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter overflow: tracing the drainage problem"
+        },
+        {
+          "level": 3,
+          "text": "Gutter runs, outlets and the route beyond the building"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial gutter materials and attachment"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter layout: collection, discharge and attachment"
+        },
+        {
+          "level": 3,
+          "text": "Roof edge and collection areas"
+        },
+        {
+          "level": 3,
+          "text": "Outlets and downspouts"
+        },
+        {
+          "level": 3,
+          "text": "Attachments and supporting construction"
+        },
+        {
+          "level": 2,
+          "text": "External gutters, scuppers and internal drains have different roles"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter profiles, materials and connection details"
+        },
+        {
+          "level": 2,
+          "text": "Gutter inspection, cleaning access and protection products"
+        },
+        {
+          "level": 3,
+          "text": "Gutter protection manufacturers and product suitability"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter installation access and written estimate"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Gutter and drainage articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 2,
+          "text": "Commercial gutter questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan gutter and downspout work for your building"
+        }
+      ],
+      "afterH2": 11,
+      "afterH3": 14,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "ebaddfa88288cfa2fa1c6e138700ed5a3bff3fe181e99363bd102605e06fa86d",
+        "67b6f0881d8b67915f6fe9362de80cb801d201a09685ffc4cb2717173ffd9e8e",
+        "85675fbe4ca3e31429b74a4be159ef4ac4e08f3dcff012cb9280000906ac3728",
+        "20e791a3284983b287aa51e0010a6d98c44fc4dc55abbb6d4406fe713adad398",
+        "096dfc645aaa869579233a676db6b8a01224eaac3eef48c4b432612e2fa014de",
+        "bca9698a7488fc1d9e012b2093e617b72169bd13143d543793f8cb67331d7694",
+        "976ac41eadd56bc8c896dd1234b27517b3a3907b6ad19952183b3b5ff3727b97"
+      ]
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "service": "Commercial roof repair",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Repairs depend on the component and material",
+        "Check what the visible repair would leave beneath it",
+        "Define the repair before work begins",
+        "Know when to compare broader work"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Bring the roof history into the assessment"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Repairs depend on the component and material"
+        },
+        {
+          "level": 3,
+          "text": "Seams and surface damage"
+        },
+        {
+          "level": 3,
+          "text": "Equipment and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Edges and drainage details"
+        },
+        {
+          "level": 2,
+          "text": "Check what the visible repair would leave beneath it"
+        },
+        {
+          "level": 2,
+          "text": "Define the repair before work begins"
+        },
+        {
+          "level": 2,
+          "text": "Know when to compare broader work"
+        },
+        {
+          "level": 2,
+          "text": "Included in Commercial Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof surfaces and details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Arrange a commercial roof assessment"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Commercial roof repairs at seams, curbs and drainage connections",
+        "Moisture beneath a commercial roof repair area",
+        "What a commercial roof repair estimate should identify",
+        "When recurring commercial roof leaks need a replacement assessment"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-20-2",
+          "heading": "Seams and surface damage",
+          "topics": [
+            "Seams and surface damage"
+          ],
+          "image": "/media/service-review-03/membrane-seam-puncture-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-20-2",
+          "heading": "Equipment and penetrations",
+          "topics": [
+            "Equipment and penetrations"
+          ],
+          "image": "/media/service-review-03/commercial-curb-flashing-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-20-2",
+          "heading": "Edges and drainage details",
+          "topics": [
+            "Edges and drainage details"
+          ],
+          "image": "/media/service-review-03/commercial-roof-drain-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial roof repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof leaks: connecting the history with the roof detail"
+        },
+        {
+          "level": 3,
+          "text": "Leak locations, previous repairs and equipment work"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to your commercial roof or drainage?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof repair: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof materials and installation"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof repairs at seams, curbs and drainage connections"
+        },
+        {
+          "level": 3,
+          "text": "Seams and surface damage"
+        },
+        {
+          "level": 3,
+          "text": "Equipment and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Edges and drainage details"
+        },
+        {
+          "level": 2,
+          "text": "Moisture beneath a commercial roof repair area"
+        },
+        {
+          "level": 2,
+          "text": "When recurring commercial roof leaks need a replacement assessment"
+        },
+        {
+          "level": 2,
+          "text": "What a commercial roof repair estimate should identify"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Request a commercial roof leak assessment"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 6,
+      "retainedParagraphHashes": [
+        "c2b474cc3d7f96737633c90dd09b921343319484240ccd017db8475001445b2f",
+        "824d8775e6d0119984ccdbaf80ffae4e0e2842c18c7f28201d3ca08c5ce75a7e",
+        "db80723b22a47b9de86e42456531164bceda9348f34ac5167bdc1a64731ea93d",
+        "3746f74927b86eefbd77f3ecf33534e186796de1822248ccc77ad0a480a09474",
+        "fb6d15d3e76117475dacdd798835d6f57847da26c4002c5bf904a97025d458ae",
+        "76aa09da701e06c6873610de6f64ec5feb5e35739949e5aa3d8b0889545e4a74"
+      ]
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "service": "Commercial roof replacement",
+      "beforeH2": 14,
+      "beforeCoreHeadings": [
+        "Identify the existing roof assembly",
+        "Decide what stays and what is removed",
+        "Choose the replacement system for the building",
+        "Resolve drainage and equipment connections",
+        "Plan the work around occupants",
+        "Close out with a usable roof record"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Roof Replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Establish the reason for replacement"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Identify the existing roof assembly"
+        },
+        {
+          "level": 2,
+          "text": "Decide what stays and what is removed"
+        },
+        {
+          "level": 3,
+          "text": "Tear-off and disposal"
+        },
+        {
+          "level": 3,
+          "text": "Recover, where suitable"
+        },
+        {
+          "level": 2,
+          "text": "Choose the replacement system for the building"
+        },
+        {
+          "level": 2,
+          "text": "Resolve drainage and equipment connections"
+        },
+        {
+          "level": 2,
+          "text": "Plan the work around occupants"
+        },
+        {
+          "level": 2,
+          "text": "Close out with a usable roof record"
+        },
+        {
+          "level": 2,
+          "text": "Included in Commercial Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof surfaces and details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial replacement questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan the replacement around your building"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Identifying commercial roof layers before replacement",
+        "Commercial roof replacement: tear-off, recover and rebuilt connections",
+        "Commercial replacement planning: drainage, equipment and occupants",
+        "Commercial roof replacement estimate and handover documents"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-21-3",
+          "heading": "Tear-off, insulation removal and concealed repairs",
+          "topics": [
+            "Tear-off, insulation removal and concealed repairs"
+          ],
+          "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-21-3",
+          "heading": "Recover suitability and the condition of the retained roof",
+          "topics": [
+            "Recover suitability and the condition of the retained roof"
+          ],
+          "image": "/media/service-review-03/commercial-roof-overview-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-21-3",
+          "heading": "Rebuilding perimeter, outlet and equipment connections",
+          "topics": [
+            "Rebuilding perimeter, outlet and equipment connections"
+          ],
+          "image": "/media/service-review-03/commercial-roof-drain-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial roof replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "When a commercial roof needs replacement"
+        },
+        {
+          "level": 3,
+          "text": "Roof condition, recurring leaks and repair alternatives"
+        },
+        {
+          "level": 3,
+          "text": "Storm damage to your commercial roof or drainage?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof replacement: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof materials and installation"
+        },
+        {
+          "level": 2,
+          "text": "Identifying commercial roof layers before replacement"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof replacement: tear-off, recover and rebuilt connections"
+        },
+        {
+          "level": 3,
+          "text": "Tear-off, insulation removal and concealed repairs"
+        },
+        {
+          "level": 3,
+          "text": "Recover suitability and the condition of the retained roof"
+        },
+        {
+          "level": 3,
+          "text": "Rebuilding perimeter, outlet and equipment connections"
+        },
+        {
+          "level": 2,
+          "text": "Commercial replacement planning: drainage, equipment and occupants"
+        },
+        {
+          "level": 3,
+          "text": "Drainage outlets and rooftop equipment responsibilities"
+        },
+        {
+          "level": 3,
+          "text": "Occupied areas, staging and the roofing work sequence"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof replacement estimate and handover documents"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof replacement questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan a commercial roof replacement assessment"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 18,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "875df9b507f1428ece9e6161ee826c70c37444fd4f0facd995123b176513f22a",
+        "49edded40a31eb68f007e3c1583caf63960a4142eea031e683af3d2d6cfc3c3e",
+        "1a7a410b4cb8393206fb873a0d845fbcfed96bce0ca822c0254f3acb3ea3374e",
+        "95297c10fc26368eed46acdd2674dba6a8a258f4203158f8abcf77bf05ddd17c",
+        "48ef64568d75e953579b73fd3c3e1549b62cf6bc1b300d759c984ba5469e310f",
+        "526f4757bb373a479829eb6913ffbb0ead8a93c615e7cced7fdc590c791f1e27",
+        "afbfa2bb9b7035ed74ccf895b942668fafc64c495404e187c6019ee400378703"
+      ]
+    },
+    {
+      "route": "/commercial-roofing/roof-types/",
+      "service": "Commercial roof system",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Sloped roofs on commercial and multifamily properties",
+        "Understand the layers below the covering",
+        "Keep drainage in the system decision",
+        "Coating and recover decisions need evidence"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Roof Systems in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Common low-slope membrane categories"
+        },
+        {
+          "level": 3,
+          "text": "TPO and PVC"
+        },
+        {
+          "level": 3,
+          "text": "EPDM"
+        },
+        {
+          "level": 3,
+          "text": "Modified bitumen and built-up roofing"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Sloped roofs on commercial and multifamily properties"
+        },
+        {
+          "level": 2,
+          "text": "Understand the layers below the covering"
+        },
+        {
+          "level": 2,
+          "text": "Keep drainage in the system decision"
+        },
+        {
+          "level": 2,
+          "text": "Coating and recover decisions need evidence"
+        },
+        {
+          "level": 2,
+          "text": "Included in Commercial Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof surfaces and details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Roof system questions"
+        },
+        {
+          "level": 2,
+          "text": "Start with the roof you have"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Shingle and metal roofs on commercial or multifamily buildings",
+        "Commercial roof assemblies: covering, insulation and connections",
+        "Comparing commercial roof coating and recover proposals"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-22-3",
+          "heading": "Deck, insulation and the condition of retained layers",
+          "topics": [
+            "Deck, insulation and the condition of retained layers"
+          ],
+          "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-22-3",
+          "heading": "Membrane seams and compatible repair materials",
+          "topics": [
+            "Membrane seams and compatible repair materials"
+          ],
+          "image": "/media/service-review-03/membrane-seam-puncture-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-22-3",
+          "heading": "Parapets, equipment curbs and drainage outlets",
+          "topics": [
+            "Parapets, equipment curbs and drainage outlets"
+          ],
+          "image": "/media/service-review-03/commercial-roof-drain-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial roof systems in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Low-slope commercial roof systems: membrane and asphalt options"
+        },
+        {
+          "level": 3,
+          "text": "TPO and PVC membrane systems"
+        },
+        {
+          "level": 3,
+          "text": "EPDM rubber membrane systems"
+        },
+        {
+          "level": 3,
+          "text": "Modified bitumen and built-up roofing"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof system: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof materials and installation"
+        },
+        {
+          "level": 2,
+          "text": "Shingle and metal roofs on commercial or multifamily buildings"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof assemblies: covering, insulation and connections"
+        },
+        {
+          "level": 3,
+          "text": "Deck, insulation and the condition of retained layers"
+        },
+        {
+          "level": 3,
+          "text": "Membrane seams and compatible repair materials"
+        },
+        {
+          "level": 3,
+          "text": "Parapets, equipment curbs and drainage outlets"
+        },
+        {
+          "level": 2,
+          "text": "Comparing commercial roof coating and recover proposals"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof system questions"
+        },
+        {
+          "level": 2,
+          "text": "Identify the roof system at your commercial building"
+        }
+      ],
+      "afterH2": 9,
+      "afterH3": 17,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 4,
+      "retainedParagraphHashes": [
+        "2b9f7825b6bfbb85d87eeeac0f563965d4b911d7c7a0b4969fa06e323e030208",
+        "092d3267df2f66c321540eb9dab64ffa087bcf84763c3c86ec112e59d11a385a",
+        "7f857ab86333bd43843111dfa1c6137f1e8bff70476fc3fb70e3b9d392fe4e42",
+        "fadb0045cbbfa87a5a5f78c930bf6d9b2af2245dcceb25a3e79fa231d650595e"
+      ]
+    },
+    {
+      "route": "/storm-damage/",
+      "service": "Storm damage repair",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Wind, hail and debris affect different details",
+        "See the affected areas and recommended repairs",
+        "Repair the affected components or consider broader replacement",
+        "Keep construction records and insurance decisions separate"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Storm Damage Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "If water is entering now"
+        },
+        {
+          "level": 3,
+          "text": "Commercial Storm Restoration in Columbus, OH"
+        },
+        {
+          "level": 3,
+          "text": "Hail Damage Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 3,
+          "text": "Storm Damage Documentation in Columbus, OH"
+        },
+        {
+          "level": 3,
+          "text": "Wind Damage Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Wind, hail and debris affect different details"
+        },
+        {
+          "level": 3,
+          "text": "Wind damage"
+        },
+        {
+          "level": 3,
+          "text": "Hail observations"
+        },
+        {
+          "level": 3,
+          "text": "Debris and adjoining exterior damage"
+        },
+        {
+          "level": 2,
+          "text": "See the affected areas and recommended repairs"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Repair the affected components or consider broader replacement"
+        },
+        {
+          "level": 2,
+          "text": "Keep construction records and insurance decisions separate"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roof exposure and repair details"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Storm repair questions in Columbus"
+        },
+        {
+          "level": 2,
+          "text": "Tell us what changed after the storm"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Wind, hail and debris damage affect different roof connections",
+        "Photographs and locations that explain suspected storm damage",
+        "Storm roof repair or replacement: comparing the findings",
+        "Storm repair estimates and the insurance documentation record"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-74-2",
+          "heading": "Wind damage",
+          "topics": [
+            "Wind damage"
+          ],
+          "image": "/media/service-review-03/wind-lifted-shingles-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-74-2",
+          "heading": "Hail observations",
+          "topics": [
+            "Hail observations"
+          ],
+          "image": "/media/service-review-03/hail-metal-vent-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-74-2",
+          "heading": "Debris and adjoining exterior damage",
+          "topics": [
+            "Debris and adjoining exterior damage"
+          ],
+          "image": "/media/service-review-03/storm-branch-roof-edge-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Storm damage repairs in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage services for Columbus roofs and exteriors"
+        },
+        {
+          "level": 3,
+          "text": "Commercial storm damage"
+        },
+        {
+          "level": 3,
+          "text": "Hail damage assessment and repairs"
+        },
+        {
+          "level": 3,
+          "text": "Storm documentation and repair estimates"
+        },
+        {
+          "level": 3,
+          "text": "Wind damage assessment and repairs"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage repair: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Wind, hail and debris damage affect different roof connections"
+        },
+        {
+          "level": 3,
+          "text": "Wind damage"
+        },
+        {
+          "level": 3,
+          "text": "Hail observations"
+        },
+        {
+          "level": 3,
+          "text": "Debris and adjoining exterior damage"
+        },
+        {
+          "level": 2,
+          "text": "Photographs and locations that explain suspected storm damage"
+        },
+        {
+          "level": 2,
+          "text": "Storm roof repair or replacement: comparing the findings"
+        },
+        {
+          "level": 3,
+          "text": "Replacement shingle products and specifications"
+        },
+        {
+          "level": 2,
+          "text": "Storm repair estimates and the insurance documentation record"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Roofing and exterior photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Arrange a storm damage inspection for your Columbus property"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 19,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "a21ad6d5765784bbede81bf1f28e4aae3356a5e478060d68d1c6269fd8430788",
+        "76903e51bbbfae8347a6cb9262a753fa22635675d1bbb577fc2af0deebce2a2d",
+        "bbefefab3b50ce173c2831c17af2d82e92f7fdfa01836b5145a352bdf50fb07e",
+        "21698aea62d168c8e787204a353cf76a9726b74b18aa8cdbe27bcae3436f9b54",
+        "21f9f194d474626f9a797848dbefcfbd1286fc98c013f42696eb16553d66e592",
+        "d6f9c2564831a4288fb2293ed682522363cae802335440d98a94cf05d4dec41e",
+        "d682ce0e76c9d077f36054c88c3434d0608b2da1ea1ccc99c9240b057e032b29"
+      ]
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "service": "Commercial storm damage",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Inspect the components that storms can affect",
+        "Build a location-based damage record",
+        "Compare the permanent repair options",
+        "Plan the work around the property",
+        "Keep construction and insurance records aligned"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Commercial Storm Restoration in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Report active water entry and operating constraints"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Materials & Installation, Explained"
+        },
+        {
+          "level": 2,
+          "text": "Inspect the components that storms can affect"
+        },
+        {
+          "level": 3,
+          "text": "Covering and seams"
+        },
+        {
+          "level": 3,
+          "text": "Perimeters, walls and equipment details"
+        },
+        {
+          "level": 3,
+          "text": "Drainage and adjoining exterior areas"
+        },
+        {
+          "level": 2,
+          "text": "Build a location-based damage record"
+        },
+        {
+          "level": 2,
+          "text": "Compare the permanent repair options"
+        },
+        {
+          "level": 2,
+          "text": "Plan the work around the property"
+        },
+        {
+          "level": 2,
+          "text": "Keep construction and insurance records aligned"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roof surfaces and details"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm questions"
+        },
+        {
+          "level": 2,
+          "text": "Arrange the next step for your building"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Commercial storm inspection: membranes, curbs and roof drainage",
+        "Commercial storm repairs, replacement and recover suitability",
+        "Coordinating temporary protection and permanent commercial repairs",
+        "Commercial storm estimates, approved changes and completion records"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-75-2",
+          "heading": "Covering and seams",
+          "topics": [
+            "Covering and seams"
+          ],
+          "image": "/media/service-review-03/membrane-seam-puncture-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-75-2",
+          "heading": "Perimeters, walls and equipment details",
+          "topics": [
+            "Perimeters, walls and equipment details"
+          ],
+          "image": "/media/service-review-03/commercial-curb-flashing-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-75-2",
+          "heading": "Drainage and adjoining exterior areas",
+          "topics": [
+            "Drainage and adjoining exterior areas"
+          ],
+          "image": "/media/service-review-03/commercial-roof-drain-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Commercial storm damage in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm damage: water entry, access and operations"
+        },
+        {
+          "level": 3,
+          "text": "Report affected spaces and current water entry"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm damage: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 3,
+          "text": "Commercial roof materials and installation"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm inspection: membranes, curbs and roof drainage"
+        },
+        {
+          "level": 3,
+          "text": "Covering and seams"
+        },
+        {
+          "level": 3,
+          "text": "Perimeters, walls and equipment details"
+        },
+        {
+          "level": 3,
+          "text": "Drainage and adjoining exterior areas"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm repairs, replacement and recover suitability"
+        },
+        {
+          "level": 2,
+          "text": "Coordinating temporary protection and permanent commercial repairs"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm estimates, approved changes and completion records"
+        },
+        {
+          "level": 3,
+          "text": "Mapping commercial storm observations to specific roof areas"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Commercial roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Commercial storm damage questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss storm damage at your commercial property"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "b64ee4299d894335715fae26104d5eebf976564c2b89a1fd81936c5fb5dda381",
+        "78d10493ccfb8802d112fc9a65d24656529403bcc1ae5cf15e332a14541e5203",
+        "cc933e20d44a48fd9e0f0d136f88cb145711662b9209ab8767b41735498f2cda",
+        "b5042caa60157f139e4e4c6705b9ecc992420675e7158d22d1c41e73e10d6b4c",
+        "4e511ec03c947814f38ff3ea8fd61a6cd39b9fe7e4124d9074dd728159e2e4e8",
+        "d6a20a1c6e94b7fc228f0d06bb5b106364e3f0a44e6893f86e2d49ec514a2c2d",
+        "774fd92f20f80d7407fc704bfc674e451914f6555a5bbcbae534bbb4137da9fc"
+      ]
+    },
+    {
+      "route": "/storm-damage/hail/",
+      "service": "Hail damage roof repair",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Inspect the roof and related details",
+        "Decide whether the affected roofing can be repaired",
+        "Understand the work after the inspection",
+        "Read impact classifications carefully"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Hail Damage Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "What visible clues can tell you"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Inspect the roof and related details"
+        },
+        {
+          "level": 3,
+          "text": "Covering and roof areas"
+        },
+        {
+          "level": 3,
+          "text": "Flashing, vents and exposed metal"
+        },
+        {
+          "level": 3,
+          "text": "Gutters and adjoining exterior components"
+        },
+        {
+          "level": 2,
+          "text": "Decide whether the affected roofing can be repaired"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Understand the work after the inspection"
+        },
+        {
+          "level": 2,
+          "text": "Read impact classifications carefully"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roof exposure and repair details"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
+          "text": "Hail damage questions"
+        },
+        {
+          "level": 2,
+          "text": "Arrange a hail damage assessment"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Hail inspection observations: shingles, metal and adjoining exteriors",
+        "Hail-damaged roofing: localized repair or wider replacement",
+        "Your hail repair estimate: materials, preparation and adjoining work",
+        "Shingle impact classifications and the limits of hail protection"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-76-2",
+          "heading": "Covering and roof areas",
+          "topics": [
+            "Covering and roof areas"
+          ],
+          "image": "/media/service-review-03/hail-shingle-surface-900.webp"
+        },
+        {
+          "sectionId": "service-copy-76-2",
+          "heading": "Flashing, vents and exposed metal",
+          "topics": [
+            "Flashing, vents and exposed metal"
+          ],
+          "image": "/media/service-review-03/hail-metal-vent-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-76-2",
+          "heading": "Gutters and adjoining exterior components",
+          "topics": [
+            "Gutters and adjoining exterior components"
+          ],
+          "image": "/media/service-review-03/hail-gutter-dents-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Hail damage roof repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Suspected hail damage: what roof and metal observations can show"
+        },
+        {
+          "level": 3,
+          "text": "Surface changes, material condition and inspection limits"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Hail damage roof repair: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Hail inspection observations: shingles, metal and adjoining exteriors"
+        },
+        {
+          "level": 3,
+          "text": "Covering and roof areas"
+        },
+        {
+          "level": 3,
+          "text": "Flashing, vents and exposed metal"
+        },
+        {
+          "level": 3,
+          "text": "Gutters and adjoining exterior components"
+        },
+        {
+          "level": 2,
+          "text": "Hail-damaged roofing: localized repair or wider replacement"
+        },
+        {
+          "level": 2,
+          "text": "Shingle impact classifications and the limits of hail protection"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingle impact classifications and product documents"
+        },
+        {
+          "level": 2,
+          "text": "Your hail repair estimate: materials, preparation and adjoining work"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Roofing and exterior photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
+          "text": "Hail damage roof repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Request an inspection of suspected hail damage"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "8d588feeeb6b9d2f591f435f38ae810131e4a8959dbc0e0c8f1049394672738d",
+        "c958319fa5d573ff0bd9411b871f928f604380d1afad9f99f7cf4dc6706ad510",
+        "f7054947296cfebe84d3bdfad9252c0262fe82a92f37c99394a72336d1c39f23",
+        "724f3422c609c83d044f0efaf246fc7e554cc99fd95d105e453011490ed8d899",
+        "571f5970aa4560c4815d8ed05ffb39b427ba48c1bcfab5cd03f7bdd99e4f4167",
+        "de2b1dbba410948b52c82f22e27a88cb4a10d6670956f4e98a4e7dd2f9a28248",
+        "b641070047901eb65e9455fadc991468f3ceec99af9f78af0f642a06638ccfca"
+      ]
+    },
+    {
+      "route": "/storm-damage/wind/",
+      "service": "Wind damage roof repair",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Inspect beyond the first missing shingle",
+        "Define the permanent repair",
+        "Compare replacement when the condition supports it",
+        "Read wind claims with the installation requirements"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Wind Damage Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Look for changes from a safe position"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Inspect beyond the first missing shingle"
+        },
+        {
+          "level": 3,
+          "text": "Surrounding roofing"
+        },
+        {
+          "level": 3,
+          "text": "Edges, ridges and flashing"
+        },
+        {
+          "level": 3,
+          "text": "Exposed underlying layers"
+        },
+        {
+          "level": 2,
+          "text": "Define the permanent repair"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Compare replacement when the condition supports it"
+        },
+        {
+          "level": 2,
+          "text": "Read wind claims with the installation requirements"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roof exposure and repair details"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 3,
+          "text": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 2,
+          "text": "Wind repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Arrange a wind damage assessment"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Wind damage inspection beyond the first missing shingle",
+        "Your wind repair estimate and remaining permanent work",
+        "When widespread wind damage calls for a replacement assessment",
+        "Shingle wind classifications, accessories and installation conditions"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-78-2",
+          "heading": "Surrounding roofing",
+          "topics": [
+            "Surrounding roofing"
+          ],
+          "image": "/media/service-review-03/wind-lifted-shingles-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-78-2",
+          "heading": "Edges, ridges and flashing",
+          "topics": [
+            "Edges, ridges and flashing"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-78-2",
+          "heading": "Exposed underlying layers",
+          "topics": [
+            "Exposed underlying layers"
+          ],
+          "image": "/media/service-review-02/roof-deck-repair-1000.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Wind damage roof repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Suspected wind damage: observations from a safe position"
+        },
+        {
+          "level": 3,
+          "text": "Missing materials, changed roof edges and active leaks"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Wind damage roof repair: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Wind damage inspection beyond the first missing shingle"
+        },
+        {
+          "level": 3,
+          "text": "Surrounding roofing"
+        },
+        {
+          "level": 3,
+          "text": "Edges, ridges and flashing"
+        },
+        {
+          "level": 3,
+          "text": "Exposed underlying layers"
+        },
+        {
+          "level": 2,
+          "text": "When widespread wind damage calls for a replacement assessment"
+        },
+        {
+          "level": 2,
+          "text": "Shingle wind classifications, accessories and installation conditions"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingle wind classifications and warranty conditions"
+        },
+        {
+          "level": 2,
+          "text": "Your wind repair estimate and remaining permanent work"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Roofing and exterior photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 3,
+          "text": "Columbus Roofs Face Wind Gusts Over 40 MPH During Fall Storms—Enough to Lift Shingles or Expose Underlayment"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 2,
+          "text": "Wind damage roof repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss wind damage and any active roof leak"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "a2c2d0fc28b44be66e4b1eb1739dc78141c3bef6e17bb317b1af49a5f962b6f1",
+        "479552b1912e179476938587c7a14d798266e888cd4aad1ebd2d1cf4f3d03693",
+        "2f4f147434dc135422d6eed72a0a34d40dfab24a834faa59368342d2a5c4dc3b",
+        "5efc5dba0137955a6d6b785b6a1eef63e7f8bda86910a96317525e491fb62de7",
+        "20fb5cd9fcac639a66c2c2266fd35f8830101aa484e2da35818cfdc8f19fcce7",
+        "019579d76517ff74b5beb45281bf102c8f5cbf49253d30649de8a30116fe8810",
+        "48911c28eaafefd315b1f53918f0148013719991a52096700a76c008af2965c8"
+      ]
+    },
+    {
+      "route": "/storm-damage/insurance-claims/",
+      "service": "Storm damage documentation",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Know what a useful construction record contains",
+        "Keep the responsibilities clear",
+        "If additional damage becomes visible",
+        "Retain records after repairs"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Storm Damage Documentation in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Begin with dates, observations and earlier work"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Know what a useful construction record contains"
+        },
+        {
+          "level": 3,
+          "text": "Locations and materials"
+        },
+        {
+          "level": 3,
+          "text": "Observations and limitations"
+        },
+        {
+          "level": 3,
+          "text": "Proposed work"
+        },
+        {
+          "level": 2,
+          "text": "Keep the responsibilities clear"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "If additional damage becomes visible"
+        },
+        {
+          "level": 2,
+          "text": "Retain records after repairs"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roof exposure and repair details"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Storm documentation questions"
+        },
+        {
+          "level": 2,
+          "text": "Request an assessment with clear records"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Connecting roof observations, photographs and the repair estimate",
+        "Construction findings, owner authorization and insurer decisions",
+        "Documenting concealed damage and changes to the roofing work",
+        "Storm repair estimates, invoices and the completed-work record"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-77-2",
+          "heading": "Locations and materials",
+          "topics": [
+            "Locations and materials"
+          ],
+          "image": "/media/service-review-02/complex-roof-valleys-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-77-2",
+          "heading": "Observations and limitations",
+          "topics": [
+            "Observations and limitations"
+          ],
+          "image": "/media/service-review-03/roof-observation-record-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-77-2",
+          "heading": "Proposed work",
+          "topics": [
+            "Proposed work"
+          ],
+          "image": "/media/service-review-02/roof-plan-review-1200.webp"
+        }
+      ],
+      "notes": [
+        "Original explanatory paragraphs and contextual links retained.",
+        "Commercial roof photos match membrane, curb, drainage or operating topics.",
+        "Three distinct images are explicitly paired with their opposing headings and paragraphs.",
+        "Manufacturer strips appear only when product data exists; residential certification does not imply authorization for every commercial roof system."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Storm damage documentation in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Storm documentation starts with dates, observations and roof history"
+        },
+        {
+          "level": 3,
+          "text": "Record what you noticed and contact your insurer directly"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s exterior work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage documentation: business credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Connecting roof observations, photographs and the repair estimate"
+        },
+        {
+          "level": 3,
+          "text": "Locations and materials"
+        },
+        {
+          "level": 3,
+          "text": "Observations and limitations"
+        },
+        {
+          "level": 3,
+          "text": "Proposed work"
+        },
+        {
+          "level": 2,
+          "text": "Construction findings, owner authorization and insurer decisions"
+        },
+        {
+          "level": 2,
+          "text": "Documenting concealed damage and changes to the roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Shingle identification and replacement product information"
+        },
+        {
+          "level": 2,
+          "text": "Storm repair estimates, invoices and the completed-work record"
+        },
+        {
+          "level": 3,
+          "text": "Financing for the agreed exterior work"
+        },
+        {
+          "level": 2,
+          "text": "Roofing and exterior photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 3,
+          "text": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms"
+        },
+        {
+          "level": 2,
+          "text": "Storm damage documentation questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the inspection and records for your storm repair"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "c0139cf48aadebe6f9896fd09bee4335ac9306cbfbec1f7fb3274f66e6db5826",
+        "473e7a69d4c90bb2d072aba68b655e632e5ee14a521c814af315fe582300d4d8",
+        "dece07957a42eedaa11d450fa9885e01f843374618757dd9f2107b8995aa2b62",
+        "41cbee6a48d677626c62f26949b3ce73a3146cb4c26dc2f836f731aac85b532e",
+        "d351ba21cfcec3b55d7a57778eec144eea4f1d3d4e1b92c5ca2f4cd34b445377",
+        "771ab648ad6c94ae6c8b743b71d024570090d8f3b16cead81075d22a3027cbb4",
+        "cb08fd5d16919b1ce10a9dedb3a574bcefb84aa4ca0e27c8b7e4f3ef9fed4f83"
+      ]
+    }
+  ],
+  "remainingPages": 53,
+  "errors": [],
+  "unreviewedPageDataUnchanged": true,
+  "validation": {
+    "fullVerify": true,
+    "photoPairChecks": true,
+    "requiredAttributes": true,
+    "schema": true,
+    "sitemap": true,
+    "browserChecks": 40,
+    "noJavaScriptChecks": 10,
+    "parentExplorerChecks": 4,
+    "widths": [
+      1440,
+      820,
+      390,
+      320
+    ],
+    "visualReview": "Desktop and mobile heroes and paired sections inspected for every page.",
+    "sourceParagraphsRetained": true,
+    "unreviewedPageDataUnchanged": true
+  },
+  "photoReview": {
+    "pages": 10,
+    "pairedRows": 30,
+    "newIllustrations": 14,
+    "newIllustrationVariants": 42,
+    "maxBytes": 108518,
+    "provenance": "migration/service-review-03-photo-provenance.json"
+  }
+}

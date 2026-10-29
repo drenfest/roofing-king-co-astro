@@ -118,3 +118,15 @@ careers.css owns Careers hero typography, experience cards, the diagonal introdu
 service-areas.css styles the native map/directory split, ivory location cards and recursive service disclosures. Mobile places the map above the cards; no page overflow or map trapping.
 
 offers.css provides native offer hero sizing, flat feature cards, diagonal photo bands, a call-preparation checklist and grouped hub cards. It inherits shared motion, buttons and FAQ behavior.
+
+
+The Batch 01 reading-rhythm styles also apply explicitly to Batch 02: sentence-case headings, grouped option grids, lighter manufacturer strips and narrow-screen layouts. Batch 02 charcoal sections use a light orange eyebrow for readable contrast. Unreviewed service presentation is unchanged.
+
+
+The reviewed service reading-rhythm styles explicitly include Batch 03. Balanced hero wrapping and readable charcoal-section eyebrows cover Batch 02/03. Original diagonal section geometry, flat ivory/charcoal/orange palette and responsive photo rows remain.
+
+
+Reviewed sentence-case typography, balanced hero wrapping, charcoal eyebrow contrast and grouped-card rhythm now explicitly include data-content-review="04". No styling is applied to unreviewed routes by this extension.
+
+
+Reviewed heading case, balanced hero wrapping, dark-section eyebrow contrast and grouped-card rhythm now explicitly include data-content-review="05". No global extension to unreviewed routes.

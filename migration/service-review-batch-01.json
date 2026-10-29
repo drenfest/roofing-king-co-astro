@@ -248,6 +248,30 @@
         },
         {
           "level": 2,
+          "text": "Siding profiles, trim and exterior finishes"
+        },
+        {
+          "level": 2,
+          "text": "Siding and storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Replace Your Home Siding in Columbus with Expert Help"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
           "text": "Siding questions: materials, installation and estimates"
         },
         {
@@ -256,9 +280,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 16,
+      "afterH3": 20,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Measured wall areas and window/door trim details."
+      "photoToAdd": "Measured wall areas and window/door trim details.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-10-3",
+          "heading": "Old siding removal and concealed wall repairs",
+          "topics": [
+            "Old siding removal and concealed wall repairs"
+          ],
+          "image": "/media/service-review-01/siding-sheathing-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-10-3",
+          "heading": "Window trim, corners, soffits and fixtures",
+          "topics": [
+            "Window trim, corners, soffits and fixtures"
+          ],
+          "image": "/media/siding-guide/window-trim-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-10-3",
+          "heading": "Like-for-like siding or a redesigned exterior",
+          "topics": [
+            "Like-for-like siding or a redesigned exterior"
+          ],
+          "image": "/media/siding-guide/material-samples-1200.webp"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/siding/",
@@ -492,6 +544,10 @@
           "text": "Checking flashing and moisture behind siding"
         },
         {
+          "level": 3,
+          "text": "Checking the replacement profile and color"
+        },
+        {
           "level": 2,
           "text": "Choosing siding materials, trim and exterior details"
         },
@@ -525,6 +581,30 @@
         },
         {
           "level": 2,
+          "text": "Siding profiles, trim and exterior finishes"
+        },
+        {
+          "level": 2,
+          "text": "Siding and storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Replace Your Home Siding in Columbus with Expert Help"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
           "text": "Siding questions: materials, installation and estimates"
         },
         {
@@ -533,9 +613,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 17,
+      "afterH3": 22,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Whole-home siding views and a repair close-up."
+      "photoToAdd": "Whole-home siding views and a repair close-up.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-70-1",
+          "heading": "Repairing a limited area of damaged siding",
+          "topics": [
+            "Repairing a limited area of damaged siding"
+          ],
+          "image": "/media/service-review-01/localized-siding-damage-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-70-1",
+          "heading": "Checking flashing and moisture behind siding",
+          "topics": [
+            "Checking flashing and moisture behind siding"
+          ],
+          "image": "/media/service-review-01/window-wall-flashing-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-70-1",
+          "heading": "Checking the replacement profile and color",
+          "topics": [
+            "Checking the replacement profile and color"
+          ],
+          "image": "/media/siding-guide/material-samples-1200.webp"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/siding/replacement/",
@@ -764,18 +872,26 @@
         },
         {
           "level": 3,
+          "text": "Repairing the wall and rebuilding protective layers"
+        },
+        {
+          "level": 4,
           "text": "Concealed sheathing damage after siding removal"
         },
         {
-          "level": 3,
+          "level": 4,
           "text": "Supporting surface and water-management layers"
         },
         {
           "level": 3,
+          "text": "Flashing openings and adjoining surfaces"
+        },
+        {
+          "level": 4,
           "text": "Windows and doors"
         },
         {
-          "level": 3,
+          "level": 4,
           "text": "Roof and material transitions"
         },
         {
@@ -792,6 +908,30 @@
         },
         {
           "level": 2,
+          "text": "Siding profiles, trim and exterior finishes"
+        },
+        {
+          "level": 2,
+          "text": "Siding and storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Replace Your Home Siding in Columbus with Expert Help"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
           "text": "Siding replacement questions: materials, installation and estimates"
         },
         {
@@ -800,9 +940,39 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 16,
+      "afterH3": 18,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Old siding removal, repaired sheathing and completed trim."
+      "photoToAdd": "Old siding removal, repaired sheathing and completed trim.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-71-3",
+          "heading": "Repairing the wall and rebuilding protective layers",
+          "topics": [
+            "Concealed sheathing damage after siding removal",
+            "Supporting surface and water-management layers"
+          ],
+          "image": "/media/service-review-01/siding-sheathing-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-71-3",
+          "heading": "Flashing openings and adjoining surfaces",
+          "topics": [
+            "Windows and doors",
+            "Roof and material transitions"
+          ],
+          "image": "/media/service-review-01/window-wall-flashing-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-71-3",
+          "heading": "Property access, debris removal and final inspection",
+          "topics": [
+            "Property access, debris removal and final inspection"
+          ],
+          "image": "/media/wordpress/796b873871c9-ed7a07b1-7dd1-4ec0-bb17-14848e08e877.jpg"
+        }
+      ],
+      "afterH4": 4
     },
     {
       "route": "/siding/types/",
@@ -1031,6 +1201,30 @@
         },
         {
           "level": 2,
+          "text": "Siding profiles, trim and exterior finishes"
+        },
+        {
+          "level": 2,
+          "text": "Siding and storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Replace Your Home Siding in Columbus with Expert Help"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
           "text": "Siding materials questions: materials, installation and estimates"
         },
         {
@@ -1039,9 +1233,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 13,
+      "afterH3": 17,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Comparable close-ups of the actual siding profiles offered."
+      "photoToAdd": "Comparable close-ups of the actual siding profiles offered.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-72-4",
+          "heading": "Siding profiles, colors and matching",
+          "topics": [
+            "Siding profiles, colors and matching"
+          ],
+          "image": "/media/siding-guide/material-samples-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-72-4",
+          "heading": "Siding removal, wall repairs and installation",
+          "topics": [
+            "Siding removal, wall repairs and installation"
+          ],
+          "image": "/media/service-review-01/siding-sheathing-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-72-4",
+          "heading": "Siding maintenance and warranty terms",
+          "topics": [
+            "Siding maintenance and warranty terms"
+          ],
+          "image": "/media/service-review-01/siding-surface-care-1200.webp"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/commercial-siding/",
@@ -1270,18 +1492,26 @@
         },
         {
           "level": 3,
+          "text": "Preparing commercial walls and opening details"
+        },
+        {
+          "level": 4,
           "text": "Commercial siding removal and wall repairs"
         },
         {
-          "level": 3,
+          "level": 4,
           "text": "Flashing at windows, doors and roof intersections"
         },
         {
           "level": 3,
+          "text": "Coordinating fixtures, work areas and building access"
+        },
+        {
+          "level": 4,
           "text": "Signs, lighting and roof-to-wall connections"
         },
         {
-          "level": 3,
+          "level": 4,
           "text": "Access, staging and tenant communication"
         },
         {
@@ -1298,6 +1528,30 @@
         },
         {
           "level": 2,
+          "text": "Siding profiles, trim and exterior finishes"
+        },
+        {
+          "level": 2,
+          "text": "Siding and storm damage articles"
+        },
+        {
+          "level": 3,
+          "text": "Replace Your Home Siding in Columbus with Expert Help"
+        },
+        {
+          "level": 3,
+          "text": "How to Spot Roof Damage This Storm Season"
+        },
+        {
+          "level": 3,
+          "text": "Post-Storm Roof Inspection Checklist: What to Do Before Calling Insurance"
+        },
+        {
+          "level": 3,
+          "text": "Storm-Ready Roofing: Protecting Your Home from Fall & Winter Storms"
+        },
+        {
+          "level": 2,
           "text": "Commercial siding questions: materials, installation and estimates"
         },
         {
@@ -1306,9 +1560,39 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 16,
+      "afterH3": 18,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Commercial building elevations, wall details and access arrangements."
+      "photoToAdd": "Commercial building elevations, wall details and access arrangements.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-23-4",
+          "heading": "Preparing commercial walls and opening details",
+          "topics": [
+            "Commercial siding removal and wall repairs",
+            "Flashing at windows, doors and roof intersections"
+          ],
+          "image": "/media/service-review-01/commercial-wall-preparation-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-23-4",
+          "heading": "Coordinating fixtures, work areas and building access",
+          "topics": [
+            "Signs, lighting and roof-to-wall connections",
+            "Access, staging and tenant communication"
+          ],
+          "image": "/media/service-review-01/commercial-access-planning-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-23-4",
+          "heading": "Siding maintenance records and product warranties",
+          "topics": [
+            "Siding maintenance records and product warranties"
+          ],
+          "image": "/media/service-review-01/commercial-cladding-records-1200.webp"
+        }
+      ],
+      "afterH4": 4
     },
     {
       "route": "/gutters/",
@@ -1576,6 +1860,26 @@
         },
         {
           "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Gutter and drainage articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 3,
+          "text": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
+        },
+        {
+          "level": 2,
           "text": "Gutters questions: materials, installation and estimates"
         },
         {
@@ -1584,9 +1888,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 18,
+      "afterH3": 21,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Installed gutters, outlets, downspouts and discharge points."
+      "photoToAdd": "Installed gutters, outlets, downspouts and discharge points.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-46-3",
+          "heading": "Inspecting gutter overflow before installation",
+          "topics": [
+            "Inspecting gutter overflow before installation"
+          ],
+          "image": "/media/service-review-01/gutter-overflow-debris-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-46-3",
+          "heading": "Gutter measurements, fascia repairs and attachment",
+          "topics": [
+            "Gutter measurements, fascia repairs and attachment"
+          ],
+          "image": "/media/service-review-01/fascia-roof-edge-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-46-3",
+          "heading": "Coordinating gutters with roof and siding repairs",
+          "topics": [
+            "Coordinating gutters with roof and siding repairs"
+          ],
+          "image": "/media/wordpress/b6b3120916a9-hero-gutters.jpg"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/gutters/seamless/",
@@ -1814,10 +2146,14 @@
         },
         {
           "level": 3,
+          "text": "Repairing fascia and securing the new gutters"
+        },
+        {
+          "level": 4,
           "text": "Removing old gutters and repairing fascia"
         },
         {
-          "level": 3,
+          "level": 4,
           "text": "Gutter supports, slope and connections"
         },
         {
@@ -1834,6 +2170,22 @@
         },
         {
           "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 2,
           "text": "Seamless gutters questions: materials, installation and estimates"
         },
         {
@@ -1842,9 +2194,38 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 15,
+      "afterH3": 16,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Continuous gutter fabrication and completed connection details."
+      "photoToAdd": "Continuous gutter fabrication and completed connection details.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-48-4",
+          "heading": "Measuring and fabricating seamless gutter runs",
+          "topics": [
+            "Measuring and fabricating seamless gutter runs"
+          ],
+          "image": "/media/service-review-01/seamless-gutter-fabrication-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-48-4",
+          "heading": "Repairing fascia and securing the new gutters",
+          "topics": [
+            "Removing old gutters and repairing fascia",
+            "Gutter supports, slope and connections"
+          ],
+          "image": "/media/service-review-01/fascia-roof-edge-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-48-4",
+          "heading": "Downspout discharge and installation checks",
+          "topics": [
+            "Downspout discharge and installation checks"
+          ],
+          "image": "/media/gutter-details/downspout-discharge-1200.webp"
+        }
+      ],
+      "afterH4": 2
     },
     {
       "route": "/gutters/guards/",
@@ -2065,12 +2446,32 @@
           "text": "Gutter guard inspection and debris removal"
         },
         {
+          "level": 3,
+          "text": "Checking outlets beneath the protection"
+        },
+        {
           "level": 2,
           "text": "What a gutter guard installation quote should cover"
         },
         {
           "level": 3,
           "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
         },
         {
           "level": 2,
@@ -2082,9 +2483,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 13,
+      "afterH3": 16,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Installed guard products, attachment details and cleaning access."
+      "photoToAdd": "Installed guard products, attachment details and cleaning access.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-47-4",
+          "heading": "Cleaning and repairs before gutter guard installation",
+          "topics": [
+            "Cleaning and repairs before gutter guard installation"
+          ],
+          "image": "/media/service-review-01/gutter-overflow-debris-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-47-4",
+          "heading": "Gutter guard inspection and debris removal",
+          "topics": [
+            "Gutter guard inspection and debris removal"
+          ],
+          "image": "/media/gutter-details/gutter-protection-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-47-4",
+          "heading": "Checking outlets beneath the protection",
+          "topics": [
+            "Checking outlets beneath the protection"
+          ],
+          "image": "/media/gutter-details/gutter-corner-1200.webp"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/dayton-oh/the-cost-of-new-gutters/",
@@ -2311,6 +2740,10 @@
         },
         {
           "level": 3,
+          "text": "Specifying the gutter profile and finish"
+        },
+        {
+          "level": 3,
           "text": "Explore gutter and guard manufacturers"
         },
         {
@@ -2323,6 +2756,22 @@
         },
         {
           "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Gutter and drainage articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 2,
           "text": "Gutters questions: materials, installation and estimates"
         },
         {
@@ -2331,9 +2780,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 15,
+      "afterH3": 18,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "Gutter runs and downspout measurements from an approved project."
+      "photoToAdd": "Gutter runs and downspout measurements from an approved project.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-28-3",
+          "heading": "Seamless gutter fabrication and gutter guard costs",
+          "topics": [
+            "Seamless gutter fabrication and gutter guard costs"
+          ],
+          "image": "/media/service-review-01/seamless-gutter-fabrication-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-28-3",
+          "heading": "Measurement, installation and drainage checks",
+          "topics": [
+            "Measurement, installation and drainage checks"
+          ],
+          "image": "/media/gutter-details/downspout-discharge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-28-3",
+          "heading": "Specifying the gutter profile and finish",
+          "topics": [
+            "Specifying the gutter profile and finish"
+          ],
+          "image": "/media/gutter-details/gutter-profiles-1200.webp"
+        }
+      ],
+      "afterH4": 0
     },
     {
       "route": "/gutter-installation-dublin-oh/",
@@ -2571,12 +3048,36 @@
           "text": "Roof-edge repairs before new gutters are fitted"
         },
         {
+          "level": 3,
+          "text": "Confirming where each downspout discharges"
+        },
+        {
           "level": 2,
           "text": "What a Dublin gutter installation estimate should include"
         },
         {
           "level": 3,
           "text": "Gutter installation financing"
+        },
+        {
+          "level": 2,
+          "text": "Gutters, downspouts and roof-edge details"
+        },
+        {
+          "level": 2,
+          "text": "Gutter and drainage articles"
+        },
+        {
+          "level": 3,
+          "text": "The Importance of Gutters for Your Columbus Home"
+        },
+        {
+          "level": 3,
+          "text": "Why Gutter Guard Installation in Columbus, OH is a Good Idea"
+        },
+        {
+          "level": 3,
+          "text": "Prevent Roof Damage This Winter with Ice Dam Removal in Columbus, OH"
         },
         {
           "level": 2,
@@ -2588,9 +3089,37 @@
         }
       ],
       "afterH2": 8,
-      "afterH3": 15,
+      "afterH3": 19,
       "visualReview": "Opening and grouped content inspected; responsive headings and media checked at 320, 390, 820 and 1440px.",
-      "photoToAdd": "A completed gutter installation with fascia and discharge details."
+      "photoToAdd": "A completed gutter installation with fascia and discharge details.",
+      "photoReviewedAt": "2026-10-21",
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-45-3",
+          "heading": "Preparing the fascia and installing gutter runs",
+          "topics": [
+            "Preparing the fascia and installing gutter runs"
+          ],
+          "image": "/media/service-review-01/fascia-roof-edge-repair-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-45-3",
+          "heading": "Roof-edge repairs before new gutters are fitted",
+          "topics": [
+            "Roof-edge repairs before new gutters are fitted"
+          ],
+          "image": "/media/wordpress/b6b3120916a9-hero-gutters.jpg"
+        },
+        {
+          "sectionId": "service-copy-45-3",
+          "heading": "Confirming where each downspout discharges",
+          "topics": [
+            "Confirming where each downspout discharges"
+          ],
+          "image": "/media/gutter-details/downspout-discharge-1200.webp"
+        }
+      ],
+      "afterH4": 0
     }
   ],
   "remainingPages": 73,
@@ -2603,7 +3132,21 @@
       "route": "/gutters/",
       "sectionId": "service-copy-46-3"
     },
-    "status": "One example ready; other sections pending their ten-page photo pass.",
-    "copyChangesInThisPhotoPass": false
+    "status": "All ten Batch 01 sections completed with explicit photo/topic pairs.",
+    "copyChangesInThisPhotoPass": "Original paragraphs retained; four useful third topics added during the client-authorized ten-page review."
+  },
+  "photoReview": {
+    "date": "2026-10-21",
+    "pages": 10,
+    "pairedRows": 30,
+    "widths": [
+      1440,
+      820,
+      390,
+      320
+    ],
+    "newWebPVariants": 30,
+    "largestNewVariantBytes": 108898,
+    "checks": "npm run verify; npm run check:service-photos; 40 responsive browser checks; visual review of all ten desktop sections and mobile examples"
   }
 }

@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "originals": "output/imagegen/service-review-04",
+  "generated": [
+    {
+      "id": "airSeal",
+      "purpose": "Illustrative ceiling-plane sealant detail, not a customer installation."
+    },
+    {
+      "id": "baffle",
+      "purpose": "Illustrative separation of insulation and eave ventilation channel, not a customer installation."
+    }
+  ],
+  "assets": [
+    {
+      "id": "airSeal",
+      "src": "/media/service-review-04/airSeal-480.webp",
+      "width": 480,
+      "bytes": 20350,
+      "quality": 82
+    },
+    {
+      "id": "airSeal",
+      "src": "/media/service-review-04/airSeal-800.webp",
+      "width": 800,
+      "bytes": 48666,
+      "quality": 82
+    },
+    {
+      "id": "airSeal",
+      "src": "/media/service-review-04/airSeal-1200.webp",
+      "width": 1200,
+      "bytes": 95114,
+      "quality": 82
+    },
+    {
+      "id": "baffle",
+      "src": "/media/service-review-04/baffle-480.webp",
+      "width": 480,
+      "bytes": 35040,
+      "quality": 82
+    },
+    {
+      "id": "baffle",
+      "src": "/media/service-review-04/baffle-800.webp",
+      "width": 800,
+      "bytes": 83806,
+      "quality": 82
+    },
+    {
+      "id": "baffle",
+      "src": "/media/service-review-04/baffle-1200.webp",
+      "width": 1200,
+      "bytes": 106462,
+      "quality": 70
+    }
+  ],
+  "clientPhotography": "migration/client-photography-review.json",
+  "prompts": {
+    "airSeal": "Use case: educational editorial photo illustration for an Ohio roofing contractor website. One horizontal 3:2 close-up view inside an unfinished residential attic, showing the attic-floor ceiling air barrier at a timber partition top plate. Adjacent fibrous loose fill has been carefully moved aside only in a small inspection area. A tidy continuous bead of compatible sealant closes the drywall-to-wood top-plate joint; an ordinary small electrical cable hole in the timber is also neatly air sealed. Real wood grain, dusty cream drywall, neutral insulation texture, natural work-light illumination. No people, no tools in action, no electrical boxes, no hot fixtures, no chimney, no spray foam covering insulation. Show physically coherent construction, no invented labels, no text, no logos, no diagram arrows. This is a clearly generic illustrative construction detail, not a claimed Roof King project. Editorial technical realism rather than advertisement, sharp at medium display size.",
+    "baffle": "Educational editorial construction photo illustration. A single horizontal 3:2 realistic close-up from inside an unfinished residential attic toward the eave. Coherent wood rafters and plywood roof underside slope down toward an exterior wall top plate. A rigid light tan ventilation baffle is correctly installed between one pair of rafters tight beneath the roof deck, maintaining a clear narrow air channel from the soffit inlet below toward the upper attic. Light loose-fill insulation lies level across the attic floor and stops against an insulation dam beneath the baffle, leaving the channel open. View composition must make the separate insulated ceiling plane and sloping roof plane obvious. No workers, no text, no arrows, no logos, no daylight glaring through roof deck, no false roof holes. Natural work-light illumination and accurate timber grain, beige cellulose texture. Modest realistic older Ohio attic, no immaculate fantasy architecture. Generic explanatory illustration, not a claimed contractor project."
+  }
+}

@@ -231,12 +231,17 @@
   },
   "/roof-replacement-dublin-oh/": {
     "image": {
-      "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
-      "alt": "Illustrative roof replacement scene",
-      "width": 1672,
-      "height": 941
+      "src": "/media/roofing-heroes/dublin-replacement-client-1600.webp",
+      "alt": "Roof installation photographed with prepared underlayment beside newly installed shingle areas",
+      "width": 1600,
+      "height": 900
     },
-    "generated": true,
+    "generated": false,
+    "source": {
+      "type": "client-photography",
+      "fileId": "1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R",
+      "url": "https://drive.google.com/file/d/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R/view?usp=drivesdk"
+    },
     "objectPosition": "70% center"
   },
   "/roofing-calculator/": {

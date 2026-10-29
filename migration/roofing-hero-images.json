@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
   "method": "built-in image generation",
-  "provenance": "Illustrative generated roofing scenes, not customer projects or exact branded product samples.",
+  "provenance": "Generated images retain their illustration labels; reviewed client-photography replacements are identified per page and never assigned an unverified project location.",
   "pages": [
     {
       "route": "/cincinnati-oh/roofing/",
@@ -837,35 +837,75 @@
       "family": "replacement",
       "service": "Roof Replacement",
       "city": "Dublin",
-      "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A complete residential roof replacement visual: beautiful freshly installed charcoal asphalt shingles on a modest two-story gabled home, crisp ridge and valley details, some clean construction materials safely staged on ground far right, no people. Distinct scene for Roof Replacement in Dublin, Ohio. Environmental variation: gentle late-autumn daylight.",
-      "status": "generated",
+      "status": "client-photography",
+      "source": {
+        "type": "client-photography",
+        "fileId": "1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R",
+        "url": "https://drive.google.com/file/d/1F6FjoPnNVNIithjKqT2L09xR3N51Cz0R/view?usp=drivesdk"
+      },
       "objectPosition": "70% center",
-      "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-ca5f16d0-923a-4b53-a3ef-121c8af9990c.png",
       "assets": [
         {
-          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp",
+          "src": "/media/roofing-heroes/dublin-replacement-client-640.webp",
           "width": 640,
-          "bytes": 45516
+          "bytes": 70506,
+          "quality": 84
         },
         {
-          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-960.webp",
+          "src": "/media/roofing-heroes/dublin-replacement-client-960.webp",
           "width": 960,
-          "bytes": 99436
+          "bytes": 147994,
+          "quality": 84
         },
         {
-          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1280.webp",
+          "src": "/media/roofing-heroes/dublin-replacement-client-1280.webp",
           "width": 1280,
-          "bytes": 174394
+          "bytes": 259696,
+          "quality": 84
         },
         {
-          "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
-          "width": 1672,
-          "bytes": 216034
+          "src": "/media/roofing-heroes/dublin-replacement-client-1600.webp",
+          "width": 1600,
+          "bytes": 272870,
+          "quality": 76
         }
       ],
-      "originalBytes": 2977704,
-      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
-      "originalFile": "output/imagegen/roofing-heroes/roof-replacement-dublin-oh.png"
+      "previousIllustration": {
+        "route": "/roof-replacement-dublin-oh/",
+        "slug": "roof-replacement-dublin-oh",
+        "family": "replacement",
+        "service": "Roof Replacement",
+        "city": "Dublin",
+        "prompt": "Use case: premium full-bleed roofing-service website hero photograph. Produce one ultra-wide landscape image, 16:9 aspect ratio. Photorealistic architectural editorial photography, refined natural light, realistic roofing geometry, forest green and warm neutral palette. Put the most important roof subject on the right half; keep the left half visually simpler for a white headline and forest-green overlay. No people, faces, text, logos, watermarks, badges, diagrams, collage, decorative typography, giant mansions or invented city landmarks. This is illustrative architectural imagery, never a documentary client job. Subject: A complete residential roof replacement visual: beautiful freshly installed charcoal asphalt shingles on a modest two-story gabled home, crisp ridge and valley details, some clean construction materials safely staged on ground far right, no people. Distinct scene for Roof Replacement in Dublin, Ohio. Environmental variation: gentle late-autumn daylight.",
+        "status": "generated",
+        "objectPosition": "70% center",
+        "generatedFile": "C:\\Users\\drenf\\.codex\\generated_images\\01a14a9f-9bc3-7c13-818d-0a11374b44af\\exec-ca5f16d0-923a-4b53-a3ef-121c8af9990c.png",
+        "assets": [
+          {
+            "src": "/media/roofing-heroes/roof-replacement-dublin-oh-640.webp",
+            "width": 640,
+            "bytes": 45516
+          },
+          {
+            "src": "/media/roofing-heroes/roof-replacement-dublin-oh-960.webp",
+            "width": 960,
+            "bytes": 99436
+          },
+          {
+            "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1280.webp",
+            "width": 1280,
+            "bytes": 174394
+          },
+          {
+            "src": "/media/roofing-heroes/roof-replacement-dublin-oh-1672.webp",
+            "width": 1672,
+            "bytes": 216034
+          }
+        ],
+        "originalBytes": 2977704,
+        "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
+        "originalFile": "output/imagegen/roofing-heroes/roof-replacement-dublin-oh.png"
+      }
     },
     {
       "route": "/roofing-calculator/",

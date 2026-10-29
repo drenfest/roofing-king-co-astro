@@ -70,3 +70,9 @@ ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience use
 OfferLayout composes shared PageHero, Breadcrumbs, ContentSection, MediaContentRow, ArticleChecklist, FAQSection, ResourceLinks and QuoteSection for nine financing/warranty/seasonal pages. It preserves URLs, disabled forms and native no-JS content.
 
 Existing authored Service, Product, BlogPosting and BreadcrumbList scripts feed the shared structured-data compiler. The final document has one graph, not duplicate per-layout/per-component entities. WebSite, business and canonical page IDs are stable and linked. Keep source schema facts in the layouts/components; the compiler normalizes and enriches them from rendered content.
+
+
+PolishedServicePage reviewPresentation accepts optional stormTitle/stormDescription for reviewed service-specific callouts. Batch 02 roofing pages use roofing language; Batch 01 and unreviewed fallback behavior are preserved.
+
+
+Batch 03 reviewPresentation supports optional materialsTitle so commercial credentials do not fall through to gutter language. Budget detail cards retain their original IDs when former sections are grouped into the estimate band. Manufacturer sections remain absent on pages with no brandIds.

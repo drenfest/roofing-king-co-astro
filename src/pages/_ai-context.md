@@ -125,3 +125,6 @@ service-areas.astro owns the native coverage directory, shared map, searchable c
 All /offers/ routes are excluded from the catchall. offers/index.astro is the native grouped hub; offers/[offer].astro renders nine authored offer pages, while gaf-system-plus.astro retains the existing detailed warranty page.
 
 robots.txt.ts advertises the production /sitemap.xml while preserving Disallow: / for review. The sitemap is generated into dist at build completion, not maintained as a static source list.
+
+
+Homepage and Past Projects continue to reuse the same complete ProjectGallery. The shared library now includes all unique supplied photos; Past Projects uses its reference-aware description. Gallery filters/search keep job, material, inspection, company and unrelated reference subjects distinguishable without adding routes.

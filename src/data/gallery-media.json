@@ -233,24 +233,6 @@
       }
     ]
   },
-  "/media/wordpress/3a28a503f27b-e4aa26ec-2586-476d-b487-1f7e45b92d05.jpg": {
-    "width": 970,
-    "height": 546,
-    "variants": [
-      {
-        "src": "/media/gallery/5574c23921c7-480.webp",
-        "width": 480
-      },
-      {
-        "src": "/media/gallery/5574c23921c7-800.webp",
-        "width": 800
-      },
-      {
-        "src": "/media/gallery/5574c23921c7-1280.webp",
-        "width": 970
-      }
-    ]
-  },
   "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg": {
     "width": 970,
     "height": 546,
@@ -482,6 +464,1528 @@
       {
         "src": "/media/gallery/762c0c8dd6ed-1280.webp",
         "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp": {
+    "width": 1290,
+    "height": 842,
+    "variants": [
+      {
+        "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-1088.webp": {
+    "width": 3024,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/at-the-building-exterior-5fcb2b6f32-1088.webp",
+        "width": 1088
+      }
+    ]
+  },
+  "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-1280.webp": {
+    "width": 1283,
+    "height": 645,
+    "variants": [
+      {
+        "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp": {
+    "width": 5472,
+    "height": 3648,
+    "variants": [
+      {
+        "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp",
+        "width": 1088
+      }
+    ]
+  },
+  "/media/client-gallery/rooflines-at-sunset-737899ca49-1280.webp": {
+    "width": 1283,
+    "height": 798,
+    "variants": [
+      {
+        "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/rooflines-at-sunset-737899ca49-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-1280.webp": {
+    "width": 1283,
+    "height": 762,
+    "variants": [
+      {
+        "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-1280.webp": {
+    "width": 1283,
+    "height": 829,
+    "variants": [
+      {
+        "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/roof-shapes-across-adjoining-homes-cc6371f363-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-1280.webp": {
+    "width": 1283,
+    "height": 905,
+    "variants": [
+      {
+        "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/brick-buildings-and-window-details-3ac260f803-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-924.webp": {
+    "width": 1283,
+    "height": 1604,
+    "variants": [
+      {
+        "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/underlayment-around-roof-vents-36bea958f3-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-1280.webp": {
+    "width": 1283,
+    "height": 1660,
+    "variants": [
+      {
+        "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-1280.webp": {
+    "width": 1283,
+    "height": 680,
+    "variants": [
+      {
+        "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/the-roof-king-team-outdoors-4402f0ae40-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-1170.webp": {
+    "width": 1170,
+    "height": 1963,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/a-smaller-member-of-the-team-24d274edd7-1170.webp",
+        "width": 1170
+      }
+    ]
+  },
+  "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-1009.webp": {
+    "width": 1009,
+    "height": 1216,
+    "variants": [
+      {
+        "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/the-roofline-at-the-end-of-the-day-34c18dd0ca-1009.webp",
+        "width": 1009
+      }
+    ]
+  },
+  "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp": {
+    "width": 1283,
+    "height": 1131,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+        "width": 1088
+      }
+    ]
+  },
+  "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-924.webp": {
+    "width": 1283,
+    "height": 1414,
+    "variants": [
+      {
+        "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-1280.webp": {
+    "width": 1283,
+    "height": 930,
+    "variants": [
+      {
+        "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-1280.webp": {
+    "width": 1283,
+    "height": 907,
+    "variants": [
+      {
+        "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/adjoining-roofs-and-yards-e9789b5abf-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp": {
+    "width": 1283,
+    "height": 1230,
+    "variants": [
+      {
+        "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp": {
+    "width": 1283,
+    "height": 1097,
+    "variants": [
+      {
+        "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-1280.webp": {
+    "width": 1283,
+    "height": 1257,
+    "variants": [
+      {
+        "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/an-overhead-roof-view-from-roof-king-463cfbe8ee-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/skylights-within-the-roof-86e473674d-924.webp": {
+    "width": 1283,
+    "height": 1256,
+    "variants": [
+      {
+        "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/skylights-within-the-roof-86e473674d-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-924.webp": {
+    "width": 3024,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-924.webp",
+        "width": 924
+      }
+    ]
+  },
+  "/media/client-gallery/an-interior-color-reference-88075665c0-1207.webp": {
+    "width": 1207,
+    "height": 1150,
+    "variants": [
+      {
+        "src": "/media/client-gallery/an-interior-color-reference-88075665c0-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/an-interior-color-reference-88075665c0-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/an-interior-color-reference-88075665c0-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/an-interior-color-reference-88075665c0-1207.webp",
+        "width": 1207
+      }
+    ]
+  },
+  "/media/client-gallery/the-whole-roof-and-property-161d011535-948.webp": {
+    "width": 948,
+    "height": 690,
+    "variants": [
+      {
+        "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/the-whole-roof-and-property-161d011535-948.webp",
+        "width": 948
+      }
+    ]
+  },
+  "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-1280.webp": {
+    "width": 3024,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/on-the-roof-at-sunset-25c810bab4-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-800.webp": {
+    "width": 800,
+    "height": 555,
+    "variants": [
+      {
+        "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-554.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-554.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-lifted-shingle-layer-7ebe1b4cdf-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-576.webp": {
+    "width": 576,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-576.webp",
+        "width": 576
+      }
+    ]
+  },
+  "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-554.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/shingle-creases-near-the-fasteners-bf6f5d121d-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-425.webp": {
+    "width": 425,
+    "height": 524,
+    "variants": [
+      {
+        "src": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-425.webp",
+        "width": 425
+      }
+    ]
+  },
+  "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-500.webp": {
+    "width": 500,
+    "height": 305,
+    "variants": [
+      {
+        "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/decking-beneath-the-shingle-layers-b4adcb693b-500.webp",
+        "width": 500
+      }
+    ]
+  },
+  "/media/client-gallery/a-closer-look-at-exposed-roof-boards-cf289f6f1e-270.webp": {
+    "width": 270,
+    "height": 480,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-closer-look-at-exposed-roof-boards-cf289f6f1e-270.webp",
+        "width": 270
+      }
+    ]
+  },
+  "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-840.webp": {
+    "width": 840,
+    "height": 630,
+    "variants": [
+      {
+        "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/removing-the-old-roof-covering-f3ec0c5707-840.webp",
+        "width": 840
+      }
+    ]
+  },
+  "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-1080.webp": {
+    "width": 1080,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-1080.webp",
+        "width": 1080
+      }
+    ]
+  },
+  "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-850.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/timbertex-ridge-cap-appearance-f3feba6d8b-850.webp",
+        "width": 850
+      }
+    ]
+  },
+  "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-850.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/seal-a-ridge-ridge-cap-appearance-8e80636075-850.webp",
+        "width": 850
+      }
+    ]
+  },
+  "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-1000.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/starter-strip-and-shingle-detail-a2fbae8d3b-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-1000.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-1000.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/timberline-natural-shadow-roof-appearance-d6ac96452f-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-1000.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/rolling-out-roof-deck-protection-3eec5e37f6-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-1280.webp": {
+    "width": 2500,
+    "height": 1663,
+    "variants": [
+      {
+        "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/feltbuster-underlayment-installation-77052954ae-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-550.webp": {
+    "width": 550,
+    "height": 550,
+    "variants": [
+      {
+        "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/timberline-hdz-material-reference-37d4972b23-550.webp",
+        "width": 550
+      }
+    ]
+  },
+  "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-533.webp": {
+    "width": 533,
+    "height": 324,
+    "variants": [
+      {
+        "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/gaf-roofing-brochure-reference-13c7105758-533.webp",
+        "width": 533
+      }
+    ]
+  },
+  "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-862.webp": {
+    "width": 862,
+    "height": 647,
+    "variants": [
+      {
+        "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/buckled-and-displaced-siding-courses-02a28fc5c6-862.webp",
+        "width": 862
+      }
+    ]
+  },
+  "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-687.webp": {
+    "width": 687,
+    "height": 384,
+    "variants": [
+      {
+        "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-687.webp",
+        "width": 687
+      }
+    ]
+  },
+  "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp",
+        "width": 870
+      }
+    ]
+  },
+  "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-640.webp": {
+    "width": 640,
+    "height": 480,
+    "variants": [
+      {
+        "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/shingle-surface-texture-up-close-8580b7e11b-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-800.webp": {
+    "width": 940,
+    "height": 650,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-paint-splatter-art-reference-c8a6b39710-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-640.webp": {
+    "width": 640,
+    "height": 362,
+    "variants": [
+      {
+        "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/client-gallery/standing-seam-metal-at-a-dormer-9a0149f6d9-275.webp": {
+    "width": 275,
+    "height": 183,
+    "variants": [
+      {
+        "src": "/media/client-gallery/standing-seam-metal-at-a-dormer-9a0149f6d9-275.webp",
+        "width": 275
+      }
+    ]
+  },
+  "/media/client-gallery/metal-panels-during-installation-09f36df8d3-300.webp": {
+    "width": 300,
+    "height": 168,
+    "variants": [
+      {
+        "src": "/media/client-gallery/metal-panels-during-installation-09f36df8d3-300.webp",
+        "width": 300
+      }
+    ]
+  },
+  "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-500.webp": {
+    "width": 500,
+    "height": 500,
+    "variants": [
+      {
+        "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/designer-shingle-roof-appearance-e9daf36196-500.webp",
+        "width": 500
+      }
+    ]
+  },
+  "/media/client-gallery/a-weathered-roof-surface-373f5d8548-576.webp": {
+    "width": 576,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-weathered-roof-surface-373f5d8548-576.webp",
+        "width": 576
+      }
+    ]
+  },
+  "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-554.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/chalk-marked-shingle-creases-11a30052d3-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-554.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/lifting-a-three-tab-shingle-for-inspection-d97d50c0a4-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-870.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/inspecting-the-fastener-area-04eda1dc6e-870.webp",
+        "width": 870
+      }
+    ]
+  },
+  "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-1280.webp": {
+    "width": 1600,
+    "height": 1023,
+    "variants": [
+      {
+        "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/tile-courses-across-a-finished-roof-e074176e60-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/placing-roof-tiles-c226b70c55-500.webp": {
+    "width": 500,
+    "height": 333,
+    "variants": [
+      {
+        "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/placing-roof-tiles-c226b70c55-500.webp",
+        "width": 500
+      }
+    ]
+  },
+  "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-960.webp": {
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/slate-across-an-intricate-roofline-41de6b803c-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-1280.webp": {
+    "width": 2119,
+    "height": 1192,
+    "variants": [
+      {
+        "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/slate-texture-and-overlapping-courses-d43ae52ab3-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-1024.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/roll-roofing-beside-a-shingle-slope-649b13a3cb-1024.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-1088.webp": {
+    "width": 1088,
+    "height": 605,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/a-low-slope-roof-beside-solar-panels-4ce419e9f2-1088.webp",
+        "width": 1088
+      }
+    ]
+  },
+  "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-1024.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/membrane-roofing-and-parapets-941f9eeb30-1024.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-768.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/membrane-seams-and-rooftop-vents-48fa670a3c-768.webp",
+        "width": 768
+      }
+    ]
+  },
+  "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-652.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/three-tab-shingles-and-roof-vents-1ce6c021a3-652.webp",
+        "width": 652
+      }
+    ]
+  },
+  "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-1024.webp": {
+    "width": 1024,
+    "height": 682,
+    "variants": [
+      {
+        "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/weathered-wood-shake-roof-courses-c357e4f40b-1024.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "/media/client-gallery/cedar-shake-texture-d94ffec705-1000.webp": {
+    "width": 1000,
+    "height": 750,
+    "variants": [
+      {
+        "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/cedar-shake-texture-d94ffec705-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-gallery/curling-shingle-edges-14c7499ecd-600.webp": {
+    "width": 600,
+    "height": 398,
+    "variants": [
+      {
+        "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/curling-shingle-edges-14c7499ecd-600.webp",
+        "width": 600
+      }
+    ]
+  },
+  "/media/client-gallery/severely-curled-roof-shingles-ae09af281a-448.webp": {
+    "width": 448,
+    "height": 336,
+    "variants": [
+      {
+        "src": "/media/client-gallery/severely-curled-roof-shingles-ae09af281a-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/severely-curled-roof-shingles-ae09af281a-448.webp",
+        "width": 448
+      }
+    ]
+  },
+  "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-870.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/architectural-shingles-across-a-roof-slope-df3c2ce370-870.webp",
+        "width": 870
+      }
+    ]
+  },
+  "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-870.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/a-lifted-tab-at-the-fastening-point-ac3b585cc6-870.webp",
+        "width": 870
+      }
+    ]
+  },
+  "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "/media/client-gallery/an-exhaust-vent-at-the-roof-surface-4be266a956-275.webp": {
+    "width": 275,
+    "height": 183,
+    "variants": [
+      {
+        "src": "/media/client-gallery/an-exhaust-vent-at-the-roof-surface-4be266a956-275.webp",
+        "width": 275
+      }
+    ]
+  },
+  "/media/client-gallery/several-roof-ventilation-outlets-8f34254a7e-316.webp": {
+    "width": 316,
+    "height": 160,
+    "variants": [
+      {
+        "src": "/media/client-gallery/several-roof-ventilation-outlets-8f34254a7e-316.webp",
+        "width": 316
+      }
+    ]
+  },
+  "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-686.webp": {
+    "width": 686,
+    "height": 503,
+    "variants": [
+      {
+        "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-gallery/dents-around-a-skylight-curb-de541f9e8b-686.webp",
+        "width": 686
+      }
+    ]
+  },
+  "/media/client-gallery/an-open-skylight-on-a-tile-roof-bcc2556adc-275.webp": {
+    "width": 275,
+    "height": 183,
+    "variants": [
+      {
+        "src": "/media/client-gallery/an-open-skylight-on-a-tile-roof-bcc2556adc-275.webp",
+        "width": 275
       }
     ]
   }

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "generator": "image_gen.imagegen",
+  "type": "Illustrative images, not customer project or employee photographs",
+  "promptDescriptions": {
+    "siding-sheathing-repair": "Photoreal editorial landscape 3:2 detail of siding removed beside a window, exposing plywood wall sheathing with localized moisture damage and sound neighboring wood; natural daylight; no people, text or logos.",
+    "window-wall-flashing": "Photoreal editorial landscape 3:2 window with partially installed gray lap siding, exposed unbranded weather barrier, black flashing tape and metal head flashing; realistic construction layers; no text or branding.",
+    "seamless-gutter-fabrication": "Photoreal editorial landscape 3:2 white continuous K-style gutter emerging from a portable roll-forming machine in a work trailer, supported by a stand; mechanically plausible; no people, text or branding.",
+    "localized-siding-damage": "Photoreal editorial landscape 3:2 pale-gray lap siding with small impact cracks and a broken corner across two courses; intact surrounding wall; realistic limited damage, natural daylight, no people or branding.",
+    "fascia-roof-edge-repair": "Photoreal editorial landscape 3:2 removed gutter exposing localized rotten fascia next to sound wood; asphalt shingles, drip edge, soffit and siding visible; actual-looking construction rather than cutaway; no text or branding.",
+    "gutter-overflow-debris": "Photoreal editorial landscape 3:2 wet leaves obstructing a white K-style gutter outlet during ordinary rainfall, modest spill over its front lip and connected downspout visible; realistic undramatic setting; no people or branding.",
+    "commercial-wall-preparation": "Photoreal editorial landscape 3:2 modest commercial office wall with partial cladding removal around a window, showing weathered sheathing, new unbranded weather barrier and head flashing; no people, text or logos.",
+    "commercial-access-planning": "Photoreal editorial landscape 3:2 commercial clad building entrance, exterior light and blank sign mount, tidy material staging separated by temporary barriers from a clear pedestrian route; no people or logos.",
+    "siding-surface-care": "Photoreal editorial landscape 3:2 close-up gray lap siding gently washed with a soft brush and soapy water; one gloved hand only; no pressure washer, face, text or logos.",
+    "commercial-cladding-records": "Photoreal editorial landscape 3:2 tan commercial lap wall beside an exterior light, gloved hands holding a plain clipboard and small matching profile/color sample; crisp wall and fixture joint; paper indistinct and unreadable; no faces or logos."
+  },
+  "originals": "output/imagegen/service-review-01/*.png",
+  "webAssets": "public/media/service-review-01/",
+  "optimization": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "format": "WebP",
+    "quality": "Adaptive 80 down to 50 as needed",
+    "maxBytes": 110000,
+    "resize": "No enlargement",
+    "lazy": true
+  },
+  "references": [
+    "https://www.jameshardie.com/blog/for-siding-pros/tips-for-installing-james-hardie-lap-siding/",
+    "https://vinylsiding.org/wp-content/uploads/2021/08/VSI_Architectural_Specifications_Book.pdf",
+    "https://bergerbp.com/wp-content/uploads/2022/07/propergutterdownspoutsizing.pdf",
+    "https://bergerbp.com/resource/titanguard-installation-and-warranty/"
+  ],
+  "referenceUse": "Background for added explanatory topics only; does not claim these brands or products are installed by Roof King."
+}

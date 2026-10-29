@@ -1,0 +1,3157 @@
+{
+  "batch": "02",
+  "date": "2026-10-21",
+  "status": "Revised and visually checked; ready for local review",
+  "pages": [
+    {
+      "route": "/roofing/repair/",
+      "service": "Roof repair",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Trace the leak before deciding on the repair",
+        "The roof areas and materials included in the repair",
+        "When replacement deserves consideration",
+        "Cost depends on the failing detail"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roof Repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Common roof repairs"
+        },
+        {
+          "level": 3,
+          "text": "Shingles and the layers beneath them"
+        },
+        {
+          "level": 3,
+          "text": "Pipe boots and vents"
+        },
+        {
+          "level": 3,
+          "text": "Chimneys, walls and valleys"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Trace the leak before deciding on the repair"
+        },
+        {
+          "level": 2,
+          "text": "The roof areas and materials included in the repair"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "When replacement deserves consideration"
+        },
+        {
+          "level": 2,
+          "text": "Cost depends on the failing detail"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "Signs You Need Roof Repair in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 2,
+          "text": "Roof repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Request a repair assessment"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Finding the roof entry point behind a ceiling leak",
+        "How a roof repair connects to the surrounding roof",
+        "Roof repair or replacement: what the inspection changes",
+        "What a Columbus roof repair estimate should include"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-67-3",
+          "heading": "Exposing damaged decking beneath the repair",
+          "topics": [
+            "Exposing damaged decking beneath the repair"
+          ],
+          "image": "/media/service-review-02/roof-deck-repair-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-67-3",
+          "heading": "Reconnecting a pipe boot with the shingle courses",
+          "topics": [
+            "Reconnecting a pipe boot with the shingle courses"
+          ],
+          "image": "/media/service-review-02/roof-pipe-boot-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-67-3",
+          "heading": "Restoring flashing where the roof meets a wall or chimney",
+          "topics": [
+            "Restoring flashing where the roof meets a wall or chimney"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roof repair in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Roof leaks, missing shingles and flashing repairs"
+        },
+        {
+          "level": 3,
+          "text": "Damaged shingles and the roof layers beneath them"
+        },
+        {
+          "level": 3,
+          "text": "Leaking pipe boots and roof vents"
+        },
+        {
+          "level": 3,
+          "text": "Chimney flashing, wall junctions and roof valleys"
+        },
+        {
+          "level": 3,
+          "text": "Hail or wind damage to your roof?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roof repair: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Finding the roof entry point behind a ceiling leak"
+        },
+        {
+          "level": 2,
+          "text": "How a roof repair connects to the surrounding roof"
+        },
+        {
+          "level": 3,
+          "text": "Exposing damaged decking beneath the repair"
+        },
+        {
+          "level": 3,
+          "text": "Reconnecting a pipe boot with the shingle courses"
+        },
+        {
+          "level": 3,
+          "text": "Restoring flashing where the roof meets a wall or chimney"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Roof repair or replacement: what the inspection changes"
+        },
+        {
+          "level": 2,
+          "text": "What a Columbus roof repair estimate should include"
+        },
+        {
+          "level": 3,
+          "text": "Roof repair financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "Signs You Need Roof Repair in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 2,
+          "text": "Roof repair questions"
+        },
+        {
+          "level": 2,
+          "text": "Book a roof repair inspection in Columbus"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 19,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 4,
+      "retainedParagraphHashes": [
+        "be7cb0c06954bcfb52e0c6492c0a9f6e1307480121a335c47a0a26b3cd1b71e6",
+        "e9b9d9209317daf18a755379c7c1aee8ecf7f113e442a6b8ccdbe1f7c49ead7c",
+        "9156c2f92f2b3eccf10fca8272704a6fcf655481339a5ed2d9e7a3eb0782a5e4",
+        "7e2f790fdd53ec4ef72203a84c1e14e9e40f4b287f896305ae6be9f1e3274b5b"
+      ]
+    },
+    {
+      "route": "/roofing/replacement/",
+      "service": "Roof replacement",
+      "beforeH2": 13,
+      "beforeCoreHeadings": [
+        "Choose the complete roofing system",
+        "What happens beneath the new roof",
+        "Plan access, protection and cleanup",
+        "Compare what is behind the total"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roof Replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Establish why replacement is being recommended"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Choose the complete roofing system"
+        },
+        {
+          "level": 2,
+          "text": "What happens beneath the new roof"
+        },
+        {
+          "level": 3,
+          "text": "Remove the existing covering and assess the deck"
+        },
+        {
+          "level": 3,
+          "text": "Prepare the water-shedding layers"
+        },
+        {
+          "level": 3,
+          "text": "Restore flashing, edges and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Install the covering and address ventilation"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Plan access, protection and cleanup"
+        },
+        {
+          "level": 2,
+          "text": "Compare what is behind the total"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan your replacement roof"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Choosing shingles or metal for a complete roof replacement",
+        "Roof replacement: decking, flashing and ventilation",
+        "Protecting entrances, landscaping and access during replacement",
+        "Comparing roof replacement estimates in Columbus"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-68-3",
+          "heading": "Preparing the deck and protective roof layers",
+          "topics": [
+            "Remove the existing covering and assess the deck",
+            "Prepare the water-shedding layers"
+          ],
+          "image": "/media/service-review-02/roof-underlayment-edge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-68-3",
+          "heading": "Restore flashing, edges and penetrations",
+          "topics": [
+            "Restore flashing, edges and penetrations"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-68-3",
+          "heading": "Install the covering and address ventilation",
+          "topics": [
+            "Install the covering and address ventilation"
+          ],
+          "image": "/media/service-review-02/roof-ridge-vent-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roof replacement in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "When a Columbus roof needs replacement"
+        },
+        {
+          "level": 3,
+          "text": "Roof condition, recurring leaks and repair alternatives"
+        },
+        {
+          "level": 3,
+          "text": "Hail or wind damage to your roof?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Choosing shingles or metal for a complete roof replacement"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement: decking, flashing and ventilation"
+        },
+        {
+          "level": 3,
+          "text": "Preparing the deck and protective roof layers"
+        },
+        {
+          "level": 4,
+          "text": "Remove the existing covering and assess the deck"
+        },
+        {
+          "level": 4,
+          "text": "Prepare the water-shedding layers"
+        },
+        {
+          "level": 3,
+          "text": "Restore flashing, edges and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Install the covering and address ventilation"
+        },
+        {
+          "level": 2,
+          "text": "Protecting entrances, landscaping and access during replacement"
+        },
+        {
+          "level": 2,
+          "text": "Comparing roof replacement estimates in Columbus"
+        },
+        {
+          "level": 3,
+          "text": "Roof replacement financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan your Columbus roof replacement"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 17,
+      "afterH4": 2,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "b7ab929c165b21b183030657826cf870451f6052cc9f738c70f419d5eb153c22",
+        "45c7395733511a1cf76667e10bd53838ff9bdb3eedcba3526653f6b8035c2656",
+        "efeb51fd96c0ec466cb9cdf12997a92af6cdb3c0bacb1b68af46bd9cb29c973e",
+        "853962e1327b00e6269a471c02e8a80c2cac86f42dd1949d37b7dcf82a6fc17f",
+        "bc35048e93438daa73c2d9acd988781525ffa5a5d7763c0bed86ce74e14173ec",
+        "560117f4ba6c314d1df3df903c061dec1a18d4070b3e4450a24206d25c5eaebe",
+        "fcc2ba9aec8e8418728d0c922790c204dfe991180bb4724a44af9f1ff7d0e31c"
+      ]
+    },
+    {
+      "route": "/roofing/types/",
+      "service": "Roofing material",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Metal roofing",
+        "Compare the details that affect the whole project",
+        "Read performance claims at the product level"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roofing Materials in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Asphalt shingles"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Metal roofing"
+        },
+        {
+          "level": 2,
+          "text": "Compare the details that affect the whole project"
+        },
+        {
+          "level": 3,
+          "text": "Appearance"
+        },
+        {
+          "level": 3,
+          "text": "Roof configuration"
+        },
+        {
+          "level": 3,
+          "text": "Preparation and installation"
+        },
+        {
+          "level": 3,
+          "text": "Care and later repairs"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Read performance claims at the product level"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Material selection questions"
+        },
+        {
+          "level": 2,
+          "text": "Bring the material choice into the replacement plan"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Metal roofing profiles, seams and attachment",
+        "Comparing roofing materials for your roof’s shape and upkeep",
+        "Roofing specifications, coverage and the installed estimate"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-69-3",
+          "heading": "Matching the material to the house and roof configuration",
+          "topics": [
+            "Roof appearance beside siding and masonry",
+            "Roof slope, valleys and adjoining roof areas"
+          ],
+          "image": "/media/service-review-02/complex-roof-valleys-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-69-3",
+          "heading": "Roof preparation and installed project cost",
+          "topics": [
+            "Roof preparation and installed project cost"
+          ],
+          "image": "/media/service-review-02/roof-underlayment-edge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-69-3",
+          "heading": "Material records, maintenance and later repairs",
+          "topics": [
+            "Material records, maintenance and later repairs"
+          ],
+          "image": "/media/service-review-02/roof-plan-review-1200.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roofing materials for Columbus homes"
+        },
+        {
+          "level": 2,
+          "text": "Asphalt shingles: appearance and roof-system components"
+        },
+        {
+          "level": 3,
+          "text": "Architectural shingles and the supporting roof assembly"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roofing material: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Metal roofing profiles, seams and attachment"
+        },
+        {
+          "level": 2,
+          "text": "Comparing roofing materials for your roof’s shape and upkeep"
+        },
+        {
+          "level": 3,
+          "text": "Matching the material to the house and roof configuration"
+        },
+        {
+          "level": 4,
+          "text": "Roof appearance beside siding and masonry"
+        },
+        {
+          "level": 4,
+          "text": "Roof slope, valleys and adjoining roof areas"
+        },
+        {
+          "level": 3,
+          "text": "Roof preparation and installed project cost"
+        },
+        {
+          "level": 3,
+          "text": "Material records, maintenance and later repairs"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Roofing specifications, coverage and the installed estimate"
+        },
+        {
+          "level": 3,
+          "text": "Roofing material financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Roofing material questions"
+        },
+        {
+          "level": 2,
+          "text": "Compare roofing materials for your Columbus home"
+        }
+      ],
+      "afterH2": 9,
+      "afterH3": 16,
+      "afterH4": 2,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "e6236b2224d44f54afa67cd69ebdefe4ce04cc0234a8911594b0c0da82fea0ec",
+        "fa506db14ebce444f172de09118dfcf3f26dbd4cd68fcd10377f3d0360227ac4",
+        "fc77ffdc584b14ef44318621babd0783467e499d6dd305cfc86b505dd4feb47f",
+        "68c715ed571db6e63cda562133dbd5626dbb93b18b983e66a4a9d5451ecf1d09",
+        "8c83d355a8eedbac86bd23cea28a8c83478da2e426b6374eeffb75af5fdba976",
+        "1e264312873d2796cd956d81725ad2d6ccfb9412a48e198194478504ec9c7a9d",
+        "160d5e1f8f200610f6a8f9fc89feae990e5f61856f2a1bb07df066a75ee89c07"
+      ]
+    },
+    {
+      "route": "/roofing/metal/",
+      "service": "Metal roofing",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "The installation beneath and around the panels",
+        "Compare metal and shingles as complete roofs",
+        "Select the finish from exact product information",
+        "Plan for upkeep and future work"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Metal Roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Understand the panel system being proposed"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "The installation beneath and around the panels"
+        },
+        {
+          "level": 3,
+          "text": "Existing roof and deck"
+        },
+        {
+          "level": 3,
+          "text": "Underlayment and fastening"
+        },
+        {
+          "level": 3,
+          "text": "Flashing, edges and penetrations"
+        },
+        {
+          "level": 2,
+          "text": "Compare metal and shingles as complete roofs"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Select the finish from exact product information"
+        },
+        {
+          "level": 2,
+          "text": "Plan for upkeep and future work"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Metal roof profiles, colors and details"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does a Roof Last in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 2,
+          "text": "Metal roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Compare a metal roof for your home"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Metal roof installation: deck, attachment and flashing",
+        "Comparing metal roofing with GAF shingles",
+        "Metal roof colors, finishes and product performance",
+        "Metal roof maintenance and written installation terms"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-66-2",
+          "heading": "Existing roof and deck",
+          "topics": [
+            "Existing roof and deck"
+          ],
+          "image": "/media/service-review-02/roof-deck-repair-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-66-2",
+          "heading": "Underlayment and fastening",
+          "topics": [
+            "Underlayment and fastening"
+          ],
+          "image": "/media/service-review-02/metal-roof-preparation-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-66-2",
+          "heading": "Flashing, edges and penetrations",
+          "topics": [
+            "Flashing, edges and penetrations"
+          ],
+          "image": "/media/service-review-02/metal-roof-flashing-1200.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Metal roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Standing-seam and exposed-fastener metal roofing"
+        },
+        {
+          "level": 3,
+          "text": "Panel seams, visible fasteners and movement"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Metal roofing: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Metal roof installation: deck, attachment and flashing"
+        },
+        {
+          "level": 3,
+          "text": "Existing roof and deck"
+        },
+        {
+          "level": 3,
+          "text": "Underlayment and fastening"
+        },
+        {
+          "level": 3,
+          "text": "Flashing, edges and penetrations"
+        },
+        {
+          "level": 2,
+          "text": "Comparing metal roofing with GAF shingles"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Metal roof colors, finishes and product performance"
+        },
+        {
+          "level": 2,
+          "text": "Metal roof maintenance and written installation terms"
+        },
+        {
+          "level": 3,
+          "text": "Metal roofing financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Long Does a Roof Last in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 2,
+          "text": "Metal roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss metal roofing for your Columbus home"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 6,
+      "retainedParagraphHashes": [
+        "4e1e534c24907f65e4cf11db598129896ddad747aa00a42309de4e6088bc0a3e",
+        "56b6313af4bbc9389bfa594c36fac78bd5d55d3f5501d88f978e3e3d05d35ffe",
+        "2564e9566046f5645f65d9aa48b125d4704193ee59af8159febdfab87a164fde",
+        "d5dde7bb87dabe328e79f0a138f7a78a940a925a45369cdc42ca7a3812aaef34",
+        "cfb322f8a4d0ac6a665018463667641f4dc57dd206eddb0696b14085594893eb",
+        "80491269c197673c9802c58e96f256880c2b85646c1825bf57004a84134494e1"
+      ]
+    },
+    {
+      "route": "/roofing/gaf/",
+      "service": "GAF roofing",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "The parts around the shingles matter",
+        "Connect the product selection to the installation",
+        "Understand the contractor designation",
+        "Confirm the warranty for your selected system"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "GAF Roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Start with the shingle style and color"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite Roofing Contractor"
+        },
+        {
+          "level": 3,
+          "text": "Compare GAF Shingle Styles & Colors"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "The parts around the shingles matter"
+        },
+        {
+          "level": 3,
+          "text": "Deck and underlayment"
+        },
+        {
+          "level": 3,
+          "text": "Starter and ridge details"
+        },
+        {
+          "level": 3,
+          "text": "Flashing and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Ventilation"
+        },
+        {
+          "level": 2,
+          "text": "Connect the product selection to the installation"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Understand the contractor designation"
+        },
+        {
+          "level": 2,
+          "text": "Confirm the warranty for your selected system"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "GAF roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Put the product and installation in one proposal"
+        }
+      ],
+      "afterCoreHeadings": [
+        "GAF roof-system components beneath and around the shingles",
+        "Planning GAF tear-off, preparation and installation",
+        "What GAF Master Elite certification means for your project",
+        "GAF roof warranties, registration and your written estimate"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-64-2",
+          "heading": "Roof decking, underlayment and leak barriers",
+          "topics": [
+            "Roof decking, underlayment and leak barriers"
+          ],
+          "image": "/media/service-review-02/roof-underlayment-edge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-64-2",
+          "heading": "Starter and ridge details with attic airflow",
+          "topics": [
+            "Starter strips and ridge-cap shingles",
+            "Attic intake and exhaust ventilation"
+          ],
+          "image": "/media/service-review-02/roof-ridge-vent-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-64-2",
+          "heading": "Chimney, wall and vent flashing",
+          "topics": [
+            "Chimney, wall and vent flashing"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "GAF roofing in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "GAF shingle choices and a verified installer"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite certification and your installation"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingle profiles, colors and specifications"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "GAF roofing: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "GAF roof-system components beneath and around the shingles"
+        },
+        {
+          "level": 3,
+          "text": "Roof decking, underlayment and leak barriers"
+        },
+        {
+          "level": 3,
+          "text": "Starter and ridge details with attic airflow"
+        },
+        {
+          "level": 4,
+          "text": "Starter strips and ridge-cap shingles"
+        },
+        {
+          "level": 4,
+          "text": "Attic intake and exhaust ventilation"
+        },
+        {
+          "level": 3,
+          "text": "Chimney, wall and vent flashing"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Planning GAF tear-off, preparation and installation"
+        },
+        {
+          "level": 2,
+          "text": "What GAF Master Elite certification means for your project"
+        },
+        {
+          "level": 2,
+          "text": "GAF roof warranties, registration and your written estimate"
+        },
+        {
+          "level": 3,
+          "text": "GAF roofing financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "GAF roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Plan a GAF roof installation in Columbus"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 17,
+      "afterH4": 2,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "9d46bf1e54af13bc4d577c57d3d4c8e6f01a4e9ea38ca473eac9b98120f8e47b",
+        "eec14d3462c4ccdccea97d3eb1b77e213fdf13ab7bb2c77ab1269bd43d9529d0",
+        "4aee30097536b8c0c53e0f3f6a9c67c3d950419cda785870b7bc0ef7b32e017f",
+        "043c551dee8545ab9e9e645a9477f3efad0dce06630107aa075c23396fba8325",
+        "5ec42d595622c7a1e5731601ed4cd53ccd2a0e1b3c1f8f9a24aced7366067174",
+        "1205a2b73acb301ef1268c195bc596f87bc5f0ce1c2835d3b6e0a7d1468dd102",
+        "e4f42d081b52ccc0d4be1f609c1eef3729387d424f83d394e42d3fbfc9790150"
+      ]
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "service": "GAF Master Elite",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Why Golden Pledge® Makes a Difference",
+        "A Contractor Held to GAF’s Program Requirements",
+        "Build the Roof That Qualifies for Your Protection",
+        "Choose the GAF Warranty for Your Roof",
+        "Your GAF Roof Estimate and Warranty"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "The Benefits of a GAF Master Elite® Roofer"
+        },
+        {
+          "level": 2,
+          "text": "The Benefits of Hiring a GAF Master Elite® Contractor"
+        },
+        {
+          "level": 3,
+          "text": "Golden Pledge® Access"
+        },
+        {
+          "level": 3,
+          "text": "50-Year Defect Protection Period"
+        },
+        {
+          "level": 3,
+          "text": "GAF-Backed Workmanship Coverage"
+        },
+        {
+          "level": 3,
+          "text": "Qualifications You Can Verify"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Why Golden Pledge® Makes a Difference"
+        },
+        {
+          "level": 3,
+          "text": "Protection for the roofing system"
+        },
+        {
+          "level": 3,
+          "text": "Help with covered installation errors"
+        },
+        {
+          "level": 2,
+          "text": "A Contractor Held to GAF’s Program Requirements"
+        },
+        {
+          "level": 3,
+          "text": "Insurance and business qualifications"
+        },
+        {
+          "level": 3,
+          "text": "Continuing education"
+        },
+        {
+          "level": 3,
+          "text": "A current, independent listing"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Build the Roof That Qualifies for Your Protection"
+        },
+        {
+          "level": 3,
+          "text": "Choose the shingles you want"
+        },
+        {
+          "level": 3,
+          "text": "Include the supporting components"
+        },
+        {
+          "level": 2,
+          "text": "Choose the GAF Warranty for Your Roof"
+        },
+        {
+          "level": 3,
+          "text": "System Plus®"
+        },
+        {
+          "level": 3,
+          "text": "Silver Pledge™"
+        },
+        {
+          "level": 3,
+          "text": "Golden Pledge®"
+        },
+        {
+          "level": 2,
+          "text": "Your GAF Roof Estimate and Warranty"
+        },
+        {
+          "level": 3,
+          "text": "Registration and your warranty documents"
+        },
+        {
+          "level": 3,
+          "text": "Manufacturer coverage and Roof King coverage"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Understand Your GAF Roofing Benefits"
+        },
+        {
+          "level": 2,
+          "text": "Get More From Your New GAF Roof"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Golden Pledge® benefits for materials and installation",
+        "GAF Master Elite requirements you can verify",
+        "Choosing a roof system that qualifies for your GAF warranty",
+        "System Plus®, Silver Pledge™ and Golden Pledge® compared",
+        "Your Master Elite roof estimate and warranty documents"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "gaf-complete-system",
+          "heading": "Shingle profiles, colors and qualifying product choices",
+          "topics": [
+            "Shingle profiles, colors and qualifying product choices"
+          ],
+          "image": "/media/service-review-02/gaf-timberline-hdz-barkwood-600.webp"
+        },
+        {
+          "sectionId": "gaf-complete-system",
+          "heading": "Underlayment, leak barriers and supporting accessories",
+          "topics": [
+            "Underlayment, leak barriers and supporting accessories"
+          ],
+          "image": "/media/service-review-02/roof-underlayment-edge-1200.webp"
+        },
+        {
+          "sectionId": "gaf-complete-system",
+          "heading": "Ridge caps and ventilation in the proposed system",
+          "topics": [
+            "Ridge caps and ventilation in the proposed system"
+          ],
+          "image": "/media/service-review-02/roof-ridge-vent-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "The benefits of a GAF Master Elite® roofer"
+        },
+        {
+          "level": 2,
+          "text": "What hiring a GAF Master Elite® contractor gives you"
+        },
+        {
+          "level": 3,
+          "text": "Access to Golden Pledge® protection"
+        },
+        {
+          "level": 3,
+          "text": "The eligible 50-year defect-protection period"
+        },
+        {
+          "level": 3,
+          "text": "Manufacturer-backed installation-error coverage"
+        },
+        {
+          "level": 3,
+          "text": "Contractor qualifications you can verify"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "GAF Master Elite: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Golden Pledge® benefits for materials and installation"
+        },
+        {
+          "level": 3,
+          "text": "Protection for the roofing system"
+        },
+        {
+          "level": 3,
+          "text": "Help with covered installation errors"
+        },
+        {
+          "level": 2,
+          "text": "GAF Master Elite requirements you can verify"
+        },
+        {
+          "level": 3,
+          "text": "Insurance and business qualifications"
+        },
+        {
+          "level": 3,
+          "text": "Continuing education"
+        },
+        {
+          "level": 3,
+          "text": "A current, independent listing"
+        },
+        {
+          "level": 2,
+          "text": "Choosing a roof system that qualifies for your GAF warranty"
+        },
+        {
+          "level": 3,
+          "text": "Shingle profiles, colors and qualifying product choices"
+        },
+        {
+          "level": 3,
+          "text": "Underlayment, leak barriers and supporting accessories"
+        },
+        {
+          "level": 3,
+          "text": "Ridge caps and ventilation in the proposed system"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "System Plus®, Silver Pledge™ and Golden Pledge® compared"
+        },
+        {
+          "level": 3,
+          "text": "System Plus®"
+        },
+        {
+          "level": 3,
+          "text": "Silver Pledge™"
+        },
+        {
+          "level": 3,
+          "text": "Golden Pledge®"
+        },
+        {
+          "level": 2,
+          "text": "Your Master Elite roof estimate and warranty documents"
+        },
+        {
+          "level": 3,
+          "text": "Registration and your warranty documents"
+        },
+        {
+          "level": 3,
+          "text": "Manufacturer coverage and Roof King coverage"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "GAF Master Elite questions"
+        },
+        {
+          "level": 2,
+          "text": "Discuss the GAF protection available for your roof"
+        }
+      ],
+      "afterH2": 11,
+      "afterH3": 29,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 24,
+      "retainedParagraphHashes": [
+        "81a759c81ec51a54f1d400df747f8dca0d3e6a73e9f75061b9c9e4e2a4409f3d",
+        "2edf8664d25ed81fa272a9049656367a3a1e15ff3c881c5a1e455d89d1fce4d7",
+        "fb08b6fb970d86806f44e0a34abd176e620d17ea45f1727d3ef5906073c0f59c",
+        "95e7300d5f9f2abcd7e628771aff02414ae22bd6d887df790658ce0c32430007",
+        "a1213955d92c92d705c7d4b9ba4e4a369761adbdc8a913ee0ed8ce807471f580",
+        "04a781167631334e0e7b7572bbcd049ae69093749849ae9e053e3f951bdcd756",
+        "c149baaa672b80bb83716c974ecd3ff4edea66c0ebbf646845ed3dd6b04e2263",
+        "28de915df61f4a420fc429f5e824aeed9b923bdc1888ece5f9aaef19fe30c24b",
+        "44f61e70c9b20f238e5e4691dda5111efd27e1b2d767f3662aa5e79e4a0fcf0d",
+        "e92d825d90de341944840560298150579392de10d42cf41f7630f2a699cf7c27",
+        "5142e2b28671d8980d4eeb508c2c5c6ed1cac9ec0278468968c55e3dfaba1c1c",
+        "cabd7b1bfc0f0f8efe9a4bd777d9c448808b0bb0af6789bc9c28fa9132eac9de",
+        "4818498cf834f3583c382e25a9b8face4ebf437addcefe4703f712844e00bc9b",
+        "cf49d4ff6bd9afd7cffa7ebbf346824ba7674fb764fec0c003a1605bd6205f97",
+        "9440114ad1cd128f63dc9a33788aa8a72d597f73b6dbf7b5fb15ab61dff3fca6",
+        "514c8c9af02be0604ef647aff8220d229afe52ae3b59ddac74cef65b0547778e",
+        "2b42fb59ac25858b8fd561f313074038b96320f53cb6e7bc9bfba48837cf5840",
+        "5856cde775bc105c05363deeacc00db5b0a68906f2cdbecd5b529b51709a5c6f",
+        "02405524159d5b2319735044564d9ca2419e406c2f2dfc044ad842b606072769",
+        "4be3783551e552e09becc7746305885eb3ebafdcc9586af8b2778fb3abce2e15",
+        "8821507c96b4553a963875adba1c9fe63360a060f482c4e6a6da858923e6d08d",
+        "aee50c2e9848669873316d0c097945674d92c829294b994696d8dac3263e367c",
+        "b2e2261e0217e3ef807a82b2bfe8d9f77548ac5cb37b2aa146df9f46914082ce",
+        "d84def9a91b9f464694d180889ebe870b76812bbd2651a5e74fadb1902728f90"
+      ]
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "service": "Roof replacement cost",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Understand the main price drivers",
+        "Compare two installation examples",
+        "Read allowances and exclusions",
+        "Use a calculator as a starting point"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roof Replacement Costs in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Start with roof area, not the floor area of the house"
+        },
+        {
+          "level": 2,
+          "text": "Hail or Wind Damage to Your Home?"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Compare two installation examples"
+        },
+        {
+          "level": 3,
+          "text": "A straightforward roof replacement"
+        },
+        {
+          "level": 3,
+          "text": "A roof with more connections and concealed work"
+        },
+        {
+          "level": 2,
+          "text": "Read allowances and exclusions"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Use a calculator as a starting point"
+        },
+        {
+          "level": 2,
+          "text": "Understand the main price drivers"
+        },
+        {
+          "level": 3,
+          "text": "Roof shape and access"
+        },
+        {
+          "level": 3,
+          "text": "Removal and the supporting surface"
+        },
+        {
+          "level": 3,
+          "text": "Covering and accessories"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "Signs You Need Roof Repair in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Roof cost questions"
+        },
+        {
+          "level": 2,
+          "text": "Get a measured replacement estimate"
+        }
+      ],
+      "afterCoreHeadings": [
+        "What changes the price of a Columbus roof replacement",
+        "Why similar-size roofs can have different replacement costs",
+        "Roof replacement allowances, exclusions and approved changes",
+        "Using a roof calculator before a measured estimate"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-24-3",
+          "heading": "A straightforward roof replacement",
+          "topics": [
+            "A straightforward roof replacement"
+          ],
+          "image": "/media/service-review-02/simple-gable-roof-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-24-3",
+          "heading": "A roof with more connections and concealed work",
+          "topics": [
+            "A roof with more connections and concealed work"
+          ],
+          "image": "/media/service-review-02/complex-roof-valleys-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-24-3",
+          "heading": "Changing the roofing material on the same house",
+          "topics": [
+            "Changing the roofing material on the same house"
+          ],
+          "image": "/media/service-review-02/roof-material-samples-1200.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roof replacement costs in Columbus, OH"
+        },
+        {
+          "level": 2,
+          "text": "Roof area, roofing squares and replacement cost"
+        },
+        {
+          "level": 3,
+          "text": "Measuring the sloped roof surface, including garages and additions"
+        },
+        {
+          "level": 3,
+          "text": "Hail or wind damage to your roof?"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement cost: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "What changes the price of a Columbus roof replacement"
+        },
+        {
+          "level": 3,
+          "text": "Roof shape and access"
+        },
+        {
+          "level": 3,
+          "text": "Removal and the supporting surface"
+        },
+        {
+          "level": 3,
+          "text": "Covering and accessories"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Why similar-size roofs can have different replacement costs"
+        },
+        {
+          "level": 3,
+          "text": "A straightforward roof replacement"
+        },
+        {
+          "level": 3,
+          "text": "A roof with more connections and concealed work"
+        },
+        {
+          "level": 3,
+          "text": "Changing the roofing material on the same house"
+        },
+        {
+          "level": 2,
+          "text": "Using a roof calculator before a measured estimate"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement allowances, exclusions and approved changes"
+        },
+        {
+          "level": 3,
+          "text": "Roof replacement cost financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 3,
+          "text": "Signs You Need Roof Repair in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Roof replacement cost questions"
+        },
+        {
+          "level": 2,
+          "text": "Request a measured roof replacement estimate"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 20,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "1bd2def42722d830c0384fe3611465b0079b900bc1e018f6053a78eb71c3cb2a",
+        "936685194f57be77e8836b5add50bb465f31a17cce6b9f728d5cd918cb34130e",
+        "3304eb3428415ab6ab5915a60e7b543a63fbcebcb676b8a231363a5b1357347e",
+        "949bb9922948388535d8c50d9424ea5c04cf9f9f1251f63abca2d9d3480d796b",
+        "3fd5e9e8e0fc98f5c7a4acd1a736dfc6be7bf8406d75087920846dbee6b1d362",
+        "6d59b0af46767e0372ae61e6b21b1990ba6cf3d9c23abbee2ecdb6d8fd397e8a",
+        "b7124ace291c16c4b73f64090d9e19fef08d686e12aac8107d4a6d61ec880615"
+      ]
+    },
+    {
+      "route": "/roof-calculator/",
+      "service": "Roof estimate",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "Check that the result describes the intended roof",
+        "Understand what the estimate can and cannot establish",
+        "Keep the details that explain your result",
+        "From an online estimate to a roofing proposal"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roof Estimate Calculator"
+        },
+        {
+          "level": 2,
+          "text": "Start your estimate"
+        },
+        {
+          "level": 2,
+          "text": "Get your instant roof estimate"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Check that the result describes the intended roof"
+        },
+        {
+          "level": 2,
+          "text": "Keep the details that explain your result"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "From an online estimate to a roofing proposal"
+        },
+        {
+          "level": 2,
+          "text": "Understand what the estimate can and cannot establish"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Estimator questions"
+        },
+        {
+          "level": 2,
+          "text": "Need help with a roof estimate?"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Checking the house, garage and roof areas in your result",
+        "What an online roof estimate cannot inspect",
+        "Saving your roof estimate result and selected options",
+        "From an online result to a written roofing proposal"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-59-3",
+          "heading": "Deck condition beneath the existing shingles",
+          "topics": [
+            "Deck condition beneath the existing shingles"
+          ],
+          "image": "/media/service-review-02/roof-deck-repair-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-59-3",
+          "heading": "Flashing connections at chimneys and roof penetrations",
+          "topics": [
+            "Flashing connections at chimneys and roof penetrations"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-59-3",
+          "heading": "Exact roofing products and compatible accessories",
+          "topics": [
+            "Exact roofing products and compatible accessories"
+          ],
+          "image": "/media/service-review-02/roof-material-samples-1200.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roof estimate calculator"
+        },
+        {
+          "level": 2,
+          "text": "Start a roof estimate with the right property details"
+        },
+        {
+          "level": 3,
+          "text": "Property address, intended roof areas and help with the estimator"
+        },
+        {
+          "level": 2,
+          "text": "Get your instant roof estimate"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roof estimate: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Checking the house, garage and roof areas in your result"
+        },
+        {
+          "level": 2,
+          "text": "What an online roof estimate cannot inspect"
+        },
+        {
+          "level": 3,
+          "text": "Deck condition beneath the existing shingles"
+        },
+        {
+          "level": 3,
+          "text": "Flashing connections at chimneys and roof penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Exact roofing products and compatible accessories"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Saving your roof estimate result and selected options"
+        },
+        {
+          "level": 2,
+          "text": "From an online result to a written roofing proposal"
+        },
+        {
+          "level": 3,
+          "text": "Roof estimate financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Roof estimate questions"
+        },
+        {
+          "level": 2,
+          "text": "Get help with your roof estimate result"
+        }
+      ],
+      "afterH2": 11,
+      "afterH3": 15,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 5,
+      "retainedParagraphHashes": [
+        "1e9bf799aebfc846a5438475dff7b1c2091056e9788bba78ee26caf607af9745",
+        "b70d489bf05796fb7ec3ccd880b684ae4cf219caee8c036691d70970d2a9b3a5",
+        "da720f0a0ae2dbc2d251a35512d4f0ff46f888e1a7cff2b807219258439e7b18",
+        "76fba4719e2fa2c8eb58d00b4f47a6be1f941a5262372a7d9efd010d904cb8e5",
+        "4090c7202d82661524146e8827e4fb2c6a9663d657eb8cd63185cd496edcacc1"
+      ]
+    },
+    {
+      "route": "/roofing-calculator/",
+      "service": "Roofing cost planning",
+      "beforeH2": 11,
+      "beforeCoreHeadings": [
+        "Compare results with the same assumptions",
+        "Why the measured proposal can change",
+        "Calculator questions"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "Roofing Cost Calculator"
+        },
+        {
+          "level": 2,
+          "text": "Use the calculator, then review the roofing details"
+        },
+        {
+          "level": 2,
+          "text": "Get your instant roof estimate"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Compare results with the same assumptions"
+        },
+        {
+          "level": 2,
+          "text": "Calculator questions"
+        },
+        {
+          "level": 3,
+          "text": "Does the calculator lock a price?"
+        },
+        {
+          "level": 3,
+          "text": "Does it include a financing or insurance decision?"
+        },
+        {
+          "level": 3,
+          "text": "What should I do if the result seems different from another quote?"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Why the measured proposal can change"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Five questions to ask about an estimate"
+        },
+        {
+          "level": 2,
+          "text": "Move from a budget to a roofing plan"
+        }
+      ],
+      "afterCoreHeadings": [
+        "Comparing roof estimates with the same areas and materials",
+        "Why a measured roofing proposal can differ from the calculator",
+        "Price, financing and insurance questions after a roof estimate"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-62-2",
+          "heading": "Keep the roof areas and connection details consistent",
+          "topics": [
+            "Keep the roof areas and connection details consistent"
+          ],
+          "image": "/media/service-review-02/complex-roof-valleys-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-62-2",
+          "heading": "Compare the same covering and accessory choices",
+          "topics": [
+            "Compare the same covering and accessory choices"
+          ],
+          "image": "/media/service-review-02/roof-material-samples-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-62-2",
+          "heading": "Separate assumed preparation from confirmed repairs",
+          "topics": [
+            "Separate assumed preparation from confirmed repairs"
+          ],
+          "image": "/media/service-review-02/roof-deck-repair-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "Roofing cost calculator"
+        },
+        {
+          "level": 2,
+          "text": "Reviewing and comparing roofing calculator results"
+        },
+        {
+          "level": 3,
+          "text": "Record the estimator choices before comparing prices"
+        },
+        {
+          "level": 2,
+          "text": "Get your instant roof estimate"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Roofing cost planning: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "Comparing roof estimates with the same areas and materials"
+        },
+        {
+          "level": 3,
+          "text": "Keep the roof areas and connection details consistent"
+        },
+        {
+          "level": 3,
+          "text": "Compare the same covering and accessory choices"
+        },
+        {
+          "level": 3,
+          "text": "Separate assumed preparation from confirmed repairs"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Price, financing and insurance questions after a roof estimate"
+        },
+        {
+          "level": 3,
+          "text": "When the construction price is confirmed"
+        },
+        {
+          "level": 3,
+          "text": "Financing and insurance decisions are separate"
+        },
+        {
+          "level": 3,
+          "text": "Explaining differences from another roofing quote"
+        },
+        {
+          "level": 2,
+          "text": "Why a measured roofing proposal can differ from the calculator"
+        },
+        {
+          "level": 3,
+          "text": "Roofing cost planning financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does Roof Repair Cost in Dublin, OH"
+        },
+        {
+          "level": 3,
+          "text": "How Much Does a Roof Replacement Cost in Dublin, OH?"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Roofing cost planning questions"
+        },
+        {
+          "level": 2,
+          "text": "Compare your roof budget with a measured proposal"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 18,
+      "afterH4": 0,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 6,
+      "retainedParagraphHashes": [
+        "e9096b76fc67470a06df8e43ad8e0ebef6b96d63f7009ce1704b32cd6fd6c0ac",
+        "818509147628e5749eb76dc321f3685c801217cfebd721c2fabc93c3c47824e3",
+        "755e615c1d814b96d06affabc1fb33fb4b9038b4537eec5e66c1f07a5abc1bfd",
+        "0dc789800b21dfcdc9ff20d8ee1fdc3788aa1738caec7c9e2c548f66282e42b7",
+        "668ff9d2b739c76dd5b9757ba9e43b9c73972d7c99dd5f1cc86f657650e5e083",
+        "35e825afa5b8e84220a2e2a618ee2bf4c2e559e871c8f6e5d8c3f4e5f4175a8b"
+      ]
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "service": "Dublin GAF roofing",
+      "beforeH2": 12,
+      "beforeCoreHeadings": [
+        "The parts around the shingles matter",
+        "Connect the product selection to the installation",
+        "Understand the contractor designation",
+        "Confirm the warranty for your selected system"
+      ],
+      "beforeOutline": [
+        {
+          "level": 1,
+          "text": "GAF Roofing in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Start with the shingle style and color"
+        },
+        {
+          "level": 2,
+          "text": "Hear From Roof King Customers"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Know the Team. Know the Work."
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "The parts around the shingles matter"
+        },
+        {
+          "level": 3,
+          "text": "Deck and underlayment"
+        },
+        {
+          "level": 3,
+          "text": "Starter and ridge details"
+        },
+        {
+          "level": 3,
+          "text": "Flashing and penetrations"
+        },
+        {
+          "level": 3,
+          "text": "Ventilation"
+        },
+        {
+          "level": 2,
+          "text": "Connect the product selection to the installation"
+        },
+        {
+          "level": 2,
+          "text": "Explore the Brands Behind the Materials"
+        },
+        {
+          "level": 2,
+          "text": "Understand the contractor designation"
+        },
+        {
+          "level": 2,
+          "text": "Confirm the warranty for your selected system"
+        },
+        {
+          "level": 2,
+          "text": "Included in Roofing Estimates"
+        },
+        {
+          "level": 3,
+          "text": "Financing Options"
+        },
+        {
+          "level": 2,
+          "text": "Roofing, from preparation to the finished roof"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "GAF roofing questions"
+        },
+        {
+          "level": 2,
+          "text": "Put the product and installation in one proposal"
+        }
+      ],
+      "afterCoreHeadings": [
+        "GAF roof-system details for Dublin homes",
+        "Planning tear-off, deliveries and roof access in Dublin",
+        "Verifying your Dublin roofer’s GAF Master Elite designation",
+        "Your Dublin GAF estimate, warranty and registration"
+      ],
+      "paragraphsRetained": true,
+      "photoPairs": [
+        {
+          "sectionId": "service-copy-42-2",
+          "heading": "Roof decking and leak-barrier preparation",
+          "topics": [
+            "Roof decking and leak-barrier preparation"
+          ],
+          "image": "/media/service-review-02/roof-underlayment-edge-1200.webp"
+        },
+        {
+          "sectionId": "service-copy-42-2",
+          "heading": "Roof ridges, starter details and attic airflow",
+          "topics": [
+            "Starter strips and ridge-cap shingles",
+            "Attic intake and exhaust ventilation"
+          ],
+          "image": "/media/service-review-02/roof-ridge-vent-1000.webp"
+        },
+        {
+          "sectionId": "service-copy-42-2",
+          "heading": "Flashing at chimneys and adjoining walls",
+          "topics": [
+            "Flashing at chimneys and adjoining walls"
+          ],
+          "image": "/media/service-review-02/chimney-step-flashing-1000.webp"
+        }
+      ],
+      "notes": [
+        "All original section paragraphs and links retained.",
+        "Three photos explicitly mapped to the opposing heading and paragraph(s).",
+        "Manufacturer strip is a subordinate H3 in a relevant material section.",
+        "One explicit estimate section; service-specific reassurance and booking headings."
+      ],
+      "afterOutline": [
+        {
+          "level": 1,
+          "text": "GAF roofing in Dublin, OH"
+        },
+        {
+          "level": 2,
+          "text": "Choosing GAF shingles for a Dublin home"
+        },
+        {
+          "level": 3,
+          "text": "Shingle profiles and colors beside your Dublin home’s exterior"
+        },
+        {
+          "level": 2,
+          "text": "Customer reviews of Roof King’s roofing work"
+        },
+        {
+          "level": 3,
+          "text": "Communication and scheduling"
+        },
+        {
+          "level": 3,
+          "text": "Roof installation and cleanup"
+        },
+        {
+          "level": 3,
+          "text": "Guidance through the insurance process"
+        },
+        {
+          "level": 2,
+          "text": "Dublin GAF roofing: contractor credentials and workmanship"
+        },
+        {
+          "level": 3,
+          "text": "GAF Master Elite®"
+        },
+        {
+          "level": 3,
+          "text": "BBB Accredited"
+        },
+        {
+          "level": 3,
+          "text": "Workmanship coverage"
+        },
+        {
+          "level": 2,
+          "text": "GAF roof-system details for Dublin homes"
+        },
+        {
+          "level": 3,
+          "text": "Roof decking and leak-barrier preparation"
+        },
+        {
+          "level": 3,
+          "text": "Roof ridges, starter details and attic airflow"
+        },
+        {
+          "level": 4,
+          "text": "Starter strips and ridge-cap shingles"
+        },
+        {
+          "level": 4,
+          "text": "Attic intake and exhaust ventilation"
+        },
+        {
+          "level": 3,
+          "text": "Flashing at chimneys and adjoining walls"
+        },
+        {
+          "level": 3,
+          "text": "GAF shingles and roof-system products"
+        },
+        {
+          "level": 2,
+          "text": "Planning tear-off, deliveries and roof access in Dublin"
+        },
+        {
+          "level": 2,
+          "text": "Verifying your Dublin roofer’s GAF Master Elite designation"
+        },
+        {
+          "level": 2,
+          "text": "Your Dublin GAF estimate, warranty and registration"
+        },
+        {
+          "level": 3,
+          "text": "Dublin GAF roofing financing"
+        },
+        {
+          "level": 2,
+          "text": "Roofing photos from Roof King’s existing library"
+        },
+        {
+          "level": 2,
+          "text": "Roofing articles"
+        },
+        {
+          "level": 3,
+          "text": "Should I Go with GAF Shingles for My Roof Replacement?"
+        },
+        {
+          "level": 3,
+          "text": "Replacing Your Roof in Columbus: Why Hiring Experts Is the Best Choice"
+        },
+        {
+          "level": 3,
+          "text": "The 5 Step Roofing Process"
+        },
+        {
+          "level": 3,
+          "text": "How to Know If You Need a Roof Repair or Roof Replacement"
+        },
+        {
+          "level": 2,
+          "text": "Dublin GAF roofing questions for Dublin homeowners"
+        },
+        {
+          "level": 2,
+          "text": "Plan your Dublin GAF roof and installation"
+        }
+      ],
+      "afterH2": 10,
+      "afterH3": 16,
+      "afterH4": 2,
+      "photoReviewedAt": "2026-10-21",
+      "retainedParagraphs": 7,
+      "retainedParagraphHashes": [
+        "9d46bf1e54af13bc4d577c57d3d4c8e6f01a4e9ea38ca473eac9b98120f8e47b",
+        "eec14d3462c4ccdccea97d3eb1b77e213fdf13ab7bb2c77ab1269bd43d9529d0",
+        "4aee30097536b8c0c53e0f3f6a9c67c3d950419cda785870b7bc0ef7b32e017f",
+        "043c551dee8545ab9e9e645a9477f3efad0dce06630107aa075c23396fba8325",
+        "5ec42d595622c7a1e5731601ed4cd53ccd2a0e1b3c1f8f9a24aced7366067174",
+        "1205a2b73acb301ef1268c195bc596f87bc5f0ce1c2835d3b6e0a7d1468dd102",
+        "e4f42d081b52ccc0d4be1f609c1eef3729387d424f83d394e42d3fbfc9790150"
+      ]
+    }
+  ],
+  "remainingPages": 63,
+  "errors": [],
+  "unreviewedPageDataUnchanged": true,
+  "validation": {
+    "fullVerify": true,
+    "photoPairChecks": true,
+    "requiredAttributes": true,
+    "schema": true,
+    "sitemap": true,
+    "browserChecks": 40,
+    "noJavaScriptChecks": 10,
+    "widths": [
+      1440,
+      820,
+      390,
+      320
+    ],
+    "visualReview": "Every desktop photo section and desktop/mobile hero; mobile paired sections checked. Actual GAF sample replaces generic metal-inclusive sample on Master Elite.",
+    "sourceParagraphsRetained": true,
+    "unreviewedPageDataUnchanged": true
+  },
+  "photoReview": {
+    "pages": 10,
+    "pairedRows": 30,
+    "newIllustrations": 12,
+    "newIllustrationVariants": 36,
+    "manufacturerImageVariants": 2,
+    "maxBytes": 110000,
+    "provenance": "migration/service-review-02-photo-provenance.json"
+  }
+}

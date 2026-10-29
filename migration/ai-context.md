@@ -90,3 +90,21 @@ GAF System Plus copy checked 2026-10-21 against https://www.gaf.com/en-us/resour
 offers-about-review.md records all eleven rebuilt/checked offer URLs, About-menu audit, official source checks, validation and business terms still needed before publishing numerical promotions or detailed contractual promises.
 
 structured-data-review.md documents the component/schema matrix, stable canonical entities, deliberate exclusions and primary standards sources. The structured-data compiler runs server-side and at final static build; check:schema is part of verify.
+
+
+Batch 01 photo pass completed locally 2026-10-21: ten pages, thirty paired image/topic rows. service-review-batch-01.md/json record page links and pairings; service-section-photo-review.json tracks 10 completed and 111 pending rendered media sections. service-review-01-photo-provenance.json records new illustration descriptions, provenance and optimization. No broad rollout to unreviewed pages.
+
+
+Batch 02 is complete locally: ten roofing/cost/calculator/GAF pages, 30 paired photo rows, 40 responsive browser checks and ten no-JavaScript checks. service-review-batch-02.md/json list topics and review links; service-review-02-photo-provenance.json holds full prompts and image source/optimization records. Total reviewed pages: 20 of 83; 63 remain. Photo inventory is recalculated from current built media sections; reviewed prose/estimate candidates are retained as historical records.
+
+
+Batch 03 is complete locally: five commercial roofing and five storm-damage routes, 30 new photo/copy rows, 40 responsive checks, ten no-JavaScript checks and parent explorer checks. service-review-batch-03.md/json hold the page outlines, review links and preservation audit; service-review-03-photo-provenance.json holds prompts and optimization records. Total: 30 of 83 reviewed; 53 remain. Rendered photo inventory is recalculated after grouping prose and estimate sections.
+
+
+Batch 04 completes ten pages and thirty photo rows, bringing the cycle to 40 of 83 reviewed (43 remain). service-review-batch-04.md/json record outline and preservation checks. client-photography-review.json records Riley’s folder inventory, fourteen selected sources and 24 placements, including one hero; project cities and reference ownership are not inferred. Four undecodable HEIF originals remain offline. service-review-04-photo-provenance.json records the two concealed-attic illustrations and full prompts.
+
+
+Batch 05 completes ten local hub/service pages and thirty paired rows; total 50 of 83 reviewed, 33 remaining. service-review-batch-05.md/json record city-specific purposes, outline/preservation audit and review links. Three hubs retain all eleven services and every local descendant; Cleveland roofing retains its cost-guide child. Twenty-five added supplied-photo placements bring the catalog total to 49, with no invented local project claims. Photo inventory is recalculated from built sections.
+
+
+client-gallery-inventory.json and client-gallery-review.md record the complete 98-image shared collection: 77 unique photographs, nine duplicate/crop aliases, twelve non-photo graphics, source hashes/Drive IDs, inspected subject tags, reference labels and exact derivative byte counts. Four HEIF files previously unavailable in the first selection were decoded for this pass. Historical service-photo placement reports remain unchanged; gallery inclusion does not invent project cities or source ownership.

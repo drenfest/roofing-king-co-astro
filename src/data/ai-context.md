@@ -143,3 +143,21 @@ service-area-directory.ts derives local service descendants from the preserved r
 offer-pages.ts holds distinct financing, warranty and seasonal content plus official source links. Published repayment lengths are discussion options rather than guaranteed approvals or current rate quotes. The client confirmed the 47-dollar promotion; visitors call for APR, financed amount, fees, repayment period and eligibility details. No missing loan values are invented. Existing gallery photos use the responsive media registry. home.json offer cards are aligned with the new payment planning copy.
 
 The Offers branch is labeled Offers & Financing and appears first in the About dropdown on both desktop and mobile. Footer navigation uses the same label; /offers/ and its child destinations are unchanged.
+
+
+service-section-galleries.json maps the ten Batch 01 media sections to three photo/topic pairs each. service-review-media.json registers 480/800/1200 WebP variants from public/media/service-review-01 plus reused siding-guide assets. Changes to reviewed copy are mirrored in service-overrides.json for authoring stability.
+
+
+Batch 02 adds ten roofing routes to reviewed presentation and service-section-galleries. The two calculators have distinct start/result versus comparison purposes. All reviewed source paragraphs and links remain; editorial overrides persist title/hero/heading/FAQ/quote changes and explicit estimate IDs. service-review-media registers twelve new illustrative detail scenes plus a genuine optimized GAF Timberline HDZ sample.
+
+
+Batch 03 adds ten commercial/storm routes to reviewed presentation and section galleries. Every original section paragraph and contextual link remains. Related drainage/assembly and documentation paragraphs are grouped under H3/H4 while old section IDs remain anchors. Commercial presentation sets materialsTitle explicitly; brandless pages do not invent manufacturer relationships. Fourteen new illustrative detail scenes have 42 optimized responsive derivatives in service-review-media.
+
+
+Batch 04 adds ten reviewed routes with three photo/topic rows apiece. Original section paragraphs remain, with ice safety/window-style content grouped beneath opening headings and attic moisture beneath the estimate. service-review-media includes fourteen supplied-photo sources and two attic illustrations. roofing-heroes and roofing-hero-media register one client-photo replacement hero with generated:false and explicit source provenance. Prior commercial opening changes are photos/captions only.
+
+
+Batch 05 reviews ten existing Cincinnati/Cleveland/Dayton routes, including Cleveland roofing/cost-of-replacement. Hubs retain eleven-service selectors and local profiles; planning paragraphs move into estimate subtopics with original IDs. City-service pages have distinct connection, winter-history, documentation and estimate purposes. service-review-media registers nine source-backed landscape photo derivatives and three derivatives of the existing ice illustration. All source paragraphs and contextual links remain; other page data is unchanged.
+
+
+project-gallery.json now contains 103 photos, including all 77 unique supplied photographs, with kind/sourceLabel, subject tags, sourceIds, contain and sort metadata. gallery-media.json registers 265 new WebP variants. project-gallery.ts selects topic-matched service photos, uses a separate painting topic, excludes company-only/unrelated references from local galleries and exposes actual derivative display dimensions. Private Drive IDs stay in server-side authoring data; browser props include captions/tags/type, not sourceIds or original files.

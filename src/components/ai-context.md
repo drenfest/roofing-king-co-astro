@@ -173,3 +173,9 @@ QuoteExperience accepts showInlineForm (default true). False keeps only the shar
 LocationServiceLinks.astro recursively renders local-service branches using native details and actual destination links; no JavaScript is required to browse descendants.
 
 Schema metadata is compiled from rendered component content by scripts/structured-data.mjs. FAQSection questions/answers, CardSection/FeaturedArticles membership and metadata, ServicePaths panels, ProductCard specifications, product collections/companions, ProjectGallery captions/photos, BrandStrip, ServiceAreaMap and BlogNavigation are mapped without adding repeated component-level script blocks. Decorative components and disconnected quote forms do not invent schema entities/actions.
+
+
+SectionPhotoGallery now accepts three image/caption/heading/topics records plus section cards, id and optional reverse. It validates complete unique topic coverage, pairs each image with its own H3 and paragraph(s), retains original card anchors and uses H4s for grouped subtopics. Mobile keeps each image with its copy. ServiceContentBand opts in by route/section mapping; unreviewed sections retain their current layout.
+
+
+ProjectGallery now supports subject search and image-type filtering in addition to service filters and whole-group paging. It visibly labels reference/company/site photos, contains small originals without enlargement and caps lightbox width to the real derivative width. Four desktop/two mobile cards, touch swipe, keyboard controls, reduced motion, lazy images and no-JavaScript full-library links remain.

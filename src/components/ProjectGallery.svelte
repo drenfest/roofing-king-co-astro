@@ -1,11 +1,15 @@
 <script lang="ts">
   import {onMount,tick} from 'svelte';
-  type Photo={context?:Record<string,{caption:string}>;category?:string;caption?:string;src:string;alt:string;tags:string[];width?:number;height?:number;thumbnail:string;srcset:string};
+  type Photo={context?:Record<string,{caption:string}>;category?:string;caption?:string;src:string;alt:string;tags:string[];width?:number;height?:number;thumbnail:string;srcset:string;kind?:string;sourceLabel?:string;contain?:boolean;displayWidth?:number;displayHeight?:number};
   let {id='project-gallery',eyebrow,title,titleEmphasis='',description,filters=[],items,compact=false,fullGalleryHref='/#projects'}:{id?:string;eyebrow:string;title:string;titleEmphasis?:string;description:string;filters?:{label:string;value:string}[];items:Photo[];compact?:boolean;fullGalleryHref?:string}=$props();
   const emphasis=$derived(titleEmphasis&&title.endsWith(titleEmphasis)?titleEmphasis:'');
   let filter=$state('all');let index=$state(0);let page=$state(0);let pageSize=$state(4);let enhanced=$state(false);let opened=$state(false);
   let dialog:HTMLDialogElement;let gridHost:HTMLDivElement;let lastTrigger:HTMLAnchorElement|null=null;
-  let visible=$derived(items.filter(item=>filter==='all'||item.tags.includes(filter)));
+  let search=$state('');let imageType=$state('all');
+  const imageTypes=[{value:'all',label:'All image types'},{value:'supplied',label:'Supplied photos'},{value:'existing',label:'Existing site photos'},{value:'inspection',label:'Inspection references'},{value:'materials',label:'Material references'},{value:'company',label:'Team & company'},{value:'other',label:'Other references'}];
+  function matchesType(item:Photo,value:string){return value==='all'||(value==='materials'?['reference','manufacturer','third-party'].includes(item.kind||''):value==='company'?item.tags.includes('company'):item.kind===value);}
+  const availableTypes=$derived(imageTypes.filter(type=>type.value==='all'||items.some(item=>matchesType(item,type.value))));
+  let visible=$derived(items.filter(item=>(filter==='all'||item.tags.includes(filter))&&matchesType(item,imageType)&&search.trim().toLowerCase().split(/\s+/).every(term=>[item.caption,item.alt,...item.tags.map(tag=>tag.replaceAll('-',' '))].join(' ').toLowerCase().includes(term))));
   let pageCount=$derived(Math.max(1,Math.ceil(visible.length/pageSize)));
   let groups=$derived(Array.from({length:pageCount},(_,i)=>visible.slice(i*pageSize,(i+1)*pageSize)));
   let photo=$derived(visible[index]);
@@ -14,6 +18,7 @@
   function captionFor(item:Photo){return item.context?.[activeTopic]?.caption||item.caption||item.alt;}
   let touchX=0,touchY=0,swiped=false;
   function setFilter(value:string){filter=value;page=0;index=0;if(gridHost)gridHost.style.minHeight='';}
+  function resetPage(){page=0;index=0;if(gridHost)gridHost.style.minHeight='';}
   async function changePage(delta:number){
     const next=Math.max(0,Math.min(pageCount-1,page+delta));if(next===page)return;
     gridHost.style.minHeight=gridHost.getBoundingClientRect().height+'px';page=next;await tick();
@@ -39,13 +44,15 @@
   <div class="rk-section-inner">
     <header class="rk-gallery-editorial-heading"><p class="rk-home-eyebrow">{eyebrow}</p><h2>{emphasis?title.slice(0,-emphasis.length):title}{#if emphasis}<em>{emphasis}</em>{/if}</h2><p class="rk-gallery-description">{description}</p></header>
     {#if filters.length>1}<div class="rk-gallery-toolbar"><div class="rk-gallery-filters" role="group" aria-label="Filter gallery by service">{#each filters as option}<button type="button" class:is-active={filter===option.value} aria-pressed={filter===option.value} disabled={!enhanced} onclick={()=>setFilter(option.value)}>{option.label}</button>{/each}</div></div>{/if}
+    <div class="rk-gallery-search-tools"><label>Find a photo<input type="search" bind:value={search} oninput={resetPage} disabled={!enhanced} placeholder="Try shingles, skylights or team"/></label><label>Image type<select bind:value={imageType} onchange={resetPage} disabled={!enhanced}>{#each availableTypes as type}<option value={type.value}>{type.label}</option>{/each}</select></label>{#if search||imageType!=='all'}<button type="button" class="rk-gallery-clear" onclick={()=>{search='';imageType='all';resetPage();}}>Clear search</button>{/if}</div>
     <div class="rk-gallery-pages" bind:this={gridHost} role="group" aria-label="Gallery photo groups. Swipe or use the group controls to browse." ontouchstart={touchStart} ontouchend={touchEnd}>
       {#each groups as group,pageIndex}
         <div class="rk-project-gallery-masonry rk-gallery-page" hidden={pageIndex!==page} role="group" aria-roledescription="slide" aria-label={'Photo group '+(pageIndex+1)+' of '+pageCount}>
-          {#each group as item,i (item.src)}<a title={"Enlarge: "+item.alt} class="rk-gallery-lightbox-link rk-project-gallery-item" href={item.src} onclick={event=>open(event,pageIndex*pageSize+i)} aria-label={'Enlarge: '+item.alt}><figure><div class="rk-gallery-photo"><img src={item.thumbnail} srcset={item.srcset||undefined} sizes="(max-width:760px) calc(100vw - 2.5rem), 48vw" alt={item.alt} width={item.width} height={item.height} loading="lazy" decoding="async"/></div><figcaption><span class="rk-gallery-category">{categoryFor(item)}</span><span class="rk-gallery-caption">{captionFor(item)}<svg viewBox="0 0 32 24" width="30" height="24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M2 12h26M20 4l8 8-8 8"/></svg></span></figcaption></figure></a>{/each}
+          {#each group as item,i (item.src)}<a title={"Enlarge: "+item.alt} class="rk-gallery-lightbox-link rk-project-gallery-item" href={item.src} onclick={event=>open(event,pageIndex*pageSize+i)} aria-label={'Enlarge: '+item.alt} data-photo-kind={item.kind}><figure><div class="rk-gallery-photo" class:rk-gallery-contained={item.contain}><img src={item.thumbnail} srcset={item.srcset||undefined} sizes={item.displayWidth&&item.displayWidth<480?item.displayWidth+'px':'(max-width:760px) calc(100vw - 2.5rem), 48vw'} alt={item.alt} width={item.width} height={item.height} style:max-width={item.displayWidth?item.displayWidth+'px':undefined} loading="lazy" decoding="async"/></div><figcaption><span class="rk-gallery-category">{categoryFor(item)}</span><span class="rk-gallery-caption">{captionFor(item)}<svg viewBox="0 0 32 24" width="30" height="24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M2 12h26M20 4l8 8-8 8"/></svg></span><span class="rk-gallery-source">{item.sourceLabel||'Existing site photo'}{#if item.displayWidth&&item.displayWidth<800} · Small original{/if}</span></figcaption></figure></a>{/each}
         </div>
       {/each}
     </div>
+    {#if visible.length===0}<p class="rk-gallery-empty" role="status">No photos match these filters. Try another service, image type or search.</p>{/if}
     <noscript><details class="rk-gallery-fallback"><summary>Browse all {items.length} photos</summary><ul>{#each items as item}<li><a title={item.caption||item.alt} href={item.src}>{item.caption||item.alt}</a></li>{/each}</ul></details></noscript>
     <div class="rk-gallery-editorial-footer"><p aria-live="polite" aria-atomic="true">{visible.length} photos{#if pageCount>1} · Group {page+1} of {pageCount}{/if}</p>
       {#if enhanced&&pageCount>1}<div class="rk-gallery-pagination" role="group" aria-label="Browse photo groups"><button type="button" onclick={()=>changePage(-1)} disabled={page===0} aria-label="Previous photo group">←</button><span aria-hidden="true">{page+1} / {pageCount}</span><button type="button" onclick={()=>changePage(1)} disabled={page===pageCount-1} aria-label="Next photo group">→</button></div>{/if}
@@ -53,7 +60,7 @@
     </div>
   </div>
 </section>
-<dialog class="rk-native-lightbox" bind:this={dialog} aria-label="Gallery image" onclose={restore} onkeydown={keyboard} onclick={event=>{if(event.target===dialog)close();}}><button class="rk-lightbox-close" type="button" aria-label="Close gallery" onclick={close}>×</button><button class="rk-lightbox-prev" type="button" aria-label="Previous gallery image" onclick={()=>move(-1)}>‹</button><figure class="rk-lightbox-figure">{#if opened&&photo}<img src={photo.src} alt={photo.alt}/><figcaption aria-live="polite">{photo.alt} — {index+1} of {visible.length}</figcaption>{/if}</figure><button class="rk-lightbox-next" type="button" aria-label="Next gallery image" onclick={()=>move(1)}>›</button></dialog>
+<dialog class="rk-native-lightbox" bind:this={dialog} aria-label="Gallery image" onclose={restore} onkeydown={keyboard} onclick={event=>{if(event.target===dialog)close();}}><button class="rk-lightbox-close" type="button" aria-label="Close gallery" onclick={close}>×</button><button class="rk-lightbox-prev" type="button" aria-label="Previous gallery image" onclick={()=>move(-1)}>‹</button><figure class="rk-lightbox-figure">{#if opened&&photo}<img src={photo.src} alt={photo.alt} width={photo.displayWidth||photo.width} height={photo.displayHeight||photo.height} style:max-width={photo.displayWidth?'min(100%, '+photo.displayWidth+'px)':undefined}/><figcaption aria-live="polite">{photo.alt}<span class="rk-lightbox-source">{photo.sourceLabel||'Existing site photo'} · {index+1} of {visible.length}</span></figcaption>{/if}</figure><button class="rk-lightbox-next" type="button" aria-label="Next gallery image" onclick={()=>move(1)}>›</button></dialog>
 
 <style>
 section.rk-editorial-gallery{padding-block:clamp(3.5rem,6vw,6rem);background:var(--rk-paper);color:var(--rk-charcoal);clip-path:none;}
@@ -79,9 +86,20 @@ section.rk-editorial-gallery>.rk-section-inner{width:min(100% - 8vw,1380px);max-
 .rk-editorial-gallery .rk-project-gallery-item:nth-child(4n+3){grid-column:span 4;}
 .rk-editorial-gallery .rk-project-gallery-item:nth-child(4n+4){grid-column:span 8;}
 .rk-project-gallery-item figure{margin:0;}
-.rk-gallery-photo{height:clamp(190px,22vw,310px);overflow:hidden;background:var(--rk-paper-soft);}
+.rk-gallery-photo{display:flex;align-items:center;justify-content:center;height:clamp(190px,22vw,310px);overflow:hidden;background:var(--rk-paper-soft);}
 .rk-editorial-gallery .rk-project-gallery-item img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform var(--rk-motion-panel) var(--rk-motion-ease);}
 .rk-editorial-gallery .rk-project-gallery-item:hover img{transform:scale(1.025);filter:none;}
+.rk-editorial-gallery .rk-gallery-contained img{object-fit:contain;}
+.rk-editorial-gallery .rk-project-gallery-item:hover .rk-gallery-contained img{transform:none;}
+.rk-gallery-source{display:block;margin-top:.5rem;font-size:.74rem;line-height:1.5;color:var(--rk-muted);}
+.rk-lightbox-source{display:block;margin-top:.4rem;font-size:.8rem;color:#d7d1c8;}
+.rk-gallery-search-tools{display:flex;flex-wrap:wrap;align-items:end;gap:1rem 1.5rem;margin:0 0 1.5rem;}
+.rk-gallery-search-tools label{display:grid;gap:.4rem;font-size:.72rem;font-weight:600;letter-spacing:.025em;}
+.rk-gallery-search-tools label:first-child{flex:1;max-width:29rem;min-width:12rem;}
+.rk-gallery-search-tools input,.rk-gallery-search-tools select{width:100%;min-height:44px;padding:.6rem .8rem;border:1px solid var(--rk-line);border-radius:0;background:var(--rk-paper);color:var(--rk-charcoal);font:inherit;font-size:.85rem;font-weight:400;}
+.rk-gallery-search-tools input:focus-visible,.rk-gallery-search-tools select:focus-visible{outline:2px solid var(--rk-orange);outline-offset:3px;}
+.rk-gallery-clear{min-height:44px;border:0;background:none;color:var(--rk-charcoal);font-size:.8rem;text-decoration:underline;text-underline-offset:.3em;cursor:pointer;}
+.rk-gallery-empty{padding:2rem 0;color:var(--rk-muted);}
 .rk-project-gallery-item figcaption{padding-top:1rem;}
 .rk-gallery-category{display:block;margin-bottom:.2rem;color:var(--rk-muted);font-size:.6rem;font-weight:650;letter-spacing:.24em;text-transform:uppercase;}
 .rk-gallery-caption{display:flex;align-items:center;justify-content:space-between;gap:1rem;font-size:clamp(1.15rem,1.9vw,1.7rem);font-weight:500;line-height:1.3;letter-spacing:-.025em;}

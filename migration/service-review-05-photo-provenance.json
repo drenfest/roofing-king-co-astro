@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-28",
+  "newGeneratedImages": 0,
+  "crops": [
+    {
+      "id": "windCrease",
+      "src": "/media/service-review-05/client-windCrease-480.webp",
+      "width": 480,
+      "bytes": 65412,
+      "quality": 84,
+      "sourceId": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windCrease",
+      "src": "/media/service-review-05/client-windCrease-640.webp",
+      "width": 640,
+      "bytes": 103792,
+      "quality": 80,
+      "sourceId": "16hcuOrFIQspzABGbA7Q0CBbxWCILpA-p",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/service-review-05/client-missingLayer-480.webp",
+      "width": 480,
+      "bytes": 75126,
+      "quality": 84,
+      "sourceId": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "missingLayer",
+      "src": "/media/service-review-05/client-missingLayer-640.webp",
+      "width": 640,
+      "bytes": 107696,
+      "quality": 68,
+      "sourceId": "1PHkFPXU8KBNMk9m-D9etH3fGKoOHbo9O",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windArea",
+      "src": "/media/service-review-05/client-windArea-480.webp",
+      "width": 480,
+      "bytes": 67032,
+      "quality": 84,
+      "sourceId": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "windArea",
+      "src": "/media/service-review-05/client-windArea-576.webp",
+      "width": 576,
+      "bytes": 103702,
+      "quality": 84,
+      "sourceId": "1AJ85vVcVxsbf2a8H0rrNgjm9zZw4Pwuk",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-480.webp",
+      "width": 480,
+      "bytes": 40898,
+      "quality": 84,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-800.webp",
+      "width": 800,
+      "bytes": 106438,
+      "quality": 84,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    },
+    {
+      "id": "underlayment",
+      "src": "/media/service-review-05/client-underlayment-1000.webp",
+      "width": 1000,
+      "bytes": 108234,
+      "quality": 72,
+      "sourceId": "1PpcnMRc8Rniqx_Bb4T4ivAx1oi4EBffX",
+      "operation": "Centered 3:2 editorial crop and WebP compression only; no generated edits."
+    }
+  ],
+  "notes": [
+    "Four existing client-supplied originals cropped for the actual landscape display.",
+    "Small reference photos are not enlarged. WebP files are <=110 KB, with camera metadata removed.",
+    "Other images reuse the inspected responsive library; placements are recorded in client-photography-review.json.",
+    "Visual review replaced two ambiguous damage-photo pairings: the hail discussion now shows an illustrative dented vent, and the separate winter-history discussion shows roof-edge ice. No new image generation was needed."
+  ],
+  "derivedIllustrationAssets": [
+    {
+      "src": "/media/service-review-05/roof-edge-ice-480.webp",
+      "width": 480,
+      "bytes": 36684,
+      "quality": 84,
+      "derivedFrom": "/media/roofing-heroes/ice-dam-removal-v2-1672.webp"
+    },
+    {
+      "src": "/media/service-review-05/roof-edge-ice-800.webp",
+      "width": 800,
+      "bytes": 83680,
+      "quality": 84,
+      "derivedFrom": "/media/roofing-heroes/ice-dam-removal-v2-1672.webp"
+    },
+    {
+      "src": "/media/service-review-05/roof-edge-ice-1000.webp",
+      "width": 1000,
+      "bytes": 96136,
+      "quality": 80,
+      "derivedFrom": "/media/roofing-heroes/ice-dam-removal-v2-1672.webp"
+    }
+  ]
+}

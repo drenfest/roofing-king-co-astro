@@ -1511,14 +1511,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Attic Insulation in Columbus, OH",
+    "title": "Attic insulation in Columbus, OH",
     "description": "Attic insulation in Columbus, OH. Understand existing coverage, moisture, air leakage, ventilation and the items included in an insulation estimate with Roof King.",
     "sourceFile": "src/content/pages/attic-insulation/index.md",
     "sourceCategory": "Additional service",
     "focus": "Ask what the inspection found and why the proposed work addresses those conditions.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Attic Insulation in Columbus, OH",
+      "title": "Attic insulation in Columbus, OH",
       "description": "Uneven room temperatures or thin attic coverage can be reasons to assess insulation, but adding material is only one part of the decision. Roof King helps Columbus homeowners consider the existing insulation, moisture, air movement and access before defining the work for the attic.",
       "image": {
         "src": "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg",
@@ -1550,8 +1550,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Inspect what is already in place",
+      "eyebrow": "Columbus, Ohio · Attic insulation",
+      "title": "Attic insulation for Columbus homes: identify gaps, moisture and the intended coverage",
       "description": "",
       "intro": [],
       "image": {
@@ -1563,8 +1563,8 @@
       "items": [
         {
           "id": "service-detail-3-1",
-          "tabLabel": "Inspect what is already in place",
-          "title": "Inspect what is already in place",
+          "tabLabel": "Attic insulation",
+          "title": "Attic insulation for Columbus homes: identify gaps, moisture and the intended coverage",
           "body": [
             {
               "tag": "p",
@@ -1693,7 +1693,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange an attic assessment",
+      "title": "Discuss attic insulation at your Columbus home",
       "description": "Tell Roof King about uncomfortable rooms, known leaks and the insulation already present if you know it. The estimate should connect the observed conditions with the material and preparation needed.",
       "action": "Request an Attic Insulation Estimate"
     },
@@ -1722,7 +1722,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Attic Insulation in Columbus, OH"
+    "seoTitle": "Attic Insulation in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Attic insulation: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Attic insulation materials, preparation and installation",
+      "stormTitle": "Storm damage to your Columbus home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/aurora-oh/": {
     "family": "local",
@@ -3989,14 +4001,14 @@
     "city": "Cincinnati",
     "isLocal": true,
     "reference": false,
-    "title": "Roofing, siding and storm damage services in Cincinnati, OH",
+    "title": "Roofing, siding and storm repairs in Cincinnati, OH",
     "description": "Roof King serves Cincinnati, OH with roof repairs, roof replacement, siding and storm damage restoration, plus gutters, windows, decks and exterior services.",
     "sourceFile": "src/content/pages/cincinnati-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose a roofing or storm restoration service, or begin a siding project with its material and installation details in view.",
     "hero": {
       "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "Roofing, siding and storm damage services in Cincinnati, OH",
+      "title": "Roofing, siding and storm repairs in Cincinnati, OH",
       "description": "Roof King offers roofing, siding and storm damage repairs throughout Cincinnati, along with gutters, windows, decks, attic insulation and exterior painting. Cincinnati’s hills and distinct neighborhoods make exterior access and building layout important parts of planning. Roofing, siding and storm repairs need to fit the property’s slopes, roof connections and adjoining walls.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -4028,7 +4040,7 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Roof King services · Cincinnati, Ohio",
+      "eyebrow": "Cincinnati, Ohio · Roofing, siding and storm repairs",
       "title": "Roofing, siding and storm damage services in Cincinnati, OH",
       "description": "Explore the services available for your Cincinnati property. Start with roofing, siding or storm repairs, then choose any of the other services below. Roofing, siding and storm work can be coordinated with the other improvements your home needs.",
       "selectorLabel": "Choose a Cincinnati service",
@@ -4642,7 +4654,7 @@
     },
     "faq": {
       "eyebrow": "Cincinnati roofing, siding & storm questions",
-      "title": "Questions about roofing and exterior services in Cincinnati",
+      "title": "Roofing, siding and storm repair questions in Cincinnati",
       "description": "",
       "items": [
         {
@@ -4701,7 +4713,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan your Cincinnati roofing, siding or storm repair project",
+      "title": "Discuss roofing, siding and storm repairs at your Cincinnati property",
       "description": "Share the address, the service you are considering and a short description of the problem or project. Roof King can help you arrange the next step and identify the work to include in the estimate.",
       "action": "Request an Estimate"
     },
@@ -4732,12 +4744,17 @@
     },
     "seoTitle": "Cincinnati, OH Roofing & Exterior Services",
     "reviewPresentation": {
+      "batch": "05",
       "credentialsTitle": "Credentials for your Cincinnati roofing and exterior project",
       "reviewsTitle": "Roof King reviews for your Cincinnati project",
-      "brandsTitle": "Roofing and siding brands for Cincinnati properties",
-      "brandsDescription": "Explore the roofing, siding and exterior materials available for your Cincinnati project. Product selection is confirmed with the installation details.",
+      "brandsTitle": "Roofing, siding and exterior brands for Cincinnati properties",
+      "brandsDescription": "Confirm the product and installation details for each part of your exterior project. Manufacturer terms depend on the selected material.",
+      "brandsSectionId": "service-copy-7-3",
       "financeTitle": "Financing your Cincinnati exterior project",
-      "galleryTitle": "Roofing and exterior ideas for your Cincinnati property"
+      "galleryTitle": "Roofing and exterior photos for your Cincinnati project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cincinnati property",
+      "stormTitle": "Storm damage to your Cincinnati roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
     }
   },
   "/cincinnati-oh/roofing/": {
@@ -4746,14 +4763,14 @@
     "city": "Cincinnati",
     "isLocal": true,
     "reference": false,
-    "title": "Residential Roofing in Cincinnati, OH",
+    "title": "Roof repair and replacement in Cincinnati, OH",
     "description": "Roof repair, replacement and material choices for Cincinnati, OH homes. Understand the roofing work and request an estimate from Roof King.",
     "sourceFile": "src/content/pages/cincinnati-oh/roofing/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose a roofing or storm restoration service, or begin a siding project with its material and installation details in view.",
     "hero": {
       "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "Residential Roofing in Cincinnati, OH",
+      "title": "Roof repair and replacement in Cincinnati, OH",
       "description": "Roof King helps Cincinnati homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -4789,21 +4806,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "Repair a defined problem or replace a deteriorating roof",
+      "eyebrow": "Cincinnati, Ohio · Roof repair and replacement",
+      "title": "Cincinnati roofing: repair an identified leak or plan a complete replacement",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/completed-1200.webp",
+        "alt": "Supplied residential photograph showing a porch roof, adjoining wall and shingle covering"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King; project location unconfirmed.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-8-1",
-          "tabLabel": "Repair a defined problem or replace a deteriorating roof",
-          "title": "Repair a defined problem or replace a deteriorating roof",
+          "tabLabel": "Roof repair and replacement",
+          "title": "Cincinnati roofing: repair an identified leak or plan a complete replacement",
           "body": [
             {
               "tag": "p",
@@ -4928,7 +4945,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roofing questions in Cincinnati",
+      "title": "Roof repair and replacement questions in Cincinnati",
       "description": "",
       "items": [
         {
@@ -4986,7 +5003,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a roofing estimate in Cincinnati",
+      "title": "Discuss roof repair and replacement at your Cincinnati property",
       "description": "Tell Roof King the property address and whether you are investigating damage, considering a repair or planning replacement. We can help establish the next step and the information needed for a clear proposal.",
       "action": "Request a Roofing Estimate"
     },
@@ -5019,7 +5036,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Residential Roofing in Cincinnati, OH"
+    "seoTitle": "Residential Roofing in Cincinnati, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Cincinnati roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Cincinnati project",
+      "brandsTitle": "GAF shingle products for your Cincinnati roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-8-4",
+      "financeTitle": "Financing your Cincinnati exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Cincinnati project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cincinnati property",
+      "stormTitle": "Storm damage to your Cincinnati roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/cincinnati-oh/storm-damage/": {
     "family": "storm",
@@ -5027,14 +5057,14 @@
     "city": "Cincinnati",
     "isLocal": true,
     "reference": false,
-    "title": "Storm Damage Roof Repair in Cincinnati, OH",
+    "title": "Storm damage repairs in Cincinnati, OH",
     "description": "Roof and exterior storm damage repair in Cincinnati, OH. Understand inspection findings, repair options and documentation with Roof King.",
     "sourceFile": "src/content/pages/cincinnati-oh/storm-damage/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose a roofing or storm restoration service, or begin a siding project with its material and installation details in view.",
     "hero": {
       "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Roof Repair in Cincinnati, OH",
+      "title": "Storm damage repairs in Cincinnati, OH",
       "description": "A storm can affect more than the shingles you can see from the ground. Roof King helps Cincinnati homeowners assess roofing and related exterior damage, understand the repair options and define the work needed to put the affected areas back together.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -5070,21 +5100,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cincinnati, Ohio · Roof King & Restoration",
-      "title": "If water is entering now",
+      "eyebrow": "Cincinnati, Ohio · Storm damage repairs",
+      "title": "Cincinnati storm damage: report active leaks before comparing permanent repairs",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-05/client-windCrease-640.webp",
+        "alt": "Supplied reference photograph of a lifted shingle beside a marked crease"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Supplied reference photograph; the affected material and cause need assessment at your property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-9-1",
-          "tabLabel": "If water is entering now",
-          "title": "If water is entering now",
+          "tabLabel": "Storm damage repairs",
+          "title": "Cincinnati storm damage: report active leaks before comparing permanent repairs",
           "body": [
             {
               "tag": "p",
@@ -5177,7 +5207,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm repair questions in Cincinnati",
+      "title": "Storm damage repairs questions in Cincinnati",
       "description": "",
       "items": [
         {
@@ -5223,7 +5253,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what changed after the storm",
+      "title": "Discuss storm damage repairs at your Cincinnati property",
       "description": "Send the property address, when you noticed the damage and a description of any active leak. Roof King can help you arrange the next step. For related services, visit roofing and exterior services in Cincinnati.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -5256,7 +5286,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Roof Repair in Cincinnati, OH"
+    "seoTitle": "Storm Damage Roof Repair in Cincinnati, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Cincinnati roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Cincinnati project",
+      "brandsTitle": "GAF shingle products for your Cincinnati roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-9-4",
+      "financeTitle": "Financing your Cincinnati exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Cincinnati project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cincinnati property",
+      "stormTitle": "Storm damage to your Cincinnati roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/cincinnati-oh/the-cost-of-siding-replacement/": {
     "family": "siding-cost",
@@ -5522,14 +5565,14 @@
     "city": "Cleveland",
     "isLocal": true,
     "reference": false,
-    "title": "Roofing, siding and storm damage services in Cleveland, OH",
+    "title": "Roofing, siding and storm repairs in Cleveland, OH",
     "description": "Roof King serves Cleveland, OH with roof repairs, roof replacement, siding and storm damage restoration, plus gutters, windows, decks and exterior services.",
     "sourceFile": "src/content/pages/cleveland-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Review roofing repairs, replacement materials and storm restoration with clear links to the relevant service and product information.",
     "hero": {
       "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Roofing, siding and storm damage services in Cleveland, OH",
+      "title": "Roofing, siding and storm repairs in Cleveland, OH",
       "description": "Roof King offers roofing, siding and storm damage repairs throughout Cleveland, along with gutters, windows, decks, attic insulation and exterior painting. Cleveland’s housing includes older neighborhood homes in places such as Ohio City and Tremont, alongside many other building types. Roofing, siding and storm repairs should account for that variety and the property’s exposure to Northeast Ohio weather.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -5561,7 +5604,7 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Roof King services · Cleveland, Ohio",
+      "eyebrow": "Cleveland, Ohio · Roofing, siding and storm repairs",
       "title": "Roofing, siding and storm damage services in Cleveland, OH",
       "description": "Explore the services available for your Cleveland property. Start with roofing, siding or storm repairs, then choose any of the other services below. Roofing, siding and storm work can be coordinated with the other improvements your home needs.",
       "selectorLabel": "Choose a Cleveland service",
@@ -6175,7 +6218,7 @@
     },
     "faq": {
       "eyebrow": "Cleveland roofing, siding & storm questions",
-      "title": "Questions about roofing and exterior services in Cleveland",
+      "title": "Roofing, siding and storm repair questions in Cleveland",
       "description": "",
       "items": [
         {
@@ -6234,7 +6277,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan your Cleveland roofing, siding or storm repair project",
+      "title": "Discuss roofing, siding and storm repairs at your Cleveland property",
       "description": "Share the address, the service you are considering and a short description of the problem or project. Roof King can help you arrange the next step and identify the work to include in the estimate.",
       "action": "Request an Estimate"
     },
@@ -6265,12 +6308,17 @@
     },
     "seoTitle": "Cleveland, OH Roofing & Exterior Services",
     "reviewPresentation": {
+      "batch": "05",
       "credentialsTitle": "Credentials for your Cleveland roofing and exterior project",
       "reviewsTitle": "Roof King reviews for your Cleveland project",
-      "brandsTitle": "Roofing and siding brands for Cleveland properties",
-      "brandsDescription": "Explore the roofing, siding and exterior materials available for your Cleveland project. Product selection is confirmed with the installation details.",
+      "brandsTitle": "Roofing, siding and exterior brands for Cleveland properties",
+      "brandsDescription": "Confirm the product and installation details for each part of your exterior project. Manufacturer terms depend on the selected material.",
+      "brandsSectionId": "service-copy-11-3",
       "financeTitle": "Financing your Cleveland exterior project",
-      "galleryTitle": "Roofing and exterior ideas for your Cleveland property"
+      "galleryTitle": "Roofing and exterior photos for your Cleveland project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cleveland property",
+      "stormTitle": "Storm damage to your Cleveland roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
     }
   },
   "/cleveland-oh/roofing/": {
@@ -6279,14 +6327,14 @@
     "city": "Cleveland",
     "isLocal": true,
     "reference": false,
-    "title": "Residential Roofing in Cleveland, OH",
+    "title": "Roof repair and replacement in Cleveland, OH",
     "description": "Roof repair, replacement and material choices for Cleveland, OH homes. Understand the roofing work and request an estimate from Roof King.",
     "sourceFile": "src/content/pages/cleveland-oh/roofing/index.md",
     "sourceCategory": "Local service",
     "focus": "Review roofing repairs, replacement materials and storm restoration with clear links to the relevant service and product information.",
     "hero": {
       "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Residential Roofing in Cleveland, OH",
+      "title": "Roof repair and replacement in Cleveland, OH",
       "description": "Roof King helps Cleveland homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -6322,8 +6370,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Repair a defined problem or replace a deteriorating roof",
+      "eyebrow": "Cleveland, Ohio · Roof repair and replacement",
+      "title": "Cleveland roofing: assess leaks, roof-edge conditions and replacement options",
       "description": "A split pipe boot, damaged flashing or a limited area of missing shingles may be repairable when the surrounding roof is sound. The inspection needs to establish the source of the problem and whether compatible materials can be integrated. Our roof repair service explains the common failure points and what a repair estimate should contain.",
       "intro": [
         {
@@ -6371,8 +6419,8 @@
       "items": [
         {
           "id": "service-child-12-1",
-          "tabLabel": "Roof Replacement Costs",
-          "title": "Roof Replacement Costs in Cleveland, OH",
+          "tabLabel": "Roof replacement costs",
+          "title": "Roof replacement costs in Cleveland, OH",
           "body": [
             {
               "tag": "p",
@@ -6465,7 +6513,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roofing questions in Cleveland",
+      "title": "Roof repair and replacement questions in Cleveland",
       "description": "",
       "items": [
         {
@@ -6523,7 +6571,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a roofing estimate in Cleveland",
+      "title": "Discuss roof repair and replacement at your Cleveland property",
       "description": "Tell Roof King the property address and whether you are investigating damage, considering a repair or planning replacement. We can help establish the next step and the information needed for a clear proposal.",
       "action": "Request a Roofing Estimate"
     },
@@ -6556,7 +6604,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Residential Roofing in Cleveland, OH"
+    "seoTitle": "Residential Roofing in Cleveland, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Cleveland roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Cleveland project",
+      "brandsTitle": "GAF shingle products for your Cleveland roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-12-4",
+      "financeTitle": "Financing your Cleveland exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Cleveland project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cleveland property",
+      "stormTitle": "Storm damage to your Cleveland roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/cleveland-oh/roofing/cost-of-replacement/": {
     "family": "roof-cost",
@@ -6564,14 +6625,14 @@
     "city": "Cleveland",
     "isLocal": true,
     "reference": false,
-    "title": "Roof Replacement Costs in Cleveland, OH",
+    "title": "Roof replacement cost in Cleveland, OH",
     "description": "Understand roof replacement costs in Cleveland, OH. Compare roof size, removal, decking, flashing, products and estimate inclusions with Roof King.",
     "sourceFile": "src/content/pages/cleveland-oh/roofing/cost-of-replacement/index.md",
     "sourceCategory": "Local service",
     "focus": "Review roofing repairs, replacement materials and storm restoration with clear links to the relevant service and product information.",
     "hero": {
       "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Roof Replacement Costs in Cleveland, OH",
+      "title": "Roof replacement cost in Cleveland, OH",
       "description": "The cost of a replacement roof depends on the roof and the work beneath the new covering. Roof King prepares project estimates around measured areas, selected materials, access and the condition of the existing assembly. This guide explains the items to compare before deciding whether two prices describe the same job.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -6611,21 +6672,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Start with roof area, not the floor area of the house",
+      "eyebrow": "Cleveland, Ohio · Roof replacement cost",
+      "title": "Cleveland roof replacement budgets begin with measured roof area and details",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/roofPlan-1000.webp",
+        "alt": "Supplied overhead roof photograph showing hips, valleys and individual roof planes"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King; project location unconfirmed.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-13-1",
-          "tabLabel": "Start with roof area, not the floor area of the house",
-          "title": "Start with roof area, not the floor area of the house",
+          "tabLabel": "Roof replacement cost",
+          "title": "Cleveland roof replacement budgets begin with measured roof area and details",
           "body": [
             {
               "tag": "p",
@@ -6726,7 +6787,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roof cost questions",
+      "title": "Roof replacement cost questions in Cleveland",
       "description": "",
       "items": [
         {
@@ -6784,7 +6845,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Get a measured replacement estimate",
+      "title": "Discuss roof replacement cost at your Cleveland property",
       "description": "Share your property address and the work you are considering. Roof King can help you move from a planning budget to a roof replacement estimate that explains the actual installation.",
       "action": "Request a Roof Replacement Estimate"
     },
@@ -6817,7 +6878,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Replacement Costs in Cleveland, OH"
+    "seoTitle": "Roof Replacement Costs in Cleveland, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Cleveland roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Cleveland project",
+      "brandsTitle": "GAF shingle products for your Cleveland roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-13-3",
+      "financeTitle": "Financing your Cleveland exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Cleveland project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cleveland property",
+      "stormTitle": "Storm damage to your Cleveland roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/cleveland-oh/storm-damage/": {
     "family": "storm",
@@ -6825,14 +6899,14 @@
     "city": "Cleveland",
     "isLocal": true,
     "reference": false,
-    "title": "Storm Damage Roof Repair in Cleveland, OH",
+    "title": "Storm damage repairs in Cleveland, OH",
     "description": "Roof and exterior storm damage repair in Cleveland, OH. Understand inspection findings, repair options and documentation with Roof King.",
     "sourceFile": "src/content/pages/cleveland-oh/storm-damage/index.md",
     "sourceCategory": "Local service",
     "focus": "Review roofing repairs, replacement materials and storm restoration with clear links to the relevant service and product information.",
     "hero": {
       "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Roof Repair in Cleveland, OH",
+      "title": "Storm damage repairs in Cleveland, OH",
       "description": "A storm can affect more than the shingles you can see from the ground. Roof King helps Cleveland homeowners assess roofing and related exterior damage, understand the repair options and define the work needed to put the affected areas back together.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -6868,21 +6942,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Cleveland, Ohio · Roof King & Restoration",
-      "title": "If water is entering now",
+      "eyebrow": "Cleveland, Ohio · Storm damage repairs",
+      "title": "Cleveland storm damage: identify active leaks and the affected roof or wall areas",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-05/client-windArea-576.webp",
+        "alt": "Supplied reference photograph showing marked damage among surrounding shingle courses"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Supplied reference photograph; the affected material and cause need assessment at your property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-14-1",
-          "tabLabel": "If water is entering now",
-          "title": "If water is entering now",
+          "tabLabel": "Storm damage repairs",
+          "title": "Cleveland storm damage: identify active leaks and the affected roof or wall areas",
           "body": [
             {
               "tag": "p",
@@ -6975,7 +7049,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm repair questions in Cleveland",
+      "title": "Storm damage repairs questions in Cleveland",
       "description": "",
       "items": [
         {
@@ -7021,7 +7095,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what changed after the storm",
+      "title": "Discuss storm damage repairs at your Cleveland property",
       "description": "Send the property address, when you noticed the damage and a description of any active leak. Roof King can help you arrange the next step. For related services, visit roofing and exterior services in Cleveland.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -7054,7 +7128,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Roof Repair in Cleveland, OH"
+    "seoTitle": "Storm Damage Roof Repair in Cleveland, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Cleveland roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Cleveland project",
+      "brandsTitle": "GAF shingle products for your Cleveland roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-14-4",
+      "financeTitle": "Financing your Cleveland exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Cleveland project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Cleveland property",
+      "stormTitle": "Storm damage to your Cleveland roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/columbus-oh/": {
     "family": "local",
@@ -8333,14 +8420,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Roofing in Columbus, OH",
+    "title": "Commercial roofing in Columbus, OH",
     "description": "Commercial roofing in Columbus, OH for repair and replacement planning. Review roof systems, drainage, access and building operations with Roof King.",
     "sourceFile": "src/content/pages/commercial-roofing/index.md",
     "sourceCategory": "Service hub",
     "focus": "Discuss occupied areas, deliveries and access restrictions before work is scheduled. Agree on the property contact for communication.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Roofing in Columbus, OH",
+      "title": "Commercial roofing in Columbus, OH",
       "description": "A commercial roof decision affects the building beneath it as well as the roof surface. Roof King helps Columbus property owners and managers plan roofing work around the existing assembly, the reported problems and the needs of the occupants. Share the roof type, building use and access arrangements when requesting an assessment.",
       "image": {
         "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -8372,16 +8459,16 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Choose the commercial service you need",
-      "description": "Explore the services and product information below.",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "Commercial roofing services for Columbus properties",
+      "description": "Explore repair, replacement, roof-system selection and external drainage for your Columbus building. Each service addresses the existing roof, equipment connections and the access needed to carry out the work.",
       "intro": [],
       "selectorLabel": "Choose a service",
       "items": [
         {
           "id": "service-child-18-1",
-          "tabLabel": "Address external drainage",
-          "title": "Address external drainage",
+          "tabLabel": "Commercial gutters and external drainage",
+          "title": "Commercial gutters and external drainage",
           "body": [
             {
               "tag": "p",
@@ -8410,8 +8497,8 @@
         },
         {
           "id": "service-child-18-2",
-          "tabLabel": "Repair an identified problem",
-          "title": "Repair an identified problem",
+          "tabLabel": "Commercial roof leak repairs",
+          "title": "Commercial roof leak repairs",
           "body": [
             {
               "tag": "p",
@@ -8440,8 +8527,8 @@
         },
         {
           "id": "service-child-18-3",
-          "tabLabel": "Plan replacement",
-          "title": "Plan replacement",
+          "tabLabel": "Commercial roof replacement",
+          "title": "Commercial roof replacement",
           "body": [
             {
               "tag": "p",
@@ -8470,8 +8557,8 @@
         },
         {
           "id": "service-child-18-4",
-          "tabLabel": "Understand the existing system",
-          "title": "Understand the existing system",
+          "tabLabel": "Commercial roof systems and materials",
+          "title": "Commercial roof systems and materials",
           "body": [
             {
               "tag": "p",
@@ -8628,7 +8715,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Discuss the building and the roof together",
+      "title": "Discuss the roof at your Columbus commercial property",
       "description": "Contact Roof King with the property address, roof information and the problem or planned project. For storm-related damage, see commercial storm restoration.",
       "action": "Request a Commercial Roofing Assessment"
     },
@@ -8661,7 +8748,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Roofing in Columbus, OH"
+    "seoTitle": "Commercial Roofing in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial roofing: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial roof materials and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/commercial-roofing/gutters/": {
     "family": "commercial-gutters",
@@ -8669,14 +8768,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Gutters in Columbus, OH",
+    "title": "Commercial gutters in Columbus, OH",
     "description": "Commercial gutter planning in Columbus, OH. Review roof runoff, outlets, supports, downspouts and access with Roof King.",
     "sourceFile": "src/content/pages/commercial-roofing/gutters/index.md",
     "sourceCategory": "Service detail",
     "focus": "Discuss where water enters the gutters, how it reaches downspouts and where it is discharged. The proposal should explain that route.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Gutters in Columbus, OH",
+      "title": "Commercial gutters in Columbus, OH",
       "description": "Water overflowing at a commercial roof edge can affect entrances, walls, loading areas and the ground around the building. Roof King helps Columbus property owners assess external gutters and downspouts as a connected drainage route. The useful starting point is where the water goes now and where the proposed system needs to take it.",
       "image": {
         "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
@@ -8712,21 +8811,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Identify the source of the drainage problem",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "Commercial gutter overflow: tracing the drainage problem",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/gutter-drainage-v1.webp",
-        "alt": "Illustration showing a gutter, downspout and the discharge route"
+        "src": "/media/service-review-01/gutter-overflow-debris-1200.webp",
+        "alt": "Illustrative debris and overflow at a gutter outlet before the cause is assessed"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative gutter overflow; the cause and drainage arrangement need assessment at the building.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-19-1",
-          "tabLabel": "Identify the source of the drainage problem",
-          "title": "Identify the source of the drainage problem",
+          "tabLabel": "Gutter runs, outlets and the route beyond the building",
+          "title": "Gutter runs, outlets and the route beyond the building",
           "body": [
             {
               "tag": "p",
@@ -8866,7 +8965,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Request a commercial drainage assessment",
+      "title": "Plan gutter and downspout work for your building",
       "description": "Share the building address, areas of overflow and available roof information. Roof King can discuss the gutter work alongside any related commercial roofing needs.",
       "action": "Request a Commercial Gutter Estimate"
     },
@@ -8899,7 +8998,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Gutters in Columbus, OH"
+    "seoTitle": "Commercial Gutters in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial gutter: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter protection manufacturers and product suitability",
+      "brandsDescription": "Compare protection products, then confirm suitability and installation details for the building.",
+      "brandsSectionId": "service-copy-19-6",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial gutter materials and attachment",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/commercial-roofing/repair/": {
     "family": "commercial-repair",
@@ -8907,14 +9019,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Roof Repair in Columbus, OH",
+    "title": "Commercial roof repair in Columbus, OH",
     "description": "Commercial roof repair in Columbus, OH. Understand leak investigation, compatible repairs, affected components and the itemized estimate with Roof King.",
     "sourceFile": "src/content/pages/commercial-roofing/repair/index.md",
     "sourceCategory": "Service detail",
     "focus": "Ask for photographs and clear descriptions of the affected areas, materials and proposed work.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Roof Repair in Columbus, OH",
+      "title": "Commercial roof repair in Columbus, OH",
       "description": "A leak inside a commercial building may start at a seam, penetration, edge or drainage connection some distance away. Roof King helps Columbus owners and property managers investigate the affected roof area and define a repair suited to the existing assembly. Report active water entry when requesting help so the team can discuss current availability.",
       "image": {
         "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -8950,21 +9062,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Bring the roof history into the assessment",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "Commercial roof leaks: connecting the history with the roof detail",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/commercial-roof-v1.webp",
-        "alt": "Architectural illustration of a low-slope roof and its supporting layers"
+        "src": "/media/client-photography/lowRoof-1200.webp",
+        "alt": "Low-slope roof with visible seams, repair areas and penetrations in a supplied photograph"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. The roof material, condition and proposed work need assessment at the property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-20-1",
-          "tabLabel": "Bring the roof history into the assessment",
-          "title": "Bring the roof history into the assessment",
+          "tabLabel": "Leak locations, previous repairs and equipment work",
+          "title": "Leak locations, previous repairs and equipment work",
           "body": [
             {
               "tag": "p",
@@ -9055,7 +9167,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Commercial repair questions",
+      "title": "Commercial roof repair questions",
       "description": "",
       "items": [
         {
@@ -9101,7 +9213,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a commercial roof assessment",
+      "title": "Request a commercial roof leak assessment",
       "description": "Send the building address, roof information and leak history to Roof King. The commercial roof systems guide can help identify the questions to ask about compatibility.",
       "action": "Request Commercial Roof Repair"
     },
@@ -9134,7 +9246,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Roof Repair in Columbus, OH"
+    "seoTitle": "Commercial Roof Repair in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial roof materials and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/commercial-roofing/replacement/": {
     "family": "commercial-replacement",
@@ -9142,14 +9266,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Roof Replacement in Columbus, OH",
+    "title": "Commercial roof replacement in Columbus, OH",
     "description": "Plan commercial roof replacement in Columbus, OH. Review the existing assembly, removal, insulation, drainage and operating needs with Roof King.",
     "sourceFile": "src/content/pages/commercial-roofing/replacement/index.md",
     "sourceCategory": "Service detail",
     "focus": "Review how the property operates and how installation can be coordinated with its use.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Roof Replacement in Columbus, OH",
+      "title": "Commercial roof replacement in Columbus, OH",
       "description": "Replacing a commercial roof is a decision about the assembly, drainage and building operations together. Roof King helps Columbus property owners and managers define the existing conditions and compare a replacement estimate that explains what will be removed, retained and installed.",
       "image": {
         "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -9185,21 +9309,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Establish the reason for replacement",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "When a commercial roof needs replacement",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/commercial-roof-v1.webp",
-        "alt": "Architectural illustration of a low-slope roof and its supporting layers"
+        "src": "/media/service-review-03/commercial-roof-walkway-1200.webp",
+        "alt": "Illustrative commercial roof access route between an access hatch and rooftop equipment"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roof detail; the material, location and cause need a property assessment.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-21-1",
-          "tabLabel": "Establish the reason for replacement",
-          "title": "Establish the reason for replacement",
+          "tabLabel": "Roof condition, recurring leaks and repair alternatives",
+          "title": "Roof condition, recurring leaks and repair alternatives",
           "body": [
             {
               "tag": "p",
@@ -9302,7 +9426,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Commercial replacement questions",
+      "title": "Commercial roof replacement questions",
       "description": "",
       "items": [
         {
@@ -9348,7 +9472,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan the replacement around your building",
+      "title": "Plan a commercial roof replacement assessment",
       "description": "Share the property address, roof records and operating constraints with Roof King. A complete proposal should connect the roofing work with the needs of the people and business below it.",
       "action": "Request a Commercial Replacement Estimate"
     },
@@ -9381,7 +9505,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Roof Replacement in Columbus, OH"
+    "seoTitle": "Commercial Roof Replacement in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial roof replacement: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial roof materials and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/commercial-roofing/roof-types/": {
     "family": "commercial-types",
@@ -9389,14 +9525,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Roof Systems in Columbus, OH",
+    "title": "Commercial roof systems in Columbus, OH",
     "description": "Understand commercial roof systems, including single-ply membranes, asphalt and metal. Compare assembly and repair questions with Roof King.",
     "sourceFile": "src/content/pages/commercial-roofing/roof-types/index.md",
     "sourceCategory": "Service detail",
     "focus": "Preparation and installation can differ along with products. Ask what is included behind each total.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Roof Systems in Columbus, OH",
+      "title": "Commercial roof systems in Columbus, OH",
       "description": "Identifying a commercial roof means identifying more than its surface color. The covering, insulation, supporting deck, attachment and drainage work as an assembly. Roof King can discuss the existing system and the proposed work for your Columbus property; confirm the specific system and service capability before selecting materials.",
       "image": {
         "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -9432,21 +9568,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Common low-slope membrane categories",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "Low-slope commercial roof systems: membrane and asphalt options",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/commercial-roof-v1.webp",
-        "alt": "Architectural illustration of a low-slope roof and its supporting layers"
+        "src": "/media/client-photography/lowRoof-1200.webp",
+        "alt": "Low-slope roof with visible seams, repair areas and penetrations in a supplied photograph"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. The roof material, condition and proposed work need assessment at the property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-22-1",
-          "tabLabel": "TPO and PVC",
-          "title": "TPO and PVC",
+          "tabLabel": "TPO and PVC membrane systems",
+          "title": "TPO and PVC membrane systems",
           "body": [
             {
               "tag": "p",
@@ -9466,8 +9602,8 @@
         },
         {
           "id": "service-detail-22-2",
-          "tabLabel": "EPDM",
-          "title": "EPDM",
+          "tabLabel": "EPDM rubber membrane systems",
+          "title": "EPDM rubber membrane systems",
           "body": [
             {
               "tag": "p",
@@ -9587,7 +9723,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roof system questions",
+      "title": "Commercial roof system questions",
       "description": "",
       "items": [
         {
@@ -9633,7 +9769,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Start with the roof you have",
+      "title": "Identify the roof system at your commercial building",
       "description": "Send Roof King the property address, available system records and the problem or planned change. The next step is to connect those findings with a compatible repair or replacement estimate.",
       "action": "Discuss a Commercial Roof System"
     },
@@ -9662,7 +9798,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Roof Systems in Columbus, OH"
+    "seoTitle": "Commercial Roof Systems in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial roof system: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial roof materials and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/commercial-siding/": {
     "family": "commercial-siding",
@@ -9915,14 +10063,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roof Replacement Costs in Columbus, OH",
+    "title": "Roof replacement costs in Columbus, OH",
     "description": "Understand roof replacement costs in Columbus, OH. Compare roof size, removal, decking, flashing, products and estimate inclusions with Roof King.",
     "sourceFile": "src/content/pages/cost-of-a-new-roof/index.md",
     "sourceCategory": "Company / hub",
     "focus": "Understand how preparation, material choices and actual roof conditions affect the work behind a replacement estimate.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roof Replacement Costs in Columbus, OH",
+      "title": "Roof replacement costs in Columbus, OH",
       "description": "The cost of a replacement roof depends on the roof and the work beneath the new covering. Roof King prepares project estimates around measured areas, selected materials, access and the condition of the existing assembly. This guide explains the items to compare before deciding whether two prices describe the same job.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -9954,21 +10102,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Start with roof area, not the floor area of the house",
+      "eyebrow": "Columbus, Ohio · Roof Replacement Costs",
+      "title": "Roof area, roofing squares and replacement cost",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/simple-gable-roof-1200.webp",
+        "alt": "Illustrative house with a simple gable roof and accessible driveway"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-24-1",
-          "tabLabel": "Start with roof area, not the floor area of the house",
-          "title": "Start with roof area, not the floor area of the house",
+          "tabLabel": "Measuring the sloped roof surface, including garages and additions",
+          "title": "Measuring the sloped roof surface, including garages and additions",
           "body": [
             {
               "tag": "p",
@@ -10069,7 +10217,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roof cost questions",
+      "title": "Roof replacement cost questions",
       "description": "",
       "items": [
         {
@@ -10127,7 +10275,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Get a measured replacement estimate",
+      "title": "Request a measured roof replacement estimate",
       "description": "Share your property address and the work you are considering. Roof King can help you move from a planning budget to a roof replacement estimate that explains the actual installation.",
       "action": "Request a Roof Replacement Estimate"
     },
@@ -10160,7 +10308,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Replacement Costs in Columbus, OH"
+    "seoTitle": "Roof Replacement Costs in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roof replacement cost: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-24-2",
+      "financeTitle": "Roof replacement cost financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/dayton-oh/": {
     "family": "local",
@@ -10168,14 +10328,14 @@
     "city": "Dayton",
     "isLocal": true,
     "reference": false,
-    "title": "Roofing, siding and storm damage services in Dayton, OH",
+    "title": "Roofing, siding and storm repairs in Dayton, OH",
     "description": "Roof King serves Dayton, OH with roof repairs, roof replacement, siding and storm damage restoration, plus gutters, windows, decks and exterior services.",
     "sourceFile": "src/content/pages/dayton-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Explore roofing and attic concerns alongside siding, gutter and storm restoration services for your property.",
     "hero": {
       "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "Roofing, siding and storm damage services in Dayton, OH",
+      "title": "Roofing, siding and storm repairs in Dayton, OH",
       "description": "Roof King offers roofing, siding and storm damage repairs throughout Dayton, along with gutters, windows, decks, attic insulation and exterior painting. Dayton’s designated historic districts and other neighborhoods call for exterior work that fits the building rather than a single standard package. We plan roofing, siding and storm repairs around the home’s roof shape, wall materials and access.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -10207,7 +10367,7 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Roof King services · Dayton, Ohio",
+      "eyebrow": "Dayton, Ohio · Roofing, siding and storm repairs",
       "title": "Roofing, siding and storm damage services in Dayton, OH",
       "description": "Explore the services available for your Dayton property. Start with roofing, siding or storm repairs, then choose any of the other services below. Roofing, siding and storm work can be coordinated with the other improvements your home needs.",
       "selectorLabel": "Choose a Dayton service",
@@ -10825,7 +10985,7 @@
     },
     "faq": {
       "eyebrow": "Dayton roofing, siding & storm questions",
-      "title": "Questions about roofing and exterior services in Dayton",
+      "title": "Roofing, siding and storm repair questions in Dayton",
       "description": "",
       "items": [
         {
@@ -10884,7 +11044,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan your Dayton roofing, siding or storm repair project",
+      "title": "Discuss roofing, siding and storm repairs at your Dayton property",
       "description": "Share the address, the service you are considering and a short description of the problem or project. Roof King can help you arrange the next step and identify the work to include in the estimate.",
       "action": "Request an Estimate"
     },
@@ -10915,12 +11075,17 @@
     },
     "seoTitle": "Dayton, OH Roofing & Exterior Services",
     "reviewPresentation": {
+      "batch": "05",
       "credentialsTitle": "Credentials for your Dayton roofing and exterior project",
       "reviewsTitle": "Roof King reviews for your Dayton project",
-      "brandsTitle": "Roofing and siding brands for Dayton properties",
-      "brandsDescription": "Explore the roofing, siding and exterior materials available for your Dayton project. Product selection is confirmed with the installation details.",
+      "brandsTitle": "Roofing, siding and exterior brands for Dayton properties",
+      "brandsDescription": "Confirm the product and installation details for each part of your exterior project. Manufacturer terms depend on the selected material.",
+      "brandsSectionId": "service-copy-25-3",
       "financeTitle": "Financing your Dayton exterior project",
-      "galleryTitle": "Roofing and exterior ideas for your Dayton property"
+      "galleryTitle": "Roofing and exterior photos for your Dayton project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Dayton property",
+      "stormTitle": "Storm damage to your Dayton roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
     }
   },
   "/dayton-oh/roofing/": {
@@ -10929,14 +11094,14 @@
     "city": "Dayton",
     "isLocal": true,
     "reference": false,
-    "title": "Residential Roofing in Dayton, OH",
+    "title": "Roof repair and replacement in Dayton, OH",
     "description": "Roof repair, replacement and material choices for Dayton, OH homes. Understand the roofing work and request an estimate from Roof King.",
     "sourceFile": "src/content/pages/dayton-oh/roofing/index.md",
     "sourceCategory": "Local service",
     "focus": "Explore roofing and attic concerns alongside siding, gutter and storm restoration services for your property.",
     "hero": {
       "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "Residential Roofing in Dayton, OH",
+      "title": "Roof repair and replacement in Dayton, OH",
       "description": "Roof King helps Dayton homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -10972,21 +11137,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "Repair a defined problem or replace a deteriorating roof",
+      "eyebrow": "Dayton, Ohio · Roof repair and replacement",
+      "title": "Dayton roofing: trace a repairable failure or plan a replacement around retained details",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/brickHouse-800.webp",
+        "alt": "Supplied house photograph showing a porch roof and upper roof connections"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King; project location unconfirmed.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-26-1",
-          "tabLabel": "Repair a defined problem or replace a deteriorating roof",
-          "title": "Repair a defined problem or replace a deteriorating roof",
+          "tabLabel": "Roof repair and replacement",
+          "title": "Dayton roofing: trace a repairable failure or plan a replacement around retained details",
           "body": [
             {
               "tag": "p",
@@ -11111,7 +11276,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Roofing questions in Dayton",
+      "title": "Roof repair and replacement questions in Dayton",
       "description": "",
       "items": [
         {
@@ -11169,7 +11334,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a roofing estimate in Dayton",
+      "title": "Discuss roof repair and replacement at your Dayton property",
       "description": "Tell Roof King the property address and whether you are investigating damage, considering a repair or planning replacement. We can help establish the next step and the information needed for a clear proposal.",
       "action": "Request a Roofing Estimate"
     },
@@ -11202,7 +11367,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Residential Roofing in Dayton, OH"
+    "seoTitle": "Residential Roofing in Dayton, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Dayton roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Dayton project",
+      "brandsTitle": "GAF shingle products for your Dayton roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-26-4",
+      "financeTitle": "Financing your Dayton exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Dayton project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Dayton property",
+      "stormTitle": "Storm damage to your Dayton roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/dayton-oh/storm-damage/": {
     "family": "storm",
@@ -11210,14 +11388,14 @@
     "city": "Dayton",
     "isLocal": true,
     "reference": false,
-    "title": "Storm Damage Roof Repair in Dayton, OH",
+    "title": "Storm damage repairs in Dayton, OH",
     "description": "Roof and exterior storm damage repair in Dayton, OH. Understand inspection findings, repair options and documentation with Roof King.",
     "sourceFile": "src/content/pages/dayton-oh/storm-damage/index.md",
     "sourceCategory": "Local service",
     "focus": "Explore roofing and attic concerns alongside siding, gutter and storm restoration services for your property.",
     "hero": {
       "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Roof Repair in Dayton, OH",
+      "title": "Storm damage repairs in Dayton, OH",
       "description": "A storm can affect more than the shingles you can see from the ground. Roof King helps Dayton homeowners assess roofing and related exterior damage, understand the repair options and define the work needed to put the affected areas back together.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -11253,21 +11431,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dayton, Ohio · Roof King & Restoration",
-      "title": "If water is entering now",
+      "eyebrow": "Dayton, Ohio · Storm damage repairs",
+      "title": "Dayton storm repairs: report current water entry and separate the affected exterior areas",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-05/client-missingLayer-640.webp",
+        "alt": "Supplied reference photograph of marked shingle-surface damage requiring assessment"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Supplied reference photograph; the affected material and cause need assessment at your property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-27-1",
-          "tabLabel": "If water is entering now",
-          "title": "If water is entering now",
+          "tabLabel": "Storm damage repairs",
+          "title": "Dayton storm repairs: report current water entry and separate the affected exterior areas",
           "body": [
             {
               "tag": "p",
@@ -11360,7 +11538,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm repair questions in Dayton",
+      "title": "Storm damage repairs questions in Dayton",
       "description": "",
       "items": [
         {
@@ -11406,7 +11584,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what changed after the storm",
+      "title": "Discuss storm damage repairs at your Dayton property",
       "description": "Send the property address, when you noticed the damage and a description of any active leak. Roof King can help you arrange the next step. For related services, visit roofing and exterior services in Dayton.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -11439,7 +11617,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Roof Repair in Dayton, OH"
+    "seoTitle": "Storm Damage Roof Repair in Dayton, OH",
+    "reviewPresentation": {
+      "batch": "05",
+      "credentialsTitle": "Credentials for your Dayton roofing and exterior project",
+      "reviewsTitle": "Roof King reviews for your Dayton project",
+      "brandsTitle": "GAF shingle products for your Dayton roofing proposal",
+      "brandsDescription": "Compare the actual shingle, accessories and applicable written coverage when shingles are included in the proposed work.",
+      "brandsSectionId": "service-copy-27-2",
+      "financeTitle": "Financing your Dayton exterior project",
+      "galleryTitle": "Roofing and exterior photos for your Dayton project discussion",
+      "materialsTitle": "Materials, preparation and installation for your Dayton property",
+      "stormTitle": "Storm damage to your Dayton roof, siding or gutters?",
+      "stormDescription": "Report current water entry and the affected exterior areas. The inspection should separate the findings by location and material before the permanent repairs are agreed."
+    }
   },
   "/dayton-oh/the-cost-of-new-gutters/": {
     "family": "gutter-cost",
@@ -15534,14 +15725,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Emergency Roof Repair in Dublin, OH",
+    "title": "Emergency roof repair in Dublin, OH",
     "description": "Need urgent roof help in Dublin, OH? Contact Roof King about active leaks, exposed roofing and the next steps toward permanent repair.",
     "sourceFile": "src/content/pages/emergency-roof-repair-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Report an active leak or visible roof damage and ask about inspection availability. An urgent request is not a promise of a particular arrival time; confirm scheduling directly with the team.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Emergency Roof Repair in Dublin, OH",
+      "title": "Emergency roof repair in Dublin, OH",
       "description": "If water is entering your Dublin home or part of the roof is exposed, call Roof King and describe the situation. Tell us the property address, where the problem appears and when it began. The team can discuss current availability and the next step for assessing the affected roof area.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -15573,21 +15764,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "What to tell us when you call",
+      "eyebrow": "Dublin, Ohio · Emergency roof repair",
+      "title": "Active roof leaks in Dublin: information that helps the first response",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/complex-800.webp",
+        "alt": "Shingle roof with valleys, dormers and adjoining exterior walls"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-40-1",
-          "tabLabel": "What to tell us when you call",
-          "title": "What to tell us when you call",
+          "tabLabel": "Emergency roof repair",
+          "title": "Active roof leaks in Dublin: information that helps the first response",
           "body": [
             {
               "tag": "p",
@@ -15738,7 +15929,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Call about the situation at your property",
+      "title": "Discuss emergency roof repair at your Dublin home",
       "description": "Give Roof King the Dublin address, a description of the active problem and the safest way to contact you. Current availability, access and the appropriate next step can then be discussed.",
       "action": "Call About an Active Roof Leak"
     },
@@ -15771,7 +15962,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Emergency Roof Repair in Dublin, OH"
+    "seoTitle": "Emergency Roof Repair in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Emergency roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-40-5",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Emergency roof repair materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/exterior-painting/": {
     "family": "painting",
@@ -15986,14 +16190,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "GAF Roofing in Dublin, OH",
+    "title": "GAF roofing in Dublin, OH",
     "description": "Explore GAF roofing installation in Dublin, OH. Compare shingles, roof-system components and warranty options with Roof King.",
     "sourceFile": "src/content/pages/gaf-roofing-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "GAF Roofing in Dublin, OH",
+      "title": "GAF roofing in Dublin, OH",
       "description": "Choosing a GAF roof involves the shingle you see and the components beneath and around it. Roof King helps Dublin homeowners bring those decisions into a complete installation plan, including preparation, flashing, ventilation and the warranty option that applies to the selected system.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -16020,26 +16224,34 @@
         "href": "/"
       },
       {
-        "label": "GAF Roofing"
+        "label": "Service areas",
+        "href": "/service-areas/"
+      },
+      {
+        "label": "Dublin",
+        "href": "/dublin-oh/"
+      },
+      {
+        "label": "GAF roofing"
       }
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Start with the shingle style and color",
+      "eyebrow": "Dublin, Ohio · GAF roofing",
+      "title": "Choosing GAF shingles for a Dublin home",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/simple-gable-roof-1200.webp",
+        "alt": "Illustrative house with a simple gable roof and accessible driveway"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-42-1",
-          "tabLabel": "Start with the shingle style and color",
-          "title": "Start with the shingle style and color",
+          "tabLabel": "Shingle profiles and colors beside your Dublin home’s exterior",
+          "title": "Shingle profiles and colors beside your Dublin home’s exterior",
           "body": [
             {
               "tag": "p",
@@ -16144,7 +16356,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "GAF roofing questions",
+      "title": "Dublin GAF roofing questions for Dublin homeowners",
       "description": "",
       "items": [
         {
@@ -16202,7 +16414,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Put the product and installation in one proposal",
+      "title": "Plan your Dublin GAF roof and installation",
       "description": "Tell Roof King about your Dublin roof and the style you are considering. We can help connect the material choice with the work needed at the property. For related choices, explore roofing services in Dublin.",
       "action": "Request a GAF Roofing Estimate"
     },
@@ -16235,7 +16447,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "GAF Roofing in Dublin, OH"
+    "seoTitle": "GAF Roofing in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Dublin GAF roofing: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-42-2",
+      "financeTitle": "Dublin GAF roofing financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/gahanna-oh/": {
     "family": "local",
@@ -18805,14 +19029,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Hail Damage Roof Repair in Dublin, OH",
+    "title": "Hail damage roof repair in Dublin, OH",
     "description": "Hail damage roof assessment and repair in Dublin, OH. Understand observations, repairability, materials and storm records with Roof King.",
     "sourceFile": "src/content/pages/hail-damage-roof-repair-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Hail Damage Roof Repair in Dublin, OH",
+      "title": "Hail damage roof repair in Dublin, OH",
       "description": "Hail can affect roof coverings and surrounding components in different ways. Roof King helps Dublin homeowners assess suspected damage, understand the condition of the roof and compare a defined repair with broader replacement where appropriate. A dent or photograph is a starting observation, not a complete roof diagnosis.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -18844,21 +19068,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "What visible clues can tell you",
+      "eyebrow": "Dublin, Ohio · Hail damage roof repair",
+      "title": "Suspected hail damage in Dublin: inspect the material and its surroundings",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/complex-800.webp",
+        "alt": "Shingle roof with valleys, dormers and adjoining exterior walls"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-49-1",
-          "tabLabel": "What visible clues can tell you",
-          "title": "What visible clues can tell you",
+          "tabLabel": "Hail damage roof repair",
+          "title": "Suspected hail damage in Dublin: inspect the material and its surroundings",
           "body": [
             {
               "tag": "p",
@@ -18951,7 +19175,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Hail damage questions",
+      "title": "Hail damage roof repair questions",
       "description": "",
       "items": [
         {
@@ -19021,7 +19245,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a hail damage assessment",
+      "title": "Discuss hail damage roof repair at your Dublin home",
       "description": "Tell Roof King when you noticed the concern, the property address and any visible changes or leaks. The next step is a record of the findings and a repair recommendation based on the actual roof.",
       "action": "Request a Hail Damage Assessment"
     },
@@ -19054,7 +19278,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Hail Damage Roof Repair in Dublin, OH"
+    "seoTitle": "Hail Damage Roof Repair in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Hail damage roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-49-5",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Hail damage roof repair materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/hamilton-oh/": {
     "family": "local",
@@ -20568,14 +20805,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Ice Dam Removal in Columbus, OH",
+    "title": "Ice dam removal in Columbus, OH",
     "description": "Ice dam removal in Columbus, OH. Contact Roof King about roof-edge ice, active leaks and follow-up roofing or attic assessment.",
     "sourceFile": "src/content/pages/ice-dam-removal/index.md",
     "sourceCategory": "Additional service",
     "focus": "Ask which work addresses the buildup and which addresses damaged covering, flashing or roof-edge details.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Ice Dam Removal in Columbus, OH",
+      "title": "Ice dam removal in Columbus, OH",
       "description": "Ice collecting at the roof edge can interfere with drainage and contribute to water entering the home. If you are seeing roof-edge buildup or a winter leak in Columbus, contact Roof King with the address, affected area and whether water is entering now. Availability and the appropriate next step need to be confirmed directly.",
       "image": {
         "src": "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg",
@@ -20607,8 +20844,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Ice dams, trapped water and winter roof leaks",
-      "title": "How ice dams form and let water into your home",
+      "eyebrow": "Columbus, Ohio · Ice dam removal",
+      "title": "Ice dams: refreezing at the roof edge can back water beneath the covering",
       "description": "",
       "intro": [],
       "caption": "The ice ridge blocks drainage at the eave. Blue arrows show meltwater and a possible route beneath the shingles into the roof or exterior wall.",
@@ -20676,6 +20913,27 @@
           "href": "#estimate",
           "label": "Call About Roof-Edge Ice",
           "icon": "roof"
+        },
+        {
+          "id": "service-copy-52-2",
+          "title": "Ice dam hazards: keep clear of icy roofs and unstable buildup",
+          "tabLabel": "Ice dam hazards: keep clear of icy roofs and unstable buildup",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Avoid climbing onto an icy roof, breaking ice with improvised tools or standing beneath unstable buildup. Falling ice and slippery access create hazards. Share observations or photographs only from a safe position, and describe any active interior water entry when contacting the team."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Discuss your project",
+          "icon": "roof"
         }
       ],
       "illustration": "ice-dam"
@@ -20731,7 +20989,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Ice dam questions",
+      "title": "Ice dam removal questions",
       "description": "",
       "items": [
         {
@@ -20777,7 +21035,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us about the ice and any active leak",
+      "title": "Discuss ice dam removal at your Columbus home",
       "description": "Contact Roof King with the property address and a description of the affected roof edge. The team can discuss current availability and the next step toward removal, repair and any necessary attic assessment.",
       "action": "Call About Roof-Edge Ice"
     },
@@ -20806,7 +21064,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Ice Dam Removal in Columbus, OH"
+    "seoTitle": "Ice Dam Removal in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Ice dam removal: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Ice dam removal materials, preparation and installation",
+      "stormTitle": "Storm damage to your Columbus home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/lancaster-oh/": {
     "family": "local",
@@ -22320,14 +22590,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Metal Roofing in Dublin, OH",
+    "title": "Metal roofing in Dublin, OH",
     "description": "Plan metal roofing in Dublin, OH with Roof King. Understand panel choices, fastening, flashing, finishes and complete installation costs.",
     "sourceFile": "src/content/pages/metal-roofing-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Metal Roofing in Dublin, OH",
+      "title": "Metal roofing in Dublin, OH",
       "description": "The appearance of a metal roof is only one part of choosing it. Panel profile, fastening, finish and the details around edges and penetrations all affect the installation. Roof King helps Dublin homeowners assess the existing roof and compare a metal system as part of a complete replacement estimate.",
       "image": {
         "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
@@ -22359,21 +22629,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Understand the panel system being proposed",
+      "eyebrow": "Dublin, Ohio · Metal roofing",
+      "title": "Metal roofing for Dublin homes: choose the panel system before comparing prices",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/standing-seam-v1.webp",
-        "alt": "Architectural illustration of standing-seam panels and the roof edge"
+        "src": "/media/service-review-02/metal-panel-seam-1200.webp",
+        "alt": "Illustrative standing-seam panel joint and its attachment"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative metal roof detail; exact systems and finishes vary.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-55-1",
-          "tabLabel": "Understand the panel system being proposed",
-          "title": "Understand the panel system being proposed",
+          "tabLabel": "Metal roofing",
+          "title": "Metal roofing for Dublin homes: choose the panel system before comparing prices",
           "body": [
             {
               "tag": "p",
@@ -22492,7 +22762,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Compare a metal roof for your home",
+      "title": "Discuss metal roofing at your Dublin home",
       "description": "Request a roof replacement estimate that names the metal system and explains preparation, attachment, flashing and coverage. Roof King can help you understand those choices for your Dublin property. Explore the Dublin roofing service pages for related repair and replacement choices.",
       "action": "Request a Metal Roofing Estimate"
     },
@@ -22525,7 +22795,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Metal Roofing in Dublin, OH"
+    "seoTitle": "Metal Roofing in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Metal roofing: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingles as an alternative to metal roofing",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-55-3",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Metal roofing materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/middletown-oh/": {
     "family": "local",
@@ -24792,14 +25075,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roof Estimate Calculator",
+    "title": "Roof estimate calculator",
     "description": "Start a preliminary roof estimate with Roof King. Learn what to have ready, how to interpret the result and when to request a property assessment.",
     "sourceFile": "src/content/pages/roof-calculator/index.md",
     "sourceCategory": "Tool",
     "focus": "Start with the published Roofr estimator. Review its result with the actual roof condition and your selected materials before agreeing to construction work.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roof Estimate Calculator",
+      "title": "Roof estimate calculator",
       "description": "Use the roof estimator to begin planning a roofing project. Follow the prompts in the tool and review the information attached to the result. An online estimate is a starting point; the property assessment and the agreed materials and work determine the written construction proposal.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -24831,21 +25114,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Start your estimate",
+      "eyebrow": "Columbus, Ohio · Roofing Estimate Calculator",
+      "title": "Start a roof estimate with the right property details",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/roof-plan-review-1200.webp",
+        "alt": "Illustrative roof sketch and material samples being reviewed outside a house"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-59-1",
-          "tabLabel": "Start your estimate",
-          "title": "Start your estimate",
+          "tabLabel": "Property address, intended roof areas and help with the estimator",
+          "title": "Property address, intended roof areas and help with the estimator",
           "body": [
             {
               "tag": "p",
@@ -24946,7 +25229,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Estimator questions",
+      "title": "Roof estimate questions",
       "description": "",
       "items": [
         {
@@ -25029,7 +25312,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Need help with a roof estimate?",
+      "title": "Get help with your roof estimate result",
       "description": "Send the property address, the project you are considering and any questions about the result. The team can help establish the next step toward a measured proposal.",
       "action": "Request Help with an Estimate"
     },
@@ -25062,7 +25345,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Estimate Calculator"
+    "seoTitle": "Roof Estimate Calculator",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roof estimate: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-59-3",
+      "financeTitle": "Roof estimate financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roof-repair-dublin-oh/": {
     "family": "repair",
@@ -25070,14 +25365,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Roof Repair in Dublin, OH",
+    "title": "Roof repair in Dublin, OH",
     "description": "Roof repair in Dublin, OH for leaks, damaged shingles, flashing and pipe boots. Get a clear repair recommendation and estimate from Roof King.",
     "sourceFile": "src/content/pages/roof-repair-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Roof Repair in Dublin, OH",
+      "title": "Roof repair in Dublin, OH",
       "description": "A ceiling stain, missing shingles or a leak around a roof vent can point to a repairable problem. Roof King inspects the affected area, explains the findings and helps you choose the right repair for your Dublin home.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -25109,8 +25404,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Roof repairs that address the failing detail",
+      "eyebrow": "Dublin, Ohio · Roof repair",
+      "title": "Roof repair in Dublin starts with the failed detail and surrounding condition",
       "description": "The right repair depends on which part of the roof has failed and what is happening around it. These are common areas we inspect when a roof leaks or shows visible damage.",
       "intro": [
         {
@@ -25123,10 +25418,10 @@
         }
       ],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/complex-800.webp",
+        "alt": "Shingle roof with valleys, dormers and adjoining exterior walls"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
@@ -25373,7 +25668,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what is happening with your roof.",
+      "title": "Discuss roof repair at your Dublin home",
       "description": "Send Roof King your Dublin property address and a short description of the leak or damage. We will help you arrange the next step and understand the repair options. If water is entering now, call to discuss availability. Explore roofing and exterior services in Dublin",
       "action": "Request a Repair Estimate"
     },
@@ -25406,7 +25701,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Repair in Dublin, OH"
+    "seoTitle": "Roof Repair in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-60-5",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roof repair materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/roof-replacement-dublin-oh/": {
     "family": "replacement",
@@ -25414,14 +25722,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Roof Replacement in Dublin, OH",
+    "title": "Roof replacement in Dublin, OH",
     "description": "Plan roof replacement in Dublin, OH with Roof King. Compare materials, preparation, flashing, decking and the details in a complete estimate.",
     "sourceFile": "src/content/pages/roof-replacement-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Roof Replacement in Dublin, OH",
+      "title": "Roof replacement in Dublin, OH",
       "description": "A new roof is a connected system of materials and details, not only a new surface. Roof King helps Dublin homeowners plan replacement around the condition of the existing roof, the selected covering and the preparation needed beneath it.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -25453,21 +25761,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Establish why replacement is being recommended",
+      "eyebrow": "Dublin, Ohio · Roof replacement",
+      "title": "Replacement roofing for Dublin homes: shingles, metal and the complete assembly",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/roofPlan-1000.webp",
+        "alt": "Overhead photograph showing roof slopes, hips and valleys"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-61-1",
-          "tabLabel": "Establish why replacement is being recommended",
-          "title": "Establish why replacement is being recommended",
+          "tabLabel": "Roof replacement",
+          "title": "Replacement roofing for Dublin homes: shingles, metal and the complete assembly",
           "body": [
             {
               "tag": "p",
@@ -25618,7 +25926,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan your replacement roof",
+      "title": "Discuss roof replacement at your Dublin home",
       "description": "Tell Roof King the property address, the condition you are seeing and the materials you are considering. We can help you compare the work required and the choices in the proposal. For connected services, return to roofing and exterior services in Dublin.",
       "action": "Request a Roof Replacement Estimate"
     },
@@ -25651,7 +25959,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Replacement in Dublin, OH"
+    "seoTitle": "Roof Replacement in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Roof replacement: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-61-2",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roof replacement materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/roofing-calculator/": {
     "family": "calculator",
@@ -25659,14 +25980,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roofing Cost Calculator",
+    "title": "Roofing cost calculator",
     "description": "Use Roof King's roofing cost calculator as a starting budget. Understand assumptions, possible exclusions and the move to a measured replacement quote.",
     "sourceFile": "src/content/pages/roofing-calculator/index.md",
     "sourceCategory": "Tool",
     "focus": "Use the Roofr planning tool for a Columbus roofing project, then discuss tear-off, decking, flashing and product choices with our team.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roofing Cost Calculator",
+      "title": "Roofing cost calculator",
       "description": "An online roofing estimate is useful when you understand what sits behind the number. Use the calculator on this page to begin a budget, then review the roof areas, material choices and assumptions associated with the result. Roof King can help turn that starting point into a proposal based on the property and agreed work.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -25698,21 +26019,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Use the calculator, then review the roofing details",
+      "eyebrow": "Columbus, Ohio · Roofing Estimate Calculator",
+      "title": "Reviewing and comparing roofing calculator results",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/roof-plan-review-1200.webp",
+        "alt": "Illustrative roof sketch and material samples being reviewed outside a house"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-62-1",
-          "tabLabel": "Use the calculator, then review the roofing details",
-          "title": "Use the calculator, then review the roofing details",
+          "tabLabel": "Record the estimator choices before comparing prices",
+          "title": "Record the estimator choices before comparing prices",
           "body": [
             {
               "tag": "p",
@@ -25817,7 +26138,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Five questions to ask about an estimate",
+      "title": "Roofing cost planning questions",
       "description": "",
       "items": [
         {
@@ -25889,7 +26210,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Move from a budget to a roofing plan",
+      "title": "Compare your roof budget with a measured proposal",
       "description": "Request a roof replacement estimate with the property address and the work you want included. Bring the calculator result and selected options so Roof King can explain how they relate to the proposed installation.",
       "action": "Request a Measured Roofing Estimate"
     },
@@ -25922,7 +26243,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roofing Cost Calculator"
+    "seoTitle": "Roofing Cost Calculator",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roofing cost planning: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-62-2",
+      "financeTitle": "Roofing cost planning financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing-contractor-dublin-oh/": {
     "family": "roofing-local",
@@ -25930,14 +26263,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Roofing Contractor in Dublin, OH",
+    "title": "Roofing contractor in Dublin, OH",
     "description": "Choose a roofing contractor in Dublin, OH with an itemized roofing estimate. Review Roof King's assessment, products, project communication and coverage.",
     "sourceFile": "src/content/pages/roofing-contractor-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose your roofing contractor with the inspection approach, written estimate, independent reviews and product information in view.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Roofing Contractor in Dublin, OH",
+      "title": "Roofing contractor in Dublin, OH",
       "description": "Choosing a roofer means choosing the company responsible for explaining the problem, defining the work and communicating through the project. Roof King helps Dublin homeowners compare roofing options with the itemized estimate and a clear understanding of what the proposed work is intended to resolve.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -25969,21 +26302,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Start with the recommendation and the evidence behind it",
+      "eyebrow": "Dublin, Ohio · Roofing contractor",
+      "title": "Choosing a Dublin roofing contractor: compare the proposal as well as the company",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/completed-1200.webp",
+        "alt": "Completed shingle roof and exterior in a supplied residential photograph"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-63-1",
-          "tabLabel": "Start with the recommendation and the evidence behind it",
-          "title": "Start with the recommendation and the evidence behind it",
+          "tabLabel": "Roofing contractor",
+          "title": "Choosing a Dublin roofing contractor: compare the proposal as well as the company",
           "body": [
             {
               "tag": "p",
@@ -26108,7 +26441,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Questions before hiring a roofer",
+      "title": "Roofing contractor questions",
       "description": "",
       "items": [
         {
@@ -26154,7 +26487,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Discuss your roofing project with Roof King",
+      "title": "Discuss roofing contractor at your Dublin home",
       "description": "Tell us the Dublin property address and the concern or planned work. For an overview of the available services, visit roofing services in Dublin. Bring the questions above into the estimate discussion so the proposal is easy to assess.",
       "action": "Request a Roofing Estimate"
     },
@@ -26187,7 +26520,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roofing Contractor in Dublin, OH"
+    "seoTitle": "Roofing Contractor in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Roofing contractor: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-63-2",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roofing contractor materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/roofing/": {
     "family": "roofing-local",
@@ -26487,14 +26833,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "GAF Roofing in Columbus, OH",
+    "title": "GAF roofing in Columbus, OH",
     "description": "Explore GAF roofing installation in Columbus, OH. Compare shingles, roof-system components and warranty options with Roof King.",
     "sourceFile": "src/content/pages/roofing/gaf/index.md",
     "sourceCategory": "Service detail",
     "focus": "Choose the shingle you like, then review the components around and beneath it. A single accessory is not a promise against every future roofing problem.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "GAF Roofing in Columbus, OH",
+      "title": "GAF roofing in Columbus, OH",
       "description": "Choosing a GAF roof involves the shingle you see and the components beneath and around it. Roof King helps Columbus homeowners bring those decisions into a complete installation plan, including preparation, flashing, ventilation and the warranty option that applies to the selected system.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -26530,8 +26876,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Start with the shingle style and color",
+      "eyebrow": "Columbus, Ohio · GAF Roofing",
+      "title": "GAF shingle choices and a verified installer",
       "description": "The profile affects the roof's texture and shadow lines, while the color needs to work with the siding, masonry and trim that will remain. Use the GAF shingle styles and colors to narrow the options, then review the exact product and a sample. Availability and specifications can differ between lines; a brand name alone is not a product specification.",
       "intro": [
         {
@@ -26559,8 +26905,8 @@
       "items": [
         {
           "id": "service-child-64-1",
-          "tabLabel": "GAF Master Elite Certification",
-          "title": "GAF Master Elite Roofing Contractor",
+          "tabLabel": "GAF Master Elite certification and your installation",
+          "title": "GAF Master Elite certification and your installation",
           "body": [
             {
               "tag": "p",
@@ -26580,8 +26926,8 @@
         },
         {
           "id": "service-child-64-2",
-          "tabLabel": "GAF Shingle Styles & Colors",
-          "title": "Compare GAF Shingle Styles & Colors",
+          "tabLabel": "GAF shingle profiles, colors and specifications",
+          "title": "GAF shingle profiles, colors and specifications",
           "body": [
             {
               "tag": "p",
@@ -26732,7 +27078,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Put the product and installation in one proposal",
+      "title": "Plan a GAF roof installation in Columbus",
       "description": "Tell Roof King about your Columbus roof and the style you are considering. We can help connect the material choice with the work needed at the property. For alternative coverings, compare the roofing materials guide.",
       "action": "Request a GAF Roofing Estimate"
     },
@@ -26765,7 +27111,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "GAF Roofing in Columbus, OH"
+    "seoTitle": "GAF Roofing in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "GAF roofing: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-64-2",
+      "financeTitle": "GAF roofing financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing/gaf/master-elite/": {
     "family": "certification",
@@ -26773,14 +27131,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "The Benefits of a GAF Master Elite® Roofer",
+    "title": "The benefits of a GAF Master Elite® roofer",
     "description": "See the benefits of hiring Roof King, a GAF Master Elite contractor: Golden Pledge warranty access, system protection and GAF-backed workmanship coverage.",
     "sourceFile": "src/content/pages/roofing/gaf/master-elite/index.md",
     "sourceCategory": "Service detail",
     "focus": "A credential is useful evidence. Follow it with a review of the actual products, preparation and installation proposed for your property.",
     "hero": {
       "eyebrow": "GAF Master Elite® · Columbus, Ohio",
-      "title": "The Benefits of a GAF Master Elite® Roofer",
+      "title": "The benefits of a GAF Master Elite® roofer",
       "description": "Hiring Roof King gives you access to GAF’s Golden Pledge® Limited Warranty on a qualifying new roof, along with a contractor whose certification carries insurance, licensing where required, and ongoing learning requirements. Choose your shingles, understand your protection, and plan your roof with our Columbus team.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -26821,8 +27179,8 @@
     "opening": {
       "id": "service-topics",
       "variant": "benefits",
-      "eyebrow": "What you receive",
-      "title": "The Benefits of Hiring a GAF Master Elite® Contractor",
+      "eyebrow": "Columbus, Ohio · GAF Master Elite Certification",
+      "title": "What hiring a GAF Master Elite® contractor gives you",
       "description": "A new roof is a major investment. Our certification gives you more ways to protect it, with warranty choices tied to the GAF roof you select.",
       "intro": [
         {
@@ -26852,8 +27210,8 @@
       "items": [
         {
           "id": "master-elite-benefit-1",
-          "tabLabel": "Golden Pledge® Access",
-          "title": "Golden Pledge® Access",
+          "tabLabel": "Access to Golden Pledge® protection",
+          "title": "Access to Golden Pledge® protection",
           "description": "Only a GAF Master Elite contractor can offer Golden Pledge on an eligible roof. That gives you an enhanced warranty choice beyond what a non-certified installer can offer.",
           "body": [
             {
@@ -26873,8 +27231,8 @@
         },
         {
           "id": "master-elite-benefit-2",
-          "tabLabel": "50-Year Defect Protection Period",
-          "title": "50-Year Defect Protection Period",
+          "tabLabel": "The eligible 50-year defect-protection period",
+          "title": "The eligible 50-year defect-protection period",
           "description": "Eligible Golden Pledge systems receive a 50-year Smart Choice® period for manufacturing defects. Non-prorated protection means covered remedies are not reduced for the age of the roof during that period.",
           "body": [
             {
@@ -26894,8 +27252,8 @@
         },
         {
           "id": "master-elite-benefit-3",
-          "tabLabel": "GAF-Backed Workmanship Coverage",
-          "title": "GAF-Backed Workmanship Coverage",
+          "tabLabel": "Manufacturer-backed installation-error coverage",
+          "title": "Manufacturer-backed installation-error coverage",
           "description": "Golden Pledge also covers qualifying installation errors, including covered flashings. You can choose manufacturer-backed installation protection alongside Roof King’s separate workmanship coverage.",
           "body": [
             {
@@ -26915,8 +27273,8 @@
         },
         {
           "id": "master-elite-benefit-4",
-          "tabLabel": "Qualifications You Can Verify",
-          "title": "Qualifications You Can Verify",
+          "tabLabel": "Contractor qualifications you can verify",
+          "title": "Contractor qualifications you can verify",
           "description": "GAF’s program requires insurance and licensing where required, considers experience and reviews, and sets annual learning requirements for Master Elite renewal. You have a current manufacturer listing to check before hiring.",
           "body": [
             {
@@ -27009,7 +27367,7 @@
     },
     "faq": {
       "eyebrow": "Your Master Elite questions",
-      "title": "Understand Your GAF Roofing Benefits",
+      "title": "GAF Master Elite questions",
       "description": "",
       "items": [
         {
@@ -27081,7 +27439,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Get More From Your New GAF Roof",
+      "title": "Discuss the GAF protection available for your roof",
       "description": "Talk with Roof King about the shingles, installation and warranty protection available for your home. We’ll help you see which GAF system fits your project and what is included.",
       "action": "Plan Your GAF Roof"
     },
@@ -27115,7 +27473,19 @@
         "Client requested a benefits-led Master Elite page; supersedes the cautious PDF wording for this route."
       ]
     },
-    "seoTitle": "GAF Master Elite Contractor Benefits in Columbus, OH"
+    "seoTitle": "GAF Master Elite Contractor Benefits in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "GAF Master Elite: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "gaf-complete-system",
+      "financeTitle": "GAF Master Elite financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing/metal/": {
     "family": "metal",
@@ -27123,14 +27493,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Metal Roofing in Columbus, OH",
+    "title": "Metal roofing in Columbus, OH",
     "description": "Plan metal roofing in Columbus, OH with Roof King. Understand panel choices, fastening, flashing, finishes and complete installation costs.",
     "sourceFile": "src/content/pages/roofing/metal/index.md",
     "sourceCategory": "Service detail",
     "focus": "Ask how the proposed system handles panel joints, penetrations and transitions. These details explain what the installation team will build.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Metal Roofing in Columbus, OH",
+      "title": "Metal roofing in Columbus, OH",
       "description": "The appearance of a metal roof is only one part of choosing it. Panel profile, fastening, finish and the details around edges and penetrations all affect the installation. Roof King helps Columbus homeowners assess the existing roof and compare a metal system as part of a complete replacement estimate.",
       "image": {
         "src": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
@@ -27166,21 +27536,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Understand the panel system being proposed",
+      "eyebrow": "Columbus, Ohio · Metal Roofing",
+      "title": "Standing-seam and exposed-fastener metal roofing",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/standing-seam-v1.webp",
-        "alt": "Architectural illustration of standing-seam panels and the roof edge"
+        "src": "/media/service-review-02/metal-panel-seam-1200.webp",
+        "alt": "Illustrative raised metal roof seams and the finished eave connection"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-66-1",
-          "tabLabel": "Understand the panel system being proposed",
-          "title": "Understand the panel system being proposed",
+          "tabLabel": "Panel seams, visible fasteners and movement",
+          "title": "Panel seams, visible fasteners and movement",
           "body": [
             {
               "tag": "p",
@@ -27299,7 +27669,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Compare a metal roof for your home",
+      "title": "Discuss metal roofing for your Columbus home",
       "description": "Request a roof replacement estimate that names the metal system and explains preparation, attachment, flashing and coverage. Roof King can help you understand those choices for your Columbus property. The roofing materials guide helps compare metal with other available coverings.",
       "action": "Request a Metal Roofing Estimate"
     },
@@ -27332,7 +27702,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Metal Roofing in Columbus, OH"
+    "seoTitle": "Metal Roofing in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Metal roofing: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-66-3",
+      "financeTitle": "Metal roofing financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing/repair/": {
     "family": "repair",
@@ -27340,14 +27722,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roof Repair in Columbus, OH",
+    "title": "Roof repair in Columbus, OH",
     "description": "Roof repair in Columbus, OH for leaks, damaged shingles, flashing and roof vents. Understand the cause and repair options with Roof King.",
     "sourceFile": "src/content/pages/roofing/repair/index.md",
     "sourceCategory": "Core service",
     "focus": "Ask what failed, which materials need replacement and how the repair connects with the surrounding roof. Photographs can make that conversation much clearer.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roof Repair in Columbus, OH",
+      "title": "Roof repair in Columbus, OH",
       "description": "A missing shingle and a ceiling stain can be signs of very different roof problems. Roof King helps Columbus homeowners identify the affected roof detail and decide whether a focused repair can address it. The goal is an estimate that explains the cause, the work and how the repaired area connects to the existing roof.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -27383,21 +27765,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Common roof repairs",
+      "eyebrow": "Columbus, Ohio · Roof Repair",
+      "title": "Roof leaks, missing shingles and flashing repairs",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/roof-pipe-boot-1000.webp",
+        "alt": "Illustrative plumbing vent collar and metal flashing integrated into asphalt shingles"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-67-1",
-          "tabLabel": "Shingles and the layers beneath them",
-          "title": "Shingles and the layers beneath them",
+          "tabLabel": "Damaged shingles and the roof layers beneath them",
+          "title": "Damaged shingles and the roof layers beneath them",
           "body": [
             {
               "tag": "p",
@@ -27417,8 +27799,8 @@
         },
         {
           "id": "service-detail-67-2",
-          "tabLabel": "Pipe boots and vents",
-          "title": "Pipe boots and vents",
+          "tabLabel": "Leaking pipe boots and roof vents",
+          "title": "Leaking pipe boots and roof vents",
           "body": [
             {
               "tag": "p",
@@ -27438,8 +27820,8 @@
         },
         {
           "id": "service-detail-67-3",
-          "tabLabel": "Chimneys, walls and valleys",
-          "title": "Chimneys, walls and valleys",
+          "tabLabel": "Chimney flashing, wall junctions and roof valleys",
+          "title": "Chimney flashing, wall junctions and roof valleys",
           "body": [
             {
               "tag": "p",
@@ -27590,7 +27972,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Request a repair assessment",
+      "title": "Book a roof repair inspection in Columbus",
       "description": "Send Roof King the property address, a description of the problem and any useful repair history. If broader work becomes necessary, the roofing materials guide can help you compare the next options.",
       "action": "Request a Repair Estimate"
     },
@@ -27623,7 +28005,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Repair in Columbus, OH"
+    "seoTitle": "Roof Repair in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roof repair: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-67-3",
+      "financeTitle": "Roof repair financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing/replacement/": {
     "family": "replacement",
@@ -27631,14 +28025,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roof Replacement in Columbus, OH",
+    "title": "Roof replacement in Columbus, OH",
     "description": "Plan roof replacement in Columbus, OH with Roof King. Compare materials, preparation, flashing, decking and the details in a complete estimate.",
     "sourceFile": "src/content/pages/roofing/replacement/index.md",
     "sourceCategory": "Core service",
     "focus": "Underlayment, starter shingles, ridge products and ventilation need to suit the chosen installation. Review those parts with the field shingles.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roof Replacement in Columbus, OH",
+      "title": "Roof replacement in Columbus, OH",
       "description": "A new roof is a connected system of materials and details, not only a new surface. Roof King helps Columbus homeowners plan replacement around the condition of the existing roof, the selected covering and the preparation needed beneath it.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -27674,21 +28068,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Establish why replacement is being recommended",
+      "eyebrow": "Columbus, Ohio · Roof Replacement",
+      "title": "When a Columbus roof needs replacement",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/simple-gable-roof-1200.webp",
+        "alt": "Illustrative house with a simple gable roof and accessible driveway"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-68-1",
-          "tabLabel": "Establish why replacement is being recommended",
-          "title": "Establish why replacement is being recommended",
+          "tabLabel": "Roof condition, recurring leaks and repair alternatives",
+          "title": "Roof condition, recurring leaks and repair alternatives",
           "body": [
             {
               "tag": "p",
@@ -27839,7 +28233,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan your replacement roof",
+      "title": "Plan your Columbus roof replacement",
       "description": "Tell Roof King the property address, the condition you are seeing and the materials you are considering. We can help you compare the work required and the choices in the proposal. For a smaller, identifiable failure, compare the roof repair service before deciding on replacement.",
       "action": "Request a Roof Replacement Estimate"
     },
@@ -27872,7 +28266,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roof Replacement in Columbus, OH"
+    "seoTitle": "Roof Replacement in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roof replacement: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-68-2",
+      "financeTitle": "Roof replacement financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/roofing/types/": {
     "family": "materials",
@@ -27880,14 +28286,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Roofing Materials in Columbus, OH",
+    "title": "Roofing materials for Columbus homes",
     "description": "Compare asphalt shingles and metal roofing for your Columbus home. Explore appearance, installation, upkeep and product specifications with Roof King.",
     "sourceFile": "src/content/pages/roofing/types/index.md",
     "sourceCategory": "Product guide",
     "focus": "Compare roof samples with siding, masonry and trim. Then review the roof shape and installation details with the team.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Roofing Materials in Columbus, OH",
+      "title": "Roofing materials for Columbus homes",
       "description": "The right roofing material needs to suit your home, the roof's construction and the work required to install it. Roof King helps Columbus homeowners compare asphalt shingles and metal roofing as complete systems, including preparation, accessories, care and applicable coverage.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -27923,21 +28329,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Asphalt shingles",
+      "eyebrow": "Columbus, Ohio · Roofing Materials",
+      "title": "Asphalt shingles: appearance and roof-system components",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/roof-material-samples-1200.webp",
+        "alt": "Illustrative architectural shingle samples beside a standing-seam metal panel sample"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roofing detail; materials and installation vary by the selected system.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-69-1",
-          "tabLabel": "Asphalt shingles",
-          "title": "Asphalt shingles",
+          "tabLabel": "Architectural shingles and the supporting roof assembly",
+          "title": "Architectural shingles and the supporting roof assembly",
           "body": [
             {
               "tag": "p",
@@ -28062,7 +28468,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Material selection questions",
+      "title": "Roofing material questions",
       "description": "",
       "items": [
         {
@@ -28108,7 +28514,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Bring the material choice into the replacement plan",
+      "title": "Compare roofing materials for your Columbus home",
       "description": "Use the product library to narrow your preferences, then request a roof replacement estimate that connects the selection with the work your property needs.",
       "action": "Compare Roofing Options"
     },
@@ -28141,7 +28547,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Roofing Materials in Columbus, OH"
+    "seoTitle": "Roofing Materials in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "02",
+      "credentialsTitle": "Roofing material: contractor credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s roofing work",
+      "brandsTitle": "GAF shingles and roof-system products",
+      "brandsDescription": "Compare actual shingle products, colors and the components used with them.",
+      "brandsSectionId": "service-copy-69-3",
+      "financeTitle": "Roofing material financing",
+      "galleryTitle": "Roofing photos from Roof King’s existing library",
+      "stormTitle": "Hail or wind damage to your roof?",
+      "stormDescription": "Have missing shingles, damaged flashing and adjoining gutter or siding problems assessed together. Discuss repair options and documentation for your storm-damage inspection."
+    }
   },
   "/siding/": {
     "family": "siding",
@@ -28954,14 +29372,14 @@
     "city": "Dublin",
     "isLocal": true,
     "reference": false,
-    "title": "Storm Damage Roof Repair in Dublin, OH",
+    "title": "Storm damage roof repair in Dublin, OH",
     "description": "Roof and exterior storm damage repair in Dublin, OH. Understand inspection findings, repair options and documentation with Roof King.",
     "sourceFile": "src/content/pages/storm-damage-roof-repair-dublin-oh/index.md",
     "sourceCategory": "Local service",
     "focus": "Choose the roofing or gutter service that matches your concern, then use the product library to compare materials separately.",
     "hero": {
       "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Roof Repair in Dublin, OH",
+      "title": "Storm damage roof repair in Dublin, OH",
       "description": "A storm can affect more than the shingles you can see from the ground. Roof King helps Dublin homeowners assess roofing and related exterior damage, understand the repair options and define the work needed to put the affected areas back together.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -28993,21 +29411,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Dublin, Ohio · Roof King & Restoration",
-      "title": "If water is entering now",
+      "eyebrow": "Dublin, Ohio · Storm damage roof repair",
+      "title": "After a Dublin storm: separate active leaks, roof observations and repair decisions",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/client-photography/complex-800.webp",
+        "alt": "Shingle roof with valleys, dormers and adjoining exterior walls"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. Project location and product details are not assigned to this Dublin service page.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-73-1",
-          "tabLabel": "If water is entering now",
-          "title": "If water is entering now",
+          "tabLabel": "Storm damage roof repair",
+          "title": "After a Dublin storm: separate active leaks, roof observations and repair decisions",
           "body": [
             {
               "tag": "p",
@@ -29112,7 +29530,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm repair questions in Dublin",
+      "title": "Storm damage roof repair questions",
       "description": "",
       "items": [
         {
@@ -29158,7 +29576,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what changed after the storm",
+      "title": "Discuss storm damage roof repair at your Dublin home",
       "description": "Send the property address, when you noticed the damage and a description of any active leak. Roof King can help you arrange the next step. For related services, visit roofing and exterior services in Dublin.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -29191,7 +29609,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Roof Repair in Dublin, OH"
+    "seoTitle": "Storm Damage Roof Repair in Dublin, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Storm damage roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "brandsSectionId": "service-copy-73-4",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Storm damage roof repair materials, preparation and installation",
+      "stormTitle": "Storm damage to your Dublin home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/storm-damage/": {
     "family": "storm",
@@ -29199,14 +29630,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Storm Damage Roof Repair in Columbus, OH",
+    "title": "Storm damage repairs in Columbus, OH",
     "description": "Roof and exterior storm damage repair in Columbus, OH. Understand inspection findings, repair options and documentation with Roof King.",
     "sourceFile": "src/content/pages/storm-damage/index.md",
     "sourceCategory": "Service hub",
     "focus": "Explore Roof King’s storm inspection, roofing and exterior repair services. Find the service for hail, wind or ice damage, then review the documentation and work proposed for your property.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Roof Repair in Columbus, OH",
+      "title": "Storm damage repairs in Columbus, OH",
       "description": "A storm can affect more than the shingles you can see from the ground. Roof King helps Columbus homeowners assess roofing and related exterior damage, understand the repair options and define the work needed to put the affected areas back together.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -29238,9 +29669,9 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "If water is entering now",
-      "description": "Call to discuss the situation and current availability. Keep clear of damaged ceilings, fallen materials and electrical hazards. Take photographs only from a safe position. Tell the team whether water is actively entering, which rooms are affected and whether visible materials are loose. Temporary protection, when appropriate and available, is a separate step from a permanent repair and needs a clear follow-up plan.",
+      "eyebrow": "Columbus, Ohio · Storm damage assessment",
+      "title": "Storm damage services for Columbus roofs and exteriors",
+      "description": "Find help for suspected wind, hail or debris damage to the roof and adjoining exterior. Review the relevant service, then discuss the affected areas and any active water entry with Roof King.",
       "intro": [
         {
           "tag": "p",
@@ -29255,8 +29686,8 @@
       "items": [
         {
           "id": "service-child-74-1",
-          "tabLabel": "Commercial Storm Restoration",
-          "title": "Commercial Storm Restoration in Columbus, OH",
+          "tabLabel": "Commercial storm damage",
+          "title": "Commercial storm damage",
           "body": [
             {
               "tag": "p",
@@ -29276,8 +29707,8 @@
         },
         {
           "id": "service-child-74-2",
-          "tabLabel": "Hail Damage Roof Repair",
-          "title": "Hail Damage Roof Repair in Columbus, OH",
+          "tabLabel": "Hail damage assessment and repairs",
+          "title": "Hail damage assessment and repairs",
           "body": [
             {
               "tag": "p",
@@ -29297,8 +29728,8 @@
         },
         {
           "id": "service-child-74-3",
-          "tabLabel": "Storm Damage Documentation",
-          "title": "Storm Damage Documentation in Columbus, OH",
+          "tabLabel": "Storm documentation and repair estimates",
+          "title": "Storm documentation and repair estimates",
           "body": [
             {
               "tag": "p",
@@ -29318,8 +29749,8 @@
         },
         {
           "id": "service-child-74-4",
-          "tabLabel": "Wind Damage Roof Repair",
-          "title": "Wind Damage Roof Repair in Columbus, OH",
+          "tabLabel": "Wind damage assessment and repairs",
+          "title": "Wind damage assessment and repairs",
           "body": [
             {
               "tag": "p",
@@ -29412,7 +29843,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm repair questions in Columbus",
+      "title": "Storm damage repair questions",
       "description": "",
       "items": [
         {
@@ -29458,7 +29889,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Tell us what changed after the storm",
+      "title": "Arrange a storm damage inspection for your Columbus property",
       "description": "Send the property address, when you noticed the damage and a description of any active leak. Roof King can help you arrange the next step. For a business or managed building, use commercial storm restoration to review roof access, operations and building records.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -29491,7 +29922,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Roof Repair in Columbus, OH"
+    "seoTitle": "Storm Damage Roof Repair in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Storm damage repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Replacement shingle products and specifications",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "brandsSectionId": "service-copy-74-4",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roofing materials, preparation and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/storm-damage/commercial/": {
     "family": "commercial-storm",
@@ -29499,14 +29943,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Commercial Storm Restoration in Columbus, OH",
+    "title": "Commercial storm damage in Columbus, OH",
     "description": "Commercial roof storm damage in Columbus, OH. Review affected roof components, repair records and building operations with Roof King.",
     "sourceFile": "src/content/pages/storm-damage/commercial/index.md",
     "sourceCategory": "Service detail",
     "focus": "Ask what was found on the roof, siding and gutters, and why each repair is recommended. Not every visible mark calls for the same work.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Commercial Storm Restoration in Columbus, OH",
+      "title": "Commercial storm damage in Columbus, OH",
       "description": "After a storm, a commercial building needs a clear record of the affected roof areas and a plan suited to its operations. Roof King helps Columbus owners and property managers discuss roof damage, repair options and the work needed around occupants, equipment and access restrictions.",
       "image": {
         "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -29542,21 +29986,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Report active water entry and operating constraints",
+      "eyebrow": "Columbus, Ohio · Commercial property roofing",
+      "title": "Commercial storm damage: water entry, access and operations",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/commercial-roof-v1.webp",
-        "alt": "Architectural illustration of a low-slope roof and its supporting layers"
+        "src": "/media/client-photography/lowRoof-1200.webp",
+        "alt": "Low-slope roof with visible seams, repair areas and penetrations in a supplied photograph"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Photo supplied by Roof King. The roof material, condition and proposed work need assessment at the property.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-75-1",
-          "tabLabel": "Report active water entry and operating constraints",
-          "title": "Report active water entry and operating constraints",
+          "tabLabel": "Report affected spaces and current water entry",
+          "title": "Report affected spaces and current water entry",
           "body": [
             {
               "tag": "p",
@@ -29647,7 +30091,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Commercial storm questions",
+      "title": "Commercial storm damage questions",
       "description": "",
       "items": [
         {
@@ -29693,7 +30137,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange the next step for your building",
+      "title": "Discuss storm damage at your commercial property",
       "description": "Share the property address, roof information, storm observations and operating restrictions with Roof King. A useful repair plan connects the roof findings with the needs of the building below.",
       "action": "Request a Commercial Storm Assessment"
     },
@@ -29726,7 +30170,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Commercial Storm Restoration in Columbus, OH"
+    "seoTitle": "Commercial Storm Restoration in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Commercial storm damage: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Gutter product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Commercial roofing photos from Roof King’s existing library",
+      "materialsTitle": "Commercial roof materials and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/storm-damage/hail/": {
     "family": "hail",
@@ -29734,14 +30190,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Hail Damage Roof Repair in Columbus, OH",
+    "title": "Hail damage roof repair in Columbus, OH",
     "description": "Hail damage roof assessment and repair in Columbus, OH. Understand observations, repairability, materials and storm records with Roof King.",
     "sourceFile": "src/content/pages/storm-damage/hail/index.md",
     "sourceCategory": "Service detail",
     "focus": "Impact classifications describe controlled product tests. They cannot establish whether your existing roof was damaged in a particular storm.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Hail Damage Roof Repair in Columbus, OH",
+      "title": "Hail damage roof repair in Columbus, OH",
       "description": "Hail can affect roof coverings and surrounding components in different ways. Roof King helps Columbus homeowners assess suspected damage, understand the condition of the roof and compare a defined repair with broader replacement where appropriate. A dent or photograph is a starting observation, not a complete roof diagnosis.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -29777,21 +30233,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "What visible clues can tell you",
+      "eyebrow": "Columbus, Ohio · Storm damage assessment",
+      "title": "Suspected hail damage: what roof and metal observations can show",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/complex-roof-valleys-1200.webp",
+        "alt": "Illustrative roof slopes, valleys and dormers used to identify observation locations"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roof detail; the material, location and cause need a property assessment.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-76-1",
-          "tabLabel": "What visible clues can tell you",
-          "title": "What visible clues can tell you",
+          "tabLabel": "Surface changes, material condition and inspection limits",
+          "title": "Surface changes, material condition and inspection limits",
           "body": [
             {
               "tag": "p",
@@ -29884,7 +30340,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Hail damage questions",
+      "title": "Hail damage roof repair questions",
       "description": "",
       "items": [
         {
@@ -29954,7 +30410,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a hail damage assessment",
+      "title": "Request an inspection of suspected hail damage",
       "description": "Tell Roof King when you noticed the concern, the property address and any visible changes or leaks. The next step is a record of the findings and a repair recommendation based on the actual roof.",
       "action": "Request a Hail Damage Assessment"
     },
@@ -29987,7 +30443,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Hail Damage Roof Repair in Columbus, OH"
+    "seoTitle": "Hail Damage Roof Repair in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Hail damage roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle impact classifications and product documents",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "brandsSectionId": "service-copy-76-5",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roofing materials, preparation and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/storm-damage/insurance-claims/": {
     "family": "claims",
@@ -29995,14 +30464,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Storm Damage Documentation in Columbus, OH",
+    "title": "Storm damage documentation in Columbus, OH",
     "description": "Understand storm damage inspection records, repair estimates and completed-work documents with Roof King. Keep construction findings and coverage decisions clear.",
     "sourceFile": "src/content/pages/storm-damage/insurance-claims/index.md",
     "sourceCategory": "Service detail",
     "focus": "Photographs and a written estimate should make the proposed construction understandable. Ask why each repair is recommended.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Storm Damage Documentation in Columbus, OH",
+      "title": "Storm damage documentation in Columbus, OH",
       "description": "After storm damage, clear construction records help explain what was found and what work is proposed. Roof King can discuss the roofing assessment and repair estimate for your Columbus property. Coverage questions, policy terms and claim decisions belong with your insurer; a roofing estimate does not determine the outcome of a claim.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -30038,21 +30507,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Begin with dates, observations and earlier work",
+      "eyebrow": "Columbus, Ohio · Storm damage assessment",
+      "title": "Storm documentation starts with dates, observations and roof history",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-03/commercial-roof-overview-1200.webp",
+        "alt": "Illustrative low-slope commercial roof with equipment curbs, perimeter details and roof access"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roof detail; the material, location and cause need a property assessment.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-77-1",
-          "tabLabel": "Begin with dates, observations and earlier work",
-          "title": "Begin with dates, observations and earlier work",
+          "tabLabel": "Record what you noticed and contact your insurer directly",
+          "title": "Record what you noticed and contact your insurer directly",
           "body": [
             {
               "tag": "p",
@@ -30145,7 +30614,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Storm documentation questions",
+      "title": "Storm damage documentation questions",
       "description": "",
       "items": [
         {
@@ -30227,7 +30696,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Request an assessment with clear records",
+      "title": "Discuss the inspection and records for your storm repair",
       "description": "Tell Roof King the property address, observations and any information your insurer has requested. Confirm the construction documents available with the service and retain them with your project records.",
       "action": "Request a Storm Damage Assessment"
     },
@@ -30260,7 +30729,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Storm Damage Documentation in Columbus, OH"
+    "seoTitle": "Storm Damage Documentation in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Storm damage documentation: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "Shingle identification and replacement product information",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "brandsSectionId": "service-copy-77-4",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roofing materials, preparation and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/storm-damage/wind/": {
     "family": "wind",
@@ -30268,14 +30750,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Wind Damage Roof Repair in Columbus, OH",
+    "title": "Wind damage roof repair in Columbus, OH",
     "description": "Wind damage roof repair in Columbus, OH. Understand missing shingles, flashing, roof edges, repair choices and storm records with Roof King.",
     "sourceFile": "src/content/pages/storm-damage/wind/index.md",
     "sourceCategory": "Service detail",
     "focus": "The adjoining roof needs consideration before repairs are chosen. Ask what was found around the damage and how new materials will be installed.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Wind Damage Roof Repair in Columbus, OH",
+      "title": "Wind damage roof repair in Columbus, OH",
       "description": "Missing shingles and loose roof-edge materials after wind can leave more than a visible gap. Roof King helps Columbus homeowners assess the affected covering and surrounding details, then compare repair options based on the condition of the roof. If water is entering now, call and describe the active problem so availability can be discussed.",
       "image": {
         "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
@@ -30311,21 +30793,21 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Look for changes from a safe position",
+      "eyebrow": "Columbus, Ohio · Storm damage assessment",
+      "title": "Suspected wind damage: observations from a safe position",
       "description": "",
       "intro": [],
       "image": {
-        "src": "/media/service-illustrations/roof-detail-v1.webp",
-        "alt": "Architectural illustration of shingles, a plumbing vent and chimney flashing"
+        "src": "/media/service-review-02/complex-roof-valleys-1200.webp",
+        "alt": "Illustrative roof slopes, valleys and dormers used to identify observation locations"
       },
-      "caption": "Illustration of related components. Materials and details vary with the selected system.",
+      "caption": "Illustrative roof detail; the material, location and cause need a property assessment.",
       "selectorLabel": "Service details",
       "items": [
         {
           "id": "service-detail-78-1",
-          "tabLabel": "Look for changes from a safe position",
-          "title": "Look for changes from a safe position",
+          "tabLabel": "Missing materials, changed roof edges and active leaks",
+          "title": "Missing materials, changed roof edges and active leaks",
           "body": [
             {
               "tag": "p",
@@ -30418,7 +30900,7 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Wind repair questions",
+      "title": "Wind damage roof repair questions",
       "description": "",
       "items": [
         {
@@ -30476,7 +30958,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Arrange a wind damage assessment",
+      "title": "Discuss wind damage and any active roof leak",
       "description": "Share the property address, when you noticed the change and any active leak or visible displacement. Roof King can help establish the next step and the work needed to restore the affected roof details.",
       "action": "Request a Wind Damage Assessment"
     },
@@ -30509,7 +30991,20 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Wind Damage Roof Repair in Columbus, OH"
+    "seoTitle": "Wind Damage Roof Repair in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "03",
+      "credentialsTitle": "Wind damage roof repair: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle wind classifications and warranty conditions",
+      "brandsDescription": "Review the exact product’s published classifications and warranty conditions when selecting replacement shingles.",
+      "brandsSectionId": "service-copy-78-5",
+      "financeTitle": "Financing for the agreed exterior work",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Roofing materials, preparation and installation",
+      "stormTitle": "Storm damage to your commercial roof or drainage?",
+      "stormDescription": "Discuss the affected roof covering, equipment flashings and drainage connections. The inspection and written estimate should identify the building areas involved."
+    }
   },
   "/upper-arlington-oh/": {
     "family": "local",
@@ -32023,14 +32518,14 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Window Replacement in Columbus, OH",
+    "title": "Window replacement in Columbus, OH",
     "description": "Window replacement in Columbus, OH. Compare operation, styles, glass ratings, opening preparation and finishing details with Roof King.",
     "sourceFile": "src/content/pages/windows/index.md",
     "sourceCategory": "Additional service",
     "focus": "Review style, frame color and trim with the existing interior and exterior finishes.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Window Replacement in Columbus, OH",
+      "title": "Window replacement in Columbus, OH",
       "description": "New windows should address the condition of the existing opening as well as the way the room looks and functions. Roof King helps Columbus homeowners discuss replacement options, the work around each opening and the product information needed for a clear estimate.",
       "image": {
         "src": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
@@ -32062,8 +32557,8 @@
     ],
     "opening": {
       "id": "service-topics",
-      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Identify what is failing",
+      "eyebrow": "Columbus, Ohio · Window replacement",
+      "title": "Replacement windows for Columbus homes: repairable problems, fit and product choices",
       "description": "",
       "intro": [],
       "image": {
@@ -32075,8 +32570,8 @@
       "items": [
         {
           "id": "service-detail-81-1",
-          "tabLabel": "Identify what is failing",
-          "title": "Identify what is failing",
+          "tabLabel": "Window replacement",
+          "title": "Replacement windows for Columbus homes: repairable problems, fit and product choices",
           "body": [
             {
               "tag": "p",
@@ -32092,6 +32587,35 @@
           "highlights": [],
           "href": "#estimate",
           "label": "Request a Window Replacement Estimate",
+          "icon": "roof"
+        },
+        {
+          "id": "service-copy-81-2",
+          "title": "Window styles: opening operation, ventilation and room use",
+          "tabLabel": "Window styles: opening operation, ventilation and room use",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Common categories include vertically sliding windows, side-sliding windows, hinged casement or awning styles and fixed picture windows. They differ in operation, ventilation and the space needed to open them. Confirm which styles and sizes Roof King can supply for the project. Consider cleaning access, furniture and exterior appearance alongside the preferred profile."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Changing an opening or its function can require more work than replacing a similar-sized unit. The proposal needs to account for the opening, supporting construction and applicable requirements before that change is agreed."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Discuss your project",
           "icon": "roof"
         }
       ]
@@ -32193,7 +32717,7 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan the windows and the work around them",
+      "title": "Discuss window replacement at your Columbus home",
       "description": "Send Roof King the property address, the openings you want assessed and the problems you are seeing. The estimate should connect the selected units with the preparation and finished details.",
       "action": "Request a Window Replacement Estimate"
     },
@@ -32222,7 +32746,19 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Window Replacement in Columbus, OH"
+    "seoTitle": "Window Replacement in Columbus, OH",
+    "reviewPresentation": {
+      "batch": "04",
+      "credentialsTitle": "Window replacement: business credentials and workmanship",
+      "reviewsTitle": "Customer reviews of Roof King’s exterior work",
+      "brandsTitle": "GAF shingle products and applicable coverage",
+      "brandsDescription": "When shingles are part of the proposed work, confirm the exact product, accessories and applicable written coverage.",
+      "financeTitle": "Financing for the agreed work at your home",
+      "galleryTitle": "Roofing and exterior photos from Roof King’s existing library",
+      "materialsTitle": "Window replacement materials, preparation and installation",
+      "stormTitle": "Storm damage to your Columbus home?",
+      "stormDescription": "Tell the team about active leaks, changed roof materials or affected siding and gutters so the inspection can address the connected exterior details."
+    }
   },
   "/worthington-oh/": {
     "family": "local",

@@ -1,0 +1,1046 @@
+{
+  "/media/service-review-01/siding-sheathing-repair-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/siding-sheathing-repair-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/siding-sheathing-repair-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/siding-sheathing-repair-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/window-wall-flashing-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/window-wall-flashing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/window-wall-flashing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/window-wall-flashing-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/seamless-gutter-fabrication-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/seamless-gutter-fabrication-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/seamless-gutter-fabrication-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/seamless-gutter-fabrication-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/localized-siding-damage-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/localized-siding-damage-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/localized-siding-damage-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/localized-siding-damage-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/fascia-roof-edge-repair-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/fascia-roof-edge-repair-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/fascia-roof-edge-repair-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/fascia-roof-edge-repair-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/gutter-overflow-debris-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/gutter-overflow-debris-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/gutter-overflow-debris-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/gutter-overflow-debris-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/commercial-wall-preparation-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/commercial-wall-preparation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/commercial-wall-preparation-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/commercial-wall-preparation-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/commercial-access-planning-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/commercial-access-planning-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/commercial-access-planning-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/commercial-access-planning-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/siding-surface-care-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/siding-surface-care-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/siding-surface-care-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/siding-surface-care-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-01/commercial-cladding-records-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-01/commercial-cladding-records-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-01/commercial-cladding-records-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-01/commercial-cladding-records-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/siding-guide/material-samples-1200.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/siding-guide/material-samples-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/siding-guide/material-samples-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/siding-guide/material-samples-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/siding-guide/window-trim-1200.webp": {
+    "width": 1200,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/siding-guide/window-trim-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/siding-guide/window-trim-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/siding-guide/window-trim-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/roof-underlayment-edge-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-underlayment-edge-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-underlayment-edge-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-underlayment-edge-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/simple-gable-roof-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/simple-gable-roof-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/simple-gable-roof-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/simple-gable-roof-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/complex-roof-valleys-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/complex-roof-valleys-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/complex-roof-valleys-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/complex-roof-valleys-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/roof-material-samples-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-material-samples-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-material-samples-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-material-samples-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/metal-panel-seam-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/metal-panel-seam-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/metal-panel-seam-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/metal-panel-seam-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/roof-plan-review-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-plan-review-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-plan-review-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-plan-review-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/metal-roof-flashing-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/metal-roof-flashing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/metal-roof-flashing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/metal-roof-flashing-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/metal-roof-preparation-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/metal-roof-preparation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/metal-roof-preparation-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/metal-roof-preparation-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-02/roof-deck-repair-1000.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-deck-repair-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-deck-repair-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-deck-repair-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/service-review-02/chimney-step-flashing-1000.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/chimney-step-flashing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/chimney-step-flashing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/chimney-step-flashing-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/service-review-02/roof-ridge-vent-1000.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-ridge-vent-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-ridge-vent-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-ridge-vent-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/service-review-02/roof-pipe-boot-1000.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-02/roof-pipe-boot-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-02/roof-pipe-boot-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-02/roof-pipe-boot-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/service-review-02/gaf-timberline-hdz-barkwood-600.webp": {
+    "width": 600,
+    "height": 600,
+    "variants": [
+      {
+        "src": "/media/service-review-02/gaf-timberline-hdz-barkwood-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/service-review-02/gaf-timberline-hdz-barkwood-600.webp",
+        "width": 600
+      }
+    ]
+  },
+  "/media/service-review-03/membrane-seam-puncture-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/membrane-seam-puncture-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/membrane-seam-puncture-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/membrane-seam-puncture-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-curb-flashing-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-curb-flashing-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-curb-flashing-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-curb-flashing-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-insulation-tearoff-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-insulation-tearoff-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-insulation-tearoff-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-roof-walkway-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-roof-walkway-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-walkway-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-walkway-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-gutter-run-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-gutter-run-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-gutter-run-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-gutter-run-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-gutter-support-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-gutter-support-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-gutter-support-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-gutter-support-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/wind-lifted-shingles-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/wind-lifted-shingles-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/wind-lifted-shingles-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/wind-lifted-shingles-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/hail-metal-vent-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/hail-metal-vent-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/hail-metal-vent-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/hail-metal-vent-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/hail-shingle-surface-900.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/hail-shingle-surface-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/hail-shingle-surface-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/hail-shingle-surface-900.webp",
+        "width": 900
+      }
+    ]
+  },
+  "/media/service-review-03/storm-branch-roof-edge-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/storm-branch-roof-edge-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/storm-branch-roof-edge-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/storm-branch-roof-edge-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/roof-observation-record-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/roof-observation-record-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/roof-observation-record-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/roof-observation-record-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-roof-overview-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-roof-overview-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-overview-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-overview-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/hail-gutter-dents-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/hail-gutter-dents-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/hail-gutter-dents-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/hail-gutter-dents-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-03/commercial-roof-drain-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-03/commercial-roof-drain-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-drain-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-03/commercial-roof-drain-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/client-photography/installation-1000.webp": {
+    "width": 5472,
+    "height": 3648,
+    "variants": [
+      {
+        "src": "/media/client-photography/installation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/installation-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/installation-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-photography/neighborhood-1200.webp": {
+    "width": 1290,
+    "height": 842,
+    "variants": [
+      {
+        "src": "/media/client-photography/neighborhood-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/neighborhood-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/neighborhood-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/client-photography/underlayment-800.webp": {
+    "width": 1283,
+    "height": 1604,
+    "variants": [
+      {
+        "src": "/media/client-photography/underlayment-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/underlayment-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/underlayment-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-photography/lowRoof-1200.webp": {
+    "width": 1283,
+    "height": 1660,
+    "variants": [
+      {
+        "src": "/media/client-photography/lowRoof-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/lowRoof-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/lowRoof-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/client-photography/ridge-800.webp": {
+    "width": 1283,
+    "height": 1414,
+    "variants": [
+      {
+        "src": "/media/client-photography/ridge-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/ridge-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/ridge-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-photography/completed-1200.webp": {
+    "width": 1283,
+    "height": 930,
+    "variants": [
+      {
+        "src": "/media/client-photography/completed-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/completed-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/completed-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/client-photography/roofPlan-1000.webp": {
+    "width": 1283,
+    "height": 1131,
+    "variants": [
+      {
+        "src": "/media/client-photography/roofPlan-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/roofPlan-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/roofPlan-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/client-photography/complex-800.webp": {
+    "width": 1283,
+    "height": 1097,
+    "variants": [
+      {
+        "src": "/media/client-photography/complex-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/complex-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/complex-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-photography/brickHouse-800.webp": {
+    "width": 1283,
+    "height": 1230,
+    "variants": [
+      {
+        "src": "/media/client-photography/brickHouse-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/brickHouse-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/client-photography/brickHouse-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/client-photography/windCrease-468.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-photography/windCrease-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/windCrease-468.webp",
+        "width": 468
+      }
+    ]
+  },
+  "/media/client-photography/missingLayer-468.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-photography/missingLayer-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/missingLayer-468.webp",
+        "width": 468
+      }
+    ]
+  },
+  "/media/client-photography/windArea-476.webp": {
+    "width": 576,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/media/client-photography/windArea-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/windArea-476.webp",
+        "width": 476
+      }
+    ]
+  },
+  "/media/client-photography/fasteners-468.webp": {
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/client-photography/fasteners-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/fasteners-468.webp",
+        "width": 468
+      }
+    ]
+  },
+  "/media/client-photography/sidingDamage-800.webp": {
+    "width": 800,
+    "height": 555,
+    "variants": [
+      {
+        "src": "/media/client-photography/sidingDamage-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/client-photography/sidingDamage-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/service-review-04/airSeal-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-04/airSeal-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-04/airSeal-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-04/airSeal-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-04/baffle-1200.webp": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/media/service-review-04/baffle-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-04/baffle-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-04/baffle-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "/media/service-review-05/client-windCrease-640.webp": {
+    "width": 640,
+    "height": 427,
+    "variants": [
+      {
+        "src": "/media/service-review-05/client-windCrease-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-05/client-windCrease-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/service-review-05/client-missingLayer-640.webp": {
+    "width": 640,
+    "height": 427,
+    "variants": [
+      {
+        "src": "/media/service-review-05/client-missingLayer-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-05/client-missingLayer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/service-review-05/client-windArea-576.webp": {
+    "width": 576,
+    "height": 384,
+    "variants": [
+      {
+        "src": "/media/service-review-05/client-windArea-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-05/client-windArea-576.webp",
+        "width": 576
+      }
+    ]
+  },
+  "/media/service-review-05/client-underlayment-1000.webp": {
+    "width": 1000,
+    "height": 667,
+    "variants": [
+      {
+        "src": "/media/service-review-05/client-underlayment-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-05/client-underlayment-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-05/client-underlayment-1000.webp",
+        "width": 1000
+      }
+    ]
+  },
+  "/media/service-review-05/roof-edge-ice-1000.webp": {
+    "width": 1000,
+    "height": 563,
+    "variants": [
+      {
+        "src": "/media/service-review-05/roof-edge-ice-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-review-05/roof-edge-ice-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-review-05/roof-edge-ice-1000.webp",
+        "width": 1000
+      }
+    ]
+  }
+}

@@ -111,3 +111,18 @@ structured-data.mjs compiles one linked graph from actual rendered components in
 sitemap.mjs creates dist/sitemap.xml after the final HTML integrations, using actual self-canonical content pages and production site URLs. check-sitemap.mjs verifies exact membership, unique canonical URLs, exclusions and the robots declaration; no network or fabricated lastmod dates are required.
 
 check-cloudways-review.mjs confirms release.json against the expected commit, then checks all canonical sitemap pages against local built headings, canonical URLs, linked graphs and component markers with six concurrent public requests. It also checks sitemap, essential assets, disabled forms, robots and 404 behavior.
+
+
+check-service-photo-pairs.mjs validates all mapped photo sections for three rows, complete unique topic coverage, retained original paragraphs, responsive lazy images, intrinsic dimensions, alt text and a 110 KB per-variant limit. Run npm run check:service-photos after build.
+
+
+check-service-photo-pairs now derives reviewed routes from all service-review-batch-NN.json files. It rejects photo rollout outside a reviewed batch and requires every rendered reviewed media section to have its three explicit photo/topic rows; no fixed ten-section limit remains.
+
+
+check-service-reviews derives the expected subordinate manufacturer-heading count from editorial brandIds, including zero for brandless commercial pages. It still requires reduced H2 counts, correct hierarchy, explicit estimate placement and valid labelled references. Photo checks now cover 30 reviewed pages and 90 paired rows across three batches.
+
+
+check:photography verifies all real-photo placements against migration/client-photography-review.json, source captions, alt text, <=110 KB detail files and stripped EXIF/GPS. It is included in verify. Hero checks now distinguish generated assets from provenance-backed client photography while preserving distinct scenes, responsive budgets and eager loading.
+
+
+prepare-client-gallery.mjs is an explicit offline authoring tool driven by migration/client-gallery-inventory.json and downloaded originals. It encodes bounded responsive WebPs, preserves source IDs and reference categories, upgrades the existing installation photo and retains other gallery photos. check-gallery.mjs additionally requires all 98 source-image dispositions, valid alias destinations, descriptive metadata, stripped metadata, correct dimensions, no enlargement and visible reference labels. Normal builds do not need Drive, originals or decoding tools.

@@ -72,7 +72,7 @@ All 29 native product routes now have ProductHero photographic/sample heroes and
 
 All 84 native service pages now have individual illustrative custom heroes. The 43 additional scenes and responsive WebP assets are recorded in migration/service-hero-images.json. Shared ServicePaths panels display each destination hero immediately under the eyebrow. Navigation uses a lazy-loaded, content-hashed image atlas with one unique image per distinct destination; the atlas is cached across page loads and eliminates per-hover image downloads.
 
-The client moved three-image media-section galleries into the ten-page service review cycle. Only /gutters/#service-copy-46-3 is implemented as the example. Keep other pages unchanged until their review batch; do not bulk-apply generic image sets. This photo pass does not rewrite copy. See migration/service-section-photo-review.json and the photo-pass checklist in service-review-batch-01.md. The inventory distinguishes source candidates from currently rendered sections.
+The client moved three-image media-section galleries into the ten-page service review cycle. Batches 01 and 02 now cover twenty reviewed pages. Each applicable media section pairs three distinct photos with its opposing headings and paragraphs. Keep remaining pages unchanged until their review batch; do not bulk-apply generic image sets. Copy changes belong within the authorized ten-page review. See migration/service-section-photo-review.json and the photo-pass checklist in service-review-batch-01.md. The inventory distinguishes source candidates from currently rendered sections.
 
 Client approved consolidating the standalone /gallery/ into /#projects. This is the single explicit redirect exception to protected URL presentation; all service/location routes remain unchanged. Gallery is removed from both menu positions. Homepage and topic-specific service galleries share the inspected photo library.
 
@@ -122,3 +122,15 @@ All eleven /offers/ URLs now render natively: the grouped offers hub, nine disti
 Schema.org is compiled server-side from rendered shared components into one linked JSON-LD graph per canonical content page. scripts/structured-data.mjs runs in middleware and the final build integration, preserving authored service/product/article facts and breadcrumbs while adding WebSite/WebPage specializations, real FAQs, collections, gallery/images, brands, product specifications, coverage maps and navigation. Canonical aliases, redirects, 404 and internal review pages do not redefine canonical-page entities. No ratings, jobs, credit products, made-up prices, disabled-form actions or unsupported search actions are generated. check:schema is included in verify; migration/structured-data-review.md explains coverage.
 
 sitemap.xml is generated from the final built HTML on every build by scripts/sitemap.mjs. Only same-origin, self-canonical public content URLs are included; aliases, redirects, error and internal review pages are omitted. No modification dates are invented. robots.txt declares the production sitemap while retaining the client's existing review crawl block. check:sitemap is included in verify.
+
+
+Batch 03 completes five commercial roofing and five storm-damage pages. Total reviewed: 30 of 83; 53 remain. Each has an explicit estimate section and three topic-matched photo rows. Main /roofing/ and other unreviewed data remain unchanged. See migration/service-review-batch-03.md/json for local review links and checks.
+
+
+Batch 04 is complete locally (2026-10-28): seven Dublin roofing pages plus ice dam removal, attic insulation and windows. Total 40 of 83 reviewed; 43 remain. Riley’s Drive photography is now cataloged and used in 24 placements, including one real Dublin replacement-service hero without assigning a project location. See migration/service-review-batch-04.md and client-photography-review.json.
+
+
+Batch 05 is complete locally: Cincinnati, Cleveland and Dayton hubs, their roofing/storm pages, and Cleveland replacement-cost guide. Total reviewed: 50 of 83; 33 remain. Each page has focused headings, an explicit estimate and three matched image/text rows. All eleven hub services and existing local descendant links remain. Added 25 supplied-photo placements (49 recorded total), without assigning project cities. See migration/service-review-batch-05.md/json.
+
+
+All 98 image files in Riley’s shared collection have now been inspected and accounted for: 77 unique photographs, nine duplicate/alternate-crop aliases and twelve non-photographic graphics. The shared gallery contains 103 photos, with service/subject tags, reference-type labels, search and native-size treatment for small originals. See migration/client-gallery-inventory.json and client-gallery-review.md. No new editorial batch or deployment is included.
