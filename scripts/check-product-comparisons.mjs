@@ -6,12 +6,19 @@ import {load} from 'cheerio';
 const server=await createServer({configFile:false,server:{middlewareMode:true},appType:'custom',logLevel:'error'});
 try{
  const {comparisonEntries:entries,productComparison,catalogFilters}=await server.ssrLoadModule('/src/data/product-comparison.ts');
- const {matchesSpecifications,matchingCatalogIds}=await server.ssrLoadModule('/src/data/product-filtering.ts');
+ const {matchesSpecifications,matchingCatalogIds,specificationDiffers,standardizedSpecification}=await server.ssrLoadModule('/src/data/product-filtering.ts');
  assert.equal(entries.length,96);let charts=0,cells=0,maxBytes=0,maxGzip=0;const unpublished=new Set();
  for(const p of entries){
   const model=productComparison(p.id),$=load(await fs.readFile('dist'+p.href+'index.html','utf8'));
   assert.equal($('#product-comparison').length,model?1:0,p.id);
   if(!model)continue;charts++;
+  if(p.group==='shingles'){
+   assert.ok(!model.fields.some(f=>f.key==='warranty'),'No mixed-benefit warranty row');
+   for(const key of ['defect-warranty','wind-warranty','algae-warranty']){
+    assert.ok(model.fields.some(f=>f.key===key));assert.match(p.specs[key].value,/years|lifetime|Not included/i);assert.ok(p.specs[key].note);
+   }
+   assert.ok(!model.filters.some(f=>f.key==='warranty'||f.key==='limited-wind-coverage'));
+  }
   assert.ok(model.alternatives.every(a=>a.brand!==p.brand&&a.group===p.group));
   assert.equal(model.initialIds.length,Math.min(3,model.alternatives.length));
   assert.ok(model.initialIds.every(id=>model.alternatives.some(a=>a.id===id)));
@@ -31,6 +38,17 @@ try{
  assert.equal(charts,72);assert.deepEqual([...unpublished],['norandex-home-accents/thickness']);
  assert.ok(maxBytes<80000);assert.ok(maxGzip<14000);
  const find=id=>entries.find(p=>p.id===id);
+ assert.equal(specificationDiffers([find('timberline-hdz'),find('iko-cambridge')],'impact'),false,'Equivalent Class 3 ratings hide despite different explanations');
+ assert.equal(specificationDiffers([find('timberline-hdz'),find('timberline-as-ii')],'impact'),true);
+ assert.equal(specificationDiffers([find('iko-armourshake'),find('timberline-as-ii')],'impact'),true,'Conditional Class 3/4 remains distinct from Class 4');
+ assert.equal(standardizedSpecification('wind','ASTM D3161 Class F / ASTM D7158 Class H'),standardizedSpecification('wind','ASTM D7158 Class H: 150 mph; ASTM D3161 Class F: 110 mph'));
+ assert.equal(standardizedSpecification('exposure','5 5/8 inches'),standardizedSpecification('exposure','5⅝"'));
+ assert.equal(standardizedSpecification('dimensions','13 1/4" x 39 3/8"'),standardizedSpecification('dimensions','13¼ × 39⅜ inches'));
+ assert.equal(standardizedSpecification('thickness','0.046 in.'),standardizedSpecification('thickness','.046"'));
+ assert.equal(specificationDiffers([{specs:{warranty:{value:'Limited lifetime',note:'Initial 10 years',sourceUrl:'https://example.com'}}},{specs:{warranty:{value:'Limited lifetime',note:'Initial 15 years',sourceUrl:'https://example.com'}}}],'warranty'),true,'Different benefit conditions remain visible');
+ assert.match(find('iko-cambridge').specs['defect-warranty'].value,/first 10 years/);assert.match(find('iko-dynasty').specs['defect-warranty'].value,/first 15 years/);
+ assert.match(find('owens-trudefinition-duration').specs['wind-warranty'].value,/160 mph/);assert.match(find('owens-oakridge').specs['wind-warranty'].value,/110.*130/);
+ assert.match(find('royal-sovereign').specs['defect-warranty'].value,/25 years/);assert.match(find('royal-sovereign').specs['wind-warranty'].value,/5 years/);
  assert.equal(find('plygem-performance-board-batten').group,'vertical');assert.equal(find('hardie-hardie-shingle-siding').group,'shake');
  assert.ok(!matchesSpecifications(find('iko-armourshake'),{impact:'Class 4'}),'Package-dependent class is not an unconditional Class 4 claim');
  assert.ok(matchesSpecifications(find('norandex-great-barrier'),{thickness:'0.046 in.'}));

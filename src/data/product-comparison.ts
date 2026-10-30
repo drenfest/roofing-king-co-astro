@@ -6,7 +6,8 @@ import type {ComparisonEntry,ComparisonField,SpecificationFilter,ProductComparis
 
 const groupLabels:Record<string,string>={shingles:'roofing shingles',lap:'lap and beaded siding',shake:'shake and shingle siding',vertical:'vertical and panel siding',trim:'siding trim',soffit:'soffit panels',gutters:'gutter protection',decking:'deck boards',railing:'deck railing',fascia:'deck fascia',fasteners:'deck fasteners',lighting:'deck lighting',drainage:'under-deck drainage'};
 const labels:Record<string,string>={brand:'Brand',material:'Material',profile:'Profile',thickness:'Thickness',wind:'Wind test classification',impact:'Impact class',fire:'Fire classification',texture:'Surface / finish',dimensions:'Nominal dimensions',bundles:'Bundles per roofing square',colors:'Catalog color references',warranty:'Manufacturer warranty',application:'Application',design:'Protection design'};
-const comparisonFields:Record<string,string[]>={shingles:['material','impact','wind','fire','dimensions','exposure','bundles','colors','warranty'],lap:['material','profile','thickness','texture','colors','warranty'],shake:['material','profile','thickness','texture','colors','warranty'],vertical:['material','profile','thickness','texture','colors','warranty'],trim:['material','profile','thickness','texture','colors','warranty'],gutters:['material','application','design','warranty']};
+Object.assign(labels,{'defect-warranty':'Product-defect coverage','wind-warranty':'Wind coverage','algae-warranty':'Algae coverage'});
+const comparisonFields:Record<string,string[]>={shingles:['material','impact','wind','fire','dimensions','exposure','bundles','colors','defect-warranty','wind-warranty','algae-warranty'],lap:['material','profile','thickness','texture','colors','warranty'],shake:['material','profile','thickness','texture','colors','warranty'],vertical:['material','profile','thickness','texture','colors','warranty'],trim:['material','profile','thickness','texture','colors','warranty'],gutters:['material','application','design','warranty']};
 const fieldOrder=['material','profile','thickness','impact','wind','fire','texture','dimensions','exposure','bundles','colors','warranty','application'];
 const normalizeKey=(label:string)=>label.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function specKey(label:string,value:string){
@@ -87,6 +88,13 @@ const entries:ComparisonEntry[]=Object.values(productLibrary).map(product=>{
  for(const [key,spec] of Object.entries((supplementalSpecs.products as Record<string,Record<string,ComparisonEntry['specs'][string]>>)[product.id]||{})){specs[key]=spec;facets[key]=facetValues(key,spec.value);}
  if(profileGroup(product)==='gutters'){specs.design=specs['system-detail']||specs.profile;facets.design=facetValues('design',specs.design.value);}
  if(!specs.warranty&&product.warrantyLabels.length){specs.warranty={value:product.warrantyLabels.join(' · '),...(product.warrantyNote?{note:product.warrantyNote}:{}),sourceUrl:product.warrantyUrl||product.sourceUrl};facets.warranty=[specs.warranty.value];}
+ if(profileGroup(product)==='shingles'){
+  // Named algae/wind programs are not manufacturing-defect terms. Keep these
+  // separate for both the comparison and collection filters.
+  delete specs.warranty;delete facets.warranty;delete specs['limited-wind-coverage'];delete facets['limited-wind-coverage'];
+ }else if(specs.warranty&&/lifetime/i.test(specs.warranty.value)){
+  specs.warranty.note=[specs.warranty.note,'Lifetime is defined by the manufacturer’s eligibility and transfer terms, not a fixed number of years or an estimated service life.'].filter(Boolean).join(' ');
+ }
  specs.colors={value:String(product.colors.length),note:'Color references in this catalog; profile and regional availability can vary.',sourceUrl:product.sourceUrl};facets.colors=[String(product.colors.length)];
  const color=product.colors.find(c=>c.id===product.defaultColorId)||product.colors[0];const image=product.hero||{...color.image,alt:detail.title+' manufacturer color sample'};
  return {id:product.id,...detail,brand:product.brand||'GAF',group:profileGroup(product),image:{src:image.src,srcset:image.srcset,width:image.width,height:image.height,alt:image.alt},sourceUrl:product.sourceUrl,specs,facets};
@@ -110,7 +118,8 @@ export function productComparison(productId:string):ProductComparisonModel|null 
  const ordered=[...alternatives.filter(p=>initialIds.includes(p.id)),...alternatives.filter(p=>!initialIds.includes(p.id))];
  const fields=(comparisonFields[current.group]||fieldsFor([current,...alternatives]).map(f=>f.key)).map(key=>({key,label:fieldLabels.get(key)||key}));
  for(const p of [current,...alternatives])for(const field of fields)if(!p.specs[field.key]?.value.trim()||!p.specs[field.key].sourceUrl)throw Error(`Incomplete comparison: ${p.id} / ${field.key}`);
- return {current,alternatives:ordered,initialIds,groupLabel:groupLabels[current.group],fields,filters:filtersFor(alternatives).filter(filter=>filter.key==='brand'||fields.some(field=>field.key===filter.key))};
+ const comparable=(p:ComparisonEntry)=>({...p,specs:Object.fromEntries(fields.map(field=>[field.key,p.specs[field.key]])),facets:Object.fromEntries(Object.entries(p.facets).filter(([key])=>key==='brand'||fields.some(field=>field.key===key)))});
+ return {current:comparable(current),alternatives:ordered.map(comparable),initialIds,groupLabel:groupLabels[current.group],fields,filters:filtersFor(alternatives).filter(filter=>filter.key==='brand'||fields.some(field=>field.key===filter.key))};
 }
 export function catalogFilters(productIds:string[]):CatalogFilterModel {
  const selected=entries.filter(p=>productIds.includes(p.id));return {entries:selected.map(p=>({id:p.id,facets:p.facets})),filters:filtersFor(selected)};

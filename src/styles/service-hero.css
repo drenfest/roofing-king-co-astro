@@ -15,7 +15,7 @@ section.rk-editorial-hero .rk-editorial-hero-copy :is(.rk-landing-lede,.rk-edito
 section.rk-editorial-hero .rk-landing-lede p{color:inherit;}
 section.rk-editorial-hero .rk-landing-lede a{color:#34312d;text-decoration-color:#afa69a;}
 section.rk-editorial-hero :is(.rk-landing-actions,.rk-editorial-hero-actions){display:flex;align-items:center;flex-wrap:wrap;gap:1.1rem 1.5rem;margin-block:2rem 1rem;}
-section.rk-editorial-hero .rk-button.rk-button-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:2rem;min-height:60px;padding:1rem 1.6rem;border:1px solid #f56300;border-radius:3px;clip-path:none;background:#ff6b08;color:#242321;font-family:var(--rk-font-body);font-size:1rem;font-weight:650;letter-spacing:0;text-transform:none;box-shadow:none;text-shadow:none;transition:background var(--rk-motion-fast),transform var(--rk-motion-fast);}
+section.rk-editorial-hero .rk-button.rk-button-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:2rem;min-height:60px;padding:1rem 1.6rem;border:1px solid #f56300;border-radius:3px;clip-path:none;background:#ff6b08;color:#fff;font-family:var(--rk-font-body);font-size:1rem;font-weight:650;letter-spacing:0;text-transform:none;box-shadow:none;text-shadow:none;transition:background var(--rk-motion-fast),transform var(--rk-motion-fast);}
 section.rk-editorial-hero .rk-button.rk-button-primary::before,section.rk-editorial-hero .rk-button.rk-button-primary::after{display:none;}
 section.rk-editorial-hero .rk-button.rk-button-primary:hover{background:#f47b22;transform:translateY(-2px);}
 section.rk-editorial-hero .rk-button span{font-size:1.6rem;font-weight:400;line-height:1;}

@@ -2,7 +2,7 @@
  import {onMount} from 'svelte';
  import ProductSpecFilters from './ProductSpecFilters.svelte';
  import type {ProductComparisonModel} from '../data/product-comparison-types';
- import {matchesSpecifications} from '../data/product-filtering';
+ import {matchesSpecifications,specificationDiffers} from '../data/product-filtering';
  let {model}:{model:ProductComparisonModel}=$props();
  let enhanced=$state(false);
  let selected=$state<Record<string,string>>({});
@@ -13,7 +13,7 @@
  let matches=$derived(model.alternatives.filter(p=>matchesSpecifications(p,selected)));
  let chosen=$derived(matches.filter(p=>chosenIds.includes(p.id)));
  let columns=$derived([model.current,...chosen]);
- let fields=$derived(model.fields.filter(field=>!differencesOnly||new Set(columns.map(p=>p.specs[field.key]?.value||'Not listed in this record')).size>1));
+ let fields=$derived(model.fields.filter(field=>!differencesOnly||specificationDiffers(columns,field.key)));
  onMount(()=>{enhanced=true;});
  function filter(next:Record<string,string>){
   selected=next;limit=6;
@@ -29,6 +29,7 @@
   <ProductSpecFilters filters={model.filters} {selected} id="comparison-filter" {enhanced} onchange={filter}/>
   <div class="rk-comparison-results-heading"><p role="status" aria-live="polite">{matches.length} {matches.length===1?'alternative':'alternatives'} from other brands · {chosen.length} of 3 selected</p>{#if enhanced}<button type="button" class="rk-spec-reset" onclick={()=>chosenIds=[]}>Clear selection</button>{/if}</div>
   {#if matches.length}<div class="rk-comparison-candidates">{#each matches.slice(0,limit) as candidate}<article class:rk-comparison-candidate-selected={chosenIds.includes(candidate.id)} data-comparison-candidate={candidate.id}>
+   <a class="rk-comparison-candidate-image" href={candidate.href} title={`View ${candidate.title}`}><img src={candidate.image.src} srcset={candidate.image.srcset} sizes="(max-width: 600px) calc(100vw - 4.5rem), (max-width: 900px) 40vw, 360px" width={candidate.image.width} height={candidate.image.height} alt={candidate.image.alt} loading="lazy" decoding="async"/></a>
    <p class="rk-home-eyebrow">{candidate.brand}</p><h3><a href={candidate.href} title={`View ${candidate.title}`}>{candidate.title}<span aria-hidden="true">↗</span></a></h3>
    <p class="rk-comparison-candidate-spec">{candidate.specs.material?.value||candidate.specs.impact?.value||candidate.specs.profile?.value||candidate.specs.application?.value}</p>
    {#if enhanced}<label class="rk-comparison-pick"><input type="checkbox" checked={chosenIds.includes(candidate.id)} disabled={!chosenIds.includes(candidate.id)&&chosenIds.length>=3} onchange={()=>toggle(candidate.id)} aria-label={`Compare ${candidate.title}`}/>Compare</label>{/if}
@@ -42,6 +43,6 @@
     <span class="rk-comparison-column-kind">{product.id===model.current.id?'Your starting product':product.brand}</span><img src={product.image.src} srcset={product.image.srcset} sizes="150px" width={product.image.width} height={product.image.height} alt={product.image.alt} loading="lazy" decoding="async"/><a href={product.href} title={`View ${product.title}`}>{product.title}</a><span class="rk-comparison-column-brand">{product.brand}</span>
    </th>{/each}</tr></thead><tbody>{#each fields as field}<tr><th scope="row">{field.label}</th>{#each columns as product}<td class:rk-comparison-current={product.id===model.current.id}>{#if product.specs[field.key]}{@const spec=product.specs[field.key]}<span>{spec.value}</span>{#if spec.note}<small>{spec.note}</small>{/if}<a class="rk-comparison-source" href={spec.sourceUrl} title={`${product.title}: ${field.label} manufacturer source`} target="_blank" rel="noopener noreferrer">Source <span aria-hidden="true">↗</span></a>{:else}<span class="rk-spec-unlisted">Not listed in this record</span>{/if}</td>{/each}</tr>{/each}</tbody></table>
   </div>
-  <p class="rk-comparison-note">Test classifications and warranty promises describe different things. Original specification wording is shown above; an unpublished value is not a failed test. Thickness alone does not measure strength across different materials. Color references reflect this catalog, with availability depending on the selected profile and region.</p>
+  <p class="rk-comparison-note">“Show only differences” compares standardized ratings and inch dimensions while preserving the manufacturer wording in the full table. Test classifications and warranty promises describe different things. Warranty durations are published coverage terms, not estimates of service life; initial non-prorated periods, installation requirements and package labels matter. An unpublished value is not a failed test. Thickness alone does not measure strength across different materials. Color references reflect this catalog, with availability depending on the selected profile and region.</p>
  </div>
 </section>

@@ -1175,16 +1175,16 @@ body.rk-modal-open {
   }
 }
 
-/* Consistent orange actions with readable charcoal labels across native and retained pages. */
+/* Consistent orange actions with white labels across native and retained pages. */
 html body a.rk-button.rk-button-primary,
 html body button.rk-button.rk-button-primary {
   background: var(--rk-orange);
-  color: var(--rk-charcoal);
+  color: #fff;
   border-color: var(--rk-orange);
   text-shadow: none;
 }
 html body a.rk-button.rk-button-primary:hover,
 html body button.rk-button.rk-button-primary:hover {
   background: #ff812e;
-  color: var(--rk-charcoal);
+  color: #fff;
 }

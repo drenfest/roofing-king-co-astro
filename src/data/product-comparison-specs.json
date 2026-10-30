@@ -5,66 +5,231 @@
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; no maximum wind speed with qualifying WindProven system",
+        "note": "WindProven requires LayerLock shingles and four qualifying GAF accessory categories. Otherwise, standard 15-year coverage is 110 mph, or 130 mph with special installation.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/warranties/windproven"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "timberline-uhdz": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; no maximum wind speed with qualifying WindProven system",
+        "note": "WindProven requires LayerLock shingles and four qualifying GAF accessory categories. Otherwise, standard 15-year coverage is 110 mph, or 130 mph with special installation.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/warranties/windproven"
+      },
+      "algae-warranty": {
+        "value": "30 years; first 10 years non-prorated",
+        "note": "StainGuard Plus PRO applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "timberline-ns": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year non-prorated",
+        "note": "StainGuard applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "timberline-as-ii": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; no maximum wind speed with qualifying WindProven system",
+        "note": "WindProven requires LayerLock shingles and four qualifying GAF accessory categories. Otherwise, standard 15-year coverage is 110 mph, or 130 mph with special installation.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/warranties/windproven"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "timberline-hdz-rs": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; no maximum wind speed with qualifying WindProven system",
+        "note": "WindProven requires LayerLock shingles and four qualifying GAF accessory categories. Otherwise, standard 15-year coverage is 110 mph, or 130 mph with special installation.",
+        "sourceUrl": "https://www.gaf.com/en-us/resources/warranties/windproven"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "camelot-ii": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "woodland": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "grand-sequoia": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "grand-sequoia-rs": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "grand-sequoia-as": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Smart Choice protection lasts 10 years, then coverage is prorated. Lifetime means eligible individual ownership of a single-family detached home; other buildings have 40-year coverage. Transfer rules apply.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph special installation",
+        "note": "Special installation requires the specified fastening and GAF starter products. This is a warranty limit, not a guaranteed storm speed.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "25 years; first 10 years non-prorated",
+        "note": "StainGuard Plus applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "royal-sovereign": {
       "material": {
         "value": "Fiberglass-reinforced asphalt",
         "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      },
+      "defect-warranty": {
+        "value": "25 years; first 5 years non-prorated",
+        "note": "Smart Choice protection lasts 5 years, then coverage is prorated. Manufacturing defects only.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "wind-warranty": {
+        "value": "5 years; up to 60 mph",
+        "note": "Limited wind coverage requires the prescribed installation and sealed shingles.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year non-prorated",
+        "note": "StainGuard applies only to appropriately labeled shingles. Covers qualifying blue-green algae discoloration; remaining coverage is prorated. Standard warranty shown; enhanced terms may differ.",
+        "sourceUrl": "https://documents.gaf.com/warranties/gaf-shingle-and-accessory-limited-warranty-reswt160l.pdf"
       }
     },
     "hardie-hardie-plank-lap-siding": {
@@ -119,6 +284,11 @@
         "value": "0.354 in. actual (38 Series)",
         "note": "Series-specific actual thickness; nominal sizes differ.",
         "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      },
+      "warranty": {
+        "value": "50 years total; first 5 years cover labor and materials",
+        "note": "Standard 5/50 limited substrate coverage; material compensation is prorated after year 5. Separate finish or registered enhanced warranties have different terms.",
+        "sourceUrl": "https://lpcorp.com/resources/product-literature/smartside/warranties/lp-smartside-limited-warranty"
       }
     },
     "lp-lap-siding": {
@@ -126,6 +296,11 @@
         "value": "0.354 in. actual (38 Series); 0.418 in. actual (76 Series)",
         "note": "Series-specific actual thickness; nominal sizes differ.",
         "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      },
+      "warranty": {
+        "value": "50 years total; first 5 years cover labor and materials",
+        "note": "Standard 5/50 limited substrate coverage; material compensation is prorated after year 5. Separate finish or registered enhanced warranties have different terms.",
+        "sourceUrl": "https://lpcorp.com/resources/product-literature/smartside/warranties/lp-smartside-limited-warranty"
       }
     },
     "lp-trim-fascia": {
@@ -133,6 +308,11 @@
         "value": "0.675 in. actual (440 Series); 0.970 in. actual (540 Series)",
         "note": "Series-specific actual thickness; nominal sizes differ.",
         "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      },
+      "warranty": {
+        "value": "50 years total; first 5 years cover labor and materials",
+        "note": "Standard 5/50 limited substrate coverage; material compensation is prorated after year 5. Separate finish or registered enhanced warranties have different terms.",
+        "sourceUrl": "https://lpcorp.com/resources/product-literature/smartside/warranties/lp-smartside-limited-warranty"
       }
     },
     "lp-nickel-gap": {
@@ -140,6 +320,11 @@
         "value": "0.495 in. actual",
         "note": "Series-specific actual thickness; nominal sizes differ.",
         "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      },
+      "warranty": {
+        "value": "50 years total; first 5 years cover labor and materials",
+        "note": "Standard 5/50 limited substrate coverage; material compensation is prorated after year 5. Separate finish or registered enhanced warranties have different terms.",
+        "sourceUrl": "https://lpcorp.com/resources/product-literature/smartside/warranties/lp-smartside-limited-warranty"
       }
     },
     "lp-panel-vertical-siding": {
@@ -147,6 +332,11 @@
         "value": "0.354 in. actual (38 Series); 0.418 in. actual (76 Series)",
         "note": "Series-specific actual thickness; nominal sizes differ.",
         "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      },
+      "warranty": {
+        "value": "50 years total; first 5 years cover labor and materials",
+        "note": "Standard 5/50 limited substrate coverage; material compensation is prorated after year 5. Separate finish or registered enhanced warranties have different terms.",
+        "sourceUrl": "https://lpcorp.com/resources/product-literature/smartside/warranties/lp-smartside-limited-warranty"
       }
     },
     "iko-dynasty": {
@@ -154,6 +344,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/dynasty/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; up to 130 mph",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-nordic": {
@@ -161,6 +366,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/nordic/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; up to 130 mph",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-dynasty-cool-plus": {
@@ -168,6 +388,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/dynasty-cool-plus/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; up to 130 mph",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-armourshake": {
@@ -175,6 +410,21 @@
         "value": "5",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/armourshake/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph high-wind application",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-royal-estate": {
@@ -182,6 +432,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/royal-estate/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph high-wind application",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-crowne-slate-designer-shingles": {
@@ -189,6 +454,21 @@
         "value": "4",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/crowne-slate-designer-shingles/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 15 years non-prorated",
+        "note": "Iron Clad protection lasts 15 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph high-wind application",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-cambridge": {
@@ -196,6 +476,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/cambridge/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Iron Clad protection lasts 10 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph high-wind application",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "10 years; first year before prorated cleaning coverage",
+        "note": "US table specifies 120 months. The first-year remedy is cleaning or replacement at IKO’s option; later cleaning certificates are prorated and capped under the written terms.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "iko-cambridge-cool-colors": {
@@ -203,6 +498,21 @@
         "value": "3",
         "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
         "sourceUrl": "https://www.iko.com/na/product/cambridge-cool-colors/"
+      },
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "Iron Clad protection lasts 10 years; remaining defect coverage is prorated. Lifetime means eligible ownership of a single-family home. Nonindividual owners and other buildings have 40-year terms; transferred coverage is limited. US warranty.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph high-wind application",
+        "note": "Limited blow-off coverage after sealing; prescribed nails, hip/ridge products and application instructions govern eligibility. High-wind application is required for the stated upgrade.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
+      },
+      "algae-warranty": {
+        "value": "Not included in the current US warranty table",
+        "note": "The US table marks Cambridge Cool Colors algae coverage N/A. Check the warranty supplied with the selected package; other markets or later packages can differ.",
+        "sourceUrl": "https://www.iko.com/na/document/us-iko-limited-warranty/"
       }
     },
     "variform-heritage-cedar": {
@@ -255,6 +565,105 @@
       "material": {
         "value": "Solid vinyl",
         "sourceUrl": "https://www.norandex.com/wp-content/uploads/2025/06/HomeAccents-Brochure_WEB.pdf"
+      }
+    },
+    "owens-trudefinition-duration": {
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "TRU PROtection covers the initial 10 years; subsequent defect coverage is prorated. Lifetime depends on eligible ownership; transfer and building-type restrictions apply. Standard warranty for purchases after August 1, 2026.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "wind-warranty": {
+        "value": "15 years; 130 mph standard / 160 mph qualifying enhanced system",
+        "note": "160 mph requires the specified Owens Corning starter, hip/ridge, underlayment and ice/water barrier or ventilation, plus Enhanced Wind Application Instructions. Standard August 2026 warranty; installation and sealing requirements apply.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "algae-warranty": {
+        "value": "10–25 years, depending on hip and ridge products",
+        "note": "25 years with qualifying Owens Corning hip/ridge shingles, including an initial 10-year non-prorated period. Otherwise, 10 years total with only the first year non-prorated. Applies to algae-resistant labeled shingles and specified staining.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      }
+    },
+    "owens-trudefinition-duration-designer": {
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "TRU PROtection covers the initial 10 years; subsequent defect coverage is prorated. Lifetime depends on eligible ownership; transfer and building-type restrictions apply. Standard warranty for purchases after August 1, 2026.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "wind-warranty": {
+        "value": "15 years; 130 mph standard / 160 mph qualifying enhanced system",
+        "note": "160 mph requires the specified Owens Corning starter, hip/ridge, underlayment and ice/water barrier or ventilation, plus Enhanced Wind Application Instructions. Standard August 2026 warranty; installation and sealing requirements apply.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "algae-warranty": {
+        "value": "10–25 years, depending on hip and ridge products",
+        "note": "25 years with qualifying Owens Corning hip/ridge shingles, including an initial 10-year non-prorated period. Otherwise, 10 years total with only the first year non-prorated. Applies to algae-resistant labeled shingles and specified staining.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      }
+    },
+    "owens-trudefinition-duration-flex": {
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "TRU PROtection covers the initial 10 years; subsequent defect coverage is prorated. Lifetime depends on eligible ownership; transfer and building-type restrictions apply. Standard warranty for purchases after August 1, 2026.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "wind-warranty": {
+        "value": "15 years; 130 mph standard / 160 mph qualifying enhanced system",
+        "note": "160 mph requires the specified Owens Corning starter, hip/ridge, underlayment and ice/water barrier or ventilation, plus Enhanced Wind Application Instructions. Standard August 2026 warranty; installation and sealing requirements apply.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "algae-warranty": {
+        "value": "10–25 years, depending on hip and ridge products",
+        "note": "25 years with qualifying Owens Corning hip/ridge shingles, including an initial 10-year non-prorated period. Otherwise, 10 years total with only the first year non-prorated. Applies to algae-resistant labeled shingles and specified staining.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      }
+    },
+    "owens-trudefinition-duration-storm": {
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "TRU PROtection covers the initial 10 years; subsequent defect coverage is prorated. Lifetime depends on eligible ownership; transfer and building-type restrictions apply. Standard warranty for purchases after August 1, 2026.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "wind-warranty": {
+        "value": "15 years; 130 mph standard / 160 mph qualifying enhanced system",
+        "note": "160 mph requires the specified Owens Corning starter, hip/ridge, underlayment and ice/water barrier or ventilation, plus Enhanced Wind Application Instructions. Standard August 2026 warranty; installation and sealing requirements apply.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "algae-warranty": {
+        "value": "10–25 years, depending on hip and ridge products",
+        "note": "25 years with qualifying Owens Corning hip/ridge shingles, including an initial 10-year non-prorated period. Otherwise, 10 years total with only the first year non-prorated. Applies to algae-resistant labeled shingles and specified staining.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      }
+    },
+    "owens-oakridge": {
+      "defect-warranty": {
+        "value": "Limited lifetime; first 10 years non-prorated",
+        "note": "TRU PROtection covers the initial 10 years; subsequent defect coverage is prorated. Lifetime depends on eligible ownership; transfer and building-type restrictions apply. Standard warranty for purchases after August 1, 2026.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "wind-warranty": {
+        "value": "15 years; 110 mph standard / 130 mph qualifying installation",
+        "note": "130 mph requires six nails per shingle plus Owens Corning starter shingles along eaves and rakes.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      },
+      "algae-warranty": {
+        "value": "10–25 years, depending on hip and ridge products",
+        "note": "25 years with qualifying Owens Corning hip/ridge shingles, including an initial 10-year non-prorated period. Otherwise, 10 years total with only the first year non-prorated. Applies to algae-resistant labeled shingles and specified staining.",
+        "sourceUrl": "https://www.owenscorning.com/dms/10023873"
+      }
+    },
+    "alurex-guttercleanpro": {
+      "warranty": {
+        "value": "Lifetime clog-free limited warranty",
+        "note": "Manufacturer eligibility, installation, registration and exclusions apply; lifetime is a defined warranty term, not a fixed-year service-life estimate.",
+        "sourceUrl": "https://alu-rex.com/en/guttercleanpro"
+      }
+    },
+    "alurex-gutter-clean": {
+      "warranty": {
+        "value": "25-year clog-free limited warranty",
+        "note": "Manufacturer installation, eligibility and exclusions apply. This is a coverage term, not an estimate of service life.",
+        "sourceUrl": "https://alu-rex.com/en/gutter-clean"
       }
     }
   }

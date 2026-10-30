@@ -18,6 +18,8 @@
 .rk-comparison-candidates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;}
 .rk-comparison-candidates article{position:relative;padding:1.1rem 1.2rem;background:#fffdf8;border:1px solid #d7d0c5;transition:border-color 160ms ease,background 160ms ease;}
 .rk-comparison-candidates article.rk-comparison-candidate-selected{border-color:#a94304;background:#fff8ed;}
+.rk-comparison-candidate-image{display:block;margin:0 0 1rem;background:#f4f0e8;overflow:hidden;}
+.rk-comparison-candidate-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;}
 .rk-comparison-candidates .rk-home-eyebrow{margin:0 0 .4rem;font-size:.65rem;}
 .rk-comparison-candidates h3{margin:0;font-size:1.1rem;line-height:1.35;}
 .rk-comparison-candidates h3 a{display:flex;gap:.8rem;justify-content:space-between;color:#242321;text-decoration:none;}
