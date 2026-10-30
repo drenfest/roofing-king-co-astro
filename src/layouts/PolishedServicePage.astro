@@ -38,7 +38,7 @@ import '../styles/service-landing.css';
 import '../styles/service-editorial.css';
 interface Props {page:CollectionEntry<'pages'>;data:(typeof editorial)[keyof typeof editorial]&{seoTitle?:string};}
 const {page,data}=Astro.props;
-const heroAsset=({...serviceHeroes,...roofingHeroes} as Record<string,{image:{src:string;alt:string};generated:boolean}>)[page.data.permalink];
+const heroAsset=({...serviceHeroes,...roofingHeroes} as Record<string,{image:{src:string;alt:string};generated:boolean;caption?:string}>)[page.data.permalink];
 const content=(fullCopy as unknown as Record<string,ServiceCopyData>)[page.data.permalink];
 if(!content)throw new Error('Missing full service content: '+page.data.permalink);
 const presentation=('reviewPresentation' in data?data.reviewPresentation:{}) as {batch?:string;credentialsTitle?:string;reviewsTitle?:string;brandsTitle?:string;brandsDescription?:string;brandsSectionId?:string;financeTitle?:string;galleryTitle?:string;stormTitle?:string;stormDescription?:string;materialsTitle?:string};
@@ -55,7 +55,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main rk-service-landing"><article class="rk-polished-service rk-full-service" data-service-build="astro-components" data-landing-build="editorial" data-service-family={data.family} data-content-review={presentation.batch} data-pdf-entry={content.sourceId} data-content-source={page.data.source}>
-    <LandingHero hero={{...data.hero,image:heroAsset?.image||data.hero.image,body:('body' in data.hero?data.hero.body:undefined) as RichNode[]|undefined}} serviceName={data.serviceType} generatedImage={!!heroAsset?.generated}/>
+    <LandingHero hero={{...data.hero,image:heroAsset?.image||data.hero.image,body:('body' in data.hero?data.hero.body:undefined) as RichNode[]|undefined}} serviceName={data.serviceType} generatedImage={!!heroAsset?.generated} generatedCaption={heroAsset?.caption}/>
     <div class="rk-landing-trust"><div class="rk-section-inner"><a href={reference.credentials.items[1].href}><ServiceIcon name="shield"/><span>BBB Accredited</span><span aria-hidden="true">↗</span></a><a href="/offers/5-year-workmanship-warranty/"><ServiceIcon name="check"/><span>Written workmanship coverage</span><span aria-hidden="true">↗</span></a><a href="/reviews/"><ServiceIcon name="building"/><span>Verified review sources</span><span aria-hidden="true">↗</span></a></div></div>
     <Breadcrumbs items={data.breadcrumbs}/>
     {data.family==='local'||hasServiceChildren(page.data.permalink)?<ServicePaths section={data.opening as ServicePathsData}/>:<ServiceArticle section={data.opening as ServicePathsData}/>}

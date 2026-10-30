@@ -37,6 +37,7 @@ Parent guidance: [repository](../ai-context.md).
 - [component-reuse-audit.json](component-reuse-audit.json)
 - [component-reuse-plan.md](component-reuse-plan.md)
 - [context-map-review.md](context-map-review.md)
+- [copy-corrections-review.md](copy-corrections-review.md)
 - [coverage-map-sources.json](coverage-map-sources.json)
 - [featured-article-review.json](featured-article-review.json)
 - [gallery-library-review.json](gallery-library-review.json)

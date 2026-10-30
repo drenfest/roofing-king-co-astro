@@ -17,6 +17,8 @@ export type ProductPresentation = {
   brand?:string;detailPath?:string;categoryLabel?:string;optionLabel?:string;
   previewMode?:'photo'|'palette';previewAlt?:string;
   warrantyUrl?:string;warrantyNote?:string;
+  specificationsIntro?:string;
+  care?:{title:string;intro:string;items:{title:string;body:string}[];footnote:string;links:{label:string;url:string}[]};
   hero?:{src:string;srcset:string;width:number;height:number;alt:string;caption:string};
   badgeExplanations?:Record<string,{title:string;body:string;sourceUrl:string}>;
   colorResources?:{label:string;url:string;description:string}[];

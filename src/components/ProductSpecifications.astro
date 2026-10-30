@@ -1,11 +1,21 @@
 ---
 import ProductEnergy from './ProductEnergy.astro';
+import {productCare,productCareType,productSpecificationsIntro} from '../data/product-care';
 import type {ProductPresentation} from '../data/product-types';
-interface Props {product:ProductPresentation;}
-const {product}=Astro.props;
+interface Props {product:ProductPresentation;careHeadingLevel?:2|4;}
+const {product,careHeadingLevel=2}=Astro.props;
+const care=productCare(product);
+const CareHeading=careHeadingLevel===2?'h2':'h4';
+const TopicHeading=careHeadingLevel===2?'h3':'h5';
 ---
-<p>Manufacturer-listed performance and nominal dimensions. Wind and impact test classes describe laboratory testing; warranty coverage has separate terms.</p>
+<p>{productSpecificationsIntro(product)}</p>
 <dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}{spec.note && <small>{spec.note}</small>}{spec.sourceUrl && <a class="rk-product-spec-reference" href={spec.sourceUrl} target="_blank" rel="noopener noreferrer">Source reference ↗</a>}</dd></div>)}</dl>
 {product.documents.map(doc=><a class="rk-product-document" href={doc.url} target="_blank" rel="noopener noreferrer">{doc.label} (PDF) ↗</a>)}
 
-<ProductEnergy productId={product.id}/>
+<section class="rk-product-care" aria-labelledby={`care-${product.id}`} data-product-care={product.id} data-care-type={productCareType(product)}>
+  <CareHeading id={`care-${product.id}`}>{care.title}</CareHeading><p>{care.intro}</p>
+  <div class="rk-product-care-grid">{care.items.map(item=><div><TopicHeading>{item.title}</TopicHeading><p>{item.body}</p></div>)}</div>
+  <p>{care.footnote}</p>
+  <div class="rk-product-care-links">{care.links.map(link=><a href={link.url} title={link.label} target="_blank" rel="noopener noreferrer">{link.label} <span aria-hidden="true">↗</span></a>)}</div>
+</section>
+{(!product.brand || product.brand==='GAF') && <ProductEnergy productId={product.id}/>}

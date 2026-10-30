@@ -324,3 +324,9 @@ section.rk-product-hero .rk-product-hero-logo[alt="Alside"]{filter:brightness(0)
 .rk-product-companions .rk-companion-card h4{font-size:1.35rem;line-height:1.3;margin:.5rem 0 1rem;}
 
 @media(max-width:760px){.rk-product-information .rk-product-tab-nav{flex-direction:column;flex-wrap:nowrap;}.rk-product-information .rk-product-tab-nav a{width:100%;text-align:left;}}
+/* Shared product care: material-specific copy, with exact collection overrides. */
+.rk-product-care { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--rk-line, #d7d0c5); }
+.rk-product-care-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2rem; margin-block: 1.75rem; }
+.rk-product-information .rk-product-tab-panel .rk-product-care-grid h3,.rk-product-care-grid h5 { margin: 0 0 .65rem; font-size: clamp(1.2rem, 1.8vw, 1.6rem); line-height: 1.3; }
+.rk-product-care-links { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; }
+@media (max-width: 760px) { .rk-product-care-grid { grid-template-columns: 1fr; } }

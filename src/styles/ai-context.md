@@ -3,7 +3,7 @@
 Use the approved ivory, charcoal and orange palette, Playfair Display for headings and Inter for paragraphs/navigation/buttons. Older green/blue/royal token names can be compatibility aliases to the neutral palette; do not restore green surfaces. Preserve authentic manufacturer/review logo colors and meaningful performance badges.
 
 - base.css owns base document/theme conventions; navigation.css owns the shared header/mega-menu/mobile menu.
-- home.css and home-interactions.css contain shared homepage/editorial patterns also used by native pages.
+- home.css and home-interactions.css contain shared homepage/editorial patterns also used by native pages. component-refinements.css is the final shared finish layer; its modal rules override earlier layouts and must retain readable ivory/charcoal contact choices.
 - service-landing.css and service-editorial.css own service selectors, leaf rows, slanted sections, contextual brands and reviewed topic/media layouts.
 - products.css owns product collections, details, samples, controls, tabs and responsive specification tables.
 - articles.css owns the structured article and hub reading layouts. Reuse it rather than styling imported prose separately per article.

@@ -32,11 +32,15 @@ button, input, select, textarea { font: inherit; }
 .rk-native-quote-dialog { width: min(460px, calc(100% - 2rem)); max-height: calc(100dvh - 2rem); padding: 0; border: 0; color: var(--rk-ink); background: transparent; overflow: auto; }
 .rk-native-quote-dialog .rk-modal-panel { width: 100%; max-height: none; overflow: visible; margin: 0; }
 .rk-native-quote-dialog .rk-modal-intro h2 { padding-right: 1.75rem; }
-.rk-form-status { padding: .85rem 1rem; border-left: 3px solid #fe6600; background: #fffaf0; color: #242321 !important; }
-.rk-quote-form button:disabled { opacity: .65; cursor: not-allowed; }
 .rk-home-final-cta #quote-form { min-width: 0; }
-.rk-home-final-cta .rk-quote-form > label { display: block; margin-top: 1rem; }
-.rk-home-final-cta .rk-quote-form > label.rk-consent-field { display: grid; }
+.rk-contact-actions { padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--rk-line, #d7d0c5); background: var(--rk-ivory, #f7f4ed); color: var(--rk-ink, #242321); }
+.rk-contact-actions h3 { margin: 0 0 .8rem; font-size: clamp(1.5rem, 2.3vw, 2rem); line-height: 1.2; }
+.rk-contact-actions p { margin: 0 0 1.4rem; color: inherit; }
+.rk-contact-actions-links { display: flex; flex-wrap: wrap; gap: .85rem; }
+.rk-contact-actions-links .rk-button { min-height: 48px; text-align: center; }
+.rk-native-quote-dialog .rk-modal-panel { display: block; }
+.rk-native-quote-dialog .rk-contact-actions { margin-top: 1.5rem; border: 0; padding: 0; background: transparent; }
+@media (max-width: 600px) { .rk-contact-actions-links { flex-direction: column; } .rk-contact-actions-links .rk-button { width: 100%; } }
 /* Server-rendered links remain reachable before hydration and when JS is disabled. */
 .rk-native-header:not(.rk-native-enhanced) .rk-menu-item:focus-within > .rk-submenu { visibility: visible; opacity: 1; pointer-events: auto; }
 .rk-native-header:not(.rk-native-enhanced) .rk-menu-item:focus-within > .rk-submenu * { visibility: visible; pointer-events: auto; }

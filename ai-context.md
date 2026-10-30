@@ -56,7 +56,7 @@ Run focused checks and a browser review appropriate to the change, then npm run 
 
 ## Publishing and external boundaries
 
-This is a review build: current layouts/robots settings retain noindex/nofollow and custom quote submission is disabled. Phone, booking and the click-to-load Roofr flow remain separate working paths. Do not enable custom submission without a requested implementation and verified delivery. Canonical production URLs are not proof of a production DNS cutover.
+This is a review build: current layouts/robots settings retain noindex/nofollow and custom quote submission is not connected. Customer-visible quote areas show booking and phone actions instead of disabled forms. The click-to-load Roofr flow remains a separate working path. Do not enable custom submission without a requested implementation and verified delivery. Canonical production URLs are not proof of a production DNS cutover.
 
 Read .github/workflows/ai-context.md and migration/cloudways-deployment.md before release work. The main-branch workflow can deploy to the authorized Cloudways review app after verification, including documentation-only commits. Do not infer authorization to push, deploy, change DNS, enable indexing, send test mail, invite collaborators or alter accounts from a content/documentation task. When publication is requested, verify the actual workflow/release marker, intended live pages, assets, sitemap, redirects, crawl settings and recovery state before claiming completion.
 

@@ -1,3 +1,4 @@
+import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
@@ -15,8 +16,7 @@ for(const [path,data] of Object.entries(pages)){
   assert.equal(clean($('.rk-home-hero h1,.rk-landing-hero h1').text()),placements[path]?.hero?.title || data.hero.title);
   assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
   assert.equal($('meta[name=robots]').attr('content'),'noindex, nofollow');
-  assert.equal($('.rk-quote-form button[type=submit]:disabled').length,2);
-  assert.equal($('.rk-quote-form[method=dialog]').length,2);
+  assertContactActions($);
   assert.equal($('dialog.rk-native-quote-dialog').length,1,'One modal host per page');
   const ids=$('[id]').map((i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size);
   assert.equal($('main').text().includes('<div class='),false);
@@ -115,13 +115,13 @@ for(const [path,data] of Object.entries(editorial)){
  assert.equal($('.rk-landing-credential-list article').length,3);
  assert.equal($('.rk-service-faq details').length,data.faq.items.length);
  assert.equal($('dialog.rk-native-quote-dialog').length,1);
- assert.equal($('.rk-quote-form button[type=submit]:disabled').length,2);
+ assertContactActions($);
  assert.equal($('.rk-imported-content,[data-rk-gallery],[data-rk-modal-open]').length,0);
  assert.ok(!/292 Google Reviews|\$47|perfect installation|guaranteed approval|mint condition/i.test($('main').text()),'No retired marketing claims '+path);
  for(const image of $('main img').toArray())assert.ok($(image).attr('width')&&$(image).attr('height'),'Sized image '+path+' '+$(image).attr('src'));
  for(const file of $('link[rel=stylesheet]').map((_i,e)=>$(e).attr('href')).get().filter(p=>p.startsWith('/')))assert.ok(!file.includes('/SiteLayout.') && !(await fs.readFile('dist'+file,'utf8')).includes('.rk-migration-banner'),'No legacy CSS: '+path);
 }
-console.log('Full editorial composition, review sources, credentials, FAQs, image dimensions and disabled delivery passed for all 84 service routes.');
+console.log('Full editorial composition, review sources, credentials, FAQs, image dimensions and booking and phone actions passed for all 84 service routes.');
 // Service tab previews must use their actual destination page's hero.
 let tabImages=0,tabParents=0;
 for(const route of manifest){

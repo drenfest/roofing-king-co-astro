@@ -38,6 +38,8 @@ These committed records drive native rendering. Before editing, identify the exa
 | media.ts and *-media.json | Shared intrinsic dimensions/srcsets, assembled from asset-family registries |
 | section-types.ts | Shared headings, RichNode, section and service interfaces; extend deliberately |
 
+Product lifespan/care is selected by material and component type in product-care.ts from product-care.json. Put exact collection text in the product care/specificationsIntro fields; never apply Lineage�s seven colors or 50-year warranty to other products. project-contact.json holds the approved shared booking/call copy.
+
 ## Add or extend a product
 
 Use an existing product as the shape reference, then verify the actual manufacturer page/catalog/installation/warranty evidence. Add a stable key to the correct catalog source and a detail record, collection membership, hero, source documents, metadata record and manifest entry. Preserve the original GAF regression subset; do not delete assertions to make new records pass. Product source metadata must distinguish vinyl, polypropylene, fiber cement, engineered wood, PVC and composite correctly.
@@ -102,6 +104,8 @@ Parent guidance: [src](../ai-context.md).
 - [page-structure.ts](page-structure.ts)
 - [ply-gem-products.json](ply-gem-products.json)
 - [product-accessories.json](product-accessories.json)
+- [product-care.json](product-care.json)
+- [product-care.ts](product-care.ts)
 - [product-catalog.json](product-catalog.json)
 - [product-collection-media.json](product-collection-media.json)
 - [product-companions.json](product-companions.json)
@@ -116,6 +120,7 @@ Parent guidance: [src](../ai-context.md).
 - [product-system-companions.json](product-system-companions.json)
 - [product-system-companions.ts](product-system-companions.ts)
 - [product-types.ts](product-types.ts)
+- [project-contact.json](project-contact.json)
 - [project-gallery.json](project-gallery.json)
 - [project-gallery.ts](project-gallery.ts)
 - [review-platforms.json](review-platforms.json)

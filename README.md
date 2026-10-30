@@ -41,6 +41,6 @@ Full verification builds the static site and checks routes, source copy, compone
 
 ## Review release status
 
-Custom quote submission remains disabled; call/booking paths and click-to-load Roofr are separate. Review noindex/nofollow and robots restrictions remain intentional. A canonical production hostname does not prove DNS cutover or lead delivery.
+Custom quote areas show booking/phone actions until verified submission delivery exists; click-to-load Roofr is separate. Review noindex/nofollow and robots restrictions remain intentional. A canonical production hostname does not prove DNS cutover or lead delivery.
 
 The main-branch workflow can deploy to the authorized Cloudways review app, including documentation-only commits. Do not push or deploy merely because local checks pass. When publication is requested, follow [the deployment runbook](migration/cloudways-deployment.md) and verify the actual deployed revision and public behavior. No credentials or original private downloads belong in public or context files.

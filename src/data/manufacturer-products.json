@@ -12238,7 +12238,7 @@
       "width": 1600,
       "height": 1200,
       "alt": "Trex Signature Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
     }
   },
   "trex-lineage": {
@@ -12375,44 +12375,44 @@
     "badges": [
       {
         "label": "Material",
-        "value": "Composite",
+        "value": "Wood-plastic composite",
         "specLabel": "Material"
       },
       {
-        "label": "Profile",
-        "value": "Refined grain",
+        "label": "Surface",
+        "value": "Refined wood grain",
         "specLabel": "Surface"
       },
       {
-        "label": "Finish",
-        "value": "Product-specific",
-        "specLabel": "Maintenance"
+        "label": "Colors",
+        "value": "7 options",
+        "specLabel": "Manufacturer-listed choices"
       },
       {
-        "label": "Warranty",
-        "value": "Limited coverage",
+        "label": "Residential warranty",
+        "value": "50-year limited",
         "specLabel": "Warranty"
       }
     ],
     "badgeExplanations": {
       "Material": {
-        "title": "Trex material details",
-        "body": "Wood-plastic composite. Compare the selected product and its installation details using the manufacturer source.",
+        "title": "Material",
+        "body": "Wood-plastic composite.",
         "sourceUrl": "https://www.trex.com/products/decking/lineage/"
       },
-      "Profile": {
-        "title": "Trex profile details",
-        "body": "Refined grain. Compare the selected product and its installation details using the manufacturer source.",
+      "Surface": {
+        "title": "Surface",
+        "body": "Refined wood grain.",
         "sourceUrl": "https://www.trex.com/products/decking/lineage/"
       },
-      "Finish": {
-        "title": "Trex finish details",
-        "body": "Periodic cleaning; no routine wood staining. Cleaning requirements and permitted methods depend on the selected line.",
+      "Colors": {
+        "title": "Colors",
+        "body": "Island Mist Lineage; Biscayne; Rainier; Carmel; Jasper; Hatteras; Salt Flat.",
         "sourceUrl": "https://www.trex.com/products/decking/lineage/"
       },
-      "Warranty": {
-        "title": "Trex warranty details",
-        "body": "50-year limited residential warranty. Compare the selected product and its installation details using the manufacturer source.",
+      "Residential warranty": {
+        "title": "Residential warranty",
+        "body": "50-year limited residential warranty. Warranty coverage is separate from expected service life and subject to the written terms.",
         "sourceUrl": "https://www.trex.com/products/decking/lineage/"
       }
     },
@@ -12438,7 +12438,45 @@
       "width": 1600,
       "height": 1201,
       "alt": "Trex Transcend Lineage Composite Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
+    },
+    "specificationsIntro": "Compare the board material, surface texture, available colors and care requirements. Review the installation documents for compatible fasteners, board spacing and support requirements.",
+    "care": {
+      "title": "Deck lifespan and long-term care",
+      "intro": "Composite decking can provide decades of outdoor use. How long your deck lasts depends on the boards you choose, the structure beneath them, installation and ongoing care.",
+      "items": [
+        {
+          "title": "Framing and installation",
+          "body": "The deck boards are only part of the structure. Joists, beams, posts and connections need to remain sound throughout its use. When replacing an older deck surface, have the existing framing assessed before deciding what can stay. Board spacing, support and fasteners should follow the requirements for the selected decking."
+        },
+        {
+          "title": "Moisture and drainage",
+          "body": "Rain, snow and trapped debris can affect the deck and its supporting structure. Keep spaces between boards clear and address areas where water collects. Pay attention to the connection between the deck and the house, along with the condition of the framing below."
+        },
+        {
+          "title": "Sun exposure and everyday wear",
+          "body": "Sunlight, foot traffic, pets and moving furniture affect how the surface looks over time. Consider how you use the space when comparing colors and finishes, and follow the manufacturer’s guidance for protecting the boards."
+        },
+        {
+          "title": "Cleaning and upkeep",
+          "body": "Remove leaves and debris, clean spills promptly and use the cleaning methods recommended for your decking collection. Trex Transcend Lineage can be cleaned with soap and water; follow Trex’s care guide for specific stains and approved cleaning tools."
+        }
+      ],
+      "footnote": "Manufacturer warranty coverage is separate from expected service life. Review the terms for the exact decking collection you select.",
+      "links": [
+        {
+          "label": "Trex care and cleaning guide",
+          "url": "https://www.trex.com/customer-support/trex-owners/care-and-cleaning/"
+        },
+        {
+          "label": "Trex installation guides",
+          "url": "https://www.trex.com/customer-support/trex-owners/downloads/"
+        },
+        {
+          "label": "Trex warranty information",
+          "url": "https://www.trex.com/customer-support/trex-owners/warranty/"
+        }
+      ]
     }
   },
   "trex-transcend": {
@@ -12614,7 +12652,7 @@
       "width": 1600,
       "height": 1061,
       "alt": "Trex Transcend Composite Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
     }
   },
   "trex-select": {
@@ -12790,7 +12828,7 @@
       "width": 1600,
       "height": 1280,
       "alt": "Trex Select Composite Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
     }
   },
   "trex-enhance": {
@@ -13026,7 +13064,7 @@
       "width": 1600,
       "height": 1067,
       "alt": "Trex Enhance Composite Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
     }
   },
   "trex-refuge": {
@@ -13166,7 +13204,7 @@
       "width": 1600,
       "height": 1068,
       "alt": "Trex Refuge PVC Decking manufacturer imagery",
-      "caption": "Trex manufacturer imagery · Not a Roof King project photograph"
+      "caption": "Manufacturer photo courtesy of Trex."
     }
   },
   "lp-shakes": {

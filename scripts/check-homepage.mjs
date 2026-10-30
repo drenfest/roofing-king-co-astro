@@ -1,3 +1,4 @@
+import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
@@ -22,9 +23,7 @@ const galleryLibrary=JSON.parse(await fs.readFile('src/data/project-gallery.json
 assert.equal($('.rk-project-gallery-item').length,galleryLibrary.items.length,'Every retained gallery photo must exist in server-rendered HTML.');
 assert.equal($('.rk-home-faq-stack details').length, 3);
 assert.equal($('dialog').length, 2);
-assert.equal($('.rk-quote-form').length, 2);
-assert.equal($('.rk-quote-form button[type="submit"]:disabled').length, 2, 'Do not enable lead submission before delivery is connected.');
-assert.equal($('.rk-quote-form[method="dialog"]').length, 2, 'Disconnected forms must not leak input into URL query strings without JS.');
+assertContactActions($);
 assert.equal($('.rk-before-after-range[aria-label]').length, 1);
 assert.ok($('.rk-home-hero img').attr('srcset'), 'Hero needs responsive image variants.');
 assert.equal($('.rk-home-hero img').attr('fetchpriority'), 'high');
@@ -32,13 +31,11 @@ assert.equal($('main').text().includes('<div class='), false, 'Escaped import ma
 for (const img of $('main img').toArray()) {
   assert.ok($(img).attr('width') && $(img).attr('height'), 'Reserve space for ' + $(img).attr('src'));
 }
-for (const label of $('.rk-quote-form label[for]').toArray()) {
-  assert.equal($(`[id="${$(label).attr('for')}"]`).length, 1, 'Form labels must target unique input IDs.');
-}
+
 const ids = $('[id]').toArray().map(e => $(e).attr('id'));
-assert.equal(ids.length, new Set(ids).size, 'IDs must be unique across inline and modal forms.');
+assert.equal(ids.length, new Set(ids).size, 'IDs must be unique across inline contact actions and modal content.');
 assert.equal($('meta[name="robots"]').attr('content'), 'noindex, nofollow');
-console.log('Homepage SSR, gallery, image sizing, labels, and disconnected-form checks passed.');
+console.log('Homepage SSR, gallery, image sizing, booking and phone contact checks passed.');
 const roofr = JSON.parse(await fs.readFile('src/data/roofr.json', 'utf8'));
 assert.equal(new URL(roofr.estimatorUrl).origin, 'https://app.roofr.com');
 for (const route of roofr.calculatorPaths) {

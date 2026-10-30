@@ -1,0 +1,301 @@
+{
+  "shingles": {
+    "title": "Roof lifespan and long-term care",
+    "intro": "Shingle condition, installation and the roof beneath the covering all influence useful life. An inspection considers the whole roof rather than treating a warranty period as a replacement timetable.",
+    "items": [
+      {
+        "title": "Decking and installation",
+        "body": "Shingles need a sound deck and correctly connected underlayment, flashing and roof penetrations. When replacing a covering, soft decking or failed flashing needs attention before the new material goes on."
+      },
+      {
+        "title": "Water drainage and ventilation",
+        "body": "Keep runoff moving through valleys, gutters and downspouts. Blocked drainage can concentrate water at the roof edge. Attic ventilation and air leakage also deserve assessment when moisture or winter roof-edge ice is present."
+      },
+      {
+        "title": "Storm damage and wear",
+        "body": "Missing tabs, lifted edges, exposed flashing or a new ceiling stain warrant inspection. A localized failure may be repairable when surrounding materials remain sound; scattered deterioration can make replacement the better comparison."
+      },
+      {
+        "title": "Cleaning and inspections",
+        "body": "Have roof debris and growth assessed before cleaning. Abrasive scrubbing and high-pressure washing can damage shingles. Record changes after storms from a safe viewpoint and arrange professional access where closer inspection is needed."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "vinyl": {
+    "title": "Vinyl siding lifespan and care",
+    "intro": "Vinyl panels are part of a wall system that also includes flashing, trim and a drainage layer. Long-term performance depends on keeping those details working as the panels expand and contract.",
+    "items": [
+      {
+        "title": "Movement and attachment",
+        "body": "Vinyl needs room for temperature-related movement. Overdriven fasteners and trapped panel ends can contribute to buckling. Loose or distorted courses need inspection of the attachment and supporting wall rather than simply more nails."
+      },
+      {
+        "title": "Drainage around openings",
+        "body": "Window heads, door trim and roof-to-wall intersections need a route for water to drain outward. Keep drainage openings clear; indiscriminately sealing panel laps can trap moisture behind the siding."
+      },
+      {
+        "title": "Heat and impact",
+        "body": "Check cracked panels after impacts or storms. Keep grills and other concentrated heat sources away from the wall. A damaged panel may be replaceable, though weathering and discontinued colors can affect the match."
+      },
+      {
+        "title": "Routine cleaning",
+        "body": "Start with gentle cleaning and a soft brush to lift dirt. Avoid directing water upward into panel joints. Use a cleaner suited to the actual finish, and test a small area before treating a whole elevation."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "polypropylene": {
+    "title": "Shake and shingle siding care",
+    "intro": "Molded shake and shingle panels have different fastening and movement details from long vinyl courses. The selected panel profile and its trim connections determine how the finished wall drains and moves.",
+    "items": [
+      {
+        "title": "Panel alignment and movement",
+        "body": "Locking edges, fastening positions and expansion allowances work together. A lifted panel or misaligned course needs its connections checked before it is refastened; tightening every fastener can restrict intended movement."
+      },
+      {
+        "title": "Corners and openings",
+        "body": "Keep flashing and drainage paths around windows, doors and corners open. The shake texture is the visible finish; water control also depends on the wall layers and transitions behind it."
+      },
+      {
+        "title": "Impact and replacement",
+        "body": "Check broken edges or loose sections after storms and impacts. Replacing an individual panel depends on the locking pattern and available matching material, so retain the product name and color information."
+      },
+      {
+        "title": "Cleaning the texture",
+        "body": "Use gentle washing to release dirt from the textured face. Avoid aggressive abrasion or upward spray into joints. Check the selected panel’s care information before using concentrated chemicals or pressure equipment."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "fiber-cement": {
+    "title": "Fiber cement siding lifespan and care",
+    "intro": "Fiber cement siding combines a durable board with a finish and a carefully detailed wall installation. Keeping moisture away from vulnerable transitions helps protect the siding and the wall behind it.",
+    "items": [
+      {
+        "title": "Clearances and flashing",
+        "body": "Ground, roofing and deck surfaces must leave the required clearance from the boards. Flashing directs water away at openings and roof intersections. Filling every gap with caulk can block details designed to drain."
+      },
+      {
+        "title": "Finish and cut edges",
+        "body": "Watch for coating damage, exposed cuts and deteriorated sealant at designated joints. Addressing these areas early helps protect the finish. Touch-up and repainting methods depend on whether the boards use a factory or field-applied coating."
+      },
+      {
+        "title": "Drainage and exposure",
+        "body": "Keep gutters working and plants from holding moisture against the wall. Redirect sprinklers that repeatedly wet the siding. Persistent staining can signal a drainage detail that needs attention rather than another cleaning."
+      },
+      {
+        "title": "Gentle surface cleaning",
+        "body": "Use low-pressure water and a soft brush to remove ordinary dirt. Avoid abrasive tools and high-pressure washing that can harm the finish. Treat stains with methods appropriate to the installed coating."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "engineered-wood": {
+    "title": "Engineered wood siding lifespan and care",
+    "intro": "Engineered wood siding depends on its protective finish, sealed details and a wall assembly that sheds water. Regular checks help identify finish damage before repeated wetting becomes a larger repair.",
+    "items": [
+      {
+        "title": "Finish and exposed edges",
+        "body": "Inspect paint, cut edges and specified sealed joints for deterioration. Exposed material needs the appropriate repair and coating. Matching the original finish system matters when touching up or repainting."
+      },
+      {
+        "title": "Water management",
+        "body": "Maintain gutters and roof-to-wall flashing, and keep sprinklers from repeatedly wetting the boards. Vegetation, debris and insufficient clearance can hold moisture at the lower courses and trim."
+      },
+      {
+        "title": "Damage and attachment",
+        "body": "Loose boards, swollen edges or impact damage need assessment of both the siding and the supporting wall. A new coat of paint will not resolve an active leak or damaged substrate."
+      },
+      {
+        "title": "Cleaning and upkeep",
+        "body": "Remove dirt and surface growth using gentle cleaning suited to the coating. Avoid forcing water behind joints or scraping away the protective finish. Plan repairs before finish wear exposes more material."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "composite": {
+    "title": "Composite deck lifespan and care",
+    "intro": "Composite boards reduce routine refinishing, but the framing, fasteners and drainage still need attention. A surface replacement is only a sound investment when the structure beneath it remains serviceable.",
+    "items": [
+      {
+        "title": "Framing and connections",
+        "body": "Check joists, beams, posts and the connection to the house before keeping an older frame. New boards do not strengthen deteriorated framing. Support spacing and fastening need to match the selected board profile."
+      },
+      {
+        "title": "Moisture and debris",
+        "body": "Clear debris from board gaps and drainage routes. Trapped leaves can hold moisture against the structure below. Inspect areas where water remains after rain and where the deck meets the house."
+      },
+      {
+        "title": "Sun and everyday wear",
+        "body": "All decking can become hot in direct sun. Furniture movement, pets and foot traffic also affect the surface. Compare actual samples for texture and appearance; a heat-related feature is specific to the designated collection."
+      },
+      {
+        "title": "Cleaning and stains",
+        "body": "Remove leaves and spills promptly. Use cleaning tools and products suited to the selected collection, avoiding harsh abrasion. Inspect loose boards or damaged edges before they become a wider repair."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "pvc": {
+    "title": "PVC deck lifespan and care",
+    "intro": "PVC decking uses a different board material from wood-plastic composite. Its thermal movement, support and fastening details still need to suit the selected collection and the existing deck structure.",
+    "items": [
+      {
+        "title": "Structure and support",
+        "body": "Assess the frame before replacing the walking surface. Joist layout, board orientation and fastener choice affect support. A sound-looking PVC surface does not establish that concealed wood framing is in good condition."
+      },
+      {
+        "title": "Temperature movement",
+        "body": "Board spacing and attachment need to accommodate changing temperatures. Keep concentrated heat sources away from the surface. All decking can become hot in sunshine, including products with heat-mitigating features."
+      },
+      {
+        "title": "Drainage below the boards",
+        "body": "Keep board gaps and perimeter drainage routes clear. Water and debris trapped around the structure can affect the framing even when the deck boards themselves are not wood."
+      },
+      {
+        "title": "Surface care",
+        "body": "Lift furniture where practical and clean spills before they sit on the finish. Avoid unverified solvents, abrasive tools and accessories that may discolor the surface. Use the selected PVC collection’s cleaning guidance."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "railing": {
+    "title": "Railing safety and long-term care",
+    "intro": "Railing service life involves both the visible finish and the connections that hold the system in place. Aluminum, steel, composite, glass and cable infill each call for different surface care.",
+    "items": [
+      {
+        "title": "Posts and attachment",
+        "body": "A loose post, moving rail or damaged bracket needs attention before the railing is relied on. Post anchorage and the supporting framing matter as much as the rail finish; surface cleaning does not correct movement."
+      },
+      {
+        "title": "Coatings and corrosion",
+        "body": "Check exposed metal, damaged coatings and areas where water collects. Gentle cleaning removes dirt without stripping the finish. Use material-specific repair methods rather than coating over an unidentified corrosion problem."
+      },
+      {
+        "title": "Glass, mesh and cable",
+        "body": "Inspect infill connections and damaged panels or wires. Glass requires non-abrasive cleaning; cable tension and hardware need the specified setup. Avoid improvising changes to infill spacing or attachment."
+      },
+      {
+        "title": "Routine checks",
+        "body": "Look for loose caps, damaged connectors and movement after impacts or seasonal use. Keep the exact railing model on record so replacement parts and cleaning methods match the installed system."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "gutter-protection": {
+    "title": "Gutter protection lifespan and upkeep",
+    "intro": "A guard helps manage debris entry, while the gutter runs, outlets and downspouts still carry the water away. Long-term performance depends on the complete drainage route and the chosen protection system.",
+    "items": [
+      {
+        "title": "Gutter condition and support",
+        "body": "Before adding protection, check sagging runs, failed joints and attachment to the fascia. Some products also provide continuous support; that function is different from debris screening and must suit the installation."
+      },
+      {
+        "title": "Water flow and outlets",
+        "body": "Watch runoff during rain from a safe position. Overflow can come from concentrated valley flow, an obstructed outlet or a downstream restriction. Replacing a guard alone may not resolve the cause."
+      },
+      {
+        "title": "Surface debris and inspection",
+        "body": "Leaves or debris can remain on a guard’s surface even when the gutter interior is protected. Arrange inspection when accumulation or overflow persists. Maintenance and access depend on the actual product and roof conditions."
+      },
+      {
+        "title": "Winter and repair planning",
+        "body": "Guards are not an ice-dam remedy. Review persistent ice, damaged downspouts and roof-edge leaks together. Retain the installed model and warranty information before altering or removing protection."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "fascia": {
+    "title": "Deck fascia appearance and care",
+    "intro": "Fascia finishes the deck perimeter; it is not a replacement for the structure behind it. The right attachment and movement details help keep the trim aligned as temperatures change.",
+    "items": [
+      {
+        "title": "Attachment and movement",
+        "body": "Fascia has its own fastening and spacing requirements. Tight attachment that prevents movement can lead to distortion. Check the specified screws and holes rather than treating the panel like a structural rim board."
+      },
+      {
+        "title": "Perimeter drainage",
+        "body": "Keep debris from collecting behind trim and against the framing. Inspect where fascia meets stairs, posts and drainage components so water has an intended path away."
+      },
+      {
+        "title": "Impact and alignment",
+        "body": "Check cracked edges, loose fixings and distorted panels after impacts or seasonal movement. Identify the cause before replacing the face panel; underlying frame movement may also need attention."
+      },
+      {
+        "title": "Cleaning the finish",
+        "body": "Remove dirt gently using methods suited to the fascia material. Avoid scraping the face or applying an unverified coating. Keep color and profile records to help match any replacement piece."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "fasteners": {
+    "title": "Deck fasteners and long-term performance",
+    "intro": "Hidden clips and screws are part of the deck’s attachment system. Their suitability depends on the board profile, frame and installation method, rather than appearance alone.",
+    "items": [
+      {
+        "title": "Compatible boards and framing",
+        "body": "Grooved boards, square-edge boards and perimeter details can require different fixings. Match the fastener to the selected board and supporting material; one clip is not automatically suitable for every collection."
+      },
+      {
+        "title": "Board support and spacing",
+        "body": "Fasteners hold a board to its support but do not replace adequate framing. Keep the intended board gaps and support layout. An unsupported end or deteriorated joist needs a structural solution."
+      },
+      {
+        "title": "Movement and loose boards",
+        "body": "Rocking boards, raised edges or loose screws need inspection before refastening. The cause may be the fastener, the board connection or the frame below. Avoid driving a new screw through an uncertain location."
+      },
+      {
+        "title": "Repair access",
+        "body": "Keep the fastener model and installation method in the project record. Replacing one board can require a different access sequence from the original installation, especially where clips are concealed."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "lighting": {
+    "title": "Deck lighting life and care",
+    "intro": "Lighting performance depends on fixtures, wiring, connectors and the power supply. Individual electrical components can have different service lives and warranty terms from the deck boards.",
+    "items": [
+      {
+        "title": "Compatible electrical system",
+        "body": "Use the specified power supply, connectors and controls for the installed fixtures. A matching plug shape does not confirm compatibility. Keep wiring protected from fasteners and moving or removable deck parts."
+      },
+      {
+        "title": "Moisture and connections",
+        "body": "Check exposed or damaged wiring and displaced connectors. Repeated moisture at a connection needs assessment of protection and routing. Switch the system off before inspecting or arranging electrical repairs."
+      },
+      {
+        "title": "Fixture cleaning",
+        "body": "Keep lenses clear of dirt and leaves with gentle cleaning. Avoid directing high-pressure water at seals or connectors. Damaged housings or seals need attention rather than being covered with improvised sealant."
+      },
+      {
+        "title": "Troubleshooting and replacement",
+        "body": "Record which fixtures flicker or stop working, and whether the problem affects one section or the whole system. Keep model and power-supply details so replacement parts match the installation."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "drainage": {
+    "title": "Under-deck drainage life and upkeep",
+    "intro": "An under-deck drainage system collects water beneath the walking surface and routes it to an outlet. The troughs, downspouts and collecting gutter need to work together to protect the space below.",
+    "items": [
+      {
+        "title": "Continuous water path",
+        "body": "Troughs, seams and downspouts need the intended fall and connections. A gap or puncture upstream can leak into the covered area. Plan drainage before enclosing the underside of the deck."
+      },
+      {
+        "title": "Debris and discharge",
+        "body": "Clear debris from the deck surface and check the receiving gutter and outlet. A downstream blockage can back water into a correctly installed trough. Inspect persistent overflow rather than hiding it behind soffit."
+      },
+      {
+        "title": "Future deck work",
+        "body": "New fasteners and alterations can damage concealed troughs or connections. Keep drainage locations documented before changing decking, lighting, posts or finishes."
+      },
+      {
+        "title": "Leak checks and access",
+        "body": "Note where water appears during rain and retain access to collection points. A leak may come from a seam, penetration or blocked outlet, so identify the route before replacing finish materials below."
+      }
+    ],
+    "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  }
+}

@@ -1,3 +1,4 @@
+import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
@@ -29,7 +30,7 @@ for(const location of inventory){
  assert.ok(!headings.has(data.opening.title));headings.add(data.opening.title);
  assert.equal($('[data-component=ServiceArticle]').length,0,'Location hubs remain full-service selectors.');
  assert.equal($('dialog.rk-native-quote-dialog').length,1);
- assert.equal($('button[type=submit]:disabled').length,2);
+ assertContactActions($);
 }
 const cleveland=editorial['/cleveland-oh/'];assert.equal(cleveland.opening.items[0].href,'/cleveland-oh/roofing/');assert.equal(cleveland.opening.items[1].href,'/siding/');assert.equal(cleveland.opening.items[2].href,'/cleveland-oh/storm-damage/');
 assert.equal(editorial['/dublin-oh/'].opening.items[0].href,'/roofing-contractor-dublin-oh/');

@@ -16,7 +16,7 @@ Use the existing family rather than importing the legacy shell into a native pag
 
 ## Service composition contract
 
-Polished services use ServicePaths for real parent service/location selectors and ServiceArticle for leaves. They retain review sources, credentials, full source content bands, contextual manufacturer subsections, explicit estimate placement, a relevant ServiceComparison, topic-matched gallery, FeaturedArticles, FAQ and the disconnected quote experience. The calculator family keeps Roofr click-to-load behavior. Reviewed brand headings remain H3s where nested; do not flatten all topics to H2.
+Polished services use ServicePaths for real parent service/location selectors and ServiceArticle for leaves. They retain review sources, credentials, full source content bands, contextual manufacturer subsections, explicit estimate placement, a relevant ServiceComparison, topic-matched gallery, FeaturedArticles, FAQ and the booking/phone contact experience (#quote-form remains a compatibility anchor). The calculator family keeps Roofr click-to-load behavior. Reviewed brand headings remain H3s where nested; do not flatten all topics to H2.
 
 ServiceLanding and PolishedServicePage use the same photographic hero design and shared motion, but /roofing/ retains its own reference data/composition. ServiceComparison resolves a selected pair through shared data; it must not imply the illustration is a local completed project. Location section headings include the actual city while disclaiming illustrative examples.
 

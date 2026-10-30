@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {load} from 'cheerio';
+import {assertContactActions} from './contact-checks.mjs';
 const base='https://wordpress-1269393-6519803.cloudwaysapps.com';
 const expected=process.env.REVIEW_EXPECTED_COMMIT||process.env.GITHUB_SHA;
 const query=expected?`?release=${expected}`:'';
@@ -29,6 +30,9 @@ await Promise.all(Array.from({length:6},async()=>{
   assert.deepEqual(JSON.parse(remote('script[data-site-schema]').text()),JSON.parse(local('script[data-site-schema]').text()),path+' current structured data and content');
   const components='[data-landing-build=editorial],[data-component=OfferPage],[data-component=NativeArticle],[data-component=ServicePaths]';
   assert.equal(remote(components).length,local(components).length,path+' current components');
+  if(local('[data-contact-actions]').length)assertContactActions(remote,local('[data-contact-actions]').length);
+  const careText=$=>$('[data-product-care]').toArray().map(el=>({type:$(el).attr('data-care-type'),text:$(el).text().replace(/\s+/g,' ').trim()}));
+  assert.deepEqual(careText(remote),careText(local),path+' material-specific product care');
   assert.equal(remote('#quote-form button[type=submit]:not([disabled])').length,0,path+' disconnected forms');
   checked++;
  }

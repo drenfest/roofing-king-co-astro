@@ -19,7 +19,7 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Product collection | ProductHubPage + ProductGrid + ProductCard | Actual child/catalog entries, distinct relevant pictures, real source links and ProductOptions; no generic research-note band |
 | Product detail | ProductDetailPage | Shared hero, overview and warranty/specification/companion tabs; optional primary parent link; exact catalog data |
 | Product colors | ProductOptions + ProductColorPreview | Exact source color names/swatches, independent instance IDs, keyboard selection and source photograph links; an illustrative color study does not become a manufacturer photo |
-| Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; no inherited GAF claims on other brands |
+| Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; material-specific care via product-care.ts, exact product overrides, and GAF-only energy ratings |
 | Companion systems | ProductCompanions / ProductSystemCompanions | Preserve detailed HDZ treatment and the brand/family resolver; canonical child-page links, primary parent map and relevant images/diagrams |
 | Product or building diagrams | AccessoryBenefitDiagram / SystemComponentDiagram / ServiceSystemDiagram / IceDamDiagram | Code-native explanatory SVGs, accessible naming and actual subject; diagrams are not installation specifications |
 | Project photographs | ProjectGallery | Filtered whole-page batches limited to two rows, keyboard lightbox, source kinds/tags, original-image links and SSR fallback |
@@ -31,7 +31,7 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Blog navigation | BlogNavigation | Shared aside on main hubs, category/topic archives and articles; include this article's real categories/topics |
 | Reviews | ReviewSection / ReviewCard / ReviewCollection | Verified excerpts, author/date/ratings and external platform references; no fabricated local reviews or aggregate score |
 | Service areas | ServiceAreaMap / LocationServiceLinks / CoverageSection | Local boundary data and existing route descendants, filterable cards, nested service links, hero and keyboard fallback |
-| Quote / booking | QuoteSection / QuoteExperience / QuoteForm | Shared CTA, wide desktop modal, short heading, native dialog focus/Escape; submission stays disabled until delivery is implemented |
+| Quote / booking | QuoteSection / QuoteExperience / ContactActions | Shared CTA, wide desktop modal, short heading, native dialog focus/Escape; render real booking/phone links instead of unavailable inputs; preserve #quote-form anchors and native dialog focus/Escape |
 | Estimator | RoofrEstimator | Click-to-load iframe and direct fallback; do not eagerly load external embeds |
 | Header / menu image | SiteHeader / MegaMenu / MenuPreview | Desktop hover + focus, stable connected columns, nested full-width mobile rows and source menu atlas; all route links work without JS |
 | Shared identity / trust | SiteFooter / Breadcrumbs / TrustStrip / CredentialsSection | Central identity, actual badges, correct destinations and heading context |
@@ -72,6 +72,7 @@ Parent guidance: [src](../ai-context.md).
 - [Breadcrumbs.astro](Breadcrumbs.astro)
 - [CardSection.astro](CardSection.astro)
 - [ComparisonSection.astro](ComparisonSection.astro)
+- [ContactActions.svelte](ContactActions.svelte)
 - [ContentSection.astro](ContentSection.astro)
 - [CoverageSection.astro](CoverageSection.astro)
 - [CredentialsSection.astro](CredentialsSection.astro)
@@ -108,7 +109,6 @@ Parent guidance: [src](../ai-context.md).
 - [ProjectGallery.svelte](ProjectGallery.svelte)
 - [ProjectShowcase.astro](ProjectShowcase.astro)
 - [QuoteExperience.svelte](QuoteExperience.svelte)
-- [QuoteForm.svelte](QuoteForm.svelte)
 - [QuoteSection.astro](QuoteSection.astro)
 - [ResourceLinks.astro](ResourceLinks.astro)
 - [ReviewCard.astro](ReviewCard.astro)

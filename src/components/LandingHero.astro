@@ -4,8 +4,8 @@ import site from '../data/site.json';
 import RichContent from './RichContent.astro';
 import type {RichNode} from '../data/section-types';
 import '../styles/service-hero.css';
-interface Props {hero:{eyebrow:string;title:string;description:string;body?:RichNode[];image:{src:string;alt:string};caption:string;action:string;nextHref?:string;nextLabel?:string};serviceName?:string;generatedImage?:boolean;}
-const {hero,serviceName,generatedImage=false}=Astro.props;
+interface Props {hero:{eyebrow:string;title:string;description:string;body?:RichNode[];image:{src:string;alt:string};caption:string;action:string;nextHref?:string;nextLabel?:string};serviceName?:string;generatedImage?:boolean;generatedCaption?:string;}
+const {hero,serviceName,generatedImage=false,generatedCaption='Illustrative service imagery'}=Astro.props;
 const nextLabel=serviceName?`Read More About ${serviceName}`:hero.nextLabel||`Read More About ${hero.title}`;
 ---
 <section class="rk-landing-hero rk-immersive-hero rk-editorial-hero" data-component="LandingHero">
@@ -16,5 +16,5 @@ const nextLabel=serviceName?`Read More About ${serviceName}`:hero.nextLabel||`Re
       <a class="rk-landing-text-link" href={hero.nextHref || '#roofing-services'}>{nextLabel} <span aria-hidden="true">↓</span></a>
     </div>
   </div>
-  {generatedImage&&<p class="rk-service-hero-credit">Illustrative service imagery</p>}
+  {generatedImage&&<p class="rk-service-hero-credit">{generatedCaption}</p>}
 </section>

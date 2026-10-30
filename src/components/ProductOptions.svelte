@@ -36,11 +36,13 @@
                 <path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6l8-3Z"/><path d="m9 12 2 2 4-5"/>
               {:else if badge.label==='Material'}
                 <path d="m3 7 9-4 9 4-9 4-9-4Zm0 5 9 4 9-4M3 17l9 4 9-4"/>
-              {:else if badge.label==='Profile'}
+              {:else if badge.label==='Profile'||badge.label==='Surface'}
                 <path d="M3 4h18v16H3zM3 9h18M3 14h18"/>
               {:else if badge.label==='Finish'}
                 <path d="M4 3h13v6H4zM17 6h3v7h-9v8M8 17h6v4H8z"/>
-              {:else if badge.label==='Warranty'}
+              {:else if badge.label==='Colors'}
+                <path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/>
+              {:else if badge.label==='Warranty'||badge.label==='Residential warranty'}
                 <path d="m12 3 8 3v6c0 4-4 7-8 9-4-2-8-5-8-9V6l8-3Z"/><path d="m9 12 2 2 4-5"/>
               {:else}
                 <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>

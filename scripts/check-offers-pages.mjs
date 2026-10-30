@@ -1,3 +1,4 @@
+import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {load} from 'cheerio';
@@ -10,7 +11,7 @@ for(const path of paths){
  assert.equal($('[data-component=PageHero]').length,1,path);
  assert.equal($('.rk-imported-content,.rk-blog-single,.rk-blog-sidebar,.rk-blog-meta').length,0,path);
  assert.equal($('link[rel=canonical]').attr('href'),`https://www.roofkingco.com${path}`,path);
- assert.equal($('#quote-form button[type=submit]').is('[disabled]'),true,path);
+ assertContactActions($);
  if(path!=='/offers/')assert.ok(hub(`main a[href="${path}"]`).length,path);
  if(path!=='/offers/' && path!=='/offers/gaf-system-plus/'){
   assert.equal($('[data-component=OfferPage]').length,1,path);
@@ -37,4 +38,4 @@ for(const path of [about.href,...about.children.map(item=>item.href)]){
  assert.doesNotMatch($('main').text(),/#TITLE|Roof King Blog/);
  assert.equal($('main a[href="/gallery/"]').length,0,path);
 }
-console.log(`${paths.length} native offer URLs: hub destinations, canonical paths, shared components, qualified financing, official GAF sources and disabled forms passed. All About menu destinations use native pages.`);
+console.log(`${paths.length} native offer URLs: hub destinations, canonical paths, shared components, qualified financing, official GAF sources and booking and phone actions passed. All About menu destinations use native pages.`);

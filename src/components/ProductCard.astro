@@ -16,7 +16,7 @@ const Heading = detail ? 'h2' : 'h3';
       {product.colorPreview && <noscript><p class="rk-product-reference-note">Enable JavaScript to preview siding colors on the sample home. The swatches link to manufacturer color information.</p></noscript>}
       {!detail && <div class="rk-product-details">
         <details><summary>Warranty &amp; protection</summary><div><ProductWarranty {product}/></div></details>
-        <details id={'specs-'+product.id}><summary>Product specifications</summary><div><ProductSpecifications {product}/></div></details>
+        <details id={'specs-'+product.id}><summary>Product specifications</summary><div><ProductSpecifications {product} careHeadingLevel={4}/></div></details>
       </div>}
       {product.colorPreview?.mode==='mask'?<div class="rk-product-source"><a href={product.sourceUrl} target="_blank" rel="noopener noreferrer">View {item.title} at {product.brand} ↗</a><a class="rk-product-original-photo" href={product.hero?.src} target="_blank" rel="noopener noreferrer">View manufacturer product photograph ↗</a></div>:<a class="rk-product-source" href={product.sourceUrl} target="_blank" rel="noopener noreferrer">View {item.title} at {product.brand||'GAF'} ↗</a>}
     {detail && <div class="rk-product-booking"><a class="rk-button rk-button-secondary" href="#quote-form" title={`Discuss ${item.title} with Roof King`}>Discuss this product <span aria-hidden="true">→</span></a><p>We’ll help you review finishes and installation for your home.</p></div>}
