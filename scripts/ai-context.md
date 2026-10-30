@@ -10,6 +10,7 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 - npm run check:contexts checks directory coverage, generated blocks, map links, route ownership and the underscore rule for Astro page maps. npm run check:context-output also verifies context files are absent from dist.
 - npm run verify is the release gate. Its package.json sequence is authoritative; do not replace it with a stale copied list. Choose focused checks during development, then run the full sequence before a requested push/release.
 - check-content.mjs validates retained route metadata; check-built-routes.mjs protects URLs, canonicals, links and referenced assets. Existing regression baselines are intentional, not an invitation to remove assertions when adding a feature.
+- check-product-comparisons.mjs checks all 96 product mappings, complete sourced cells across the 72 cross-brand pages, valid same-use alternatives, truthful rating filters, SSR tables/schema and bounded per-page payloads. A missing comparison value fails the build adapter; add a verified supplemental fact rather than suppressing the check or inventing a number.
 
 ## Authoring workflows
 
@@ -83,6 +84,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-native-articles.mjs](check-native-articles.mjs)
 - [check-offers-pages.mjs](check-offers-pages.mjs)
 - [check-ply-gem-products.mjs](check-ply-gem-products.mjs)
+- [check-product-comparisons.mjs](check-product-comparisons.mjs)
 - [check-product-systems.mjs](check-product-systems.mjs)
 - [check-products.mjs](check-products.mjs)
 - [check-roofing-heroes.mjs](check-roofing-heroes.mjs)

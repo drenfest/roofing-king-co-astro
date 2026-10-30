@@ -193,7 +193,7 @@ export function completeStructuredData(html,{pathname}={}){
  if(companionProducts.length)part({'@type':'WebPageElement','@id':pageUrl+'#companion-products-section',name:'Companion products and system components',about:companionProducts});
 
  // Model meaningful rendered sections, not decorative cards or interactive controls.
- main.find('[data-component=ServiceContentBand],[data-component=ServiceArticle],.rk-product-information,.rk-landing-credentials').each((index,el)=>{
+ main.find('[data-component=ServiceContentBand],[data-component=ServiceArticle],[data-component=ProductComparison],.rk-product-information,.rk-landing-credentials').each((index,el)=>{
   const section=$(el),heading=section.find('h2').first(),label=text(heading);if(!label)return;
   const key=section.attr('id')||heading.attr('id')||'content-section-'+index;
   const intro=text(section.find('p').not('.rk-home-eyebrow,.rk-service-detail-kicker').first());

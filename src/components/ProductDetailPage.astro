@@ -9,6 +9,7 @@ import ProductCompanions from './ProductCompanions.astro';
 import ProductTabs from './ProductTabs.svelte';
 import ProductWarranty from './ProductWarranty.astro';
 import ProductSpecifications from './ProductSpecifications.astro';
+import ProductComparisonSection from './ProductComparisonSection.astro';
 import {productCompanions} from '../data/product-system-companions';
 interface Props {page:CollectionEntry<'pages'>;data:ProductDetailData;}
 const {page,data}=Astro.props;
@@ -30,4 +31,5 @@ const schema={'@context':'https://schema.org','@type':'Product',name:data.title,
       {hasCompanions && <section id="roof-system" data-product-panel class="rk-product-tab-panel"><ProductCompanions productId={product.id}/></section>}
     </ProductTabs></div>
   </section>
+  <ProductComparisonSection productId={product.id}/>
 </ProductLayout>

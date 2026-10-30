@@ -1,0 +1,9 @@
+---
+import ProductComparison from './ProductComparison.svelte';
+import {productComparison} from '../data/product-comparison';
+import '../styles/product-comparison.css';
+interface Props{productId:string;}
+const {productId}=Astro.props;
+const model=productComparison(productId);
+---
+{model&&<ProductComparison {model} client:visible/>}

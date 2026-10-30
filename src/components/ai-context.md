@@ -18,6 +18,7 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Manufacturer logos | BrandStrip | Native scroll snapping and mobile swipe, proportional logos, no autoplay/dependency; headingLevel=3 for subordinate brand sections |
 | Product collection | ProductHubPage + ProductGrid + ProductCard | Actual child/catalog entries, distinct relevant pictures, real source links and ProductOptions; no generic research-note band |
 | Product detail | ProductDetailPage | Shared hero, overview and warranty/specification/companion tabs; optional primary parent link; exact catalog data |
+| Cross-brand comparisons | ProductComparisonSection + ProductComparison + ProductSpecFilters | Pin the current product; up to three same-use alternatives from other listed brands. Use complete sourced rows appropriate to the material, lazy responsive pictures, keyboard-scrollable table, reset/empty states and SSR defaults. Omit when no other listed brand is comparable. ProductCatalogFilters enhances existing ProductGrid cards without replacing their color controls; no-JS cards remain visible. |
 | Product colors | ProductOptions + ProductColorPreview | Exact source color names/swatches, independent instance IDs, keyboard selection and source photograph links; an illustrative color study does not become a manufacturer photo |
 | Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; material-specific care via product-care.ts, exact product overrides, and GAF-only energy ratings |
 | Companion systems | ProductCompanions / ProductSystemCompanions | Preserve detailed HDZ treatment and the brand/family resolver; canonical child-page links, primary parent map and relevant images/diagrams |
@@ -94,14 +95,18 @@ Parent guidance: [src](../ai-context.md).
 - [PageHero.astro](PageHero.astro)
 - [ProcessSteps.astro](ProcessSteps.astro)
 - [ProductCard.astro](ProductCard.astro)
+- [ProductCatalogFilters.svelte](ProductCatalogFilters.svelte)
 - [ProductColorPreview.svelte](ProductColorPreview.svelte)
 - [ProductCompanions.astro](ProductCompanions.astro)
+- [ProductComparison.svelte](ProductComparison.svelte)
+- [ProductComparisonSection.astro](ProductComparisonSection.astro)
 - [ProductDetailPage.astro](ProductDetailPage.astro)
 - [ProductEnergy.astro](ProductEnergy.astro)
 - [ProductGrid.astro](ProductGrid.astro)
 - [ProductHero.astro](ProductHero.astro)
 - [ProductHubPage.astro](ProductHubPage.astro)
 - [ProductOptions.svelte](ProductOptions.svelte)
+- [ProductSpecFilters.svelte](ProductSpecFilters.svelte)
 - [ProductSpecifications.astro](ProductSpecifications.astro)
 - [ProductSystemCompanions.astro](ProductSystemCompanions.astro)
 - [ProductTabs.svelte](ProductTabs.svelte)

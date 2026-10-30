@@ -1,0 +1,54 @@
+.rk-product-comparison{padding:clamp(3rem,6vw,6rem) 0;background:#eee9df;clip-path:polygon(0 1.4rem,100% 0,100% calc(100% - 1.4rem),0 100%);}
+.rk-product-comparison-heading{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(1.5rem,4vw,4rem);align-items:end;margin-bottom:2rem;}
+.rk-product-comparison-heading h2{font-size:clamp(2rem,3.5vw,3.1rem);line-height:1.15;margin:.6rem 0 0;max-width:750px;}
+.rk-product-comparison-heading>p{margin:0;line-height:1.75;color:#57534d;}
+.rk-spec-filter-controls[hidden]{display:none!important;}
+.rk-spec-filter-primary,.rk-spec-filter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:1rem;align-items:end;}
+.rk-spec-filter-controls label{display:grid;gap:.45rem;min-width:0;font-size:.8rem;font-weight:600;}
+.rk-spec-filter-controls select{width:100%;min-width:0;min-height:46px;padding:.65rem 2rem .65rem .75rem;background:#fffdf8;border:1px solid #bfb7a9;border-radius:2px;color:#242321;font:inherit;font-weight:400;}
+.rk-spec-reset{border:0;background:transparent;text-decoration:underline;text-underline-offset:.25rem;color:#242321;padding:.65rem .2rem;min-height:44px;font:inherit;font-size:.8rem;cursor:pointer;}
+.rk-spec-more{margin-top:1rem;border-top:1px solid #cdc5b8;border-bottom:1px solid #cdc5b8;}
+.rk-spec-more summary{display:flex;justify-content:space-between;align-items:center;padding:.85rem 0;font-size:.85rem;font-weight:600;cursor:pointer;list-style:none;}
+.rk-spec-more summary::-webkit-details-marker{display:none;}
+.rk-spec-more[open] summary span{rotate:45deg;}
+.rk-spec-filter-grid{grid-template-columns:repeat(3,minmax(0,1fr));padding:.35rem 0 1.25rem;}
+.rk-spec-result-count,.rk-comparison-results-heading{font-size:.8rem;color:#57534d;margin:1rem 0;}
+.rk-comparison-results-heading{display:flex;justify-content:space-between;gap:1rem;align-items:center;}
+.rk-comparison-results-heading p{margin:0;}
+.rk-comparison-candidates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;}
+.rk-comparison-candidates article{position:relative;padding:1.1rem 1.2rem;background:#fffdf8;border:1px solid #d7d0c5;transition:border-color 160ms ease,background 160ms ease;}
+.rk-comparison-candidates article.rk-comparison-candidate-selected{border-color:#a94304;background:#fff8ed;}
+.rk-comparison-candidates .rk-home-eyebrow{margin:0 0 .4rem;font-size:.65rem;}
+.rk-comparison-candidates h3{margin:0;font-size:1.1rem;line-height:1.35;}
+.rk-comparison-candidates h3 a{display:flex;gap:.8rem;justify-content:space-between;color:#242321;text-decoration:none;}
+.rk-comparison-candidates h3 a:hover{text-decoration:underline;text-underline-offset:.2rem;}
+.rk-comparison-candidate-spec{font-size:.75rem;line-height:1.55;color:#625b52;margin:.6rem 0;}
+.rk-comparison-pick{display:inline-flex;align-items:center;gap:.5rem;font-size:.8rem;min-height:44px;cursor:pointer;}
+.rk-comparison-pick input,.rk-comparison-table-heading input{accent-color:#ad4300;width:18px;height:18px;}
+.rk-comparison-pick:has(input:disabled){opacity:.55;cursor:default;}
+.rk-spec-load-more{display:block;margin:1rem auto;padding:.7rem 1rem;background:#fffdf8;border:1px solid #aaa091;border-radius:2px;font:inherit;font-size:.85rem;cursor:pointer;}
+.rk-comparison-table-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:2.5rem 0 1rem;}
+.rk-comparison-table-heading h3{font-size:1.5rem;margin:0;}
+.rk-comparison-table-heading label{display:flex;gap:.6rem;align-items:center;font-size:.8rem;}
+.rk-product-comparison-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid #d7d0c5;background:#fffdf8;scrollbar-color:#9e9484 #eee9df;}
+.rk-product-comparison table{border-collapse:separate;border-spacing:0;width:100%;table-layout:fixed;min-width:720px;font-size:.8rem;line-height:1.6;}
+.rk-product-comparison caption{text-align:left;padding:1rem 1.2rem;font-weight:600;border-bottom:1px solid #d7d0c5;}
+.rk-product-comparison :is(th,td){text-align:left;vertical-align:top;padding:1rem;border-bottom:1px solid #ded7cb;border-right:1px solid #e8e1d6;overflow-wrap:anywhere;}
+.rk-product-comparison th:first-child{width:150px;position:sticky;left:0;z-index:1;background:#f3eee5;}
+.rk-product-comparison thead th{font-weight:600;}
+.rk-product-comparison .rk-comparison-current{background:#fff5e7;box-shadow:inset 0 3px #ed650d;}
+.rk-product-comparison tbody .rk-comparison-current{box-shadow:none;}
+.rk-product-comparison thead img{display:block;width:100%;height:105px;object-fit:contain;margin:.65rem 0 .8rem;background:#f4f0e8;}
+.rk-product-comparison thead a{color:#242321;text-underline-offset:.2rem;}
+.rk-comparison-column-kind,.rk-comparison-column-brand{display:block;font-size:.68rem;font-weight:500;color:#655d53;}
+.rk-product-comparison td small{display:block;font-size:.7rem;color:#655d53;margin-top:.45rem;}
+.rk-comparison-source{display:table;font-size:.68rem;margin-top:.5rem;color:#8c3704;text-underline-offset:.2rem;}
+.rk-spec-unlisted{color:#82796d;font-size:.75rem;}
+.rk-comparison-note{font-size:.75rem;line-height:1.7;color:#625b52;max-width:950px;margin:1rem 0 0;}
+.rk-spec-empty{padding:1.5rem;background:#fffdf8;border:1px solid #d7d0c5;}
+.rk-spec-empty h3{margin:0 0 .7rem;font-size:1.35rem;}.rk-spec-empty p{margin:0 0 1rem;}
+.rk-catalog-filters{margin:1.75rem 0;}.rk-service-product-grid .rk-product-card[hidden],.rk-product-earlier[hidden]{display:none!important;}
+.rk-product-compare-link{display:inline-flex;align-items:center;gap:.8rem;min-height:44px;margin:0 1.5rem 1.5rem;color:#8c3704;font-size:.85rem;text-underline-offset:.2rem;}
+.rk-product-card-detail .rk-product-compare-link{grid-column:1/-1;margin:0;}
+@media(max-width:900px){.rk-product-comparison-heading{grid-template-columns:1fr;gap:1rem;}.rk-comparison-candidates{grid-template-columns:repeat(2,minmax(0,1fr));}.rk-spec-filter-primary{grid-template-columns:repeat(2,minmax(0,1fr));}.rk-spec-filter-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.rk-spec-filter-primary,.rk-spec-filter-grid,.rk-comparison-candidates{grid-template-columns:1fr;}.rk-comparison-table-heading{align-items:start;flex-direction:column;}.rk-product-comparison table{min-width:650px;}.rk-product-comparison th:first-child{width:120px;}.rk-comparison-results-heading{align-items:start;}.rk-product-comparison .rk-section-inner{width:calc(100% - 2rem);}.rk-spec-reset{justify-self:start;}}

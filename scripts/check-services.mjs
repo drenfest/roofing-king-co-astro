@@ -57,7 +57,12 @@ for(const [path,data] of Object.entries(pages)){
     if(before(e).closest('.rk-page-reviews-section').length)return;
     // The commercial explorer now summarizes each linked detail page instead of its old teaser cards.
     if(path==='/commercial-roofing/' && e.tagName==='p' && before(e).closest('.rk-page-service-card').length)return;
-    const original=clean(before(e).text());const content=/^h[2-4]$/.test(e.tagName)?(placements[path]?.headings?.[original]||original):original;if(content)assert.ok(rendered.includes(content),'Lost source content on '+path+': '+content.slice(0,100));
+    const original=clean(before(e).text());
+    // The GAF collection intentionally consolidates its two generic introductions into one filter-led heading.
+    if(path==='/roofing/gaf/types/'&&['Exterior Services','Columbus, OH GAF Roof Shingle Types','Explore GAF Shingle Types','Explore GAF shingles: durable Timberline HDZ, stylish Camelot II, impact-resistant AS II, and cool roof options like Grand Sequoia RS. Beauty meets performance!','Compare the shingle options described below and talk with Roof King about your project.','Explore the colors, compare the details, and find a look for your home. Color availability varies by region; confirm your selection with Roof King and a physical sample.'].includes(original)){
+      assert.equal($('[data-component="ProductGrid"] h2').text(),'Compare GAF shingle specifications');assert.equal($('[data-catalog-filters]').length,1);return;
+    }
+    const content=/^h[2-4]$/.test(e.tagName)?(placements[path]?.headings?.[original]||original):original;if(content)assert.ok(rendered.includes(content),'Lost source content on '+path+': '+content.slice(0,100));
   });
   const requiredLinks=before('.rk-page-section:not(.rk-page-final-cta) a[href^="/"]').filter((i,e)=>!before(e).closest('.rk-page-service-cta').length).map((i,e)=>before(e).attr('href')).get();
   for(const href of requiredLinks)assert.ok($(`main a[href="${href}"]`).length,'Lost contextual link '+href);

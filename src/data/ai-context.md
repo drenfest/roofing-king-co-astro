@@ -17,6 +17,7 @@ These committed records drive native rendering. Before editing, identify the exa
 | service-comparisons.json / service-comparison-media.json | Explicit before/after assignments and optimized states; keep illustrative disclosures visible |
 | product-library.ts | Merge point for product-catalog.json, manufacturer-products.json, product-accessories.json and ply-gem-products.json |
 | product-details.json / product-pillar.json | Native product details / collection cards and catalog membership |
+| product-comparison.ts / product-comparison-specs.json / product-filtering.ts | Build-time comparison adapter, dated manufacturer-backed supplemental facts, shared AND filtering. Compare only existing brands within the same functional group. Every comparison row must be filled and sourced; preserve qualifiers and explicitly document genuinely unpublished figures. Keep test classes separate from warranty speeds, actual thickness separate from nominal sizes, and package-dependent ratings out of unconditional class filters. |
 | product-types.ts / product-presentation.ts / product-hub-heroes.json | Typed presentation, family/image resolution and relevant product heroes |
 | product-parents.json | One primary product parent for companion detail pages, independent of preserved URLs and other collection membership |
 | trex-collections.json | Trex Decking, Railing and Deck accessories memberships; the menu stops at these categories |
@@ -109,9 +110,13 @@ Parent guidance: [src](../ai-context.md).
 - [product-catalog.json](product-catalog.json)
 - [product-collection-media.json](product-collection-media.json)
 - [product-companions.json](product-companions.json)
+- [product-comparison-specs.json](product-comparison-specs.json)
+- [product-comparison-types.ts](product-comparison-types.ts)
+- [product-comparison.ts](product-comparison.ts)
 - [product-details.json](product-details.json)
 - [product-energy.json](product-energy.json)
 - [product-explanations.ts](product-explanations.ts)
+- [product-filtering.ts](product-filtering.ts)
 - [product-hub-heroes.json](product-hub-heroes.json)
 - [product-library.ts](product-library.ts)
 - [product-parents.json](product-parents.json)

@@ -14,6 +14,8 @@ Use sentence-case headings with actual H2/H3 nesting. Keep accents simple and bu
 
 Pale ContactActions cards require an explicit charcoal heading that overrides dark service-section heading rules. Keep the surrounding estimate heading light; check both computed colors on service and location pages.
 
+product-comparison.css owns shared specification filters, candidate selection and comparison tables. Keep table overflow inside the focusable region (never the whole page), use visible selected/focus states and restrained orange accents. Filters stay hidden until their lightweight Svelte enhancement mounts; unfiltered SSR cards and default comparisons must remain readable without JavaScript.
+
 <!-- directory-inventory:start -->
 ## Directory inventory
 
@@ -35,6 +37,7 @@ Parent guidance: [src](../ai-context.md).
 - [motion.css](motion.css)
 - [navigation.css](navigation.css)
 - [offers.css](offers.css)
+- [product-comparison.css](product-comparison.css)
 - [products.css](products.css)
 - [projects.css](projects.css)
 - [reviews.css](reviews.css)

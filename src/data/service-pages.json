@@ -2842,65 +2842,10 @@
     ],
     "sections": [
       {
-        "type": "content",
-        "variant": "prose",
-        "body": [
-          {
-            "text": "\n      "
-          },
-          {
-            "tag": "div",
-            "children": [
-              {
-                "text": "\n        "
-              },
-              {
-                "tag": "p",
-                "role": "eyebrow",
-                "children": [
-                  {
-                    "text": "Exterior Services"
-                  }
-                ]
-              },
-              {
-                "text": "\n        "
-              },
-              {
-                "tag": "h2",
-                "children": [
-                  {
-                    "text": "Columbus, OH GAF Roof Shingle Types"
-                  }
-                ]
-              },
-              {
-                "text": "\n        "
-              },
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Explore GAF shingles: durable Timberline HDZ, stylish Camelot II, impact-resistant AS II, and cool roof options like Grand Sequoia RS. Beauty meets performance!"
-                  }
-                ]
-              },
-              {
-                "text": "\n      "
-              }
-            ]
-          },
-          {
-            "text": "\n      \n    "
-          }
-        ],
-        "cards": []
-      },
-      {
         "type": "products",
-        "eyebrow": "Roofing materials",
-        "title": "Explore GAF Shingle Types",
-        "description": "Compare the shingle options described below and talk with Roof King about your project.",
+        "eyebrow": "GAF shingle collection",
+        "title": "Compare GAF shingle specifications",
+        "description": "Filter the GAF collection by impact class, dimensions, exposure and other listed specifications. Open a product to compare it with similar shingles from other brands.",
         "items": [
           {
             "title": "Timberline HDZ",

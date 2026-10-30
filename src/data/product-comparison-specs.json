@@ -1,0 +1,261 @@
+{
+  "checkedAt": "2026-10-30",
+  "products": {
+    "timberline-hdz": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "timberline-uhdz": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "timberline-ns": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "timberline-as-ii": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "timberline-hdz-rs": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "camelot-ii": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "woodland": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "grand-sequoia": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "grand-sequoia-rs": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "grand-sequoia-as": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "royal-sovereign": {
+      "material": {
+        "value": "Fiberglass-reinforced asphalt",
+        "sourceUrl": "https://www.gaf.com/en-us/document-library/documents/codes/gaf-shingles-ridge-and-starters-evaluation-report-esr-1475.pdf"
+      }
+    },
+    "hardie-hardie-plank-lap-siding": {
+      "thickness": {
+        "value": "5/16 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "hardie-hardie-panel-siding": {
+      "thickness": {
+        "value": "5/16 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "hardie-hardie-artisan-siding": {
+      "thickness": {
+        "value": "5/8 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "hardie-hardie-shingle-siding": {
+      "thickness": {
+        "value": "1/4 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "hardie-hardie-architectural-panel-siding": {
+      "thickness": {
+        "value": "5/16 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "hardie-hardie-trim-batten-boards": {
+      "thickness": {
+        "value": "3/4 in.",
+        "note": "Manufacturer-listed thickness for the siding or batten profiles; matching trim can have different dimensions.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      },
+      "warranty": {
+        "value": "30-year non-prorated limited substrate warranty",
+        "note": "ColorPlus finishes have separate 15-year limited coverage; manufacturer terms apply.",
+        "sourceUrl": "https://bmc.a.bigcontent.io/v1/static/James_Hardie_Ohio_Kentucky_Product_Catalog_2025"
+      }
+    },
+    "lp-shakes": {
+      "thickness": {
+        "value": "0.354 in. actual (38 Series)",
+        "note": "Series-specific actual thickness; nominal sizes differ.",
+        "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      }
+    },
+    "lp-lap-siding": {
+      "thickness": {
+        "value": "0.354 in. actual (38 Series); 0.418 in. actual (76 Series)",
+        "note": "Series-specific actual thickness; nominal sizes differ.",
+        "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      }
+    },
+    "lp-trim-fascia": {
+      "thickness": {
+        "value": "0.675 in. actual (440 Series); 0.970 in. actual (540 Series)",
+        "note": "Series-specific actual thickness; nominal sizes differ.",
+        "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      }
+    },
+    "lp-nickel-gap": {
+      "thickness": {
+        "value": "0.495 in. actual",
+        "note": "Series-specific actual thickness; nominal sizes differ.",
+        "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      }
+    },
+    "lp-panel-vertical-siding": {
+      "thickness": {
+        "value": "0.354 in. actual (38 Series); 0.418 in. actual (76 Series)",
+        "note": "Series-specific actual thickness; nominal sizes differ.",
+        "sourceUrl": "https://assets.ctfassets.net/89s5b832f23c/4tDIMdDK3zVfSDdDhJjDKk/63f67bed1360c881c90ced134fca18c1/LP_SmartSide_Product_Catalog_2025.pdf"
+      }
+    },
+    "iko-dynasty": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/dynasty/"
+      }
+    },
+    "iko-nordic": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/nordic/"
+      }
+    },
+    "iko-dynasty-cool-plus": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/dynasty-cool-plus/"
+      }
+    },
+    "iko-armourshake": {
+      "bundles": {
+        "value": "5",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/armourshake/"
+      }
+    },
+    "iko-royal-estate": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/royal-estate/"
+      }
+    },
+    "iko-crowne-slate-designer-shingles": {
+      "bundles": {
+        "value": "4",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/crowne-slate-designer-shingles/"
+      }
+    },
+    "iko-cambridge": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/cambridge/"
+      }
+    },
+    "iko-cambridge-cool-colors": {
+      "bundles": {
+        "value": "3",
+        "note": "Per 100 sq. ft., calculated from manufacturer package coverage; excludes waste.",
+        "sourceUrl": "https://www.iko.com/na/product/cambridge-cool-colors/"
+      }
+    },
+    "variform-heritage-cedar": {
+      "thickness": {
+        "value": "0.080–0.100 in. nominal, depending on profile",
+        "sourceUrl": "https://www.plygem.com/variform/siding-materials/vinyl-siding/"
+      }
+    },
+    "plygem-cedar-dimensions": {
+      "texture": {
+        "value": "Molded cedar-grain shingle, hand-split shake or half-round texture",
+        "note": "Profile and color selections control the finished appearance.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      }
+    },
+    "plygem-dimensions": {
+      "texture": {
+        "value": "Woodgrain; cedar-grain coating on Cedar colors",
+        "note": "Profile and color selections control the finished appearance.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      }
+    },
+    "plygem-progressions": {
+      "texture": {
+        "value": "Fine-grained wood-look surface",
+        "note": "Profile and color selections control the finished appearance.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      }
+    },
+    "plygem-performance-board-batten": {
+      "texture": {
+        "value": "Factory-colored vinyl finish",
+        "note": "Profile and color selections control the finished appearance.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      }
+    },
+    "plygem-transformations": {
+      "texture": {
+        "value": "Factory-colored vinyl finish",
+        "note": "Profile and color selections control the finished appearance.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      }
+    },
+    "norandex-home-accents": {
+      "thickness": {
+        "value": "Not published in the manufacturer’s current product brochure",
+        "note": "The brochure specifies 7 in. exposure for all three profiles, but does not provide panel thickness. Exposure is not thickness.",
+        "sourceUrl": "https://www.norandex.com/wp-content/uploads/2025/06/HomeAccents-Brochure_WEB.pdf"
+      },
+      "material": {
+        "value": "Solid vinyl",
+        "sourceUrl": "https://www.norandex.com/wp-content/uploads/2025/06/HomeAccents-Brochure_WEB.pdf"
+      }
+    }
+  }
+}

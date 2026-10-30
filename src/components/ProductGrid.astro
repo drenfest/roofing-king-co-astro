@@ -6,15 +6,20 @@ import RichContent from './RichContent.astro';
 import ProductCard from './ProductCard.astro';
 import {productLibrary} from '../data/product-library';
 import type { ProductPresentation } from '../data/product-types';
+import ProductCatalogFilters from './ProductCatalogFilters.svelte';
+import {catalogFilters} from '../data/product-comparison';
+import '../styles/product-comparison.css';
 interface Props { id?:string;section:HeadingData & {intro?:string;items:{productId:string;title:string;body:RichNode[]}[]}; }
 const { section,id } = Astro.props;
 const products:Record<string,ProductPresentation> = Object.fromEntries(Object.values(productLibrary).map(product=>[product.id,product]));
 const current=section.items.filter(item=>products[item.productId]?.colors.length);
 const earlier=section.items.filter(item=>!products[item.productId]?.colors.length);
+const filters=catalogFilters(current.map(item=>item.productId));
 ---
 <section {id} class="rk-home-section rk-service-products" data-component="ProductGrid"><div class="rk-section-inner">
   <SectionHeading {...section}/>
-  <p class="rk-product-intro">{section.intro || 'Explore the colors, compare the details, and find a look for your home. Color availability varies by region; confirm your selection with Roof King and a physical sample.'}</p>
+  {section.intro && <p class="rk-product-intro">{section.intro}</p>}
+  {current.length>1&&<ProductCatalogFilters model={filters} id={`${id||current[0].productId}-filters`} client:visible/>}
   <div class="rk-service-product-grid">{current.map(item=>{
     const product=products[item.productId];
     return <ProductCard {item} {product}/>
