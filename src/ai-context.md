@@ -1,32 +1,30 @@
-# src
+# src: native source system
 
-Astro site source. Pages use shared layouts and content collections; Svelte is used for browser interactions.
+Astro handles static composition and Svelte handles interactive islands. Start with the root handbook, then read the maps for pages, layouts, components, data and styles. Keep copy/facts in the correct data owner and rendering logic in shared components; do not build a parallel per-page design system.
 
-## Files
+src/middleware.ts runs the same attribute and schema completion logic used by static build integrations. src/content.config.ts only loads **/index.md from src/content/pages. Metadata records are independent of which native layout renders a URL. The directory named pages is special: its context maps start with an underscore so Astro does not create documentation routes.
 
-- `content.config.ts`
+Normal rendering uses local committed data/assets. Client-side props must not contain secrets, source export paths, private Drive IDs or original downloads. Preserve readable SSR content and the existing load/visible hydration boundaries. Keep native and retained legacy compatibility code separate.
 
-## Subdirectories
+<!-- directory-inventory:start -->
+## Directory inventory
 
-- `components/` - read its ai-context.md.
-- `content/` - read its ai-context.md.
-- `data/` - read its ai-context.md.
-- `layouts/` - read its ai-context.md.
-- `pages/` - read its _ai-context.md.
-- `scripts/` - read its ai-context.md.
-- `styles/` - read its ai-context.md.
+Parent guidance: [repository](../ai-context.md).
 
-## Change checks
+### Direct files
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+- [content.config.ts](content.config.ts)
+- [middleware.ts](middleware.ts)
 
+### Child directories
 
-middleware.ts completes required HTML image/link attributes in Astro dev and prerender responses, using the server-only scripts/html-attributes.mjs helper. Interactive components set their own dynamic attributes.
+- [components/](components/ai-context.md)
+- [content/](content/ai-context.md)
+- [data/](data/ai-context.md)
+- [layouts/](layouts/ai-context.md)
+- [pages/](pages/_ai-context.md)
+- [scripts/](scripts/ai-context.md)
+- [styles/](styles/ai-context.md)
 
-
-The shared middleware now also resolves retired internal blog links to their approved canonical URLs while preserving query strings and fragments. External hosts are left unchanged. The same server-only helper runs across final output HTML, including copied public pages.
-
-
-Blog article routes use ArticleLayout with shared PageHero, Breadcrumbs, BlogNavigation, ContentSection, FAQSection and new ArticleSection/ArticleChecklist/ArticleImage adapters. Legacy article HTML/CSS is excluded from the catchall and SiteLayout.
-
-middleware.ts also compiles the server-rendered component output into one linked Schema.org graph using scripts/structured-data.mjs. Canonical aliases and error/review pages do not claim the identity of their canonical target. The same compiler runs after the static build; it adds no browser runtime.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

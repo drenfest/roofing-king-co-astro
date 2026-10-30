@@ -1,0 +1,2056 @@
+{
+  "plygem-cedar-dimensions": {
+    "id": "plygem-cedar-dimensions",
+    "brand": "Ply Gem",
+    "detailPath": "/products/siding/vinyl/ply-gem/cedar-dimensions/",
+    "sourceUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+    "checkedAt": "2026-10-29",
+    "defaultColorId": "white",
+    "categoryLabel": "Ply Gem Performance · Shake & shingle",
+    "previewMode": "palette",
+    "previewAlt": "Ply Gem Cedar Dimensions catalog photograph",
+    "colors": [
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "swatchColor": "#c2c8c4",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "swatchColor": "#d9d2bb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sunrise-yellow",
+        "name": "Sunrise Yellow",
+        "swatchColor": "#fff5c9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "swatchColor": "#fffef9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wicker",
+        "name": "Wicker",
+        "swatchColor": "#c9bca7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "khaki",
+        "name": "Khaki",
+        "swatchColor": "#aaa891",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "nantucket-gray",
+        "name": "Nantucket Gray",
+        "swatchColor": "#9aa098",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "thistle",
+        "name": "Thistle",
+        "swatchColor": "#a0aa9a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "brunswick",
+        "name": "Brunswick",
+        "swatchColor": "#3d4b4f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "canyon",
+        "name": "Canyon",
+        "swatchColor": "#958b75",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "dublin",
+        "name": "Dublin",
+        "swatchColor": "#6e786f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "granite",
+        "name": "Granite",
+        "swatchColor": "#8b8e8c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "iron",
+        "name": "Iron",
+        "swatchColor": "#444644",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "montana-suede",
+        "name": "Montana Suede",
+        "swatchColor": "#7b7462",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "russett-red",
+        "name": "Russett Red",
+        "swatchColor": "#8a544a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shadow",
+        "name": "Shadow",
+        "swatchColor": "#59534c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wedgewood",
+        "name": "Wedgewood",
+        "swatchColor": "#79888e",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "willow",
+        "name": "Willow",
+        "swatchColor": "#828f83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shaded-gray",
+        "name": "Shaded Gray",
+        "swatchColor": "#848880",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shaded-cedar",
+        "name": "Shaded Cedar",
+        "swatchColor": "#747061",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 575
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      }
+    ],
+    "colorPreview": {
+      "mode": "mask",
+      "image": {
+        "src": "/media/products/color-previews/variform-heritage-cedar-1200.webp",
+        "srcset": "/media/products/color-previews/variform-heritage-cedar-400.webp 400w, /media/products/color-previews/variform-heritage-cedar-800.webp 800w, /media/products/color-previews/variform-heritage-cedar-1200.webp 1200w",
+        "width": 1200,
+        "height": 803
+      },
+      "mask": "/media/products/color-previews/variform-heritage-cedar-mask.svg",
+      "brightness": 2.189,
+      "sourceUrl": "https://api.renoworks.com/v1/project/66711fd9-7c0a-4737-b3e9-3c5b63733134?site=variform&xml=true",
+      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Cedar Dimensions panel profile and finish may differ. Confirm a physical sample."
+    },
+    "hero": {
+      "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+      "srcset": "/media/products/ply-gem/cedar-dimensions-home-320.webp 320w, /media/products/ply-gem/cedar-dimensions-home-640.webp 640w, /media/products/ply-gem/cedar-dimensions-home-960.webp 960w, /media/products/ply-gem/cedar-dimensions-home-1024.webp 1024w",
+      "width": 1024,
+      "height": 575,
+      "alt": "Ply Gem Cedar Dimensions manufacturer catalog photograph",
+      "caption": "Ply Gem manufacturer catalog photography · Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Rigid polypropylene",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Shake & shingle",
+        "specLabel": "Panel profiles"
+      },
+      {
+        "label": "Finish",
+        "value": "20 color references",
+        "specLabel": "Color choices"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited lifetime",
+        "specLabel": "Manufacturer coverage"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material for Cedar Dimensions",
+        "body": "Rigid polypropylene",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Profile": {
+        "title": "Profile for Cedar Dimensions",
+        "body": "Double 7 in. shingle; Double 9 in. hand-split shake; Triple 5 in. shingle; Half-Round",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Finish": {
+        "title": "Color and profile selection",
+        "body": "20 published family color references The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Warranty": {
+        "title": "Manufacturer coverage",
+        "body": "Limited lifetime warranty Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      }
+    },
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Rigid polypropylene",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel profiles",
+        "value": "Double 7 in. shingle; Double 9 in. hand-split shake; Triple 5 in. shingle; Half-Round",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Nominal thickness",
+        "value": ".080–.100 in., depending on profile",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Profile height",
+        "value": "Profile-specific; select from the specification guide",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel length",
+        "value": "Varies by shingle, shake and half-round profile",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Color choices",
+        "value": "20 published family color references",
+        "note": "The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Accessories",
+        "value": "Cedar-panel starter strips and profile-specific corners",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Manufacturer coverage",
+        "value": "Limited lifetime warranty",
+        "note": "Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      }
+    ],
+    "warrantyUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf",
+    "warrantyLabels": [
+      "Ply Gem Performance Collection limited lifetime coverage, subject to the written terms"
+    ],
+    "warrantyNote": "Cedar Dimensions has its own polypropylene siding section in the warranty document. Ownership, transfer, finish and installation conditions apply.",
+    "documents": [
+      {
+        "label": "Ply Gem Performance Collection Full Product Catalog",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Spec Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Installation Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Warranty Information",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      },
+      {
+        "label": "View Cedar Dimensions manufacturer profile photograph",
+        "url": "/media/products/ply-gem/cedar-dimensions-profile-400.webp"
+      }
+    ],
+    "colorResources": [
+      {
+        "label": "Ply Gem profile and color matrix",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf",
+        "description": "Family colors are shown here as references. The specification guide lists profile-specific color availability."
+      }
+    ]
+  },
+  "plygem-dimensions": {
+    "id": "plygem-dimensions",
+    "brand": "Ply Gem",
+    "detailPath": "/products/siding/vinyl/ply-gem/dimensions/",
+    "sourceUrl": "https://www.plygem.com/siding/collections/dimensions/",
+    "checkedAt": "2026-10-29",
+    "defaultColorId": "white",
+    "categoryLabel": "Ply Gem Performance · Vinyl siding",
+    "previewMode": "palette",
+    "previewAlt": "Ply Gem Dimensions catalog photograph",
+    "colors": [
+      {
+        "id": "almond",
+        "name": "Almond",
+        "swatchColor": "#e7e2cb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "swatchColor": "#bbc2aa",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "swatchColor": "#c2c8c4",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "swatchColor": "#d9d2bb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "swatchColor": "#fffef9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wicker",
+        "name": "Wicker",
+        "swatchColor": "#c9bca7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "khaki",
+        "name": "Khaki",
+        "swatchColor": "#aaa891",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "nantucket-gray",
+        "name": "Nantucket Gray",
+        "swatchColor": "#9aa098",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "slate-blue",
+        "name": "Slate Blue",
+        "swatchColor": "#a1b4b7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "thistle",
+        "name": "Thistle",
+        "swatchColor": "#a0aa9a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "bayou",
+        "name": "Bayou",
+        "swatchColor": "#526e83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "brunswick",
+        "name": "Brunswick",
+        "swatchColor": "#3d4b4f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "canyon",
+        "name": "Canyon",
+        "swatchColor": "#958b75",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "dublin",
+        "name": "Dublin",
+        "swatchColor": "#6e786f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "granite",
+        "name": "Granite",
+        "swatchColor": "#8b8e8c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "iron",
+        "name": "Iron",
+        "swatchColor": "#444644",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "montana-suede",
+        "name": "Montana Suede",
+        "swatchColor": "#7b7462",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "russett-red",
+        "name": "Russett Red",
+        "swatchColor": "#8a544a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shadow",
+        "name": "Shadow",
+        "swatchColor": "#59534c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wedgewood",
+        "name": "Wedgewood",
+        "swatchColor": "#79888e",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "willow",
+        "name": "Willow",
+        "swatchColor": "#828f83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "chestnut",
+        "name": "Chestnut",
+        "swatchColor": "#94765b",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "hickory",
+        "name": "Hickory",
+        "swatchColor": "#76685b",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "spruce-blue",
+        "name": "Spruce Blue",
+        "swatchColor": "#818881",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/dimensions/",
+        "image": {
+          "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+          "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      }
+    ],
+    "colorPreview": {
+      "mode": "mask",
+      "image": {
+        "src": "/media/products/color-previews/alside-charter-oak-1000.webp",
+        "srcset": "/media/products/color-previews/alside-charter-oak-400.webp 400w, /media/products/color-previews/alside-charter-oak-800.webp 800w, /media/products/color-previews/alside-charter-oak-1000.webp 1000w",
+        "width": 1000,
+        "height": 750
+      },
+      "mask": "/media/products/color-previews/alside-charter-oak-mask.svg",
+      "brightness": 1.753,
+      "sourceUrl": "https://api.renoworks.com/v1/project/9fd9f168-14e7-49b5-9f7b-183b7b6a8f3a?site=alside&xml=true",
+      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Dimensions panel profile and finish may differ. Confirm a physical sample."
+    },
+    "hero": {
+      "src": "/media/products/ply-gem/dimensions-home-1024.webp",
+      "srcset": "/media/products/ply-gem/dimensions-home-320.webp 320w, /media/products/ply-gem/dimensions-home-640.webp 640w, /media/products/ply-gem/dimensions-home-960.webp 960w, /media/products/ply-gem/dimensions-home-1024.webp 1024w",
+      "width": 1024,
+      "height": 686,
+      "alt": "Ply Gem Dimensions manufacturer catalog photograph",
+      "caption": "Ply Gem manufacturer catalog photography · Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Lap siding",
+        "specLabel": "Panel profiles"
+      },
+      {
+        "label": "Finish",
+        "value": "24 color references",
+        "specLabel": "Color choices"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited lifetime",
+        "specLabel": "Manufacturer coverage"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material for Dimensions",
+        "body": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Profile": {
+        "title": "Profile for Dimensions",
+        "body": "Double 4 in. traditional lap; Double 4½ in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Finish": {
+        "title": "Color and profile selection",
+        "body": "24 published family color references The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Warranty": {
+        "title": "Manufacturer coverage",
+        "body": "Limited lifetime warranty Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      }
+    },
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel profiles",
+        "value": "Double 4 in. traditional lap; Double 4½ in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Nominal thickness",
+        "value": ".044 in. nominal",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Profile height",
+        "value": "⅝ in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel length",
+        "value": "12 ft 6 in. traditional lap; 12 ft 1 in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Color choices",
+        "value": "24 published family color references",
+        "note": "The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Accessories",
+        "value": "Lap-siding starter strips, corner posts and finishing trim",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Manufacturer coverage",
+        "value": "Limited lifetime warranty",
+        "note": "Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      }
+    ],
+    "warrantyUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf",
+    "warrantyLabels": [
+      "Ply Gem Performance Collection limited lifetime coverage, subject to the written terms"
+    ],
+    "warrantyNote": "The vinyl siding warranty defines manufacturing-defect, fade and hail provisions separately, with exclusions and ownership/transfer conditions. Review the exact product and finish terms.",
+    "documents": [
+      {
+        "label": "Ply Gem Performance Collection Full Product Catalog",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Spec Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Installation Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Warranty Information",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      },
+      {
+        "label": "View Dimensions manufacturer profile photograph",
+        "url": "/media/products/ply-gem/dimensions-profile-400.webp"
+      }
+    ],
+    "colorResources": [
+      {
+        "label": "Ply Gem profile and color matrix",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf",
+        "description": "Family colors are shown here as references. The specification guide lists profile-specific color availability."
+      }
+    ]
+  },
+  "plygem-progressions": {
+    "id": "plygem-progressions",
+    "brand": "Ply Gem",
+    "detailPath": "/products/siding/vinyl/ply-gem/progressions/",
+    "sourceUrl": "https://www.plygem.com/siding/collections/progressions/",
+    "checkedAt": "2026-10-29",
+    "defaultColorId": "white",
+    "categoryLabel": "Ply Gem Performance · Vinyl siding",
+    "previewMode": "palette",
+    "previewAlt": "Ply Gem Progressions catalog photograph",
+    "colors": [
+      {
+        "id": "almond",
+        "name": "Almond",
+        "swatchColor": "#e7e2cb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "ivory",
+        "name": "Ivory",
+        "swatchColor": "#fff6de",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "swatchColor": "#bbc2aa",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "swatchColor": "#c2c8c4",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "swatchColor": "#d9d2bb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "stone-gray",
+        "name": "Stone Gray",
+        "swatchColor": "#ccd0c7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sunrise-yellow",
+        "name": "Sunrise Yellow",
+        "swatchColor": "#fff5c9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "swatchColor": "#fffef9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wicker",
+        "name": "Wicker",
+        "swatchColor": "#c9bca7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "khaki",
+        "name": "Khaki",
+        "swatchColor": "#aaa891",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "nantucket-gray",
+        "name": "Nantucket Gray",
+        "swatchColor": "#9aa098",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "slate-blue",
+        "name": "Slate Blue",
+        "swatchColor": "#a1b4b7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "thistle",
+        "name": "Thistle",
+        "swatchColor": "#a0aa9a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "canyon",
+        "name": "Canyon",
+        "swatchColor": "#958b75",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "dublin",
+        "name": "Dublin",
+        "swatchColor": "#6e786f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "granite",
+        "name": "Granite",
+        "swatchColor": "#8b8e8c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "montana-suede",
+        "name": "Montana Suede",
+        "swatchColor": "#7b7462",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shadow",
+        "name": "Shadow",
+        "swatchColor": "#59534c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wedgewood",
+        "name": "Wedgewood",
+        "swatchColor": "#79888e",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "willow",
+        "name": "Willow",
+        "swatchColor": "#828f83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/progressions/",
+        "image": {
+          "src": "/media/products/ply-gem/progressions-home-1022.webp",
+          "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 686
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      }
+    ],
+    "colorPreview": {
+      "mode": "mask",
+      "image": {
+        "src": "/media/products/color-previews/norandex-sterling-1000.webp",
+        "srcset": "/media/products/color-previews/norandex-sterling-400.webp 400w, /media/products/color-previews/norandex-sterling-800.webp 800w, /media/products/color-previews/norandex-sterling-1000.webp 1000w",
+        "width": 1000,
+        "height": 750
+      },
+      "mask": "/media/products/color-previews/norandex-sterling-mask.svg",
+      "brightness": 2.263,
+      "sourceUrl": "https://api.renoworks.com/v1/project/b7e506e9-1a26-4d54-9ffc-b505503b8b8a?site=alside&xml=true",
+      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Progressions panel profile and finish may differ. Confirm a physical sample."
+    },
+    "hero": {
+      "src": "/media/products/ply-gem/progressions-home-1022.webp",
+      "srcset": "/media/products/ply-gem/progressions-home-320.webp 320w, /media/products/ply-gem/progressions-home-640.webp 640w, /media/products/ply-gem/progressions-home-960.webp 960w, /media/products/ply-gem/progressions-home-1022.webp 1022w",
+      "width": 1022,
+      "height": 686,
+      "alt": "Ply Gem Progressions manufacturer catalog photograph",
+      "caption": "Ply Gem manufacturer catalog photography · Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Lap siding",
+        "specLabel": "Panel profiles"
+      },
+      {
+        "label": "Finish",
+        "value": "20 color references",
+        "specLabel": "Color choices"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited lifetime",
+        "specLabel": "Manufacturer coverage"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material for Progressions",
+        "body": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Profile": {
+        "title": "Profile for Progressions",
+        "body": "Double 4 and Double 5 in. traditional lap; Double 4½ and Double 5 in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Finish": {
+        "title": "Color and profile selection",
+        "body": "20 published family color references The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Warranty": {
+        "title": "Manufacturer coverage",
+        "body": "Limited lifetime warranty Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      }
+    },
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel profiles",
+        "value": "Double 4 and Double 5 in. traditional lap; Double 4½ and Double 5 in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Nominal thickness",
+        "value": ".042 in. nominal",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Profile height",
+        "value": "½ in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel length",
+        "value": "Profile-dependent: 12 ft, 12 ft 1 in. or 12 ft 6 in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Color choices",
+        "value": "20 published family color references",
+        "note": "The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Accessories",
+        "value": "Lap-siding starter strips, corner posts and finishing trim",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Manufacturer coverage",
+        "value": "Limited lifetime warranty",
+        "note": "Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      }
+    ],
+    "warrantyUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf",
+    "warrantyLabels": [
+      "Ply Gem Performance Collection limited lifetime coverage, subject to the written terms"
+    ],
+    "warrantyNote": "The vinyl siding warranty defines manufacturing-defect, fade and hail provisions separately, with exclusions and ownership/transfer conditions. Review the exact product and finish terms.",
+    "documents": [
+      {
+        "label": "Ply Gem Performance Collection Full Product Catalog",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Spec Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Installation Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Warranty Information",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      },
+      {
+        "label": "View Progressions manufacturer profile photograph",
+        "url": "/media/products/ply-gem/progressions-profile-400.webp"
+      }
+    ],
+    "colorResources": [
+      {
+        "label": "Ply Gem profile and color matrix",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf",
+        "description": "Family colors are shown here as references. The specification guide lists profile-specific color availability."
+      }
+    ]
+  },
+  "plygem-performance-board-batten": {
+    "id": "plygem-performance-board-batten",
+    "brand": "Ply Gem",
+    "detailPath": "/products/siding/vinyl/ply-gem/performance-board-batten/",
+    "sourceUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+    "checkedAt": "2026-10-29",
+    "defaultColorId": "white",
+    "categoryLabel": "Ply Gem Performance · Vinyl siding",
+    "previewMode": "palette",
+    "previewAlt": "Ply Gem Performance Board + Batten catalog photograph",
+    "colors": [
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "swatchColor": "#c2c8c4",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "swatchColor": "#d9d2bb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "swatchColor": "#fffef9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wicker",
+        "name": "Wicker",
+        "swatchColor": "#c9bca7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "khaki",
+        "name": "Khaki",
+        "swatchColor": "#aaa891",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "nantucket-gray",
+        "name": "Nantucket Gray",
+        "swatchColor": "#9aa098",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "thistle",
+        "name": "Thistle",
+        "swatchColor": "#a0aa9a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "bayou",
+        "name": "Bayou",
+        "swatchColor": "#526e83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "brunswick",
+        "name": "Brunswick",
+        "swatchColor": "#3d4b4f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "canyon",
+        "name": "Canyon",
+        "swatchColor": "#958b75",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "dublin",
+        "name": "Dublin",
+        "swatchColor": "#6e786f",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "granite",
+        "name": "Granite",
+        "swatchColor": "#8b8e8c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "montana-suede",
+        "name": "Montana Suede",
+        "swatchColor": "#7b7462",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "russett-red",
+        "name": "Russett Red",
+        "swatchColor": "#8a544a",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "shadow",
+        "name": "Shadow",
+        "swatchColor": "#59534c",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wedgewood",
+        "name": "Wedgewood",
+        "swatchColor": "#79888e",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "willow",
+        "name": "Willow",
+        "swatchColor": "#828f83",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+        "image": {
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+          "width": 1022,
+          "height": 825
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      }
+    ],
+    "colorPreview": {
+      "mode": "mask",
+      "image": {
+        "src": "/media/products/color-previews/variform-variform-board-and-batten-1200.webp",
+        "srcset": "/media/products/color-previews/variform-variform-board-and-batten-400.webp 400w, /media/products/color-previews/variform-variform-board-and-batten-800.webp 800w, /media/products/color-previews/variform-variform-board-and-batten-1200.webp 1200w",
+        "width": 1200,
+        "height": 800
+      },
+      "mask": "/media/products/color-previews/variform-variform-board-and-batten-mask.svg",
+      "brightness": 2.032,
+      "sourceUrl": "https://api.renoworks.com/v1/project/22cb8f8a-4a41-48f8-8d10-4b916291fb75?site=variform&xml=true",
+      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Performance Board + Batten panel profile and finish may differ. Confirm a physical sample."
+    },
+    "hero": {
+      "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+      "srcset": "/media/products/ply-gem/performance-board-batten-home-320.webp 320w, /media/products/ply-gem/performance-board-batten-home-640.webp 640w, /media/products/ply-gem/performance-board-batten-home-960.webp 960w, /media/products/ply-gem/performance-board-batten-home-1022.webp 1022w",
+      "width": 1022,
+      "height": 825,
+      "alt": "Ply Gem Performance Board + Batten manufacturer catalog photograph",
+      "caption": "Ply Gem manufacturer catalog photography · Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical siding",
+        "specLabel": "Panel profiles"
+      },
+      {
+        "label": "Finish",
+        "value": "17 color references",
+        "specLabel": "Color choices"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited lifetime",
+        "specLabel": "Manufacturer coverage"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material for Performance Board + Batten",
+        "body": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Profile": {
+        "title": "Profile for Performance Board + Batten",
+        "body": "5½ in. board with 1½ in. batten",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Finish": {
+        "title": "Color and profile selection",
+        "body": "17 published family color references The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Warranty": {
+        "title": "Manufacturer coverage",
+        "body": "Limited lifetime warranty Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      }
+    },
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel profiles",
+        "value": "5½ in. board with 1½ in. batten",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Nominal thickness",
+        "value": ".048 in. nominal",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Profile height",
+        "value": "9⁄16 in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel length",
+        "value": "10 ft",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Color choices",
+        "value": "17 published family color references",
+        "note": "The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Accessories",
+        "value": "Vertical starting channels, corners and opening trim",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Manufacturer coverage",
+        "value": "Limited lifetime warranty",
+        "note": "Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      }
+    ],
+    "warrantyUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf",
+    "warrantyLabels": [
+      "Ply Gem Performance Collection limited lifetime coverage, subject to the written terms"
+    ],
+    "warrantyNote": "The vinyl siding warranty defines manufacturing-defect, fade and hail provisions separately, with exclusions and ownership/transfer conditions. Review the exact product and finish terms.",
+    "documents": [
+      {
+        "label": "Ply Gem Performance Collection Full Product Catalog",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Spec Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Installation Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Warranty Information",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      },
+      {
+        "label": "View Performance Board + Batten manufacturer profile photograph",
+        "url": "/media/products/ply-gem/performance-board-batten-profile-480.webp"
+      }
+    ],
+    "colorResources": [
+      {
+        "label": "Ply Gem profile and color matrix",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf",
+        "description": "Family colors are shown here as references. The specification guide lists profile-specific color availability."
+      }
+    ]
+  },
+  "plygem-transformations": {
+    "id": "plygem-transformations",
+    "brand": "Ply Gem",
+    "detailPath": "/products/siding/vinyl/ply-gem/transformations/",
+    "sourceUrl": "https://www.plygem.com/siding/collections/transformations/",
+    "checkedAt": "2026-10-29",
+    "defaultColorId": "white",
+    "categoryLabel": "Ply Gem Performance · Vinyl siding",
+    "previewMode": "palette",
+    "previewAlt": "Ply Gem Transformations catalog photograph",
+    "colors": [
+      {
+        "id": "almond",
+        "name": "Almond",
+        "swatchColor": "#e7e2cb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "ivory",
+        "name": "Ivory",
+        "swatchColor": "#fff6de",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "swatchColor": "#bbc2aa",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "pewter",
+        "name": "Pewter",
+        "swatchColor": "#c2c8c4",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "sand",
+        "name": "Sand",
+        "swatchColor": "#d9d2bb",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "stone-gray",
+        "name": "Stone Gray",
+        "swatchColor": "#ccd0c7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "swatchColor": "#fffef9",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "wicker",
+        "name": "Wicker",
+        "swatchColor": "#c9bca7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "khaki",
+        "name": "Khaki",
+        "swatchColor": "#aaa891",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      },
+      {
+        "id": "slate-blue",
+        "name": "Slate Blue",
+        "swatchColor": "#a1b4b7",
+        "sourceImageUrl": "https://www.plygem.com/siding/collections/transformations/",
+        "image": {
+          "src": "/media/products/ply-gem/transformations-home-1024.webp",
+          "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+          "width": 1024,
+          "height": 687
+        },
+        "swatch": "",
+        "availabilityNote": "This color belongs to the collection palette. Availability varies by panel profile; confirm the exact profile and a physical sample."
+      }
+    ],
+    "colorPreview": {
+      "mode": "mask",
+      "image": {
+        "src": "/media/products/color-previews/norandex-cambridge-beaded-1000.webp",
+        "srcset": "/media/products/color-previews/norandex-cambridge-beaded-400.webp 400w, /media/products/color-previews/norandex-cambridge-beaded-800.webp 800w, /media/products/color-previews/norandex-cambridge-beaded-1000.webp 1000w",
+        "width": 1000,
+        "height": 750
+      },
+      "mask": "/media/products/color-previews/norandex-cambridge-beaded-mask.svg",
+      "brightness": 2.109,
+      "sourceUrl": "https://api.renoworks.com/v1/project/d7d555a2-f487-4a10-b022-a1b2ff0143fd?site=alside&xml=true",
+      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Transformations panel profile and finish may differ. Confirm a physical sample."
+    },
+    "hero": {
+      "src": "/media/products/ply-gem/transformations-home-1024.webp",
+      "srcset": "/media/products/ply-gem/transformations-home-320.webp 320w, /media/products/ply-gem/transformations-home-640.webp 640w, /media/products/ply-gem/transformations-home-960.webp 960w, /media/products/ply-gem/transformations-home-1024.webp 1024w",
+      "width": 1024,
+      "height": 687,
+      "alt": "Ply Gem Transformations manufacturer catalog photograph",
+      "caption": "Ply Gem manufacturer catalog photography · Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Lap siding",
+        "specLabel": "Panel profiles"
+      },
+      {
+        "label": "Finish",
+        "value": "10 color references",
+        "specLabel": "Color choices"
+      },
+      {
+        "label": "Warranty",
+        "value": "Limited lifetime",
+        "specLabel": "Manufacturer coverage"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material for Transformations",
+        "body": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Profile": {
+        "title": "Profile for Transformations",
+        "body": "Double 4 and Double 5 in. traditional lap; Double 4½ in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Finish": {
+        "title": "Color and profile selection",
+        "body": "10 published family color references The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      "Warranty": {
+        "title": "Manufacturer coverage",
+        "body": "Limited lifetime warranty Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      }
+    },
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Vinyl (PVC)",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel profiles",
+        "value": "Double 4 and Double 5 in. traditional lap; Double 4½ in. Dutch lap",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Nominal thickness",
+        "value": ".040 in. nominal",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Profile height",
+        "value": "½ in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Panel length",
+        "value": "Profile-dependent: 12 ft, 12 ft 1 in. or 12 ft 6 in.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Color choices",
+        "value": "10 published family color references",
+        "note": "The manufacturer’s profile/color matrix determines which combinations are available.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Accessories",
+        "value": "Lap-siding starter strips, corner posts and finishing trim",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Manufacturer coverage",
+        "value": "Limited lifetime warranty",
+        "note": "Coverage and transfer conditions are defined in the applicable written warranty; this is not a promised service life.",
+        "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      }
+    ],
+    "warrantyUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf",
+    "warrantyLabels": [
+      "Ply Gem Performance Collection limited lifetime coverage, subject to the written terms"
+    ],
+    "warrantyNote": "The vinyl siding warranty defines manufacturing-defect, fade and hail provisions separately, with exclusions and ownership/transfer conditions. Review the exact product and finish terms.",
+    "documents": [
+      {
+        "label": "Ply Gem Performance Collection Full Product Catalog",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Spec Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Installation Guide",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+      },
+      {
+        "label": "Ply Gem Performance Collection Warranty Information",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+      },
+      {
+        "label": "View Transformations manufacturer profile photograph",
+        "url": "/media/products/ply-gem/transformations-profile-400.webp"
+      }
+    ],
+    "colorResources": [
+      {
+        "label": "Ply Gem profile and color matrix",
+        "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf",
+        "description": "Family colors are shown here as references. The specification guide lists profile-specific color availability."
+      }
+    ]
+  }
+}

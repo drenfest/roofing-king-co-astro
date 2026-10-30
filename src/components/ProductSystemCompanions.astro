@@ -1,0 +1,25 @@
+---
+import {productCompanions} from '../data/product-system-companions';
+import parents from '../data/product-parents.json';
+import productDetails from '../data/product-details.json';
+import {productLibrary} from '../data/product-library';
+import SystemComponentDiagram from './SystemComponentDiagram.astro';
+import AccessoryBenefitDiagram from './AccessoryBenefitDiagram.astro';
+interface Props {productId:string;}
+const {productId}=Astro.props;const set=productCompanions(productId);
+const children=Object.entries(parents).filter(([,parent])=>parent===productId).map(([id])=>({product:productLibrary[id],detail:Object.values(productDetails).find(d=>d.key===id)}));
+const roofKinds=['starter','underlayment','leak-barrier','ridge-cap','ventilation'];
+---
+{set&&<section class="rk-product-companions rk-system-companions" data-component="ProductCompanions" aria-labelledby="companion-system-title">
+ <div class="rk-section-inner"><p class="rk-home-eyebrow">{set.brand} · complete the system</p><h3 id="companion-system-title">{set.brand==='LeafFilter'?'Inside the LeafFilter system':'Companion products and system components'}</h3><p class="rk-product-companions-intro">{set.intro}</p>
+ <>{children.length>0&&<nav class="rk-companion-pages" aria-label="Companion product pages"><h4>Explore companion product pages</h4><ul>{children.map(({product,detail})=><li><a href={product.detailPath} title={'Explore '+detail?.title}>{detail?.title} <span aria-hidden="true">→</span></a></li>)}</ul></nav>}</><div class="rk-companion-grid">{set.items.filter(item=>item.relatedProduct!==productId).map(item=>{const related=item.relatedProduct?productLibrary[item.relatedProduct]:undefined;const image=item.image||(related?.hero?related.hero:undefined);const href=related?.detailPath;return <article class="rk-companion-card" data-companion={item.id} data-companion-brand={related?.brand||((!['flashing','barrier'].includes(item.id)&&set.brand!=='Alu-Rex')?set.brand:undefined)} data-companion-type={related||item.image?'Product':'Thing'}>
+ {image?<figure class="rk-accessory-photo"><img src={image.src} srcset={image.srcset} sizes="(max-width:760px) 90vw, 380px" width={image.width} height={image.height} alt={image.alt||item.name+' manufacturer product photo'} loading="lazy" decoding="async"/><figcaption>Manufacturer product imagery · {set.brand}</figcaption></figure>:roofKinds.includes(item.diagram)?<AccessoryBenefitDiagram id={item.diagram} name={item.name} caption={item.benefit}/>:<SystemComponentDiagram id={productId+'-'+item.id} kind={item.diagram} name={item.name}/>}
+ <h4>{item.name}</h4><p class="rk-companion-location"><strong>Where it works:</strong> {item.location}</p><p>{item.benefit}</p><details><summary>Choosing it for your project</summary><p>{item.selection}</p></details>
+ {href&&<a class="rk-companion-internal" href={href} title={'Explore '+item.name}>Explore this product →</a>}
+ <a href={item.sourceUrl} title={set.brand+' information for '+item.name} target="_blank" rel="noopener noreferrer">{set.brand} product reference ↗</a>
+ </article>;})}</div><div class="rk-companion-notes"><h4>Plan the connections together</h4><p>{set.notes}</p></div></div>
+</section>}
+
+<style>
+.rk-companion-pages{margin:1.5rem 0 2rem}.rk-companion-pages ul{display:flex;flex-wrap:wrap;gap:.65rem 1.5rem;list-style:none;padding:0}.rk-companion-pages a{display:inline-flex;gap:.65rem;align-items:center;font-size:.9rem;text-underline-offset:.25em}
+</style>

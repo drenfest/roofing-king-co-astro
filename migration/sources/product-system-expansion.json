@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-10-29",
+  "records": [
+    {
+      "id": "trex-signature-aluminum-railing",
+      "title": "Trex Signature aluminum railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-vert-bk-outline-BK36RODHVERTK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum",
+      "profile": "Vertical balusters",
+      "body": "A slender aluminum frame and vertical balusters keep the perimeter visually light. Compare post positions and stair transitions alongside the rail finish so the entire run reads as one system."
+    },
+    {
+      "id": "trex-signature-glass-railing",
+      "title": "Trex Signature glass railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-glass-bk-outline-BKA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum frame with glass infill",
+      "profile": "Framed glass",
+      "body": "Glass infill opens sightlines while the surrounding aluminum frame defines each section. Panel sizing, support and stair details need to be planned together; glass is a distinct infill choice, not a substitute inserted into an unrelated rail kit."
+    },
+    {
+      "id": "trex-signature-mesh-railing",
+      "title": "Trex Signature mesh railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-mesh-bk-outline-BKA0636PNLHRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum frame with mesh infill",
+      "profile": "Mesh panels",
+      "body": "Mesh infill gives the deck a more architectural, industrial appearance. The perimeter frame remains part of the design, with dedicated infill and mounting components selected for level and stair sections."
+    },
+    {
+      "id": "trex-signature-rod-railing",
+      "title": "Trex Signature Rod Rail",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-rod-rail-bk-outline-BKBKROD0636HRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum railing system",
+      "profile": "Horizontal rods",
+      "body": "Horizontal rods create long visual lines across the deck edge. Rail sections, posts and stair components must be selected as the Rod Rail assembly rather than mixed with cable or vertical-baluster parts."
+    },
+    {
+      "id": "trex-signature-x-series-cable-railing",
+      "title": "Trex Signature X-Series cable railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-cable-railing-hz-sd-outline-BKAX0636CBLHRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum post system with cable infill",
+      "profile": "Cable",
+      "body": "Cable infill offers an open view with narrow horizontal lines. End conditions, cable connections and the supporting posts are central to the system, so the layout should be resolved before deck boards and post locations are finalized."
+    },
+    {
+      "id": "trex-signature-x-series-glass-railing",
+      "title": "Trex Signature X-Series frameless glass railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-frameless-glass-railing-hz-sd-outline-SDA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum post system with glass infill",
+      "profile": "Frameless glass",
+      "body": "Frameless glass places the emphasis on the view beyond the deck. The glass panels and supporting X-Series posts work as a specified assembly, with the stair and corner arrangements considered alongside the level runs."
+    },
+    {
+      "id": "trex-transcend-railing",
+      "title": "Trex Transcend composite railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/transcend/",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/trn-railing-square-hz-bk-outline-BK0636HRKFS?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Composite railing system",
+      "profile": "Traditional top rail",
+      "body": "Transcend provides a substantial, traditional rail profile with coordinated posts, caps and infill choices. It suits a deck where the railing is a visible design feature rather than a minimal outline."
+    },
+    {
+      "id": "trex-select-classic-railing",
+      "title": "Trex Select Classic railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/enh-composite-railing-hz-wt-outline-WTRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Composite rails with aluminum balusters",
+      "profile": "Classic",
+      "body": "Select Classic combines familiar rail proportions with metal balusters. Review the rail and post colors as an assembly, including the stair sections, rather than choosing parts from photographs of different configurations."
+    },
+    {
+      "id": "trex-select-t-rail",
+      "title": "Trex Select T-Rail",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sel-t-rail-alum-railing-rd-hz-wt-outline-WTRD0636HSELTRK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Composite rails with aluminum or composite balusters",
+      "profile": "T-shaped top rail",
+      "body": "The T-shaped top rail gives this Select option a distinct hand profile. Its rails, reinforcement and balusters are a specific configuration; the connections should be reviewed with the posts and stair layout."
+    },
+    {
+      "id": "trex-select-aluminum-railing",
+      "title": "Trex Select aluminum railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sel-alum-railing-hz-bk-outline-BKSALSQ842HPNL?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Aluminum",
+      "profile": "Vertical balusters",
+      "body": "Select aluminum railing offers a metal alternative within the Select range. Its slim sections suit a clean perimeter, with matching rail kits, mounting hardware and gates considered as a complete layout."
+    },
+    {
+      "id": "trex-select-mesh-railing",
+      "title": "Trex Select mesh railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sel-mesh-railing-hz-bk-outline-BKMESH06HSELK?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Steel mesh infill with coordinating rail components",
+      "profile": "Mesh panels",
+      "body": "Select mesh changes the look of the infill while retaining a defined perimeter rail. The mesh panels and accessory kits should be matched to their specified rail and post assembly, including separate stair details."
+    },
+    {
+      "id": "trex-enhance-steel-railing",
+      "title": "Trex Enhance steel railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/enh-steel-railing-hz-bk-outline-BKSTLSQ0842HENPNL?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Steel",
+      "profile": "Vertical balusters",
+      "body": "Enhance steel railing provides a simple metal perimeter with a more open view than broad solid rails. Consider its finish, mounting hardware and stair kits together when comparing it with the composite Enhance option."
+    },
+    {
+      "id": "trex-enhance-composite-railing",
+      "title": "Trex Enhance composite railing",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sku-enh-composite-railing-hz-bk-outline-BKRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+      "kind": "railing",
+      "material": "Composite railing system",
+      "profile": "Traditional rail",
+      "body": "Enhance composite railing uses a traditional top-and-bottom rail arrangement. It is a separate choice from Enhance steel railing, with its own rails, post sleeves and installation components."
+    },
+    {
+      "id": "trex-fascia",
+      "title": "Trex Fascia boards",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/decking/fascia/",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/enh-missouri-044-rh-enh-railing-wt-fascia-railing-section:Article-Image-Main",
+      "kind": "fascia",
+      "material": "Composite fascia",
+      "profile": "Perimeter finishing boards",
+      "body": "Fascia covers the deck rim and gives stair edges a finished appearance. It is a vertical finishing board, not the structural rim joist or a substitute for walking-surface decking. Dedicated fascia fasteners accommodate movement without treating the board like a deck plank."
+    },
+    {
+      "id": "trex-hideaway-fasteners",
+      "title": "Trex Hideaway fasteners and tools",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/fasteners-tools/",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sku-hiddenfastener-wood:Media-Carousel",
+      "kind": "hideaway-fasteners",
+      "material": "Fastening system",
+      "profile": "Clips, screws and plugs",
+      "body": "Hideaway includes fastening choices for grooved decking, face-fastened boards and fascia. Hidden clips attach at the board edges; screws and plugs address other locations. Selecting the fastener by board profile and application avoids using a fascia connection in the walking surface."
+    },
+    {
+      "id": "trex-deck-lighting",
+      "title": "Trex DeckLighting",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/deck-lighting/",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/sel-cgi-0008-ms-decking-fascia-bk-alum-railing-beauty-lighting-MS010612S2S64.jpg:Large",
+      "kind": "deck-lighting",
+      "material": "Outdoor lighting system",
+      "profile": "Post, rail and stair lighting",
+      "body": "Deck lighting helps define steps, railings and the edges of outdoor living areas after dark. Plan fixture locations, wiring access and the power supply before enclosing posts or finishing the underside of the deck."
+    },
+    {
+      "id": "trex-rainescape",
+      "title": "Trex RainEscape under-deck drainage",
+      "brand": "Trex",
+      "sourceUrl": "https://www.trex.com/products/rainescape/",
+      "imageUrl": "https://images.trex.com/is/image/trexcompany/rainescape-ciprianni-002-under-deck-stairs-swing-warmth:Article-Image-Main",
+      "kind": "rainescape",
+      "material": "Under-deck drainage system",
+      "profile": "Troughs and downspouts",
+      "body": "RainEscape collects water below the deck boards and directs it away through troughs and downspouts. It is most useful when you want to use the space under an elevated deck. Drainage routing and access need to be resolved before the walking surface is installed."
+    },
+    {
+      "id": "leaffilter-gutter-protection",
+      "title": "LeafFilter gutter protection",
+      "brand": "LeafFilter",
+      "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+      "imageUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-desktop-hero-LeafFilter-assembly-process-1680x583.webp",
+      "kind": "guard",
+      "material": "Stainless-steel micromesh with uPVC frame",
+      "profile": "Three-part gutter protection system",
+      "body": "LeafFilter combines a fine stainless-steel screen, a supporting uPVC frame and internal structural hangers. The screen helps separate debris from water at the gutter opening. Existing gutters still need sound attachments, suitable outlets and a clear discharge route; a screen cannot correct a deteriorated gutter or failed fascia."
+    }
+  ]
+}

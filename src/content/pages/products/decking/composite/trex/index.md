@@ -1,8 +1,10 @@
 ---
 title: Trex Composite Decking
 permalink: /products/decking/composite/trex/
-description: Explore Trex composite decking, design choices and installation
-  planning with Roof King.
+description: Compare Trex decking families by board material, grain, color,
+  fastening profile and product-specific residential coverage. Heat-mitigating
+  technology applies to designated products and colors; every deck can become
+  hot in direct sun. Explore product details with Roof King.
 canonicalPath: /products/decking/composite/trex/
 category: Product brand
 source: authored-product-pillar
@@ -10,8 +12,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

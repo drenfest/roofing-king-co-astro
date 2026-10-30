@@ -1,0 +1,11 @@
+---
+import ComparisonSection from './ComparisonSection.astro';
+import comparisons from '../data/service-comparisons.json';
+interface Props {path:string;}
+const {path}=Astro.props;
+const selection=(comparisons.pages as Record<string,{pairId:string;title?:string}>)[path];
+if(!selection)throw new Error('Missing service comparison: '+path);
+const pair=comparisons.pairs[selection.pairId as keyof typeof comparisons.pairs];
+const comparison={...pair,title:selection.title||pair.title};
+---
+<div data-service-comparison={selection.pairId}><ComparisonSection {comparison} id="service-before-after" showAction={false} square/></div>

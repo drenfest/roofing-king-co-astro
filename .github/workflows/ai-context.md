@@ -1,19 +1,24 @@
-# .github/workflows
+# Workflows: validation and authorized review deployment
 
-verify.yml installs pinned dependencies and runs the complete URL-preservation build on pushes and pull requests.
+verify.yml installs pinned dependencies with Node 24 and runs npm run verify on pushes and pull requests. The package script is the authoritative complete gate, including current context/schema/content/media/route checks.
 
-## Files
+deploy-cloudways.yml runs on main pushes or explicit dispatch, uses the cloudways-review environment, verifies the build, packages dist and performs the authorized review-app deployment/smoke check. A documentation-only main push can still trigger deployment. A green build does not prove the correct revision reached the server; inspect the workflow, release.json and actual public pages/assets.
 
-- `verify.yml`
+Read migration/cloudways-deployment.md for target, pinned SSH identity, backup/recovery and smoke-test requirements. Do not put secret values in workflow files or maps. Do not infer permission to push/deploy or change production DNS/indexing, test email or account access from a local content or documentation task. Preserve review crawl restrictions and disconnected custom forms until separately requested implementations are verified.
 
-## Subdirectories
+<!-- directory-inventory:start -->
+## Directory inventory
 
-- None.
+Parent guidance: [.github](../ai-context.md).
 
-## Change checks
+### Direct files
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+- [deploy-cloudways.yml](deploy-cloudways.yml)
+- [verify.yml](verify.yml)
 
-deploy-cloudways.yml verifies and packages dist on main pushes/manual dispatch, deploys over pinned application SSH, and smoke-tests the review site. GitHub billing is resolved. Deployment run 39519928064 successfully verified and deployed main; public smoke checks passed.
+### Child directories
 
-The deployment writes public release.json containing only GITHUB_SHA, then validates that exact live commit and every canonical sitemap page against the CI build, including structured data/components, sitemap, essential assets and review protections.
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

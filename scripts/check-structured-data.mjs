@@ -9,7 +9,7 @@ const hasType=(node,type)=>types(node).includes(type);
 const clean=value=>(value||'').replace(/\s+/g,' ').trim();
 const totals={},pages=new Map();let count=0;
 const forbidden=new Set(['Review','AggregateRating','JobPosting','LoanOrCredit','SearchAction','HowTo']);
-const known=new Set(['RoofingContractor','PostalAddress','ContactPoint','ImageObject','WebSite','WebPage','AboutPage','ContactPage','CollectionPage','FAQPage','ImageGallery','ItemPage','Service','Product','Brand','PropertyValue','Organization','Person','BlogPosting','Blog','BreadcrumbList','ListItem','ItemList','WebPageElement','SiteNavigationElement','Question','Answer','State','City','Place','Map']);
+const known=new Set(['Table','DigitalDocument','QuantitativeValue','Thing','RoofingContractor','PostalAddress','ContactPoint','ImageObject','WebSite','WebPage','AboutPage','ContactPage','CollectionPage','FAQPage','ImageGallery','ItemPage','Service','Product','Brand','PropertyValue','Organization','Person','BlogPosting','Blog','BreadcrumbList','ListItem','ItemList','WebPageElement','SiteNavigationElement','Question','Answer','State','City','Place','Map']);
 for(const file of await htmlFiles('dist')){
  const html=await fs.readFile(file,'utf8'),$=load(html),scripts=$('script[data-site-schema]');
  const eligible=$('link[rel=canonical]').length&&new URL($('link[rel=canonical]').attr('href')).pathname===schemaPathname(file)&&$('main').length&&!$('meta[http-equiv]').toArray().some(el=>/refresh/i.test($(el).attr('http-equiv')||''));
@@ -40,6 +40,16 @@ for(const file of await htmlFiles('dist')){
  });
  const faqs=graph.filter(node=>hasType(node,'FAQPage'));assert.equal(faqs.length,visibleQuestions.size?1:0,file);
  if(faqs.length){assert.equal(faqs[0].mainEntity.length,visibleQuestions.size,file);for(const q of faqs[0].mainEntity)assert.ok(visibleQuestions.has(q.name+'\n'+q.acceptedAnswer.text),file);}
+ // Every new component must point to actual visible content and canonical entities.
+ const cards=$('main article[data-product]');
+ if($('main .rk-service-product-grid').length&&!$('main article.rk-product-card-detail').length){assert.ok(hasType(page,'CollectionPage'),file);assert.ok(hasType(nodes.get(page.mainEntity['@id']),'ItemList'),file);assert.ok(!nodes.has(canonical+'#product'),'No invented primary product for a collection: '+file);}
+ for(const card of cards.toArray()){const element=$(card),href=element.find('.rk-product-detail-link').attr('href')||canonical;const id=new URL(href,canonical).href+'#product',product=nodes.get(id);assert.ok(product&&hasType(product,'Product'),file);const colors=[...new Set(element.find('.rk-product-swatches a[title]').toArray().map(el=>clean($(el).attr('title'))).filter(Boolean))];if(colors.length)assert.deepEqual(product.color,colors,file);const material=product.additionalProperty?.find(spec=>spec.name.toLowerCase()==='material');if(material)assert.equal(product.material,material.value,file);}
+ const parent=$('main [data-product-parent] a[href]').attr('href');if(parent)assert.equal(nodes.get(canonical+'#product').isAccessoryOrSparePartFor['@id'],new URL(parent,canonical).href+'#product',file);
+ for(const anchor of $('main [data-companion] a.rk-companion-internal[href]').toArray()){const href=new URL($(anchor).attr('href'),canonical).href;assert.ok(nodes.has(href+'#product'),'Canonical companion identity: '+file);}
+ if($('main .rk-before-after-block').length)assert.ok(nodes.has(canonical+'#before-after-comparison'),file);
+ const comparison=$('main [data-service-comparison]');if(comparison.length){const node=nodes.get(canonical+'#before-after-comparison');assert.ok(hasType(node,'WebPageElement'),file);assert.equal(node.name,clean(comparison.find('h2').text()));assert.equal(node.description,clean(comparison.find('.rk-comparison-caption').text()));assert.equal(node.image.length,2);for(const ref of node.image){const image=nodes.get(ref['@id']);assert.equal(image.creativeWorkStatus,'Illustrative example');assert.equal(image.caption,node.description);assert.equal(image.encodingFormat,'image/webp');assert.ok(image.width.value>0&&image.height.value>0);}}
+ assert.equal(graph.filter(n=>hasType(n,'Table')).length,$('main table').length,file);
+ for(const node of graph.filter(n=>hasType(n,'DigitalDocument'))){assert.equal(node.encodingFormat,'application/pdf');assert.match(node.url,/\.pdf(?:[?#]|$)/i);assert.ok($('main a.rk-product-document').toArray().some(a=>new URL($(a).attr('href'),canonical).href===node.url),'Visible manufacturer document: '+file);}
  pages.set(new URL(canonical).pathname,{graph,nodes,page,$});count++;
 }
 assert.ok(count>=234);
@@ -63,4 +73,4 @@ for(const [path,article]of Object.entries(articles)){
 }
 const payload=serializeSchema({'@context':'https://schema.org',name:'</script><script>alert(1)</script>\u2028'});assert.ok(!payload.includes('<'));assert.equal(JSON.parse(payload).name,'</script><script>alert(1)</script>\u2028');
 await fs.mkdir('tmp/location-review',{recursive:true});await fs.writeFile('tmp/location-review/structured-data-report.json',JSON.stringify({contentPages:count,types:totals},null,2));
-console.log(`${count} content pages: linked graphs, unique entities, canonical IDs, exact visible FAQs, hub membership, article facts, product specifications, service coverage, safe serialization and dev/build idempotency passed.`);
+console.log(`${count} content pages: linked graphs, unique entities, canonical IDs, exact visible FAQs, hub membership, article facts, product specifications, service coverage, component sections, comparison disclosures, canonical companions, accurate collection types, visible PDF documents, safe serialization and dev/build idempotency passed.`);

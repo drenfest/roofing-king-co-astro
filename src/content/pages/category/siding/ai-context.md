@@ -1,15 +1,35 @@
 # src/content/pages/category/siding
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- route-context:start -->
+## Route ownership
 
-- `index.md`
+- Record permalink: `/category/siding/`.
+- Canonical target: `/category/siding/`.
+- Manifest paths using this record: `/category/siding/`.
+- Content family: Category / topic archive hub.
+- Renderer: `src/components/BlogArchive.astro`.
+- Edit visible content in: `src/data/blog-archives.json; src/data/blog-routes.json`.
+- Recorded source: `reconstructed-wordpress-archive`; sourcePath: `/category/siding/`.
 
-## Subdirectories
+This is a hub with shared BlogLayout, filters, article cards and BlogNavigation. Do not render a raw imported archive body or remove its sidebar.
 
-- None.
+Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
+<!-- route-context:end -->
 
-## Change checks
+<!-- directory-inventory:start -->
+## Directory inventory
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Parent guidance: [src/content/pages/category](../ai-context.md).
+
+### Direct files
+
+- [index.md](index.md)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

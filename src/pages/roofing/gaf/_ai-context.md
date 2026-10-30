@@ -1,16 +1,29 @@
 # src/pages/roofing/gaf
 
-Native GAF shingle and certification entry points use ServicePage; product descriptions remain distinct data records. Preserve exact paths and recorded metadata.
+Native Astro routing for this URL branch. Read src/pages/_ai-context.md first. Keep native routes separate from the legacy catchall, preserve explicit permalinks and use the existing layout/data for the page family. This map starts with an underscore so Astro does not publish it as a route.
 
-## Files
+<!-- route-imports:start -->
+## Actual route dependencies
 
-- `master-elite.astro`
-- `types.astro`
+- `master-elite.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
+- `types.astro`: `src/layouts/ServicePage.astro`, `src/data/service-pages.json`, `src/data/section-types`.
 
-## Subdirectories
+This index is derived from current imports. Resolve the entry point before editing data; a physical directory alone does not define the content owner.
+<!-- route-imports:end -->
 
-- None.
+<!-- directory-inventory:start -->
+## Directory inventory
 
-## Change checks
+Parent guidance: [src/pages/roofing](../_ai-context.md).
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+### Direct files
+
+- [master-elite.astro](master-elite.astro)
+- [types.astro](types.astro)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

@@ -1,15 +1,38 @@
 # src/content/pages/products/gutters/guards/alu-rex
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- route-context:start -->
+## Route ownership
 
-- `index.md`
+- Record permalink: `/products/gutters/guards/alu-rex/`.
+- Canonical target: `/products/gutters/guards/alu-rex/`.
+- Manifest paths using this record: `/products/gutters/guards/alu-rex/`.
+- Content family: Product collection / material overview.
+- Renderer: `src/components/ProductHubPage.astro`.
+- Edit visible content in: `src/data/product-pillar.json; src/data/product-hub-heroes.json`.
+- Recorded source: `authored-product-pillar`; sourcePath: `src/data/product-pillar.json`.
 
-## Subdirectories
+Edit the existing hub entry for this exact URL. Category cards and catalogItems are separate from product detail records. Reuse ProductGrid/ProductCard; do not reintroduce generic buying-consideration filler.
 
-- None.
+Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
+<!-- route-context:end -->
 
-## Change checks
+<!-- directory-inventory:start -->
+## Directory inventory
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Parent guidance: [src/content/pages/products/gutters/guards](../ai-context.md).
+
+### Direct files
+
+- [index.md](index.md)
+
+### Child directories
+
+- [doublepro/](doublepro/ai-context.md)
+- [gutter-clean/](gutter-clean/ai-context.md)
+- [guttercleanpro/](guttercleanpro/ai-context.md)
+- [t-rex/](t-rex/ai-context.md)
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

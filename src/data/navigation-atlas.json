@@ -1,12 +1,12 @@
 {
-  "src": "/media/navigation/menu-thumbnails-55fa70aca6c7.webp",
-  "width": 2304,
-  "height": 2112,
+  "src": "/media/navigation/menu-thumbnails-967fcc1743bc.webp",
+  "width": 2880,
+  "height": 2688,
   "tileSize": 192,
-  "columns": 12,
-  "rows": 11,
-  "bytes": 661950,
-  "quality": 58,
+  "columns": 15,
+  "rows": 14,
+  "bytes": 660448,
+  "quality": 34,
   "items": {
     "/#services": {
       "column": 0,
@@ -69,564 +69,929 @@
       "illustrative": true
     },
     "/commercial-roofing/roof-types/": {
-      "column": 0,
-      "row": 1,
+      "column": 12,
+      "row": 0,
       "illustrative": true
     },
     "/commercial-roofing/gutters/": {
-      "column": 1,
-      "row": 1,
+      "column": 13,
+      "row": 0,
       "illustrative": true
     },
     "/commercial-siding/": {
-      "column": 2,
-      "row": 1,
+      "column": 14,
+      "row": 0,
       "illustrative": true
     },
     "/storm-damage/commercial/": {
-      "column": 3,
+      "column": 0,
       "row": 1,
       "illustrative": true
     },
     "/storm-damage/": {
-      "column": 4,
+      "column": 1,
       "row": 1,
       "illustrative": true
     },
     "/storm-damage/hail/": {
-      "column": 5,
+      "column": 2,
       "row": 1,
       "illustrative": true
     },
     "/storm-damage/wind/": {
-      "column": 6,
+      "column": 3,
       "row": 1,
       "illustrative": true
     },
     "/storm-damage/insurance-claims/": {
-      "column": 7,
+      "column": 4,
       "row": 1,
       "illustrative": true
     },
     "/decks/": {
-      "column": 8,
+      "column": 5,
       "row": 1,
       "illustrative": true
     },
     "/decks/replacements/": {
-      "column": 9,
+      "column": 6,
       "row": 1,
       "illustrative": true
     },
     "/decks/installations/": {
-      "column": 10,
+      "column": 7,
       "row": 1,
       "illustrative": true
     },
     "/decks/repairs/": {
-      "column": 11,
+      "column": 8,
       "row": 1,
       "illustrative": true
     },
     "/decks/refinishing/": {
-      "column": 0,
-      "row": 2,
+      "column": 9,
+      "row": 1,
       "illustrative": true
     },
     "/decks/accessories/": {
-      "column": 1,
-      "row": 2,
+      "column": 10,
+      "row": 1,
       "illustrative": true
     },
     "/deck-visualizer/": {
-      "column": 2,
-      "row": 2,
+      "column": 11,
+      "row": 1,
       "illustrative": false
     },
     "/siding/": {
-      "column": 3,
-      "row": 2,
+      "column": 12,
+      "row": 1,
       "illustrative": true
     },
     "/siding/replacement/": {
-      "column": 4,
-      "row": 2,
+      "column": 13,
+      "row": 1,
       "illustrative": true
     },
     "/siding/types/": {
-      "column": 5,
-      "row": 2,
+      "column": 14,
+      "row": 1,
       "illustrative": true
     },
     "/cincinnati-oh/the-cost-of-siding-replacement/": {
-      "column": 6,
+      "column": 0,
       "row": 2,
       "illustrative": true
     },
     "/gutters/": {
-      "column": 7,
+      "column": 1,
       "row": 2,
       "illustrative": true
     },
     "/gutters/guards/": {
-      "column": 8,
+      "column": 2,
       "row": 2,
       "illustrative": true
     },
     "/gutters/seamless/": {
-      "column": 9,
+      "column": 3,
       "row": 2,
       "illustrative": true
     },
     "/gutter-installation-dublin-oh/": {
-      "column": 10,
+      "column": 4,
       "row": 2,
       "illustrative": true
     },
     "/dayton-oh/the-cost-of-new-gutters/": {
-      "column": 11,
+      "column": 5,
       "row": 2,
       "illustrative": true
     },
     "/windows/": {
-      "column": 0,
-      "row": 3,
+      "column": 6,
+      "row": 2,
       "illustrative": true
     },
     "/attic-insulation/": {
-      "column": 1,
-      "row": 3,
+      "column": 7,
+      "row": 2,
       "illustrative": true
     },
     "/ice-dam-removal/": {
-      "column": 2,
-      "row": 3,
+      "column": 8,
+      "row": 2,
       "illustrative": true
     },
     "/products/": {
+      "column": 9,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/": {
+      "column": 10,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/": {
+      "column": 11,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/": {
+      "column": 12,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/trudefinition-duration/": {
+      "column": 13,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/trudefinition-duration-designer/": {
+      "column": 14,
+      "row": 2,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/trudefinition-duration-flex/": {
+      "column": 0,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/trudefinition-duration-storm/": {
+      "column": 1,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/owens-corning/oakridge/": {
+      "column": 2,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/": {
       "column": 3,
       "row": 3,
       "illustrative": false
     },
-    "/products/roofing/": {
+    "/products/roofing/shingles/iko/dynasty/": {
       "column": 4,
       "row": 3,
       "illustrative": false
     },
-    "/products/roofing/shingles/": {
+    "/products/roofing/shingles/iko/nordic/": {
       "column": 5,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/dynasty-cool-plus/": {
+      "column": 6,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/armourshake/": {
+      "column": 7,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/royal-estate/": {
+      "column": 8,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/crowne-slate-designer-shingles/": {
+      "column": 9,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/cambridge/": {
+      "column": 10,
+      "row": 3,
+      "illustrative": false
+    },
+    "/products/roofing/shingles/iko/cambridge-cool-colors/": {
+      "column": 11,
       "row": 3,
       "illustrative": false
     },
     "/roofing/gaf/types/": {
-      "column": 6,
+      "column": 12,
       "row": 3,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/timberline-hdz/": {
-      "column": 7,
+      "column": 13,
       "row": 3,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/timberline-uhdz/": {
-      "column": 8,
+      "column": 14,
       "row": 3,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/timberline-ns/": {
-      "column": 9,
-      "row": 3,
+      "column": 0,
+      "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/timberline-as-ii/": {
-      "column": 10,
-      "row": 3,
+      "column": 1,
+      "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/timberline-hdz-rs/": {
-      "column": 11,
-      "row": 3,
+      "column": 2,
+      "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/camelot-ii/": {
-      "column": 0,
+      "column": 3,
       "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/woodland/": {
-      "column": 1,
+      "column": 4,
       "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/grand-sequoia/": {
-      "column": 2,
+      "column": 5,
       "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/grand-sequoia-rs/": {
-      "column": 3,
+      "column": 6,
       "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/grand-sequoia-as/": {
-      "column": 4,
+      "column": 7,
       "row": 4,
       "illustrative": false
     },
     "/products/roofing/shingles/gaf/royal-sovereign/": {
-      "column": 5,
+      "column": 8,
       "row": 4,
       "illustrative": false
     },
     "/products/siding/": {
-      "column": 6,
+      "column": 9,
       "row": 4,
       "illustrative": false
     },
     "/products/siding/vinyl/": {
-      "column": 7,
+      "column": 10,
       "row": 4,
       "illustrative": true
     },
     "/products/siding/vinyl/variform/": {
-      "column": 8,
+      "column": 11,
       "row": 4,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/heritage-cedar/": {
+      "column": 12,
+      "row": 4,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/vortex-extreme/": {
+      "column": 13,
+      "row": 4,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/variform-board-and-batten/": {
+      "column": 14,
+      "row": 4,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/camden-pointe/": {
+      "column": 0,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/american-herald/": {
+      "column": 1,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/ashton-heights/": {
+      "column": 2,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/contractors-choice/": {
+      "column": 3,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/variform/victoria-harbor/": {
+      "column": 4,
+      "row": 5,
       "illustrative": false
     },
     "/products/siding/vinyl/ply-gem/": {
+      "column": 5,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/ply-gem/cedar-dimensions/": {
+      "column": 6,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/ply-gem/dimensions/": {
+      "column": 7,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/ply-gem/progressions/": {
+      "column": 8,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/ply-gem/performance-board-batten/": {
       "column": 9,
-      "row": 4,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/ply-gem/transformations/": {
+      "column": 10,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/alside/": {
+      "column": 11,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/alside/charter-oak/": {
+      "column": 12,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/alside/odyssey-plus/": {
+      "column": 13,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/": {
+      "column": 14,
+      "row": 5,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/polar-wall-plus/": {
+      "column": 0,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/great-barrier/": {
+      "column": 1,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/sturdiplank-s7/": {
+      "column": 2,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/cedar-knolls/": {
+      "column": 3,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/sterling/": {
+      "column": 4,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/woodsman-select/": {
+      "column": 5,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/summit-manor/": {
+      "column": 6,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/rustic-hill/": {
+      "column": 7,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/home-accents/": {
+      "column": 8,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/cambridge-beaded/": {
+      "column": 9,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/norandex/board-and-batten/": {
+      "column": 10,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/": {
+      "column": 11,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/carolina-sands-vinyl-siding/": {
+      "column": 12,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/board-batten-siding/": {
+      "column": 13,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/premium-pointe-vinyl-siding/": {
+      "column": 14,
+      "row": 6,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/market-square-siding/": {
+      "column": 0,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/parkview-vinyl-siding/": {
+      "column": 1,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/vinyl/exterior-portfolio/elm-grove-vinyl-siding/": {
+      "column": 2,
+      "row": 7,
       "illustrative": false
     },
     "/products/siding/engineered-wood/": {
-      "column": 10,
-      "row": 4,
+      "column": 3,
+      "row": 7,
       "illustrative": true
     },
     "/products/siding/engineered-wood/lp-smartside/": {
-      "column": 11,
-      "row": 4,
+      "column": 4,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/shakes/": {
+      "column": 5,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/lap-siding/": {
+      "column": 6,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/trim-fascia/": {
+      "column": 7,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/soffit/": {
+      "column": 8,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/nickel-gap/": {
+      "column": 9,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/engineered-wood/lp-smartside/panel-vertical-siding/": {
+      "column": 10,
+      "row": 7,
       "illustrative": false
     },
     "/products/siding/fiber-cement/": {
-      "column": 0,
-      "row": 5,
+      "column": 11,
+      "row": 7,
       "illustrative": true
     },
     "/products/siding/fiber-cement/james-hardie/": {
+      "column": 12,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-plank-lap-siding/": {
+      "column": 13,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-trim-batten-boards/": {
+      "column": 14,
+      "row": 7,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-panel-siding/": {
+      "column": 0,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-artisan-siding/": {
       "column": 1,
-      "row": 5,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-shingle-siding/": {
+      "column": 2,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/siding/fiber-cement/james-hardie/hardie-architectural-panel-siding/": {
+      "column": 3,
+      "row": 8,
       "illustrative": false
     },
     "/products/decking/": {
-      "column": 2,
-      "row": 5,
+      "column": 4,
+      "row": 8,
       "illustrative": false
     },
     "/products/decking/composite/": {
-      "column": 3,
-      "row": 5,
+      "column": 5,
+      "row": 8,
       "illustrative": true
     },
     "/products/decking/composite/trex/": {
-      "column": 4,
-      "row": 5,
+      "column": 6,
+      "row": 8,
       "illustrative": false
     },
+    "/products/decking/composite/trex/decking/": {
+      "column": 7,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/decking/composite/trex/railing/": {
+      "column": 8,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/decking/composite/trex/accessories/": {
+      "column": 9,
+      "row": 8,
+      "illustrative": false
+    },
+    "/products/decking/wood/": {
+      "column": 10,
+      "row": 8,
+      "illustrative": true
+    },
+    "/products/decking/wood/cedar/": {
+      "column": 11,
+      "row": 8,
+      "illustrative": true
+    },
+    "/products/decking/wood/pressure-treated/": {
+      "column": 12,
+      "row": 8,
+      "illustrative": true
+    },
     "/products/gutters/": {
-      "column": 5,
-      "row": 5,
+      "column": 13,
+      "row": 8,
       "illustrative": false
     },
     "/products/gutters/guards/": {
-      "column": 6,
-      "row": 5,
+      "column": 14,
+      "row": 8,
       "illustrative": true
     },
     "/products/gutters/guards/alu-rex/": {
-      "column": 7,
-      "row": 5,
+      "column": 0,
+      "row": 9,
+      "illustrative": false
+    },
+    "/products/gutters/guards/alu-rex/doublepro/": {
+      "column": 1,
+      "row": 9,
+      "illustrative": false
+    },
+    "/products/gutters/guards/alu-rex/t-rex/": {
+      "column": 2,
+      "row": 9,
+      "illustrative": false
+    },
+    "/products/gutters/guards/alu-rex/guttercleanpro/": {
+      "column": 3,
+      "row": 9,
+      "illustrative": false
+    },
+    "/products/gutters/guards/alu-rex/gutter-clean/": {
+      "column": 4,
+      "row": 9,
       "illustrative": false
     },
     "/products/gutters/guards/leaffilter/": {
-      "column": 8,
-      "row": 5,
+      "column": 5,
+      "row": 9,
+      "illustrative": false
+    },
+    "/products/gutters/guards/leaffilter/gutter-protection/": {
+      "column": 6,
+      "row": 9,
       "illustrative": false
     },
     "/service-areas/": {
-      "column": 9,
-      "row": 5,
+      "column": 7,
+      "row": 9,
       "illustrative": false
     },
     "/columbus-oh/": {
-      "column": 10,
-      "row": 5,
+      "column": 8,
+      "row": 9,
       "illustrative": true
     },
     "/columbus-oh/roofing/": {
-      "column": 11,
-      "row": 5,
+      "column": 9,
+      "row": 9,
       "illustrative": true
     },
     "/columbus-oh/storm-damage/": {
-      "column": 0,
-      "row": 6,
+      "column": 10,
+      "row": 9,
       "illustrative": true
     },
     "/cincinnati-oh/": {
-      "column": 1,
-      "row": 6,
+      "column": 11,
+      "row": 9,
       "illustrative": true
     },
     "/cincinnati-oh/roofing/": {
-      "column": 2,
-      "row": 6,
+      "column": 12,
+      "row": 9,
       "illustrative": true
     },
     "/cincinnati-oh/storm-damage/": {
-      "column": 3,
-      "row": 6,
+      "column": 13,
+      "row": 9,
       "illustrative": true
     },
     "/cleveland-oh/": {
-      "column": 4,
-      "row": 6,
+      "column": 14,
+      "row": 9,
       "illustrative": true
     },
     "/cleveland-oh/roofing/": {
-      "column": 5,
-      "row": 6,
+      "column": 0,
+      "row": 10,
       "illustrative": true
     },
     "/cleveland-oh/storm-damage/": {
-      "column": 6,
-      "row": 6,
+      "column": 1,
+      "row": 10,
       "illustrative": true
     },
     "/dayton-oh/": {
-      "column": 7,
-      "row": 6,
+      "column": 2,
+      "row": 10,
       "illustrative": true
     },
     "/dayton-oh/roofing/": {
-      "column": 8,
-      "row": 6,
+      "column": 3,
+      "row": 10,
       "illustrative": true
     },
     "/dayton-oh/storm-damage/": {
-      "column": 9,
-      "row": 6,
+      "column": 4,
+      "row": 10,
       "illustrative": true
     },
     "/delaware-oh/": {
-      "column": 10,
-      "row": 6,
+      "column": 5,
+      "row": 10,
       "illustrative": true
     },
     "/delaware-oh/roofing/": {
-      "column": 11,
-      "row": 6,
+      "column": 6,
+      "row": 10,
       "illustrative": true
     },
     "/delaware-oh/storm-damage/": {
-      "column": 0,
-      "row": 7,
+      "column": 7,
+      "row": 10,
       "illustrative": true
     },
     "/akron-oh/": {
-      "column": 1,
-      "row": 7,
+      "column": 8,
+      "row": 10,
       "illustrative": true
     },
     "/dublin-oh/": {
-      "column": 2,
-      "row": 7,
+      "column": 9,
+      "row": 10,
       "illustrative": true
     },
     "/blog/": {
-      "column": 3,
-      "row": 7,
+      "column": 10,
+      "row": 10,
       "illustrative": false
     },
     "/blog/categories/": {
-      "column": 4,
-      "row": 7,
+      "column": 11,
+      "row": 10,
       "illustrative": false
     },
     "/category/roofing/": {
-      "column": 5,
-      "row": 7,
+      "column": 12,
+      "row": 10,
       "illustrative": true
     },
     "/category/roof-replacement/": {
-      "column": 6,
-      "row": 7,
+      "column": 13,
+      "row": 10,
       "illustrative": false
     },
     "/category/storm-damage/": {
-      "column": 7,
-      "row": 7,
+      "column": 14,
+      "row": 10,
       "illustrative": false
     },
     "/category/seasonal/": {
-      "column": 8,
-      "row": 7,
+      "column": 0,
+      "row": 11,
       "illustrative": false
     },
     "/category/roof-repair/": {
-      "column": 9,
-      "row": 7,
+      "column": 1,
+      "row": 11,
       "illustrative": true
     },
     "/category/gutters/": {
-      "column": 10,
-      "row": 7,
+      "column": 2,
+      "row": 11,
       "illustrative": false
     },
     "/category/siding/": {
-      "column": 11,
-      "row": 7,
+      "column": 3,
+      "row": 11,
       "illustrative": false
     },
     "/category/gaf-roofing/": {
-      "column": 0,
-      "row": 8,
+      "column": 4,
+      "row": 11,
       "illustrative": false
     },
     "/category/ice-dam-removal/": {
-      "column": 1,
-      "row": 8,
+      "column": 5,
+      "row": 11,
       "illustrative": false
     },
     "/blog/topics/": {
-      "column": 2,
-      "row": 8,
+      "column": 6,
+      "row": 11,
       "illustrative": false
     },
     "/tag/columbus-oh/": {
-      "column": 3,
-      "row": 8,
+      "column": 7,
+      "row": 11,
       "illustrative": false
     },
     "/tag/dublin-oh/": {
-      "column": 4,
-      "row": 8,
+      "column": 8,
+      "row": 11,
       "illustrative": false
     },
     "/tag/roof-inspection/": {
-      "column": 5,
-      "row": 8,
+      "column": 9,
+      "row": 11,
       "illustrative": false
     },
     "/tag/hiring-tips/": {
-      "column": 6,
-      "row": 8,
+      "column": 10,
+      "row": 11,
       "illustrative": false
     },
     "/tag/winter-roofing/": {
-      "column": 7,
-      "row": 8,
+      "column": 11,
+      "row": 11,
       "illustrative": true
     },
     "/tag/gaf-shingles/": {
-      "column": 8,
-      "row": 8,
+      "column": 12,
+      "row": 11,
       "illustrative": false
     },
     "/tag/wind-damage/": {
-      "column": 9,
-      "row": 8,
+      "column": 13,
+      "row": 11,
       "illustrative": true
     },
     "/tag/cost-guides/": {
-      "column": 10,
-      "row": 8,
+      "column": 14,
+      "row": 11,
       "illustrative": true
     },
     "/tag/hail-damage/": {
-      "column": 11,
-      "row": 8,
+      "column": 0,
+      "row": 12,
       "illustrative": false
     },
     "/tag/christmas-lights/": {
-      "column": 0,
-      "row": 9,
+      "column": 1,
+      "row": 12,
       "illustrative": true
     },
     "/tag/insurance-claims/": {
-      "column": 1,
-      "row": 9,
+      "column": 2,
+      "row": 12,
       "illustrative": false
     },
     "/tag/gutter-guards/": {
-      "column": 2,
-      "row": 9,
+      "column": 3,
+      "row": 12,
       "illustrative": false
     },
     "/about-us/": {
-      "column": 3,
-      "row": 9,
-      "illustrative": false
-    },
-    "/our-careers/": {
       "column": 4,
-      "row": 9,
-      "illustrative": false
-    },
-    "/contact-us/": {
-      "column": 5,
-      "row": 9,
-      "illustrative": false
-    },
-    "/customer-service/": {
-      "column": 6,
-      "row": 9,
+      "row": 12,
       "illustrative": false
     },
     "/offers/": {
-      "column": 7,
-      "row": 9,
+      "column": 5,
+      "row": 12,
       "illustrative": true
     },
     "/offers/payments/": {
-      "column": 8,
-      "row": 9,
+      "column": 6,
+      "row": 12,
       "illustrative": true
     },
     "/offers/3-year-financing/": {
-      "column": 9,
-      "row": 9,
+      "column": 7,
+      "row": 12,
       "illustrative": true
     },
     "/offers/5-year-financing/": {
-      "column": 10,
-      "row": 9,
+      "column": 8,
+      "row": 12,
       "illustrative": true
     },
     "/offers/medallion-bank-financing/": {
-      "column": 11,
-      "row": 9,
+      "column": 9,
+      "row": 12,
       "illustrative": true
     },
     "/offers/gaf-system-plus/": {
-      "column": 0,
-      "row": 10,
+      "column": 10,
+      "row": 12,
       "illustrative": true
     },
     "/reviews/": {
-      "column": 1,
-      "row": 10,
+      "column": 11,
+      "row": 12,
       "illustrative": false
     },
     "/past-projects/": {
-      "column": 2,
-      "row": 10,
+      "column": 12,
+      "row": 12,
       "illustrative": false
     },
     "/faq/": {
-      "column": 3,
-      "row": 10,
+      "column": 13,
+      "row": 12,
       "illustrative": true
+    },
+    "/our-careers/": {
+      "column": 14,
+      "row": 12,
+      "illustrative": false
+    },
+    "/contact-us/": {
+      "column": 0,
+      "row": 13,
+      "illustrative": false
+    },
+    "/customer-service/": {
+      "column": 1,
+      "row": 13,
+      "illustrative": false
     }
   }
 }

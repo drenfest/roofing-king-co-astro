@@ -1,24 +1,22 @@
-# src/scripts
+# src/scripts: retained browser behavior
 
-Browser behavior. This layer will shrink as native Astro/Svelte components replace the imported behavior.
+Native state belongs in the existing Svelte islands or small component-local scripts. This directory also holds compatibility modules for preserved WordPress markup. Do not initialize both native and compatibility behavior on the same menu/gallery/comparison or import legacy behavior into a new native layout.
 
-## Files
+Keep event listeners scoped, idempotent and removable where necessary. Preserve SSR links/content, keyboard and touch access, reduced motion and per-component lifecycle choices. No secrets, external authoring APIs or source exports belong in browser code.
 
-- No direct content files.
+<!-- directory-inventory:start -->
+## Directory inventory
 
-## Subdirectories
+Parent guidance: [src](../ai-context.md).
 
-- `compatibility/` - read its ai-context.md.
+### Direct files
 
-## Change checks
+- [motion.ts](motion.ts)
+- [service-area-map.ts](service-area-map.ts)
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+### Child directories
 
-motion.ts progressively animates below-fold top-level sections once using IntersectionObserver and the Web Animations API. Content is visible by default; hero/LCP and initial deep-link content are excluded. Animations stop on pagehide or a motion-preference change. No navigation interception, animation dependency or continuous scroll handler.
+- [compatibility/](compatibility/ai-context.md)
 
-service-area-map.ts lazily initializes Leaflet only near the viewport, with city polygon selection, existing service links, reset, ResizeObserver and reduced-motion support. Wheel zoom is off; one-finger map dragging is off on touch devices to preserve page scrolling.
-
-
-The Leaflet attribution and popup links declare titles. The active city link updates its title with the selected community and resets it with the coverage overview. Leaflet tile imagery retains its decorative alt attributes.
-
-The shared service-area map emits service-area-selected with the selected community ID (or all on reset), allowing the Service Areas directory to filter its cards without changing homepage behavior.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

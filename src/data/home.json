@@ -41,15 +41,20 @@
     "title": "Premium exterior products from proven manufacturers",
     "description": "Roofing, siding, decking, and trim systems selected for durability, warranty strength, and curb appeal.",
     "brandIds": [
-      "gaf",
       "variform",
-      "ply-gem",
       "lp-smartside",
-      "james-hardie",
       "trex",
+      "james-hardie",
+      "gaf",
       "alu-rex",
       "t-rex",
-      "leaffilter"
+      "leaffilter",
+      "ply-gem",
+      "owens-corning",
+      "iko",
+      "alside",
+      "norandex",
+      "exterior-portfolio"
     ]
   },
   "services": {

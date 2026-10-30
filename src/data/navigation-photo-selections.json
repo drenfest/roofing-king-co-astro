@@ -169,8 +169,7 @@
     "fit": "contain"
   },
   "/products/siding/vinyl/ply-gem/": {
-    "sourceImage": "/media/brands/ply-gem.webp",
-    "fit": "contain"
+    "sourceImage": "/media/products/ply-gem/dimensions-home-1024.webp"
   },
   "/products/roofing/shingles/": {
     "sourceImage": "/media/products/timberline-uhdz-clr0000006-500.webp"
@@ -186,5 +185,46 @@
   },
   "/tag/gutter-guards/": {
     "sourceImage": "/media/wordpress/95d7f57eb90b-10d9c011-cd81-434e-a44e-38162c2d9531.jpg"
+  },
+  "/products/roofing/shingles/owens-corning/": {
+    "sourceImage": "/media/products/manufacturers/09acd17ada7471f4-1600.webp",
+    "illustrative": false
+  },
+  "/products/roofing/shingles/iko/": {
+    "sourceImage": "/media/products/manufacturers/724d2146b3f5a148-1400.webp",
+    "illustrative": false
+  },
+  "/products/siding/vinyl/alside/": {
+    "sourceImage": "/media/products/manufacturers/0788aa7738d09b51-1200.webp",
+    "illustrative": false
+  },
+  "/products/siding/vinyl/norandex/": {
+    "sourceImage": "/media/products/manufacturers/178040a493cac54c-1600.webp",
+    "illustrative": false
+  },
+  "/products/siding/vinyl/exterior-portfolio/": {
+    "sourceImage": "/media/products/manufacturers/293a88a0b2af518c-800.webp",
+    "illustrative": false
+  },
+  "/products/decking/wood/": {
+    "sourceImage": "/media/service-heroes/decks-1600.webp",
+    "illustrative": true
+  },
+  "/products/decking/wood/cedar/": {
+    "sourceImage": "/media/service-heroes/decks-refinishing-1600.webp",
+    "illustrative": true
+  },
+  "/products/decking/wood/pressure-treated/": {
+    "sourceImage": "/media/service-heroes/decks-installations-1600.webp",
+    "illustrative": true
+  },
+  "/products/decking/composite/trex/decking/": {
+    "sourceImage": "/media/products/manufacturers/e530fcc9593ee9ad-1600.webp"
+  },
+  "/products/decking/composite/trex/railing/": {
+    "sourceImage": "/media/products/systems/60b920863d87-1016.webp"
+  },
+  "/products/decking/composite/trex/accessories/": {
+    "sourceImage": "/media/products/systems/4b44ec95af97-1016.webp"
   }
 }

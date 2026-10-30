@@ -1,7 +1,7 @@
 {
   "/products/": {
     "title": "Exterior Building Products",
-    "description": "Explore roofing products, compare materials, and find product details to discuss with Roof King.",
+    "description": "Explore roofing, siding, decking and gutter products, compare materials and colors, and review manufacturer specifications and warranty information.",
     "eyebrow": "The product library",
     "heading": "Exterior products for a home that feels like yours.",
     "copy": "Start with the materials. Explore colors, styles, specifications and manufacturer warranty information, then discuss installation with our team.",
@@ -93,10 +93,10 @@
   },
   "/products/roofing/": {
     "title": "Roofing Products and Materials",
-    "description": "Browse GAF shingle colors, specifications and warranty information, compare roofing materials, and plan questions for your project.",
+    "description": "Compare GAF, Owens Corning and IKO shingles, genuine color samples, product specifications and manufacturer warranty information.",
     "eyebrow": "Roofing product library",
     "heading": "Roofing products for your home.",
-    "copy": "Explore materials and product details, then pair your choices with a clear plan for repair, replacement or installation.",
+    "copy": "Explore GAF, Owens Corning and IKO shingles by manufacturer. Compare the roof pattern, color blends, fastening design and product-specific wind, impact and warranty details before choosing the complete roof assembly.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -154,16 +154,18 @@
       "title": "Explore brands for these materials.",
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
-        "gaf"
+        "gaf",
+        "owens-corning",
+        "iko"
       ]
     }
   },
   "/products/roofing/shingles/": {
     "title": "Roofing Shingles",
-    "description": "Explore roofing shingles and browse individual GAF products, color options, specifications and warranty information.",
+    "description": "Compare GAF, Owens Corning and IKO shingles, genuine color samples, product specifications and manufacturer warranty information.",
     "eyebrow": "Roofing products",
     "heading": "Roofing shingles. Color, character and protection.",
-    "copy": "Explore by manufacturer, then compare individual shingle products. Keep your product research together before discussing the right installation for your home.",
+    "copy": "Explore GAF, Owens Corning and IKO shingles by manufacturer. Compare the roof pattern, color blends, fastening design and product-specific wind, impact and warranty details before choosing the complete roof assembly.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -188,6 +190,18 @@
         "href": "/roofing/gaf/types/",
         "action": "Browse GAF Shingles",
         "product": "Timberline HDZ"
+      },
+      {
+        "title": "Owens Corning",
+        "description": "Compare Duration, Designer, FLEX, STORM and Oakridge shingles using genuine manufacturer color photographs. The nailing design, appearance and impact classification vary between lines.",
+        "href": "/products/roofing/shingles/owens-corning/",
+        "action": "Explore Owens Corning"
+      },
+      {
+        "title": "IKO",
+        "description": "Compare architectural, performance and designer shingles. Look at the shape, exposure and impact classification as well as the color; cool-roof selections and regional supply vary.",
+        "href": "/products/roofing/shingles/iko/",
+        "action": "Explore IKO"
       }
     ],
     "secondaryTitle": "Shingle colors, ratings and roof-system details",
@@ -210,7 +224,9 @@
       "title": "Explore brands for these materials.",
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
-        "gaf"
+        "gaf",
+        "owens-corning",
+        "iko"
       ]
     }
   },
@@ -284,9 +300,12 @@
       "title": "Explore brands for these materials.",
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
+        "alside",
+        "norandex",
+        "exterior-portfolio",
         "variform",
-        "lp-smartside",
         "james-hardie",
+        "lp-smartside",
         "ply-gem"
       ]
     },
@@ -294,10 +313,10 @@
   },
   "/products/decking/": {
     "title": "Decking Products",
-    "description": "Compare decking materials and brands with Roof King.",
+    "description": "Compare Trex decking, cedar and pressure-treated wood, including color, board profiles, finishing, maintenance and manufacturer warranty details.",
     "eyebrow": "Exterior product library",
     "heading": "Decking products for your outdoor space.",
-    "copy": "Compare material families first, then explore the brands, profiles and finishes available within each. Bring physical samples and product documentation into the discussion before deciding on the complete installation.",
+    "copy": "Compare Trex composite and PVC boards with cedar and pressure-treated wood. Consider grain, color, surface heat, maintenance and product-specific coverage alongside the framing, rails and stairs.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -321,6 +340,12 @@
           "src": "/media/wordpress/509654d4f5d1-trex.png",
           "alt": "Trex"
         }
+      },
+      {
+        "title": "Wood decking",
+        "href": "/products/decking/wood/",
+        "description": "Compare cedar and pressure-treated wood, finishing and ongoing care.",
+        "action": "Explore wood decking"
       }
     ],
     "secondaryTitle": "Decking materials, railings and everyday care",
@@ -351,10 +376,10 @@
   },
   "/products/siding/vinyl/": {
     "title": "Vinyl Siding Products",
-    "description": "Explore vinyl siding and Variform product options.",
+    "description": "Compare Alside, Norandex, Exterior Portfolio and Variform siding: profiles, interactive color previews, specifications and manufacturer warranties.",
     "eyebrow": "Siding Products",
     "heading": "Vinyl siding. Profiles, colors and finishing details.",
-    "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
+    "copy": "Compare Alside, Norandex, Exterior Portfolio and Variform by Ply Gem. Explore horizontal, beaded, board-and-batten and shake-style products, then use the color previews and product specifications to narrow the choices for your exterior.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -394,6 +419,24 @@
           "width": 360,
           "height": 78
         }
+      },
+      {
+        "title": "Alside",
+        "description": "Odyssey Plus and Charter Oak are Alside vinyl siding lines. Compare the .044-inch Odyssey Plus panel with the .046-inch Charter Oak panel, then choose the course width and clapboard or Dutch-lap appearance.",
+        "href": "/products/siding/vinyl/alside/",
+        "action": "Explore Alside"
+      },
+      {
+        "title": "Norandex",
+        "description": "Compare horizontal, vertical, beaded, insulated and shake-style siding. These lines differ in material, panel thickness, projection and profile, even when they share a color name.",
+        "href": "/products/siding/vinyl/norandex/",
+        "action": "Explore Norandex"
+      },
+      {
+        "title": "Exterior Portfolio",
+        "description": "Compare six Exterior Portfolio siding lines, from the brushed bead of Carolina Sands to vertical Board & Batten. The color references below come from the manufacturer’s current product matrix, with profile availability shown for each selection.",
+        "href": "/products/siding/vinyl/exterior-portfolio/",
+        "action": "Explore Exterior Portfolio"
       }
     ],
     "secondaryTitle": "Vinyl siding profiles, trim and installation",
@@ -421,16 +464,19 @@
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
         "variform",
-        "ply-gem"
+        "ply-gem",
+        "alside",
+        "norandex",
+        "exterior-portfolio"
       ]
     }
   },
   "/products/siding/vinyl/variform/": {
     "title": "Variform Vinyl Siding",
-    "description": "Explore Variform vinyl siding, design choices and installation planning with Roof King.",
+    "description": "Compare eight Variform families, including horizontal lap, beaded, board-and-batten and cedar-shingle looks. Panel thickness and texture differ by product; the color references are not digitally recolored project photos. Explore product details with Roof King.",
     "eyebrow": "Vinyl Siding · Variform",
     "heading": "Variform vinyl siding for your home.",
-    "copy": "Variform by Ply Gem offers vinyl siding, including horizontal and board-and-batten styles. Compare the profile, texture and color with the proportions of your home, then plan the trim and installation details as part of the complete exterior.",
+    "copy": "Compare eight Variform families, including horizontal lap, beaded, board-and-batten and cedar-shingle looks. Panel thickness and texture differ by product. Use the sample-home color previews to compare the palette; the house and siding profile are illustrative.",
     "logo": {
       "src": "/media/wordpress/d93df4e15198-variform.png",
       "alt": "Variform"
@@ -457,31 +503,141 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "Variform profiles, color choices and product care",
+    "secondaryTitle": "What changes between Variform products",
     "secondary": [
       {
-        "title": "Profiles and proportions",
-        "copy": "Horizontal siding and vertical board-and-batten create different patterns across a wall. Consider exposure, corner details, window trim and transitions before selecting a profile."
+        "title": "Heritage Cedar",
+        "copy": "Heritage Cedar offers molded shingle, shake and rounded-edge profiles with texture between individual shingles as well as on the face. The choice of edge pattern changes the character of a gable or accent wall; thickness varies by profile."
       },
       {
-        "title": "Color and matching details",
-        "copy": "Look at full-size samples outdoors and compare them with roofing, windows and masonry. Review the manufacturer’s color matrix for the chosen siding and coordinate soffit, trim and accessories rather than relying on a screen image."
+        "title": "Profiles and color references",
+        "copy": "Use the interactive house preview to compare the color palette. The sample home illustrates color rather than an exact installation; confirm the chosen profile, length and physical sample."
       },
       {
-        "title": "Specifications to confirm",
-        "copy": "Ask for the exact product-line specification, fastening instructions, wind-performance documentation and applicable warranty. A brand name alone does not identify a panel’s thickness, performance or installation requirements."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review siding panels, matching trim, fastening, flashing and finishing with Roof King. Confirm available colors, product lines and installation in your written estimate.",
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
         "href": "/siding/",
         "label": "Explore siding services"
       }
     ],
     "reference": {
-      "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/",
-      "label": "Variform manufacturer product information"
-    }
+      "label": "Variform manufacturer product information",
+      "href": "https://www.plygem.com/variform/siding/heritage-cedar/"
+    },
+    "catalogItems": [
+      {
+        "productId": "variform-heritage-cedar",
+        "title": "Heritage Cedar",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Heritage Cedar offers molded shingle, shake and rounded-edge profiles with texture between individual shingles as well as on the face. The choice of edge pattern changes the character of a gable or accent wall; thickness varies by profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-vortex-extreme",
+        "title": "Vortex Extreme",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Vortex Extreme combines a .046-inch panel with a reinforced fastening and locking design. Extended lengths can reduce visible joints on wide walls, while the split-cedar appearance keeps the courses visually textured."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-variform-board-and-batten",
+        "title": "Variform Board & Batten",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Variform Board & Batten uses an extra-thick .048-inch panel for a vertical board-and-batten look. Use the repeated raised battens to emphasize height on a gable or carry one consistent pattern across a full elevation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-camden-pointe",
+        "title": "Camden Pointe",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Camden Pointe combines a .044-inch panel with cedar texture and pronounced shadow lines. Its rollover panel lock and nail hem are part of the attachment design, alongside the profile and color choices that shape the finished wall."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-american-herald",
+        "title": "American Herald",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "American Herald uses .044-inch panels with the appearance of natural sawn cedar. Through-panel color helps make surface scratches less conspicuous, while the nail hem and panel lock provide the intended attachment arrangement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-ashton-heights",
+        "title": "Ashton Heights",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Ashton Heights uses .042-inch vinyl panels with a double-staggered nail hem. It offers a different panel specification from Camden Pointe, so compare the actual profile and attachment details alongside the shared color palette."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-contractors-choice",
+        "title": "Contractor’s Choice",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Contractor’s Choice is a .040-inch vinyl line for traditional horizontal siding. Compare course width, matching corners and trim before choosing it, since those details determine the proportions of the wall as much as the color does."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "variform-victoria-harbor",
+        "title": "Victoria Harbor",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Victoria Harbor uses a six-and-a-half-inch beaded face to create a traditional horizontal pattern. Its brushed finish and full bead produce a cleaner, finer shadow detail than deeply embossed cedar-grain siding."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "/products/siding/engineered-wood/": {
     "title": "Engineered Wood Siding Products",
@@ -548,10 +704,10 @@
   },
   "/products/siding/engineered-wood/lp-smartside/": {
     "title": "LP SmartSide Engineered Wood Siding",
-    "description": "Explore LP SmartSide engineered wood siding, design choices and installation planning with Roof King.",
+    "description": "Explore treated engineered-wood lap siding, shakes, panels, nickel-gap siding, trim and soffit. Cedar and Brushed Smooth textures create different painted finishes, and the prefinished color range varies by product. Explore product details with Roof King.",
     "eyebrow": "Engineered Wood Siding · LP SmartSide",
     "heading": "LP SmartSide siding and trim.",
-    "copy": "LP SmartSide is an engineered wood siding and trim family. Its lineup includes lap siding, panel and vertical options, shakes, trim and soffit. Compare the profile and finish as part of an exterior that coordinates with your roof, windows and architectural details.",
+    "copy": "Explore treated engineered-wood lap siding, shakes, panels, nickel-gap siding, trim and soffit. Cedar and Brushed Smooth textures create different painted finishes, and the prefinished color range varies by product.",
     "logo": {
       "src": "/media/wordpress/c26640e78e39-lpsmartside.png",
       "alt": "LP SmartSide"
@@ -578,31 +734,113 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "LP SmartSide profiles, finishes and installation",
+    "secondaryTitle": "What changes between LP SmartSide products",
     "secondary": [
       {
-        "title": "Build a coordinated exterior",
-        "copy": "Start with the main siding profile, then consider accent areas and matching trim. Lap siding, vertical panels and shakes produce different visual rhythms; use them deliberately around entryways, gables and larger wall areas."
+        "title": "LP SmartSide Shake Lap Siding",
+        "copy": "LP SmartSide Shake Lap Siding creates cedar-style shadow lines in treated engineered wood. It offers an alternative to individual cedar shakes for accent walls and gables, with Cedar and Brushed Smooth texture choices."
       },
       {
-        "title": "Primed or prefinished",
-        "copy": "LP offers primed and ExpertFinish prefinished siding options. Ask which finishes and textures are available for the selected profile, review physical samples, and confirm who will paint the siding and handle future maintenance."
+        "title": "Profiles and color references",
+        "copy": "Use the interactive house preview to compare the color palette. The sample home illustrates color rather than an exact installation; confirm the chosen profile, length and physical sample."
       },
       {
-        "title": "Installation and maintenance",
-        "copy": "Confirm clearance, flashing, fastening and finishing requirements for the exact product. Engineered wood still requires installation and care according to manufacturer instructions. Review product-specific warranties instead of assuming every item in the family has identical coverage."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review siding panels, matching trim, fastening, flashing and finishing with Roof King. Confirm available colors, product lines and installation in your written estimate.",
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
         "href": "/siding/",
         "label": "Explore siding services"
       }
     ],
     "reference": {
-      "href": "https://www.lpcorp.com/products/siding-trim",
-      "label": "LP SmartSide manufacturer product information"
-    }
+      "label": "LP SmartSide manufacturer product information",
+      "href": "https://www.lpcorp.com/products/siding-trim/shakes"
+    },
+    "catalogItems": [
+      {
+        "productId": "lp-shakes",
+        "title": "LP SmartSide Shake Lap Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Shake Lap Siding creates cedar-style shadow lines in treated engineered wood. It offers an alternative to individual cedar shakes for accent walls and gables, with Cedar and Brushed Smooth texture choices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "lp-lap-siding",
+        "title": "LP SmartSide Lap Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Lap Siding uses treated engineered wood in long horizontal boards. Cedar texture emphasizes grain; Brushed Smooth creates a quieter painted surface. Primed boards allow custom paint, while ExpertFinish provides a factory-applied color option."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "lp-trim-fascia",
+        "title": "LP SmartSide Trim & Fascia",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Trim & Fascia frames windows, corners and roof edges in treated engineered wood. Board width and thickness affect the depth of those transitions, so trim needs to be selected alongside the siding and soffit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "lp-nickel-gap",
+        "title": "LP SmartSide Nickel Gap Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Nickel Gap creates a defined narrow reveal between boards. Cedar and Brushed Smooth textures let that repeated joint read as rustic or contemporary, with primed and prefinished choices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "lp-soffit",
+        "title": "LP SmartSide Soffit",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Soffit finishes the underside of the roof overhang. Cedar and Brushed Smooth textures coordinate with the wall finish, while the soffit selection also needs to preserve the roof’s planned intake ventilation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "lp-panel-vertical-siding",
+        "title": "LP SmartSide Panel & Vertical Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LP SmartSide Panel & Vertical Siding creates broad wall surfaces that can be detailed with trim for a board-and-batten effect. Panel joints, flashing and trim placement should be coordinated so the finished pattern and drainage work together."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "/products/siding/fiber-cement/": {
     "title": "Fiber Cement Siding Products",
@@ -669,10 +907,10 @@
   },
   "/products/siding/fiber-cement/james-hardie/": {
     "title": "James Hardie Fiber Cement Siding",
-    "description": "Explore James Hardie fiber cement siding, design choices and installation planning with Roof King.",
+    "description": "Explore six James Hardie fiber-cement siding and batten families. Compare genuine texture samples, horizontal and vertical patterns, and factory-finished versus primed options before choosing the exact product. Explore product details with Roof King.",
     "eyebrow": "Fiber Cement Siding · James Hardie",
     "heading": "James Hardie fiber cement siding.",
-    "copy": "James Hardie makes fiber cement siding, including Hardie Plank lap siding. Explore the shape, texture and finish of the exterior, then confirm the products and installation details appropriate for your project. Compare physical samples alongside your roofing and trim before making a final selection.",
+    "copy": "Explore six James Hardie fiber-cement siding and batten families. Compare genuine texture samples, horizontal and vertical patterns, and factory-finished versus primed options before choosing the exact product.",
     "logo": {
       "src": "/media/wordpress/67a6570aea50-jameshardie.png",
       "alt": "James Hardie"
@@ -699,38 +937,120 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "James Hardie siding, trim and finish choices",
+    "secondaryTitle": "What changes between James Hardie products",
     "secondary": [
       {
-        "title": "Choose the siding profile",
-        "copy": "Lap siding creates a horizontal pattern that can work with a range of home styles. Discuss the visible exposure, surface texture and treatment of gables and accent areas, along with trim widths and corner details."
+        "title": "Hardie Plank",
+        "copy": "Hardie Plank is fiber-cement lap siding with smooth, cedar-textured and beaded variations. Course exposure and corner trim determine the scale of the finished wall; the texture selector shows the manufacturer’s actual surface samples."
       },
       {
-        "title": "Coordinate the finish",
-        "copy": "Review current manufacturer finish options for the chosen product and region. Compare samples in daylight with existing brick, stone, roof colors and windows. Ask what is factory finished, what requires field painting, and how future touch-ups will be handled."
+        "title": "Factory color or field paint",
+        "copy": "Artisan and Architectural Panel are primed for paint. Other product, texture and color combinations depend on the collection and region; the texture samples below are not a color availability promise."
       },
       {
-        "title": "Review the complete assembly",
-        "copy": "Siding performance depends on more than the face material. Confirm flashing, clearances, fastening and water-management details against the applicable manufacturer instructions. Check the exact warranty and care guidance for the selected product and finish."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review siding panels, matching trim, fastening, flashing and finishing with Roof King. Confirm available colors, product lines and installation in your written estimate.",
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
         "href": "/siding/",
         "label": "Explore siding services"
       }
     ],
     "reference": {
-      "href": "https://www.jameshardie.com/product-catalog/exterior-siding-products/hardie-plank-lap-siding/",
-      "label": "James Hardie manufacturer product information"
-    }
+      "label": "James Hardie manufacturer product information",
+      "href": "https://www.jameshardie.com/product-catalog/exterior-siding-products/hardie-plank-lap-siding/"
+    },
+    "catalogItems": [
+      {
+        "productId": "hardie-hardie-plank-lap-siding",
+        "title": "Hardie Plank",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Plank is fiber-cement lap siding with smooth, cedar-textured and beaded variations. Course exposure and corner trim determine the scale of the finished wall; the texture selector shows the manufacturer’s actual surface samples."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "hardie-hardie-panel-siding",
+        "title": "Hardie Panel",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Panel creates broad vertical fiber-cement surfaces. Smooth, wood-textured and stucco-like options offer different appearances, and added battens can create a farmhouse pattern without changing the panel material."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "hardie-hardie-artisan-siding",
+        "title": "Hardie Artisan Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Artisan uses extra-thick fiber-cement boards and deep shadow lines for a more pronounced architectural finish. The line is primed for paint, making the final coating and joint treatment part of the design decision."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "hardie-hardie-shingle-siding",
+        "title": "Hardie Shingle",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Shingle gives fiber cement a cedar-shake appearance. Straight-edge panels create an orderly course, while staggered-edge panels make the silhouette more irregular; either can distinguish a gable from the main lap siding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "hardie-hardie-architectural-panel-siding",
+        "title": "Hardie Architectural Panel",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Architectural Panel uses contemporary textures and clean panel lines for an intentional facade pattern. It is primed for your paint color, so panel layout, expressed joints and the finish should be designed together."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "hardie-hardie-trim-batten-boards",
+        "title": "Hardie Trim Batten Boards",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hardie Trim Batten Boards create the raised vertical strips in a board-and-batten exterior. They pair with Hardie Panel, with smooth or textured surfaces to coordinate the battens and the wall behind them."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "/products/decking/composite/": {
     "title": "Composite Decking Products",
     "description": "Explore composite decking and Trex product options.",
     "eyebrow": "Decking Products",
     "heading": "Composite decking. Build your outdoor palette.",
-    "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
+    "copy": "Composite decking combines wood and plastic in manufactured boards with different grains, colors and protective shells. Explore the Trex collection for composite products and the separately identified Refuge PVC line.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -790,10 +1110,10 @@
   },
   "/products/decking/composite/trex/": {
     "title": "Trex Composite Decking",
-    "description": "Explore Trex composite decking, design choices and installation planning with Roof King.",
+    "description": "Compare Trex decking families by board material, grain, color, fastening profile and product-specific residential coverage. Heat-mitigating technology applies to designated products and colors; every deck can become hot in direct sun. Explore product details with Roof King.",
     "eyebrow": "Composite Decking · Trex",
-    "heading": "Trex composite decking and railing.",
-    "copy": "Trex offers composite decking with coordinating railing and outdoor-living products. Compare decking collections by appearance, surface texture and the details that matter for how you use the space. Plan the boards, framing, fastening, stairs and railings together rather than selecting the deck surface in isolation.",
+    "heading": "Trex decking, railing and accessories.",
+    "copy": "Explore deck boards, railing and finishing accessories by collection. Choose a category to compare the products, colors and components for your outdoor space.",
     "logo": {
       "src": "/media/wordpress/509654d4f5d1-trex.png",
       "alt": "Trex"
@@ -819,31 +1139,31 @@
         "label": "Trex"
       }
     ],
-    "cards": [],
-    "secondaryTitle": "Trex deck boards, railing and product care",
-    "secondary": [
+    "cards": [
       {
-        "title": "Compare decking collections",
-        "copy": "Review the current Trex collections and physical samples for color and grain. Consider the deck’s sun exposure, barefoot use, furniture and traffic. Surface temperature and the way a board looks outdoors are useful questions to resolve before choosing a color."
+        "title": "Decking",
+        "description": "Explore six decking families, from finely detailed Signature boards to scalloped Enhance boards and Refuge PVC. Open a collection to compare its colors, material and board profiles.",
+        "href": "/products/decking/composite/trex/decking/",
+        "action": "Explore decking"
       },
       {
-        "title": "Complete the outdoor space",
-        "copy": "Coordinate railing, stair details and lighting with the deck layout. Confirm which accessories suit the selected system and how they attach. The framing and support structure need their own assessment; new boards alone do not establish that an existing deck is sound."
+        "title": "Railing",
+        "description": "Compare aluminum, composite and steel railing systems with baluster, glass, mesh, rod and cable infill options. Each product page explains the matching posts, connections and stair details.",
+        "href": "/products/decking/composite/trex/railing/",
+        "action": "Explore railing"
       },
       {
-        "title": "Care and product documentation",
-        "copy": "Check cleaning guidance, required board spacing, approved fasteners and the exact product warranty. Composite decking has different care requirements from wood. Do not transfer a warranty length or performance claim from one collection to another."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review decking boards, railings, fasteners and any framing repairs with Roof King. Confirm product availability, colors and installation in your written estimate.",
-        "href": "/decks/",
-        "label": "Explore decking services"
+        "title": "Deck accessories",
+        "description": "Explore fascia, fastening, deck lighting and under-deck drainage. Match each accessory to the selected boards, railing and deck construction.",
+        "href": "/products/decking/composite/trex/accessories/",
+        "action": "Explore deck accessories"
       }
     ],
+    "secondaryTitle": "",
+    "secondary": [],
     "reference": {
-      "href": "https://www.trex.com/products/decking/",
-      "label": "Trex manufacturer product information"
+      "label": "Trex manufacturer product information",
+      "href": "https://www.trex.com/products/decking/signature/"
     }
   },
   "/products/gutters/": {
@@ -984,10 +1304,10 @@
   },
   "/products/gutters/guards/alu-rex/": {
     "title": "Alu-Rex Gutter Systems and T-Rex",
-    "description": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the e",
+    "description": "Compare new-gutter continuous hangers with retrofit guards for existing gutters. Support, debris screening and the drainage route are separate parts of a working gutter system; product and installer eligibility need project confirmation. Explore product details with Roof King.",
     "eyebrow": "Explore the brand",
     "heading": "Alu-Rex gutter systems and T-Rex.",
-    "copy": "Alu-Rex makes gutter protection and continuous hanger systems. Its T-Rex product supports the gutter along its length while screening debris. Compare the exact system with your gutter profile and installation plans.",
+    "copy": "Compare new-gutter continuous hangers with retrofit guards for existing gutters. Support, debris screening and the drainage route are separate parts of a working gutter system; product and installer eligibility need project confirmation.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -1010,44 +1330,96 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "Alu-Rex products, installation and warranty details",
+    "secondaryTitle": "What changes between Alu-Rex products",
     "secondary": [
       {
-        "title": "T-Rex continuous hanger",
-        "copy": "Conventional hangers support a gutter at spaced points. T-Rex uses continuous support along the gutter, with a perforated surface that allows water through while screening debris. Confirm the appropriate model and installation instructions for the gutter profile."
+        "title": "DoublePro continuous hanger",
+        "copy": "DoublePro is a dual-layer continuous hanger installed with new gutters. It combines gutter support and debris screening in one system, making it a different choice from a screen added later to an existing gutter."
       },
       {
-        "title": "Choose the installation approach",
-        "copy": "Discuss whether the project includes new gutters or protection for existing gutters. Alu-Rex offers different systems for different installation needs; T-Rex is a product line within Alu-Rex."
+        "title": "Support and drainage",
+        "copy": "A guard screens debris; a continuous hanger also supports a new gutter. Neither corrects poor pitch, undersized outlets or an unsuitable discharge route."
       },
       {
-        "title": "Check documentation and maintenance",
-        "copy": "Review the exact model specification, fastening requirements, cleaning guidance and warranty. Manufacturer warranty conditions and installation requirements should be reviewed before work begins."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review gutter sizes, downspout placement, fastening and compatible gutter guards with Roof King. Confirm selected products and installation in your written estimate.",
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact gutter system in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
         "href": "/gutters/",
-        "label": "Explore gutter services"
+        "label": "Explore gutters services"
       }
     ],
     "logo": {
       "src": "/media/brands/alu-rex.webp",
-      "alt": "Alu-Rex",
-      "width": 360,
-      "height": 255
+      "alt": "Alu-Rex"
     },
     "reference": {
       "label": "Alu-Rex manufacturer product information",
-      "href": "https://alu-rex.com/en/t-rex"
-    }
+      "href": "https://alu-rex.com/en/doublepro"
+    },
+    "catalogItems": [
+      {
+        "productId": "alurex-doublepro",
+        "title": "DoublePro continuous hanger",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "DoublePro is a dual-layer continuous hanger installed with new gutters. It combines gutter support and debris screening in one system, making it a different choice from a screen added later to an existing gutter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "alurex-t-rex",
+        "title": "T-Rex continuous hanger",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "T-Rex is a continuous hanger that supports a new gutter along its length rather than at individual hanger points. Its perforated cover also screens debris; gutter pitch, outlets and downspout capacity still determine the drainage route."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "alurex-guttercleanpro",
+        "title": "Gutter Clean Pro",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Gutter Clean Pro is a retrofit guard for suitable existing gutters. Its Flex-Seal rear detail helps close the space behind the guard, while the screening surface reduces debris entry into the gutter trough."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "alurex-gutter-clean",
+        "title": "Gutter Clean",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Gutter Clean is an aluminum debris-screening option for existing gutters. It does not replace assessment of gutter condition, slope or downspouts; repair those issues before selecting a guard."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "/products/gutters/guards/leaffilter/": {
     "title": "LeafFilter Gutter Protection",
     "description": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and c",
     "eyebrow": "Explore the brand",
-    "heading": "LeafFilter gutter protection.",
-    "copy": "LeafFilter is a gutter protection system that uses a stainless-steel micromesh screen. Review how the system fits the existing gutters and roof edge, and compare installation, maintenance and warranty details.",
+    "heading": "LeafFilter gutter protection, explained.",
+    "copy": "Explore the micromesh screen, frame and internal hangers as one gutter-protection system. Review how the guard meets the existing gutter, outlets and roof edge before selecting the installation.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -1070,25 +1442,19 @@
       }
     ],
     "cards": [],
-    "secondaryTitle": "LeafFilter compatibility, installation and care",
+    "secondaryTitle": "How the LeafFilter system fits your gutters",
     "secondary": [
       {
-        "title": "Assess the existing gutters",
-        "copy": "Check gutter condition, pitch, outlets and downspouts first. Ask how the installation addresses any repairs needed before protection is fitted."
+        "title": "Stainless-steel micromesh",
+        "copy": "The fine screen sits over the gutter opening to separate debris from flowing water. Its supporting frame and attachment are part of the assembly, not optional substitutes."
       },
       {
-        "title": "Screening and upkeep",
-        "copy": "Review how the micromesh handles the debris around your home. Ask for current cleaning and inspection instructions rather than assuming a guard removes all maintenance."
+        "title": "Supporting frame and hangers",
+        "copy": "The uPVC frame supports the screen while internal hangers attach to the fascia. The supporting gutter and fascia must be sound enough for the proposed installation."
       },
       {
-        "title": "Confirm product and warranty",
-        "copy": "Roof King’s existing site names LeafFilter. Confirm current product availability, who supplies and installs the system, and the exact warranty terms in the project proposal."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review gutter sizes, downspout placement, fastening and compatible gutter guards with Roof King. Confirm selected products and installation in your written estimate.",
-        "href": "/gutters/",
-        "label": "Explore gutter services"
+        "title": "Water still needs a complete route",
+        "copy": "Guard selection goes alongside gutter slope, outlets, downspouts and discharge. A debris screen cannot repair a sagging gutter or eliminate inspections and surface cleaning."
       }
     ],
     "logo": {
@@ -1098,16 +1464,34 @@
       "height": 121
     },
     "reference": {
-      "label": "LeafFilter manufacturer product information",
-      "href": "https://www.leaffilter.com/"
-    }
+      "label": "LeafFilter system features and warranty",
+      "href": "https://www.leafhome.com/gutter-systems/leaffilter"
+    },
+    "catalogItems": [
+      {
+        "productId": "leaffilter-gutter-protection",
+        "title": "LeafFilter gutter protection",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "LeafFilter combines a fine stainless-steel screen, a supporting uPVC frame and internal structural hangers. The screen helps separate debris from water at the gutter opening. Existing gutters still need sound attachments, suitable outlets and a clear discharge route; a screen cannot correct a deteriorated gutter or failed fascia."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "catalogTitle": "The LeafFilter gutter protection system",
+    "catalogIntro": "Explore the filtering screen, supporting frame and gutter attachment, then review the installation considerations and manufacturer coverage."
   },
   "/products/siding/vinyl/ply-gem/": {
     "title": "Ply Gem Vinyl Siding",
-    "description": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact produ",
-    "eyebrow": "Explore the brand",
-    "heading": "Ply Gem vinyl siding.",
-    "copy": "Roof King’s siding pages name Ply Gem and display Variform by Ply Gem. Start with Variform’s vinyl siding profiles and colors, then confirm the exact product line and accessories proposed for your home.",
+    "description": "Compare Ply Gem Performance siding profiles, colors, specifications and companion components with Roof King.",
+    "eyebrow": "Ply Gem · Performance Collection",
+    "heading": "Ply Gem Performance siding for your home.",
+    "copy": "Explore horizontal lap, vertical board-and-batten and molded shake and shingle panels. Compare the five Performance Collection families by material, profile and nominal thickness, then review their colors and complete wall details.",
     "breadcrumbs": [
       {
         "label": "Home",
@@ -1129,39 +1513,9 @@
         "label": "Ply Gem"
       }
     ],
-    "cards": [
-      {
-        "title": "Variform",
-        "description": "Explore product choices, installation requirements and manufacturer documentation.",
-        "href": "/products/siding/vinyl/variform/",
-        "action": "Explore Variform",
-        "image": {
-          "src": "/media/wordpress/d93df4e15198-variform.png",
-          "alt": "Variform",
-          "width": 250,
-          "height": 86
-        }
-      }
-    ],
-    "secondaryTitle": "Ply Gem siding profiles, colors and documentation",
-    "secondary": [
-      {
-        "title": "Variform by Ply Gem",
-        "copy": "Variform is the Ply Gem siding brand already featured on Roof King’s site. Review its profile, color, trim and accessory options together.",
-        "href": "/products/siding/vinyl/variform/",
-        "label": "Explore Variform"
-      },
-      {
-        "title": "Identify the exact panel",
-        "copy": "Ask for the product-line specification, approved fastening details, wind-performance documentation and applicable warranty. A parent brand alone does not identify a panel’s performance."
-      },
-      {
-        "title": "Plan the work with Roof King",
-        "copy": "Review siding panels, matching trim, fastening, flashing and finishing with Roof King. Confirm available colors, product lines and installation in your written estimate.",
-        "href": "/siding/",
-        "label": "Explore siding services"
-      }
-    ],
+    "cards": [],
+    "secondaryTitle": "",
+    "secondary": [],
     "logo": {
       "src": "/media/brands/ply-gem.webp",
       "alt": "Ply Gem",
@@ -1169,8 +1523,1532 @@
       "height": 78
     },
     "reference": {
-      "label": "Ply Gem manufacturer product information",
-      "href": "https://www.plygem.com/variform/siding-materials/vinyl-siding/"
+      "label": "Ply Gem Performance Collection manufacturer product information",
+      "href": "https://www.plygem.com/siding/ply-gem-performance/"
+    },
+    "catalogItems": [
+      {
+        "productId": "plygem-cedar-dimensions",
+        "title": "Cedar Dimensions",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cedar Dimensions uses molded polypropylene panels to create the irregular edges and grain associated with cedar shingles and shakes. The family includes straight shingle, hand-split shake and half-round looks, so it can be used to change the character of a gable, porch or full wall rather than simply change its color."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The profiles are separate panels with their own dimensions and matching corner pieces. Nominal thickness ranges from .080 to .100 inch across the family. A Double 7 shingle and a Double 9 shake should not be treated as interchangeable when calculating quantities or ordering trim."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Choose the panel profile before the accessories. Ply Gem lists dedicated cedar-panel starter strips and profile-specific corners; those details give the wall a more convincing finish than using an unrelated lap-siding accessory. Color availability also varies by profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "plygem-dimensions",
+        "title": "Dimensions",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Dimensions is the .044-inch nominal-thickness lap siding in the Ply Gem Performance Collection. Its ⅝-inch profile creates a deeper shadow line, making the individual courses more defined across a broad wall. The folded nail hem and oversized lock are parts of the panel design rather than added accessories."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Choose Double 4 traditional lap for a straightforward clapboard look or Double 4½ Dutch lap for a beveled course with a more pronounced shadow. The profiles have different panel lengths, which matters when planning seams around windows, corners and long wall runs."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Compare a full sample against the trim and roof color outdoors. The family palette includes solid and cedar-inspired finishes, but the chosen color still needs to be checked against the exact panel profile. Thickness alone is not a whole-wall wind rating; fastening and the supporting wall also matter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "plygem-progressions",
+        "title": "Progressions",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Progressions combines a fine-grained, painted-wood appearance with .042-inch nominal-thickness vinyl panels. Its ½-inch profile gives the courses definition without using the deeper profile of Dimensions. It is a useful family to compare when you want several lap-width choices in one collection."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The four profiles include Double 4 and Double 5 traditional lap plus Double 4½ and Double 5 Dutch lap. A wider exposure changes the number of horizontal lines across the wall; Dutch lap adds a beveled shadow at the top of each course. Those differences are more useful to judge on a full sample than on a small color chip."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Panel length and color selection vary by profile. Plan the preferred exposure, seams and corner details together, then compare the exact product in the installation estimate. Darker colors are not necessarily available across every Progressions profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "plygem-performance-board-batten",
+        "title": "Performance Board + Batten",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Performance Board + Batten creates vertical lines with a 5½-inch board face and a 1½-inch batten. It can emphasize the height of a gable or become the main exterior pattern. The .048-inch nominal panel thickness and 9⁄16-inch profile distinguish it from the horizontal lap products in the collection."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Ply Gem lists a 10-foot panel length. On taller walls, horizontal breaks and transitions need to be designed rather than left as an incidental seam. The way the vertical panels meet a roofline, window head or lower siding material affects both the appearance and the drainage detail."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Starting and finishing a vertical panel is different from starting horizontal lap siding. Match the base channel, corners and opening details to this panel orientation. Review the color on a physical sample, especially where board-and-batten will sit beside another siding profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "plygem-transformations",
+        "title": "Transformations",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Transformations is the .040-inch nominal-thickness lap siding family in the Ply Gem Performance Collection. A ½-inch profile and defined locking system provide a familiar clapboard or Dutch-lap appearance. Its smaller family color palette makes it a straightforward starting point for a conventional exterior."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Choose Double 4 or Double 5 traditional lap for flat course lines, or Double 4½ Dutch lap for a beveled shadow. These options differ in exposure and panel length, so the profile should be identified by name in the product selection rather than described only as vinyl siding."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Discuss wall preparation, flashing, trim and fastening alongside the panel. A lower nominal thickness does not remove those installation steps. The finished result depends on the complete wall assembly, including the condition behind the old siding and how the new panels connect at openings and edges."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "catalogTitle": "Explore the Ply Gem Performance Collection",
+    "catalogIntro": "Compare the actual panel families below. Color selection updates the siding on a sample home; original Ply Gem product photographs and profile-specific color guidance remain available with each product.",
+    "relatedLinks": [
+      {
+        "label": "Explore Variform products",
+        "href": "/products/siding/vinyl/variform/"
+      }
+    ]
+  },
+  "/products/roofing/shingles/owens-corning/": {
+    "title": "Owens Corning roofing shingles",
+    "description": "Compare Duration, Designer, FLEX, STORM and Oakridge shingles using genuine manufacturer color photographs. The nailing design, appearance and impact classification vary between lines. Explore product details with Roof King.",
+    "eyebrow": "Owens Corning product collection",
+    "heading": "Owens Corning roofing shingles.",
+    "copy": "Compare Duration, Designer, FLEX, STORM and Oakridge shingles using genuine manufacturer color photographs. The nailing design, appearance and impact classification vary between lines.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "Owens Corning"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What changes between Owens Corning products",
+    "secondary": [
+      {
+        "title": "Owens Corning Duration",
+        "copy": "Compare Duration, Designer, FLEX, STORM and Oakridge shingles using genuine manufacturer color photographs. The nailing design, appearance and impact classification vary between lines."
+      },
+      {
+        "title": "Roof assembly and coverage",
+        "copy": "Shingles work with underlayment, flashing, ventilation and the roof deck. Laboratory classifications and wind warranty terms describe different things and cannot guarantee performance in a particular storm."
+      },
+      {
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact shingles and roof details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
+        "href": "/roofing/",
+        "label": "Explore roofing services"
+      }
+    ],
+    "catalogItems": [
+      {
+        "productId": "owens-trudefinition-duration",
+        "title": "Owens Corning Duration",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Duration combines a dimensional shingle profile with the SureNail reinforced fastening strip. Its published Class 3 impact classification and genuine color photographs make it a useful starting point for comparing the Duration family."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "owens-trudefinition-duration-designer",
+        "title": "Owens Corning Duration Designer",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Duration Designer uses distinctive color blends to create a more varied dimensional roof appearance. It shares the Duration family’s SureNail fastening design, with a published Class 3 impact classification."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "owens-trudefinition-duration-flex",
+        "title": "Owens Corning Duration FLEX",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Duration FLEX uses a polymer-modified asphalt formulation and has a published Class 4 impact classification. Compare its genuine color photos with the other Duration lines while keeping the impact rating separate from hail-damage warranty coverage."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "owens-trudefinition-duration-storm",
+        "title": "Owens Corning Duration STORM",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Duration STORM combines a reinforced nailing area with a published Class 4 impact classification. The rating describes a controlled test; flashing, deck condition and the complete roof assembly still matter in a storm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "owens-oakridge",
+        "title": "Owens Corning Oakridge",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Oakridge is a laminated fiberglass asphalt shingle with a warm, dimensional appearance. It offers a different fastening design from Duration, so compare the product specification as well as the color."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reference": {
+      "label": "Owens Corning manufacturer product information",
+      "href": "https://www.owenscorning.com/en-us/roofing/shingles/trudefinition-duration"
+    },
+    "logo": {
+      "src": "/media/products/manufacturers/fe74ac7c4ffbbb6f-logo.webp",
+      "alt": "Owens Corning"
+    }
+  },
+  "/products/roofing/shingles/iko/": {
+    "title": "IKO roofing shingles",
+    "description": "Compare architectural, performance and designer shingles. Look at the shape, exposure and impact classification as well as the color; cool-roof selections and regional supply vary. Explore product details with Roof King.",
+    "eyebrow": "IKO product collection",
+    "heading": "IKO roofing shingles.",
+    "copy": "Compare architectural, performance and designer shingles. Look at the shape, exposure and impact classification as well as the color; cool-roof selections and regional supply vary.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Roofing Products",
+        "href": "/products/roofing/"
+      },
+      {
+        "label": "Shingles",
+        "href": "/products/roofing/shingles/"
+      },
+      {
+        "label": "IKO"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What changes between IKO products",
+    "secondary": [
+      {
+        "title": "Dynasty Performance Shingles",
+        "copy": "Compare architectural, performance and designer shingles. Look at the shape, exposure and impact classification as well as the color; cool-roof selections and regional supply vary."
+      },
+      {
+        "title": "Roof assembly and coverage",
+        "copy": "Shingles work with underlayment, flashing, ventilation and the roof deck. Laboratory classifications and wind warranty terms describe different things and cannot guarantee performance in a particular storm."
+      },
+      {
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact shingles and roof details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
+        "href": "/roofing/",
+        "label": "Explore roofing services"
+      }
+    ],
+    "catalogItems": [
+      {
+        "productId": "iko-dynasty",
+        "title": "Dynasty Performance Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "A wide ArmourZone nailing surface and Class 3 impact classification distinguish Dynasty from a basic architectural shingle. Its larger exposure creates a pronounced dimensional pattern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-nordic",
+        "title": "Nordic Performance Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Nordic combines a reinforced nailing area with a Class 4 impact classification. It is an option for homeowners comparing laboratory impact performance as well as the look of a dimensional roof."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-dynasty-cool-plus",
+        "title": "Dynasty Cool Colors Plus Performance Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Dynasty Cool Colors Plus combines the Dynasty profile with reflective color blends. Its cool-roof designation relates to the specific color and rating, and regional availability needs confirmation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-armourshake",
+        "title": "Armourshake Designer Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Armourshake uses a heavy, dimensional profile to suggest the uneven edges and depth of wood shakes. Different impact-rated versions are listed, so the exact package classification matters."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-royal-estate",
+        "title": "Royal Estate Designer Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Royal Estate creates a slate-like pattern in asphalt shingles. Its relatively compact exposure and sculpted shadow lines suit homeowners who want a different appearance from a conventional dimensional shingle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-crowne-slate-designer-shingles",
+        "title": "Crowne Slate Designer Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Crowne Slate uses a broad ten-inch exposure and a slate-inspired shape. The large visible face creates a distinctive roof pattern, with a published Class 4 impact classification."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-cambridge",
+        "title": "Cambridge Architectural Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cambridge is a dimensional fiberglass asphalt shingle with a wood-shake-inspired pattern. Its current manufacturer page lists Class 3 impact resistance; confirm the classification on the material supplied."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "iko-cambridge-cool-colors",
+        "title": "Cambridge Cool Colors Plus Architectural Shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cambridge Cool Colors Plus adds reflective color choices to the Cambridge architectural profile. Compare the exact color’s roof rating and local supply rather than treating every Cambridge color as a cool-roof product."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reference": {
+      "label": "IKO manufacturer product information",
+      "href": "https://www.iko.com/na/product/dynasty/"
+    },
+    "logo": {
+      "src": "/media/products/manufacturers/351df4028206d0a0-logo.webp",
+      "alt": "IKO"
+    }
+  },
+  "/products/siding/vinyl/alside/": {
+    "title": "Alside vinyl siding",
+    "description": "Odyssey Plus and Charter Oak are Alside vinyl siding lines. Compare the .044-inch Odyssey Plus panel with the .046-inch Charter Oak panel, then choose the course width and clapboard or Dutch-lap appearance. Explore product details with Roof King.",
+    "eyebrow": "Alside product collection",
+    "heading": "Alside vinyl siding.",
+    "copy": "Odyssey Plus and Charter Oak are Alside vinyl siding lines. Compare the .044-inch Odyssey Plus panel with the .046-inch Charter Oak panel, then choose the course width and clapboard or Dutch-lap appearance.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding",
+        "href": "/products/siding/vinyl/"
+      },
+      {
+        "label": "Alside"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What changes between Alside products",
+    "secondary": [
+      {
+        "title": "Charter Oak Reinforced Premium Vinyl Siding",
+        "copy": "Oak-grain horizontal panels combine a .046-inch wall with the TriBeam reinforcement design. Charter Oak suits broad elevations where straight courses and deep shadow lines are central to the appearance."
+      },
+      {
+        "title": "Profiles and color references",
+        "copy": "Use the interactive house preview to compare the color palette. The sample home illustrates color rather than an exact installation; confirm the chosen profile, length and physical sample."
+      },
+      {
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "catalogItems": [
+      {
+        "productId": "alside-charter-oak",
+        "title": "Charter Oak Reinforced Premium Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Oak-grain horizontal panels combine a .046-inch wall with the TriBeam reinforcement design. Charter Oak suits broad elevations where straight courses and deep shadow lines are central to the appearance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "alside-odyssey-plus",
+        "title": "Odyssey Plus Premium Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Odyssey Plus pairs .044-inch vinyl panels with SecureLock connections. Four horizontal profiles let you choose a narrower or wider course and a flat clapboard face or a recessed Dutch-lap edge."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reference": {
+      "label": "Alside manufacturer product information",
+      "href": "https://www.alside.com/product-catalog/siding/charter-oak/"
+    },
+    "logo": {
+      "src": "/media/products/manufacturers/692a50db4af2c789-logo.webp",
+      "alt": "Alside"
+    }
+  },
+  "/products/siding/vinyl/norandex/": {
+    "title": "Norandex vinyl siding",
+    "description": "Compare horizontal, vertical, beaded, insulated and shake-style siding. These lines differ in material, panel thickness, projection and profile, even when they share a color name. Explore product details with Roof King.",
+    "eyebrow": "Norandex product collection",
+    "heading": "Norandex vinyl siding.",
+    "copy": "Compare horizontal, vertical, beaded, insulated and shake-style siding. These lines differ in material, panel thickness, projection and profile, even when they share a color name.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding",
+        "href": "/products/siding/vinyl/"
+      },
+      {
+        "label": "Norandex"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What changes between Norandex products",
+    "secondary": [
+      {
+        "title": "Polar Wall Plus! Insulated Vinyl Siding",
+        "copy": "Polar Wall Plus combines a vinyl face with insulating foam backing. Its thicker assembly changes the depth at windows and corners, so the trim and transitions need to be planned with the panel rather than treated as an afterthought."
+      },
+      {
+        "title": "Profiles and color references",
+        "copy": "Use the interactive house preview to compare the color palette. The sample home illustrates color rather than an exact installation; confirm the chosen profile, length and physical sample."
+      },
+      {
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "catalogItems": [
+      {
+        "productId": "norandex-polar-wall-plus",
+        "title": "Polar Wall Plus! Insulated Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Polar Wall Plus combines a vinyl face with insulating foam backing. Its thicker assembly changes the depth at windows and corners, so the trim and transitions need to be planned with the panel rather than treated as an afterthought."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-great-barrier",
+        "title": "Great Barrier Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Great Barrier offers .046-inch panels with extended 16.66-foot lengths available to reduce joints across long walls. Its three-quarter-inch projection creates a stronger shadow than a flatter siding profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-sturdiplank-s7",
+        "title": "SturdiPlank Single 7\"",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "SturdiPlank S7 uses a single seven-inch exposure instead of multiple narrow courses molded into one panel. The wider face and three-quarter-inch projection give horizontal walls a more substantial clapboard rhythm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-cedar-knolls",
+        "title": "Cedar Knolls Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cedar Knolls brings a hand-cut cedar appearance to .044-inch vinyl siding. Its five-eighths-inch projection and three profile choices make it useful for coordinating different wall widths without changing the overall material."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-sterling",
+        "title": "Sterling Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Sterling is distinguished by its .048-inch panel and NailRIGHT fastening layout. The five-eighths-inch projection gives the wall visible depth; the fastening guide helps establish the intended attachment pattern."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-woodsman-select",
+        "title": "Woodsman Select Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Woodsman Select uses a rough-sawn cedar appearance with four clapboard and Dutch-lap choices. Its .042-inch panels offer a different specification from the thicker Great Barrier and Cedar Knolls lines, even when the color names overlap."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-summit-manor",
+        "title": "Summit Manor Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Summit Manor offers a .040-inch panel with a half-inch projection. Choose between two clapboard widths and a four-and-a-half-inch Dutch-lap profile to set the scale of the horizontal courses."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-rustic-hill",
+        "title": "Rustic Hill shakes & shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Rustic Hill is a polypropylene shake-and-shingle family, rather than conventional horizontal PVC siding. Cape Cod shingles, traditional shakes and hand-split shakes have different textures and panel thicknesses, making them distinct choices for gables or full walls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-home-accents",
+        "title": "Home Accents shakes & shingles",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Home Accents offers staggered shake, split shake and perfection shingle looks at a seven-inch exposure. Staggered edges create an irregular pattern, while perfection shingles give the wall a more orderly finish."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-cambridge-beaded",
+        "title": "Cambridge Beaded Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cambridge Beaded creates a traditional U-grooved bead along each course. Its brushed low-gloss surface and five-eighths-inch projection produce a different appearance from a cedar-grain Dutch lap."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "norandex-board-and-batten",
+        "title": "Board & Batten Vinyl Siding",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "This vertical profile pairs a wide, flat board with a narrow raised batten. Seven-inch exposure gives gables and full elevations a regular vertical pattern, with a .052-inch panel and half-inch projection."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reference": {
+      "label": "Norandex manufacturer product information",
+      "href": "https://www.norandex.com/products/vinyl-siding/dutchlap-clapboard/polar-wall-plus/"
+    },
+    "logo": {
+      "src": "/media/products/manufacturers/e5ae14698c6ffbab-logo.webp",
+      "alt": "Norandex"
+    }
+  },
+  "/products/siding/vinyl/exterior-portfolio/": {
+    "title": "Exterior Portfolio vinyl siding",
+    "description": "Compare six Exterior Portfolio siding lines, from the brushed bead of Carolina Sands to vertical Board & Batten. The color references below come from the manufacturer’s current product matrix, with profile availability shown for each selection. Explore product details with Roof King.",
+    "eyebrow": "Exterior Portfolio product collection",
+    "heading": "Exterior Portfolio vinyl siding.",
+    "copy": "Compare six Exterior Portfolio siding lines, from the brushed bead of Carolina Sands to vertical Board & Batten. The color references below come from the manufacturer’s current product matrix, with profile availability shown for each selection.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Siding Products",
+        "href": "/products/siding/"
+      },
+      {
+        "label": "Vinyl Siding",
+        "href": "/products/siding/vinyl/"
+      },
+      {
+        "label": "Exterior Portfolio"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What changes between Exterior Portfolio products",
+    "secondary": [
+      {
+        "title": "Exterior Portfolio Carolina Sands",
+        "copy": "Carolina Sands uses a six-and-a-half-inch beaded profile with a low-gloss brushed surface. The .044-inch panel and five-eighths-inch profile edge give a restrained traditional look distinct from deep cedar-grain Dutch lap."
+      },
+      {
+        "title": "Profiles and color references",
+        "copy": "Use the interactive house preview to compare the color palette. The sample home illustrates color rather than an exact installation; confirm the chosen profile, length and physical sample."
+      },
+      {
+        "title": "Plan the installation with Roof King",
+        "copy": "Compare the exact siding, trim and wall details in your estimate, including preparation, attachment, finishing and applicable manufacturer coverage.",
+        "href": "/siding/",
+        "label": "Explore siding services"
+      }
+    ],
+    "catalogItems": [
+      {
+        "productId": "ep-carolina-sands-vinyl-siding",
+        "title": "Exterior Portfolio Carolina Sands",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Carolina Sands uses a six-and-a-half-inch beaded profile with a low-gloss brushed surface. The .044-inch panel and five-eighths-inch profile edge give a restrained traditional look distinct from deep cedar-grain Dutch lap."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "ep-board-batten-siding",
+        "title": "Exterior Portfolio EP Board & Batten",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Exterior Portfolio Board & Batten gives walls a repeated vertical pattern with a .046-inch panel. Its low-gloss cedar appearance works as either a full cladding or an accent against horizontal lap siding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "ep-premium-pointe-vinyl-siding",
+        "title": "Exterior Portfolio Premium Pointe",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Premium Pointe combines a .046-inch panel with a full rollover nail hem and a low-gloss cedar finish. Extended 16-foot lengths are offered to reduce visible seams; the current manufacturer color matrix shown here lists Dutch-lap variants."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "ep-market-square-siding",
+        "title": "Exterior Portfolio Market Square",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Market Square uses a .044-inch panel with a partial rollover nail hem and teardrop lock. Lap and Dutch-lap profiles create different shadow patterns, with color availability tied to the actual profile selected."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "ep-parkview-vinyl-siding",
+        "title": "Exterior Portfolio Parkview",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Parkview uses a .042-inch panel with a low-luster woodgrain surface. The published page describes several horizontal profiles; the current manufacturer color matrix shown here contains Dutch-lap selections."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "ep-elm-grove-vinyl-siding",
+        "title": "Exterior Portfolio Elm Grove",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Elm Grove brings a raised woodgrain texture to a .040-inch vinyl panel. Lap and Dutch-lap variants give it a traditional horizontal appearance, with a partial rollover nail hem in the attachment design."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reference": {
+      "label": "Exterior Portfolio manufacturer product information",
+      "href": "https://www.westlakeroyalbuildingproducts.com/siding-and-accessories/exterior-portfolio/carolina-sands-vinyl-siding"
+    },
+    "logo": {
+      "src": "/media/products/manufacturers/867e59c103bca7e2-logo.webp",
+      "alt": "Exterior Portfolio"
+    }
+  },
+  "/products/decking/wood/": {
+    "title": "Wood decking materials",
+    "description": "Compare cedar and pressure-treated decking, natural color, finishing, treatment and maintenance with Roof King.",
+    "eyebrow": "Decking materials",
+    "heading": "Real wood decking, chosen for the way you live.",
+    "copy": "Cedar and pressure-treated lumber are material choices rather than one manufacturer’s product line. Compare natural appearance, treatment, finishing and future care alongside the design of the deck.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Wood decking"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Cedar decking",
+        "href": "/products/decking/wood/cedar/",
+        "description": "Natural wood character, outdoor finishes and the care needed to retain the look.",
+        "action": "Explore cedar decking"
+      },
+      {
+        "title": "Pressure-treated decking",
+        "href": "/products/decking/wood/pressure-treated/",
+        "description": "Treated lumber selection, exposure ratings and compatible fasteners.",
+        "action": "Explore pressure-treated decking"
+      }
+    ],
+    "secondaryTitle": "The material is one part of the deck",
+    "secondary": [
+      {
+        "title": "Boards and framing have different jobs",
+        "copy": "The walking surface and the supporting structure need separate material choices. Board species, grade and dimensions should be identified alongside the framing, stairs and rails."
+      },
+      {
+        "title": "Finish and future care",
+        "copy": "Wood changes with weather and moisture. Discuss the appearance you want to retain and the cleaning and refinishing work that goes with it."
+      },
+      {
+        "title": "Plan a complete deck",
+        "copy": "Review the layout, existing structure, steps, rails and water-management details together with Roof King.",
+        "href": "/decks/",
+        "label": "Explore deck services"
+      }
+    ]
+  },
+  "/products/decking/wood/cedar/": {
+    "title": "Cedar decking",
+    "description": "Explore cedar deck appearance, finishing and maintenance, and plan the material and installation details with Roof King.",
+    "eyebrow": "Wood decking · Cedar",
+    "heading": "Cedar decking with natural character.",
+    "copy": "Cedar brings visible grain and natural color variation to an outdoor deck. The finish you choose determines how much of that original appearance you retain as the boards weather.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Wood decking",
+        "href": "/products/decking/wood/"
+      },
+      {
+        "label": "Cedar"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "What to know before choosing cedar",
+    "secondary": [
+      {
+        "title": "A natural surface that changes outdoors",
+        "copy": "Exposure changes wood’s appearance. A transparent or semi-transparent outdoor finish can retain visible grain, while unfinished cedar develops a weathered surface; neither choice removes the need for cleaning and inspection."
+      },
+      {
+        "title": "Finish dry, prepared boards",
+        "copy": "Cedar’s surface condition affects how evenly a coating absorbs. Dry new boards may be finished immediately; weathered surfaces need suitable preparation before a new finish is applied."
+      },
+      {
+        "title": "Plan care alongside the design",
+        "copy": "Sun, rain and foot traffic affect the coating. Choose an exterior deck finish and maintenance plan for the look you want to keep, then coordinate the deck details with Roof King.",
+        "href": "/decks/refinishing/",
+        "label": "Explore deck refinishing"
+      }
+    ],
+    "reference": {
+      "label": "Real Cedar finishing and maintenance guidance",
+      "href": "https://www.realcedar.com/how-to-finish-and-maintain-your-cedar-deck"
+    }
+  },
+  "/products/decking/wood/pressure-treated/": {
+    "title": "Pressure-treated decking",
+    "description": "Explore pressure-treated deck boards, exposure requirements, corrosion-resistant fasteners and finishing with Roof King.",
+    "eyebrow": "Wood decking · Pressure-treated lumber",
+    "heading": "Pressure-treated decking, specified for outdoor use.",
+    "copy": "Pressure treatment helps wood resist decay and insect attack for its intended use. The treatment label, lumber grade and hardware compatibility matter as much as the appearance of the deck boards.",
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Wood decking",
+        "href": "/products/decking/wood/"
+      },
+      {
+        "label": "Pressure-treated decking"
+      }
+    ],
+    "cards": [],
+    "secondaryTitle": "Choose the lumber and connections together",
+    "secondary": [
+      {
+        "title": "Match treatment to exposure",
+        "copy": "Above-ground deck boards and members exposed to ground contact can require different treatment ratings. Identify the intended use on the lumber tag rather than assuming every treated board has the same protection."
+      },
+      {
+        "title": "Use compatible connections",
+        "copy": "Treated lumber requires corrosion-resistant fasteners and connectors selected for the preservative and exposure. Compatible hardware helps protect the connections that carry the deck’s loads."
+      },
+      {
+        "title": "Make room for wood movement and care",
+        "copy": "Moisture changes can affect board dimensions and finish readiness. Plan board spacing, drainage and coating preparation around the material supplied, and include ongoing cleaning and inspection in your maintenance plan.",
+        "href": "/decks/installations/",
+        "label": "Explore deck installation"
+      }
+    ],
+    "reference": {
+      "label": "Southern Forest Products Association deck connection guidance",
+      "href": "https://www.southernpine.com/using-southern-pine/decks-and-porches/connections-and-deck-fasteners/"
+    }
+  },
+  "/products/decking/composite/trex/decking/": {
+    "title": "Trex Decking",
+    "description": "Explore six decking families, from finely detailed Signature boards to scalloped Enhance boards and Refuge PVC. Open a collection to compare its colors, material and board profiles.",
+    "eyebrow": "Trex · Decking",
+    "heading": "Trex deck boards, grain and color.",
+    "copy": "Explore six decking families, from finely detailed Signature boards to scalloped Enhance boards and Refuge PVC. Open a collection to compare its colors, material and board profiles.",
+    "logo": {
+      "src": "/media/wordpress/509654d4f5d1-trex.png",
+      "alt": "Trex"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Composite Decking",
+        "href": "/products/decking/composite/"
+      },
+      {
+        "label": "Trex",
+        "href": "/products/decking/composite/trex/"
+      },
+      {
+        "label": "Decking"
+      }
+    ],
+    "cards": [],
+    "catalogTitle": "Explore Trex decking",
+    "catalogIntro": "Explore six decking families, from finely detailed Signature boards to scalloped Enhance boards and Refuge PVC. Open a collection to compare its colors, material and board profiles.",
+    "catalogItems": [
+      {
+        "productId": "trex-signature",
+        "title": "Trex Signature Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Signature decking emphasizes a finely detailed natural appearance in composite boards. It is a separate decking product from Trex Signature railing; confirm current local supply and the exact decking specification before planning a new project."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-lineage",
+        "title": "Trex Transcend Lineage Composite Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Transcend Lineage offers a refined grain pattern in seven colors with SunComfortable technology. Its heat-mitigating design is compared with Trex’s original boards; the surface can still become hot in direct sunlight."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-transcend",
+        "title": "Trex Transcend Composite Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Transcend combines a pronounced wood-grain surface with five multi-tonal colors. The protective shell reduces routine finishing work, while grooved and square-edge profiles serve different fastening and edge-detail needs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-select",
+        "title": "Trex Select Composite Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Select offers a more restrained grain pattern and a 35-year residential fade-and-stain warranty. Its newer Whiskey Barrel, Malted Barley and Millstone colors include heat-mitigating technology; that feature does not apply automatically to every Select color."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-enhance",
+        "title": "Trex Enhance Composite Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Enhance uses a scalloped underside to reduce board weight. Ten colors span solid and blended looks, with heat-mitigating technology on Cinnamon Cove, Golden Hour, Honey Grove, Pebble Beach and Tide Pool."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-refuge",
+        "title": "Trex Refuge PVC Decking",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Trex Refuge is PVC decking, with a wire-brushed surface in Martis Valley and Point Reyes. Its published Class A flame-spread rating concerns this decking product; it is different from a roof-assembly fire classification and does not make a home fireproof."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "secondaryTitle": "",
+    "secondary": [],
+    "relatedLinks": [
+      {
+        "label": "All Trex collections",
+        "href": "/products/decking/composite/trex/"
+      }
+    ],
+    "reference": {
+      "label": "Trex manufacturer product information",
+      "href": "https://www.trex.com/products/decking/signature/"
+    }
+  },
+  "/products/decking/composite/trex/railing/": {
+    "title": "Trex Railing",
+    "description": "Compare aluminum, composite and steel railing systems with baluster, glass, mesh, rod and cable infill options. Each product page explains the matching posts, connections and stair details.",
+    "eyebrow": "Trex · Railing",
+    "heading": "Trex railing for your deck and stairs.",
+    "copy": "Compare aluminum, composite and steel railing systems with baluster, glass, mesh, rod and cable infill options. Each product page explains the matching posts, connections and stair details.",
+    "logo": {
+      "src": "/media/wordpress/509654d4f5d1-trex.png",
+      "alt": "Trex"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Composite Decking",
+        "href": "/products/decking/composite/"
+      },
+      {
+        "label": "Trex",
+        "href": "/products/decking/composite/trex/"
+      },
+      {
+        "label": "Railing"
+      }
+    ],
+    "cards": [],
+    "catalogTitle": "Explore Trex railing",
+    "catalogIntro": "Compare aluminum, composite and steel railing systems with baluster, glass, mesh, rod and cable infill options. Each product page explains the matching posts, connections and stair details.",
+    "catalogItems": [
+      {
+        "productId": "trex-signature-aluminum-railing",
+        "title": "Trex Signature aluminum railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "A slender aluminum frame and vertical balusters keep the perimeter visually light. Compare post positions and stair transitions alongside the rail finish so the entire run reads as one system."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-signature-glass-railing",
+        "title": "Trex Signature glass railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Glass infill opens sightlines while the surrounding aluminum frame defines each section. Panel sizing, support and stair details need to be planned together; glass is a distinct infill choice, not a substitute inserted into an unrelated rail kit."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-signature-mesh-railing",
+        "title": "Trex Signature mesh railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Mesh infill gives the deck a more architectural, industrial appearance. The perimeter frame remains part of the design, with dedicated infill and mounting components selected for level and stair sections."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-signature-rod-railing",
+        "title": "Trex Signature Rod Rail",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Horizontal rods create long visual lines across the deck edge. Rail sections, posts and stair components must be selected as the Rod Rail assembly rather than mixed with cable or vertical-baluster parts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-signature-x-series-cable-railing",
+        "title": "Trex Signature X-Series cable railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Cable infill offers an open view with narrow horizontal lines. End conditions, cable connections and the supporting posts are central to the system, so the layout should be resolved before deck boards and post locations are finalized."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-signature-x-series-glass-railing",
+        "title": "Trex Signature X-Series frameless glass railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Frameless glass places the emphasis on the view beyond the deck. The glass panels and supporting X-Series posts work as a specified assembly, with the stair and corner arrangements considered alongside the level runs."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-transcend-railing",
+        "title": "Trex Transcend composite railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Transcend provides a substantial, traditional rail profile with coordinated posts, caps and infill choices. It suits a deck where the railing is a visible design feature rather than a minimal outline."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-select-classic-railing",
+        "title": "Trex Select Classic railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Select Classic combines familiar rail proportions with metal balusters. Review the rail and post colors as an assembly, including the stair sections, rather than choosing parts from photographs of different configurations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-select-t-rail",
+        "title": "Trex Select T-Rail",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The T-shaped top rail gives this Select option a distinct hand profile. Its rails, reinforcement and balusters are a specific configuration; the connections should be reviewed with the posts and stair layout."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-select-aluminum-railing",
+        "title": "Trex Select aluminum railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Select aluminum railing offers a metal alternative within the Select range. Its slim sections suit a clean perimeter, with matching rail kits, mounting hardware and gates considered as a complete layout."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-select-mesh-railing",
+        "title": "Trex Select mesh railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Select mesh changes the look of the infill while retaining a defined perimeter rail. The mesh panels and accessory kits should be matched to their specified rail and post assembly, including separate stair details."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-enhance-steel-railing",
+        "title": "Trex Enhance steel railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Enhance steel railing provides a simple metal perimeter with a more open view than broad solid rails. Consider its finish, mounting hardware and stair kits together when comparing it with the composite Enhance option."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-enhance-composite-railing",
+        "title": "Trex Enhance composite railing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Enhance composite railing uses a traditional top-and-bottom rail arrangement. It is a separate choice from Enhance steel railing, with its own rails, post sleeves and installation components."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "secondaryTitle": "",
+    "secondary": [],
+    "relatedLinks": [
+      {
+        "label": "All Trex collections",
+        "href": "/products/decking/composite/trex/"
+      }
+    ],
+    "reference": {
+      "label": "Trex manufacturer product information",
+      "href": "https://www.trex.com/products/decking/signature/"
+    }
+  },
+  "/products/decking/composite/trex/accessories/": {
+    "title": "Trex Deck accessories",
+    "description": "Explore fascia, fastening, deck lighting and under-deck drainage. Match each accessory to the selected boards, railing and deck construction.",
+    "eyebrow": "Trex · Deck accessories",
+    "heading": "The finishing details for your Trex deck.",
+    "copy": "Explore fascia, fastening, deck lighting and under-deck drainage. Match each accessory to the selected boards, railing and deck construction.",
+    "logo": {
+      "src": "/media/wordpress/509654d4f5d1-trex.png",
+      "alt": "Trex"
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Products",
+        "href": "/products/"
+      },
+      {
+        "label": "Decking Products",
+        "href": "/products/decking/"
+      },
+      {
+        "label": "Composite Decking",
+        "href": "/products/decking/composite/"
+      },
+      {
+        "label": "Trex",
+        "href": "/products/decking/composite/trex/"
+      },
+      {
+        "label": "Deck accessories"
+      }
+    ],
+    "cards": [],
+    "catalogTitle": "Explore Trex deck accessories",
+    "catalogIntro": "Explore fascia, fastening, deck lighting and under-deck drainage. Match each accessory to the selected boards, railing and deck construction.",
+    "catalogItems": [
+      {
+        "productId": "trex-fascia",
+        "title": "Trex Fascia boards",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Fascia covers the deck rim and gives stair edges a finished appearance. It is a vertical finishing board, not the structural rim joist or a substitute for walking-surface decking. Dedicated fascia fasteners accommodate movement without treating the board like a deck plank."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-hideaway-fasteners",
+        "title": "Trex Hideaway fasteners and tools",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Hideaway includes fastening choices for grooved decking, face-fastened boards and fascia. Hidden clips attach at the board edges; screws and plugs address other locations. Selecting the fastener by board profile and application avoids using a fascia connection in the walking surface."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-deck-lighting",
+        "title": "Trex DeckLighting",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Deck lighting helps define steps, railings and the edges of outdoor living areas after dark. Plan fixture locations, wiring access and the power supply before enclosing posts or finishing the underside of the deck."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "productId": "trex-rainescape",
+        "title": "Trex RainEscape under-deck drainage",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "RainEscape collects water below the deck boards and directs it away through troughs and downspouts. It is most useful when you want to use the space under an elevated deck. Drainage routing and access need to be resolved before the walking surface is installed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "secondaryTitle": "",
+    "secondary": [],
+    "relatedLinks": [
+      {
+        "label": "All Trex collections",
+        "href": "/products/decking/composite/trex/"
+      }
+    ],
+    "reference": {
+      "label": "Trex manufacturer product information",
+      "href": "https://www.trex.com/products/decking/signature/"
     }
   }
 }

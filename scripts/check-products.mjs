@@ -61,7 +61,7 @@ for(const [title,product]of Object.entries(catalog)){
 assert.equal(colors,73);
 console.log(`Product/color provenance, all variant assets, default SSR images, no-JS links and warranty/spec panels passed for 11 products / ${colors} colors.`);
 const detailRecords=JSON.parse(await fs.readFile('src/data/product-details.json','utf8'));
-for(const [path,data]of Object.entries(detailRecords)){
+for(const [path,data]of Object.entries(detailRecords).filter(([,data])=>catalog[data.key])){
   const detail=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
   assert.equal(detail('h1').length,1);assert.equal(detail('main').length,1);
   assert.equal(detail('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
@@ -73,12 +73,12 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(schemas.find(s=>s['@type']==='Product').name,data.title);
   assert.equal(schemas.find(s=>s['@type']==='Product').offers,undefined);
   assert.equal(detail('.rk-product-details details').length,0);
-  assert.equal(detail('[data-product-panel]').length,data.key==='Timberline HDZ'?3:2);
+  assert.equal(detail('[data-product-panel]').length,3);
   assert.equal(detail('#specifications dl > div').length,catalog[data.key].specs.length);
-  assert.equal(detail('.rk-product-tab-nav a').length,data.key==='Timberline HDZ'?3:2);
+  assert.equal(detail('.rk-product-tab-nav a').length,3);
   assert.equal(detail('.rk-product-photo .rk-product-badge').length,4);
   const record=catalog[data.key];
-  assert.equal(detail('[data-component=ProductCompanions]').length,record.id==='timberline-hdz'?1:0,'Pairings require an explicit reviewed mapping.');
+  assert.equal(detail('[data-component=ProductCompanions]').length,1,'Pairings require an explicit reviewed mapping.');
   if(record.id==='timberline-hdz'){
     assert.equal(detail('[data-companion]').length,5);
     assert.equal(detail('.rk-accessory-photo img[width][height][alt]').length,5);
@@ -92,7 +92,7 @@ for(const [path,data]of Object.entries(detailRecords)){
   assert.equal(detail('.rk-product-swatches a').length,record.colors.length);
   assert.ok($(`a[href="${path}"]`).length,'GAF catalog must link to each detail record');
 }
-assert.equal(Object.keys(detailRecords).length,11);
+assert.equal(Object.values(detailRecords).filter(data=>catalog[data.key]).length,11);
 assert.deepEqual($('.rk-native-breadcrumbs li').map((i,e)=>$(e).text()).get(),['Home','Products','Roofing Products','Shingles','GAF']);
 assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com/roofing/gaf/types/');
 for(const path of ['/products/','/products/roofing/','/products/roofing/shingles/']){
@@ -106,7 +106,7 @@ const homeBrands=cheerio.load(await fs.readFile('dist/index.html','utf8'));
 for(const name of ['Variform','LP SmartSide','Trex','James Hardie','Ply Gem','Alu-Rex','LeafFilter']){
   const path=brandPages[name];assert.ok(homeBrands('.rk-home-brand-mark[href="'+path+'"]').length,'Logo must link internally: '+name);
   const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('h1').length,1);assert.equal(page('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
-  assert.ok(page('.rk-native-breadcrumbs').text().includes(name));assert.ok(page('main').text().includes('manufacturer product information'));
+  assert.ok(page('.rk-native-breadcrumbs').text().includes(name));assert.ok(page(`a[href="${hubs[path].reference.href}"]`).length,'Primary manufacturer reference required: '+path);
 }
 for(const path of Object.keys(hubs)){const page=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));assert.equal(page('[data-product-pillar=native]').length,1);}
 console.log('Seven internal brand overviews, shared logo links and all material/category hubs passed.');

@@ -1,17 +1,19 @@
-# .github
+# Repository automation
 
-GitHub repository automation.
+Read the root handbook before changing workflows. CI verifies the source and preserved URL contract; release workflows are external actions with a separate recovery/live-verification boundary. Keep dependency versions pinned, secret values in encrypted environment storage and normal builds independent of private authoring inputs.
 
-## Files
+<!-- directory-inventory:start -->
+## Directory inventory
 
-- No direct content files.
+Parent guidance: [repository](../ai-context.md).
 
-## Subdirectories
+### Direct files
 
-- `workflows/` - read its ai-context.md.
+No direct source files.
 
-## Change checks
+### Child directories
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+- [workflows/](workflows/ai-context.md)
 
-Cloudways review deployment is configured in deploy-cloudways.yml on main commits using the cloudways-review environment. Credentials stay in encrypted environment secrets. Only dist is uploaded.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

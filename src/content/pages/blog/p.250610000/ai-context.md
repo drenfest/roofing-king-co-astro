@@ -1,15 +1,19 @@
 # src/content/pages/blog/p.250610000
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- directory-inventory:start -->
+## Directory inventory
 
-- No direct content files.
+Parent guidance: [src/content/pages/blog](../ai-context.md).
 
-## Subdirectories
+### Direct files
 
-- `how-to-spot-roof-damage-this-storm-season/` - read its ai-context.md.
+No direct source files.
 
-## Change checks
+### Child directories
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+- [how-to-spot-roof-damage-this-storm-season/](how-to-spot-roof-damage-this-storm-season/ai-context.md)
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

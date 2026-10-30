@@ -2121,3 +2121,5 @@ body.rk-lightbox-open {
     justify-self: center;
   }
 }
+/* Alside supplies a white transparent mark; retain contrast on the ivory brand strip. */
+[data-brand-id="alside"] img{filter:brightness(0);}

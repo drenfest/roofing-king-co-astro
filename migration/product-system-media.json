@@ -1,0 +1,772 @@
+{
+  "checkedAt": "2026-10-29",
+  "assets": [
+    {
+      "productId": "trex-signature-aluminum-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-vert-bk-outline-BK36RODHVERTK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/60b920863d87-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8264
+        },
+        {
+          "src": "/media/products/systems/60b920863d87-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 21396
+        },
+        {
+          "src": "/media/products/systems/60b920863d87-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 33896
+        },
+        {
+          "src": "/media/products/systems/60b920863d87-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 28376
+        }
+      ]
+    },
+    {
+      "productId": "trex-signature-glass-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-glass-bk-outline-BKA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/c91e60abe216-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 3370
+        },
+        {
+          "src": "/media/products/systems/c91e60abe216-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 6742
+        },
+        {
+          "src": "/media/products/systems/c91e60abe216-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 11198
+        },
+        {
+          "src": "/media/products/systems/c91e60abe216-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 9792
+        }
+      ]
+    },
+    {
+      "productId": "trex-signature-mesh-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-mesh-bk-outline-BKA0636PNLHRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/95657f067f28-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 17362
+        },
+        {
+          "src": "/media/products/systems/95657f067f28-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 40742
+        },
+        {
+          "src": "/media/products/systems/95657f067f28-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 59468
+        },
+        {
+          "src": "/media/products/systems/95657f067f28-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 46340
+        }
+      ]
+    },
+    {
+      "productId": "trex-signature-rod-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-rod-rail-bk-outline-BKBKROD0636HRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/9555e8ff1b7a-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 7828
+        },
+        {
+          "src": "/media/products/systems/9555e8ff1b7a-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 20644
+        },
+        {
+          "src": "/media/products/systems/9555e8ff1b7a-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 31580
+        },
+        {
+          "src": "/media/products/systems/9555e8ff1b7a-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 22976
+        }
+      ]
+    },
+    {
+      "productId": "trex-signature-x-series-cable-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-cable-railing-hz-sd-outline-BKAX0636CBLHRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/5f1e8b223028-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 5820
+        },
+        {
+          "src": "/media/products/systems/5f1e8b223028-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 11268
+        },
+        {
+          "src": "/media/products/systems/5f1e8b223028-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 23934
+        },
+        {
+          "src": "/media/products/systems/5f1e8b223028-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 12938
+        }
+      ]
+    },
+    {
+      "productId": "trex-signature-x-series-glass-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-frameless-glass-railing-hz-sd-outline-SDA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/f6a34aadd654-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 1392
+        },
+        {
+          "src": "/media/products/systems/f6a34aadd654-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 3318
+        },
+        {
+          "src": "/media/products/systems/f6a34aadd654-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 4636
+        },
+        {
+          "src": "/media/products/systems/f6a34aadd654-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 4306
+        }
+      ]
+    },
+    {
+      "productId": "trex-transcend-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/trn-railing-square-hz-bk-outline-BK0636HRKFS?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/bdf1a2abbce5-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8958
+        },
+        {
+          "src": "/media/products/systems/bdf1a2abbce5-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 19672
+        },
+        {
+          "src": "/media/products/systems/bdf1a2abbce5-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 33092
+        },
+        {
+          "src": "/media/products/systems/bdf1a2abbce5-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 27734
+        }
+      ]
+    },
+    {
+      "productId": "trex-select-classic-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/enh-composite-railing-hz-wt-outline-WTRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/b9488e68518a-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8968
+        },
+        {
+          "src": "/media/products/systems/b9488e68518a-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 17428
+        },
+        {
+          "src": "/media/products/systems/b9488e68518a-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 29410
+        },
+        {
+          "src": "/media/products/systems/b9488e68518a-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 21704
+        }
+      ]
+    },
+    {
+      "productId": "trex-select-t-rail",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sel-t-rail-alum-railing-rd-hz-wt-outline-WTRD0636HSELTRK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/9641db3e9106-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 9030
+        },
+        {
+          "src": "/media/products/systems/9641db3e9106-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 20980
+        },
+        {
+          "src": "/media/products/systems/9641db3e9106-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 34500
+        },
+        {
+          "src": "/media/products/systems/9641db3e9106-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 26458
+        }
+      ]
+    },
+    {
+      "productId": "trex-select-aluminum-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sel-alum-railing-hz-bk-outline-BKSALSQ842HPNL?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/ca5edc9fd41c-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 6450
+        },
+        {
+          "src": "/media/products/systems/ca5edc9fd41c-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 15286
+        },
+        {
+          "src": "/media/products/systems/ca5edc9fd41c-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 24104
+        },
+        {
+          "src": "/media/products/systems/ca5edc9fd41c-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 19538
+        }
+      ]
+    },
+    {
+      "productId": "trex-select-mesh-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sel-mesh-railing-hz-bk-outline-BKMESH06HSELK?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/2751a72c317d-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8330
+        },
+        {
+          "src": "/media/products/systems/2751a72c317d-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 17228
+        },
+        {
+          "src": "/media/products/systems/2751a72c317d-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 22602
+        },
+        {
+          "src": "/media/products/systems/2751a72c317d-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 20358
+        }
+      ]
+    },
+    {
+      "productId": "trex-enhance-steel-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/enh-steel-railing-hz-bk-outline-BKSTLSQ0842HENPNL?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/219c6332971e-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8664
+        },
+        {
+          "src": "/media/products/systems/219c6332971e-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 19972
+        },
+        {
+          "src": "/media/products/systems/219c6332971e-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 32168
+        },
+        {
+          "src": "/media/products/systems/219c6332971e-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 25368
+        }
+      ]
+    },
+    {
+      "productId": "trex-enhance-composite-railing",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sku-enh-composite-railing-hz-bk-outline-BKRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+      "sourceWidth": 1016,
+      "sourceHeight": 516,
+      "variants": [
+        {
+          "src": "/media/products/systems/1b6feb46a984-320.webp",
+          "width": 320,
+          "height": 163,
+          "bytes": 8572
+        },
+        {
+          "src": "/media/products/systems/1b6feb46a984-640.webp",
+          "width": 640,
+          "height": 325,
+          "bytes": 17954
+        },
+        {
+          "src": "/media/products/systems/1b6feb46a984-960.webp",
+          "width": 960,
+          "height": 488,
+          "bytes": 30790
+        },
+        {
+          "src": "/media/products/systems/1b6feb46a984-1016.webp",
+          "width": 1016,
+          "height": 516,
+          "bytes": 25412
+        }
+      ]
+    },
+    {
+      "productId": "trex-fascia",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/enh-missouri-044-rh-enh-railing-wt-fascia-railing-section:Article-Image-Main",
+      "sourceWidth": 1016,
+      "sourceHeight": 665,
+      "variants": [
+        {
+          "src": "/media/products/systems/9ac609374f73-320.webp",
+          "width": 320,
+          "height": 209,
+          "bytes": 14210
+        },
+        {
+          "src": "/media/products/systems/9ac609374f73-640.webp",
+          "width": 640,
+          "height": 419,
+          "bytes": 43988
+        },
+        {
+          "src": "/media/products/systems/9ac609374f73-960.webp",
+          "width": 960,
+          "height": 628,
+          "bytes": 82792
+        },
+        {
+          "src": "/media/products/systems/9ac609374f73-1016.webp",
+          "width": 1016,
+          "height": 665,
+          "bytes": 94844
+        }
+      ]
+    },
+    {
+      "productId": "trex-hideaway-fasteners",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/deckingcomparison-002-trn-im-front-angle-overcast-hz-boards-resized:Hotspot-Module-Desktop",
+      "sourceWidth": 1440,
+      "sourceHeight": 800,
+      "variants": [
+        {
+          "src": "/media/products/systems/632ef104e748-320.webp",
+          "width": 320,
+          "height": 178,
+          "bytes": 10758
+        },
+        {
+          "src": "/media/products/systems/632ef104e748-640.webp",
+          "width": 640,
+          "height": 356,
+          "bytes": 40890
+        },
+        {
+          "src": "/media/products/systems/632ef104e748-960.webp",
+          "width": 960,
+          "height": 533,
+          "bytes": 87262
+        },
+        {
+          "src": "/media/products/systems/632ef104e748-1280.webp",
+          "width": 1280,
+          "height": 711,
+          "bytes": 141658
+        },
+        {
+          "src": "/media/products/systems/632ef104e748-1440.webp",
+          "width": 1440,
+          "height": 800,
+          "bytes": 174716
+        }
+      ]
+    },
+    {
+      "productId": "trex-deck-lighting",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sel-cgi-0008-ms-decking-fascia-bk-alum-railing-beauty-lighting-MS010612S2S64.jpg:Large",
+      "sourceWidth": 1260,
+      "sourceHeight": 720,
+      "variants": [
+        {
+          "src": "/media/products/systems/7d1338e08d5e-320.webp",
+          "width": 320,
+          "height": 183,
+          "bytes": 13614
+        },
+        {
+          "src": "/media/products/systems/7d1338e08d5e-640.webp",
+          "width": 640,
+          "height": 366,
+          "bytes": 44906
+        },
+        {
+          "src": "/media/products/systems/7d1338e08d5e-960.webp",
+          "width": 960,
+          "height": 549,
+          "bytes": 83592
+        },
+        {
+          "src": "/media/products/systems/7d1338e08d5e-1260.webp",
+          "width": 1260,
+          "height": 720,
+          "bytes": 128222
+        }
+      ]
+    },
+    {
+      "productId": "trex-rainescape",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/rainescape-ciprianni-002-under-deck-stairs-swing-warmth:Article-Image-Main",
+      "sourceWidth": 1016,
+      "sourceHeight": 665,
+      "variants": [
+        {
+          "src": "/media/products/systems/4b44ec95af97-320.webp",
+          "width": 320,
+          "height": 209,
+          "bytes": 21978
+        },
+        {
+          "src": "/media/products/systems/4b44ec95af97-640.webp",
+          "width": 640,
+          "height": 419,
+          "bytes": 74996
+        },
+        {
+          "src": "/media/products/systems/4b44ec95af97-960.webp",
+          "width": 960,
+          "height": 628,
+          "bytes": 149168
+        },
+        {
+          "src": "/media/products/systems/4b44ec95af97-1016.webp",
+          "width": 1016,
+          "height": 665,
+          "bytes": 173062
+        }
+      ]
+    },
+    {
+      "productId": "leaffilter-gutter-protection",
+      "sourceUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-desktop-hero-LeafFilter-assembly-process-1680x583.webp",
+      "sourceWidth": 1680,
+      "sourceHeight": 583,
+      "variants": [
+        {
+          "src": "/media/products/systems/6a767a0f9af1-320.webp",
+          "width": 320,
+          "height": 111,
+          "bytes": 4554
+        },
+        {
+          "src": "/media/products/systems/6a767a0f9af1-640.webp",
+          "width": 640,
+          "height": 222,
+          "bytes": 10810
+        },
+        {
+          "src": "/media/products/systems/6a767a0f9af1-960.webp",
+          "width": 960,
+          "height": 333,
+          "bytes": 18528
+        },
+        {
+          "src": "/media/products/systems/6a767a0f9af1-1280.webp",
+          "width": 1280,
+          "height": 444,
+          "bytes": 27194
+        },
+        {
+          "src": "/media/products/systems/6a767a0f9af1-1600.webp",
+          "width": 1600,
+          "height": 555,
+          "bytes": 36710
+        }
+      ]
+    },
+    {
+      "companion": "IKO Leading Edge Plus roof starters",
+      "sourceUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-3.webp",
+      "sourceWidth": 600,
+      "sourceHeight": 360,
+      "variants": [
+        {
+          "src": "/media/products/systems/0d3a66c0d2d0-320.webp",
+          "width": 320,
+          "height": 192,
+          "bytes": 8442
+        },
+        {
+          "src": "/media/products/systems/0d3a66c0d2d0-600.webp",
+          "width": 600,
+          "height": 360,
+          "bytes": 19124
+        }
+      ]
+    },
+    {
+      "companion": "IKO Stormtite synthetic underlayment",
+      "sourceUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-2.webp",
+      "sourceWidth": 600,
+      "sourceHeight": 360,
+      "variants": [
+        {
+          "src": "/media/products/systems/35507a166d96-320.webp",
+          "width": 320,
+          "height": 192,
+          "bytes": 6998
+        },
+        {
+          "src": "/media/products/systems/35507a166d96-600.webp",
+          "width": 600,
+          "height": 360,
+          "bytes": 17684
+        }
+      ]
+    },
+    {
+      "companion": "IKO StormShield and GoldShield barriers",
+      "sourceUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504.webp",
+      "sourceWidth": 600,
+      "sourceHeight": 360,
+      "variants": [
+        {
+          "src": "/media/products/systems/bbfdb714d921-320.webp",
+          "width": 320,
+          "height": 192,
+          "bytes": 8948
+        },
+        {
+          "src": "/media/products/systems/bbfdb714d921-600.webp",
+          "width": 600,
+          "height": 360,
+          "bytes": 23630
+        }
+      ]
+    },
+    {
+      "companion": "IKO hip and ridge cap shingles",
+      "sourceUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-4.webp",
+      "sourceWidth": 600,
+      "sourceHeight": 360,
+      "variants": [
+        {
+          "src": "/media/products/systems/dbf86b0a9546-320.webp",
+          "width": 320,
+          "height": 192,
+          "bytes": 4052
+        },
+        {
+          "src": "/media/products/systems/dbf86b0a9546-600.webp",
+          "width": 600,
+          "height": 360,
+          "bytes": 10918
+        }
+      ]
+    },
+    {
+      "companion": "Stainless-steel micromesh screen",
+      "sourceUrl": "https://www.leafhome.com/app/uploads/product-feature/2024/08/gutter-systems-leaffilter-product-carousel-01-surgical-grade-2-1216x520.webp",
+      "sourceWidth": 1216,
+      "sourceHeight": 520,
+      "variants": [
+        {
+          "src": "/media/products/systems/37bee0589b5c-320.webp",
+          "width": 320,
+          "height": 137,
+          "bytes": 10404
+        },
+        {
+          "src": "/media/products/systems/37bee0589b5c-640.webp",
+          "width": 640,
+          "height": 274,
+          "bytes": 34388
+        },
+        {
+          "src": "/media/products/systems/37bee0589b5c-960.webp",
+          "width": 960,
+          "height": 411,
+          "bytes": 57816
+        }
+      ]
+    },
+    {
+      "companion": "uPVC supporting frame",
+      "sourceUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-product-carousel-02-upvc-vinyl-1216x520.webp",
+      "sourceWidth": 1216,
+      "sourceHeight": 520,
+      "variants": [
+        {
+          "src": "/media/products/systems/c6568bb8b929-320.webp",
+          "width": 320,
+          "height": 137,
+          "bytes": 5734
+        },
+        {
+          "src": "/media/products/systems/c6568bb8b929-640.webp",
+          "width": 640,
+          "height": 274,
+          "bytes": 14690
+        },
+        {
+          "src": "/media/products/systems/c6568bb8b929-960.webp",
+          "width": 960,
+          "height": 411,
+          "bytes": 22630
+        }
+      ]
+    },
+    {
+      "companion": "Internal structural hangers",
+      "sourceUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-product-carousel-03-patented-design-1216x520.webp",
+      "sourceWidth": 1216,
+      "sourceHeight": 520,
+      "variants": [
+        {
+          "src": "/media/products/systems/d682d7b45944-320.webp",
+          "width": 320,
+          "height": 137,
+          "bytes": 4790
+        },
+        {
+          "src": "/media/products/systems/d682d7b45944-640.webp",
+          "width": 640,
+          "height": 274,
+          "bytes": 12434
+        },
+        {
+          "src": "/media/products/systems/d682d7b45944-960.webp",
+          "width": 960,
+          "height": 411,
+          "bytes": 20346
+        }
+      ]
+    },
+    {
+      "productId": "trex-hideaway-fasteners",
+      "sourceUrl": "https://images.trex.com/is/image/trexcompany/sku-hiddenfastener-wood:Media-Carousel",
+      "sourceWidth": 600,
+      "sourceHeight": 600,
+      "variants": [
+        {
+          "src": "/media/products/systems/a45cf2d3d0be-320.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3448
+        },
+        {
+          "src": "/media/products/systems/a45cf2d3d0be-600.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 7106
+        }
+      ]
+    }
+  ],
+  "totalBytes": 2770350
+}

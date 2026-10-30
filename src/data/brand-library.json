@@ -120,5 +120,75 @@
       "siding"
     ],
     "sourceImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/08/plygem-logo.png"
+  },
+  "owens-corning": {
+    "name": "Owens Corning",
+    "pageKey": "Owens Corning",
+    "image": {
+      "src": "/media/products/manufacturers/fe74ac7c4ffbbb6f-logo.webp",
+      "alt": "Owens Corning",
+      "width": 360,
+      "height": 362
+    },
+    "categories": [
+      "roofing"
+    ],
+    "sourceImageUrl": "https://imagecdn.owenscorning.com/image/upload/v1575575892/meganav/oc-logo.svg"
+  },
+  "iko": {
+    "name": "IKO",
+    "pageKey": "IKO",
+    "image": {
+      "src": "/media/products/manufacturers/351df4028206d0a0-logo.webp",
+      "alt": "IKO",
+      "width": 153,
+      "height": 57
+    },
+    "categories": [
+      "roofing"
+    ],
+    "sourceImageUrl": "https://www.iko.com/na/wp-content/uploads/2026/02/IKO-Logo.svg"
+  },
+  "alside": {
+    "name": "Alside",
+    "pageKey": "Alside",
+    "image": {
+      "src": "/media/products/manufacturers/692a50db4af2c789-logo.webp",
+      "alt": "Alside",
+      "width": 217,
+      "height": 60
+    },
+    "categories": [
+      "siding"
+    ],
+    "sourceImageUrl": "https://www.alside.com/wp-content/uploads/sites/3/2026/03/Alside-Logo-Website-Identity.png"
+  },
+  "norandex": {
+    "name": "Norandex",
+    "pageKey": "Norandex",
+    "image": {
+      "src": "/media/products/manufacturers/e5ae14698c6ffbab-logo.webp",
+      "alt": "Norandex",
+      "width": 300,
+      "height": 100
+    },
+    "categories": [
+      "siding"
+    ],
+    "sourceImageUrl": "https://www.norandex.com/wp-content/uploads/2024/08/logo_norandex-01.svg"
+  },
+  "exterior-portfolio": {
+    "name": "Exterior Portfolio",
+    "pageKey": "Exterior Portfolio",
+    "image": {
+      "src": "/media/products/manufacturers/867e59c103bca7e2-logo.webp",
+      "alt": "Exterior Portfolio",
+      "width": 308,
+      "height": 208
+    },
+    "categories": [
+      "siding"
+    ],
+    "sourceImageUrl": "https://www.westlakeroyalbuildingproducts.com/sites/default/files/2025-01/Brand%3Dexterior%20portfolio%2C%20Color%3Dcolor.svg"
   }
 }

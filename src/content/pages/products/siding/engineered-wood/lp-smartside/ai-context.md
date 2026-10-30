@@ -1,15 +1,40 @@
 # src/content/pages/products/siding/engineered-wood/lp-smartside
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- route-context:start -->
+## Route ownership
 
-- `index.md`
+- Record permalink: `/products/siding/engineered-wood/lp-smartside/`.
+- Canonical target: `/products/siding/engineered-wood/lp-smartside/`.
+- Manifest paths using this record: `/products/siding/engineered-wood/lp-smartside/`.
+- Content family: Product collection / material overview.
+- Renderer: `src/components/ProductHubPage.astro`.
+- Edit visible content in: `src/data/product-pillar.json; src/data/product-hub-heroes.json`.
+- Recorded source: `authored-product-pillar`; sourcePath: `src/data/product-pillar.json`.
 
-## Subdirectories
+Edit the existing hub entry for this exact URL. Category cards and catalogItems are separate from product detail records. Reuse ProductGrid/ProductCard; do not reintroduce generic buying-consideration filler.
 
-- None.
+Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
+<!-- route-context:end -->
 
-## Change checks
+<!-- directory-inventory:start -->
+## Directory inventory
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Parent guidance: [src/content/pages/products/siding/engineered-wood](../ai-context.md).
+
+### Direct files
+
+- [index.md](index.md)
+
+### Child directories
+
+- [lap-siding/](lap-siding/ai-context.md)
+- [nickel-gap/](nickel-gap/ai-context.md)
+- [panel-vertical-siding/](panel-vertical-siding/ai-context.md)
+- [shakes/](shakes/ai-context.md)
+- [soffit/](soffit/ai-context.md)
+- [trim-fascia/](trim-fascia/ai-context.md)
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

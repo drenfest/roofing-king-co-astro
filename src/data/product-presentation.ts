@@ -1,7 +1,7 @@
-import catalog from './product-catalog.json';
+import {productLibrary} from './product-library';
 import {photo} from './media';
 import collectionMedia from './product-collection-media.json';
-import type {ProductPresentation} from './product-types';
+import hubHeroes from './product-hub-heroes.json';
 export type ProductHeroImage={src:string;alt:string;width?:number;height?:number;srcset?:string;caption:string;sample?:boolean};
 const imagery={
  roofing:{src:'/media/wordpress/a102470cfba2-hero-roofing.jpg',alt:'A home with a shingle roof',caption:'Roofing design inspiration'},
@@ -11,7 +11,12 @@ const imagery={
 };
 export function productFamily(path:string){return path.includes('/siding/')?'siding':path.includes('/decking/')?'decking':path.includes('/gutters/')?'gutters':'roofing';}
 export function productHeroImage(path:string,productKey?:string):ProductHeroImage{
- const product=productKey?(catalog as Record<string,ProductPresentation>)[productKey]:undefined;
+ const product=productKey?productLibrary[productKey]:undefined;
+ if(product?.hero)return product.hero;
+ const hubHero=(hubHeroes as Record<string,ProductHeroImage>)[path];
+ if(hubHero)return hubHero;
+ const brandProduct=Object.values(productLibrary).find(p=>p.detailPath?.slice(0,p.detailPath.slice(0,-1).lastIndexOf('/')+1)===path&&p.hero);
+ if(brandProduct?.hero)return brandProduct.hero;
  if(product){const color=product.colors.find(c=>c.id===product.defaultColorId)!;return {...color.image,alt:`${productKey} in ${color.name}`,caption:`${color.name} · Manufacturer color sample`,sample:true};}
  const concept=path.includes('/engineered-wood/')?'engineered-wood-siding':path.includes('/fiber-cement/')?'fiber-cement-siding':path.includes('/vinyl/')&&!path.includes('/ply-gem/')?'vinyl-siding':path.includes('/alu-rex/')?'perforated-gutter-guard':path.includes('/leaffilter/')?'fine-mesh-gutter-guard':null;
  if(concept){const record=collectionMedia[concept];const label=concept.replaceAll('-',' ');return {src:record.variants[1].src,srcset:record.variants.map(v=>`${v.src} ${v.width}w`).join(', '),width:record.width,height:record.height,alt:`Illustrative ${label} scene`,caption:`Illustrative ${label} scene`};}

@@ -1,4 +1,5 @@
 ---
+import ServiceComparison from '../components/ServiceComparison.astro';
 import type {CollectionEntry} from 'astro:content';
 import type {BrandSection,HeadingData,RichNode,ServicePathsData} from '../data/section-types';
 import DocumentLayout from './DocumentLayout.astro';
@@ -43,6 +44,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
     <CredentialsSection section={data.credentials}/>
     <RoofMaterialOptions section={data.materials}/>
     <BrandStrip {brands}/>
+    <ServiceComparison path={page.data.permalink}/>
     <ServiceGallery family="roofing" id="roofing-work" title="Recent roofing projects"/>
     <section id="roofing-process" class="rk-landing-section rk-landing-budget rk-roofing-planning" aria-labelledby="roofing-budget-title"><div class="rk-section-inner rk-landing-split"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.budget.eyebrow}</p><h2 id="roofing-budget-title">{data.budget.title}</h2><p>{data.budget.description}</p><ul class="rk-budget-checks">{data.budget.items.map(item=><li><ServiceIcon name="check"/>{item}</li>)}</ul><a class="rk-button rk-button-primary" href="#estimate">Plan your roof estimate <ServiceIcon name="arrow"/></a></div><aside class="rk-budget-financing"><span class="rk-financing-icon"><ServiceIcon name="cost"/></span><p class="rk-home-eyebrow">Make your roofing plan</p><h3>{data.budget.financingTitle}</h3><p>{data.budget.financingCopy}</p><a class="rk-button rk-button-outline" href="/offers/flexible-financing/">Explore financing <ServiceIcon name="arrow"/></a><p class="rk-landing-small">{data.budget.financingNote}</p></aside></div></section>
     <section class="rk-landing-section rk-landing-local" aria-labelledby="roofing-local-title"><div class="rk-section-inner rk-landing-split"><div class="rk-landing-heading"><p class="rk-home-eyebrow">{data.local.eyebrow}</p><h2 id="roofing-local-title">{data.local.title}</h2><p>{data.local.description}</p></div><nav class="rk-landing-local-links" aria-label="Residential roofing service locations">{data.local.items.map(item=><a href={item.href}><span class="rk-local-link-icon"><ServiceIcon name={item.href==='/service-areas/'?'building':'roof'}/></span><span>{item.label}</span><ServiceIcon name="arrow"/></a>)}</nav></div></section>

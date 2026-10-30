@@ -1,3 +1,27 @@
-# Topic archives
+# src/pages/tag
 
-[tag].astro renders every existing /tag/* URL with BlogLayout, PageHero, Breadcrumbs and CardSection. blog-archives.json preserves the published topic membership and existing article destinations. The legacy catchall excludes these routes; no tag URL or canonical changes.
+Native Astro routing for this URL branch. Read src/pages/_ai-context.md first. Keep native routes separate from the legacy catchall, preserve explicit permalinks and use the existing layout/data for the page family. This map starts with an underscore so Astro does not publish it as a route.
+
+<!-- route-imports:start -->
+## Actual route dependencies
+
+- `[tag].astro`: `src/components/BlogArchive.astro`, `src/data/blog-archives.json`.
+
+This index is derived from current imports. Resolve the entry point before editing data; a physical directory alone does not define the content owner.
+<!-- route-imports:end -->
+
+<!-- directory-inventory:start -->
+## Directory inventory
+
+Parent guidance: [src/pages](../_ai-context.md).
+
+### Direct files
+
+- [[tag].astro](%5Btag%5D.astro)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

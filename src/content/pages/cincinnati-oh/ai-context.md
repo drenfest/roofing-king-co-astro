@@ -1,17 +1,37 @@
 # src/content/pages/cincinnati-oh
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- route-context:start -->
+## Route ownership
 
-- `index.md`
+- Record permalink: `/cincinnati-oh/`.
+- Canonical target: `/cincinnati-oh/`.
+- Manifest paths using this record: `/cincinnati-oh/`.
+- Content family: Native service / location (family local, city Cincinnati).
+- Renderer: `src/layouts/PolishedServicePage.astro`.
+- Edit visible content in: `src/data/service-editorial.json; src/data/service-copy.json`.
+- Recorded source: `wordpress`; sourcePath: `/cincinnati-oh/`.
 
-## Subdirectories
+Edit route identity/presentation separately from full source copy. Preserve topic IDs, source paragraphs, child destinations and the estimate placement. Use existing section/gallery/comparison data.
 
-- `roofing/` - read its ai-context.md.
-- `storm-damage/` - read its ai-context.md.
-- `the-cost-of-siding-replacement/` - read its ai-context.md.
+Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
+<!-- route-context:end -->
 
-## Change checks
+<!-- directory-inventory:start -->
+## Directory inventory
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Parent guidance: [src/content/pages](../ai-context.md).
+
+### Direct files
+
+- [index.md](index.md)
+
+### Child directories
+
+- [roofing/](roofing/ai-context.md)
+- [storm-damage/](storm-damage/ai-context.md)
+- [the-cost-of-siding-replacement/](the-cost-of-siding-replacement/ai-context.md)
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

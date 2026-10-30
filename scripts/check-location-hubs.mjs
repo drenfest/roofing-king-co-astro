@@ -34,5 +34,5 @@ for(const location of inventory){
 const cleveland=editorial['/cleveland-oh/'];assert.equal(cleveland.opening.items[0].href,'/cleveland-oh/roofing/');assert.equal(cleveland.opening.items[1].href,'/siding/');assert.equal(cleveland.opening.items[2].href,'/cleveland-oh/storm-damage/');
 assert.equal(editorial['/dublin-oh/'].opening.items[0].href,'/roofing-contractor-dublin-oh/');
 assert.equal(editorial['/akron-oh/'].opening.items[0].href,'/roofing/');
-assert.equal(manifest.filter(r=>!['authored-blog-hub','blog-canonical','authored-topic-archive'].includes(r.source)).length,244,'No duplicate location/service routes created; only approved blog hubs added.');
+assert.equal(manifest.filter(r=>!['authored-blog-hub','blog-canonical','authored-topic-archive','authored-manufacturer-products','authored-product-accessories','authored-ply-gem-products','authored-trex-collections'].includes(r.source)).length,244,'No duplicate location/service routes created; manufacturer product routes are counted separately.');
 console.log('24 full-service hubs: localized section headings, roofing/siding/storm priority, all local descendants, main-service fallbacks and 11 scrollable choices passed.');

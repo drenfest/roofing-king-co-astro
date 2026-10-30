@@ -1,9 +1,10 @@
 ---
 title: Alu-Rex Gutter Systems and T-Rex
 permalink: /products/gutters/guards/alu-rex/
-description: Alu-Rex makes gutter protection and continuous hanger systems. Its
-  T-Rex product supports the gutter along its length while screening debris.
-  Compare the e
+description: Compare new-gutter continuous hangers with retrofit guards for
+  existing gutters. Support, debris screening and the drainage route are
+  separate parts of a working gutter system; product and installer eligibility
+  need project confirmation. Explore product details with Roof King.
 canonicalPath: /products/gutters/guards/alu-rex/
 category: Product brand
 source: authored-product-pillar

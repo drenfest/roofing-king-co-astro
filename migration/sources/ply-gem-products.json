@@ -1,0 +1,628 @@
+{
+  "checkedAt": "2026-10-29",
+  "records": [
+    {
+      "title": "Cedar Dimensions",
+      "material": "Rigid polypropylene",
+      "thickness": ".080\u2013.100 in., depending on profile",
+      "profile": "Double 7 in. shingle; Double 9 in. hand-split shake; Triple 5 in. shingle; Half-Round",
+      "height": "Profile-specific; select from the specification guide",
+      "length": "Varies by shingle, shake and half-round profile",
+      "body": [
+        "Cedar Dimensions uses molded polypropylene panels to create the irregular edges and grain associated with cedar shingles and shakes. The family includes straight shingle, hand-split shake and half-round looks, so it can be used to change the character of a gable, porch or full wall rather than simply change its color.",
+        "The profiles are separate panels with their own dimensions and matching corner pieces. Nominal thickness ranges from .080 to .100 inch across the family. A Double 7 shingle and a Double 9 shake should not be treated as interchangeable when calculating quantities or ordering trim.",
+        "Choose the panel profile before the accessories. Ply Gem lists dedicated cedar-panel starter strips and profile-specific corners; those details give the wall a more convincing finish than using an unrelated lap-siding accessory. Color availability also varies by profile."
+      ],
+      "id": "plygem-cedar-dimensions",
+      "slug": "cedar-dimensions",
+      "sourceUrl": "https://www.plygem.com/siding/collections/cedar-dimensions/",
+      "colors": [
+        {
+          "name": "Pewter",
+          "hex": "#c2c8c4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9d2bb"
+        },
+        {
+          "name": "Sunrise Yellow",
+          "hex": "#fff5c9"
+        },
+        {
+          "name": "White",
+          "hex": "#fffef9"
+        },
+        {
+          "name": "Wicker",
+          "hex": "#c9bca7"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#aaa891"
+        },
+        {
+          "name": "Nantucket Gray",
+          "hex": "#9aa098"
+        },
+        {
+          "name": "Thistle",
+          "hex": "#a0aa9a"
+        },
+        {
+          "name": "Brunswick",
+          "hex": "#3d4b4f"
+        },
+        {
+          "name": "Canyon",
+          "hex": "#958b75"
+        },
+        {
+          "name": "Dublin",
+          "hex": "#6e786f"
+        },
+        {
+          "name": "Granite",
+          "hex": "#8b8e8c"
+        },
+        {
+          "name": "Iron",
+          "hex": "#444644"
+        },
+        {
+          "name": "Montana Suede",
+          "hex": "#7b7462"
+        },
+        {
+          "name": "Russett Red",
+          "hex": "#8a544a"
+        },
+        {
+          "name": "Shadow",
+          "hex": "#59534c"
+        },
+        {
+          "name": "Wedgewood",
+          "hex": "#79888e"
+        },
+        {
+          "name": "Willow",
+          "hex": "#828f83"
+        },
+        {
+          "name": "Shaded Gray",
+          "hex": "#848880"
+        },
+        {
+          "name": "Shaded Cedar",
+          "hex": "#747061"
+        }
+      ],
+      "documents": [
+        {
+          "label": "Ply Gem Performance Collection   Full Product Catalog",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Spec Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Cedar Panel Double 7 & Hand Split Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Mastic%20Website/Installation%20Guides/Cedar-Panel-Double-7-and-Hand-Split-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Cedar Panel Half Round & Triple 5 Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Cedar-Panel-Half-Round-and-Triple-5-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Installation Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Warranty Information",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+        },
+        {
+          "label": "NGBS Green Certification Ply Gem Shake & Shingle",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Sustainability%20&%20Certificates/NGBS-Green-Certification-Ply-Gem-Shake-and-Shingles.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Shake & Shingle Polypropylene Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Shake-Shingle-Polypropylene-Siding.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Vinyl-Siding.pdf"
+        }
+      ],
+      "catalogPage": 4,
+      "photoFile": "output/manufacturer-originals/ply-gem/cedar-dimensions.png",
+      "profileImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/12/pgpc_cedar_split_flat-400x400-1.png"
+    },
+    {
+      "title": "Dimensions",
+      "material": "Vinyl (PVC)",
+      "thickness": ".044 in. nominal",
+      "profile": "Double 4 in. traditional lap; Double 4\u00bd in. Dutch lap",
+      "height": "\u215d in.",
+      "length": "12 ft 6 in. traditional lap; 12 ft 1 in. Dutch lap",
+      "body": [
+        "Dimensions is the .044-inch nominal-thickness lap siding in the Ply Gem Performance Collection. Its \u215d-inch profile creates a deeper shadow line, making the individual courses more defined across a broad wall. The folded nail hem and oversized lock are parts of the panel design rather than added accessories.",
+        "Choose Double 4 traditional lap for a straightforward clapboard look or Double 4\u00bd Dutch lap for a beveled course with a more pronounced shadow. The profiles have different panel lengths, which matters when planning seams around windows, corners and long wall runs.",
+        "Compare a full sample against the trim and roof color outdoors. The family palette includes solid and cedar-inspired finishes, but the chosen color still needs to be checked against the exact panel profile. Thickness alone is not a whole-wall wind rating; fastening and the supporting wall also matter."
+      ],
+      "id": "plygem-dimensions",
+      "slug": "dimensions",
+      "sourceUrl": "https://www.plygem.com/siding/collections/dimensions/",
+      "colors": [
+        {
+          "name": "Almond",
+          "hex": "#e7e2cb"
+        },
+        {
+          "name": "Olive",
+          "hex": "#bbc2aa"
+        },
+        {
+          "name": "Pewter",
+          "hex": "#c2c8c4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9d2bb"
+        },
+        {
+          "name": "White",
+          "hex": "#fffef9"
+        },
+        {
+          "name": "Wicker",
+          "hex": "#c9bca7"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#aaa891"
+        },
+        {
+          "name": "Nantucket Gray",
+          "hex": "#9aa098"
+        },
+        {
+          "name": "Slate Blue",
+          "hex": "#a1b4b7"
+        },
+        {
+          "name": "Thistle",
+          "hex": "#a0aa9a"
+        },
+        {
+          "name": "Bayou",
+          "hex": "#526e83"
+        },
+        {
+          "name": "Brunswick",
+          "hex": "#3d4b4f"
+        },
+        {
+          "name": "Canyon",
+          "hex": "#958b75"
+        },
+        {
+          "name": "Dublin",
+          "hex": "#6e786f"
+        },
+        {
+          "name": "Granite",
+          "hex": "#8b8e8c"
+        },
+        {
+          "name": "Iron",
+          "hex": "#444644"
+        },
+        {
+          "name": "Montana Suede",
+          "hex": "#7b7462"
+        },
+        {
+          "name": "Russett Red",
+          "hex": "#8a544a"
+        },
+        {
+          "name": "Shadow",
+          "hex": "#59534c"
+        },
+        {
+          "name": "Wedgewood",
+          "hex": "#79888e"
+        },
+        {
+          "name": "Willow",
+          "hex": "#828f83"
+        },
+        {
+          "name": "Chestnut",
+          "hex": "#94765b"
+        },
+        {
+          "name": "Hickory",
+          "hex": "#76685b"
+        },
+        {
+          "name": "Spruce Blue",
+          "hex": "#818881"
+        }
+      ],
+      "documents": [
+        {
+          "label": "Ply Gem Performance Collection   Full Product Catalog",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Spec Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Lap Siding Panels",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Mastic%20Website/Installation%20Guides/Horizontal-Panel-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Installation Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Warranty Information",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Vinyl-Siding.pdf"
+        }
+      ],
+      "catalogPage": 8,
+      "photoFile": "output/manufacturer-originals/ply-gem/dimensions.png",
+      "profileImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/12/var_cp_double5dutch_flat-400x400-1.png"
+    },
+    {
+      "title": "Progressions",
+      "material": "Vinyl (PVC)",
+      "thickness": ".042 in. nominal",
+      "profile": "Double 4 and Double 5 in. traditional lap; Double 4\u00bd and Double 5 in. Dutch lap",
+      "height": "\u00bd in.",
+      "length": "Profile-dependent: 12 ft, 12 ft 1 in. or 12 ft 6 in.",
+      "body": [
+        "Progressions combines a fine-grained, painted-wood appearance with .042-inch nominal-thickness vinyl panels. Its \u00bd-inch profile gives the courses definition without using the deeper profile of Dimensions. It is a useful family to compare when you want several lap-width choices in one collection.",
+        "The four profiles include Double 4 and Double 5 traditional lap plus Double 4\u00bd and Double 5 Dutch lap. A wider exposure changes the number of horizontal lines across the wall; Dutch lap adds a beveled shadow at the top of each course. Those differences are more useful to judge on a full sample than on a small color chip.",
+        "Panel length and color selection vary by profile. Plan the preferred exposure, seams and corner details together, then compare the exact product in the installation estimate. Darker colors are not necessarily available across every Progressions profile."
+      ],
+      "id": "plygem-progressions",
+      "slug": "progressions",
+      "sourceUrl": "https://www.plygem.com/siding/collections/progressions/",
+      "colors": [
+        {
+          "name": "Almond",
+          "hex": "#e7e2cb"
+        },
+        {
+          "name": "Ivory",
+          "hex": "#fff6de"
+        },
+        {
+          "name": "Olive",
+          "hex": "#bbc2aa"
+        },
+        {
+          "name": "Pewter",
+          "hex": "#c2c8c4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9d2bb"
+        },
+        {
+          "name": "Stone Gray",
+          "hex": "#ccd0c7"
+        },
+        {
+          "name": "Sunrise Yellow",
+          "hex": "#fff5c9"
+        },
+        {
+          "name": "White",
+          "hex": "#fffef9"
+        },
+        {
+          "name": "Wicker",
+          "hex": "#c9bca7"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#aaa891"
+        },
+        {
+          "name": "Nantucket Gray",
+          "hex": "#9aa098"
+        },
+        {
+          "name": "Slate Blue",
+          "hex": "#a1b4b7"
+        },
+        {
+          "name": "Thistle",
+          "hex": "#a0aa9a"
+        },
+        {
+          "name": "Canyon",
+          "hex": "#958b75"
+        },
+        {
+          "name": "Dublin",
+          "hex": "#6e786f"
+        },
+        {
+          "name": "Granite",
+          "hex": "#8b8e8c"
+        },
+        {
+          "name": "Montana Suede",
+          "hex": "#7b7462"
+        },
+        {
+          "name": "Shadow",
+          "hex": "#59534c"
+        },
+        {
+          "name": "Wedgewood",
+          "hex": "#79888e"
+        },
+        {
+          "name": "Willow",
+          "hex": "#828f83"
+        }
+      ],
+      "documents": [
+        {
+          "label": "Ply Gem Performance Collection   Full Product Catalog",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Spec Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Lap Siding Panels",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Mastic%20Website/Installation%20Guides/Horizontal-Panel-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Installation Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Warranty Information",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Vinyl-Siding.pdf"
+        }
+      ],
+      "catalogPage": 10,
+      "photoFile": "output/manufacturer-originals/ply-gem/progressions.png",
+      "profileImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/12/pgpc_progressions_double4_flat-400x400-1.png"
+    },
+    {
+      "title": "Performance Board + Batten",
+      "material": "Vinyl (PVC)",
+      "thickness": ".048 in. nominal",
+      "profile": "5\u00bd in. board with 1\u00bd in. batten",
+      "height": "9\u204416 in.",
+      "length": "10 ft",
+      "body": [
+        "Performance Board + Batten creates vertical lines with a 5\u00bd-inch board face and a 1\u00bd-inch batten. It can emphasize the height of a gable or become the main exterior pattern. The .048-inch nominal panel thickness and 9\u204416-inch profile distinguish it from the horizontal lap products in the collection.",
+        "Ply Gem lists a 10-foot panel length. On taller walls, horizontal breaks and transitions need to be designed rather than left as an incidental seam. The way the vertical panels meet a roofline, window head or lower siding material affects both the appearance and the drainage detail.",
+        "Starting and finishing a vertical panel is different from starting horizontal lap siding. Match the base channel, corners and opening details to this panel orientation. Review the color on a physical sample, especially where board-and-batten will sit beside another siding profile."
+      ],
+      "id": "plygem-performance-board-batten",
+      "slug": "performance-board-batten",
+      "sourceUrl": "https://www.plygem.com/siding/collections/performance-board-batten/",
+      "colors": [
+        {
+          "name": "Pewter",
+          "hex": "#c2c8c4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9d2bb"
+        },
+        {
+          "name": "White",
+          "hex": "#fffef9"
+        },
+        {
+          "name": "Wicker",
+          "hex": "#c9bca7"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#aaa891"
+        },
+        {
+          "name": "Nantucket Gray",
+          "hex": "#9aa098"
+        },
+        {
+          "name": "Thistle",
+          "hex": "#a0aa9a"
+        },
+        {
+          "name": "Bayou",
+          "hex": "#526e83"
+        },
+        {
+          "name": "Brunswick",
+          "hex": "#3d4b4f"
+        },
+        {
+          "name": "Canyon",
+          "hex": "#958b75"
+        },
+        {
+          "name": "Dublin",
+          "hex": "#6e786f"
+        },
+        {
+          "name": "Granite",
+          "hex": "#8b8e8c"
+        },
+        {
+          "name": "Montana Suede",
+          "hex": "#7b7462"
+        },
+        {
+          "name": "Russett Red",
+          "hex": "#8a544a"
+        },
+        {
+          "name": "Shadow",
+          "hex": "#59534c"
+        },
+        {
+          "name": "Wedgewood",
+          "hex": "#79888e"
+        },
+        {
+          "name": "Willow",
+          "hex": "#828f83"
+        }
+      ],
+      "documents": [
+        {
+          "label": "Ply Gem Performance Collection   Full Product Catalog",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Spec Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Installation Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Warranty Information",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Vertical Siding Panels",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Mastic%20Website/Installation%20Guides/Vertical-Panel-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "NGBS Green Certification Ply Gem Shake & Shingle",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Sustainability%20&%20Certificates/NGBS-Green-Certification-Ply-Gem-Shake-and-Shingles.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Insulated Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Insulated-Vinyl-Siding.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Shake & Shingle Polypropylene Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Shake-Shingle-Polypropylene-Siding.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Vinyl-Siding.pdf"
+        }
+      ],
+      "catalogPage": 14,
+      "photoFile": "output/manufacturer-originals/ply-gem/performance-board-batten.png",
+      "profileImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/10/pgpc_bb_7_flat.png"
+    },
+    {
+      "title": "Transformations",
+      "material": "Vinyl (PVC)",
+      "thickness": ".040 in. nominal",
+      "profile": "Double 4 and Double 5 in. traditional lap; Double 4\u00bd in. Dutch lap",
+      "height": "\u00bd in.",
+      "length": "Profile-dependent: 12 ft, 12 ft 1 in. or 12 ft 6 in.",
+      "body": [
+        "Transformations is the .040-inch nominal-thickness lap siding family in the Ply Gem Performance Collection. A \u00bd-inch profile and defined locking system provide a familiar clapboard or Dutch-lap appearance. Its smaller family color palette makes it a straightforward starting point for a conventional exterior.",
+        "Choose Double 4 or Double 5 traditional lap for flat course lines, or Double 4\u00bd Dutch lap for a beveled shadow. These options differ in exposure and panel length, so the profile should be identified by name in the product selection rather than described only as vinyl siding.",
+        "Discuss wall preparation, flashing, trim and fastening alongside the panel. A lower nominal thickness does not remove those installation steps. The finished result depends on the complete wall assembly, including the condition behind the old siding and how the new panels connect at openings and edges."
+      ],
+      "id": "plygem-transformations",
+      "slug": "transformations",
+      "sourceUrl": "https://www.plygem.com/siding/collections/transformations/",
+      "colors": [
+        {
+          "name": "Almond",
+          "hex": "#e7e2cb"
+        },
+        {
+          "name": "Ivory",
+          "hex": "#fff6de"
+        },
+        {
+          "name": "Olive",
+          "hex": "#bbc2aa"
+        },
+        {
+          "name": "Pewter",
+          "hex": "#c2c8c4"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d9d2bb"
+        },
+        {
+          "name": "Stone Gray",
+          "hex": "#ccd0c7"
+        },
+        {
+          "name": "White",
+          "hex": "#fffef9"
+        },
+        {
+          "name": "Wicker",
+          "hex": "#c9bca7"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#aaa891"
+        },
+        {
+          "name": "Slate Blue",
+          "hex": "#a1b4b7"
+        }
+      ],
+      "documents": [
+        {
+          "label": "Ply Gem Performance Collection   Full Product Catalog",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Shutters%20&%20Accessories%20Website/Literature%20Library/Ply-Gem-Performance-Collection-Product-Catalog.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Spec Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Technical%20Docs/Ply-Gem-Performance-Collection-Spec-Guide.pdf"
+        },
+        {
+          "label": "Pro Installation Tip Sheet   Lap Siding Panels",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Mastic%20Website/Installation%20Guides/Horizontal-Panel-Siding-Installation-Tip-Sheet.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Installation Guide",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "label": "Ply Gem Performance Collection   Warranty Information",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Warranty/Ply-Gem-Performance-Collection-Warranty-Information.pdf"
+        },
+        {
+          "label": "VSI Environmental Product Declaration   Vinyl Siding",
+          "url": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Surfaces%20Website/VSI-Environmental-Product-Declaration-Vinyl-Siding.pdf"
+        }
+      ],
+      "catalogPage": 12,
+      "photoFile": "output/manufacturer-originals/ply-gem/transformations.png",
+      "profileImageUrl": "https://www.plygem.com/wp-content/uploads/shared/2024/12/pgpc_transformations_double5_flat-400x400-1.png"
+    }
+  ]
+}

@@ -1,15 +1,35 @@
 # src/content/pages/contact-us
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- route-context:start -->
+## Route ownership
 
-- `index.md`
+- Record permalink: `/contact-us/`.
+- Canonical target: `/contact-us/`.
+- Manifest paths using this record: `/contact-us/`.
+- Content family: Native purpose-specific page.
+- Renderer: `src/pages/contact-us.astro`.
+- Edit visible content in: `src/data/site.json; the page-specific imports in the native entry point`.
+- Recorded source: `wordpress`; sourcePath: `/contact-us/`.
 
-## Subdirectories
+Edit its native composition/data helpers. Reuse PageHero, Breadcrumbs, relevant cards/maps/FAQ and QuoteSection. The retained index body does not control its visible layout.
 
-- None.
+Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
+<!-- route-context:end -->
 
-## Change checks
+<!-- directory-inventory:start -->
+## Directory inventory
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Parent guidance: [src/content/pages](../ai-context.md).
+
+### Direct files
+
+- [index.md](index.md)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

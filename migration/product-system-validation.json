@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-29T22:45:00.751Z",
+  "publication": "Local review only",
+  "fullVerification": {
+    "command": "npm run verify",
+    "passed": true
+  },
+  "desktopMobileRoutes": {
+    "checked": 182,
+    "failed": 0
+  },
+  "finalCollectionsAndDetails": {
+    "checked": 8,
+    "failed": 0
+  },
+  "productDetailPages": 91,
+  "addedProductFamilies": 18,
+  "optimizedVariants": 93,
+  "optimizedBytes": 2770350,
+  "knownDiagnostics": [
+    "Existing ReviewCollection.svelte initial-state warning; no product diagnostics"
+  ],
+  "sourceSha256": {
+    "src/components/ProductDetailPage.astro": "d72abe6fdb8c86f891541b48e8184e2874f338022596497600eb5225433783b7",
+    "src/components/ProductCompanions.astro": "65e4c4c86f0128541422276d29f6454629f401e5a2fdd72283c54d252e75b791",
+    "src/components/ProductSystemCompanions.astro": "0a097d8220bd836058cd2dc6bb7b4dd4365afbc640d0e868e6a3bb6c179ee8d0",
+    "src/components/ProductOptions.svelte": "d0e1a8f612bfa185eade9a2494b7dd7715f95154a559f9187d8680893d069804",
+    "src/components/ProductGrid.astro": "4b2a0e9eba09cb65eb157fc6240fca337f683f29e3a442982346009702e516b2",
+    "src/components/ProductHubPage.astro": "77b1060293202b4e3950987f5ef276b24cd07c061f0b7ca1869c8a6f7a1df824",
+    "src/data/product-accessories.json": "8bdf3d8ba6c1b06e1f79e1d13d1e9bf586cc0e49ec868e9978771d3f03df35d8",
+    "src/data/product-system-companions.json": "93dff549f27f2a2976e3ba00a68146457d7c30c0c436e9db5186e12e379d2ad1",
+    "src/data/product-system-companions.ts": "e46b2cf6fb4e3f8b120860a626548dc799196cd9802f6b9e12c6a0a44adcdd4c",
+    "src/styles/products.css": "ee02379181b2c1b0086676d5e34975df5c94869827eb030c7ec89caa581ecc5a",
+    "src/data/navigation.json": "3caaea1ce29c29b2226f18a09c627522c8f78d29e3b724b80297526c86b98828",
+    "src/data/navigation-atlas.json": "04e1f54a325fb8761ee79528102fafd08a326f1ae4547f32fe8949b96c0d5a2c",
+    "scripts/structured-data.mjs": "20184e680bdce2e96642c963601ac275f4a346b27d56e4e5f12370f25b299c14"
+  },
+  "focusedRecheck": {
+    "command": "npm run build; npm run check:product-systems; npm run check:html-attributes; npm run check:schema",
+    "passed": true,
+    "reason": "Final manufacturer material clarification for Trex Select T-Rail"
+  }
+}

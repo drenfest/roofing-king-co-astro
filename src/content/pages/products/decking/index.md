@@ -1,7 +1,9 @@
 ---
 title: Decking Products
 permalink: /products/decking/
-description: Compare decking materials and brands with Roof King.
+description: Compare Trex decking, cedar and pressure-treated wood, including
+  color, board profiles, finishing, maintenance and manufacturer warranty
+  details.
 canonicalPath: /products/decking/
 category: Product hub
 source: authored-product-pillar
@@ -9,8 +11,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

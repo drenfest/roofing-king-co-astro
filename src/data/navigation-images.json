@@ -293,6 +293,117 @@
     "illustrative": false,
     "fingerprint": "9d1c27a61982e47e13ceb72693a1295c171a64ad55fd8cdd7cb917ea18bf5007"
   },
+  "/products/roofing/shingles/owens-corning/": {
+    "sourceImage": "/media/products/manufacturers/09acd17ada7471f4-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/09acd17ada7471f4-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "7de149e87f3a5ad8b52e2e0c4a247080ae13e2a676c092eeeb7bf8708b163fdd"
+  },
+  "/products/roofing/shingles/owens-corning/trudefinition-duration/": {
+    "sourceImage": "/media/products/manufacturers/e827ab26aa0557b1-1229.webp",
+    "thumbnailSource": "/media/products/manufacturers/e827ab26aa0557b1-1229.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "71dae95fd49a5231ec9fc7d4809d9514e7af08dd51e515a89f0f7fa77080ad30"
+  },
+  "/products/roofing/shingles/owens-corning/trudefinition-duration-designer/": {
+    "sourceImage": "/media/products/manufacturers/ed5284ddfd35cb84-1229.webp",
+    "thumbnailSource": "/media/products/manufacturers/ed5284ddfd35cb84-1229.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "8483b00b5140599e42b205e3de750effdbb0cf42204aeea83d0b8a6235d33761"
+  },
+  "/products/roofing/shingles/owens-corning/trudefinition-duration-flex/": {
+    "sourceImage": "/media/products/manufacturers/d7fb72ceddda86f3-1229.webp",
+    "thumbnailSource": "/media/products/manufacturers/d7fb72ceddda86f3-1229.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "1734b7d48f7ce85b407a901b192324a427eee372f6bae66d5b21104eee47bcdd"
+  },
+  "/products/roofing/shingles/owens-corning/trudefinition-duration-storm/": {
+    "sourceImage": "/media/products/manufacturers/d054185e23ce9fc1-1229.webp",
+    "thumbnailSource": "/media/products/manufacturers/d054185e23ce9fc1-1229.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "1dffb1c317e78104770f931ce7e9869f325d9797c0b86acb5899a0ba186309b1"
+  },
+  "/products/roofing/shingles/owens-corning/oakridge/": {
+    "sourceImage": "/media/products/manufacturers/3cc8ab4f35f9b775-1229.webp",
+    "thumbnailSource": "/media/products/manufacturers/3cc8ab4f35f9b775-1229.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "674cf203ad3fb28b84bf5c45d4864cb01573c15ef08642e51a0c2f82231f5143"
+  },
+  "/products/roofing/shingles/iko/": {
+    "sourceImage": "/media/products/manufacturers/724d2146b3f5a148-1400.webp",
+    "thumbnailSource": "/media/products/manufacturers/724d2146b3f5a148-1400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ac3d67213488d9cfb0e50a5c2640a9ce4e36082af135feabdc6c74ccd1fbf46f"
+  },
+  "/products/roofing/shingles/iko/dynasty/": {
+    "sourceImage": "/media/products/manufacturers/724d2146b3f5a148-1400.webp",
+    "thumbnailSource": "/media/products/manufacturers/724d2146b3f5a148-1400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "de6143157a705af7e707f99ce65afaa71221faa2cb567524db00af6f7c6d7e3b",
+    "crop": {
+      "left": 140,
+      "top": 132,
+      "width": 1120,
+      "height": 1058
+    }
+  },
+  "/products/roofing/shingles/iko/nordic/": {
+    "sourceImage": "/media/products/manufacturers/3a180de546e90dea-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/3a180de546e90dea-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "92eeca914992d8441162c1b2a9f53480b1604324b6990791bd999f428b80ff79"
+  },
+  "/products/roofing/shingles/iko/dynasty-cool-plus/": {
+    "sourceImage": "/media/products/manufacturers/06c671392c6e78b6-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/06c671392c6e78b6-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "0caecd4633bc2851bf87728e0a7b9558347524e9e3c302afd1d2304b6d291f57"
+  },
+  "/products/roofing/shingles/iko/armourshake/": {
+    "sourceImage": "/media/products/manufacturers/1195202ca02d53b8-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/1195202ca02d53b8-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "302c2bd265257f34ae61f74bc95c86059df0d3b61483bb79186e7ff1e544225d"
+  },
+  "/products/roofing/shingles/iko/royal-estate/": {
+    "sourceImage": "/media/products/manufacturers/6eb20753afbb9f9e-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/6eb20753afbb9f9e-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "68924788ac964ae1b18dbdbcc7824b4f4eea9011e145be35f1614b8e41607f76"
+  },
+  "/products/roofing/shingles/iko/crowne-slate-designer-shingles/": {
+    "sourceImage": "/media/products/manufacturers/075f1c7aff6d6330-1280.webp",
+    "thumbnailSource": "/media/products/manufacturers/075f1c7aff6d6330-1280.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "3de176102ab151296fef38ebc44327edd485d3aa64b10187dfec2bb520bb01ce"
+  },
+  "/products/roofing/shingles/iko/cambridge/": {
+    "sourceImage": "/media/products/manufacturers/8e90d2d8fdf610be-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/8e90d2d8fdf610be-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e775822863b3158cbe3c7c9dd141e2439b8b3fb0719a1971a1bc833674f31111"
+  },
+  "/products/roofing/shingles/iko/cambridge-cool-colors/": {
+    "sourceImage": "/media/products/manufacturers/2bd66413a186e59d-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/2bd66413a186e59d-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "5b2fe84dfa4c9673ea0a44203f71e7d6cea2f7281efce3207b1f2fb92e675bce"
+  },
   "/roofing/gaf/types/": {
     "sourceImage": "/media/wordpress/6d0acbe3aa5e-e21ed39e-0acf-4cc9-b7f1-9245bc203cfb.jpg",
     "thumbnailSource": "/media/services/6d0acbe3aa5e-e21ed39e-0acf-4cc9-b7f1-9245bc203cfb-480.webp",
@@ -398,12 +509,281 @@
     "illustrative": false,
     "fingerprint": "dde25437b3d06708a60fa517874cd0ad04fcc468deaba68ef93da16cb91e8de3"
   },
-  "/products/siding/vinyl/ply-gem/": {
-    "sourceImage": "/media/brands/ply-gem.webp",
-    "thumbnailSource": "/media/brands/ply-gem.webp",
-    "fit": "contain",
+  "/products/siding/vinyl/variform/heritage-cedar/": {
+    "sourceImage": "/media/products/manufacturers/7b4a8eef23a78cb3-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/7b4a8eef23a78cb3-400.webp",
+    "fit": "cover",
     "illustrative": false,
-    "fingerprint": "52ecbf70c959fea81c3203d5b8dc1ab8097df19fc6f8de7d95c0b537e80c7274"
+    "fingerprint": "8d53c9c4e6a1c84ba11bd4c2d4bd6298c66d502dd583f241cc9f8b4ea0ab26c3"
+  },
+  "/products/siding/vinyl/variform/vortex-extreme/": {
+    "sourceImage": "/media/products/manufacturers/a17e1b05a8037d5f-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/a17e1b05a8037d5f-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "3be1f467668b26792a55f9bf95d4773d5e45f92100ad24452482e2384db0d27e"
+  },
+  "/products/siding/vinyl/variform/variform-board-and-batten/": {
+    "sourceImage": "/media/products/manufacturers/62cec8f5ec252d90-480.webp",
+    "thumbnailSource": "/media/products/manufacturers/62cec8f5ec252d90-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "516675760fbddb8c53d1c750def5d1937ea07e92d52ccfe4fb381c2c68807f4d"
+  },
+  "/products/siding/vinyl/variform/camden-pointe/": {
+    "sourceImage": "/media/products/manufacturers/8e9fab0645b7560f-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/8e9fab0645b7560f-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4c0de72c0b13d0875a7ef302b3fe1e7ed3df304052fe5b4fd119dd7b2dbca63f"
+  },
+  "/products/siding/vinyl/variform/american-herald/": {
+    "sourceImage": "/media/products/manufacturers/65ce2af833850233-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/65ce2af833850233-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "f724a1d08bf9c47c7e77bf2e14baf699f1c40c806e11d22adf3f16c7fbd5d386"
+  },
+  "/products/siding/vinyl/variform/ashton-heights/": {
+    "sourceImage": "/media/products/manufacturers/dccfd9a763cdf4ce-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/dccfd9a763cdf4ce-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "bdcd1d28e557494b0668a105183ebf3dfadf0c66fd2ec241ffa48ecb8e39091e"
+  },
+  "/products/siding/vinyl/variform/contractors-choice/": {
+    "sourceImage": "/media/products/manufacturers/a7904f66ce28ada5-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/a7904f66ce28ada5-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "67bb880bff103b878ae3facd535befa9d4fd4e8f6b21358ddd0be6922d01b651"
+  },
+  "/products/siding/vinyl/variform/victoria-harbor/": {
+    "sourceImage": "/media/products/manufacturers/8a0d1dc4b7151080-400.webp",
+    "thumbnailSource": "/media/products/manufacturers/8a0d1dc4b7151080-400.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "2c114081225bc30c34d7c6dde4405cef00aa41f8b8d1b7623f5731d46fd56adc"
+  },
+  "/products/siding/vinyl/ply-gem/": {
+    "sourceImage": "/media/products/ply-gem/dimensions-home-1024.webp",
+    "thumbnailSource": "/media/products/ply-gem/dimensions-home-1024.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "d7368f9b23594af5205fac6c1b305d4c0f1ba03e6f51a8874552674f5d960d7e"
+  },
+  "/products/siding/vinyl/ply-gem/cedar-dimensions/": {
+    "sourceImage": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+    "thumbnailSource": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "fc18a9839d3ad54f7897cb0ab3fc1c3a837dcf6d0cebb21eeff7aa7578db39f4"
+  },
+  "/products/siding/vinyl/ply-gem/dimensions/": {
+    "sourceImage": "/media/products/ply-gem/dimensions-home-1024.webp",
+    "thumbnailSource": "/media/products/ply-gem/dimensions-home-1024.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "8a2ed5d2b3f3f34ea85bfac086c406b424eb28b8486ceaaba6f6ccfdec58762d",
+    "crop": {
+      "left": 102,
+      "top": 68,
+      "width": 819,
+      "height": 549
+    }
+  },
+  "/products/siding/vinyl/ply-gem/progressions/": {
+    "sourceImage": "/media/products/ply-gem/progressions-home-1022.webp",
+    "thumbnailSource": "/media/products/ply-gem/progressions-home-1022.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "9cd732f59b29973faad429c579d0243a91c3d6e62a6aa9272f365beb758a2f27"
+  },
+  "/products/siding/vinyl/ply-gem/performance-board-batten/": {
+    "sourceImage": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+    "thumbnailSource": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "8849f0e8384c83037df92982189b118c705ed68c2b89fc1c8ded052c6072ca57"
+  },
+  "/products/siding/vinyl/ply-gem/transformations/": {
+    "sourceImage": "/media/products/ply-gem/transformations-home-1024.webp",
+    "thumbnailSource": "/media/products/ply-gem/transformations-home-1024.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ec73e97212748ffb99671209be59bac52dcbcdb5754dbd0838f20dea2797a7bc"
+  },
+  "/products/siding/vinyl/alside/": {
+    "sourceImage": "/media/products/manufacturers/0788aa7738d09b51-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/0788aa7738d09b51-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c375e5eb7fa2cb949bc58e5c00105f60c0ef380199ded6c48010ff2a2effd8e4"
+  },
+  "/products/siding/vinyl/alside/charter-oak/": {
+    "sourceImage": "/media/products/manufacturers/0788aa7738d09b51-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/0788aa7738d09b51-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "3c09239a8174fdfad516a7289c49e1b6af713da929bb6f7c3cba2a729f7dc9ab",
+    "crop": {
+      "left": 120,
+      "top": 62,
+      "width": 960,
+      "height": 496
+    }
+  },
+  "/products/siding/vinyl/alside/odyssey-plus/": {
+    "sourceImage": "/media/products/manufacturers/a399040563014ae8-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/a399040563014ae8-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "97fbf704e1b6daa55a44d0a8f8839f5d0b13c1c3de01c8f071d42029bf1776aa"
+  },
+  "/products/siding/vinyl/norandex/": {
+    "sourceImage": "/media/products/manufacturers/178040a493cac54c-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/178040a493cac54c-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4fc5aceba5d656978897d8e5036d56f1a1bc171e69cae9fa4e8dfb89a51d234a"
+  },
+  "/products/siding/vinyl/norandex/polar-wall-plus/": {
+    "sourceImage": "/media/products/manufacturers/178040a493cac54c-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/178040a493cac54c-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "fc074a163588a8c63814ef4c2b4a5379d0921dbb8c9be7ac83fd85b58fe67b4f",
+    "crop": {
+      "left": 160,
+      "top": 50,
+      "width": 1280,
+      "height": 400
+    }
+  },
+  "/products/siding/vinyl/norandex/great-barrier/": {
+    "sourceImage": "/media/products/manufacturers/3144fb67d840ce46-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/3144fb67d840ce46-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e535cc6b21aac264a947c6641cdc9ff98382760361ccf41fffbe78bebfaff6c5"
+  },
+  "/products/siding/vinyl/norandex/sturdiplank-s7/": {
+    "sourceImage": "/media/products/manufacturers/fd3b569d1e9680de-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/fd3b569d1e9680de-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "8a9e678e33930e30218c68bb0532b1f93feaeff8df76776f488abbb7eabf581f"
+  },
+  "/products/siding/vinyl/norandex/cedar-knolls/": {
+    "sourceImage": "/media/products/manufacturers/db2b17a9106e9e40-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/db2b17a9106e9e40-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "62ec6b61c64716bb15c86788c06e7ff4c02513d65fb6ce1bb22ec3604d554c46"
+  },
+  "/products/siding/vinyl/norandex/sterling/": {
+    "sourceImage": "/media/products/manufacturers/466b2993db27863b-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/466b2993db27863b-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e2d2d88b8502e384cbcc8f8a7a2d2bfbf9e5ddca50e7d2868783fec393d53620"
+  },
+  "/products/siding/vinyl/norandex/woodsman-select/": {
+    "sourceImage": "/media/products/manufacturers/bf584a3f7bb31833-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/bf584a3f7bb31833-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "84a6aacfc870ed2913fc2258d16929f240a687cfda7233607f8569913ffb8272"
+  },
+  "/products/siding/vinyl/norandex/summit-manor/": {
+    "sourceImage": "/media/products/manufacturers/88238509d5808afd-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/88238509d5808afd-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ea7e3eec71e44f0b7371fd4a1eec041613455043e97311cfe152b514d12ea1d7"
+  },
+  "/products/siding/vinyl/norandex/rustic-hill/": {
+    "sourceImage": "/media/products/manufacturers/7105b6cb622d540d-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/7105b6cb622d540d-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "8d842fd2c8fa6abc25c5ccea9dacc12240dbafe78f44dd35a4b76a6b67fd5cc4"
+  },
+  "/products/siding/vinyl/norandex/home-accents/": {
+    "sourceImage": "/media/products/manufacturers/e382a74c0534e963-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/e382a74c0534e963-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "9bceee60e6ef816dd6821c76fe7f859136fe5041fcff2c746eca69d08216c8d1"
+  },
+  "/products/siding/vinyl/norandex/cambridge-beaded/": {
+    "sourceImage": "/media/products/manufacturers/7666485e3a679691-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/7666485e3a679691-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "6ae22b1ea7e4e847f52fe12b05d6291deafaad4d1c4e69335e29b8741040d4b7"
+  },
+  "/products/siding/vinyl/norandex/board-and-batten/": {
+    "sourceImage": "/media/products/manufacturers/b505f09abd80b280-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/b505f09abd80b280-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "608b814484e3773975a79a3a4f2b7134db70dec99071bea459b28f7015d05be1"
+  },
+  "/products/siding/vinyl/exterior-portfolio/": {
+    "sourceImage": "/media/products/manufacturers/293a88a0b2af518c-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/293a88a0b2af518c-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "6c7d3fc9773abe408133cb64707f4641c5a3a140c8cc3adbce134f13bd75e6d1"
+  },
+  "/products/siding/vinyl/exterior-portfolio/carolina-sands-vinyl-siding/": {
+    "sourceImage": "/media/products/manufacturers/293a88a0b2af518c-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/293a88a0b2af518c-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c715c5aa4aaf6faeb0aa9090f8d9343056e35308e6161bbf69b6a3012ee3b397",
+    "crop": {
+      "left": 80,
+      "top": 80,
+      "width": 640,
+      "height": 640
+    }
+  },
+  "/products/siding/vinyl/exterior-portfolio/board-batten-siding/": {
+    "sourceImage": "/media/products/manufacturers/8018b23f1dc61089-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/8018b23f1dc61089-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c5aa5285f59331ca9b3b7c771d25ed2a2b46e10e2bcdaf2282e4ba5384a6ad0c"
+  },
+  "/products/siding/vinyl/exterior-portfolio/premium-pointe-vinyl-siding/": {
+    "sourceImage": "/media/products/manufacturers/e9b54249a5046d31-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/e9b54249a5046d31-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e8a02e6b9f191655ec04d6d738b567e6e09271ae501af40753296fa9031b3d3f"
+  },
+  "/products/siding/vinyl/exterior-portfolio/market-square-siding/": {
+    "sourceImage": "/media/products/manufacturers/6cbf24530b30da93-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/6cbf24530b30da93-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c578d131f02d0cf591f19a257409d48f1c9fa836855908a2719eb4d99c3891d0"
+  },
+  "/products/siding/vinyl/exterior-portfolio/parkview-vinyl-siding/": {
+    "sourceImage": "/media/products/manufacturers/c5b1e59e05cd193d-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/c5b1e59e05cd193d-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "5d9f4129b0a293cb729789eed838efad40968a5fa244f01be75a2195577d3ca1"
+  },
+  "/products/siding/vinyl/exterior-portfolio/elm-grove-vinyl-siding/": {
+    "sourceImage": "/media/products/manufacturers/d57081f62b3ddfb3-800.webp",
+    "thumbnailSource": "/media/products/manufacturers/d57081f62b3ddfb3-800.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4a04b2bd3715c0368369e717cd4ad7cddb16c8e6e7add14b714521d32e07a2ff"
   },
   "/products/siding/engineered-wood/": {
     "sourceImage": "/media/product-collections/engineered-wood-siding-800.webp",
@@ -419,6 +799,48 @@
     "illustrative": false,
     "fingerprint": "06f4036dfa51be770a36a9efbcffeefe8f2e8558fb634c29d43217122db0c65c"
   },
+  "/products/siding/engineered-wood/lp-smartside/shakes/": {
+    "sourceImage": "/media/products/manufacturers/351497a684a3c23b-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/351497a684a3c23b-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "39605c2250c54b1971080784490ba1d329caf48176ab725993f7a669632b7539"
+  },
+  "/products/siding/engineered-wood/lp-smartside/lap-siding/": {
+    "sourceImage": "/media/products/manufacturers/13a38821e2db8d0d-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/13a38821e2db8d0d-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "beef744e2769a1b374d4411d749958f9f14d34e9865bf77d65eb7324d633d702"
+  },
+  "/products/siding/engineered-wood/lp-smartside/trim-fascia/": {
+    "sourceImage": "/media/products/manufacturers/e6ebe6dc5acdf97f-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/e6ebe6dc5acdf97f-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e22a86378b0299b438d2a7cec32a4bc632ac45cf61cacb647b3f6f09a78d79b0"
+  },
+  "/products/siding/engineered-wood/lp-smartside/soffit/": {
+    "sourceImage": "/media/products/manufacturers/fcb8cc791d261274-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/fcb8cc791d261274-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "2c25f7d2dd6105924f4aca3a42db6ef8b855493d022c5eda39f2a34b57133b2c"
+  },
+  "/products/siding/engineered-wood/lp-smartside/nickel-gap/": {
+    "sourceImage": "/media/products/manufacturers/020bbd72acfe6cbd-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/020bbd72acfe6cbd-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "7911fdb333b5e525deca51940ee5aadf6c027c8a37d0df93ab16a185f546155c"
+  },
+  "/products/siding/engineered-wood/lp-smartside/panel-vertical-siding/": {
+    "sourceImage": "/media/products/manufacturers/3249795cb7f2c1d4-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/3249795cb7f2c1d4-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "47b3f9bc734aa10f11618b7eeabb4c8735cbb73e67947c22e197636d36e4ea5e"
+  },
   "/products/siding/fiber-cement/": {
     "sourceImage": "/media/product-collections/fiber-cement-siding-800.webp",
     "thumbnailSource": "/media/product-collections/fiber-cement-siding-800.webp",
@@ -432,6 +854,48 @@
     "fit": "contain",
     "illustrative": false,
     "fingerprint": "1cec9c7b714bdc3d08eb345cf8ea00beff48102e5b0956182627c0bc2b6eb363"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-plank-lap-siding/": {
+    "sourceImage": "/media/products/manufacturers/b960f54fe03dc760-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/b960f54fe03dc760-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4609c0039626af8c129e399240f37ee72675a388276a360c09cf38833a11f4c3"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-trim-batten-boards/": {
+    "sourceImage": "/media/products/manufacturers/3ad1949093112142-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/3ad1949093112142-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "df707e1ad1c040e6d9e3e0209a48d4343589c804bce50b3c86d5cd90e1e9dab0"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-panel-siding/": {
+    "sourceImage": "/media/products/manufacturers/188a7c149e1f384b-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/188a7c149e1f384b-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "32d6eb248fb50bbe8030b8c693a1b9248f4da379f825dc1dc947333aac0c5e2c"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-artisan-siding/": {
+    "sourceImage": "/media/products/manufacturers/67fc06b99c21f400-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/67fc06b99c21f400-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "51b787175d51cf4056ebe34876c33c01aaa8a84be9757710bc22ea304c7a1c23"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-shingle-siding/": {
+    "sourceImage": "/media/products/manufacturers/09e0d3dde737d21e-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/09e0d3dde737d21e-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "3c844b50d39bd7ad6f771ac48c77fe085a0dff03480fad114797ec04322c0c33"
+  },
+  "/products/siding/fiber-cement/james-hardie/hardie-architectural-panel-siding/": {
+    "sourceImage": "/media/products/manufacturers/f3995064850ffcea-600.webp",
+    "thumbnailSource": "/media/products/manufacturers/f3995064850ffcea-600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "49dd266f801ad1a351fc776f08f00bd989a6bf09516911265dc54b2dadf9d74c"
   },
   "/products/decking/": {
     "sourceImage": "/media/wordpress/13b26cd9aae3-hero-decks.jpg",
@@ -454,6 +918,48 @@
     "illustrative": false,
     "fingerprint": "5b3b5c802962654c2b16930c19ad74e1d15f648a4c88cfc78161a118f5419626"
   },
+  "/products/decking/composite/trex/decking/": {
+    "sourceImage": "/media/products/manufacturers/e530fcc9593ee9ad-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/e530fcc9593ee9ad-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4652e898dc845ea1abc90f7c826d8ed898aa27d7593217a7ce4622622e34c0bf"
+  },
+  "/products/decking/composite/trex/railing/": {
+    "sourceImage": "/media/products/systems/60b920863d87-1016.webp",
+    "thumbnailSource": "/media/products/systems/60b920863d87-1016.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "80c2a245a1370f5dfebfb225994ce325ece89e446f577effaf3859c2506aa449"
+  },
+  "/products/decking/composite/trex/accessories/": {
+    "sourceImage": "/media/products/systems/4b44ec95af97-1016.webp",
+    "thumbnailSource": "/media/products/systems/4b44ec95af97-1016.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "3b65abed9d9b8971298b74c0173e7afd92eff4fc7d4ff22f82bb405ac16bfc61"
+  },
+  "/products/decking/wood/": {
+    "sourceImage": "/media/service-heroes/decks-1600.webp",
+    "thumbnailSource": "/media/service-heroes/decks-640.webp",
+    "fit": "cover",
+    "illustrative": true,
+    "fingerprint": "6f48406d1bd9ba2d5edebb0121630d63f5d422b644bb49e65118ded241054742"
+  },
+  "/products/decking/wood/cedar/": {
+    "sourceImage": "/media/service-heroes/decks-refinishing-1600.webp",
+    "thumbnailSource": "/media/service-heroes/decks-refinishing-640.webp",
+    "fit": "cover",
+    "illustrative": true,
+    "fingerprint": "1098df0f6f07bf4d5acfd38ca7eeebb9be091d16f962c84a7ceeb9edc166e46e"
+  },
+  "/products/decking/wood/pressure-treated/": {
+    "sourceImage": "/media/service-heroes/decks-installations-1600.webp",
+    "thumbnailSource": "/media/service-heroes/decks-installations-640.webp",
+    "fit": "cover",
+    "illustrative": true,
+    "fingerprint": "d563d48cb18d7cd066f1e2695c21164f500c1727a27138aaadf5ea2609f7eb5c"
+  },
   "/products/gutters/": {
     "sourceImage": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
     "thumbnailSource": "/media/services/b6b3120916a9-hero-gutters-480.webp",
@@ -475,12 +981,47 @@
     "illustrative": false,
     "fingerprint": "61c8f4dd5a0511ae6128d351a28342029cc3ca711d090e38e3b567858512938f"
   },
+  "/products/gutters/guards/alu-rex/doublepro/": {
+    "sourceImage": "/media/products/manufacturers/e6ff60e6bd2f4329-960.webp",
+    "thumbnailSource": "/media/products/manufacturers/e6ff60e6bd2f4329-960.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "4b6ed7eae65c976be5ba5388eab6667299e2a4f205fbe80a7a310768a670c434"
+  },
+  "/products/gutters/guards/alu-rex/t-rex/": {
+    "sourceImage": "/media/products/manufacturers/9a0cdfdf2eb3cb2f-1600.webp",
+    "thumbnailSource": "/media/products/manufacturers/9a0cdfdf2eb3cb2f-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e331f07ecb0f6bb56528a86e1df0e9d4629c99c426e360f4e65617c80e78355d"
+  },
+  "/products/gutters/guards/alu-rex/guttercleanpro/": {
+    "sourceImage": "/media/products/manufacturers/9c7da1956e4f519f-1200.webp",
+    "thumbnailSource": "/media/products/manufacturers/9c7da1956e4f519f-1200.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "d5f8128bc94208408354fa4420569a4d8cb1c55086d27ee5137cfe05b683bea1"
+  },
+  "/products/gutters/guards/alu-rex/gutter-clean/": {
+    "sourceImage": "/media/products/manufacturers/3a8836e122cbd47a-900.webp",
+    "thumbnailSource": "/media/products/manufacturers/3a8836e122cbd47a-900.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "28f5bc3eecabae44994f207682aea5f1072100c7cbf6d91349e93e87a2241f28"
+  },
   "/products/gutters/guards/leaffilter/": {
     "sourceImage": "/media/brands/leaffilter.webp",
     "thumbnailSource": "/media/brands/leaffilter.webp",
     "fit": "contain",
     "illustrative": false,
     "fingerprint": "4a3a8ef504bf223aed64fa847c0ad451b71c3b096adbb80ac4bba9a51d5689aa"
+  },
+  "/products/gutters/guards/leaffilter/gutter-protection/": {
+    "sourceImage": "/media/products/systems/6a767a0f9af1-1600.webp",
+    "thumbnailSource": "/media/products/systems/6a767a0f9af1-1600.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e77eaab3881045784e1880af27d2adf473f4da758535fcb32932e3d11192b325"
   },
   "/service-areas/": {
     "sourceImage": "/media/wordpress/485992cdfabe-map.jpg",
@@ -783,27 +1324,6 @@
     "illustrative": false,
     "fingerprint": "33a7c57a01de16ceee0201eb89a42729f2a36a51b58d4e05260a7eb2242f41fa"
   },
-  "/our-careers/": {
-    "sourceImage": "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg",
-    "thumbnailSource": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "2f8c3ee8a80f017a12ad6fc5bac7ef70453cec1f58940c947404061a6d5a1db7"
-  },
-  "/contact-us/": {
-    "sourceImage": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
-    "thumbnailSource": "/media/services/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "c235a8cfc32db12170206f63e00aaf337953359218ac16ac3f505afce26cd986"
-  },
-  "/customer-service/": {
-    "sourceImage": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
-    "thumbnailSource": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-480.webp",
-    "fit": "cover",
-    "illustrative": false,
-    "fingerprint": "b6ba25daa66186c10b47488925ae571fa4f2f58cb8e721098e05e4a215484e18"
-  },
   "/offers/": {
     "sourceImage": "/media/service-heroes/athens-oh-1600.webp",
     "thumbnailSource": "/media/service-heroes/athens-oh-640.webp",
@@ -866,5 +1386,26 @@
     "fit": "cover",
     "illustrative": true,
     "fingerprint": "d3a00c6c38f4fb7f1fd07afd52eb1d74e2856413926a3fb37ae8a840a20e5f90"
+  },
+  "/our-careers/": {
+    "sourceImage": "/media/wordpress/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10.jpg",
+    "thumbnailSource": "/media/services/320e7a13b732-29471fa7-73bb-4fd0-9034-8ca93c1bdd10-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "2f8c3ee8a80f017a12ad6fc5bac7ef70453cec1f58940c947404061a6d5a1db7"
+  },
+  "/contact-us/": {
+    "sourceImage": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+    "thumbnailSource": "/media/services/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "c235a8cfc32db12170206f63e00aaf337953359218ac16ac3f505afce26cd986"
+  },
+  "/customer-service/": {
+    "sourceImage": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg",
+    "thumbnailSource": "/media/home/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964-480.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "b6ba25daa66186c10b47488925ae571fa4f2f58cb8e721098e05e4a215484e18"
   }
 }

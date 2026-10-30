@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/products/decking/composite/trex/decking/",
+    "label": "Decking",
+    "productIds": [
+      "trex-signature",
+      "trex-lineage",
+      "trex-transcend",
+      "trex-select",
+      "trex-enhance",
+      "trex-refuge"
+    ]
+  },
+  {
+    "path": "/products/decking/composite/trex/railing/",
+    "label": "Railing",
+    "productIds": [
+      "trex-signature-aluminum-railing",
+      "trex-signature-glass-railing",
+      "trex-signature-mesh-railing",
+      "trex-signature-rod-railing",
+      "trex-signature-x-series-cable-railing",
+      "trex-signature-x-series-glass-railing",
+      "trex-transcend-railing",
+      "trex-select-classic-railing",
+      "trex-select-t-rail",
+      "trex-select-aluminum-railing",
+      "trex-select-mesh-railing",
+      "trex-enhance-steel-railing",
+      "trex-enhance-composite-railing"
+    ]
+  },
+  {
+    "path": "/products/decking/composite/trex/accessories/",
+    "label": "Deck accessories",
+    "productIds": [
+      "trex-fascia",
+      "trex-hideaway-fasteners",
+      "trex-deck-lighting",
+      "trex-rainescape"
+    ]
+  }
+]

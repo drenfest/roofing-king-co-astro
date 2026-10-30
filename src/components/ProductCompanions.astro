@@ -1,4 +1,5 @@
 ---
+import ProductSystemCompanions from './ProductSystemCompanions.astro';
 import companions from '../data/product-companions.json';
 import AccessoryBenefitDiagram from './AccessoryBenefitDiagram.astro';
 interface Props { productId:string; }
@@ -8,11 +9,11 @@ const eligible=companions.productIds.includes(productId);
 {eligible && <section class="rk-product-companions" aria-labelledby="roof-system-title" data-component="ProductCompanions">
   <div class="rk-section-inner">
     <p class="rk-home-eyebrow">Better together · Timberline HDZ roofing system</p>
-    <h2 id="roof-system-title">{companions.title}</h2>
+    <h3 id="roof-system-title">{companions.title}</h3>
     <p class="rk-product-companions-intro">{companions.intro}</p>
     <div class="rk-companion-grid">{companions.items.map(item=><article class="rk-companion-card" data-companion={item.id}>
       <figure class="rk-accessory-photo"><img src={item.image.src} srcset={item.image.srcset} sizes="(max-width:700px) 90vw, 380px" width={item.image.width} height={item.image.height} alt={item.image.alt} loading="lazy" decoding="async"/><figcaption>Manufacturer product photo · GAF</figcaption></figure>
-      <p class="rk-home-eyebrow">{item.category}</p><h3>{item.name}</h3>
+      <p class="rk-home-eyebrow">{item.category}</p><h4>{item.name}</h4>
       <p class="rk-companion-location"><strong>Where it works:</strong> {item.location}</p>
       <p>{item.benefit}</p>
       <AccessoryBenefitDiagram id={item.id} name={item.name} caption={item.longevity}/>
@@ -28,3 +29,5 @@ const eligible=companions.productIds.includes(productId);
     </div>
   </div>
 </section>}
+
+{!eligible && <ProductSystemCompanions {productId}/>}

@@ -1,18 +1,24 @@
-# src/scripts/compatibility
+# src/scripts/compatibility: legacy-only adapters
 
-Temporary WordPress browser modules for navigation, gallery and before/after comparison. They depend on rk-* classes and data attributes. Do not initialize against unrelated markup.
+These modules support retained WordPress-style rk-* markup and selectors. They are not the default implementation for new navigation, galleries, comparisons or entrance effects. New native pages reuse SiteHeader/MegaMenu, ProjectGallery, BeforeAfter and SiteMotion.
 
-## Files
+When fixing a retained route, inspect its exact markup and shell before changing a selector. Avoid duplicate initialization against native components and preserve keyboard/no-JavaScript fallbacks. A native conversion should remove the need for the relevant legacy wiring without changing its preserved URL.
 
-- `before-after.js`
-- `gallery.js`
-- `navigation.js`
-- `reveal.js`
+<!-- directory-inventory:start -->
+## Directory inventory
 
-## Subdirectories
+Parent guidance: [src/scripts](../ai-context.md).
 
-- None.
+### Direct files
 
-## Change checks
+- [before-after.js](before-after.js)
+- [gallery.js](gallery.js)
+- [navigation.js](navigation.js)
+- [reveal.js](reveal.js)
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

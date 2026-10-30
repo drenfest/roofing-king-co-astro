@@ -8,3 +8,5 @@ dist/
 .DS_Store
 Thumbs.db
 tmp/
+output/manufacturer-originals/
+output/manufacturer-color-originals/

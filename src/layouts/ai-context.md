@@ -1,78 +1,51 @@
-# src/layouts
+# src/layouts: page-family composition
 
-PolishedServicePage composes 83 rebuilt service/location/cost/calculator routes from service-editorial.json using only native Astro sections and Svelte islands. Parent service pages use ServicePaths tabs; leaf pages use ServiceArticle with visible content rows and no selector island. Every rebuilt page has relevant service content, independent review links, credentials, contextual products/brands, installation copy, estimate details, related links, FAQs and disconnected quote forms. Non-roofing credentials use exterior wording. ServiceLanding retains the approved /roofing/ reference. ServicePage remains for the existing GAF product catalog. Explicit native entry points prevent SiteLayout and WordPress compatibility styles from entering polished pages. DocumentLayout owns canonical metadata, preview noindex and shared business schema; polished pages add Service schema. ProductLayout remains independent. SiteLayout serves remaining legacy categories only.
+Use the existing family rather than importing the legacy shell into a native page. Inspect the actual src/pages entry point and its dependencies; layouts do not own every copy value themselves.
 
-## Files
+| Layout | Use |
+| --- | --- |
+| DocumentLayout | Native document metadata/head, shared styles/motion and preview indexing policy; used by native compositions |
+| ServiceLanding | Independent /roofing/ reference, driven by roofing-landing.json and shared service components |
+| PolishedServicePage | Other native service/location/cost/calculator routes, with editorial identity + full service-copy data |
+| ServicePage | Retained native service/catalog records, including /roofing/gaf/types/; not the default for new polished services |
+| ProductLayout | Shared native product shell, ProductHero, Breadcrumbs, header/footer and quote section |
+| ArticleLayout | Structured article sections, first-image hero, canonical term links, author/date, BlogNavigation, body imagery, FAQ and QuoteSection |
+| BlogLayout | Shared main/category/topic/term hub shell and aside; used by BlogHub and BlogArchive |
+| OfferLayout | Qualified offer/financing informational pages using offer-pages.ts; dedicated warranty composition remains separate |
+| SiteLayout | Remaining preserved legacy content and compatibility wiring only |
 
-- `DocumentLayout.astro`
-- `PolishedServicePage.astro`
-- `ProductLayout.astro`
-- `ServiceLanding.astro`
-- `ServicePage.astro`
-- `SiteLayout.astro`
+## Service composition contract
 
-## Subdirectories
+Polished services use ServicePaths for real parent service/location selectors and ServiceArticle for leaves. They retain review sources, credentials, full source content bands, contextual manufacturer subsections, explicit estimate placement, a relevant ServiceComparison, topic-matched gallery, FeaturedArticles, FAQ and the disconnected quote experience. The calculator family keeps Roofr click-to-load behavior. Reviewed brand headings remain H3s where nested; do not flatten all topics to H2.
 
-- None.
+ServiceLanding and PolishedServicePage use the same photographic hero design and shared motion, but /roofing/ retains its own reference data/composition. ServiceComparison resolves a selected pair through shared data; it must not imply the illustration is a local completed project. Location section headings include the actual city while disclaiming illustrative examples.
 
-## Change checks
+## Extending a shell
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+Use optional typed props or a shared component for a repeated requirement. Keep route-specific copy out of layout conditionals when a data field can express it. Preserve DocumentLayout's canonical/noindex behavior, shared font loading, SiteMotion and footer flow. Do not bundle SiteLayout/WordPress compatibility CSS into a native family just to reuse its header.
 
-## Full service composition
+Changing a shell affects many routes. Check a previous consumer, the new case, desktop/mobile layout, SSR/no-JS behavior and the page family's regression checks. Schema and required image/link attributes are consolidated by middleware/build integrations; do not create a second independent graph or a parallel document shell.
 
-PolishedServicePage.astro consumes service-editorial.json and service-copy.json for the 83 supplied pages. It retains complete source-led content, parent child-service tabs or static leaf prose, verified review sources, credentials, alternating media bands, contextual brands, estimate/financing, FAQs and the disconnected quote experience. One estimate/cost/records source section moves to the green planning band without dropping its text. /roofing/ continues through ServiceLanding.astro unchanged. Calculators retain click-to-load Roofr; no form delivery is enabled.
+<!-- directory-inventory:start -->
+## Directory inventory
 
-DocumentLayout and SiteLayout both include SiteMotion. Navigation uses browser-native cross-document crossfades, preserving full document loads and fresh island initialization.
+Parent guidance: [src](../ai-context.md).
 
-ServiceLanding and relevant roofing, siding, gutter, window, commercial and location families in PolishedServicePage show StormDamageCallout after the opening content. Dedicated storm pages and unrelated services avoid a redundant promotion.
+### Direct files
 
-ServiceLanding supplies Residential Roofing and PolishedServicePage supplies data.serviceType to LandingHero.serviceName so every service hero has a descriptive Read More About link. The paused ten-page heading/hierarchy review remains separate.
+- [ArticleLayout.astro](ArticleLayout.astro)
+- [BlogLayout.astro](BlogLayout.astro)
+- [DocumentLayout.astro](DocumentLayout.astro)
+- [OfferLayout.astro](OfferLayout.astro)
+- [PolishedServicePage.astro](PolishedServicePage.astro)
+- [ProductLayout.astro](ProductLayout.astro)
+- [ServiceLanding.astro](ServiceLanding.astro)
+- [ServicePage.astro](ServicePage.astro)
+- [SiteLayout.astro](SiteLayout.astro)
 
-ServiceLanding and PolishedServicePage select generated roofing hero assets by route from roofing-heroes.json, including OG images. Every LandingHero uses the full-bleed photographic layout; other service pages retain their existing image source. No URL or body-copy migration is involved.
+### Child directories
 
-DocumentLayout and SiteLayout request variable Inter 400–900 and Playfair Display 600–900 with display=swap and existing Google font preconnects. Both native and preserved legacy routes share this pairing.
+None.
 
-The client’s latest hero reference uses warm ivory fading into photography, dark sentence-case headings and inline inspection actions. PageHero and LandingHero share this presentation. Both document shells request true Playfair Display italics as well as upright weights.
-
-PolishedServicePage reads optional per-route reviewPresentation, uses explicit copy.budgetSectionId before the legacy estimate-title heuristic, and nests brand strips at the reviewed material section as H3s. Defaults preserve pages outside the current ten-page review batch; /roofing/ remains separate.
-
-
-ProductLayout now resolves a responsive hero image through product-presentation.ts and renders ProductHero before breadcrumbs. productKey selects genuine manufacturer samples for individual shingles; optional logo appears in the hero. Preserve canonical and Product/Breadcrumb schemas, disconnected quote experience and all existing paths.
-
-
-PolishedServicePage resolves both service-heroes.json and roofing-heroes.json, so all native service pages use individual generated hero scenes. Their imagery remains explicitly illustrative. The approved roofing reference and all source copy remain intact; shared ServicePaths previews resolve the exact same destination asset.
-
-QuoteExperience now fixes the modal title to Get a free quote; service layouts pass only the contextual description and rating preference.
-
-PolishedServicePage passes the original permalink to ServiceContentBand so reviewed photo galleries resolve by page and section without modifying copy or other pages.
-
-PolishedServicePage renders a ServiceGallery matched to data.family. ServiceLanding replaces its old two-photo showcase with the roofing selection while preserving #roofing-work. The retained GAF catalog uses asphalt-only roofing photos. Each service gallery links to its matching filter in the homepage gallery.
-
-
-Location hubs explicitly render ServicePaths even without URL children, showing all 11 service groups. Other leaf services retain ServiceArticle. City-specific reviewPresentation titles apply to gallery, brands, credentials, financing and reviews. All service layouts mount FeaturedArticles, which renders only when relevant existing posts are available; it is static and retains published destinations.
-
-
-BlogLayout composes existing DocumentLayout, SiteHeader, PageHero, Breadcrumbs, CardSection slots and SiteFooter. Breadcrumbs appear after the hero and use the same services.css rules as other native pages. /blog/, both resource hubs and all ten /tag/* archives use this shell. Topic archives add a linked Topics ancestor to the breadcrumb trail.
-
-
-BlogLayout now places BlogNavigation beside its shared CardSection content instead of a horizontal resource tab row. SiteLayout accepts optional blogAside for legacy articles without an existing sidebar; imported article sidebars retain their content and their Categories/Topics heading links now resolve to the new hubs.
-
-
-All 19 category/tag collection hubs use BlogLayout.isArchive for their linked Categories/Topics breadcrumb ancestor. Legacy Article records now always get one shared BlogNavigation aside; the catchall renders the original HTML article without its old sidebar and converts nested main elements to divs. This avoids Markdown code-block navigation and duplicate asides while retaining article copy. Two broken imported service links are corrected at render time.
-
-
-ArticleLayout is the sole native article shell, reusing shared hero, breadcrumbs, aside, prose, FAQ and booking components. The catchall no longer renders Article records; category-prefixed routes and the one unassigned flat article select compiled data. SiteLayout no longer accepts legacy blogAside.
-
-
-ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience used on the homepage, outside the reading/sidebar grid. It replaces the compact ServiceAudienceBanner and its article-only styles. Header quote actions open the shared modal; form submission remains disabled during review.
-
-OfferLayout composes shared PageHero, Breadcrumbs, ContentSection, MediaContentRow, ArticleChecklist, FAQSection, ResourceLinks and QuoteSection for nine financing/warranty/seasonal pages. It preserves URLs, disabled forms and native no-JS content.
-
-Existing authored Service, Product, BlogPosting and BreadcrumbList scripts feed the shared structured-data compiler. The final document has one graph, not duplicate per-layout/per-component entities. WebSite, business and canonical page IDs are stable and linked. Keep source schema facts in the layouts/components; the compiler normalizes and enriches them from rendered content.
-
-
-PolishedServicePage reviewPresentation accepts optional stormTitle/stormDescription for reviewed service-specific callouts. Batch 02 roofing pages use roofing language; Batch 01 and unreviewed fallback behavior are preserved.
-
-
-Batch 03 reviewPresentation supports optional materialsTitle so commercial credentials do not fall through to gutter language. Budget detail cards retain their original IDs when former sections are grouped into the estimate band. Manufacturer sections remain absent on pages with no brandIds.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

@@ -1,8 +1,10 @@
 ---
 title: LP SmartSide Engineered Wood Siding
 permalink: /products/siding/engineered-wood/lp-smartside/
-description: Explore LP SmartSide engineered wood siding, design choices and
-  installation planning with Roof King.
+description: Explore treated engineered-wood lap siding, shakes, panels,
+  nickel-gap siding, trim and soffit. Cedar and Brushed Smooth textures create
+  different painted finishes, and the prefinished color range varies by product.
+  Explore product details with Roof King.
 canonicalPath: /products/siding/engineered-wood/lp-smartside/
 category: Product brand
 source: authored-product-pillar
@@ -10,8 +12,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

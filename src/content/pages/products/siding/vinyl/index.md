@@ -1,7 +1,9 @@
 ---
 title: Vinyl Siding Products
 permalink: /products/siding/vinyl/
-description: Explore vinyl siding and Variform product options.
+description: "Compare Alside, Norandex, Exterior Portfolio and Variform siding:
+  profiles, interactive color previews, specifications and manufacturer
+  warranties."
 canonicalPath: /products/siding/vinyl/
 category: Product hub
 source: authored-product-pillar
@@ -9,8 +11,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

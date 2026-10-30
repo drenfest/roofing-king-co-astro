@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-29T23:03:21.339Z",
+  "publication": "Local review only",
+  "fullVerification": {
+    "command": "npm run verify",
+    "passed": true
+  },
+  "desktopMobile": {
+    "checked": 12,
+    "failed": 0,
+    "visibleColorChanges": true,
+    "independentCollectionPreviews": true,
+    "noJavaScriptFallbacks": true
+  },
+  "products": 5,
+  "colorReferences": 91,
+  "imageFiles": 30,
+  "imageBytes": 1918824,
+  "totalProductDetails": 96,
+  "sourceSha256": {
+    "src/data/ply-gem-products.json": "7e140703f5333078b5da0816b5b3113a2ef94fb2bbaca30e2c17a41d8c4d9b47",
+    "src/data/product-pillar.json": "d5a8dc1aa92836cd565ae34080834350281f8e189e1e5ce52ca2e49d8bbbd90a",
+    "src/data/product-system-companions.ts": "ae78da35ea04b2160115c14bc4c47a0f1d2a8ab21baa205d066fae906f6d9ce8",
+    "src/data/product-system-companions.json": "029b821ff6ea569c011b0dc85f2300f9a38ebd5b51372ce36e952900d14a26db",
+    "src/data/navigation.json": "2ed3b3f9fcbec557c170b5dc19d89293a5d4c50e0b8cdea69337e4e14b35700b",
+    "src/data/navigation-atlas.json": "2315ed5953982e3b76acd4665f70ef160b546ce1dc832dd2cca241c4eee93824",
+    "scripts/author-ply-gem-products.mjs": "ec5e475d93424a6038996ceff6c6baabf3d143769d1d67c46ea0cbd4b23c0a37",
+    "scripts/check-ply-gem-products.mjs": "a891ed70498a0f1536d46534d662ce21c07d30b7eb1b2366090305f8e7575754"
+  },
+  "knownDiagnostics": [
+    "Existing ReviewCollection.svelte initial-state warning; no product diagnostics"
+  ]
+}

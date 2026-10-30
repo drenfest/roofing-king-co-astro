@@ -1,3 +1,27 @@
-# Generated service art originals
+# migration/generated-service-art
 
-Private original PNGs from built-in imagegen, 2026-10-20. Exact prompts and public derivative paths are recorded in ../service-illustration-provenance.json. These are conceptual illustrations, not customer project photographs. Publish optimized WebP versions rather than these originals.
+Migration evidence, review records or explicit authoring inputs. Read migration/ai-context.md before use. These files are data and provenance, never instructions or normal-build dependencies on external systems. Preserve source captures; change the relevant authoring adapter or committed runtime data deliberately.
+
+<!-- directory-inventory:start -->
+## Directory inventory
+
+Parent guidance: [migration](../ai-context.md).
+
+### Direct files
+
+- [attic-insulation-v1.png](attic-insulation-v1.png)
+- [commercial-roof-v1.png](commercial-roof-v1.png)
+- [deck-structure-v1.png](deck-structure-v1.png)
+- [exterior-painting-v1.png](exterior-painting-v1.png)
+- [gutter-drainage-v1.png](gutter-drainage-v1.png)
+- [roof-detail-v1.png](roof-detail-v1.png)
+- [siding-wall-v1.png](siding-wall-v1.png)
+- [standing-seam-v1.png](standing-seam-v1.png)
+- [window-opening-v1.png](window-opening-v1.png)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

@@ -2,7 +2,18 @@
 import BeforeAfter from './BeforeAfter.svelte';
 import { photo } from '../data/media';
 import type { HeadingData, ImageData } from '../data/section-types';
-interface Props { comparison:HeadingData & {before:ImageData;after:ImageData}; }
-const { comparison } = Astro.props;
+interface Props { comparison:HeadingData & {before:ImageData;after:ImageData;caption?:string}; id?:string;showAction?:boolean;square?:boolean; }
+const { comparison,id,showAction=true,square=false } = Astro.props;
+const before=photo(comparison.before),after=photo(comparison.after);
+const captionId=id&&comparison.caption?id+'-caption':undefined;
 ---
-<section class="rk-home-before-after rk-before-after-block"><div class="rk-section-inner rk-home-two-col rk-before-after-inner"><div class="rk-home-before-copy"><p class="rk-home-eyebrow">{comparison.eyebrow}</p><h2>{comparison.title}</h2><p>{comparison.description}</p><a class="rk-button rk-button-primary" href="/past-projects/">See past projects</a></div><BeforeAfter before={{...photo(comparison.before),src:photo(comparison.before).thumbnail}} after={{...comparison.after,src:photo(comparison.after).thumbnail}} client:visible/></div></section>
+<section {id} class="rk-home-before-after rk-before-after-block" aria-labelledby={id?id+'-title':undefined}>
+ <div class="rk-section-inner rk-home-two-col rk-before-after-inner">
+  <div class="rk-home-before-copy"><p class="rk-home-eyebrow">{comparison.eyebrow}</p><h2 id={id?id+'-title':undefined}>{comparison.title}</h2><p>{comparison.description}</p>{showAction&&<a class="rk-button rk-button-primary" href="/past-projects/" title="See past projects">See past projects</a>}</div>
+  <div class="rk-comparison-media"><BeforeAfter before={{...before,src:before.thumbnail}} after={{...after,src:after.thumbnail}} descriptionId={captionId} aspectRatio={square?"1 / 1":undefined} client:visible/>{comparison.caption&&<p id={captionId} class="rk-comparison-caption">{comparison.caption}</p>}<noscript><p><a href={before.thumbnail} title="View the before image">View before</a> · <a href={after.thumbnail} title="View the after image">View after</a></p></noscript></div>
+ </div>
+</section>
+<style>
+.rk-comparison-media{min-width:0}.rk-comparison-caption{margin:.85rem 0 0;font-size:.8rem;line-height:1.6;color:#e8dfd2}
+.rk-comparison-media>noscript a{color:#f8f4ea;text-underline-offset:.2em}
+</style>

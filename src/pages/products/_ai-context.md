@@ -1,15 +1,27 @@
 # src/pages/products
 
-Native product hub and detail routes from product-pillar.json and product-details.json. All entries also exist in the content collection and route manifest. The existing GAF catalog keeps its original URL.
+Native Astro routing for this URL branch. Read src/pages/_ai-context.md first. Keep native routes separate from the legacy catchall, preserve explicit permalinks and use the existing layout/data for the page family. This map starts with an underscore so Astro does not publish it as a route.
 
-## Files
+<!-- route-imports:start -->
+## Actual route dependencies
 
-- `[...product].astro`
+- `[...product].astro`: `src/components/ProductHubPage.astro`, `src/components/ProductHubPage.astro`, `src/components/ProductDetailPage.astro`, `src/data/product-pillar.json`, `src/data/product-details.json`, `src/data/product-types`.
 
-## Subdirectories
+This index is derived from current imports. Resolve the entry point before editing data; a physical directory alone does not define the content owner.
+<!-- route-imports:end -->
 
-- None.
+<!-- directory-inventory:start -->
+## Directory inventory
 
-## Change checks
+Parent guidance: [src/pages](../_ai-context.md).
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+### Direct files
+
+- [[...product].astro](%5B...product%5D.astro)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

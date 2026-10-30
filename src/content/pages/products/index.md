@@ -1,8 +1,9 @@
 ---
 title: Exterior Building Products
 permalink: /products/
-description: Explore roofing products, compare materials, and find product
-  details to discuss with Roof King.
+description: Explore roofing, siding, decking and gutter products, compare
+  materials and colors, and review manufacturer specifications and warranty
+  information.
 canonicalPath: /products/
 category: Product hub
 source: authored-product-pillar

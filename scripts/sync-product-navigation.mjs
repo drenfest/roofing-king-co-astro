@@ -1,13 +1,17 @@
 import fs from 'node:fs/promises';
 import * as cheerio from 'cheerio';
 
+await import('./apply-product-parents.mjs');
+
 // Authoring step: derive the menu from the same hierarchy shown in page breadcrumbs.
 const read=async file=>JSON.parse(await fs.readFile(file,'utf8'));
 const hubs=await read('src/data/product-pillar.json');
 const details=await read('src/data/product-details.json');
 const navigation=await read('src/data/navigation.json');
 const root={label:'Products',href:'/products/',classes:'rk-menu-item rk-menu-item-has-children rk-menu-products',children:[]};
+// Trex stops at category collections; its individual products remain on those pages.
 for(const [path,page]of [...Object.entries(hubs),...Object.entries(details)]){
+  if(details[path]&&path.startsWith('/products/decking/composite/trex/'))continue;
   const trail=page.breadcrumbs.slice(2);
   let parent=root;
   for(let i=0;i<trail.length;i++){

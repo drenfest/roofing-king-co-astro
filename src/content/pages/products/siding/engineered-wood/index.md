@@ -9,8 +9,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

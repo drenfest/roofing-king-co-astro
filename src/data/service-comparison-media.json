@@ -1,0 +1,1082 @@
+{
+  "/media/service-comparisons/roofing-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/roofing-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 36150,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roofing-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 108840,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roofing-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 137402,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/roofing-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/roofing-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 34988,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roofing-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 109980,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roofing-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 157118,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/roof-repair-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/roof-repair-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 48662,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roof-repair-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 139966,
+        "quality": 80
+      },
+      {
+        "src": "/media/service-comparisons/roof-repair-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 157370,
+        "quality": 64
+      }
+    ]
+  },
+  "/media/service-comparisons/roof-repair-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/roof-repair-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 47438,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roof-repair-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 151860,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/roof-repair-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 154902,
+        "quality": 68
+      }
+    ]
+  },
+  "/media/service-comparisons/metal-roofing-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/metal-roofing-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 39792,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/metal-roofing-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 114824,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/metal-roofing-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 141668,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/metal-roofing-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/metal-roofing-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 38516,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/metal-roofing-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 106726,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/metal-roofing-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 151112,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-roofing-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-roofing-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 39484,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-roofing-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 121248,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-roofing-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 151062,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-roofing-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-roofing-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 20362,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-roofing-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 59408,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-roofing-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 84754,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-repair-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-repair-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 28384,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-repair-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 82518,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-repair-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 118868,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-repair-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-repair-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 23714,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-repair-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 67748,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-repair-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 96552,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/siding-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/siding-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 39216,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/siding-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 108452,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/siding-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 153200,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/siding-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/siding-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 32752,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/siding-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 93338,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/siding-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 132896,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-siding-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-siding-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 27002,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-siding-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 75118,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-siding-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 107172,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-siding-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-siding-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 23584,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-siding-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 64588,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-siding-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 91712,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/gutters-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/gutters-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 23092,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutters-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 51444,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutters-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 68204,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/gutters-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/gutters-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 19866,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutters-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 41992,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutters-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 54726,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/gutter-guards-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/gutter-guards-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 44636,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutter-guards-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 116504,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutter-guards-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 140152,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/gutter-guards-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/gutter-guards-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 46326,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutter-guards-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 126408,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/gutter-guards-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 153714,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/decks-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/decks-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 41798,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/decks-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 121878,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/decks-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 150308,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/decks-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/decks-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 37832,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/decks-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 105950,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/decks-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 152408,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-refinishing-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-refinishing-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 47862,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-refinishing-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 144146,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-refinishing-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 152550,
+        "quality": 76
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-refinishing-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-refinishing-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 36098,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-refinishing-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 102000,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-refinishing-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 139052,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-repair-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-repair-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 37548,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-repair-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 111158,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-repair-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 157774,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-repair-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-repair-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 37352,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-repair-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 109028,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-repair-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 155766,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-accessories-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-accessories-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 28926,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-accessories-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 79634,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-accessories-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 111524,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/deck-accessories-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/deck-accessories-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 29836,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-accessories-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 80660,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/deck-accessories-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 113862,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/windows-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/windows-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 38916,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/windows-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 102614,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/windows-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 143984,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/windows-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/windows-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 35000,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/windows-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 85006,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/windows-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 118338,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/insulation-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/insulation-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 39298,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/insulation-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 97214,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/insulation-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 132912,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/insulation-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/insulation-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 37034,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/insulation-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 93930,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/insulation-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 130354,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/ice-dam-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/ice-dam-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 25568,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/ice-dam-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 62498,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/ice-dam-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 86870,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/ice-dam-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/ice-dam-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 24930,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/ice-dam-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 61930,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/ice-dam-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 86008,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/painting-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/painting-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 41580,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/painting-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 117060,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/painting-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 144488,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/painting-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/painting-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 34314,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/painting-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 93246,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/painting-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 130506,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/wind-damage-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/wind-damage-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 36444,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/wind-damage-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 116718,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/wind-damage-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 146540,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/wind-damage-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/wind-damage-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 36306,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/wind-damage-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 115864,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/wind-damage-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 146364,
+        "quality": 80
+      }
+    ]
+  },
+  "/media/service-comparisons/hail-damage-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/hail-damage-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 49320,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/hail-damage-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 149000,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/hail-damage-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 158450,
+        "quality": 72
+      }
+    ]
+  },
+  "/media/service-comparisons/hail-damage-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/hail-damage-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 46792,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/hail-damage-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 146980,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/hail-damage-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 156604,
+        "quality": 72
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-gutters-before-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-gutters-before-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 30458,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-gutters-before-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 83422,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-gutters-before-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 115224,
+        "quality": 84
+      }
+    ]
+  },
+  "/media/service-comparisons/commercial-gutters-after-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/service-comparisons/commercial-gutters-after-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 28262,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-gutters-after-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 74528,
+        "quality": 84
+      },
+      {
+        "src": "/media/service-comparisons/commercial-gutters-after-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 105310,
+        "quality": 84
+      }
+    ]
+  }
+}

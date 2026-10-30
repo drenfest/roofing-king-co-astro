@@ -1,4 +1,5 @@
 ---
+import ServiceComparison from '../components/ServiceComparison.astro';
 import type {CollectionEntry} from 'astro:content';
 import type {HeadingData,RichNode,ServicePathsData,ServiceCopyData} from '../data/section-types';
 import editorial from '../data/service-editorial.json';
@@ -75,6 +76,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
       </div>
       <aside class="rk-budget-financing"><span class="rk-financing-icon"><ServiceIcon name="cost"/></span><p class="rk-home-eyebrow">Planning your project</p><h3>{presentation.financeTitle||'Financing Options'}</h3><p>Explore ways to spread the cost of your project. Ask our team about current options, then review lender rates and repayment terms.</p><a class="rk-button rk-button-outline" href="/offers/flexible-financing/">Explore financing<ServiceIcon name="arrow"/></a><p class="rk-landing-small">Financing is subject to lender approval and applicable terms.</p></aside>
     </div></section>
+    <ServiceComparison path={page.data.permalink}/>
     <ServiceGallery family={data.family} title={presentation.galleryTitle}/>
     <FeaturedArticles family={data.family} city={data.city} path={page.data.permalink}/>
     <FAQSection section={data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]}}/>

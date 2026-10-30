@@ -15,7 +15,7 @@
     if(focus)root.querySelector<HTMLElement>('#tab-'+id)?.focus();
   }
   function keyboard(event:KeyboardEvent,index:number) {
-    const direction=event.key==='ArrowRight'?1:event.key==='ArrowLeft'?-1:0;
+    const direction=['ArrowRight','ArrowDown'].includes(event.key)?1:['ArrowLeft','ArrowUp'].includes(event.key)?-1:0;
     const next=event.key==='Home'?0:event.key==='End'?tabs.length-1:direction?(index+direction+tabs.length)%tabs.length:-1;
     if(next>=0){event.preventDefault();select(tabs[next].id,true);}
   }
@@ -27,5 +27,5 @@
       <a title={tab.label} href={`#${tab.id}`} id={`tab-${tab.id}`} role={enhanced?'tab':undefined} aria-controls={enhanced?tab.id:undefined} aria-selected={enhanced?selected===tab.id:undefined} tabindex={enhanced&&selected!==tab.id?-1:0} onclick={event=>{if(enhanced){event.preventDefault();select(tab.id);}}} onkeydown={event=>{if(enhanced)keyboard(event,index);}}>{tab.label}</a>
     {/each}
   </div>
-  {@render children?.()}
+  <div class="rk-product-tab-content">{@render children?.()}</div>
 </div>

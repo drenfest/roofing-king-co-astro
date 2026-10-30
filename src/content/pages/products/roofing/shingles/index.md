@@ -1,8 +1,8 @@
 ---
 title: Roofing Shingles
 permalink: /products/roofing/shingles/
-description: Explore roofing shingles and browse individual GAF products, color
-  options, specifications and warranty information.
+description: Compare GAF, Owens Corning and IKO shingles, genuine color samples,
+  product specifications and manufacturer warranty information.
 canonicalPath: /products/roofing/shingles/
 category: Product hub
 source: authored-product-pillar

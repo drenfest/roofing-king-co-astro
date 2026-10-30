@@ -1,0 +1,223 @@
+Internal Error ()
+citeturn143view0 [wordlim: 200] Source: open({"ref_id":"https://unitedroofingsystems.net/services/","lineno":null}); Total lines: 1
+L0: Failed to fetch https://unitedroofingsystems.net/services/: TimeoutError
+--------------------------------------------------------------------------------
+Falcon Roofing LLC | Roofing Contractor in Powell, OH (https://falcon-roofing.net/)
+citeturn143view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://falcon-roofing.net/","lineno":null}); Total lines: 1
+L0: cite0†iframe†www.googletagmanager.com --------------------------------------------------------------------------------
+Metal Roofing in Columbus & Central Ohio | The Metal Roof Company (https://themetalroofcompany.com/)
+citeturn143view2 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://themetalroofcompany.com/","lineno":null}); Total lines: 283
+L0: Family-Owned • Serving Columbus & Central Ohio
+L1: 
+L2: Call 614-721-7663
+L3:   * cite0†Home L4:   * Services
+L5:     * cite1†All Roofing Services L6:     * cite2†Roof Installation L7:     * cite3†Roof Inspections L8:     * cite4†Storm Damage Specialists L9:   * cite5†Our Work L10:   * Roof Colors
+L11:     * cite6†Explore All Roof Colors L12:     * cite7†Black & Near-Black L13:     * cite8†Brown & Chocolate L14:     * cite9†Copper & Bronze L15:     * cite10†Burgundy & Dark Red L16:     * cite11†Silver, Gray & Galvalume L17:   * cite12†About L18:   * cite13†Roofing Guides L19:   * Service Areas
+L20:     * cite14†All Service Areas L21:     * cite15†Chillicothe OH L22:     * cite16†Columbus OH L23:     * cite17†Delaware OH L24:     * cite18†Dublin OH L25:     * cite19†Gahanna OH L26:     * cite20†Grove City OH L27:     * cite21†Lancaster and Fairfield County OH L28:     * cite22†Lewis Center OH L29:     * cite23†Marysville OH L30:     * cite24†Mount Vernon OH L31:     * cite25†Newark and Licking County OH L32:     * cite26†Pataskala OH L33:     * cite27†Pickerington OH L34:     * cite28†Powell OH L35:     * cite29†Reynoldsburg and Blacklick OH L36:     * cite30†Sunbury OH L37:     * cite31†Westerville OH L38:     * cite32†Zanesville OH L39: cite33†Schedule a Free Inspection L40: 
+L41: cite34†Image L42: 
+L43: Family-Owned • Columbus & Central Ohio
+L44: # Central Ohio Metal Roofing Specialists
+L45: 
+L46: Metal and asphalt roof installation, free inspections, repairs and storm-damage evaluations—with straightforward guidance for your home and your next step.
+L47: 
+L48: cite35†Schedule a Free Inspection L49: 
+L50: Call 614-721-7663
+L51: 
+L52: Serving Columbus, Newark, Lancaster, Westerville, Delaware, Powell, Dublin and surrounding Central Ohio communities.
+L53: 
+L54: cite36†Image: Central Ohio home with a professionally installed metal roof L55: 
+L56: FAMILY-OWNED COMPANY
+L57: 
+L58: 20+ YEARS OF TRADE EXPERIENCE
+L59: FREE ROOF INSPECTIONS
+L60: 
+L61: CENTRAL OHIO SERVICE
+L62: 
+L63: No-pressure local evaluation
+L64: ## Start With a Free Roof Inspection
+L65: 
+L66: Tell us about your property, roof concern and location. We will follow up to discuss the available inspection schedule and the most useful next step.
+L67: 
+L68: What brings you here?
+L69: 
+L70: ## Choose the path that matches your roof
+L71: 
+L72: Some homeowners need help now. Others are comparing systems, colors or long-term value. Start with the question that is closest to yours.
+L73: ### My roof may have storm damage
+L74: 
+L75: Learn what to do first, what an inspection can uncover and how damage is documented.
+L76: 
+L77: cite4†Storm Damage Help → L78: 
+L79: ### I am considering a new roof
+L80: 
+L81: Compare metal and asphalt roofing and understand the installation process for your home.
+L82: 
+L83: cite2†Explore Roof Installation → L84: 
+L85: ### I need an inspection or repair
+L86: 
+L87: Get help evaluating leaks, flashing, aging materials and repair-versus-replacement questions.
+L88: 
+L89: cite3†Learn About Inspections → L90: ### I am researching metal roofing
+L91: 
+L92: Browse real projects, compare roofing systems and explore colors on Central Ohio homes.
+L93: 
+L94: cite6†Explore Metal Roof Colors → L95: 
+L96: cite37†Image: Close view of professional metal roofing details in Central Ohio L97: 
+L98: After hail, wind or heavy rain
+L99: ## Storm damage is not always visible from the ground
+L100: 
+L101: We provide free inspections, an overview of visible conditions and a quote for recommended work. When appropriate, we can document damage and meet with an adjuster. Tarping and priority scheduling depend on current availability, and third-party emergency resources may also be available.
+L102: 
+L103:   * Hail, wind, flashing and water-damage evaluation
+L104:   * Repair-versus-replacement guidance
+L105:   * Metal and asphalt roofing repair capabilities
+L106: cite4†Storm Damage Specialists L107: 
+L108: cite38†What to Do After a Storm L109: 
+L110: Insurance coverage and claim decisions are determined by the homeowner’s policy and insurance provider.
+L111: 
+L112: Real Central Ohio projects
+L113: ## See the systems, colors and details on actual homes
+L114: 
+L115: Explore completed standing-seam, ribbed-metal and stone-coated-steel roofs across a range of architectural styles.
+L116: 
+L117: cite39†Image: White Central Ohio farmhouse with a black metal roof L118: 
+L119: ### Black Standing Seam
+L120: 
+L121: Strong contrast and clean lines on a traditional white farmhouse.
+L122: 
+L123: cite40†Image: Chocolate brown standing-seam metal roof on a Tudor-style home L124: ### Chocolate Standing Seam
+L125: 
+L126: A warm finish coordinated with masonry and traditional exterior details.
+L127: 
+L128: cite41†Image: Ironwood stone-coated metal shingles on a Powell Ohio home L129: 
+L130: ### Stone-Coated Steel
+L131: 
+L132: Dimensional metal roofing with the appearance of traditional shingles.
+L133: 
+L134: cite5†Explore Our Work L135: 
+L136: cite42†Compare Roofing Systems L137: 
+L138: Color is part of the decision
+L139: ## Explore metal roof colors on real homes
+L140: 
+L141: Compare black, brown, burgundy, copper, bronze, silver, light gray and Galvalume finishes. The color center is designed to help you evaluate roof color alongside brick, siding, trim and architectural style.
+L142: 
+L143: cite6†Browse Metal Roof Colors L144: 
+L145: cite43†Read the Color Guide L146: 
+L147: cite44†Image: Silver standing-seam metal roof paired with a brick Central Ohio home L148: 
+L149: A clearer decision starts with better information
+L150: ## Central Ohio roofing knowledge center
+L151: 
+L152: Use these homeowner guides to compare options, recognize warning signs and prepare better questions before an inspection.
+L153: 
+L154: ### Repair or replace?
+L155: 
+L156: Five signs that a Central Ohio roof may need replacement instead of another repair.
+L157: 
+L158: cite45†Read the Guide → L159: 
+L160: ### Metal or asphalt?
+L161: 
+L162: Compare cost, lifespan and long-term value for Ohio homes.
+L163: 
+L164: cite46†Compare Materials → L165: ### After storm damage
+L166: 
+L167: Understand the basic Ohio roof-insurance claim process without promises of coverage.
+L168: 
+L169: cite47†Review the Claim Guide → L170: 
+L171: ### Choosing a contractor
+L172: 
+L173: Questions Ohio homeowners should ask before signing a roofing agreement.
+L174: 
+L175: cite48†See the Questions → L176: 
+L177: cite13†Visit the Roofing Blog L178: 
+L179: A straightforward process
+L180: 
+L181: ## From inspection to a clear plan
+L182: 
+L183: 01
+L184: 
+L185: ### Request an inspection
+L186: 
+L187: Tell us about the home, concern and location so we can discuss scheduling.
+L188: 
+L189: 02
+L190: ### Review the findings
+L191: 
+L192: Receive an overview of visible conditions and a quote for recommended work.
+L193: 
+L194: 03
+L195: 
+L196: ### Choose the right next step
+L197: 
+L198: Consider repair, replacement and material options without unnecessary pressure.
+L199: 
+L200: Selected Google reviews
+L201: ## What Central Ohio homeowners say
+L202: 
+L203: Real feedback from customers of The Metal Roof Company.
+L204: 
+L205: ★★★★★
+L206: 
+L207: “They replaced my metal roof, I got a brand new one, great service!”
+L208: 
+L209: — Roberto S.
+L210: 
+L211: Selected five-star Google review
+L212: 
+L213: ★★★★★
+L214: 
+L215: “The installation in Columbus was quick, clean, and done right the first time.”
+L216: 
+L217: — Charly L.
+L218: 
+L219: Selected five-star Google review
+L220: 
+L221: ★★★★★
+L222: 
+L223: “Excellent Company! My new metal roof looks fantastic and I no longer worry about all the hail storms we have been having in Ohio.”
+L224: 
+L225: — Leatrice G.
+L226: Selected five-star Google review
+L227: 
+L228: cite49†Image: Metal roofing craftsmanship from The Metal Roof Company L229: 
+L230: About The Metal Roof Company
+L231: ## Local experience and owner-level accountability
+L232: 
+L233: Dan Toland brings more than 20 years of roofing and building-trades experience to homeowners across Central Ohio. The company is built around practical recommendations, direct communication and work selected for the needs of the property.
+L234: 
+L235:   * Metal and asphalt roofing
+L236:   * Roof inspections and storm-damage evaluations
+L237:   * Repair and replacement recommendations
+L238:   * Central Ohio service and accountability
+L239: 
+L240: cite12†Learn More About the Company → L241: Ready for a clearer answer?
+L242: ## Start with a free, no-pressure roof inspection
+L243: 
+L244: Call The Metal Roof Company or tell us about your Central Ohio property. We will help you identify the most useful next step.
+L245: 
+L246: cite35†Schedule a Free Inspection L247: 
+L248: Call 614-721-7663
+L249: 
+L250: cite33†Contact Us L251: 
+L252: Family-owned roofing specialists serving Columbus and Central Ohio.
+L253: 
+L254: cite33†Schedule a Free Inspection L255: 
+L256: Roofing Services
+L257: 
+L258: cite1†All Roofing Services L259: cite2†Roof Installation L260: cite3†Roof Inspections L261: cite4†Storm Damage Specialists L262: 
+L263: Explore
+L264: cite5†Our Work L265: cite6†Roof Colors L266: cite14†All Service Areas L267: cite13†Roofing Guides L268: cite12†About L269: cite33†Contact L270: 
+L271: Contact
+L272: 
+L273: 4200 Regent St, Suite 200
+L274: Columbus, OH 43219
+L275: 614-721-7663
+L276: metalroofco@servicecenterpro.com
+L277: 
+L278: Central Ohio Service Area: Columbus, Newark, Lancaster, Westerville, Dublin, Powell and surrounding Franklin, Licking, Fairfield, Delaware, Madison and Perry County communities.
+L279: 
+L280: * * *
+L281: 
+L282: © 2026 The Metal Roof Company. All rights reserved. · cite50†Privacy Policy --------------------------------------------------------------------------------
+Columbus Roofing Company | Roof Repair & Replacement Columbus OH (https://columbusroofingcompany.com/services/insurance-roof-claims)
+citeturn143view3 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://columbusroofingcompany.com/services/insurance-roof-claims","lineno":null}); Total lines: 0
+

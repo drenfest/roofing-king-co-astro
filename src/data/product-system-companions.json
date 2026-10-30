@@ -1,0 +1,528 @@
+{
+  "checkedAt": "2026-10-29",
+  "families": {
+    "owens": {
+      "brand": "Owens Corning",
+      "intro": "Shingles cover the main roof surface. These companion layers address the roof edges, water-sensitive areas and attic airflow.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Owens Corning starter shingles",
+          "diagram": "starter",
+          "location": "Eaves and rake edges",
+          "benefit": "The starter course places an adhesive edge beneath the first field shingles, helping secure these wind-exposed edges.",
+          "selection": "Select the starter strip specified for the field shingle and the intended edge detail. Starter and field shingles have separate installation requirements.",
+          "sourceUrl": "https://www.owenscorning.com/en-us/roofing/components"
+        },
+        {
+          "id": "underlayment",
+          "name": "Owens Corning synthetic underlayment",
+          "diagram": "underlayment",
+          "location": "Between the roof deck and shingles",
+          "benefit": "Underlayment provides a secondary water-shedding layer beneath the shingles. It helps protect the deck from water that gets past the outer covering.",
+          "selection": "Choose the underlayment and attachment for the roof slope and exposure; it is not a substitute for flashing or leak barriers.",
+          "sourceUrl": "https://www.owenscorning.com/en-us/roofing/components"
+        },
+        {
+          "id": "leak-barrier",
+          "name": "Owens Corning ice and water barrier",
+          "diagram": "leak-barrier",
+          "location": "Eaves, valleys and other vulnerable roof details",
+          "benefit": "A self-adhering barrier adds targeted protection where runoff or backed-up meltwater can reach beneath shingles.",
+          "selection": "Its placement depends on the roof and local conditions. The barrier helps resist water intrusion; it does not prevent ice dams from forming.",
+          "sourceUrl": "https://www.owenscorning.com/en-us/roofing/components"
+        },
+        {
+          "id": "ridge-cap",
+          "name": "Owens Corning hip and ridge shingles",
+          "diagram": "ridge-cap",
+          "location": "Hips and the roof peak",
+          "benefit": "Purpose-made cap shingles finish the joints where roof planes meet. Profile and color influence how strongly those lines stand out.",
+          "selection": "Match the cap to the field shingle and selected ridge vent. A field-shingle impact rating does not automatically describe the cap.",
+          "sourceUrl": "https://www.owenscorning.com/en-us/roofing/components"
+        },
+        {
+          "id": "ventilation",
+          "name": "Owens Corning intake and exhaust vents",
+          "diagram": "ventilation",
+          "location": "Soffit or roof intake and suitable exhaust locations",
+          "benefit": "Intake and exhaust work together to move attic air. A ridge vent alone does not establish a balanced ventilation system.",
+          "selection": "Assess the attic design, available intake area and obstructions before selecting exhaust products.",
+          "sourceUrl": "https://www.owenscorning.com/en-us/roofing/components"
+        }
+      ],
+      "notes": "Roofing components are selected for the specific roof. Flashing, fasteners, pipe boots and wood decking are separately specified; they are not all Owens Corning products."
+    },
+    "iko": {
+      "brand": "IKO",
+      "intro": "IKO lists roof starters, underlayments, water barriers and cap shingles as parts of its roofing system.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "IKO Leading Edge Plus roof starters",
+          "diagram": "starter",
+          "location": "Eaves and rake edges",
+          "benefit": "A starter course supports a straight roof edge and adds a sealing surface beneath the first shingles.",
+          "selection": "Confirm the specified starter for the selected IKO field shingle, including designer profiles.",
+          "sourceUrl": "https://www.iko.com/na/the-iko-system/",
+          "image": {
+            "src": "/media/products/systems/0d3a66c0d2d0-600.webp",
+            "srcset": "/media/products/systems/0d3a66c0d2d0-320.webp 320w, /media/products/systems/0d3a66c0d2d0-600.webp 600w",
+            "width": 600,
+            "height": 360,
+            "alt": "IKO Leading Edge Plus roof starters manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-3.webp"
+        },
+        {
+          "id": "underlayment",
+          "name": "IKO Stormtite synthetic underlayment",
+          "diagram": "underlayment",
+          "location": "Over the deck beneath the field shingles",
+          "benefit": "Stormtite provides a secondary layer below the main shingle covering. Its job differs from a self-adhering ice and water barrier.",
+          "selection": "Review roof slope and fastening conditions before selecting the underlayment assembly.",
+          "sourceUrl": "https://www.iko.com/na/the-iko-system/",
+          "image": {
+            "src": "/media/products/systems/35507a166d96-600.webp",
+            "srcset": "/media/products/systems/35507a166d96-320.webp 320w, /media/products/systems/35507a166d96-600.webp 600w",
+            "width": 600,
+            "height": 360,
+            "alt": "IKO Stormtite synthetic underlayment manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-2.webp"
+        },
+        {
+          "id": "leak-barrier",
+          "name": "IKO StormShield ice and water barrier",
+          "diagram": "leak-barrier",
+          "location": "Water-sensitive roof edges and details",
+          "benefit": "These self-adhering products add protection where water can collect or back up beneath shingles.",
+          "selection": "Choose the barrier for its specified application; do not assume every barrier suits every substrate or roof detail.",
+          "sourceUrl": "https://www.iko.com/na/the-iko-system/",
+          "image": {
+            "src": "/media/products/systems/bbfdb714d921-600.webp",
+            "srcset": "/media/products/systems/bbfdb714d921-320.webp 320w, /media/products/systems/bbfdb714d921-600.webp 600w",
+            "width": 600,
+            "height": 360,
+            "alt": "IKO StormShield and GoldShield barriers manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504.webp"
+        },
+        {
+          "id": "ridge-cap",
+          "name": "IKO hip and ridge cap shingles",
+          "diagram": "ridge-cap",
+          "location": "Hips and roof peaks",
+          "benefit": "Cap shingles close the junction between roof planes and give the ridge a defined finish. IKO offers distinct cap profiles.",
+          "selection": "Select the cap profile, fastening and color for the field shingle; designer roofs may call for a different detail.",
+          "sourceUrl": "https://www.iko.com/na/the-iko-system/",
+          "image": {
+            "src": "/media/products/systems/dbf86b0a9546-600.webp",
+            "srcset": "/media/products/systems/dbf86b0a9546-320.webp 320w, /media/products/systems/dbf86b0a9546-600.webp 600w",
+            "width": 600,
+            "height": 360,
+            "alt": "IKO hip and ridge cap shingles manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.iko.com/na/wp-content/uploads/2024/11/Rectangle-1504-4.webp"
+        }
+      ],
+      "notes": "The named products are system options, not a universal kit. The exact combination and warranty eligibility depend on the selected shingle and installation."
+    },
+    "alside": {
+      "brand": "Alside",
+      "intro": "The panel profile determines the accessories around it. These components finish the wall edges and openings as part of the complete siding installation.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Alside Starter strips and bottom channels",
+          "diagram": "wall-base",
+          "location": "At the first siding course",
+          "benefit": "The base accessory establishes the starting line and supports the first panel connection. Horizontal, vertical and shake panels can use different starting details.",
+          "selection": "Match the starting accessory to the panel orientation and locking shape; do not interchange a lap-siding starter with a vertical-panel detail.",
+          "sourceUrl": "https://www.alside.com/support/literature/"
+        },
+        {
+          "id": "corners",
+          "name": "Alside Inside and outside corner posts",
+          "diagram": "wall-corner",
+          "location": "Where wall faces meet",
+          "benefit": "Corner accessories receive panel ends and create a clean transition between walls while leaving room for siding movement.",
+          "selection": "The receiving pocket must suit the panel thickness, including any insulation backing or shake profile.",
+          "sourceUrl": "https://www.alside.com/support/literature/"
+        },
+        {
+          "id": "openings",
+          "name": "Alside J-channels and finishing trim",
+          "diagram": "wall-opening",
+          "location": "Around openings and at cut-panel edges",
+          "benefit": "Receiving channels and finish trim complete the edges where full panels stop. They give cut pieces an attachment and finishing detail.",
+          "selection": "Opening trim must work with the flashing behind it; a trim channel alone does not waterproof the window.",
+          "sourceUrl": "https://www.alside.com/support/literature/"
+        },
+        {
+          "id": "soffit",
+          "name": "Alside Soffit and fascia accessories",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit closes the underside of the eave and fascia finishes the roof edge. Vented and solid panels serve different attic designs.",
+          "selection": "Choose ventilation area and receiving channels for the existing overhang and attic, rather than using vented panels as decoration.",
+          "sourceUrl": "https://www.alside.com/support/literature/"
+        }
+      ],
+      "notes": "Accessory profiles, colors and sizes vary across product lines. We match the receiving channels and starting detail to the selected panel rather than treating all vinyl siding accessories as interchangeable."
+    },
+    "norandex": {
+      "brand": "Norandex",
+      "intro": "The panel profile determines the accessories around it. These components finish the wall edges and openings as part of the complete siding installation.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Norandex Starter strips and bottom channels",
+          "diagram": "wall-base",
+          "location": "At the first siding course",
+          "benefit": "The base accessory establishes the starting line and supports the first panel connection. Horizontal, vertical and shake panels can use different starting details.",
+          "selection": "Match the starting accessory to the panel orientation and locking shape; do not interchange a lap-siding starter with a vertical-panel detail.",
+          "sourceUrl": "https://www.norandex.com/products/metal-products/"
+        },
+        {
+          "id": "corners",
+          "name": "Norandex Inside and outside corner posts",
+          "diagram": "wall-corner",
+          "location": "Where wall faces meet",
+          "benefit": "Corner accessories receive panel ends and create a clean transition between walls while leaving room for siding movement.",
+          "selection": "The receiving pocket must suit the panel thickness, including any insulation backing or shake profile.",
+          "sourceUrl": "https://www.norandex.com/products/metal-products/"
+        },
+        {
+          "id": "openings",
+          "name": "Norandex J-channels and finishing trim",
+          "diagram": "wall-opening",
+          "location": "Around openings and at cut-panel edges",
+          "benefit": "Receiving channels and finish trim complete the edges where full panels stop. They give cut pieces an attachment and finishing detail.",
+          "selection": "Opening trim must work with the flashing behind it; a trim channel alone does not waterproof the window.",
+          "sourceUrl": "https://www.norandex.com/products/metal-products/"
+        },
+        {
+          "id": "soffit",
+          "name": "Norandex Soffit and fascia accessories",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit closes the underside of the eave and fascia finishes the roof edge. Vented and solid panels serve different attic designs.",
+          "selection": "Choose ventilation area and receiving channels for the existing overhang and attic, rather than using vented panels as decoration.",
+          "sourceUrl": "https://www.norandex.com/products/metal-products/"
+        }
+      ],
+      "notes": "Accessory profiles, colors and sizes vary across product lines. We match the receiving channels and starting detail to the selected panel rather than treating all vinyl siding accessories as interchangeable."
+    },
+    "variform": {
+      "brand": "Variform",
+      "intro": "The panel profile determines the accessories around it. These components finish the wall edges and openings as part of the complete siding installation.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Variform Starter strips and bottom channels",
+          "diagram": "wall-base",
+          "location": "At the first siding course",
+          "benefit": "The base accessory establishes the starting line and supports the first panel connection. Horizontal, vertical and shake panels can use different starting details.",
+          "selection": "Match the starting accessory to the panel orientation and locking shape; do not interchange a lap-siding starter with a vertical-panel detail.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Variform%20Website/Installation%20Guides/Variform-Siding-Installation-Guide.pdf"
+        },
+        {
+          "id": "corners",
+          "name": "Variform Inside and outside corner posts",
+          "diagram": "wall-corner",
+          "location": "Where wall faces meet",
+          "benefit": "Corner accessories receive panel ends and create a clean transition between walls while leaving room for siding movement.",
+          "selection": "The receiving pocket must suit the panel thickness, including any insulation backing or shake profile.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Variform%20Website/Installation%20Guides/Variform-Siding-Installation-Guide.pdf"
+        },
+        {
+          "id": "openings",
+          "name": "Variform J-channels and finishing trim",
+          "diagram": "wall-opening",
+          "location": "Around openings and at cut-panel edges",
+          "benefit": "Receiving channels and finish trim complete the edges where full panels stop. They give cut pieces an attachment and finishing detail.",
+          "selection": "Opening trim must work with the flashing behind it; a trim channel alone does not waterproof the window.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Variform%20Website/Installation%20Guides/Variform-Siding-Installation-Guide.pdf"
+        },
+        {
+          "id": "soffit",
+          "name": "Variform Soffit and fascia accessories",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit closes the underside of the eave and fascia finishes the roof edge. Vented and solid panels serve different attic designs.",
+          "selection": "Choose ventilation area and receiving channels for the existing overhang and attic, rather than using vented panels as decoration.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Variform%20Website/Installation%20Guides/Variform-Siding-Installation-Guide.pdf"
+        }
+      ],
+      "notes": "Accessory profiles, colors and sizes vary across product lines. We match the receiving channels and starting detail to the selected panel rather than treating all vinyl siding accessories as interchangeable."
+    },
+    "ep": {
+      "brand": "Exterior Portfolio",
+      "intro": "The panel profile determines the accessories around it. These components finish the wall edges and openings as part of the complete siding installation.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Exterior Portfolio Starter strips and bottom channels",
+          "diagram": "wall-base",
+          "location": "At the first siding course",
+          "benefit": "The base accessory establishes the starting line and supports the first panel connection. Horizontal, vertical and shake panels can use different starting details.",
+          "selection": "Match the starting accessory to the panel orientation and locking shape; do not interchange a lap-siding starter with a vertical-panel detail.",
+          "sourceUrl": "https://www.westlakeroyalbuildingproducts.com/siding-and-accessories/exterior-portfolio"
+        },
+        {
+          "id": "corners",
+          "name": "Exterior Portfolio Inside and outside corner posts",
+          "diagram": "wall-corner",
+          "location": "Where wall faces meet",
+          "benefit": "Corner accessories receive panel ends and create a clean transition between walls while leaving room for siding movement.",
+          "selection": "The receiving pocket must suit the panel thickness, including any insulation backing or shake profile.",
+          "sourceUrl": "https://www.westlakeroyalbuildingproducts.com/siding-and-accessories/exterior-portfolio"
+        },
+        {
+          "id": "openings",
+          "name": "Exterior Portfolio J-channels and finishing trim",
+          "diagram": "wall-opening",
+          "location": "Around openings and at cut-panel edges",
+          "benefit": "Receiving channels and finish trim complete the edges where full panels stop. They give cut pieces an attachment and finishing detail.",
+          "selection": "Opening trim must work with the flashing behind it; a trim channel alone does not waterproof the window.",
+          "sourceUrl": "https://www.westlakeroyalbuildingproducts.com/siding-and-accessories/exterior-portfolio"
+        },
+        {
+          "id": "soffit",
+          "name": "Exterior Portfolio Soffit and fascia accessories",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit closes the underside of the eave and fascia finishes the roof edge. Vented and solid panels serve different attic designs.",
+          "selection": "Choose ventilation area and receiving channels for the existing overhang and attic, rather than using vented panels as decoration.",
+          "sourceUrl": "https://www.westlakeroyalbuildingproducts.com/siding-and-accessories/exterior-portfolio"
+        }
+      ],
+      "notes": "Accessory profiles, colors and sizes vary across product lines. We match the receiving channels and starting detail to the selected panel rather than treating all vinyl siding accessories as interchangeable."
+    },
+    "hardie": {
+      "brand": "James Hardie",
+      "intro": "Trim, flashing and the weather barrier behind the cladding each have a different job. Plan these connections alongside the siding profile.",
+      "items": [
+        {
+          "id": "trim",
+          "name": "James Hardie trim and corner boards",
+          "diagram": "wall-corner",
+          "location": "Window surrounds, wall corners and transitions",
+          "benefit": "Trim gives siding edges a defined boundary and helps coordinate the appearance of corners and openings.",
+          "selection": "Choose the trim thickness and adjoining panel clearances together; trim does not replace the flashing behind it.",
+          "sourceUrl": "https://www.jameshardie.com/product-catalog/trim-products/",
+          "relatedProduct": "hardie-hardie-trim-batten-boards"
+        },
+        {
+          "id": "flashing",
+          "name": "Opening and transition flashing",
+          "diagram": "wall-opening",
+          "location": "Above windows, doors and horizontal transitions",
+          "benefit": "Flashing directs water back toward the exterior at interruptions in the wall. It must connect to the drainage layer behind the siding.",
+          "selection": "Panel joints and roof-to-wall connections need their own details. Use the flashing specified for the chosen siding and trim assembly.",
+          "sourceUrl": "https://www.jameshardie.com/product-catalog/trim-products/"
+        },
+        {
+          "id": "barrier",
+          "name": "Water-resistive barrier and joint details",
+          "diagram": "wall-barrier",
+          "location": "Behind the cladding",
+          "benefit": "The weather barrier provides a drainage layer behind the outer siding. Joint and opening details keep that layer connected.",
+          "selection": "Select compatible flashing and barrier products for the wall assembly; siding is not the sole water-control layer.",
+          "sourceUrl": "https://www.jameshardie.com/product-catalog/trim-products/"
+        },
+        {
+          "id": "soffit",
+          "name": "James Hardie soffit and eave finishing",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit panels finish the underside of the overhang and can contribute intake ventilation where the attic design requires it.",
+          "selection": "Solid and vented options have different functions. The roof ventilation plan determines where vented panels belong.",
+          "sourceUrl": "https://www.jameshardie.com/product-catalog/soffit-products/hardie-soffit-panels/"
+        }
+      ],
+      "notes": "These are companion categories to specify for the installation, not an assertion that every listed product is required on every wall. Architectural panels and specialty profiles can need additional proprietary joint components."
+    },
+    "lp": {
+      "brand": "LP SmartSide",
+      "intro": "Trim, flashing and the weather barrier behind the cladding each have a different job. Plan these connections alongside the siding profile.",
+      "items": [
+        {
+          "id": "trim",
+          "name": "LP SmartSide trim and corner boards",
+          "diagram": "wall-corner",
+          "location": "Window surrounds, wall corners and transitions",
+          "benefit": "Trim gives siding edges a defined boundary and helps coordinate the appearance of corners and openings.",
+          "selection": "Choose the trim thickness and adjoining panel clearances together; trim does not replace the flashing behind it.",
+          "sourceUrl": "https://www.lpcorp.com/products/siding-trim/accessories",
+          "relatedProduct": "lp-trim-fascia"
+        },
+        {
+          "id": "flashing",
+          "name": "Opening and transition flashing",
+          "diagram": "wall-opening",
+          "location": "Above windows, doors and horizontal transitions",
+          "benefit": "Flashing directs water back toward the exterior at interruptions in the wall. It must connect to the drainage layer behind the siding.",
+          "selection": "Panel joints and roof-to-wall connections need their own details. Use the flashing specified for the chosen siding and trim assembly.",
+          "sourceUrl": "https://www.lpcorp.com/products/siding-trim/accessories"
+        },
+        {
+          "id": "barrier",
+          "name": "Water-resistive barrier and joint details",
+          "diagram": "wall-barrier",
+          "location": "Behind the cladding",
+          "benefit": "The weather barrier provides a drainage layer behind the outer siding. Joint and opening details keep that layer connected.",
+          "selection": "Select compatible flashing and barrier products for the wall assembly; siding is not the sole water-control layer.",
+          "sourceUrl": "https://www.lpcorp.com/products/siding-trim/accessories"
+        },
+        {
+          "id": "soffit",
+          "name": "LP SmartSide soffit and eave finishing",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit panels finish the underside of the overhang and can contribute intake ventilation where the attic design requires it.",
+          "selection": "Solid and vented options have different functions. The roof ventilation plan determines where vented panels belong.",
+          "sourceUrl": "https://www.lpcorp.com/products/siding-trim/accessories",
+          "relatedProduct": "lp-soffit"
+        }
+      ],
+      "notes": "These are companion categories to specify for the installation, not an assertion that every listed product is required on every wall. Architectural panels and specialty profiles can need additional proprietary joint components."
+    },
+    "alurex": {
+      "brand": "Alu-Rex",
+      "intro": "The gutter guard is one part of a drainage route. Pair it with suitable gutters, corners and outlets rather than covering an unresolved drainage problem.",
+      "items": [
+        {
+          "id": "runs",
+          "name": "Seamless gutter runs",
+          "diagram": "gutter-run",
+          "location": "Along the roof edge",
+          "benefit": "The gutter collects runoff from the roof and carries it toward outlets. Its profile, size and support determine how it works beneath the guard.",
+          "selection": "Continuous-hanger products and retrofit guards use different attachment methods. Select the guard for the proposed gutter installation.",
+          "sourceUrl": "https://alu-rex.com/en/doublepro"
+        },
+        {
+          "id": "outlets",
+          "name": "Outlets and downspouts",
+          "diagram": "gutter-outlet",
+          "location": "Where gutters discharge toward ground level",
+          "benefit": "Outlets connect the horizontal gutter to the downspout. Restrictions or poor positioning can cause overflow even when the guard surface is clear.",
+          "selection": "Coordinate outlet positions, downspout size and the final discharge point with the roof drainage area.",
+          "sourceUrl": "https://alu-rex.com/en/doublepro"
+        },
+        {
+          "id": "corners",
+          "name": "Corners and end details",
+          "diagram": "gutter-corner",
+          "location": "At turns and gutter ends",
+          "benefit": "Corners and end caps close the gutter route and introduce connections that still need proper fitting and sealing.",
+          "selection": "Use the selected guard\u2019s corner treatment and attachment detail; a continuous straight run does not eliminate corner joints.",
+          "sourceUrl": "https://alu-rex.com/en/doublepro"
+        }
+      ],
+      "notes": "T-Rex and DoublePro continuous-hanger systems differ from retrofit products such as Gutter Clean. Gutter condition and the product\u2019s stated installation method guide the selection."
+    },
+    "leaffilter": {
+      "brand": "LeafFilter",
+      "intro": "LeafFilter is a complete guard assembly. The screen, frame and hangers below are parts of that system, not separate alternative gutter-guard models.",
+      "items": [
+        {
+          "id": "screen",
+          "name": "Stainless-steel micromesh screen",
+          "diagram": "gutter-screen",
+          "location": "Across the gutter opening",
+          "benefit": "The fine screen separates debris from water at the top of the gutter. Its support and orientation are part of the complete assembly.",
+          "selection": "The screen does not fix inadequate downspouts or damaged gutters. Inspection and appropriate surface maintenance remain part of gutter care.",
+          "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+          "image": {
+            "src": "/media/products/systems/37bee0589b5c-960.webp",
+            "srcset": "/media/products/systems/37bee0589b5c-320.webp 320w, /media/products/systems/37bee0589b5c-640.webp 640w, /media/products/systems/37bee0589b5c-960.webp 960w",
+            "width": 960,
+            "height": 411,
+            "alt": "Stainless-steel micromesh screen manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.leafhome.com/app/uploads/product-feature/2024/08/gutter-systems-leaffilter-product-carousel-01-surgical-grade-2-1216x520.webp"
+        },
+        {
+          "id": "frame",
+          "name": "uPVC supporting frame",
+          "diagram": "gutter-run",
+          "location": "Beneath the micromesh",
+          "benefit": "The frame holds the filtering surface in position and forms the supporting shape of the guard.",
+          "selection": "Assess how the system meets the existing gutter and roof edge before the installation is specified.",
+          "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+          "image": {
+            "src": "/media/products/systems/c6568bb8b929-960.webp",
+            "srcset": "/media/products/systems/c6568bb8b929-320.webp 320w, /media/products/systems/c6568bb8b929-640.webp 640w, /media/products/systems/c6568bb8b929-960.webp 960w",
+            "width": 960,
+            "height": 411,
+            "alt": "uPVC supporting frame manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-product-carousel-02-upvc-vinyl-1216x520.webp"
+        },
+        {
+          "id": "hangers",
+          "name": "Internal structural hangers",
+          "diagram": "gutter-corner",
+          "location": "Inside the gutter, attached at the fascia",
+          "benefit": "The hangers support the gutter assembly at the roof edge. Their connection relies on the condition of the supporting fascia.",
+          "selection": "Deteriorated fascia or loose gutter attachments need assessment before the new system is fitted.",
+          "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+          "image": {
+            "src": "/media/products/systems/d682d7b45944-960.webp",
+            "srcset": "/media/products/systems/d682d7b45944-320.webp 320w, /media/products/systems/d682d7b45944-640.webp 640w, /media/products/systems/d682d7b45944-960.webp 960w",
+            "width": 960,
+            "height": 411,
+            "alt": "Internal structural hangers manufacturer product image"
+          },
+          "sourceImageUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-product-carousel-03-patented-design-1216x520.webp"
+        }
+      ],
+      "notes": "LeafFilter\u2019s manufacturer describes a proprietary system and its own warranty terms. Its integral parts are shown here to explain the assembly; they are not advertised as individually stocked accessories."
+    },
+    "plygem": {
+      "brand": "Ply Gem",
+      "intro": "Match the panel to the wall components around it. Horizontal vinyl, vertical vinyl and molded polypropylene panels have different starting and finishing details.",
+      "items": [
+        {
+          "id": "starter",
+          "name": "Ply Gem Starter strips and bottom channels",
+          "diagram": "wall-base",
+          "location": "At the first siding course",
+          "benefit": "The base accessory establishes the starting line and supports the first panel connection. Horizontal, vertical and shake panels can use different starting details.",
+          "selection": "Match the starting accessory to the panel orientation and locking shape; do not interchange a lap-siding starter with a vertical-panel detail.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "id": "corners",
+          "name": "Ply Gem Inside and outside corner posts",
+          "diagram": "wall-corner",
+          "location": "Where wall faces meet",
+          "benefit": "Corner accessories receive panel ends and create a clean transition between walls while leaving room for siding movement.",
+          "selection": "The receiving pocket must suit the panel thickness, including any insulation backing or shake profile.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "id": "openings",
+          "name": "Ply Gem J-channels and finishing trim",
+          "diagram": "wall-opening",
+          "location": "Around openings and at cut-panel edges",
+          "benefit": "Receiving channels and finish trim complete the edges where full panels stop. They give cut pieces an attachment and finishing detail.",
+          "selection": "Opening trim must work with the flashing behind it; a trim channel alone does not waterproof the window.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        },
+        {
+          "id": "soffit",
+          "name": "Ply Gem Soffit and fascia accessories",
+          "diagram": "wall-eave",
+          "location": "Beneath roof overhangs",
+          "benefit": "Soffit closes the underside of the eave and fascia finishes the roof edge. Vented and solid panels serve different attic designs.",
+          "selection": "Choose ventilation area and receiving channels for the existing overhang and attic, rather than using vented panels as decoration.",
+          "sourceUrl": "https://www.plygem.com/wp-content/uploads/shared/Widen%20Assets/Ply%20Gem%20Performance%20Collection%20Website/Installation%20Guides/Ply-Gem-Performance-Collection-Installation-Guide.pdf"
+        }
+      ],
+      "notes": "Select accessories from the Ply Gem specification and installation guides for the exact panel. Cedar Dimensions corners and starter strips differ from lap-siding accessories, and vertical panels use different starting details. The panel alone does not replace the weather barrier or opening flashing."
+    }
+  }
+}

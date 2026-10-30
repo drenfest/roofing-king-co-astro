@@ -12,7 +12,7 @@
     "preview": "astro preview --host 127.0.0.1 --port 4321",
     "check": "astro check && svelte-check --tsconfig ./tsconfig.json && node scripts/check-content.mjs",
     "check:routes": "node scripts/check-built-routes.mjs",
-    "verify": "npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services && npm run check:products && npm run check:service-copy && npm run check:heroes && npm run check:service-reviews && npm run check:service-photos && npm run check:photography && npm run check:gallery && npm run check:locations && npm run check:articles && npm run check:html-attributes && npm run check:blog-hubs && npm run check:blog-urls && npm run check:native-articles && npm run check:warranty && npm run check:offers && npm run check:schema && npm run check:sitemap",
+    "verify": "npm run check:contexts && npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services && npm run check:products && npm run check:manufacturer-products && npm run check:product-systems && npm run check:ply-gem && npm run check:service-copy && npm run check:heroes && npm run check:service-reviews && npm run check:service-photos && npm run check:comparisons && npm run check:photography && npm run check:gallery && npm run check:locations && npm run check:articles && npm run check:html-attributes && npm run check:blog-hubs && npm run check:blog-urls && npm run check:native-articles && npm run check:warranty && npm run check:offers && npm run check:schema && npm run check:sitemap && npm run check:context-output",
     "import:wordpress": "node scripts/import-wordpress.mjs",
     "check:homepage": "node scripts/check-homepage.mjs",
     "optimize:home": "node scripts/optimize-home-media.mjs",
@@ -36,7 +36,14 @@
     "check:offers": "node scripts/check-offers-pages.mjs",
     "check:schema": "node scripts/check-structured-data.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",
-    "check:photography": "node scripts/check-client-photography.mjs"
+    "check:photography": "node scripts/check-client-photography.mjs",
+    "check:manufacturer-products": "node scripts/check-manufacturer-products.mjs",
+    "check:product-systems": "node scripts/check-product-systems.mjs",
+    "check:ply-gem": "node scripts/check-ply-gem-products.mjs",
+    "check:comparisons": "node scripts/check-service-comparisons.mjs",
+    "docs:context": "node scripts/write-context-maps.mjs",
+    "check:contexts": "node scripts/check-context-maps.mjs",
+    "check:context-output": "node scripts/check-context-maps.mjs --built"
   },
   "dependencies": {
     "@astrojs/svelte": "9.1.0",

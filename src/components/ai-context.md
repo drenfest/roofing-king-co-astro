@@ -1,181 +1,148 @@
-# src/components
-
-ServiceArticle presents leaf-service topics as ordinary visible content rows, preserving topic IDs and links. Polished services reuse LandingHero, ServicePaths, CredentialsSection, RoofMaterialOptions, BrandStrip, MediaContentRow, ProjectShowcase, FAQSection and QuoteExperience. LandingHero accepts optional nextHref/nextLabel; ProjectShowcase accepts optional destination href/label without changing the approved roofing reference. ServicePaths omits empty details and highlight lists. BrandStrip resolves explicitly selected brand IDs with intrinsic logo proportions. ReviewSection resolves verified third-party reviews and real platform badges; never fabricate local reviews or point badges to first-party pages. SiteHeader is shared throughout the site: four connected desktop columns, stable hover paths, keyboard controls and nested mobile toggles. Product components retain their catalog, genuine color samples, performance explanations and verified companion data. Quote forms remain disconnected and disabled. The removed product planning band must not return.
-
-## Files
-
-- `AccessoryBenefitDiagram.astro`
-- `BeforeAfter.svelte`
-- `BrandStrip.astro`
-- `Breadcrumbs.astro`
-- `CardSection.astro`
-- `ComparisonSection.astro`
-- `ContentSection.astro`
-- `CoverageSection.astro`
-- `CredentialsSection.astro`
-- `FAQSection.astro`
-- `HomeCardSection.astro`
-- `HomeConfidence.astro`
-- `HomeHero.astro`
-- `HomeImage.astro`
-- `HomeServices.astro`
-- `HomeTrust.astro`
-- `HomeWorkmanship.astro`
-- `LandingHero.astro`
-- `MediaContentRow.astro`
-- `MegaMenu.svelte`
-- `PageHero.astro`
-- `ProcessSteps.astro`
-- `ProductCard.astro`
-- `ProductCompanions.astro`
-- `ProductDetailPage.astro`
-- `ProductEnergy.astro`
-- `ProductGrid.astro`
-- `ProductHubPage.astro`
-- `ProductOptions.svelte`
-- `ProductSpecifications.astro`
-- `ProductTabs.svelte`
-- `ProductWarranty.astro`
-- `ProjectGallery.svelte`
-- `ProjectShowcase.astro`
-- `QuoteExperience.svelte`
-- `QuoteForm.svelte`
-- `QuoteSection.astro`
-- `ResourceLinks.astro`
-- `ReviewSection.astro`
-- `RichContent.astro`
-- `RoofMaterialOptions.astro`
-- `RoofrEstimator.svelte`
-- `RouteReview.svelte`
-- `SectionHeading.astro`
-- `ServiceArticle.astro`
-- `ServiceAudienceBanner.astro`
-- `ServiceExplorer.svelte`
-- `ServiceIcon.astro`
-- `ServicePaths.astro`
-- `ServiceTopics.astro`
-- `SiteFooter.astro`
-- `SiteHeader.svelte`
-- `TrustStrip.astro`
-
-## Subdirectories
-
-- None.
-
-## Change checks
-
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
-
-## Service content interfaces
-
-ServiceContentBand.astro renders full source sections as alternating media rows or multi-topic comparisons using RichContent. ServiceSystemDiagram.astro supplies decorative code-native system SVGs, not installation specifications. ServiceArticle.astro renders leaf opening prose and optional media without a selector. ServicePaths.astro accepts optional rich intro/item bodies for real child services; its plain-text fallback preserves the approved roofing example. LandingHero accepts optional RichNode body to retain contextual lead links. Generated art is conceptual and its captions must not imply a completed Roof King project.
-
-ServiceArticle supports optional variant="benefits" to present static icon cards for homeowner benefits. This does not create a selector on a leaf page. Item icons use the shared ServiceIcon SVG system.
-
-The native mobile masthead now groups a tap-to-call action and labeled Menu/Close toggle at the right edge. The hamburger uses an aria-hidden line wrapper; accessible expanded state, Escape and focus behavior remain on the real toggle button.
-
-SiteMotion.astro installs shared CSS feedback and a small vanilla entrance observer in both document shells. All interactive elements receive feedback; tabs, product samples, galleries, disclosures and dialogs receive state entrances. New components inherit the shared contract; use --rk-motion-fast, --rk-motion-panel and --rk-motion-ease for additional states. Do not animate the before/after drag position or hide content awaiting JavaScript.
-
-StormDamageCallout.astro is a static, responsive early-page storm inspection callout with hail, wind and insurance-documentation links. Its optional path selects an existing local storm page when one is present, otherwise the central storm hub. It inherits shared motion and adds no JavaScript.
-
-ReviewCard.astro owns review excerpts, confirmed individual ratings, author/date and original platform badges for both CardSection and the review hub. ReviewCollection.svelte progressively filters static cards by their data-review-topics attribute. Without JS every review remains visible. Filters keep focus, announce counts and inherit shared reduced-motion behavior.
-
-BrandStrip stacks its heading above the full-width native logo carousel below 1000px. Three logos fit on desktop and two on phones, with touch swiping and progressive arrow controls. Logos retain intrinsic aspect ratios.
-
-LandingHero accepts serviceName for service pages and generates the jump-link label Read More About {Service}. Non-service pages can retain hero.nextLabel. Keep the existing section destination and down arrow.
-
-LandingHero now renders an edge-to-edge decorative background photo with a warm ivory fade, dark sentence-case headings and simple inline inspection actions, following the client’s latest reference. The old boxed figure is removed. generatedImage adds a discreet illustrative-imagery label. Preserve all hero body copy, service-specific jump links, actions, eager responsive loading and reduced-motion behavior.
-
-PageHero and LandingHero share service-hero.css and rk-editorial-hero classes. Homepage copy supports optional titleEmphasis and note; emphasis must be an exact title suffix. Mobile heroes place the full-width photo below the copy. TrustStrip uses three light certification/review columns and proportional source badges, stacking on phones. Keep generated-image credits, existing service paragraphs and booking destinations.
-
-HomeServices renders the explicitly selected service.image directly under each card heading using HomeImage. All eight cards use lazy responsive images with a consistent crop; preserve the central quote action and service destinations.
-
-The client-selected site palette is ivory, charcoal and orange. Green/teal brand surfaces are replaced in both shared styles and component-local styles. Base and compatibility shells expose --rk-charcoal, --rk-charcoal-soft, --rk-paper and --rk-paper-soft; older green/blue/royal token names remain compatibility aliases to this neutral palette. Preserve authentic manufacturer/review logos, product photos and semantic performance badge colors. Retain existing diagonal layouts, typography and interaction states.
-
-ProjectGallery uses an ivory editorial layout with an optional exact-suffix titleEmphasis, quiet filter controls, alternating wide/narrow image pairs and captions beneath images. Photo.category and Photo.caption are optional; retained service galleries fall back to their existing metadata. Keep all photos in SSR, genuine source-image links without JS, live filter counts, focus restoration and keyboard lightbox controls.
-
-ServiceContentBand supports section.eyebrow, card.id anchors and a default slot for subordinate brand content. BrandStrip headingLevel defaults to 2 and accepts 3 for a manufacturer subsection within a material section. ServiceArticle labels single-topic rows with the existing section title when no duplicate item heading is rendered.
-
-StormDamageCallout accepts optional title, description and headingLevel (2 by default, 3 for a subordinate service-page promotion). Reviewed pages keep this secondary callout beneath their service topic in the heading outline.
-
-
-MenuPreview.svelte renders a shared contextual menu photo and destination caption. MegaMenu keeps photography outside all four link columns, updating on pointer hover and keyboard focus. SiteHeader renders one mobile preview directly inside the deepest expanded branch; nested toggles move and update it, and collapsing restores the open ancestor. Images mount only when a dropdown is active. Sibling mobile branches collapse when another opens. Navigation URLs and no-JS link fallbacks remain unchanged.
-
-
-MenuPreview pre-decodes responsive images and crossfades loaded layers with Svelte fade; canceled requests cannot overwrite a newer hover choice. The previous image remains until the next is ready. Reduced-motion removes the crossfade. MegaMenu keys columns by their depth and parent destination so branch changes receive a restrained entrance without changing keyboard controls. Collapsed mobile branches are inert during their visual closing transition.
-
-
-ProductHero.astro supplies all 29 native product pages with the shared ivory photographic hero, contextual service link, catalog jump link and an honest imagery caption. Brand logos retain their proportions. ProductHubPage has H2 collection/guidance headings and H3 cards, unique material photographs per collection, and a balanced icon-led consideration grid. ProductDetailPage retains color interactions, semantic badges, full-width warranty/spec/companion tabs and exact catalog data.
-
-
-ServicePaths resolves each tab destination through service-hero.ts and renders its responsive hero photograph immediately after the panel eyebrow, before its H3. Images are lazy-loaded, dimensioned and captioned when illustrative. The shared Astro implementation applies to every parent service page; ServiceExplorer tabs/select, keyboard behavior and leaf ServiceArticle rendering stay unchanged.
-
-
-MenuPreview now renders a cell from navigation-atlas.json instead of fetching separate photos. One module-level decoded image promise is shared by every preview instance; the atlas is requested only on first menu opening, then CSS background positions swap with reduced-motion-aware fades. Every distinct destination has an explicit cell; no family fallback images remain.
-
-StormDamageCallout uses a slanted charcoal weather band with decorative background wind swirls and a photographic-style orange lightning background, aligned copy and a separate action. The lightning uses a lazy responsive WebP (26 KB desktop / 18 KB mobile), with a dark readability overlay. Wind swirls remain inline SVG; their slight hover motion respects reduced motion. No JavaScript is added. Preserve the optional heading level, local storm destination and existing resource links.
-
-BrandStrip now uses native horizontal scroll snapping with touch swiping, proportional linked logos and small progressive arrow controls. All brands remain SSR links with no autoplay or carousel dependency. QuoteExperience has a fixed Get a free quote heading and a wider responsive layout; compact QuoteForm changes textarea rows only and preserves all labels, consent, disabled submission and phone/booking alternatives. HomeWorkmanship omits the numbered process block.
-
-The brand carousel has its own soft-ivory diagonal band, with shallower clipped edges on phones. Native overflow handles touch swipes and snap alignment; previous/next buttons move a page of logos without autoplay.
-
-SidingProductGuide replaces the siding product hub’s generic guidance cards with illustrated material comparisons, a static accessible wall-drainage diagram and window/trim explanations. Photographs are explicitly illustrative and use lazy responsive WebP sources; the section adds no client island. It names technical reasons for movement, moisture control, edge protection and coating care, with primary-source references.
-
-ServiceContentBand comparison cards accept optional image/caption fields and display lazy responsive photographs above their existing headings and rich body copy. /gutters/ uses four separate illustrative close-ups for layout, discharge, profiles and protection. Image metadata is shared through gutter-detail-media.json; reviewed card imagery persists in service-overrides.json.
-
-SectionPhotoGallery renders exactly three distinct, responsive, lazy images with captions: a desktop photo column and compact one-wide/two-small phone layout. ServiceContentBand now receives pagePath and resolves optional reviewed galleries from service-section-galleries.json. Without a reviewed entry it retains the existing single figure. The gutters roof-edge section is the only example; further adoption belongs to the ten-page review cycle.
-
-IceDamDiagram.astro provides an accessible, static SVG cross-section for the ice-dam leaf opening. ServiceArticle accepts illustration="ice-dam" in place of a photograph; no new image request or client JavaScript is needed. It distinguishes trapped meltwater from structural sagging.
-
-ServiceAreaMap.astro replaces the coverage screenshot with a Census-derived geographic SVG fallback and lazy Leaflet street map. It shows 24 municipal boundaries and the Lewis Center community marker, with an accessible community selector, reset and existing city links. CoverageSection reuses it wherever rendered.
-
-ProjectGallery now swaps complete groups (four photos/two rows on desktop, two photos/two rows on phones), with touch swipes, native lightbox keys/focus restoration, reduced-motion-aware group fades and lazy responsive WebP. Hidden groups remain SSR; a noscript list links every photo. ServiceGallery supplies topic-matched selections; active category labels/captions reflect the current filter. ProjectShowcase is retained as an unused migration component.
-
-
-ServicePaths and ServiceArticle render related destinations as accessible two-column ivory link grids with aligned orange arrows, single-column mobile tap targets and reduced-motion feedback. FeaturedArticles is a static article-card section, with up to four relevant existing posts, optimized lazy thumbnails and H3 titles under a contextual H2. It adds no browser JavaScript.
-
-
-Every Svelte hyperlink now declares a contextual title in source, including dynamically replaced mega-menu previews, gallery filters/photo groups, product error/source links and form actions. All image elements retain alt attributes; intentional decorative alt="" is valid. Astro and imported static HTML share the middleware/build-time enforcement.
-
-
-BlogHub renders static category/topic collection cards with thumbnails, descriptions, source article counts and direct post/archive links. Its H2/H3 hierarchy and responsive three/two/one-column grid inherit the ivory/charcoal/orange design and reduced-motion rules. It requires no client JavaScript.
-
-
-BlogHub is now only a data adapter around the existing CardSection (which already reuses SectionHeading and HomeImage); its separate custom card/grid styling was removed at client direction. CardSection accepts optional id, itemAction, actionLabel and actionHref for resource collections while retaining existing defaults. PageHero adds resource to its existing variant union: the shared photographic hero omits the service phone action and empty note, preserving typography/layout.
-
-
-BlogNavigation is the shared sidebar linking All articles, Categories and Topics, with native expandable lists of the existing collections. It is sticky on desktop and stacks on narrow screens. CardSection.contained removes its nested container/padding when composed beside this aside, while all existing non-contained uses keep their presentation.
-
-
-BlogArchive is the single data adapter used by both category and tag routes; all 19 collections compose the same BlogLayout, CardSection and BlogNavigation. Original published article membership is preserved.
-
-
-On canonical article URLs, BlogNavigation resolves blog-routes.json and displays an Article tags section with all assigned Categories and Topics as linked chips. Both groups use their existing collection hubs, and an entirely unassigned article renders no taxonomy wrapper. Generic hub pages omit the article-specific section. Desktop asides scroll within the viewport when long; mobile stays in normal flow.
-
-
-ArticleSection uses shared contained ContentSection and FAQSection for article prose and FAQs. ArticleChecklist provides semantic lists without per-item rules. ArticleImage uses responsive HomeImage for remaining inline images. ContentSection and FAQSection contained props remove nested section containers only when requested; PageHero generatedImage labels illustrative fallback images.
-
-
-ArticleLayout now ends with the same full-width QuoteSection/QuoteExperience used on the homepage, outside the reading/sidebar grid. It replaces the compact ServiceAudienceBanner and its article-only styles. Header quote actions open the shared modal; form submission remains disabled during review.
-
-
-CardSection resolves article bylines/publication dates from blog-index and taxonomy from blog-routes. Its filterable prop adds BlogCardFilters with vanilla search, category/topic intersection, clear/reset, live counts and empty states. Only blog hub/index/archive callers enable filters; collection cards get search without invented author/date metadata. Controls are hidden without JavaScript and all cards remain available.
-
-
-MegaMenu introduction and column headings are non-link labels because their destinations already exist in the primary/parent rows. MenuPreview is now a non-interactive visual, retaining image swapping on desktop hover and mobile toggles without duplicate destination links. Menu rows remain the single navigation targets; distinct URLs and four-level service navigation remain available.
-
-
-WarrantyComparison is a reusable native semantic table with row/column headers, an optional highlighted warranty, accessible overflow region and a mobile swipe hint/sticky row labels. It uses shared SectionHeading and needs no client script.
-
-
-QuoteExperience accepts showInlineForm (default true). False keeps only the shared customer quote modal so non-customer flows such as Careers can retain header quote behavior without an unrelated inline quote form. All existing callers retain the original default form and disconnected submission.
-
-LocationServiceLinks.astro recursively renders local-service branches using native details and actual destination links; no JavaScript is required to browse descendants.
-
-Schema metadata is compiled from rendered component content by scripts/structured-data.mjs. FAQSection questions/answers, CardSection/FeaturedArticles membership and metadata, ServicePaths panels, ProductCard specifications, product collections/companions, ProjectGallery captions/photos, BrandStrip, ServiceAreaMap and BlogNavigation are mapped without adding repeated component-level script blocks. Decorative components and disconnected quote forms do not invent schema entities/actions.
-
-
-SectionPhotoGallery now accepts three image/caption/heading/topics records plus section cards, id and optional reverse. It validates complete unique topic coverage, pairs each image with its own H3 and paragraph(s), retains original card anchors and uses H4s for grouped subtopics. Mobile keeps each image with its copy. ServiceContentBand opts in by route/section mapping; unreviewed sections retain their current layout.
-
-
-ProjectGallery now supports subject search and image-type filtering in addition to service filters and whole-group paging. It visibly labels reference/company/site photos, contains small originals without enlargement and caps lightbox width to the real derivative width. Four desktop/two mobile cards, touch swipe, keyboard controls, reduced motion, lazy images and no-JavaScript full-library links remain.
+# src/components: choosing and extending components
+
+Read the root handbook and the page family's data/layout maps first. This directory is the shared design system, not a place to embed page-specific business facts. Use the approved ivory/charcoal/orange tokens, Playfair Display + Inter, sentence-case headings and restrained motion. Existing components may still support legacy consumers; preserve their interfaces or provide optional defaults.
+
+## Choose by purpose
+
+| Need | Use | Contract to preserve |
+| --- | --- | --- |
+| Service or location hero | LandingHero | Edge-to-edge contextual photo, ivory fade, serviceName jump label, source body links and optimized eager hero |
+| Company/blog hub hero | PageHero | Shared editorial presentation, route-specific copy/image and matching Breadcrumbs |
+| Product hero | ProductHero | Actual product/material image, proportional brand logo, source-appropriate caption and real collection/overview target |
+| Homepage hero | HomeHero | Homepage data and the same editorial design language; do not clone it per page |
+| Service parent or location service selector | ServicePaths + ServiceExplorer | SSR panels, child-hero photo under eyebrow, H3 panel titles, keyboard/touch behavior; location lists scroll and omit empty related lists |
+| Leaf service opening | ServiceArticle | Visible prose/benefit rows, topic IDs, correct H2/H3/H4 outline; no unnecessary selector |
+| Source-led service body | ServiceContentBand | Full RichNode paragraphs and anchors, alternating media/comparison layouts; reviewed brand subsections use H3 |
+| Three photos opposite related copy | SectionPhotoGallery via ServiceContentBand | service-section-galleries.json pairs each photo to a specific heading+paragraph; preserve caption/alt/dimensions and the review batch |
+| Simple media/copy content | MediaContentRow / ContentSection | Reuse a real existing layout before adding a new card grid |
+| Manufacturer logos | BrandStrip | Native scroll snapping and mobile swipe, proportional logos, no autoplay/dependency; headingLevel=3 for subordinate brand sections |
+| Product collection | ProductHubPage + ProductGrid + ProductCard | Actual child/catalog entries, distinct relevant pictures, real source links and ProductOptions; no generic research-note band |
+| Product detail | ProductDetailPage | Shared hero, overview and warranty/specification/companion tabs; optional primary parent link; exact catalog data |
+| Product colors | ProductOptions + ProductColorPreview | Exact source color names/swatches, independent instance IDs, keyboard selection and source photograph links; an illustrative color study does not become a manufacturer photo |
+| Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; no inherited GAF claims on other brands |
+| Companion systems | ProductCompanions / ProductSystemCompanions | Preserve detailed HDZ treatment and the brand/family resolver; canonical child-page links, primary parent map and relevant images/diagrams |
+| Product or building diagrams | AccessoryBenefitDiagram / SystemComponentDiagram / ServiceSystemDiagram / IceDamDiagram | Code-native explanatory SVGs, accessible naming and actual subject; diagrams are not installation specifications |
+| Project photographs | ProjectGallery | Filtered whole-page batches limited to two rows, keyboard lightbox, source kinds/tags, original-image links and SSR fallback |
+| Service photographs | ServiceGallery / ProjectShowcase | Select actual relevant gallery topics; do not show siding-only captions under windows or unrelated work under a service |
+| Before/after | ServiceComparison -> ComparisonSection -> BeforeAfter | Explicit per-route pair, matching geometry, visible provenance caption, responsive lazy images, native keyboard/touch range; optional square framing and no-JS image links |
+| FAQ | FAQSection | Actual question/answer pairs, existing details UI and consolidated schema; ordinary disclosures are not FAQs |
+| Article body | ArticleSection / ArticleImage / ArticleChecklist / RichContent | Preserve grouped lists and labels, first-image hero, remaining inline photos and source links; keep list spacing compact and avoid per-item rules |
+| Blog cards / hubs | CardSection / FeaturedArticles / BlogHub / BlogArchive / BlogCardFilters | Thumbnail, short description, source author/date, canonical destinations and filters; omit an empty collection entirely |
+| Blog navigation | BlogNavigation | Shared aside on main hubs, category/topic archives and articles; include this article's real categories/topics |
+| Reviews | ReviewSection / ReviewCard / ReviewCollection | Verified excerpts, author/date/ratings and external platform references; no fabricated local reviews or aggregate score |
+| Service areas | ServiceAreaMap / LocationServiceLinks / CoverageSection | Local boundary data and existing route descendants, filterable cards, nested service links, hero and keyboard fallback |
+| Quote / booking | QuoteSection / QuoteExperience / QuoteForm | Shared CTA, wide desktop modal, short heading, native dialog focus/Escape; submission stays disabled until delivery is implemented |
+| Estimator | RoofrEstimator | Click-to-load iframe and direct fallback; do not eagerly load external embeds |
+| Header / menu image | SiteHeader / MegaMenu / MenuPreview | Desktop hover + focus, stable connected columns, nested full-width mobile rows and source menu atlas; all route links work without JS |
+| Shared identity / trust | SiteFooter / Breadcrumbs / TrustStrip / CredentialsSection | Central identity, actual badges, correct destinations and heading context |
+| Weather promotion | StormDamageCallout | Restrained slanted weather styling, existing local/global storm destination and relevant hail/wind/claims links |
+| Motion | SiteMotion | Reduced-motion-aware feedback and native document transitions; never animate drag position or hide initial content |
+
+HomeServices, HomeTrust, HomeConfidence, HomeWorkmanship and HomeCardSection are homepage compositions of these shared conventions. ProcessSteps, ServiceTopics and compatibility-oriented components remain for retained consumers; do not restore the removed numbered process block on new pages. RouteReview is internal review tooling, not customer navigation.
+
+## Extension workflow
+
+1. Search consumers of the closest component and inspect the corresponding shared type. Props often carry the content; editing the component to hard-code one page is the wrong layer.
+2. Prefer an optional prop or data-driven variant with a stable default. Preserve old consumers, existing heading levels, anchors, selectors, no-JS content and hydration behavior.
+3. Keep factual data in src/data with source evidence in migration. Reuse ServiceIcon and CSS tokens instead of adding a second icon or button system. Use Astro for static markup; hydrate only actual interactions.
+4. Preserve current lifecycle choices: header/modal and selected detail controls need immediate availability; below-fold galleries, comparisons and collection controls generally use client:visible. Do not silently change all islands to client:load.
+5. Give every img an alt attribute, every anchor a meaningful title, controls real labels and stable unique IDs. Empty arrays must render nothing; avoid rendering a numeric zero from a length expression.
+6. If new visible content warrants schema, extend the DOM-based compiler in scripts/structured-data.mjs and its checks. Do not add independent duplicate JSON-LD graphs or invented rich-result facts.
+7. Verify a representative existing consumer as well as the new case on desktop and mobile. For state changes, test the resulting visual behavior, focus, keyboard/touch and reduced-motion fallback, not just class names.
+
+Register new components here with their purpose, data source, allowed variants and regression checks. Keep the generated file inventory separate from these manual contracts.
+
+<!-- directory-inventory:start -->
+## Directory inventory
+
+Parent guidance: [src](../ai-context.md).
+
+### Direct files
+
+- [AccessoryBenefitDiagram.astro](AccessoryBenefitDiagram.astro)
+- [ArticleChecklist.astro](ArticleChecklist.astro)
+- [ArticleImage.astro](ArticleImage.astro)
+- [ArticleSection.astro](ArticleSection.astro)
+- [BeforeAfter.svelte](BeforeAfter.svelte)
+- [BlogArchive.astro](BlogArchive.astro)
+- [BlogCardFilters.astro](BlogCardFilters.astro)
+- [BlogHub.astro](BlogHub.astro)
+- [BlogNavigation.astro](BlogNavigation.astro)
+- [BrandStrip.astro](BrandStrip.astro)
+- [Breadcrumbs.astro](Breadcrumbs.astro)
+- [CardSection.astro](CardSection.astro)
+- [ComparisonSection.astro](ComparisonSection.astro)
+- [ContentSection.astro](ContentSection.astro)
+- [CoverageSection.astro](CoverageSection.astro)
+- [CredentialsSection.astro](CredentialsSection.astro)
+- [FAQSection.astro](FAQSection.astro)
+- [FeaturedArticles.astro](FeaturedArticles.astro)
+- [HomeCardSection.astro](HomeCardSection.astro)
+- [HomeConfidence.astro](HomeConfidence.astro)
+- [HomeHero.astro](HomeHero.astro)
+- [HomeImage.astro](HomeImage.astro)
+- [HomeServices.astro](HomeServices.astro)
+- [HomeTrust.astro](HomeTrust.astro)
+- [HomeWorkmanship.astro](HomeWorkmanship.astro)
+- [IceDamDiagram.astro](IceDamDiagram.astro)
+- [LandingHero.astro](LandingHero.astro)
+- [LocationServiceLinks.astro](LocationServiceLinks.astro)
+- [MediaContentRow.astro](MediaContentRow.astro)
+- [MegaMenu.svelte](MegaMenu.svelte)
+- [MenuPreview.svelte](MenuPreview.svelte)
+- [PageHero.astro](PageHero.astro)
+- [ProcessSteps.astro](ProcessSteps.astro)
+- [ProductCard.astro](ProductCard.astro)
+- [ProductColorPreview.svelte](ProductColorPreview.svelte)
+- [ProductCompanions.astro](ProductCompanions.astro)
+- [ProductDetailPage.astro](ProductDetailPage.astro)
+- [ProductEnergy.astro](ProductEnergy.astro)
+- [ProductGrid.astro](ProductGrid.astro)
+- [ProductHero.astro](ProductHero.astro)
+- [ProductHubPage.astro](ProductHubPage.astro)
+- [ProductOptions.svelte](ProductOptions.svelte)
+- [ProductSpecifications.astro](ProductSpecifications.astro)
+- [ProductSystemCompanions.astro](ProductSystemCompanions.astro)
+- [ProductTabs.svelte](ProductTabs.svelte)
+- [ProductWarranty.astro](ProductWarranty.astro)
+- [ProjectGallery.svelte](ProjectGallery.svelte)
+- [ProjectShowcase.astro](ProjectShowcase.astro)
+- [QuoteExperience.svelte](QuoteExperience.svelte)
+- [QuoteForm.svelte](QuoteForm.svelte)
+- [QuoteSection.astro](QuoteSection.astro)
+- [ResourceLinks.astro](ResourceLinks.astro)
+- [ReviewCard.astro](ReviewCard.astro)
+- [ReviewCollection.svelte](ReviewCollection.svelte)
+- [ReviewSection.astro](ReviewSection.astro)
+- [RichContent.astro](RichContent.astro)
+- [RoofMaterialOptions.astro](RoofMaterialOptions.astro)
+- [RoofrEstimator.svelte](RoofrEstimator.svelte)
+- [RouteReview.svelte](RouteReview.svelte)
+- [SectionHeading.astro](SectionHeading.astro)
+- [SectionPhotoGallery.astro](SectionPhotoGallery.astro)
+- [ServiceAreaMap.astro](ServiceAreaMap.astro)
+- [ServiceArticle.astro](ServiceArticle.astro)
+- [ServiceAudienceBanner.astro](ServiceAudienceBanner.astro)
+- [ServiceComparison.astro](ServiceComparison.astro)
+- [ServiceContentBand.astro](ServiceContentBand.astro)
+- [ServiceExplorer.svelte](ServiceExplorer.svelte)
+- [ServiceGallery.astro](ServiceGallery.astro)
+- [ServiceIcon.astro](ServiceIcon.astro)
+- [ServicePaths.astro](ServicePaths.astro)
+- [ServiceSystemDiagram.astro](ServiceSystemDiagram.astro)
+- [ServiceTopics.astro](ServiceTopics.astro)
+- [SidingProductGuide.astro](SidingProductGuide.astro)
+- [SiteFooter.astro](SiteFooter.astro)
+- [SiteHeader.svelte](SiteHeader.svelte)
+- [SiteMotion.astro](SiteMotion.astro)
+- [StormDamageCallout.astro](StormDamageCallout.astro)
+- [SystemComponentDiagram.astro](SystemComponentDiagram.astro)
+- [TrustStrip.astro](TrustStrip.astro)
+- [WarrantyComparison.astro](WarrantyComparison.astro)
+
+### Child directories
+
+None.
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

@@ -1,0 +1,2180 @@
+{
+  "trex-signature-aluminum-railing": {
+    "id": "trex-signature-aluminum-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-aluminum-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-vert-bk-outline-BK36RODHVERTK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/60b920863d87-1016.webp",
+          "srcset": "/media/products/systems/60b920863d87-320.webp 320w, /media/products/systems/60b920863d87-640.webp 640w, /media/products/systems/60b920863d87-960.webp 960w, /media/products/systems/60b920863d87-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/60b920863d87-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/60b920863d87-1016.webp",
+      "srcset": "/media/products/systems/60b920863d87-320.webp 320w, /media/products/systems/60b920863d87-640.webp 640w, /media/products/systems/60b920863d87-960.webp 960w, /media/products/systems/60b920863d87-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature aluminum railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature aluminum railing",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/signature/#aluminum-tab"
+      }
+    ]
+  },
+  "trex-signature-glass-railing": {
+    "id": "trex-signature-glass-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-glass-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-glass-bk-outline-BKA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/c91e60abe216-1016.webp",
+          "srcset": "/media/products/systems/c91e60abe216-320.webp 320w, /media/products/systems/c91e60abe216-640.webp 640w, /media/products/systems/c91e60abe216-960.webp 960w, /media/products/systems/c91e60abe216-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/c91e60abe216-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/c91e60abe216-1016.webp",
+      "srcset": "/media/products/systems/c91e60abe216-320.webp 320w, /media/products/systems/c91e60abe216-640.webp 640w, /media/products/systems/c91e60abe216-960.webp 960w, /media/products/systems/c91e60abe216-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature glass railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum frame with glass infill",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Framed glass",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum frame with glass infill",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Framed glass",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature glass railing",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum frame with glass infill",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Framed glass",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#glass-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/signature/#glass-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/signature/#glass-tab"
+      }
+    ]
+  },
+  "trex-signature-mesh-railing": {
+    "id": "trex-signature-mesh-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-mesh-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-mesh-bk-outline-BKA0636PNLHRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/95657f067f28-1016.webp",
+          "srcset": "/media/products/systems/95657f067f28-320.webp 320w, /media/products/systems/95657f067f28-640.webp 640w, /media/products/systems/95657f067f28-960.webp 960w, /media/products/systems/95657f067f28-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/95657f067f28-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/95657f067f28-1016.webp",
+      "srcset": "/media/products/systems/95657f067f28-320.webp 320w, /media/products/systems/95657f067f28-640.webp 640w, /media/products/systems/95657f067f28-960.webp 960w, /media/products/systems/95657f067f28-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature mesh railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum frame with mesh infill",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Mesh panels",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum frame with mesh infill",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Mesh panels",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature mesh railing",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum frame with mesh infill",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Mesh panels",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/signature/#mesh-tab"
+      }
+    ]
+  },
+  "trex-signature-rod-railing": {
+    "id": "trex-signature-rod-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-rod-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-alum-railing-rod-rail-bk-outline-BKBKROD0636HRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/9555e8ff1b7a-1016.webp",
+          "srcset": "/media/products/systems/9555e8ff1b7a-320.webp 320w, /media/products/systems/9555e8ff1b7a-640.webp 640w, /media/products/systems/9555e8ff1b7a-960.webp 960w, /media/products/systems/9555e8ff1b7a-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/9555e8ff1b7a-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/9555e8ff1b7a-1016.webp",
+      "srcset": "/media/products/systems/9555e8ff1b7a-320.webp 320w, /media/products/systems/9555e8ff1b7a-640.webp 640w, /media/products/systems/9555e8ff1b7a-960.webp 960w, /media/products/systems/9555e8ff1b7a-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature Rod Rail manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum railing system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Horizontal rods",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Horizontal rods",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature Rod Rail",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Horizontal rods",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/signature/#rod-rail-tab"
+      }
+    ]
+  },
+  "trex-signature-x-series-cable-railing": {
+    "id": "trex-signature-x-series-cable-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-x-series-cable-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-cable-railing-hz-sd-outline-BKAX0636CBLHRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/5f1e8b223028-1016.webp",
+          "srcset": "/media/products/systems/5f1e8b223028-320.webp 320w, /media/products/systems/5f1e8b223028-640.webp 640w, /media/products/systems/5f1e8b223028-960.webp 960w, /media/products/systems/5f1e8b223028-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/5f1e8b223028-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/5f1e8b223028-1016.webp",
+      "srcset": "/media/products/systems/5f1e8b223028-320.webp 320w, /media/products/systems/5f1e8b223028-640.webp 640w, /media/products/systems/5f1e8b223028-960.webp 960w, /media/products/systems/5f1e8b223028-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature X-Series cable railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum post system with cable infill",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Cable",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum post system with cable infill",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Cable",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature X-Series cable railing",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum post system with cable infill",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Cable",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/x-series/#cable-tab"
+      }
+    ]
+  },
+  "trex-signature-x-series-glass-railing": {
+    "id": "trex-signature-x-series-glass-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/signature-x-series-glass-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sig-x-series-frameless-glass-railing-hz-sd-outline-SDA06HGLRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/f6a34aadd654-1016.webp",
+          "srcset": "/media/products/systems/f6a34aadd654-320.webp 320w, /media/products/systems/f6a34aadd654-640.webp 640w, /media/products/systems/f6a34aadd654-960.webp 960w, /media/products/systems/f6a34aadd654-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/f6a34aadd654-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/f6a34aadd654-1016.webp",
+      "srcset": "/media/products/systems/f6a34aadd654-320.webp 320w, /media/products/systems/f6a34aadd654-640.webp 640w, /media/products/systems/f6a34aadd654-960.webp 960w, /media/products/systems/f6a34aadd654-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Signature X-Series frameless glass railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum post system with glass infill",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Frameless glass",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum post system with glass infill",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Frameless glass",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Signature X-Series frameless glass railing",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum post system with glass infill",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Frameless glass",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/x-series/#frameless-glass-tab"
+      }
+    ]
+  },
+  "trex-transcend-railing": {
+    "id": "trex-transcend-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/transcend-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/transcend/",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/trn-railing-square-hz-bk-outline-BK0636HRKFS?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/bdf1a2abbce5-1016.webp",
+          "srcset": "/media/products/systems/bdf1a2abbce5-320.webp 320w, /media/products/systems/bdf1a2abbce5-640.webp 640w, /media/products/systems/bdf1a2abbce5-960.webp 960w, /media/products/systems/bdf1a2abbce5-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/bdf1a2abbce5-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/bdf1a2abbce5-1016.webp",
+      "srcset": "/media/products/systems/bdf1a2abbce5-320.webp 320w, /media/products/systems/bdf1a2abbce5-640.webp 640w, /media/products/systems/bdf1a2abbce5-960.webp 960w, /media/products/systems/bdf1a2abbce5-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Transcend composite railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Composite railing system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Traditional top rail",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Composite railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Traditional top rail",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Transcend composite railing",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      {
+        "label": "Material",
+        "value": "Composite railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      {
+        "label": "Profile",
+        "value": "Traditional top rail",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/transcend/"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/transcend/"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/transcend/"
+      }
+    ]
+  },
+  "trex-select-classic-railing": {
+    "id": "trex-select-classic-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/select-classic-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/enh-composite-railing-hz-wt-outline-WTRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/b9488e68518a-1016.webp",
+          "srcset": "/media/products/systems/b9488e68518a-320.webp 320w, /media/products/systems/b9488e68518a-640.webp 640w, /media/products/systems/b9488e68518a-960.webp 960w, /media/products/systems/b9488e68518a-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/b9488e68518a-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/b9488e68518a-1016.webp",
+      "srcset": "/media/products/systems/b9488e68518a-320.webp 320w, /media/products/systems/b9488e68518a-640.webp 640w, /media/products/systems/b9488e68518a-960.webp 960w, /media/products/systems/b9488e68518a-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Select Classic railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Composite rails with aluminum balusters",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Classic",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Composite rails with aluminum balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Classic",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Select Classic railing",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Composite rails with aluminum balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Classic",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#classic-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/select/#classic-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/select/#classic-tab"
+      }
+    ]
+  },
+  "trex-select-t-rail": {
+    "id": "trex-select-t-rail",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/select-t-rail/",
+    "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sel-t-rail-alum-railing-rd-hz-wt-outline-WTRD0636HSELTRK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/9641db3e9106-1016.webp",
+          "srcset": "/media/products/systems/9641db3e9106-320.webp 320w, /media/products/systems/9641db3e9106-640.webp 640w, /media/products/systems/9641db3e9106-960.webp 960w, /media/products/systems/9641db3e9106-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/9641db3e9106-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/9641db3e9106-1016.webp",
+      "srcset": "/media/products/systems/9641db3e9106-320.webp 320w, /media/products/systems/9641db3e9106-640.webp 640w, /media/products/systems/9641db3e9106-960.webp 960w, /media/products/systems/9641db3e9106-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Select T-Rail manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Composite rails with aluminum or composite balusters",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "T-shaped top rail",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Composite rails with aluminum or composite balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "T-shaped top rail",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Select T-Rail",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Composite rails with aluminum or composite balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "T-shaped top rail",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/select/#t-rail-tab"
+      }
+    ]
+  },
+  "trex-select-aluminum-railing": {
+    "id": "trex-select-aluminum-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/select-aluminum-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sel-alum-railing-hz-bk-outline-BKSALSQ842HPNL?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/ca5edc9fd41c-1016.webp",
+          "srcset": "/media/products/systems/ca5edc9fd41c-320.webp 320w, /media/products/systems/ca5edc9fd41c-640.webp 640w, /media/products/systems/ca5edc9fd41c-960.webp 960w, /media/products/systems/ca5edc9fd41c-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/ca5edc9fd41c-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/ca5edc9fd41c-1016.webp",
+      "srcset": "/media/products/systems/ca5edc9fd41c-320.webp 320w, /media/products/systems/ca5edc9fd41c-640.webp 640w, /media/products/systems/ca5edc9fd41c-960.webp 960w, /media/products/systems/ca5edc9fd41c-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Select aluminum railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Aluminum",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Aluminum",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Select aluminum railing",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Aluminum",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/select/#aluminium-tab"
+      }
+    ]
+  },
+  "trex-select-mesh-railing": {
+    "id": "trex-select-mesh-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/select-mesh-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sel-mesh-railing-hz-bk-outline-BKMESH06HSELK?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/2751a72c317d-1016.webp",
+          "srcset": "/media/products/systems/2751a72c317d-320.webp 320w, /media/products/systems/2751a72c317d-640.webp 640w, /media/products/systems/2751a72c317d-960.webp 960w, /media/products/systems/2751a72c317d-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/2751a72c317d-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/2751a72c317d-1016.webp",
+      "srcset": "/media/products/systems/2751a72c317d-320.webp 320w, /media/products/systems/2751a72c317d-640.webp 640w, /media/products/systems/2751a72c317d-960.webp 960w, /media/products/systems/2751a72c317d-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Select mesh railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Steel mesh infill with coordinating rail components",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Mesh panels",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Steel mesh infill with coordinating rail components",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Mesh panels",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Select mesh railing",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Steel mesh infill with coordinating rail components",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Mesh panels",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/select/#mesh-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/select/#mesh-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/select/#mesh-tab"
+      }
+    ]
+  },
+  "trex-enhance-steel-railing": {
+    "id": "trex-enhance-steel-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/enhance-steel-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/enh-steel-railing-hz-bk-outline-BKSTLSQ0842HENPNL?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/219c6332971e-1016.webp",
+          "srcset": "/media/products/systems/219c6332971e-320.webp 320w, /media/products/systems/219c6332971e-640.webp 640w, /media/products/systems/219c6332971e-960.webp 960w, /media/products/systems/219c6332971e-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/219c6332971e-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/219c6332971e-1016.webp",
+      "srcset": "/media/products/systems/219c6332971e-320.webp 320w, /media/products/systems/219c6332971e-640.webp 640w, /media/products/systems/219c6332971e-960.webp 960w, /media/products/systems/219c6332971e-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Enhance steel railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Steel",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Steel",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Enhance steel railing",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Steel",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Vertical balusters",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/enhance/#steel-tab"
+      }
+    ]
+  },
+  "trex-enhance-composite-railing": {
+    "id": "trex-enhance-composite-railing",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/enhance-composite-railing/",
+    "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck railing",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sku-enh-composite-railing-hz-bk-outline-BKRD0642HENKRT?$fullwidthgallery$&fmt=png-alpha",
+        "image": {
+          "src": "/media/products/systems/1b6feb46a984-1016.webp",
+          "srcset": "/media/products/systems/1b6feb46a984-320.webp 320w, /media/products/systems/1b6feb46a984-640.webp 640w, /media/products/systems/1b6feb46a984-960.webp 960w, /media/products/systems/1b6feb46a984-1016.webp 1016w",
+          "width": 1016,
+          "height": 516
+        },
+        "swatch": "/media/products/systems/1b6feb46a984-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/1b6feb46a984-1016.webp",
+      "srcset": "/media/products/systems/1b6feb46a984-320.webp 320w, /media/products/systems/1b6feb46a984-640.webp 640w, /media/products/systems/1b6feb46a984-960.webp 960w, /media/products/systems/1b6feb46a984-1016.webp 1016w",
+      "width": 1016,
+      "height": 516,
+      "alt": "Trex Enhance composite railing manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Composite railing system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Traditional rail",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Composite railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Traditional rail",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Enhance composite railing",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      {
+        "label": "Material",
+        "value": "Composite railing system",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      {
+        "label": "Profile",
+        "value": "Traditional rail",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      {
+        "label": "Application",
+        "value": "Deck and stair perimeter",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      },
+      {
+        "label": "Selection",
+        "value": "Specify rail sections, posts, infill and mounting components together",
+        "sourceUrl": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/railing/enhance/#composite-tab"
+      }
+    ]
+  },
+  "trex-fascia": {
+    "id": "trex-fascia",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/fascia/",
+    "sourceUrl": "https://www.trex.com/products/decking/fascia/",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck accessories",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/enh-missouri-044-rh-enh-railing-wt-fascia-railing-section:Article-Image-Main",
+        "image": {
+          "src": "/media/products/systems/9ac609374f73-1016.webp",
+          "srcset": "/media/products/systems/9ac609374f73-320.webp 320w, /media/products/systems/9ac609374f73-640.webp 640w, /media/products/systems/9ac609374f73-960.webp 960w, /media/products/systems/9ac609374f73-1016.webp 1016w",
+          "width": 1016,
+          "height": 665
+        },
+        "swatch": "/media/products/systems/9ac609374f73-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/9ac609374f73-1016.webp",
+      "srcset": "/media/products/systems/9ac609374f73-320.webp 320w, /media/products/systems/9ac609374f73-640.webp 640w, /media/products/systems/9ac609374f73-960.webp 960w, /media/products/systems/9ac609374f73-1016.webp 1016w",
+      "width": 1016,
+      "height": 665,
+      "alt": "Trex Fascia boards manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Composite fascia",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Perimeter finishing boards",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Composite fascia",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Perimeter finishing boards",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Fascia boards",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      {
+        "label": "Material",
+        "value": "Composite fascia",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      {
+        "label": "Profile",
+        "value": "Perimeter finishing boards",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      {
+        "label": "Application",
+        "value": "Deck finishing and installation",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      },
+      {
+        "label": "Selection",
+        "value": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/decking/fascia/"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/decking/fascia/"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/decking/fascia/"
+      }
+    ]
+  },
+  "trex-hideaway-fasteners": {
+    "id": "trex-hideaway-fasteners",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/hideaway-fasteners/",
+    "sourceUrl": "https://www.trex.com/products/fasteners-tools/",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck accessories",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sku-hiddenfastener-wood:Media-Carousel",
+        "image": {
+          "src": "/media/products/systems/a45cf2d3d0be-600.webp",
+          "srcset": "/media/products/systems/a45cf2d3d0be-320.webp 320w, /media/products/systems/a45cf2d3d0be-600.webp 600w",
+          "width": 600,
+          "height": 600
+        },
+        "swatch": "/media/products/systems/a45cf2d3d0be-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/a45cf2d3d0be-600.webp",
+      "srcset": "/media/products/systems/a45cf2d3d0be-320.webp 320w, /media/products/systems/a45cf2d3d0be-600.webp 600w",
+      "width": 600,
+      "height": 600,
+      "alt": "Trex Hideaway hidden fastener with integrated screw",
+      "caption": "Trex manufacturer product imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Fastening system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Clips, screws and plugs",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Fastening system",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Clips, screws and plugs",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex Hideaway fasteners and tools",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      {
+        "label": "Material",
+        "value": "Fastening system",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      {
+        "label": "Profile",
+        "value": "Clips, screws and plugs",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      {
+        "label": "Application",
+        "value": "Deck finishing and installation",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      },
+      {
+        "label": "Selection",
+        "value": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/fasteners-tools/"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/fasteners-tools/"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/fasteners-tools/"
+      }
+    ]
+  },
+  "trex-deck-lighting": {
+    "id": "trex-deck-lighting",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/deck-lighting/",
+    "sourceUrl": "https://www.trex.com/products/deck-lighting/",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck accessories",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/sel-cgi-0008-ms-decking-fascia-bk-alum-railing-beauty-lighting-MS010612S2S64.jpg:Large",
+        "image": {
+          "src": "/media/products/systems/7d1338e08d5e-1260.webp",
+          "srcset": "/media/products/systems/7d1338e08d5e-320.webp 320w, /media/products/systems/7d1338e08d5e-640.webp 640w, /media/products/systems/7d1338e08d5e-960.webp 960w, /media/products/systems/7d1338e08d5e-1260.webp 1260w",
+          "width": 1260,
+          "height": 720
+        },
+        "swatch": "/media/products/systems/7d1338e08d5e-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/7d1338e08d5e-1260.webp",
+      "srcset": "/media/products/systems/7d1338e08d5e-320.webp 320w, /media/products/systems/7d1338e08d5e-640.webp 640w, /media/products/systems/7d1338e08d5e-960.webp 960w, /media/products/systems/7d1338e08d5e-1260.webp 1260w",
+      "width": 1260,
+      "height": 720,
+      "alt": "Trex DeckLighting manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Outdoor lighting system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Post, rail and stair lighting",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Outdoor lighting system",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Post, rail and stair lighting",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex DeckLighting",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      {
+        "label": "Material",
+        "value": "Outdoor lighting system",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      {
+        "label": "Profile",
+        "value": "Post, rail and stair lighting",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      {
+        "label": "Application",
+        "value": "Deck finishing and installation",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      },
+      {
+        "label": "Selection",
+        "value": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/deck-lighting/"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/deck-lighting/"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/deck-lighting/"
+      }
+    ]
+  },
+  "trex-rainescape": {
+    "id": "trex-rainescape",
+    "brand": "Trex",
+    "detailPath": "/products/decking/composite/trex/rainescape/",
+    "sourceUrl": "https://www.trex.com/products/rainescape/",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Deck accessories",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://images.trex.com/is/image/trexcompany/rainescape-ciprianni-002-under-deck-stairs-swing-warmth:Article-Image-Main",
+        "image": {
+          "src": "/media/products/systems/4b44ec95af97-1016.webp",
+          "srcset": "/media/products/systems/4b44ec95af97-320.webp 320w, /media/products/systems/4b44ec95af97-640.webp 640w, /media/products/systems/4b44ec95af97-960.webp 960w, /media/products/systems/4b44ec95af97-1016.webp 1016w",
+          "width": 1016,
+          "height": 665
+        },
+        "swatch": "/media/products/systems/4b44ec95af97-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/4b44ec95af97-1016.webp",
+      "srcset": "/media/products/systems/4b44ec95af97-320.webp 320w, /media/products/systems/4b44ec95af97-640.webp 640w, /media/products/systems/4b44ec95af97-960.webp 960w, /media/products/systems/4b44ec95af97-1016.webp 1016w",
+      "width": 1016,
+      "height": 665,
+      "alt": "Trex RainEscape under-deck drainage manufacturer product imagery",
+      "caption": "Trex manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Under-deck drainage system",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Troughs and downspouts",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Under-deck drainage system",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Troughs and downspouts",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "Trex RainEscape under-deck drainage",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      {
+        "label": "Material",
+        "value": "Under-deck drainage system",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      {
+        "label": "Profile",
+        "value": "Troughs and downspouts",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      {
+        "label": "Application",
+        "value": "Drainage below elevated deck boards",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      },
+      {
+        "label": "Selection",
+        "value": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.trex.com/products/rainescape/"
+      }
+    ],
+    "warrantyUrl": "https://www.trex.com/customer-support/trex-owners/warranty/",
+    "warrantyLabels": [
+      "Manufacturer limited coverage varies by product and application"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "Trex product details and installation resources",
+        "url": "https://www.trex.com/products/rainescape/"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current Trex options",
+        "url": "https://www.trex.com/products/rainescape/"
+      }
+    ]
+  },
+  "leaffilter-gutter-protection": {
+    "id": "leaffilter-gutter-protection",
+    "brand": "LeafFilter",
+    "detailPath": "/products/gutters/guards/leaffilter/gutter-protection/",
+    "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+    "checkedAt": "2026-10-29",
+    "categoryLabel": "Gutter protection",
+    "optionLabel": "Product view",
+    "defaultColorId": "product-view",
+    "colors": [
+      {
+        "id": "product-view",
+        "name": "Manufacturer product view",
+        "sourceImageUrl": "https://www.leafhome.com/app/uploads/2024/07/gutter-systems-leaffilter-desktop-hero-LeafFilter-assembly-process-1680x583.webp",
+        "image": {
+          "src": "/media/products/systems/6a767a0f9af1-1600.webp",
+          "srcset": "/media/products/systems/6a767a0f9af1-320.webp 320w, /media/products/systems/6a767a0f9af1-640.webp 640w, /media/products/systems/6a767a0f9af1-960.webp 960w, /media/products/systems/6a767a0f9af1-1280.webp 1280w, /media/products/systems/6a767a0f9af1-1600.webp 1600w",
+          "width": 1600,
+          "height": 555
+        },
+        "swatch": "/media/products/systems/6a767a0f9af1-320.webp"
+      }
+    ],
+    "hero": {
+      "src": "/media/products/systems/6a767a0f9af1-1600.webp",
+      "srcset": "/media/products/systems/6a767a0f9af1-320.webp 320w, /media/products/systems/6a767a0f9af1-640.webp 640w, /media/products/systems/6a767a0f9af1-960.webp 960w, /media/products/systems/6a767a0f9af1-1280.webp 1280w, /media/products/systems/6a767a0f9af1-1600.webp 1600w",
+      "width": 1600,
+      "height": 555,
+      "alt": "LeafFilter gutter protection manufacturer product imagery",
+      "caption": "LeafFilter manufacturer imagery \u00b7 Not a Roof King project photograph"
+    },
+    "badges": [
+      {
+        "label": "Material",
+        "value": "Stainless-steel micromesh with uPVC frame",
+        "specLabel": "Material"
+      },
+      {
+        "label": "Profile",
+        "value": "Three-part gutter protection system",
+        "specLabel": "Profile"
+      },
+      {
+        "label": "Finish",
+        "value": "Product view",
+        "specLabel": "Selection"
+      },
+      {
+        "label": "Warranty",
+        "value": "Product-specific terms",
+        "specLabel": "Selection"
+      }
+    ],
+    "badgeExplanations": {
+      "Material": {
+        "title": "Material and product selection",
+        "body": "Stainless-steel micromesh with uPVC frame",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      "Profile": {
+        "title": "Profile and product selection",
+        "body": "Three-part gutter protection system",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      "Finish": {
+        "title": "Finish and product selection",
+        "body": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      "Warranty": {
+        "title": "Coverage belongs to the specific product",
+        "body": "Decking, railing, lighting and drainage can have separate warranty documents. Confirm the terms for the product being installed.",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      }
+    },
+    "specs": [
+      {
+        "label": "Product family",
+        "value": "LeafFilter gutter protection",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      {
+        "label": "Material",
+        "value": "Stainless-steel micromesh with uPVC frame",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      {
+        "label": "Profile",
+        "value": "Three-part gutter protection system",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      {
+        "label": "Application",
+        "value": "Protection above suitable new or existing gutters",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      },
+      {
+        "label": "Selection",
+        "value": "Match the assembly to the selected deck or gutter system",
+        "sourceUrl": "https://www.leafhome.com/gutter-systems/leaffilter"
+      }
+    ],
+    "warrantyUrl": "https://www.leafhome.com/gutter-systems/leaffilter",
+    "warrantyLabels": [
+      "Manufacturer lifetime warranty, subject to its written terms"
+    ],
+    "warrantyNote": "Coverage, exclusions and eligibility are defined by the applicable manufacturer document; these are not promises of service life.",
+    "documents": [
+      {
+        "label": "LeafFilter product details and installation resources",
+        "url": "https://www.leafhome.com/gutter-systems/leaffilter"
+      }
+    ],
+    "colorResources": [
+      {
+        "description": "The photograph illustrates the product or system. Review the manufacturer\u2019s current finishes, dimensions and compatible installation parts with Roof King.",
+        "label": "View current LeafFilter options",
+        "url": "https://www.leafhome.com/gutter-systems/leaffilter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-29T21:49:56.342Z",
+  "publication": "Local review only",
+  "fullVerification": {
+    "command": "npm run verify",
+    "passed": true
+  },
+  "desktopMobileRoutes": {
+    "checked": 150,
+    "failed": 0
+  },
+  "collectionPreviews": {
+    "checked": 8,
+    "failed": 0,
+    "externalPreviewServiceRequests": 0,
+    "uniqueFilterIds": true
+  },
+  "colorPixelCases": {
+    "checked": 27,
+    "singleOption": 1,
+    "failed": 0
+  },
+  "knownDiagnostics": [
+    "Existing ReviewCollection.svelte initial-state warning; no product diagnostics"
+  ],
+  "sourceHashes": {
+    "src/data/manufacturer-products.json": "a36908729c26b5b320e12d1faf6fd6ab589027059c9bcba88d79a9b48dc49b04",
+    "src/data/product-pillar.json": "08af2ae17c228951d5730570483fe9af04a9e47507c4a3825d46bf4898519e00",
+    "src/data/product-details.json": "f862e87611b08b6a88a41164e6a1004d30d3ae7b479f9b84497665f37eb721d5",
+    "src/components/ProductOptions.svelte": "94c6c5f7d48f70d6e1032fb2b3debfef14e6e5d6c3686e79f2de20056f778701",
+    "src/components/ProductColorPreview.svelte": "a9a01fa4c450719ec13ad83fa11ff6d2c9fab814c6db96988ce9bac695acdc59",
+    "src/components/ProductCard.astro": "ecccea1259c66dfec77fcfbe02e150b2673dec47dec87e6bb4516ef9e8ea83fb"
+  }
+}

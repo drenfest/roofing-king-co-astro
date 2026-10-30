@@ -1,25 +1,29 @@
 # src/content/pages/products/roofing/shingles/gaf
 
-Content at this preserved URL branch. index.md is an editable page; child directories hold additional protected paths.
+This directory retains a route/source record. Read the ownership block below before deciding where to edit visible content. Do not assume that changing index.md changes a native page. Follow the root, content and page-family maps.
 
-## Files
+<!-- directory-inventory:start -->
+## Directory inventory
 
-- No direct content files.
+Parent guidance: [src/content/pages/products/roofing/shingles](../ai-context.md).
 
-## Subdirectories
+### Direct files
 
-- `camelot-ii/` - read its ai-context.md.
-- `grand-sequoia/` - read its ai-context.md.
-- `grand-sequoia-as/` - read its ai-context.md.
-- `grand-sequoia-rs/` - read its ai-context.md.
-- `royal-sovereign/` - read its ai-context.md.
-- `timberline-as-ii/` - read its ai-context.md.
-- `timberline-hdz/` - read its ai-context.md.
-- `timberline-hdz-rs/` - read its ai-context.md.
-- `timberline-ns/` - read its ai-context.md.
-- `timberline-uhdz/` - read its ai-context.md.
-- `woodland/` - read its ai-context.md.
+No direct source files.
 
-## Change checks
+### Child directories
 
-Preserve explicit content permalinks and source attribution. Update this map when directory responsibilities change. Run `npm run verify` from the repository root after changes.
+- [camelot-ii/](camelot-ii/ai-context.md)
+- [grand-sequoia/](grand-sequoia/ai-context.md)
+- [grand-sequoia-as/](grand-sequoia-as/ai-context.md)
+- [grand-sequoia-rs/](grand-sequoia-rs/ai-context.md)
+- [royal-sovereign/](royal-sovereign/ai-context.md)
+- [timberline-as-ii/](timberline-as-ii/ai-context.md)
+- [timberline-hdz/](timberline-hdz/ai-context.md)
+- [timberline-hdz-rs/](timberline-hdz-rs/ai-context.md)
+- [timberline-ns/](timberline-ns/ai-context.md)
+- [timberline-uhdz/](timberline-uhdz/ai-context.md)
+- [woodland/](woodland/ai-context.md)
+
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+<!-- directory-inventory:end -->

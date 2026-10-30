@@ -1,0 +1,35 @@
+---
+interface Props {id:string;kind:string;name:string;}
+const {id,kind,name}=Astro.props;
+const wall=kind.startsWith('wall-');
+const orange='#fe6600',line='#b9b0a2',paper='#f8f5ee';
+---
+<figure class="rk-system-diagram">
+ <svg viewBox="0 0 480 270" role="img" aria-labelledby={`system-${id}`}>
+ <title id={`system-${id}`}>{name}: {wall?'wall component location':'gutter component location'}</title>
+ <rect width="480" height="270" fill={paper}/>
+ {wall?<>
+   <path d="M66 77 240 25 414 77" fill="none" stroke={line} stroke-width="10"/>
+   <rect x="80" y="82" width="320" height="145" fill="#fff" stroke={line} stroke-width="2"/>
+   {kind==='wall-barrier'&&<rect x="85" y="87" width="310" height="135" fill="#ffd5b5"/>}
+   <g stroke={kind==='wall-barrier'?'#e6b99a':line} stroke-width="2"><path d="M82 110h316M82 137h316M82 164h316M82 191h316M82 217h316"/></g>
+   <rect x="180" y="111" width="106" height="81" fill={paper} stroke={kind==='wall-opening'?orange:line} stroke-width="9"/>
+   <path d="M232 116v70M185 151h95" stroke={line} stroke-width="2"/>
+   <path d="M80 83v144M400 83v144" stroke={kind==='wall-corner'?orange:line} stroke-width={kind==='wall-corner'?12:5}/>
+   <path d="M80 227h320" stroke={kind==='wall-base'?orange:line} stroke-width="9"/>
+   <path d="M72 83h336" stroke={kind==='wall-eave'?orange:line} stroke-width="9"/>
+   {kind==='wall-opening'&&<path d="M171 103h124" stroke={orange} stroke-width="5"/>}
+   <text x="240" y="251" text-anchor="middle" fill="#625e57" font-size="12">{kind==='wall-base'?'Base connection':kind==='wall-corner'?'Corner and trim connection':kind==='wall-opening'?'Opening trim and flashing':kind==='wall-eave'?'Soffit below the roof edge':'Drainage layer behind the siding'}</text>
+ </>:<>
+   <path d="m52 99 219-57 92 58" fill="none" stroke={line} stroke-width="12"/>
+   <path d="M65 118h293v51H65z" fill="#fff" stroke={kind==='gutter-run'?orange:line} stroke-width="6"/>
+   <path d="M67 111h289" stroke={kind==='gutter-screen'?orange:line} stroke-width="8"/>
+   {kind==='gutter-screen'&&<g stroke={orange} stroke-width="1">{Array.from({length:18},(_,i)=><path d={`M${70+i*16} 104v15`}/>)}</g>}
+   <path d="M340 169v26l32 17v27" fill="none" stroke={kind==='gutter-outlet'?orange:line} stroke-width="14"/>
+   <path d="M65 114v54M356 114v54" stroke={kind==='gutter-corner'?orange:line} stroke-width="9"/>
+   <path d="M125 119v32h50M245 119v32h50" stroke={kind==='gutter-corner'?orange:line} stroke-width="4" fill="none"/>
+   <path d="M393 150v34m0 0-6-8m6 8 6-8" stroke={orange} stroke-width="2" fill="none"/>
+   <text x="215" y="222" text-anchor="middle" fill="#625e57" font-size="12">{kind==='gutter-screen'?'Filtering surface above the gutter':kind==='gutter-outlet'?'Outlet to downspout':kind==='gutter-corner'?'Support and end connections':'Gutter and supporting frame'}</text>
+ </>}
+ </svg><figcaption>Component location illustration · not an installation detail</figcaption>
+</figure>

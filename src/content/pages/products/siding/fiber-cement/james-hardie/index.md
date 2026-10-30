@@ -1,8 +1,10 @@
 ---
 title: James Hardie Fiber Cement Siding
 permalink: /products/siding/fiber-cement/james-hardie/
-description: Explore James Hardie fiber cement siding, design choices and
-  installation planning with Roof King.
+description: Explore six James Hardie fiber-cement siding and batten families.
+  Compare genuine texture samples, horizontal and vertical patterns, and
+  factory-finished versus primed options before choosing the exact product.
+  Explore product details with Roof King.
 canonicalPath: /products/siding/fiber-cement/james-hardie/
 category: Product brand
 source: authored-product-pillar
@@ -10,8 +12,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

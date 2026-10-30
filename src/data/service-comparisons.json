@@ -1,0 +1,666 @@
+{
+  "pairs": {
+    "roofing": {
+      "id": "roofing",
+      "eyebrow": "Before and after",
+      "title": "From worn shingles to a renewed roof",
+      "description": "Compare an aged shingle roof with a complete roof replacement. The roof covering, ridge and flashing are the visible changes in this example.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/roofing-before-800.webp",
+        "alt": "Illustration: Aged asphalt shingles on a brick home"
+      },
+      "after": {
+        "src": "/media/service-comparisons/roofing-after-800.webp",
+        "alt": "Illustration: New charcoal architectural shingles on the same brick home"
+      }
+    },
+    "roof-repair": {
+      "id": "roof-repair",
+      "eyebrow": "Before and after",
+      "title": "A focused repair at the chimney",
+      "description": "This example keeps the surrounding roof in place while replacing damaged shingles and correcting the flashing at the chimney. A repair should address the affected connection as well as the visible covering.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/roof-repair-before-800.webp",
+        "alt": "Illustration: Missing shingles and deteriorated chimney flashing"
+      },
+      "after": {
+        "src": "/media/service-comparisons/roof-repair-after-800.webp",
+        "alt": "Illustration: Matching shingle repair and renewed chimney flashing"
+      }
+    },
+    "metal-roofing": {
+      "id": "metal-roofing",
+      "eyebrow": "Before and after",
+      "title": "From shingles to standing-seam metal",
+      "description": "The same roofline takes on a different character with standing-seam metal. Compare the long panel seams, ridge and edge trim with the shingle covering they replace.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/metal-roofing-before-800.webp",
+        "alt": "Illustration: Weathered shingle roof on a white farmhouse"
+      },
+      "after": {
+        "src": "/media/service-comparisons/metal-roofing-after-800.webp",
+        "alt": "Illustration: Charcoal standing-seam metal roof on the same farmhouse"
+      }
+    },
+    "commercial-roofing": {
+      "id": "commercial-roofing",
+      "eyebrow": "Before and after",
+      "title": "A renewed commercial roof covering",
+      "description": "Compare a worn low-slope covering with a new membrane and finished curb details. Equipment, outlets and the building stay in place; the roof assembly needs its own assessment before replacement.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/commercial-roofing-before-800.webp",
+        "alt": "Illustration: Aged commercial membrane with worn seams and shallow ponding"
+      },
+      "after": {
+        "src": "/media/service-comparisons/commercial-roofing-after-800.webp",
+        "alt": "Illustration: New light-gray membrane with finished curb flashing"
+      }
+    },
+    "commercial-repair": {
+      "id": "commercial-repair",
+      "eyebrow": "Before and after",
+      "title": "Repairing a membrane seam and curb",
+      "description": "A localized membrane repair can address an open seam and deteriorated curb flashing while retaining sound surrounding material. The patch and its connections should match the selected roof system.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/commercial-repair-before-800.webp",
+        "alt": "Illustration: Split membrane and loose flashing at an equipment curb"
+      },
+      "after": {
+        "src": "/media/service-comparisons/commercial-repair-after-800.webp",
+        "alt": "Illustration: Localized membrane patch and repaired curb flashing"
+      }
+    },
+    "siding": {
+      "id": "siding",
+      "eyebrow": "Before and after",
+      "title": "From damaged courses to a finished exterior",
+      "description": "The comparison shows displaced siding replaced with a complete, neatly trimmed wall covering. Corners and window edges matter alongside the panel color and profile.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/siding-before-800.webp",
+        "alt": "Illustration: Buckled tan siding with a small area of exposed housewrap"
+      },
+      "after": {
+        "src": "/media/service-comparisons/siding-after-800.webp",
+        "alt": "Illustration: Slate-blue lap siding with finished corners and window trim"
+      }
+    },
+    "commercial-siding": {
+      "id": "commercial-siding",
+      "eyebrow": "Before and after",
+      "title": "Restoring the commercial facade",
+      "description": "New wall panels and matching opening trim replace weathered, damaged cladding in this example. The same doors and windows remain, making the change in the wall surface easy to compare.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/commercial-siding-before-800.webp",
+        "alt": "Illustration: Weathered commercial metal siding with damaged lower panels"
+      },
+      "after": {
+        "src": "/media/service-comparisons/commercial-siding-after-800.webp",
+        "alt": "Illustration: Renewed charcoal commercial metal siding and opening trim"
+      }
+    },
+    "gutters": {
+      "id": "gutters",
+      "eyebrow": "Before and after",
+      "title": "A straighter run and a finished outlet",
+      "description": "Compare an aged gutter corner with a replacement run and a neatly connected downspout. The installation still needs the right support, slope and discharge route for the building.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/gutters-before-800.webp",
+        "alt": "Illustration: Sagging stained gutter corner and imperfect downspout connection"
+      },
+      "after": {
+        "src": "/media/service-comparisons/gutters-after-800.webp",
+        "alt": "Illustration: Straight white gutter run with finished corner and downspout"
+      }
+    },
+    "gutter-guards": {
+      "id": "gutter-guards",
+      "eyebrow": "Before and after",
+      "title": "From an open gutter to a screened opening",
+      "description": "This example shows debris removed and a fine-mesh guard fitted above the gutter. Guards address debris entry; they do not replace sound gutters, downspouts or routine inspection.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/gutter-guards-before-800.webp",
+        "alt": "Illustration: Leaves and twigs collected in an open gutter"
+      },
+      "after": {
+        "src": "/media/service-comparisons/gutter-guards-after-800.webp",
+        "alt": "Illustration: Fine-mesh gutter guard above the same cleaned gutter"
+      }
+    },
+    "commercial-gutters": {
+      "id": "commercial-gutters",
+      "eyebrow": "Before and after",
+      "title": "Renewing a commercial gutter and outlet",
+      "description": "The replacement gutter and rectangular downspout form a connected rainwater route. Compare the run, outlet and attachments; capacity and discharge still depend on the building.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/commercial-gutters-before-800.webp",
+        "alt": "Illustration: Weathered commercial box gutter and rust-streaked outlet"
+      },
+      "after": {
+        "src": "/media/service-comparisons/commercial-gutters-after-800.webp",
+        "alt": "Illustration: Renewed charcoal box gutter and aligned rectangular downspout"
+      }
+    },
+    "decks": {
+      "id": "decks",
+      "eyebrow": "Before and after",
+      "title": "A new walking surface and railing",
+      "description": "Compare weathered timber decking with a replacement surface, fascia and railing in the same footprint. Framing, ledger connections and stairs need assessment before a similar project is planned.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/decks-before-800.webp",
+        "alt": "Illustration: Weathered timber deck boards, stairs and railing"
+      },
+      "after": {
+        "src": "/media/service-comparisons/decks-after-800.webp",
+        "alt": "Illustration: Warm-brown replacement deck surface with charcoal railing"
+      }
+    },
+    "deck-refinishing": {
+      "id": "deck-refinishing",
+      "eyebrow": "Before and after",
+      "title": "The same timber, with a renewed finish",
+      "description": "The boards and railing stay in place in this example. Cleaning, preparation and a fresh wood finish change the appearance; refinishing does not replace structurally damaged timber.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/deck-refinishing-before-800.webp",
+        "alt": "Illustration: Faded timber boards with a worn finish"
+      },
+      "after": {
+        "src": "/media/service-comparisons/deck-refinishing-after-800.webp",
+        "alt": "Illustration: The same timber boards with a renewed cedar-brown finish"
+      }
+    },
+    "deck-repair": {
+      "id": "deck-repair",
+      "eyebrow": "Before and after",
+      "title": "Replacing the damaged boards, retaining the rest",
+      "description": "A focused board repair leaves the surrounding deck in place. The underlying supports and connections should also be checked wherever decay or movement is found.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/deck-repair-before-800.webp",
+        "alt": "Illustration: Split and decayed board ends beside a deck step"
+      },
+      "after": {
+        "src": "/media/service-comparisons/deck-repair-after-800.webp",
+        "alt": "Illustration: Sound replacement timber in the affected board locations"
+      }
+    },
+    "deck-accessories": {
+      "id": "deck-accessories",
+      "eyebrow": "Before and after",
+      "title": "Adding light to steps and railing posts",
+      "description": "Post-cap and stair lighting can help define the deck after dark. Plan the fixture positions, wiring routes and compatible power components with the deck layout.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/deck-accessories-before-800.webp",
+        "alt": "Illustration: Deck steps and railing without fitted lighting"
+      },
+      "after": {
+        "src": "/media/service-comparisons/deck-accessories-after-800.webp",
+        "alt": "Illustration: The same deck with warm post-cap and stair lighting"
+      }
+    },
+    "windows": {
+      "id": "windows",
+      "eyebrow": "Before and after",
+      "title": "Renewed frames and clearer glazing",
+      "description": "The same window openings receive replacement units and finished perimeter trim. Compare the frames and glass; installation details around the opening remain part of the work.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/windows-before-800.webp",
+        "alt": "Illustration: Weathered wood window frames and a fogged glass pane"
+      },
+      "after": {
+        "src": "/media/service-comparisons/windows-after-800.webp",
+        "alt": "Illustration: White replacement windows with clear glazing and finished trim"
+      }
+    },
+    "insulation": {
+      "id": "insulation",
+      "eyebrow": "Before and after",
+      "title": "A more continuous layer across the attic floor",
+      "description": "The example shows thin, uneven insulation replaced by a deeper, continuous floor layer. Air sealing, ventilation paths and access need to be considered with the insulation work.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/insulation-before-800.webp",
+        "alt": "Illustration: Thin uneven attic-floor insulation with exposed joist tops"
+      },
+      "after": {
+        "src": "/media/service-comparisons/insulation-after-800.webp",
+        "alt": "Illustration: A deeper continuous insulation layer with ventilation paths retained"
+      }
+    },
+    "ice-dam": {
+      "id": "ice-dam",
+      "eyebrow": "Before and after",
+      "title": "Clearing the ice ridge at the roof edge",
+      "description": "The thick refrozen ridge in the first image restricts the roof-edge drainage path. The second shows that ridge removed while snow remains upslope. Removal and the causes of recurring ice buildup are separate parts of the assessment.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/ice-dam-before-800.webp",
+        "alt": "Illustration: Thick ice dam extending onto shingles above the gutter"
+      },
+      "after": {
+        "src": "/media/service-comparisons/ice-dam-after-800.webp",
+        "alt": "Illustration: The same roof edge after the ice ridge is cleared"
+      }
+    },
+    "painting": {
+      "id": "painting",
+      "eyebrow": "Before and after",
+      "title": "A fresh finish on the same wood siding",
+      "description": "Preparation and a renewed coating change the exterior without replacing the cladding. Compare the painted boards and window trim; damaged wood needs repair before finishing.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/painting-before-800.webp",
+        "alt": "Illustration: Faded green painted wood siding with peeling finish"
+      },
+      "after": {
+        "src": "/media/service-comparisons/painting-after-800.webp",
+        "alt": "Illustration: The same wood siding painted ivory with charcoal trim"
+      }
+    },
+    "wind-damage": {
+      "id": "wind-damage",
+      "eyebrow": "Before and after",
+      "title": "Restoring the wind-damaged shingle courses",
+      "description": "The example shows missing and lifted tabs replaced with matching shingles. An inspection documents the affected materials and checks the surrounding roof before repair recommendations are made.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/wind-damage-before-800.webp",
+        "alt": "Illustration: Lifted and missing shingle tabs beside a dormer"
+      },
+      "after": {
+        "src": "/media/service-comparisons/wind-damage-after-800.webp",
+        "alt": "Illustration: Matching repaired shingle courses beside the same dormer"
+      }
+    },
+    "hail-damage": {
+      "id": "hail-damage",
+      "eyebrow": "Before and after",
+      "title": "Replacing the affected shingles and vent",
+      "description": "Compare the visibly affected shingle surface and vent hood with replacement materials. This illustration explains a repair; photographs of the actual property are needed to document observed damage.",
+      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "before": {
+        "src": "/media/service-comparisons/hail-damage-before-800.webp",
+        "alt": "Illustration: Granule-loss impact spots and a dented metal vent hood"
+      },
+      "after": {
+        "src": "/media/service-comparisons/hail-damage-after-800.webp",
+        "alt": "Illustration: Replacement shingles and an undented matching vent hood"
+      }
+    }
+  },
+  "pages": {
+    "/akron-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Akron homeowners"
+    },
+    "/athens-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Athens homeowners"
+    },
+    "/attic-insulation/": {
+      "pairId": "insulation",
+      "family": "insulation"
+    },
+    "/aurora-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Aurora homeowners"
+    },
+    "/beavercreek-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Beavercreek homeowners"
+    },
+    "/centerville-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Centerville homeowners"
+    },
+    "/cincinnati-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Cincinnati homeowners"
+    },
+    "/cincinnati-oh/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/cincinnati-oh/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/cincinnati-oh/the-cost-of-siding-replacement/": {
+      "pairId": "siding",
+      "family": "siding-cost"
+    },
+    "/cleveland-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Cleveland homeowners"
+    },
+    "/cleveland-oh/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/cleveland-oh/roofing/cost-of-replacement/": {
+      "pairId": "roofing",
+      "family": "roof-cost"
+    },
+    "/cleveland-oh/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/columbus-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Columbus homeowners"
+    },
+    "/columbus-oh/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/columbus-oh/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/commercial-roofing/": {
+      "pairId": "commercial-roofing",
+      "family": "commercial"
+    },
+    "/commercial-roofing/gutters/": {
+      "pairId": "commercial-gutters",
+      "family": "commercial-gutters"
+    },
+    "/commercial-roofing/repair/": {
+      "pairId": "commercial-repair",
+      "family": "commercial-repair"
+    },
+    "/commercial-roofing/replacement/": {
+      "pairId": "commercial-roofing",
+      "family": "commercial-replacement"
+    },
+    "/commercial-roofing/roof-types/": {
+      "pairId": "commercial-roofing",
+      "family": "commercial-types"
+    },
+    "/commercial-siding/": {
+      "pairId": "commercial-siding",
+      "family": "commercial-siding"
+    },
+    "/cost-of-a-new-roof/": {
+      "pairId": "roofing",
+      "family": "roof-cost"
+    },
+    "/dayton-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Dayton homeowners"
+    },
+    "/dayton-oh/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/dayton-oh/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/dayton-oh/the-cost-of-new-gutters/": {
+      "pairId": "gutters",
+      "family": "gutter-cost"
+    },
+    "/dayton-roofers/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/decks/": {
+      "pairId": "decks",
+      "family": "decks"
+    },
+    "/decks/accessories/": {
+      "pairId": "deck-accessories",
+      "family": "deck-accessories"
+    },
+    "/decks/installations/": {
+      "pairId": "decks",
+      "family": "deck-install"
+    },
+    "/decks/refinishing/": {
+      "pairId": "deck-refinishing",
+      "family": "deck-refinish"
+    },
+    "/decks/repairs/": {
+      "pairId": "deck-repair",
+      "family": "deck-repair"
+    },
+    "/decks/replacements/": {
+      "pairId": "decks",
+      "family": "deck-replace"
+    },
+    "/delaware-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Delaware homeowners"
+    },
+    "/delaware-oh/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/delaware-oh/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/dublin-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Dublin homeowners"
+    },
+    "/emergency-roof-repair-dublin-oh/": {
+      "pairId": "roof-repair",
+      "family": "repair"
+    },
+    "/exterior-painting/": {
+      "pairId": "painting",
+      "family": "painting"
+    },
+    "/gaf-roofing-dublin-oh/": {
+      "pairId": "roofing",
+      "family": "gaf"
+    },
+    "/gahanna-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Gahanna homeowners"
+    },
+    "/grove-city-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Grove City homeowners"
+    },
+    "/gutter-installation-dublin-oh/": {
+      "pairId": "gutters",
+      "family": "gutters"
+    },
+    "/gutters/": {
+      "pairId": "gutters",
+      "family": "gutters"
+    },
+    "/gutters/guards/": {
+      "pairId": "gutter-guards",
+      "family": "guards"
+    },
+    "/gutters/seamless/": {
+      "pairId": "gutters",
+      "family": "seamless"
+    },
+    "/hail-damage-roof-repair-dublin-oh/": {
+      "pairId": "hail-damage",
+      "family": "hail"
+    },
+    "/hamilton-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Hamilton homeowners"
+    },
+    "/hilliard-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Hilliard homeowners"
+    },
+    "/ice-dam-removal/": {
+      "pairId": "ice-dam",
+      "family": "ice"
+    },
+    "/lancaster-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Lancaster homeowners"
+    },
+    "/lewis-center-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Lewis Center homeowners"
+    },
+    "/metal-roofing-dublin-oh/": {
+      "pairId": "metal-roofing",
+      "family": "metal"
+    },
+    "/middletown-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Middletown homeowners"
+    },
+    "/newark-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Newark homeowners"
+    },
+    "/powell-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Powell homeowners"
+    },
+    "/roof-calculator/": {
+      "pairId": "roofing",
+      "family": "calculator"
+    },
+    "/roof-repair-dublin-oh/": {
+      "pairId": "roof-repair",
+      "family": "repair"
+    },
+    "/roof-replacement-dublin-oh/": {
+      "pairId": "roofing",
+      "family": "replacement"
+    },
+    "/roofing-calculator/": {
+      "pairId": "roofing",
+      "family": "calculator"
+    },
+    "/roofing-contractor-dublin-oh/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/roofing/": {
+      "pairId": "roofing",
+      "family": "roofing-local"
+    },
+    "/roofing/gaf/": {
+      "pairId": "roofing",
+      "family": "gaf"
+    },
+    "/roofing/gaf/master-elite/": {
+      "pairId": "roofing",
+      "family": "certification"
+    },
+    "/roofing/metal/": {
+      "pairId": "metal-roofing",
+      "family": "metal"
+    },
+    "/roofing/repair/": {
+      "pairId": "roof-repair",
+      "family": "repair"
+    },
+    "/roofing/replacement/": {
+      "pairId": "roofing",
+      "family": "replacement"
+    },
+    "/roofing/types/": {
+      "pairId": "roofing",
+      "family": "materials"
+    },
+    "/siding/": {
+      "pairId": "siding",
+      "family": "siding"
+    },
+    "/siding/replacement/": {
+      "pairId": "siding",
+      "family": "siding-replacement"
+    },
+    "/siding/types/": {
+      "pairId": "siding",
+      "family": "siding-types"
+    },
+    "/storm-damage-roof-repair-dublin-oh/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/storm-damage/": {
+      "pairId": "wind-damage",
+      "family": "storm"
+    },
+    "/storm-damage/commercial/": {
+      "pairId": "commercial-repair",
+      "family": "commercial-storm"
+    },
+    "/storm-damage/hail/": {
+      "pairId": "hail-damage",
+      "family": "hail"
+    },
+    "/storm-damage/insurance-claims/": {
+      "pairId": "wind-damage",
+      "family": "claims"
+    },
+    "/storm-damage/wind/": {
+      "pairId": "wind-damage",
+      "family": "wind"
+    },
+    "/upper-arlington-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Upper Arlington homeowners"
+    },
+    "/westerville-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Westerville homeowners"
+    },
+    "/windows/": {
+      "pairId": "windows",
+      "family": "windows"
+    },
+    "/worthington-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Worthington homeowners"
+    },
+    "/zanesville-oh/": {
+      "pairId": "roofing",
+      "family": "local",
+      "title": "Roof replacement: a visual example for Zanesville homeowners"
+    }
+  }
+}

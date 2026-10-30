@@ -1,18 +1,20 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import ProductLayout from '../layouts/ProductLayout.astro';
-import catalog from '../data/product-catalog.json';
+import {productLibrary} from '../data/product-library';
+import ProductGrid from './ProductGrid.astro';
+import type {RichNode} from '../data/section-types';
 import HomeImage from './HomeImage.astro';
 import BrandStrip from './BrandStrip.astro';
 import type { BrandSection } from '../data/section-types';
-import type { ProductPresentation } from '../data/product-types';
 import {productHeroImage,productFamily} from '../data/product-presentation';
 import ServiceIcon from './ServiceIcon.astro';
 import SidingProductGuide from './SidingProductGuide.astro';
-interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];brands?:BrandSection;logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];guidance?:string;secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
+export interface Hub {heading:string;eyebrow:string;copy:string;breadcrumbs:{label:string;href?:string}[];brands?:BrandSection;logo?:{src:string;alt:string};cards:{title:string;description:string;href:string;action:string;product?:string;image?:{src:string;alt:string}}[];catalogTitle?:string;catalogIntro?:string;catalogItems?:{productId:string;title:string;body:RichNode[]}[];guidance?:string;relatedLinks?:{label:string;href:string}[];secondaryTitle:string;secondary:{title:string;copy:string;href?:string;label?:string}[];reference?:{label:string;href:string};}
 interface Props {page:CollectionEntry<'pages'>;data:Hub;}
 const {page,data}=Astro.props;
-const products:Record<string,ProductPresentation>=catalog;
+const products=productLibrary;
+const hasRange=data.cards.length||data.catalogItems?.length;
 ---
 <ProductLayout {page} {...data}>
   {data.cards.length>0 && <section id="product-range" class="rk-section-inner rk-product-range" aria-labelledby="product-range-title">
@@ -27,10 +29,16 @@ const products:Record<string,ProductPresentation>=catalog;
       </a>;
     })}</div>
   </section>}
-  {data.guidance==='siding'?<SidingProductGuide/>:<section id={data.cards.length?undefined:'product-range'} class="rk-product-guidance-band" aria-labelledby="product-guidance-title"><div class="rk-section-inner rk-product-hub-guidance">
+  {data.catalogItems && data.catalogItems.length>0 && <ProductGrid id="product-range" section={{eyebrow:'Manufacturer product collection',title:data.catalogTitle||`Explore ${data.breadcrumbs.at(-1)?.label} products`,intro:data.catalogIntro,items:data.catalogItems}}/>}
+  {data.guidance==='siding'?<SidingProductGuide/>:data.secondary.length>0&&<section id={hasRange?undefined:'product-range'} class="rk-product-guidance-band" aria-labelledby="product-guidance-title"><div class="rk-section-inner rk-product-hub-guidance">
     <div class="rk-product-section-heading"><p class="rk-home-eyebrow">{data.breadcrumbs.at(-1)?.label} · buying considerations</p><h2 id="product-guidance-title">{data.secondaryTitle}</h2></div>
     <div class="rk-product-guidance-grid" data-count={data.secondary.length}>{data.secondary.map((item,index)=><article><span class="rk-product-guidance-icon"><ServiceIcon name={productFamily(page.data.permalink)==='roofing'?(['shield','storm','roof','cost'] as const)[index%4]:(['roof','shield','cost','check'] as const)[index%4]}/></span><h3>{item.title}</h3><p>{item.copy}</p>{item.href&&<a href={item.href}>{item.label}<span aria-hidden="true">→</span></a>}</article>)}</div>
     {data.reference&&<p class="rk-product-guidance-reference"><a href={data.reference.href} target="_blank" rel="noopener noreferrer">{data.reference.label} <span aria-hidden="true">↗</span></a></p>}
   </div></section>}
+  {data.secondary.length===0 && (data.reference || data.relatedLinks?.length) && <div class="rk-section-inner"><p class="rk-product-guidance-reference rk-product-collection-links">{data.relatedLinks?.map(link=><a href={link.href}>{link.label} <span aria-hidden="true">→</span></a>)}{data.reference&&<a href={data.reference.href} target="_blank" rel="noopener noreferrer">{data.reference.label} <span aria-hidden="true">↗</span></a>}</p></div>}
   {data.brands && <BrandStrip brands={data.brands}/>}
 </ProductLayout>
+
+<style>
+.rk-product-collection-links{display:flex;flex-wrap:wrap;gap:1rem 2rem;margin:0;padding:0 0 3rem;}
+</style>

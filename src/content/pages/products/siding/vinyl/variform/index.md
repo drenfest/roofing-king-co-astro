@@ -1,8 +1,10 @@
 ---
 title: Variform Vinyl Siding
 permalink: /products/siding/vinyl/variform/
-description: Explore Variform vinyl siding, design choices and installation
-  planning with Roof King.
+description: Compare eight Variform families, including horizontal lap, beaded,
+  board-and-batten and cedar-shingle looks. Panel thickness and texture differ
+  by product; the color references are not digitally recolored project photos.
+  Explore product details with Roof King.
 canonicalPath: /products/siding/vinyl/variform/
 category: Product brand
 source: authored-product-pillar
@@ -10,8 +12,8 @@ sourcePath: src/data/product-pillar.json
 wordpressId: null
 reviewStatus: authored-needs-review
 notes:
-  - Authored material/brand page. Product availability and installation requirements
-    require project confirmation.
+  - Authored material/brand page. Product availability and installation
+    requirements require project confirmation.
 priority: product-pillar
 ---
 

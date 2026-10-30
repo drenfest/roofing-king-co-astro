@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 268,
+  "count": 364,
   "routes": [
     {
       "path": "/",
@@ -1837,6 +1837,319 @@
       "words": 223
     },
     {
+      "path": "/products/decking/composite/trex/accessories/",
+      "file": "src/content/pages/products/decking/composite/trex/accessories/index.md",
+      "source": "authored-trex-collections",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/accessories/",
+      "notes": [],
+      "words": 19
+    },
+    {
+      "path": "/products/decking/composite/trex/deck-lighting/",
+      "file": "src/content/pages/products/decking/composite/trex/deck-lighting/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/deck-lighting/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/decking/composite/trex/decking/",
+      "file": "src/content/pages/products/decking/composite/trex/decking/index.md",
+      "source": "authored-trex-collections",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/decking/",
+      "notes": [],
+      "words": 27
+    },
+    {
+      "path": "/products/decking/composite/trex/enhance-composite-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/enhance-composite-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/enhance-composite-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/decking/composite/trex/enhance-steel-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/enhance-steel-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/enhance-steel-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/decking/composite/trex/enhance/",
+      "file": "src/content/pages/products/decking/composite/trex/enhance/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/enhance/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/decking/composite/trex/fascia/",
+      "file": "src/content/pages/products/decking/composite/trex/fascia/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/fascia/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 42
+    },
+    {
+      "path": "/products/decking/composite/trex/hideaway-fasteners/",
+      "file": "src/content/pages/products/decking/composite/trex/hideaway-fasteners/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/hideaway-fasteners/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 41
+    },
+    {
+      "path": "/products/decking/composite/trex/lineage/",
+      "file": "src/content/pages/products/decking/composite/trex/lineage/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/lineage/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/decking/composite/trex/railing/",
+      "file": "src/content/pages/products/decking/composite/trex/railing/index.md",
+      "source": "authored-trex-collections",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/railing/",
+      "notes": [],
+      "words": 27
+    },
+    {
+      "path": "/products/decking/composite/trex/rainescape/",
+      "file": "src/content/pages/products/decking/composite/trex/rainescape/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/rainescape/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 44
+    },
+    {
+      "path": "/products/decking/composite/trex/refuge/",
+      "file": "src/content/pages/products/decking/composite/trex/refuge/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/refuge/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 40
+    },
+    {
+      "path": "/products/decking/composite/trex/select-aluminum-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/select-aluminum-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/select-aluminum-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/decking/composite/trex/select-classic-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/select-classic-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/select-classic-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/decking/composite/trex/select-mesh-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/select-mesh-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/select-mesh-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/decking/composite/trex/select-t-rail/",
+      "file": "src/content/pages/products/decking/composite/trex/select-t-rail/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/select-t-rail/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/decking/composite/trex/select/",
+      "file": "src/content/pages/products/decking/composite/trex/select/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/select/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-aluminum-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-aluminum-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-aluminum-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-glass-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-glass-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-glass-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-mesh-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-mesh-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-mesh-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-rod-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-rod-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-rod-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-x-series-cable-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-x-series-cable-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-x-series-cable-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/decking/composite/trex/signature-x-series-glass-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/signature-x-series-glass-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature-x-series-glass-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/decking/composite/trex/signature/",
+      "file": "src/content/pages/products/decking/composite/trex/signature/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/signature/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/decking/composite/trex/transcend-railing/",
+      "file": "src/content/pages/products/decking/composite/trex/transcend-railing/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/transcend-railing/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/decking/composite/trex/transcend/",
+      "file": "src/content/pages/products/decking/composite/trex/transcend/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/composite/trex/transcend/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/decking/wood/",
+      "file": "src/content/pages/products/decking/wood/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/wood/",
+      "notes": [
+        "Material guide; no invented manufacturer warranty or stock claim."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/decking/wood/cedar/",
+      "file": "src/content/pages/products/decking/wood/cedar/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/wood/cedar/",
+      "notes": [
+        "Material guide; no invented manufacturer warranty or stock claim."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/decking/wood/pressure-treated/",
+      "file": "src/content/pages/products/decking/wood/pressure-treated/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/decking/wood/pressure-treated/",
+      "notes": [
+        "Material guide; no invented manufacturer warranty or stock claim."
+      ],
+      "words": 31
+    },
+    {
       "path": "/products/gutters/",
       "file": "src/content/pages/products/gutters/index.md",
       "source": "authored-product-pillar",
@@ -1870,6 +2183,50 @@
       "words": 175
     },
     {
+      "path": "/products/gutters/guards/alu-rex/doublepro/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/doublepro/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/doublepro/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/gutter-clean/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/gutter-clean/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/gutter-clean/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/guttercleanpro/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/guttercleanpro/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/guttercleanpro/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/gutters/guards/alu-rex/t-rex/",
+      "file": "src/content/pages/products/gutters/guards/alu-rex/t-rex/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/alu-rex/t-rex/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
       "path": "/products/gutters/guards/leaffilter/",
       "file": "src/content/pages/products/gutters/guards/leaffilter/index.md",
       "source": "authored-product-pillar",
@@ -1879,6 +2236,17 @@
         "Authored from brands named on the existing site. Confirm current availability and installation scope for each project."
       ],
       "words": 155
+    },
+    {
+      "path": "/products/gutters/guards/leaffilter/gutter-protection/",
+      "file": "src/content/pages/products/gutters/guards/leaffilter/gutter-protection/index.md",
+      "source": "authored-product-accessories",
+      "wordpressId": null,
+      "canonicalPath": "/products/gutters/guards/leaffilter/gutter-protection/",
+      "notes": [
+        "Manufacturer product and system information; exact finish, dimensions and compatible parts are selected for the installation."
+      ],
+      "words": 48
     },
     {
       "path": "/products/roofing/",
@@ -2024,6 +2392,171 @@
       "words": 63
     },
     {
+      "path": "/products/roofing/shingles/iko/",
+      "file": "src/content/pages/products/roofing/shingles/iko/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 25
+    },
+    {
+      "path": "/products/roofing/shingles/iko/armourshake/",
+      "file": "src/content/pages/products/roofing/shingles/iko/armourshake/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/armourshake/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/roofing/shingles/iko/cambridge-cool-colors/",
+      "file": "src/content/pages/products/roofing/shingles/iko/cambridge-cool-colors/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/cambridge-cool-colors/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/roofing/shingles/iko/cambridge/",
+      "file": "src/content/pages/products/roofing/shingles/iko/cambridge/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/cambridge/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/roofing/shingles/iko/crowne-slate-designer-shingles/",
+      "file": "src/content/pages/products/roofing/shingles/iko/crowne-slate-designer-shingles/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/crowne-slate-designer-shingles/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/roofing/shingles/iko/dynasty-cool-plus/",
+      "file": "src/content/pages/products/roofing/shingles/iko/dynasty-cool-plus/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/dynasty-cool-plus/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/roofing/shingles/iko/dynasty/",
+      "file": "src/content/pages/products/roofing/shingles/iko/dynasty/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/dynasty/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 25
+    },
+    {
+      "path": "/products/roofing/shingles/iko/nordic/",
+      "file": "src/content/pages/products/roofing/shingles/iko/nordic/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/nordic/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/roofing/shingles/iko/royal-estate/",
+      "file": "src/content/pages/products/roofing/shingles/iko/royal-estate/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/iko/royal-estate/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 23
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/oakridge/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/oakridge/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/oakridge/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/trudefinition-duration-designer/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/trudefinition-duration-designer/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/trudefinition-duration-designer/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/trudefinition-duration-flex/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/trudefinition-duration-flex/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/trudefinition-duration-flex/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/trudefinition-duration-storm/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/trudefinition-duration-storm/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/trudefinition-duration-storm/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/roofing/shingles/owens-corning/trudefinition-duration/",
+      "file": "src/content/pages/products/roofing/shingles/owens-corning/trudefinition-duration/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/shingles/owens-corning/trudefinition-duration/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
       "path": "/products/siding/",
       "file": "src/content/pages/products/siding/index.md",
       "source": "authored-product-pillar",
@@ -2051,6 +2584,72 @@
       "words": 208
     },
     {
+      "path": "/products/siding/engineered-wood/lp-smartside/lap-siding/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/lap-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/lap-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/nickel-gap/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/nickel-gap/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/nickel-gap/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/panel-vertical-siding/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/panel-vertical-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/panel-vertical-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/shakes/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/shakes/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/shakes/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/soffit/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/soffit/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/soffit/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/siding/engineered-wood/lp-smartside/trim-fascia/",
+      "file": "src/content/pages/products/siding/engineered-wood/lp-smartside/trim-fascia/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/engineered-wood/lp-smartside/trim-fascia/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
       "path": "/products/siding/fiber-cement/",
       "file": "src/content/pages/products/siding/fiber-cement/index.md",
       "source": "authored-product-pillar",
@@ -2069,6 +2668,72 @@
       "words": 216
     },
     {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-architectural-panel-siding/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-architectural-panel-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-architectural-panel-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-artisan-siding/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-artisan-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-artisan-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-panel-siding/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-panel-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-panel-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-plank-lap-siding/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-plank-lap-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-plank-lap-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-shingle-siding/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-shingle-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-shingle-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/fiber-cement/james-hardie/hardie-trim-batten-boards/",
+      "file": "src/content/pages/products/siding/fiber-cement/james-hardie/hardie-trim-batten-boards/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/fiber-cement/james-hardie/hardie-trim-batten-boards/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
       "path": "/products/siding/vinyl/",
       "file": "src/content/pages/products/siding/vinyl/index.md",
       "source": "authored-product-pillar",
@@ -2076,6 +2741,248 @@
       "canonicalPath": "/products/siding/vinyl/",
       "notes": [],
       "words": 162
+    },
+    {
+      "path": "/products/siding/vinyl/alside/",
+      "file": "src/content/pages/products/siding/vinyl/alside/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/alside/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/vinyl/alside/charter-oak/",
+      "file": "src/content/pages/products/siding/vinyl/alside/charter-oak/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/alside/charter-oak/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/siding/vinyl/alside/odyssey-plus/",
+      "file": "src/content/pages/products/siding/vinyl/alside/odyssey-plus/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/alside/odyssey-plus/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/board-batten-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/board-batten-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/board-batten-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/carolina-sands-vinyl-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/carolina-sands-vinyl-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/carolina-sands-vinyl-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/elm-grove-vinyl-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/elm-grove-vinyl-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/elm-grove-vinyl-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/market-square-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/market-square-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/market-square-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/parkview-vinyl-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/parkview-vinyl-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/parkview-vinyl-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/siding/vinyl/exterior-portfolio/premium-pointe-vinyl-siding/",
+      "file": "src/content/pages/products/siding/vinyl/exterior-portfolio/premium-pointe-vinyl-siding/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/exterior-portfolio/premium-pointe-vinyl-siding/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 25
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/board-and-batten/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/board-and-batten/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/board-and-batten/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/cambridge-beaded/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/cambridge-beaded/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/cambridge-beaded/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 26
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/cedar-knolls/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/cedar-knolls/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/cedar-knolls/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/great-barrier/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/great-barrier/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/great-barrier/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/home-accents/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/home-accents/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/home-accents/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/polar-wall-plus/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/polar-wall-plus/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/polar-wall-plus/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/rustic-hill/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/rustic-hill/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/rustic-hill/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/sterling/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/sterling/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/sterling/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/sturdiplank-s7/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/sturdiplank-s7/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/sturdiplank-s7/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/summit-manor/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/summit-manor/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/summit-manor/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/siding/vinyl/norandex/woodsman-select/",
+      "file": "src/content/pages/products/siding/vinyl/norandex/woodsman-select/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/norandex/woodsman-select/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 35
     },
     {
       "path": "/products/siding/vinyl/ply-gem/",
@@ -2089,6 +2996,51 @@
       "words": 134
     },
     {
+      "path": "/products/siding/vinyl/ply-gem/cedar-dimensions/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/cedar-dimensions/index.md",
+      "source": "authored-ply-gem-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/cedar-dimensions/",
+      "notes": [],
+      "words": 134
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/dimensions/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/dimensions/index.md",
+      "source": "authored-ply-gem-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/dimensions/",
+      "notes": [],
+      "words": 138
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/performance-board-batten/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/performance-board-batten/index.md",
+      "source": "authored-ply-gem-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/performance-board-batten/",
+      "notes": [],
+      "words": 136
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/progressions/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/progressions/index.md",
+      "source": "authored-ply-gem-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/progressions/",
+      "notes": [],
+      "words": 137
+    },
+    {
+      "path": "/products/siding/vinyl/ply-gem/transformations/",
+      "file": "src/content/pages/products/siding/vinyl/ply-gem/transformations/index.md",
+      "source": "authored-ply-gem-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/ply-gem/transformations/",
+      "notes": [],
+      "words": 137
+    },
+    {
       "path": "/products/siding/vinyl/variform/",
       "file": "src/content/pages/products/siding/vinyl/variform/index.md",
       "source": "authored-product-pillar",
@@ -2096,6 +3048,94 @@
       "canonicalPath": "/products/siding/vinyl/variform/",
       "notes": [],
       "words": 182
+    },
+    {
+      "path": "/products/siding/vinyl/variform/american-herald/",
+      "file": "src/content/pages/products/siding/vinyl/variform/american-herald/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/american-herald/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 32
+    },
+    {
+      "path": "/products/siding/vinyl/variform/ashton-heights/",
+      "file": "src/content/pages/products/siding/vinyl/variform/ashton-heights/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/ashton-heights/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/siding/vinyl/variform/camden-pointe/",
+      "file": "src/content/pages/products/siding/vinyl/variform/camden-pointe/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/camden-pointe/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/siding/vinyl/variform/contractors-choice/",
+      "file": "src/content/pages/products/siding/vinyl/variform/contractors-choice/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/contractors-choice/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/siding/vinyl/variform/heritage-cedar/",
+      "file": "src/content/pages/products/siding/vinyl/variform/heritage-cedar/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/heritage-cedar/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/siding/vinyl/variform/variform-board-and-batten/",
+      "file": "src/content/pages/products/siding/vinyl/variform/variform-board-and-batten/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/variform-board-and-batten/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/siding/vinyl/variform/victoria-harbor/",
+      "file": "src/content/pages/products/siding/vinyl/variform/victoria-harbor/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/victoria-harbor/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/siding/vinyl/variform/vortex-extreme/",
+      "file": "src/content/pages/products/siding/vinyl/variform/vortex-extreme/index.md",
+      "source": "authored-manufacturer-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/siding/vinyl/variform/vortex-extreme/",
+      "notes": [
+        "Manufacturer product information; confirm regional availability and exact installation requirements."
+      ],
+      "words": 31
     },
     {
       "path": "/reviews/",
