@@ -14,12 +14,19 @@ for(const [path,detail]of Object.entries(details)){
  for(const item of expected.items)assert.ok(care.text().includes(item.body),path+' complete practical guidance');
  assert.ok(care.text().includes(expected.footnote));assert.ok(care.find('a[title]').length>=1);assert.equal($('[data-product-energy]').length,!product.brand||product.brand==='GAF'?1:0,path+' no GAF roof measurements on another product');
  if(product.brand&&product.brand!=='GAF')assert.ok(!$('#specifications').text().includes('CRRC'));
+ for(const link of $('.rk-product-document').toArray())assert.equal($(link).text().includes('(PDF)'),new URL($(link).attr('href'),'https://www.roofkingco.com').pathname.toLowerCase().endsWith('.pdf'),path+' accurate document format');
  assertContactActions($);count++;
 }
 assert.deepEqual([...seen].sort(),Object.keys(profiles).sort(),'Every care profile has a product consumer.');
 const typeCases={'/products/siding/vinyl/ply-gem/cedar-dimensions/':'polypropylene','/products/decking/composite/trex/refuge/':'pvc','/products/decking/composite/trex/rainescape/':'drainage','/products/decking/composite/trex/deck-lighting/':'lighting','/products/decking/composite/trex/hideaway-fasteners/':'fasteners'};
 for(const [path,type]of Object.entries(typeCases))assert.equal((await html(path))('[data-product-care]').attr('data-care-type'),type,path);
 const lineage=await html('/products/decking/composite/trex/lineage/');
+assert.deepEqual(lineage('.rk-product-document').map((_,e)=>lineage(e).text().replace('↗','').trim()).get(),['Trex Lineage product information','Trex installation guides']);
+const contactPage=await html('/contact-us/');
+assert.equal(contactPage('.rk-contact-heading>p').last().text(),'Call our team to discuss your project, or choose a time for an inspection using our online calendar.');
+assert.equal(contactPage('.rk-home-final-cta .rk-home-eyebrow').first().text(),'Ready to discuss your project?');
+const repairPage=await html('/roofing/repair/');
+assert.equal(repairPage('#service-gallery h2').text(),'Roofing and exterior photos');
 assert.equal(lineage('[data-product-care] h2').text(),'Deck lifespan and long-term care');
 assert.deepEqual(lineage('.rk-product-badge strong').map((_,e)=>lineage(e).text()).get(),['Wood-plastic composite','Refined wood grain','7 options','50-year limited']);
 assert.ok(lineage('#specifications>p').first().text().startsWith('Compare the board material, surface texture, available colors and care requirements.'));

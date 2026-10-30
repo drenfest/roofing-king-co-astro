@@ -12424,12 +12424,12 @@
     "warrantyNote": "A manufacturer warranty is a limited coverage agreement, not a predicted service life. Product labeling, installation, ownership and exclusions determine eligibility; availability is confirmed for your project.",
     "documents": [
       {
-        "label": "Trex Transcend Lineage Composite Decking manufacturer product information",
+        "label": "Trex Lineage product information",
         "url": "https://www.trex.com/products/decking/lineage/"
       },
       {
         "url": "https://www.trex.com/customer-support/trex-owners/downloads/",
-        "label": "Installation Documents"
+        "label": "Trex installation guides"
       }
     ],
     "hero": {

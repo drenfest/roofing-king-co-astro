@@ -12,6 +12,8 @@ Use the approved ivory, charcoal and orange palette, Playfair Display for headin
 
 Use sentence-case headings with actual H2/H3 nesting. Keep accents simple and buttons consistent, with no unnecessary metallic gradients or raised effects. Retain diagonal backgrounds and readable contrast. Check mobile overflow, full-width dropdown rows, carousel touch swiping, modal scrolling, image crops and focused controls when extending a shared rule.
 
+Pale ContactActions cards require an explicit charcoal heading that overrides dark service-section heading rules. Keep the surrounding estimate heading light; check both computed colors on service and location pages.
+
 <!-- directory-inventory:start -->
 ## Directory inventory
 
