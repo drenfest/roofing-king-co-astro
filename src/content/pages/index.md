@@ -1,7 +1,7 @@
 ---
 title: "Home"
 permalink: "/"
-description: "Is it time to invest in roofing, siding or storm damage repairs for your Columbus home? Reach out to us at Roof King & Restoration today for a free quote."
+description: "Columbus roofing contractor for roof replacement, repair and storm damage, plus siding, gutters, windows and decks. Request an estimate from Roof King."
 canonicalPath: "/"
 category: "Homepage"
 source: "wordpress"

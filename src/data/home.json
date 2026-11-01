@@ -1,8 +1,8 @@
 {
   "hero": {
-    "eyebrow": "Ohio exterior remodeling",
-    "title": "Roofing & siding for Ohio homes.",
-    "description": "Protect your home. Refine its exterior. Roofing, siding and storm-damage restoration from the Roof King team.",
+    "eyebrow": "Columbus roofing contractor",
+    "title": "Roofing & siding contractors in Columbus, Ohio",
+    "description": "Roof King & Restoration is a family-owned roofing contractor in Columbus and a GAF Master Elite® certified installer. Since 2020, our team has replaced and repaired roofs, restored homes after hail and windstorms, and installed new siding for homeowners across Ohio.",
     "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
     "booking": {
       "eyebrow": "Roof King inspection",
@@ -10,9 +10,9 @@
       "description": "Schedule time with the Roof King team to review your project and plan the right next step."
     },
     "bookingUrl": "https://calendly.com/roofkingco-info/30-minute-roof-deck-inspection",
-    "titleEmphasis": "Ohio homes.",
+    "titleEmphasis": "Columbus, Ohio",
     "bookingLabel": "Book an inspection",
-    "note": "Tell us about your project. We’ll help with the next step."
+    "note": "Every project starts with a free inspection and a free estimate. You’ll know what we found and what we recommend before any work is scheduled."
   },
   "trust": {
     "eyebrow": "Certified roofing excellence",
@@ -34,7 +34,7 @@
     },
     "reviewsUrl": "https://www.google.com/search?q=Roof+King+%26+Restoration+Columbus+OH+Google+Reviews",
     "rating": "4.8/5",
-    "count": 292
+    "count": 294
   },
   "brands": {
     "eyebrow": "Trusted brands",
@@ -59,12 +59,12 @@
   },
   "services": {
     "eyebrow": "Exterior services",
-    "title": "Columbus, OH roof and siding company",
-    "description": "A full exterior remodeling team for roofing, siding, gutters, windows, decks, insulation, and storm restoration.",
+    "title": "Roofing, siding and exterior services in Columbus",
+    "description": "Central Ohio roofs deal with summer hail, spring and fall wind, heavy rain and winter freeze-thaw cycles. Roofing and siding are our core work, and we handle gutters, windows, decks and attic insulation too, so one team can take care of your whole exterior.",
     "items": [
       {
         "title": "Roofing",
-        "description": "Roof replacements, roof repairs, and premium systems built for Ohio weather.",
+        "description": "Roof replacement when shingles curl, lose granules or leak in several places, and roof repair for missing shingles, cracked pipe boots and failed flashing. GAF systems and metal roofing.",
         "href": "/roofing/",
         "image": {
           "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
@@ -73,7 +73,7 @@
       },
       {
         "title": "Storm damage",
-        "description": "Roof, siding and gutter inspections after hail and wind, with repairs and storm-damage documentation.",
+        "description": "Hail bruises and wind-lifted shingles are hard to spot from the ground. We inspect the roof, siding and gutters, document the damage clearly and explain the insurance process.",
         "href": "/storm-damage/",
         "image": {
           "src": "/media/wordpress/717dd193ee03-before.jpg",
@@ -82,7 +82,7 @@
       },
       {
         "title": "Commercial roofing",
-        "description": "Durable low-slope and commercial roofing solutions for local properties.",
+        "description": "Durable low-slope and commercial roofing, plus commercial siding, for Columbus-area properties.",
         "href": "/commercial-roofing/",
         "image": {
           "src": "/media/wordpress/1f3556139d97-hero-commercial-roofing.jpg",
@@ -91,7 +91,7 @@
       },
       {
         "title": "Siding",
-        "description": "High-grade siding that sharpens curb appeal and protects the building envelope.",
+        "description": "New siding and siding replacement with matching trim, soffit and fascia, including James Hardie fiber cement, LP SmartSide and Variform by Ply Gem vinyl.",
         "href": "/siding/",
         "image": {
           "src": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
@@ -100,7 +100,7 @@
       },
       {
         "title": "Gutters",
-        "description": "Gutter systems designed to move water away from your roofline and foundation.",
+        "description": "Seamless gutters and gutter guards designed to move water away from your roofline and foundation.",
         "href": "/gutters/",
         "image": {
           "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
@@ -109,7 +109,7 @@
       },
       {
         "title": "Windows",
-        "description": "Window replacements that improve comfort, efficiency, and exterior style.",
+        "description": "Window replacement that improves comfort and pairs cleanly with new siding and trim.",
         "href": "/windows/",
         "image": {
           "src": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
@@ -118,7 +118,7 @@
       },
       {
         "title": "Decks",
-        "description": "Outdoor living spaces built for everyday use and long-term performance.",
+        "description": "New decks, replacements, repairs and refinishing, including Trex composite decking.",
         "href": "/decks/",
         "image": {
           "src": "/media/wordpress/13b26cd9aae3-hero-decks.jpg",
@@ -127,7 +127,7 @@
       },
       {
         "title": "Attic insulation",
-        "description": "Efficiency upgrades that help stabilize comfort and monthly energy costs.",
+        "description": "Insulation upgrades planned around your existing insulation, ventilation and roof, to help even out comfort in the rooms below.",
         "href": "/attic-insulation/",
         "image": {
           "src": "/media/wordpress/9d9910ecc2fe-hero-insulation.jpg",
@@ -172,20 +172,20 @@
   },
   "proof": {
     "eyebrow": "Built for confidence",
-    "title": "Respected remodelers and roofing contractors in Ohio",
-    "description": "Roof King & Restoration pairs certified product knowledge with organized project communication, so homeowners know what is happening before, during, and after installation.",
+    "title": "Why Columbus homeowners choose Roof King",
+    "description": "Roof King & Restoration is family owned and operated, BBB A+ accredited and rated 4.8 out of 5 from 294 Google reviews. Columbus-area homeowners mention clear communication, clean job sites and help with the insurance process.",
     "items": [
       {
-        "title": "Manufacturer options for all budgets",
-        "description": "Choose from proven roofing, siding, gutter, and window materials with clear recommendations for your home."
+        "title": "GAF Master Elite® and President's Club",
+        "description": "GAF's elite contractor certification reflects installation standards and gives you access to GAF's premium warranty options on qualifying roofs."
       },
       {
-        "title": "Knowledgeable claim experts",
-        "description": "After storm damage, the team can document conditions and help you understand the next steps."
+        "title": "5-year workmanship warranty",
+        "description": "Our installation is backed by a 5-year workmanship warranty, and every project starts with a free inspection and a free estimate."
       },
       {
-        "title": "Financing options",
-        "description": "Flexible payment paths make urgent roof and exterior work easier to plan."
+        "title": "Flexible financing",
+        "description": "3-year and 5-year options, with payments as low as $47 a month on qualifying projects."
       }
     ]
   },
@@ -322,7 +322,7 @@
   "promo": {
     "eyebrow": "Certified workmanship",
     "title": "Skilled professionals ready to help",
-    "description": "Since 2020, the Roof King team has helped homeowners upgrade roofs, siding, gutters, windows, insulation, and decks with products from trusted manufacturers.",
+    "description": "Roof King installs siding with the same attention to flashing and trim that goes into our roofs. Handling roofing, siding and gutters together means one schedule, one point of contact and parts that fit together the way they should.",
     "image": {
       "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
       "alt": "Finished exterior remodeling project"
@@ -352,8 +352,8 @@
   },
   "coverage": {
     "eyebrow": "Ohio coverage",
-    "title": "Reliable exterior remodeling across Ohio",
-    "description": "From Columbus to Cleveland, Dayton, Cincinnati, Mansfield, and the surrounding communities, Roof King is built to support homeowners across the state.",
+    "title": "Serving Columbus and communities across Ohio",
+    "description": "Roof King is headquartered in Columbus, and Columbus homeowners are the center of our work. We also serve homeowners in Cleveland, Dayton, Cincinnati, Mansfield and surrounding communities. Not sure if we cover your area? Call or request a quote and we’ll let you know.",
     "image": {
       "src": "/media/wordpress/485992cdfabe-map.jpg",
       "alt": "Roof King Ohio service area map"
@@ -415,6 +415,41 @@
       "src": "/media/wordpress/6157f73c34cd-after.jpg",
       "alt": "Roof after replacement"
     }
+  },
+  "faq": {
+    "eyebrow": "Questions from homeowners",
+    "title": "Questions Columbus homeowners ask",
+    "description": "",
+    "items": [
+      {
+        "question": "How do I choose a roofing contractor in Columbus?",
+        "answer": [{"tag": "p", "children": [{"text": "Look for a local headquarters, manufacturer certifications you can verify on the manufacturer's website, recent reviews from homeowners near you, an estimate that lists the materials and work included, and a clear workmanship warranty. Ask who your point of contact will be during the project."}]}]
+      },
+      {
+        "question": "Should I repair my roof or replace it?",
+        "answer": [{"tag": "p", "children": [{"text": "It depends on the roof's age, how widespread the damage is, and whether leaks keep returning. A small problem on a roof with years left is usually a repair. Widespread wear, several leaks or a roof near the end of its life usually points to replacement. Our free inspection gives you a clear picture of the roof's condition before you decide."}]}]
+      },
+      {
+        "question": "Can you do my roof and siding at the same time?",
+        "answer": [{"tag": "p", "children": [{"text": "Yes. Planning them together lets us coordinate flashing, trim and gutters where the roof meets the walls, and it keeps your project on one schedule with one team."}]}]
+      },
+      {
+        "question": "Is the inspection really free?",
+        "answer": [{"tag": "p", "children": [{"text": "Yes. Roof inspections and estimates are free."}]}]
+      },
+      {
+        "question": "Can you help after a hail or windstorm?",
+        "answer": [{"tag": "p", "children": [{"text": "Yes. We inspect for storm damage, document what we find, and explain the insurance process and your options. Whether to file a claim is your decision, and we'll give you clear information to make it."}]}]
+      },
+      {
+        "question": "How long will my project take?",
+        "answer": [{"tag": "p", "children": [{"text": "It depends on the size of the home, the materials and the weather. Your quote lists the work included, and we'll confirm the schedule with you before work begins."}]}]
+      },
+      {
+        "question": "Do you offer financing?",
+        "answer": [{"tag": "p", "children": [{"text": "Yes. We offer 3-year and 5-year financing, with payments as low as $47 a month on qualifying projects."}]}]
+      }
+    ]
   },
   "quote": {
     "eyebrow": "Free estimate",

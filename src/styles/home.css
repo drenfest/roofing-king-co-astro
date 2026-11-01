@@ -2123,3 +2123,21 @@ body.rk-lightbox-open {
 }
 /* Alside supplies a white transparent mark; retain contrast on the ivory brand strip. */
 [data-brand-id="alside"] img{filter:brightness(0);}
+
+/* Homepage FAQ: FAQSection with the editorial accordion used on service pages (service-landing.css is not loaded here). */
+.rk-home .rk-service-faq{padding-block:5rem;background:#fcfbf7;}
+.rk-home .rk-service-faq>.rk-section-inner{display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(2rem,5vw,5rem);align-items:start;}
+.rk-home .rk-service-faq .rk-home-section-header{margin:0;text-align:left;}
+.rk-home .rk-service-faq .rk-home-section-header h2{font-size:clamp(1.8rem,2.8vw,2.65rem);}
+.rk-home .rk-service-faq .rk-home-section-header h2::after{margin-left:0;}
+.rk-home .rk-service-faq-list{margin:0;display:grid;gap:.75rem;}
+.rk-home .rk-service-faq details{padding:0;border:1px solid #eee9df;background:#fff;}
+.rk-home .rk-service-faq summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.2rem;font-size:1rem;font-weight:700;cursor:pointer;list-style:none;}
+.rk-home .rk-service-faq summary::-webkit-details-marker{display:none;}
+.rk-home .rk-service-faq summary::after{content:'+';flex:none;font-size:1.5rem;font-weight:400;color:#a94a15;}
+.rk-home .rk-service-faq details[open] summary::after{content:'\2212';}
+.rk-home .rk-service-faq details[open]{border-color:#afa69a;background:#f8f5ee;}
+.rk-home .rk-service-faq details>div{padding:0 1.2rem 1.2rem;font-size:.95rem;line-height:1.75;}
+.rk-home .rk-service-faq details>div p{margin:0;}
+@media(max-width:900px){.rk-home .rk-service-faq{padding-block:3.5rem;}.rk-home .rk-service-faq>.rk-section-inner{grid-template-columns:1fr;}}
+@media(prefers-reduced-motion:no-preference){.rk-home .rk-service-faq details{transition:border-color var(--rk-motion-fast,.2s),background-color var(--rk-motion-fast,.2s);}}
