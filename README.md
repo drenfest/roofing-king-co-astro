@@ -31,13 +31,13 @@ Retained src/content/pages/**/index.md files are metadata/provenance records; na
 
 ```sh
 npm run docs:context
-npm run check:contexts
-npm run verify
 ```
 
 The context updater changes only its generated inventories/route metadata, preserving manual guidance. Add component/interface decisions outside those blocks. Context files under src/pages use the ignored _ai-context.md name. Context maps in public are source-only and stripped from dist. Generated/vendor/private working directories are outside the maintained map tree.
 
-Full verification builds the static site and checks routes, source copy, components, catalogs/companions, photos/comparisons, location/blog hubs, required attributes, schema, sitemap and context publication boundaries. Use a real desktop/mobile browser review for visual or interaction changes. See [schema coverage](migration/structured-data-review.md) and [comparison evidence](migration/service-comparison-review.md) for the latest corresponding records.
+GitHub Actions runs `npm run verify` automatically on every push and pull request. Local verification is optional: contributors can commit and push authorized changes without running the full suite or installing browser test tooling. Open the commit/PR checks or [Actions](https://github.com/drenfest/roofing-king-co-astro/actions/workflows/verify.yml) for results, a summary and downloadable logs. The workflow also supports manual reruns. Fix failing checks before treating the work as verified. The deployment workflow independently verifies before publishing.
+
+For optional local debugging, run `npm run verify` or a focused `npm run check:*` command. Full verification builds the static site and checks routes, source copy, components, catalogs/companions, photos/comparisons, location/blog hubs, required attributes, schema, sitemap and context publication boundaries. An optional desktop/mobile browser review helps assess visual or interaction changes; automated checks alone do not prove visual quality. See [schema coverage](migration/structured-data-review.md) and [comparison evidence](migration/service-comparison-review.md) for the latest corresponding records.
 
 ## Review release status
 

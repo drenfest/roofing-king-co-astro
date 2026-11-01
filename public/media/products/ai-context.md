@@ -18,5 +18,5 @@ Asset files: 219 (.webp: 219). Use the media registries and file search for indi
 - [ply-gem/](ply-gem/ai-context.md)
 - [systems/](systems/ai-context.md)
 
-Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->

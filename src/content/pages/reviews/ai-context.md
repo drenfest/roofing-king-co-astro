@@ -40,5 +40,5 @@ Parent guidance: [src/content/pages](../ai-context.md).
 - [de023ff3-3871-4861-8121-0023190aec17/](de023ff3-3871-4861-8121-0023190aec17/ai-context.md)
 - [ecddc4b5-0a23-4fc7-b7d0-d13efb473217/](ecddc4b5-0a23-4fc7-b7d0-d13efb473217/ai-context.md)
 
-Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->

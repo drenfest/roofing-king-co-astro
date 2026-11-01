@@ -7,7 +7,7 @@ This is the entry point for extending the current Astro/Svelte site. Read AGENTS
 1. Inspect the working tree and current branch. Preserve unrelated local work. Read the target page's native route, data and directory maps before editing; do not assume the retained Markdown body renders the page.
 2. Use src/data/site.json for business identity and astro.config.mjs for the canonical host, redirects and integrations. The source inventory below is generated from actual registries; deployment status is a separate fact.
 3. Pick the existing page family and component from src/layouts/ai-context.md and src/components/ai-context.md. Follow src/data/ai-context.md for content ownership and scripts/ai-context.md for authoring order.
-4. Make the smallest complete change, update source evidence/registries when needed, refresh maps with npm run docs:context, run the relevant checks and review the actual rendered result.
+4. Make the smallest complete change, update source evidence/registries when needed, refresh maps with npm run docs:context when needed, and let GitHub Actions handle verification. Local checks and rendered review are optional development aids.
 5. Report implementation, verification and publication separately. A local build, Git push and successful live deployment are different outcomes.
 
 ## Architecture and content ownership
@@ -50,9 +50,9 @@ Service reviews proceed in ten-page batches. Preserve the reviewed hierarchy and
 
 Use npm ci with the pinned lockfile on a supported Node version (package.json; CI uses Node 24). npm run dev serves source changes; npm run preview serves the existing dist and requires a rebuild to show edits. Both default to 127.0.0.1:4321, so inspect which server owns the port.
 
-Run npm run docs:context after structural/data-ownership changes. It refreshes generated inventories and route ownership while preserving manual rules. Run npm run check:contexts to catch missing/stale maps and broken map links. Context maps under public are source-only and removed from dist. Do not edit the generated blocks by hand.
+Run npm run docs:context after structural/data-ownership changes. It refreshes generated inventories and route ownership while preserving manual rules. GitHub runs npm run check:contexts to catch missing/stale maps and broken map links. Running this check locally is optional. Context maps under public are source-only and removed from dist. Do not edit the generated blocks by hand.
 
-Run focused checks and a browser review appropriate to the change, then npm run verify before a push/release. Full verification covers routes/canonicals/assets, source copy, component families, product catalogs/parents, photos/comparisons, location hubs, articles, attributes, schema, sitemap and documentation. Use git diff --check and preserve unrelated changes. Logs/screenshots in tmp are local evidence, not published pages.
+GitHub Actions owns the complete verification gate on every push and pull request; contributors do not need to run npm run verify or focused checks locally before committing or pushing authorized work. Local checks and browser review remain optional debugging aids. Do not install a local browser/test toolchain merely to satisfy repository verification. Inspect the GitHub run, resolve failures and report its result before claiming verification success. Full verification covers routes/canonicals/assets, source copy, component families, product catalogs/parents, photos/comparisons, location hubs, articles, attributes, schema, sitemap and documentation. Use git diff --check and preserve unrelated changes. Logs/screenshots in tmp are local evidence, not published pages.
 
 ## Publishing and external boundaries
 
@@ -97,5 +97,5 @@ These counts describe local source records, not the deployed revision or deliver
 - [scripts/](scripts/ai-context.md)
 - [src/](src/ai-context.md)
 
-Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->

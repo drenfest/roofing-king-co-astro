@@ -2,16 +2,41 @@ name: Build and preserve URLs
 on:
   push:
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 jobs:
   verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: npm
-      - run: npm ci
-      - run: npm run verify
+      - name: Install pinned dependencies
+        run: npm ci
+      - name: Run all repository checks and build
+        id: checks
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run verify 2>&1 | tee "$RUNNER_TEMP/verification.log"
+      - name: Publish verification summary
+        if: always()
+        env:
+          CHECK_RESULT: ${{ steps.checks.outcome }}
+        run: |
+          printf '## Repository verification\n\nCommit: `%s`\n\nResult: **%s**\n\nThe complete `npm run verify` suite runs here. Local verification is optional. Inspect the checks step or download the verification-log artifact for failures.\n' "$GITHUB_SHA" "$CHECK_RESULT" >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain verification log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-log
+          path: ${{ runner.temp }}/verification.log
+          if-no-files-found: ignore
+          retention-days: 14

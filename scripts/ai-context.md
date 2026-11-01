@@ -8,7 +8,7 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 - npm run dev serves source changes. npm run build creates dist. npm run preview serves the existing dist; editing source without rebuilding will not update that preview.
 - npm run docs:context runs write-context-maps.mjs. It preserves manual guidance and refreshes only delimited inventories/route ownership. --check is read-only. Do not restore the old generator that replaced whole maps with obsolete descriptions.
 - npm run check:contexts checks directory coverage, generated blocks, map links, route ownership and the underscore rule for Astro page maps. npm run check:context-output also verifies context files are absent from dist.
-- npm run verify is the release gate. Its package.json sequence is authoritative; do not replace it with a stale copied list. Choose focused checks during development, then run the full sequence before a requested push/release.
+- npm run verify is the release gate. Its package.json sequence is authoritative; do not replace it with a stale copied list. GitHub Actions runs the full sequence on pushes and pull requests. Running it or focused checks locally is optional; an authorized push must not be blocked by local verification or missing local test tools.
 - check-content.mjs validates retained route metadata; check-built-routes.mjs protects URLs, canonicals, links and referenced assets. Existing regression baselines are intentional, not an invitation to remove assertions when adding a feature.
 - check-product-comparisons.mjs checks all 96 product mappings, complete sourced cells across the 72 cross-brand pages, valid same-use alternatives, truthful rating filters, SSR tables/schema and bounded per-page payloads. A missing comparison value fails the build adapter; add a verified supplemental fact rather than suppressing the check or inventing a number.
 
@@ -41,7 +41,7 @@ Product authors must not overwrite existing context guidance. Refresh inventorie
 
 ## Verification by change
 
-Use the existing product/manufacturer/system/Ply Gem checks for catalog work; service-copy/reviews/heroes/photos/comparisons checks for service work; photography/gallery checks for images; location checks for city hubs; article/blog-hub/URL checks for publishing structure; offers/warranty checks for their pages; and attribute/schema/sitemap checks for every cross-site structural change. Run a real browser check for changed layout or interaction, including mobile, keyboard/touch and no-JavaScript fallbacks where applicable. Keep byte reports for new media.
+Use the existing product/manufacturer/system/Ply Gem checks for catalog work; service-copy/reviews/heroes/photos/comparisons checks for service work; photography/gallery checks for images; location checks for city hubs; article/blog-hub/URL checks for publishing structure; offers/warranty checks for their pages; and attribute/schema/sitemap checks for every cross-site structural change. A real browser review is useful for layout or interaction changes, including mobile, keyboard/touch and no-JavaScript fallbacks where applicable, but is optional and must not become a local push prerequisite. Automated CI checks do not prove visual quality. Keep byte reports for new media.
 
 Do not broaden a test merely to hide a regression. A newly requested standalone section can be excluded explicitly from an older body-heading baseline while all previously reviewed headings remain protected. Verify the behavior the user asked for, not just that a class or data field exists.
 
@@ -131,5 +131,5 @@ Parent guidance: [repository](../ai-context.md).
 
 None.
 
-Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. Run `npm run check:contexts` to detect missing/stale maps or broken links.
+Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
