@@ -109,8 +109,8 @@ h6,
 }
 
 .rk-site-header {
-  position: sticky;
-  top: 0;
+  position: relative;
+  top: auto;
   z-index: 12;
   background:
     linear-gradient(180deg, rgb(255 255 255 / 98%), rgb(255 250 240 / 94%));

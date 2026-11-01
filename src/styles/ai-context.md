@@ -4,7 +4,7 @@ Use the approved ivory, charcoal and orange palette, Playfair Display for headin
 
 Orange primary buttons use white labels and inherited white icons across native and retained page families, including hover and keyboard focus. Keep this shared contract in component-refinements.css and the base fallback; do not reintroduce charcoal labels in page-specific hero styles.
 
-- base.css owns base document/theme conventions; navigation.css owns the shared header/mega-menu/mobile menu.
+- base.css owns base document/theme conventions; navigation.css owns the shared header/mega-menu/mobile menu. The site header scrolls naturally with the document on desktop and mobile: use position: relative and top: auto across native and legacy styles. Do not restore sticky/fixed positioning on the header. The opened mobile navigation overlay remains independent.
 - home.css and home-interactions.css contain shared homepage/editorial patterns also used by native pages. component-refinements.css is the final shared finish layer; its modal rules override earlier layouts and must retain readable ivory/charcoal contact choices.
 - service-landing.css and service-editorial.css own service selectors, leaf rows, slanted sections, contextual brands and reviewed topic/media layouts.
 - products.css owns product collections, details, samples, controls, tabs and responsive specification tables.

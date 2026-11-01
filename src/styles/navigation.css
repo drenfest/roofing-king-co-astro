@@ -1,7 +1,7 @@
 /* Native header enhancement: connected desktop columns and nested mobile toggles. */
 .rk-native-header .rk-native-mega-host{display:none;}
 html:has(body.rk-nav-open){overflow:hidden;}
-.rk-site-header.rk-native-header{position:sticky;top:0;}
+.rk-site-header.rk-native-header{position:relative;top:auto;}
 .rk-native-header .rk-logo img{height:auto;}
 .rk-native-header [hidden]{display:none!important;}
 @media(min-width:1061px){
