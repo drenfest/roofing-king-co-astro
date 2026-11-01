@@ -41,6 +41,8 @@ Product authors must not overwrite existing context guidance. Refresh inventorie
 
 ## Verification by change
 
+The following checks describe CI coverage and optional debugging choices, not a mandatory local/model checklist. Use GitHub status only for routine handoff; never load the full verification output into model context. Retrieve a bounded failed-step excerpt only when troubleshooting.
+
 Use the existing product/manufacturer/system/Ply Gem checks for catalog work; service-copy/reviews/heroes/photos/comparisons checks for service work; photography/gallery checks for images; location checks for city hubs; article/blog-hub/URL checks for publishing structure; offers/warranty checks for their pages; and attribute/schema/sitemap checks for every cross-site structural change. A real browser review is useful for layout or interaction changes, including mobile, keyboard/touch and no-JavaScript fallbacks where applicable, but is optional and must not become a local push prerequisite. Automated CI checks do not prove visual quality. Keep byte reports for new media.
 
 Do not broaden a test merely to hide a regression. A newly requested standalone section can be excluded explicitly from an older body-heading baseline while all previously reviewed headings remain protected. Verify the behavior the user asked for, not just that a class or data field exists.
