@@ -1,7 +1,7 @@
 <script lang="ts">
   import {onMount,tick} from 'svelte';
   type Photo={context?:Record<string,{caption:string}>;category?:string;caption?:string;src:string;alt:string;tags:string[];width?:number;height?:number;thumbnail:string;srcset:string;kind?:string;sourceLabel?:string;contain?:boolean;displayWidth?:number;displayHeight?:number};
-  let {id='project-gallery',eyebrow,title,titleEmphasis='',description,filters=[],items,compact=false,fullGalleryHref='/#projects'}:{id?:string;eyebrow:string;title:string;titleEmphasis?:string;description:string;filters?:{label:string;value:string}[];items:Photo[];compact?:boolean;fullGalleryHref?:string}=$props();
+  let {id='project-gallery',eyebrow,title,titleEmphasis='',description,filters=[],items,compact=false,fullGalleryHref='/#projects',tone='paper'}:{id?:string;eyebrow:string;title:string;titleEmphasis?:string;description:string;filters?:{label:string;value:string}[];items:Photo[];compact?:boolean;fullGalleryHref?:string;tone?:'paper'|'brand'}=$props();
   const emphasis=$derived(titleEmphasis&&title.endsWith(titleEmphasis)?titleEmphasis:'');
   let filter=$state('all');let index=$state(0);let page=$state(0);let pageSize=$state(4);let enhanced=$state(false);let opened=$state(false);
   let dialog:HTMLDialogElement;let gridHost:HTMLDivElement;let lastTrigger:HTMLAnchorElement|null=null;
@@ -39,7 +39,7 @@
     return()=>{query.removeEventListener('change',resize);window.removeEventListener('hashchange',fromHash);document.body.classList.remove('rk-lightbox-open');};
   });
 </script>
-<section {id} class="rk-home-section rk-home-gallery rk-project-gallery-block rk-editorial-gallery" class:rk-gallery-compact={compact} aria-label={eyebrow} aria-roledescription="carousel" data-gallery-topic={compact?filters[0]?.value||'all':'all'}>
+<section {id} class="rk-home-section rk-home-gallery rk-project-gallery-block rk-editorial-gallery" class:rk-gallery-compact={compact} class:rk-gallery-brand={tone==='brand'} aria-label={eyebrow} aria-roledescription="carousel" data-gallery-topic={compact?filters[0]?.value||'all':'all'}>
   {#if id==='projects'}{#each filters.filter(f=>f.value!=='all') as option}<span id={'projects-'+option.value} class="rk-gallery-anchor" aria-hidden="true"></span>{/each}{/if}
   <div class="rk-section-inner">
     <header class="rk-gallery-editorial-heading"><p class="rk-home-eyebrow">{eyebrow}</p><h2>{emphasis?title.slice(0,-emphasis.length):title}{#if emphasis}<em>{emphasis}</em>{/if}</h2><p class="rk-gallery-description">{description}</p></header>
@@ -128,4 +128,20 @@ section.rk-editorial-gallery{position:relative;scroll-margin-top:7rem;}
 @media(max-width:760px){.rk-editorial-gallery .rk-gallery-page:first-child .rk-project-gallery-item:nth-child(n+3){display:none;}.rk-gallery-editorial-footer{flex-direction:row;flex-wrap:wrap;align-items:center;}.rk-gallery-compact .rk-gallery-editorial-heading{grid-template-columns:1fr;}.rk-gallery-compact .rk-gallery-photo{height:auto;}.rk-gallery-compact .rk-gallery-full-link{width:100%;}.rk-editorial-gallery .rk-gallery-filters{flex-wrap:nowrap;overflow:auto;gap:1.3rem;max-width:100%;}.rk-editorial-gallery .rk-gallery-filters button{white-space:nowrap;}.rk-gallery-toolbar{min-width:0;}}
 .rk-editorial-gallery .rk-project-gallery-item:only-child:last-child{grid-column:1/-1;}
 @media(max-width:760px){.rk-editorial-gallery .rk-project-gallery-item:last-child:nth-child(odd){grid-column:auto;}}
+/* Brand tone: logo orange with the shared diagonal section edge and white type. */
+section.rk-editorial-gallery.rk-gallery-brand{background:var(--rk-orange);color:#fff;clip-path:polygon(0 22px,100% 0,100% calc(100% - 22px),0 100%);padding-block:clamp(4.5rem,7vw,7rem);}
+.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow,.rk-gallery-brand .rk-gallery-editorial-heading h2,.rk-gallery-brand .rk-gallery-editorial-heading .rk-gallery-description,.rk-gallery-brand .rk-gallery-filters button,.rk-gallery-brand .rk-gallery-filters button.is-active,.rk-gallery-brand .rk-project-gallery-item:nth-child(n),.rk-gallery-brand .rk-gallery-category,.rk-gallery-brand .rk-gallery-source,.rk-gallery-brand .rk-gallery-search-tools label,.rk-gallery-brand .rk-gallery-clear,.rk-gallery-brand .rk-gallery-empty,.rk-gallery-brand .rk-gallery-editorial-footer p,.rk-gallery-brand .rk-gallery-pagination button,.rk-gallery-brand .rk-gallery-pagination span{color:#fff;}
+.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow::before,.rk-gallery-brand .rk-gallery-filters button.is-active::before{background:#fff;}
+.rk-gallery-brand .rk-gallery-filters button:not(.is-active){opacity:.88;}
+.rk-gallery-brand .rk-gallery-filters button:hover{color:#fff;opacity:1;text-decoration:underline;text-underline-offset:.35em;}
+.rk-gallery-brand .rk-gallery-toolbar,.rk-gallery-brand .rk-gallery-editorial-footer{border-top-color:rgba(255,255,255,.5);}
+.rk-gallery-brand .rk-gallery-search-tools input,.rk-gallery-brand .rk-gallery-search-tools select{border-color:#fff;background:#fff;color:#8a3800;}
+.rk-gallery-brand .rk-gallery-search-tools input::placeholder{color:#a85a24;}
+.rk-gallery-brand .rk-gallery-search-tools input:focus-visible,.rk-gallery-brand .rk-gallery-search-tools select:focus-visible,.rk-gallery-brand a:focus-visible,.rk-gallery-brand button:focus-visible{outline:2px solid #fff;outline-offset:3px;}
+.rk-gallery-brand .rk-gallery-photo{background:rgba(255,255,255,.18);}
+.rk-gallery-brand .rk-gallery-pagination button{border-color:rgba(255,255,255,.7);}
+.rk-gallery-brand .rk-gallery-full-link{background:#fff;color:#8a3800;}
+.rk-gallery-brand .rk-gallery-full-link span{color:var(--rk-orange);}
+.rk-gallery-brand .rk-gallery-full-link:hover{background:var(--rk-paper);}
+@media(max-width:600px){section.rk-editorial-gallery.rk-gallery-brand{clip-path:polygon(0 12px,100% 0,100% calc(100% - 12px),0 100%);padding-block:3.5rem;}}
 </style>

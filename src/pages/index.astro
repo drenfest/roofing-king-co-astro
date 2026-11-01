@@ -29,7 +29,7 @@ const faq = home.faq as HeadingData & {items:{question:string;answer:RichNode[]}
   <main id="content" class="rk-site-main">
     <article class="rk-home" data-homepage-build="astro-components">
       <HomeHero /><HomeTrust /><StormDamageCallout /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
-      <ProjectGallery {...galleryFor('all')} id="projects" title={library.title} titleEmphasis={library.titleEmphasis} description={library.description} client:visible />
+      <ProjectGallery {...galleryFor('all')} id="projects" title={library.title} titleEmphasis={library.titleEmphasis} description={library.description} tone="brand" client:visible />
       <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
       <ComparisonSection {comparison} />
       <FAQSection section={faq} />
