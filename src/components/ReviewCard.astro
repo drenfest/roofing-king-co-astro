@@ -1,8 +1,10 @@
 ---
 import type { CardSectionData } from '../data/section-types';
+import {isExternalReviewSource} from '../data/review-source-policy';
 import platforms from '../data/review-platforms.json';
 interface Props { card: CardSectionData['items'][number] & {publishedOn?:string;summary?:boolean}; }
 const {card}=Astro.props;
+if(!isExternalReviewSource(card.source))throw new Error(`Review requires an external platform source: ${card.author||card.title}`);
 const displayDate=(value:string)=>new Intl.DateTimeFormat('en-US',{month:'short',...(value.length===7?{}:{day:'numeric' as const}),year:'numeric',timeZone:'UTC'}).format(new Date((value.length===7?value+'-01':value)+'T00:00:00Z'));
 const platformLogo=(platform:string)=>platforms[platform as keyof typeof platforms];
 ---

@@ -53,3 +53,5 @@ Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rul
 <!-- directory-inventory:end -->
 
 PolishedServicePage accepts opening.variant=tabs for detailed leaf selectors. Its review selection prioritizes recent service-specific feedback and retains an honestly labeled company-review fallback; siding credentials use approved workmanship and brand information. Page-level financeDescription, hideGallery and hideArticles support relevant offer copy and prevent residential filler on commercial siding. Keep the inline contact heading suppressed where the outer estimate heading already introduces it.
+
+Customer reviews must come from external review platforms only (Google, BBB, Angi or Birdeye). Never select testimonials from roofkingco.com or internal review routes. Use review-source-policy.ts and retain clearly labeled general-company fallback where no exact-service external review exists.

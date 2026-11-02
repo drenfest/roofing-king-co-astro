@@ -129,6 +129,7 @@ Parent guidance: [src](../ai-context.md).
 - [project-gallery.json](project-gallery.json)
 - [project-gallery.ts](project-gallery.ts)
 - [review-platforms.json](review-platforms.json)
+- [review-source-policy.ts](review-source-policy.ts)
 - [reviews-page.json](reviews-page.json)
 - [roofing-hero-media.json](roofing-hero-media.json)
 - [roofing-heroes.json](roofing-heroes.json)
@@ -165,3 +166,5 @@ Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rul
 <!-- directory-inventory:end -->
 
 The November 2026 siding review is implemented in service-editorial.json, service-copy.json and service-overrides.json for five pages; migration/siding-content-review-2026-11-01.json records source and decisions. featured-reviews.json services tags describe actual customer work. service-reviews.ts prioritizes the newest matching records. Every service page retains sourced feedback: where there is no exact match, related/company reviews are explicitly labeled as company experiences with the actual work named on each card. Never tag a roofing/gutter testimonial as siding or a residential job as commercial.
+
+Customer reviews must come from external review platforms only (Google, BBB, Angi or Birdeye). Never select testimonials from roofkingco.com or internal review routes. Use review-source-policy.ts and retain clearly labeled general-company fallback where no exact-service external review exists.

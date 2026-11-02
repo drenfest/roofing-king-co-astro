@@ -1,6 +1,6 @@
 {
   "checkedOn": "2026-11-01",
-  "policy": "Prefer the newest review that actually discusses the service. Keep a clearly labeled company-review fallback rather than removing the review section. Never relabel a residential roofing testimonial as a commercial or window job.",
+  "policy": "External review platforms only. Prefer recent service-specific feedback; otherwise clearly label general company experiences. Never infer service work not described by the reviewer.",
   "sources": [
     {
       "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm",
@@ -14,16 +14,6 @@
       "datePrecision": "month only; no day inferred"
     },
     {
-      "url": "https://www.roofkingco.com/",
-      "records": [
-        "Lloyd F. — June 22, 2026 — roofing",
-        "Sou M. — June 13, 2026 — roof replacement",
-        "Larry B. — July 16, 2025 — deck repair",
-        "Charles H. — August 24, 2025 — roof repair",
-        "Andy L. — September 23, 2024 — roofs, gutters and storm-damaged wood"
-      ]
-    },
-    {
       "url": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews",
       "records": [
         "Douglas C — July 22, 2026 — roofing"
@@ -35,5 +25,6 @@
     "servicePages": 84,
     "pagesWithCustomerFeedback": 84
   },
-  "publication": "Pending GitHub verification and Cloudways deployment"
+  "publication": "Pending GitHub verification and Cloudways deployment",
+  "excluded": "All first-party Roof King testimonials removed from the featured registry and selections."
 }

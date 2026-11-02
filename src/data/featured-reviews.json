@@ -57,76 +57,6 @@
       "summary": false
     },
     {
-      "id": "roof-king-andy-l",
-      "title": "Storm repairs, roofs and gutters",
-      "author": "Andy L.",
-      "description": "They installed new roofs and gutters on both homes as well as repaired the wood that got damaged. Roof King worked with my insurance and made the entire process seamless.",
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/"
-      },
-      "services": [
-        "roofing",
-        "gutters",
-        "storm",
-        "claims"
-      ],
-      "evidenceNote": "Exact excerpt from the retained customer review. The work describes roofs, gutters and storm-damaged wood on two rental homes; not a siding or commercial project.",
-      "excerpt": true,
-      "summary": false,
-      "publishedOn": "2024-09-23"
-    },
-    {
-      "id": "roof-king-tammy-k",
-      "title": "New roof and gutters",
-      "author": "Tammy K.",
-      "description": "I used Roof King and Restoration for a new roof and new gutters. Collin was so helpful with recommendations and assisting me through the whole process. The crews were fantastic. They were fast and the clean up was perfect. I would highly recommend them.",
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "/reviews/00601dee-df98-42ab-b364-4725af97794b/"
-      },
-      "services": [
-        "roofing",
-        "gutters",
-        "replacement"
-      ],
-      "excerpt": true,
-      "summary": false
-    },
-    {
-      "id": "roof-king-larry-b",
-      "title": "Deck repair",
-      "author": "Larry B.",
-      "description": "The quality of the work was excellent. Kozmo was through and knowledgeable. Better communication on with the time line of work would have helped. Very satisfied and would use them again.",
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/"
-      },
-      "services": [
-        "decking"
-      ],
-      "excerpt": true,
-      "summary": false,
-      "publishedOn": "2025-07-16"
-    },
-    {
-      "id": "roof-king-charles-h",
-      "title": "Roofing repair",
-      "author": "Charles H.",
-      "description": "Excellent, very punctual, fair and knowledgeable. Didn’t over sell and over delivered.",
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/"
-      },
-      "services": [
-        "roofing",
-        "repair"
-      ],
-      "excerpt": true,
-      "summary": false,
-      "publishedOn": "2025-08-24"
-    },
-    {
       "excerpt": true,
       "summary": false,
       "id": "angi-connor-j-siding",
@@ -231,43 +161,6 @@
       },
       "checkedOn": "2026-11-01",
       "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
-    },
-    {
-      "id": "roof-king-lloyd-f",
-      "author": "Lloyd F.",
-      "title": "Roof installation and responsive communication",
-      "description": "the roofing job is great and neighbors have nice comments when walking by",
-      "publishedOn": "2026-06-22",
-      "services": [
-        "roofing"
-      ],
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "https://www.roofkingco.com/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/"
-      },
-      "excerpt": true,
-      "summary": false,
-      "checkedOn": "2026-11-01",
-      "evidenceNote": "Exact short excerpt and full publication date displayed on the live Roof King homepage review list; linked to the individual retained review."
-    },
-    {
-      "id": "roof-king-sou-m",
-      "author": "Sou M.",
-      "title": "Roof replacement and clear estimating",
-      "description": "He took the time to explain everything, answered all of my questions",
-      "publishedOn": "2026-06-13",
-      "services": [
-        "roofing",
-        "replacement"
-      ],
-      "source": {
-        "platform": "Roof King reviews",
-        "url": "https://www.roofkingco.com/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/"
-      },
-      "excerpt": true,
-      "summary": false,
-      "checkedOn": "2026-11-01",
-      "evidenceNote": "Exact short excerpt and full publication date displayed on the live Roof King homepage review list; linked to the individual retained review."
     }
   ]
 }

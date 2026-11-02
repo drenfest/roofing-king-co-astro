@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {load} from 'cheerio';
-import {reviewIdsForService} from '../src/data/service-reviews.ts';
+import {isExternalReviewSource} from '../src/data/review-source-policy.ts';
+import {reviewIdsForService,reviewSelectionForService} from '../src/data/service-reviews.ts';
 
 const editorial=JSON.parse(await fs.readFile('src/data/service-editorial.json','utf8'));
 const reviews=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;
@@ -30,6 +31,6 @@ assert.equal(commercial('.rk-editorial-gallery').length,0,'Do not present house 
 for(const family of ['gutters','decking','storm','repair']){
  const ids=reviewIdsForService(family);
  assert.ok(ids.length>0,family+' uses relevant retained customer feedback');
- for(const id of ids){const review=reviews.find(review=>review.id===id);const topic=family==='repair'?'roofing':family;assert.ok(review.services.includes(topic));}
+ for(const id of ids){const review=reviews.find(review=>review.id===id);assert.ok(isExternalReviewSource(review.source),'External sources only');if(reviewSelectionForService(family).exact)assert.ok(review.services.includes(family));}
 }
 console.log('Five reviewed siding pages: shared selectors, material comparison, seven FAQs, preserved approved components and service-specific reviews passed.');

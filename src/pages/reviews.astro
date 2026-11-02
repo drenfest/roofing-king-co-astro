@@ -11,6 +11,7 @@ import ProjectShowcase from '../components/ProjectShowcase.astro';
 import FAQSection from '../components/FAQSection.astro';
 import ServiceIcon from '../components/ServiceIcon.astro';
 import QuoteExperience from '../components/QuoteExperience.svelte';
+import {isExternalReviewSource} from '../data/review-source-policy';
 import featured from '../data/featured-reviews.json';
 import data from '../data/reviews-page.json';
 import platforms from '../data/review-platforms.json';
@@ -22,7 +23,7 @@ import '../styles/home-interactions.css';
 import '../styles/services.css';
 import '../styles/service-landing.css';
 import '../styles/reviews.css';
-const reviews=[...featured.items,...data.additionalReviews];
+const reviews=[...featured.items,...data.additionalReviews].filter(review=>isExternalReviewSource(review.source));
 const hero={eyebrow:'Roof King customer experiences',title:'Roof King & Restoration reviews',description:'A new roof is a big decision. Hear how customers describe the installation, cleanup, communication and help after storm damage—then read their full reviews on the platforms where they shared them.',image:reference.hero.image,caption:'Explore our work alongside the customer feedback.',action:'Talk about your project',nextHref:'#customer-reviews',nextLabel:'Read customer reviews'};
 const faq={eyebrow:'About our customer reviews',title:'Read the feedback. Know the details.',items:[
  {question:'Where can I read the complete reviews?',answer:[{type:'paragraph' as const,text:'Use the source badge on a review card to open its original review or the platform’s review collection. The Google, BBB and Birdeye links above also let you explore more feedback and any published company responses.'}]},

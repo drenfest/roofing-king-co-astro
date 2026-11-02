@@ -7,6 +7,7 @@ const $ = cheerio.load(html);
 assert.equal($('[data-homepage-build="astro-components"]').length, 1, 'Homepage must use the native component route.');
 assert.equal($('h1').length, 1);
 assert.equal($('.rk-home-service-card').length, 8);
+const {isExternalReviewSource}=await import('../src/data/review-source-policy.ts');
 const reviewLibrary=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;const homeReviewIds=JSON.parse(await fs.readFile('src/data/home.json','utf8')).reviews.reviewIds;const featuredReviews=homeReviewIds.map(id=>reviewLibrary.find(review=>review.id===id));
 assert.equal($('.rk-home-review-card').length, featuredReviews.length);
 for(const review of featuredReviews){
@@ -14,6 +15,7 @@ for(const review of featuredReviews){
   assert.equal(card.length,1,'Featured review author must match the verified record.');
   const link=card.find('.rk-review-source');
   assert.equal(link.attr('href'),review.source.url);
+  assert.ok(isExternalReviewSource(review.source),'Only external platform reviews are allowed.');
   assert.equal(link.attr('target'),'_blank');
   assert.ok(new URL(link.attr('href'),'https://www.roofkingco.com').protocol==='https:','Review sources need a working published HTTPS destination.');
   assert.equal(card.find('.rk-stars[aria-label]').length,review.rating?1:0,'Do not invent individual star scores.');
