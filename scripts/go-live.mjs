@@ -3,7 +3,7 @@ import {setTimeout as pause} from 'node:timers/promises';
 import assert from 'node:assert/strict';
 
 // Shared publisher command: no model-specific scheduler or account notifications.
-const cli=(cmd,args)=>execFileSync(cmd,args,{encoding:'utf8',maxBuffer:16*1024*1024,stdio:['ignore','pipe','pipe']}).trim();
+const cli=(cmd,args)=>execFileSync(cmd,args,{encoding:'utf8',timeout:120000,maxBuffer:16*1024*1024,env:{...process.env,GIT_TERMINAL_PROMPT:'0',GCM_INTERACTIVE:'Never'},stdio:['ignore','pipe','pipe']}).trim();
 const gh=args=>JSON.parse(cli('gh',args));
 const watchOnly=process.argv.includes('--watch-only');
 async function main(){
