@@ -139,7 +139,7 @@ for(const route of manifest){
   assert.ok(figure.prev().hasClass('rk-service-detail-kicker'),'Child image follows the eyebrow');assert.ok(figure.next().is('h3'),'Preserve subordinate tab headings');
   const child=cheerio.load(await fs.readFile('dist'+href+'index.html','utf8'));const actual=child('.rk-editorial-hero>img').first();const preview=figure.children('img');
   assert.equal(preview.attr('src'),actual.attr('src'),'Preview must match its destination: '+href);assert.equal(preview.attr('srcset'),actual.attr('srcset'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));
-  if(child('.rk-service-hero-credit').length)assert.ok(figure.find('figcaption').text().includes('Illustrative'));
+  if(/illustrat/i.test(child('.rk-service-hero-credit').text()))assert.ok(figure.find('figcaption').text().includes('Illustrative'));
   tabImages++;
  }
 }

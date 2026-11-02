@@ -7,7 +7,7 @@ const registered=new Set(source.assets.map(a=>a.src));
 let placements=0;
 for(const row of source.replacements){
  const $=cheerio.load(await fs.readFile('dist'+row.route+'index.html','utf8'));
- const section=row.sectionId==='hero'?$('.rk-landing-hero'):$('#'+row.sectionId);
+ const section=row.sectionId==='hero'?$('.rk-editorial-hero'):$('#'+row.sectionId);
  const matches=section.find('img').filter((_i,img)=>$(img).attr('src')===row.replacement||($(img).attr('srcset')||'').split(',').some(v=>v.trim().split(' ')[0]===row.replacement));
  assert.ok(matches.length,row.route+' client photo appears in its recorded section');
  if(row.sectionId==='hero'){assert.equal(section.find('.rk-service-hero-credit').length,0,'Real photo must not be called generated');assert.ok(source.selected.some(s=>s.id===row.sourceId));}

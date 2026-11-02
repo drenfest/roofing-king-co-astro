@@ -26,7 +26,7 @@ function topic(family){
 }
 for(const [path,family] of [['/','all'],['/past-projects/','all'],['/roofing/','roofing'],['/roofing/gaf/types/','gaf-catalog'],...Object.entries(editorial).map(([path,data])=>[path,data.family])]){
  const $=cheerio.load(await fs.readFile('dist'+path+'index.html','utf8'));
- const gallery=$('.rk-editorial-gallery');assert.equal(gallery.length,1,path+' needs one gallery.');
+ const gallery=$('.rk-editorial-gallery');if(editorial[path]?.reviewPresentation?.hideGallery){assert.equal(gallery.length,0,path+' omits irrelevant residential photos');continue;}assert.equal(gallery.length,1,path+' needs one gallery.');
  const expected=family==='all'?'all':topic(family);
  assert.equal(gallery.attr('data-gallery-topic'),expected,path);
  const rendered=gallery.find('.rk-project-gallery-item');

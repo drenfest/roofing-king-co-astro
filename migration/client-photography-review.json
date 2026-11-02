@@ -1177,14 +1177,16 @@
       "sectionId": "hero",
       "old": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
       "replacement": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
-      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement."
+      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement.",
+      "sourceId": "1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou"
     },
     {
       "route": "/roofing/",
       "sectionId": "hero",
       "old": "/media/roofing-heroes/roofing-1672.webp",
       "replacement": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
-      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement."
+      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement.",
+      "sourceId": "1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou"
     }
   ],
   "imageInventoryCount": 98,
