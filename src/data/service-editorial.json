@@ -10007,7 +10007,12 @@
               "label": "Discuss an active leak",
               "href": "#estimate"
             }
-          ]
+          ],
+          "image": {
+            "src": "/media/client-photography/lowRoof-1200.webp",
+            "alt": "Low-slope roof with visible seams, repair areas and penetrations in a supplied photograph"
+          },
+          "caption": "Photo supplied by Roof King. The roof material, condition and proposed work need assessment at the property."
         },
         {
           "id": "commercial-repair-materials",
