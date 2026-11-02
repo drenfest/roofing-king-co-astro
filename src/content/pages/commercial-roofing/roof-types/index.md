@@ -1,7 +1,7 @@
 ---
-title: "Commercial Roof Types Columbus, OH | TPO, EPDM & Metal | Roof King & Restoration"
+title: "Commercial Roof Types Columbus, OH | TPO, EPDM & Metal"
 permalink: "/commercial-roofing/roof-types/"
-description: "Compare commercial roof types in Columbus, OH. Roof King offers Mule-Hide TPO, EPDM rubber and metal roofing. Call (614) 490-0123 to discuss your roof."
+description: "Compare commercial roof types in Columbus, OH. Explore Mule-Hide TPO, EPDM and metal roofing with Roof King, including seams, roof assemblies and drainage."
 canonicalPath: "/commercial-roofing/roof-types/"
 category: "Service detail"
 source: "wordpress"

@@ -13,7 +13,7 @@ import '../styles/services.css';
 import '../styles/service-landing.css';
 interface Props {kind:'articles'|'categories'|'topics';title:string;description:string;path:string;isArchive?:boolean;}
 const {kind,title,description,path,isArchive=false}=Astro.props;
-const image=gallery.items[kind==='categories'?0:kind==='topics'?1:3].src;
+const image=kind==='articles'?'/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp':gallery.items[kind==='categories'?0:1].src;
 const label=kind==='articles'?'Read the articles':`Browse ${kind}`;
 ---
 <DocumentLayout {title} {description} image={image} canonicalPath={path}><SiteHeader quoteHref="/contact-us/" quoteModal={false} client:load/><main id="content" class="rk-site-main rk-service-landing">

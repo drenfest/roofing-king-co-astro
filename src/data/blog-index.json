@@ -1,5 +1,28 @@
 [
   {
+    "href": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+    "title": "Columbus Roof Damage After Early August Storms: Your First 72 Hours",
+    "description": "What to check, photograph and discuss with a contractor after strong winds affect your roof.",
+    "image": {
+      "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
+      "alt": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms",
+      "width": 720,
+      "height": 480,
+      "variants": [
+        {
+          "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-400.webp",
+          "width": 400
+        },
+        {
+          "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
+          "width": 720
+        }
+      ]
+    },
+    "date": "2026-08-18",
+    "author": "Roof King & Restoration"
+  },
+  {
     "href": "/blog/roof-replacement/how-long-does-a-roof-last-in-dublin-oh/",
     "title": "How Long Does a Roof Last in Dublin, OH?",
     "description": "How roofing material, ventilation, weather exposure and maintenance affect roof service life.",
@@ -454,28 +477,5 @@
     },
     "date": "2025-01-15T09:00:00-06:00",
     "author": "Jared L."
-  },
-  {
-    "href": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
-    "title": "Columbus Roof Damage After Early August Storms: Your First 72 Hours",
-    "description": "What to check, photograph and discuss with a contractor after strong winds affect your roof.",
-    "image": {
-      "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
-      "alt": "From Hail to High Winds: How to Spot Hidden Roof Damage After Ohio’s Late-Summer Storms",
-      "width": 720,
-      "height": 480,
-      "variants": [
-        {
-          "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-400.webp",
-          "width": 400
-        },
-        {
-          "src": "/media/articles/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer-720.webp",
-          "width": 720
-        }
-      ]
-    },
-    "date": null,
-    "author": null
   }
 ]

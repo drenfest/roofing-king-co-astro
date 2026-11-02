@@ -5,6 +5,7 @@ const {id,eyebrow,title,description,columns,rows,note,sourceHref,sourceLabel}=As
 ---
 <section class="rk-warranty-comparison" aria-labelledby={`${id}-title`} data-component="WarrantyComparison"><div class="rk-section-inner">
  <div id={`${id}-title`}><SectionHeading {eyebrow} {title} {description}/></div>
+ <slot name="contractor"/>
  <p class="rk-warranty-swipe-hint">Swipe to compare all coverage details <span aria-hidden="true">→</span></p>
  <div class="rk-warranty-table-scroll" role="region" aria-label={title} tabindex="0"><table><caption class="rk-warranty-table-caption">{title}</caption><thead><tr><th scope="col">Warranty</th>{columns.map(column=><th scope="col">{column}</th>)}</tr></thead><tbody>{rows.map(row=><tr class:list={{'rk-warranty-selected':row.highlight}}><th scope="row">{row.label}</th>{row.cells.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div>
  <div class="rk-warranty-comparison-note"><p>{note}</p><a href={sourceHref} target="_blank" rel="noopener noreferrer">{sourceLabel}<span aria-hidden="true"> ↗</span></a></div>

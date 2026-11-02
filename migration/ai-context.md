@@ -39,6 +39,7 @@ Parent guidance: [repository](../ai-context.md).
 - [commercial-gutters-client-copy-2026-11-01.json](commercial-gutters-client-copy-2026-11-01.json)
 - [commercial-replacement-types-client-copy-2026-11-01.json](commercial-replacement-types-client-copy-2026-11-01.json)
 - [commercial-roofing-client-copy-2026-11-01.json](commercial-roofing-client-copy-2026-11-01.json)
+- [commercial-roofing-content-review-2026-11-02.json](commercial-roofing-content-review-2026-11-02.json)
 - [component-build-progress.md](component-build-progress.md)
 - [component-reuse-audit.html](component-reuse-audit.html)
 - [component-reuse-audit.json](component-reuse-audit.json)

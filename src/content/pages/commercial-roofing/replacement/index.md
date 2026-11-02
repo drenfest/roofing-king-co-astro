@@ -1,7 +1,7 @@
 ---
-title: "Commercial Roof Replacement Columbus, OH | Roof King & Restoration"
+title: "Commercial Roof Replacement Columbus, OH | Roof King"
 permalink: "/commercial-roofing/replacement/"
-description: "Commercial roof replacement in Columbus, OH. Roof King offers Mule-Hide TPO, EPDM and metal roofing. Request a roof assessment or call (614) 490-0123."
+description: "Commercial roof replacement in Columbus, OH with Mule-Hide TPO, EPDM and metal options. Discuss existing layers, insulation, drainage and access with Roof King."
 canonicalPath: "/commercial-roofing/replacement/"
 category: "Service detail"
 source: "wordpress"

@@ -238,5 +238,12 @@
     "height": 640,
     "alt": "Mule-Hide Self-Adhering TPO manufacturer product photograph",
     "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/": {
+    "src": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-924.webp",
+    "alt": "Close view along shingle ridge caps toward a brick chimney",
+    "width": 924,
+    "height": 1018,
+    "srcset": "/media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-320.webp 320w, /media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-480.webp 480w, /media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-800.webp 800w, /media/client-gallery/along-the-ridge-toward-the-chimney-978280d111-924.webp 924w"
   }
 }

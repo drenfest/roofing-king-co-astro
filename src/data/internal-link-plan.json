@@ -1480,20 +1480,20 @@
         "text_to_wrap": "Mule-Hide TPO",
         "section": {
           "label": "Commercial Roof Systems and Materials",
-          "heading": "Commercial Roof Systems and Materials",
+          "heading": "Commercial Roofing in Columbus, OH",
           "heading_level": 3,
-          "section_id": "service-topics",
+          "section_id": null,
           "heading_path": [
             "Commercial Roofing in Columbus, OH",
             "Commercial Roofing Services for Columbus Property Owners",
             "Commercial Roof Systems and Materials"
           ],
-          "component": "ServiceExplorer",
-          "selector": "main #service-child-18-4 > p:nth-of-type(1)",
+          "component": "LandingHero",
+          "selector": "main .rk-landing-lede p",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "Roof King & Restoration offers Mule-Hide TPO roofing, Mule-Hide EPDM rubber roofing and metal roofing. The appropriate system depends on the building’s existing construction, roof slope, drainage, rooftop equipment, attachment details and the requirements of the selected materials.",
+        "paragraph_context": "Roof King & Restoration provides commercial roofing in Columbus for property owners and managers dealing with leaks, aging roof coverings and drainage problems. We offer commercial roof repair and replacement, Mule-Hide TPO and Mule-Hide EPDM systems, metal roofing, and commercial gutters. Start with the property address and the areas causing concern. We can discuss an assessment of your roof.",
         "existing_destination": null,
         "destination": "/products/roofing/commercial/mule-hide/tpo/",
         "destination_page_title": "Mule-Hide Standard TPO"
@@ -1504,20 +1504,20 @@
         "text_to_wrap": "Mule-Hide EPDM",
         "section": {
           "label": "Commercial Roof Systems and Materials",
-          "heading": "Commercial Roof Systems and Materials",
+          "heading": "Commercial Roofing in Columbus, OH",
           "heading_level": 3,
-          "section_id": "service-topics",
+          "section_id": null,
           "heading_path": [
             "Commercial Roofing in Columbus, OH",
             "Commercial Roofing Services for Columbus Property Owners",
             "Commercial Roof Systems and Materials"
           ],
-          "component": "ServiceExplorer",
-          "selector": "main #service-child-18-4 > p:nth-of-type(1)",
+          "component": "LandingHero",
+          "selector": "main .rk-landing-lede p",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "Roof King & Restoration offers Mule-Hide TPO roofing, Mule-Hide EPDM rubber roofing and metal roofing. The appropriate system depends on the building’s existing construction, roof slope, drainage, rooftop equipment, attachment details and the requirements of the selected materials.",
+        "paragraph_context": "Roof King & Restoration provides commercial roofing in Columbus for property owners and managers dealing with leaks, aging roof coverings and drainage problems. We offer commercial roof repair and replacement, Mule-Hide TPO and Mule-Hide EPDM systems, metal roofing, and commercial gutters. Start with the property address and the areas causing concern. We can discuss an assessment of your roof.",
         "existing_destination": null,
         "destination": "/products/roofing/commercial/mule-hide/epdm/",
         "destination_page_title": "Mule-Hide Standard EPDM"
@@ -1530,20 +1530,20 @@
         "text_to_wrap": "Mule-Hide TPO",
         "section": {
           "label": "Commercial Roofing Materials We Work With",
-          "heading": "Commercial Roofing Materials We Work With",
+          "heading": "Match the Repair to the Existing Roof",
           "heading_level": 3,
-          "section_id": "service-topics",
+          "section_id": "service-copy-20-3",
           "heading_path": [
             "Commercial Roof Repair in Columbus, OH",
             "Commercial Roof Leaks: Find the Cause Before Choosing the Repair",
             "Commercial Roofing Materials We Work With"
           ],
-          "component": "ServiceExplorer",
-          "selector": "main #commercial-repair-materials > p:nth-of-type(1)",
+          "component": "ServiceContentBand",
+          "selector": "main #service-copy-20-3 p",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "Roof King offers Mule-Hide TPO, Mule-Hide EPDM rubber roofing and metal roofing for commercial projects. Repair details must be matched to the actual roof assembly; these products are not interchangeable.",
+        "paragraph_context": "Roof King offers Mule-Hide TPO and Mule-Hide EPDM products and commercial metal roofing. The product originally installed on your building needs identification before selecting repair materials. Surface color alone is not enough.",
         "existing_destination": null,
         "destination": "/products/roofing/commercial/mule-hide/tpo/",
         "destination_page_title": "Mule-Hide Standard TPO"
@@ -1554,20 +1554,20 @@
         "text_to_wrap": "Mule-Hide EPDM",
         "section": {
           "label": "Commercial Roofing Materials We Work With",
-          "heading": "Commercial Roofing Materials We Work With",
+          "heading": "Match the Repair to the Existing Roof",
           "heading_level": 3,
-          "section_id": "service-topics",
+          "section_id": "service-copy-20-3",
           "heading_path": [
             "Commercial Roof Repair in Columbus, OH",
             "Commercial Roof Leaks: Find the Cause Before Choosing the Repair",
             "Commercial Roofing Materials We Work With"
           ],
-          "component": "ServiceExplorer",
-          "selector": "main #commercial-repair-materials > p:nth-of-type(1)",
+          "component": "ServiceContentBand",
+          "selector": "main #service-copy-20-3 p",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "Roof King offers Mule-Hide TPO, Mule-Hide EPDM rubber roofing and metal roofing for commercial projects. Repair details must be matched to the actual roof assembly; these products are not interchangeable.",
+        "paragraph_context": "Roof King offers Mule-Hide TPO and Mule-Hide EPDM products and commercial metal roofing. The product originally installed on your building needs identification before selecting repair materials. Surface color alone is not enough.",
         "existing_destination": null,
         "destination": "/products/roofing/commercial/mule-hide/epdm/",
         "destination_page_title": "Mule-Hide Standard EPDM"

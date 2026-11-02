@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-02",
+  "sourceFile": "http://127.0.0.1:8769/commercial-roofing-review.html#replacements",
+  "sourceSha256": "9c0c14796806cc36fc54f83d7964411d29b8ea81153b5381381546812d935fb6",
+  "implementation": "Edited customer copy mapped to existing service components; audit scores, evidence tags and repeated CTA exports excluded. Existing routes, media and commercial storm damage retained.",
+  "pages": [
+    {
+      "path": "/commercial-roofing/",
+      "sourceId": 18,
+      "sourceFile": "src/content/pages/commercial-roofing/index.md",
+      "title": "Commercial Roofing in Columbus, OH",
+      "seoTitle": "Commercial Roofing Columbus, OH | Roof King",
+      "description": "Commercial roofing in Columbus, OH. Roof King repairs and replaces TPO, EPDM and metal roofs, with planning for drainage, rooftop equipment and building access.",
+      "expectedParagraphs": [
+        "Roof King & Restoration provides commercial roofing in Columbus for property owners and managers dealing with leaks, aging roof coverings and drainage problems. We offer commercial roof repair and replacement, Mule-Hide TPO and Mule-Hide EPDM systems, metal roofing, and commercial gutters. Start with the property address and the areas causing concern. We can discuss an assessment of your roof.",
+        "A roof leak above inventory or a tenant entrance needs a practical next step. Tell us where water is appearing, when it started and how the building is used. We can discuss an assessment and the work that may be needed. If water is entering now, mention that when you call so we can discuss current availability.",
+        "Damage at a seam, flashing or roof edge may be repairable when the surrounding roof remains sound. Our commercial roof repair page explains leak investigation, compatible materials and the conditions that can make a repair practical.",
+        "Recurring leaks in several areas or deterioration beneath the covering can require a broader plan. Explore commercial roof replacement for removal, retained layers, insulation and installation planning.",
+        "The material needs to fit the roof's slope, construction and drainage. Compare our commercial roof types, including Mule-Hide membrane options and metal roofing.",
+        "Overflow at an entrance or water running down a wall may involve the gutter, outlet, support or discharge point. See commercial gutter repair and replacement for the exterior drainage work.",
+        "The main roof surface is part of a larger assembly. Equipment curbs, wall flashings, perimeter edges and drainage outlets need attention alongside the covering. A leak seen inside may begin somewhere else on the roof.",
+        "For an existing leak, the starting information is its location, timing and repair history. For a replacement, the condition of retained materials matters too. The assessment should distinguish visible findings from conditions that need further investigation.",
+        "That distinction helps you understand what a proposed repair addresses and what may remain unresolved. Specialized testing belongs in the estimate when it is included; an ordinary visual inspection should not be described as a moisture survey.",
+        "After wind, hail or falling debris, note the affected areas and whether water is entering. Keep staff away from unsafe ceilings and roof areas. Our commercial storm damage page explains assessment and documentation. Insurance coverage is determined under the policy and claim review; a roofing estimate does not establish coverage.",
+        "Tenant entrances, delivery routes and rooftop equipment affect where roofing work can take place. Roof King discusses those needs before scheduling. Identify the property contact who can arrange access and approve changes.",
+        "A warehouse loading area may need a different arrangement from an office entrance. Discuss material staging, debris removal, parking restrictions and access to mechanical equipment. If an HVAC unit needs disconnection or relocation, responsibility for that work needs to be agreed with the appropriate trade.",
+        "Work sequencing also depends on weather and the roof areas being opened. We discuss these limits rather than promise that every business can operate without interruption.",
+        "Roof area is one cost factor. Access height, removal of old materials, the condition of insulation and decking, equipment connections and drainage repairs also affect the work. Two proposals for the same roof can include different preparation and details.",
+        "We discuss the roof areas involved and the materials being considered. The written estimate should identify included work, exclusions and how additional repairs are approved if concealed damage becomes visible. Keep the accepted estimate and later changes with your building records.",
+        "Manufacturer product coverage and contractor workmanship coverage are separate. Review the written terms for your commercial project before approval.",
+        "Different roof sections may need different work. Their condition, connections and drainage need assessment so the proposed work addresses how the sections meet.",
+        "Records are useful if you have them. You can begin with the property address, the problem and a contact who can arrange access.",
+        "We offer Mule-Hide TPO, Mule-Hide EPDM and metal roofing. We do not offer PVC.",
+        "We can discuss both the roof and exterior gutters. The estimate needs to identify the connections included and any separate piping, grading or equipment work.",
+        "Tell Roof King the property address, what is happening at the roof and any tenant or operating restrictions. We will discuss the next step toward an assessment. You do not need to identify the roof material before calling."
+      ],
+      "components": [
+        "LandingHero",
+        "ServicePaths",
+        "ServiceContentBand",
+        "SectionPhotoGallery",
+        "CredentialsSection",
+        "FAQSection",
+        "QuoteExperience"
+      ],
+      "preservedSectionIds": [
+        "service-copy-18-2",
+        "service-copy-18-3",
+        "service-copy-18-4"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-18-3",
+        "pairs": [
+          {
+            "image": "/media/service-review-01/commercial-access-planning-1200.webp",
+            "heading": "Entrances, Deliveries and the Property Contact",
+            "topics": [
+              "Entrances, Deliveries and the Property Contact"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-roof-walkway-1200.webp",
+            "heading": "Rooftop Equipment and Staging",
+            "topics": [
+              "Rooftop Equipment and Staging"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+            "heading": "Work Sequencing and Weather Protection",
+            "topics": [
+              "Work Sequencing and Weather Protection"
+            ]
+          }
+        ]
+      },
+      "route": "/commercial-roofing/"
+    },
+    {
+      "path": "/commercial-roofing/repair/",
+      "sourceId": 20,
+      "sourceFile": "src/content/pages/commercial-roofing/repair/index.md",
+      "title": "Commercial Roof Repair in Columbus, OH",
+      "seoTitle": "Commercial Roof Repair Columbus, OH | Roof King",
+      "description": "Commercial roof repair in Columbus, OH. Discuss leaks, damaged seams, flashing and drainage connections with Roof King. Request an assessment of your building.",
+      "expectedParagraphs": [
+        "Roof King & Restoration provides commercial roof repair in Columbus for leaks and damaged roof details. We assess the affected roof area and discuss a repair matched to the existing materials and their condition. Tell us if water is entering now, where it appears inside and whether the same area has been repaired before.",
+        "Water above a work area or stockroom can become a building-management problem quickly. Call (614) 490-0123 to discuss the roof concern and current availability. Keep staff clear of unsafe areas while access and the next steps are arranged.",
+        "A ceiling stain identifies where water has become visible. It may not identify the opening in the roof. Leak history, nearby rooftop details and the route water can take through the building all help guide the assessment.",
+        "Tell us whether the leak appears during every rain, follows wind from a particular direction or has returned after earlier work. If you have photographs, previous estimates or warranty records, keep them available. These clues help focus the investigation.",
+        "The repair plan needs to distinguish an observed defect from a suspected cause. When the extent of moisture below the surface is uncertain, further investigation may be needed before the repair can be defined.",
+        "Open seams and damaged membrane areas need a repair matched to the existing roof. TPO and EPDM use different joining methods. The surrounding material must be suitable for the repair to connect to it.",
+        "HVAC curbs, pipe penetrations, hatches and wall flashings interrupt the roof surface. Water entry at one of these details may involve its flashing even when the equipment itself works normally. Equipment repair or disconnection needs separate responsibility where required.",
+        "An edge problem can involve the covering, metal connection or adjoining outlet. We consider those details together. Where overflow or exterior discharge is involved, explore our commercial gutter services.",
+        "Roof King offers Mule-Hide TPO and Mule-Hide EPDM products and commercial metal roofing. The product originally installed on your building needs identification before selecting repair materials. Surface color alone is not enough.",
+        "For a membrane repair, compatibility includes the patch, preparation and seam or flashing materials. For metal, the panel connection and adjoining flashing need attention. See the commercial roof materials guide for the systems we offer.",
+        "Existing warranty documents can affect which work is permitted and who may perform it. Provide those documents before repairs are authorized so any applicable requirements can be reviewed.",
+        "A confined defect in a roof that remains serviceable may support a localized repair. Repeated leaks across separate areas, deteriorated covering or wet materials below it can change that recommendation.",
+        "The condition of the surrounding roof matters as much as the size of the visible opening. Covering a defect leaves other problems unresolved if the adjoining materials cannot hold the repair or drainage continues to contribute to water entry.",
+        "We can discuss when a broader assessment makes sense. Our commercial roof replacement page explains the decisions involved in renewing the assembly.",
+        "Before scheduling, identify the roof access point, tenant entrances and any sensitive equipment or stock below the work. Discuss how crews and materials can reach the affected roof area and which routes may need restrictions.",
+        "The estimate should identify the repair location, preparation, products and adjoining details included. It should also explain cleanup, exclusions and how further damage will be handled if it becomes visible during the work.",
+        "Repair cost depends on access, the damaged assembly and the work required to connect the repair to sound material. Specialist moisture testing is included only if the estimate names it. Temporary protection and permanent repair can involve separate work.",
+        "Review the workmanship terms that apply to the commercial repair and any separate manufacturer requirements. A published warranty on another kind of installation does not establish coverage for this job.",
+        "Note the interior location, when water appears and what earlier repairs addressed. Photographs and roof records are useful. Keep staff off the roof while a safe assessment is arranged.",
+        "No. The roof and adjoining details need assessment. A stain alone does not show the cause, extent of damage or condition of the rest of the assembly.",
+        "That depends on the written warranty and its requirements. Share the documents before authorizing work so the proposed repair can be reviewed against them.",
+        "The applicable workmanship coverage depends on the commercial job and written terms. Review those terms rather than assuming a five-year period applies to every repair.",
+        "Call with the property address, leak location and access contact. Tell us if water is entering now so we can discuss availability and the next steps for your building."
+      ],
+      "components": [
+        "LandingHero",
+        "ServiceArticle",
+        "ServiceContentBand",
+        "SectionPhotoGallery",
+        "CredentialsSection",
+        "FAQSection",
+        "QuoteExperience"
+      ],
+      "preservedSectionIds": [
+        "service-copy-20-2",
+        "service-copy-20-3",
+        "service-copy-20-4",
+        "service-copy-20-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-20-2",
+        "pairs": [
+          {
+            "image": "/media/service-review-03/membrane-seam-puncture-1200.webp",
+            "heading": "Membrane Seams and Punctures",
+            "topics": [
+              "Membrane Seams and Punctures"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-curb-flashing-1200.webp",
+            "heading": "Rooftop Equipment and Wall Connections",
+            "topics": [
+              "Rooftop Equipment and Wall Connections"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-roof-drain-1200.webp",
+            "heading": "Perimeters and Drainage Outlets",
+            "topics": [
+              "Perimeters and Drainage Outlets"
+            ]
+          }
+        ]
+      },
+      "route": "/commercial-roofing/repair/"
+    },
+    {
+      "path": "/commercial-roofing/replacement/",
+      "sourceId": 21,
+      "sourceFile": "src/content/pages/commercial-roofing/replacement/index.md",
+      "title": "Commercial Roof Replacement in Columbus, OH",
+      "seoTitle": "Commercial Roof Replacement Columbus, OH | Roof King",
+      "description": "Commercial roof replacement in Columbus, OH with Mule-Hide TPO, EPDM and metal options. Discuss existing layers, insulation, drainage and access with Roof King.",
+      "expectedParagraphs": [
+        "Roof King & Restoration provides commercial roof replacement in Columbus using Mule-Hide TPO and EPDM systems and commercial metal roofing. We assess the existing roof and discuss which layers need removal and which may remain. The plan also addresses drainage, roof edges and equipment connections. Request an assessment before deciding on a replacement system.",
+        "Repeated repairs can leave you uncertain about what the roof needs next. The decision should account for the covering, underlying materials and drainage, as well as the cost and disruption of the work. A replacement plan starts with those conditions.",
+        "A single leak can sometimes be repaired. A roof with deterioration across several areas, recurring failures or damaged materials beneath the covering may need more extensive work. Roof age alone does not describe the condition of the whole assembly.",
+        "We review the problem areas and available roof records. Where concealed conditions remain uncertain, the proposal needs to explain how further investigation or additional repairs will be handled.",
+        "If the damage is confined and the surrounding roof remains serviceable, explore commercial roof repair before committing to replacement. The recommendation should explain why the proposed work fits the findings.",
+        "A single-ply membrane option for suitable low-slope assemblies. Its specification needs to include the membrane, attachment and adjoining details. Explore Mule-Hide TPO for product information.",
+        "A synthetic-rubber membrane option for low-slope roofing. Product selection and installation details need to suit the proposed assembly. Review Mule-Hide EPDM.",
+        "Metal roofing suitability depends on the panel system, slope and building configuration. A metal roof covering and metal edge trim serve different purposes. The estimate needs to name the proposed roofing system.",
+        "Our commercial roof types guide compares these options in more detail. PVC is not among our offered commercial systems.",
+        "Removing the old roof exposes materials that may need attention before the new covering is installed. Wet insulation, damaged decking and unsuitable connections can affect both the installation and its cost.",
+        "A recover approach retains existing roof materials beneath a new system. It needs evaluation of the existing assembly, moisture, compatibility and applicable requirements. It is not an automatic way to avoid preparation.",
+        "The estimate should identify which layers are removed or retained, how damaged areas are addressed and which conditions cannot be confirmed until work begins. Additional work needs a documented approval process.",
+        "Installing a new covering leaves a drainage problem unresolved if water still collects in the wrong place. Discuss roof outlets, low areas, scuppers and perimeter connections as part of the replacement assessment. For exterior gutter work, see commercial gutters and downspouts.",
+        "HVAC curbs, vents, hatches and walls need properly planned connections. If equipment needs moving or disconnecting, agree which contractor handles it and how it affects the building.",
+        "Tenant entrances and delivery routes also shape the work sequence. Discuss staging, noise, debris removal and temporary restrictions before scheduling. Some operations may need adjustment while exposed roof sections are being worked on.",
+        "City of Columbus guidance for commercial reroofing addresses insulation and inspections when specified existing roof materials are exposed. That can affect the proposed assembly and the order of work.",
+        "The project needs review against the requirements that apply to its address and work. Columbus guidance does not establish requirements for every neighboring jurisdiction. Identify responsibility for the application, required documents and inspection coordination before construction.",
+        "Read the City of Columbus commercial reroofing guidance for the city's published instructions.",
+        "Commercial reroofing cost depends on the roof area, access, removal, retained materials and the assembly being installed. Insulation, damaged decking, equipment details and drainage work can change the price substantially.",
+        "The written proposal should identify the roof sections, proposed products, preparation and included details. Review exclusions and the process for approving concealed-condition repairs before signing.",
+        "At completion, retain the accepted estimate, approved changes, product information and applicable inspection and warranty documents. Manufacturer coverage and workmanship coverage are separate; the written terms for the selected project control.",
+        "Possibly. Its condition, drainage and connections to retained sections need assessment. The proposal should identify the exact roof area and how the new and existing systems will meet.",
+        "The estimate should explain how concealed damage will be documented and how additional repairs and costs are approved. Ask about that procedure before work begins.",
+        "The impact depends on the building and work. Discuss entrances, deliveries, sensitive areas and equipment needs before scheduling so restrictions can be planned.",
+        "Timing depends on the roof area, assembly, removal, access, weather and required inspections. Discuss a project-specific sequence after the building has been assessed.",
+        "Review the workmanship terms for your commercial installation and the separate manufacturer documents. Coverage depends on the products, installation and applicable written conditions.",
+        "Share the building address, the problem areas and any roof records you have. We can discuss an assessment and the practical options for your building before a system is selected."
+      ],
+      "components": [
+        "LandingHero",
+        "ServiceArticle",
+        "ServiceContentBand",
+        "SectionPhotoGallery",
+        "CredentialsSection",
+        "FAQSection",
+        "QuoteExperience"
+      ],
+      "preservedSectionIds": [
+        "service-copy-21-2",
+        "service-copy-21-3",
+        "service-copy-21-4",
+        "service-copy-21-7"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-21-3",
+        "pairs": [
+          {
+            "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+            "heading": "Removal, Insulation and Decking",
+            "topics": [
+              "Removal, Insulation and Decking"
+            ]
+          },
+          {
+            "image": "/media/client-photography/lowRoof-1200.webp",
+            "heading": "Recover Suitability and Retained Materials",
+            "topics": [
+              "Recover Suitability and Retained Materials"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-roof-drain-1200.webp",
+            "heading": "Drainage and Perimeter Connections",
+            "topics": [
+              "Drainage and Perimeter Connections"
+            ]
+          }
+        ]
+      },
+      "route": "/commercial-roofing/replacement/"
+    },
+    {
+      "path": "/commercial-roofing/roof-types/",
+      "sourceId": 22,
+      "sourceFile": "src/content/pages/commercial-roofing/roof-types/index.md",
+      "title": "Commercial Roof Types in Columbus, OH",
+      "seoTitle": "Commercial Roof Types Columbus, OH | TPO, EPDM & Metal",
+      "description": "Compare commercial roof types in Columbus, OH. Explore Mule-Hide TPO, EPDM and metal roofing with Roof King, including seams, roof assemblies and drainage.",
+      "expectedParagraphs": [
+        "Roof King & Restoration offers Mule-Hide TPO, Mule-Hide EPDM and metal roofing for commercial buildings in Columbus. Compare the covering, supporting layers and connections around your roof design, existing construction and drainage. Installation needs to account for each part.",
+        "TPO and EPDM are membrane systems used on low-slope roofs. Metal roofing needs a panel system and roof configuration suited to the building. An assessment helps identify the existing roof and the options worth comparing.",
+        "This is a starting comparison. The proposal needs to identify the products and installation method for your roof.",
+        "For an owner comparing proposals, the important distinction is the complete assembly: product, attachment, supporting layers and flashings. A membrane name by itself leaves those decisions open.",
+        "Explore Mule-Hide Standard TPO for manufacturer-backed product information. Roof King can discuss which proposed assembly fits the building and project.",
+        "EPDM is a synthetic-rubber roofing membrane. Mule-Hide's Standard EPDM is listed for fully adhered and ballasted systems. That does not mean every EPDM product or roof uses the same installation method.",
+        "Review Mule-Hide Standard EPDM and compare the assembly proposed for your roof. Existing warranty records are useful when the work involves a repair or retained materials.",
+        "A metal roof covering needs a panel type and fastening arrangement suited to the roof's geometry. Slope, penetrations and transitions affect the design. Confirm the actual system in the proposal.",
+        "Roof-edge metal is a different part of the assembly. Mule-Hide's TPO-coated metal is used for perimeter profiles that connect with a TPO membrane; it is not a standing-seam roof panel range.",
+        "Our Mule-Hide roof-edge metal collection covers these perimeter products. Roof King's metal roofing offering should be discussed separately from those edge details.",
+        "Our commercial roof replacement page covers removal, retained layers and installation planning. If a confined defect is the main concern, start with commercial roof repair.",
+        "A roof with several levels or both sloped and low-slope sections may need different approaches at each area. Connections between those areas deserve the same attention as the main covering.",
+        "The deck supports the roof assembly. Insulation, cover boards and attachment materials have their own jobs beneath the surface. Flashings connect the covering to equipment, walls and perimeter details.",
+        "When considering replacement, determine whether existing materials can remain and how damaged or wet areas will be addressed. Choosing a new membrane does not settle those questions.",
+        "TPO sheets form a membrane roof with heat-welded seams. The membrane works with the insulation or other suitable substrate beneath it and the details around its perimeter.",
+        "Compatible seam and flashing products matter when installing or repairing EPDM. The existing membrane and proposed work need identification before materials are selected.",
+        "Consider how water reaches outlets and what happens around rooftop equipment. The choice of membrane or panel does not correct a separate drainage problem by itself.",
+        "Occupied-building needs matter as well. Discuss roof access, tenant entrances and equipment servicing while comparing the installation options. The proposed work needs to account for those constraints.",
+        "Price depends on preparation, removal, underlying repairs and installation details as well as the visible covering. Compare proposals for the same roof areas and included work before drawing conclusions from the material name.",
+        "Manufacturer product coverage and contractor workmanship coverage are separate. Warranty eligibility and terms depend on the actual installation and documents. A product page listing available system warranties does not establish the coverage Roof King can provide on an individual job.",
+        "No. We offer Mule-Hide TPO, Mule-Hide EPDM and metal roofing.",
+        "A photograph can provide clues, but records and an assessment are needed to establish the existing material and relevant details. Color alone is not enough.",
+        "No. Roof geometry, existing construction, drainage, access and the proposed installation affect suitability. Compare complete assemblies for your building.",
+        "No. Perimeter metal and the roof covering have different functions. A roof-edge product is not evidence that a particular metal panel roof system is offered.",
+        "Installation also depends on removal, preparation, building access, weather and the details being renewed. A schedule needs to reflect the individual project.",
+        "Tell Roof King what you know about the existing roof and what you want the project to address. Bring roof records if available. We can discuss an assessment and the systems suited to the proposed work."
+      ],
+      "components": [
+        "LandingHero",
+        "ServiceArticle",
+        "ServiceTopicGroups",
+        "MaterialInstallation",
+        "ServiceContentBand",
+        "SectionPhotoGallery",
+        "CredentialsSection",
+        "FAQSection",
+        "QuoteExperience"
+      ],
+      "preservedSectionIds": [
+        "service-copy-22-2",
+        "service-copy-22-3",
+        "service-copy-22-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-22-3",
+        "pairs": [
+          {
+            "image": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+            "heading": "Deck, Insulation and Retained Layers",
+            "topics": [
+              "Deck, Insulation and Retained Layers"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/membrane-seam-puncture-1200.webp",
+            "heading": "Membrane Seams and Compatible Materials",
+            "topics": [
+              "Membrane Seams and Compatible Materials"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-roof-drain-1200.webp",
+            "heading": "Drainage, Equipment and Building Access",
+            "topics": [
+              "Drainage, Equipment and Building Access"
+            ]
+          }
+        ]
+      },
+      "route": "/commercial-roofing/roof-types/"
+    },
+    {
+      "path": "/commercial-roofing/gutters/",
+      "sourceId": 19,
+      "sourceFile": "src/content/pages/commercial-roofing/gutters/index.md",
+      "title": "Commercial Gutters and Downspouts in Columbus, OH",
+      "seoTitle": "Commercial Gutters Columbus, OH | Roof King",
+      "description": "Commercial gutters in Columbus, OH. Roof King installs, repairs and replaces gutters and downspouts, with attention to outlets, supports and discharge routes.",
+      "expectedParagraphs": [
+        "Roof King & Restoration installs, repairs and replaces commercial gutters and downspouts in Columbus. We assess the roof-to-gutter connection, affected gutter runs and where water discharges. If overflow is sending water across an entrance or down a wall, tell us where it happens and when you first noticed it.",
+        "A drainage problem can affect tenant entrances, loading areas and exterior finishes. We follow the water from the roof edge through the gutter and downspout to the discharge point. We discuss the gutter work and any related issues that need separate attention.",
+        "A leaking joint, loose attachment or damaged section may be repairable when the adjoining gutter and supports remain suitable. The assessment needs to consider what caused the failure and whether the repair can connect to sound material.",
+        "More extensive deterioration or repeated problems may make replacement worth considering. A new run still needs suitable support, outlets and discharge arrangements.",
+        "Roof King can discuss commercial gutter repair or replacement for the affected elevations. Identify those areas in the estimate so the work is clear on a building with several rooflines.",
+        "Debris may restrict the outlet, while another obstruction can sit farther down the route. The location where water spills over does not always identify where the restriction begins.",
+        "The roof area feeding a gutter and the concentration of runoff affect the arrangement needed. Increasing gutter size alone may leave a restricted outlet or downspout unresolved.",
+        "Sagging, loose attachments or deterioration behind the gutter can affect its alignment and connection to the roof edge. Those conditions need attention before installing a new run.",
+        "A gutter can collect roof water and still discharge it across a walkway or beside the building. Underground piping and grading may require a separate trade. The estimate needs to identify where Roof King's gutter work ends.",
+        "Some low-slope roofs discharge through scuppers in a parapet wall or into internal drains. These systems differ from an external gutter and downspout.",
+        "Replacing an exterior gutter will not correct a separate internal-pipe problem. We discuss whether the concern is at the roof covering, outlet, gutter connection or farther along the drainage route.",
+        "For related roof work, explore commercial roofing services. If the covering or flashing is damaged, our commercial roof repair page explains the assessment.",
+        "The estimate should identify the material, size, profile, finish and attachment method being proposed. Those choices need to fit the contributing roof area and supporting construction.",
+        "Seamless configurations may suit some commercial rooflines. Their suitability depends on the run, fabrication and outlet arrangement. We discuss the available option for the property rather than assume every building needs the same gutter.",
+        "Gutter protection is a separate decision. A guard must fit the gutter and roof edge, and outlets and downspouts still need inspection. Protection products do not eliminate maintenance.",
+        "Work at the roof edge may require ladders, lifts and material staging near occupied areas. Tell us which entrances, parking spaces or delivery routes need to remain usable.",
+        "The work sequence depends on the building, equipment and repairs involved. Discuss temporary restrictions with the property contact before scheduling so tenants and staff can be informed.",
+        "If roofing, fascia or other exterior repairs are planned, identify which contractor handles each connection and when that work needs to happen. Coordination matters where new gutter supports depend on repairs behind the existing run.",
+        "Project cost depends on the gutter runs, building height, access, material and supporting repairs. Outlet and downspout arrangements also affect the work.",
+        "Review the elevations included, removal and disposal, roof-edge repairs, discharge locations and exclusions. Agree how additional damage will be documented and approved if it becomes visible after removal.",
+        "Ask for the workmanship terms applicable to the commercial gutter project and any separate product documents. A five-year term advertised for other installations should not be assumed to cover every commercial repair or replacement.",
+        "No. The arrangement depends on the roof area, runoff concentration, outlets and downspouts. The whole route needs evaluation.",
+        "They may help when the gutter or its discharge is causing the problem. Piping, grading or another site condition can require separate investigation and work.",
+        "No. Guards may reduce some debris entry, but the gutter, outlets and downspouts still need inspection and maintenance.",
+        "Assess both systems. Coordinating related work may be useful where roof edges and gutter supports connect, but replacing the roof does not automatically mean every gutter needs replacement.",
+        "Photographs from a safe location can help explain the concern. They do not establish the condition of hidden supports or the full drainage route.",
+        "Contact Roof King with the property address, affected gutter runs and any access restrictions. Tell us where overflow or discharge is causing trouble so we can discuss an assessment and the next steps."
+      ],
+      "components": [
+        "LandingHero",
+        "ServiceArticle",
+        "ServiceContentBand",
+        "SectionPhotoGallery",
+        "CredentialsSection",
+        "FAQSection",
+        "QuoteExperience"
+      ],
+      "preservedSectionIds": [
+        "service-copy-19-2",
+        "service-copy-19-3",
+        "service-copy-19-4",
+        "service-copy-19-6",
+        "service-copy-19-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-19-2",
+        "pairs": [
+          {
+            "image": "/media/service-review-03/commercial-gutter-run-1200.webp",
+            "heading": "Restricted Outlets and Runoff Capacity",
+            "topics": [
+              "Restricted Outlets or Downspouts",
+              "Runoff and System Capacity"
+            ]
+          },
+          {
+            "image": "/media/gutter-details/downspout-discharge-1200.webp",
+            "heading": "Discharge Beyond the Building",
+            "topics": [
+              "Discharge Beyond the Building"
+            ]
+          },
+          {
+            "image": "/media/service-review-03/commercial-gutter-support-1200.webp",
+            "heading": "Supports and Roof Edges",
+            "topics": [
+              "Supports and Roof Edges"
+            ]
+          }
+        ]
+      },
+      "route": "/commercial-roofing/gutters/"
+    }
+  ],
+  "source": {
+    "url": "http://127.0.0.1:8769/commercial-roofing-review.html#replacements",
+    "sha256": "9c0c14796806cc36fc54f83d7964411d29b8ea81153b5381381546812d935fb6"
+  }
+}

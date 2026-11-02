@@ -9,16 +9,17 @@ import LocationServiceLinks from '../components/LocationServiceLinks.astro';
 import QuoteSection from '../components/QuoteSection.astro';
 import {serviceAreaDirectory} from '../data/service-area-directory';
 import {hero,quote} from '../data/home.json';
+const areaHeroImage='/media/client-gallery/an-overhead-view-of-the-neighborhood-37a5439c4c-1280.webp';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/home-interactions.css';
 import '../styles/services.css';
 import '../styles/service-areas.css';
 ---
-<DocumentLayout title="Ohio service areas | Roof King & Restoration" description="Explore Roof King’s Ohio service-area map and browse local roofing, siding, storm damage and exterior services by community." canonicalPath="/service-areas/">
+<DocumentLayout title="Ohio service areas | Roof King & Restoration" description="Explore Roof King’s Ohio service-area map and browse local roofing, siding, storm damage and exterior services by community." canonicalPath="/service-areas/" image={areaHeroImage}>
  <SiteHeader client:load/>
  <main id="content" class="rk-site-main rk-service-areas-page">
-  <PageHero variant="resource" hero={{...hero,eyebrow:'Ohio service areas',title:'Exterior care, across Ohio.',description:'Roofing, siding, gutters and storm damage repairs for the communities we serve. Find your location and explore the services available for your property.',bookingUrl:'#service-area-directory',bookingLabel:'Find your community',note:'Browse the map and local service pages below.'}}/>
+  <PageHero variant="resource" hero={{...hero,image:areaHeroImage,eyebrow:'Ohio service areas',title:'Exterior care, across Ohio.',description:'Roofing, siding, gutters and storm damage repairs for the communities we serve. Find your location and explore the services available for your property.',bookingUrl:'#service-area-directory',bookingLabel:'Find your community',note:'Browse the map and local service pages below.'}}/>
   <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Service areas'}]}/>
   <section id="service-area-directory" class="rk-area-directory-band" aria-labelledby="area-directory-title" data-area-directory>
    <div class="rk-section-inner rk-area-directory-layout">

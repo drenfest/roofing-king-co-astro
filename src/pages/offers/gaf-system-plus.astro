@@ -7,6 +7,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CardSection from '../../components/CardSection.astro';
 import MediaContentRow from '../../components/MediaContentRow.astro';
 import WarrantyComparison from '../../components/WarrantyComparison.astro';
+import HomeImage from '../../components/HomeImage.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ResourceLinks from '../../components/ResourceLinks.astro';
 import QuoteSection from '../../components/QuoteSection.astro';
@@ -31,13 +32,28 @@ const image='/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.
    {title:'Manufacturer-backed coverage',description:'System Plus is offered through eligible GAF contractors and registered to the property owner.',href:gafWarrantySources.guide}
   ]}}/></div>
   <MediaContentRow section={{type:'media-row',id:'system-plus-eligibility',eyebrow:'Products and installation',title:'Choose the system and the coverage together',image:{src:'/media/wordpress/a29973eff5e6-b99598e0-ed16-446e-b846-c3afb0e52f3e.jpg',alt:'GAF Timberline HDZ shingle bundles and rolls of roofing underlayment on pallets'},body:[{tag:'p',children:[{text:'System Plus requires qualifying GAF shingles, at least three qualifying accessories and an eligible GAF-certified contractor.'}]},{tag:'p',children:[{text:'Labor paid to remedy a covered product defect is different from protection against installation errors. System Plus does not include installation-error coverage. Roof King’s written workmanship terms are separate.'}]}],links:[{label:'GAF Master Elite benefits',href:'/roofing/gaf/master-elite/'},{label:'Roof King workmanship terms',href:'/offers/5-year-workmanship-warranty/'}]}}/>
-  <WarrantyComparison id="gaf-warranty-comparison" eyebrow="Know the difference" title="Compare GAF manufacturer protection" description="If manufacturer-backed installation-error protection matters to you, discuss Silver Pledge or Golden Pledge alongside System Plus." columns={['Manufacturing defects','Installation errors','Eligible contractor']} rows={[
+  <WarrantyComparison id="gaf-warranty-comparison" eyebrow="Know the difference" title="Compare GAF manufacturer protection" description="Compare manufacturing-defect coverage with protection against installation errors, then choose the warranty for your qualifying GAF roof." columns={['Manufacturing defects','Installation errors','Eligible contractor']} rows={[
    {label:'System Plus',highlight:true,cells:['Covered under its terms','Not covered','GAF Certified, Certified Plus or Master Elite']},
    {label:'Silver Pledge',cells:['Covered under its terms','Covered under its terms','GAF Certified Plus or Master Elite']},
-   {label:'Golden Pledge',cells:['Covered under its terms','Covered under its terms','GAF Master Elite']}
-  ]} note="Product, installation, ownership and registration conditions apply. The issued warranty defines the coverage, duration and exclusions." sourceHref={gafWarrantySources.guide} sourceLabel="Compare GAF warranties"/>
+   {label:'Golden Pledge',cells:['Covered under its terms','Covered under its terms','GAF Master Elite® — Roof King qualifies']}
+  ]} note="Product, installation, ownership and registration conditions apply. The issued warranty defines the coverage, duration and exclusions." sourceHref={gafWarrantySources.guide} sourceLabel="Compare GAF warranties">
+   <aside slot="contractor" class="rk-warranty-certification" aria-labelledby="warranty-master-elite-title">
+    <HomeImage src="/media/wordpress/88f26d1d1f40-masterelite.png" alt="GAF Master Elite certification" width={88} height={88} sizes="88px"/>
+    <div><h3 id="warranty-master-elite-title">Roof King is a GAF Master Elite® contractor</h3><p>That gives you access to Golden Pledge® Limited Warranty coverage on qualifying GAF roofing systems, including GAF-backed protection against covered installation errors.</p><a href="/roofing/gaf/master-elite/" title="Explore Roof King’s GAF Master Elite certification and warranty benefits">See the Master Elite® advantage <span aria-hidden="true">→</span></a></div>
+   </aside>
+  </WarrantyComparison>
   <section class="rk-warranty-documents" aria-labelledby="warranty-documents-title"><div class="rk-section-inner rk-warranty-document-layout"><div><p class="rk-home-eyebrow">Keep the written details</p><h2 id="warranty-documents-title">Your warranty documents matter</h2><p>Keep your proposal, product list, paid invoice, registration and issued warranty together.</p></div><ResourceLinks tiles links={[{label:'System Plus sample warranty (PDF)',href:gafWarrantySources.sample,icon:'brand'},{label:'GAF warranty comparison',href:gafWarrantySources.guide,icon:'brand'},{label:'Roof King workmanship coverage',href:'/offers/5-year-workmanship-warranty/',icon:'roof'},{label:'Storm damage assessment',href:'/storm-damage/',icon:'roof'}]}/></div></section>
   <FAQSection section={systemPlusFAQ}/>
   <QuoteSection quote={{eyebrow:'Plan your GAF roof',title:'Discuss your roof and warranty options',description:'Tell us about your home and the roofing work you are considering. We can discuss products, installation and the warranty offered for your project.'}}/>
  </main><SiteFooter/>
 </DocumentLayout>
+
+<style>
+ .rk-warranty-certification{display:grid;grid-template-columns:88px minmax(0,1fr);align-items:center;gap:1.5rem;margin:0 0 2rem;padding:1.5rem 1.75rem;background:#fffdf9;border-left:3px solid #fe6600;}
+ .rk-warranty-certification :global(img){display:block;width:88px;height:88px;object-fit:contain;}
+ .rk-warranty-certification h3{margin:0 0 .65rem;color:#242321;font-size:clamp(1.15rem,1.8vw,1.4rem);line-height:1.35;}
+ .rk-warranty-certification p{margin:0;max-width:84ch;color:#48423b;font-size:.92rem;line-height:1.75;}
+ .rk-warranty-certification a{display:inline-flex;align-items:center;gap:.75rem;margin-top:.8rem;color:#a94400;font-size:.82rem;font-weight:600;text-decoration:none;text-underline-offset:4px;}
+ .rk-warranty-certification a:hover{text-decoration:underline;}.rk-warranty-certification a:focus-visible{outline:2px solid #b44b00;outline-offset:4px;}
+ @media(max-width:600px){.rk-warranty-certification{grid-template-columns:1fr;gap:1rem;padding:1.25rem;}.rk-warranty-certification :global(img){width:72px;height:72px;}.rk-warranty-certification h3{font-size:1.15rem;}}
+</style>

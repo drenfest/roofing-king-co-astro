@@ -1909,12 +1909,8 @@
       "previousDetailedParagraphs": 35,
       "decisionSections": [
         {
-          "title": "What to include when you request an exterior estimate in Dublin",
-          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
-        },
-        {
-          "title": "When roofing and siding work should be coordinated",
-          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+          "title": "Preparing for your Dublin property inspection",
+          "body": "Share your Dublin property address and identify the roof slopes, wall elevations, gutter runs or windows you want evaluated. Note active leaks, access concerns and work already completed. After a storm, include the date and photographs taken safely from the ground. Keep clear of loose materials and leave roof access to the inspection team."
         }
       ],
       "addedFAQs": [
@@ -1976,18 +1972,70 @@
         "location-dublin-oh-planning"
       ],
       "hero": "If you’re planning roofing, siding or exterior work in Dublin, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection. From Historic Dublin to homes elsewhere along the Scioto corridor and beyond, roofing and siding choices should fit the building’s materials and proportions.",
-      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Dublin property. The proposal should identify the affected areas, materials and next steps. From Historic Dublin to homes elsewhere along the Scioto corridor and beyond, roofing and siding choices should fit the building’s materials and proportions. We bring storm repair, gutters and other exterior services into the same project conversation.",
-      "closing": [
-        {
-          "tag": "p",
-          "children": [
-            {
-              "text": "Tell Roof King which roofing, siding or other exterior areas at your Dublin property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
-            }
-          ]
-        }
+      "openingIntroduction": "Roof King & Restoration reviews roofing, siding, storm damage and related exterior work for Dublin homes and businesses. Explore the services below to find repairs, replacement options and materials for your property.",
+      "closing": "Arrange an inspection of your Dublin home or commercial property. Call our team or choose a time using the online calendar.",
+      "expectedParagraphs": [
+        "If you’re planning roofing, siding or exterior work in Dublin, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection. From Historic Dublin to homes elsewhere along the Scioto corridor and beyond, roofing and siding choices should fit the building’s materials and proportions.",
+        "The details that deserve particular attention at your Dublin property include: multiple gables, masonry transitions and roof-to-gutter connections. When more than one exterior area needs work, identifying these connections early helps coordinate materials and installation.",
+        "Where a lower roof meets siding, the flashing belongs in the repair plan for both surfaces. Replacing one finish should not leave a failed connection hidden behind the other. We discuss the repair sequence so roofing and wall work meet correctly.",
+        "New roofing and siding can meet the same fascia boards and gutter supports. If those areas are damaged, the preparation should be identified before new materials are fastened. Gutter outlets and downspouts are considered with the route water takes away from the house.",
+        "One storm can affect roofing, siding, trim and drainage differently. Documenting the areas together helps separate the repairs each material needs and coordinate the work around retained surfaces. Construction photos and a written estimate keep those decisions visible.",
+        "Your Dublin estimate should identify the areas being repaired or replaced, the materials being removed or retained and the proposed products. Roofing details can include tear-off, deck repairs, underlayment, flashing and ventilation. Siding details can include wall preparation, trim and flashing at openings. Storm repairs should identify the affected surfaces rather than rely on a general damage description.",
+        "Delivery, access, cleanup and how additional concealed repairs are approved also belong in the written plan. Product and workmanship coverage are separate; the applicable written terms should identify the protection for your installation.",
+        "Roof King offers the full service range for Dublin homeowners and property owners. Window replacement, deck work, attic insulation and painting can be discussed with roofing, siding or storm repairs when the projects share exterior details.",
+        "For a commercial or managed building in Dublin, access, occupants, rooftop equipment and drainage influence how work is organized. We discuss the building’s use and the affected roof or wall areas before defining the repairs or replacement installation.",
+        "For a Dublin roof with multiple gables, a chimney or an attached garage, we assess valleys and flashing with the condition of the covering. A focused repair may address one damaged connection; wider deterioration may support replacement. Shingle or metal choices are discussed with ventilation and roof-edge details so the work functions as a complete roof.",
+        "A repair can include replacing damaged shingles, correcting flashing or restoring a failed roof detail when the surrounding materials remain suitable. For replacement, we discuss removing the old covering, checking the deck and installing the new system with its underlayment, flashing and ventilation. The written estimate identifies the materials, preparation, installation and cleanup.",
+        "For your Dublin project, compare asphalt shingle profiles and colors or discuss whether a metal roof suits the building. GAF roofing and Master Elite information explain the manufacturer options and written warranty choices. Material availability, the exact products installed and the applicable terms are confirmed for the project.",
+        "Explore residential roofing services.",
+        "A Dublin exterior may combine siding with masonry, prominent window trim or a later addition. We review those boundaries before choosing profiles and colors. Replacement includes attention to backing, flashing and finishing around the cladding, including where a lower roof meets a wall.",
+        "Vinyl, engineered wood and fiber cement offer different appearances and installation details. We discuss panel exposure, texture, corner trim, soffit and fascia with the finishes that remain on the home. A siding replacement also includes the condition of the wall behind the panels and the flashing that directs water away from windows and roof junctions.",
+        "For a damaged area on your Dublin home, we assess the surrounding siding and whether the proposed profile and color will work beside it. More widespread deterioration may call for replacement. The recommendation explains the affected walls, preparation, trim and finishing so you can make a material decision with the installation in view.",
+        "Explore siding replacement and repair.",
+        "For a Dublin storm project, roofing, siding and gutters are documented by affected surface. Impacted or displaced materials can need different repairs on each elevation. The construction estimate explains those differences and how repaired areas reconnect to the sound portions of the exterior.",
+        "A storm inspection considers the roof covering, flashing, wall cladding and drainage together. Hail impact, wind displacement and water entry can require different repairs. We identify the affected materials and discuss whether localized repairs or replacement are appropriate for their condition.",
+        "Share the date of the storm, the areas affected and any active water entry at your Dublin property. Inspection photos and a written construction estimate help document the proposed repairs. If water is entering now, call our team to discuss the situation and current availability. Insurance coverage and claim decisions remain with the insurer.",
+        "Explore storm-damage inspections and repairs.",
+        "Roof King also serves commercial and managed properties in Dublin. A building with occupied units, rooftop equipment or a low-slope roof needs an installation plan that accounts for access, drainage and the people using the property.",
+        "We assess leaks and damaged roof details, then discuss repair or replacement options for the existing roof type. Roof penetrations, perimeter flashing and gutters are considered with the covering itself. The estimate identifies the work areas and the arrangements needed around occupants and building operations.",
+        "For a commercial or multi-unit building in Dublin, siding work should coordinate the appearance of the exterior with access to entries, windows and occupied areas. We discuss damaged elevations, the material being retained and how the replacement finish will connect to them.",
+        "The installation plan includes backing repairs, flashing at openings, trim and the transitions to roofing or masonry. Work areas, delivery and cleanup should be identified with the building’s day-to-day use in mind.",
+        "Gutters on your Dublin property need to collect runoff from the roof and carry it through the outlets and downspouts. Overflow may involve debris, damaged supports, unsuitable drainage or a roof-edge condition; replacing the visible gutter alone may not resolve it.",
+        "We assess the runs, corners, fascia and discharge points before discussing replacement. Seamless gutters reduce intermediate joints along straight runs. Gutter guards address debris entry, while the underlying gutter and downspout arrangement still needs to suit the roof.",
+        "Explore gutter installation and replacement.",
+        "Window replacement for a Dublin home should account for the opening, surrounding trim and the siding or masonry that will remain. We discuss the replacement configuration with the condition of the existing frame and the appearance of the elevation.",
+        "Installation includes the connections around the opening and finishing inside and outside. If siding work is also planned, coordinating those edges can help avoid leaving the same trim or flashing detail to be addressed in separate projects.",
+        "Explore window replacement.",
+        "For a deck at your Dublin home, we discuss the intended use, access from the house and the condition of any structure being kept. A worn surface and a damaged support can require different work, so refinishing, repair and replacement are considered separately.",
+        "Installation planning includes the deck-to-house connection, boards, railings, stairs and accessories. Where exterior wall work meets an existing deck, we discuss those connections before replacing the adjacent siding or trim.",
+        "For a Dublin home with uneven comfort or insulation concerns, the attic assessment considers the existing material, access and conditions around the roof space. Adding insulation should be coordinated with air leakage and the ventilation paths that need to remain open.",
+        "We discuss the proposed work with the condition of the attic rather than assuming more insulation will resolve every comfort or winter roof issue. If roofing or roof-edge ice is also a concern, those observations can be reviewed together.",
+        "Exterior painting in Dublin starts with the surfaces being retained: their condition, preparation and compatibility with the proposed finish. Loose coatings, damaged trim and moisture concerns should be identified before a new color is applied.",
+        "We discuss the areas to be painted, preparation, repairs and protection of nearby materials. Painting can be coordinated with siding or trim replacement so retained and new finishes work together across the exterior.",
+        "During freezing conditions, snowmelt can refreeze at a colder roof edge on a Dublin property. The resulting ice ridge can trap water behind it and allow water to back beneath roof coverings. Icicles alone do not establish the full condition of the roof.",
+        "Keep people clear of falling ice and describe any active water entry when you call. We can discuss the roof-edge condition and the appropriate next step, with availability confirmed directly. Recurring ice can also involve attic air leakage, insulation and drainage details that need assessment.",
+        "Yes. Roof King offers roofing, siding, storm damage repairs, commercial roofing and siding, gutters, windows, decks, attic insulation, exterior painting and ice dam services for Dublin properties. The service selector above covers the full offering, even where there is no separate Dublin service page.",
+        "Tell us about every affected exterior area when requesting an inspection. Roofing, walls, gutters and trim can share connections that need coordinated repairs. The team can confirm how the assessments and work should be organized for your property.",
+        "Keep clear of loose materials and falling debris, and contact the team with the address, the affected areas and whether water is entering. We can discuss inspection availability and the construction documentation for the proposed repairs. Insurance decisions and coverage are confirmed by your insurer.",
+        "Yes. Commercial roofing, commercial siding and commercial gutter work are available for Dublin properties. We discuss the building’s use, access, occupants, roof equipment and drainage with the affected roof or wall areas before planning repairs or replacement.",
+        "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another.",
+        "Roof King lists a Columbus business location.",
+        "Roof King & Restoration reviews roofing, siding, storm damage and related exterior work for Dublin homes and businesses. Explore the services below to find repairs, replacement options and materials for your property.",
+        "Share your Dublin property address and identify the roof slopes, wall elevations, gutter runs or windows you want evaluated. Note active leaks, access concerns and work already completed. After a storm, include the date and photographs taken safely from the ground. Keep clear of loose materials and leave roof access to the inspection team.",
+        "Arrange an inspection of your Dublin home or commercial property. Call our team or choose a time using the online calendar."
       ],
-      "expectedParagraphs": 52
+      "refinement": {
+        "date": "2026-11-02",
+        "reason": "Client requested consolidation of repeated Historic Dublin/Scioto and estimate-planning copy.",
+        "preservedSectionIds": [
+          "service-copy-39-2",
+          "service-copy-39-3",
+          "service-copy-39-4",
+          "location-dublin-oh-planning"
+        ],
+        "inspectionSection": "Preparing for your Dublin property inspection",
+        "estimateSectionId": "service-copy-39-3"
+      }
     },
     {
       "path": "/gahanna-oh/",

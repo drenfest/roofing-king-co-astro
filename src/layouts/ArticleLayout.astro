@@ -22,7 +22,7 @@ import '../styles/articles.css';
 interface Props {article:BlogArticleData;}
 const {article}=Astro.props;const post=routes.posts.find(p=>p.canonicalPath===article.path)!;
 const term=post.term;const collection=term?`/${term.kind==='category'?'category':'tag'}/${term.slug}/`:undefined;
-const publishedLabel=article.publishedAt?new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'America/New_York'}).format(new Date(article.publishedAt)):null;
+const publishedLabel=article.publishedAt?new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'America/New_York'}).format(new Date(article.publishedAt.length===10?`${article.publishedAt}T12:00:00Z`:article.publishedAt)):null;
 const schema={'@context':'https://schema.org','@type':'BlogPosting',headline:article.title,description:article.description,url:new URL(article.path,site.url).href,mainEntityOfPage:new URL(article.path,site.url).href,image:new URL(article.hero.src,site.url).href,...(article.publishedAt?{datePublished:article.publishedAt}:{}),...(article.author?{author:{'@type':article.author.includes('Roof King')?'Organization':'Person',name:article.author}}:{}),publisher:{'@id':site.url+'/#business'}};
 ---
 <DocumentLayout title={article.title} description={article.description} canonicalPath={article.path} image={article.hero.src}>

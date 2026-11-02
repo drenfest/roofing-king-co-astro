@@ -1,7 +1,7 @@
 ---
-title: "Commercial Gutters Columbus, OH | Roof King & Restoration"
+title: "Commercial Gutters Columbus, OH | Roof King"
 permalink: "/commercial-roofing/gutters/"
-description: "Commercial gutter installation, repair and replacement in Columbus, OH. Roof King evaluates gutters, downspouts and drainage. Call (614) 490-0123."
+description: "Commercial gutters in Columbus, OH. Roof King installs, repairs and replaces gutters and downspouts, with attention to outlets, supports and discharge routes."
 canonicalPath: "/commercial-roofing/gutters/"
 category: "Service detail"
 source: "wordpress"

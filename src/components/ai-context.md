@@ -4,6 +4,8 @@ Read the root handbook and the page family's data/layout maps first. This direct
 
 ## Choose by purpose
 
+`ServiceTopicGroups` renders the existing typed service-group tables and product cards for both `ServicePaths` and `ServiceArticle`. Use it for a comparison inside prose rather than creating a single-option tab selector. Tables retain captions, row/column headers, keyboard-focusable horizontal scrolling and a compact presentation when there is no subgroup heading. `PolishedServicePage` accepts an optional `reviewPresentation.estimateAside` for a context-specific action beside the estimate; existing pages keep the financing fallback.
+
 | Need | Use | Contract to preserve |
 | --- | --- | --- |
 | Service or location hero | LandingHero | Edge-to-edge contextual photo, ivory fade, serviceName jump label, source body links and optimized eager hero |
@@ -139,6 +141,7 @@ Parent guidance: [src](../ai-context.md).
 - [ServiceIcon.astro](ServiceIcon.astro)
 - [ServicePaths.astro](ServicePaths.astro)
 - [ServiceSectionImage.astro](ServiceSectionImage.astro)
+- [ServiceTopicGroups.astro](ServiceTopicGroups.astro)
 - [ServiceTopics.astro](ServiceTopics.astro)
 - [SidingProductGuide.astro](SidingProductGuide.astro)
 - [SiteFooter.astro](SiteFooter.astro)

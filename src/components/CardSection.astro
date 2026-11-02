@@ -10,7 +10,7 @@ interface Props { kind: 'offers' | 'blogs' | 'reviews'; section: CardSectionData
 const { kind, section, id, itemAction, actionLabel, actionHref, contained=false, filterable=false } = Astro.props;
 const cards=section.items.map(card=>{const post=posts.find(p=>p.href===card.href);const route=routes.posts.find(p=>p.canonicalPath===card.href);return {...card,blogAuthor:post?.author,date:post?.date,categories:route?.categories||[],topics:route?.tags||[]};});
 const categories=[...new Set(cards.flatMap(c=>c.categories))].sort();const topics=[...new Set(cards.flatMap(c=>c.topics))].sort();
-const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'America/New_York'}).format(new Date(date));
+const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'America/New_York'}).format(new Date(date.length===10?`${date}T12:00:00Z`:date));
 const action = actionLabel || { offers: 'View all offers', blogs: 'Read all blogs', reviews: 'Read all reviews' }[kind];
 const href = actionHref || { offers: '/offers/', blogs: '/blog/', reviews: '/reviews/' }[kind];
 ---

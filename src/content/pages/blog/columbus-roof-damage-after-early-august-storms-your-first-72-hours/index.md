@@ -13,6 +13,7 @@ priority: "preserve-and-improve"
 ---
 
 <article class="rk-migration-archive">
+<div class="rk-blog-meta"><span>By Roof King &amp; Restoration</span> · <time datetime="2026-08-18">August 18, 2026</time></div>
 <h1>Columbus Roof Damage After Early August Storms: Your First 72 Hours</h1>
 <p>Columbus roof damage after the early August storms is still being sorted out across Franklin County, and the first few days after an event like this are when homeowners have the most useful options available to them. On August 11, the National Weather Service recorded a wind gust of 82 mph at John Glenn Columbus International Airport. AEP Ohio reported more than 130,000 customers without power across its service area by 1:30 that afternoon, with damage reported in Clintonville, Upper Arlington, Bexley, Dublin, Hilliard and elsewhere in the region.</p>
 <p>Trees and power lines took the visible damage. Roofs are a different matter, because wind damage to a roofing system is frequently not visible from the driveway. This article covers what to do in the days immediately following, what wind can do to a roof, and how to decide whether the roof needs attention.</p>

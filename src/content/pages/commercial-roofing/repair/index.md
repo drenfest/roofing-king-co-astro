@@ -1,7 +1,7 @@
 ---
-title: "Commercial Roof Repair Columbus, OH | Roof King & Restoration"
+title: "Commercial Roof Repair Columbus, OH | Roof King"
 permalink: "/commercial-roofing/repair/"
-description: "Commercial roof repair in Columbus, OH for TPO, EPDM and metal roofs. Understand leaks, repair options and estimates. Call Roof King & Restoration."
+description: "Commercial roof repair in Columbus, OH. Discuss leaks, damaged seams, flashing and drainage connections with Roof King. Request an assessment of your building."
 canonicalPath: "/commercial-roofing/repair/"
 category: "Service detail"
 source: "wordpress"

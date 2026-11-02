@@ -1,5 +1,6 @@
 ---
 import type {ServicePathsData} from '../data/section-types';
+import ServiceTopicGroups from './ServiceTopicGroups.astro';
 import RichContent from './RichContent.astro';
 import HomeImage from './HomeImage.astro';
 import ServiceIcon from './ServiceIcon.astro';
@@ -15,7 +16,7 @@ const id=section.id || 'service-topics';
     <div class="rk-service-article-rows">{section.items.map(item=><article id={item.id} class="rk-service-article-row" aria-labelledby={(section.items.length>1||item.title!==section.title)?`${item.id}-heading`:`${id}-title`}>
       {section.variant==='benefits'&&<span class="rk-service-benefit-icon"><ServiceIcon name={item.icon==='shield'?'shield':item.icon==='cost'?'cost':item.icon==='check'?'check':'roof'}/></span>}
       {(section.items.length>1||item.title!==section.title)&&<h3 id={`${item.id}-heading`}>{item.title}</h3>}
-      <div>{item.body?<RichContent nodes={item.body}/>:<><p>{item.description}</p>{item.detail&&<p>{item.detail}</p>}</>}{item.highlights.length>0&&<ul>{item.highlights.map(text=><li>{text}</li>)}</ul>}{!item.body&&<a href={item.href}>{item.label} <span aria-hidden="true">→</span></a>}{item.related && item.related.length>0&&<nav class="rk-service-related-links" aria-label={`More ${item.tabLabel.toLowerCase()} information`}>{item.related.map(link=><a href={link.href}><span>{link.label}</span><ServiceIcon name="arrow"/></a>)}</nav>}</div>
+      <div>{item.body?<RichContent nodes={item.body}/>:<><p>{item.description}</p>{item.detail&&<p>{item.detail}</p>}</>}{item.groups&&<ServiceTopicGroups groups={item.groups}/>}{item.highlights.length>0&&<ul>{item.highlights.map(text=><li>{text}</li>)}</ul>}{!item.body&&<a href={item.href}>{item.label} <span aria-hidden="true">→</span></a>}{item.related && item.related.length>0&&<nav class="rk-service-related-links" aria-label={`More ${item.tabLabel.toLowerCase()} information`}>{item.related.map(link=><a href={link.href}><span>{link.label}</span><ServiceIcon name="arrow"/></a>)}</nav>}</div>
     </article>)}</div></div>
   </div>
 </section>

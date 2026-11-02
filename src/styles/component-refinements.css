@@ -87,3 +87,6 @@ body h6{font-size:var(--rk-heading-6)!important;line-height:1.4!important;}
 
 /* Let hero headings use their expanded copy column instead of narrow character caps. */
 body section.rk-editorial-hero .rk-editorial-hero-copy h1{max-width:none!important;}
+/* Contextual links sit on the pale hero paper, independently of action colors. */
+body section.rk-editorial-hero .rk-contextual-links a{color:#242321;text-decoration-color:#b64a00;}
+body section.rk-editorial-hero .rk-contextual-links a:hover{color:#9c3e00;}

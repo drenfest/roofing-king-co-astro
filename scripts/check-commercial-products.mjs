@@ -61,7 +61,7 @@ if(!process.argv.includes('--source-only'))for(const path of ['/commercial-roofi
  assert.ok($('[data-brand-id="mule-hide"]').length,path+' manufacturer logo');
  assert.ok($('main a[href^="/products/roofing/commercial/mule-hide/"]').length,path+' product links');
  const mainText=$('main').text();
- if(/\bPVC\b/i.test(mainText))assert.match(mainText,/PVC is not offered\./,path+' only discusses PVC to state it is not offered');
+ if(/\bPVC\b/i.test(mainText))assert.match(mainText,/PVC is not offered\.|We do not offer PVC\.|PVC is not among our offered commercial systems\.|Does Roof King install PVC roofing\?\s*No\./,path+' only discusses PVC to state it is not offered');
  assert.equal($('main a[href*="/pvc/"]').length,0,path+' has no PVC product offering');
 }
 console.log('Commercial catalog: '+Object.keys(catalog).length+' sourced products, '+Object.keys(companions).length+' related-component sets, '+relationCount+' source-backed links and '+evidence.assets.flatMap(a=>a.variants).length+' image variants verified'+(process.argv.includes('--source-only')?' in source; rendered CI checks remain separate.':'.'));
