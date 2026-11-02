@@ -985,35 +985,38 @@
       "family": "roofing-local",
       "service": "Residential Roofing Services",
       "city": "Columbus",
-      "prompt": "Create a premium architectural editorial photograph for a full-bleed roofing company website hero. Ultra-wide landscape composition, approximately 16:9. A refined two-story Ohio suburban home with a beautifully detailed charcoal architectural asphalt shingle roof, clean ridgelines, realistic flashing and gutters, mature trees, understated landscaping. Camera elevated oblique angle emphasizing roof on right half of frame; left half simpler and darker for white headline overlay. Warm late-afternoon natural light, restrained forest green and warm neutral palette, photorealistic, expensive architecture magazine photography, realistic building geometry. No people, lettering, logos, watermark, brand marks, collage, badges, graphic elements, captions, exaggerated luxury mansion, or visible defects. This is conceptual roofing imagery, not a documentary customer project. Deliver one finished image.",
-      "status": "generated",
+      "status": "client-photography",
       "objectPosition": "70% center",
-      "generatedFile": "C:/Users/drenf/.codex/generated_images/01a14a9f-9bc3-7c13-818d-0a11374b44af/exec-fa14d7a1-9479-4a4a-a53d-694c98382f70.png",
       "assets": [
         {
-          "src": "/media/roofing-heroes/roofing-640.webp",
+          "src": "/media/roofing-heroes/roofing-main-aerial-640.webp",
           "width": 640,
-          "bytes": 40300
+          "bytes": 92218,
+          "quality": 78
         },
         {
-          "src": "/media/roofing-heroes/roofing-960.webp",
+          "src": "/media/roofing-heroes/roofing-main-aerial-960.webp",
           "width": 960,
-          "bytes": 86818
+          "bytes": 215366,
+          "quality": 78
         },
         {
-          "src": "/media/roofing-heroes/roofing-1280.webp",
+          "src": "/media/roofing-heroes/roofing-main-aerial-1200.webp",
+          "width": 1200,
+          "bytes": 273322,
+          "quality": 66
+        },
+        {
+          "src": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
           "width": 1280,
-          "bytes": 152904
-        },
-        {
-          "src": "/media/roofing-heroes/roofing-1672.webp",
-          "width": 1672,
-          "bytes": 230736
+          "bytes": 281046,
+          "quality": 58
         }
       ],
-      "originalBytes": 2954469,
-      "visualReview": "Inspected for service relevance, composition, geometry, absence of lettering and documentary-project claims.",
-      "originalFile": "output/imagegen/roofing-heroes/roofing.png"
+      "originalBytes": 833062,
+      "visualReview": "Client-selected aerial photo, optimized from the original without enlargement.",
+      "originalFile": "output/client-photos/riley-2026-10/1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou.jpg",
+      "sourceSha256": "84f87d10be465c2d7d186c29c056450b1560cf7ae383370e7336430079c49ab2"
     },
     {
       "route": "/roofing/gaf/",

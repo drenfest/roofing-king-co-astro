@@ -8,6 +8,7 @@ import StormDamageCallout from '../components/StormDamageCallout.astro';
 import HomeTrust from '../components/HomeTrust.astro';
 import HomeServices from '../components/HomeServices.astro';
 import HomeCardSection from '../components/HomeCardSection.astro';
+import FeaturedArticles from '../components/FeaturedArticles.astro';
 import HomeConfidence from '../components/HomeConfidence.astro';
 import HomeWorkmanship from '../components/HomeWorkmanship.astro';
 import ProjectGallery from '../components/ProjectGallery.svelte';
@@ -30,7 +31,7 @@ const faq = home.faq as HeadingData & {items:{question:string;answer:RichNode[]}
     <article class="rk-home" data-homepage-build="astro-components">
       <HomeHero /><HomeTrust /><StormDamageCallout /><HomeServices /><HomeCardSection kind="offers" /><HomeConfidence />
       <ProjectGallery {...galleryFor('all')} id="projects" title={library.title} titleEmphasis={library.titleEmphasis} description={library.description} tone="brand" client:visible />
-      <HomeWorkmanship /><HomeCardSection kind="reviews" /><HomeCardSection kind="blogs" />
+      <HomeWorkmanship /><HomeCardSection kind="reviews" /><FeaturedArticles family="local" city="Columbus" path="/" />
       <ComparisonSection {comparison} />
       <FAQSection section={faq} />
       <QuoteSection {quote} />

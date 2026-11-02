@@ -8,7 +8,7 @@ These committed records drive native rendering. Before editing, identify the exa
 | --- | --- |
 | site.json | Verified company name, canonical URL, phone and office identity |
 | home.json / roofing-landing.json | Homepage composition data / the independent reference roofing page |
-| service-editorial.json | Per-route service family, city, identity, hero/opening, reviewed presentation, brands and FAQs |
+| service-editorial.json | Per-route service family, city, identity, hero/opening, reviewed presentation, brands and FAQs. The /siding/ opening deliberately includes repairs, replacement, material comparison, vinyl, engineered wood, fiber cement, storm damage and commercial siding with manufacturer links and scrollable tabs. Preserve those authored panels during regeneration. service-hero.ts resolves product destinations through the same productHeroImage helper as product pages. |
 | service-copy.json | Complete client/source-led service paragraphs, section/card IDs, topic grouping and explicit budgetSectionId |
 | service-families.json / service-overrides.json | Authoring inputs/defaults and targeted overrides; do not regenerate all routes casually |
 | service-hierarchy.ts / service-opening.ts / service-pages.json | Actual child-route resolution and retained service adapters/catalog; the old service records are not the polished copy owner |
@@ -26,7 +26,7 @@ These committed records drive native rendering. Before editing, identify the exa
 | site-structure.json / page-structure.ts | Breadcrumb/hierarchy and retained section placement; navigation placement does not rename a URL |
 | navigation.json / imported-shell.json | Native menu data and retained legacy header/footer representation |
 | navigation-photo-selections.json / navigation-atlas.json / navigation-images.json | Explicit unique menu image choices and generated one-request atlas metadata |
-| brand-library.json / brand-pages.json | Proportional source logos, brand identity and existing product-library destinations |
+| brand-library.json / brand-pages.json | Proportional source logos, brand identity, material categories and existing product-library destinations. Keep service-editorial.json, service-pages.json and product-pillar.json brandIds current with all catalog brands in each represented material category; About uses home.brands. Do not leave roofing bars at GAF alone or siding bars at the original four brands. Preserve empty brand selections for services without documented manufacturers. |
 | blog-articles.json / blog-article-types.ts | Structured native article bodies, photos, FAQ sections, source author/date and hero |
 | blog-routes.json / blog-url-map.json | Category-first canonical article URL policy, term assignments and preserved aliases |
 | blog-index.json / blog-hubs.json / blog-archives.json | Main/category/topic hubs and actual collection membership |
@@ -150,6 +150,7 @@ Parent guidance: [src](../ai-context.md).
 - [service-overrides.json](service-overrides.json)
 - [service-pages.json](service-pages.json)
 - [service-review-media.json](service-review-media.json)
+- [service-reviews.ts](service-reviews.ts)
 - [service-section-galleries.json](service-section-galleries.json)
 - [site-structure.json](site-structure.json)
 - [site.json](site.json)
@@ -162,3 +163,5 @@ None.
 
 Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
+
+The November 2026 siding review is implemented in service-editorial.json, service-copy.json and service-overrides.json for five pages; migration/siding-content-review-2026-11-01.json records source and decisions. featured-reviews.json services tags describe actual customer work. service-reviews.ts selects matching records and returns an empty list instead of unrelated fallback reviews. Never tag a roofing/gutter testimonial as siding or a residential job as commercial.

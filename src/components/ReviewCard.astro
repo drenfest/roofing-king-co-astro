@@ -10,7 +10,7 @@ const platformLogo=(platform:string)=>platforms[platform as keyof typeof platfor
         <h3>{card.title}</h3><p>{card.excerpt ? `“${card.description}”` : card.description}</p>
         {(card.author || card.source) && <footer class="rk-review-attribution">
           {card.author && <span class="rk-review-author">{card.author}{card.excerpt && <small>Review excerpt</small>}{card.publishedOn && <small><time datetime={card.publishedOn}>{new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(card.publishedOn+'T00:00:00Z'))}</time></small>}</span>}
-          {card.source && <a class="rk-review-source" href={card.source.url} target="_blank" rel="noopener noreferrer" aria-label={`Read ${card.author ? `${card.author}’s` : 'this'} review on ${card.source.platform} (opens in a new tab)`}>
+          {card.source && <a class="rk-review-source" href={card.source.url} title={`Read ${card.author||"customer"} review on ${card.source.platform}`} target="_blank" rel="noopener noreferrer" aria-label={`Read ${card.author ? `${card.author}’s` : 'this'} review on ${card.source.platform} (opens in a new tab)`}>
             <span>Read on</span>
             {platformLogo(card.source.platform) && <img class:list={['rk-review-source-logo',{'rk-review-source-wordmark':platformLogo(card.source.platform).wordmark}]} src={platformLogo(card.source.platform).src} width={platformLogo(card.source.platform).width} height={platformLogo(card.source.platform).height} alt={platformLogo(card.source.platform).wordmark?card.source.platform:''} loading="lazy"/>}
             {!platformLogo(card.source.platform)?.wordmark && <strong>{card.source.platform}</strong>}

@@ -4,6 +4,7 @@ import HomeImage from './HomeImage.astro';
 import RichContent from './RichContent.astro';
 import ServiceSystemDiagram from './ServiceSystemDiagram.astro';
 import SectionPhotoGallery from './SectionPhotoGallery.astro';
+import MaterialInstallation from './MaterialInstallation.astro';
 import galleries from '../data/service-section-galleries.json';
 import type {ImageData} from '../data/section-types';
 interface Props {section:ServiceCopySection;index:number;theme:string;pagePath:string;}
@@ -11,15 +12,28 @@ const {section,index,theme,pagePath}=Astro.props;
 const illustrated=section.variant==='media';
 const gallery=(galleries as Record<string,Record<string,{image:ImageData;caption:string;heading:string;topics:string[]}[]>>)[pagePath]?.[section.id];
 ---
-<section id={section.id} class:list={['rk-copy-band',`rk-copy-${section.tone}`,{'rk-copy-reverse':index%4===2,'rk-copy-media-band':illustrated}]} aria-labelledby={`${section.id}-title`} data-component="ServiceContentBand">
+<section id={section.id} class:list={['rk-copy-band',`rk-copy-${section.tone}`,{'rk-copy-reverse':index%4===2,'rk-copy-media-band':illustrated,'rk-copy-photo-grid-band':illustrated&&!!gallery,'rk-copy-material-tabs-band':!!section.materialTabs?.length}]} aria-labelledby={`${section.id}-title`} data-component="ServiceContentBand">
   <div class="rk-section-inner">
-    {illustrated?gallery?<><div class="rk-copy-paired-heading"><p class="rk-home-eyebrow">{section.eyebrow||'Materials, details & the work involved'}</p><h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/></div><SectionPhotoGallery id={section.id} photos={gallery} cards={section.cards} reverse={index%4===2} label={`Photos paired with ${section.title}`}/></>:<div class="rk-copy-media-layout"><figure class="rk-copy-figure"><HomeImage {...section.image}/><figcaption>{section.caption}</figcaption></figure><div class="rk-copy-text"><p class="rk-home-eyebrow">{section.eyebrow||'Materials, details & the work involved'}</p><h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/><div class="rk-copy-detail-list">{section.cards.map(card=><div id={card.id}><h3 id={card.id?`${card.id}-title`:undefined}>{card.title}</h3><RichContent nodes={card.body}/></div>)}</div></div></div>:
+    {section.materialTabs?.length?<MaterialInstallation {section}/>:illustrated?gallery?<><div class="rk-copy-paired-heading"><p class="rk-home-eyebrow">{section.eyebrow||'Materials, details & the work involved'}</p><h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/></div><SectionPhotoGallery id={section.id} photos={gallery} cards={section.cards} reverse={index%4===2} label={`Photos paired with ${section.title}`}/></>:<div class="rk-copy-media-layout"><figure class="rk-copy-figure"><HomeImage {...section.image}/><figcaption>{section.caption}</figcaption></figure><div class="rk-copy-text"><p class="rk-home-eyebrow">{section.eyebrow||'Materials, details & the work involved'}</p><h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/><div class="rk-copy-detail-list">{section.cards.map(card=><div id={card.id}><h3 id={card.id?`${card.id}-title`:undefined}>{card.title}</h3><RichContent nodes={card.body}/></div>)}</div></div></div>:
     <><div class="rk-copy-band-heading"><div><p class="rk-home-eyebrow">{section.eyebrow||'Understand your options'}</p><h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/></div><ServiceSystemDiagram {theme}/></div>{section.cards.length>0&&<div class:list={['rk-copy-option-grid',{'rk-copy-two-options':section.cards.length===2}]}>{section.cards.map(card=><article class:list={["rk-copy-option",{"rk-copy-option-with-photo":!!card.image}]} id={card.id}>{card.image?<figure class="rk-copy-option-photo"><HomeImage {...card.image} sizes="(max-width:760px) calc(100vw - 2rem), (max-width:1000px) 45vw, 580px"/>{card.caption&&<figcaption>{card.caption}</figcaption>}</figure>:<span class="rk-copy-option-rule" aria-hidden="true"></span>}<h3 id={card.id?`${card.id}-title`:undefined}>{card.title}</h3><RichContent nodes={card.body}/></article>)}</div>}</>}
   </div>
   <slot/>
 </section>
 
 <style>
+  .rk-copy-band.rk-copy-material-tabs-band{background:#fcf8ef;color:#242321;padding-block:clamp(4rem,7vw,7rem);clip-path:polygon(0 22px,100% 0,100% calc(100% - 22px),0 100%);}
+  @media(max-width:760px){.rk-copy-band.rk-copy-material-tabs-band{padding-block:3rem;clip-path:polygon(0 12px,100% 0,100% calc(100% - 12px),0 100%);}.rk-copy-material-tabs-band>.rk-section-inner{width:calc(100% - 2rem);max-width:none;min-width:0;}}
+  .rk-copy-band.rk-copy-material-tabs-band::before{background:#f0e7d7;clip-path:polygon(83% 0,100% 0,100% 100%,65% 100%);}
+  .rk-copy-band.rk-copy-photo-grid-band{background:#242321;color:#f8f5ee;padding-block:clamp(4.5rem,7vw,7rem);clip-path:polygon(0 26px,100% 0,100% calc(100% - 26px),0 100%);}
+  .rk-copy-band.rk-copy-photo-grid-band::before{background:#302c27;clip-path:polygon(82% 0,100% 0,100% 100%,61% 100%);}
+  .rk-copy-photo-grid-band .rk-copy-paired-heading h2{color:#f8f5ee;}
+  .rk-copy-photo-grid-band .rk-home-eyebrow{display:flex;align-items:center;gap:.8rem;color:#ffb177;}
+  .rk-copy-photo-grid-band .rk-home-eyebrow::before{content:'';width:28px;height:2px;flex:none;background:#ff9349;}
+  .rk-copy-photo-grid-band :global(.rk-section-photo-copy h3),.rk-copy-photo-grid-band :global(.rk-section-photo-copy h4){color:#f8f5ee;}
+  .rk-copy-photo-grid-band :global(.rk-section-photo-copy p){color:#e4ded4;}
+  .rk-copy-photo-grid-band :global(.rk-section-photo-copy a){color:#ffb177;}
+  .rk-copy-photo-grid-band :global(.rk-section-photo-pair){padding-bottom:1.5rem;border-bottom:1px solid #ffffff26;}
+  @media(max-width:760px){.rk-copy-band.rk-copy-photo-grid-band{clip-path:polygon(0 14px,100% 0,100% calc(100% - 14px),0 100%);}}
   .rk-copy-paired-heading{max-width:850px;}.rk-copy-paired-heading h2{font-size:clamp(2rem,3.3vw,3.1rem);line-height:1.18;text-transform:none;}
   .rk-copy-option-photo{margin:-2rem -2rem 1.4rem;}
   .rk-copy-option-photo :global(img){display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;}

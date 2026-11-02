@@ -5,7 +5,7 @@
   --rk-shadow:0 6px 20px #24232108;
   --rk-royal-shadow:0 12px 32px #24232112;
 }
-body :is(h1,h2,h3,h4,h5,h6){text-transform:none!important;letter-spacing:-.015em;}
+body :is(h1,h2,h3,h4,h5,h6){font-family:var(--rk-font-display)!important;text-transform:capitalize!important;letter-spacing:-.015em;}
 body :is(.rk-button,.rk-editorial-gallery .rk-gallery-link){min-height:48px;gap:.8rem;padding:.8rem 1.15rem;font-family:var(--rk-font-body);font-size:.88rem;font-weight:600;line-height:1.25;text-transform:none!important;letter-spacing:0;border-radius:2px;clip-path:none;box-shadow:none!important;transform:none!important;translate:none!important;}
 body .rk-button-primary{background:var(--rk-orange,#fe6600)!important;color:#fff!important;border:1px solid transparent;}
 body .rk-button-primary:is(:hover,:focus-visible){background:#f47b24!important;color:#fff!important;}
@@ -62,3 +62,28 @@ body .rk-native-quote-dialog .rk-modal-close:hover{background:#eee8de;}
   body .rk-native-quote-dialog .rk-modal-panel{padding:1.25rem;}
   body .rk-native-quote-dialog .rk-form-grid{grid-template-columns:minmax(0,1fr);gap:.75rem;}
 }
+
+/* Before/after sections alternate with dark estimate bands using the shared ivory/tan slant. */
+body .rk-home-before-after{background:#fcfbf7;color:#242321;clip-path:none;}
+body .rk-home-before-after::before{background:#eee9df;clip-path:polygon(69% 0,100% 0,100% 100%,48% 100%);pointer-events:none;}
+body .rk-home-before-after .rk-home-eyebrow{color:#b44500;}
+body .rk-home-before-after .rk-comparison-caption{color:#68635b;}
+body .rk-home-before-after .rk-comparison-media>noscript a{color:#242321;}
+
+/* Coverage sections: a quiet cartographic grid on a slanted ivory/tan field. */
+body :is(.rk-coverage-map-block,.rk-area-directory-band){position:relative;isolation:isolate;background:#fcfbf7;padding-block:clamp(4rem,7vw,7rem);}
+body :is(.rk-coverage-map-block,.rk-area-directory-band)::before{content:'';display:block;position:absolute;inset:0;z-index:-1;pointer-events:none;clip-path:polygon(59% 0,100% 0,100% 100%,36% 100%);background-color:#eee9df;background-image:linear-gradient(112deg,transparent 0 38%,#d7b69466 38% 38.15%,transparent 38.15% 72%,#d7b69466 72% 72.15%,transparent 72.15%),linear-gradient(#988b7520 1px,transparent 1px),linear-gradient(90deg,#988b7520 1px,transparent 1px),linear-gradient(#988b7510 1px,transparent 1px),linear-gradient(90deg,#988b7510 1px,transparent 1px);background-size:100% 100%,160px 160px,160px 160px,32px 32px,32px 32px;}
+body .rk-coverage-map-block .rk-home-eyebrow{color:#b44500;}
+@media(max-width:760px){body :is(.rk-coverage-map-block,.rk-area-directory-band)::before{clip-path:polygon(88% 0,100% 0,100% 100%,12% 100%);}}
+
+/* Shared heading scale: keep Manrope compact across every page family. */
+:root{--rk-heading-1:clamp(2rem,3vw,3rem);--rk-heading-2:clamp(1.6rem,2.2vw,2rem);--rk-heading-3:clamp(1.2rem,1.6vw,1.375rem);--rk-heading-4:1.125rem;--rk-heading-5:1rem;--rk-heading-6:.9375rem;}
+body h1{font-size:var(--rk-heading-1)!important;line-height:1.15!important;}
+body h2{font-size:var(--rk-heading-2)!important;line-height:1.2!important;}
+body h3{font-size:var(--rk-heading-3)!important;line-height:1.3!important;}
+body h4{font-size:var(--rk-heading-4)!important;line-height:1.35!important;}
+body h5{font-size:var(--rk-heading-5)!important;line-height:1.4!important;}
+body h6{font-size:var(--rk-heading-6)!important;line-height:1.4!important;}
+
+/* Let hero headings use their expanded copy column instead of narrow character caps. */
+body section.rk-editorial-hero .rk-editorial-hero-copy h1{max-width:none!important;}

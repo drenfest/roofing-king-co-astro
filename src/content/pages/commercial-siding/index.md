@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Commercial Siding Company"
+title: "Commercial Siding Contractor in Columbus, OH | Roof King"
 permalink: "/commercial-siding/"
-description: "Need to hire a commercial siding installation company in Columbus? Look no further than Roof King & Restoration. Reach out to us today to get a free estimate."
+description: "Commercial siding contractor in Columbus, OH. Plan wall repairs, panel replacement, permits and tenant access with Roof King. Call (614) 379-8893."
 canonicalPath: "/commercial-siding/"
 category: "Additional service"
 source: "wordpress"

@@ -1,7 +1,7 @@
 ---
-title: "The Cost of a Siding Replacement in Cincinnati, OH"
+title: "Siding Replacement Cost in Cincinnati, OH | Roof King"
 permalink: "/cincinnati-oh/the-cost-of-siding-replacement/"
-description: "Explore the costs of siding replacement in Cincinnati with Roof King & Restoration. Call today for professional siding solutions and expert service!"
+description: "What drives siding replacement cost in Cincinnati: wall area, material, removal, repairs and trim, with a dated national benchmark and city permit guidance."
 canonicalPath: "/cincinnati-oh/the-cost-of-siding-replacement/"
 category: "Local service"
 source: "wordpress"

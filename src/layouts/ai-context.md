@@ -18,6 +18,8 @@ Use the existing family rather than importing the legacy shell into a native pag
 
 Polished services use ServicePaths for real parent service/location selectors and ServiceArticle for leaves. They retain review sources, credentials, full source content bands, contextual manufacturer subsections, explicit estimate placement, a relevant ServiceComparison, topic-matched gallery, FeaturedArticles, FAQ and the booking/phone contact experience (#quote-form remains a compatibility anchor). The calculator family keeps Roofr click-to-load behavior. Reviewed brand headings remain H3s where nested; do not flatten all topics to H2.
 
+ServiceLanding and PolishedServicePage render the shared TrustStrip directly below the hero, using home.json trust data for GAF credentials and Google reviews. Do not reintroduce the compact BBB/workmanship/review-link strip or duplicate trust figures in layout markup. GAF badges describe the contractor’s roofing credentials, not certification of other materials.
+
 ServiceLanding and PolishedServicePage use the same photographic hero design and shared motion, but /roofing/ retains its own reference data/composition. ServiceComparison resolves a selected pair through shared data; it must not imply the illustration is a local completed project. Location section headings include the actual city while disclaiming illustrative examples.
 
 ## Extending a shell
@@ -49,3 +51,5 @@ None.
 
 Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
+
+PolishedServicePage accepts opening.variant=tabs for detailed leaf selectors. Its review selection is service-specific and suppresses empty sets; siding credentials use approved workmanship and brand information. Page-level financeDescription, hideGallery and hideArticles support relevant offer copy and prevent residential filler on commercial siding. Keep the inline contact heading suppressed where the outer estimate heading already introduces it.

@@ -11,7 +11,11 @@
         "url": "https://share.google/dEXPwUP42TtA0zGsc"
       },
       "evidenceUrl": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
-      "evidenceNote": "Exact excerpt confirmed in the expanded Google review by Marianna Faria; direct URL copied from that review's Share dialog. GAF also displays the review as M.F. Individual rating was not exposed in the inspected Google markup, so no star score is displayed."
+      "evidenceNote": "Exact excerpt confirmed in the expanded Google review by Marianna Faria; direct URL copied from that review's Share dialog. GAF also displays the review as M.F. Individual rating was not exposed in the inspected Google markup, so no star score is displayed.",
+      "services": [
+        "roofing",
+        "replacement"
+      ]
     },
     {
       "id": "bbb-douglas-c",
@@ -24,7 +28,10 @@
         "platform": "BBB",
         "url": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693/customer-reviews#0302_70125693_230066"
       },
-      "evidenceNote": "Excerpt, display name, date and five-star rating verified directly on BBB. Fragment identifies the actual review list item. This individual score is separate from BBB's business rating and aggregate customer score."
+      "evidenceNote": "Excerpt, display name, date and five-star rating verified directly on BBB. Fragment identifies the actual review list item. This individual score is separate from BBB's business rating and aggregate customer score.",
+      "services": [
+        "roofing"
+      ]
     },
     {
       "id": "birdeye-kenneth-g",
@@ -36,7 +43,71 @@
         "platform": "Birdeye",
         "url": "https://reviews.birdeye.com/roof-king-restoration-164724786112437#1025011439"
       },
-      "evidenceNote": "Text and five filled rating stars verified directly on Birdeye. Review is explicitly labeled 'on Birdeye', not Google. Fragment identifies its review container."
+      "evidenceNote": "Text and five filled rating stars verified directly on Birdeye. Review is explicitly labeled 'on Birdeye', not Google. Fragment identifies its review container.",
+      "services": [
+        "roofing",
+        "storm",
+        "claims"
+      ]
+    },
+    {
+      "id": "roof-king-andy-l",
+      "title": "Storm repairs, roofs and gutters",
+      "author": "Andy L.",
+      "description": "They installed new roofs and gutters on both homes as well as repaired the wood that got damaged. Roof King worked with my insurance and made the entire process seamless.",
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/"
+      },
+      "services": [
+        "roofing",
+        "gutters",
+        "storm",
+        "claims"
+      ],
+      "evidenceNote": "Exact excerpt from the retained customer review. The work describes roofs, gutters and storm-damaged wood on two rental homes; not a siding or commercial project."
+    },
+    {
+      "id": "roof-king-tammy-k",
+      "title": "New roof and gutters",
+      "author": "Tammy K.",
+      "description": "I used Roof King and Restoration for a new roof and new gutters. Collin was so helpful with recommendations and assisting me through the whole process. The crews were fantastic. They were fast and the clean up was perfect. I would highly recommend them.",
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "/reviews/00601dee-df98-42ab-b364-4725af97794b/"
+      },
+      "services": [
+        "roofing",
+        "gutters",
+        "replacement"
+      ]
+    },
+    {
+      "id": "roof-king-larry-b",
+      "title": "Deck repair",
+      "author": "Larry B.",
+      "description": "The quality of the work was excellent. Kozmo was through and knowledgeable. Better communication on with the time line of work would have helped. Very satisfied and would use them again.",
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/"
+      },
+      "services": [
+        "decking"
+      ]
+    },
+    {
+      "id": "roof-king-charles-h",
+      "title": "Roofing repair",
+      "author": "Charles H.",
+      "description": "Excellent, very punctual, fair and knowledgeable. Didn’t over sell and over delivered.",
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/"
+      },
+      "services": [
+        "roofing",
+        "repair"
+      ]
     }
   ]
 }

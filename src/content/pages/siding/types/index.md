@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Siding Types"
+title: "Types of Siding in Columbus, OH | Roof King & Restoration"
 permalink: "/siding/types/"
-description: "Installing new siding on your Columbus home? Our team at Roof King & Restoration provides the stunning siding materials you need. Get a quote from us today."
+description: "Compare types of siding for Columbus homes: vinyl, LP SmartSide engineered wood and James Hardie fiber cement. Explore upkeep, weather, installation and cost."
 canonicalPath: "/siding/types/"
 category: "Service detail"
 source: "wordpress"

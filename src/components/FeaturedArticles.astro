@@ -6,11 +6,19 @@ const {family,city,path}=Astro.props;
 const {items,title,description}=featuredArticles(family,city,path);
 ---
 {items.length>0&&<section class="rk-landing-section rk-featured-articles" aria-labelledby="featured-articles-title" data-component="FeaturedArticles"><div class="rk-section-inner">
- <div class="rk-articles-heading"><div class="rk-landing-heading"><p class="rk-home-eyebrow">From the Roof King blog</p><h2 id="featured-articles-title">{title}</h2><p>{description}</p></div><a class="rk-articles-all" href="/blog/">Explore the blog<ServiceIcon name="arrow"/></a></div>
- <div class="rk-articles-grid">{items.map(item=><article><a href={item.href} class="rk-article-link"><div class="rk-article-thumbnail"><img src={item.image.src} srcset={item.image.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width:600px) 90vw, (max-width:1000px) 45vw, 300px" width={item.image.width} height={item.image.height} alt={item.image.alt} loading="lazy" decoding="async"/></div><div class="rk-article-copy"><p class="rk-article-topic">{item.city?`${item.city}, Ohio`:'Roof King guide'}</p><h3>{item.title}</h3><p>{item.description}</p><span class="rk-article-action">Read article<ServiceIcon name="arrow"/></span></div></a></article>)}</div>
+ <div class="rk-articles-heading"><div class="rk-landing-heading"><p class="rk-home-eyebrow">From the Roof King blog</p><h2 id="featured-articles-title">{title}</h2><p>{description}</p></div><a class="rk-articles-all" href="/blog/" title="Explore the Roof King blog">Explore the blog<ServiceIcon name="arrow"/></a></div>
+ <div class="rk-articles-grid">{items.map(item=><article><a href={item.href} title={`Read ${item.title}`} class="rk-article-link"><div class="rk-article-thumbnail"><img src={item.image.src} srcset={item.image.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width:600px) 90vw, (max-width:1000px) 45vw, 300px" width={item.image.width} height={item.image.height} alt={item.image.alt} loading="lazy" decoding="async"/></div><div class="rk-article-copy"><p class="rk-article-topic">{item.city?`${item.city}, Ohio`:'Roof King guide'}</p><h3>{item.title}</h3><p>{item.description}</p><span class="rk-article-action">Read article<ServiceIcon name="arrow"/></span></div></a></article>)}</div>
  </div></section>}
 <style>
- .rk-featured-articles{background:#f3eee4;}
+ section.rk-featured-articles{position:relative;isolation:isolate;--article-slant:28px;background:#f3eee4;padding-block:clamp(4.5rem,7vw,7rem);clip-path:polygon(0 var(--article-slant),100% 0,100% calc(100% - var(--article-slant)),0 100%);}
+ .rk-featured-articles::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:#eae3d6;clip-path:polygon(79% 0,100% 0,100% 100%,57% 100%);}
+ .rk-featured-articles::after{content:'';position:absolute;inset:0;pointer-events:none;background:var(--rk-orange,#fe6600);clip-path:polygon(0 var(--article-slant),100% 0,100% 3px,0 calc(var(--article-slant) + 3px));}
+ .rk-articles-heading .rk-home-eyebrow{display:flex;align-items:center;gap:.9rem;color:#b44500;}
+ .rk-articles-heading .rk-home-eyebrow::before{content:'';width:36px;height:2px;flex:none;background:var(--rk-orange,#fe6600);}
+ .rk-article-thumbnail{clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,0 100%);}
+ @media(max-width:600px){section.rk-featured-articles{--article-slant:16px;padding-block:3.5rem;}.rk-featured-articles::before{clip-path:polygon(95% 0,100% 0,100% 100%,35% 100%);}}
+ .rk-articles-heading h2{font-size:clamp(2rem,3.5vw,3rem);line-height:1.15;margin:.8rem 0 1.2rem;}
+ .rk-articles-heading .rk-landing-heading>p:not(.rk-home-eyebrow){font-size:1.05rem;line-height:1.75;margin:0;}
  .rk-articles-heading{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2.5rem;}
  .rk-articles-heading .rk-landing-heading{max-width:780px;}
  .rk-articles-all{display:inline-flex;align-items:center;gap:.8rem;flex-shrink:0;min-height:44px;color:#34312d;font-size:.88rem;font-weight:600;}

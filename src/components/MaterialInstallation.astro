@@ -1,0 +1,50 @@
+---
+import type {ServiceCopySection} from '../data/section-types';
+import MaterialTabs from './MaterialTabs.svelte';
+import HomeImage from './HomeImage.astro';
+import RichContent from './RichContent.astro';
+import {productHeroImage} from '../data/product-presentation';
+interface Props {section:ServiceCopySection;}
+const {section}=Astro.props;
+const choices=section.materialTabs||[];
+const panels=choices.map((choice,index)=>{
+ const card=section.cards.find(card=>card.title===choice.cardTitle);
+ if(!card)throw new Error(`Missing material topic: ${choice.cardTitle}`);
+ return {...choice,card,id:card.id||`${section.id}-material-${index+1}`,image:productHeroImage(choice.href)};
+});
+const supporting=section.cards.filter(card=>!choices.some(choice=>choice.cardTitle===card.title));
+---
+<div class="rk-material-installation">
+ <p class="rk-home-eyebrow">{section.eyebrow||'Materials and installation'}</p>
+ <h2 id={`${section.id}-title`}>{section.title}</h2><RichContent nodes={section.body}/>
+ <MaterialTabs id={section.id} tabs={panels} client:visible>
+  {panels.map(panel=><article id={panel.id} class="rk-material-panel" data-material-panel aria-labelledby={`${panel.id}-title`}>
+   <figure><HomeImage {...panel.image} sizes="(max-width:760px) 90vw, 400px"/><figcaption>{panel.image.caption}</figcaption></figure>
+   <div><p class="rk-material-manufacturer">{panel.manufacturer}</p><h3 id={`${panel.id}-title`}>{panel.card.title}</h3><RichContent nodes={panel.card.body}/><a href={panel.href} title={`Explore ${panel.label} products`}>Explore {panel.label.toLowerCase()} products <span aria-hidden="true">→</span></a></div>
+  </article>)}
+ </MaterialTabs>
+ {supporting.map(card=><div class="rk-material-supporting" id={card.id}><h3 id={card.id?`${card.id}-title`:undefined}>{card.title}</h3><RichContent nodes={card.body}/></div>)}
+</div>
+<style>
+ .rk-material-installation{color:#242321;}.rk-material-installation>h2{font-size:clamp(2rem,3.3vw,3.1rem);line-height:1.18;max-width:28ch;color:#242321;margin:.8rem 0 1.4rem;}
+ .rk-material-installation .rk-home-eyebrow{color:#b44500;}
+ .rk-material-panel{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(1.5rem,4vw,3.5rem);align-items:center;padding-bottom:2rem;}
+ .rk-material-panel[hidden]{display:none;}.rk-material-panel figure{margin:0;background:#ece2d1;padding:1.2rem;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px));}
+ .rk-material-panel figure :global(img){display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}.rk-material-panel figcaption{font-size:.72rem;line-height:1.5;color:#62574a;margin-top:.8rem;}
+ .rk-material-panel h3,.rk-material-supporting h3{color:#242321;font-size:clamp(1.5rem,2.2vw,2rem);line-height:1.25;margin:.5rem 0 1.1rem;}
+ .rk-material-panel :global(p),.rk-material-supporting :global(p){color:#49443d;line-height:1.8;}
+ .rk-material-panel .rk-material-manufacturer{color:#b44500;font-size:.85rem;font-weight:600;}.rk-material-panel a{display:inline-flex;gap:1rem;color:#a44305;font-weight:600;min-height:44px;align-items:center;}
+ .rk-material-supporting{padding-top:1.5rem;border-top:1px solid #cfc5b6;}.rk-material-supporting+.rk-material-supporting{margin-top:1.5rem;}
+ .rk-material-panel>div,.rk-material-installation{min-width:0;}
+ @media(max-width:760px){
+  .rk-material-installation>h2{font-size:clamp(1.8rem,7vw,2.35rem);line-height:1.15;margin:.65rem 0 1.1rem;max-width:none;}
+  .rk-material-installation .rk-home-eyebrow{font-size:.68rem;line-height:1.5;}
+  .rk-material-panel{grid-template-columns:minmax(0,1fr);gap:1.4rem;padding-bottom:1.5rem;}
+  .rk-material-panel figure{padding:.85rem;}
+  .rk-material-panel figure :global(img){aspect-ratio:4/3;max-height:310px;}
+  .rk-material-panel h3,.rk-material-supporting h3{font-size:1.5rem;line-height:1.25;margin:.4rem 0 .85rem;overflow-wrap:break-word;}
+  .rk-material-panel :global(p),.rk-material-supporting :global(p){font-size:.95rem;line-height:1.75;}
+  .rk-material-panel a{display:flex;justify-content:space-between;gap:.75rem;min-height:48px;padding:.4rem 0;font-size:.9rem;}
+  .rk-material-supporting{padding-top:1.5rem;}.rk-material-supporting :global(a){text-underline-offset:.2em;}
+ }
+</style>

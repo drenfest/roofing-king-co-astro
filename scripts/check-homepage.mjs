@@ -7,7 +7,7 @@ const $ = cheerio.load(html);
 assert.equal($('[data-homepage-build="astro-components"]').length, 1, 'Homepage must use the native component route.');
 assert.equal($('h1').length, 1);
 assert.equal($('.rk-home-service-card').length, 8);
-const featuredReviews=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;
+const reviewLibrary=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;const homeReviewIds=JSON.parse(await fs.readFile('src/data/home.json','utf8')).reviews.reviewIds;const featuredReviews=homeReviewIds.map(id=>reviewLibrary.find(review=>review.id===id));
 assert.equal($('.rk-home-review-card').length, featuredReviews.length);
 for(const review of featuredReviews){
   const card=$('.rk-home-review-card').filter((i,e)=>$(e).find('.rk-review-author').text().startsWith(review.author));

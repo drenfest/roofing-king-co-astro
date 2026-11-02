@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Siding Contractor"
+title: "Siding Contractor in Columbus, OH | Roof King & Restoration"
 permalink: "/siding/"
-description: "Ready to add new siding to your Columbus home? Rely on Roof King & Restoration as your local siding company. Contact us today and request a free estimate."
+description: "Siding contractor in Columbus, OH for siding repair and replacement in vinyl, LP SmartSide and James Hardie, backed by a 5-year workmanship warranty."
 canonicalPath: "/siding/"
 category: "Service hub"
 source: "wordpress"

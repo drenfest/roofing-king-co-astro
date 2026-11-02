@@ -44,9 +44,9 @@
           "alt": "Illustrative localized cracks and a broken corner in otherwise intact lap siding"
         },
         "caption": "Illustration: isolated panel damage for a focused repair assessment.",
-        "heading": "Repairing a limited area of damaged siding",
+        "heading": "Signs your siding needs attention",
         "topics": [
-          "Repairing a limited area of damaged siding"
+          "Signs your siding needs attention"
         ]
       },
       {
@@ -66,9 +66,9 @@
           "alt": "Illustrative siding samples showing different profiles, textures and colors"
         },
         "caption": "Illustration: compare the replacement profile and finish with the existing wall.",
-        "heading": "Checking the replacement profile and color",
+        "heading": "Matching profile and color on a repair",
         "topics": [
-          "Checking the replacement profile and color"
+          "Matching profile and color on a repair"
         ]
       }
     ]
@@ -81,10 +81,9 @@
           "alt": "Illustrative exposed sheathing with localized water damage beside a window"
         },
         "caption": "Illustration: the condition of the exposed wall affects preparation.",
-        "heading": "Repairing the wall and rebuilding protective layers",
+        "heading": "Concealed damage after removal",
         "topics": [
-          "Concealed sheathing damage after siding removal",
-          "Supporting surface and water-management layers"
+          "Concealed damage after removal"
         ]
       },
       {
@@ -93,10 +92,9 @@
           "alt": "Illustrative window flashing and protective wall layers before siding is completed"
         },
         "caption": "Illustration: connections around openings need coordinated flashing.",
-        "heading": "Flashing openings and adjoining surfaces",
+        "heading": "Weather barrier and opening flashing",
         "topics": [
-          "Windows and doors",
-          "Roof and material transitions"
+          "Weather barrier and opening flashing"
         ]
       },
       {
@@ -105,9 +103,9 @@
           "alt": "Existing-site photograph of a finished house exterior, front entrance and landscaping"
         },
         "caption": "Existing-site photograph: entrance and landscaping to consider during access planning and cleanup.",
-        "heading": "Property access, debris removal and final inspection",
+        "heading": "Roof-to-wall and material transitions",
         "topics": [
-          "Property access, debris removal and final inspection"
+          "Roof-to-wall and material transitions"
         ]
       }
     ]
@@ -116,35 +114,35 @@
     "service-copy-72-4": [
       {
         "image": {
-          "src": "/media/siding-guide/material-samples-1200.webp",
-          "alt": "Illustrative siding samples showing different profiles, textures and colors"
+          "src": "/media/wordpress/52849e6f4ac8-27627ab3-7b6c-46b8-a8c3-06293478d3bd.jpg",
+          "alt": "Lap and Dutch lap siding profile"
         },
-        "caption": "Illustration: compare material profiles, textures and colors.",
-        "heading": "Siding profiles, colors and matching",
+        "caption": "Photo supplied by Roof King.",
+        "heading": "Lap and Dutch lap",
         "topics": [
-          "Siding profiles, colors and matching"
+          "Lap and Dutch lap"
         ]
       },
       {
         "image": {
-          "src": "/media/service-review-01/siding-sheathing-repair-1200.webp",
-          "alt": "Illustrative exposed wall sheathing during siding removal"
+          "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
+          "alt": "Board and batten siding profile"
         },
-        "caption": "Illustration: a siding choice also involves the wall beneath it.",
-        "heading": "Siding removal, wall repairs and installation",
+        "caption": "Manufacturer catalog photo",
+        "heading": "Board and batten",
         "topics": [
-          "Siding removal, wall repairs and installation"
+          "Board and batten"
         ]
       },
       {
         "image": {
-          "src": "/media/service-review-01/siding-surface-care-1200.webp",
-          "alt": "Illustrative gentle cleaning of lap siding with a soft brush"
+          "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
+          "alt": "Shake and shingle siding profile"
         },
-        "caption": "Illustration: maintenance needs differ by siding material and finish.",
-        "heading": "Siding maintenance and warranty terms",
+        "caption": "Manufacturer catalog photo",
+        "heading": "Shake and shingle",
         "topics": [
-          "Siding maintenance and warranty terms"
+          "Shake and shingle"
         ]
       }
     ]
@@ -157,22 +155,20 @@
           "alt": "Illustrative commercial wall with exposed sheathing and weather-barrier layers around a window"
         },
         "caption": "Illustration: wall repairs and opening details before new cladding.",
-        "heading": "Preparing commercial walls and opening details",
+        "heading": "Removal, sheathing and weather barrier",
         "topics": [
-          "Commercial siding removal and wall repairs",
-          "Flashing at windows, doors and roof intersections"
+          "Removal, sheathing and weather barrier"
         ]
       },
       {
         "image": {
-          "src": "/media/service-review-01/commercial-access-planning-1200.webp",
-          "alt": "Illustrative commercial entrance with exterior fixtures, separated material staging and clear pedestrian access"
+          "src": "/media/service-review-01/window-wall-flashing-1200.webp",
+          "alt": "Illustration of weather barrier and flashing around a wall opening"
         },
         "caption": "Illustration: protect access while coordinating fixtures and work areas.",
-        "heading": "Coordinating fixtures, work areas and building access",
+        "heading": "Flashing at windows, doors and storefronts",
         "topics": [
-          "Signs, lighting and roof-to-wall connections",
-          "Access, staging and tenant communication"
+          "Flashing at windows, doors and storefronts"
         ]
       },
       {
@@ -181,9 +177,9 @@
           "alt": "Illustrative cladding sample and maintenance notes being checked beside a commercial wall"
         },
         "caption": "Illustration: identify the installed profile and finish for maintenance records.",
-        "heading": "Siding maintenance records and product warranties",
+        "heading": "Parapets and roof-to-wall connections",
         "topics": [
-          "Siding maintenance records and product warranties"
+          "Parapets and roof-to-wall connections"
         ]
       }
     ]

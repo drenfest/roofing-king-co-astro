@@ -32,19 +32,29 @@
     next[key]=opening;branches=next;
   }
   let openedByHover = false;
+  let openTimer: ReturnType<typeof setTimeout> | undefined;
   let closeTimer: ReturnType<typeof setTimeout> | undefined;
   let header: HTMLElement;
   let menuButton: HTMLButtonElement;
   function cancelClose() { clearTimeout(closeTimer); closeTimer = undefined; }
-  const close = () => { cancelClose(); mobileOpen = false; active = null; branches={}; openedByHover = false; };
+  function cancelOpen() { clearTimeout(openTimer); openTimer = undefined; }
+  function scheduleOpen(event: PointerEvent, index: number) {
+    if (event.pointerType !== 'mouse' || !desktop) return;
+    cancelClose(); cancelOpen();
+    if (active === String(index)) return;
+    openTimer = setTimeout(() => {
+      openTimer = undefined; active = String(index); openedByHover = true;
+    }, 450);
+  }
+  const close = () => { cancelOpen(); cancelClose(); mobileOpen = false; active = null; branches={}; openedByHover = false; };
   async function enterMenu(event:KeyboardEvent,index:number){
     if(!desktop || event.key!=='ArrowDown')return;
-    event.preventDefault();active=String(index);await tick();
+    event.preventDefault();cancelOpen();active=String(index);await tick();
     header.querySelector<HTMLAnchorElement>(`#native-submenu-${index} .rk-mega-row>a`)?.focus();
   }
   function leaveHeader(event: PointerEvent) {
     if (event.pointerType !== 'mouse' || !desktop) return;
-    cancelClose();
+    cancelOpen(); cancelClose();
     closeTimer = setTimeout(() => {
       // The whole header and its absolute-positioned panels form one hover area.
       // Preserve a submenu while a keyboard user is still working inside it.
@@ -78,7 +88,7 @@
     desktop = mq.matches;
     const resize = () => { desktop = mq.matches; close(); };
     mq.addEventListener('change', resize);
-    return () => { cancelClose(); header.removeEventListener('pointerenter', cancelClose); header.removeEventListener('pointerleave', leaveHeader); document.removeEventListener('pointerdown', outside); mq.removeEventListener('change', resize); };
+    return () => { cancelOpen(); cancelClose(); header.removeEventListener('pointerenter', cancelClose); header.removeEventListener('pointerleave', leaveHeader); document.removeEventListener('pointerdown', outside); mq.removeEventListener('change', resize); };
   });
 </script>
 
@@ -105,9 +115,9 @@
       <ul class="rk-nav-list">
         {#each navigation.items as item, i}
           <li class={`rk-menu-item rk-menu-depth-0 ${item.classes}`} class:is-submenu-open={active === String(i)}
-            onpointerenter={(event) => { if (event.pointerType === 'mouse' && desktop) { cancelClose(); active = String(i); openedByHover = true; } }}>
+            onpointerenter={(event) => scheduleOpen(event, i)} onpointerleave={cancelOpen}>
             <div class="rk-menu-row"><a title={item.label} class="rk-menu-link rk-menu-link-depth-0" href={item.href} onclick={close}>{item.label}</a>
-              {#if item.children.length}<button class="rk-submenu-toggle" type="button" aria-expanded={active === String(i)} aria-controls={desktop?`native-submenu-${i}`:`native-mobile-submenu-${i}`} aria-label={`Toggle ${item.label} submenu`} data-submenu={String(i)} onkeydown={event=>enterMenu(event,i)} onclick={(event) => { if (event.detail && openedByHover) { openedByHover = false; return; } active = active === String(i) ? null : String(i); }}><span aria-hidden="true"></span></button>{/if}
+              {#if item.children.length}<button class="rk-submenu-toggle" type="button" aria-expanded={active === String(i)} aria-controls={desktop?`native-submenu-${i}`:`native-mobile-submenu-${i}`} aria-label={`Toggle ${item.label} submenu`} data-submenu={String(i)} onkeydown={event=>enterMenu(event,i)} onclick={(event) => { cancelOpen(); if (event.detail && openedByHover) { openedByHover = false; return; } active = active === String(i) ? null : String(i); }}><span aria-hidden="true"></span></button>{/if}
             </div>
             {#if item.children.length}
               <div id={`native-submenu-${i}`} class="rk-native-mega-host" inert={!enhanced||!desktop||active!==String(i)}><MegaMenu root={item} onNavigate={close} visible={enhanced&&desktop&&active===String(i)}/></div>

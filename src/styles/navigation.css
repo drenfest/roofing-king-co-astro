@@ -111,13 +111,13 @@ html:has(body.rk-nav-open){overflow:hidden;}
  .rk-native-header .rk-nav-list>.rk-menu-item>.rk-menu-row::after{content:"";position:absolute;bottom:0;left:.65rem;right:.65rem;height:2px;background:var(--rk-orange);transform:scaleX(0);transform-origin:left;transition:transform 220ms var(--rk-menu-ease);}
  .rk-native-header .rk-nav-list>.is-submenu-open>.rk-menu-row::after,.rk-native-header .rk-nav-list>.rk-menu-item>.rk-menu-row:hover::after{transform:scaleX(1);}
  .rk-native-header .rk-nav-list>.rk-menu-item>.rk-menu-row>.rk-menu-link{font-weight:550;background:none;box-shadow:none;border-radius:0;}
- .rk-native-header.rk-native-enhanced .rk-native-mega-host{background:#fcfaf5;border:1px solid #ded7cb;border-top:1px solid #ded7cb;box-shadow:0 28px 55px -18px #24232140;transform:translate(-50%,-7px);transition:opacity 180ms ease,transform 240ms var(--rk-menu-ease),visibility 0s linear 240ms;}
+ .rk-native-header.rk-native-enhanced .rk-native-mega-host{background:#fcfaf5;border:1px solid #ded7cb;border-top:1px solid #ded7cb;box-shadow:0 28px 55px -18px #24232140;transform:translate(-50%,-7px);transition:opacity 360ms ease,transform 420ms var(--rk-menu-ease),visibility 0s linear 420ms;}
  .rk-native-header.rk-native-enhanced .is-submenu-open>.rk-native-mega-host{transform:translate(-50%,0);transition-delay:0s;}
  .rk-native-header .rk-mega-intro{padding:1.25rem 1.75rem;background:#fcfaf5;color:var(--rk-charcoal);border-bottom:1px solid var(--rk-line);}
  .rk-native-header .rk-mega-intro>span{font:500 1.65rem/1.2 var(--rk-font-display);letter-spacing:-.025em;}
  .rk-native-header .rk-mega-intro>a{color:var(--rk-muted);font-size:.75rem;font-weight:500;}
  .rk-native-header .rk-mega-intro>a:hover{color:var(--rk-gold);}
- .rk-native-header .rk-mega-column{padding:1.4rem 1rem 1.6rem;animation:rk-menu-column-in 220ms var(--rk-menu-ease);}
+ .rk-native-header .rk-mega-column{padding:1.4rem 1rem 1.6rem;animation:rk-menu-column-in 380ms var(--rk-menu-ease);}
  .rk-native-header .rk-mega-column+.rk-mega-column{background:#f7f3eb;border-left:1px solid #e7e0d5;}
  .rk-native-header .rk-mega-column:nth-child(3){background:#fcfaf5;}
  .rk-native-header .rk-mega-heading{margin-bottom:.5rem;padding:0 .65rem .85rem;border-bottom:1px solid #e5ded2;}

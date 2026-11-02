@@ -2757,7 +2757,7 @@
         "tag": "p",
         "children": [
           {
-            "text": "New siding is priced as a complete wall project, not just a stack of panels. Roof King helps Cincinnati homeowners understand how measured area, material choice, preparation and finishing affect a replacement estimate. Use this guide to compare what is included before comparing totals."
+            "text": "Siding replacement cost in Cincinnati comes down to wall area, material, removal and what is found underneath. Consumer Reports, citing the 2025 Cost vs. Value report, gives national averages of nearly $18,000 for vinyl and above $21,000 for fiber cement. Those are national benchmarks, not Cincinnati prices or Roof King quotes. Your price comes from measuring your walls and itemizing the work."
           }
         ]
       }
@@ -2887,18 +2887,147 @@
       },
       {
         "id": "review-01-cincinnati-oh-the-cost-of-siding-replacement-estimate",
-        "title": "What a Cincinnati siding estimate should include",
+        "title": "What your written siding estimate should list",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Check that the Cincinnati quote identifies measured wall area, the chosen siding and finish, window and door trim, flashing, removal and disposal. Ask how concealed sheathing repairs and separate painting or gutter work are priced so you can compare complete replacements."
+                "text": "Compare proposals covering the same work before comparing totals. Your estimate should name:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Elevations and areas being repaired or replaced"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Manufacturer, product line, profile, color and finish"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Removal and disposal of existing cladding"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Wall repairs and how additional work is documented, priced and approved"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Weather barrier and flashing at openings and roof-wall connections"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, trim, soffit, fascia and any separate painting"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Fixtures removed and reinstalled, and the trades responsible"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Access, staging, cleanup and applicable permits or historic approvals"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately"
+                  }
+                ]
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Concealed damage, approved first",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The exact product and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two warranties, named separately",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/offers/5-year-workmanship-warranty/",
+                    "children": [
+                      {
+                        "text": "Review workmanship coverage"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -2914,31 +3043,51 @@
         "tag": "p",
         "children": [
           {
-            "text": "Tell Roof King the property address and whether you want the current appearance retained or changed. Review "
+            "text": "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Explore related information: "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/types/",
+            "children": [
+              {
+                "text": "Compare siding materials"
+              }
+            ]
+          },
+          {
+            "text": " · "
           },
           {
             "tag": "a",
             "href": "/siding/replacement/",
             "children": [
               {
-                "text": "siding replacement"
+                "text": "Siding replacement"
               }
             ]
           },
           {
-            "text": " and the "
+            "text": " · "
           },
           {
             "tag": "a",
             "href": "/products/siding/",
             "children": [
               {
-                "text": "siding product library"
+                "text": "Siding products"
               }
             ]
           },
           {
-            "text": " to prepare your selections. For adjoining projects, return to "
+            "text": " · "
           },
           {
             "tag": "a",
@@ -2948,9 +3097,6 @@
                 "text": "Cincinnati exterior services"
               }
             ]
-          },
-          {
-            "text": "."
           }
         ]
       }
@@ -2973,41 +3119,30 @@
         "href": "/cincinnati-oh/"
       }
     ],
-    "bodyWords": 595,
+    "bodyWords": 517,
     "expectedBlocks": [
-      "New siding is priced as a complete wall project, not just a stack of panels. Roof King helps Cincinnati homeowners understand how measured area, material choice, preparation and finishing affect a replacement estimate. Use this guide to compare what is included before comparing totals.",
-      "How siding area and trim affect replacement cost",
-      "Measurement starts with the wall surfaces and their shapes. Stories, gables, corners, windows and doors affect the quantity of siding and the details around it. Openings can reduce panel area while adding trim and flashing work, so subtracting every window from a wall does not describe the complete labor or material requirement.",
-      "As an arithmetic illustration, a rectangular wall 30 feet long and 10 feet high has 300 square feet of gross surface area. That does not include a gable above it, and it does not determine the ordered quantity. Openings, profiles, cutting requirements and trim still need to be measured. This is an example, not a Roof King project or quote.",
-      "Compare siding materials and installation costs",
-      "Vinyl siding",
+      "Siding replacement cost in Cincinnati comes down to wall area, material, removal and what is found underneath. Consumer Reports, citing the 2025 Cost vs. Value report, gives national averages of nearly $18,000 for vinyl and above $21,000 for fiber cement. Those are national benchmarks, not Cincinnati prices or Roof King quotes. Your price comes from measuring your walls and itemizing the work.",
       "Vinyl profiles and finishes have their own accessory and attachment systems. Compare the selected panel, corner and opening details, and whether a particular insulation component is included. Standard vinyl and insulated products should not be treated as the same specification.",
-      "Engineered wood siding: LP SmartSide",
       "Engineered wood combines a wood-based siding appearance with product-specific finishing and installation requirements. The estimate needs to identify the finish, trim and treatment of cut edges and connections for the chosen product.",
-      "Fiber cement siding: James Hardie",
       "Fiber cement offers different profiles and finish choices, with its own handling, fastening and detailing requirements. Compare the complete installation rather than assuming a material category comes with one universal price. The siding materials guide explains these options further.",
-      "Old siding removal and concealed wall repairs",
       "Removal exposes the wall beneath the old siding. Deteriorated sheathing or trim, unresolved water entry and incomplete flashing may need attention before the new finish is installed. Ask how those findings will be photographed, priced and approved. A new panel cannot correct a concealed wall problem that remains untreated.",
-      "Window trim, corners, soffits and fixtures",
       "Corners, window and door trim, roof-to-wall transitions, soffit or fascia work, fixture removal and reinstallation, and cleanup all affect the work. Identify what is included and what will remain. If painting or gutter work is separate, record the boundary and sequence so the finished exterior is coordinated.",
-      "Like-for-like siding or a redesigned exterior",
       "A like-for-like replacement with limited trim changes differs from a project that introduces new accent areas, extensive opening details or wall repairs. Both may cover similar wall areas. The useful comparison lists the material, preparation and finish work before the total. Approved measured pricing is needed to turn either approach into a project budget.",
-      "Siding questions: materials, installation and estimates",
-      "Can I price the project from the home's floor area?",
-      "Floor area is not exterior wall area. The number of stories, wall shapes, attached structures and openings change the measurement and work involved.",
-      "Should every window be deducted from the quote?",
-      "The contractor's measurement and pricing method should be explained. Openings reduce some panel area but create trim, cutting and flashing work; a simple net-area comparison may miss those items.",
-      "Does a financing offer change the construction total?",
-      "Compare the accepted project price with the separate financing agreement. Eligibility, interest, fees and repayment terms need current written confirmation.",
-      "Request a siding replacement estimate in Cincinnati",
-      "Tell Roof King the property address and whether you want the current appearance retained or changed. Review siding replacement and the siding product library to prepare your selections. For adjoining projects, return to Cincinnati exterior services.",
-      "How siding area and trim affect replacement cost",
-      "Request a siding replacement estimate in Cincinnati",
-      "Siding questions: materials, installation and estimates",
-      "Compare siding materials and installation costs",
-      "What adds to a siding replacement quote?",
-      "What a Cincinnati siding estimate should include",
-      "Check that the Cincinnati quote identifies measured wall area, the chosen siding and finish, window and door trim, flashing, removal and disposal. Ask how concealed sheathing repairs and separate painting or gutter work are priced so you can compare complete replacements."
+      "Compare proposals covering the same work before comparing totals. Your estimate should name:",
+      "Elevations and areas being repaired or replaced",
+      "Manufacturer, product line, profile, color and finish",
+      "Removal and disposal of existing cladding",
+      "Wall repairs and how additional work is documented, priced and approved",
+      "Weather barrier and flashing at openings and roof-wall connections",
+      "Corners, trim, soffit, fascia and any separate painting",
+      "Fixtures removed and reinstalled, and the trades responsible",
+      "Access, staging, cleanup and applicable permits or historic approvals",
+      "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately",
+      "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds.",
+      "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone.",
+      "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. Review workmanship coverage.",
+      "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate.",
+      "Explore related information: Compare siding materials · Siding replacement · Siding products · Cincinnati exterior services"
     ],
     "budgetSectionId": "review-01-cincinnati-oh-the-cost-of-siding-replacement-estimate"
   },
@@ -6285,7 +6420,7 @@
         "tag": "p",
         "children": [
           {
-            "text": "Commercial siding work needs to protect the wall and account for the people using the building. Roof King helps Columbus property owners and managers discuss exterior repairs and replacement around the existing cladding, affected areas and operational requirements. Identify the building type and selected system when requesting an assessment."
+            "text": "Roof King repairs and replaces siding on commercial buildings in Columbus. Plan around the wall, the people using the building and the permit that applies. Share the building’s use, elevations and access limits. We inspect the cladding, openings and roof-wall connections, then provide a written estimate naming materials, repairs and the work arrangements around your tenants."
           }
         ]
       }
@@ -6359,87 +6494,56 @@
       },
       {
         "id": "service-copy-23-4",
-        "title": "Planning a commercial siding installation",
-        "body": [],
+        "title": "Wall details that decide how commercial siding performs",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "New panels depend on the layers and connections behind them. Assess these details before closing the wall."
+              }
+            ]
+          }
+        ],
         "cards": [
           {
-            "title": "Commercial siding removal and wall repairs",
+            "title": "Removal, sheathing and weather barrier",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Removal can expose deteriorated sheathing, damaged trim or unresolved moisture. Address those findings before new cladding conceals them. The proposal should explain how additional repairs are documented and authorized."
+                    "text": "Tear-off can reveal wet sheathing, damaged trim and missing barrier details. The estimate should say how findings are recorded, who approves additional work and how repairs are priced before new cladding covers them."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Flashing at windows, doors and roof intersections",
+            "title": "Flashing at windows, doors and storefronts",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Windows, doors, roof intersections, parapets and changes in material need appropriate flashing and trim connections. Replacing panels alone may leave the original failure at a transition unresolved."
+                    "text": "Storefront frames, doors, louvers and penetrations need flashing and trim compatible with the new siding. Replacing panels alone can leave the original water entry in place. Assign any adjoining opening or fixture work before installation."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Signs, lighting and roof-to-wall connections",
+            "title": "Parapets and roof-to-wall connections",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Signs, lighting, service lines and other attached items can affect the sequence. Identify who removes and reinstalls them and whether another trade is involved. Coordinate relevant work with "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/commercial-roofing/",
-                    "children": [
-                      {
-                        "text": "commercial roofing"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " where the wall and roof meet."
+                    "text": "At parapets, lower canopies and roof-wall junctions, roofing and siding details overlap. Plan the flashing and wall termination together, with clear responsibility for each connection."
                   }
                 ]
               }
             ]
-          },
-          {
-            "title": "Access, staging and tenant communication",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Agree on access, lift or staging areas, entrances, deliveries and communication with occupants. Phasing may help manage the work, but the practical arrangement depends on the building and project. Include protected routes and any periods when particular areas need to be cleared. Confirm the decision-maker for material selections and additional repairs."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-23-5"
-          },
-          {
-            "title": "Siding maintenance records and product warranties",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Retain the material, color, finish and care information by elevation or project area. Record changes, separate repair estimates and applicable warranties. The property team should know which components need inspection and how later attachments or alterations should be coordinated."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-23-6"
           }
         ],
         "image": {
@@ -6453,18 +6557,186 @@
       },
       {
         "id": "review-01-commercial-siding-estimate",
-        "title": "What a commercial siding estimate should identify",
+        "title": "What a commercial siding estimate includes",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Identify the included building elevations, cladding and finish, wall repairs, flashing and responsibility for signs, lighting and service lines. The commercial siding estimate should also explain access, staging, phasing, occupant communication and approval of additional repairs."
+                "text": "Compare proposals covering the same work before comparing totals. Your estimate should name:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Elevations and areas being repaired or replaced"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Manufacturer, product line, profile, color and finish"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Removal and disposal of existing cladding"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Wall repairs and how additional work is documented, priced and approved"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Weather barrier and flashing at openings and roof-wall connections"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, trim, soffit, fascia and any separate painting"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Fixtures removed and reinstalled, and the trades responsible"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Access, staging, cleanup and applicable permits or historic approvals"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately"
+                  }
+                ]
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Concealed damage, approved first",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The exact product and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two warranties, named separately",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/offers/5-year-workmanship-warranty/",
+                    "children": [
+                      {
+                        "text": "Review workmanship coverage"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Insurance certificates",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Request current general liability and workers’ compensation certificates. Give every bidder the same requirements from your lease, lender or property manager, including any specific limits or additional-insured requirement."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Bonding and contract terms",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Raise performance or payment bonds, contract forms, lien waivers and retainage requirements when requesting the estimate. These affect pricing and paperwork."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Schedule, crew and supervision",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Agree on the daily property contact, supervision, anticipated working days by elevation, weather arrangements and how schedule changes are communicated."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -6480,7 +6752,60 @@
         "tag": "p",
         "children": [
           {
-            "text": "Share the address, affected elevations and operating constraints with Roof King. The estimate should connect the wall work with the building's use and the selected finish."
+            "text": "Share the building address, use, affected elevations and access limits. We will assess the cladding and connections and put the proposed materials, wall repairs and working arrangements in writing."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Explore related information: "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/types/",
+            "children": [
+              {
+                "text": "Compare siding materials"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/products/siding/",
+            "children": [
+              {
+                "text": "Siding products"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/commercial-roofing/",
+            "children": [
+              {
+                "text": "Commercial roofing"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/replacement/",
+            "children": [
+              {
+                "text": "Siding replacement"
+              }
+            ]
           }
         ]
       }
@@ -6499,42 +6824,33 @@
         "href": "/commercial-roofing/"
       }
     ],
-    "bodyWords": 554,
+    "bodyWords": 531,
     "expectedBlocks": [
-      "Commercial siding work needs to protect the wall and account for the people using the building. Roof King helps Columbus property owners and managers discuss exterior repairs and replacement around the existing cladding, affected areas and operational requirements. Identify the building type and selected system when requesting an assessment.",
-      "Inspecting commercial siding damage",
-      "Loose or damaged cladding may be a localized problem, but staining, movement or repeated water entry can point to conditions behind the visible surface. The assessment should identify affected elevations, openings and transitions. If covered areas cannot be evaluated initially, the estimate should explain the investigation or additional-work process.",
-      "Selective siding repair or full-elevation replacement",
+      "Roof King repairs and replaces siding on commercial buildings in Columbus. Plan around the wall, the people using the building and the permit that applies. Share the building’s use, elevations and access limits. We inspect the cladding, openings and roof-wall connections, then provide a written estimate naming materials, repairs and the work arrangements around your tenants.",
       "Selective repair depends on the surrounding material, product availability and the ability to restore the connection. A visually close match may still differ because of weathering or discontinued profiles. Widespread deterioration, repeated failures or a planned change in appearance can make replacement the more useful comparison. Record which areas are included and which remain.",
-      "Choosing siding for the building and its use",
       "Vinyl, engineered wood and fiber cement have different panel, trim, attachment and finishing requirements. The siding materials guide explains those families and the product library helps identify specific choices. Residential product availability does not establish suitability for every commercial building; confirm the assembly, design requirements and installation details for the application.",
-      "Planning a commercial siding installation",
-      "Commercial siding removal and wall repairs",
-      "Removal can expose deteriorated sheathing, damaged trim or unresolved moisture. Address those findings before new cladding conceals them. The proposal should explain how additional repairs are documented and authorized.",
-      "Flashing at windows, doors and roof intersections",
-      "Windows, doors, roof intersections, parapets and changes in material need appropriate flashing and trim connections. Replacing panels alone may leave the original failure at a transition unresolved.",
-      "Signs, lighting and roof-to-wall connections",
-      "Signs, lighting, service lines and other attached items can affect the sequence. Identify who removes and reinstalls them and whether another trade is involved. Coordinate relevant work with commercial roofing where the wall and roof meet.",
-      "Access, staging and tenant communication",
-      "Agree on access, lift or staging areas, entrances, deliveries and communication with occupants. Phasing may help manage the work, but the practical arrangement depends on the building and project. Include protected routes and any periods when particular areas need to be cleared. Confirm the decision-maker for material selections and additional repairs.",
-      "Siding maintenance records and product warranties",
-      "Retain the material, color, finish and care information by elevation or project area. Record changes, separate repair estimates and applicable warranties. The property team should know which components need inspection and how later attachments or alterations should be coordinated.",
-      "Commercial siding questions: materials, installation and estimates",
-      "Can one elevation be replaced first?",
-      "Possibly, if the boundaries and connections can be addressed appropriately. Compare matching, access and future phases before deciding the sequence.",
-      "Are tenant notices and approvals included?",
-      "Confirm responsibility for building permissions, design review, applications and occupant communication in the project arrangement. Do not assume every administrative task is included in the construction price.",
-      "What changes the cost?",
-      "Area, height, access, material, removal, wall repairs, openings, trim and fixture coordination all affect the work. Compare the same work before comparing totals.",
-      "Request a commercial siding assessment in Columbus",
-      "Share the address, affected elevations and operating constraints with Roof King. The estimate should connect the wall work with the building's use and the selected finish.",
-      "Inspecting commercial siding damage",
-      "Request a commercial siding assessment in Columbus",
-      "Commercial siding questions: materials, installation and estimates",
-      "Commercial siding repair, replacement and material choices",
-      "Planning a commercial siding installation",
-      "What a commercial siding estimate should identify",
-      "Identify the included building elevations, cladding and finish, wall repairs, flashing and responsibility for signs, lighting and service lines. The commercial siding estimate should also explain access, staging, phasing, occupant communication and approval of additional repairs."
+      "New panels depend on the layers and connections behind them. Assess these details before closing the wall.",
+      "Tear-off can reveal wet sheathing, damaged trim and missing barrier details. The estimate should say how findings are recorded, who approves additional work and how repairs are priced before new cladding covers them.",
+      "Storefront frames, doors, louvers and penetrations need flashing and trim compatible with the new siding. Replacing panels alone can leave the original water entry in place. Assign any adjoining opening or fixture work before installation.",
+      "At parapets, lower canopies and roof-wall junctions, roofing and siding details overlap. Plan the flashing and wall termination together, with clear responsibility for each connection.",
+      "Compare proposals covering the same work before comparing totals. Your estimate should name:",
+      "Elevations and areas being repaired or replaced",
+      "Manufacturer, product line, profile, color and finish",
+      "Removal and disposal of existing cladding",
+      "Wall repairs and how additional work is documented, priced and approved",
+      "Weather barrier and flashing at openings and roof-wall connections",
+      "Corners, trim, soffit, fascia and any separate painting",
+      "Fixtures removed and reinstalled, and the trades responsible",
+      "Access, staging, cleanup and applicable permits or historic approvals",
+      "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately",
+      "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds.",
+      "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone.",
+      "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. Review workmanship coverage.",
+      "Request current general liability and workers’ compensation certificates. Give every bidder the same requirements from your lease, lender or property manager, including any specific limits or additional-insured requirement.",
+      "Raise performance or payment bonds, contract forms, lien waivers and retainage requirements when requesting the estimate. These affect pricing and paperwork.",
+      "Agree on the daily property contact, supervision, anticipated working days by elevation, weather arrangements and how schedule changes are communicated.",
+      "Share the building address, use, affected elevations and access limits. We will assess the cladding and connections and put the proposed materials, wall repairs and working arrangements in writing.",
+      "Explore related information: Compare siding materials · Siding products · Commercial roofing · Siding replacement"
     ],
     "budgetSectionId": "review-01-commercial-siding-estimate"
   },
@@ -19185,7 +19501,7 @@
         "tag": "p",
         "children": [
           {
-            "text": "Siding gives a home its visible finish, but the project also needs to address the wall and connections behind it. Roof King helps Columbus homeowners assess damaged siding, compare replacement options and coordinate the panels, trim and adjoining exterior details."
+            "text": "Loose, cracked or storm-damaged siding is rarely just a panel problem. Roof King & Restoration is a family-owned siding contractor in Columbus. We repair and replace siding and check the trim, flashing and wall layers behind it, so new cladding is not hiding an unresolved leak. Tell us what you see and we will help you compare a focused repair with a wider replacement."
           }
         ]
       }
@@ -19193,44 +19509,114 @@
     "sections": [
       {
         "id": "service-copy-70-1",
-        "title": "Assessing siding damage before repair or replacement",
-        "body": [],
+        "title": "How we assess siding damage",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "An inspection separates damage to the siding from a problem behind it. These are the three areas we check."
+              }
+            ]
+          }
+        ],
         "cards": [
           {
-            "title": "Repairing a limited area of damaged siding",
+            "title": "Signs your siding needs attention",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "A localized repair may be worth discussing where the surrounding wall and cladding remain serviceable. Suitability depends on the cause, compatible material availability and the ability to restore the connection. Matching can be limited by age, weathering or discontinued products. Confirm the repair estimate the team can provide for your siding."
+                    "text": "Call for an inspection when you notice:"
+                  }
+                ]
+              },
+              {
+                "tag": "ul",
+                "children": [
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Buckled, warped or loose courses, or panels that have slipped out of place"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Cracks, holes or broken corners after hail or impact"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Exposed housewrap or sheathing where a panel is missing"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Staining, soft trim or peeling paint near openings"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Gaps at corners or where siding meets the roof"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Uneven fading and patches that no longer match"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Some signs involve the panel itself; staining near a window can start with failed flashing behind it. The inspection is about finding which."
                   }
                 ]
               }
             ]
           },
           {
+            "id": "service-copy-70-2",
             "title": "Checking flashing and moisture behind siding",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Loose siding, damaged trim, staining and water near a window can arise from different failures. The assessment should consider the affected component and the neighboring details. A replacement panel alone may not resolve a failed flashing or moisture connection. Areas concealed by siding may require further investigation once material is removed."
+                    "text": "Loose siding, damaged trim, staining and water near a window can come from different failures. A new panel alone does not repair failed flashing or a gap in the weather barrier. Some areas can only be assessed after removal, so the estimate explains how hidden damage is documented, priced and approved."
                   }
                 ]
               }
-            ],
-            "id": "service-copy-70-2"
+            ]
           },
           {
-            "title": "Checking the replacement profile and color",
+            "title": "Matching profile and color on a repair",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "A repair panel needs a compatible profile, overlap and thickness as well as a similar color. We compare the panel shape and a physical sample against the existing wall in daylight. Weathering can change the appearance of older siding, so a matching color name alone does not guarantee an invisible repair."
+                    "text": "A repair needs compatible profile, overlap and thickness as well as a similar color. Compare the panel shape and a physical sample against the existing wall in daylight. Weathering means the same color name may not produce an invisible repair."
                   }
                 ]
               }
@@ -19258,7 +19644,7 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Vinyl siding offers different profiles and finishes, including options in the Variform by Ply Gem range. The panel, accessories and attachment need to be treated as a system. Confirm whether a selected product has insulation rather than assuming all vinyl provides the same thermal benefit."
+                    "text": "Vinyl is a finished-color panel system. The attachment slots, corners and opening trim need to allow thermal movement, while the water barrier and flashing behind the panels direct moisture outside. Compare the exact profile and any insulated backing rather than treating every vinyl line as equivalent."
                   }
                 ]
               }
@@ -19271,7 +19657,7 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "LP SmartSide is an engineered wood siding family with its own finishing, clearance and installation requirements. Review the actual product and finish, including how edges and trim will be handled."
+                    "text": "LP SmartSide offers engineered-wood lap, panel, shake and trim profiles. Sealed cut edges, the required clearances and an intact finish are important parts of the installation. Choose primed boards with field painting included or a factory-finished ExpertFinish product, and keep finish coverage separate from substrate coverage."
                   }
                 ]
               }
@@ -19284,20 +19670,64 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "James Hardie offers fiber cement products in different profiles and finishes. Installation and care need to follow the selected product's documents. No siding material eliminates the need for correct wall details and ongoing inspection."
+                    "text": "James Hardie offers rigid fiber cement lap, shingle and panel profiles. The selected HardieZone product, fastening, clearances and opening details belong in the plan. Compare factory-finished ColorPlus with primed products that require painting; both still need periodic inspection and appropriate cleaning."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Coordinating siding with windows, roofing and gutters",
+            "title": "Complement your new siding with a new roof, windows, or doors",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Windows, doors, roof intersections, gutters, fascia and exterior fixtures can affect the sequence. Decide which trim will be replaced or retained and which surfaces need separate painting. Select the roof, siding and trim palette together where more than one material is changing, while keeping the materials, preparation and installation for each service clear."
+                    "text": "Complete your exterior update by pairing new siding with a "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/replacement/",
+                    "children": [
+                      {
+                        "text": "roof replacement"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " or "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/windows/",
+                    "children": [
+                      {
+                        "text": "replacement windows"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ". Coordinating profiles, colors and trim helps the whole home feel considered, while planning flashing and installation together keeps adjoining work connected."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Thinking about new doors as well? "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/contact-us/",
+                    "children": [
+                      {
+                        "text": "Talk with our team about your project"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " so we can discuss the doors, openings and finishing details alongside your siding plans."
                   }
                 ]
               }
@@ -19312,22 +19742,171 @@
         "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
         "variant": "comparison",
         "tone": "cream",
-        "eyebrow": "Siding materials and installation"
+        "eyebrow": "Siding materials and installation",
+        "materialTabs": [
+          {
+            "label": "Vinyl",
+            "manufacturer": "Variform by Ply Gem",
+            "href": "/products/siding/vinyl/",
+            "cardTitle": "Vinyl siding: Variform by Ply Gem"
+          },
+          {
+            "label": "Engineered wood",
+            "manufacturer": "LP SmartSide",
+            "href": "/products/siding/engineered-wood/",
+            "cardTitle": "Engineered wood siding: LP SmartSide"
+          },
+          {
+            "label": "Fiber cement",
+            "manufacturer": "James Hardie",
+            "href": "/products/siding/fiber-cement/",
+            "cardTitle": "Fiber cement siding: James Hardie"
+          }
+        ]
       },
       {
         "id": "review-01-siding-estimate",
-        "title": "What is included in a siding service estimate?",
+        "title": "What should a siding estimate include?",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "A siding estimate should name the areas being repaired or replaced, selected panels and trim, wall preparation and flashing at openings. Ask whether fixture removal, painting and cleanup are included and how concealed damage is approved."
+                "text": "Compare proposals covering the same work before comparing totals. Your estimate should name:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Elevations and areas being repaired or replaced"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Manufacturer, product line, profile, color and finish"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Removal and disposal of existing cladding"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Wall repairs and how additional work is documented, priced and approved"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Weather barrier and flashing at openings and roof-wall connections"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, trim, soffit, fascia and any separate painting"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Fixtures removed and reinstalled, and the trades responsible"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Access, staging, cleanup and applicable permits or historic approvals"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately"
+                  }
+                ]
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Concealed damage, approved first",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The exact product and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two warranties, named separately",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/offers/5-year-workmanship-warranty/",
+                    "children": [
+                      {
+                        "text": "Review workmanship coverage"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -19343,7 +19922,48 @@
         "tag": "p",
         "children": [
           {
-            "text": "Tell Roof King the address, affected areas and whether you want the current appearance retained or changed. The next step is an estimate that connects the wall condition with the selected siding."
+            "text": "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Explore related information: "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/replacement/",
+            "children": [
+              {
+                "text": "Siding replacement"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/types/",
+            "children": [
+              {
+                "text": "Compare siding materials"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/products/siding/",
+            "children": [
+              {
+                "text": "Siding products"
+              }
+            ]
           }
         ]
       }
@@ -19362,43 +19982,40 @@
         "href": "/products/siding/"
       }
     ],
-    "bodyWords": 558,
+    "bodyWords": 622,
     "expectedBlocks": [
-      "Siding gives a home its visible finish, but the project also needs to address the wall and connections behind it. Roof King helps Columbus homeowners assess damaged siding, compare replacement options and coordinate the panels, trim and adjoining exterior details.",
-      "Residential siding services in Columbus",
-      "Siding replacement: panels, flashing and trim",
-      "Siding replacement includes removal, wall preparation, the selected cladding and the details around openings and transitions. A complete list of materials and installation work explains what is being retained and how concealed damage will be handled.",
-      "Compare vinyl, engineered wood and fiber cement",
-      "The siding materials guide introduces vinyl, engineered wood and fiber cement, including the different installation and maintenance considerations. Use the product library for exact profiles, colors and manufacturer information.",
-      "Repairing a limited area of damaged siding",
-      "A localized repair may be worth discussing where the surrounding wall and cladding remain serviceable. Suitability depends on the cause, compatible material availability and the ability to restore the connection. Matching can be limited by age, weathering or discontinued products. Confirm the repair estimate the team can provide for your siding.",
-      "Checking flashing and moisture behind siding",
-      "Loose siding, damaged trim, staining and water near a window can arise from different failures. The assessment should consider the affected component and the neighboring details. A replacement panel alone may not resolve a failed flashing or moisture connection. Areas concealed by siding may require further investigation once material is removed.",
-      "Choosing siding materials, trim and exterior details",
-      "Vinyl siding: Variform by Ply Gem",
-      "Vinyl siding offers different profiles and finishes, including options in the Variform by Ply Gem range. The panel, accessories and attachment need to be treated as a system. Confirm whether a selected product has insulation rather than assuming all vinyl provides the same thermal benefit.",
-      "Engineered wood siding: LP SmartSide",
-      "LP SmartSide is an engineered wood siding family with its own finishing, clearance and installation requirements. Review the actual product and finish, including how edges and trim will be handled.",
-      "Fiber cement siding: James Hardie",
-      "James Hardie offers fiber cement products in different profiles and finishes. Installation and care need to follow the selected product's documents. No siding material eliminates the need for correct wall details and ongoing inspection.",
-      "Coordinating siding with windows, roofing and gutters",
-      "Windows, doors, roof intersections, gutters, fascia and exterior fixtures can affect the sequence. Decide which trim will be replaced or retained and which surfaces need separate painting. Select the roof, siding and trim palette together where more than one material is changing, while keeping the materials, preparation and installation for each service clear.",
-      "Siding questions: materials, installation and estimates",
-      "Is a full replacement needed for one damaged area?",
-      "Not automatically. The surrounding condition, cause and available matching material determine whether a local repair is practical. A wider replacement may be appropriate when deterioration or unresolved problems extend beyond the visible area.",
-      "Does new siding fix every wall leak?",
-      "No. The source needs to be identified and the relevant flashing, preparation or adjoining repair included. Cladding should not conceal an unresolved wall problem.",
-      "What should the estimate contain?",
-      "Look for the included elevations, selected material, removal, preparation, trim, flashing, fixture work, cleanup and additional-repair terms. Confirm applicable coverage for both the products and workmanship.",
-      "Request a siding service estimate in Columbus",
-      "Tell Roof King the address, affected areas and whether you want the current appearance retained or changed. The next step is an estimate that connects the wall condition with the selected siding.",
-      "Residential siding services in Columbus",
-      "Request a siding service estimate in Columbus",
-      "Siding questions: materials, installation and estimates",
-      "Assessing siding damage before repair or replacement",
-      "Choosing siding materials, trim and exterior details",
-      "What is included in a siding service estimate?",
-      "A siding estimate should name the areas being repaired or replaced, selected panels and trim, wall preparation and flashing at openings. Ask whether fixture removal, painting and cleanup are included and how concealed damage is approved."
+      "Loose, cracked or storm-damaged siding is rarely just a panel problem. Roof King & Restoration is a family-owned siding contractor in Columbus. We repair and replace siding and check the trim, flashing and wall layers behind it, so new cladding is not hiding an unresolved leak. Tell us what you see and we will help you compare a focused repair with a wider replacement.",
+      "An inspection separates damage to the siding from a problem behind it. These are the three areas we check.",
+      "Call for an inspection when you notice:",
+      "Buckled, warped or loose courses, or panels that have slipped out of place",
+      "Cracks, holes or broken corners after hail or impact",
+      "Exposed housewrap or sheathing where a panel is missing",
+      "Staining, soft trim or peeling paint near openings",
+      "Gaps at corners or where siding meets the roof",
+      "Uneven fading and patches that no longer match",
+      "Some signs involve the panel itself; staining near a window can start with failed flashing behind it. The inspection is about finding which.",
+      "Loose siding, damaged trim, staining and water near a window can come from different failures. A new panel alone does not repair failed flashing or a gap in the weather barrier. Some areas can only be assessed after removal, so the estimate explains how hidden damage is documented, priced and approved.",
+      "A repair needs compatible profile, overlap and thickness as well as a similar color. Compare the panel shape and a physical sample against the existing wall in daylight. Weathering means the same color name may not produce an invisible repair.",
+      "Vinyl is a finished-color panel system. The attachment slots, corners and opening trim need to allow thermal movement, while the water barrier and flashing behind the panels direct moisture outside. Compare the exact profile and any insulated backing rather than treating every vinyl line as equivalent.",
+      "LP SmartSide offers engineered-wood lap, panel, shake and trim profiles. Sealed cut edges, the required clearances and an intact finish are important parts of the installation. Choose primed boards with field painting included or a factory-finished ExpertFinish product, and keep finish coverage separate from substrate coverage.",
+      "James Hardie offers rigid fiber cement lap, shingle and panel profiles. The selected HardieZone product, fastening, clearances and opening details belong in the plan. Compare factory-finished ColorPlus with primed products that require painting; both still need periodic inspection and appropriate cleaning.",
+      "Complete your exterior update by pairing new siding with a roof replacement or replacement windows. Coordinating profiles, colors and trim helps the whole home feel considered, while planning flashing and installation together keeps adjoining work connected.",
+      "Thinking about new doors as well? Talk with our team about your project so we can discuss the doors, openings and finishing details alongside your siding plans.",
+      "Compare proposals covering the same work before comparing totals. Your estimate should name:",
+      "Elevations and areas being repaired or replaced",
+      "Manufacturer, product line, profile, color and finish",
+      "Removal and disposal of existing cladding",
+      "Wall repairs and how additional work is documented, priced and approved",
+      "Weather barrier and flashing at openings and roof-wall connections",
+      "Corners, trim, soffit, fascia and any separate painting",
+      "Fixtures removed and reinstalled, and the trades responsible",
+      "Access, staging, cleanup and applicable permits or historic approvals",
+      "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately",
+      "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds.",
+      "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone.",
+      "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. Review workmanship coverage.",
+      "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate.",
+      "Explore related information: Siding replacement · Compare siding materials · Siding products"
     ],
     "budgetSectionId": "review-01-siding-estimate"
   },
@@ -19415,7 +20032,7 @@
         "tag": "p",
         "children": [
           {
-            "text": "Replacing siding is an opportunity to address the wall beneath the old finish as well as the appearance of the home. Roof King helps Columbus homeowners plan the selected panels, preparation, flashing and trim as one connected project."
+            "text": "Siding replacement exposes the wall behind your cladding. Roof King removes old siding, repairs what removal reveals with your approval, and prepares the weather barrier, flashing and trim before new vinyl, engineered wood or fiber cement goes on. Our installation carries a separate 5-year workmanship warranty. Within Columbus city limits, replacing exterior siding also requires a building permit."
           }
         ]
       }
@@ -19490,74 +20107,56 @@
       {
         "id": "service-copy-71-3",
         "title": "How the wall is prepared for new siding",
-        "body": [],
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Removal exposes the wall and connections the new cladding will depend on."
+              }
+            ]
+          }
+        ],
         "cards": [
           {
-            "title": "Concealed sheathing damage after siding removal",
+            "title": "Concealed damage after removal",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Old siding may conceal deteriorated sheathing, damaged trim or incomplete water-management details. The initial assessment cannot establish every covered condition. The proposal should explain how new findings will be recorded, priced and approved. Resolve affected wall components before the new exterior covers them."
+                    "text": "Old siding can hide soft sheathing, deteriorated trim and gaps in the weather barrier, especially below windows and near the base of walls. Record findings, obtain approval for the repair price and correct damaged components before the wall is covered again."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Supporting surface and water-management layers",
+            "id": "service-copy-71-4",
+            "title": "Weather barrier and opening flashing",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "The wall needs an appropriate surface for the selected product and the specified protection behind it. The retained and new layers should be identified in the work, with connections suited to the existing construction."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-71-4"
-          },
-          {
-            "title": "Windows and doors",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Openings need coordinated flashing and trim details. New siding alone does not correct every window or door leak. Identify whether the existing trim stays, is altered or is replaced, and whether separate opening repairs are required."
+                    "text": "Water behind siding must be directed outside. Lap the barrier and integrate window and door flashing so water sheds over it rather than behind it. New cladding alone does not fix a leaking opening; identify any separate window or door repair in the estimate."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Roof and material transitions",
+            "title": "Roof-to-wall and material transitions",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Where siding meets a roof, another cladding material or a lower wall detail, the connection needs to direct water appropriately. The estimate should explain the relevant flashing and clearance requirements for the selected product rather than rely on general sealing alone."
+                    "text": "Where siding meets a lower roof, masonry or a deck, the connection needs appropriate flashing and the selected product’s clearances. Sealant alone cannot replace these details. Coordinate roofing and cladding before either covers the connection."
                   }
                 ]
               }
             ]
-          },
-          {
-            "title": "Property access, debris removal and final inspection",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Discuss landscaping, entrances, delivery areas and where removed material will be collected. Agree on the project contact and how additional work or weather interruptions will be communicated. The completed-work review should cover the agreed elevations, transitions, fixture treatment and cleanup, along with the documents for the selected materials."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-71-6"
           }
         ],
         "image": {
@@ -19571,18 +20170,147 @@
       },
       {
         "id": "review-01-siding-replacement-estimate",
-        "title": "What to include in your siding replacement estimate",
+        "title": "What your siding replacement estimate includes",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Check the replacement estimate for old siding removal, sheathing repair arrangements, water-management layers, flashing, selected panels, trim and fixture reinstallation. Record any separate painting, soffit, fascia or gutter work before installation."
+                "text": "Compare proposals covering the same work before comparing totals. Your estimate should name:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Elevations and areas being repaired or replaced"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Manufacturer, product line, profile, color and finish"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Removal and disposal of existing cladding"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Wall repairs and how additional work is documented, priced and approved"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Weather barrier and flashing at openings and roof-wall connections"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, trim, soffit, fascia and any separate painting"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Fixtures removed and reinstalled, and the trades responsible"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Access, staging, cleanup and applicable permits or historic approvals"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately"
+                  }
+                ]
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Concealed damage, approved first",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The exact product and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two warranties, named separately",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/offers/5-year-workmanship-warranty/",
+                    "children": [
+                      {
+                        "text": "Review workmanship coverage"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -19598,7 +20326,48 @@
         "tag": "p",
         "children": [
           {
-            "text": "Tell Roof King which areas you want replaced and the appearance you have in mind. A useful estimate explains the wall preparation and connections as clearly as the visible product."
+            "text": "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Explore related information: "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/types/",
+            "children": [
+              {
+                "text": "Compare siding materials"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/products/siding/",
+            "children": [
+              {
+                "text": "Siding products"
+              }
+            ]
+          },
+          {
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/replacement/",
+            "children": [
+              {
+                "text": "Siding replacement"
+              }
+            ]
           }
         ]
       }
@@ -19613,42 +20382,30 @@
         "href": "/products/siding/"
       }
     ],
-    "bodyWords": 561,
+    "bodyWords": 475,
     "expectedBlocks": [
-      "Replacing siding is an opportunity to address the wall beneath the old finish as well as the appearance of the home. Roof King helps Columbus homeowners plan the selected panels, preparation, flashing and trim as one connected project.",
-      "When to replace siding instead of repairing it",
-      "Widespread wear, repeated damage, limited matching options or a planned change in appearance can support replacement. A smaller repair may be practical when the surrounding materials and connections remain suitable. The assessment should identify the problem and explain why the proposed work is appropriate.",
-      "Match siding profiles and colors to your home",
+      "Siding replacement exposes the wall behind your cladding. Roof King removes old siding, repairs what removal reveals with your approval, and prepares the weather barrier, flashing and trim before new vinyl, engineered wood or fiber cement goes on. Our installation carries a separate 5-year workmanship warranty. Within Columbus city limits, replacing exterior siding also requires a building permit.",
       "Compare vinyl, engineered wood and fiber cement on the siding materials page. Material, profile, color and finish are separate decisions. Review samples beside retained masonry, roofing, windows and doors, then identify the selected product in the estimate. Accent areas and trim can change both appearance and labor, even when the main wall area is unchanged.",
-      "Concealed sheathing damage after siding removal",
-      "Old siding may conceal deteriorated sheathing, damaged trim or incomplete water-management details. The initial assessment cannot establish every covered condition. The proposal should explain how new findings will be recorded, priced and approved. Resolve affected wall components before the new exterior covers them.",
-      "How the wall is prepared for new siding",
-      "Supporting surface and water-management layers",
-      "The wall needs an appropriate surface for the selected product and the specified protection behind it. The retained and new layers should be identified in the work, with connections suited to the existing construction.",
-      "Windows and doors",
-      "Openings need coordinated flashing and trim details. New siding alone does not correct every window or door leak. Identify whether the existing trim stays, is altered or is replaced, and whether separate opening repairs are required.",
-      "Roof and material transitions",
-      "Where siding meets a roof, another cladding material or a lower wall detail, the connection needs to direct water appropriately. The estimate should explain the relevant flashing and clearance requirements for the selected product rather than rely on general sealing alone.",
-      "Corners, fascia, fixtures and finishing work",
       "Corners, soffit or fascia work, lighting, outlets, downspouts and other fixtures can affect installation. Confirm which items are being removed and reinstalled, which need another trade and which surfaces require paint. The siding product library helps identify compatible finishing choices.",
-      "Property access, debris removal and final inspection",
-      "Discuss landscaping, entrances, delivery areas and where removed material will be collected. Agree on the project contact and how additional work or weather interruptions will be communicated. The completed-work review should cover the agreed elevations, transitions, fixture treatment and cleanup, along with the documents for the selected materials.",
-      "Siding replacement questions: materials, installation and estimates",
-      "Can only one side of the house be replaced?",
-      "It may be possible if the boundaries and connections can be completed appropriately. Consider matching, retained trim and future work before selecting a partial replacement.",
-      "Will new siding improve insulation?",
-      "That depends on the selected product and assembly. A particular insulated panel or added layer must be identified; a new exterior finish alone does not establish a specific thermal improvement or bill saving.",
-      "What affects the price?",
-      "Wall area, stories, access, material, removal, wall repairs, openings, trim and finishing all matter. Compare the same work before comparing totals.",
-      "Plan your siding replacement in Columbus",
-      "Tell Roof King which areas you want replaced and the appearance you have in mind. A useful estimate explains the wall preparation and connections as clearly as the visible product.",
-      "When to replace siding instead of repairing it",
-      "Plan your siding replacement in Columbus",
-      "Siding replacement questions: materials, installation and estimates",
-      "Selecting replacement siding, colors and trim",
-      "How the wall is prepared for new siding",
-      "What to include in your siding replacement estimate",
-      "Check the replacement estimate for old siding removal, sheathing repair arrangements, water-management layers, flashing, selected panels, trim and fixture reinstallation. Record any separate painting, soffit, fascia or gutter work before installation."
+      "Removal exposes the wall and connections the new cladding will depend on.",
+      "Old siding can hide soft sheathing, deteriorated trim and gaps in the weather barrier, especially below windows and near the base of walls. Record findings, obtain approval for the repair price and correct damaged components before the wall is covered again.",
+      "Water behind siding must be directed outside. Lap the barrier and integrate window and door flashing so water sheds over it rather than behind it. New cladding alone does not fix a leaking opening; identify any separate window or door repair in the estimate.",
+      "Where siding meets a lower roof, masonry or a deck, the connection needs appropriate flashing and the selected product’s clearances. Sealant alone cannot replace these details. Coordinate roofing and cladding before either covers the connection.",
+      "Compare proposals covering the same work before comparing totals. Your estimate should name:",
+      "Elevations and areas being repaired or replaced",
+      "Manufacturer, product line, profile, color and finish",
+      "Removal and disposal of existing cladding",
+      "Wall repairs and how additional work is documented, priced and approved",
+      "Weather barrier and flashing at openings and roof-wall connections",
+      "Corners, trim, soffit, fascia and any separate painting",
+      "Fixtures removed and reinstalled, and the trades responsible",
+      "Access, staging, cleanup and applicable permits or historic approvals",
+      "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately",
+      "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds.",
+      "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone.",
+      "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. Review workmanship coverage.",
+      "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate.",
+      "Explore related information: Compare siding materials · Siding products · Siding replacement"
     ],
     "budgetSectionId": "review-01-siding-replacement-estimate"
   },
@@ -19665,121 +20422,60 @@
         "tag": "p",
         "children": [
           {
-            "text": "Choose siding by material, profile and finish together. Roof King helps Columbus homeowners compare vinyl, engineered wood and fiber cement with the preparation, trim and care each selected product requires. A brand name is the starting point; the proposal should identify the exact line and finish."
+            "text": "Vinyl, engineered wood and fiber cement differ in appearance, upkeep, moisture details and installed cost. Roof King installs the brands in our product library, including Variform and Ply Gem, LP SmartSide and James Hardie. Compare the material and its installation needs before choosing a color."
           }
         ]
       }
     ],
     "sections": [
       {
-        "id": "service-copy-72-2",
-        "title": "Engineered wood and fiber cement siding options",
-        "body": [],
-        "cards": [
+        "id": "service-copy-72-4",
+        "title": "Siding profiles: lap, board and batten, and shake",
+        "body": [
           {
-            "title": "LP SmartSide engineered wood siding",
-            "body": [
+            "tag": "p",
+            "children": [
               {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "LP SmartSide is an engineered wood product family. Appearance, finish and installation need to be compared at the line level. The selected siding has requirements for clearances, joints, fastening, cut-edge treatment and finishing that belong in the installation plan."
-                  }
-                ]
-              },
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Confirm whether the proposal uses a particular factory finish or requires painting as part of the project. Keep that distinction clear when comparing the total and later maintenance. A wood-based appearance does not mean every coating or repair method is suitable for the chosen product."
-                  }
-                ]
+                "text": "The profile shapes the appearance of the wall as much as the material. Compare the main walls, gables and accent areas together."
               }
             ]
-          },
-          {
-            "title": "James Hardie fiber cement siding",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "James Hardie fiber cement products offer a different material base, with profile and finish choices that need their own selection. Handling, fastening, cutting, clearance and finishing requirements should follow the current documents for the actual product and application."
-                  }
-                ]
-              },
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "Compare the selected finish and care guidance, including any future painting considerations. Fiber cement should not be treated as a reason to ignore moisture details at openings and transitions. The wall assembly and installation still matter."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-72-3"
           }
         ],
-        "image": {
-          "src": "/media/service-illustrations/siding-wall-v1.webp",
-          "alt": "Architectural illustration of siding, wall layers and a window opening"
-        },
-        "caption": "Illustration of related components. Materials and details vary with the selected system.",
-        "variant": "comparison",
-        "tone": "light",
-        "eyebrow": "Siding materials and installation"
-      },
-      {
-        "id": "service-copy-72-4",
-        "title": "Comparing siding appearance, installation and maintenance",
-        "body": [],
         "cards": [
           {
-            "title": "Siding profiles, colors and matching",
+            "title": "Lap and Dutch lap",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Profiles, textures and shadow lines change the way a wall looks. Review the main siding, corners, opening trim and accent areas together. New material beside retained weathered siding may not match perfectly even when the color name is similar."
+                    "text": "Horizontal lap suits broad wall areas. Dutch lap adds a cove at the top of each course for a deeper shadow line. Vinyl offers both, while LP and Hardie offer lap in smooth and wood-textured finishes."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Siding removal, wall repairs and installation",
+            "title": "Board and batten",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Removal, wall repairs, water-management layers, flashing and trim can differ between proposals. A lower panel price does not establish a lower complete project cost. The "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/siding/replacement/",
-                    "children": [
-                      {
-                        "text": "replacement service"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " explains those construction items."
+                    "text": "Vertical boards with narrow battens create a farmhouse or contemporary look. Compare Variform and Ply Gem vinyl board-and-batten, LP panel and vertical siding, and HardiePanel with matching batten boards."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Siding maintenance and warranty terms",
+            "title": "Shake and shingle",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Read the selected product's cleaning, finishing and warranty information. Coverage can depend on installation, use and maintenance conditions. Product warranty and contractor workmanship terms should be reviewed separately."
+                    "text": "Shake-style products can emphasize gables and entries. Compare Variform Heritage Cedar, Ply Gem Cedar Dimensions, LP shake siding and HardieShingle for the actual exposure, edges and finish."
                   }
                 ]
               }
@@ -19797,18 +20493,147 @@
       },
       {
         "id": "review-01-siding-types-estimate",
-        "title": "Specifying your siding material in an estimate",
+        "title": "What your siding estimate should name",
         "body": [
           {
             "tag": "p",
             "children": [
               {
-                "text": "Specify the manufacturer, product line, profile, color and finish in the siding estimate. Compare the installation and trim details alongside care instructions and the written product and workmanship terms; a material family alone does not describe the finished wall."
+                "text": "Compare proposals covering the same work before comparing totals. Your estimate should name:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Elevations and areas being repaired or replaced"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Manufacturer, product line, profile, color and finish"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Removal and disposal of existing cladding"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Wall repairs and how additional work is documented, priced and approved"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Weather barrier and flashing at openings and roof-wall connections"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, trim, soffit, fascia and any separate painting"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Fixtures removed and reinstalled, and the trades responsible"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Access, staging, cleanup and applicable permits or historic approvals"
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately"
+                  }
+                ]
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Concealed damage, approved first",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The exact product and finish",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Two warranties, named separately",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/offers/5-year-workmanship-warranty/",
+                    "children": [
+                      {
+                        "text": "Review workmanship coverage"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -19824,19 +20649,48 @@
         "tag": "p",
         "children": [
           {
-            "text": "Use the "
+            "text": "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Explore related information: "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/replacement/",
+            "children": [
+              {
+                "text": "Siding replacement"
+              }
+            ]
+          },
+          {
+            "text": " · "
           },
           {
             "tag": "a",
             "href": "/products/siding/",
             "children": [
               {
-                "text": "siding product library"
+                "text": "Siding products"
               }
             ]
           },
           {
-            "text": " to explore the available profiles and finishes. Bring your preferences to Roof King so the selected material and wall preparation can be included in one replacement estimate."
+            "text": " · "
+          },
+          {
+            "tag": "a",
+            "href": "/siding/types/",
+            "children": [
+              {
+                "text": "Compare siding materials"
+              }
+            ]
           }
         ]
       }
@@ -19851,41 +20705,28 @@
         "href": "/products/siding/"
       }
     ],
-    "bodyWords": 568,
+    "bodyWords": 349,
     "expectedBlocks": [
-      "Choose siding by material, profile and finish together. Roof King helps Columbus homeowners compare vinyl, engineered wood and fiber cement with the preparation, trim and care each selected product requires. A brand name is the starting point; the proposal should identify the exact line and finish.",
-      "Vinyl siding: profiles, insulation and care",
-      "Vinyl profiles can create different horizontal, vertical or accent appearances depending on the offered product. The panel, starter, corners and opening accessories work together, with installation details that account for material movement. Review the profile and color beside retained exterior features rather than selecting from a small online image alone.",
-      "Cleaning and care should follow the selected product's guidance. If an insulated option is being considered, identify that specific product and its documented properties. Do not assume every vinyl panel has the same insulation benefit or that a material category establishes a whole-wall performance value.",
-      "LP SmartSide engineered wood siding",
-      "LP SmartSide is an engineered wood product family. Appearance, finish and installation need to be compared at the line level. The selected siding has requirements for clearances, joints, fastening, cut-edge treatment and finishing that belong in the installation plan.",
-      "Confirm whether the proposal uses a particular factory finish or requires painting as part of the project. Keep that distinction clear when comparing the total and later maintenance. A wood-based appearance does not mean every coating or repair method is suitable for the chosen product.",
-      "James Hardie fiber cement siding",
-      "James Hardie fiber cement products offer a different material base, with profile and finish choices that need their own selection. Handling, fastening, cutting, clearance and finishing requirements should follow the current documents for the actual product and application.",
-      "Compare the selected finish and care guidance, including any future painting considerations. Fiber cement should not be treated as a reason to ignore moisture details at openings and transitions. The wall assembly and installation still matter.",
-      "Comparing siding appearance, installation and maintenance",
-      "Siding profiles, colors and matching",
-      "Profiles, textures and shadow lines change the way a wall looks. Review the main siding, corners, opening trim and accent areas together. New material beside retained weathered siding may not match perfectly even when the color name is similar.",
-      "Siding removal, wall repairs and installation",
-      "Removal, wall repairs, water-management layers, flashing and trim can differ between proposals. A lower panel price does not establish a lower complete project cost. The replacement service explains those construction items.",
-      "Siding maintenance and warranty terms",
-      "Read the selected product's cleaning, finishing and warranty information. Coverage can depend on installation, use and maintenance conditions. Product warranty and contractor workmanship terms should be reviewed separately.",
-      "Siding materials questions: materials, installation and estimates",
-      "Which material is best for my home?",
-      "The useful choice depends on your preferred appearance, existing wall, materials and work included, budget and willingness to maintain the finish. Compare specific products and installed proposals for the same property.",
-      "Can different materials be combined?",
-      "They can be considered in a coordinated design, but transitions, trim and compatibility need to be resolved. The proposal should identify each area and its selected product.",
-      "Can every siding product be repainted?",
-      "No universal rule applies. The material, existing finish and manufacturer's guidance determine whether painting is appropriate and which products or colors are permitted.",
-      "Compare siding materials for your Columbus home",
-      "Use the siding product library to explore the available profiles and finishes. Bring your preferences to Roof King so the selected material and wall preparation can be included in one replacement estimate.",
-      "Vinyl siding: profiles, insulation and care",
-      "Compare siding materials for your Columbus home",
-      "Siding materials questions: materials, installation and estimates",
-      "Engineered wood and fiber cement siding options",
-      "Comparing siding appearance, installation and maintenance",
-      "Specifying your siding material in an estimate",
-      "Specify the manufacturer, product line, profile, color and finish in the siding estimate. Compare the installation and trim details alongside care instructions and the written product and workmanship terms; a material family alone does not describe the finished wall."
+      "Vinyl, engineered wood and fiber cement differ in appearance, upkeep, moisture details and installed cost. Roof King installs the brands in our product library, including Variform and Ply Gem, LP SmartSide and James Hardie. Compare the material and its installation needs before choosing a color.",
+      "The profile shapes the appearance of the wall as much as the material. Compare the main walls, gables and accent areas together.",
+      "Horizontal lap suits broad wall areas. Dutch lap adds a cove at the top of each course for a deeper shadow line. Vinyl offers both, while LP and Hardie offer lap in smooth and wood-textured finishes.",
+      "Vertical boards with narrow battens create a farmhouse or contemporary look. Compare Variform and Ply Gem vinyl board-and-batten, LP panel and vertical siding, and HardiePanel with matching batten boards.",
+      "Shake-style products can emphasize gables and entries. Compare Variform Heritage Cedar, Ply Gem Cedar Dimensions, LP shake siding and HardieShingle for the actual exposure, edges and finish.",
+      "Compare proposals covering the same work before comparing totals. Your estimate should name:",
+      "Elevations and areas being repaired or replaced",
+      "Manufacturer, product line, profile, color and finish",
+      "Removal and disposal of existing cladding",
+      "Wall repairs and how additional work is documented, priced and approved",
+      "Weather barrier and flashing at openings and roof-wall connections",
+      "Corners, trim, soffit, fascia and any separate painting",
+      "Fixtures removed and reinstalled, and the trades responsible",
+      "Access, staging, cleanup and applicable permits or historic approvals",
+      "Roof King’s 5-year workmanship coverage and manufacturer product coverage, listed separately",
+      "If removal reveals damaged sheathing or trim, it is recorded, priced and approved before the additional repair proceeds.",
+      "Name the product line, profile, color, trim and primed or factory-applied finish for each area rather than a manufacturer name alone.",
+      "Our 5-year workmanship warranty covers installation. Manufacturer coverage applies to the product on its written terms. Review workmanship coverage.",
+      "Tell us the address, affected walls and whether you want to keep the current look or change it. We will inspect the siding and adjoining details and prepare a written estimate.",
+      "Explore related information: Siding replacement · Siding products · Compare siding materials"
     ],
     "budgetSectionId": "review-01-siding-types-estimate"
   },

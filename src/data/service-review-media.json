@@ -1042,5 +1042,37 @@
         "width": 1000
       }
     ]
+  },
+  "/media/products/ply-gem/performance-board-batten-home-1022.webp": {
+    "width": 1022,
+    "height": 825,
+    "variants": [
+      {
+        "src": "/media/service-review-01/siding-board-batten-catalog-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/service-review-01/siding-board-batten-catalog-720.webp",
+        "width": 720
+      }
+    ],
+    "sourceKind": "manufacturer",
+    "sourcePath": "/media/products/ply-gem/performance-board-batten-home-1022.webp"
+  },
+  "/media/products/ply-gem/cedar-dimensions-home-1024.webp": {
+    "width": 1024,
+    "height": 575,
+    "variants": [
+      {
+        "src": "/media/service-review-01/siding-shake-catalog-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/service-review-01/siding-shake-catalog-720.webp",
+        "width": 720
+      }
+    ],
+    "sourceKind": "manufacturer",
+    "sourcePath": "/media/products/ply-gem/cedar-dimensions-home-1024.webp"
   }
 }

@@ -267,12 +267,16 @@
   },
   "/roofing/": {
     "image": {
-      "src": "/media/roofing-heroes/roofing-1672.webp",
-      "alt": "Illustrative residential roofing services scene",
-      "width": 1672,
-      "height": 941
+      "src": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
+      "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers",
+      "width": 1283,
+      "height": 1097
     },
-    "generated": true,
+    "generated": false,
+    "source": {
+      "type": "client-photography",
+      "fileId": "1idjdo8FkjWmUF3CQGjNfUO2bvt3IJ7Ou"
+    },
     "objectPosition": "70% center"
   },
   "/roofing/gaf/": {

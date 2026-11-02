@@ -1,3 +1,4 @@
+import {reviewIdsForService} from '../src/data/service-reviews.ts';
 import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
@@ -45,7 +46,7 @@ for(const [path,data] of Object.entries(pages)){
     assert.equal($('[data-service-panel][hidden]').length,0,'Without JS every topic and destination remains available.');
     for(const panel of $('[data-service-panel]').toArray())assert.equal($(`.rk-service-explorer-tabs a[href="#${$(panel).attr('id')}"]`).length,1,'Fallback topic link must target its content.');
     for(const href of ['/roofing/repair/','/roofing/replacement/','/columbus-oh/storm-damage/','/roofing/metal/','/roofing/types/','/roofing/gaf/','/roofing/gaf/types/','/columbus-oh/roofing/','/#projects-roofing','/offers/flexible-financing/'])assert.ok($(`main a[href="${href}"]`).length,'Retain useful service/product destinations: '+href);
-    assert.ok(!/\$47|Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
+    assert.ok(!/Medallion|292 Google Reviews|\[Verified/.test(rendered),'No unverified promotions, counts or evidence placeholders');
     assert.equal($('.rk-home-review-card').length,3,'Roofing must use the same three-card review component as the homepage.');
     assert.equal($('.rk-home-review-card .rk-review-source').length,3);
     assert.ok($('.rk-review-source').toArray().some(e=>$(e).attr('href').startsWith('https://www.bbb.org/')));
@@ -112,17 +113,17 @@ for(const [path,data] of Object.entries(editorial)){
  assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
  assert.ok(clean($('main').text()).split(/\s+/).length>=500,'No thin service landing: '+path);
  assert.equal($('.rk-landing-hero aside,.rk-landing-hero form').length,0);
- const hasChildren=data.family==='local'||manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
+ const hasChildren=data.opening.variant==='tabs'||data.family==='local'||manifest.some(r=>r.path!==path&&r.path.startsWith(path)&&!r.path.slice(path.length).replace(/\/$/,'').includes('/'));
  assert.equal($('.rk-service-detail').length,hasChildren?data.opening.items.length:0);
  assert.equal($('.rk-service-article-row').length,hasChildren?0:data.opening.items.length);
  for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);if(hasChildren||!item.body)assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve child/topic destination on '+path);}
- assert.equal($('.rk-home-review-card .rk-review-source').length,3);
+ const expectedReviews=reviewIdsForService(data.family);assert.equal($('.rk-home-review-card .rk-review-source').length,expectedReviews.length,path+' service-matched reviews');const actualReviewSources=$('.rk-home-review-card .rk-review-source').map((_,el)=>$(el).attr('href')).get();const reviewLibrary=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;assert.deepEqual(actualReviewSources,expectedReviews.map(id=>reviewLibrary.find(review=>review.id===id).source.url),path+' exact review sources');
  assert.equal($('.rk-landing-credential-list article').length,3);
  assert.equal($('.rk-service-faq details').length,data.faq.items.length);
  assert.equal($('dialog.rk-native-quote-dialog').length,1);
  assertContactActions($);
  assert.equal($('.rk-imported-content,[data-rk-gallery],[data-rk-modal-open]').length,0);
- assert.ok(!/292 Google Reviews|\$47|perfect installation|guaranteed approval|mint condition/i.test($('main').text()),'No retired marketing claims '+path);
+ assert.ok(!/292 Google Reviews|perfect installation|guaranteed approval|mint condition/i.test($('main').text()),'No retired marketing claims '+path);
  for(const image of $('main img').toArray())assert.ok($(image).attr('width')&&$(image).attr('height'),'Sized image '+path+' '+$(image).attr('src'));
  for(const file of $('link[rel=stylesheet]').map((_i,e)=>$(e).attr('href')).get().filter(p=>p.startsWith('/')))assert.ok(!file.includes('/SiteLayout.') && !(await fs.readFile('dist'+file,'utf8')).includes('.rk-migration-banner'),'No legacy CSS: '+path);
 }

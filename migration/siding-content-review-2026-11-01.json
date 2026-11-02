@@ -1,0 +1,79 @@
+{
+  "reviewedOn": "2026-11-01",
+  "source": {
+    "file": "ROOF-K_2.PDF",
+    "pages": 71,
+    "sha256": "34a4afc8a6c5d9a44266157e97b474bf767d949203e3ddf5354cbdbd164233a9"
+  },
+  "status": "Implemented locally; not committed or published",
+  "routes": [
+    {
+      "route": "/siding/",
+      "tabs": 9,
+      "faqItems": 7
+    },
+    {
+      "route": "/siding/types/",
+      "tabs": 6,
+      "faqItems": 7
+    },
+    {
+      "route": "/siding/replacement/",
+      "tabs": 5,
+      "faqItems": 7
+    },
+    {
+      "route": "/commercial-siding/",
+      "tabs": 4,
+      "faqItems": 7
+    },
+    {
+      "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "tabs": 6,
+      "faqItems": 7
+    }
+  ],
+  "implementation": [
+    "Expanded existing ServicePaths/ServiceExplorer with grouped product/planning cards, native disclosures and a horizontally scrollable semantic comparison table.",
+    "Kept MaterialInstallation, SectionPhotoGallery, BrandStrip, TrustStrip, FAQSection and FeaturedArticles with the approved Manrope/title-style heading scale and slanted palette.",
+    "Updated source copy and regeneration overrides, metadata, estimates, warranty distinctions, financing text and closing actions.",
+    "Added manufacturer photo variants and preserved responsive image dimensions through HomeImage.",
+    "Applied service-specific review selection using actual work described by each customer; no unrelated fallback cards.",
+    "Removed residential gallery and articles from commercial siding."
+  ],
+  "precedence": [
+    "Client-confirmed business facts, offers, reviews, brands and credentials remain accepted.",
+    "Did not restore removed comparison captions, superseded typography, the old trust strip, or the former two-tab siding selector.",
+    "Kept the existing booking destination, address, canonical URLs, crawl restrictions and deployment boundaries."
+  ],
+  "sources": [
+    {
+      "url": "https://www.columbus.gov/files/sharedassets/city/v/2/bzs/building/typical-residential-projects-2026.pdf",
+      "use": "Residential siding permits"
+    },
+    {
+      "url": "https://www.columbus.gov/Business-Development/Business-Licenses-Resources/Contractor-Licenses",
+      "use": "City licensing categories"
+    },
+    {
+      "url": "https://www.columbus.gov/Business-Development/Get-a-Permit/Commercial-and-Mixed-Use-Building-Permits",
+      "use": "Commercial permits, plan review and historic approvals"
+    },
+    {
+      "url": "https://www.cincinnati-oh.gov/buildings/building-permit-forms-applications/permit-guide/do-i-need-a-permit/",
+      "use": "Detached residential siding exemption and historic exception"
+    },
+    {
+      "url": "https://www.cincinnati-oh.gov/planning/about-city-planning/fees-and-applications/",
+      "use": "COA fee schedule"
+    },
+    {
+      "url": "https://www.consumerreports.org/home-garden/siding/buying-guide/",
+      "use": "Attributed national benchmark from the supplied review, supported by source search excerpt"
+    }
+  ],
+  "verification": {
+    "targetedLocalRendering": "All five routes returned HTTP 200, correct H1s and seven FAQs; materials page includes comparison table.",
+    "fullSuite": "Delegated to GitHub Actions on the next authorized push; not run locally."
+  }
+}

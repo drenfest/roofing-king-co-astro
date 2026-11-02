@@ -1,6 +1,6 @@
 # src/components: choosing and extending components
 
-Read the root handbook and the page family's data/layout maps first. This directory is the shared design system, not a place to embed page-specific business facts. Use the approved ivory/charcoal/orange tokens, Playfair Display + Inter, sentence-case headings and restrained motion. Existing components may still support legacy consumers; preserve their interfaces or provide optional defaults.
+Read the root handbook and the page family's data/layout maps first. This directory is the shared design system, not a place to embed page-specific business facts. Use the approved ivory/charcoal/orange tokens, Manrope + Inter, title-style capitalized headings and restrained motion. Existing components may still support legacy consumers; preserve their interfaces or provide optional defaults.
 
 ## Choose by purpose
 
@@ -13,7 +13,7 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Service parent or location service selector | ServicePaths + ServiceExplorer | SSR panels, child-hero photo under eyebrow, H3 panel titles, keyboard/touch behavior; location lists scroll and omit empty related lists |
 | Leaf service opening | ServiceArticle | Visible prose/benefit rows, topic IDs, correct H2/H3/H4 outline; no unnecessary selector |
 | Source-led service body | ServiceContentBand | Full RichNode paragraphs and anchors, alternating media/comparison layouts; reviewed brand subsections use H3 |
-| Three photos opposite related copy | SectionPhotoGallery via ServiceContentBand | service-section-galleries.json pairs each photo to a specific heading+paragraph; preserve caption/alt/dimensions and the review batch |
+| Topic-matched photo/copy cards | SectionPhotoGallery via ServiceContentBand | Supports any positive number of unique photos, each mapped to its own copy topics exactly once. Desktop wraps into rows of three; mobile stacks one per row. ServiceContentBand supplies the charcoal slanted background and orange accents. Preserve source paragraphs, headings, anchors, captions, alt text and dimensions; do not pad rows with duplicate photos. |
 | Simple media/copy content | MediaContentRow / ContentSection | Reuse a real existing layout before adding a new card grid |
 | Manufacturer logos | BrandStrip | Native scroll snapping and mobile swipe, proportional logos, no autoplay/dependency; headingLevel=3 for subordinate brand sections |
 | Product collection | ProductHubPage + ProductGrid + ProductCard | Actual child/catalog entries, distinct relevant pictures, real source links and ProductOptions; no generic research-note band |
@@ -23,7 +23,7 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; material-specific care via product-care.ts, exact product overrides, and GAF-only energy ratings |
 | Companion systems | ProductCompanions / ProductSystemCompanions | Preserve detailed HDZ treatment and the brand/family resolver; canonical child-page links, primary parent map and relevant images/diagrams |
 | Product or building diagrams | AccessoryBenefitDiagram / SystemComponentDiagram / ServiceSystemDiagram / IceDamDiagram | Code-native explanatory SVGs, accessible naming and actual subject; diagrams are not installation specifications |
-| Project photographs | ProjectGallery | Filtered whole-page batches limited to two rows, keyboard lightbox, source kinds/tags, original-image links and SSR fallback |
+| Project photographs | ProjectGallery | Orange brand tone by default for homepage, past-projects and service galleries. Full-width stacked header: eyebrow, title, paragraph. Retain diagonal edges, white text, filtered whole-page batches limited to two rows, keyboard lightbox, source kinds/tags, original-image links and SSR fallback |
 | Service photographs | ServiceGallery / ProjectShowcase | Select actual relevant gallery topics; do not show siding-only captions under windows or unrelated work under a service |
 | Before/after | ServiceComparison -> ComparisonSection -> BeforeAfter | Explicit per-route pair, matching geometry, visible provenance caption, responsive lazy images, native keyboard/touch range; optional square framing and no-JS image links |
 | FAQ | FAQSection | Actual question/answer pairs, existing details UI and consolidated schema; ordinary disclosures are not FAQs |
@@ -89,6 +89,8 @@ Parent guidance: [src](../ai-context.md).
 - [IceDamDiagram.astro](IceDamDiagram.astro)
 - [LandingHero.astro](LandingHero.astro)
 - [LocationServiceLinks.astro](LocationServiceLinks.astro)
+- [MaterialInstallation.astro](MaterialInstallation.astro)
+- [MaterialTabs.svelte](MaterialTabs.svelte)
 - [MediaContentRow.astro](MediaContentRow.astro)
 - [MegaMenu.svelte](MegaMenu.svelte)
 - [MenuPreview.svelte](MenuPreview.svelte)
@@ -151,3 +153,11 @@ None.
 
 Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
+
+The homepage blog section reuses FeaturedArticles with Columbus-local selection, the same four-card layout as service pages. FeaturedArticles uses slanted section edges, an ivory/tan diagonal field, an orange leading edge and eyebrow rule, and subtly clipped photo corners across all consumers. Keep its section padding and heading typography self-contained; it must not depend on service-landing.css being loaded by the consumer.
+
+MaterialInstallation and MaterialTabs provide the horizontal materials/installation selector. Opt in with ServiceCopySection.materialTabs, mapping each label/manufacturer/catalog link to its existing cardTitle. Preserve full card prose and anchors; unmatched cards remain visible below. Use productHeroImage for source-matched responsive previews. Active tabs use tan/orange, headings charcoal; retain keyboard arrows/Home/End and readable stacked panels without JavaScript.
+
+On mobile, MaterialInstallation uses reduced section slants, 1rem side gutters, a full-width preview above the copy, and compact wrapping three-across material tabs with touch-sized targets. Avoid fixed-width tab tracks or desktop heading sizes that force horizontal page scrolling.
+
+ServicePaths now accepts typed topic groups containing existing-style product/planning cards, details/summary disclosures and an accessible overflow comparison table. Keep group headings subordinate to the panel H3, reuse productHeroImage/HomeImage and retain all SSR content. Do not create a second page shell for reviewed content. HomeImage also accepts explicit width, height and srcset from product registries when no shared media entry exists.

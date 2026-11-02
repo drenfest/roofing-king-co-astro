@@ -97,6 +97,7 @@ Parent guidance: [repository](../ai-context.md).
 - [service-review-batch-05.json](service-review-batch-05.json)
 - [service-review-batch-05.md](service-review-batch-05.md)
 - [service-section-photo-review.json](service-section-photo-review.json)
+- [siding-content-review-2026-11-01.json](siding-content-review-2026-11-01.json)
 - [siding-guide-images.json](siding-guide-images.json)
 - [storm-banner-image.json](storm-banner-image.json)
 - [structured-data-review.md](structured-data-review.md)

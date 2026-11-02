@@ -4,7 +4,7 @@ const groups:Record<string,string[]>={
  materials:['roofing','metal','gaf'],metal:['metal','roofing'],gaf:['gaf','roofing'],certification:['gaf','roofing'],
  'roofing-local':['roofing','replacement','repair'],'roof-cost':['cost','replacement','repair'],calculator:['cost','replacement'],
  'commercial-storm':['storm','hail','wind'],storm:['storm','hail','wind'],hail:['hail','storm'],wind:['wind','storm'],claims:['claims','storm'],
- siding:['siding','storm'], 'siding-cost':['siding','storm'],'siding-replacement':['siding','storm'],'siding-types':['siding','storm'],
+ siding:['siding','gutters','claims','storm'], 'siding-cost':['siding','storm'],'siding-replacement':['siding','storm'],'siding-types':['siding','storm'],
  'commercial-siding':['siding','storm'],gutters:['gutters','guards','ice'],'gutter-cost':['gutters','guards'],
  'gutter-guards':['guards','gutters'],guards:['guards','gutters'],seamless:['gutters','guards'],'seamless-gutters':['gutters','guards'],
  commercial:['storm','roofing'],'commercial-repair':['storm','repair'],'commercial-replacement':['replacement','roofing'],

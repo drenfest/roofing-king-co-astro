@@ -1,7 +1,7 @@
 <script lang="ts">
   import {onMount,tick} from 'svelte';
   type Photo={context?:Record<string,{caption:string}>;category?:string;caption?:string;src:string;alt:string;tags:string[];width?:number;height?:number;thumbnail:string;srcset:string;kind?:string;sourceLabel?:string;contain?:boolean;displayWidth?:number;displayHeight?:number};
-  let {id='project-gallery',eyebrow,title,titleEmphasis='',description,filters=[],items,compact=false,fullGalleryHref='/#projects',tone='paper'}:{id?:string;eyebrow:string;title:string;titleEmphasis?:string;description:string;filters?:{label:string;value:string}[];items:Photo[];compact?:boolean;fullGalleryHref?:string;tone?:'paper'|'brand'}=$props();
+  let {id='project-gallery',eyebrow,title,titleEmphasis='',description,filters=[],items,compact=false,fullGalleryHref='/#projects',tone='brand'}:{id?:string;eyebrow:string;title:string;titleEmphasis?:string;description:string;filters?:{label:string;value:string}[];items:Photo[];compact?:boolean;fullGalleryHref?:string;tone?:'paper'|'brand'}=$props();
   const emphasis=$derived(titleEmphasis&&title.endsWith(titleEmphasis)?titleEmphasis:'');
   let filter=$state('all');let index=$state(0);let page=$state(0);let pageSize=$state(4);let enhanced=$state(false);let opened=$state(false);
   let dialog:HTMLDialogElement;let gridHost:HTMLDivElement;let lastTrigger:HTMLAnchorElement|null=null;
@@ -144,4 +144,8 @@ section.rk-editorial-gallery.rk-gallery-brand{background:var(--rk-orange);color:
 .rk-gallery-brand .rk-gallery-full-link span{color:var(--rk-orange);}
 .rk-gallery-brand .rk-gallery-full-link:hover{background:var(--rk-paper);}
 @media(max-width:600px){section.rk-editorial-gallery.rk-gallery-brand{clip-path:polygon(0 12px,100% 0,100% calc(100% - 12px),0 100%);padding-block:3.5rem;}}
+/* All gallery headings follow the same full-width editorial reading order. */
+section.rk-editorial-gallery .rk-gallery-editorial-heading{grid-template-columns:minmax(0,1fr);align-items:start;gap:0;width:100%;}
+section.rk-editorial-gallery .rk-gallery-editorial-heading h2{grid-column:1/-1;width:100%;max-width:none;}
+section.rk-editorial-gallery .rk-gallery-editorial-heading .rk-gallery-description{grid-column:1/-1;width:100%;max-width:none;margin:1.4rem 0 0;}
 </style>

@@ -6,6 +6,7 @@ import DocumentLayout from './DocumentLayout.astro';
 import SiteHeader from '../components/SiteHeader.svelte';
 import SiteFooter from '../components/SiteFooter.astro';
 import LandingHero from '../components/LandingHero.astro';
+import TrustStrip from '../components/TrustStrip.astro';
 import roofingHeroes from '../data/roofing-heroes.json';
 import StormDamageCallout from '../components/StormDamageCallout.astro';
 import ServicePaths from '../components/ServicePaths.astro';
@@ -21,7 +22,7 @@ import BrandStrip from '../components/BrandStrip.astro';
 import FAQSection from '../components/FAQSection.astro';
 import QuoteExperience from '../components/QuoteExperience.svelte';
 import site from '../data/site.json';
-import {hero as homeHero} from '../data/home.json';
+import {hero as homeHero, trust} from '../data/home.json';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/home-interactions.css';
@@ -36,7 +37,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
   <SiteHeader client:load/>
   <main id="content" class="rk-site-main rk-service-landing"><article data-service-build="astro-components" data-landing-build="editorial" data-content-source={page.data.source}>
     <LandingHero hero={{...data.hero,image:heroAsset?.image||data.hero.image}} serviceName="Residential Roofing" generatedImage={!!heroAsset?.generated}/>
-    <div class="rk-landing-trust"><div class="rk-section-inner">{data.credentials.items.map(item=><a href={item.href}><ServiceIcon name="shield"/><span>{item.title}</span><span aria-hidden="true">↗</span></a>)}</div></div>
+    <TrustStrip {trust}/>
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
     <ServicePaths section={completeServicePaths(page.data.permalink,data.services as ServicePathsData)}/>
     <StormDamageCallout path={page.data.permalink}/>

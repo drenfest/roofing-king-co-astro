@@ -87,7 +87,12 @@
         "trex",
         "alu-rex",
         "t-rex",
-        "leaffilter"
+        "leaffilter",
+        "owens-corning",
+        "iko",
+        "alside",
+        "norandex",
+        "exterior-portfolio"
       ]
     }
   },
@@ -467,7 +472,9 @@
         "ply-gem",
         "alside",
         "norandex",
-        "exterior-portfolio"
+        "exterior-portfolio",
+        "lp-smartside",
+        "james-hardie"
       ]
     }
   },
@@ -698,7 +705,13 @@
       "title": "Explore brands for these materials.",
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
-        "lp-smartside"
+        "lp-smartside",
+        "variform",
+        "james-hardie",
+        "ply-gem",
+        "alside",
+        "norandex",
+        "exterior-portfolio"
       ]
     }
   },
@@ -901,7 +914,13 @@
       "title": "Explore brands for these materials.",
       "description": "Choose a brand to explore its products and the details to discuss with Roof King.",
       "brandIds": [
-        "james-hardie"
+        "james-hardie",
+        "variform",
+        "lp-smartside",
+        "ply-gem",
+        "alside",
+        "norandex",
+        "exterior-portfolio"
       ]
     }
   },

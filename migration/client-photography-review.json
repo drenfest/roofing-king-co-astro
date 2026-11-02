@@ -1171,6 +1171,20 @@
       "replacement": "/media/service-review-05/client-missingLayer-640.webp",
       "reason": "Supplied reference photograph; the affected material and cause need assessment at your property.",
       "batch": "05"
+    },
+    {
+      "route": "/",
+      "sectionId": "hero",
+      "old": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+      "replacement": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
+      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement."
+    },
+    {
+      "route": "/roofing/",
+      "sectionId": "hero",
+      "old": "/media/roofing-heroes/roofing-1672.webp",
+      "replacement": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
+      "reason": "Client-selected aerial photo from the supplied Roof King collection, gallery item riley-21. Optimized from original JPEG without enlargement."
     }
   ],
   "imageInventoryCount": 98,

@@ -922,5 +922,27 @@
         "width": 1600
       }
     ]
+  },
+  "/media/roofing-heroes/roofing-main-aerial-1280.webp": {
+    "width": 1283,
+    "height": 1097,
+    "variants": [
+      {
+        "src": "/media/roofing-heroes/roofing-main-aerial-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-main-aerial-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-main-aerial-1200.webp",
+        "width": 1200
+      },
+      {
+        "src": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
+        "width": 1280
+      }
+    ]
   }
 }

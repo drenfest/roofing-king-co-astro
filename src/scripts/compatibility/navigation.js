@@ -1,6 +1,6 @@
 const DESKTOP_QUERY = '(min-width: 1061px)';
-const DESKTOP_OPEN_DELAY = 100;
-const DESKTOP_SWITCH_DELAY = 260;
+const DESKTOP_OPEN_DELAY = 450;
+const DESKTOP_SWITCH_DELAY = 450;
 const DESKTOP_CLOSE_DELAY = 700;
 
 function directChild(element, selector) {

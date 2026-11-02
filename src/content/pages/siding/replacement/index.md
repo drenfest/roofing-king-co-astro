@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Siding Replacement Contractor"
+title: "Siding Replacement in Columbus, OH | Roof King & Restoration"
 permalink: "/siding/replacement/"
-description: "Need to replace your Columbus home's siding? Get your installation started today by contacting our professional siding installers at Roof King & Restoration."
+description: "Siding replacement in Columbus, OH: permits, wall repairs, flashing, cost factors and a 5-year workmanship warranty. Call Roof King at (614) 379-8893."
 canonicalPath: "/siding/replacement/"
 category: "Service detail"
 source: "wordpress"

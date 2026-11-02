@@ -10,4 +10,4 @@ const items=section.reviewIds.map(id=>{
   return {...review,excerpt:true};
 });
 ---
-<CardSection kind="reviews" section={{...section,items}}/>
+{items.length>0&&<CardSection kind="reviews" section={{...section,items}}/>}

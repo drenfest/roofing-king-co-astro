@@ -12,7 +12,7 @@ const descriptions = ['Certified roofing contractor', 'Manufacturer recognition'
       <HomeImage {...image} sizes="110px" />
       <div><p class="rk-editorial-trust-title">{labels[index] || image.alt}</p><p>{descriptions[index]}</p></div>
     </div>)}
-    <a class="rk-editorial-trust-item rk-editorial-google" href={trust.reviewsUrl} target="_blank" rel="nofollow noopener noreferrer" aria-label={`${trust.rating}, ${trust.count} Google reviews — view on Google`}>
+    <a class="rk-editorial-trust-item rk-editorial-google" href={trust.reviewsUrl} title="Read Roof King reviews on Google" target="_blank" rel="nofollow noopener noreferrer" aria-label={`${trust.rating}, ${trust.count} Google reviews — view on Google`}>
       <HomeImage {...trust.googleIcon} sizes="64px"/>
       <div><div class="rk-stars" aria-hidden="true">★★★★★</div><p class="rk-editorial-trust-title">{trust.rating}</p><p>{trust.count} Google reviews</p></div>
     </a>
@@ -30,5 +30,5 @@ const descriptions = ['Certified roofing contractor', 'Manufacturer recognition'
 .rk-editorial-google .rk-stars{color:#ff7716;font-size:1.65rem;letter-spacing:.1em;line-height:1.3;}
 .rk-editorial-google:hover .rk-editorial-trust-title{text-decoration:underline;text-underline-offset:4px;}
 @media(max-width:1060px){.rk-editorial-trust-grid{gap:1rem;}.rk-editorial-trust-item{gap:.7rem;}.rk-editorial-trust-item+.rk-editorial-trust-item{padding-left:1rem;}.rk-editorial-trust-item :global(img){width:70px;height:85px;}.rk-editorial-google :global(img){width:42px;height:42px;}.rk-editorial-trust-item p{font-size:.8rem;}}
-@media(max-width:760px){.rk-editorial-trust{padding:1rem 0;}.rk-editorial-trust-grid{width:calc(100% - 2.5rem);grid-template-columns:1fr;gap:0;}.rk-editorial-trust-item{min-height:100px;gap:1.2rem;}.rk-editorial-trust-item+.rk-editorial-trust-item{padding-left:0;border-left:0;border-top:1px solid #deded5;}.rk-editorial-trust-item :global(img){width:70px;height:80px;}.rk-editorial-trust-item .rk-editorial-trust-title{font-size:1.3rem;}.rk-editorial-google :global(img){width:48px;height:48px;margin-inline:11px;}}
+@media(max-width:760px){.rk-editorial-trust{padding:1rem 0;}.rk-editorial-trust-grid{width:calc(100% - 2.5rem);grid-template-columns:1fr;gap:0;}.rk-editorial-trust-item{min-height:100px;gap:.75rem;flex-direction:column;justify-content:center;text-align:center;padding-block:1.2rem;}.rk-editorial-trust-item+.rk-editorial-trust-item{padding-left:0;border-left:0;border-top:1px solid #deded5;}.rk-editorial-trust-item :global(img){width:70px;height:80px;}.rk-editorial-trust-item .rk-editorial-trust-title{font-size:1.3rem;}.rk-editorial-google :global(img){width:48px;height:48px;margin-inline:11px;}}
 </style>

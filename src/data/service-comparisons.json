@@ -5,7 +5,7 @@
       "eyebrow": "Before and after",
       "title": "From worn shingles to a renewed roof",
       "description": "Compare an aged shingle roof with a complete roof replacement. The roof covering, ridge and flashing are the visible changes in this example.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/roofing-before-800.webp",
         "alt": "Illustration: Aged asphalt shingles on a brick home"
@@ -20,7 +20,7 @@
       "eyebrow": "Before and after",
       "title": "A focused repair at the chimney",
       "description": "This example keeps the surrounding roof in place while replacing damaged shingles and correcting the flashing at the chimney. A repair should address the affected connection as well as the visible covering.",
-      "caption": "Illustrated roof repair comparison - not a completed Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/roof-repair-before-800.webp",
         "alt": "Illustration: Missing shingles and deteriorated chimney flashing"
@@ -35,7 +35,7 @@
       "eyebrow": "Before and after",
       "title": "From shingles to standing-seam metal",
       "description": "The same roofline takes on a different character with standing-seam metal. Compare the long panel seams, ridge and edge trim with the shingle covering they replace.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/metal-roofing-before-800.webp",
         "alt": "Illustration: Weathered shingle roof on a white farmhouse"
@@ -50,7 +50,7 @@
       "eyebrow": "Before and after",
       "title": "A renewed commercial roof covering",
       "description": "Compare a worn low-slope covering with a new membrane and finished curb details. Equipment, outlets and the building stay in place; the roof assembly needs its own assessment before replacement.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/commercial-roofing-before-800.webp",
         "alt": "Illustration: Aged commercial membrane with worn seams and shallow ponding"
@@ -65,7 +65,7 @@
       "eyebrow": "Before and after",
       "title": "Repairing a membrane seam and curb",
       "description": "A localized membrane repair can address an open seam and deteriorated curb flashing while retaining sound surrounding material. The patch and its connections should match the selected roof system.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/commercial-repair-before-800.webp",
         "alt": "Illustration: Split membrane and loose flashing at an equipment curb"
@@ -80,7 +80,7 @@
       "eyebrow": "Before and after",
       "title": "From damaged courses to a finished exterior",
       "description": "The comparison shows displaced siding replaced with a complete, neatly trimmed wall covering. Corners and window edges matter alongside the panel color and profile.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/siding-before-800.webp",
         "alt": "Illustration: Buckled tan siding with a small area of exposed housewrap"
@@ -95,7 +95,7 @@
       "eyebrow": "Before and after",
       "title": "Restoring the commercial facade",
       "description": "New wall panels and matching opening trim replace weathered, damaged cladding in this example. The same doors and windows remain, making the change in the wall surface easy to compare.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/commercial-siding-before-800.webp",
         "alt": "Illustration: Weathered commercial metal siding with damaged lower panels"
@@ -110,7 +110,7 @@
       "eyebrow": "Before and after",
       "title": "A straighter run and a finished outlet",
       "description": "Compare an aged gutter corner with a replacement run and a neatly connected downspout. The installation still needs the right support, slope and discharge route for the building.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/gutters-before-800.webp",
         "alt": "Illustration: Sagging stained gutter corner and imperfect downspout connection"
@@ -125,7 +125,7 @@
       "eyebrow": "Before and after",
       "title": "From an open gutter to a screened opening",
       "description": "This example shows debris removed and a fine-mesh guard fitted above the gutter. Guards address debris entry; they do not replace sound gutters, downspouts or routine inspection.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/gutter-guards-before-800.webp",
         "alt": "Illustration: Leaves and twigs collected in an open gutter"
@@ -140,7 +140,7 @@
       "eyebrow": "Before and after",
       "title": "Renewing a commercial gutter and outlet",
       "description": "The replacement gutter and rectangular downspout form a connected rainwater route. Compare the run, outlet and attachments; capacity and discharge still depend on the building.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/commercial-gutters-before-800.webp",
         "alt": "Illustration: Weathered commercial box gutter and rust-streaked outlet"
@@ -155,7 +155,7 @@
       "eyebrow": "Before and after",
       "title": "A new walking surface and railing",
       "description": "Compare weathered timber decking with a replacement surface, fascia and railing in the same footprint. Framing, ledger connections and stairs need assessment before a similar project is planned.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/decks-before-800.webp",
         "alt": "Illustration: Weathered timber deck boards, stairs and railing"
@@ -170,7 +170,7 @@
       "eyebrow": "Before and after",
       "title": "The same timber, with a renewed finish",
       "description": "The boards and railing stay in place in this example. Cleaning, preparation and a fresh wood finish change the appearance; refinishing does not replace structurally damaged timber.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/deck-refinishing-before-800.webp",
         "alt": "Illustration: Faded timber boards with a worn finish"
@@ -185,7 +185,7 @@
       "eyebrow": "Before and after",
       "title": "Replacing the damaged boards, retaining the rest",
       "description": "A focused board repair leaves the surrounding deck in place. The underlying supports and connections should also be checked wherever decay or movement is found.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/deck-repair-before-800.webp",
         "alt": "Illustration: Split and decayed board ends beside a deck step"
@@ -200,7 +200,7 @@
       "eyebrow": "Before and after",
       "title": "Adding light to steps and railing posts",
       "description": "Post-cap and stair lighting can help define the deck after dark. Plan the fixture positions, wiring routes and compatible power components with the deck layout.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/deck-accessories-before-800.webp",
         "alt": "Illustration: Deck steps and railing without fitted lighting"
@@ -215,7 +215,7 @@
       "eyebrow": "Before and after",
       "title": "Renewed frames and clearer glazing",
       "description": "The same window openings receive replacement units and finished perimeter trim. Compare the frames and glass; installation details around the opening remain part of the work.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/windows-before-800.webp",
         "alt": "Illustration: Weathered wood window frames and a fogged glass pane"
@@ -230,7 +230,7 @@
       "eyebrow": "Before and after",
       "title": "A more continuous layer across the attic floor",
       "description": "The example shows thin, uneven insulation replaced by a deeper, continuous floor layer. Air sealing, ventilation paths and access need to be considered with the insulation work.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/insulation-before-800.webp",
         "alt": "Illustration: Thin uneven attic-floor insulation with exposed joist tops"
@@ -245,7 +245,7 @@
       "eyebrow": "Before and after",
       "title": "Clearing the ice ridge at the roof edge",
       "description": "The thick refrozen ridge in the first image restricts the roof-edge drainage path. The second shows that ridge removed while snow remains upslope. Removal and the causes of recurring ice buildup are separate parts of the assessment.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/ice-dam-before-800.webp",
         "alt": "Illustration: Thick ice dam extending onto shingles above the gutter"
@@ -260,7 +260,7 @@
       "eyebrow": "Before and after",
       "title": "A fresh finish on the same wood siding",
       "description": "Preparation and a renewed coating change the exterior without replacing the cladding. Compare the painted boards and window trim; damaged wood needs repair before finishing.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/painting-before-800.webp",
         "alt": "Illustration: Faded green painted wood siding with peeling finish"
@@ -275,7 +275,7 @@
       "eyebrow": "Before and after",
       "title": "Restoring the wind-damaged shingle courses",
       "description": "The example shows missing and lifted tabs replaced with matching shingles. An inspection documents the affected materials and checks the surrounding roof before repair recommendations are made.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/wind-damage-before-800.webp",
         "alt": "Illustration: Lifted and missing shingle tabs beside a dormer"
@@ -290,7 +290,7 @@
       "eyebrow": "Before and after",
       "title": "Replacing the affected shingles and vent",
       "description": "Compare the visibly affected shingle surface and vent hood with replacement materials. This illustration explains a repair; photographs of the actual property are needed to document observed damage.",
-      "caption": "Illustrative before-and-after example; not a documented Roof King project.",
+      "caption": "",
       "before": {
         "src": "/media/service-comparisons/hail-damage-before-800.webp",
         "alt": "Illustration: Granule-loss impact spots and a dented metal vent hood"

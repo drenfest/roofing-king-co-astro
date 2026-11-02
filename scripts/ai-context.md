@@ -95,6 +95,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-service-photo-pairs.mjs](check-service-photo-pairs.mjs)
 - [check-service-reviews.mjs](check-service-reviews.mjs)
 - [check-services.mjs](check-services.mjs)
+- [check-siding-content-review.mjs](check-siding-content-review.mjs)
 - [check-sitemap.mjs](check-sitemap.mjs)
 - [check-structured-data.mjs](check-structured-data.mjs)
 - [check-warranty-page.mjs](check-warranty-page.mjs)
@@ -135,3 +136,5 @@ None.
 
 Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
+
+check:siding-review is part of the GitHub-owned verify gate. It protects the five reviewed selectors, real material comparison, seven FAQs, retained horizontal material component and source-matched customer reviews. The client-confirmed $47 financing offer is permitted; do not classify that approved offer as an unverified claim.

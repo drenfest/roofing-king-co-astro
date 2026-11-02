@@ -18,7 +18,7 @@ const selected=[...new Set(brands.brandIds)].map(id=>{
   <div class="rk-section-inner rk-brands-inner">
     <div class="rk-brands-heading"><p class="rk-home-eyebrow">{brands.eyebrow}</p><Heading class="rk-brand-heading-title">{brands.title}</Heading><p>{brands.description}</p></div>
     <div class="rk-brand-carousel" data-brand-carousel role="region" aria-roledescription="carousel" aria-label="Product manufacturers">
-      <div class="rk-home-brand-list" tabindex="0" aria-label="Manufacturer links; scroll for more brands">{selected.map(brand=><a class="rk-home-brand-mark" href={brand.href} data-brand-id={brand.id} aria-label={`Explore ${brand.name}`}><img {...brand.image} loading="lazy" decoding="async"/></a>)}</div>
+      <div class="rk-home-brand-list" tabindex="0" aria-label="Manufacturer links; scroll for more brands">{selected.map(brand=><a class="rk-home-brand-mark" href={brand.href} title={`Explore ${brand.name} products`} data-brand-id={brand.id} aria-label={`Explore ${brand.name}`}><img {...brand.image} loading="lazy" decoding="async"/></a>)}</div>
       <div class="rk-brand-controls" hidden>
         <span class="rk-brand-status" aria-live="polite" aria-atomic="true"></span>
         <button type="button" data-brand-prev aria-label="Previous brands"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m14 6-6 6 6 6M8 12h13"/></svg></button>

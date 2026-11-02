@@ -3,7 +3,7 @@
     "eyebrow": "Columbus roofing contractor",
     "title": "Roofing & siding contractors in Columbus, Ohio",
     "description": "Roof King & Restoration is a family-owned roofing contractor in Columbus and a GAF Master Elite® certified installer. Since 2020, our team has replaced and repaired roofs, restored homes after hail and windstorms, and installed new siding for homeowners across Ohio.",
-    "image": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+    "image": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
     "booking": {
       "eyebrow": "Roof King inspection",
       "title": "Book your roof and siding inspection",
@@ -423,31 +423,94 @@
     "items": [
       {
         "question": "How do I choose a roofing contractor in Columbus?",
-        "answer": [{"tag": "p", "children": [{"text": "Look for a local headquarters, manufacturer certifications you can verify on the manufacturer's website, recent reviews from homeowners near you, an estimate that lists the materials and work included, and a clear workmanship warranty. Ask who your point of contact will be during the project."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Look for a local headquarters, manufacturer certifications you can verify on the manufacturer's website, recent reviews from homeowners near you, an estimate that lists the materials and work included, and a clear workmanship warranty. Ask who your point of contact will be during the project."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "Should I repair my roof or replace it?",
-        "answer": [{"tag": "p", "children": [{"text": "It depends on the roof's age, how widespread the damage is, and whether leaks keep returning. A small problem on a roof with years left is usually a repair. Widespread wear, several leaks or a roof near the end of its life usually points to replacement. Our free inspection gives you a clear picture of the roof's condition before you decide."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "It depends on the roof's age, how widespread the damage is, and whether leaks keep returning. A small problem on a roof with years left is usually a repair. Widespread wear, several leaks or a roof near the end of its life usually points to replacement. Our free inspection gives you a clear picture of the roof's condition before you decide."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "Can you do my roof and siding at the same time?",
-        "answer": [{"tag": "p", "children": [{"text": "Yes. Planning them together lets us coordinate flashing, trim and gutters where the roof meets the walls, and it keeps your project on one schedule with one team."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. Planning them together lets us coordinate flashing, trim and gutters where the roof meets the walls, and it keeps your project on one schedule with one team."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "Is the inspection really free?",
-        "answer": [{"tag": "p", "children": [{"text": "Yes. Roof inspections and estimates are free."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. Roof inspections and estimates are free."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "Can you help after a hail or windstorm?",
-        "answer": [{"tag": "p", "children": [{"text": "Yes. We inspect for storm damage, document what we find, and explain the insurance process and your options. Whether to file a claim is your decision, and we'll give you clear information to make it."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. We inspect for storm damage, document what we find, and explain the insurance process and your options. Whether to file a claim is your decision, and we'll give you clear information to make it."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "How long will my project take?",
-        "answer": [{"tag": "p", "children": [{"text": "It depends on the size of the home, the materials and the weather. Your quote lists the work included, and we'll confirm the schedule with you before work begins."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "It depends on the size of the home, the materials and the weather. Your quote lists the work included, and we'll confirm the schedule with you before work begins."
+              }
+            ]
+          }
+        ]
       },
       {
         "question": "Do you offer financing?",
-        "answer": [{"tag": "p", "children": [{"text": "Yes. We offer 3-year and 5-year financing, with payments as low as $47 a month on qualifying projects."}]}]
+        "answer": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Yes. We offer 3-year and 5-year financing, with payments as low as $47 a month on qualifying projects."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
