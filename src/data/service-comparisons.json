@@ -661,6 +661,11 @@
       "pairId": "roofing",
       "family": "local",
       "title": "Roof replacement: a visual example for Zanesville homeowners"
+    },
+    "/storm-damage/residential/": {
+      "pairId": "wind-damage",
+      "family": "storm",
+      "title": "Repairing Wind-Damaged Shingle Courses"
     }
   }
 }

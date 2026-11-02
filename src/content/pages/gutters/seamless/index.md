@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Seamless Gutters Contractor"
+title: "Seamless Gutter Installation Columbus, OH | Roof King"
 permalink: "/gutters/seamless/"
-description: "Does your Columbus home need a new gutter system? Trust our professionals at Roof King & Restoration with the job. Reach out today to get started with a quote."
+description: "Seamless gutter installation in Columbus, OH. Roof King reviews gutter runs, fascia, downspouts and drainage. Call (614) 379-8893 for an estimate."
 canonicalPath: "/gutters/seamless/"
 category: "Service detail"
 source: "wordpress"

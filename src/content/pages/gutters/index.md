@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Gutter Company"
+title: "Gutter Installation & Replacement Columbus, OH | Roof King"
 permalink: "/gutters/"
-description: "Does your Columbus home need a gutter replacement? Count on our professionals at Roof King & Restoration to provide it. Get a free quote from our team today."
+description: "Need gutter installation or replacement in Columbus, OH? Roof King helps homeowners plan gutters, downspouts and drainage. Call (614) 379-8893."
 canonicalPath: "/gutters/"
 category: "Service hub"
 source: "wordpress"

@@ -9,7 +9,7 @@ Parent guidance: [public/media](../ai-context.md).
 
 ### Direct files
 
-Asset files: 16 (.webp: 16). Use the media registries and file search for individual derivative names.
+Asset files: 17 (.webp: 17). Use the media registries and file search for individual derivative names.
 
 ### Child directories
 

@@ -118,6 +118,13 @@
     "illustrative": true,
     "fingerprint": "b524412f055f34cbdbd3ce037792a3dfdd260a011abff0e138997fbf027ff80e"
   },
+  "/storm-damage/residential/": {
+    "sourceImage": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+    "thumbnailSource": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ff33bfa406b56639f33637157a86100411adc8a054d2e6a8017fcdb102e87fb1"
+  },
   "/storm-damage/hail/": {
     "sourceImage": "/media/roofing-heroes/storm-damage-hail-1672.webp",
     "thumbnailSource": "/media/roofing-heroes/storm-damage-hail-640.webp",

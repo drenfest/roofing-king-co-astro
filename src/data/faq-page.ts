@@ -37,9 +37,9 @@ export const faqGroups:Group[]=[
   pick('/siding/replacement/','Will new siding lower energy bills?')
  ],links:[{label:'Siding services',href:'/siding/'},{label:'Siding replacement',href:'/siding/replacement/'}]},
  {id:'faq-gutters',label:'Gutters & gutter guards',title:'Gutters, downspouts and gutter guards',description:'Overflow, damaged sections and what gutter protection can and cannot do.',items:[
-  pick('/gutters/','Can one damaged section be replaced?','Can one damaged gutter section be replaced?'),
-  pick('/gutters/','Do larger gutters automatically fix overflow?'),
-  pick('/gutters/','Are gutters with guards maintenance-free?'),
+  pick('/gutters/','How do I know whether to repair or replace my gutters?'),
+  pick('/gutters/','Will larger gutters stop overflowing?'),
+  pick('/gutters/','Do gutter guards eliminate cleaning?'),
   pick('/gutters/guards/','Can guards be installed on my existing gutters?')
  ],links:[{label:'Gutter services',href:'/gutters/'},{label:'Gutter guards',href:'/gutters/guards/'}]},
  {id:'faq-other-exteriors',label:'Windows, decks & insulation',title:'Windows, decks and attic insulation',description:'Planning improvements while accounting for the materials already in your home.',items:[

@@ -8,6 +8,7 @@ Native Astro routing for this URL branch. Read src/pages/_ai-context.md first. K
 - `commercial.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
 - `hail.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
 - `insurance-claims.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
+- `residential.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
 - `wind.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
 
 This index is derived from current imports. Resolve the entry point before editing data; a physical directory alone does not define the content owner.
@@ -23,6 +24,7 @@ Parent guidance: [src/pages](../_ai-context.md).
 - [commercial.astro](commercial.astro)
 - [hail.astro](hail.astro)
 - [insurance-claims.astro](insurance-claims.astro)
+- [residential.astro](residential.astro)
 - [wind.astro](wind.astro)
 
 ### Child directories

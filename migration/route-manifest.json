@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 548,
+  "count": 549,
   "routes": [
     {
       "path": "/",
@@ -2260,6 +2260,2030 @@
       "words": 143
     },
     {
+      "path": "/products/roofing/commercial/",
+      "file": "src/content/pages/products/roofing/commercial/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/",
+      "notes": [
+        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/",
+      "notes": [
+        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 59
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/134-fascia-cover/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 66
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 62
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-tlmembrane-plate/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/24-seam-plate/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/24-seam-plate/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/24-seam-plate/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 43
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-insulation-plate/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-lwgmetal-plates/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 72
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-tlinsulation-plate/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/4-fascia-cover/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/702-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/702-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/702-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 52
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/702-lvadhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 53
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 41
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 26
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/adhesives/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/adhesives/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/adhesives/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 65
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/all-purpose-bar/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 68
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 45
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/aqua-base120/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/aqua-base120/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/aqua-base120/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 17
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/black-lap-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/bonding-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 42
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 73
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/cantilever-coping/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/cantilever-coping/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/cantilever-coping/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 81
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 52
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/continuous-cleat-coping/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 42
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/coping/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/coping/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/coping/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 40
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/counterflashing/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/counterflashing/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/counterflashing/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 99
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/cover-boards-insulation/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/cover-boards-insulation/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/cover-boards-insulation/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 15
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/cured-cover-tape/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 46
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 131
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 121
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 57
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 43
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 34
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/downspouts/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/downspouts/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/downspouts/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 40
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/drill-point-fasteners12/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 50
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/drip-edge-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 50
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/drip-edge/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/drip-edge/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/drip-edge/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 47
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 49
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 50
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/edge-metal/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/edge-metal/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/edge-metal/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 14
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/ehdfasteners15/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 45
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdm-membranes/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdm-membranes/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdm-membranes/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 13
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdm/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdm/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdm/",
+      "notes": [
+        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
+      ],
+      "words": 56
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmcurb-wrap/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 65
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmin-seam-tape/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 47
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 45
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 49
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmtjoint-patches/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 56
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 42
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 54
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmx23-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 16
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epsflat/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epsflat/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epsflat/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 82
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/epstapered/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/epstapered/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/epstapered/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 70
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/extended-extruded-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 54
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 47
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-fascia-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 71
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 85
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/fasteners-termination/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/fasteners-termination/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/fasteners-termination/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 14
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/flashings/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/flashings/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/flashings/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/fr10/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/fr10/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/fr10/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 16
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/fradhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/fradhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/fradhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/gravel-stop/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/gravel-stop/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/gravel-stop/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 61
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/gray-epdm/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/gray-epdm/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/gray-epdm/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 52
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/gutters/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/gutters/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/gutters/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 60
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/hdpfasteners14/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 48
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 50
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 47
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 49
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 43
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 67
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 8
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 10
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 5
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/hpprotective-mat/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 48
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 40
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/induction-weld-plates/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 11
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 57
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 47
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/low-vocprimer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocprimer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocprimer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 25
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocuntackcleaner/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 68
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/lwgfasteners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/lwgfasteners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/lwgfasteners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 53
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/mpliquid-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 24
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 85
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/nailer-box-ri/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 44
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/nailer-t/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/nailer-t/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/nailer-t/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 76
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/one-extended-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 71
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/one-fascia/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/one-fascia/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/one-fascia/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 49
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/pitch-pan/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/pitch-pan/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/pitch-pan/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 10
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hd/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 108
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hd80/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 83
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hdplus/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 84
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflat/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isoflat/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isoflat/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 91
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 96
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-isotapered/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isotapered/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isotapered/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 91
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 94
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/pourable-sealer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/pourable-sealer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/pourable-sealer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 70
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 53
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/rd100/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/rd100/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/rd100/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 53
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/reinforced-epdm/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 64
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/rhino-bond-plates/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 20
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/rib-contours/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/rib-contours/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/rib-contours/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 23
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/rubber-paver-blocks/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 39
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/scupperand-collector-boxes/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 131
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/seal-fast-repair-hero/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 11
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/sealants/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/sealants/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/sealants/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/self-adhering-epdm/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 96
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/self-adhering-tpo/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 58
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/shape-shift-kits/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 154
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 108
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 59
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/si-tpoprimer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 46
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/single-ply-accessories/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/single-ply-accessories/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/single-ply-accessories/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 13
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/skirted-drip-edge/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 26
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/snap-coping/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/snap-coping/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/snap-coping/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 69
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/snap-gold-coping/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 55
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/splice-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/splice-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/splice-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 55
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/standup-tool-set/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/standup-tool-set/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/standup-tool-set/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 26
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 46
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tape-primer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tape-primer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tape-primer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 27
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tb125/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb125/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tb125/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 24
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tb75/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb75/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tb75/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 30
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tb90/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb90/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tb90/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 24
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 12
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tlfasteners-plates/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 74
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo-coated-metal/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
+      "notes": [
+        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
+      ],
+      "words": 69
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpo-membranes/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo-membranes/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo-membranes/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 13
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpo/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo/",
+      "notes": [
+        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
+      ],
+      "words": 54
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpobonding-adhesive/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 19
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpobreather-vents/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpocolorway/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocolorway/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocolorway/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 69
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpocover-strip/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocover-strip/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocover-strip/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 43
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocut-edge-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 29
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpodrop-scupper/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpofleece-back-plus/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 56
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpofleece-back/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpofleece-back/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 44
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpoinside-corners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 38
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 33
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpooutside-corners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpopipe-seals/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpoprimer/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpoprimer/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpoprimer/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 28
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpopscover-strip/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 66
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tposplit-pipe-seals/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 35
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tposquare-tube-wraps/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 84
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 24
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpotjoint-patches/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 31
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpouniversal-corners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 37
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpovent-collar-combo/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 61
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowalkway-roll/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 55
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowith-clean-film/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 106
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowith-seam-protector/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 66
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/tru-spike-fasteners/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 51
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 63
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 15
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/universal-single-ply-sealant/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 43
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 88
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 45
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 36
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/vap-air-seal-md/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 99
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/water-cut-off-mastic/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 26
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 54
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/whiteon-black-epdm/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 68
+    },
+    {
+      "path": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
+      "file": "src/content/pages/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/index.md",
+      "source": "authored-commercial-products",
+      "wordpressId": null,
+      "canonicalPath": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
+      "notes": [
+        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
+      ],
+      "words": 33
+    },
+    {
       "path": "/products/roofing/shingles/",
       "file": "src/content/pages/products/roofing/shingles/index.md",
       "source": "authored-product-pillar",
@@ -3448,6 +5472,17 @@
       "words": 863
     },
     {
+      "path": "/storm-damage/residential/",
+      "file": "src/content/pages/storm-damage/residential/index.md",
+      "source": "client-provided-content",
+      "wordpressId": null,
+      "canonicalPath": "/storm-damage/residential/",
+      "notes": [
+        "New residential storm damage service page from approved client brief; review-only until released."
+      ],
+      "words": 1387
+    },
+    {
       "path": "/storm-damage/wind/",
       "file": "src/content/pages/storm-damage/wind/index.md",
       "source": "wordpress",
@@ -3669,2030 +5704,6 @@
       "canonicalPath": "/zanesville-oh/",
       "notes": [],
       "words": 800
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpo/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo/",
-      "notes": [
-        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
-      ],
-      "words": 54
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdm/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdm/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdm/",
-      "notes": [
-        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
-      ],
-      "words": 56
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo-coated-metal/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
-      "notes": [
-        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
-      ],
-      "words": 69
-    },
-    {
-      "path": "/products/roofing/commercial/",
-      "file": "src/content/pages/products/roofing/commercial/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/",
-      "notes": [
-        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/",
-      "notes": [
-        "Client-confirmed offering; official manufacturer facts. REVIEW REQUIRED. Existing routes retained."
-      ],
-      "words": 37
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/134-fascia-cover/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 59
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 62
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 66
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/24-seam-plate/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/24-seam-plate/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/24-seam-plate/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 43
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/2-tlmembrane-plate/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 30
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-insulation-plate/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 34
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-lwgmetal-plates/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 72
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/3-tlinsulation-plate/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 31
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/4-fascia-cover/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/702-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/702-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/702-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 52
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/702-lvadhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 53
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 41
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 26
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 65
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/all-purpose-bar/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 68
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 45
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/aqua-base120/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/aqua-base120/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/aqua-base120/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 17
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/black-lap-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 37
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 20
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/bonding-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 42
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 73
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/cantilever-coping/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/cantilever-coping/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/cantilever-coping/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 81
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 52
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/continuous-cleat-coping/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 42
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/coping/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/coping/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/coping/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 40
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/counterflashing/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/counterflashing/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/counterflashing/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 99
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/cured-cover-tape/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 46
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 131
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 121
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 57
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 43
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 34
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/downspouts/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/downspouts/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/downspouts/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 40
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/drill-point-fasteners12/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 50
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/drip-edge/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/drip-edge/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/drip-edge/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 38
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/drip-edge-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 50
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/eclips-edge/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 50
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 47
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/eclips-edge-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 49
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/ehdfasteners15/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 45
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmcurb-wrap/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 65
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmin-seam-tape/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 47
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 45
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 49
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmtjoint-patches/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 56
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 42
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 54
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdmx23-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 16
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epsflat/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epsflat/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epsflat/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 82
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epstapered/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epstapered/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epstapered/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 70
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/extended-extruded-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 54
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 47
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/extruded-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/extruded-fascia-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 71
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 85
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/fradhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/fradhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/fradhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 38
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/fr10/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/fr10/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/fr10/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 16
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/gravel-stop/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/gravel-stop/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/gravel-stop/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 61
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/gray-epdm/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/gray-epdm/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/gray-epdm/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 52
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/gutters/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/gutters/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/gutters/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 60
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/hdpfasteners14/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 48
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 47
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 50
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 49
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 43
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 67
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 8
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 10
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 5
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/hpprotective-mat/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 48
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 40
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/induction-weld-plates/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 11
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/low-vocprimer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocprimer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocprimer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 25
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 57
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 47
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/low-vocuntackcleaner/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 68
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/lwgfasteners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/lwgfasteners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/lwgfasteners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 53
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/mpliquid-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 24
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 85
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/nailer-t/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/nailer-t/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/nailer-t/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 76
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/nailer-box-ri/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 44
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/one-extended-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 71
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/one-fascia/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/one-fascia/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/one-fascia/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 49
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/pitch-pan/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/pitch-pan/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/pitch-pan/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 10
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hd/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 108
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hdplus/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 84
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-iso1-hd80/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 83
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-isoflat/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isoflat/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isoflat/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 91
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 96
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-isotapered/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isotapered/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isotapered/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 91
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 94
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/pourable-sealer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/pourable-sealer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/pourable-sealer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 31
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 70
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 53
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/rd100/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/rd100/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/rd100/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 53
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/reinforced-epdm/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 64
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/rhino-bond-plates/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 20
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/rib-contours/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/rib-contours/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/rib-contours/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 23
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/rubber-paver-blocks/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 39
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/scupperand-collector-boxes/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 131
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/seal-fast-repair-hero/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 11
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/self-adhering-epdm/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 96
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/self-adhering-tpo/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 58
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/shape-shift-kits/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 154
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 108
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 59
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/si-tpoprimer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 46
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/skirted-drip-edge/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 26
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/snap-coping/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/snap-coping/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/snap-coping/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 69
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/snap-gold-coping/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 55
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/splice-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/splice-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/splice-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 55
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/standup-tool-set/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/standup-tool-set/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/standup-tool-set/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 26
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 46
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tape-primer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tape-primer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tape-primer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 27
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tb125/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb125/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tb125/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 24
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tb75/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb75/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tb75/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 30
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tb90/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tb90/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tb90/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 24
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 12
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tlfasteners-plates/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 74
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpobonding-adhesive/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 19
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpobreather-vents/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpocolorway/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocolorway/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocolorway/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 69
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpocover-strip/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocover-strip/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocover-strip/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 43
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpocut-edge-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 29
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpodrop-scupper/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 38
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpofleece-back/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpofleece-back/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpofleece-back/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 44
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpofleece-back-plus/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 56
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpoinside-corners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 38
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpooutside-corners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 37
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpopipe-seals/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 35
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpoprimer/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpoprimer/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpoprimer/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 28
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpopscover-strip/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 66
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tposplit-pipe-seals/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 35
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tposquare-tube-wraps/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 84
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpotjoint-patches/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 31
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 24
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 37
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpouniversal-corners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 37
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpovent-collar-combo/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 61
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowalkway-roll/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 55
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowith-clean-film/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 106
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpowith-seam-protector/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 66
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tru-spike-fasteners/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 51
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 63
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/universal-single-ply-sealant/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 43
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 88
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 45
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 36
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/vap-air-seal-md/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 99
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/water-cut-off-mastic/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 26
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 54
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/whiteon-black-epdm/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 68
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 33
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/edge-metal/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/edge-metal/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/edge-metal/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 14
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/single-ply-accessories/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/single-ply-accessories/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/single-ply-accessories/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 13
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/fasteners-termination/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/fasteners-termination/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/fasteners-termination/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 14
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/adhesives/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/adhesives/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/adhesives/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 12
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 15
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/sealants/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/sealants/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/sealants/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 12
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/cover-boards-insulation/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/cover-boards-insulation/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/cover-boards-insulation/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 15
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/flashings/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/flashings/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/flashings/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 12
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/epdm-membranes/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/epdm-membranes/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/epdm-membranes/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 13
-    },
-    {
-      "path": "/products/roofing/commercial/mule-hide/tpo-membranes/",
-      "file": "src/content/pages/products/roofing/commercial/mule-hide/tpo-membranes/index.md",
-      "source": "authored-commercial-products",
-      "wordpressId": null,
-      "canonicalPath": "/products/roofing/commercial/mule-hide/tpo-membranes/",
-      "notes": [
-        "Manufacturer-sourced commercial product information. REVIEW REQUIRED. Existing URLs preserved."
-      ],
-      "words": 13
     }
   ],
   "updatedAt": "2026-10-17T20:51:48.159Z",

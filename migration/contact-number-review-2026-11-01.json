@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "phone": "(614) 379-8893",
+  "phoneHref": "tel:+16143798893",
+  "source": "src/data/site.json",
+  "changes": [
+    "Confirmed no alternate Roof King number in customer-facing source.",
+    "Removed agency, utility and city phone-number literals from the storm guidance while retaining resource references and emergency-services instructions.",
+    "Added GitHub verification of displayed ten-digit numbers and all tel links across generated pages.",
+    "Documented the single approved number in the project handbook."
+  ]
+}

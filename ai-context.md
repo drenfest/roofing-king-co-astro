@@ -33,6 +33,7 @@ A folder is not necessarily a URL owner. Every content-leaf map states its perma
 - Follow the approved ivory, charcoal and orange palette, Manrope headings and Inter body/navigation/buttons. Use title-style capitalized headings, focused H2/H3 hierarchy, flat consistent actions and retained diagonal backgrounds. Do not restore green/metallic surfaces, raised effects, generic buying-advice filler or the removed numbered process block.
 - Reuse existing components first. Static content belongs in Astro; genuine state belongs in Svelte. Preserve readable SSR content, no-JavaScript links, keyboard access, mobile behavior and reduced motion. Use SiteMotion tokens and the current hydration contract; do not load every island immediately or add an animation library/router for simple transitions.
 - Every image needs an alt attribute; decorative images may use alt="". Every link needs a meaningful title attribute. The shared integration is a backstop, not a substitute for authoring them correctly.
+- All displayed contact numbers must use the approved site.json identity: (614) 379-8893 and tel:+16143798893. Do not adopt alternate numbers from PDFs, legacy pages or tracking examples. Reference agencies and utilities through their official resources rather than inserting competing phone numbers; never relabel their contact number as Roof King's. The HTML attribute check also enforces matching rendered numbers and call links.
 - Write concrete, expert service copy. Do not add generic instructions such as asking customers to interpret specifications instead of explaining the relevant product. The client rejects the phrases "scope" and "scope of work" in customer copy. Preserve source paragraphs, topic anchors and contextual links when making presentation changes. Do not rewrite unrelated topics during a photo-only task.
 - Location hubs offer the full service set without cloning a service catalog into new location+service URLs. Give location headings/copy a real local focus; prioritize roofing, siding and storm damage. Link to an existing local descendant when one exists, otherwise to its main service page. Use the scrollable service selector and relevant featured articles.
 - Maintain factual provenance. Never invent reviews, ratings, jobs, project locations, certifications, prices, stock, warranty terms, authors, dates or installation guarantees. Use primary manufacturer sources for product facts. Displayed reference colors are not a promise that every profile is available in every color.
@@ -77,8 +78,8 @@ Read .github/workflows/ai-context.md and migration/cloudways-deployment.md befor
 
 Derived from committed source registries; refresh after structural changes.
 
-- Required manifest routes: 548.
-- Service/location/cost/calculator entries: 84.
+- Required manifest routes: 549.
+- Service/location/cost/calculator entries: 85.
 - Product detail entries: 268.
 - Gallery photographs: 103.
 

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof_King_Main_Gutters_Staging_Complete_Content_and_SEO_For_Gary.pdf",
+    "sha256": "bd6c6f78b03a7caedeaf6e0053dc383f0d4165f9937dca4350aa0f8e28428b6d"
+  },
+  "route": "/gutters/",
+  "workflow": {
+    "draft": "Copywriting: preserve practical contractor explanations and broad residential installation/replacement intent.",
+    "edit": "Copy Editing: clarity, voice, benefits, evidence, specificity, emotion and action passes before insertion. Removed internal notes, numbered process and rejected generic terminology; used confirmed phone and free-estimate wording."
+  },
+  "components": [
+    "LandingHero",
+    "ServicePaths",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "ReviewSection",
+    "CredentialsSection",
+    "BrandStrip",
+    "ServiceComparison",
+    "ServiceGallery",
+    "FeaturedArticles",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "faqItems": 6,
+  "notes": [
+    "Main gutter hero and both service tabs retained with destination hero photographs.",
+    "Installation copy uses the three existing photographs, each mapped to its own heading and paragraph.",
+    "Preserved section anchors and all four source contextual destinations.",
+    "No roof-only monthly payment promotion, unconfirmed size/material availability or emergency response promise added.",
+    "All Roof King contact numbers use site.json; unrelated agency numbers removed from storm guidance instead of being replaced with Roof King’s number."
+  ],
+  "verification": "Local route review; full checks remain GitHub-owned on authorized release."
+}

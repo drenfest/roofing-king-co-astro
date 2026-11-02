@@ -263,5 +263,8 @@
   },
   "/products/roofing/commercial/mule-hide/tpo-membranes/": {
     "sourceImage": "/media/manufacturer-products/self-adhering-tpo-640.webp"
+  },
+  "/storm-damage/residential/": {
+    "sourceImage": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof_King_Seamless_Gutters_Complete_Content_and_SEO_For_Gary.pdf",
+    "sha256": "018dac1d768d647ba8f774d639a4904e58f0dbe22f319d960b59720c04629aa9"
+  },
+  "route": "/gutters/seamless/",
+  "workflow": {
+    "draft": "Copywriting: supplied practical contractor voice and seamless-specific intent retained; page units drafted from the source.",
+    "editing": "Copy Editing: clarity, voice, benefits, evidence, specificity, emotion and action sweeps before component mapping. Removed internal notes, numbered process and rejected generic wording; retained necessary qualifications."
+  },
+  "components": [
+    "LandingHero",
+    "ServiceArticle",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "CredentialsSection",
+    "ReviewSection",
+    "BrandStrip",
+    "ServiceComparison",
+    "ServiceGallery",
+    "FeaturedArticles",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "faqItems": 7,
+  "notes": [
+    "Preserved URL, canonical, section IDs, hero, reviews, gallery, manufacturer links and common contact actions.",
+    "Four installation topics paired with three existing optimized photographs; fascia and supports share the relevant roof-edge photo.",
+    "No invented gutter size, material availability, on-site fabrication promise, leak-proof guarantee, blanket warranty or monthly payment claim.",
+    "All contact numbers remain (614) 379-8893 with tel:+16143798893.",
+    "General installation, guards and commercial gutter pages retain separate intent."
+  ],
+  "verification": "Local route review; full verification remains GitHub-owned on authorized release."
+}

@@ -103,6 +103,12 @@
           "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-item-has-children rk-menu-depth-1",
           "children": [
             {
+              "label": "Residential Storm Damage",
+              "href": "/storm-damage/residential/",
+              "classes": "rk-menu-item rk-menu-slug-residential rk-menu-depth-2",
+              "children": []
+            },
+            {
               "label": "Hail Damage",
               "href": "/storm-damage/hail/",
               "classes": "rk-menu-item rk-menu-slug-storm-damage rk-menu-depth-2",

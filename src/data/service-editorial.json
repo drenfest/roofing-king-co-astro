@@ -20007,21 +20007,21 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Gutter Services in Columbus, OH",
-    "description": "Gutter installation and replacement in Columbus, OH. Understand overflow, downspouts, fascia, seamless gutters and guards with Roof King.",
+    "title": "Gutter Installation & Replacement in Columbus, OH",
+    "description": "Need gutter installation or replacement in Columbus, OH? Roof King helps homeowners plan gutters, downspouts and drainage. Call (614) 379-8893.",
     "sourceFile": "src/content/pages/gutters/index.md",
     "sourceCategory": "Service hub",
     "focus": "Discuss where water enters the gutters, how it reaches downspouts and where it is discharged. The proposal should explain that route.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Gutter Services in Columbus, OH",
-      "description": "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Columbus homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge.",
+      "title": "Gutter Installation & Replacement in Columbus, OH",
+      "description": "Gutters collect water from the roof and carry it to a discharge point away from the house. Sagging runs, blocked outlets and downspouts that empty beside the foundation can interrupt that route. Roof King & Restoration installs and replaces residential gutters in Columbus and surrounding Central Ohio communities. We look at the entire route water takes—from the roof edge through the gutter and downspout to its discharge point—before recommending a new system. Call (614) 379-8893 to discuss a gutter estimate or book an inspection.",
       "image": {
         "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
         "alt": "Gutter Services example from the existing Roof King image library"
       },
       "caption": "Explore the materials and details involved in your project",
-      "action": "Request a Gutter Estimate",
+      "action": "Request a Free Gutter Estimate",
       "nextHref": "#service-topics",
       "nextLabel": "Explore services & products",
       "body": [
@@ -20029,7 +20029,15 @@
           "tag": "p",
           "children": [
             {
-              "text": "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Columbus homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge."
+              "text": "Gutters collect water from the roof and carry it to a discharge point away from the house. Sagging runs, blocked outlets and downspouts that empty beside the foundation can interrupt that route."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Roof King & Restoration installs and replaces residential gutters in Columbus and surrounding Central Ohio communities. We look at the entire route water takes—from the roof edge through the gutter and downspout to its discharge point—before recommending a new system. Call (614) 379-8893 to discuss a gutter estimate or book an inspection."
             }
           ]
         }
@@ -20047,14 +20055,22 @@
     "opening": {
       "id": "service-topics",
       "eyebrow": "Gutter Services · Columbus, Ohio",
-      "title": "Gutter installation, replacement and protection in Columbus",
-      "description": "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas.",
+      "title": "Residential Gutter Installation in Columbus",
+      "description": "",
       "intro": [
         {
           "tag": "p",
           "children": [
             {
-              "text": "Replace worn gutter runs, plan seamless gutters and downspouts, or add guards to a suitable existing system. Explore each service, then review the preparation, outlets and discharge details that make the installation work as a complete drainage route."
+              "text": "The roofline determines how the gutter system needs to collect water. The roof area, valleys, corners and pitch influence where runoff collects. The gutter profile, outlet positions and downspouts need to work together so water moves off the house instead of spilling behind the fascia or across a walkway."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "We review the condition of the roof edge and discuss the layout of each gutter run. If fascia or adjacent trim is deteriorated, that needs to be addressed before a new gutter is fastened in place. The written proposal should identify the materials, attachment method, downspout locations and any preparation or removal work."
             }
           ]
         }
@@ -20064,27 +20080,38 @@
         {
           "id": "service-child-46-1",
           "tabLabel": "Gutter Guards",
-          "title": "Gutter guards for debris management",
+          "title": "Gutter Guards for Debris Management",
           "body": [
             {
               "tag": "p",
               "children": [
                 {
+                  "text": "Gutter guards can help reduce the amount of leaves and other debris entering a gutter. They do not correct an undersized outlet, poor gutter slope or damaged downspout, and they do not make maintenance unnecessary. The guard needs to suit the existing gutter, roof edge and the debris that collects there."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Explore our "
+                },
+                {
                   "tag": "a",
                   "href": "/gutters/guards/",
                   "children": [
                     {
-                      "text": "Gutter guards"
+                      "text": "gutter guards"
                     }
                   ]
                 },
                 {
-                  "text": " can change how debris enters a gutter, but the right choice depends on the existing system and the product being installed. Roof King helps Columbus homeowners review gutter condition, accessory compatibility and the care requirements before adding protection."
+                  "text": " page for product and care considerations."
                 }
               ]
             }
           ],
-          "description": "Gutter guards can change how debris enters a gutter, but the right choice depends on the existing system and the product being installed. Roof King helps Columbus homeowners review gutter condition, accessory compatibility and the care requirements before adding protection.",
+          "description": "Gutter guards can help reduce the amount of leaves and other debris entering a gutter. They do not correct an undersized outlet, poor gutter slope or damaged downspout, and they do not make maintenance unnecessary. The guard needs to suit the existing gutter, roof edge and the debris that collects there. Explore our gutter guards page for product and care considerations.",
           "detail": "",
           "highlights": [],
           "href": "/gutters/guards/",
@@ -20094,27 +20121,38 @@
         {
           "id": "service-child-46-2",
           "tabLabel": "Seamless Gutters",
-          "title": "Seamless gutter runs and downspouts",
+          "title": "Seamless Gutter Runs and Connections",
           "body": [
             {
               "tag": "p",
               "children": [
                 {
+                  "text": "Seamless gutters are formed in long, continuous runs, reducing the number of joints along straight roof edges. Corners, end caps and outlets still require connections. The shape and length of the roofline determine how the system should be laid out."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "See our dedicated "
+                },
+                {
                   "tag": "a",
                   "href": "/gutters/seamless/",
                   "children": [
                     {
-                      "text": "Seamless gutters"
+                      "text": "seamless gutters"
                     }
                   ]
                 },
                 {
-                  "text": " use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge."
+                  "text": " page for the installation details."
                 }
               ]
             }
           ],
-          "description": "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge.",
+          "description": "Seamless gutters are formed in long, continuous runs, reducing the number of joints along straight roof edges. Corners, end caps and outlets still require connections. The shape and length of the roofline determine how the system should be laid out. See our dedicated seamless gutters page for the installation details.",
           "detail": "",
           "highlights": [],
           "href": "/gutters/seamless/",
@@ -20197,43 +20235,82 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Gutters questions: materials, installation and estimates",
+      "title": "Frequently Asked Questions About Gutters",
       "description": "",
       "items": [
         {
-          "question": "Can one damaged section be replaced?",
+          "question": "How do I know whether to repair or replace my gutters?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "Possibly, when retained components are serviceable and the connection can be restored. The material, profile, finish and cause of damage all need to be considered. Confirm the repair option available for your system."
+                  "text": "A localized joint, outlet or hanger issue may be repairable. Multiple failing sections, corrosion, widespread sagging or damaged supporting materials can make replacement more sensible. The condition of the existing system matters more than its age alone."
                 }
               ]
             }
           ]
         },
         {
-          "question": "Do larger gutters automatically fix overflow?",
+          "question": "Are seamless gutters completely leak-free?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "No. Blockage, outlets, downspouts and discharge can still cause problems. The arrangement needs to address the source of the overflow as a whole."
+                  "text": "No. Seamless construction reduces joints along straight runs, but corners, end caps and outlets still require connections. Installation details and maintenance remain important."
                 }
               ]
             }
           ]
         },
         {
-          "question": "Are gutters with guards maintenance-free?",
+          "question": "Will larger gutters stop overflowing?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "No. Inspection and cleaning requirements depend on the system, debris and surrounding conditions. Follow the selected manufacturer's instructions and have persistent overflow assessed."
+                  "text": "Not necessarily. Blocked outlets, poor slope, insufficient downspout capacity or discharge problems can still cause overflow. The whole drainage route needs to be evaluated."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Do gutter guards eliminate cleaning?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Guards can reduce certain debris entry, but the gutter, outlets and downspouts still need inspection and maintenance according to the product instructions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Can gutters be installed when fascia is damaged?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Damaged fascia or other roof-edge support may need repair first. The estimate should identify that work or explain how concealed damage will be handled."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King provide free gutter estimates?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Roof King provides free inspections and estimates. Call our team or use the online calendar to discuss your gutter project."
                 }
               ]
             }
@@ -20243,8 +20320,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Request a gutter installation estimate in Columbus",
-      "description": "Discuss gutter installation, the condition of your home and the work to include in an estimate.",
+      "title": "Request a Gutter Installation Estimate in Columbus",
+      "description": "Tell us where the gutter leaks, overflows or pulls away from the house. Call our team or choose an inspection time online.",
       "action": "Request a Gutter Estimate"
     },
     "related": [
@@ -20276,16 +20353,42 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Gutter Services in Columbus, OH",
+    "seoTitle": "Gutter Installation & Replacement Columbus, OH",
     "reviewPresentation": {
       "batch": "01",
-      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "credentialsTitle": "Why Columbus Homeowners Choose Roof King",
       "reviewsTitle": "Customer reviews of Roof King’s exterior work",
-      "brandsTitle": "Explore gutter and guard manufacturers",
-      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsTitle": "Gutter Protection and Support Products",
+      "brandsDescription": "Discuss product compatibility, available finishes and maintenance with the gutter arrangement proposed for your house.",
       "brandsSectionId": "service-copy-46-2",
-      "financeTitle": "Gutter installation financing"
-    }
+      "financeTitle": "Gutter Installation Financing",
+      "credentialsDescription": "Roof King & Restoration is a locally owned Ohio exterior contractor serving homeowners since 2020. We are BBB accredited with an A+ business rating. Our business profile, external customer reviews and written workmanship terms give you a record to review before deciding on your project. Ask about the materials, how the gutter will be supported, what happens if damaged fascia is found and which parts of the drainage route are included. We want the estimate to answer those questions before installation begins.",
+      "credentialItems": [
+        {
+          "title": "BBB Accredited With an A+ Rating",
+          "description": "Roof King is a locally owned Ohio exterior contractor serving homeowners since 2020. Review our independent business profile and customer feedback.",
+          "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
+          "label": "View Our BBB Profile",
+          "mark": "BBB Accredited"
+        },
+        {
+          "title": "Written Workmanship Terms",
+          "description": "Discuss the installation coverage and manufacturer documents that apply to the materials and work in your gutter proposal.",
+          "href": "/offers/5-year-workmanship-warranty/",
+          "label": "Review Workmanship Coverage",
+          "mark": "Written Terms"
+        },
+        {
+          "title": "Roof-Edge Preparation and Attachment",
+          "description": "Your estimate should identify the gutter materials and supports, any fascia repairs, and the parts of the discharge route included.",
+          "href": "#service-copy-46-3",
+          "label": "Review Installation Details",
+          "mark": "Your Gutter Estimate"
+        }
+      ],
+      "financeDescription": "Roof King offers financing information for eligible home projects. Availability, rates and repayment terms depend on the lender and current offer. Review the written financing terms before deciding how to pay."
+    },
+    "pageTitle": "Gutter Installation & Replacement Columbus, OH | Roof King"
   },
   "/gutters/guards/": {
     "family": "guards",
@@ -20577,15 +20680,15 @@
     "city": "Columbus",
     "isLocal": false,
     "reference": false,
-    "title": "Seamless Gutters in Columbus, OH",
-    "description": "Seamless gutter installation in Columbus, OH. Understand continuous runs, corners, outlets, downspouts and fascia preparation with Roof King.",
+    "title": "Seamless Gutter Installation in Columbus, OH",
+    "description": "Seamless gutter installation in Columbus, OH. Roof King reviews gutter runs, fascia, downspouts and drainage. Call (614) 379-8893 for an estimate.",
     "sourceFile": "src/content/pages/gutters/seamless/index.md",
     "sourceCategory": "Service detail",
     "focus": "Walk through the proposed outlet and downspout locations before work begins. Gutters collect the water; the rest of the system must take it onward.",
     "hero": {
       "eyebrow": "Columbus, Ohio · Roof King & Restoration",
-      "title": "Seamless Gutters in Columbus, OH",
-      "description": "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge.",
+      "title": "Seamless Gutter Installation in Columbus, OH",
+      "description": "A gutter can look fine from the driveway and still send rainwater behind the fascia or over the front edge. Sometimes the problem is a failing joint. Other times the gutter is too small for the roof area, the outlet is restricted or the downspout empties in the wrong place. Roof King & Restoration installs seamless gutters for Columbus-area homeowners. We look at the roofline, the supporting fascia, the gutter layout and the path water takes after it reaches the downspout. A continuous run can reduce the number of joints, but it still needs the right size, supports and connections.",
       "image": {
         "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
         "alt": "Seamless Gutters example from the existing Roof King image library"
@@ -20599,7 +20702,15 @@
           "tag": "p",
           "children": [
             {
-              "text": "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge."
+              "text": "A gutter can look fine from the driveway and still send rainwater behind the fascia or over the front edge. Sometimes the problem is a failing joint. Other times the gutter is too small for the roof area, the outlet is restricted or the downspout empties in the wrong place."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Roof King & Restoration installs seamless gutters for Columbus-area homeowners. We look at the roofline, the supporting fascia, the gutter layout and the path water takes after it reaches the downspout. A continuous run can reduce the number of joints, but it still needs the right size, supports and connections."
             }
           ]
         }
@@ -20621,7 +20732,7 @@
     "opening": {
       "id": "service-topics",
       "eyebrow": "Seamless Gutters · Columbus, Ohio",
-      "title": "How seamless gutters reduce joints along your roofline",
+      "title": "What Makes a Gutter Seamless?",
       "description": "",
       "intro": [],
       "image": {
@@ -20633,19 +20744,27 @@
       "items": [
         {
           "id": "service-detail-48-1",
-          "tabLabel": "What seamless does and does not mean",
-          "title": "How seamless gutters reduce joints along your roofline",
+          "tabLabel": "Continuous Runs and Remaining Connections",
+          "title": "What Makes a Gutter Seamless?",
           "body": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "A straight run is made to the required length instead of assembled from several short sections. The system still needs joints and connections at corners, end caps and outlets. Those details remain important to performance and maintenance. Seamless does not mean joint-free, leak-proof or exempt from future care."
+                  "text": "Traditional sectional gutters are assembled from shorter pieces. Seamless gutters are formed in longer lengths to fit the straight runs of a home's roofline, reducing the intermediate joints where sections would otherwise connect."
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Corners, end caps and outlets still have connections. Those areas need proper installation and occasional inspection. A seamless system can reduce one common source of leakage, but it won't solve an undersized outlet, a blocked downspout or damaged fascia by itself."
                 }
               ]
             }
           ],
-          "description": "A straight run is made to the required length instead of assembled from several short sections. The system still needs joints and connections at corners, end caps and outlets. Those details remain important to performance and maintenance. Seamless does not mean joint-free, leak-proof or exempt from future care.",
+          "description": "Traditional sectional gutters are assembled from shorter pieces. Seamless gutters are formed in longer lengths to fit the straight runs of a home's roofline, reducing the intermediate joints where sections would otherwise connect. Corners, end caps and outlets still have connections. Those areas need proper installation and occasional inspection. A seamless system can reduce one common source of leakage, but it won't solve an undersized outlet, a blocked downspout or damaged fascia by itself.",
           "detail": "",
           "highlights": [],
           "href": "#estimate",
@@ -20728,43 +20847,95 @@
     },
     "faq": {
       "eyebrow": "Questions, answered",
-      "title": "Seamless gutters questions: materials, installation and estimates",
+      "title": "Seamless Gutter FAQs",
       "description": "",
       "items": [
         {
-          "question": "Can one seamless run be repaired?",
+          "question": "Are seamless gutters completely leak-proof?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "The option depends on the damage, material and connection. In some situations a section or complete run may need replacement. The assessment should explain the suitable approach and appearance differences."
+                  "text": "No. They reduce joints along straight runs, but corners, end caps and outlets still need connections. Good installation and routine maintenance remain important."
                 }
               ]
             }
           ]
         },
         {
-          "question": "Will seamless gutters fix overflow?",
+          "question": "Will seamless gutters stop overflowing?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "Only if the cause is addressed. Blockage, outlet placement, downspouts and discharge can affect overflow even when the gutter run itself is sound."
+                  "text": "Only if the cause is addressed. The gutter size, roof runoff, outlets, downspouts and discharge route all affect overflow."
                 }
               ]
             }
           ]
         },
         {
-          "question": "What maintenance remains?",
+          "question": "Can a damaged seamless gutter be repaired?",
           "answer": [
             {
               "tag": "p",
               "children": [
                 {
-                  "text": "Follow the selected system's care guidance, including attention to debris, connections, supports and outlets. Have persistent leaks or overflow assessed rather than assuming they are normal."
+                  "text": "Sometimes. The location and extent of damage, material and connections determine whether a localized repair or replacement of a run makes more sense."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are seamless gutters available in different colors?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Color and finish options depend on the material and profile available for the project. Ask to see the actual choices included in the estimate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Do seamless gutters need cleaning?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Leaves and debris can still collect in the gutter or at outlets. Follow the care instructions for the selected system and inspect areas that overflow."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Can I add gutter guards at the same time?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Often, yes, provided the guard is compatible with the gutter and roof edge. Review the selected guard's installation and maintenance requirements."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King offer financing for gutter installation?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King provides financing information for eligible projects. Availability and terms depend on lender approval and the current offer. Ask for the written details."
                 }
               ]
             }
@@ -20774,8 +20945,8 @@
     },
     "quote": {
       "eyebrow": "Talk with Roof King",
-      "title": "Plan a seamless gutter installation in Columbus",
-      "description": "Discuss seamless gutter installation, the condition of your home and the work to include in an estimate.",
+      "title": "Request a Seamless Gutter Estimate in Columbus",
+      "description": "Tell us where the gutters leak, sag or overflow, and which rooflines are affected. Call our team or book an inspection.",
       "action": "Request a Seamless Gutter Estimate"
     },
     "related": [
@@ -20803,16 +20974,42 @@
         "Lead delivery and production release remain deferred"
       ]
     },
-    "seoTitle": "Seamless Gutters in Columbus, OH",
+    "seoTitle": "Seamless Gutter Installation Columbus, OH",
     "reviewPresentation": {
       "batch": "01",
-      "credentialsTitle": "Gutter installation: workmanship and business credentials",
+      "credentialsTitle": "Why Columbus Homeowners Choose Roof King",
       "reviewsTitle": "Customer reviews of Roof King’s exterior work",
-      "brandsTitle": "Explore gutter and guard manufacturers",
-      "brandsDescription": "Review the selected manufacturer’s product details, compatibility and maintenance guidance.",
+      "brandsTitle": "Gutter Protection and Support Products",
+      "brandsDescription": "Compare product information and discuss compatibility with the seamless gutter profile proposed for your house.",
       "brandsSectionId": "service-copy-48-2",
-      "financeTitle": "Gutter installation financing"
-    }
+      "financeTitle": "Seamless Gutter Installation Financing",
+      "credentialsDescription": "Roof King & Restoration is a locally owned Ohio exterior contractor serving homeowners since 2020. Review our BBB business profile, external customer reviews and written workmanship terms when comparing the proposed gutter work. We want homeowners to understand what is being replaced, why the layout is appropriate and what happens if hidden fascia damage is discovered. Your proposal should explain those details before installation begins.",
+      "credentialItems": [
+        {
+          "title": "Local Exterior Experience Since 2020",
+          "description": "Roof King & Restoration is a locally owned Ohio exterior contractor. Review our business profile and external customer feedback.",
+          "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
+          "label": "View Our BBB Profile",
+          "mark": "Since 2020"
+        },
+        {
+          "title": "Written Workmanship Terms",
+          "description": "Review the installation coverage and manufacturer documents for the gutter materials and work included in your project.",
+          "href": "/offers/5-year-workmanship-warranty/",
+          "label": "Review Workmanship Coverage",
+          "mark": "Written Coverage"
+        },
+        {
+          "title": "An Itemized Gutter Proposal",
+          "description": "The estimate should identify the runs, fascia preparation, supports and drainage connections so you can compare the proposed work.",
+          "href": "#review-01-gutters-seamless-estimate",
+          "label": "Review Estimate Details",
+          "mark": "Project Details"
+        }
+      ],
+      "financeDescription": "Roof King provides financing information for eligible projects. Availability and terms depend on lender approval and the current offer. Ask for the written details."
+    },
+    "pageTitle": "Seamless Gutter Installation Columbus, OH | Roof King"
   },
   "/hail-damage-roof-repair-dublin-oh/": {
     "family": "hail",
@@ -33532,6 +33729,26 @@
               "text": "."
             }
           ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "For homeowner roof repairs after wind or hail, explore "
+            },
+            {
+              "tag": "a",
+              "href": "/storm-damage/residential/",
+              "children": [
+                {
+                  "text": "residential storm damage"
+                }
+              ]
+            },
+            {
+              "text": "."
+            }
+          ]
         }
       ],
       "selectorLabel": "Choose a storm damage topic",
@@ -34589,6 +34806,10 @@
       {
         "label": "More services from Roof King",
         "href": "/#services"
+      },
+      {
+        "label": "Residential storm damage",
+        "href": "/storm-damage/residential/"
       }
     ],
     "review": {
@@ -36690,7 +36911,7 @@
                       "tag": "p",
                       "children": [
                         {
-                          "text": "The same checklist warns that dishonest contractors may damage a roof during an inspection or suggest inflating storm damage. Report either to ODI's Fraud & Enforcement Division at 800-686-1527."
+                          "text": "The same checklist warns that dishonest contractors may damage a roof during an inspection or suggest inflating storm damage. Report either to ODI's Fraud & Enforcement Division through the Ohio Department of Insurance website."
                         }
                       ]
                     }
@@ -37086,7 +37307,7 @@
                 },
                 {
                   "title": "Ask ODI",
-                  "description": "The Ohio Department of Insurance's consumer services team answers insurance questions: 800-686-1526.",
+                  "description": "The Ohio Department of Insurance's consumer services team answers insurance questions through its official contact channels.",
                   "summary": "Read the Details",
                   "body": [
                     {
@@ -37320,7 +37541,7 @@
               "tag": "p",
               "children": [
                 {
-                  "text": "Read the policy provision the denial cites; Ohio requires the insurer to name it. Ask ODI's consumer services team (800-686-1526) about your options, or consider a licensed public adjuster or attorney. You can still repair the damage, with financing if needed."
+                  "text": "Read the policy provision the denial cites; Ohio requires the insurer to name it. Ask ODI's consumer services team through its official website about your options, or consider a licensed public adjuster or attorney. You can still repair the damage, with financing if needed."
                 }
               ]
             }
@@ -37580,7 +37801,7 @@
                       "tag": "p",
                       "children": [
                         {
-                          "text": "Before anything else Call 911 for downed power lines, a structural collapse or fire. If you smell gas, leave the house and call Columbia Gas at 1- 800-282-7820 from outside. Stay out of rooms or buildings with visible structural damage until a professional has checked them. Look and photograph from the ground or from inside. Don't climb up or pull at loose shingles, flashing or limbs."
+                          "text": "Before anything else Contact emergency services for downed power lines, a structural collapse or fire. If you smell gas, leave the house and contact your gas utility from outside. Stay out of rooms or buildings with visible structural damage until a professional has checked them. Look and photograph from the ground or from inside. Don't climb up or pull at loose shingles, flashing or limbs."
                         }
                       ]
                     }
@@ -37880,7 +38101,7 @@
                       "tag": "p",
                       "children": [
                         {
-                          "text": "Safety first If lines are down or the structure is damaged, call 911 and stay clear. Photograph the tree on the roof from the ground and the damage from inside before anything is moved. A tree blocking the street can be reported to Columbus 311 (614-645-3111). Damage entirely on private property is the owner's and their insurer's responsibility."
+                          "text": "Safety first If lines are down or the structure is damaged, contact emergency services and stay clear. Photograph the tree on the roof from the ground and the damage from inside before anything is moved. A tree blocking the street can be reported to the City of Columbus. Damage entirely on private property is the owner's and their insurer's responsibility."
                         }
                       ]
                     }
@@ -38243,7 +38464,7 @@
                       "tag": "p",
                       "children": [
                         {
-                          "text": "The City's checklist Confirm the contractor is registered with the Ohio Secretary of State. Get more than one estimate and a written contract before work starts. Don't pay in full upfront. Report suspected contractor fraud to the Ohio Attorney General at 1-800-828-0348. Residential roofing in Columbus falls under the City's Home Improvement limited contractor license, which you can look up on the Citizen Access Portal."
+                          "text": "The City's checklist Confirm the contractor is registered with the Ohio Secretary of State. Get more than one estimate and a written contract before work starts. Don't pay in full upfront. Report suspected contractor fraud to the Ohio Attorney General through the agency's official website. Residential roofing in Columbus falls under the City's Home Improvement limited contractor license, which you can look up on the Citizen Access Portal."
                         }
                       ]
                     },
@@ -38567,7 +38788,7 @@
               "tag": "p",
               "children": [
                 {
-                  "text": "Get everyone clear. Call 911 if power lines are down or the structure looks unsafe, and stay out of damaged rooms. Photograph the tree and the damage from the ground and from inside before anything is moved, and contact your insurer. Once the tree is off, the roof inspection should check the decking and framing under the impact, not just the shingles."
+                  "text": "Get everyone clear. Contact emergency services if power lines are down or the structure looks unsafe, and stay out of damaged rooms. Photograph the tree and the damage from the ground and from inside before anything is moved, and contact your insurer. Once the tree is off, the roof inspection should check the decking and framing under the impact, not just the shingles."
                 }
               ]
             }
@@ -41979,5 +42200,410 @@
       "financeTitle": "Financing your Zanesville exterior project",
       "galleryTitle": "Roofing and exterior ideas for your Zanesville property"
     }
+  },
+  "/storm-damage/residential/": {
+    "family": "storm",
+    "serviceType": "Residential Storm Damage",
+    "city": "Columbus",
+    "isLocal": false,
+    "reference": false,
+    "title": "Residential Storm Damage Roof Repair in Columbus, OH",
+    "description": "Wind or hail damage to your Columbus roof? Roof King offers residential storm damage inspections, roof repairs and replacement options. Call (614) 379-8893.",
+    "sourceFile": "src/content/pages/storm-damage/residential/index.md",
+    "sourceCategory": "Service hub",
+    "focus": "Homeowner roof inspection and repair decisions after wind, hail, heavy rain or fallen debris.",
+    "hero": {
+      "eyebrow": "Columbus, Ohio · Roof King & Restoration",
+      "title": "Residential Storm Damage Roof Repair in Columbus, OH",
+      "description": "A storm can leave a roof looking normal from the driveway while shingles, flashing or roof edges have been damaged. Other times the problem is obvious: a missing section of shingles, a branch on the roof or water dripping through a ceiling. Roof King & Restoration helps Columbus homeowners assess residential roof damage caused by wind, hail, fallen debris and heavy rain. We inspect the affected areas, explain what we find and discuss whether a targeted repair or a larger roofing project is appropriate.",
+      "image": {
+        "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+        "alt": "Two-story brick home with white-framed windows, a porch and a shingle roof"
+      },
+      "caption": "Supplied photo: Brick, shingles and the front elevation.",
+      "action": "Request a Free Storm Damage Inspection",
+      "nextHref": "#residential-storm-first-actions",
+      "nextLabel": "Explore services & products",
+      "body": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "A storm can leave a roof looking normal from the driveway while shingles, flashing or roof edges have been damaged. Other times the problem is obvious: a missing section of shingles, a branch on the roof or water dripping through a ceiling."
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Roof King & Restoration helps Columbus homeowners assess residential roof damage caused by wind, hail, fallen debris and heavy rain. We inspect the affected areas, explain what we find and discuss whether a targeted repair or a larger roofing project is appropriate."
+            }
+          ]
+        }
+      ]
+    },
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Storm Damage",
+        "href": "/storm-damage/"
+      },
+      {
+        "label": "Residential Storm Damage"
+      }
+    ],
+    "opening": {
+      "id": "residential-storm-first-actions",
+      "eyebrow": "Residential Storm Damage · Columbus, Ohio",
+      "title": "What to Do First When a Storm Damages Your Roof",
+      "description": "",
+      "intro": [],
+      "selectorLabel": "Storm damage safety and inspection",
+      "items": [
+        {
+          "id": "residential-storm-first-1",
+          "tabLabel": "Stay off the roof and avoid hazards",
+          "title": "Stay off the roof and avoid hazards",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Wet shingles and storm debris make roof access dangerous. If a tree has struck the house, a ceiling is sagging or water is near wiring, keep people away from the affected area. Contact emergency services or the utility company when conditions require it. Do not climb onto the roof to take photographs."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Request a Storm Damage Inspection",
+          "icon": "shield"
+        },
+        {
+          "id": "residential-storm-first-2",
+          "tabLabel": "Photograph the damage from a safe location",
+          "title": "Photograph the damage from a safe location",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Take pictures of the house from the ground, including the roof edges, gutters, siding and fallen debris. Photograph interior stains or active leaks as well. Record the storm date and save the original photos. These details help explain what changed and where an inspector should look."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Request a Storm Damage Inspection",
+          "icon": "shield"
+        },
+        {
+          "id": "residential-storm-first-3",
+          "tabLabel": "Protect the interior without creating another hazard",
+          "title": "Protect the interior without creating another hazard",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Move belongings away from active leaks when it is safe to do so. If temporary protection is needed, ask a qualified contractor what can be done safely. Keep receipts and photographs of any temporary work. Temporary protection is not a permanent roof repair."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Request a Storm Damage Inspection",
+          "icon": "shield"
+        },
+        {
+          "id": "residential-storm-first-4",
+          "tabLabel": "Arrange an inspection before deciding on replacement",
+          "title": "Arrange an inspection before deciding on replacement",
+          "body": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "One missing shingle does not automatically mean the entire roof needs to be replaced. The right recommendation depends on the extent of the damage, the roof's age and condition, and whether water reached the materials underneath."
+                }
+              ]
+            }
+          ],
+          "description": "",
+          "detail": "",
+          "highlights": [],
+          "href": "#estimate",
+          "label": "Request a Storm Damage Inspection",
+          "icon": "shield"
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Products & installation",
+      "title": "Storm Damage Restoration: Products & Related Services",
+      "description": "Compare the materials and installation information relevant to your project.",
+      "links": [
+        {
+          "label": "Shingle styles & colors",
+          "href": "/products/roofing/shingles/"
+        },
+        {
+          "label": "GAF products & specifications",
+          "href": "/roofing/gaf/types/"
+        }
+      ]
+    },
+    "brandIds": [
+      "gaf",
+      "owens-corning",
+      "iko"
+    ],
+    "guide": {
+      "title": "Separate observations from repair recommendations",
+      "copy": "Ask what was found on the roof, siding and gutters, and why each repair is recommended. Not every visible mark calls for the same work.",
+      "secondTitle": "Keep a useful repair record",
+      "secondCopy": "Dated photographs, estimates and completed-work documents help explain the construction work. They remain separate from an insurer’s coverage decision.",
+      "focus": "Explore Roof King’s storm inspection, roofing and exterior repair services. Find the service for hail, wind or ice damage, then review the documentation and work proposed for your property.",
+      "image": {
+        "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp",
+        "alt": "Fingertip beside a yellow chalk circle on a shingle surface"
+      },
+      "links": [
+        {
+          "label": "Shingle styles & colors",
+          "href": "/products/roofing/shingles/"
+        },
+        {
+          "label": "GAF products & specifications",
+          "href": "/roofing/gaf/types/"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Roof King project photography",
+      "title": "Roofing Details, Up Close",
+      "description": "Explore images from Roof King’s existing site and discuss the materials and details relevant to your property.",
+      "images": [
+        {
+          "src": "/media/wordpress/7fabd63f8d4b-6ea23704-5fd8-4258-81c1-dbe660b1bb89.jpg",
+          "alt": "Gray shingle roof seen from above, showing ridge lines, valleys and roof penetrations",
+          "label": "Exterior example",
+          "caption": "Image from Roof King’s existing site; discuss the details relevant to your property."
+        },
+        {
+          "src": "/media/wordpress/14069f6b690d-8e29f962-8522-482c-92cf-c15e1f646950.jpg",
+          "alt": "Aerial view of roof work in progress with exposed decking and underlayment",
+          "label": "Installation detail",
+          "caption": "Image from Roof King’s existing site; discuss the details relevant to your property."
+        }
+      ],
+      "href": "/past-projects/",
+      "label": "Explore project photography"
+    },
+    "budget": {
+      "eyebrow": "Your written estimate",
+      "title": "Included in Roofing Estimates",
+      "description": "Review the roofing work recommended for your property, with materials, preparation and installation identified.",
+      "items": [
+        "Photographs & inspection findings",
+        "Affected roofing & exterior materials",
+        "Temporary measures if agreed",
+        "Installation, cleanup & written coverage"
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions, Answered",
+      "title": "Residential Storm Damage FAQs",
+      "description": "",
+      "items": [
+        {
+          "question": "Can wind damage a roof without blowing shingles off?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Wind can lift shingles and weaken their sealant bonds without leaving a visible gap from the ground. An inspection can help determine whether the affected shingles remain serviceable."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Do hail dents on gutters mean my roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Dents are evidence that hail struck a surface, but the roof covering needs its own assessment. Metal marks alone do not establish that every shingle has functional damage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "How soon should I schedule a roof inspection after a storm?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Arrange an inspection reasonably promptly if you see missing shingles, loose flashing, fallen debris or interior water staining. If there is an immediate safety hazard, address that first."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will homeowners insurance pay for storm damage roof repairs?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "It may, depending on your policy and the cause and extent of the damage. The insurance company determines coverage. Roof King can document roofing conditions and provide a repair or replacement estimate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Can Roof King repair storm-damaged siding and gutters too?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King offers roofing, siding and gutter services. The assessment can identify related exterior damage so the appropriate work is described and priced separately."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does a small roof leak mean I need a new roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not necessarily. A localized flashing or shingle problem may be repairable. Repeated leaks, widespread storm damage or deteriorated roofing materials can change the recommendation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Is a free inspection the same as an insurance adjustment?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A roofing inspection addresses the condition of the roof and possible construction work. Your insurer evaluates coverage under the policy."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "quote": {
+      "eyebrow": "Talk with Roof King",
+      "title": "Schedule a Residential Storm Damage Roof Inspection",
+      "description": "Share your address, the storm date, visible damage and whether water is entering the house.",
+      "action": "Request a Storm Damage Assessment"
+    },
+    "related": [
+      {
+        "label": "Storm damage restoration",
+        "href": "/storm-damage/"
+      },
+      {
+        "label": "Residential roof repair",
+        "href": "/roofing/repair/"
+      },
+      {
+        "label": "Residential roof replacement",
+        "href": "/roofing/replacement/"
+      },
+      {
+        "label": "Storm damage insurance claims guide",
+        "href": "/storm-damage/insurance-claims/"
+      },
+      {
+        "label": "Gutter services",
+        "href": "/gutters/"
+      }
+    ],
+    "review": {
+      "status": "Client-source residential page implemented locally - review ready",
+      "notes": [
+        "New residential storm page; no existing storm page rewritten.",
+        "Copywriting draft followed by Copy Editing before component insertion.",
+        "Approved business facts, central phone, external reviews, shared contact actions and image provenance retained."
+      ]
+    },
+    "seoTitle": "Residential Storm Damage Roof Repair Columbus, OH",
+    "reviewPresentation": {
+      "batch": "residential-storm-2026-11-01",
+      "credentialsTitle": "Why Columbus Homeowners Call Roof King",
+      "credentialsDescription": "Roof King & Restoration has served Ohio homeowners since 2020. We are GAF Master Elite® certified and a GAF President’s Club contractor, with BBB accreditation and an A+ business rating. Homeowners can ask to review the applicable product and workmanship documents for their specific project. We focus on showing what happened to the roof and what needs to be fixed. If a repair makes sense, we'll explain that option. If replacement is warranted, we'll discuss the roof system and what the proposed work includes. Financing is available for eligible home projects, subject to approval and the applicable terms.",
+      "credentialItems": [
+        {
+          "title": "GAF Master Elite® and President’s Club",
+          "description": "Our GAF credentials relate to eligible residential roofing installations. Review the product and workmanship documents for the proposed repair or roof system.",
+          "href": "https://www.gaf.com/en-us/roofing-contractors/residential/usa/oh/columbus/roof-king-restoration-llc-1129747",
+          "label": "View Our GAF Profile",
+          "mark": "GAF Credentials"
+        },
+        {
+          "title": "BBB Accredited With an A+ Rating",
+          "description": "Roof King & Restoration has served Ohio homeowners since 2020. View our independent business profile and customer feedback.",
+          "href": "https://www.bbb.org/us/oh/columbus/profile/roofing-contractors/roof-king-restoration-0302-70125693",
+          "label": "View Our BBB Profile",
+          "mark": "BBB Accredited"
+        },
+        {
+          "title": "Written Project Coverage",
+          "description": "Product warranties and installation workmanship coverage are separate. Ask for the written terms that apply to your storm repair or new roof.",
+          "href": "/offers/5-year-workmanship-warranty/",
+          "label": "Review Workmanship Coverage",
+          "mark": "Written Terms"
+        }
+      ],
+      "reviewsTitle": "Homeowner Feedback on Storm and Exterior Repairs",
+      "brandsTitle": "Roofing Products for Residential Storm Repairs",
+      "brandsDescription": "Compare current shingle products and documents when a repair or replacement requires new materials.",
+      "brandsSectionId": "residential-storm-repair-or-replace",
+      "financeTitle": "Financing for Eligible Home Projects",
+      "financeDescription": "Financing is available for eligible home projects, subject to approval and the applicable terms. Ask our team about the options for your proposed work.",
+      "galleryTitle": "Residential Roof and Storm Inspection Photos",
+      "stormTitle": "Keep a Record of the Storm at Your Address",
+      "stormDescription": "Find a storm date to discuss alongside your photos and the roof inspection. Weather reports support the record; the roof assessment establishes its condition.",
+      "stormHref": "/storm-report/",
+      "stormLabel": "Check Your Storm Report",
+      "articlesTitle": "Residential Storm Damage Articles",
+      "articlePaths": [
+        "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+        "/blog/roofing/post-storm-roof-inspection-checklist-what-to-do-before-calling-insurance/",
+        "/blog/roofing/from-hail-to-high-winds-how-to-spot-hidden-roof-damage-after-ohios-late-summer/",
+        "/blog/roofing/how-to-spot-roof-damage-this-storm-season/"
+      ]
+    },
+    "pageTitle": "Residential Storm Damage Roof Repair Columbus, OH | Roof King"
   }
 }

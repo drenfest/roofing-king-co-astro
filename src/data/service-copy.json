@@ -13849,7 +13849,15 @@
         "tag": "p",
         "children": [
           {
-            "text": "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Columbus homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge."
+            "text": "Gutters collect water from the roof and carry it to a discharge point away from the house. Sagging runs, blocked outlets and downspouts that empty beside the foundation can interrupt that route."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Roof King & Restoration installs and replaces residential gutters in Columbus and surrounding Central Ohio communities. We look at the entire route water takes—from the roof edge through the gutter and downspout to its discharge point—before recommending a new system. Call (614) 379-8893 to discuss a gutter estimate or book an inspection."
           }
         ]
       }
@@ -13857,35 +13865,42 @@
     "sections": [
       {
         "id": "service-copy-46-2",
-        "title": "Gutter systems: layout, downspouts and protection",
-        "body": [],
-        "cards": [
+        "title": "When Should You Replace Your Gutters?",
+        "body": [
           {
-            "title": "Gutter runs, corners and outlet placement",
-            "body": [
+            "tag": "p",
+            "children": [
               {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "The roof area and flow paths influence the drainage arrangement. Corners, valleys and adjoining roof sections can concentrate water. The proposed system should identify the runs and outlets it will include."
-                  }
-                ]
+                "text": "Not every drip means the whole system needs replacement. An isolated joint or outlet may be repairable when the surrounding gutter and support are still sound. But widespread sagging, recurring overflow, corrosion, loose attachment or repeated leaks at several locations can make replacement the more practical choice."
               }
-            ],
-            "image": {
-              "src": "/media/gutter-details/gutter-corner-1200.webp",
-              "alt": "Close-up of an illustrative gutter corner, open run and downspout outlet"
-            },
-            "caption": "Illustrative gutter corner and outlet arrangement."
+            ]
           },
           {
-            "title": "Downspouts and rainwater discharge",
+            "tag": "p",
+            "children": [
+              {
+                "text": "Pay attention to water staining on siding, peeling paint near the roof edge, washed-out landscaping and water pooling next to the house. These symptoms do not always begin at the gutter. A blocked downspout, poor discharge route or an adjoining roof-edge defect may be involved. We want to identify the cause before recommending work."
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Downspouts and Drainage Away From the House",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Downspouts complete the route from the gutter. Their positions should account for the building, paths and the point where water leaves the system. An underground connection or site-drainage problem may need separate work."
+                    "text": "The gutter is only the first part of the drainage route. Downspouts need to be located where they can receive the water collected from the roof, and the outlet needs a sensible discharge location. Water that empties next to a foundation or across a frequently used path can still create problems even when the gutter itself is in good condition."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Underground drain lines and site grading are separate systems. If those are blocked or poorly designed, new gutters alone may not solve the issue. The estimate should explain which discharge components Roof King will install and which conditions require a separate contractor or additional evaluation."
                   }
                 ]
               }
@@ -13897,13 +13912,29 @@
             "caption": "Illustrative downspout and above-ground discharge extension."
           },
           {
-            "title": "Gutter materials, profiles and finishes",
+            "title": "Gutter Materials, Sizes and Finishes",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Confirm the size, profile, material and color offered for the project. Capacity and appearance should be considered with the outlets and supporting construction. A generic gutter description does not establish the exact system being installed."
+                    "text": "Gutters come in different profiles, materials, sizes and colors. The best selection depends on the roof layout, the amount of water entering each run, the outlets and the appearance of the house. A larger gutter is not automatically the right solution if the downspout or discharge remains restricted."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Ask for a written proposal identifying the actual gutter material, profile, finish, outlet arrangement and support method."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King’s product pages show gutter-guard and support brands, but a product being listed does not mean every material, color or configuration is available for every project."
                   }
                 ]
               }
@@ -13913,54 +13944,6 @@
               "alt": "Illustrative white and charcoal metal gutter samples beside a copper half-round profile"
             },
             "caption": "Illustrative metal profiles and finishes; not a confirmed product selection."
-          },
-          {
-            "title": "Seamless gutters and gutter guards: different benefits",
-            "body": [
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "tag": "a",
-                    "href": "/gutters/seamless/",
-                    "children": [
-                      {
-                        "text": "Seamless gutters"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. "
-                  },
-                  {
-                    "tag": "a",
-                    "href": "/gutters/guards/",
-                    "children": [
-                      {
-                        "text": "Gutter guards"
-                      }
-                    ]
-                  },
-                  {
-                    "text": " address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement."
-                  }
-                ]
-              },
-              {
-                "tag": "p",
-                "children": [
-                  {
-                    "text": "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions."
-                  }
-                ]
-              }
-            ],
-            "id": "service-copy-46-4",
-            "image": {
-              "src": "/media/gutter-details/gutter-protection-1200.webp",
-              "alt": "Illustrative mesh gutter guard holding leaves above the gutter opening"
-            },
-            "caption": "Illustrative mesh guard and debris protection detail."
           }
         ],
         "image": {
@@ -13974,43 +13957,96 @@
       },
       {
         "id": "service-copy-46-3",
-        "title": "Installing gutters on a sound roof edge",
+        "title": "What Happens During a Gutter Installation?",
         "body": [],
         "cards": [
           {
-            "title": "Inspecting gutter overflow before installation",
+            "title": "Review the roof edge and drainage problem",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas."
+                    "text": "We discuss where the system leaks or overflows and examine the roof edge, downspouts and surrounding trim. Existing damage and access issues should be documented before work begins."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Gutter measurements, fascia repairs and attachment",
+            "title": "Confirm measurements and the written proposal",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process."
+                    "text": "The estimate should identify which gutter runs are being replaced, where outlets and downspouts will go, whether old material will be removed and how fascia or other concealed damage will be handled if discovered."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Coordinating gutters with roof and siding repairs",
+            "title": "Install, connect and review",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For adjoining work, review "
+                    "text": "The completed system should have secure supports, properly detailed connections and a defined discharge route. The final review should cover cleanup, any maintenance instructions and the applicable written workmanship or product coverage."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+          "alt": "Gutter Services example from the existing Roof King image library"
+        },
+        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
+        "variant": "media",
+        "tone": "cream",
+        "eyebrow": "Gutter systems and installation"
+      },
+      {
+        "id": "review-01-gutters-estimate",
+        "title": "Gutter Installation Costs and Financing",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The cost of new gutters depends on the measured runs, material and profile, number of corners and downspouts, accessibility and any supporting repairs. Gutter guards, unusual rooflines and additional discharge work can change the work required. An estimate should show what is included rather than quote a price without the details."
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Coordinating Gutters With Roofing and Siding Work",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A gutter is attached to a roof edge that also includes fascia, soffit, siding and roofing details. If those components are damaged, simply fastening a new gutter over them can leave the underlying problem unresolved."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King also works on residential roofs and siding. When related exterior repairs are needed, we can discuss the sequence of work and identify what belongs in the gutter work."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For a roof-edge leak, review "
                   },
                   {
                     "tag": "a",
@@ -14022,7 +14058,15 @@
                     ]
                   },
                   {
-                    "text": " or "
+                    "text": " services."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For damaged wall cladding or trim, see "
                   },
                   {
                     "tag": "a",
@@ -14038,33 +14082,9 @@
                   }
                 ]
               }
-            ],
-            "id": "service-copy-46-5"
-          }
-        ],
-        "image": {
-          "src": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
-          "alt": "Gutter Services example from the existing Roof King image library"
-        },
-        "caption": "Exterior imagery from Roof King’s existing site. Materials and installation vary by project.",
-        "variant": "media",
-        "tone": "cream",
-        "eyebrow": "Gutter systems and installation"
-      },
-      {
-        "id": "review-01-gutters-estimate",
-        "title": "What is included in a gutter installation estimate?",
-        "body": [
-          {
-            "tag": "p",
-            "children": [
-              {
-                "text": "Look for measured gutter runs, corners, outlets, downspout locations and discharge connections. The gutter estimate should separate old-system removal, fascia repairs, supports, installation, cleanup and any guards or accessories."
-              }
             ]
           }
         ],
-        "cards": [],
         "image": {
           "src": "/media/service-illustrations/siding-wall-v1.webp",
           "alt": "Architectural illustration of siding, wall layers and a window opening"
@@ -14080,7 +14100,7 @@
         "tag": "p",
         "children": [
           {
-            "text": "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge."
+            "text": "If your gutters overflow, pull away from the house or no longer direct water where it should go, tell us which areas are affected and what happens during heavy rain. Roof King can discuss an inspection and the next step toward a written estimate. Call (614) 379-8893 or book an appointment online."
           }
         ]
       }
@@ -14103,41 +14123,56 @@
         "href": "/siding/"
       }
     ],
-    "bodyWords": 531,
+    "bodyWords": 1084,
     "expectedBlocks": [
-      "Gutters need to move runoff from the roof edge through the downspouts to an appropriate discharge point. Roof King helps Columbus homeowners assess overflow, worn components and replacement needs as one connected system, including the condition of the fascia and roof edge.",
-      "Gutter installation, replacement and protection in Columbus",
-      "Overflow can come from debris, damaged sections, unsuitable slope or support, outlet restrictions or the discharge route. A replacement should address the cause, not just cover the same layout with new material. Describe where water appears, when it happens and whether the problem affects one section or several areas.",
-      "Gutter systems: layout, downspouts and protection",
-      "Gutter runs, corners and outlet placement",
-      "The roof area and flow paths influence the drainage arrangement. Corners, valleys and adjoining roof sections can concentrate water. The proposed system should identify the runs and outlets it will include.",
-      "Downspouts and rainwater discharge",
-      "Downspouts complete the route from the gutter. Their positions should account for the building, paths and the point where water leaves the system. An underground connection or site-drainage problem may need separate work.",
-      "Gutter materials, profiles and finishes",
-      "Confirm the size, profile, material and color offered for the project. Capacity and appearance should be considered with the outlets and supporting construction. A generic gutter description does not establish the exact system being installed.",
-      "Gutter measurements, fascia repairs and attachment",
-      "Measurement establishes the runs, corners, outlets and downspouts. Removal may reveal deteriorated fascia or other roof-edge conditions that need repair before attachment. The installation then needs suitable supports, connections and a defined discharge route. The estimate should identify preparation, removal, accessories, cleanup and any additional-work process.",
-      "Seamless gutters and gutter guards: different benefits",
-      "Seamless gutters use continuous lengths along straight runs to reduce intermediate joints. They still have connections at corners, ends and outlets. Gutter guards address debris entry or other product-specific functions; they are not a substitute for an appropriate gutter and downspout arrangement.",
-      "If an accessory also provides continuous support, distinguish that function from debris screening. Compare the actual selected product and installation method. No guard eliminates the need to inspect the system and follow its care instructions.",
-      "Coordinating gutters with roof and siding repairs",
-      "Damaged fascia, an unresolved roof-edge leak or adjoining siding work can affect the gutter installation. Identify these items before new material is attached. The proposal should make clear which repairs are included and which need separate work. For adjoining work, review roof repair or siding services.",
-      "Gutters questions: materials, installation and estimates",
-      "Can one damaged section be replaced?",
-      "Possibly, when retained components are serviceable and the connection can be restored. The material, profile, finish and cause of damage all need to be considered. Confirm the repair option available for your system.",
-      "Do larger gutters automatically fix overflow?",
-      "No. Blockage, outlets, downspouts and discharge can still cause problems. The arrangement needs to address the source of the overflow as a whole.",
-      "Are gutters with guards maintenance-free?",
-      "No. Inspection and cleaning requirements depend on the system, debris and surrounding conditions. Follow the selected manufacturer's instructions and have persistent overflow assessed.",
-      "Request a gutter installation estimate in Columbus",
-      "Tell Roof King where the current system is failing and which roof edges you want addressed. The estimate should connect gutter selection with preparation, downspouts and discharge.",
-      "Gutter installation, replacement and protection in Columbus",
-      "Request a gutter installation estimate in Columbus",
-      "Gutters questions: materials, installation and estimates",
-      "Gutter systems: layout, downspouts and protection",
-      "Installing gutters on a sound roof edge",
-      "What is included in a gutter installation estimate?",
-      "Look for measured gutter runs, corners, outlets, downspout locations and discharge connections. The gutter estimate should separate old-system removal, fascia repairs, supports, installation, cleanup and any guards or accessories."
+      "Gutters collect water from the roof and carry it to a discharge point away from the house. Sagging runs, blocked outlets and downspouts that empty beside the foundation can interrupt that route.",
+      "Roof King & Restoration installs and replaces residential gutters in Columbus and surrounding Central Ohio communities. We look at the entire route water takes—from the roof edge through the gutter and downspout to its discharge point—before recommending a new system. Call (614) 379-8893 to discuss a gutter estimate or book an inspection.",
+      "Residential Gutter Installation in Columbus",
+      "The roofline determines how the gutter system needs to collect water. The roof area, valleys, corners and pitch influence where runoff collects. The gutter profile, outlet positions and downspouts need to work together so water moves off the house instead of spilling behind the fascia or across a walkway.",
+      "We review the condition of the roof edge and discuss the layout of each gutter run. If fascia or adjacent trim is deteriorated, that needs to be addressed before a new gutter is fastened in place. The written proposal should identify the materials, attachment method, downspout locations and any preparation or removal work.",
+      "Gutter Guards for Debris Management",
+      "Explore our gutter guards page for product and care considerations.",
+      "Seamless Gutter Runs and Connections",
+      "Seamless gutters are formed in long, continuous runs, reducing the number of joints along straight roof edges. Corners, end caps and outlets still require connections. The shape and length of the roofline determine how the system should be laid out.",
+      "See our dedicated seamless gutters page for the installation details.",
+      "When Should You Replace Your Gutters?",
+      "Not every drip means the whole system needs replacement. An isolated joint or outlet may be repairable when the surrounding gutter and support are still sound. But widespread sagging, recurring overflow, corrosion, loose attachment or repeated leaks at several locations can make replacement the more practical choice.",
+      "Pay attention to water staining on siding, peeling paint near the roof edge, washed-out landscaping and water pooling next to the house. These symptoms do not always begin at the gutter. A blocked downspout, poor discharge route or an adjoining roof-edge defect may be involved. We want to identify the cause before recommending work.",
+      "Downspouts and Drainage Away From the House",
+      "The gutter is only the first part of the drainage route. Downspouts need to be located where they can receive the water collected from the roof, and the outlet needs a sensible discharge location. Water that empties next to a foundation or across a frequently used path can still create problems even when the gutter itself is in good condition.",
+      "Underground drain lines and site grading are separate systems. If those are blocked or poorly designed, new gutters alone may not solve the issue. The estimate should explain which discharge components Roof King will install and which conditions require a separate contractor or additional evaluation.",
+      "Gutter Materials, Sizes and Finishes",
+      "Gutters come in different profiles, materials, sizes and colors. The best selection depends on the roof layout, the amount of water entering each run, the outlets and the appearance of the house. A larger gutter is not automatically the right solution if the downspout or discharge remains restricted.",
+      "Ask for a written proposal identifying the actual gutter material, profile, finish, outlet arrangement and support method.",
+      "Roof King’s product pages show gutter-guard and support brands, but a product being listed does not mean every material, color or configuration is available for every project.",
+      "What Happens During a Gutter Installation?",
+      "Review the roof edge and drainage problem",
+      "We discuss where the system leaks or overflows and examine the roof edge, downspouts and surrounding trim. Existing damage and access issues should be documented before work begins.",
+      "Confirm measurements and the written proposal",
+      "The estimate should identify which gutter runs are being replaced, where outlets and downspouts will go, whether old material will be removed and how fascia or other concealed damage will be handled if discovered.",
+      "Install, connect and review",
+      "The completed system should have secure supports, properly detailed connections and a defined discharge route. The final review should cover cleanup, any maintenance instructions and the applicable written workmanship or product coverage.",
+      "Gutter Installation Costs and Financing",
+      "The cost of new gutters depends on the measured runs, material and profile, number of corners and downspouts, accessibility and any supporting repairs. Gutter guards, unusual rooflines and additional discharge work can change the work required. An estimate should show what is included rather than quote a price without the details.",
+      "Coordinating Gutters With Roofing and Siding Work",
+      "A gutter is attached to a roof edge that also includes fascia, soffit, siding and roofing details. If those components are damaged, simply fastening a new gutter over them can leave the underlying problem unresolved.",
+      "Roof King also works on residential roofs and siding. When related exterior repairs are needed, we can discuss the sequence of work and identify what belongs in the gutter work.",
+      "For a roof-edge leak, review roof repair services.",
+      "For damaged wall cladding or trim, see siding services.",
+      "How do I know whether to repair or replace my gutters?",
+      "A localized joint, outlet or hanger issue may be repairable. Multiple failing sections, corrosion, widespread sagging or damaged supporting materials can make replacement more sensible. The condition of the existing system matters more than its age alone.",
+      "Are seamless gutters completely leak-free?",
+      "No. Seamless construction reduces joints along straight runs, but corners, end caps and outlets still require connections. Installation details and maintenance remain important.",
+      "Will larger gutters stop overflowing?",
+      "Not necessarily. Blocked outlets, poor slope, insufficient downspout capacity or discharge problems can still cause overflow. The whole drainage route needs to be evaluated.",
+      "Do gutter guards eliminate cleaning?",
+      "No. Guards can reduce certain debris entry, but the gutter, outlets and downspouts still need inspection and maintenance according to the product instructions.",
+      "Can gutters be installed when fascia is damaged?",
+      "Damaged fascia or other roof-edge support may need repair first. The estimate should identify that work or explain how concealed damage will be handled.",
+      "Does Roof King provide free gutter estimates?",
+      "Yes. Roof King provides free inspections and estimates. Call our team or use the online calendar to discuss your gutter project.",
+      "If your gutters overflow, pull away from the house or no longer direct water where it should go, tell us which areas are affected and what happens during heavy rain. Roof King can discuss an inspection and the next step toward a written estimate. Call (614) 379-8893 or book an appointment online.",
+      "Gutter guards can help reduce the amount of leaves and other debris entering a gutter. They do not correct an undersized outlet, poor gutter slope or damaged downspout, and they do not make maintenance unnecessary. The guard needs to suit the existing gutter, roof edge and the debris that collects there."
     ],
     "budgetSectionId": "review-01-gutters-estimate"
   },
@@ -14380,7 +14415,15 @@
         "tag": "p",
         "children": [
           {
-            "text": "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge."
+            "text": "A gutter can look fine from the driveway and still send rainwater behind the fascia or over the front edge. Sometimes the problem is a failing joint. Other times the gutter is too small for the roof area, the outlet is restricted or the downspout empties in the wrong place."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Roof King & Restoration installs seamless gutters for Columbus-area homeowners. We look at the roofline, the supporting fascia, the gutter layout and the path water takes after it reaches the downspout. A continuous run can reduce the number of joints, but it still needs the right size, supports and connections."
           }
         ]
       }
@@ -14388,58 +14431,128 @@
     "sections": [
       {
         "id": "service-copy-48-2",
-        "title": "Choosing seamless gutters, downspouts and guards",
-        "body": [],
+        "title": "When Seamless Gutters Make Sense",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Seamless gutters are worth considering when older sectional gutters repeatedly leak at joints, pull away from the house or need widespread replacement. They can also be part of a planned exterior update, especially if the roof edge and downspout layout need attention."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "A single damaged outlet or loose hanger doesn't always justify replacing every gutter. We review the condition of the existing runs and explain what can reasonably be repaired versus what should be replaced. The written estimate should identify exactly which elevations and sections are included."
+              }
+            ]
+          }
+        ],
         "cards": [
           {
-            "title": "Gutter lengths, outlets and downspout locations",
+            "title": "Choosing the Right Gutter Size and Profile",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "The estimate should identify gutter lengths, corner arrangements, outlets and downspouts. Roof geometry affects where water collects and how it reaches each outlet. Consider the route after it leaves the downspout as well; an unsuitable discharge point is not corrected by a continuous gutter run alone."
+                    "text": "Gutter size should be based on the roof areas draining into each run, the way water concentrates at valleys, the outlet arrangement and the downspout capacity. A larger gutter isn't a complete solution when the outlet is blocked or the discharge route is inadequate."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Material, profile, finish and color also affect the proposal. We confirm the material, profile and finish options available for your house before including them in the proposal. We discuss how the proposed gutters will look against the fascia and how they connect to the existing roof edge."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Gutter material, profile, size and finish",
+            "title": "Downspouts and Drainage Away From the House",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Confirm the material, profile, size and color available for the project. The supporting arrangement and outlet layout need to suit the roof and runoff, not just the preferred appearance. Compare compatible downspout and accessory details at the same time so the proposal describes the finished system."
+                    "text": "A gutter can collect rainwater correctly and still leave a puddle beside the foundation if the downspout ends in the wrong place. We review where the water enters the system, where it exits and whether the proposed discharge point is practical for the property."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Downspout placement, extensions and connections should be shown in the estimate. Underground drainage or grading work may require a separate specialist; the proposal should state what Roof King is including and what is outside the project."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Read "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/",
+                    "children": [
+                      {
+                        "text": "why gutters matter for your Columbus home"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for more about directing roof runoff away from the building."
                   }
                 ]
               }
-            ],
-            "id": "service-copy-48-3"
+            ]
           },
           {
-            "title": "Adding compatible gutter guards",
+            "title": "Pairing Seamless Gutters With Gutter Guards",
             "body": [
               {
                 "tag": "p",
                 "children": [
+                  {
+                    "text": "Yes, some gutter guards can be paired with seamless gutter systems, depending on the gutter profile and the guard product. Guards are intended to manage certain debris; seamless construction reduces joints along straight runs. They solve different problems."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Guards do not eliminate all cleaning or inspection. Roof King has dedicated gutter guard information and manufacturer links. Review the actual product compatibility and maintenance requirements before adding guards to the project."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Explore "
+                  },
                   {
                     "tag": "a",
                     "href": "/gutters/guards/",
                     "children": [
                       {
-                        "text": "Gutter guards"
+                        "text": "gutter guard options"
                       }
                     ]
                   },
                   {
-                    "text": " serve a different function from seamless fabrication. A guard may help manage debris according to its design, while continuous runs reduce intermediate joints. Neither replaces the need for sound supports, suitable outlets and ongoing care. Review the exact accessory and its compatibility before adding it to the proposal."
+                    "text": " and review the selected product with the gutter layout."
                   }
                 ]
               }
-            ],
-            "id": "service-copy-48-5"
+            ]
           }
         ],
         "image": {
@@ -14453,56 +14566,56 @@
       },
       {
         "id": "service-copy-48-4",
-        "title": "How seamless gutters are measured and installed",
+        "title": "How We Plan and Install Seamless Gutters",
         "body": [],
         "cards": [
           {
-            "title": "Measuring and fabricating seamless gutter runs",
+            "title": "Measuring the Runs and Planning Connections",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "The measured runs establish the lengths and connection details. Seamless gutters are commonly formed from coil through equipment that creates the selected profile. Confirm the fabrication arrangement for the project rather than assuming every installer uses the same on-site setup."
+                    "text": "The gutter layout should show straight lengths, corners, end caps, outlets and downspouts. Seamless gutter runs are typically formed from metal coil to the required profile and length. The fabrication arrangement for your specific project should be confirmed in the proposal."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Removing old gutters and repairing fascia",
+            "title": "Inspecting the Roof Edge and Preparing the Fascia",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Old gutters may need removal before the fascia and roof edge can be fully assessed. Deteriorated supporting material needs attention before new gutters are attached. Identify any repairs and the way additional findings will be priced and approved."
+                    "text": "We start with the affected rooflines, the condition of the fascia, existing outlet locations and visible signs of overflow. If old gutters conceal deteriorated wood, the estimate should explain how that condition will be documented and approved if found during removal."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Gutter supports, slope and connections",
+            "title": "Installing Supports and Connecting Downspouts",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "The gutter needs suitable supports and the intended fall toward its outlets. Corners, ends, outlets and downspouts need compatible connections. The installation should account for the selected product and the construction it attaches to."
+                    "text": "The gutters need appropriate support and fall toward the outlets. Connections at corners and ends should be detailed for the selected system. Downspouts need a planned termination point rather than an afterthought."
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Downspout discharge and installation checks",
+            "title": "Reviewing the Completed Installation",
             "body": [
               {
                 "tag": "p",
                 "children": [
                   {
-                    "text": "Confirm where each downspout ends and which extensions or connections are included. The completed system should be checked against the agreed layout, with cleanup and product information provided as part of the agreed materials and work."
+                    "text": "Before the job is closed, the finished installation should be checked against the agreed layout. Review cleanup, care instructions and the applicable written workmanship and product documents."
                   }
                 ]
               }
@@ -14520,18 +14633,161 @@
       },
       {
         "id": "review-01-gutters-seamless-estimate",
-        "title": "What to specify in a seamless gutter estimate",
+        "title": "What a Seamless Gutter Estimate Should Include",
         "body": [
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Which gutter runs and elevations are included, and whether existing gutters will be removed."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "The material, profile, size, color and finish being proposed."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Corners, end caps, outlets, supports and downspout locations."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Any fascia or roof-edge repairs, including how concealed damage is handled."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Where the downspouts will discharge and what drainage work is excluded."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Whether gutter guards, extensions and accessories are included."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Cleanup, product information and applicable written warranty terms."
+                  }
+                ]
+              }
+            ]
+          },
           {
             "tag": "p",
             "children": [
               {
-                "text": "Confirm the continuous run lengths, gutter profile and finish, corners, outlets, supports and downspouts. The estimate should identify removal and fascia preparation, how the gutters will be fabricated, where downspouts discharge and whether guards are included."
+                "text": "An itemized estimate makes it easier to compare proposals. Two bids for 'seamless gutters' may cover different amounts of fascia preparation, downspouts or discharge work."
               }
             ]
           }
         ],
-        "cards": [],
+        "cards": [
+          {
+            "title": "Coordinating Gutters With Roof and Siding Work",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Gutters are fastened to the edge of a building where roofing, fascia, soffit and siding meet. If the support is deteriorated, attaching new gutters over it can leave a weak connection. Water behind a gutter can also be confused with a roof leak."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King provides roofing and siding services as well as gutters. If related repairs are needed, we can discuss how the work should be sequenced and which repairs belong in each part of the project. For broader gutter replacement questions, see our main gutter services page."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For broader installation and replacement questions, review our "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/gutters/",
+                    "children": [
+                      {
+                        "text": "gutter services"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For an adjoining roof-edge leak, explore "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/repair/",
+                    "children": [
+                      {
+                        "text": "roof repair"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " services."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For damaged cladding and trim, review "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/siding/",
+                    "children": [
+                      {
+                        "text": "siding services"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "image": {
           "src": "/media/service-illustrations/gutter-drainage-v1.webp",
           "alt": "Illustration showing a gutter, downspout and the discharge route"
@@ -14547,69 +14803,123 @@
         "tag": "p",
         "children": [
           {
-            "text": "Tell Roof King where the current gutters fail and which roof edges need replacement. Visit "
+            "text": "If your current gutters leak at joints, sag along the roofline or overflow during heavy rain, tell Roof King where the problem occurs and which parts of the house are affected. We'll discuss the next step toward an inspection and a written proposal."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Call (614) 379-8893 or book an inspection. You can also review our gutter installation and replacement services to compare options."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Compare our "
           },
           {
             "tag": "a",
             "href": "/gutters/",
             "children": [
               {
-                "text": "gutter services"
+                "text": "gutter installation and replacement services"
               }
             ]
           },
           {
-            "text": " to review the broader drainage and preparation questions."
+            "text": " if you are weighing a wider exterior update."
           }
         ]
       }
     ],
     "links": [
       {
-        "label": "Gutter guards",
+        "label": "Gutter services",
+        "href": "/gutters/"
+      },
+      {
+        "label": "Gutter guard options",
         "href": "/gutters/guards/"
       },
       {
-        "label": "Gutter services",
-        "href": "/gutters/"
+        "label": "Roof repair",
+        "href": "/roofing/repair/"
+      },
+      {
+        "label": "Siding services",
+        "href": "/siding/"
+      },
+      {
+        "label": "Why gutters matter for your Columbus home",
+        "href": "/blog/gutters/the-importance-of-gutters-for-your-columbus-home/"
       }
     ],
-    "bodyWords": 552,
+    "bodyWords": 1224,
     "expectedBlocks": [
-      "Seamless gutters use continuous lengths along straight roof edges, reducing the number of intermediate joints compared with sectional gutters. Roof King helps Columbus homeowners plan the gutter runs, corners, outlets and downspouts as a complete installation, with preparation suited to the existing roof edge.",
-      "How seamless gutters reduce joints along your roofline",
-      "A straight run is made to the required length instead of assembled from several short sections. The system still needs joints and connections at corners, end caps and outlets. Those details remain important to performance and maintenance. Seamless does not mean joint-free, leak-proof or exempt from future care.",
-      "Gutter lengths, outlets and downspout locations",
-      "The estimate should identify gutter lengths, corner arrangements, outlets and downspouts. Roof geometry affects where water collects and how it reaches each outlet. Consider the route after it leaves the downspout as well; an unsuitable discharge point is not corrected by a continuous gutter run alone.",
-      "Gutter material, profile, size and finish",
-      "Confirm the material, profile, size and color available for the project. The supporting arrangement and outlet layout need to suit the roof and runoff, not just the preferred appearance. Compare compatible downspout and accessory details at the same time so the proposal describes the finished system.",
-      "How seamless gutters are measured and installed",
-      "Measuring and fabricating seamless gutter runs",
-      "The measured runs establish the lengths and connection details. Seamless gutters are commonly formed from coil through equipment that creates the selected profile. Confirm the fabrication arrangement for the project rather than assuming every installer uses the same on-site setup.",
-      "Removing old gutters and repairing fascia",
-      "Old gutters may need removal before the fascia and roof edge can be fully assessed. Deteriorated supporting material needs attention before new gutters are attached. Identify any repairs and the way additional findings will be priced and approved.",
-      "Gutter supports, slope and connections",
-      "The gutter needs suitable supports and the intended fall toward its outlets. Corners, ends, outlets and downspouts need compatible connections. The installation should account for the selected product and the construction it attaches to.",
-      "Downspout discharge and installation checks",
-      "Confirm where each downspout ends and which extensions or connections are included. The completed system should be checked against the agreed layout, with cleanup and product information provided as part of the agreed materials and work.",
-      "Adding compatible gutter guards",
-      "Gutter guards serve a different function from seamless fabrication. A guard may help manage debris according to its design, while continuous runs reduce intermediate joints. Neither replaces the need for sound supports, suitable outlets and ongoing care. Review the exact accessory and its compatibility before adding it to the proposal.",
-      "Seamless gutters questions: materials, installation and estimates",
-      "Can one seamless run be repaired?",
-      "The option depends on the damage, material and connection. In some situations a section or complete run may need replacement. The assessment should explain the suitable approach and appearance differences.",
-      "Will seamless gutters fix overflow?",
-      "Only if the cause is addressed. Blockage, outlet placement, downspouts and discharge can affect overflow even when the gutter run itself is sound.",
-      "What maintenance remains?",
-      "Follow the selected system's care guidance, including attention to debris, connections, supports and outlets. Have persistent leaks or overflow assessed rather than assuming they are normal.",
-      "Plan a seamless gutter installation in Columbus",
-      "Tell Roof King where the current gutters fail and which roof edges need replacement. Visit gutter services to review the broader drainage and preparation questions.",
-      "How seamless gutters reduce joints along your roofline",
-      "Plan a seamless gutter installation in Columbus",
-      "Seamless gutters questions: materials, installation and estimates",
-      "Choosing seamless gutters, downspouts and guards",
-      "How seamless gutters are measured and installed",
-      "What to specify in a seamless gutter estimate",
-      "Confirm the continuous run lengths, gutter profile and finish, corners, outlets, supports and downspouts. The estimate should identify removal and fascia preparation, how the gutters will be fabricated, where downspouts discharge and whether guards are included."
+      "A gutter can look fine from the driveway and still send rainwater behind the fascia or over the front edge. Sometimes the problem is a failing joint. Other times the gutter is too small for the roof area, the outlet is restricted or the downspout empties in the wrong place.",
+      "Roof King & Restoration installs seamless gutters for Columbus-area homeowners. We look at the roofline, the supporting fascia, the gutter layout and the path water takes after it reaches the downspout. A continuous run can reduce the number of joints, but it still needs the right size, supports and connections.",
+      "What Makes a Gutter Seamless?",
+      "Traditional sectional gutters are assembled from shorter pieces. Seamless gutters are formed in longer lengths to fit the straight runs of a home's roofline, reducing the intermediate joints where sections would otherwise connect.",
+      "Corners, end caps and outlets still have connections. Those areas need proper installation and occasional inspection. A seamless system can reduce one common source of leakage, but it won't solve an undersized outlet, a blocked downspout or damaged fascia by itself.",
+      "When Seamless Gutters Make Sense",
+      "Seamless gutters are worth considering when older sectional gutters repeatedly leak at joints, pull away from the house or need widespread replacement. They can also be part of a planned exterior update, especially if the roof edge and downspout layout need attention.",
+      "A single damaged outlet or loose hanger doesn't always justify replacing every gutter. We review the condition of the existing runs and explain what can reasonably be repaired versus what should be replaced. The written estimate should identify exactly which elevations and sections are included.",
+      "Choosing the Right Gutter Size and Profile",
+      "Gutter size should be based on the roof areas draining into each run, the way water concentrates at valleys, the outlet arrangement and the downspout capacity. A larger gutter isn't a complete solution when the outlet is blocked or the discharge route is inadequate.",
+      "Material, profile, finish and color also affect the proposal. We confirm the material, profile and finish options available for your house before including them in the proposal. We discuss how the proposed gutters will look against the fascia and how they connect to the existing roof edge.",
+      "Downspouts and Drainage Away From the House",
+      "A gutter can collect rainwater correctly and still leave a puddle beside the foundation if the downspout ends in the wrong place. We review where the water enters the system, where it exits and whether the proposed discharge point is practical for the property.",
+      "Downspout placement, extensions and connections should be shown in the estimate. Underground drainage or grading work may require a separate specialist; the proposal should state what Roof King is including and what is outside the project.",
+      "Pairing Seamless Gutters With Gutter Guards",
+      "Yes, some gutter guards can be paired with seamless gutter systems, depending on the gutter profile and the guard product. Guards are intended to manage certain debris; seamless construction reduces joints along straight runs. They solve different problems.",
+      "Guards do not eliminate all cleaning or inspection. Roof King has dedicated gutter guard information and manufacturer links. Review the actual product compatibility and maintenance requirements before adding guards to the project.",
+      "Explore gutter guard options and review the selected product with the gutter layout.",
+      "How We Plan and Install Seamless Gutters",
+      "Measuring the Runs and Planning Connections",
+      "The gutter layout should show straight lengths, corners, end caps, outlets and downspouts. Seamless gutter runs are typically formed from metal coil to the required profile and length. The fabrication arrangement for your specific project should be confirmed in the proposal.",
+      "Inspecting the Roof Edge and Preparing the Fascia",
+      "We start with the affected rooflines, the condition of the fascia, existing outlet locations and visible signs of overflow. If old gutters conceal deteriorated wood, the estimate should explain how that condition will be documented and approved if found during removal.",
+      "Installing Supports and Connecting Downspouts",
+      "The gutters need appropriate support and fall toward the outlets. Connections at corners and ends should be detailed for the selected system. Downspouts need a planned termination point rather than an afterthought.",
+      "Reviewing the Completed Installation",
+      "Before the job is closed, the finished installation should be checked against the agreed layout. Review cleanup, care instructions and the applicable written workmanship and product documents.",
+      "What a Seamless Gutter Estimate Should Include",
+      "Which gutter runs and elevations are included, and whether existing gutters will be removed.",
+      "The material, profile, size, color and finish being proposed.",
+      "Corners, end caps, outlets, supports and downspout locations.",
+      "Any fascia or roof-edge repairs, including how concealed damage is handled.",
+      "Where the downspouts will discharge and what drainage work is excluded.",
+      "Whether gutter guards, extensions and accessories are included.",
+      "Cleanup, product information and applicable written warranty terms.",
+      "An itemized estimate makes it easier to compare proposals. Two bids for 'seamless gutters' may cover different amounts of fascia preparation, downspouts or discharge work.",
+      "Coordinating Gutters With Roof and Siding Work",
+      "Gutters are fastened to the edge of a building where roofing, fascia, soffit and siding meet. If the support is deteriorated, attaching new gutters over it can leave a weak connection. Water behind a gutter can also be confused with a roof leak.",
+      "Roof King provides roofing and siding services as well as gutters. If related repairs are needed, we can discuss how the work should be sequenced and which repairs belong in each part of the project. For broader gutter replacement questions, see our main gutter services page.",
+      "For broader installation and replacement questions, review our gutter services.",
+      "For an adjoining roof-edge leak, explore roof repair services.",
+      "For damaged cladding and trim, review siding services.",
+      "Are seamless gutters completely leak-proof?",
+      "No. They reduce joints along straight runs, but corners, end caps and outlets still need connections. Good installation and routine maintenance remain important.",
+      "Will seamless gutters stop overflowing?",
+      "Only if the cause is addressed. The gutter size, roof runoff, outlets, downspouts and discharge route all affect overflow.",
+      "Can a damaged seamless gutter be repaired?",
+      "Sometimes. The location and extent of damage, material and connections determine whether a localized repair or replacement of a run makes more sense.",
+      "Are seamless gutters available in different colors?",
+      "Color and finish options depend on the material and profile available for the project. Ask to see the actual choices included in the estimate.",
+      "Do seamless gutters need cleaning?",
+      "Yes. Leaves and debris can still collect in the gutter or at outlets. Follow the care instructions for the selected system and inspect areas that overflow.",
+      "Can I add gutter guards at the same time?",
+      "Often, yes, provided the guard is compatible with the gutter and roof edge. Review the selected guard's installation and maintenance requirements.",
+      "Does Roof King offer financing for gutter installation?",
+      "Roof King provides financing information for eligible projects. Availability and terms depend on lender approval and the current offer. Ask for the written details.",
+      "If your current gutters leak at joints, sag along the roofline or overflow during heavy rain, tell Roof King where the problem occurs and which parts of the house are affected. We'll discuss the next step toward an inspection and a written proposal.",
+      "Call (614) 379-8893 or book an inspection. You can also review our gutter installation and replacement services to compare options.",
+      "Compare our gutter installation and replacement services if you are weighing a wider exterior update.",
+      "Read why gutters matter for your Columbus home for more about directing roof runoff away from the building."
     ],
     "budgetSectionId": "review-01-gutters-seamless-estimate"
   },
@@ -23359,7 +23669,7 @@
       "After you report the claim, the insurer sends an adjuster, either its own staff or an independent adjuster representing the insurer, to inspect the damage and write the insurer's estimate. Preparing for that visit is the most useful hour you'll spend on the claim.",
       "If we've inspected the roof, you can give the adjuster our photos and written estimate. They're your documents to share.",
       "You may share Roof King’s written findings and repair estimate. Contractor attendance at the adjuster visit is not assumed. Coverage and payment questions stay between you and the insurer.",
-      "The same checklist warns that dishonest contractors may damage a roof during an inspection or suggest inflating storm damage. Report either to ODI's Fraud & Enforcement Division at 800-686-1527.",
+      "The same checklist warns that dishonest contractors may damage a roof during an inspection or suggest inflating storm damage. Report either to ODI's Fraud & Enforcement Division through the Ohio Department of Insurance website.",
       "For an actual- cash-value settlement, Ohio's claims rule lets you ask the insurer for documentation detailing all depreciation deductions.",
       "Two numbers decide what a covered roof claim pays you: the deductible, and whether the roof is valued at replacement cost or actual cash value. Your declarations page shows both.",
       "Be cautious with any offer to cover or waive your insurance deductible. The reason: the insurer pays from the price it's told. In Ohio, knowingly presenting a false or misleading statement to an insurer to defraud it is insurance fraud. If paying the deductible is the problem, see financing below.",
@@ -23397,7 +23707,7 @@
       "Actual cash value is the replacement cost minus depreciation; Ohio's rule lets you ask for documentation of every depreciation deduction. Replacement cost pays without subtracting depreciation, less your deductible, though insurers often hold part back until the work is finished.",
       "Under Ohio's claims rule, 15 days to acknowledge it, and 21 days from a properly executed proof of loss to accept or deny it. If it needs longer, it must tell you why and update you in writing at least every 45 days.",
       "Compare them line by line. If items are missing, send the insurer our photos and estimate and ask, in writing, for a re-inspection or revised estimate. We explain our findings; the amount is settled between you and your insurer.",
-      "Read the policy provision the denial cites; Ohio requires the insurer to name it. Ask ODI's consumer services team (800-686-1526) about your options, or consider a licensed public adjuster or attorney. You can still repair the damage, with financing if needed.",
+      "Read the policy provision the denial cites; Ohio requires the insurer to name it. Ask ODI's consumer services team through its official website about your options, or consider a licensed public adjuster or attorney. You can still repair the damage, with financing if needed.",
       "Check before you sign. ODI recommends verifying registration with the Ohio Secretary of State, getting more than one estimate and watching any inspection. Columbus residents can also look up licensed contractors on the City's Citizen Access Portal."
     ],
     "budgetSectionId": "service-copy-77-5"
@@ -23649,7 +23959,7 @@
       "Choose what you’re dealing with. Each tab covers what wind does to that part of the roof, what we check and what a proper repair involves.",
       "Severe straight-line wind happens here. On August 11, 2026, the National Weather Service measured an 82 mph gust at John Glenn Columbus International Airport and 70 mph at the Ohio State University Airport, and it attributed widespread Franklin County damage to straight-line winds of 60–80 mph . After a storm like that, the order matters: stay safe, limit water getting in, record the damage, then have the roof inspected.",
       "NWS Franklin County Storm Survey — August 11, 2026",
-      "Before anything else Call 911 for downed power lines, a structural collapse or fire. If you smell gas, leave the house and call Columbia Gas at 1- 800-282-7820 from outside. Stay out of rooms or buildings with visible structural damage until a professional has checked them. Look and photograph from the ground or from inside. Don't climb up or pull at loose shingles, flashing or limbs.",
+      "Before anything else Contact emergency services for downed power lines, a structural collapse or fire. If you smell gas, leave the house and contact your gas utility from outside. Stay out of rooms or buildings with visible structural damage until a professional has checked them. Look and photograph from the ground or from inside. Don't climb up or pull at loose shingles, flashing or limbs.",
       "What temporary protection does and doesn't do Inside: move belongings, catch drips and start drying wet materials. The City of Columbus advises starting within 24 to 48 hours to limit mold. On the roof: a temporary cover over an opening is installed where it's appropriate and available. Call (614) 379-8893 and describe the problem so availability can be discussed. Keep receipts for emergency supplies, temporary repairs and professional services. Temporary protection doesn't seal broken shingle bonds or reattach flashing. The estimate should say what it covers and what permanent work remains.",
       "What to record Photos and video of every damaged area inside and out, with the date and time Shingles, ridge pieces, flashing or gutter sections in the yard. Photograph them where they landed and keep them. Ceiling stains, drips and attic wetness Don't throw away damaged items until your insurance carrier says it's acceptable. Ourstorm documentation page explains how inspection photos, the estimate and completed-work records fit together.",
       "Asphalt shingles resist wind largely through the factory sealant that bonds each course to the one below. Once that bond breaks, wind gets under the shingle and works on the nails. Many wind-damaged roofs have no missing shingles at all.",
@@ -23663,7 +23973,7 @@
       "What we check Step flashing along walls and dormers, chimney flashing and counterflashing, skylight and vent flanges Bent, lifted or face-caulked pieces are reset or replaced, not coated over The repair names the failed part rather than treating everything as a shingle replacement",
       "Gutters belong in the same inspection Gutters pulled from the fascia can let water behind them onto the fascia board and the roof edge. We note gutter and fascia damage separately on the estimate, not folded into the roof patch. Gutter repair and replacement are covered on ourgutter services page .",
       "A tree or a large limb on the roof is a structural problem first and a roofing problem second. The roof can only be repaired properly once the tree is off and the framing and decking below have been checked.",
-      "Safety first If lines are down or the structure is damaged, call 911 and stay clear. Photograph the tree on the roof from the ground and the damage from inside before anything is moved. A tree blocking the street can be reported to Columbus 311 (614-645-3111). Damage entirely on private property is the owner's and their insurer's responsibility.",
+      "Safety first If lines are down or the structure is damaged, contact emergency services and stay clear. Photograph the tree on the roof from the ground and the damage from inside before anything is moved. A tree blocking the street can be reported to the City of Columbus. Damage entirely on private property is the owner's and their insurer's responsibility.",
       "What the inspection covers Broken or cracked decking and any damaged rafters or trusses under the impact area Shingles, ridge, flashing and gutters along the path the tree took Siding, fascia and soffit damage where the tree hit the wall line Damaged wood is noted for repair before new roofing goes on",
       "Shingle packages list wind classifications from two different ASTM tests, plus a separate manufacturer wind warranty. They answer three different questions, and none of them means a roof can't be damaged by wind.",
       "What the class means IBHS describes D3161 as measuring a shingle's ability to withstand fan-induced wind speeds. Class F is the highest D3161 class. GAF lists it as 110 mph. The speed describes air flowing over the shingles in the lab, not the wind load on your house.",
@@ -23682,7 +23992,7 @@
       "What Ohio law says Ohio defines a public insurance adjuster as anyone who, for compensation, acts on behalf of an insured in settling a property loss claim. That work requires a certificate of authority from the state. We stick to the roof. If you want someone to represent you on the claim, that's a licensed public adjuster or an attorney.",
       "Ohio Public Adjuster Licensing Requirements",
       "The Ohio matching rule When a replacement-cost policy pays to replace an item and the replacement doesn't match in quality, color or size, Ohio's claims rule requires the insurer to replace as much of the item as needed for a reasonably comparable appearance. How that applies to your roof is the insurer's decision under your policy. We document the product on your roof and what's currently available.",
-      "The City's checklist Confirm the contractor is registered with the Ohio Secretary of State. Get more than one estimate and a written contract before work starts. Don't pay in full upfront. Report suspected contractor fraud to the Ohio Attorney General at 1-800-828-0348. Residential roofing in Columbus falls under the City's Home Improvement limited contractor license, which you can look up on the Citizen Access Portal.",
+      "The City's checklist Confirm the contractor is registered with the Ohio Secretary of State. Get more than one estimate and a written contract before work starts. Don't pay in full upfront. Report suspected contractor fraud to the Ohio Attorney General through the agency's official website. Residential roofing in Columbus falls under the City's Home Improvement limited contractor license, which you can look up on the Citizen Access Portal.",
       "Most wind damage is repairable. Wind alone doesn't make a roof a replacement case, and you should expect a clear reason before anyone recommends one.",
       "Signs a repair will hold Missing or creased shingles on a few courses, a run of ridge caps or one flashing detail Shingles next to the damage still lie flat, seal and bend without cracking A compatible product is available, and you've seen how the color will compare",
       "Signs a repair won't last Seal strips broken across whole slopes, not just a few courses Old shingles crack when lifted to weave in new ones Repeated blow-offs, or decking damage across a large area Ourroof replacement page covers materials, decking and what a full estimate includes.",
@@ -23703,7 +24013,7 @@
       "Often closely, but rarely perfectly. Weathering, color batches and discontinued lines all affect the match. We identify your shingle, show you the closest current product and tell you how it will look before work starts. For insured losses on a replacement-cost policy, Ohio's claims rule requires the insurer to replace enough for a reasonably comparable appearance. How that applies to your roof is the insurer's call.",
       "That depends on your policy and is decided by your insurer, not by Roof King. Contact your carrier promptly, because policies have reporting deadlines. We can inspect, photograph and document the damage and give you a written estimate for the work. Thestorm documentation page explains what those records contain.",
       "No. In Ohio, acting for a homeowner in settling a property claim for compensation is public insurance adjusting, which requires a state certificate of authority. We explain our construction findings and the proposed work. You may share our written construction findings with your insurer; coverage and payment remain between you and the insurer.",
-      "Get everyone clear. Call 911 if power lines are down or the structure looks unsafe, and stay out of damaged rooms. Photograph the tree and the damage from the ground and from inside before anything is moved, and contact your insurer. Once the tree is off, the roof inspection should check the decking and framing under the impact, not just the shingles.",
+      "Get everyone clear. Contact emergency services if power lines are down or the structure looks unsafe, and stay out of damaged rooms. Photograph the tree and the damage from the ground and from inside before anything is moved, and contact your insurer. Once the tree is off, the roof inspection should check the decking and framing under the impact, not just the shingles.",
       "Inside City of Columbus limits, replacing a roof requires a building permit, with no plan review. Properties in special zoning or historic districts may need extra approvals. Ask whether your repair needs a permit and who will pull it. Suburbs outside the city set their own rules.",
       "ASTM D3161 (up to Class F) and ASTM D7158 (up to Class H) are two different lab tests of new shingles. A limited wind warranty is the manufacturer's coverage, and higher speeds often depend on qualifying accessories and installation. For example, GAF's WindProven coverage requires a qualifying system. Neither makes a roof wind-proof. The Wind ratings tab above compares four lines we show on our site."
     ],
@@ -25207,5 +25517,631 @@
       "Plan your Zanesville roofing, siding or storm repair project",
       "Share the address of your Zanesville property and the roofing, siding, storm damage or other exterior work you need. Tell us about active leaks, affected surfaces and any related projects so Roof King can discuss the appropriate inspection and written estimate."
     ]
+  },
+  "/storm-damage/residential/": {
+    "sourceId": 85,
+    "pdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sourceSha256": "1e10c1c80a988579c0388794ed38fe81cb8464737efc74ae9ca1476e53acdf1c",
+    "theme": "roof",
+    "lead": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "A storm can leave a roof looking normal from the driveway while shingles, flashing or roof edges have been damaged. Other times the problem is obvious: a missing section of shingles, a branch on the roof or water dripping through a ceiling."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Roof King & Restoration helps Columbus homeowners assess residential roof damage caused by wind, hail, fallen debris and heavy rain. We inspect the affected areas, explain what we find and discuss whether a targeted repair or a larger roofing project is appropriate."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "image": {
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+        },
+        "caption": "Supplied photo: A finished shingle roof from above.",
+        "variant": "comparison",
+        "tone": "light",
+        "eyebrow": "Residential Roofs · Columbus, Ohio",
+        "id": "residential-storm-damage-signs",
+        "title": "Wind, Hail and Water Entry Need Different Checks",
+        "cards": [
+          {
+            "title": "Signs of Wind Damage on a Residential Roof",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Wind commonly affects roof edges, ridges and areas around chimneys or other projections. Some damage is visible from the yard; other conditions require a trained inspection."
+                  }
+                ]
+              },
+              {
+                "tag": "ul",
+                "children": [
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Missing, displaced or creased shingles."
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Lifted shingles or broken sealant bonds that may be difficult to see from the ground."
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Loose ridge caps, drip edge or flashing around chimneys, skylights and vents."
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Shingle pieces, nails or roofing debris found in the yard."
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "children": [
+                      {
+                        "text": "Gutters or siding pulled loose by wind or falling limbs."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A shingle that has lifted and settled back into place may still have a compromised seal. That is one reason a roof can leak during the next storm even when no shingles appear to be missing."
+                  }
+                ]
+              }
+            ],
+            "image": {
+              "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp",
+              "alt": "Gloved hand lifting a shingle tab to show the fastening area beneath"
+            },
+            "caption": "Inspection reference: Fastener inspection beneath a shingle."
+          },
+          {
+            "title": "What Hail Damage Looks Like",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Hail can affect shingles, roof vents, soft-metal flashing and gutters. Dents in metal are worth documenting, but they do not by themselves prove that every nearby shingle is damaged. Hail size, roof age, material and the angle of impact all matter."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "On asphalt shingles, an inspector looks for impact-related surface changes and distinguishes them from normal wear, blistering, foot traffic or older damage. A proper assessment explains the location and significance of the findings rather than relying on a single close-up photo."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If you see dented gutters, granules near downspouts or marks on roof accessories after a hailstorm, report them when requesting the inspection. Avoid rubbing, lifting or testing shingles yourself."
+                  }
+                ]
+              }
+            ],
+            "image": {
+              "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp",
+              "alt": "Fingertip beside a yellow chalk circle on a shingle surface"
+            },
+            "caption": "Inspection reference: Inspecting a marked shingle surface."
+          },
+          {
+            "title": "Roof Leaks After Heavy Rain or Fallen Debris",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Water can enter at a damaged shingle, flashing connection, roof valley, pipe boot or chimney intersection. The ceiling stain may be several feet from the actual opening because water can travel along framing before becoming visible."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Fallen limbs may puncture roofing or damage the decking underneath. If a tree is resting on the house, leave removal and structural evaluation to qualified professionals. The roof repair estimate should account for any damage discovered after the obstruction is safely removed."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A roof leak also can reveal an older defect rather than new storm damage. We distinguish observed storm-related conditions from pre-existing wear as carefully as the available evidence allows."
+                  }
+                ]
+              }
+            ],
+            "image": {
+              "src": "/media/wordpress/34b2ca715782-db82d0e9-4b1c-4070-958a-e29510998021.jpg",
+              "alt": "Close view of roof underlayment, fasteners and a protective membrane"
+            },
+            "caption": "Existing site photo: Details beneath the surface."
+          }
+        ],
+        "body": []
+      },
+      {
+        "image": {
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+        },
+        "caption": "Supplied photo: A finished shingle roof from above.",
+        "variant": "comparison",
+        "tone": "cream",
+        "eyebrow": "Residential Roofs · Columbus, Ohio",
+        "id": "residential-storm-inspection",
+        "title": "Residential Storm Damage Inspection: What Roof King Checks",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The inspection follows the affected roof section and the adjoining connections that could explain water appearing inside."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Depending on safe access and the home's design, the assessment may include:"
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Shingle condition across roof slopes, hips, ridges and edges."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Flashing around chimneys, skylights, walls, pipe boots and vents."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Roof valleys, drip edge and vulnerable transitions."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Gutters, downspouts, fascia and adjacent siding damage."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Attic or interior signs of water entry, when accessible and appropriate."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Photos and a written explanation of repair options and known limitations."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Roof King provides free inspections and estimates. If concealed damage is suspected, the proposed work should explain what can be confirmed now and what may only become visible after roofing materials are removed."
+              }
+            ]
+          }
+        ],
+        "cards": []
+      },
+      {
+        "image": {
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+        },
+        "caption": "Supplied photo: A finished shingle roof from above.",
+        "variant": "comparison",
+        "tone": "light",
+        "eyebrow": "Residential Roofs · Columbus, Ohio",
+        "id": "residential-storm-repair-or-replace",
+        "title": "Storm Damage Roof Repair or Replacement?",
+        "body": [],
+        "cards": [
+          {
+            "title": "When a Repair May Be Enough",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "If damage is limited to a few shingles or a flashing detail and the surrounding roof remains serviceable, a repair may be the sensible choice. The replacement shingles and repair method still need to be compatible with the existing roof."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "When Replacement Deserves Consideration",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Replacement may be appropriate when damage is spread across multiple roof slopes, the existing shingles are brittle or deteriorated, or water has affected a larger portion of the roof assembly. The decision should be based on documented conditions, not simply the fact that a storm occurred."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For roof problems outside a storm, see our "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/repair/",
+                    "children": [
+                      {
+                        "text": "residential roof repair"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " service."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "For a complete reroofing project, review "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/roofing/replacement/",
+                    "children": [
+                      {
+                        "text": "residential roof replacement"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " options."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "image": {
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+        },
+        "caption": "Supplied photo: A finished shingle roof from above.",
+        "variant": "comparison",
+        "tone": "cream",
+        "eyebrow": "Residential Roofs · Columbus, Ohio",
+        "id": "residential-storm-exterior",
+        "title": "Siding, Gutters and Roof Edges After a Storm",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "High wind and hail can also damage gutters, downspouts, siding and roof-edge components. Water may spill behind a loose gutter or enter where flashing meets siding, making a roofing leak seem more complicated than it first appears."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Roof King offers roofing, siding and gutter services. If more than one exterior system is affected, the inspection should identify each issue and distinguish the roof work from separate gutter or siding repairs. That helps prevent important items from being left out of the written proposal."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Discuss damaged downspouts and roof-edge drainage through our "
+              },
+              {
+                "tag": "a",
+                "href": "/gutters/",
+                "children": [
+                  {
+                    "text": "gutter services"
+                  }
+                ]
+              },
+              {
+                "text": " team."
+              }
+            ]
+          }
+        ],
+        "cards": []
+      },
+      {
+        "image": {
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+        },
+        "caption": "Supplied photo: A finished shingle roof from above.",
+        "variant": "comparison",
+        "tone": "forest",
+        "eyebrow": "Residential Roofs · Columbus, Ohio",
+        "id": "residential-storm-estimate",
+        "title": "Understand the Storm Repair Work Before You Approve It",
+        "body": [
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "The written proposal should connect the inspection findings to the work recommended for your house. Identify the affected roof areas, materials and adjoining repairs, with temporary protection described separately."
+              }
+            ]
+          },
+          {
+            "tag": "ul",
+            "children": [
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Inspection photographs and observed roof conditions."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Proposed shingle or flashing repairs and compatible materials."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Decking or other concealed repairs that may need approval after removal."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Separate siding, gutter or downspout work."
+                  }
+                ]
+              },
+              {
+                "tag": "li",
+                "children": [
+                  {
+                    "text": "Preparation, cleanup and applicable written coverage."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "What About a Homeowners Insurance Claim?",
+            "body": [
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "A homeowner's policy may cover sudden wind or hail damage, but coverage depends on the policy, deductible, exclusions, roof condition and the insurer's decision. A roof inspection helps document physical conditions; it does not determine what an insurance company must pay."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Keep photographs, the date of loss, inspection findings, estimates and receipts for any temporary protection. If the insurer sends an adjuster, make sure you understand what damage was documented and which repairs are included in the insurer's estimate."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Roof King can provide roofing observations and estimates and help homeowners understand the construction work being proposed. We do not guarantee claim approval, promise to waive deductibles or act as a public adjuster."
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "children": [
+                  {
+                    "text": "Read our "
+                  },
+                  {
+                    "tag": "a",
+                    "href": "/storm-damage/insurance-claims/",
+                    "children": [
+                      {
+                        "text": "storm damage insurance claims guide"
+                      }
+                    ]
+                  },
+                  {
+                    "text": " for more detail about documentation and the separate roles of the roofer and insurer."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "budgetSectionId": "residential-storm-estimate",
+    "closingBody": [
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "If a storm has passed through your Columbus neighborhood and you are concerned about missing shingles, hail marks or a new leak, contact Roof King & Restoration. Tell us when the storm occurred, what you can see from the ground and whether water is entering the house."
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "children": [
+          {
+            "text": "Call (614) 379-8893 or request your free roof inspection online. We'll discuss the next step and help you understand the condition of your roof before you decide on repairs."
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Storm damage restoration",
+        "href": "/storm-damage/"
+      },
+      {
+        "label": "Residential roof repair",
+        "href": "/roofing/repair/"
+      },
+      {
+        "label": "Residential roof replacement",
+        "href": "/roofing/replacement/"
+      },
+      {
+        "label": "Storm damage insurance claims guide",
+        "href": "/storm-damage/insurance-claims/"
+      },
+      {
+        "label": "Gutter services",
+        "href": "/gutters/"
+      }
+    ],
+    "expectedBlocks": [
+      "A storm can leave a roof looking normal from the driveway while shingles, flashing or roof edges have been damaged. Other times the problem is obvious: a missing section of shingles, a branch on the roof or water dripping through a ceiling.",
+      "Roof King & Restoration helps Columbus homeowners assess residential roof damage caused by wind, hail, fallen debris and heavy rain. We inspect the affected areas, explain what we find and discuss whether a targeted repair or a larger roofing project is appropriate.",
+      "Wet shingles and storm debris make roof access dangerous. If a tree has struck the house, a ceiling is sagging or water is near wiring, keep people away from the affected area. Contact emergency services or the utility company when conditions require it. Do not climb onto the roof to take photographs.",
+      "Take pictures of the house from the ground, including the roof edges, gutters, siding and fallen debris. Photograph interior stains or active leaks as well. Record the storm date and save the original photos. These details help explain what changed and where an inspector should look.",
+      "Move belongings away from active leaks when it is safe to do so. If temporary protection is needed, ask a qualified contractor what can be done safely. Keep receipts and photographs of any temporary work. Temporary protection is not a permanent roof repair.",
+      "One missing shingle does not automatically mean the entire roof needs to be replaced. The right recommendation depends on the extent of the damage, the roof's age and condition, and whether water reached the materials underneath.",
+      "Wind commonly affects roof edges, ridges and areas around chimneys or other projections. Some damage is visible from the yard; other conditions require a trained inspection.",
+      "Missing, displaced or creased shingles.",
+      "Lifted shingles or broken sealant bonds that may be difficult to see from the ground.",
+      "Loose ridge caps, drip edge or flashing around chimneys, skylights and vents.",
+      "Shingle pieces, nails or roofing debris found in the yard.",
+      "Gutters or siding pulled loose by wind or falling limbs.",
+      "A shingle that has lifted and settled back into place may still have a compromised seal. That is one reason a roof can leak during the next storm even when no shingles appear to be missing.",
+      "Hail can affect shingles, roof vents, soft-metal flashing and gutters. Dents in metal are worth documenting, but they do not by themselves prove that every nearby shingle is damaged. Hail size, roof age, material and the angle of impact all matter.",
+      "On asphalt shingles, an inspector looks for impact-related surface changes and distinguishes them from normal wear, blistering, foot traffic or older damage. A proper assessment explains the location and significance of the findings rather than relying on a single close-up photo.",
+      "If you see dented gutters, granules near downspouts or marks on roof accessories after a hailstorm, report them when requesting the inspection. Avoid rubbing, lifting or testing shingles yourself.",
+      "Water can enter at a damaged shingle, flashing connection, roof valley, pipe boot or chimney intersection. The ceiling stain may be several feet from the actual opening because water can travel along framing before becoming visible.",
+      "Fallen limbs may puncture roofing or damage the decking underneath. If a tree is resting on the house, leave removal and structural evaluation to qualified professionals. The roof repair estimate should account for any damage discovered after the obstruction is safely removed.",
+      "A roof leak also can reveal an older defect rather than new storm damage. We distinguish observed storm-related conditions from pre-existing wear as carefully as the available evidence allows.",
+      "The inspection follows the affected roof section and the adjoining connections that could explain water appearing inside.",
+      "Depending on safe access and the home's design, the assessment may include:",
+      "Shingle condition across roof slopes, hips, ridges and edges.",
+      "Flashing around chimneys, skylights, walls, pipe boots and vents.",
+      "Roof valleys, drip edge and vulnerable transitions.",
+      "Gutters, downspouts, fascia and adjacent siding damage.",
+      "Attic or interior signs of water entry, when accessible and appropriate.",
+      "Photos and a written explanation of repair options and known limitations.",
+      "Roof King provides free inspections and estimates. If concealed damage is suspected, the proposed work should explain what can be confirmed now and what may only become visible after roofing materials are removed.",
+      "If damage is limited to a few shingles or a flashing detail and the surrounding roof remains serviceable, a repair may be the sensible choice. The replacement shingles and repair method still need to be compatible with the existing roof.",
+      "Replacement may be appropriate when damage is spread across multiple roof slopes, the existing shingles are brittle or deteriorated, or water has affected a larger portion of the roof assembly. The decision should be based on documented conditions, not simply the fact that a storm occurred.",
+      "For roof problems outside a storm, see our residential roof repair service.",
+      "For a complete reroofing project, review residential roof replacement options.",
+      "High wind and hail can also damage gutters, downspouts, siding and roof-edge components. Water may spill behind a loose gutter or enter where flashing meets siding, making a roofing leak seem more complicated than it first appears.",
+      "Roof King offers roofing, siding and gutter services. If more than one exterior system is affected, the inspection should identify each issue and distinguish the roof work from separate gutter or siding repairs. That helps prevent important items from being left out of the written proposal.",
+      "Discuss damaged downspouts and roof-edge drainage through our gutter services team.",
+      "The written proposal should connect the inspection findings to the work recommended for your house. Identify the affected roof areas, materials and adjoining repairs, with temporary protection described separately.",
+      "Inspection photographs and observed roof conditions.",
+      "Proposed shingle or flashing repairs and compatible materials.",
+      "Decking or other concealed repairs that may need approval after removal.",
+      "Separate siding, gutter or downspout work.",
+      "Preparation, cleanup and applicable written coverage.",
+      "A homeowner's policy may cover sudden wind or hail damage, but coverage depends on the policy, deductible, exclusions, roof condition and the insurer's decision. A roof inspection helps document physical conditions; it does not determine what an insurance company must pay.",
+      "Keep photographs, the date of loss, inspection findings, estimates and receipts for any temporary protection. If the insurer sends an adjuster, make sure you understand what damage was documented and which repairs are included in the insurer's estimate.",
+      "Roof King can provide roofing observations and estimates and help homeowners understand the construction work being proposed. We do not guarantee claim approval, promise to waive deductibles or act as a public adjuster.",
+      "Read our storm damage insurance claims guide for more detail about documentation and the separate roles of the roofer and insurer.",
+      "Yes. Wind can lift shingles and weaken their sealant bonds without leaving a visible gap from the ground. An inspection can help determine whether the affected shingles remain serviceable.",
+      "No. Dents are evidence that hail struck a surface, but the roof covering needs its own assessment. Metal marks alone do not establish that every shingle has functional damage.",
+      "Arrange an inspection reasonably promptly if you see missing shingles, loose flashing, fallen debris or interior water staining. If there is an immediate safety hazard, address that first.",
+      "It may, depending on your policy and the cause and extent of the damage. The insurance company determines coverage. Roof King can document roofing conditions and provide a repair or replacement estimate.",
+      "Roof King offers roofing, siding and gutter services. The assessment can identify related exterior damage so the appropriate work is described and priced separately.",
+      "Not necessarily. A localized flashing or shingle problem may be repairable. Repeated leaks, widespread storm damage or deteriorated roofing materials can change the recommendation.",
+      "No. A roofing inspection addresses the condition of the roof and possible construction work. Your insurer evaluates coverage under the policy.",
+      "If a storm has passed through your Columbus neighborhood and you are concerned about missing shingles, hail marks or a new leak, contact Roof King & Restoration. Tell us when the storm occurred, what you can see from the ground and whether water is entering the house.",
+      "Call (614) 379-8893 or request your free roof inspection online. We'll discuss the next step and help you understand the condition of your roof before you decide on repairs."
+    ],
+    "bodyWords": 1387
   }
 }
