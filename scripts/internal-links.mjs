@@ -85,7 +85,7 @@ function insert($,record,pathname){
  if(at)row.append({type:'text',data:text.slice(0,at)});row.append(anchor);if(at+record.text_to_wrap.length<text.length)row.append({type:'text',data:text.slice(at+record.text_to_wrap.length)});
  if(method==='append')target.append(row);else{let cursor=target;while(cursor.next().is('.rk-contextual-links'))cursor=cursor.next();cursor.after(row);}return 'applied';
 }
-export function applyInternalLinks(html,{pathname,strict=false}={}){
+export function applyInternalLinks(html,{pathname="",strict=false}={}){
  const records=plan.pages[pathname];if(!records?.length)return {html,changed:false,results:[]};
  const $=load(html),results=[];let changed=false;
  for(const record of records){

@@ -4,7 +4,7 @@ import site from '../data/site.json';
 import type { ServicePageData } from '../data/section-types';
 import '../styles/service-hero.css';
 interface Props { hero: Omit<ServicePageData['hero'],'bookingLabel'> & {bookingLabel?:string;titleEmphasis?:string;note?:string}; variant?:'home'|'service'|'resource'; generatedImage?:boolean; }
-const { hero, variant='service', generatedImage=false } = Astro.props;
+const { hero, variant='service' } = Astro.props;
 const external = hero.bookingUrl.startsWith('https://');
 const emphasis = hero.titleEmphasis && hero.title.endsWith(hero.titleEmphasis) ? hero.titleEmphasis : '';
 ---
