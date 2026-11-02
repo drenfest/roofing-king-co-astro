@@ -1,15 +1,16 @@
 ---
-title: "The Cost of a Roof Replacement in Cleveland, OH"
-permalink: "/cleveland-oh/roofing/cost-of-replacement/"
-description: "Explore roof replacement costs in Cleveland with Roof King & Restoration. Call today for an expert roofing service quote, including GAF and metal roof options!"
-canonicalPath: "/cleveland-oh/roofing/cost-of-replacement/"
-category: "Local service"
-source: "wordpress"
-sourcePath: "/cleveland-oh/roofing/cost-of-replacement/"
+title: Roof Replacement Costs in Cleveland, OH | Roof King
+permalink: /cleveland-oh/roofing/cost-of-replacement/
+description: What changes roof replacement costs in Cleveland, OH? Compare
+  tear-off, slope, decking, materials and written estimates with Roof King.
+canonicalPath: /cleveland-oh/roofing/cost-of-replacement/
+category: Local service
+source: wordpress
+sourcePath: /cleveland-oh/roofing/cost-of-replacement/
 wordpressId: 92
-reviewStatus: "imported-needs-review"
+reviewStatus: imported-needs-review
 notes: []
-priority: "preserve-and-improve"
+priority: preserve-and-improve
 ---
 
 <h1 class="rk-migration-title">The Cost of a Roof Replacement in Cleveland, OH</h1>
@@ -25,7 +26,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Plan your project with Roof King</h2>
                                                                 <p>Talk with our team about timing, products, and the best path for your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -266,7 +267,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

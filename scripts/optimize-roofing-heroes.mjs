@@ -24,7 +24,7 @@ for(const page of manifest.pages){
   variants.push({src:'/'+file.replace(/^public[\\/]/,'').replaceAll('\\','/'),width,bytes:stat.size});
  }
  const full=variants.at(-1);
- const image={src:full.src,alt:`Illustrative ${page.service.toLowerCase()} scene`,width:fullWidth,height:Math.round(metadata.height*fullWidth/metadata.width)};
+ const image={src:full.src,alt:`${page.service.toLowerCase()} scene`,width:fullWidth,height:Math.round(metadata.height*fullWidth/metadata.width)};
  heroes[page.route]={image,generated:true,objectPosition:page.objectPosition};
  media[image.src]={width:image.width,height:image.height,variants:variants.map(({src,width})=>({src,width}))};
  page.assets=variants;page.originalBytes=(await fs.stat(original)).size;

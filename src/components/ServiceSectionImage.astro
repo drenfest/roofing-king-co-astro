@@ -1,0 +1,20 @@
+---
+import HomeImage from './HomeImage.astro';
+import selections from '../data/service-section-images.json';
+import type {ImageData} from '../data/section-types';
+interface Props {pagePath:string;sectionId:string;}
+const {pagePath,sectionId}=Astro.props;
+const records=selections as Record<string,Record<string,{image:ImageData;caption:string;displayWidth:number;contain:boolean}>>;
+const selection=records[pagePath]?.[sectionId];
+if(!selection)throw new Error(`Choose a relevant section photograph for ${pagePath} #${sectionId}`);
+---
+<figure class="rk-section-subject" data-section-image={sectionId} style:max-width={`${selection.displayWidth}px`}>
+  <HomeImage {...selection.image} sizes="(max-width:760px) 90vw, (max-width:1000px) 220px, 390px"/>
+  {selection.caption&&<figcaption>{selection.caption}</figcaption>}
+</figure>
+<style>
+ .rk-section-subject{width:100%;margin:0;justify-self:center;min-width:0;}
+ .rk-section-subject :global(img){display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;background:#eee7dc;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,16px 100%,0 calc(100% - 16px));}
+ figcaption{margin-top:.65rem;font-size:.7rem;line-height:1.6;color:inherit;opacity:.8;}
+ @media(max-width:760px){.rk-section-subject{margin-top:.5rem;}}
+</style>

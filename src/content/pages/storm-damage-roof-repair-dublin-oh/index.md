@@ -26,7 +26,7 @@ priority: "preserve-and-improve"
                                                                 <h2>5-Year Workmanship Warranty You Can Count On</h2>
                                                                 <p>Roof King and Restoration in Columbus offers expert roofing and more, backed by a 5-Year Workmanship Warranty you can trust.</p>
                                                                 <a class="rk-button rk-button-primary" href="/offers/5-year-workmanship-warranty/">Learn More</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -230,7 +230,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

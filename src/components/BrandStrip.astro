@@ -28,7 +28,9 @@ const selected=[...new Set(brands.brandIds)].map(id=>{
   </div>
 </section>}
 <style>
-  section.rk-block-trusted-brands{padding-block:2.8rem;background:var(--rk-paper-soft,#f0ebe2);border:0;clip-path:polygon(0 18px,100% 0,100% calc(100% - 18px),0 100%);}
+  section.rk-block-trusted-brands{padding-block:2.8rem;background:var(--rk-paper-soft,#f0ebe2);color:#242321;border:0;clip-path:polygon(0 18px,100% 0,100% calc(100% - 18px),0 100%);}
+  section.rk-block-trusted-brands .rk-brands-heading .rk-brand-heading-title{color:#242321;}
+  section.rk-block-trusted-brands .rk-brands-heading>p:not(.rk-home-eyebrow){color:#625e57;}
   section.rk-block-trusted-brands::before,section.rk-block-trusted-brands::after{display:none;}
   section.rk-block-trusted-brands .rk-brands-inner{grid-template-columns:minmax(220px,.8fr) minmax(0,1.5fr);gap:2.5rem;align-items:center;}
   .rk-brands-heading .rk-brand-heading-title{font-size:clamp(1.35rem,2vw,1.75rem);line-height:1.25;margin:.5rem 0;max-width:26ch;}

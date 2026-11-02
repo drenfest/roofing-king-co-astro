@@ -24,6 +24,7 @@ This is the entry point for extending the current Astro/Svelte site. Read AGENTS
 | Routing evidence / metadata | src/content/pages/**/index.md, migration/route-manifest.json, route-redirects.json, site-structure.json |
 | Navigation | navigation.json; product authoring also updates breadcrumbs, primary product parents, imported-shell and the menu atlas |
 | Structured data / sitemap / required attributes | scripts/structured-data.mjs, sitemap.mjs and html-attributes.mjs through middleware and build integrations |
+| Approved contextual internal links | src/data/internal-link-plan.json and scripts/internal-links.mjs; applied before attributes and schema in dev and static output, with check:internal-links in CI |
 
 A folder is not necessarily a URL owner. Every content-leaf map states its permalink, canonical target and actual renderer. The content loader reads only **/index.md. Native pages often retain these bodies as migration evidence rather than visible content.
 
@@ -33,7 +34,7 @@ A folder is not necessarily a URL owner. Every content-leaf map states its perma
 - Follow the approved ivory, charcoal and orange palette, Manrope headings and Inter body/navigation/buttons. Use title-style capitalized headings, focused H2/H3 hierarchy, flat consistent actions and retained diagonal backgrounds. Do not restore green/metallic surfaces, raised effects, generic buying-advice filler or the removed numbered process block.
 - Reuse existing components first. Static content belongs in Astro; genuine state belongs in Svelte. Preserve readable SSR content, no-JavaScript links, keyboard access, mobile behavior and reduced motion. Use SiteMotion tokens and the current hydration contract; do not load every island immediately or add an animation library/router for simple transitions.
 - Every image needs an alt attribute; decorative images may use alt="". Every link needs a meaningful title attribute. The shared integration is a backstop, not a substitute for authoring them correctly.
-- All displayed contact numbers must use the approved site.json identity: (614) 379-8893 and tel:+16143798893. Do not adopt alternate numbers from PDFs, legacy pages or tracking examples. Reference agencies and utilities through their official resources rather than inserting competing phone numbers; never relabel their contact number as Roof King's. The HTML attribute check also enforces matching rendered numbers and call links.
+- All displayed contact numbers must use the approved site.json identity: (614) 490-0123 and tel:+16144900123. Do not adopt alternate numbers from PDFs, legacy pages or tracking examples. Reference agencies and utilities through their official resources rather than inserting competing phone numbers; never relabel their contact number as Roof King's. The HTML attribute check also enforces matching rendered numbers and call links.
 - Write concrete, expert service copy. Do not add generic instructions such as asking customers to interpret specifications instead of explaining the relevant product. The client rejects the phrases "scope" and "scope of work" in customer copy. Preserve source paragraphs, topic anchors and contextual links when making presentation changes. Do not rewrite unrelated topics during a photo-only task.
 - Location hubs offer the full service set without cloning a service catalog into new location+service URLs. Give location headings/copy a real local focus; prioritize roofing, siding and storm damage. Link to an existing local descendant when one exists, otherwise to its main service page. Use the scrollable service selector and relevant featured articles.
 - Maintain factual provenance. Never invent reviews, ratings, jobs, project locations, certifications, prices, stock, warranty terms, authors, dates or installation guarantees. Use primary manufacturer sources for product facts. Displayed reference colors are not a promise that every profile is available in every color.
@@ -46,6 +47,8 @@ A folder is not necessarily a URL owner. Every content-leaf map states its perma
 Before inserting new or rewritten customer copy into components, use [Copywriting](https://chatgpt.com/skills?skill_id=6ae801d1ec248191a1179083118c1b0d) to draft from the supplied brief, then use [Copy Editing](https://chatgpt.com/skills?skill_id=6ae801bab2ec8191a503fa697e1fe919) to review and improve that draft. Read the actual skill instructions and applicable references; naming the skills is not completion. Pass the brief, evidence, brand voice, locked text and factual qualifications into the editing step. Finish editing before mapping the final copy into existing typed components. For a targeted correction, use Copy Editing within that narrow scope rather than rewriting the page.
 
 Preserve the client's argument and approved facts. Keep internal source notes out of customer copy, never invent claims to satisfy a writing checklist, and document any genuinely unresolved facts separately. If a named skill cannot be accessed, disclose that limitation rather than claim its workflow ran. This content workflow does not authorize publication or change the GitHub-owned verification process.
+
+Customer-facing copy must not describe gaps in the company's website or research, such as "Roof King doesn't mention the equipment" followed by "ask the team." Keep those verification notes in the authoring record. Explain the supported service or customer decision directly, and omit an unsupported method or promise rather than publishing an audit disclaimer or inventing a fact.
 
 ## Extending without creating parallel systems
 
@@ -63,13 +66,13 @@ GitHub Actions owns the complete verification gate on every push and pull reques
 
 ## Low-overhead verification handoff
 
-Verification is machine-owned, not a model review task. Do not run the suite locally, narrate individual checks, read full logs/reports, or repeat verification in a browser by default. For an authorized push, use only the GitHub status/conclusion and run URL. Pending means pending: report it without a polling loop. On success, report the result in one sentence. On failure, retrieve only the failed step and a bounded relevant error excerpt, fix that issue, and let GitHub rerun. Full log artifacts are for deliberate debugging, not routine model input. A visual review is a separate task when requested or necessary to resolve a specific visual defect.
+Verification is machine-owned, not a model review task. Do not run the suite locally, narrate individual checks, read full logs/reports, or repeat verification in a browser by default. For an authorized release, monitor compact GitHub status/conclusion and the run URL until verification and deployment finish. Fix failed checks using bounded relevant error excerpts, push the correction and follow the replacement run. Confirm the deployed revision and public smoke check before calling the work live; a push or pending run is not completion. Keep routine monitoring out of model context except for meaningful progress, failures or the terminal result. On success, report the result in one sentence. On failure, retrieve only the failed step and a bounded relevant error excerpt, fix that issue, and let GitHub rerun. Full log artifacts are for deliberate debugging, not routine model input. A visual review is a separate task when requested or necessary to resolve a specific visual defect.
 
-Use the commit Checks tab or a single bounded status query, for example `gh run list --commit <full-commit-sha> --limit 2 --json status,conclusion,url`. Do not retrieve successful step logs, screenshots, page inventories or CI artifacts. GitHub retains the complete evidence without inserting it into the conversation. A pending CI run does not prevent handing the work back with its run link; do not claim it passed.
+Use the commit Checks tab or a single bounded status query, for example `gh run list --commit <full-commit-sha> --limit 2 --json status,conclusion,url`. Do not retrieve successful step logs, screenshots, page inventories or CI artifacts. GitHub retains the complete evidence without inserting it into the conversation. For an authorized go-live request, continue through the terminal deployment result and resolve failures instead of ending at a pending run.
 
 ## Publishing and external boundaries
 
-This is a review build: current layouts/robots settings retain noindex/nofollow and custom quote submission is not connected. Customer-visible quote areas show booking and phone actions instead of disabled forms. The click-to-load Roofr flow remains a separate working path. Do not enable custom submission without a requested implementation and verified delivery. Canonical production URLs are not proof of a production DNS cutover.
+This is a review build: current layouts/robots settings retain noindex/nofollow and custom quote submission is not connected. QuoteExperience renders QuoteForm fields inline and in the dialog for visual review, with explicit preview messaging and local-only submission feedback. No entries are sent or stored; retain method="dialog" and preventDefault until a delivery integration is separately requested and verified. Booking and phone actions remain available. Roofr loads its estimator iframe immediately, including on local/review hosts. Do not enable custom submission without a requested implementation and verified delivery. Canonical production URLs are not proof of a production DNS cutover.
 
 Read .github/workflows/ai-context.md and migration/cloudways-deployment.md before release work. The main-branch workflow can deploy to the authorized Cloudways review app after verification, including documentation-only commits. Do not infer authorization to push, deploy, change DNS, enable indexing, send test mail, invite collaborators or alter accounts from a content/documentation task. When publication is requested, verify the actual workflow/release marker, intended live pages, assets, sitemap, redirects, crawl settings and recovery state before claiming completion.
 
@@ -78,7 +81,7 @@ Read .github/workflows/ai-context.md and migration/cloudways-deployment.md befor
 
 Derived from committed source registries; refresh after structural changes.
 
-- Required manifest routes: 549.
+- Required manifest routes: 548.
 - Service/location/cost/calculator entries: 85.
 - Product detail entries: 268.
 - Gallery photographs: 103.
@@ -112,3 +115,5 @@ These counts describe local source records, not the deployed revision or deliver
 
 Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rules and component guidance outside those blocks; the updater preserves them. GitHub Actions runs `npm run check:contexts` to detect missing/stale maps or broken links; local verification is optional.
 <!-- directory-inventory:end -->
+
+Customer-facing image tips containing “Illustrative” were removed at the client’s request on November 2, 2026. Keep source/provenance classification internally and descriptive alt text, but do not regenerate these labels, hero credits or disclaimer captions. Omit empty caption markup and retain useful manufacturer credits.

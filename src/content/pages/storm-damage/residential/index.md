@@ -1,7 +1,7 @@
 ---
 title: "Residential Storm Damage Roof Repair Columbus, OH | Roof King"
 permalink: "/storm-damage/residential/"
-description: "Wind or hail damage to your Columbus roof? Roof King offers residential storm damage inspections, roof repairs and replacement options. Call (614) 379-8893."
+description: "Wind or hail damage to your Columbus roof? Roof King offers residential storm damage inspections, roof repairs and replacement options. Call (614) 490-0123."
 canonicalPath: "/storm-damage/residential/"
 category: "Service detail"
 source: "client-provided-content"
@@ -21,7 +21,7 @@ through a ceiling.
 Roof King & Restoration helps Columbus homeowners assess residential roof damage caused by wind, hail, fallen
 debris and heavy rain. We inspect the affected areas, explain what we find and discuss whether a targeted repair or
 a larger roofing project is appropriate.
-Call (614) 379-8893 to request a free roof inspection or ask about current appointment availability.
+Call (614) 490-0123 to request a free roof inspection or ask about current appointment availability.
 
 What to Do First When a Storm Damages Your Roof
 Stay off the roof and avoid hazards
@@ -159,5 +159,5 @@ marks or a new leak, contact Roof King & Restoration. Tell us when the storm occ
 
 
 ground and whether water is entering the house.
-Call (614) 379-8893 or request your free roof inspection online. We'll discuss the next step and help you understand
+Call (614) 490-0123 or request your free roof inspection online. We'll discuss the next step and help you understand
 the condition of your roof before you decide on repairs.

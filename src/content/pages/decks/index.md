@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Deck Contractor"
+title: "Deck Builder in Columbus, OH | Roof King & Restoration"
 permalink: "/decks/"
-description: "Ready to enjoy a beautiful deck addition in Columbus? Contact our expert installers at Roof King & Restoration today and request an estimate for your new deck."
+description: "Deck builder in Columbus, OH for new decks, repairs, replacement and refinishing. Compare Trex composite, wood decking, permits and written estimates."
 canonicalPath: "/decks/"
 category: "Additional service"
 source: "wordpress"
@@ -25,7 +25,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Plan your project with Roof King</h2>
                                                                 <p>Talk with our team about timing, products, and the best path for your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -94,7 +94,7 @@ priority: "preserve-and-improve"
               <p>We can handle a wide range of deck repair services to ensure that your structure remains safe, enjoyable to use, and visually appealing.</p>
               <strong>Learn More</strong>
             </a>
-<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16143798893">(614) 379-8893</a></div>
+<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16144900123">(614) 490-0123</a></div>
 <a class="rk-page-service-card" href="/decks/refinishing/">
               <span class="rk-card-rule" aria-hidden="true"></span>
               <h3>Deck Refinishing</h3>
@@ -326,7 +326,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "route": "/attic-insulation/",
+  "source": {
+    "file": "ROA866_1.PDF",
+    "pages": 26,
+    "sha256": "a02b91829c9f4dffde3e3ac43a7d7a897ca03e9c8d601fc0da99c073b7934d16"
+  },
+  "workflow": {
+    "draft": "Source-led Copywriting draft for the six attic service topics.",
+    "edit": "Copy Editing completed: customer-facing explanations, R-value additions corrected, website-omission commentary removed, permit wording grounded in actual work, incentives separated from Roof King offers, no unsupported brands or savings promises."
+  },
+  "tabs": 6,
+  "disclosureCards": 19,
+  "faqItems": 8,
+  "photoPairs": [
+    {
+      "image": "/media/attic-details/assessment-800.webp",
+      "heading": "Assessing the Existing Attic",
+      "topics": [
+        "Assessing the Existing Attic"
+      ]
+    },
+    {
+      "image": "/media/attic-details/baffles-800.webp",
+      "heading": "Preparing Before New Insulation",
+      "topics": [
+        "Preparing Before New Insulation"
+      ]
+    },
+    {
+      "image": "/media/attic-details/installation-800.webp",
+      "heading": "Installing to the Planned Performance",
+      "topics": [
+        "Installing to the Planned Performance"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "source": "/media/service-comparisons/insulation-before-800.webp",
+      "path": "/media/attic-details/assessment-400.webp",
+      "width": 400,
+      "height": 400,
+      "bytes": 33454
+    },
+    {
+      "source": "/media/service-comparisons/insulation-before-800.webp",
+      "path": "/media/attic-details/assessment-800.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 103646
+    },
+    {
+      "source": "/media/service-review-04/baffle-1200.webp",
+      "path": "/media/attic-details/baffles-400.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 20370
+    },
+    {
+      "source": "/media/service-review-04/baffle-1200.webp",
+      "path": "/media/attic-details/baffles-800.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 59734
+    },
+    {
+      "source": "/media/gallery/9600df992804-800.webp",
+      "path": "/media/attic-details/installation-400.webp",
+      "width": 400,
+      "height": 200,
+      "bytes": 11544
+    },
+    {
+      "source": "/media/gallery/9600df992804-800.webp",
+      "path": "/media/attic-details/installation-800.webp",
+      "width": 800,
+      "height": 400,
+      "bytes": 34332
+    }
+  ],
+  "notes": [
+    "Existing URL, canonical, batch 04 marker, custom hero, original anchors, general external-review source labels, shared trust strip, gallery and illustrative comparison retained.",
+    "First FAQ question preserved exactly for the FAQ hub.",
+    "ENERGY STAR table headed Add Insulation to Attic verified: R-49 for an existing 3–4 inch layer describes the addition, not a finished-total R-value. R-60 is the listed addition for an uninsulated attic.",
+    "Current IRS credit endpoint verified; no 2026 tax-credit offer or roof-only $47 payment promotion added.",
+    "WarmChoice and City primary resources resolved to current official URLs; assistance remains program-controlled and no provider eligibility claimed.",
+    "No insulation manufacturer/product page or Roof King spray-foam service invented.",
+    "Winter ice callout uses the existing ServiceAudienceBanner; no hail/wind callout or new component fork.",
+    "No calendar event, global certification change or global business schema change made.",
+    "All displayed phone numbers retain (614) 379-8893."
+  ],
+  "references": [
+    {
+      "label": "ENERGY STAR Attic Air Sealing",
+      "href": "https://www.energystar.gov/saveathome/seal_insulate/attic-air-sealing-project"
+    },
+    {
+      "label": "ENERGY STAR Recommended Insulation Additions",
+      "href": "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections/insulation-r-values"
+    },
+    {
+      "label": "ENERGY STAR Attic Insulation Guidance",
+      "href": "https://www.energystar.gov/saveathome/seal_insulate/attic-insulation-project"
+    },
+    {
+      "label": "ENERGY STAR Attic Ventilation",
+      "href": "https://www.energystar.gov/saveathome/seal_insulate/do-it-yourself-guide/about-attic-ventilation"
+    },
+    {
+      "label": "Columbus Residential Project Requirements",
+      "href": "https://www.columbus.gov/files/sharedassets/city/v/2/building-and-zoning/document-library/typical-residential-projects-2026.pdf"
+    },
+    {
+      "label": "IRS Energy Efficient Home Improvement Credit",
+      "href": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit"
+    },
+    {
+      "label": "Columbia Gas WarmChoice",
+      "href": "https://www.columbiagasohio.com/energy-efficiency/for-your-home/income-eligible-weatherization"
+    },
+    {
+      "label": "AEP Ohio Home Programs",
+      "href": "https://www.aepohio.com/savings/home/money-saving-programs/"
+    }
+  ],
+  "verification": {
+    "route": "/attic-insulation/",
+    "status": "Targeted local rendering passed; complete CI deferred to authorized release",
+    "panels": 6,
+    "cards": 19,
+    "photoPairs": 3,
+    "faqs": 8,
+    "faqHubStatus": 200,
+    "errors": []
+  }
+}

@@ -2,7 +2,15 @@
 
 These committed records drive native rendering. Before editing, identify the exact route entry and its layout; retained Markdown often supplies metadata/provenance only. Keep business facts in site.json, meaningful content in typed data, and factual evidence in migration. Normal rendering must not fetch external catalogs, a database or private client downloads.
 
+The six `/decks/` service routes use authored ServicePaths tabs with planning disclosures, local product cards and manufacturer thumbnails. Preserve those groups when extending the service catalog. Each page has one reviewed three-photo band and an explicit estimate section; their source-led review is recorded in `migration/decks-content-review-2026-11-01.json`, independently of the original ten-page batch count. Product details come from the existing catalog. Permit guidance is jurisdiction-specific, product and workmanship warranties remain separate, and roof-only payment promotions must not migrate into deck copy.
+
+The 35 existing service-area routes were reconciled with the client-reviewed November 2026 service-area PDF. `migration/service-areas-content-review-2026-11-02.json` records source SHA, approved metadata/openings, two subordinate decision sections, FAQ additions and five contextual destinations per route. Detailed source paragraphs, unique local profiles, existing tab/section IDs, media and functional modules are retained. Do not flatten report-exported UI captions or implementation notes into customer copy. The report phone is superseded by site.json. Exact approved SEO titles use pageTitle to avoid a duplicate brand suffix.
+
 ## Ownership map
+
+`service-section-images.json` selects the photograph beside each rendered non-media ServiceContentBand heading. ServiceSectionImage requires an explicit page/section assignment; it must not fall back to the retired generic house sketch. Match the actual topic, prefer useful-resolution gallery photographs and preserve reference/illustration labeling without implying a photographed project occurred in a location page's city. `service-review-media.json` registers the prepared responsive variants, bounded by their originals and 110 KB each. See the service-section photography review in migration for source assignments.
+
+Approved contextual links are maintained in `internal-link-plan.json`. This page-scoped plan applies to both native and retained HTML through `scripts/internal-links.mjs`, before required attributes and schema in dev and static builds. Records preserve exact paragraph context, anchor text, destinations and placement. Do not add a duplicate source anchor or remove an instruction silently when revising a page: update the plan deliberately. Empty/unlisted pages are unchanged. Build rendering rejects missing or ambiguous locations, and `check:internal-links` verifies the approved records.
 
 | Data | Responsibility |
 | --- | --- |
@@ -97,6 +105,7 @@ Parent guidance: [src](../ai-context.md).
 - [home-media.json](home-media.json)
 - [home.json](home.json)
 - [imported-shell.json](imported-shell.json)
+- [internal-link-plan.json](internal-link-plan.json)
 - [location-profiles.json](location-profiles.json)
 - [manufacturer-products.json](manufacturer-products.json)
 - [media.ts](media.ts)
@@ -156,6 +165,7 @@ Parent guidance: [src](../ai-context.md).
 - [service-review-media.json](service-review-media.json)
 - [service-reviews.ts](service-reviews.ts)
 - [service-section-galleries.json](service-section-galleries.json)
+- [service-section-images.json](service-section-images.json)
 - [site-structure.json](site-structure.json)
 - [site.json](site.json)
 - [trex-collections.json](trex-collections.json)
@@ -179,3 +189,5 @@ The commercial replacement and roof-types PDFs are recorded in migration/commerc
 The four main storm pages use ROOF-K_4.PDF (migration/storm-content-review-2026-11-01.json): 5 residential hub topics plus the retained Commercial Storm Damage tab, 5 hail tabs, 7 wind tabs and 6 insurance tabs. Keep insurance decisions with the insurer, the inspection/construction role with Roof King, verified Ohio rule links and unnumbered disclosures. No assumed adjuster attendance, deductible waiver, claim approval, 24/7 response or universal shingle protection. Class 4/wind cards use the existing sourced catalog values and actual product pictures. Keep source annotations out of customer copy. Do not apply the report’s suggested location redirects as an incidental content edit.
 
 Keep Commercial Storm Damage as a dedicated tab in the /storm-damage/ selector, linking to /storm-damage/commercial/. It must not be reduced to an introductory inline link when rewriting residential storm topics.
+
+Customer-facing image tips containing “Illustrative” were removed at the client’s request on November 2, 2026. Keep source/provenance classification internally and descriptive alt text, but do not regenerate these labels, hero credits or disclaimer captions. Omit empty caption markup and retain useful manufacturer credits.

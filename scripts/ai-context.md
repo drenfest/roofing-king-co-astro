@@ -2,7 +2,11 @@
 
 Normal builds use committed source/data/assets. Authoring, imports, downloads, regeneration and deployment are separate operations. Inspect inputs and side effects before running a script; do not execute an authoring command merely because its name sounds relevant. Preserve unrelated working-tree changes and source evidence.
 
+`check-service-photo-pairs.mjs` accepts both the original editorial batches and source-led `*-content-review-YYYY-MM-DD.json` records containing `pages[].photoReview`. A source-led record must include a source SHA-256 and exact reviewed image/heading/topic assignments matching the runtime gallery. It does not advance the original ten-page batch count. All routes still receive the same three-photo, topic coverage, intrinsic dimension, lazy responsive loading and 110 KB per-variant checks.
+
 ## Safe daily commands
+
+`internal-links.mjs` performs approved page-specific link enrichment using `src/data/internal-link-plan.json`. It is shared by dev middleware and a static build integration, runs before attribute/schema completion, and uses idempotent instruction IDs. Match exact paragraph context first; preserve text and inline formatting, never nest anchors, and retain image elements for image-link retargets. Missing/ambiguous placements fail the build rather than silently moving links. `check:internal-links` validates generated HTML; `node scripts/check-internal-links.mjs --local` is an optional targeted local diagnostic. Proposal provenance and preservation evidence are recorded in `migration/internal-links-review-2026-11-01.json`.
 
 - npm ci installs the pinned dependencies. CI uses Node 24; package.json records the supported minimum.
 - npm run dev serves source changes. npm run build creates dist. npm run preview serves the existing dist; editing source without rebuilding will not update that preview.
@@ -85,6 +89,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-gallery.mjs](check-gallery.mjs)
 - [check-homepage.mjs](check-homepage.mjs)
 - [check-html-attributes.mjs](check-html-attributes.mjs)
+- [check-internal-links.mjs](check-internal-links.mjs)
 - [check-location-hubs.mjs](check-location-hubs.mjs)
 - [check-manufacturer-products.mjs](check-manufacturer-products.mjs)
 - [check-native-articles.mjs](check-native-articles.mjs)
@@ -113,6 +118,7 @@ Parent guidance: [repository](../ai-context.md).
 - [html-attributes.mjs](html-attributes.mjs)
 - [import-mulehide-commercial.mjs](import-mulehide-commercial.mjs)
 - [import-wordpress.mjs](import-wordpress.mjs)
+- [internal-links.mjs](internal-links.mjs)
 - [migrate-blog-urls.mjs](migrate-blog-urls.mjs)
 - [optimize-company-media.mjs](optimize-company-media.mjs)
 - [optimize-gallery.mjs](optimize-gallery.mjs)

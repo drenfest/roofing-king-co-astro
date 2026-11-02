@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof King internal link instructions (pasted JSON)",
+    "sha256": "fdb452d4ddfee3ba02e697b7bc00e5157bc44c230c12a6e149617b47521bbe9b",
+    "schemaVersion": "1.0"
+  },
+  "changes": {
+    "preferred_pages": 514,
+    "pages_with_link_changes": 176,
+    "pages_with_no_link_changes": 338,
+    "link_records": 268,
+    "wrap_existing_text": 51,
+    "retarget_existing_link": 73,
+    "insert_new_link": 109,
+    "retarget_image_link": 35,
+    "note": "Retarget decisions covering several gallery links are expanded into individual link records."
+  },
+  "implementation": "Page-scoped server/static rendering enrichment before required attributes and structured data; approved instructions owned by src/data/internal-link-plan.json. No browser script or additional client request.",
+  "verification": {
+    "local": "268 links across 176 rendered pages passed",
+    "preservedWrappedParagraphs": 51,
+    "preservedImageElements": 35,
+    "quotations": "All original blockquotes unchanged",
+    "idempotent": true,
+    "unaffectedPages": "Empty instruction lists are omitted from the runtime plan and return unchanged HTML",
+    "fullCI": "GitHub-owned check:internal-links added to the complete verification gate",
+    "hydration": "Browser confirmed both contextual Mule-Hide links remain after the ServiceExplorer tab controls initialize."
+  },
+  "notes": [
+    "Exact text wrapped without nested anchors; original paragraph wording and formatting retained.",
+    "Gallery image hrefs changed without altering image elements or captions.",
+    "Archive additions remain outside article cards; review-related links remain outside customer quotations.",
+    "Retargeted product labels preserve decorative arrow elements.",
+    "The trailing comma in the winter-roofing article remains outside its corrected anchor.",
+    "The malformed www.roofkingco.com/roofing href is corrected to /roofing/.",
+    "No redirect, canonical preference, menu destination or page content outside the supplied plan changed by the link enrichment.",
+    "Article follow-on links are appended after the complete topic content, and repair-cost guidance follows the complete repair-versus-replacement band."
+  ]
+}

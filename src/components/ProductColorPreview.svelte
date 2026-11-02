@@ -12,7 +12,7 @@
  onMount(()=>{ready=true;});
 </script>
 <div class="rk-color-house" data-color-house={product.id} data-preview-color={color}>
- <img src={image.src} srcset={image.srcset} {sizes} width={image.width} height={image.height} alt={`Illustrative siding color preview in ${colorName} on a sample home`} loading="lazy" decoding="async"/>
+ <img src={image.src} srcset={image.srcset} {sizes} width={image.width} height={image.height} alt={`siding color preview in ${colorName} on a sample home`} loading="lazy" decoding="async"/>
  {#if ready}<svg viewBox={`0 0 ${image.width} ${image.height}`} aria-hidden="true" preserveAspectRatio="xMidYMid meet">
   <defs>
    <mask id={`${id}-mask`} maskUnits="userSpaceOnUse" x="0" y="0" width={image.width} height={image.height} style="mask-type:luminance"><image href={preview.mask} width={image.width} height={image.height}/></mask>

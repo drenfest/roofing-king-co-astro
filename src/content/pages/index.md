@@ -131,7 +131,7 @@ priority: "first-component-rebuild"
                 </a>
                         <aside class="rk-home-service-visual rk-home-service-cta" aria-label="Request an exterior services quote">
                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a>
-                <a class="rk-home-service-phone" href="tel:+16143798893">(614) 379-8893</a>
+                <a class="rk-home-service-phone" href="tel:+16144900123">(614) 490-0123</a>
             </aside>
         </div>
     </div>
@@ -435,7 +435,7 @@ priority: "first-component-rebuild"
             <h2>Ready to start your exterior project?</h2>
             <p>Tell the team what you need and Roof King &amp; Restoration will follow up with the next step.</p>
         </div>
-            <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16143798893">Call (614) 379-8893</a></div>
+            <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16144900123">Call (614) 490-0123</a></div>
         </div>
 </section>
     </article>

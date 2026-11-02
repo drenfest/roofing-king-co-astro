@@ -1,7 +1,7 @@
 ---
-title: "Columbus Attic Insulation Company"
+title: "Attic Insulation in Columbus, OH | Roof King & Restoration"
 permalink: "/attic-insulation/"
-description: "Does your Columbus home need attic insulation installed? If so, count on our skilled contractors at Roof King & Restoration and request a quote from us today."
+description: "Attic insulation in Columbus, OH: R-value additions, air sealing, blown-in and batt insulation, baffles and preparation. Call Roof King at (614) 490-0123."
 canonicalPath: "/attic-insulation/"
 category: "Additional service"
 source: "wordpress"
@@ -25,7 +25,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Plan your project with Roof King</h2>
                                                                 <p>Talk with our team about timing, products, and the best path for your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -88,7 +88,7 @@ priority: "preserve-and-improve"
               <p>Roll-in insulation is ideal for unique spaces with lots of nooks and crannies. These insulation boards can be cut to the exact shape you want and can also be installed so that electrical work is not covered.</p>
               <strong>Learn More</strong>
             </a>
-<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16143798893">(614) 379-8893</a></div></div>
+<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16144900123">(614) 490-0123</a></div></div>
     </div>
   </section>
 
@@ -330,7 +330,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

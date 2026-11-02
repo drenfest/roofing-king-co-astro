@@ -16,7 +16,7 @@ const rows=photos.map((photo,index)=>{
 ---
 <div class:list={['rk-section-photo-gallery',{'is-reversed':reverse}]} role="group" aria-label={label} data-component="SectionPhotoGallery">
  {rows.map(row=><div class="rk-section-photo-pair" role="group" aria-labelledby={row.titleId} data-photo-pair data-photo-topics={row.topics.join('|')}>
-  <figure><HomeImage {...row.image} sizes="(max-width:760px) calc(100vw - 2rem), (max-width:1100px) 30vw, 390px"/><figcaption>{row.caption}</figcaption></figure>
+  <figure><HomeImage {...row.image} sizes="(max-width:760px) calc(100vw - 2rem), (max-width:1100px) 30vw, 390px"/>{row.caption&&<figcaption>{row.caption}</figcaption>}</figure>
   <div class="rk-section-photo-copy"><h3 id={row.titleId}>{row.heading}</h3>{row.cards.map(card=><div id={card.id}>{row.cards.length>1&&<h4 id={card.id?`${card.id}-title`:undefined}>{card.title}</h4>}<RichContent nodes={card.body}/></div>)}</div>
  </div>)}
 </div>

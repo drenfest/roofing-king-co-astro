@@ -2,7 +2,7 @@
 
 Astro handles static composition and Svelte handles interactive islands. Start with the root handbook, then read the maps for pages, layouts, components, data and styles. Keep copy/facts in the correct data owner and rendering logic in shared components; do not build a parallel per-page design system.
 
-src/middleware.ts runs the same attribute and schema completion logic used by static build integrations. src/content.config.ts only loads **/index.md from src/content/pages. Metadata records are independent of which native layout renders a URL. The directory named pages is special: its context maps start with an underscore so Astro does not create documentation routes.
+src/middleware.ts runs the same approved contextual-link enrichment, attribute completion and schema logic used by static build integrations, in that order. Link instructions are maintained in src/data/internal-link-plan.json; unmatched placements fail rather than silently drifting. src/content.config.ts only loads **/index.md from src/content/pages. Metadata records are independent of which native layout renders a URL. The directory named pages is special: its context maps start with an underscore so Astro does not create documentation routes.
 
 Normal rendering uses local committed data/assets. Client-side props must not contain secrets, source export paths, private Drive IDs or original downloads. Preserve readable SSR content and the existing load/visible hydration boundaries. Keep native and retained legacy compatibility code separate.
 

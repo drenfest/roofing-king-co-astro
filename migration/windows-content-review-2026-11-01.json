@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof_King_Windows_Complete_Content_and_SEO_For_Gary (1).pdf",
+    "sha256": "d0ffd88d17bfdf14c2fcbda9e9060b06e200c17247239d882c8e2ae7c7799c6b"
+  },
+  "route": "/windows/",
+  "workflow": {
+    "draft": "Copywriting: source-led residential window evaluation and installation copy; contractor voice and supplied distinctions retained.",
+    "edit": "Copy Editing: clarity, voice, benefits, evidence, specificity, emotion and action sweeps completed before component mapping. Internal notes, rejected terminology, numbered process and promotional savings claims removed."
+  },
+  "faqItems": 8,
+  "components": [
+    "LandingHero",
+    "ServiceArticle",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "CredentialsSection",
+    "ReviewSection",
+    "ServiceComparison",
+    "ServiceGallery",
+    "FeaturedArticles",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "notes": [
+    "Existing /windows/ route, canonical, section IDs, hero and three optimized educational illustrations retained.",
+    "Photographs/illustrations are matched to opening condition, wall flashing and finished trim.",
+    "No new doors page, unconfirmed manufacturer, performance saving, fixed schedule or universal warranty term added.",
+    "Original external review context, before/after, gallery, blog, financing and contact modules retained.",
+    "Approved contact remains (614) 379-8893 and tel:+16143798893.",
+    "Global schema compiler, crawl settings and redirects unchanged."
+  ],
+  "verification": "Local route review; full verification remains GitHub-owned on authorized release."
+}

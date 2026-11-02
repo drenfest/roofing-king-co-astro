@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-17T16:16:10.823Z",
   "counts": {
-    "protectedRoutes": 195,
+    "protectedRoutes": 194,
     "savedClone": 145,
     "localPublished": 150,
     "hyphenatedFetched": 61,
@@ -1883,31 +1883,6 @@
       "localError": "",
       "category": "Local service",
       "rewriteBrief": "Retain exact URL and differentiate its city/service intent. Add verified local work, relevant materials or conditions, authentic photos and coverage details; link to the matching main service and city hub. No invented local office, jobs or response guarantee.",
-      "routeState": "Direct 200"
-    },
-    {
-      "path": "/columbus-ppc-company/",
-      "title": "Your Trusted Roofing Company in Columbus, OH",
-      "savedClone": true,
-      "observedOnEstablished": true,
-      "hyphenatedStatus": null,
-      "localId": 18,
-      "localUrl": "http://localhost/roofingkingco/columbus-ppc-company/",
-      "priority": "Secondary / utility",
-      "supportingHub": "/",
-      "action": "Keep URL; improve existing page",
-      "sourceUrl": "https://www.roofkingco.com/columbus-ppc-company/",
-      "evidence": "Rendered HTML sitemap links, 2026-10-17 (discovery, not individual HTTP verification)",
-      "localHttpStatus": 200,
-      "localFinalUrl": "http://localhost/roofingkingco/columbus-ppc-company/",
-      "localSoft404": false,
-      "localCanonical": "http://localhost/roofingkingco/columbus-ppc-company/",
-      "localTitle": "Your Trusted Roofing Company in Columbus, OH – Roof King & Restoration",
-      "localH1": [],
-      "localSchemaCount": 0,
-      "localError": "",
-      "category": "Company / hub",
-      "rewriteBrief": "Preserve exact route. Give the page a distinct useful purpose, accurate business details and relevant links. Resolve overlap explicitly for About, careers, financing, gallery and warranty variants.",
       "routeState": "Direct 200"
     },
     {
@@ -5297,6 +5272,35 @@
       "category": "Local service",
       "rewriteBrief": "Retain exact URL and differentiate its city/service intent. Add verified local work, relevant materials or conditions, authentic photos and coverage details; link to the matching main service and city hub. No invented local office, jobs or response guarantee.",
       "routeState": "Direct 200"
+    }
+  ],
+  "removedRoutes": [
+    {
+      "path": "/columbus-ppc-company/",
+      "title": "Your Trusted Roofing Company in Columbus, OH",
+      "savedClone": true,
+      "observedOnEstablished": true,
+      "hyphenatedStatus": null,
+      "localId": 18,
+      "localUrl": "http://localhost/roofingkingco/columbus-ppc-company/",
+      "priority": "Secondary / utility",
+      "supportingHub": "/",
+      "action": "Keep URL; improve existing page",
+      "sourceUrl": "https://www.roofkingco.com/columbus-ppc-company/",
+      "evidence": "Rendered HTML sitemap links, 2026-10-17 (discovery, not individual HTTP verification)",
+      "localHttpStatus": 200,
+      "localFinalUrl": "http://localhost/roofingkingco/columbus-ppc-company/",
+      "localSoft404": false,
+      "localCanonical": "http://localhost/roofingkingco/columbus-ppc-company/",
+      "localTitle": "Your Trusted Roofing Company in Columbus, OH – Roof King & Restoration",
+      "localH1": [],
+      "localSchemaCount": 0,
+      "localError": "",
+      "category": "Company / hub",
+      "rewriteBrief": "Preserve exact route. Give the page a distinct useful purpose, accurate business details and relevant links. Resolve overlap explicitly for About, careers, financing, gallery and warranty variants.",
+      "routeState": "Direct 200",
+      "removedAt": "2026-11-01",
+      "reason": "User explicitly requested deletion of the irrelevant Columbus PPC page."
     }
   ]
 }

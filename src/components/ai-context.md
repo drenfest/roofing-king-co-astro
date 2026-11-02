@@ -22,7 +22,8 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Product colors | ProductOptions + ProductColorPreview | Exact source color names/swatches, independent instance IDs, keyboard selection and source photograph links; an illustrative color study does not become a manufacturer photo |
 | Product specifications / warranty | ProductSpecifications / ProductWarranty / ProductEnergy | Product-specific facts, source references, honest terms and readable tables; material-specific care via product-care.ts, exact product overrides, and GAF-only energy ratings |
 | Companion systems | ProductCompanions / ProductSystemCompanions | Preserve detailed HDZ treatment and the brand/family resolver; canonical child-page links, primary parent map and relevant images/diagrams |
-| Product or building diagrams | AccessoryBenefitDiagram / SystemComponentDiagram / ServiceSystemDiagram / IceDamDiagram | Code-native explanatory SVGs, accessible naming and actual subject; diagrams are not installation specifications |
+| Product or building diagrams | AccessoryBenefitDiagram / SystemComponentDiagram / IceDamDiagram | Code-native explanatory SVGs, accessible naming and actual subject; diagrams are not installation specifications |
+| Service content heading imagery | ServiceSectionImage | Uses service-section-images.json for an explicit section-specific photograph or topical illustration. Replaces the retired generic house diagram. Register optimized variants, retain honest captions, and do not enlarge small originals. |
 | Project photographs | ProjectGallery | Orange brand tone by default for homepage, past-projects and service galleries. Full-width stacked header: eyebrow, title, paragraph. Retain diagonal edges, white text, filtered whole-page batches limited to two rows, keyboard lightbox, source kinds/tags, original-image links and SSR fallback |
 | Service photographs | ServiceGallery / ProjectShowcase | Select actual relevant gallery topics; do not show siding-only captions under windows or unrelated work under a service |
 | Before/after | ServiceComparison -> ComparisonSection -> BeforeAfter | Explicit per-route pair, matching geometry, visible provenance caption, responsive lazy images, native keyboard/touch range; optional square framing and no-JS image links |
@@ -32,8 +33,8 @@ Read the root handbook and the page family's data/layout maps first. This direct
 | Blog navigation | BlogNavigation | Shared aside on main hubs, category/topic archives and articles; include this article's real categories/topics |
 | Reviews | ReviewSection / ReviewCard / ReviewCollection | Verified excerpts, author/date/ratings and external platform references; no fabricated local reviews or aggregate score |
 | Service areas | ServiceAreaMap / LocationServiceLinks / CoverageSection | Local boundary data and existing route descendants, filterable cards, nested service links, hero and keyboard fallback |
-| Quote / booking | QuoteSection / QuoteExperience / ContactActions | Shared CTA, wide desktop modal, short heading, native dialog focus/Escape; render real booking/phone links instead of unavailable inputs; preserve #quote-form anchors and native dialog focus/Escape |
-| Estimator | RoofrEstimator | Click-to-load iframe and direct fallback; do not eagerly load external embeds |
+| Quote / booking | QuoteSection / QuoteExperience / QuoteForm / ContactActions | Shared CTA, wide desktop modal, short heading, native dialog focus/Escape; render preview fields with native validation and local-only feedback, plus real booking/phone links; never imply delivery or add a backend without authorization; use the single ivory quote card; set inlineActions=false when the adjacent copy already provides phone/booking actions; preserve #quote-form anchors and native dialog focus/Escape |
+| Estimator | RoofrEstimator | Branded charcoal introduction and ivory tool frame, stacked on mobile. Immediately rendered Roofr iframe and direct fallback on local, review and production hosts. Roofr controls the cross-origin form interior; do not crop or cover its controls or impersonate its workflow |
 | Header / menu image | SiteHeader / MegaMenu / MenuPreview | Desktop hover + focus, stable connected columns, nested full-width mobile rows and source menu atlas; all route links work without JS |
 | Shared identity / trust | SiteFooter / Breadcrumbs / TrustStrip / CredentialsSection | Central identity, actual badges, correct destinations and heading context |
 | Weather promotion | StormDamageCallout | Restrained slanted weather styling, existing local/global storm destination and relevant hail/wind/claims links |
@@ -116,6 +117,7 @@ Parent guidance: [src](../ai-context.md).
 - [ProjectGallery.svelte](ProjectGallery.svelte)
 - [ProjectShowcase.astro](ProjectShowcase.astro)
 - [QuoteExperience.svelte](QuoteExperience.svelte)
+- [QuoteForm.svelte](QuoteForm.svelte)
 - [QuoteSection.astro](QuoteSection.astro)
 - [ResourceLinks.astro](ResourceLinks.astro)
 - [ReviewCard.astro](ReviewCard.astro)
@@ -136,7 +138,7 @@ Parent guidance: [src](../ai-context.md).
 - [ServiceGallery.astro](ServiceGallery.astro)
 - [ServiceIcon.astro](ServiceIcon.astro)
 - [ServicePaths.astro](ServicePaths.astro)
-- [ServiceSystemDiagram.astro](ServiceSystemDiagram.astro)
+- [ServiceSectionImage.astro](ServiceSectionImage.astro)
 - [ServiceTopics.astro](ServiceTopics.astro)
 - [SidingProductGuide.astro](SidingProductGuide.astro)
 - [SiteFooter.astro](SiteFooter.astro)
@@ -167,3 +169,5 @@ Commercial product data uses the same ProductHubPage, ProductDetailPage and Prod
 MaterialInstallation supports actual product destinations and an existing service destination where no product collection exists (for example commercial metal roofing). Product choices resolve productHeroImage; service choices resolve serviceHero, retain illustration provenance and use service-appropriate link wording. Do not invent a metal product catalog merely to supply a tab image.
 
 ServicePaths accepts an optional item.image/item.caption for authored decision topics that are not a child-page summary; these use data-topic-photo. Actual child-service cards still resolve and validate the destination hero through data-child-hero. Keep one image under each eyebrow, lazy loading, intrinsic dimensions and explicit illustration/reference provenance. StormDamageCallout supports optional href/label so a service hub does not link to itself. FeaturedArticles supports title and preferredPaths while retaining catalog-backed cards and empty-state omission.
+
+Customer-facing image tips containing “Illustrative” were removed at the client’s request on November 2, 2026. Keep source/provenance classification internally and descriptive alt text, but do not regenerate these labels, hero credits or disclaimer captions. Omit empty caption markup and retain useful manufacturer credits.

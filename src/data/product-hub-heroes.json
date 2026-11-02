@@ -84,24 +84,24 @@
     "width": 1600,
     "height": 900,
     "srcset": "/media/service-heroes/decks-640.webp 640w, /media/service-heroes/decks-960.webp 960w, /media/service-heroes/decks-1280.webp 1280w, /media/service-heroes/decks-1600.webp 1600w",
-    "alt": "Illustrative wood deck and exterior details",
-    "caption": "Illustrative deck design · Material and grade are selected for each project"
+    "alt": "wood deck and exterior details",
+    "caption": ""
   },
   "/products/decking/wood/cedar/": {
     "src": "/media/service-heroes/decks-refinishing-1600.webp",
     "width": 1600,
     "height": 900,
     "srcset": "/media/service-heroes/decks-refinishing-640.webp 640w, /media/service-heroes/decks-refinishing-960.webp 960w, /media/service-heroes/decks-refinishing-1280.webp 1280w, /media/service-heroes/decks-refinishing-1600.webp 1600w",
-    "alt": "Illustrative wood deck and exterior details",
-    "caption": "Illustrative deck design · Material and grade are selected for each project"
+    "alt": "wood deck and exterior details",
+    "caption": ""
   },
   "/products/decking/wood/pressure-treated/": {
     "src": "/media/service-heroes/decks-installations-1600.webp",
     "width": 1600,
     "height": 900,
     "srcset": "/media/service-heroes/decks-installations-640.webp 640w, /media/service-heroes/decks-installations-960.webp 960w, /media/service-heroes/decks-installations-1280.webp 1280w, /media/service-heroes/decks-installations-1600.webp 1600w",
-    "alt": "Illustrative wood deck and exterior details",
-    "caption": "Illustrative deck design · Material and grade are selected for each project"
+    "alt": "wood deck and exterior details",
+    "caption": ""
   },
   "/products/gutters/guards/leaffilter/": {
     "src": "/media/products/systems/6a767a0f9af1-1600.webp",

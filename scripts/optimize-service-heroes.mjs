@@ -22,7 +22,7 @@ for(const page of manifest.pages){
   if(stat.size>300000)throw Error('Hero exceeds WebP budget: '+asset);
   variants.push({src:'/'+asset.replace(/^public[\\/]/,'').replaceAll('\\','/'),width,bytes:stat.size});
  }
- const image={src:variants.at(-1).src,alt:`Illustrative ${page.service.toLowerCase()} scene`,width:fullWidth,height:Math.round(info.height*fullWidth/info.width)};
+ const image={src:variants.at(-1).src,alt:`${page.service.toLowerCase()} scene`,width:fullWidth,height:Math.round(info.height*fullWidth/info.width)};
  heroes[page.route]={image,generated:true,objectPosition:page.objectPosition};
  media[image.src]={width:image.width,height:image.height,variants:variants.map(({src,width})=>({src,width}))};
  page.status='generated';page.originalFile=original.replaceAll('\\','/');page.assets=variants;page.originalBytes=(await fs.stat(original)).size;

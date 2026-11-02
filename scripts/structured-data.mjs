@@ -90,7 +90,7 @@ export function completeStructuredData(html,{pathname}={}){
   const alt=clean(img.attr('alt'));if(alt)node.description=alt;
   const caption=clean(img.closest('figure').find('figcaption').first().text());if(caption)node.caption=caption;
   const comparison=img.closest('[data-service-comparison]');
-  if(comparison.length){node.caption=text(comparison.find('.rk-comparison-caption'));node.creativeWorkStatus='Illustrative example';}
+  if(comparison.length){node.caption=text(comparison.find('.rk-comparison-caption'));node.creativeWorkStatus='Example';}
   const width=Number.parseInt(variants.sort((a,b)=>Number.parseInt(b[1])-Number.parseInt(a[1]))[0]?.[1]||img.attr('width'));
   const intrinsicWidth=Number(img.attr('width')),intrinsicHeight=Number(img.attr('height'));
   if(width>0&&intrinsicWidth>0&&intrinsicHeight>0){node.width={'@type':'QuantitativeValue',value:width,unitText:'px'};node.height={'@type':'QuantitativeValue',value:Math.round(width*intrinsicHeight/intrinsicWidth),unitText:'px'};}

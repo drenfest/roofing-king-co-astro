@@ -29,7 +29,7 @@ priority: first-component-rebuild
                                                                 <h2>Plan your project with Roof King</h2>
                                                                 <p>Talk with our team about timing, products, and the best path for your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -98,7 +98,7 @@ priority: first-component-rebuild
               <p>We have an exceptional variety of quality roofing styles, giving you the reassurance that you’ll find the right product for your home.</p>
               <strong>Learn More</strong>
             </a>
-<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16143798893">(614) 379-8893</a></div>
+<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16144900123">(614) 490-0123</a></div>
 <a class="rk-page-service-card" href="/roofing/gaf/">
               <span class="rk-card-rule" aria-hidden="true"></span>
               <h3>GAF Roofing</h3>
@@ -379,7 +379,7 @@ priority: first-component-rebuild
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

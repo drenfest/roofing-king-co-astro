@@ -19,7 +19,7 @@ for(const page of manifest.pages){
  assert.equal(image.attr('sizes'),'100vw');assert.equal(image.attr('alt'),'');
  assert.ok(image.attr('width')&&image.attr('height'));assert.equal(image.attr('srcset').split(',').length,4);
  assert.equal($('.rk-landing-hero-photo').length,0);
- assert.equal($('.rk-service-hero-credit').text(),hero.generated?(hero.caption||'Illustrative service imagery'):'');
+ assert.equal($('.rk-service-hero-credit').text(),hero.generated?(hero.caption||''):'');
  assert.ok($('meta[property="og:image"]').attr('content').endsWith(hero.image.src));
  assert.deepEqual(media[hero.image.src].variants.map(v=>v.src),page.assets.map(a=>a.src));
  for(const asset of page.assets){

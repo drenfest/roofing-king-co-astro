@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-17T17:42:18.387Z",
-  "count": 549,
+  "count": 548,
   "routes": [
     {
       "path": "/",
@@ -1028,15 +1028,6 @@
       "canonicalPath": "/columbus-oh/storm-damage/",
       "notes": [],
       "words": 873
-    },
-    {
-      "path": "/columbus-ppc-company/",
-      "file": "src/content/pages/columbus-ppc-company/index.md",
-      "source": "wordpress",
-      "wordpressId": 18,
-      "canonicalPath": "/columbus-ppc-company/",
-      "notes": [],
-      "words": 740
     },
     {
       "path": "/commercial-roofing/",

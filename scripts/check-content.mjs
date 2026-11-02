@@ -18,5 +18,6 @@ for(const record of manifest.routes){
  if(!manifest.routes.some(r=>r.path===data.canonicalPath))failures.push('Unknown canonical '+record.path);
 }
 for(const record of inventory.rows)if(!seen.has(record.path))failures.push('Missing protected path '+record.path);
+for(const record of inventory.removedRoutes||[])if(seen.has(record.path))failures.push('Explicitly removed path returned '+record.path);
 if(failures.length)throw Error(failures.join('\n'));
 console.log(`Validated ${seen.size} preserved paths and their imported content.`);

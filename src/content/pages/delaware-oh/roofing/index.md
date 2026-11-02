@@ -1,15 +1,16 @@
 ---
-title: "Delaware, OH Roofing Company"
-permalink: "/delaware-oh/roofing/"
-description: "Looking for the best roofing company in Delaware, OH? Trust Roof King & Restoration for precision roof repairs and replacements. Get in touch for a free quote!"
-canonicalPath: "/delaware-oh/roofing/"
-category: "Local service"
-source: "wordpress"
-sourcePath: "/delaware-oh/roofing/"
+title: Roof Repair & Replacement in Delaware, OH | Roof King
+permalink: /delaware-oh/roofing/
+description: Roof repair and replacement in Delaware, OH. Review roof condition,
+  materials, flashing and written estimates with Roof King & Restoration.
+canonicalPath: /delaware-oh/roofing/
+category: Local service
+source: wordpress
+sourcePath: /delaware-oh/roofing/
 wordpressId: 77
-reviewStatus: "imported-needs-review"
+reviewStatus: imported-needs-review
 notes: []
-priority: "preserve-and-improve"
+priority: preserve-and-improve
 ---
 
 
@@ -26,7 +27,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Flexible 3-Year Financing for Your Home Projects</h2>
                                                                 <p>Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!</p>
                                                                 <a class="rk-button rk-button-primary" href="/offers/3-year-financing/">Learn More</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -288,7 +289,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

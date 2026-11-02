@@ -84,7 +84,6 @@ function specificNote(path,group) {
   if(path==='/our-careers/')return 'Careers body is effectively empty once shared sections are removed. Build vacancy/application states using real openings and an approved destination.';
   if(path==='/careers/')return 'Keep this path and its distinct recruitment copy. Share CareersPage primitives with /our-careers/; a content-equivalence decision is still required.';
   if(path==='/events/')return 'Only a short events stub is preserved. Build event cards and a truthful empty state; request actual event dates/details.';
-  if(path==='/columbus-ppc-company/')return 'Treat as a campaign landing-page variant, sharing service components. Confirm audience, CTA and future index policy; preserve its URL now.';
   if(path==='/faq/')return 'Use grouped native details for the real roofing/siding/gutter questions. Keep full answers and usable anchors; no hydrated accordion needed.';
   if(path==='/cost-of-a-new-roof/')return 'Use cost-factor sections and a Roofr CTA. Keep editorial pricing context separate from the estimator; verify all amounts and eligibility.';
   if(path==='/deck-visualizer/')return 'Preserved body is only the title. Confirm the actual visualizer/vendor before building ToolFrame. A card that pretends to visualize a deck is not completion.';

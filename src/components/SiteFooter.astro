@@ -12,5 +12,15 @@ import navigation from '../data/navigation.json';
     </div>
     {navigation.footer.map(column => <div><p class="rk-footer-heading">{column.title}</p><ul class="rk-footer-menu">{column.links.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul></div>)}
   </div>
-  <div class="rk-copyright"><div class="rk-section-inner rk-footer-bottom"><span>© 2013 – {new Date().getFullYear()} {site.name}</span></div></div>
+  <div class="rk-copyright"><div class="rk-section-inner rk-footer-bottom"><a class="rk-footer-license" href={site.contractorLicense.href} title={`View Roof King’s ${site.contractorLicense.label} ${site.contractorLicense.number} on the City of Columbus portal`} target="_blank" rel="noopener noreferrer">{site.contractorLicense.label}: <span>{site.contractorLicense.number}</span><span aria-hidden="true"> ↗</span></a><span class="rk-footer-copyright">© 2013 – {new Date().getFullYear()} {site.name}</span></div></div>
 </footer>
+
+<style>
+ .rk-footer .rk-footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:1rem 2rem;padding-block:1.25rem;text-align:left;font-size:.78rem;line-height:1.6;}
+ .rk-footer-license{color:inherit;text-decoration:none;text-underline-offset:4px;}
+ .rk-footer-license>span:first-child{white-space:nowrap;color:#fcfaf5;}
+ .rk-footer-license:hover{text-decoration:underline;color:#ffad70;}
+ .rk-footer-license:focus-visible{outline:2px solid #fe6600;outline-offset:5px;}
+ .rk-footer-copyright{text-align:right;}
+ @media(max-width:700px){.rk-footer .rk-footer-bottom{flex-direction:column;justify-content:center;gap:.65rem;text-align:center;padding-block:1.25rem;}.rk-footer-copyright{text-align:center;}}
+</style>

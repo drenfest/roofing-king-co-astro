@@ -1074,5 +1074,453 @@
     ],
     "sourceKind": "manufacturer",
     "sourcePath": "/media/products/ply-gem/cedar-dimensions-home-1024.webp"
+  },
+  "/media/deck-details/structure-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/deck-details/structure-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/structure-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/deck-details/wood-800.webp": {
+    "width": 800,
+    "height": 400,
+    "variants": [
+      {
+        "src": "/media/deck-details/wood-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/wood-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/deck-details/boards-800.webp": {
+    "width": 800,
+    "height": 530,
+    "variants": [
+      {
+        "src": "/media/deck-details/boards-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/boards-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/deck-details/railing-800.webp": {
+    "width": 800,
+    "height": 406,
+    "variants": [
+      {
+        "src": "/media/deck-details/railing-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/railing-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/deck-details/refinish-800.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "src": "/media/deck-details/refinish-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/refinish-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/deck-details/board-damage-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/deck-details/board-damage-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/deck-details/board-damage-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/attic-details/assessment-800.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "src": "/media/attic-details/assessment-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/attic-details/assessment-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/attic-details/baffles-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/attic-details/baffles-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/attic-details/baffles-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/attic-details/installation-800.webp": {
+    "width": 800,
+    "height": 400,
+    "variants": [
+      {
+        "src": "/media/attic-details/installation-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/attic-details/installation-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-18-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-18-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-18-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-20-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-20-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-20-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-25-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-25-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-25-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-30-554.webp": {
+    "width": 554,
+    "height": 369,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-30-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-30-554.webp",
+        "width": 554
+      }
+    ]
+  },
+  "/media/section-details/riley-29-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-29-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-29-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-32-576.webp": {
+    "width": 576,
+    "height": 384,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-32-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-32-576.webp",
+        "width": 576
+      }
+    ]
+  },
+  "/media/section-details/photo-33-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-33-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-33-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-21-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-21-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-21-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-11-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-11-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-11-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-17-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-17-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-17-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-34-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-34-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-34-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/commercial-access-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/commercial-access-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/commercial-access-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/commercial-wet-insulation-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/commercial-wet-insulation-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/commercial-wet-insulation-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-7-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-7-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-7-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-02-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-02-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-02-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-67-640.webp": {
+    "width": 640,
+    "height": 362,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-67-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-67-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/section-details/riley-42-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-42-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-42-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-16-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-16-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-16-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/riley-38-425.webp": {
+    "width": 425,
+    "height": 283,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-38-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-38-425.webp",
+        "width": 425
+      }
+    ]
+  },
+  "/media/section-details/riley-62-687.webp": {
+    "width": 687,
+    "height": 384,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-62-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-62-687.webp",
+        "width": 687
+      }
+    ]
+  },
+  "/media/section-details/riley-51-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/riley-51-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/riley-51-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-35-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-35-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-35-800.webp",
+        "width": 800
+      }
+    ]
+  },
+  "/media/section-details/photo-9-800.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "src": "/media/section-details/photo-9-400.webp",
+        "width": 400
+      },
+      {
+        "src": "/media/section-details/photo-9-800.webp",
+        "width": 800
+      }
+    ]
   }
 }

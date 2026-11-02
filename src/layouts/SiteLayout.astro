@@ -10,7 +10,7 @@ const { title, description, canonicalPath } = Astro.props;
 const schema = {
   '@context': 'https://schema.org', '@type': 'RoofingContractor',
   '@id': site.url + '/#business', name: site.name, url: site.url,
-  telephone: '+16143798893', address: { '@type': 'PostalAddress', ...site.address },
+  telephone: site.phoneHref.replace('tel:', ''), address: { '@type': 'PostalAddress', ...site.address },
 };
 ---
 <!doctype html>

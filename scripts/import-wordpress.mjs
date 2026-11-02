@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=async p=>JSON.parse((await fs.readFile(path.join(root,p),'utf8')).replace(/^\uFEFF/,''));
+const site=await read('src/data/site.json');
 const wordpress=await read('migration/sources/wordpress-content.json');
 const inventory=await read('migration/url-inventory.json');
 const sourceRoot=process.env.WORDPRESS_SOURCE_ROOT||'S:/projects/xampp/htdocs/roofingkingco';
@@ -16,7 +17,7 @@ const byPath=new Map(records.map(r=>[toPath(r.url),r]));
 const cleanBody=html=>{
  const $=cheerio.load(html,null,false);
  $('script,style,iframe,object,embed,link[rel="stylesheet"],input,select,textarea,button[type="submit"]').remove();
- $('form').replaceWith('<div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16143798893">Call (614) 379-8893</a></div>');
+ $('form').replaceWith(`<div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="${site.phoneHref}">Call ${site.phone}</a></div>`);
  $('[data-rk-modal-open]').each((i,e)=>{$(e).removeAttr('data-rk-modal-open').removeAttr('aria-controls').attr('href','/contact-us/');});
  $('a[href="#quote-form"],a[href="#rk-quote-modal"]').attr('href','/contact-us/');
  $('[href],[src],[srcset],[style],[data-src],[data-original]').each((i,e)=>{
@@ -24,13 +25,13 @@ const cleanBody=html=>{
    const value=$(e).attr(a);if(!value)continue;
    let next=value.replace(/https?:\/\/localhost\/roofingkingco/g,'').replace(/https?:\/\/wordpress-1269393-6519803\.cloudwaysapps\.com/g,'').replace(/https?:\/\/(?:www\.)?roof-kingco\.com/g,'').replace(/https?:\/\/(?:www\.)?roofkingco\.com(?=\/)/g,'');
    next=next.replace(/\/wp-content\/uploads\/roofkingco-imports\//g,'/media/wordpress/').replace(/\/assets\//g,'/media/static-build/assets/');
-   next=next.replace(/tel:\+?16144900123/g,'tel:+16143798893');
+   next=next.replace(/^tel:\+?1?6143798893$/i,site.phoneHref);
    const corrections={'/roofing/replacements/':'/roofing/replacement/','/projectgallery/':'/gallery/','/roofing-contractors-dublin-oh/':'/roofing-contractor-dublin-oh/'};
    if(a==='href'&&corrections[next])next=corrections[next];
    $(e).attr(a,next);
   }
  });
- return $.html().replaceAll('(614) 490-0123','(614) 379-8893').replaceAll('Columbus, OH 43085','Columbus, OH 43229').replace(/<!--(?:.|\n)*?-->/g,'');
+ return $.html().replace(/\(614\) (?:379-8893|490-0123)/g,site.phone).replaceAll('Columbus, OH 43085','Columbus, OH 43229').replace(/<!--(?:.|\n)*?-->/g,'');
 };
 const normaliseHeadings=(body,title)=>{
  const $=cheerio.load(body,null,false);const headings=$('h1');

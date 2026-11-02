@@ -1,0 +1,414 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "RO2D7F_1.PDF",
+    "pages": 120,
+    "sha256": "bc33bd252d2ab2109befd5482357760c59498c2eb54703009eb67b06ebc8f21e"
+  },
+  "workflow": {
+    "draft": "Copywriting: contractor-voice source-led drafts for all six existing deck routes.",
+    "edit": "Copy Editing: clarity, voice, benefits, proof, specificity, emotion and action reviewed before component insertion. Removed internal notes, conditional review placeholders and roof-only payment promotion; qualified product care and engineering details."
+  },
+  "pages": [
+    {
+      "route": "/decks/",
+      "tabs": 7,
+      "catalogCards": 11,
+      "faqItems": 8,
+      "retainedAnchors": [
+        "service-child-30-1",
+        "service-child-30-2",
+        "service-child-30-3",
+        "service-child-30-4",
+        "service-child-30-5",
+        "service-copy-30-2",
+        "service-copy-30-3",
+        "service-copy-30-4"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-30-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "A Solid Connection to Your House",
+            "topics": [
+              "A Solid Connection to Your House"
+            ]
+          },
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "Safe Railings and a Clear Stair Route",
+            "topics": [
+              "Safe Railings and a Clear Stair Route"
+            ]
+          },
+          {
+            "image": "/media/deck-details/boards-800.webp",
+            "heading": "Boards, Framing and Fasteners That Work Together",
+            "topics": [
+              "Boards, Framing and Fasteners That Work Together"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/decks/accessories/",
+      "tabs": 4,
+      "catalogCards": 17,
+      "faqItems": 8,
+      "retainedAnchors": [
+        "service-detail-31-1",
+        "service-copy-31-2",
+        "service-copy-31-3",
+        "service-copy-31-4",
+        "service-copy-31-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-31-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "When a Deck Needs a Guard",
+            "topics": [
+              "When a Deck Needs a Guard"
+            ]
+          },
+          {
+            "image": "/media/deck-details/railing-800.webp",
+            "heading": "Openings and Post Attachments Matter",
+            "topics": [
+              "Openings and Post Attachments Matter"
+            ]
+          },
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "Stairs Need Their Own Handrail Plan",
+            "topics": [
+              "Stairs Need Their Own Handrail Plan"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/decks/installations/",
+      "tabs": 6,
+      "catalogCards": 11,
+      "faqItems": 8,
+      "retainedAnchors": [
+        "service-detail-32-1",
+        "service-copy-32-2",
+        "service-copy-32-3",
+        "service-copy-32-4",
+        "service-copy-32-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-32-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "Plan Review Comes Before Construction",
+            "topics": [
+              "Plan Review Comes Before Construction"
+            ]
+          },
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "Zoning, Overlays and the Property Line",
+            "topics": [
+              "Zoning, Overlays and the Property Line"
+            ]
+          },
+          {
+            "image": "/media/deck-details/boards-800.webp",
+            "heading": "Inspections Before the Work Is Covered",
+            "topics": [
+              "Inspections Before the Work Is Covered"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/decks/replacements/",
+      "tabs": 4,
+      "catalogCards": 10,
+      "faqItems": 8,
+      "retainedAnchors": [
+        "service-detail-35-1",
+        "service-copy-35-2",
+        "service-copy-35-3",
+        "service-copy-35-4",
+        "service-copy-35-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-35-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "Frame, Ledger and Footings",
+            "topics": [
+              "Frame, Ledger and Footings"
+            ]
+          },
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "Keep the Footprint or Improve the Layout",
+            "topics": [
+              "Keep the Footprint or Improve the Layout"
+            ]
+          },
+          {
+            "image": "/media/deck-details/railing-800.webp",
+            "heading": "New Boards and Railings Need Suitable Supports",
+            "topics": [
+              "New Boards and Railings Need Suitable Supports"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/decks/repairs/",
+      "tabs": 7,
+      "catalogCards": 5,
+      "faqItems": 7,
+      "retainedAnchors": [
+        "service-detail-34-1",
+        "service-detail-34-2",
+        "service-detail-34-3",
+        "service-detail-34-4",
+        "service-copy-34-2",
+        "service-copy-34-3",
+        "service-copy-34-4"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-34-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "Where the Deck Meets the House",
+            "topics": [
+              "Where the Deck Meets the House"
+            ]
+          },
+          {
+            "image": "/media/deck-details/board-damage-800.webp",
+            "heading": "Damage Where Boards Meet the Stairs",
+            "topics": [
+              "Damage Where Boards Meet the Stairs"
+            ]
+          },
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "Where People Step and Hold On",
+            "topics": [
+              "Where People Step and Hold On"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "route": "/decks/refinishing/",
+      "tabs": 5,
+      "catalogCards": 3,
+      "faqItems": 8,
+      "retainedAnchors": [
+        "service-detail-33-1",
+        "service-copy-33-2",
+        "service-copy-33-3",
+        "service-copy-33-4",
+        "service-copy-33-5"
+      ],
+      "photoReview": {
+        "status": "reviewed",
+        "sectionId": "service-copy-33-3",
+        "pairs": [
+          {
+            "image": "/media/deck-details/structure-800.webp",
+            "heading": "Sound Wood Comes First",
+            "topics": [
+              "Sound Wood Comes First"
+            ]
+          },
+          {
+            "image": "/media/deck-details/wood-800.webp",
+            "heading": "Clean, Open Wood Takes Stain More Evenly",
+            "topics": [
+              "Clean, Open Wood Takes Stain More Evenly"
+            ]
+          },
+          {
+            "image": "/media/deck-details/refinish-800.webp",
+            "heading": "Dry Boards and a Suitable Weather Window",
+            "topics": [
+              "Dry Boards and a Suitable Weather Window"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "media": [
+    {
+      "source": "/media/services/deck-structure-v1-800.webp",
+      "path": "/media/deck-details/structure-400.webp",
+      "bytes": 25680,
+      "width": 400,
+      "height": 266
+    },
+    {
+      "source": "/media/services/deck-structure-v1-800.webp",
+      "path": "/media/deck-details/structure-800.webp",
+      "bytes": 90948,
+      "width": 800,
+      "height": 533
+    },
+    {
+      "source": "/media/gallery/756317b6a8a7-800.webp",
+      "path": "/media/deck-details/wood-400.webp",
+      "bytes": 11664,
+      "width": 400,
+      "height": 200
+    },
+    {
+      "source": "/media/gallery/756317b6a8a7-800.webp",
+      "path": "/media/deck-details/wood-800.webp",
+      "bytes": 31920,
+      "width": 800,
+      "height": 400
+    },
+    {
+      "source": "/media/products/manufacturers/1e516887ad32b5ec-1600.webp",
+      "path": "/media/deck-details/boards-400.webp",
+      "bytes": 24442,
+      "width": 400,
+      "height": 265
+    },
+    {
+      "source": "/media/products/manufacturers/1e516887ad32b5ec-1600.webp",
+      "path": "/media/deck-details/boards-800.webp",
+      "bytes": 80038,
+      "width": 800,
+      "height": 530
+    },
+    {
+      "source": "/media/products/systems/b9488e68518a-1016.webp",
+      "path": "/media/deck-details/railing-400.webp",
+      "bytes": 2194,
+      "width": 400,
+      "height": 203
+    },
+    {
+      "source": "/media/products/systems/b9488e68518a-1016.webp",
+      "path": "/media/deck-details/railing-800.webp",
+      "bytes": 4508,
+      "width": 800,
+      "height": 406
+    },
+    {
+      "source": "/media/service-heroes/decks-refinishing-1600.webp",
+      "path": "/media/deck-details/refinish-400.webp",
+      "bytes": 22524,
+      "width": 400,
+      "height": 225
+    },
+    {
+      "source": "/media/service-heroes/decks-refinishing-1600.webp",
+      "path": "/media/deck-details/refinish-800.webp",
+      "bytes": 70116,
+      "width": 800,
+      "height": 450
+    },
+    {
+      "source": "/media/service-comparisons/deck-repair-before-800.webp",
+      "path": "/media/deck-details/board-damage-400.webp",
+      "bytes": 36358,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "source": "/media/service-comparisons/deck-repair-before-800.webp",
+      "path": "/media/deck-details/board-damage-800.webp",
+      "bytes": 108776,
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "notes": [
+    "Existing URLs, canonicals, shared heroes, galleries, external-review selection, before/after illustrations and booking actions retained.",
+    "No new calendar event, global credential replacement, indexing or global business-type change authorized by the document.",
+    "Current catalog supplies descriptions and thumbnails for matching product detail cards.",
+    "Columbus CIC23 permit/guard/stair facts checked on the official city PDF; other construction guidance remains project-specific.",
+    "CIC09 and AWC PDF fetches unavailable during this pass; precise footing depth and unsupported structural recipes replaced with approved-design guidance.",
+    "Cabot general preparation and temperature guidance checked against manufacturer guidance; coating labels control actual application and cure conditions.",
+    "All calls use the approved site identity. No first-party or unsourced deck review added.",
+    "This six-page source-led implementation is separate from the original ten-page editorial batch count.",
+    "Transparent railing imagery flattened onto ivory so dark balusters remain visible inside the charcoal photo band. Shared brand bar now owns explicit charcoal heading and muted body colors."
+  ],
+  "verification": {
+    "status": "Targeted local rendering passed; complete CI gate deferred to authorized release",
+    "pages": [
+      {
+        "route": "/decks/",
+        "status": 200,
+        "h1": 1,
+        "panels": 7,
+        "photoPairs": 3,
+        "errors": []
+      },
+      {
+        "route": "/decks/accessories/",
+        "status": 200,
+        "h1": 1,
+        "panels": 4,
+        "photoPairs": 3,
+        "errors": []
+      },
+      {
+        "route": "/decks/installations/",
+        "status": 200,
+        "h1": 1,
+        "panels": 6,
+        "photoPairs": 3,
+        "errors": []
+      },
+      {
+        "route": "/decks/replacements/",
+        "status": 200,
+        "h1": 1,
+        "panels": 4,
+        "photoPairs": 3,
+        "errors": []
+      },
+      {
+        "route": "/decks/repairs/",
+        "status": 200,
+        "h1": 1,
+        "panels": 7,
+        "photoPairs": 3,
+        "errors": []
+      },
+      {
+        "route": "/decks/refinishing/",
+        "status": 200,
+        "h1": 1,
+        "panels": 5,
+        "photoPairs": 3,
+        "errors": []
+      }
+    ],
+    "desktop": "Accessory selector and disclosure-card layout reviewed in browser",
+    "mobile": "390px accessory layout reviewed; no horizontal page overflow",
+    "imageBytes": 509168,
+    "largestVariantBytes": 108776
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "route": "/ice-dam-removal/",
+  "source": {
+    "file": "Roof_King_Ice_Dam_Removal_Complete_SEO_and_Copy_For_Gary (1).pdf",
+    "pages": 7,
+    "sha256": "9c84b1d18a646b11be5730b88d0d6628e5a8009fc9e9f043b1ef3978e37fb613"
+  },
+  "workflow": {
+    "draft": "Copywriting: existing-service rewrite based on the supplied content and customer problem.",
+    "edit": "Copy Editing: all seven sweeps applied before mapping. Removed audit commentary, equipment-verification questions, source-status language, scope wording and obsolete form instructions. Preserved source facts without inventing equipment or response times."
+  },
+  "components": [
+    "LandingHero",
+    "TrustStrip",
+    "ServiceArticle",
+    "IceDamDiagram",
+    "ReviewSection",
+    "CredentialsSection",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "BrandStrip",
+    "ServiceComparison",
+    "ServiceGallery",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "faqItems": 7,
+  "photoPairs": 3,
+  "notes": [
+    "Preserved existing URL, canonical, heading anchors, custom hero, ice-dam cutaway and optimized three-photo assignments.",
+    "Preserved batch 04 marker, external review source context, gallery and illustrative before/after treatment.",
+    "No specific removal equipment, steam service, guaranteed prevention, damage-free result or dispatch time claimed.",
+    "Insurance wording assigns coverage decisions to the insurer. Workmanship eligibility for ice removal is not assumed.",
+    "All calls retain (614) 379-8893 and tel:+16143798893. Booking actions use the existing calendar.",
+    "Removed the source FAQ about undocumented steam equipment; replaced with a useful roof-specific removal-planning FAQ.",
+    "University of Minnesota Extension primary guidance reviewed at https://extension.umn.edu/garden-and-home/home-maintenance/caring-for-a-home/dealing-with-and-preventing-ice-dams. The supplied Ohio news URL returned 404 and was not added to the page."
+  ],
+  "verification": {
+    "route": "/ice-dam-removal/",
+    "status": "Targeted local rendering passed; full CI deferred to authorized release",
+    "h1": 1,
+    "faqItems": 7,
+    "photoPairs": 3,
+    "retainedAnchors": 8,
+    "failures": []
+  }
+}

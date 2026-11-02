@@ -1,7 +1,7 @@
 ---
-title: "Columbus Window Company"
+title: "Window Replacement Columbus, OH | Roof King & Restoration"
 permalink: "/windows/"
-description: "Interested in a new window installation for your Columbus home? Count on our experts at Roof King & Restoration to be there to help. Reach out now for a quote."
+description: "Window replacement in Columbus, OH. Roof King helps homeowners compare styles, energy ratings, installation and trim. Call (614) 490-0123."
 canonicalPath: "/windows/"
 category: "Additional service"
 source: "wordpress"
@@ -25,7 +25,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Plan your project with Roof King</h2>
                                                                 <p>Talk with our team about timing, products, and the best path for your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -94,7 +94,7 @@ priority: "preserve-and-improve"
               <p>No matter what your desired window style is, we’re sure to have it with our extensive selection of window options.</p>
               <strong>Learn More</strong>
             </a>
-<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16143798893">(614) 379-8893</a></div></div>
+<div class="rk-page-service-cta" aria-label="Start your exterior project"><a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote Now</a><a class="rk-page-service-phone" href="tel:+16144900123">(614) 490-0123</a></div></div>
     </div>
   </section>
 
@@ -361,7 +361,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

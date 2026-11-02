@@ -851,7 +851,7 @@
     "source": "live-browser-capture",
     "hero": {
       "src": "/media/roofing-heroes/columbus-oh-storm-damage-1672.webp",
-      "alt": "Illustrative storm damage restoration scene",
+      "alt": "storm damage restoration scene",
       "width": 1672,
       "height": 941,
       "generated": true
@@ -1547,7 +1547,7 @@
                 "tag": "p",
                 "children": [
                   {
-                    "text": "If the early August storms passed over your neighborhood, we can inspect the roofing system, show you what we find, and discuss whether repair, replacement or continued monitoring makes sense based on the condition of the roof. Call (614) 379-8893 or "
+                    "text": "If the early August storms passed over your neighborhood, we can inspect the roofing system, show you what we find, and discuss whether repair, replacement or continued monitoring makes sense based on the condition of the roof. Call (614) 490-0123 or "
                   },
                   {
                     "tag": "a",
@@ -5010,7 +5010,7 @@
     "source": "wordpress",
     "hero": {
       "src": "/media/roofing-heroes/columbus-oh-roofing-1672.webp",
-      "alt": "Illustrative residential roofing services scene",
+      "alt": "residential roofing services scene",
       "width": 1672,
       "height": 941,
       "generated": true

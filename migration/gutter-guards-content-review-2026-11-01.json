@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof_King_Gutter_Guards_Complete_Content_and_SEO_For_Gary (1).pdf",
+    "sha256": "368920f860390e95675fb71f32d9e3b24132819e9d81e5ad1735be88998117c2"
+  },
+  "route": "/gutters/guards/",
+  "workflow": {
+    "draft": "Copywriting: source-led homeowner guard selection and installation copy drafted with the supplied contractor voice.",
+    "editing": "Copy Editing: clarity, voice, benefits, evidence, specificity, emotion and action passes completed before component mapping. Internal research notes, numbered steps and unsupported service promises omitted."
+  },
+  "faqItems": 7,
+  "components": [
+    "LandingHero",
+    "ServiceArticle",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "CredentialsSection",
+    "ReviewSection",
+    "BrandStrip",
+    "ServiceComparison",
+    "ServiceGallery",
+    "FeaturedArticles",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "notes": [
+    "Preserved route, canonical, original section IDs, hero, three optimized topic-matched photos, before/after, source-linked reviews, gallery and booking.",
+    "Retained product-library, Alu-Rex and LeafFilter links without extending installer authorization or compatibility claims.",
+    "No maintenance-free, overflow-elimination or universal ice-dam-prevention promise; no blanket warranty duration.",
+    "All contact details use (614) 379-8893 and tel:+16143798893.",
+    "Main gutters, seamless and commercial pages retain separate intent."
+  ],
+  "verification": "Local route review; full verification remains GitHub-owned on an authorized release."
+}

@@ -32,5 +32,5 @@ priority: "preserve-and-improve"
 <h2>Where we are</h2>
 <p>We target WCAG 2.1 Level AA. We are not claiming full conformance, because claiming it without an independent audit would be a claim we cannot back up.</p>
 <h2>Tell us about a barrier</h2>
-<p>If something on this site is not usable for you, contact us and we will fix it and help you get what you needed in the meantime. Call <a href="tel:+16143798893">(614) 379-8893</a> or email <a href="mailto:jlane@roofkingco.com">jlane@roofkingco.com</a>.</p></div></div></section>
+<p>If something on this site is not usable for you, contact us and we will fix it and help you get what you needed in the meantime. Call <a href="tel:+16144900123">(614) 490-0123</a> or email <a href="mailto:jlane@roofkingco.com">jlane@roofkingco.com</a>.</p></div></div></section>
 

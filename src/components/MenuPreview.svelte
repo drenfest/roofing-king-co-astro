@@ -23,7 +23,6 @@
 <div class="rk-menu-preview" data-menu-image-path={item.href}>
   <div class="rk-menu-preview-photo" aria-busy={!loaded}>
     {#if loaded}{#key item.href}<div class="rk-menu-atlas-tile" aria-hidden="true" data-atlas-cell={`${image.column}-${image.row}`} style={`background-image:url(${atlas.src});background-size:${atlas.columns*100}% ${atlas.rows*100}%;background-position:${image.column/Math.max(1,atlas.columns-1)*100}% ${image.row/Math.max(1,atlas.rows-1)*100}%`} in:fade={{duration:fadeDuration()}} out:fade={{duration:fadeDuration()}}></div>{/key}{/if}
-    {#if loaded&&image.illustrative}<span class="rk-menu-preview-credit">Illustrative image</span>{/if}
   </div>
   <span class="rk-menu-preview-caption"><span>{item.label}</span></span>
 </div>

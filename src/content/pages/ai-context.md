@@ -50,7 +50,6 @@ Parent guidance: [src/content](../ai-context.md).
 - [cincinnati-oh/](cincinnati-oh/ai-context.md)
 - [cleveland-oh/](cleveland-oh/ai-context.md)
 - [columbus-oh/](columbus-oh/ai-context.md)
-- [columbus-ppc-company/](columbus-ppc-company/ai-context.md)
 - [commercial-roofing/](commercial-roofing/ai-context.md)
 - [commercial-siding/](commercial-siding/ai-context.md)
 - [contact/](contact/ai-context.md)

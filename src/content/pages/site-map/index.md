@@ -87,7 +87,7 @@ priority: "preserve-and-improve"
 </ul>                    <li><a href="/columbus-oh/">Columbus, OH</a></li>
 <ul>                    <li><a href="/columbus-oh/roofing/">Columbus, OH Roofing</a></li>
                     <li><a href="/columbus-oh/storm-damage/">Columbus Storm Damage</a></li>
-</ul>                    <li><a href="/columbus-ppc-company/">PPC – Columbus – Company</a></li>
+</ul>
                     <li><a href="/commercial-roofing/">Commercial Roofing</a></li>
 <ul>                    <li><a href="/commercial-roofing/gutters/">Commercial Gutters</a></li>
                     <li><a href="/commercial-roofing/repair/">Commercial Roof Repair</a></li>

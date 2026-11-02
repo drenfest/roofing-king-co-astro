@@ -146,7 +146,7 @@ for(const route of manifest){
   if(figure.attr('data-topic-photo')){const preview=figure.children('img');assert.ok(preview.attr('alt'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));continue;}
   const child=cheerio.load(await fs.readFile('dist'+href.split(/[?#]/)[0]+'index.html','utf8'));const actual=child('.rk-editorial-hero>img').first();const preview=figure.children('img');
   assert.equal(preview.attr('src'),actual.attr('src'),'Preview must match its destination: '+href);assert.equal(preview.attr('srcset'),actual.attr('srcset'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));
-  if(/illustrat/i.test(child('.rk-service-hero-credit').text()))assert.ok(figure.find('figcaption').text().includes('Illustrative'));
+  assert.ok(!/illustrative/i.test(figure.find('figcaption').text()),'No removed image tips');
   tabImages++;
  }
 }

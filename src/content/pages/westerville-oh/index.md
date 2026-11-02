@@ -1,15 +1,19 @@
 ---
-title: "Roofing and exterior work in Westerville"
-permalink: "/westerville-oh/"
-description: "HomeService AreasWesterville, OH Westerville, Ohio Roofing and exterior work in Westerville Mature tree canopy across most of the older neighborhoods, which "
-canonicalPath: "/westerville-oh/"
-category: "Local service"
-source: "published-static-build"
-sourcePath: "/westerville-oh/"
+title: Westerville, OH Roofing & Exterior Services | Roof King
+permalink: /westerville-oh/
+description: Roofing, siding, storm-damage repairs and exterior services in
+  Westerville, OH. Discuss your project and request a written estimate from Roof
+  King & Restoration.
+canonicalPath: /westerville-oh/
+category: Local service
+source: published-static-build
+sourcePath: /westerville-oh/
 wordpressId: null
-reviewStatus: "imported-needs-review"
-notes: ["Imported published HTML, not the original source repository. Verify claims and rebuild components."]
-priority: "preserve-and-improve"
+reviewStatus: imported-needs-review
+notes:
+  - Imported published HTML, not the original source repository. Verify claims
+    and rebuild components.
+priority: preserve-and-improve
 ---
 
 
@@ -21,7 +25,7 @@ priority: "preserve-and-improve"
   <p class="lede">Mature tree canopy across most of the older neighborhoods, which makes gutter guards worth the money here more often than in newer subdivisions, and makes moss and shade-side algae staining a routine finding.</p>
   <div class="btn-row" style="margin-top:24px">
     <a class="btn btn-primary" href="/free-inspection/">Free inspection</a>
-    <a class="btn btn-ghost" href="tel:+16143798893"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 379-8893</a>
+    <a class="btn btn-ghost" href="tel:+16144900123"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 490-0123</a>
   </div>
 </div></section>
 
@@ -41,7 +45,7 @@ priority: "preserve-and-improve"
 <div class="formcard">
   <h2>Westerville free inspection</h2>
   <p class="sub">No cost, no obligation.</p>
-  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16143798893">Call (614) 379-8893</a></div>
+  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16144900123">Call (614) 490-0123</a></div>
 </div></div>
   </div>
 </div></section>
@@ -52,7 +56,7 @@ priority: "preserve-and-improve"
     <p>A documented roof inspection, an itemized roofing estimate and an honest repair or replacement recommendation.</p>
     <div class="btn-row">
       <a class="btn btn-primary btn-lg" href="/free-inspection/">Book a Free Inspection</a>
-      <a class="btn btn-onDark-ghost btn-lg" href="tel:+16143798893"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 379-8893</a>
+      <a class="btn btn-onDark-ghost btn-lg" href="tel:+16144900123"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 490-0123</a>
     </div>
   </div>
 </div></section>

@@ -1,0 +1,1217 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "purpose": "Replace every rendered ServiceSystemDiagram with a section-specific optimized photograph or established topical illustration.",
+  "sections": 145,
+  "pages": 70,
+  "uniqueSubjects": 23,
+  "assignments": [
+    {
+      "route": "/akron-oh/",
+      "sectionId": "service-copy-1-2",
+      "title": "Coordinating roofing, siding and storm repairs in Akron",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/akron-oh/",
+      "sectionId": "service-copy-1-4",
+      "title": "Exterior services for homes and businesses in Akron",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/akron-oh/",
+      "sectionId": "location-akron-oh-planning",
+      "title": "Planning your Akron exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/athens-oh/",
+      "sectionId": "service-copy-2-2",
+      "title": "Coordinating roofing, siding and storm repairs in Athens",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/athens-oh/",
+      "sectionId": "service-copy-2-4",
+      "title": "Exterior services for homes and businesses in Athens",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/athens-oh/",
+      "sectionId": "location-athens-oh-planning",
+      "title": "Planning your Athens exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/aurora-oh/",
+      "sectionId": "service-copy-4-2",
+      "title": "Coordinating roofing, siding and storm repairs in Aurora",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/aurora-oh/",
+      "sectionId": "service-copy-4-4",
+      "title": "Exterior services for homes and businesses in Aurora",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/aurora-oh/",
+      "sectionId": "location-aurora-oh-planning",
+      "title": "Planning your Aurora exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/beavercreek-oh/",
+      "sectionId": "service-copy-5-2",
+      "title": "Coordinating roofing, siding and storm repairs in Beavercreek",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/beavercreek-oh/",
+      "sectionId": "service-copy-5-4",
+      "title": "Exterior services for homes and businesses in Beavercreek",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/beavercreek-oh/",
+      "sectionId": "location-beavercreek-oh-planning",
+      "title": "Planning your Beavercreek exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/centerville-oh/",
+      "sectionId": "service-copy-6-2",
+      "title": "Coordinating roofing, siding and storm repairs in Centerville",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/centerville-oh/",
+      "sectionId": "service-copy-6-4",
+      "title": "Exterior services for homes and businesses in Centerville",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/centerville-oh/",
+      "sectionId": "location-centerville-oh-planning",
+      "title": "Planning your Centerville exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/cincinnati-oh/",
+      "sectionId": "service-copy-7-3",
+      "title": "Roofing and exterior services for Cincinnati homes and commercial properties",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-copy-8-2",
+      "title": "Cincinnati roof assessments: leak history, access and concealed conditions",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/cincinnati-oh/roofing/",
+      "sectionId": "service-copy-8-4",
+      "title": "Comparing shingle and metal roof systems for a Cincinnati home",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-3",
+      "title": "Locating storm findings on your Cincinnati roof and exterior",
+      "photoId": "riley-29"
+    },
+    {
+      "route": "/cincinnati-oh/storm-damage/",
+      "sectionId": "service-copy-9-4",
+      "title": "Cincinnati storm-damaged roofing: targeted repairs or broader replacement",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/cincinnati-oh/the-cost-of-siding-replacement/",
+      "sectionId": "service-copy-10-2",
+      "title": "Compare siding materials and installation costs",
+      "photoId": "photo-33"
+    },
+    {
+      "route": "/cleveland-oh/",
+      "sectionId": "service-copy-11-3",
+      "title": "Roofing and exterior services for Cleveland homes and managed buildings",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-2",
+      "title": "Cleveland roof assessments: current leaks, repair history and inaccessible areas",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/cleveland-oh/roofing/",
+      "sectionId": "service-copy-12-4",
+      "title": "Shingle and metal roofing choices for your Cleveland replacement",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-3",
+      "title": "Comparing straightforward and complex Cleveland roof replacement estimates",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "sectionId": "service-copy-13-5",
+      "title": "Using a roof calculator before a Cleveland property assessment",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-copy-14-2",
+      "title": "Cleveland storm findings: wind, hail and debris by roof or exterior area",
+      "photoId": "riley-29"
+    },
+    {
+      "route": "/cleveland-oh/storm-damage/",
+      "sectionId": "service-copy-14-4",
+      "title": "Cleveland roofing after a storm: define repairable areas before replacement",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/columbus-oh/",
+      "sectionId": "service-copy-15-4",
+      "title": "Planning your Columbus exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "sectionId": "service-copy-16-2",
+      "title": "What the roof assessment needs to establish",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/columbus-oh/roofing/",
+      "sectionId": "service-copy-16-4",
+      "title": "Choose roofing by product and system",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "sectionId": "service-copy-17-2",
+      "title": "Wind, hail and debris affect different details",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/columbus-oh/storm-damage/",
+      "sectionId": "service-copy-17-4",
+      "title": "Repair the affected components or consider broader replacement",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/commercial-roofing/",
+      "sectionId": "service-copy-18-2",
+      "title": "What a Commercial Roof Assessment Should Examine",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-3",
+      "title": "Gutters, Scuppers and Internal Roof Drains",
+      "photoId": "photo-17"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-4",
+      "title": "Choosing Gutter Materials, Profiles and Protection",
+      "photoId": "photo-34"
+    },
+    {
+      "route": "/commercial-roofing/gutters/",
+      "sectionId": "service-copy-19-6",
+      "title": "Planning Gutter Work Around an Occupied Building",
+      "photoId": "commercial-access"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-copy-20-3",
+      "title": "Wet Insulation and Concealed Damage",
+      "photoId": "commercial-wet-insulation"
+    },
+    {
+      "route": "/commercial-roofing/repair/",
+      "sectionId": "service-copy-20-5",
+      "title": "Repair or Replacement: Which Makes More Sense?",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/commercial-roofing/replacement/",
+      "sectionId": "service-copy-21-4",
+      "title": "How We Plan a Commercial Roof Replacement",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/commercial-siding/",
+      "sectionId": "service-copy-23-2",
+      "title": "Commercial siding repair, replacement and material choices",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "sectionId": "service-copy-24-2",
+      "title": "What changes the price of a Columbus roof replacement",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/cost-of-a-new-roof/",
+      "sectionId": "service-copy-24-5",
+      "title": "Using a roof calculator before a measured estimate",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/dayton-oh/",
+      "sectionId": "service-copy-25-3",
+      "title": "Roofing and exterior services for Dayton homes and commercial properties",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-2",
+      "title": "Dayton roof assessments: leak locations, previous work and adjoining construction",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/dayton-oh/roofing/",
+      "sectionId": "service-copy-26-4",
+      "title": "Comparing shingle and metal roof systems for a Dayton property",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-2",
+      "title": "Dayton storm inspections: shingles, exposed metal and adjoining exterior damage",
+      "photoId": "photo-7"
+    },
+    {
+      "route": "/dayton-oh/storm-damage/",
+      "sectionId": "service-copy-27-3",
+      "title": "Recording the affected Dayton roof areas before choosing repairs",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/dayton-oh/the-cost-of-new-gutters/",
+      "sectionId": "service-copy-28-2",
+      "title": "What affects gutter replacement cost in Dayton?",
+      "photoId": "photo-34"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "sectionId": "service-copy-29-2",
+      "title": "Verify the company and relevant credentials",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/dayton-roofers/",
+      "sectionId": "service-copy-29-4",
+      "title": "Ask questions about who will manage the work",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/delaware-oh/",
+      "sectionId": "service-copy-36-4",
+      "title": "Planning your Delaware exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "sectionId": "service-copy-37-2",
+      "title": "What the roof assessment needs to establish",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/delaware-oh/roofing/",
+      "sectionId": "service-copy-37-4",
+      "title": "Choose roofing by product and system",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "sectionId": "service-copy-38-2",
+      "title": "Wind, hail and debris affect different details",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/delaware-oh/storm-damage/",
+      "sectionId": "service-copy-38-4",
+      "title": "Repair the affected components or consider broader replacement",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/dublin-oh/",
+      "sectionId": "service-copy-39-2",
+      "title": "Coordinating roofing, siding and storm repairs in Dublin",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/dublin-oh/",
+      "sectionId": "service-copy-39-4",
+      "title": "Exterior services for homes and businesses in Dublin",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/dublin-oh/",
+      "sectionId": "location-dublin-oh-planning",
+      "title": "Planning your Dublin exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-2",
+      "title": "Emergency roof damage: keep people clear of unstable areas",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-40-5",
+      "title": "Choosing a permanent roof repair after the urgent response",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/exterior-painting/",
+      "sectionId": "service-copy-41-2",
+      "title": "Repair unsuitable material before coating it",
+      "photoId": "riley-67"
+    },
+    {
+      "route": "/exterior-painting/",
+      "sectionId": "service-copy-41-4",
+      "title": "Choose the coating and color together",
+      "photoId": "photo-33"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "sectionId": "service-copy-42-3",
+      "title": "Planning tear-off, deliveries and roof access in Dublin",
+      "photoId": "riley-42"
+    },
+    {
+      "route": "/gaf-roofing-dublin-oh/",
+      "sectionId": "service-copy-42-4",
+      "title": "Verifying your Dublin roofer’s GAF Master Elite designation",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/gahanna-oh/",
+      "sectionId": "service-copy-43-2",
+      "title": "Coordinating roofing, siding and storm repairs in Gahanna",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/gahanna-oh/",
+      "sectionId": "service-copy-43-4",
+      "title": "Exterior services for homes and businesses in Gahanna",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/gahanna-oh/",
+      "sectionId": "location-gahanna-oh-planning",
+      "title": "Planning your Gahanna exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/grove-city-oh/",
+      "sectionId": "service-copy-44-2",
+      "title": "Coordinating roofing, siding and storm repairs in Grove City",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/grove-city-oh/",
+      "sectionId": "service-copy-44-4",
+      "title": "Exterior services for homes and businesses in Grove City",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/grove-city-oh/",
+      "sectionId": "location-grove-city-oh-planning",
+      "title": "Planning your Grove City exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/gutter-installation-dublin-oh/",
+      "sectionId": "service-copy-45-2",
+      "title": "Gutter layout, materials and downspout placement",
+      "photoId": "photo-34"
+    },
+    {
+      "route": "/gutters/",
+      "sectionId": "service-copy-46-2",
+      "title": "When Should You Replace Your Gutters?",
+      "photoId": "photo-34"
+    },
+    {
+      "route": "/gutters/guards/",
+      "sectionId": "service-copy-47-2",
+      "title": "Gutter Guard Types and How They Compare",
+      "photoId": "riley-16"
+    },
+    {
+      "route": "/gutters/seamless/",
+      "sectionId": "service-copy-48-2",
+      "title": "When Seamless Gutters Make Sense",
+      "photoId": "photo-34"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-3",
+      "title": "Hail-damaged roofing: focused repair or wider replacement",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-49-5",
+      "title": "Shingle impact classifications and their limits in real hailstorms",
+      "photoId": "photo-7"
+    },
+    {
+      "route": "/hamilton-oh/",
+      "sectionId": "service-copy-50-2",
+      "title": "Coordinating roofing, siding and storm repairs in Hamilton",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/hamilton-oh/",
+      "sectionId": "service-copy-50-4",
+      "title": "Exterior services for homes and businesses in Hamilton",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/hamilton-oh/",
+      "sectionId": "location-hamilton-oh-planning",
+      "title": "Planning your Hamilton exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/hilliard-oh/",
+      "sectionId": "service-copy-51-2",
+      "title": "Coordinating roofing, siding and storm repairs in Hilliard",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/hilliard-oh/",
+      "sectionId": "service-copy-51-4",
+      "title": "Exterior services for homes and businesses in Hilliard",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/hilliard-oh/",
+      "sectionId": "location-hilliard-oh-planning",
+      "title": "Planning your Hilliard exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/ice-dam-removal/",
+      "sectionId": "service-copy-52-4",
+      "title": "Ice Dam Removal and Roof Repair Are Different Jobs",
+      "photoId": "riley-38"
+    },
+    {
+      "route": "/lancaster-oh/",
+      "sectionId": "service-copy-53-2",
+      "title": "Coordinating roofing, siding and storm repairs in Lancaster",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/lancaster-oh/",
+      "sectionId": "service-copy-53-4",
+      "title": "Exterior services for homes and businesses in Lancaster",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/lancaster-oh/",
+      "sectionId": "location-lancaster-oh-planning",
+      "title": "Planning your Lancaster exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/lewis-center-oh/",
+      "sectionId": "service-copy-54-2",
+      "title": "Coordinating roofing, siding and storm repairs in Lewis Center",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/lewis-center-oh/",
+      "sectionId": "service-copy-54-4",
+      "title": "Exterior services for homes and businesses in Lewis Center",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/lewis-center-oh/",
+      "sectionId": "location-lewis-center-oh-planning",
+      "title": "Planning your Lewis Center exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "sectionId": "service-copy-55-3",
+      "title": "Comparing metal roofing and GAF shingles as installed systems",
+      "photoId": "photo-7"
+    },
+    {
+      "route": "/metal-roofing-dublin-oh/",
+      "sectionId": "service-copy-55-5",
+      "title": "Maintaining metal roof fasteners, finishes and future penetrations",
+      "photoId": "photo-7"
+    },
+    {
+      "route": "/middletown-oh/",
+      "sectionId": "service-copy-56-2",
+      "title": "Coordinating roofing, siding and storm repairs in Middletown",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/middletown-oh/",
+      "sectionId": "service-copy-56-4",
+      "title": "Exterior services for homes and businesses in Middletown",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/middletown-oh/",
+      "sectionId": "location-middletown-oh-planning",
+      "title": "Planning your Middletown exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/newark-oh/",
+      "sectionId": "service-copy-57-2",
+      "title": "Coordinating roofing, siding and storm repairs in Newark",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/newark-oh/",
+      "sectionId": "service-copy-57-4",
+      "title": "Exterior services for homes and businesses in Newark",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/newark-oh/",
+      "sectionId": "location-newark-oh-planning",
+      "title": "Planning your Newark exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/powell-oh/",
+      "sectionId": "service-copy-58-2",
+      "title": "Coordinating roofing, siding and storm repairs in Powell",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/powell-oh/",
+      "sectionId": "service-copy-58-4",
+      "title": "Exterior services for homes and businesses in Powell",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/powell-oh/",
+      "sectionId": "location-powell-oh-planning",
+      "title": "Planning your Powell exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/roof-calculator/",
+      "sectionId": "service-copy-59-2",
+      "title": "Checking the house, garage and roof areas in your result",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/roof-calculator/",
+      "sectionId": "service-copy-59-4",
+      "title": "Saving your roof estimate result and selected options",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-2",
+      "title": "Water coming in? Call our team",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-3",
+      "title": "Finding the source of your roof leak",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/roof-repair-dublin-oh/",
+      "sectionId": "service-copy-60-5",
+      "title": "Should you repair or replace your roof?",
+      "photoId": "riley-62"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-2",
+      "title": "Selecting the shingle or metal system for your replacement roof",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/roof-replacement-dublin-oh/",
+      "sectionId": "service-copy-61-4",
+      "title": "Roof replacement access, property protection and cleanup",
+      "photoId": "riley-42"
+    },
+    {
+      "route": "/roofing-calculator/",
+      "sectionId": "service-copy-62-4",
+      "title": "Price, financing and insurance questions after a roof estimate",
+      "photoId": "riley-21"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-2",
+      "title": "Checking Roof King’s business record and GAF credentials",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/roofing-contractor-dublin-oh/",
+      "sectionId": "service-copy-63-5",
+      "title": "Using roofing reviews and project photos to ask better questions",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "sectionId": "service-copy-64-3",
+      "title": "Planning GAF tear-off, preparation and installation",
+      "photoId": "riley-42"
+    },
+    {
+      "route": "/roofing/gaf/",
+      "sectionId": "service-copy-64-4",
+      "title": "What GAF Master Elite certification means for your project",
+      "photoId": "riley-02"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "sectionId": "golden-pledge-benefits",
+      "title": "Golden Pledge® benefits for materials and installation",
+      "photoId": "riley-51"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "sectionId": "master-elite-qualifications",
+      "title": "GAF Master Elite requirements you can verify",
+      "photoId": "riley-16"
+    },
+    {
+      "route": "/roofing/gaf/master-elite/",
+      "sectionId": "gaf-warranty-choices",
+      "title": "System Plus®, Silver Pledge™ and Golden Pledge® compared",
+      "photoId": "riley-51"
+    },
+    {
+      "route": "/roofing/metal/",
+      "sectionId": "service-copy-66-3",
+      "title": "Comparing metal roofing with GAF shingles",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/roofing/metal/",
+      "sectionId": "service-copy-66-4",
+      "title": "Metal roof colors, finishes and product performance",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/roofing/repair/",
+      "sectionId": "service-copy-67-2",
+      "title": "Finding the source of a roof leak",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/roofing/repair/",
+      "sectionId": "service-copy-67-4",
+      "title": "Roof repair or replacement: what the inspection changes",
+      "photoId": "riley-62"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-2",
+      "title": "Choosing shingles or metal for a complete roof replacement",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/roofing/replacement/",
+      "sectionId": "service-copy-68-4",
+      "title": "Protecting entrances, landscaping and access during replacement",
+      "photoId": "riley-42"
+    },
+    {
+      "route": "/roofing/types/",
+      "sectionId": "service-copy-69-2",
+      "title": "Metal roofing profiles, seams and attachment",
+      "photoId": "photo-9"
+    },
+    {
+      "route": "/siding/replacement/",
+      "sectionId": "service-copy-71-2",
+      "title": "Selecting replacement siding, colors and trim",
+      "photoId": "photo-33"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-3",
+      "title": "Roof damage records: connect photographs with locations and proposed repairs",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "sectionId": "service-copy-73-4",
+      "title": "Storm-damaged roofing: focused repairs or a broader replacement assessment",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-copy-75-4",
+      "title": "Commercial storm repairs, replacement and recover suitability",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/storm-damage/commercial/",
+      "sectionId": "service-copy-75-5",
+      "title": "Coordinating temporary protection and permanent commercial repairs",
+      "photoId": "riley-11"
+    },
+    {
+      "route": "/upper-arlington-oh/",
+      "sectionId": "service-copy-79-2",
+      "title": "Coordinating roofing, siding and storm repairs in Upper Arlington",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/upper-arlington-oh/",
+      "sectionId": "service-copy-79-4",
+      "title": "Exterior services for homes and businesses in Upper Arlington",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/upper-arlington-oh/",
+      "sectionId": "location-upper-arlington-oh-planning",
+      "title": "Planning your Upper Arlington exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/westerville-oh/",
+      "sectionId": "service-copy-80-2",
+      "title": "Coordinating roofing, siding and storm repairs in Westerville",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/westerville-oh/",
+      "sectionId": "service-copy-80-4",
+      "title": "Exterior services for homes and businesses in Westerville",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/westerville-oh/",
+      "sectionId": "location-westerville-oh-planning",
+      "title": "Planning your Westerville exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/windows/",
+      "sectionId": "service-copy-81-3",
+      "title": "Energy-Efficient Windows: What the Ratings Mean",
+      "photoId": "photo-35"
+    },
+    {
+      "route": "/worthington-oh/",
+      "sectionId": "service-copy-82-2",
+      "title": "Coordinating roofing, siding and storm repairs in Worthington",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/worthington-oh/",
+      "sectionId": "service-copy-82-4",
+      "title": "Exterior services for homes and businesses in Worthington",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/worthington-oh/",
+      "sectionId": "location-worthington-oh-planning",
+      "title": "Planning your Worthington exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/zanesville-oh/",
+      "sectionId": "service-copy-83-2",
+      "title": "Coordinating roofing, siding and storm repairs in Zanesville",
+      "photoId": "riley-18"
+    },
+    {
+      "route": "/zanesville-oh/",
+      "sectionId": "service-copy-83-4",
+      "title": "Exterior services for homes and businesses in Zanesville",
+      "photoId": "photo-20"
+    },
+    {
+      "route": "/zanesville-oh/",
+      "sectionId": "location-zanesville-oh-planning",
+      "title": "Planning your Zanesville exterior project",
+      "photoId": "riley-25"
+    },
+    {
+      "route": "/storm-damage/residential/",
+      "sectionId": "residential-storm-damage-signs",
+      "title": "Wind, Hail and Water Entry Need Different Checks",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/storm-damage/residential/",
+      "sectionId": "residential-storm-inspection",
+      "title": "Residential Storm Damage Inspection: What Roof King Checks",
+      "photoId": "riley-30"
+    },
+    {
+      "route": "/storm-damage/residential/",
+      "sectionId": "residential-storm-repair-or-replace",
+      "title": "Storm Damage Roof Repair or Replacement?",
+      "photoId": "riley-32"
+    },
+    {
+      "route": "/storm-damage/residential/",
+      "sectionId": "residential-storm-exterior",
+      "title": "Siding, Gutters and Roof Edges After a Storm",
+      "photoId": "photo-34"
+    }
+  ],
+  "assets": [
+    {
+      "src": "/media/section-details/riley-18-400.webp",
+      "source": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-1280.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 22592
+    },
+    {
+      "src": "/media/section-details/riley-18-800.webp",
+      "source": "/media/client-gallery/roofing-above-a-dark-sided-exterior-26a87ec404-1280.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 71958
+    },
+    {
+      "src": "/media/section-details/photo-20-400.webp",
+      "source": "/media/wordpress/275d263eab92-0e4a2ef0-b97d-42ff-8870-7620595e6bdd.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 19758
+    },
+    {
+      "src": "/media/section-details/photo-20-800.webp",
+      "source": "/media/wordpress/275d263eab92-0e4a2ef0-b97d-42ff-8870-7620595e6bdd.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 76646
+    },
+    {
+      "src": "/media/section-details/riley-25-400.webp",
+      "source": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-924.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 10930
+    },
+    {
+      "src": "/media/section-details/riley-25-800.webp",
+      "source": "/media/client-gallery/together-at-the-roof-king-office-b4ec2fe748-924.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 30970
+    },
+    {
+      "src": "/media/section-details/riley-30-400.webp",
+      "source": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-554.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 36598
+    },
+    {
+      "src": "/media/section-details/riley-30-554.webp",
+      "source": "/media/client-gallery/inspecting-a-creased-shingle-tab-272025f08f-554.webp",
+      "width": 554,
+      "height": 369,
+      "bytes": 79624
+    },
+    {
+      "src": "/media/section-details/photo-9-400.webp",
+      "source": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 22142
+    },
+    {
+      "src": "/media/section-details/photo-9-800.webp",
+      "source": "/media/wordpress/c74e484fcd14-25daf4f6-b008-4471-ad59-6df493a95fd6.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 53818
+    },
+    {
+      "src": "/media/section-details/riley-29-400.webp",
+      "source": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-800.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 18232
+    },
+    {
+      "src": "/media/section-details/riley-29-800.webp",
+      "source": "/media/client-gallery/displaced-siding-and-exposed-housewrap-f78d2e2fbd-800.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 57736
+    },
+    {
+      "src": "/media/section-details/riley-32-400.webp",
+      "source": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-576.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 30360
+    },
+    {
+      "src": "/media/section-details/riley-32-576.webp",
+      "source": "/media/client-gallery/missing-and-lifted-shingle-tabs-878635c720-576.webp",
+      "width": 576,
+      "height": 384,
+      "bytes": 79668
+    },
+    {
+      "src": "/media/section-details/photo-33-400.webp",
+      "source": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 20170
+    },
+    {
+      "src": "/media/section-details/photo-33-800.webp",
+      "source": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 57294
+    },
+    {
+      "src": "/media/section-details/riley-21-400.webp",
+      "source": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 24240
+    },
+    {
+      "src": "/media/section-details/riley-21-800.webp",
+      "source": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 88536
+    },
+    {
+      "src": "/media/section-details/riley-11-400.webp",
+      "source": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-1280.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 11098
+    },
+    {
+      "src": "/media/section-details/riley-11-800.webp",
+      "source": "/media/client-gallery/low-slope-seams-and-penetrations-c881fcf613-1280.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 31218
+    },
+    {
+      "src": "/media/section-details/photo-17-400.webp",
+      "source": "/media/wordpress/982b73b90898-b9da1a6f-5687-4802-b217-9eca14140666.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 11634
+    },
+    {
+      "src": "/media/section-details/photo-17-800.webp",
+      "source": "/media/wordpress/982b73b90898-b9da1a6f-5687-4802-b217-9eca14140666.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 29034
+    },
+    {
+      "src": "/media/section-details/photo-34-400.webp",
+      "source": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 11854
+    },
+    {
+      "src": "/media/section-details/photo-34-800.webp",
+      "source": "/media/wordpress/b6b3120916a9-hero-gutters.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 31266
+    },
+    {
+      "src": "/media/section-details/commercial-access-400.webp",
+      "source": "/media/service-review-01/commercial-access-planning-1200.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 19942
+    },
+    {
+      "src": "/media/section-details/commercial-access-800.webp",
+      "source": "/media/service-review-01/commercial-access-planning-1200.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 63700
+    },
+    {
+      "src": "/media/section-details/commercial-wet-insulation-400.webp",
+      "source": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 22762
+    },
+    {
+      "src": "/media/section-details/commercial-wet-insulation-800.webp",
+      "source": "/media/service-review-03/commercial-insulation-tearoff-1200.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 71118
+    },
+    {
+      "src": "/media/section-details/photo-7-400.webp",
+      "source": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 23802
+    },
+    {
+      "src": "/media/section-details/photo-7-800.webp",
+      "source": "/media/wordpress/abf3efd2cc6f-8bcf5edc-a040-48b3-ab04-47b724606c14.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 87448
+    },
+    {
+      "src": "/media/section-details/riley-02-400.webp",
+      "source": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-1280.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 18308
+    },
+    {
+      "src": "/media/section-details/riley-02-800.webp",
+      "source": "/media/client-gallery/the-team-together-outdoors-b8adcbbb28-1280.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 52124
+    },
+    {
+      "src": "/media/section-details/riley-67-400.webp",
+      "source": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-640.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 5478
+    },
+    {
+      "src": "/media/section-details/riley-67-640.webp",
+      "source": "/media/client-gallery/paint-splatter-on-siding-and-trim-8c89b5ede3-640.webp",
+      "width": 640,
+      "height": 362,
+      "bytes": 15982
+    },
+    {
+      "src": "/media/section-details/riley-42-400.webp",
+      "source": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-1080.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 12406
+    },
+    {
+      "src": "/media/section-details/riley-42-800.webp",
+      "source": "/media/client-gallery/tear-off-and-ground-protection-0ff40ad226-1080.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 34968
+    },
+    {
+      "src": "/media/section-details/riley-16-400.webp",
+      "source": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 12312
+    },
+    {
+      "src": "/media/section-details/riley-16-800.webp",
+      "source": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 47554
+    },
+    {
+      "src": "/media/section-details/riley-38-400.webp",
+      "source": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-425.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 30672
+    },
+    {
+      "src": "/media/section-details/riley-38-425.webp",
+      "source": "/media/client-gallery/deteriorated-decking-beside-a-chimney-60a4a3695e-425.webp",
+      "width": 425,
+      "height": 283,
+      "bytes": 43122
+    },
+    {
+      "src": "/media/section-details/riley-62-400.webp",
+      "source": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-687.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 32032
+    },
+    {
+      "src": "/media/section-details/riley-62-687.webp",
+      "source": "/media/client-gallery/cracks-across-shingle-tabs-08b00d5ae8-687.webp",
+      "width": 687,
+      "height": 384,
+      "bytes": 81576
+    },
+    {
+      "src": "/media/section-details/riley-51-400.webp",
+      "source": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-1000.webp",
+      "width": 400,
+      "height": 267,
+      "bytes": 27684
+    },
+    {
+      "src": "/media/section-details/riley-51-800.webp",
+      "source": "/media/client-gallery/timberline-hdz-on-a-home-ba02b7bfed-1000.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 88930
+    },
+    {
+      "src": "/media/section-details/photo-35-400.webp",
+      "source": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
+      "width": 400,
+      "height": 267,
+      "bytes": 14448
+    },
+    {
+      "src": "/media/section-details/photo-35-800.webp",
+      "source": "/media/wordpress/23b06efb9d5f-hero-windows.jpg",
+      "width": 800,
+      "height": 533,
+      "bytes": 53484
+    }
+  ],
+  "notes": [
+    "Existing copy, heading IDs, internal link placements and three-photo galleries retained.",
+    "Gallery photographs are not presented as projects in the location named by the page.",
+    "Material/inspection references retain their source classification; two commercial details use existing clearly labeled illustrations.",
+    "All variants are bounded by source dimensions, metadata stripped by Sharp, and limited to 110 KB."
+  ],
+  "verifiedAt": "2026-11-02",
+  "verification": {
+    "status": "Targeted local rendering passed; complete CI deferred to authorized release",
+    "pages": 70,
+    "renderedHeadingImages": 145,
+    "retiredDiagramCount": 0
+  }
+}

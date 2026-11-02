@@ -1,0 +1,1447 @@
+{
+  "/akron-oh/": {
+    "service-copy-1-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-1-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-akron-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/athens-oh/": {
+    "service-copy-2-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-2-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-athens-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/aurora-oh/": {
+    "service-copy-4-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-4-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-aurora-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/beavercreek-oh/": {
+    "service-copy-5-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-5-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-beavercreek-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/centerville-oh/": {
+    "service-copy-6-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-6-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-centerville-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/cincinnati-oh/": {
+    "service-copy-7-3": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cincinnati-oh/roofing/": {
+    "service-copy-8-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-8-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cincinnati-oh/storm-damage/": {
+    "service-copy-9-3": {
+      "image": {
+        "src": "/media/section-details/riley-29-800.webp",
+        "alt": "Displaced lap siding below a gable exposing the housewrap behind it"
+      },
+      "caption": "Inspection reference: Displaced siding and exposed housewrap",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-9-4": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/cincinnati-oh/the-cost-of-siding-replacement/": {
+    "service-copy-10-2": {
+      "image": {
+        "src": "/media/section-details/photo-33-800.webp",
+        "alt": "Light horizontal siding, white trim and contrasting shutters on a home"
+      },
+      "caption": "Siding profiles and trim",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cleveland-oh/": {
+    "service-copy-11-3": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cleveland-oh/roofing/": {
+    "service-copy-12-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-12-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cleveland-oh/roofing/cost-of-replacement/": {
+    "service-copy-13-3": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-13-5": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/cleveland-oh/storm-damage/": {
+    "service-copy-14-2": {
+      "image": {
+        "src": "/media/section-details/riley-29-800.webp",
+        "alt": "Displaced lap siding below a gable exposing the housewrap behind it"
+      },
+      "caption": "Inspection reference: Displaced siding and exposed housewrap",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-14-4": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/columbus-oh/": {
+    "service-copy-15-4": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/columbus-oh/roofing/": {
+    "service-copy-16-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-16-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/columbus-oh/storm-damage/": {
+    "service-copy-17-2": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "service-copy-17-4": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/commercial-roofing/": {
+    "service-copy-18-2": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/commercial-roofing/gutters/": {
+    "service-copy-19-3": {
+      "image": {
+        "src": "/media/section-details/photo-17-800.webp",
+        "alt": "Large light-colored low-slope roof with repeated rooftop penetrations"
+      },
+      "caption": "A light-colored roof membrane",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-19-4": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-19-6": {
+      "image": {
+        "src": "/media/section-details/commercial-access-800.webp",
+        "alt": "Illustration of material staging separated from an occupied commercial building entrance"
+      },
+      "caption": "Illustration: staging and occupied building access are planned separately.",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/commercial-roofing/repair/": {
+    "service-copy-20-3": {
+      "image": {
+        "src": "/media/section-details/commercial-wet-insulation-800.webp",
+        "alt": "Illustration of damp insulation exposed during commercial roof tear-off"
+      },
+      "caption": "Illustration: wet insulation exposed beneath a commercial roof covering.",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-20-5": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/commercial-roofing/replacement/": {
+    "service-copy-21-4": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/commercial-siding/": {
+    "service-copy-23-2": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/cost-of-a-new-roof/": {
+    "service-copy-24-2": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-24-5": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/dayton-oh/": {
+    "service-copy-25-3": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/dayton-oh/roofing/": {
+    "service-copy-26-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-26-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/dayton-oh/storm-damage/": {
+    "service-copy-27-2": {
+      "image": {
+        "src": "/media/section-details/photo-7-800.webp",
+        "alt": "Stone-front home with a brown architectural shingle roof"
+      },
+      "caption": "Shingle profiles and color",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-27-3": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    }
+  },
+  "/dayton-oh/the-cost-of-new-gutters/": {
+    "service-copy-28-2": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/dayton-roofers/": {
+    "service-copy-29-2": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-29-4": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/delaware-oh/": {
+    "service-copy-36-4": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/delaware-oh/roofing/": {
+    "service-copy-37-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-37-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/delaware-oh/storm-damage/": {
+    "service-copy-38-2": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "service-copy-38-4": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/dublin-oh/": {
+    "service-copy-39-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-39-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-dublin-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/emergency-roof-repair-dublin-oh/": {
+    "service-copy-40-2": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "service-copy-40-5": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/exterior-painting/": {
+    "service-copy-41-2": {
+      "image": {
+        "src": "/media/section-details/riley-67-640.webp",
+        "alt": "Paint splatter visible on horizontal siding and adjoining trim"
+      },
+      "caption": "Material reference: Paint splatter on siding and trim",
+      "displayWidth": 640,
+      "contain": true
+    },
+    "service-copy-41-4": {
+      "image": {
+        "src": "/media/section-details/photo-33-800.webp",
+        "alt": "Light horizontal siding, white trim and contrasting shutters on a home"
+      },
+      "caption": "Siding profiles and trim",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/gaf-roofing-dublin-oh/": {
+    "service-copy-42-3": {
+      "image": {
+        "src": "/media/section-details/riley-42-800.webp",
+        "alt": "Workers removing a roof covering above protective tarps"
+      },
+      "caption": "Material reference: Tear-off and ground protection",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-42-4": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/gahanna-oh/": {
+    "service-copy-43-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-43-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-gahanna-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/grove-city-oh/": {
+    "service-copy-44-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-44-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-grove-city-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/gutter-installation-dublin-oh/": {
+    "service-copy-45-2": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/gutters/": {
+    "service-copy-46-2": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/gutters/guards/": {
+    "service-copy-47-2": {
+      "image": {
+        "src": "/media/section-details/riley-16-800.webp",
+        "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+      },
+      "caption": "A finished shingle roof from above",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/gutters/seamless/": {
+    "service-copy-48-2": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/hail-damage-roof-repair-dublin-oh/": {
+    "service-copy-49-3": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "service-copy-49-5": {
+      "image": {
+        "src": "/media/section-details/photo-7-800.webp",
+        "alt": "Stone-front home with a brown architectural shingle roof"
+      },
+      "caption": "Shingle profiles and color",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/hamilton-oh/": {
+    "service-copy-50-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-50-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-hamilton-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/hilliard-oh/": {
+    "service-copy-51-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-51-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-hilliard-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/ice-dam-removal/": {
+    "service-copy-52-4": {
+      "image": {
+        "src": "/media/section-details/riley-38-425.webp",
+        "alt": "Exposed deteriorated roof decking beside a brick chimney"
+      },
+      "caption": "Inspection reference: Deteriorated decking beside a chimney",
+      "displayWidth": 425,
+      "contain": true
+    }
+  },
+  "/lancaster-oh/": {
+    "service-copy-53-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-53-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-lancaster-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/lewis-center-oh/": {
+    "service-copy-54-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-54-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-lewis-center-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/metal-roofing-dublin-oh/": {
+    "service-copy-55-3": {
+      "image": {
+        "src": "/media/section-details/photo-7-800.webp",
+        "alt": "Stone-front home with a brown architectural shingle roof"
+      },
+      "caption": "Shingle profiles and color",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-55-5": {
+      "image": {
+        "src": "/media/section-details/photo-7-800.webp",
+        "alt": "Stone-front home with a brown architectural shingle roof"
+      },
+      "caption": "Shingle profiles and color",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/middletown-oh/": {
+    "service-copy-56-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-56-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-middletown-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/newark-oh/": {
+    "service-copy-57-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-57-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-newark-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/powell-oh/": {
+    "service-copy-58-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-58-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-powell-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roof-calculator/": {
+    "service-copy-59-2": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-59-4": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/roof-repair-dublin-oh/": {
+    "service-copy-60-2": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "service-copy-60-3": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-60-5": {
+      "image": {
+        "src": "/media/section-details/riley-62-687.webp",
+        "alt": "Close-up of reddish shingles with cracks across several tabs"
+      },
+      "caption": "Inspection reference: Cracks across shingle tabs",
+      "displayWidth": 687,
+      "contain": true
+    }
+  },
+  "/roof-replacement-dublin-oh/": {
+    "service-copy-61-2": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-61-4": {
+      "image": {
+        "src": "/media/section-details/riley-42-800.webp",
+        "alt": "Workers removing a roof covering above protective tarps"
+      },
+      "caption": "Material reference: Tear-off and ground protection",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roofing-calculator/": {
+    "service-copy-62-4": {
+      "image": {
+        "src": "/media/section-details/riley-21-800.webp",
+        "alt": "Aerial view of a stone-and-brick home with shingle roof valleys and dormers"
+      },
+      "caption": "Dormers, valleys and intersecting roofs",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/roofing-contractor-dublin-oh/": {
+    "service-copy-63-2": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-63-5": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roofing/gaf/": {
+    "service-copy-64-3": {
+      "image": {
+        "src": "/media/section-details/riley-42-800.webp",
+        "alt": "Workers removing a roof covering above protective tarps"
+      },
+      "caption": "Material reference: Tear-off and ground protection",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-64-4": {
+      "image": {
+        "src": "/media/section-details/riley-02-800.webp",
+        "alt": "Group photograph outside the Blackwing Shooting Center"
+      },
+      "caption": "The team together outdoors",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roofing/gaf/master-elite/": {
+    "golden-pledge-benefits": {
+      "image": {
+        "src": "/media/section-details/riley-51-800.webp",
+        "alt": "GAF Timberline HDZ reference photo of a home with a shingle roof and product branding"
+      },
+      "caption": "Material reference: Timberline HDZ on a home",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "master-elite-qualifications": {
+      "image": {
+        "src": "/media/section-details/riley-16-800.webp",
+        "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
+      },
+      "caption": "A finished shingle roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "gaf-warranty-choices": {
+      "image": {
+        "src": "/media/section-details/riley-51-800.webp",
+        "alt": "GAF Timberline HDZ reference photo of a home with a shingle roof and product branding"
+      },
+      "caption": "Material reference: Timberline HDZ on a home",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roofing/metal/": {
+    "service-copy-66-3": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-66-4": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/roofing/repair/": {
+    "service-copy-67-2": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-67-4": {
+      "image": {
+        "src": "/media/section-details/riley-62-687.webp",
+        "alt": "Close-up of reddish shingles with cracks across several tabs"
+      },
+      "caption": "Inspection reference: Cracks across shingle tabs",
+      "displayWidth": 687,
+      "contain": true
+    }
+  },
+  "/roofing/replacement/": {
+    "service-copy-68-2": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-68-4": {
+      "image": {
+        "src": "/media/section-details/riley-42-800.webp",
+        "alt": "Workers removing a roof covering above protective tarps"
+      },
+      "caption": "Material reference: Tear-off and ground protection",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/roofing/types/": {
+    "service-copy-69-2": {
+      "image": {
+        "src": "/media/section-details/photo-9-800.webp",
+        "alt": "Close view of a gray metal roof with tile-shaped panels"
+      },
+      "caption": "Textured metal roof panels",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/siding/replacement/": {
+    "service-copy-71-2": {
+      "image": {
+        "src": "/media/section-details/photo-33-800.webp",
+        "alt": "Light horizontal siding, white trim and contrasting shutters on a home"
+      },
+      "caption": "Siding profiles and trim",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/storm-damage-roof-repair-dublin-oh/": {
+    "service-copy-73-3": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "service-copy-73-4": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    }
+  },
+  "/storm-damage/commercial/": {
+    "service-copy-75-4": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    },
+    "service-copy-75-5": {
+      "image": {
+        "src": "/media/section-details/riley-11-800.webp",
+        "alt": "Dark low-slope roof with light-colored seam treatments and rooftop penetrations"
+      },
+      "caption": "Low-slope seams and penetrations",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/upper-arlington-oh/": {
+    "service-copy-79-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-79-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-upper-arlington-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/westerville-oh/": {
+    "service-copy-80-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-80-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-westerville-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/windows/": {
+    "service-copy-81-3": {
+      "image": {
+        "src": "/media/section-details/photo-35-800.webp",
+        "alt": "Front elevation of a home with white-framed windows and a central entry"
+      },
+      "caption": "Windows across the front elevation",
+      "displayWidth": 800,
+      "contain": false
+    }
+  },
+  "/worthington-oh/": {
+    "service-copy-82-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-82-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-worthington-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/zanesville-oh/": {
+    "service-copy-83-2": {
+      "image": {
+        "src": "/media/section-details/riley-18-800.webp",
+        "alt": "Two-story house with dark siding, a covered porch and a shingle roof"
+      },
+      "caption": "Roofing above a dark-sided exterior",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "service-copy-83-4": {
+      "image": {
+        "src": "/media/section-details/photo-20-800.webp",
+        "alt": "Aerial view of a large light-colored commercial roof"
+      },
+      "caption": "Commercial roof from above",
+      "displayWidth": 800,
+      "contain": false
+    },
+    "location-zanesville-oh-planning": {
+      "image": {
+        "src": "/media/section-details/riley-25-800.webp",
+        "alt": "Team group photograph beneath the Roof King office wall logo"
+      },
+      "caption": "Together at the Roof King office",
+      "displayWidth": 800,
+      "contain": true
+    }
+  },
+  "/storm-damage/residential/": {
+    "residential-storm-damage-signs": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "residential-storm-inspection": {
+      "image": {
+        "src": "/media/section-details/riley-30-554.webp",
+        "alt": "Gloved hand lifting a creased shingle tab marked with yellow chalk"
+      },
+      "caption": "Inspection reference: Inspecting a creased shingle tab",
+      "displayWidth": 554,
+      "contain": true
+    },
+    "residential-storm-repair-or-replace": {
+      "image": {
+        "src": "/media/section-details/riley-32-576.webp",
+        "alt": "Shingle roof with missing and lifted tabs marked with blue chalk"
+      },
+      "caption": "Inspection reference: Missing and lifted shingle tabs",
+      "displayWidth": 576,
+      "contain": true
+    },
+    "residential-storm-exterior": {
+      "image": {
+        "src": "/media/section-details/photo-34-800.webp",
+        "alt": "White gutter and downspout at the corner of a house"
+      },
+      "caption": "Gutters and downspout connections",
+      "displayWidth": 800,
+      "contain": false
+    }
+  }
+}

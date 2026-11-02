@@ -302,7 +302,7 @@
       "mask": "/media/products/color-previews/variform-heritage-cedar-mask.svg",
       "brightness": 2.189,
       "sourceUrl": "https://api.renoworks.com/v1/project/66711fd9-7c0a-4737-b3e9-3c5b63733134?site=variform&xml=true",
-      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Cedar Dimensions panel profile and finish may differ. Confirm a physical sample."
+      "caption": ""
     },
     "hero": {
       "src": "/media/products/ply-gem/cedar-dimensions-home-1024.webp",
@@ -794,7 +794,7 @@
       "mask": "/media/products/color-previews/alside-charter-oak-mask.svg",
       "brightness": 1.753,
       "sourceUrl": "https://api.renoworks.com/v1/project/9fd9f168-14e7-49b5-9f7b-183b7b6a8f3a?site=alside&xml=true",
-      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Dimensions panel profile and finish may differ. Confirm a physical sample."
+      "caption": ""
     },
     "hero": {
       "src": "/media/products/ply-gem/dimensions-home-1024.webp",
@@ -1230,7 +1230,7 @@
       "mask": "/media/products/color-previews/norandex-sterling-mask.svg",
       "brightness": 2.263,
       "sourceUrl": "https://api.renoworks.com/v1/project/b7e506e9-1a26-4d54-9ffc-b505503b8b8a?site=alside&xml=true",
-      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Progressions panel profile and finish may differ. Confirm a physical sample."
+      "caption": ""
     },
     "hero": {
       "src": "/media/products/ply-gem/progressions-home-1022.webp",
@@ -1624,7 +1624,7 @@
       "mask": "/media/products/color-previews/variform-variform-board-and-batten-mask.svg",
       "brightness": 2.032,
       "sourceUrl": "https://api.renoworks.com/v1/project/22cb8f8a-4a41-48f8-8d10-4b916291fb75?site=variform&xml=true",
-      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Performance Board + Batten panel profile and finish may differ. Confirm a physical sample."
+      "caption": ""
     },
     "hero": {
       "src": "/media/products/ply-gem/performance-board-batten-home-1022.webp",
@@ -1920,7 +1920,7 @@
       "mask": "/media/products/color-previews/norandex-cambridge-beaded-mask.svg",
       "brightness": 2.109,
       "sourceUrl": "https://api.renoworks.com/v1/project/d7d555a2-f487-4a10-b022-a1b2ff0143fd?site=alside&xml=true",
-      "caption": "Illustrative color study on a sample home. Only the siding color changes; the exact Transformations panel profile and finish may differ. Confirm a physical sample."
+      "caption": ""
     },
     "hero": {
       "src": "/media/products/ply-gem/transformations-home-1024.webp",

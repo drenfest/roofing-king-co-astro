@@ -26,7 +26,7 @@ priority: "preserve-and-improve"
                                                                 <h2>3-Year Financing For Your Home Projects</h2>
                                                                 <p>Explore financing options for roofing, windows, gutters, siding, and more with monthly payment options built around your home.</p>
                                                                 <a class="rk-button rk-button-primary" href="/offers/3-year-financing/">Learn More</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -352,7 +352,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local roofing team about roof replacement, repair options, materials, warranty coverage, financing, or storm damage support.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

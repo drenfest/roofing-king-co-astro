@@ -1,0 +1,3176 @@
+{
+  "date": "2026-11-02",
+  "sourceFile": "Roof_King_ALL_35_Service_Areas_Full_Three_Skill_Page_Rewrites_and_SEO_For_Gary.pdf",
+  "sourceSha256": "239fe26940109ee773adc777bcf51c6eb597278693c805df1400c1612b5cae1c",
+  "sourcePages": 260,
+  "implementation": "Reviewed copy supplied by client; no second copywriting/editor pass. Existing detailed component copy retained where repeated in the report. New source sections use subordinate headings within the existing bands. Routes, section IDs, media, review sources, product cards, bookings and photo/topic pairings retained.",
+  "adaptations": [
+    "Client-approved phone (614) 490-0123 supersedes the old report number.",
+    "Existing policy excludes scope wording; use work, services or proposal.",
+    "Do not render report research, scores, module exports, approval notes, tracking-number reminders or duplicate call/form widgets.",
+    "Office FAQ retains the factual Columbus office sentence; report commentary about what this page claims is omitted.",
+    "Existing useful detailed copy omitted by the report extraction remains in its original component."
+  ],
+  "pages": [
+    {
+      "path": "/akron-oh/",
+      "package": 1,
+      "h1": "Roofing, Siding & Exterior Services in Akron, OH",
+      "seoTitle": "Akron, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Akron, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Akron",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Akron?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-1-2",
+        "service-copy-1-3",
+        "service-copy-1-4",
+        "location-akron-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Akron, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection. From Highland Square to Firestone Park, an Akron exterior project starts with the building in front of us: its roof shape, previous repairs and the way the walls meet the eaves.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for an Akron property. The proposal should identify the affected areas, materials and next steps.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Akron property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 51
+    },
+    {
+      "path": "/athens-oh/",
+      "package": 2,
+      "h1": "Roofing, Siding & Exterior Services in Athens, OH",
+      "seoTitle": "Athens, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Athens, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Athens",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Athens?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-2-2",
+        "service-copy-2-3",
+        "service-copy-2-4",
+        "location-athens-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Athens, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for an Athens property. The proposal should identify the affected areas, materials and next steps. Athens combines an Uptown setting with neighborhoods around the Hocking River and surrounding hills. Access to the roof and the route water takes away from the house are important parts of an exterior project.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Athens property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/aurora-oh/",
+      "package": 3,
+      "h1": "Roofing, Siding & Exterior Services in Aurora, OH",
+      "seoTitle": "Aurora, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Aurora, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Aurora",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Aurora?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-4-2",
+        "service-copy-4-3",
+        "service-copy-4-4",
+        "location-aurora-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Aurora, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for an Aurora property. The proposal should identify the affected areas, materials and next steps. An Aurora roofing, siding or storm project should account for the complete exterior, including roof valleys, attached garages, wall finishes and the drainage around the home.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Aurora property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/beavercreek-oh/",
+      "package": 4,
+      "h1": "Roofing, Siding & Exterior Services in Beavercreek, OH",
+      "seoTitle": "Beavercreek, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Beavercreek, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Beavercreek",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Beavercreek?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-5-2",
+        "service-copy-5-3",
+        "service-copy-5-4",
+        "location-beavercreek-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Beavercreek, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Beavercreek property. The proposal should identify the affected areas, materials and next steps. For Beavercreek homeowners, roofing and siding work needs to be coordinated with garages, gutters and outdoor areas that share the same exterior edges. We plan around the actual layout of your property.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Beavercreek property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/centerville-oh/",
+      "package": 5,
+      "h1": "Roofing, Siding & Exterior Services in Centerville, OH",
+      "seoTitle": "Centerville, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Centerville, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Centerville",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Centerville?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-6-2",
+        "service-copy-6-3",
+        "service-copy-6-4",
+        "location-centerville-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Centerville, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Centerville property. The proposal should identify the affected areas, materials and next steps. Centerville’s Historic Uptown includes stone, brick and frame buildings. Whether your property is near that setting or elsewhere in the community, exterior work should protect the materials being retained while correcting worn or damaged areas.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Centerville property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/cincinnati-oh/",
+      "package": 6,
+      "h1": "Roofing, Siding & Exterior Services in Cincinnati, OH",
+      "seoTitle": "Cincinnati, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Cincinnati, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 37,
+      "previousDetailedParagraphs": 38,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Cincinnati",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Cincinnati?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-7-1",
+        "service-copy-7-2",
+        "service-copy-7-3"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Cincinnati, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Cincinnati property. The proposal should identify the affected areas, materials and next steps. Cincinnati’s hills and distinct neighborhoods make exterior access and building layout important parts of planning. Roofing, siding and storm repairs need to fit the property’s slopes, roof connections and adjoining walls.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Cincinnati property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 55
+    },
+    {
+      "path": "/cincinnati-oh/roofing/",
+      "package": 7,
+      "h1": "Roof Repair & Replacement in Cincinnati, OH",
+      "seoTitle": "Roof Repair & Replacement in Cincinnati, OH | Roof King",
+      "description": "Roof repair and replacement in Cincinnati, OH. Review roof condition, materials, flashing and written estimates with Roof King & Restoration.",
+      "retainedSourceParagraphs": 12,
+      "previousDetailedParagraphs": 12,
+      "decisionSections": [
+        {
+          "title": "How to compare roof repair with replacement in Cincinnati",
+          "body": "Ask whether the damage is confined to shingles, pipe boots or flashing, or extends into the deck and adjacent roof sections. The proposal should make clear why an isolated repair is reasonable—or which conditions make replacement the more practical option."
+        },
+        {
+          "title": "Before accepting the roofing estimate",
+          "body": "Compare tear-off, underlayment, flashing, ventilation, cleanup and allowances for hidden decking. Roof King should identify the proposed product and separate manufacturer coverage from the written workmanship terms."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Does a leak always mean my Cincinnati roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A flashing connection, damaged shingle section or vent detail may be repairable. The recommendation should follow an inspection of surrounding materials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are GAF warranty terms the same as Roof King workmanship coverage?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Manufacturer product warranties and contractor workmanship terms are separate. Eligibility depends on the actual system and written documents."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "all exterior services in Cincinnati",
+          "href": "/cincinnati-oh/"
+        },
+        {
+          "label": "roof repairs",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "roof replacement",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "storm-damage roofing",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roofing systems",
+          "href": "/roofing/"
+        }
+      ],
+      "newContextualLinks": 3,
+      "existingContextualLinks": 2,
+      "preservedSectionIds": [
+        "service-copy-8-2",
+        "service-copy-8-3",
+        "service-copy-8-4",
+        "service-copy-8-5"
+      ],
+      "hero": "Before deciding whether to patch a leak or replace a roof in Cincinnati, it helps to know where the problem starts and how much of the roof is affected. Roof King helps Cincinnati homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
+      "openingIntroduction": "Roof King & Restoration can assess the roof covering, flashing, penetrations and exposed details before explaining repair and replacement options. Ask for a written proposal that makes the included work clear.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Describe the roof age if known, where the leak or damaged area is located, and whether earlier repairs were made. Request an inspection and an itemized repair or replacement proposal for your Cincinnati property."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 25
+    },
+    {
+      "path": "/cincinnati-oh/storm-damage/",
+      "package": 8,
+      "h1": "Storm Damage Roof Repair in Cincinnati, OH",
+      "seoTitle": "Storm Damage Roof Repair in Cincinnati, OH | Roof King",
+      "description": "Wind or hail damage in Cincinnati, OH? Roof King reviews affected roofing, flashing and exterior areas. Ask about an inspection and repair estimate.",
+      "retainedSourceParagraphs": 12,
+      "previousDetailedParagraphs": 12,
+      "decisionSections": [
+        {
+          "title": "What a useful storm inspection record should show in Cincinnati",
+          "body": "Photographs should connect each observation to a slope, roof edge, wall or gutter location. Damage from wind or hail should not be confused with unrelated wear without an explanation. If temporary protection is needed, the permanent repair should be documented as a separate work."
+        },
+        {
+          "title": "Insurance questions and the repair estimate",
+          "body": "The contractor can document observed conditions and prepare a repair proposal. Your insurer determines coverage, deductibles and claim decisions. Do not assume an insurance payment changes the work actually required."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I tell from the ground whether hail damaged my roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not reliably. You may see dents or displaced material, but a closer professional inspection can help distinguish possible storm effects from ordinary wear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will the roof estimate guarantee my insurance claim?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Roof King can describe observed damage and proposed repairs. The insurance company controls coverage and claim decisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "exterior services in Cincinnati",
+          "href": "/cincinnati-oh/"
+        },
+        {
+          "label": "storm damage services",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roof repair options",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "siding repairs",
+          "href": "/siding/"
+        },
+        {
+          "label": "gutter repairs and replacement",
+          "href": "/gutters/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-9-2",
+        "service-copy-9-3",
+        "service-copy-9-4",
+        "service-copy-9-5"
+      ],
+      "hero": "After strong wind or hail in Cincinnati, begin with what you can document safely: missing or lifted shingles, affected flashing, damaged siding, loose gutters or water entering the house.",
+      "openingIntroduction": "Roof King & Restoration can discuss the affected roof and exterior areas and help define an inspection and repair work. Temporary protection, permanent repairs and any insurance decision are separate matters.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Explain the visible storm damage, any water entering the property and the approximate date you noticed the issue. Roof King can discuss the available inspection and repair options for your Cincinnati address. Any insurance coverage decision belongs to your insurer."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 26
+    },
+    {
+      "path": "/cleveland-oh/",
+      "package": 9,
+      "h1": "Roofing, Siding & Exterior Services in Cleveland, OH",
+      "seoTitle": "Cleveland, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Cleveland, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 38,
+      "previousDetailedParagraphs": 38,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Cleveland",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Cleveland?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-11-1",
+        "service-copy-11-2",
+        "service-copy-11-3"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Cleveland, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Cleveland property. The proposal should identify the affected areas, materials and next steps. Cleveland’s housing includes older neighborhood homes in places such as Ohio City and Tremont, alongside many other building types. Roofing, siding and storm repairs should account for that variety and the property’s exposure to Northeast Ohio weather.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Cleveland property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 55
+    },
+    {
+      "path": "/cleveland-oh/roofing/",
+      "package": 10,
+      "h1": "Roof Repair & Replacement in Cleveland, OH",
+      "seoTitle": "Roof Repair & Replacement in Cleveland, OH | Roof King",
+      "description": "Roof repair and replacement in Cleveland, OH. Review roof condition, materials, flashing and written estimates with Roof King & Restoration.",
+      "retainedSourceParagraphs": 10,
+      "previousDetailedParagraphs": 13,
+      "decisionSections": [
+        {
+          "title": "How to compare roof repair with replacement in Cleveland",
+          "body": "Ask whether the damage is confined to shingles, pipe boots or flashing, or extends into the deck and adjacent roof sections. The proposal should make clear why an isolated repair is reasonable—or which conditions make replacement the more practical option."
+        },
+        {
+          "title": "Before accepting the roofing estimate",
+          "body": "Compare tear-off, underlayment, flashing, ventilation, cleanup and allowances for hidden decking. Roof King should identify the proposed product and separate manufacturer coverage from the written workmanship terms."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Does a leak always mean my Cleveland roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A flashing connection, damaged shingle section or vent detail may be repairable. The recommendation should follow an inspection of surrounding materials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are GAF warranty terms the same as Roof King workmanship coverage?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Manufacturer product warranties and contractor workmanship terms are separate. Eligibility depends on the actual system and written documents."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "all exterior services in Cleveland",
+          "href": "/cleveland-oh/"
+        },
+        {
+          "label": "roof repairs",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "roof replacement",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "storm-damage roofing",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roofing systems",
+          "href": "/roofing/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-12-2",
+        "service-copy-12-3",
+        "service-copy-12-4",
+        "service-copy-12-5"
+      ],
+      "hero": "Before deciding whether to patch a leak or replace a roof in Cleveland, it helps to know where the problem starts and how much of the roof is affected. Roof King helps Cleveland homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
+      "openingIntroduction": "Roof King & Restoration can assess the roof covering, flashing, penetrations and exposed details before explaining repair and replacement options. Ask for a written proposal that makes the included work clear.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Describe the roof age if known, where the leak or damaged area is located, and whether earlier repairs were made. Request an inspection and an itemized repair or replacement proposal for your Cleveland property."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 26
+    },
+    {
+      "path": "/cleveland-oh/roofing/cost-of-replacement/",
+      "package": 11,
+      "h1": "Roof Replacement Cost in Cleveland, OH",
+      "seoTitle": "Roof Replacement Costs in Cleveland, OH | Roof King",
+      "description": "What changes roof replacement costs in Cleveland, OH? Compare tear-off, slope, decking, materials and written estimates with Roof King.",
+      "retainedSourceParagraphs": 11,
+      "previousDetailedParagraphs": 13,
+      "decisionSections": [
+        {
+          "title": "What changes a roof replacement price",
+          "body": "Roof shape, pitch, layers to remove, disposal, decking, edge metal, ventilation and material selection can change the work. Two bids can differ because one includes work the other excludes."
+        },
+        {
+          "title": "How to use a preliminary roof calculator",
+          "body": "An online estimate can help frame a budget conversation. The written on-site proposal should specify quantities, materials, possible concealed conditions and the method for approving any change in cost."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can you quote my Cleveland roof without seeing it?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "A preliminary range may help with planning, but a reliable project proposal depends on measuring the roof, checking access and reviewing existing materials and possible concealed conditions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Is a monthly financing payment the full cost?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Compare the complete construction price separately from any financing offer, interest, fees and eligibility requirements."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "Cleveland roof repair and replacement",
+          "href": "/cleveland-oh/roofing/"
+        },
+        {
+          "label": "roof replacement options",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "residential roofing systems",
+          "href": "/roofing/"
+        },
+        {
+          "label": "roof repair alternatives",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "service areas",
+          "href": "/service-areas/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-13-2",
+        "service-copy-13-3",
+        "service-copy-13-4",
+        "service-copy-13-5"
+      ],
+      "hero": "Two roof-replacement estimates in Cleveland can differ even when they cover homes of similar size. The difference is often the roof layout, tear-off, decking or products included in each work. The cost of a replacement roof depends on the roof and the work beneath the new covering. Roof King prepares project estimates around measured areas, selected materials, access and the condition of the existing assembly. This guide explains the items to compare before deciding whether two prices describe the same job.",
+      "openingIntroduction": "Roof King & Restoration can help review roof layout, material options and a written proposal. An on-site assessment—not a generic price-per-square-foot figure—determines what the proposal actually includes.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Share your Cleveland property address and whether you need a preliminary planning discussion or an on-site replacement assessment. Ask for a written proposal that lists tear-off, roof system materials, decking allowances and cleanup."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 27
+    },
+    {
+      "path": "/cleveland-oh/storm-damage/",
+      "package": 12,
+      "h1": "Storm Damage Roof Repair in Cleveland, OH",
+      "seoTitle": "Storm Damage Roof Repair in Cleveland, OH | Roof King",
+      "description": "Wind or hail damage in Cleveland, OH? Roof King reviews affected roofing, flashing and exterior areas. Ask about an inspection and repair estimate.",
+      "retainedSourceParagraphs": 12,
+      "previousDetailedParagraphs": 12,
+      "decisionSections": [
+        {
+          "title": "What a useful storm inspection record should show in Cleveland",
+          "body": "Photographs should connect each observation to a slope, roof edge, wall or gutter location. Damage from wind or hail should not be confused with unrelated wear without an explanation. If temporary protection is needed, the permanent repair should be documented as a separate work."
+        },
+        {
+          "title": "Insurance questions and the repair estimate",
+          "body": "The contractor can document observed conditions and prepare a repair proposal. Your insurer determines coverage, deductibles and claim decisions. Do not assume an insurance payment changes the work actually required."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I tell from the ground whether hail damaged my roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not reliably. You may see dents or displaced material, but a closer professional inspection can help distinguish possible storm effects from ordinary wear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will the roof estimate guarantee my insurance claim?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Roof King can describe observed damage and proposed repairs. The insurance company controls coverage and claim decisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "exterior services in Cleveland",
+          "href": "/cleveland-oh/"
+        },
+        {
+          "label": "storm damage services",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roof repair options",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "siding repairs",
+          "href": "/siding/"
+        },
+        {
+          "label": "gutter repairs and replacement",
+          "href": "/gutters/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-14-2",
+        "service-copy-14-3",
+        "service-copy-14-4",
+        "service-copy-14-5"
+      ],
+      "hero": "After strong wind or hail in Cleveland, begin with what you can document safely: missing or lifted shingles, affected flashing, damaged siding, loose gutters or water entering the house.",
+      "openingIntroduction": "Roof King & Restoration can discuss the affected roof and exterior areas and help define an inspection and repair work. Temporary protection, permanent repairs and any insurance decision are separate matters.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Explain the visible storm damage, any water entering the property and the approximate date you noticed the issue. Roof King can discuss the available inspection and repair options for your Cleveland address. Any insurance coverage decision belongs to your insurer."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 26
+    },
+    {
+      "path": "/columbus-oh/",
+      "package": 13,
+      "h1": "Roofing, Siding & Exterior Services in Columbus, OH",
+      "seoTitle": "Columbus, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Columbus, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Columbus",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Columbus?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-15-1",
+        "service-copy-15-2",
+        "service-copy-15-3",
+        "service-copy-15-4"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Columbus, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Columbus property. The proposal should identify the affected areas, materials and next steps. Columbus homes range across established neighborhoods, historic districts and newer construction. Roof King’s Columbus-based team coordinates roofing, siding and storm repairs with the gutters, windows and outdoor features connected to your home.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Columbus property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/columbus-oh/roofing/",
+      "package": 14,
+      "h1": "Roof Repair & Replacement in Columbus, OH",
+      "seoTitle": "Roof Repair & Replacement in Columbus, OH | Roof King",
+      "description": "Roof repair and replacement in Columbus, OH. Review roof condition, materials, flashing and written estimates with Roof King & Restoration.",
+      "retainedSourceParagraphs": 8,
+      "previousDetailedParagraphs": 8,
+      "decisionSections": [
+        {
+          "title": "How to compare roof repair with replacement in Columbus",
+          "body": "Ask whether the damage is confined to shingles, pipe boots or flashing, or extends into the deck and adjacent roof sections. The proposal should make clear why an isolated repair is reasonable—or which conditions make replacement the more practical option."
+        },
+        {
+          "title": "Before accepting the roofing estimate",
+          "body": "Compare tear-off, underlayment, flashing, ventilation, cleanup and allowances for hidden decking. Roof King should identify the proposed product and separate manufacturer coverage from the written workmanship terms."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Does a leak always mean my Columbus roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A flashing connection, damaged shingle section or vent detail may be repairable. The recommendation should follow an inspection of surrounding materials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are GAF warranty terms the same as Roof King workmanship coverage?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Manufacturer product warranties and contractor workmanship terms are separate. Eligibility depends on the actual system and written documents."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "all exterior services in Columbus",
+          "href": "/columbus-oh/"
+        },
+        {
+          "label": "roof repairs",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "roof replacement",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "storm-damage roofing",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roofing systems",
+          "href": "/roofing/"
+        }
+      ],
+      "newContextualLinks": 2,
+      "existingContextualLinks": 3,
+      "preservedSectionIds": [
+        "service-copy-16-2",
+        "service-copy-16-3",
+        "service-copy-16-4",
+        "service-copy-16-5"
+      ],
+      "hero": "Before deciding whether to patch a leak or replace a roof in Columbus, it helps to know where the problem starts and how much of the roof is affected. Roof King helps Columbus homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
+      "openingIntroduction": "Roof King & Restoration can assess the roof covering, flashing, penetrations and exposed details before explaining repair and replacement options. Ask for a written proposal that makes the included work clear.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Describe the roof age if known, where the leak or damaged area is located, and whether earlier repairs were made. Request an inspection and an itemized repair or replacement proposal for your Columbus property."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 20
+    },
+    {
+      "path": "/columbus-oh/storm-damage/",
+      "package": 15,
+      "h1": "Storm Damage Roof Repair in Columbus, OH",
+      "seoTitle": "Storm Damage Roof Repair in Columbus, OH | Roof King",
+      "description": "Wind or hail damage in Columbus, OH? Roof King reviews affected roofing, flashing and exterior areas. Ask about an inspection and repair estimate.",
+      "retainedSourceParagraphs": 8,
+      "previousDetailedParagraphs": 8,
+      "decisionSections": [
+        {
+          "title": "What a useful storm inspection record should show in Columbus",
+          "body": "Photographs should connect each observation to a slope, roof edge, wall or gutter location. Damage from wind or hail should not be confused with unrelated wear without an explanation. If temporary protection is needed, the permanent repair should be documented as a separate work."
+        },
+        {
+          "title": "Insurance questions and the repair estimate",
+          "body": "The contractor can document observed conditions and prepare a repair proposal. Your insurer determines coverage, deductibles and claim decisions. Do not assume an insurance payment changes the work actually required."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I tell from the ground whether hail damaged my roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not reliably. You may see dents or displaced material, but a closer professional inspection can help distinguish possible storm effects from ordinary wear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will the roof estimate guarantee my insurance claim?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Roof King can describe observed damage and proposed repairs. The insurance company controls coverage and claim decisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "exterior services in Columbus",
+          "href": "/columbus-oh/"
+        },
+        {
+          "label": "storm damage services",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roof repair options",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "siding repairs",
+          "href": "/siding/"
+        },
+        {
+          "label": "gutter repairs and replacement",
+          "href": "/gutters/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-17-2",
+        "service-copy-17-3",
+        "service-copy-17-4",
+        "service-copy-17-5"
+      ],
+      "hero": "After strong wind or hail in Columbus, begin with what you can document safely: missing or lifted shingles, affected flashing, damaged siding, loose gutters or water entering the house.",
+      "openingIntroduction": "Roof King & Restoration can discuss the affected roof and exterior areas and help define an inspection and repair work. Temporary protection, permanent repairs and any insurance decision are separate matters.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Explain the visible storm damage, any water entering the property and the approximate date you noticed the issue. Roof King can discuss the available inspection and repair options for your Columbus address. Any insurance coverage decision belongs to your insurer."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 22
+    },
+    {
+      "path": "/dayton-oh/",
+      "package": 16,
+      "h1": "Roofing, Siding & Exterior Services in Dayton, OH",
+      "seoTitle": "Dayton, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Dayton, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 38,
+      "previousDetailedParagraphs": 38,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Dayton",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Dayton?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-25-1",
+        "service-copy-25-2",
+        "service-copy-25-3"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Dayton, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Dayton property. The proposal should identify the affected areas, materials and next steps. Dayton’s designated historic districts and other neighborhoods call for exterior work that fits the building rather than a single standard package. We plan roofing, siding and storm repairs around the home’s roof shape, wall materials and access.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Dayton property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 55
+    },
+    {
+      "path": "/dayton-oh/roofing/",
+      "package": 17,
+      "h1": "Roof Repair & Replacement in Dayton, OH",
+      "seoTitle": "Roof Repair & Replacement in Dayton, OH | Roof King",
+      "description": "Roof repair and replacement in Dayton, OH. Review roof condition, materials, flashing and written estimates with Roof King & Restoration.",
+      "retainedSourceParagraphs": 12,
+      "previousDetailedParagraphs": 12,
+      "decisionSections": [
+        {
+          "title": "How to compare roof repair with replacement in Dayton",
+          "body": "Ask whether the damage is confined to shingles, pipe boots or flashing, or extends into the deck and adjacent roof sections. The proposal should make clear why an isolated repair is reasonable—or which conditions make replacement the more practical option."
+        },
+        {
+          "title": "Before accepting the roofing estimate",
+          "body": "Compare tear-off, underlayment, flashing, ventilation, cleanup and allowances for hidden decking. Roof King should identify the proposed product and separate manufacturer coverage from the written workmanship terms."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Does a leak always mean my Dayton roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A flashing connection, damaged shingle section or vent detail may be repairable. The recommendation should follow an inspection of surrounding materials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are GAF warranty terms the same as Roof King workmanship coverage?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Manufacturer product warranties and contractor workmanship terms are separate. Eligibility depends on the actual system and written documents."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "all exterior services in Dayton",
+          "href": "/dayton-oh/"
+        },
+        {
+          "label": "roof repairs",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "roof replacement",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "storm-damage roofing",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roofing systems",
+          "href": "/roofing/"
+        }
+      ],
+      "newContextualLinks": 3,
+      "existingContextualLinks": 2,
+      "preservedSectionIds": [
+        "service-copy-26-2",
+        "service-copy-26-3",
+        "service-copy-26-4",
+        "service-copy-26-5"
+      ],
+      "hero": "Before deciding whether to patch a leak or replace a roof in Dayton, it helps to know where the problem starts and how much of the roof is affected. Roof King helps Dayton homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
+      "openingIntroduction": "Roof King & Restoration can assess the roof covering, flashing, penetrations and exposed details before explaining repair and replacement options. Ask for a written proposal that makes the included work clear.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Describe the roof age if known, where the leak or damaged area is located, and whether earlier repairs were made. Request an inspection and an itemized repair or replacement proposal for your Dayton property."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 25
+    },
+    {
+      "path": "/dayton-oh/storm-damage/",
+      "package": 18,
+      "h1": "Storm Damage Roof Repair in Dayton, OH",
+      "seoTitle": "Storm Damage Roof Repair in Dayton, OH | Roof King",
+      "description": "Wind or hail damage in Dayton, OH? Roof King reviews affected roofing, flashing and exterior areas. Ask about an inspection and repair estimate.",
+      "retainedSourceParagraphs": 12,
+      "previousDetailedParagraphs": 12,
+      "decisionSections": [
+        {
+          "title": "What a useful storm inspection record should show in Dayton",
+          "body": "Photographs should connect each observation to a slope, roof edge, wall or gutter location. Damage from wind or hail should not be confused with unrelated wear without an explanation. If temporary protection is needed, the permanent repair should be documented as a separate work."
+        },
+        {
+          "title": "Insurance questions and the repair estimate",
+          "body": "The contractor can document observed conditions and prepare a repair proposal. Your insurer determines coverage, deductibles and claim decisions. Do not assume an insurance payment changes the work actually required."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I tell from the ground whether hail damaged my roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not reliably. You may see dents or displaced material, but a closer professional inspection can help distinguish possible storm effects from ordinary wear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will the roof estimate guarantee my insurance claim?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Roof King can describe observed damage and proposed repairs. The insurance company controls coverage and claim decisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "exterior services in Dayton",
+          "href": "/dayton-oh/"
+        },
+        {
+          "label": "storm damage services",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roof repair options",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "siding repairs",
+          "href": "/siding/"
+        },
+        {
+          "label": "gutter repairs and replacement",
+          "href": "/gutters/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-27-2",
+        "service-copy-27-3",
+        "service-copy-27-4",
+        "service-copy-27-5"
+      ],
+      "hero": "After strong wind or hail in Dayton, begin with what you can document safely: missing or lifted shingles, affected flashing, damaged siding, loose gutters or water entering the house.",
+      "openingIntroduction": "Roof King & Restoration can discuss the affected roof and exterior areas and help define an inspection and repair work. Temporary protection, permanent repairs and any insurance decision are separate matters.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Explain the visible storm damage, any water entering the property and the approximate date you noticed the issue. Roof King can discuss the available inspection and repair options for your Dayton address. Any insurance coverage decision belongs to your insurer."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 26
+    },
+    {
+      "path": "/delaware-oh/",
+      "package": 19,
+      "h1": "Roofing, Siding & Exterior Services in Delaware, OH",
+      "seoTitle": "Delaware, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Delaware, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Delaware",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Delaware?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-36-1",
+        "service-copy-36-2",
+        "service-copy-36-3",
+        "service-copy-36-4"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Delaware, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Delaware property. The proposal should identify the affected areas, materials and next steps. Delaware’s downtown historic setting and surrounding residential areas include properties with different rooflines and exterior finishes. A roofing or siding project should respond to the actual house and the elements you want to retain.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Delaware property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/delaware-oh/roofing/",
+      "package": 20,
+      "h1": "Roof Repair & Replacement in Delaware, OH",
+      "seoTitle": "Roof Repair & Replacement in Delaware, OH | Roof King",
+      "description": "Roof repair and replacement in Delaware, OH. Review roof condition, materials, flashing and written estimates with Roof King & Restoration.",
+      "retainedSourceParagraphs": 8,
+      "previousDetailedParagraphs": 8,
+      "decisionSections": [
+        {
+          "title": "How to compare roof repair with replacement in Delaware",
+          "body": "Ask whether the damage is confined to shingles, pipe boots or flashing, or extends into the deck and adjacent roof sections. The proposal should make clear why an isolated repair is reasonable—or which conditions make replacement the more practical option."
+        },
+        {
+          "title": "Before accepting the roofing estimate",
+          "body": "Compare tear-off, underlayment, flashing, ventilation, cleanup and allowances for hidden decking. Roof King should identify the proposed product and separate manufacturer coverage from the written workmanship terms."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Does a leak always mean my Delaware roof needs replacement?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. A flashing connection, damaged shingle section or vent detail may be repairable. The recommendation should follow an inspection of surrounding materials."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Are GAF warranty terms the same as Roof King workmanship coverage?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Manufacturer product warranties and contractor workmanship terms are separate. Eligibility depends on the actual system and written documents."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "all exterior services in Delaware",
+          "href": "/delaware-oh/"
+        },
+        {
+          "label": "roof repairs",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "roof replacement",
+          "href": "/roofing/replacement/"
+        },
+        {
+          "label": "storm-damage roofing",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roofing systems",
+          "href": "/roofing/"
+        }
+      ],
+      "newContextualLinks": 2,
+      "existingContextualLinks": 3,
+      "preservedSectionIds": [
+        "service-copy-37-2",
+        "service-copy-37-3",
+        "service-copy-37-4",
+        "service-copy-37-5"
+      ],
+      "hero": "Before deciding whether to patch a leak or replace a roof in Delaware, it helps to know where the problem starts and how much of the roof is affected. Roof King helps Delaware homeowners plan roof repairs and replacements around the condition of the existing roof. A useful recommendation identifies what has failed, what remains serviceable and how the proposed work will connect to the rest of the home.",
+      "openingIntroduction": "Roof King & Restoration can assess the roof covering, flashing, penetrations and exposed details before explaining repair and replacement options. Ask for a written proposal that makes the included work clear.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Describe the roof age if known, where the leak or damaged area is located, and whether earlier repairs were made. Request an inspection and an itemized repair or replacement proposal for your Delaware property."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 20
+    },
+    {
+      "path": "/delaware-oh/storm-damage/",
+      "package": 21,
+      "h1": "Storm Damage Roof Repair in Delaware, OH",
+      "seoTitle": "Storm Damage Roof Repair in Delaware, OH | Roof King",
+      "description": "Wind or hail damage in Delaware, OH? Roof King reviews affected roofing, flashing and exterior areas. Ask about an inspection and repair estimate.",
+      "retainedSourceParagraphs": 8,
+      "previousDetailedParagraphs": 8,
+      "decisionSections": [
+        {
+          "title": "What a useful storm inspection record should show in Delaware",
+          "body": "Photographs should connect each observation to a slope, roof edge, wall or gutter location. Damage from wind or hail should not be confused with unrelated wear without an explanation. If temporary protection is needed, the permanent repair should be documented as a separate work."
+        },
+        {
+          "title": "Insurance questions and the repair estimate",
+          "body": "The contractor can document observed conditions and prepare a repair proposal. Your insurer determines coverage, deductibles and claim decisions. Do not assume an insurance payment changes the work actually required."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I tell from the ground whether hail damaged my roof?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Not reliably. You may see dents or displaced material, but a closer professional inspection can help distinguish possible storm effects from ordinary wear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Will the roof estimate guarantee my insurance claim?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "No. Roof King can describe observed damage and proposed repairs. The insurance company controls coverage and claim decisions."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "exterior services in Delaware",
+          "href": "/delaware-oh/"
+        },
+        {
+          "label": "storm damage services",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "roof repair options",
+          "href": "/roofing/repair/"
+        },
+        {
+          "label": "siding repairs",
+          "href": "/siding/"
+        },
+        {
+          "label": "gutter repairs and replacement",
+          "href": "/gutters/"
+        }
+      ],
+      "newContextualLinks": 4,
+      "existingContextualLinks": 1,
+      "preservedSectionIds": [
+        "service-copy-38-2",
+        "service-copy-38-3",
+        "service-copy-38-4",
+        "service-copy-38-5"
+      ],
+      "hero": "After strong wind or hail in Delaware, begin with what you can document safely: missing or lifted shingles, affected flashing, damaged siding, loose gutters or water entering the house.",
+      "openingIntroduction": "Roof King & Restoration can discuss the affected roof and exterior areas and help define an inspection and repair work. Temporary protection, permanent repairs and any insurance decision are separate matters.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Explain the visible storm damage, any water entering the property and the approximate date you noticed the issue. Roof King can discuss the available inspection and repair options for your Delaware address. Any insurance coverage decision belongs to your insurer."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 22
+    },
+    {
+      "path": "/dublin-oh/",
+      "package": 22,
+      "h1": "Roofing, Siding & Exterior Services in Dublin, OH",
+      "seoTitle": "Dublin, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Dublin, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Dublin",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Dublin?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-39-2",
+        "service-copy-39-3",
+        "service-copy-39-4",
+        "location-dublin-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Dublin, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection. From Historic Dublin to homes elsewhere along the Scioto corridor and beyond, roofing and siding choices should fit the building’s materials and proportions.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Dublin property. The proposal should identify the affected areas, materials and next steps. From Historic Dublin to homes elsewhere along the Scioto corridor and beyond, roofing and siding choices should fit the building’s materials and proportions. We bring storm repair, gutters and other exterior services into the same project conversation.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Dublin property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/gahanna-oh/",
+      "package": 23,
+      "h1": "Roofing, Siding & Exterior Services in Gahanna, OH",
+      "seoTitle": "Gahanna, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Gahanna, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Gahanna",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Gahanna?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-43-2",
+        "service-copy-43-3",
+        "service-copy-43-4",
+        "location-gahanna-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Gahanna, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Gahanna property. The proposal should identify the affected areas, materials and next steps. Gahanna’s Olde Gahanna setting and neighborhoods around Big Walnut Creek provide a local backdrop for different exterior projects. We start with your home’s roof, wall finishes and drainage rather than assuming every property needs the same work.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Gahanna property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/grove-city-oh/",
+      "package": 24,
+      "h1": "Roofing, Siding & Exterior Services in Grove City, OH",
+      "seoTitle": "Grove City, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Grove City, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Grove City",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Grove City?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-44-2",
+        "service-copy-44-3",
+        "service-copy-44-4",
+        "location-grove-city-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Grove City, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Grove City property. The proposal should identify the affected areas, materials and next steps. Grove City exterior projects can involve homes near the Town Center or properties farther from the historic core. Roofing, siding and storm repairs should fit the house’s roof form, existing finishes and outdoor spaces.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Grove City property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/hamilton-oh/",
+      "package": 25,
+      "h1": "Roofing, Siding & Exterior Services in Hamilton, OH",
+      "seoTitle": "Hamilton, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Hamilton, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Hamilton",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Hamilton?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-50-2",
+        "service-copy-50-3",
+        "service-copy-50-4",
+        "location-hamilton-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Hamilton, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Hamilton property. The proposal should identify the affected areas, materials and next steps. Hamilton’s German Village and Rossville historic districts are part of a community with varied residential and commercial buildings. Roofing, siding and storm repairs should consider the building’s character and the condition of later alterations.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Hamilton property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/hilliard-oh/",
+      "package": 26,
+      "h1": "Roofing, Siding & Exterior Services in Hilliard, OH",
+      "seoTitle": "Hilliard, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Hilliard, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Hilliard",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Hilliard?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-51-2",
+        "service-copy-51-3",
+        "service-copy-51-4",
+        "location-hilliard-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Hilliard, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Hilliard property. The proposal should identify the affected areas, materials and next steps. Old Hilliard and the wider community include homes with different ages, additions and exterior combinations. Our Hilliard service offering brings roofing, siding and storm repairs together with gutters and other details around the home.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Hilliard property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/lancaster-oh/",
+      "package": 27,
+      "h1": "Roofing, Siding & Exterior Services in Lancaster, OH",
+      "seoTitle": "Lancaster, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Lancaster, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Lancaster",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Lancaster?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-53-2",
+        "service-copy-53-3",
+        "service-copy-53-4",
+        "location-lancaster-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Lancaster, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Lancaster property. The proposal should identify the affected areas, materials and next steps. Lancaster’s historic properties and other residential areas call for exterior work that fits the building. We discuss roofing, siding and storm repairs with the trim, masonry and drainage details that will remain.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Lancaster property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/lewis-center-oh/",
+      "package": 28,
+      "h1": "Roofing, Siding & Exterior Services in Lewis Center, OH",
+      "seoTitle": "Lewis Center, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Lewis Center, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Lewis Center",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Lewis Center?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-54-2",
+        "service-copy-54-3",
+        "service-copy-54-4",
+        "location-lewis-center-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Lewis Center, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Lewis Center property. The proposal should identify the affected areas, materials and next steps. Lewis Center is an unincorporated community associated with Orange Township, rather than a separate incorporated city. We serve Lewis Center properties with roofing, siding and storm repairs, planning around the actual address and building conditions.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Lewis Center property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/middletown-oh/",
+      "package": 29,
+      "h1": "Roofing, Siding & Exterior Services in Middletown, OH",
+      "seoTitle": "Middletown, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Middletown, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Middletown",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Middletown?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-56-2",
+        "service-copy-56-3",
+        "service-copy-56-4",
+        "location-middletown-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Middletown, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Middletown property. The proposal should identify the affected areas, materials and next steps. Middletown includes historic settings such as South Main Street and the Highlands as well as other neighborhoods. Exterior work should respond to the building’s details, with storm repairs organized around the materials actually affected.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Middletown property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/newark-oh/",
+      "package": 30,
+      "h1": "Roofing, Siding & Exterior Services in Newark, OH",
+      "seoTitle": "Newark, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Newark, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Newark",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Newark?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-57-2",
+        "service-copy-57-3",
+        "service-copy-57-4",
+        "location-newark-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Newark, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Newark property. The proposal should identify the affected areas, materials and next steps. Newark’s historic center and surrounding neighborhoods include buildings with different roof forms and exterior materials. We plan roofing, siding and storm work around the property’s additions and drainage connections as well as its main exterior surfaces.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Newark property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/powell-oh/",
+      "package": 31,
+      "h1": "Roofing, Siding & Exterior Services in Powell, OH",
+      "seoTitle": "Powell, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Powell, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Powell",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Powell?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-58-2",
+        "service-copy-58-3",
+        "service-copy-58-4",
+        "location-powell-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Powell, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Powell property. The proposal should identify the affected areas, materials and next steps. Powell’s downtown setting and residential neighborhoods provide different contexts for choosing roofing and siding. We also cover storm repairs and the gutter, window and outdoor work that meets those exterior surfaces.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Powell property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/upper-arlington-oh/",
+      "package": 32,
+      "h1": "Roofing, Siding & Exterior Services in Upper Arlington, OH",
+      "seoTitle": "Upper Arlington, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Upper Arlington, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Upper Arlington",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Upper Arlington?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-79-2",
+        "service-copy-79-3",
+        "service-copy-79-4",
+        "location-upper-arlington-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Upper Arlington, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for an Upper Arlington property. The proposal should identify the affected areas, materials and next steps. Upper Arlington includes early planned neighborhoods and later residential development. Exterior work should fit the house’s roof form and wall materials while preserving the details that make the property feel coherent.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Upper Arlington property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/westerville-oh/",
+      "package": 33,
+      "h1": "Roofing, Siding & Exterior Services in Westerville, OH",
+      "seoTitle": "Westerville, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Westerville, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Westerville",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Westerville?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-80-2",
+        "service-copy-80-3",
+        "service-copy-80-4",
+        "location-westerville-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Westerville, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Westerville property. The proposal should identify the affected areas, materials and next steps. Uptown Westerville’s historic setting is one part of a community with many types of homes. Roofing, siding and storm work should respect the existing details while addressing the condition of the building.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Westerville property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/worthington-oh/",
+      "package": 34,
+      "h1": "Roofing, Siding & Exterior Services in Worthington, OH",
+      "seoTitle": "Worthington, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Worthington, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Worthington",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Worthington?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-82-2",
+        "service-copy-82-3",
+        "service-copy-82-4",
+        "location-worthington-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Worthington, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Worthington property. The proposal should identify the affected areas, materials and next steps. Worthington’s Village Green and historic center give the community a distinctive setting, while each house has its own exterior needs. We coordinate roofing, siding and storm work with the details and materials you intend to retain.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Worthington property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    },
+    {
+      "path": "/zanesville-oh/",
+      "package": 35,
+      "h1": "Roofing, Siding & Exterior Services in Zanesville, OH",
+      "seoTitle": "Zanesville, OH Roofing & Exterior Services | Roof King",
+      "description": "Roofing, siding, storm-damage repairs and exterior services in Zanesville, OH. Discuss your project and request a written estimate from Roof King & Restoration.",
+      "retainedSourceParagraphs": 35,
+      "previousDetailedParagraphs": 35,
+      "decisionSections": [
+        {
+          "title": "What to include when you request an exterior estimate in Zanesville",
+          "body": "Tell Roof King which roof slopes, wall elevations, gutter runs or windows are affected. A useful estimate distinguishes repairable areas from planned replacement, identifies finish materials and addresses the points where different exterior surfaces meet. If the work follows a storm, include photographs taken safely from the ground and any dates you remember."
+        },
+        {
+          "title": "When roofing and siding work should be coordinated",
+          "body": "Where a roof edge meets siding or fascia, a damaged flashing or support detail may affect both projects. Reviewing those junctions together can make the proposed work easier to understand, even if the work is completed in stages."
+        }
+      ],
+      "addedFAQs": [
+        {
+          "question": "Can I discuss roofing, siding and gutters together?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Yes. Describe all the exterior areas you want evaluated. A useful written proposal identifies the separate services and how roof-edge, fascia and drainage work affect one another."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "Does Roof King have an office in Zanesville?",
+          "answer": [
+            {
+              "tag": "p",
+              "children": [
+                {
+                  "text": "Roof King lists a Columbus business location."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "contextualLinks": [
+        {
+          "label": "residential roofing services",
+          "href": "/roofing/"
+        },
+        {
+          "label": "siding replacement and repair",
+          "href": "/siding/"
+        },
+        {
+          "label": "storm-damage inspections and repairs",
+          "href": "/storm-damage/"
+        },
+        {
+          "label": "gutter installation and replacement",
+          "href": "/gutters/"
+        },
+        {
+          "label": "window replacement",
+          "href": "/windows/"
+        }
+      ],
+      "newContextualLinks": 5,
+      "existingContextualLinks": 0,
+      "preservedSectionIds": [
+        "service-copy-83-2",
+        "service-copy-83-3",
+        "service-copy-83-4",
+        "location-zanesville-oh-planning"
+      ],
+      "hero": "If you’re planning roofing, siding or exterior work in Zanesville, the useful starting point is the condition of the surfaces being repaired—not a package selected before an inspection.",
+      "openingIntroduction": "Roof King & Restoration can review roofing, siding, storm damage and related exterior work for a Zanesville property. The proposal should identify the affected areas, materials and next steps. Zanesville’s setting around the Muskingum and Licking waterways includes a range of building forms and exterior conditions. We plan roofing, siding and storm work around the roof connections, wall finishes and drainage at your property.",
+      "closing": [
+        {
+          "tag": "p",
+          "children": [
+            {
+              "text": "Tell Roof King which roofing, siding or other exterior areas at your Zanesville property need attention. Ask which services can be included and how the written estimate will separate the proposed work."
+            }
+          ]
+        }
+      ],
+      "expectedParagraphs": 52
+    }
+  ],
+  "source": {
+    "filename": "Roof_King_ALL_35_Service_Areas_Full_Three_Skill_Page_Rewrites_and_SEO_For_Gary.pdf",
+    "sha256": "239fe26940109ee773adc777bcf51c6eb597278693c805df1400c1612b5cae1c",
+    "pages": 260
+  },
+  "validation": {
+    "localPreviewPages": 35,
+    "copyMetadataFAQsAndRecommendedLinks": "passed",
+    "reportOnlyTextExcluded": "passed",
+    "representativeDesktopAndMobile": "reviewed; no horizontal overflow",
+    "routeInventoryMissingDestinations": [],
+    "publication": "Local only; no commit, push or deployment performed."
+  }
+}

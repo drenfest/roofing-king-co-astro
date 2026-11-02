@@ -1,7 +1,7 @@
 ---
-title: "Deck Accessories in Columbus, OH"
+title: "Deck Railings & Accessories in Columbus, OH | Roof King"
 permalink: "/decks/accessories/"
-description: "Roof King can help complete your deck installation with accessories such as railings, lighting, and finishing details."
+description: "Compare Trex deck railings, lighting, hidden fasteners, fascia and RainEscape in Columbus, OH. Plan attachment, stairs, guard requirements and installation."
 canonicalPath: "/decks/accessories/"
 category: "Service detail"
 source: "wordpress"
@@ -26,7 +26,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Start Your Deck Project</h2>
                                                                 <p>Talk with Roof King about timing, products, and the best path for a stronger outdoor living space.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -313,7 +313,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your deck project and the best way to move it forward.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

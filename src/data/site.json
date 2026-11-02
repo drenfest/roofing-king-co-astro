@@ -1,8 +1,8 @@
 {
   "name": "Roof King & Restoration",
   "url": "https://www.roofkingco.com",
-  "phone": "(614) 379-8893",
-  "phoneHref": "tel:+16143798893",
+  "phone": "(614) 490-0123",
+  "phoneHref": "tel:+16144900123",
   "address": {
     "streetAddress": "6155 Huntley Rd, Unit L",
     "addressLocality": "Columbus",
@@ -11,5 +11,12 @@
     "addressCountry": "US"
   },
   "businessInformationSource": "Client email from Jared Lane, October 16, 2026",
-  "releaseStatus": "content-import-review"
+  "releaseStatus": "content-import-review",
+  "contractorLicense": {
+    "label": "City of Columbus HIC Limited License",
+    "number": "HIC-L00828",
+    "href": "https://ca.columbus.gov/ca/Cap/CapDetail.aspx?Module=Licenses&TabName=Licenses&capID1=26201&capID2=00000&capID3=06062&agencyCode=COLUMBUS&IsToShowInspection=",
+    "source": "City of Columbus license search for HIC-L00828, renewal LIC-REN2605236, record status Issued, September 28, 2026; checked November 2, 2026. Published number also appears on permit RSWDR2345662."
+  },
+  "phoneSource": "Client correction, November 2, 2026: use (614) 490-0123 throughout the website."
 }

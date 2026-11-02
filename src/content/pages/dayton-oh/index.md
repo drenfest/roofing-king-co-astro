@@ -1,15 +1,17 @@
 ---
-title: "Dayton, OH Roof & Storm Damage Company"
-permalink: "/dayton-oh/"
-description: "Ready to get started on your exterior remodel in Dayton, OH? Roof King & Restoration is the exterior and roofing company to call. Reach out for a free quote!"
-canonicalPath: "/dayton-oh/"
-category: "Local service"
-source: "wordpress"
-sourcePath: "/dayton-oh/"
+title: Dayton, OH Roofing & Exterior Services | Roof King
+permalink: /dayton-oh/
+description: Roofing, siding, storm-damage repairs and exterior services in
+  Dayton, OH. Discuss your project and request a written estimate from Roof King
+  & Restoration.
+canonicalPath: /dayton-oh/
+category: Local service
+source: wordpress
+sourcePath: /dayton-oh/
 wordpressId: 24
-reviewStatus: "imported-needs-review"
+reviewStatus: imported-needs-review
 notes: []
-priority: "preserve-and-improve"
+priority: preserve-and-improve
 ---
 
 
@@ -26,7 +28,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Flexible 3-Year Financing for Your Home Projects</h2>
                                                                 <p>Take advantage of 3-year financing in Columbus for roofing, windows, and more. Affordable monthly payments make your dream project a reality!</p>
                                                                 <a class="rk-button rk-button-primary" href="/offers/3-year-financing/">Learn More</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -230,7 +232,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your roof, siding, gutters, windows, decks, insulation, or storm damage project.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

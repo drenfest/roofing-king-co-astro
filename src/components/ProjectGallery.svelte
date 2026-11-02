@@ -43,8 +43,7 @@
   {#if id==='projects'}{#each filters.filter(f=>f.value!=='all') as option}<span id={'projects-'+option.value} class="rk-gallery-anchor" aria-hidden="true"></span>{/each}{/if}
   <div class="rk-section-inner">
     <header class="rk-gallery-editorial-heading"><p class="rk-home-eyebrow">{eyebrow}</p><h2>{emphasis?title.slice(0,-emphasis.length):title}{#if emphasis}<em>{emphasis}</em>{/if}</h2><p class="rk-gallery-description">{description}</p></header>
-    {#if filters.length>1}<div class="rk-gallery-toolbar"><div class="rk-gallery-filters" role="group" aria-label="Filter gallery by service">{#each filters as option}<button type="button" class:is-active={filter===option.value} aria-pressed={filter===option.value} disabled={!enhanced} onclick={()=>setFilter(option.value)}>{option.label}</button>{/each}</div></div>{/if}
-    <div class="rk-gallery-search-tools"><label>Find a photo<input type="search" bind:value={search} oninput={resetPage} disabled={!enhanced} placeholder="Try shingles, skylights or team"/></label><label>Image type<select bind:value={imageType} onchange={resetPage} disabled={!enhanced}>{#each availableTypes as type}<option value={type.value}>{type.label}</option>{/each}</select></label>{#if search||imageType!=='all'}<button type="button" class="rk-gallery-clear" onclick={()=>{search='';imageType='all';resetPage();}}>Clear search</button>{/if}</div>
+    <div class="rk-gallery-search-tools">{#if filters.length>1}<label class="rk-gallery-category-filter">Photo category<select value={filter} onchange={event=>setFilter(event.currentTarget.value)} disabled={!enhanced}>{#each filters as option}<option value={option.value}>{option.label}</option>{/each}</select></label>{/if}<label class="rk-gallery-search-field">Find a photo<input type="search" bind:value={search} oninput={resetPage} disabled={!enhanced} placeholder="Try shingles, skylights or team"/></label><label>Image type<select bind:value={imageType} onchange={resetPage} disabled={!enhanced}>{#each availableTypes as type}<option value={type.value}>{type.label}</option>{/each}</select></label>{#if search||imageType!=='all'}<button type="button" class="rk-gallery-clear" onclick={()=>{search='';imageType='all';resetPage();}}>Clear search</button>{/if}</div>
     <div class="rk-gallery-pages" bind:this={gridHost} role="group" aria-label="Gallery photo groups. Swipe or use the group controls to browse." ontouchstart={touchStart} ontouchend={touchEnd}>
       {#each groups as group,pageIndex}
         <div class="rk-project-gallery-masonry rk-gallery-page" hidden={pageIndex!==page} role="group" aria-roledescription="slide" aria-label={'Photo group '+(pageIndex+1)+' of '+pageCount}>
@@ -72,13 +71,13 @@ section.rk-editorial-gallery>.rk-section-inner{width:min(100% - 8vw,1380px);max-
 .rk-gallery-editorial-heading h2{margin:0;max-width:none;color:var(--rk-charcoal);font-size:clamp(3.1rem,6.8vw,6.5rem);font-weight:600;line-height:1.04;letter-spacing:-.045em;text-transform:none;text-wrap:pretty;}
 .rk-gallery-editorial-heading h2 em{display:block;font-weight:600;}
 .rk-gallery-editorial-heading .rk-gallery-description{max-width:30ch;margin:0 0 .3rem;color:var(--rk-muted);font-size:1rem;line-height:1.65;}
-.rk-gallery-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;border-top:1px solid var(--rk-line);padding-block:.65rem 1rem;}
-.rk-editorial-gallery .rk-gallery-filters{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:.3rem 1.8rem;margin:0;}
-.rk-editorial-gallery .rk-gallery-filters button{display:inline-flex;align-items:center;gap:.65rem;min-height:44px;padding:.3rem 0;border:0;border-radius:0;background:none;color:var(--rk-muted);font-size:.85rem;font-weight:450;box-shadow:none;clip-path:none;transform:none;text-transform:none;}
-.rk-editorial-gallery .rk-gallery-filters button::before{content:'';width:8px;height:8px;border-radius:50%;background:transparent;}
-.rk-editorial-gallery .rk-gallery-filters button.is-active{color:var(--rk-charcoal);font-weight:750;}
-.rk-editorial-gallery .rk-gallery-filters button.is-active::before{background:var(--rk-orange);}
-.rk-editorial-gallery .rk-gallery-filters button:hover{color:#a84400;}
+
+
+
+
+
+
+
 
 .rk-editorial-gallery .rk-project-gallery-masonry{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-flow:row;grid-auto-rows:auto;gap:1.6rem 1.3rem;max-width:none;margin:0;}
 .rk-editorial-gallery .rk-project-gallery-item:nth-child(n){display:block;grid-column:span 7;grid-row:auto;height:auto;min-width:0;overflow:visible;background:none;border:0;border-radius:0;clip-path:none;box-shadow:none;color:var(--rk-charcoal);text-decoration:none;will-change:auto;}
@@ -95,7 +94,9 @@ section.rk-editorial-gallery>.rk-section-inner{width:min(100% - 8vw,1380px);max-
 .rk-lightbox-source{display:block;margin-top:.4rem;font-size:.8rem;color:#d7d1c8;}
 .rk-gallery-search-tools{display:flex;flex-wrap:wrap;align-items:end;gap:1rem 1.5rem;margin:0 0 1.5rem;}
 .rk-gallery-search-tools label{display:grid;gap:.4rem;font-size:.72rem;font-weight:600;letter-spacing:.025em;}
-.rk-gallery-search-tools label:first-child{flex:1;max-width:29rem;min-width:12rem;}
+.rk-gallery-search-tools .rk-gallery-search-field{flex:1;max-width:29rem;min-width:12rem;}
+.rk-gallery-category-filter{min-width:14rem;}
+@media(max-width:600px){.rk-gallery-search-tools label,.rk-gallery-search-tools .rk-gallery-search-field{width:100%;max-width:none;min-width:0;flex-basis:100%;}}
 .rk-gallery-search-tools input,.rk-gallery-search-tools select{width:100%;min-height:44px;padding:.6rem .8rem;border:1px solid var(--rk-line);border-radius:0;background:var(--rk-paper);color:var(--rk-charcoal);font:inherit;font-size:.85rem;font-weight:400;}
 .rk-gallery-search-tools input:focus-visible,.rk-gallery-search-tools select:focus-visible{outline:2px solid var(--rk-orange);outline-offset:3px;}
 .rk-gallery-clear{min-height:44px;border:0;background:none;color:var(--rk-charcoal);font-size:.8rem;text-decoration:underline;text-underline-offset:.3em;cursor:pointer;}
@@ -111,7 +112,7 @@ section.rk-editorial-gallery>.rk-section-inner{width:min(100% - 8vw,1380px);max-
 .rk-gallery-full-link span{color:#ff8c36;font-size:1.5rem;line-height:1;}
 .rk-gallery-full-link:hover{background:#3e3a34;}
 @media(max-width:1060px){.rk-gallery-editorial-heading{grid-template-columns:1fr;gap:1.3rem;}.rk-gallery-editorial-heading .rk-gallery-description{max-width:50ch;}.rk-editorial-gallery .rk-project-gallery-item:nth-child(n){grid-column:span 6;}.rk-gallery-photo{height:clamp(190px,25vw,280px);}}
-@media(max-width:760px){section.rk-editorial-gallery>.rk-section-inner{width:calc(100% - 2.5rem);}.rk-gallery-editorial-heading h2{font-size:clamp(2.65rem,10vw,4.7rem);}.rk-gallery-editorial-heading .rk-gallery-description{font-size:.95rem;}.rk-editorial-gallery .rk-gallery-filters{gap:.1rem 1rem;}.rk-editorial-gallery .rk-gallery-filters button{gap:.4rem;font-size:.78rem;}.rk-editorial-gallery .rk-project-gallery-masonry{grid-template-columns:minmax(0,1fr);gap:1.7rem;}.rk-editorial-gallery .rk-project-gallery-item:nth-child(n){grid-column:auto;}.rk-gallery-photo{height:auto;aspect-ratio:4/3;}.rk-gallery-caption{font-size:1.25rem;}.rk-gallery-editorial-footer{align-items:flex-start;flex-direction:column;}.rk-gallery-full-link{align-self:flex-end;}}
+@media(max-width:760px){section.rk-editorial-gallery>.rk-section-inner{width:calc(100% - 2.5rem);}.rk-gallery-editorial-heading h2{font-size:clamp(2.65rem,10vw,4.7rem);}.rk-gallery-editorial-heading .rk-gallery-description{font-size:.95rem;}.rk-editorial-gallery .rk-project-gallery-masonry{grid-template-columns:minmax(0,1fr);gap:1.7rem;}.rk-editorial-gallery .rk-project-gallery-item:nth-child(n){grid-column:auto;}.rk-gallery-photo{height:auto;aspect-ratio:4/3;}.rk-gallery-caption{font-size:1.25rem;}.rk-gallery-editorial-footer{align-items:flex-start;flex-direction:column;}.rk-gallery-full-link{align-self:flex-end;}}
 .rk-gallery-page[hidden]{display:none!important;}
 .rk-gallery-pages{touch-action:pan-y pinch-zoom;}
 .rk-gallery-anchor{position:absolute;top:0;scroll-margin-top:8rem;}
@@ -125,16 +126,16 @@ section.rk-editorial-gallery{position:relative;scroll-margin-top:7rem;}
 .rk-gallery-compact .rk-gallery-editorial-heading h2{font-size:clamp(2rem,3.6vw,3.5rem);letter-spacing:-.025em;}
 .rk-gallery-compact .rk-gallery-editorial-heading{grid-template-columns:1.4fr 1fr;}
 .rk-gallery-compact .rk-gallery-photo{height:clamp(190px,20vw,280px);}
-@media(max-width:760px){.rk-editorial-gallery .rk-gallery-page:first-child .rk-project-gallery-item:nth-child(n+3){display:none;}.rk-gallery-editorial-footer{flex-direction:row;flex-wrap:wrap;align-items:center;}.rk-gallery-compact .rk-gallery-editorial-heading{grid-template-columns:1fr;}.rk-gallery-compact .rk-gallery-photo{height:auto;}.rk-gallery-compact .rk-gallery-full-link{width:100%;}.rk-editorial-gallery .rk-gallery-filters{flex-wrap:nowrap;overflow:auto;gap:1.3rem;max-width:100%;}.rk-editorial-gallery .rk-gallery-filters button{white-space:nowrap;}.rk-gallery-toolbar{min-width:0;}}
+@media(max-width:760px){.rk-editorial-gallery .rk-gallery-page:first-child .rk-project-gallery-item:nth-child(n+3){display:none;}.rk-gallery-editorial-footer{flex-direction:row;flex-wrap:wrap;align-items:center;}.rk-gallery-compact .rk-gallery-editorial-heading{grid-template-columns:1fr;}.rk-gallery-compact .rk-gallery-photo{height:auto;}.rk-gallery-compact .rk-gallery-full-link{width:100%;}}
 .rk-editorial-gallery .rk-project-gallery-item:only-child:last-child{grid-column:1/-1;}
 @media(max-width:760px){.rk-editorial-gallery .rk-project-gallery-item:last-child:nth-child(odd){grid-column:auto;}}
 /* Brand tone: logo orange with the shared diagonal section edge and white type. */
 section.rk-editorial-gallery.rk-gallery-brand{background:var(--rk-orange);color:#fff;clip-path:polygon(0 22px,100% 0,100% calc(100% - 22px),0 100%);padding-block:clamp(4.5rem,7vw,7rem);}
-.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow,.rk-gallery-brand .rk-gallery-editorial-heading h2,.rk-gallery-brand .rk-gallery-editorial-heading .rk-gallery-description,.rk-gallery-brand .rk-gallery-filters button,.rk-gallery-brand .rk-gallery-filters button.is-active,.rk-gallery-brand .rk-project-gallery-item:nth-child(n),.rk-gallery-brand .rk-gallery-category,.rk-gallery-brand .rk-gallery-source,.rk-gallery-brand .rk-gallery-search-tools label,.rk-gallery-brand .rk-gallery-clear,.rk-gallery-brand .rk-gallery-empty,.rk-gallery-brand .rk-gallery-editorial-footer p,.rk-gallery-brand .rk-gallery-pagination button,.rk-gallery-brand .rk-gallery-pagination span{color:#fff;}
-.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow::before,.rk-gallery-brand .rk-gallery-filters button.is-active::before{background:#fff;}
-.rk-gallery-brand .rk-gallery-filters button:not(.is-active){opacity:.88;}
-.rk-gallery-brand .rk-gallery-filters button:hover{color:#fff;opacity:1;text-decoration:underline;text-underline-offset:.35em;}
-.rk-gallery-brand .rk-gallery-toolbar,.rk-gallery-brand .rk-gallery-editorial-footer{border-top-color:rgba(255,255,255,.5);}
+.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow,.rk-gallery-brand .rk-gallery-editorial-heading h2,.rk-gallery-brand .rk-gallery-editorial-heading .rk-gallery-description,.rk-gallery-brand .rk-project-gallery-item:nth-child(n),.rk-gallery-brand .rk-gallery-category,.rk-gallery-brand .rk-gallery-source,.rk-gallery-brand .rk-gallery-search-tools label,.rk-gallery-brand .rk-gallery-clear,.rk-gallery-brand .rk-gallery-empty,.rk-gallery-brand .rk-gallery-editorial-footer p,.rk-gallery-brand .rk-gallery-pagination button,.rk-gallery-brand .rk-gallery-pagination span{color:#fff;}
+.rk-gallery-brand .rk-gallery-editorial-heading .rk-home-eyebrow::before{background:#fff;}
+
+
+.rk-gallery-brand .rk-gallery-editorial-footer{border-top-color:rgba(255,255,255,.5);}
 .rk-gallery-brand .rk-gallery-search-tools input,.rk-gallery-brand .rk-gallery-search-tools select{border-color:#fff;background:#fff;color:#8a3800;}
 .rk-gallery-brand .rk-gallery-search-tools input::placeholder{color:#a85a24;}
 .rk-gallery-brand .rk-gallery-search-tools input:focus-visible,.rk-gallery-brand .rk-gallery-search-tools select:focus-visible,.rk-gallery-brand a:focus-visible,.rk-gallery-brand button:focus-visible{outline:2px solid #fff;outline-offset:3px;}

@@ -40,11 +40,11 @@ export const faqGroups:Group[]=[
   pick('/gutters/','How do I know whether to repair or replace my gutters?'),
   pick('/gutters/','Will larger gutters stop overflowing?'),
   pick('/gutters/','Do gutter guards eliminate cleaning?'),
-  pick('/gutters/guards/','Can guards be installed on my existing gutters?')
+  pick('/gutters/guards/','Should I replace my gutters before adding guards?')
  ],links:[{label:'Gutter services',href:'/gutters/'},{label:'Gutter guards',href:'/gutters/guards/'}]},
  {id:'faq-other-exteriors',label:'Windows, decks & insulation',title:'Windows, decks and attic insulation',description:'Planning improvements while accounting for the materials already in your home.',items:[
-  pick('/windows/','Can I replace windows in stages?'),
-  pick('/decks/','Can new boards go over old framing?','Can new deck boards go over old framing?'),
+  pick('/windows/','Can I replace only a few windows?'),
+  pick('/decks/','Which warranty covers my deck?','Which warranties apply to a deck project?'),
   pick('/attic-insulation/','Can insulation be added over existing material?')
  ],links:[{label:'Windows',href:'/windows/'},{label:'Decks',href:'/decks/'},{label:'Attic insulation',href:'/attic-insulation/'}]},
  {id:'faq-estimates',label:'Estimates, costs & coverage',title:'Estimates, costs and warranty documents',description:'Compare the actual work and keep the product and workmanship coverage clear.',items:[

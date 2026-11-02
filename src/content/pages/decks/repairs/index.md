@@ -1,7 +1,7 @@
 ---
-title: "Deck Repairs in Columbus, OH"
+title: "Deck Repair in Columbus, OH | Roof King & Restoration"
 permalink: "/decks/repairs/"
-description: "Roof King handles deck repair services that help keep your outdoor structure safe, enjoyable to use, and visually appealing."
+description: "Deck repair in Columbus, OH for damaged boards, stairs, rails and supporting components. Assess the ledger, framing and footings before approving the repair."
 canonicalPath: "/decks/repairs/"
 category: "Service detail"
 source: "wordpress"
@@ -26,7 +26,7 @@ priority: "preserve-and-improve"
                                                                 <h2>Start Your Deck Project</h2>
                                                                 <p>Talk with Roof King about timing, products, and the best path for a stronger outdoor living space.</p>
                                                                 <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-                                                                <a class="rk-home-hero-card-link" href="tel:+16143798893">(614) 379-8893</a>
+                                                                <a class="rk-home-hero-card-link" href="tel:+16144900123">(614) 490-0123</a>
                                     </aside>
                     </div>
     </section>
@@ -313,7 +313,7 @@ priority: "preserve-and-improve"
       <p>Talk with a local exterior remodeling team about your deck project and the best way to move it forward.</p>
       <div class="rk-page-action-row">
         <a class="rk-button rk-button-primary" href="/contact-us/">Get A Free Quote</a>
-        <a class="rk-button rk-button-secondary" href="tel:+16143798893">(614) 379-8893</a>
+        <a class="rk-button rk-button-secondary" href="tel:+16144900123">(614) 490-0123</a>
       </div>
     </div>
   </section>

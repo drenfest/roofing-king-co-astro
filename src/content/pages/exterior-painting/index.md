@@ -25,7 +25,7 @@ priority: "preserve-and-improve"
         <p class="lede">Exterior repaint on siding, trim and soffit. Prep and substrate repair are most of the work and most of the result.</p>
         <div class="btn-row">
           <a class="btn btn-quote btn-lg" href="/free-inspection/">Get a Free Quote</a>
-          <a class="btn btn-onDark-ghost btn-lg" href="tel:+16143798893"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 379-8893</a>
+          <a class="btn btn-onDark-ghost btn-lg" href="tel:+16144900123"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 490-0123</a>
         </div>
         <div class="hero-badges"><img src="/media/static-build/assets/img/gallery/original/gaf-master-elite-roofer-badge-beb10491.avif" alt="GAF Master Elite residential roofing contractor badge" width="220" height="220" loading="lazy"><img src="/media/static-build/assets/img/gallery/original/gaf-presidents-club-award-badge-c9df6d53.avif" alt="GAF President's Club residential award badge" width="220" height="220" loading="lazy"><img src="/media/static-build/assets/img/gallery/original/bbb-a-plus-accreditation-badge-d3719aac.avif" alt="Better Business Bureau A+ accredited business badge" width="1143" height="463" loading="lazy"></div>
       </div>
@@ -33,7 +33,7 @@ priority: "preserve-and-improve"
 <div class="formcard">
   <h2>Exterior Painting quote</h2>
   <p class="sub">Free inspection and an itemized estimate for surface preparation, paint and cleanup.</p>
-  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16143798893">Call (614) 379-8893</a></div>
+  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16144900123">Call (614) 490-0123</a></div>
 </div></div>
     </div>
   </div>
@@ -56,7 +56,7 @@ priority: "preserve-and-improve"
 <div class="formcard">
   <h2>Exterior Painting quote</h2>
   <p class="sub">Free inspection and an itemized estimate for surface preparation, paint and cleanup.</p>
-  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16143798893">Call (614) 379-8893</a></div>
+  <div class="rk-migration-contact"><h2>Talk with Roof King</h2><p>Discuss your project with the team.</p><a class="rk-button rk-button-primary" href="tel:+16144900123">Call (614) 490-0123</a></div>
 </div></div>
   </div>
 </div></section>
@@ -81,7 +81,7 @@ priority: "preserve-and-improve"
     <p>An exterior inspection and an itemized estimate showing surface preparation, paint and cleanup.</p>
     <div class="btn-row">
       <a class="btn btn-primary btn-lg" href="/free-inspection/">Book a Free Inspection</a>
-      <a class="btn btn-onDark-ghost btn-lg" href="tel:+16143798893"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 379-8893</a>
+      <a class="btn btn-onDark-ghost btn-lg" href="tel:+16144900123"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16.5 12.7v2.3a1.5 1.5 0 01-1.7 1.5A14.8 14.8 0 011.5 3.2 1.5 1.5 0 013 1.5h2.3a1.5 1.5 0 011.5 1.3c.1.8.3 1.5.5 2.2a1.5 1.5 0 01-.3 1.6l-1 1a12 12 0 004.4 4.4l1-1a1.5 1.5 0 011.6-.3c.7.3 1.4.4 2.2.5a1.5 1.5 0 011.3 1.5z"></path></svg> (614) 490-0123</a>
     </div>
   </div>
 </div></section>
