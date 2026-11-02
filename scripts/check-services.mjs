@@ -118,7 +118,7 @@ for(const [path,data] of Object.entries(editorial)){
  assert.equal($('.rk-service-article-row').length,hasChildren?0:data.opening.items.length);
  for(const item of data.opening.items){assert.ok($('#'+item.id).text().includes(item.description),'Preserve topic content on '+path);if(hasChildren||!item.body)assert.ok($('#'+item.id+' a').toArray().some(a=>$(a).attr('href')===item.href),'Preserve child/topic destination on '+path);}
  const expectedReviews=reviewIdsForService(data.family);assert.equal($('.rk-home-review-card .rk-review-source').length,expectedReviews.length,path+' service-matched reviews');const actualReviewSources=$('.rk-home-review-card .rk-review-source').map((_,el)=>$(el).attr('href')).get();const reviewLibrary=JSON.parse(await fs.readFile('src/data/featured-reviews.json','utf8')).items;assert.deepEqual(actualReviewSources,expectedReviews.map(id=>reviewLibrary.find(review=>review.id===id).source.url),path+' exact review sources');
- assert.equal($('.rk-landing-credential-list article').length,3);
+ assert.equal($('.rk-landing-credential-list article').length,data.reviewPresentation?.credentialItems?.length||3);
  assert.equal($('.rk-service-faq details').length,data.faq.items.length);
  assert.equal($('dialog.rk-native-quote-dialog').length,1);
  assertContactActions($);

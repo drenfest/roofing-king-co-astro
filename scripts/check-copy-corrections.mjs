@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {load} from 'cheerio';
 import {assertContactActions} from './contact-checks.mjs';
 const read=async file=>JSON.parse(await fs.readFile(file,'utf8'));
-const catalogs=await Promise.all(['product-catalog','manufacturer-products','product-accessories','ply-gem-products'].map(name=>read(`src/data/${name}.json`)));
+const catalogs=await Promise.all(['product-catalog','manufacturer-products','product-accessories','ply-gem-products','commercial-products'].map(name=>read(`src/data/${name}.json`)));
 const products=Object.assign({},...catalogs),details=await read('src/data/product-details.json'),profiles=await read('src/data/product-care.json');
 const html=async path=>load(await fs.readFile('dist'+path+'index.html','utf8'));
 const seen=new Set();let count=0;

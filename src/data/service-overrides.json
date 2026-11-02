@@ -40714,6 +40714,26 @@
                 "text": "Choose what you want to understand: damage signs, hail size, impact-rated shingles, documentation or the repair decision."
               }
             ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Compare "
+              },
+              {
+                "tag": "a",
+                "href": "/products/roofing/shingles/",
+                "children": [
+                  {
+                    "text": "shingle product information"
+                  }
+                ]
+              },
+              {
+                "text": " for the replacement materials being considered."
+              }
+            ]
           }
         ],
         "image": {
@@ -42360,6 +42380,26 @@
             "children": [
               {
                 "text": "Choose what you’re dealing with. Each tab covers what wind does to that part of the roof, what we check and what a proper repair involves."
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "children": [
+              {
+                "text": "Compare "
+              },
+              {
+                "tag": "a",
+                "href": "/products/roofing/shingles/",
+                "children": [
+                  {
+                    "text": "shingle product information"
+                  }
+                ]
+              },
+              {
+                "text": " for the replacement materials being considered."
               }
             ]
           }
