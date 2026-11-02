@@ -12,7 +12,7 @@ notes: ["Residential storm damage page from supplied November 2026 brief.","Uses
 priority: "client-requested-page"
 ---
 
-# Residential Storm Damage Roof Repair in Columbus, OH
+<h1>Residential Storm Damage Roof Repair in Columbus, OH</h1>
 
 Residential Storm Damage Roof Repair in Columbus, OH
 A storm can leave a roof looking normal from the driveway while shingles, flashing or roof edges have been

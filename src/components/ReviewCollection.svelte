@@ -4,14 +4,16 @@
   let root:HTMLDivElement;
   let ready=$state(false);
   let selected=$state('all');
-  let count=$state(total);
+  let filteredCount=$state<number>();
+  let count=$derived(filteredCount??total);
   const filters=[{id:'all',label:'All reviews'},{id:'roofing',label:'Roof installation & cleanup'},{id:'siding',label:'Siding'},{id:'gutters',label:'Gutters'},{id:'decking',label:'Decks'},{id:'ice',label:'Snow & ice'},{id:'communication',label:'Communication'},{id:'storm',label:'Storm & insurance'}];
   function filter(id:string){
-    selected=id;count=0;
+    selected=id;let matching=0;
     for(const entry of root.querySelectorAll<HTMLElement>('[data-review-topics]')){
       entry.hidden=id!=='all'&&!entry.dataset.reviewTopics?.split(' ').includes(id);
-      if(!entry.hidden)count++;
+      if(!entry.hidden)matching++;
     }
+    filteredCount=id==='all'?undefined:matching;
   }
   onMount(()=>{ready=true;});
 </script>

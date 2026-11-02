@@ -3,7 +3,7 @@
   let {id,tabs,children}:{id:string;tabs:{id:string;label:string;manufacturer:string}[];children?:Snippet}=$props();
   let root:HTMLDivElement;
   let enhanced=$state(false);
-  let selected=$state(tabs[0]?.id);
+  let selected=$state<string>();
   function select(value:string,focus=false){
     selected=value;
     for(const panel of root.querySelectorAll<HTMLElement>('[data-material-panel]')){
@@ -19,7 +19,7 @@
     const next=event.key==='Home'?0:event.key==='End'?tabs.length-1:delta?(index+delta+tabs.length)%tabs.length:-1;
     if(next>=0){event.preventDefault();select(tabs[next].id,true);}
   }
-  onMount(()=>{enhanced=true;select(tabs.some(t=>t.id===location.hash.slice(1))?location.hash.slice(1):selected);});
+  onMount(()=>{enhanced=true;const initial=tabs.some(t=>t.id===location.hash.slice(1))?location.hash.slice(1):tabs[0]?.id;if(initial)select(initial);});
 </script>
 <div class="rk-material-tabs" bind:this={root}>
   <nav class="rk-material-tab-list" role={enhanced?'tablist':undefined} aria-label="Choose a material">
