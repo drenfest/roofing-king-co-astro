@@ -61,7 +61,7 @@
     </figcaption>
   </figure>
   {#if product.optionLabel!=='Product view' || product.colors.length>1}<div class="rk-product-color-caption" aria-live="polite">{#if color.swatchColor}<span class="rk-selected-color-reference" style:background-color={color.swatchColor} aria-hidden="true"></span>{/if}<span>{product.colorPreview?'Shown in':product.previewMode==='palette'?'Selected color reference':product.optionLabel?'Selected '+product.optionLabel.toLowerCase():'Shown in'}</span> <strong>{color.name}</strong></div>{/if}
-  {#if product.colorPreview}<p class="rk-product-reference-note">{product.colorPreview.caption}</p>{:else if product.previewMode==='palette'}<p class="rk-product-reference-note">The photo shows the product style. Swatches are manufacturer color references; confirm the finish with a physical sample.</p>{/if}
+  {#if product.colorPreview?.caption}<p class="rk-product-reference-note">{product.colorPreview.caption}</p>{:else if !product.colorPreview&&product.previewMode==='palette'}<p class="rk-product-reference-note">The photo shows the product style. Swatches are manufacturer color references; confirm the finish with a physical sample.</p>{/if}
   {#if color.availabilityNote}<p class="rk-product-reference-note" aria-live="polite">{color.availabilityNote}</p>{/if}
   {#if product.colors.length>1}<div class="rk-product-swatches" role="group" aria-label={`${title} ${product.optionLabel?.toLowerCase()||'colors'}`}>
     {#each product.colors as option (option.id)}

@@ -44,6 +44,8 @@ for (const route of roofr.calculatorPaths) {
   const calculator = cheerio.load(await fs.readFile('dist' + route + 'index.html', 'utf8'));
   assert.equal(calculator('#roofr-estimator').length, 1, 'Missing estimator on ' + route);
   assert.ok(calculator('#roofr-estimator a').toArray().some(e => calculator(e).attr('href') === roofr.estimatorUrl), 'Missing no-JS estimator link.');
-  assert.equal(calculator('#roofr-estimator iframe').length, 0, 'Do not load Roofr until the visitor starts the estimator.');
+  assert.equal(calculator('#roofr-estimator iframe').length, 1, 'Render Roofr immediately, including on review hosts.');
+  assert.equal(calculator('#roofr-estimator iframe').attr('src'),roofr.estimatorUrl);
+  assert.ok(calculator('#roofr-estimator iframe').attr('title'));
 }
-console.log('Both calculator URLs preserve a click-to-load Roofr estimator and a direct-link fallback.');
+console.log('Both calculator URLs load the Roofr estimator immediately and a direct-link fallback.');

@@ -29,7 +29,7 @@ for(const source of audit.articles){
   assert.deepEqual(section.find('[data-component=ArticleChecklist]').toArray().map(n=>$(n).children('li').length),[5,4]);
   const before=section.text().indexOf('Before the Windstorm:');const first=section.text().indexOf('Look for curling');const after=section.text().indexOf('After the Windstorm:');const last=section.text().indexOf('Scan the yard');assert.ok(before<first&&first<after&&after<last);
  }
- if(article.hero.generated)assert.equal($('.rk-service-hero-credit').length,1);
+ assert.equal($('.rk-service-hero-credit').length,0,'Article heroes omit removed image tips.');
  const headers=$('main h1,main h2,main h3,main h4').toArray();let previous=0;
  for(const h of headers){const level=Number(h.tagName[1]);assert.ok(level<=previous+1,'Heading order: '+source.path+' '+$(h).text());previous=level;}
  for(const href of $('link[rel=stylesheet]').toArray().map(n=>$(n).attr('href')).filter(href=>href.startsWith('/'))){const css=await fs.readFile('dist'+href,'utf8');assert.ok(!css.includes('.rk-blog-single'),'No WordPress article CSS: '+source.path);}
