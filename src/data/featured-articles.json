@@ -509,5 +509,32 @@
       ]
     },
     "sourceImage": "/media/wordpress/16127320ff48-08701798-0189-4130-9886-c5736f7ff2f4.png"
+  },
+  {
+    "href": "/blog/columbus-roof-damage-after-early-august-storms-your-first-72-hours/",
+    "title": "Columbus Roof Damage After Early August Storms: Your First 72 Hours",
+    "description": "What to record after a Columbus storm, how to arrange an inspection and which information to retain for your insurer.",
+    "topics": [
+      "storm",
+      "claims"
+    ],
+    "city": "Columbus",
+    "image": {
+      "src": "/media/articles/columbus-roof-damage-after-early-august-storms-your-first-72-hours-720.webp",
+      "alt": "Illustrative storm damage restoration scene",
+      "width": 720,
+      "height": 480,
+      "variants": [
+        {
+          "src": "/media/articles/columbus-roof-damage-after-early-august-storms-your-first-72-hours-400.webp",
+          "width": 400
+        },
+        {
+          "src": "/media/articles/columbus-roof-damage-after-early-august-storms-your-first-72-hours-720.webp",
+          "width": 720
+        }
+      ]
+    },
+    "sourceImage": "/media/roofing-heroes/columbus-oh-storm-damage-1672.webp"
   }
 ]

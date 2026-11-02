@@ -1,12 +1,13 @@
 ---
 import {featuredArticles} from '../data/featured-articles';
 import ServiceIcon from './ServiceIcon.astro';
-interface Props {family:string;city?:string;path?:string;}
-const {family,city,path}=Astro.props;
-const {items,title,description}=featuredArticles(family,city,path);
+interface Props {family:string;city?:string;path?:string;preferredPaths?:string[];title?:string;}
+const {family,city,path,preferredPaths,title}=Astro.props;
+const {items,title:defaultTitle,description}=featuredArticles(family,city,path,preferredPaths);
+const heading=title||defaultTitle;
 ---
 {items.length>0&&<section class="rk-landing-section rk-featured-articles" aria-labelledby="featured-articles-title" data-component="FeaturedArticles"><div class="rk-section-inner">
- <div class="rk-articles-heading"><div class="rk-landing-heading"><p class="rk-home-eyebrow">From the Roof King blog</p><h2 id="featured-articles-title">{title}</h2><p>{description}</p></div><a class="rk-articles-all" href="/blog/" title="Explore the Roof King blog">Explore the blog<ServiceIcon name="arrow"/></a></div>
+ <div class="rk-articles-heading"><div class="rk-landing-heading"><p class="rk-home-eyebrow">From the Roof King blog</p><h2 id="featured-articles-title">{heading}</h2><p>{description}</p></div><a class="rk-articles-all" href="/blog/" title="Explore the Roof King blog">Explore the blog<ServiceIcon name="arrow"/></a></div>
  <div class="rk-articles-grid">{items.map(item=><article><a href={item.href} title={`Read ${item.title}`} class="rk-article-link"><div class="rk-article-thumbnail"><img src={item.image.src} srcset={item.image.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width:600px) 90vw, (max-width:1000px) 45vw, 300px" width={item.image.width} height={item.image.height} alt={item.image.alt} loading="lazy" decoding="async"/></div><div class="rk-article-copy"><p class="rk-article-topic">{item.city?`${item.city}, Ohio`:'Roof King guide'}</p><h3>{item.title}</h3><p>{item.description}</p><span class="rk-article-action">Read article<ServiceIcon name="arrow"/></span></div></a></article>)}</div>
  </div></section>}
 <style>

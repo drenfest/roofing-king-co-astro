@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Storm Damage Company"
+title: "Storm Damage Roof Repair in Columbus, OH | Roof King"
 permalink: "/storm-damage/"
-description: "Is your Columbus home in need of a storm damage restoration? Let our experts at Roof King & Restoration assist. Get an estimate from us today to get started."
+description: "Storm damage roof repair in Columbus, OH: what to do after hail or wind, what damage to look for, and how inspections and Ohio insurance claims work."
 canonicalPath: "/storm-damage/"
 category: "Service hub"
 source: "wordpress"

@@ -22,7 +22,7 @@
   onMount(()=>{enhanced=true;select(tabs.some(t=>t.id===location.hash.slice(1))?location.hash.slice(1):selected);});
 </script>
 <div class="rk-material-tabs" bind:this={root}>
-  <nav class="rk-material-tab-list" role={enhanced?'tablist':undefined} aria-label="Choose a siding material">
+  <nav class="rk-material-tab-list" role={enhanced?'tablist':undefined} aria-label="Choose a material">
     {#each tabs as tab,index}
       <a href={`#${tab.id}`} id={`${tab.id}-tab`} title={`Explore ${tab.label}`} role={enhanced?'tab':undefined} aria-selected={enhanced?selected===tab.id:undefined} aria-controls={enhanced?tab.id:undefined} tabindex={enhanced&&selected!==tab.id?-1:0} class:is-selected={enhanced&&selected===tab.id} onclick={event=>{if(enhanced){event.preventDefault();select(tab.id);}}} onkeydown={event=>keyboard(event,index)}><strong>{tab.label}</strong><span>{tab.manufacturer}</span></a>
     {/each}

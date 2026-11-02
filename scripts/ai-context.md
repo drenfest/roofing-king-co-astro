@@ -32,6 +32,8 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 
 Product authors must not overwrite existing context guidance. Refresh inventories after adding routes; do not hand-copy old boilerplate into every new directory. Explicit media refresh flags may download originals; ordinary builds must not require these flags or fetch vendors.
 
+Mule-Hide authoring: crawl-mulehide-catalog.mjs (also reached through import-mulehide-commercial.mjs) discovers the TPO, EPDM and edge-metal ranges plus seven supporting component categories, follows manufacturer related-product references, and records every exclusion. Raw HTML/images stay in tmp; the committed source capture records product text, features, colors, documents, SKU tables, hashes and image variants. author-mulehide-catalog.mjs updates the existing product library, collections, detail pages, source records, media and product-specific related-component sets without removing routes. Then sync product navigation, rebuild the menu atlas and refresh context maps. Commercial detail pages stay in their collections and companion links rather than flooding the menu. Preserve the distinction between client-confirmed metal roofing and documented perimeter metal. Exclude PVC offerings; shared-system or manufacturer-related links never establish a preapproved kit. check-commercial-products.mjs validates source completeness and rendered output in CI; --source-only checks local authoring data and assets without a build.
+
 ## Shared build integrations
 
 - html-attributes.mjs and src/middleware.ts enforce complete link/image attributes consistently in development and builds. Author correct markup first.
@@ -57,6 +59,7 @@ Parent guidance: [repository](../ai-context.md).
 - [apply-product-parents.mjs](apply-product-parents.mjs)
 - [apply-service-pdf.mjs](apply-service-pdf.mjs)
 - [audit-component-reuse.mjs](audit-component-reuse.mjs)
+- [author-mulehide-catalog.mjs](author-mulehide-catalog.mjs)
 - [author-ply-gem-products.mjs](author-ply-gem-products.mjs)
 - [author-product-systems.mjs](author-product-systems.mjs)
 - [author-service-comparisons.mjs](author-service-comparisons.mjs)
@@ -74,6 +77,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-built-routes.mjs](check-built-routes.mjs)
 - [check-client-photography.mjs](check-client-photography.mjs)
 - [check-cloudways-review.mjs](check-cloudways-review.mjs)
+- [check-commercial-products.mjs](check-commercial-products.mjs)
 - [check-content.mjs](check-content.mjs)
 - [check-context-maps.mjs](check-context-maps.mjs)
 - [check-copy-corrections.mjs](check-copy-corrections.mjs)
@@ -102,10 +106,12 @@ Parent guidance: [repository](../ai-context.md).
 - [component-audit-template.html](component-audit-template.html)
 - [contact-checks.mjs](contact-checks.mjs)
 - [context-output.mjs](context-output.mjs)
+- [crawl-mulehide-catalog.mjs](crawl-mulehide-catalog.mjs)
 - [deploy-cloudways.sh](deploy-cloudways.sh)
 - [extract-service-pdf.py](extract-service-pdf.py)
 - [group-trex-collections.mjs](group-trex-collections.mjs)
 - [html-attributes.mjs](html-attributes.mjs)
+- [import-mulehide-commercial.mjs](import-mulehide-commercial.mjs)
 - [import-wordpress.mjs](import-wordpress.mjs)
 - [migrate-blog-urls.mjs](migrate-blog-urls.mjs)
 - [optimize-company-media.mjs](optimize-company-media.mjs)

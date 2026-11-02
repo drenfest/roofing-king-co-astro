@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-01",
+  "source": {
+    "file": "ROOF-K_4.PDF",
+    "pages": 90,
+    "sha256": "6ee92871080f9b268a245f4d1d8b43d4748a44137294d606cb62e409d9f9847a"
+  },
+  "status": "Implemented locally; not published",
+  "routes": [
+    {
+      "path": "/storm-damage/insurance-claims/",
+      "tabs": 6,
+      "faqs": 8
+    },
+    {
+      "path": "/storm-damage/",
+      "tabs": 6,
+      "faqs": 7
+    },
+    {
+      "path": "/storm-damage/hail/",
+      "tabs": 5,
+      "faqs": 8
+    },
+    {
+      "path": "/storm-damage/wind/",
+      "tabs": 7,
+      "faqs": 8
+    }
+  ],
+  "components": [
+    "ServicePaths / ServiceExplorer",
+    "ServiceContentBand / SectionPhotoGallery",
+    "ReviewSection / CredentialsSection",
+    "BrandStrip",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "sources": [
+    "https://codes.ohio.gov/ohio-administrative-code/rule-3901-1-54",
+    "https://codes.ohio.gov/ohio-revised-code/section-3951.01",
+    "https://codes.ohio.gov/ohio-revised-code/section-3951.02",
+    "https://codes.ohio.gov/ohio-revised-code/section-2913.47",
+    "https://codes.ohio.gov/ohio-revised-code/section-1345.22",
+    "https://www.weather.gov/iln/20260811_franklin_co_oh",
+    "https://www.weather.gov/safety/thunderstorm",
+    "https://codes.ohio.gov/ohio-administrative-code/rule-4101:8-9-01"
+  ],
+  "decisions": [
+    "First-party Andy testimonial excluded; external-only review policy retained.",
+    "No claim that staff attend adjuster appointments; inspection documentation may be shared by the homeowner.",
+    "No guaranteed tarping, emergency availability, claim approval or premium discount.",
+    "Kept Columbus and Dublin URLs; did not implement the report’s proposed redirects or unrelated blog changes.",
+    "Kept the approved orange gallery, sizing and image layout; did not remove the wind gallery.",
+    "Used current catalog specification values for the eleven Class 4 and four wind-product cards.",
+    "Preserved existing photo assets with responsive image delivery; added no new image downloads.",
+    "Retained the dedicated Commercial Storm Damage tab and its original destination alongside the five new residential decision topics, per client correction."
+  ],
+  "verification": "Full machine checks remain assigned to GitHub on the next authorized push.",
+  "localPreview": {
+    "routesReturned200": 4,
+    "topicImages": 24,
+    "faqCounts": {
+      "claims": 8,
+      "hub": 7,
+      "hail": 8,
+      "wind": 8
+    },
+    "articleThumbnailBytes": [
+      20540,
+      52116
+    ]
+  }
+}

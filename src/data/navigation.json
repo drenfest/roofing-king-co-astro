@@ -422,6 +422,80 @@
                   ]
                 }
               ]
+            },
+            {
+              "label": "Commercial Roofing",
+              "href": "/products/roofing/commercial/",
+              "classes": "rk-menu-item rk-menu-item-has-children",
+              "children": [
+                {
+                  "label": "Mule-Hide",
+                  "href": "/products/roofing/commercial/mule-hide/",
+                  "classes": "rk-menu-item rk-menu-item-has-children",
+                  "children": [
+                    {
+                      "label": "Metal Roof Edges",
+                      "href": "/products/roofing/commercial/mule-hide/edge-metal/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Single-Ply Accessories",
+                      "href": "/products/roofing/commercial/mule-hide/single-ply-accessories/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Fasteners and Termination",
+                      "href": "/products/roofing/commercial/mule-hide/fasteners-termination/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Adhesives",
+                      "href": "/products/roofing/commercial/mule-hide/adhesives/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Underlayments and Vapor Barriers",
+                      "href": "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Sealants",
+                      "href": "/products/roofing/commercial/mule-hide/sealants/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Cover Boards and Insulation",
+                      "href": "/products/roofing/commercial/mule-hide/cover-boards-insulation/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "Flashings",
+                      "href": "/products/roofing/commercial/mule-hide/flashings/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "EPDM Membranes",
+                      "href": "/products/roofing/commercial/mule-hide/epdm-membranes/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    },
+                    {
+                      "label": "TPO Membranes",
+                      "href": "/products/roofing/commercial/mule-hide/tpo-membranes/",
+                      "classes": "rk-menu-item",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },

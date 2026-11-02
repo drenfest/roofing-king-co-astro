@@ -137,7 +137,8 @@ for(const route of manifest){
   const item=page(panel),figure=item.children('.rk-service-tab-image'),href=item.children('a.rk-button').attr('href');
   assert.equal(figure.length,1,'Every tab needs a child hero on '+route.path);
   assert.ok(figure.prev().hasClass('rk-service-detail-kicker'),'Child image follows the eyebrow');assert.ok(figure.next().is('h3'),'Preserve subordinate tab headings');
-  const child=cheerio.load(await fs.readFile('dist'+href+'index.html','utf8'));const actual=child('.rk-editorial-hero>img').first();const preview=figure.children('img');
+  if(figure.attr('data-topic-photo')){const preview=figure.children('img');assert.ok(preview.attr('alt'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));continue;}
+  const child=cheerio.load(await fs.readFile('dist'+href.split(/[?#]/)[0]+'index.html','utf8'));const actual=child('.rk-editorial-hero>img').first();const preview=figure.children('img');
   assert.equal(preview.attr('src'),actual.attr('src'),'Preview must match its destination: '+href);assert.equal(preview.attr('srcset'),actual.attr('srcset'));assert.equal(preview.attr('loading'),'lazy');assert.ok(preview.attr('width')&&preview.attr('height'));
   if(/illustrat/i.test(child('.rk-service-hero-credit').text()))assert.ok(figure.find('figcaption').text().includes('Illustrative'));
   tabImages++;

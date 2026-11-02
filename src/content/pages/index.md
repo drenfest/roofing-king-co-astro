@@ -14,7 +14,7 @@ priority: "first-component-rebuild"
 
 
     <article class="rk-home">
-        <section class="rk-home-hero" style="--rk-home-hero-image: url('/media/wordpress/a102470cfba2-hero-roofing.jpg');">
+        <section class="rk-home-hero" style="--rk-home-hero-image: url('/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp');">
     <div class="rk-section-inner rk-home-hero-grid">
         <div class="rk-home-hero-copy">
             <p class="rk-home-eyebrow">Ohio exterior remodeling</p>
@@ -289,7 +289,7 @@ priority: "first-component-rebuild"
                 <a class="rk-button rk-button-outline" href="/about-us/">Learn More</a>
             </div>
         </div>
-        <img src="/media/wordpress/a102470cfba2-hero-roofing.jpg" alt="Finished exterior remodeling project">
+        <img src="/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp" alt="Finished exterior remodeling project">
     </div>
 </section>
 <section class="rk-home-section rk-home-process">

@@ -297,5 +297,24 @@
       }
     ],
     "footnote": "Expected service life and manufacturer warranty coverage are different. Coverage depends on the exact product, installation and written terms."
+  },
+  "commercial-roofing": {
+    "title": "Commercial Roof and Component Care",
+    "intro": "Use the installed product and roof-system instructions when planning inspections, maintenance and later alterations.",
+    "items": [
+      {
+        "title": "Retain Product Records",
+        "body": "Keep material names, item numbers, application instructions and applicable warranty documents with the building records."
+      },
+      {
+        "title": "Inspect Roof Connections",
+        "body": "Arrange inspections of roof edges, seams, penetrations and drainage using the maintenance intervals specified for the selected assembly."
+      },
+      {
+        "title": "Use Compatible Repairs",
+        "body": "Use materials, preparation and repair details approved for the existing product and roof assembly."
+      }
+    ],
+    "footnote": "Product-specific instructions and warranty requirements govern the installed assembly."
   }
 }

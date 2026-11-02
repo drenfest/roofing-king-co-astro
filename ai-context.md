@@ -40,6 +40,12 @@ A folder is not necessarily a URL owner. Every content-leaf map states its perma
 - Keep secrets, original client downloads and source exports outside public. Normal builds must be self-contained and must not access WordPress/MySQL, Drive, manufacturer APIs or neighboring checkouts. Authoring tools can overwrite content; inspect their inputs and effects before running them.
 - Keep all work labels neutral: no assistant/model branding in branches, commits, pull requests, deployments or customer content unless the user explicitly requests it.
 
+## Content drafting and editing order
+
+Before inserting new or rewritten customer copy into components, use [Copywriting](https://chatgpt.com/skills?skill_id=6ae801d1ec248191a1179083118c1b0d) to draft from the supplied brief, then use [Copy Editing](https://chatgpt.com/skills?skill_id=6ae801bab2ec8191a503fa697e1fe919) to review and improve that draft. Read the actual skill instructions and applicable references; naming the skills is not completion. Pass the brief, evidence, brand voice, locked text and factual qualifications into the editing step. Finish editing before mapping the final copy into existing typed components. For a targeted correction, use Copy Editing within that narrow scope rather than rewriting the page.
+
+Preserve the client's argument and approved facts. Keep internal source notes out of customer copy, never invent claims to satisfy a writing checklist, and document any genuinely unresolved facts separately. If a named skill cannot be accessed, disclose that limitation rather than claim its workflow ran. This content workflow does not authorize publication or change the GitHub-owned verification process.
+
 ## Extending without creating parallel systems
 
 For a new content requirement, first inspect the closest existing page, the shared types in section-types.ts / product-types.ts / blog-article-types.ts, then the component's consumers. Add optional typed props with backward-compatible defaults when the meaning is shared. Keep business/product facts in data rather than component conditionals. If a new branded component is warranted, use shared typography/tokens/icons/motion, document its contract and add a meaningful regression check. Do not create a one-off wrapper that duplicates a working component.
@@ -71,9 +77,9 @@ Read .github/workflows/ai-context.md and migration/cloudways-deployment.md befor
 
 Derived from committed source registries; refresh after structural changes.
 
-- Required manifest routes: 364.
+- Required manifest routes: 548.
 - Service/location/cost/calculator entries: 84.
-- Product detail entries: 96.
+- Product detail entries: 268.
 - Gallery photographs: 103.
 
 These counts describe local source records, not the deployed revision or delivery status.

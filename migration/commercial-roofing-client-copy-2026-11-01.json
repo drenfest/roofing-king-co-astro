@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not committed or published",
+  "sources": [
+    {
+      "file": "Roof_King_Commercial_Roofing_Content_and_SEO_For_Gary (1).pdf",
+      "sha256": "988753a180a91fc7f4284bba94f03b5f1da8f88e453bea431362c3d7ea92836a"
+    },
+    {
+      "file": "Roof_King_Commercial_Roof_Repair_Content_and_SEO_For_Gary.pdf",
+      "sha256": "b7db2988efa7cc138ee59dfb0e3230c1a1b1d7c51c035aa2f983f9a2c70a1fb1"
+    }
+  ],
+  "routes": [
+    "/commercial-roofing/",
+    "/commercial-roofing/repair/"
+  ],
+  "components": {
+    "hero": "LandingHero",
+    "services": "ServicePaths and ServiceExplorer",
+    "content": "ServiceContentBand",
+    "photos": "SectionPhotoGallery",
+    "reviews": "ReviewSection with external review policy",
+    "faq": "FAQSection",
+    "contact": "QuoteExperience and existing phone/booking actions",
+    "credentials": "CredentialsSection with optional page-specific items, not a duplicate content band"
+  },
+  "adaptations": [
+    "Preserved the approved gallery sizing, layout and slanted orange treatment.",
+    "No numbered process block; five repair planning cards use existing disclosures.",
+    "No PVC installation or repair capability added.",
+    "Commercial warranty remains project-specific; no new five-year commercial repair promise.",
+    "Removed internal Riley confirmation language from customer copy.",
+    "Used work or repair plan instead of the rejected scope wording.",
+    "Preserved existing canonical URLs, crawl settings, shared schema compiler, tracking and contact mechanics."
+  ],
+  "verification": "Full machine verification remains assigned to GitHub on the next authorized push."
+}

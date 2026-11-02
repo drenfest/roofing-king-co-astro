@@ -18,7 +18,7 @@ A new route needs valid src/content/pages/**/index.md metadata, a migration/rout
 
 Changing an existing native page usually means editing its referenced data, not the retained Markdown body. Changing a legacy body can still affect rendering. Each content-leaf map identifies the difference. Keep approved aliases/redirects and query/hash behavior intact.
 
-Internal review/error routes remain outside canonical public schema/sitemap output. robots.txt.ts and the document shells retain review crawl restrictions until a separately requested release change. Changing documentation does not authorize indexing, DNS or form delivery.
+Internal review/error routes remain outside canonical public schema/sitemap output. robots.txt.ts allows tool crawling; document shells and HTTP headers retain review noindex/nofollow. Changing documentation does not authorize indexing, DNS or form delivery.
 
 <!-- route-imports:start -->
 ## Actual route dependencies

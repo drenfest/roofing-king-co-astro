@@ -142,5 +142,101 @@
     "height": 665,
     "alt": "Trex RainEscape under-deck drainage manufacturer product imagery",
     "caption": "Manufacturer photo courtesy of Trex."
+  },
+  "/products/roofing/commercial/": {
+    "src": "/media/manufacturer-products/mule-hide-tpo.webp",
+    "srcset": "/media/manufacturer-products/mule-hide-tpo.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Standard TPO manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/": {
+    "src": "/media/manufacturer-products/mule-hide-tpo.webp",
+    "srcset": "/media/manufacturer-products/mule-hide-tpo.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Standard TPO manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/edge-metal/": {
+    "src": "/media/manufacturer-products/134-fascia-cover-640.webp",
+    "srcset": "/media/manufacturer-products/134-fascia-cover-160.webp 160w, /media/manufacturer-products/134-fascia-cover-320.webp 320w, /media/manufacturer-products/134-fascia-cover-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide 1-3/4\" Fascia Cover manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/single-ply-accessories/": {
+    "src": "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp",
+    "srcset": "/media/manufacturer-products/10-tpopressure-sensitive-russ-160.webp 160w, /media/manufacturer-products/10-tpopressure-sensitive-russ-320.webp 320w, /media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide 10\" TPO Pressure-Sensitive RUSS manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/fasteners-termination/": {
+    "src": "/media/manufacturer-products/24-seam-plate-640.webp",
+    "srcset": "/media/manufacturer-products/24-seam-plate-160.webp 160w, /media/manufacturer-products/24-seam-plate-320.webp 320w, /media/manufacturer-products/24-seam-plate-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide 2.4\" Seam Plate manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/adhesives/": {
+    "src": "/media/manufacturer-products/702-adhesive-640.webp",
+    "srcset": "/media/manufacturer-products/702-adhesive-160.webp 160w, /media/manufacturer-products/702-adhesive-320.webp 320w, /media/manufacturer-products/702-adhesive-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide 702 Adhesive manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/": {
+    "src": "/media/manufacturer-products/702-lvadhesive-640.webp",
+    "srcset": "/media/manufacturer-products/702-lvadhesive-160.webp 160w, /media/manufacturer-products/702-lvadhesive-320.webp 320w, /media/manufacturer-products/702-lvadhesive-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide 702LV Adhesive manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/sealants/": {
+    "src": "/media/manufacturer-products/black-lap-sealant-640.webp",
+    "srcset": "/media/manufacturer-products/black-lap-sealant-160.webp 160w, /media/manufacturer-products/black-lap-sealant-320.webp 320w, /media/manufacturer-products/black-lap-sealant-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Black Lap Sealant manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/cover-boards-insulation/": {
+    "src": "/media/manufacturer-products/cant-strip-tapered-edge-640.webp",
+    "srcset": "/media/manufacturer-products/cant-strip-tapered-edge-160.webp 160w, /media/manufacturer-products/cant-strip-tapered-edge-320.webp 320w, /media/manufacturer-products/cant-strip-tapered-edge-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Cant Strip & Tapered Edge manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/flashings/": {
+    "src": "/media/manufacturer-products/epdmcurb-wrap-640.webp",
+    "srcset": "/media/manufacturer-products/epdmcurb-wrap-160.webp 160w, /media/manufacturer-products/epdmcurb-wrap-320.webp 320w, /media/manufacturer-products/epdmcurb-wrap-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide EPDM Curb Wrap manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/epdm-membranes/": {
+    "src": "/media/manufacturer-products/gray-epdm-640.webp",
+    "srcset": "/media/manufacturer-products/gray-epdm-160.webp 160w, /media/manufacturer-products/gray-epdm-320.webp 320w, /media/manufacturer-products/gray-epdm-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Gray EPDM manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
+  },
+  "/products/roofing/commercial/mule-hide/tpo-membranes/": {
+    "src": "/media/manufacturer-products/self-adhering-tpo-640.webp",
+    "srcset": "/media/manufacturer-products/self-adhering-tpo-160.webp 160w, /media/manufacturer-products/self-adhering-tpo-320.webp 320w, /media/manufacturer-products/self-adhering-tpo-640.webp 640w",
+    "width": 640,
+    "height": 640,
+    "alt": "Mule-Hide Self-Adhering TPO manufacturer product photograph",
+    "caption": "Mule-Hide manufacturer product photograph"
   }
 }

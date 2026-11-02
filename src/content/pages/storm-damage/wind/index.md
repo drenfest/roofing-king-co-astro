@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Wind Roof Damage Company"
+title: "Wind Damage Roof Repair in Columbus, OH | Roof King"
 permalink: "/storm-damage/wind/"
-description: "Do you need help with your Columbus home's wind damage repairs? Rely on our experts at Roof King & Restoration. Reach out to us today to get a free estimate."
+description: "Wind damage roof repair in Columbus, OH: lifted or missing shingles, broken seals, ridge and edge failures, flashing and tree damage. Call (614) 379-8893."
 canonicalPath: "/storm-damage/wind/"
 category: "Service detail"
 source: "wordpress"

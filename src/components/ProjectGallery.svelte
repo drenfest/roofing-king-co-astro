@@ -144,8 +144,8 @@ section.rk-editorial-gallery.rk-gallery-brand{background:var(--rk-orange);color:
 .rk-gallery-brand .rk-gallery-full-link span{color:var(--rk-orange);}
 .rk-gallery-brand .rk-gallery-full-link:hover{background:var(--rk-paper);}
 @media(max-width:600px){section.rk-editorial-gallery.rk-gallery-brand{clip-path:polygon(0 12px,100% 0,100% calc(100% - 12px),0 100%);padding-block:3.5rem;}}
-/* All gallery headings follow the same full-width editorial reading order. */
-section.rk-editorial-gallery .rk-gallery-editorial-heading{grid-template-columns:minmax(0,1fr);align-items:start;gap:0;width:100%;}
-section.rk-editorial-gallery .rk-gallery-editorial-heading h2{grid-column:1/-1;width:100%;max-width:none;}
-section.rk-editorial-gallery .rk-gallery-editorial-heading .rk-gallery-description{grid-column:1/-1;width:100%;max-width:none;margin:1.4rem 0 0;}
+/* The editorial gallery retains its original asymmetrical photographs and generous heading. */
+section.rk-editorial-gallery .rk-gallery-editorial-heading h2{font-size:clamp(2.5rem,5.6vw,5rem)!important;line-height:1.08!important;}
+section.rk-editorial-gallery.rk-gallery-compact .rk-gallery-editorial-heading h2{font-size:clamp(2.25rem,3.6vw,3.5rem)!important;}
+@media(max-width:760px){section.rk-editorial-gallery .rk-gallery-editorial-heading h2,section.rk-editorial-gallery.rk-gallery-compact .rk-gallery-editorial-heading h2{font-size:clamp(2rem,7.5vw,3rem)!important;}}
 </style>

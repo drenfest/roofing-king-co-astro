@@ -39,6 +39,7 @@ No direct asset files.
 - [gallery/](gallery/ai-context.md)
 - [gutter-details/](gutter-details/ai-context.md)
 - [home/](home/ai-context.md)
+- [manufacturer-products/](manufacturer-products/ai-context.md)
 - [navigation/](navigation/ai-context.md)
 - [product-collections/](product-collections/ai-context.md)
 - [products/](products/ai-context.md)

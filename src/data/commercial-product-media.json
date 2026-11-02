@@ -1,0 +1,3098 @@
+{
+  "/media/manufacturer-products/134-fascia-cover-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/134-fascia-cover-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/134-fascia-cover-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/134-fascia-cover-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/10-tpopressure-sensitive-russ-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/10-tpopressure-sensitive-russ-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/2-piece-snap-on-compression-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/2-piece-snap-on-compression-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/2-piece-snap-on-compression-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/24-seam-plate-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/24-seam-plate-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/24-seam-plate-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/24-seam-plate-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/2-tlmembrane-plate-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/2-tlmembrane-plate-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/2-tlmembrane-plate-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/2-tlmembrane-plate-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/3-insulation-plate-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/3-insulation-plate-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/3-insulation-plate-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/3-insulation-plate-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/3-lwgmetal-plates-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/3-lwgmetal-plates-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/3-lwgmetal-plates-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/3-lwgmetal-plates-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/3-tlinsulation-plate-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/3-tlinsulation-plate-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/3-tlinsulation-plate-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/3-tlinsulation-plate-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/4-fascia-cover-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/4-fascia-cover-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/4-fascia-cover-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/4-fascia-cover-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/6-reinforced-epdmmembrane-strips-rms-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/6-reinforced-epdmmembrane-strips-rms-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/6-reinforced-epdmmembrane-strips-rms-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/6-reinforced-epdmmembrane-strips-rms-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/6-tpopressure-sensitive-russ-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/6-tpopressure-sensitive-russ-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/6-tpopressure-sensitive-russ-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/6-tpopressure-sensitive-russ-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/702-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/702-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/702-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/702-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/702-lvadhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/702-lvadhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/702-lvadhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/702-lvadhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/9-reinforced-epdmmembrane-strips-rms-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/9-reinforced-epdmmembrane-strips-rms-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/9-reinforced-epdmmembrane-strips-rms-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/9-reinforced-epdmmembrane-strips-rms-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/acrylic-water-base-bonding-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/acrylic-water-base-bonding-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/acrylic-water-base-bonding-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/acrylic-water-base-bonding-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/aero-web-low-vocaerosol-contact-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/aero-web-low-vocaerosol-contact-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/aero-web-low-vocaerosol-contact-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/aero-web-low-vocaerosol-contact-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/all-purpose-bar-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/all-purpose-bar-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/all-purpose-bar-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/all-purpose-bar-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/aluminator-retrofit-drainwith-maxx-flo-seal-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/aluminator-retrofit-drainwith-maxx-flo-seal-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/aluminator-retrofit-drainwith-maxx-flo-seal-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/aluminator-retrofit-drainwith-maxx-flo-seal-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/aluminum-retrofit-drainwith-sealant-tape-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/aluminum-retrofit-drainwith-sealant-tape-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/aluminum-retrofit-drainwith-sealant-tape-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/aluminum-retrofit-drainwith-sealant-tape-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/aqua-base120-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/aqua-base120-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/aqua-base120-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/aqua-base120-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/black-lap-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/black-lap-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/black-lap-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/black-lap-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/black-one-part-pourable-sealer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/black-one-part-pourable-sealer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/black-one-part-pourable-sealer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/black-one-part-pourable-sealer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/bonding-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/bonding-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/bonding-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/bonding-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/cant-strip-tapered-edge-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/cant-strip-tapered-edge-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/cant-strip-tapered-edge-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/cant-strip-tapered-edge-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/canted-extended-waterdam-extruded-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/canted-extended-waterdam-extruded-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/canted-extended-waterdam-extruded-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/canted-extended-waterdam-extruded-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/canted-waterdam-extruded-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/canted-waterdam-extruded-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/canted-waterdam-extruded-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/canted-waterdam-extruded-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/cantilever-coping-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/cantilever-coping-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/cantilever-coping-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/cantilever-coping-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/cast-iron-roof-drain-kit-new-installation-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/cast-iron-roof-drain-kit-new-installation-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/cast-iron-roof-drain-kit-new-installation-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/cast-iron-roof-drain-kit-new-installation-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/continuous-cleat-coping-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/continuous-cleat-coping-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/continuous-cleat-coping-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/continuous-cleat-coping-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/coping-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/coping-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/coping-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/coping-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/copper-retrofit-drainwith-sealant-tape-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/copper-retrofit-drainwith-sealant-tape-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/copper-retrofit-drainwith-sealant-tape-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/copper-retrofit-drainwith-sealant-tape-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/counterflashing-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/counterflashing-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/counterflashing-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/counterflashing-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/cured-cover-tape-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/cured-cover-tape-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/cured-cover-tape-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/cured-cover-tape-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/dens-deck-prime-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/dens-deck-prime-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-prime-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-prime-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/dens-deck-pro-fast-prime-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/dens-deck-pro-fast-prime-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-pro-fast-prime-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-pro-fast-prime-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/dens-deck-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/dens-deck-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/dens-deck-storm-xprime-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/dens-deck-storm-xprime-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-storm-xprime-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/dens-deck-storm-xprime-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/detec-tru-ground-conductive-primer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/detec-tru-ground-conductive-primer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/detec-tru-ground-conductive-primer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/detec-tru-ground-conductive-primer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/downspouts-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/downspouts-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/downspouts-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/downspouts-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/drill-point-fasteners12-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/drill-point-fasteners12-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/drill-point-fasteners12-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/drill-point-fasteners12-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/drip-edge-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/drip-edge-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/drip-edge-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/drip-edge-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/drip-edge-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/drip-edge-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/drip-edge-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/drip-edge-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/eclips-edge-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/eclips-edge-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/eclips-edge-extended-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/eclips-edge-extended-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-extended-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-extended-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/eclips-edge-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/eclips-edge-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/eclips-edge-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/ehdfasteners15-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/ehdfasteners15-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/ehdfasteners15-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/ehdfasteners15-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmcurb-wrap-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmcurb-wrap-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmcurb-wrap-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmcurb-wrap-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmin-seam-tape-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmin-seam-tape-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmin-seam-tape-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmin-seam-tape-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmpourable-sealer-pockets-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmpourable-sealer-pockets-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmpourable-sealer-pockets-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmpourable-sealer-pockets-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmpre-cut-inside-outside-corners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmpre-cut-inside-outside-corners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmpre-cut-inside-outside-corners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmpre-cut-inside-outside-corners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmtjoint-patches-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmtjoint-patches-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmtjoint-patches-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmtjoint-patches-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmuncured-flashing-membrane-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmuncured-flashing-membrane-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmuncured-flashing-membrane-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmuncured-flashing-membrane-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmwalkway-padswith-tape-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmwalkway-padswith-tape-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmwalkway-padswith-tape-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmwalkway-padswith-tape-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epdmx23-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epdmx23-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epdmx23-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epdmx23-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epsflat-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epsflat-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epsflat-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epsflat-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/epstapered-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/epstapered-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/epstapered-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/epstapered-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/extended-extruded-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/extended-extruded-fascia-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/extended-extruded-fascia-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/extruded-drip-edge-flat-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/extruded-drip-edge-flat-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-drip-edge-flat-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-drip-edge-flat-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/extruded-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/extruded-fascia-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/extruded-fascia-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/f5-air-vapor-barrier-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/f5-air-vapor-barrier-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/f5-air-vapor-barrier-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/f5-air-vapor-barrier-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/fradhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/fradhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/fradhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/fradhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/fr10-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/fr10-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/fr10-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/fr10-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/gravel-stop-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/gravel-stop-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/gravel-stop-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/gravel-stop-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/gray-epdm-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/gray-epdm-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/gray-epdm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/gray-epdm-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/gutters-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/gutters-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/gutters-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/gutters-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/hdpfasteners14-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/hdpfasteners14-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/hdpfasteners14-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/hdpfasteners14-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/heavy-gauge-extruded-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/heavy-gauge-extruded-fascia-mb-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-mb-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-mb-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/heavy-gauge-extruded-fascia-mb-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-low-rise-adhesive-cartridges-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-cartridges-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-cartridges-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-cartridges-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-low-rise-adhesive-drums-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-drums-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-drums-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-drums-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-low-rise-adhesive-pressurized-tank-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-pressurized-tank-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-pressurized-tank-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-low-rise-adhesive-pressurized-tank-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-max-low-rise-adhesive-drums-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-drums-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-drums-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-drums-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-max-low-rise-adhesive-dual-cartridge-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-dual-cartridge-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-dual-cartridge-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-dual-cartridge-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/helix-max-low-rise-adhesive-jug-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-jug-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-jug-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/helix-max-low-rise-adhesive-jug-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/hpprotective-mat-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/hpprotective-mat-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/hpprotective-mat-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/hpprotective-mat-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/induction-weld-cardboard-discs-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/induction-weld-cardboard-discs-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/induction-weld-cardboard-discs-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/induction-weld-cardboard-discs-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/induction-weld-plates-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/induction-weld-plates-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/induction-weld-plates-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/induction-weld-plates-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/jts1-joint-termination-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/jts1-joint-termination-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/jts1-joint-termination-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/jts1-joint-termination-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/low-vocprimer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/low-vocprimer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocprimer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocprimer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/low-voc1168-bonding-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/low-voc1168-bonding-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/low-voc1168-bonding-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/low-voc1168-bonding-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/low-vocbonding-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/low-vocbonding-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocbonding-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocbonding-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/low-vocmembrane-cleaner-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/low-vocmembrane-cleaner-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocmembrane-cleaner-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocmembrane-cleaner-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/low-vocuntackcleaner-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/low-vocuntackcleaner-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocuntackcleaner-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/low-vocuntackcleaner-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/lwgfasteners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/lwgfasteners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/lwgfasteners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/lwgfasteners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/mpliquid-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/mpliquid-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/mpliquid-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/mpliquid-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/mule-hide-zamac-nailin-roofing-fastener-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/mule-hide-zamac-nailin-roofing-fastener-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/mule-hide-zamac-nailin-roofing-fastener-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/mule-hide-zamac-nailin-roofing-fastener-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/nailer-t-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/nailer-t-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/nailer-t-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/nailer-t-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/nailer-box-ri-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/nailer-box-ri-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/nailer-box-ri-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/nailer-box-ri-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/one-extended-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/one-extended-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/one-extended-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/one-extended-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/one-fascia-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/one-fascia-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/one-fascia-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/one-fascia-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/pfcpurlin-drill-point-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/pfcpurlin-drill-point-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/pfcpurlin-drill-point-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/pfcpurlin-drill-point-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/pitch-pan-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/pitch-pan-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/pitch-pan-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/pitch-pan-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-iso1-hd-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-iso1-hdplus-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hdplus-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hdplus-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hdplus-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-iso1-hd80-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd80-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd80-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-iso1-hd80-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-isoflat-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-isoflat-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isoflat-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isoflat-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-isoflatwith-coated-glass-facer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-isoflatwith-coated-glass-facer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isoflatwith-coated-glass-facer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isoflatwith-coated-glass-facer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-isotapered-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-isotapered-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isotapered-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isotapered-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/poly-isotaperedwith-coated-glass-facer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/poly-isotaperedwith-coated-glass-facer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isotaperedwith-coated-glass-facer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/poly-isotaperedwith-coated-glass-facer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/pourable-sealer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/pourable-sealer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/pourable-sealer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/pourable-sealer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/pre-assembled-fastener-system-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/pre-assembled-fastener-system-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/pre-assembled-fastener-system-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/pre-assembled-fastener-system-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/premolded-epdmpipe-boots-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/premolded-epdmpipe-boots-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/premolded-epdmpipe-boots-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/premolded-epdmpipe-boots-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/rd100-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/rd100-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/rd100-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/rd100-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/reinforced-epdm-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/reinforced-epdm-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/reinforced-epdm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/reinforced-epdm-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/rhino-bond-plates-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/rhino-bond-plates-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/rhino-bond-plates-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/rhino-bond-plates-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/rib-contours-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/rib-contours-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/rib-contours-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/rib-contours-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/rubber-paver-blocks-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/rubber-paver-blocks-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/rubber-paver-blocks-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/rubber-paver-blocks-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/scupperand-collector-boxes-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/scupperand-collector-boxes-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/scupperand-collector-boxes-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/scupperand-collector-boxes-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/seal-fast-liqui-flash-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/seal-fast-liqui-flash-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/seal-fast-liqui-flash-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/seal-fast-liqui-flash-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/seal-fast-repair-hero-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/seal-fast-repair-hero-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/seal-fast-repair-hero-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/seal-fast-repair-hero-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/self-adhering-epdm-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/self-adhering-epdm-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/self-adhering-epdm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/self-adhering-epdm-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/self-adhering-tpo-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/self-adhering-tpo-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/self-adhering-tpo-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/self-adhering-tpo-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/shape-shift-kits-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/shape-shift-kits-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/shape-shift-kits-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/shape-shift-kits-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/shape-shift-pitch-pan-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/shape-shift-pitch-pan-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/shape-shift-pitch-pan-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/shape-shift-pitch-pan-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/shur-gard40-base-sheet-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/shur-gard40-base-sheet-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/shur-gard40-base-sheet-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/shur-gard40-base-sheet-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/si-tpoprimer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/si-tpoprimer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/si-tpoprimer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/si-tpoprimer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/skirted-drip-edge-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/skirted-drip-edge-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/skirted-drip-edge-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/skirted-drip-edge-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/snap-coping-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/snap-coping-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/snap-coping-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/snap-coping-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/snap-gold-coping-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/snap-gold-coping-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/snap-gold-coping-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/snap-gold-coping-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/splice-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/splice-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/splice-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/splice-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/standard-epdm-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/standard-epdm-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/standard-epdm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/standard-epdm-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/standard-tpo-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/standard-tpo-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/standard-tpo-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/standard-tpo-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/standup-tool-set-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/standup-tool-set-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/standup-tool-set-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/standup-tool-set-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/structodekhdwith-primed-red-coating-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/structodekhdwith-primed-red-coating-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/structodekhdwith-primed-red-coating-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/structodekhdwith-primed-red-coating-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tape-primer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tape-primer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tape-primer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tape-primer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tb125-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tb125-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tb125-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tb125-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tb75-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tb75-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tb75-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tb75-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tb90-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tb90-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tb90-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tb90-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/thermoplastic-one-part-pourable-sealer-white-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/thermoplastic-one-part-pourable-sealer-white-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/thermoplastic-one-part-pourable-sealer-white-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/thermoplastic-one-part-pourable-sealer-white-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tlfasteners-plates-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tlfasteners-plates-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tlfasteners-plates-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tlfasteners-plates-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpo60-mil-non-reinforced-flashing-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpo60-mil-non-reinforced-flashing-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpo60-mil-non-reinforced-flashing-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpo60-mil-non-reinforced-flashing-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpobonding-adhesive-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpobonding-adhesive-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpobonding-adhesive-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpobonding-adhesive-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpobreather-vents-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpobreather-vents-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpobreather-vents-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpobreather-vents-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpocoated-metal-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpocoated-metal-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpocoated-metal-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpocoated-metal-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpocolorway-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpocolorway-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpocolorway-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpocolorway-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpocover-strip-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpocover-strip-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpocover-strip-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpocover-strip-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpocut-edge-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpocut-edge-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpocut-edge-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpocut-edge-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpodrop-scupper-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpodrop-scupper-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpodrop-scupper-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpodrop-scupper-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpofleece-back-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpofleece-back-plus-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-plus-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-plus-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpofleece-back-plus-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpoinside-corners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpoinside-corners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpoinside-corners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpoinside-corners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpolow-voccut-edge-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpolow-voccut-edge-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpolow-voccut-edge-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpolow-voccut-edge-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpomolded-sealant-pockets-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpomolded-sealant-pockets-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpomolded-sealant-pockets-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpomolded-sealant-pockets-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpooutside-corners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpooutside-corners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpooutside-corners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpooutside-corners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpopipe-seals-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpopipe-seals-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpopipe-seals-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpopipe-seals-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpoprimer-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpoprimer-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpoprimer-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpoprimer-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpopscover-strip-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpopscover-strip-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpopscover-strip-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpopscover-strip-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tposplit-pipe-seals-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tposplit-pipe-seals-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tposplit-pipe-seals-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tposplit-pipe-seals-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tposquare-tube-wraps-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tposquare-tube-wraps-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tposquare-tube-wraps-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tposquare-tube-wraps-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpotjoint-patches-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpotjoint-patches-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpotjoint-patches-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpotjoint-patches-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpothrough-wall-scupper-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpothrough-wall-scupper-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpothrough-wall-scupper-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpothrough-wall-scupper-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpouniversal-conical-boot-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpouniversal-conical-boot-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpouniversal-conical-boot-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpouniversal-conical-boot-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpouniversal-corners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpouniversal-corners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpouniversal-corners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpouniversal-corners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpovent-collar-combo-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpovent-collar-combo-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpovent-collar-combo-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpovent-collar-combo-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpowalkway-roll-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpowalkway-roll-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpowalkway-roll-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpowalkway-roll-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpowith-clean-film-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpowith-clean-film-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpowith-clean-film-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpowith-clean-film-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tpowith-seam-protector-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tpowith-seam-protector-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tpowith-seam-protector-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tpowith-seam-protector-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/tru-spike-fasteners-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/tru-spike-fasteners-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/tru-spike-fasteners-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/tru-spike-fasteners-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/uncured-flashing-tape-white-gray-black-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/uncured-flashing-tape-white-gray-black-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/uncured-flashing-tape-white-gray-black-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/uncured-flashing-tape-white-gray-black-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/universal-single-ply-sealant-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/universal-single-ply-sealant-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/universal-single-ply-sealant-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/universal-single-ply-sealant-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/usgsecurock-gypsum-fiber-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/usgsecurock-gypsum-fiber-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-gypsum-fiber-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-gypsum-fiber-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/usgsecurock-ultra-light-coated-glass-mat-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-coated-glass-mat-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-coated-glass-mat-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-coated-glass-mat-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/usgsecurock-ultra-light-glass-mat-roof-board-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-glass-mat-roof-board-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-glass-mat-roof-board-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/usgsecurock-ultra-light-glass-mat-roof-board-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/vap-air-seal-md-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/vap-air-seal-md-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/vap-air-seal-md-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/vap-air-seal-md-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/water-cut-off-mastic-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/water-cut-off-mastic-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/water-cut-off-mastic-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/water-cut-off-mastic-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/weathered-membrane-cleaner-600.webp": {
+    "width": 600,
+    "height": 600,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/weathered-membrane-cleaner-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/weathered-membrane-cleaner-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/weathered-membrane-cleaner-600.webp",
+        "width": 600
+      }
+    ]
+  },
+  "/media/manufacturer-products/whiteon-black-epdm-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/whiteon-black-epdm-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/whiteon-black-epdm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/whiteon-black-epdm-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "/media/manufacturer-products/yellow-pssafety-warning-strip-640.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "src": "/media/manufacturer-products/yellow-pssafety-warning-strip-160.webp",
+        "width": 160
+      },
+      {
+        "src": "/media/manufacturer-products/yellow-pssafety-warning-strip-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/manufacturer-products/yellow-pssafety-warning-strip-640.webp",
+        "width": 640
+      }
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 import profiles from './product-care.json';
 import type {ProductPresentation} from './product-types';
 export function productCareType(product:ProductPresentation):keyof typeof profiles {
+ if(product.projectType==='commercial')return 'commercial-roofing';
  const path=product.detailPath||'/products/roofing/shingles/gaf/';
  if(path.includes('/roofing/'))return 'shingles';
  if(path.includes('/gutters/'))return 'gutter-protection';

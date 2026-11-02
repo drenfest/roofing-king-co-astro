@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Commercial Roofing Company"
+title: "Commercial Roofing Columbus, OH | Roof King & Restoration"
 permalink: "/commercial-roofing/"
-description: "Do you need to hire skilled commercial roofing contractors in Columbus, OH? Count on the pros at Roof King & Restoration and contact us today for a free quote."
+description: "Commercial roofing in Columbus, OH for TPO, EPDM and metal roof repair and replacement. Plan drainage, access and occupied-building work with Roof King."
 canonicalPath: "/commercial-roofing/"
 category: "Service hub"
 source: "wordpress"

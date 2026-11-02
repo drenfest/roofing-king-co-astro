@@ -75,7 +75,7 @@
     "sourceImage": "/media/wordpress/afa806741cd9-e31d6fbc-88a3-4169-b4c0-5de937aa9ff8.jpg"
   },
   "/products/roofing/": {
-    "sourceImage": "/media/wordpress/a102470cfba2-hero-roofing.jpg"
+    "sourceImage": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
   },
   "/products/siding/": {
     "sourceImage": "/media/wordpress/ebed488d4b1b-hero-siding.jpg"
@@ -226,5 +226,42 @@
   },
   "/products/decking/composite/trex/accessories/": {
     "sourceImage": "/media/products/systems/4b44ec95af97-1016.webp"
+  },
+  "/products/roofing/commercial/": {
+    "sourceImage": "/media/brands/mule-hide.webp",
+    "fit": "contain"
+  },
+  "/products/roofing/commercial/mule-hide/": {
+    "sourceImage": "/media/manufacturer-products/mule-hide-tpo.webp"
+  },
+  "/products/roofing/commercial/mule-hide/edge-metal/": {
+    "sourceImage": "/media/manufacturer-products/134-fascia-cover-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/single-ply-accessories/": {
+    "sourceImage": "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/fasteners-termination/": {
+    "sourceImage": "/media/manufacturer-products/24-seam-plate-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/adhesives/": {
+    "sourceImage": "/media/manufacturer-products/702-adhesive-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/": {
+    "sourceImage": "/media/manufacturer-products/702-lvadhesive-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/sealants/": {
+    "sourceImage": "/media/manufacturer-products/black-lap-sealant-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/cover-boards-insulation/": {
+    "sourceImage": "/media/manufacturer-products/cant-strip-tapered-edge-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/flashings/": {
+    "sourceImage": "/media/manufacturer-products/epdmcurb-wrap-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/epdm-membranes/": {
+    "sourceImage": "/media/manufacturer-products/gray-epdm-640.webp"
+  },
+  "/products/roofing/commercial/mule-hide/tpo-membranes/": {
+    "sourceImage": "/media/manufacturer-products/self-adhering-tpo-640.webp"
   }
 }

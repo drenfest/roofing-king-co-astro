@@ -10,9 +10,10 @@ import serviceHeroes from './service-hero-media.json';
 import gutterDetails from './gutter-detail-media.json';
 import serviceReview from './service-review-media.json';
 import brands from './brand-library.json';
+import commercial from './commercial-product-media.json';
 import type { ImageData } from './section-types';
 type Dimensions = {width:number;height:number;variants:{src:string;width:number}[]};
-export const media: Record<string,Dimensions> = {...serviceComparisons,...company,...home,...services,...gallery,...articles,...articleHeroes,...roofingHeroes,...serviceHeroes,...gutterDetails,...serviceReview,...Object.fromEntries(Object.values(brands).map(brand=>[brand.image.src,{width:brand.image.width,height:brand.image.height,variants:[]}]))};
+export const media: Record<string,Dimensions> = {...serviceComparisons,...company,...home,...services,...gallery,...articles,...articleHeroes,...roofingHeroes,...serviceHeroes,...gutterDetails,...serviceReview,...commercial,...Object.fromEntries(Object.values(brands).map(brand=>[brand.image.src,{width:brand.image.width,height:brand.image.height,variants:[]}]))};
 export function photo(image:ImageData) {
   const dimensions=media[image.src];
   const variants=dimensions?.variants || [];

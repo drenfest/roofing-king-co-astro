@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "source": {
+    "file": "Roof_King_Commercial_Gutters_Content_and_SEO_For_Gary.pdf",
+    "sha256": "a0a1c1cdbcf76e6bd59ccae9e759aa6550d780e00786431b6283eb639ed5df86"
+  },
+  "route": "/commercial-roofing/gutters/",
+  "workflow": {
+    "draftSkill": "https://chatgpt.com/skills?skill_id=6ae801d1ec248191a1179083118c1b0d",
+    "editingSkill": "https://chatgpt.com/skills?skill_id=6ae801bab2ec8191a503fa697e1fe919",
+    "diagnosis": "B: supplied draft has a direct contractor voice and a clear argument about tracing drainage problems; preserve its emphasis.",
+    "draft": "Prepared from the supplied page brief before editing.",
+    "editingPasses": [
+      "Clarity: shortened the hero explanation and removed internal availability instructions.",
+      "Voice: retained direct contractor language and removed advertises and rejected scope terminology.",
+      "Benefits: kept entrances, loading areas, foundation discharge and supporting repairs tied to property decisions.",
+      "Evidence: preserved source-backed business facts, qualified commercial coverage and product compatibility, no invented sizes or testimonials.",
+      "Specificity: retained blocked outlets, flow bottlenecks, fascia, scuppers and internal piping distinctions.",
+      "Emotion: retained the practical effect on tenants and deliveries without added fear or guarantees.",
+      "Action: clear phone/booking path and estimate inclusions, with commercial coverage terms stated near decision content."
+    ],
+    "finalChecklist": "Checked brand voice, banned patterns, wording, source meaning, factual qualifications and section flow before insertion."
+  },
+  "components": [
+    "LandingHero",
+    "ServiceArticle",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "CredentialsSection",
+    "BrandStrip",
+    "ReviewSection",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "faqCount": 7,
+  "notes": [
+    "Preserved route and section IDs; no new routes or redirects.",
+    "Three existing optimized photographs each paired with the relevant overflow diagnosis heading and copy.",
+    "Product references remain conditional on building suitability; no invented commercial gutter sizes, profiles, warranty duration, maintenance program or financing eligibility.",
+    "Retained related roof-edge product link from concurrent catalog work.",
+    "Copy approval and implementation are separate from publication."
+  ],
+  "verification": "Full verification remains GitHub-owned on the next authorized push."
+}

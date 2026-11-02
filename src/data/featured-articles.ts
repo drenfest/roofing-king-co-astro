@@ -11,7 +11,7 @@ const groups:Record<string,string[]>={
  'commercial-types':['roofing','metal'],'commercial-gutters':['gutters','guards'],
  insulation:['ice','winter'],'attic-insulation':['ice','winter'],'ice-dam':['ice','winter'],ice:['ice','winter'],
 };
-export function featuredArticles(family:string,city?:string,path=''){
+export function featuredArticles(family:string,city?:string,path='',preferredPaths:string[]=[]){
  const isLocal=family==='local';
  const topics=groups[family]||(/ice-dam/.test(path)?['ice','winter']:[]);
  const ranked=articles.map((article,index)=>({article,index,score:isLocal?
@@ -29,6 +29,7 @@ export function featuredArticles(family:string,city?:string,path=''){
   for(const x of pool)if(distinct.length<4&&!distinct.includes(x.article))distinct.push(x.article);
   selected.splice(0,selected.length,...distinct.slice(0,4));
  }
+ if(preferredPaths.length){const chosen=preferredPaths.map(href=>articles.find(article=>article.href===href)).filter((article):article is typeof articles[number]=>!!article);for(const article of selected)if(chosen.length<4&&!chosen.includes(article))chosen.push(article);selected.splice(0,selected.length,...chosen.slice(0,4));}
  return {items:selected,title:isLocal?`Home exterior guides for ${city} homeowners`:
    `${/siding/.test(family)?'Siding and storm damage':/gutter/.test(family)?'Gutter and drainage':/ice|insulation/.test(family)||/ice-dam/.test(path)?'Ice dam and winter roofing':/storm|hail|wind|claims/.test(family)?'Storm damage':'Roofing'} articles`,
    description:isLocal?'Explore roofing, storm preparation and exterior maintenance advice before planning your project.':'Explore advice from the Roof King blog to help plan your project and understand related repairs.'};

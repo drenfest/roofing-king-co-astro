@@ -1,0 +1,1043 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "retiredDisplayImage": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
+  "selectionPolicy": "Replace repeated blue-house/red-roof stock image with existing gallery photography relevant to the service or section; preserve copy, routes and component layouts.",
+  "optimizedAssets": "Existing responsive gallery derivatives reused; no upscaling or new image requests for generated replacements.",
+  "replacements": [
+    {
+      "location": "home.json.services.items.0",
+      "route": "",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "home.json.promo",
+      "route": "",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "roofing-landing.json.materials.items.0",
+      "route": "",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./akron-oh/.guide",
+      "route": "/akron-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./athens-oh/.guide",
+      "route": "/athens-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./aurora-oh/.guide",
+      "route": "/aurora-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./beavercreek-oh/.guide",
+      "route": "/beavercreek-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./centerville-oh/.guide",
+      "route": "/centerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cincinnati-oh/.guide",
+      "route": "/cincinnati-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cincinnati-oh/roofing/.guide",
+      "route": "/cincinnati-oh/roofing/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cincinnati-oh/storm-damage/.guide",
+      "route": "/cincinnati-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cleveland-oh/.guide",
+      "route": "/cleveland-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cleveland-oh/roofing/.guide",
+      "route": "/cleveland-oh/roofing/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cleveland-oh/roofing/cost-of-replacement/.guide",
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cleveland-oh/storm-damage/.guide",
+      "route": "/cleveland-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./columbus-oh/.guide",
+      "route": "/columbus-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./columbus-oh/roofing/.guide",
+      "route": "/columbus-oh/roofing/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./columbus-oh/storm-damage/.guide",
+      "route": "/columbus-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./cost-of-a-new-roof/.guide",
+      "route": "/cost-of-a-new-roof/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./dayton-oh/.guide",
+      "route": "/dayton-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./dayton-oh/roofing/.guide",
+      "route": "/dayton-oh/roofing/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./dayton-oh/storm-damage/.guide",
+      "route": "/dayton-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./dayton-roofers/.guide",
+      "route": "/dayton-roofers/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./delaware-oh/.guide",
+      "route": "/delaware-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./delaware-oh/roofing/.guide",
+      "route": "/delaware-oh/roofing/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./delaware-oh/storm-damage/.guide",
+      "route": "/delaware-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./dublin-oh/.guide",
+      "route": "/dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./emergency-roof-repair-dublin-oh/.guide",
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./gaf-roofing-dublin-oh/.guide",
+      "route": "/gaf-roofing-dublin-oh/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-editorial.json./gahanna-oh/.guide",
+      "route": "/gahanna-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./grove-city-oh/.guide",
+      "route": "/grove-city-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./hail-damage-roof-repair-dublin-oh/.guide",
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-editorial.json./hamilton-oh/.guide",
+      "route": "/hamilton-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./hilliard-oh/.guide",
+      "route": "/hilliard-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./lancaster-oh/.guide",
+      "route": "/lancaster-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./lewis-center-oh/.guide",
+      "route": "/lewis-center-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./metal-roofing-dublin-oh/.guide",
+      "route": "/metal-roofing-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./middletown-oh/.guide",
+      "route": "/middletown-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./newark-oh/.guide",
+      "route": "/newark-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./powell-oh/.guide",
+      "route": "/powell-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./roof-calculator/.guide",
+      "route": "/roof-calculator/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roof-repair-dublin-oh/.guide",
+      "route": "/roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roof-replacement-dublin-oh/.guide",
+      "route": "/roof-replacement-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./roofing-calculator/.guide",
+      "route": "/roofing-calculator/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing-contractor-dublin-oh/.guide",
+      "route": "/roofing-contractor-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing/.hero",
+      "route": "/roofing/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing/.guide",
+      "route": "/roofing/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing/gaf/.guide",
+      "route": "/roofing/gaf/",
+      "galleryId": "photo-27",
+      "src": "/media/wordpress/32d92a58205b-df0e3469-0c5f-4177-9a38-5cfab901570b.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing/gaf/master-elite/.guide",
+      "route": "/roofing/gaf/master-elite/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./roofing/metal/.guide",
+      "route": "/roofing/metal/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./roofing/repair/.guide",
+      "route": "/roofing/repair/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-editorial.json./roofing/replacement/.guide",
+      "route": "/roofing/replacement/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./roofing/types/.guide",
+      "route": "/roofing/types/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-editorial.json./storm-damage-roof-repair-dublin-oh/.guide",
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./storm-damage/.guide",
+      "route": "/storm-damage/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-editorial.json./storm-damage/hail/.guide",
+      "route": "/storm-damage/hail/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-editorial.json./storm-damage/insurance-claims/.guide",
+      "route": "/storm-damage/insurance-claims/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./storm-damage/wind/.guide",
+      "route": "/storm-damage/wind/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./upper-arlington-oh/.guide",
+      "route": "/upper-arlington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./westerville-oh/.guide",
+      "route": "/westerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./worthington-oh/.guide",
+      "route": "/worthington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-editorial.json./zanesville-oh/.guide",
+      "route": "/zanesville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./akron-oh/.sections.1",
+      "route": "/akron-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./athens-oh/.sections.1",
+      "route": "/athens-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./aurora-oh/.sections.1",
+      "route": "/aurora-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./beavercreek-oh/.sections.1",
+      "route": "/beavercreek-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./centerville-oh/.sections.1",
+      "route": "/centerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./cincinnati-oh/.sections.2",
+      "route": "/cincinnati-oh/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-copy.json./cincinnati-oh/roofing/.sections.1",
+      "route": "/cincinnati-oh/roofing/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-copy.json./cincinnati-oh/storm-damage/.sections.1",
+      "route": "/cincinnati-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./cleveland-oh/.sections.2",
+      "route": "/cleveland-oh/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-copy.json./cleveland-oh/roofing/.sections.1",
+      "route": "/cleveland-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./cleveland-oh/roofing/cost-of-replacement/.sections.1",
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./cleveland-oh/storm-damage/.sections.1",
+      "route": "/cleveland-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./columbus-oh/.sections.2",
+      "route": "/columbus-oh/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-copy.json./columbus-oh/roofing/.sections.1",
+      "route": "/columbus-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./columbus-oh/storm-damage/.sections.1",
+      "route": "/columbus-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./cost-of-a-new-roof/.sections.1",
+      "route": "/cost-of-a-new-roof/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./dayton-oh/.sections.2",
+      "route": "/dayton-oh/",
+      "galleryId": "riley-20",
+      "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp"
+    },
+    {
+      "location": "service-copy.json./dayton-oh/roofing/.sections.1",
+      "route": "/dayton-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./dayton-oh/storm-damage/.sections.1",
+      "route": "/dayton-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./dayton-roofers/.sections.1",
+      "route": "/dayton-roofers/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./delaware-oh/.sections.2",
+      "route": "/delaware-oh/",
+      "galleryId": "riley-00",
+      "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp"
+    },
+    {
+      "location": "service-copy.json./delaware-oh/roofing/.sections.1",
+      "route": "/delaware-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./delaware-oh/storm-damage/.sections.1",
+      "route": "/delaware-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./dublin-oh/.sections.1",
+      "route": "/dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./emergency-roof-repair-dublin-oh/.sections.1",
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-copy.json./gaf-roofing-dublin-oh/.sections.1",
+      "route": "/gaf-roofing-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./gahanna-oh/.sections.1",
+      "route": "/gahanna-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./grove-city-oh/.sections.1",
+      "route": "/grove-city-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./hail-damage-roof-repair-dublin-oh/.sections.1",
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-copy.json./hamilton-oh/.sections.1",
+      "route": "/hamilton-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./hilliard-oh/.sections.1",
+      "route": "/hilliard-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./lancaster-oh/.sections.1",
+      "route": "/lancaster-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./lewis-center-oh/.sections.1",
+      "route": "/lewis-center-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./metal-roofing-dublin-oh/.sections.1",
+      "route": "/metal-roofing-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./middletown-oh/.sections.1",
+      "route": "/middletown-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./newark-oh/.sections.1",
+      "route": "/newark-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./powell-oh/.sections.1",
+      "route": "/powell-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./roof-calculator/.sections.1",
+      "route": "/roof-calculator/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roof-repair-dublin-oh/.sections.1",
+      "route": "/roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-copy.json./roof-replacement-dublin-oh/.sections.1",
+      "route": "/roof-replacement-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roofing-calculator/.sections.1",
+      "route": "/roofing-calculator/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roofing-contractor-dublin-oh/.sections.1",
+      "route": "/roofing-contractor-dublin-oh/",
+      "galleryId": "riley-00",
+      "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp"
+    },
+    {
+      "location": "service-copy.json./roofing/gaf/.sections.1",
+      "route": "/roofing/gaf/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roofing/metal/.sections.1",
+      "route": "/roofing/metal/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roofing/repair/.sections.1",
+      "route": "/roofing/repair/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-copy.json./roofing/replacement/.sections.1",
+      "route": "/roofing/replacement/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-copy.json./roofing/types/.sections.1",
+      "route": "/roofing/types/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-copy.json./storm-damage-roof-repair-dublin-oh/.sections.1",
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./storm-damage/wind/.sections.1",
+      "route": "/storm-damage/wind/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./upper-arlington-oh/.sections.1",
+      "route": "/upper-arlington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./westerville-oh/.sections.1",
+      "route": "/westerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./worthington-oh/.sections.1",
+      "route": "/worthington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-copy.json./zanesville-oh/.sections.1",
+      "route": "/zanesville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./akron-oh/.copy.sections.1",
+      "route": "/akron-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./athens-oh/.copy.sections.1",
+      "route": "/athens-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./aurora-oh/.copy.sections.1",
+      "route": "/aurora-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./beavercreek-oh/.copy.sections.1",
+      "route": "/beavercreek-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./centerville-oh/.copy.sections.1",
+      "route": "/centerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./cincinnati-oh/.copy.sections.2",
+      "route": "/cincinnati-oh/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./cleveland-oh/.copy.sections.2",
+      "route": "/cleveland-oh/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./columbus-oh/.copy.sections.2",
+      "route": "/columbus-oh/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-overrides.json./dayton-oh/.copy.sections.2",
+      "route": "/dayton-oh/",
+      "galleryId": "riley-20",
+      "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp"
+    },
+    {
+      "location": "service-overrides.json./delaware-oh/.copy.sections.2",
+      "route": "/delaware-oh/",
+      "galleryId": "riley-00",
+      "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp"
+    },
+    {
+      "location": "service-overrides.json./dublin-oh/.copy.sections.1",
+      "route": "/dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./gahanna-oh/.copy.sections.1",
+      "route": "/gahanna-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./grove-city-oh/.copy.sections.1",
+      "route": "/grove-city-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./hamilton-oh/.copy.sections.1",
+      "route": "/hamilton-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./hilliard-oh/.copy.sections.1",
+      "route": "/hilliard-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./lancaster-oh/.copy.sections.1",
+      "route": "/lancaster-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./lewis-center-oh/.copy.sections.1",
+      "route": "/lewis-center-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./middletown-oh/.copy.sections.1",
+      "route": "/middletown-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./newark-oh/.copy.sections.1",
+      "route": "/newark-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./powell-oh/.copy.sections.1",
+      "route": "/powell-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./upper-arlington-oh/.copy.sections.1",
+      "route": "/upper-arlington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./westerville-oh/.copy.sections.1",
+      "route": "/westerville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./worthington-oh/.copy.sections.1",
+      "route": "/worthington-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./zanesville-oh/.copy.sections.1",
+      "route": "/zanesville-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./roofing/repair/.copy.sections.1",
+      "route": "/roofing/repair/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-overrides.json./roofing/replacement/.copy.sections.1",
+      "route": "/roofing/replacement/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roofing/types/.copy.sections.1",
+      "route": "/roofing/types/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-overrides.json./roofing/metal/.copy.sections.1",
+      "route": "/roofing/metal/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roofing/gaf/.copy.sections.1",
+      "route": "/roofing/gaf/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./cost-of-a-new-roof/.copy.sections.1",
+      "route": "/cost-of-a-new-roof/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roof-calculator/.copy.sections.1",
+      "route": "/roof-calculator/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roofing-calculator/.copy.sections.1",
+      "route": "/roofing-calculator/",
+      "galleryId": "riley-16",
+      "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./gaf-roofing-dublin-oh/.copy.sections.1",
+      "route": "/gaf-roofing-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage/.editorial.guide",
+      "route": "/storm-damage/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage/hail/.editorial.guide",
+      "route": "/storm-damage/hail/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage/wind/.editorial.guide",
+      "route": "/storm-damage/wind/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage/wind/.copy.sections.1",
+      "route": "/storm-damage/wind/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage/insurance-claims/.editorial.guide",
+      "route": "/storm-damage/insurance-claims/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./emergency-roof-repair-dublin-oh/.copy.sections.1",
+      "route": "/emergency-roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-overrides.json./hail-damage-roof-repair-dublin-oh/.copy.sections.1",
+      "route": "/hail-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-64",
+      "src": "/media/client-gallery/inspecting-a-marked-shingle-surface-2ef8bbf20e-870.webp"
+    },
+    {
+      "location": "service-overrides.json./metal-roofing-dublin-oh/.copy.sections.1",
+      "route": "/metal-roofing-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roof-repair-dublin-oh/.copy.sections.1",
+      "route": "/roof-repair-dublin-oh/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-overrides.json./roof-replacement-dublin-oh/.copy.sections.1",
+      "route": "/roof-replacement-dublin-oh/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./roofing-contractor-dublin-oh/.copy.sections.1",
+      "route": "/roofing-contractor-dublin-oh/",
+      "galleryId": "riley-00",
+      "src": "/media/client-gallery/neighborhood-rooflines-from-above-9519a407c8-1280.webp"
+    },
+    {
+      "location": "service-overrides.json./storm-damage-roof-repair-dublin-oh/.copy.sections.1",
+      "route": "/storm-damage-roof-repair-dublin-oh/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./cincinnati-oh/roofing/.copy.sections.1",
+      "route": "/cincinnati-oh/roofing/",
+      "galleryId": "photo-13",
+      "src": "/media/wordpress/df2783059d10-d2e8b141-c868-4795-99be-d181c0e4d964.jpg"
+    },
+    {
+      "location": "service-overrides.json./cincinnati-oh/storm-damage/.copy.sections.1",
+      "route": "/cincinnati-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./cleveland-oh/roofing/.copy.sections.1",
+      "route": "/cleveland-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./cleveland-oh/roofing/cost-of-replacement/.copy.sections.1",
+      "route": "/cleveland-oh/roofing/cost-of-replacement/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./cleveland-oh/storm-damage/.copy.sections.1",
+      "route": "/cleveland-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-overrides.json./dayton-oh/roofing/.copy.sections.1",
+      "route": "/dayton-oh/roofing/",
+      "galleryId": "photo-25",
+      "src": "/media/client-gallery/roof-preparation-and-shingle-installation-89b962fe5d-1088.webp"
+    },
+    {
+      "location": "service-overrides.json./dayton-oh/storm-damage/.copy.sections.1",
+      "route": "/dayton-oh/storm-damage/",
+      "galleryId": "riley-93",
+      "src": "/media/client-gallery/fastener-inspection-beneath-a-shingle-ed459572f5-1024.webp"
+    },
+    {
+      "location": "service-pages.json./roofing/.hero.image",
+      "route": "/roofing/",
+      "galleryId": "photo-26",
+      "src": "/media/wordpress/f1b0821cd155-ec370389-890c-487e-ae53-357efe98b9cc.jpg"
+    },
+    {
+      "location": "service-pages.json./roofing/gaf/master-elite/.hero.image",
+      "route": "/roofing/gaf/master-elite/",
+      "galleryId": "riley-21",
+      "src": "/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp"
+    },
+    {
+      "location": "service-pages.json./commercial-roofing/.hero.image",
+      "route": "/commercial-roofing/",
+      "galleryId": "photo-20",
+      "src": "/media/wordpress/275d263eab92-0e4a2ef0-b97d-42ff-8870-7620595e6bdd.jpg"
+    }
+  ],
+  "additionalSurfaces": [
+    "Homepage service card and supporting promo",
+    "Roofing material card",
+    "Product roofing fallback",
+    "Default social preview",
+    "Retained route render fallbacks",
+    "Roofing product menu atlas thumbnail"
+  ],
+  "notes": [
+    "Gallery subject alt text carried into each replacement.",
+    "Supplied/reference labels retained where section captions are shown; no location or completed-job claims added.",
+    "Original unused migration assets retained as source evidence; display references are replaced."
+  ],
+  "localReview": "Representative homepage, roofing, storm, location and product routes load with no retired blue-house image elements. Full checks remain GitHub-owned."
+}

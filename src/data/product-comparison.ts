@@ -25,6 +25,7 @@ function specKey(label:string,value:string){
 }
 function profileGroup(p:ProductPresentation){
  const path=p.detailPath||'/products/roofing/shingles/gaf/';
+ if(p.comparisonGroup)return p.comparisonGroup;
  if(path.includes('/roofing/'))return 'shingles';
  if(path.includes('/gutters/'))return 'gutters';
  if(path.includes('/siding/')){

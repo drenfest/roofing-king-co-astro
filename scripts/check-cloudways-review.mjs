@@ -38,7 +38,8 @@ await Promise.all(Array.from({length:6},async()=>{
  }
 }));
 const remoteSitemap=load(await(await get('/sitemap.xml')).text(),{xmlMode:true});assert.deepEqual(remoteSitemap('loc').map((_i,el)=>remoteSitemap(el).text()).get(),urls);
-const robots=await(await get('/robots.txt')).text();assert.match(robots,/Disallow: \//);assert.match(robots,/Sitemap: https:\/\/www\.roofkingco\.com\/sitemap\.xml/);
+const robotsResponse=await get('/robots.txt');assert.match(robotsResponse.headers.get('x-robots-tag')||'',/noindex/i);
+const robots=await robotsResponse.text();assert.match(robots,/^User-agent: \*\nAllow: \/$/m);assert.doesNotMatch(robots,/^Disallow: \/\s*$/m);assert.match(robots,/Sitemap: https:\/\/www\.roofkingco\.com\/sitemap\.xml/);
 const home=load(await fs.readFile('dist/index.html','utf8'));
 const stylesheet=home('link[rel=stylesheet]').toArray().map(el=>home(el).attr('href')).find(href=>href?.startsWith('/'));
 const assets=[stylesheet,home('script[type=module][src]').first().attr('src'),home('header img').first().attr('src')].filter(href=>href?.startsWith('/'));

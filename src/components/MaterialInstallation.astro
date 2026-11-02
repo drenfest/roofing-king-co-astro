@@ -4,13 +4,16 @@ import MaterialTabs from './MaterialTabs.svelte';
 import HomeImage from './HomeImage.astro';
 import RichContent from './RichContent.astro';
 import {productHeroImage} from '../data/product-presentation';
+import {serviceHero} from '../data/service-hero';
 interface Props {section:ServiceCopySection;}
 const {section}=Astro.props;
 const choices=section.materialTabs||[];
 const panels=choices.map((choice,index)=>{
  const card=section.cards.find(card=>card.title===choice.cardTitle);
  if(!card)throw new Error(`Missing material topic: ${choice.cardTitle}`);
- return {...choice,card,id:card.id||`${section.id}-material-${index+1}`,image:productHeroImage(choice.href)};
+ const source=choice.href.startsWith('/products/')?null:serviceHero(choice.href);
+ const image=source?{...source.image,caption:source.generated?'Illustrative roofing detail.':'Roofing example.'}:productHeroImage(choice.href);
+ return {...choice,card,id:card.id||`${section.id}-material-${index+1}`,image};
 });
 const supporting=section.cards.filter(card=>!choices.some(choice=>choice.cardTitle===card.title));
 ---
@@ -20,7 +23,7 @@ const supporting=section.cards.filter(card=>!choices.some(choice=>choice.cardTit
  <MaterialTabs id={section.id} tabs={panels} client:visible>
   {panels.map(panel=><article id={panel.id} class="rk-material-panel" data-material-panel aria-labelledby={`${panel.id}-title`}>
    <figure><HomeImage {...panel.image} sizes="(max-width:760px) 90vw, 400px"/><figcaption>{panel.image.caption}</figcaption></figure>
-   <div><p class="rk-material-manufacturer">{panel.manufacturer}</p><h3 id={`${panel.id}-title`}>{panel.card.title}</h3><RichContent nodes={panel.card.body}/><a href={panel.href} title={`Explore ${panel.label} products`}>Explore {panel.label.toLowerCase()} products <span aria-hidden="true">→</span></a></div>
+   <div><p class="rk-material-manufacturer">{panel.manufacturer}</p><h3 id={`${panel.id}-title`}>{panel.card.title}</h3><RichContent nodes={panel.card.body}/><a href={panel.href} title={`Explore ${panel.label}${panel.href.startsWith('/products/')?' products':''}`}>Explore {panel.label.toLowerCase()}{panel.href.startsWith('/products/')?' products':''} <span aria-hidden="true">→</span></a></div>
   </article>)}
  </MaterialTabs>
  {supporting.map(card=><div class="rk-material-supporting" id={card.id}><h3 id={card.id?`${card.id}-title`:undefined}>{card.title}</h3><RichContent nodes={card.body}/></div>)}

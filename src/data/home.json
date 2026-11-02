@@ -54,7 +54,8 @@
       "iko",
       "alside",
       "norandex",
-      "exterior-portfolio"
+      "exterior-portfolio",
+      "mule-hide"
     ]
   },
   "services": {
@@ -67,8 +68,8 @@
         "description": "Roof replacement when shingles curl, lose granules or leak in several places, and roof repair for missing shingles, cracked pipe boots and failed flashing. GAF systems and metal roofing.",
         "href": "/roofing/",
         "image": {
-          "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
-          "alt": "Blue home with a red shingle roof"
+          "src": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+          "alt": "Straight-down aerial view of a dark shingle roof with intersecting ridges and valleys"
         }
       },
       {
@@ -324,8 +325,8 @@
     "title": "Skilled professionals ready to help",
     "description": "Roof King installs siding with the same attention to flashing and trim that goes into our roofs. Handling roofing, siding and gutters together means one schedule, one point of contact and parts that fit together the way they should.",
     "image": {
-      "src": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
-      "alt": "Finished exterior remodeling project"
+      "src": "/media/client-gallery/brick-shingles-and-the-front-elevation-d6c7088205-924.webp",
+      "alt": "Two-story brick home with white-framed windows, a porch and a shingle roof"
     }
   },
   "process": {

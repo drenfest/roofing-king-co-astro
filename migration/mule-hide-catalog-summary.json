@@ -1,0 +1,2345 @@
+{
+  "checkedAt": "2026-11-02T02:23:56.654Z",
+  "products": 172,
+  "collections": 10,
+  "companionSets": 154,
+  "companionLinks": 960,
+  "sourceDocuments": 4659,
+  "optionRows": 1616,
+  "images": 172,
+  "variants": 516,
+  "imageBytes": 8246384,
+  "records": [
+    {
+      "key": "134FasciaCover",
+      "id": "mule-hide-134-fascia-cover",
+      "path": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/134FasciaCover",
+      "related": []
+    },
+    {
+      "key": "10TPOPressureSensitiveRUSS",
+      "id": "mule-hide-10-tpopressure-sensitive-russ",
+      "path": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/TapePrimer"
+      ]
+    },
+    {
+      "key": "2PieceSnapOnCompression",
+      "id": "mule-hide-2-piece-snap-on-compression",
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/2PieceSnapOnCompression",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "2PieceSnapOnCompressionMB",
+      "id": "mule-hide-2-piece-snap-on-compression-mb",
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/2PieceSnapOnCompressionMB",
+      "related": []
+    },
+    {
+      "key": "24SeamPlate",
+      "id": "mule-hide-24-seam-plate",
+      "path": "/products/roofing/commercial/mule-hide/24-seam-plate/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/24SeamPlate",
+      "related": [
+        "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners"
+      ]
+    },
+    {
+      "key": "2TLMembranePlate",
+      "id": "mule-hide-2-tlmembrane-plate",
+      "path": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/2TLMembranePlate",
+      "related": [
+        "https://www.mulehide.com/Products/p/TLFastenersPlates"
+      ]
+    },
+    {
+      "key": "3InsulationPlate",
+      "id": "mule-hide-3-insulation-plate",
+      "path": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/3InsulationPlate",
+      "related": [
+        "https://www.mulehide.com/Products/p/DrillPointFasteners12",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14"
+      ]
+    },
+    {
+      "key": "3LWGMetalPlates",
+      "id": "mule-hide-3-lwgmetal-plates",
+      "path": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/3LWGMetalPlates",
+      "related": [
+        "https://www.mulehide.com/Products/p/LWGFasteners"
+      ]
+    },
+    {
+      "key": "3TLInsulationPlate",
+      "id": "mule-hide-3-tlinsulation-plate",
+      "path": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/3TLInsulationPlate",
+      "related": [
+        "https://www.mulehide.com/Products/p/DrillPointFasteners12",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14"
+      ]
+    },
+    {
+      "key": "4FasciaCover",
+      "id": "mule-hide-4-fascia-cover",
+      "path": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/4FasciaCover",
+      "related": []
+    },
+    {
+      "key": "6ReinforcedEPDMMembraneStripsRMS",
+      "id": "mule-hide-6-reinforced-epdmmembrane-strips-rms",
+      "path": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "6TPOPressureSensitiveRUSS",
+      "id": "mule-hide-6-tpopressure-sensitive-russ",
+      "path": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS",
+      "related": [
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TPOPrimer",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "702Adhesive",
+      "id": "mule-hide-702-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/702-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/702Adhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier"
+      ]
+    },
+    {
+      "key": "702LVAdhesive",
+      "id": "mule-hide-702-lvadhesive",
+      "path": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
+      "categories": [
+        "UnderlaymentsVaporBarriers"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/702LVAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier"
+      ]
+    },
+    {
+      "key": "9ReinforcedEPDMMembraneStripsRMS",
+      "id": "mule-hide-9-reinforced-epdmmembrane-strips-rms",
+      "path": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "AcrylicWaterBaseBondingAdhesive",
+      "id": "mule-hide-acrylic-water-base-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AcrylicWaterBaseBondingAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/DensDeckRoofBoard",
+        "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/PolyISO1HDPlus",
+        "https://www.mulehide.com/Products/p/PolyISO1HD80",
+        "https://www.mulehide.com/Products/p/PolyISOFlat",
+        "https://www.mulehide.com/Products/p/PolyISOTapered",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/USGSecurockGypsumFiberRoofBoard"
+      ]
+    },
+    {
+      "key": "AeroWebLowVOCAerosolContactAdhesive",
+      "id": "mule-hide-aero-web-low-vocaerosol-contact-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
+      "categories": [
+        "UnderlaymentsVaporBarriers",
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/DensDeckRoofBoard",
+        "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/PolyISO1HDPlus",
+        "https://www.mulehide.com/Products/p/PolyISO1HD80",
+        "https://www.mulehide.com/Products/p/PolyISOFlat",
+        "https://www.mulehide.com/Products/p/PolyISOTapered",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/USGSecurockGypsumFiberRoofBoard"
+      ]
+    },
+    {
+      "key": "AllPurposeBar",
+      "id": "mule-hide-all-purpose-bar",
+      "path": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AllPurposeBar",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "AluminatorRetrofitDrainwithMaxxFloSeal",
+      "id": "mule-hide-aluminator-retrofit-drainwith-maxx-flo-seal",
+      "path": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AluminatorRetrofitDrainwithMaxxFloSeal",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "AluminumRetrofitDrainwithSealantTape",
+      "id": "mule-hide-aluminum-retrofit-drainwith-sealant-tape",
+      "path": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AluminumRetrofitDrainwithSealantTape",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "AquaBase120",
+      "id": "mule-hide-aqua-base120",
+      "path": "/products/roofing/commercial/mule-hide/aqua-base120/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/AquaBase120",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "BlackLapSealant",
+      "id": "mule-hide-black-lap-sealant",
+      "path": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/BlackLapSealant",
+      "related": [
+        "https://www.mulehide.com/Products/p/SpliceAdhesive",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "BlackOnePartPourableSealer",
+      "id": "mule-hide-black-one-part-pourable-sealer",
+      "path": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/BlackOnePartPourableSealer",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "BondingAdhesive",
+      "id": "mule-hide-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/BondingAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "CantStripTaperedEdge",
+      "id": "mule-hide-cant-strip-tapered-edge",
+      "path": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CantStripTaperedEdge",
+      "related": [
+        "https://www.mulehide.com/Products/p/STRUCTODEKHDwithPrimedRedCoating"
+      ]
+    },
+    {
+      "key": "CantedExtendedWaterdamExtrudedFascia",
+      "id": "mule-hide-canted-extended-waterdam-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CantedExtendedWaterdamExtrudedFascia",
+      "related": []
+    },
+    {
+      "key": "CantedWaterdamExtrudedFascia",
+      "id": "mule-hide-canted-waterdam-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CantedWaterdamExtrudedFascia",
+      "related": []
+    },
+    {
+      "key": "CantileverCoping",
+      "id": "mule-hide-cantilever-coping",
+      "path": "/products/roofing/commercial/mule-hide/cantilever-coping/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CantileverCoping",
+      "related": []
+    },
+    {
+      "key": "CastIronRoofDrainKitNewInstallation",
+      "id": "mule-hide-cast-iron-roof-drain-kit-new-installation",
+      "path": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CastIronRoofDrainKitNewInstallation",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "ContinuousCleatCoping",
+      "id": "mule-hide-continuous-cleat-coping",
+      "path": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ContinuousCleatCoping",
+      "related": []
+    },
+    {
+      "key": "Coping",
+      "id": "mule-hide-coping",
+      "path": "/products/roofing/commercial/mule-hide/coping/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/Coping",
+      "related": []
+    },
+    {
+      "key": "CopperRetrofitDrainwithSealantTape",
+      "id": "mule-hide-copper-retrofit-drainwith-sealant-tape",
+      "path": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CopperRetrofitDrainwithSealantTape",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "Counterflashing",
+      "id": "mule-hide-counterflashing",
+      "path": "/products/roofing/commercial/mule-hide/counterflashing/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/Counterflashing",
+      "related": []
+    },
+    {
+      "key": "CuredCoverTape",
+      "id": "mule-hide-cured-cover-tape",
+      "path": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/CuredCoverTape",
+      "related": [
+        "https://www.mulehide.com/Products/p/DripEdge",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "DensDeckPrimeRoofBoard",
+      "id": "mule-hide-dens-deck-prime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DensDeckPrimeRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "DensDeckProFastPrimeRoofBoard",
+      "id": "mule-hide-dens-deck-pro-fast-prime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DensDeckProFastPrimeRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "DensDeckRoofBoard",
+      "id": "mule-hide-dens-deck-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DensDeckRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "DensDeckStormXPrimeRoofBoard",
+      "id": "mule-hide-dens-deck-storm-xprime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "DetecTruGroundConductivePrimer",
+      "id": "mule-hide-detec-tru-ground-conductive-primer",
+      "path": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DetecTruGroundConductivePrimer",
+      "related": []
+    },
+    {
+      "key": "Downspouts",
+      "id": "mule-hide-downspouts",
+      "path": "/products/roofing/commercial/mule-hide/downspouts/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/Downspouts",
+      "related": []
+    },
+    {
+      "key": "DrillPointFasteners12",
+      "id": "mule-hide-drill-point-fasteners12",
+      "path": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DrillPointFasteners12",
+      "related": []
+    },
+    {
+      "key": "DripEdge",
+      "id": "mule-hide-drip-edge",
+      "path": "/products/roofing/commercial/mule-hide/drip-edge/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DripEdge",
+      "related": []
+    },
+    {
+      "key": "DripEdgeMB",
+      "id": "mule-hide-drip-edge-mb",
+      "path": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/DripEdgeMB",
+      "related": []
+    },
+    {
+      "key": "EclipsEdge",
+      "id": "mule-hide-eclips-edge",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EclipsEdge",
+      "related": [
+        "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "EclipsEdgeExtendedMB",
+      "id": "mule-hide-eclips-edge-extended-mb",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EclipsEdgeExtendedMB",
+      "related": []
+    },
+    {
+      "key": "EclipsEdgeMB",
+      "id": "mule-hide-eclips-edge-mb",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EclipsEdgeMB",
+      "related": []
+    },
+    {
+      "key": "EHDFasteners15",
+      "id": "mule-hide-ehdfasteners15",
+      "path": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EHDFasteners15",
+      "related": [
+        "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/InductionWeldPlates",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/RhinoBondPlates",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "EPDMCurbWrap",
+      "id": "mule-hide-epdmcurb-wrap",
+      "path": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMCurbWrap",
+      "related": [
+        "https://www.mulehide.com/Products/p/BondingAdhesive",
+        "https://www.mulehide.com/Products/p/EPDMPreCutInsideOutsideCorners",
+        "https://www.mulehide.com/Products/p/EPDMX23Adhesive",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/LowVOCBondingAdhesive",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer"
+      ]
+    },
+    {
+      "key": "EPDMInSeamTape",
+      "id": "mule-hide-epdmin-seam-tape",
+      "path": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+      "related": []
+    },
+    {
+      "key": "EPDMPourableSealerPockets",
+      "id": "mule-hide-epdmpourable-sealer-pockets",
+      "path": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackOnePartPourableSealer",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "EPDMPreCutInsideOutsideCorners",
+      "id": "mule-hide-epdmpre-cut-inside-outside-corners",
+      "path": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMPreCutInsideOutsideCorners",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/EPDMCurbWrap",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "EPDMTJointPatches",
+      "id": "mule-hide-epdmtjoint-patches",
+      "path": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMTJointPatches",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "EPDMUncuredFlashingMembrane",
+      "id": "mule-hide-epdmuncured-flashing-membrane",
+      "path": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMUncuredFlashingMembrane",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/EPDMCurbWrap",
+        "https://www.mulehide.com/Products/p/EPDMTJointPatches",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "EPDMWalkwayPadswithTape",
+      "id": "mule-hide-epdmwalkway-padswith-tape",
+      "path": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMWalkwayPadswithTape",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "EPDMX23Adhesive",
+      "id": "mule-hide-epdmx23-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPDMX23Adhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "EPSFlat",
+      "id": "mule-hide-epsflat",
+      "path": "/products/roofing/commercial/mule-hide/epsflat/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPSFlat",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "EPSTapered",
+      "id": "mule-hide-epstapered",
+      "path": "/products/roofing/commercial/mule-hide/epstapered/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/EPSTapered",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "ExtendedExtrudedFascia",
+      "id": "mule-hide-extended-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ExtendedExtrudedFascia",
+      "related": []
+    },
+    {
+      "key": "ExtendedExtrudedFasciaMB",
+      "id": "mule-hide-extended-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ExtendedExtrudedFasciaMB",
+      "related": []
+    },
+    {
+      "key": "ExtrudedDripEdgeFlat",
+      "id": "mule-hide-extruded-drip-edge-flat",
+      "path": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ExtrudedDripEdgeFlat",
+      "related": []
+    },
+    {
+      "key": "ExtrudedFascia",
+      "id": "mule-hide-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ExtrudedFascia",
+      "related": []
+    },
+    {
+      "key": "ExtrudedFasciaMB",
+      "id": "mule-hide-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ExtrudedFasciaMB",
+      "related": []
+    },
+    {
+      "key": "F5AirVaporBarrier",
+      "id": "mule-hide-f5-air-vapor-barrier",
+      "path": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
+      "categories": [
+        "UnderlaymentsVaporBarriers"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+      "related": [
+        "https://www.mulehide.com/Products/p/702Adhesive",
+        "https://www.mulehide.com/Products/p/702LVAdhesive",
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveCartridges",
+        "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveDrums",
+        "https://www.mulehide.com/Products/p/HelixLowRiseAdhesivePressurizedTank",
+        "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDrums",
+        "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDualCartridge",
+        "https://www.mulehide.com/Products/p/HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun",
+        "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveJug"
+      ]
+    },
+    {
+      "key": "FRAdhesive",
+      "id": "mule-hide-fradhesive",
+      "path": "/products/roofing/commercial/mule-hide/fradhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/FRAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "FR10",
+      "id": "mule-hide-fr10",
+      "path": "/products/roofing/commercial/mule-hide/fr10/",
+      "categories": [
+        "UnderlaymentsVaporBarriers"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/FR10",
+      "related": []
+    },
+    {
+      "key": "GravelStop",
+      "id": "mule-hide-gravel-stop",
+      "path": "/products/roofing/commercial/mule-hide/gravel-stop/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/GravelStop",
+      "related": []
+    },
+    {
+      "key": "GrayEPDM",
+      "id": "mule-hide-gray-epdm",
+      "path": "/products/roofing/commercial/mule-hide/gray-epdm/",
+      "categories": [
+        "EPDM"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/GrayEPDM",
+      "related": []
+    },
+    {
+      "key": "Gutters",
+      "id": "mule-hide-gutters",
+      "path": "/products/roofing/commercial/mule-hide/gutters/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/Gutters",
+      "related": []
+    },
+    {
+      "key": "HDPFasteners14",
+      "id": "mule-hide-hdpfasteners14",
+      "path": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HDPFasteners14",
+      "related": [
+        "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS",
+        "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/TapePrimer"
+      ]
+    },
+    {
+      "key": "HeavyGaugeExtrudedFascia",
+      "id": "mule-hide-heavy-gauge-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFascia",
+      "related": []
+    },
+    {
+      "key": "HeavyGaugeExtrudedFasciaMB",
+      "id": "mule-hide-heavy-gauge-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFasciaMB",
+      "related": []
+    },
+    {
+      "key": "HelixLowRiseAdhesiveCartridges",
+      "id": "mule-hide-helix-low-rise-adhesive-cartridges",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveCartridges",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HelixLowRiseAdhesiveDrums",
+      "id": "mule-hide-helix-low-rise-adhesive-drums",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveDrums",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HelixLowRiseAdhesivePressurizedTank",
+      "id": "mule-hide-helix-low-rise-adhesive-pressurized-tank",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesivePressurizedTank",
+      "related": []
+    },
+    {
+      "key": "HelixMaxLowRiseAdhesiveDrums",
+      "id": "mule-hide-helix-max-low-rise-adhesive-drums",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDrums",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HelixMaxLowRiseAdhesiveDualCartridge",
+      "id": "mule-hide-helix-max-low-rise-adhesive-dual-cartridge",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDualCartridge",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun",
+      "id": "mule-hide-helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun",
+      "path": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HelixMaxLowRiseAdhesiveJug",
+      "id": "mule-hide-helix-max-low-rise-adhesive-jug",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveJug",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/F5AirVaporBarrier",
+        "https://www.mulehide.com/Products/p/PolyISO1HD",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack"
+      ]
+    },
+    {
+      "key": "HPProtectiveMat",
+      "id": "mule-hide-hpprotective-mat",
+      "path": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/HPProtectiveMat",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM"
+      ]
+    },
+    {
+      "key": "InductionWeldCardboardDiscs",
+      "id": "mule-hide-induction-weld-cardboard-discs",
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/InductionWeldCardboardDiscs",
+      "related": [
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/EPSFlat",
+        "https://www.mulehide.com/Products/p/EPSTapered",
+        "https://www.mulehide.com/Products/p/InductionWeldPlates",
+        "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners"
+      ]
+    },
+    {
+      "key": "InductionWeldPlates",
+      "id": "mule-hide-induction-weld-plates",
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/InductionWeldPlates",
+      "related": [
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint",
+        "https://www.mulehide.com/Products/p/TruSpikeFasteners"
+      ]
+    },
+    {
+      "key": "JTS1JointTerminationSealant",
+      "id": "mule-hide-jts1-joint-termination-sealant",
+      "path": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+      "related": [
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "LowVOCPrimer",
+      "id": "mule-hide-low-vocprimer",
+      "path": "/products/roofing/commercial/mule-hide/low-vocprimer/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LowVOCPrimer",
+      "related": [
+        "https://www.mulehide.com/Products/p/CuredCoverTape",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip",
+        "https://www.mulehide.com/Products/p/UncuredFlashingTapeWhiteGrayBlack"
+      ]
+    },
+    {
+      "key": "LowVOC1168BondingAdhesive",
+      "id": "mule-hide-low-voc1168-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LowVOC1168BondingAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "LowVOCBondingAdhesive",
+      "id": "mule-hide-low-vocbonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LowVOCBondingAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "LowVOCMembraneCleaner",
+      "id": "mule-hide-low-vocmembrane-cleaner",
+      "path": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "LowVOCUNTACKcleaner",
+      "id": "mule-hide-low-vocuntackcleaner",
+      "path": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LowVOCUNTACKcleaner",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "LWGFasteners",
+      "id": "mule-hide-lwgfasteners",
+      "path": "/products/roofing/commercial/mule-hide/lwgfasteners/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/LWGFasteners",
+      "related": [
+        "https://www.mulehide.com/Products/p/3LWGMetalPlates"
+      ]
+    },
+    {
+      "key": "MPLiquidSealant",
+      "id": "mule-hide-mpliquid-sealant",
+      "path": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/MPLiquidSealant",
+      "related": [
+        "https://www.mulehide.com/Products/p/TPOMoldedSealantPockets"
+      ]
+    },
+    {
+      "key": "MuleHideZamacNailinRoofingFastener",
+      "id": "mule-hide-mule-hide-zamac-nailin-roofing-fastener",
+      "path": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/MuleHideZamacNailinRoofingFastener",
+      "related": [
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/TB125",
+        "https://www.mulehide.com/Products/p/TB75",
+        "https://www.mulehide.com/Products/p/TB90"
+      ]
+    },
+    {
+      "key": "NailerT",
+      "id": "mule-hide-nailer-t",
+      "path": "/products/roofing/commercial/mule-hide/nailer-t/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/NailerT",
+      "related": []
+    },
+    {
+      "key": "NailerBoxRI",
+      "id": "mule-hide-nailer-box-ri",
+      "path": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/NailerBoxRI",
+      "related": []
+    },
+    {
+      "key": "OneExtendedFascia",
+      "id": "mule-hide-one-extended-fascia",
+      "path": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/OneExtendedFascia",
+      "related": []
+    },
+    {
+      "key": "OneFascia",
+      "id": "mule-hide-one-fascia",
+      "path": "/products/roofing/commercial/mule-hide/one-fascia/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/OneFascia",
+      "related": []
+    },
+    {
+      "key": "PFCPurlinDrillPoint",
+      "id": "mule-hide-pfcpurlin-drill-point",
+      "path": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/InductionWeldPlates",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PitchPan",
+      "id": "mule-hide-pitch-pan",
+      "path": "/products/roofing/commercial/mule-hide/pitch-pan/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PitchPan",
+      "related": [
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/MPLiquidSealant",
+        "https://www.mulehide.com/Products/p/PourableSealer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "PolyISO1HD",
+      "id": "mule-hide-poly-iso1-hd",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISO1HD",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PolyISO1HDPlus",
+      "id": "mule-hide-poly-iso1-hdplus",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISO1HDPlus",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PolyISO1HD80",
+      "id": "mule-hide-poly-iso1-hd80",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISO1HD80",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PolyISOFlat",
+      "id": "mule-hide-poly-isoflat",
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflat/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISOFlat",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PolyISOFlatwithCoatedGlassFacer",
+      "id": "mule-hide-poly-isoflatwith-coated-glass-facer",
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISOFlatwithCoatedGlassFacer",
+      "related": []
+    },
+    {
+      "key": "PolyISOTapered",
+      "id": "mule-hide-poly-isotapered",
+      "path": "/products/roofing/commercial/mule-hide/poly-isotapered/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISOTapered",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "PolyISOTaperedwithCoatedGlassFacer",
+      "id": "mule-hide-poly-isotaperedwith-coated-glass-facer",
+      "path": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PolyISOTaperedwithCoatedGlassFacer",
+      "related": []
+    },
+    {
+      "key": "PourableSealer",
+      "id": "mule-hide-pourable-sealer",
+      "path": "/products/roofing/commercial/mule-hide/pourable-sealer/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PourableSealer",
+      "related": [
+        "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/ShapeShiftKits",
+        "https://www.mulehide.com/Products/p/ShapeShiftPitchPan",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/TPOMoldedSealantPockets"
+      ]
+    },
+    {
+      "key": "PreAssembledFastenerSystem",
+      "id": "mule-hide-pre-assembled-fastener-system",
+      "path": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PreAssembledFastenerSystem",
+      "related": [
+        "https://www.mulehide.com/Products/p/3InsulationPlate",
+        "https://www.mulehide.com/Products/p/DrillPointFasteners12"
+      ]
+    },
+    {
+      "key": "PremoldedEPDMPipeBoots",
+      "id": "mule-hide-premolded-epdmpipe-boots",
+      "path": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/PremoldedEPDMPipeBoots",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "RD100",
+      "id": "mule-hide-rd100",
+      "path": "/products/roofing/commercial/mule-hide/rd100/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/RD100",
+      "related": [
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "ReinforcedEPDM",
+      "id": "mule-hide-reinforced-epdm",
+      "path": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
+      "categories": [
+        "EPDM"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "RhinoBondPlates",
+      "id": "mule-hide-rhino-bond-plates",
+      "path": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/RhinoBondPlates",
+      "related": []
+    },
+    {
+      "key": "RibContours",
+      "id": "mule-hide-rib-contours",
+      "path": "/products/roofing/commercial/mule-hide/rib-contours/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/RibContours",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOFleeceBack",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "RubberPaverBlocks",
+      "id": "mule-hide-rubber-paver-blocks",
+      "path": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/RubberPaverBlocks",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "ScupperandCollectorBoxes",
+      "id": "mule-hide-scupperand-collector-boxes",
+      "path": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ScupperandCollectorBoxes",
+      "related": []
+    },
+    {
+      "key": "SealFastLiquiFlash",
+      "id": "mule-hide-seal-fast-liqui-flash",
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SealFastLiquiFlash",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/ShapeShiftKits",
+        "https://www.mulehide.com/Products/p/ShapeShiftPitchPan",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "SealFastRepairHero",
+      "id": "mule-hide-seal-fast-repair-hero",
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SealFastRepairHero",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "SelfAdheringEPDM",
+      "id": "mule-hide-self-adhering-epdm",
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
+      "categories": [
+        "EPDM"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SelfAdheringEPDM",
+      "related": [
+        "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS",
+        "https://www.mulehide.com/Products/p/CuredCoverTape",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "SelfAdheringTPO",
+      "id": "mule-hide-self-adhering-tpo",
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SelfAdheringTPO",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "ShapeShiftKits",
+      "id": "mule-hide-shape-shift-kits",
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ShapeShiftKits",
+      "related": [
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/MPLiquidSealant"
+      ]
+    },
+    {
+      "key": "ShapeShiftPitchPan",
+      "id": "mule-hide-shape-shift-pitch-pan",
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ShapeShiftPitchPan",
+      "related": [
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/MPLiquidSealant"
+      ]
+    },
+    {
+      "key": "ShurGard40BaseSheet",
+      "id": "mule-hide-shur-gard40-base-sheet",
+      "path": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
+      "categories": [
+        "UnderlaymentsVaporBarriers"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ShurGard40BaseSheet",
+      "related": []
+    },
+    {
+      "key": "SiTPOPrimer",
+      "id": "mule-hide-si-tpoprimer",
+      "path": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SiTPOPrimer",
+      "related": [
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/ShapeShiftKits",
+        "https://www.mulehide.com/Products/p/ShapeShiftPitchPan"
+      ]
+    },
+    {
+      "key": "SkirtedDripEdge",
+      "id": "mule-hide-skirted-drip-edge",
+      "path": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SkirtedDripEdge",
+      "related": []
+    },
+    {
+      "key": "SnapCoping",
+      "id": "mule-hide-snap-coping",
+      "path": "/products/roofing/commercial/mule-hide/snap-coping/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SnapCoping",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "SnapGoldCoping",
+      "id": "mule-hide-snap-gold-coping",
+      "path": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
+      "categories": [
+        "EdgeMetal"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SnapGoldCoping",
+      "related": []
+    },
+    {
+      "key": "SpliceAdhesive",
+      "id": "mule-hide-splice-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/splice-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/SpliceAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/BlackLapSealant",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "StandardEPDM",
+      "id": "mule-hide-standard-epdm",
+      "path": "/products/roofing/commercial/mule-hide/epdm/",
+      "categories": [
+        "EPDM"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/StandardEPDM",
+      "related": [
+        "https://www.mulehide.com/Products/p/AcrylicWaterBaseBondingAdhesive",
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/BondingAdhesive",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/EPDMPreCutInsideOutsideCorners",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/PremoldedEPDMPipeBoots",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "StandardTPO",
+      "id": "mule-hide-standard-tpo",
+      "path": "/products/roofing/commercial/mule-hide/tpo/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/StandardTPO",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/LowVOCBondingAdhesive",
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/TPOBondingAdhesive",
+        "https://www.mulehide.com/Products/p/TPOColorway",
+        "https://www.mulehide.com/Products/p/TPOPrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "StandupToolSet",
+      "id": "mule-hide-standup-tool-set",
+      "path": "/products/roofing/commercial/mule-hide/standup-tool-set/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/StandupToolSet",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/3InsulationPlate",
+        "https://www.mulehide.com/Products/p/DrillPointFasteners12",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14"
+      ]
+    },
+    {
+      "key": "STRUCTODEKHDwithPrimedRedCoating",
+      "id": "mule-hide-structodekhdwith-primed-red-coating",
+      "path": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/STRUCTODEKHDwithPrimedRedCoating",
+      "related": [
+        "https://www.mulehide.com/Products/p/CantStripTaperedEdge",
+        "https://www.mulehide.com/Products/p/ReinforcedEPDM",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "TapePrimer",
+      "id": "mule-hide-tape-primer",
+      "path": "/products/roofing/commercial/mule-hide/tape-primer/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TapePrimer",
+      "related": [
+        "https://www.mulehide.com/Products/p/CuredCoverTape",
+        "https://www.mulehide.com/Products/p/EPDMInSeamTape",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/UncuredFlashingTapeWhiteGrayBlack",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TB125",
+      "id": "mule-hide-tb125",
+      "path": "/products/roofing/commercial/mule-hide/tb125/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TB125",
+      "related": [
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "TB75",
+      "id": "mule-hide-tb75",
+      "path": "/products/roofing/commercial/mule-hide/tb75/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TB75",
+      "related": [
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "TB90",
+      "id": "mule-hide-tb90",
+      "path": "/products/roofing/commercial/mule-hide/tb90/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TB90",
+      "related": [
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/JTS1JointTerminationSealant",
+        "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+        "https://www.mulehide.com/Products/p/WaterCutOffMastic"
+      ]
+    },
+    {
+      "key": "ThermoplasticOnePartPourableSealerWhite",
+      "id": "mule-hide-thermoplastic-one-part-pourable-sealer-white",
+      "path": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/ThermoplasticOnePartPourableSealerWhite",
+      "related": [
+        "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets",
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/PitchPan",
+        "https://www.mulehide.com/Products/p/ShapeShiftKits",
+        "https://www.mulehide.com/Products/p/ShapeShiftPitchPan",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/TPOMoldedSealantPockets",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TLFastenersPlates",
+      "id": "mule-hide-tlfasteners-plates",
+      "path": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TLFastenersPlates",
+      "related": [
+        "https://www.mulehide.com/Products/p/2TLMembranePlate",
+        "https://www.mulehide.com/Products/p/3TLInsulationPlate"
+      ]
+    },
+    {
+      "key": "TPO60MilNonReinforcedFlashing",
+      "id": "mule-hide-tpo60-mil-non-reinforced-flashing",
+      "path": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPO60MilNonReinforcedFlashing",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOBondingAdhesive",
+      "id": "mule-hide-tpobonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
+      "categories": [
+        "Adhesives"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOBondingAdhesive",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "TPOBreatherVents",
+      "id": "mule-hide-tpobreather-vents",
+      "path": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOBreatherVents",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "TPOCoatedMetal",
+      "id": "mule-hide-tpo-coated-metal",
+      "path": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
+      "categories": [
+        "EdgeMetal",
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOCoatedMetal",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOColorway",
+      "id": "mule-hide-tpocolorway",
+      "path": "/products/roofing/commercial/mule-hide/tpocolorway/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOColorway",
+      "related": [
+        "https://www.mulehide.com/Products/p/RibContours",
+        "https://www.mulehide.com/Products/p/TPO60MilNonReinforcedFlashing",
+        "https://www.mulehide.com/Products/p/TPOBreatherVents",
+        "https://www.mulehide.com/Products/p/TPOCoatedMetal",
+        "https://www.mulehide.com/Products/p/TPODropScupper",
+        "https://www.mulehide.com/Products/p/TPOInsideCorners",
+        "https://www.mulehide.com/Products/p/TPOOutsideCorners",
+        "https://www.mulehide.com/Products/p/TPOSplitPipeSeals",
+        "https://www.mulehide.com/Products/p/TPOSquareTubeWraps",
+        "https://www.mulehide.com/Products/p/TPOThroughWallScupper",
+        "https://www.mulehide.com/Products/p/TPOTJointPatches",
+        "https://www.mulehide.com/Products/p/TPOUniversalConicalBoot",
+        "https://www.mulehide.com/Products/p/TPOVentCollarCombo"
+      ]
+    },
+    {
+      "key": "TPOCoverStrip",
+      "id": "mule-hide-tpocover-strip",
+      "path": "/products/roofing/commercial/mule-hide/tpocover-strip/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOCoverStrip",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOCoatedMetal"
+      ]
+    },
+    {
+      "key": "TPOCutEdgeSealant",
+      "id": "mule-hide-tpocut-edge-sealant",
+      "path": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOCutEdgeSealant",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip"
+      ]
+    },
+    {
+      "key": "TPODropScupper",
+      "id": "mule-hide-tpodrop-scupper",
+      "path": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPODropScupper",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "TPOFleeceBack",
+      "id": "mule-hide-tpofleece-back",
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOFleeceBack",
+      "related": [
+        "https://www.mulehide.com/Products/p/AquaBase120",
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOFleeceBackPlus",
+      "id": "mule-hide-tpofleece-back-plus",
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOFleeceBackPlus",
+      "related": []
+    },
+    {
+      "key": "TPOInsideCorners",
+      "id": "mule-hide-tpoinside-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOInsideCorners",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOLowVOCCutEdgeSealant",
+      "id": "mule-hide-tpolow-voccut-edge-sealant",
+      "path": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOLowVOCCutEdgeSealant",
+      "related": []
+    },
+    {
+      "key": "TPOMoldedSealantPockets",
+      "id": "mule-hide-tpomolded-sealant-pockets",
+      "path": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOMoldedSealantPockets",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOOutsideCorners",
+      "id": "mule-hide-tpooutside-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOOutsideCorners",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOPipeSeals",
+      "id": "mule-hide-tpopipe-seals",
+      "path": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOPipeSeals",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOPrimer",
+      "id": "mule-hide-tpoprimer",
+      "path": "/products/roofing/commercial/mule-hide/tpoprimer/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOPrimer",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPSCoverStrip"
+      ]
+    },
+    {
+      "key": "TPOPSCoverStrip",
+      "id": "mule-hide-tpopscover-strip",
+      "path": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOPSCoverStrip",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    },
+    {
+      "key": "TPOSplitPipeSeals",
+      "id": "mule-hide-tposplit-pipe-seals",
+      "path": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOSplitPipeSeals",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOSquareTubeWraps",
+      "id": "mule-hide-tposquare-tube-wraps",
+      "path": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOSquareTubeWraps",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOTJointPatches",
+      "id": "mule-hide-tpotjoint-patches",
+      "path": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOTJointPatches",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOThroughWallScupper",
+      "id": "mule-hide-tpothrough-wall-scupper",
+      "path": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOThroughWallScupper",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOUniversalConicalBoot",
+      "id": "mule-hide-tpouniversal-conical-boot",
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOUniversalConicalBoot",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOUniversalCorners",
+      "id": "mule-hide-tpouniversal-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOUniversalCorners",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOVentCollarCombo",
+      "id": "mule-hide-tpovent-collar-combo",
+      "path": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
+      "categories": [
+        "Flashings"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOVentCollarCombo",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TPOWalkwayRoll",
+      "id": "mule-hide-tpowalkway-roll",
+      "path": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOWalkwayRoll",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "TPOwithCleanFilm",
+      "id": "mule-hide-tpowith-clean-film",
+      "path": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOwithCleanFilm",
+      "related": []
+    },
+    {
+      "key": "TPOwithSeamProtector",
+      "id": "mule-hide-tpowith-seam-protector",
+      "path": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
+      "categories": [
+        "TPO"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TPOwithSeamProtector",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TPOBondingAdhesive",
+        "https://www.mulehide.com/Products/p/TPOPrimer"
+      ]
+    },
+    {
+      "key": "TruSpikeFasteners",
+      "id": "mule-hide-tru-spike-fasteners",
+      "path": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
+      "categories": [
+        "FastenersTermination"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/TruSpikeFasteners",
+      "related": [
+        "https://www.mulehide.com/Products/p/24SeamPlate",
+        "https://www.mulehide.com/Products/p/3InsulationPlate",
+        "https://www.mulehide.com/Products/p/InductionWeldPlates"
+      ]
+    },
+    {
+      "key": "UncuredFlashingTapeWhiteGrayBlack",
+      "id": "mule-hide-uncured-flashing-tape-white-gray-black",
+      "path": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
+      "categories": [
+        "Flashings",
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/UncuredFlashingTapeWhiteGrayBlack",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/TapePrimer"
+      ]
+    },
+    {
+      "key": "UniversalSinglePlySealant",
+      "id": "mule-hide-universal-single-ply-sealant",
+      "path": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/UniversalSinglePlySealant",
+      "related": [
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TB125",
+        "https://www.mulehide.com/Products/p/TB75",
+        "https://www.mulehide.com/Products/p/TB90"
+      ]
+    },
+    {
+      "key": "USGSecurockGypsumFiberRoofBoard",
+      "id": "mule-hide-usgsecurock-gypsum-fiber-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/USGSecurockGypsumFiberRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive",
+        "https://www.mulehide.com/Products/p/DrillPointFasteners12",
+        "https://www.mulehide.com/Products/p/EHDFasteners15",
+        "https://www.mulehide.com/Products/p/HDPFasteners14",
+        "https://www.mulehide.com/Products/p/InductionWeldPlates",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "USGSecurockUltraLightCoatedGlassMatRoofBoard",
+      "id": "mule-hide-usgsecurock-ultra-light-coated-glass-mat-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/USGSecurockUltraLightCoatedGlassMatRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "USGSecurockUltraLightGlassMatRoofBoard",
+      "id": "mule-hide-usgsecurock-ultra-light-glass-mat-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
+      "categories": [
+        "CoverBoardsInsulation"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/USGSecurockUltraLightGlassMatRoofBoard",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "VapAirSealMD",
+      "id": "mule-hide-vap-air-seal-md",
+      "path": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
+      "categories": [
+        "UnderlaymentsVaporBarriers"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/VapAirSealMD",
+      "related": []
+    },
+    {
+      "key": "WaterCutOffMastic",
+      "id": "mule-hide-water-cut-off-mastic",
+      "path": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
+      "categories": [
+        "Sealants"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/WaterCutOffMastic",
+      "related": [
+        "https://www.mulehide.com/Products/p/AllPurposeBar",
+        "https://www.mulehide.com/Products/p/RD100",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TB125",
+        "https://www.mulehide.com/Products/p/TB75",
+        "https://www.mulehide.com/Products/p/TB90"
+      ]
+    },
+    {
+      "key": "WeatheredMembraneCleaner",
+      "id": "mule-hide-weathered-membrane-cleaner",
+      "path": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner",
+      "related": [
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO"
+      ]
+    },
+    {
+      "key": "WhiteonBlackEPDM",
+      "id": "mule-hide-whiteon-black-epdm",
+      "path": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
+      "categories": [
+        "EPDM"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/WhiteonBlackEPDM",
+      "related": []
+    },
+    {
+      "key": "YellowPSSafetyWarningStrip",
+      "id": "mule-hide-yellow-pssafety-warning-strip",
+      "path": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
+      "categories": [
+        "SinglePlyAccessories"
+      ],
+      "sourceUrl": "https://www.mulehide.com/Products/p/YellowPSSafetyWarningStrip",
+      "related": [
+        "https://www.mulehide.com/Products/p/LowVOCPrimer",
+        "https://www.mulehide.com/Products/p/StandardEPDM",
+        "https://www.mulehide.com/Products/p/StandardTPO",
+        "https://www.mulehide.com/Products/p/TapePrimer",
+        "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner"
+      ]
+    }
+  ],
+  "publication": "Local review; not published"
+}

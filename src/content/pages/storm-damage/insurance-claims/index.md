@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Storm Damage Insurance Claims Company"
+title: "Roof Insurance Claims, Columbus OH | Roof King & Restoration"
 permalink: "/storm-damage/insurance-claims/"
-description: "Do you need help with roof insurance claims in Columbus? Our professionals at Roof King & Restoration would love to assist. Reach out to us today for a quote."
+description: "Filing a roof insurance claim in Columbus, OH? Learn your steps, Ohio rules, deductibles and ACV vs RCV, and what Roof King’s inspection documents."
 canonicalPath: "/storm-damage/insurance-claims/"
 category: "Service detail"
 source: "wordpress"

@@ -4,24 +4,6 @@
     "height": 106,
     "variants": []
   },
-  "/media/wordpress/a102470cfba2-hero-roofing.jpg": {
-    "width": 1600,
-    "height": 800,
-    "variants": [
-      {
-        "src": "/media/home/a102470cfba2-hero-roofing-480.webp",
-        "width": 480
-      },
-      {
-        "src": "/media/home/a102470cfba2-hero-roofing-800.webp",
-        "width": 800
-      },
-      {
-        "src": "/media/home/a102470cfba2-hero-roofing-1280.webp",
-        "width": 1280
-      }
-    ]
-  },
   "/media/wordpress/88f26d1d1f40-masterelite.png": {
     "width": 250,
     "height": 258,

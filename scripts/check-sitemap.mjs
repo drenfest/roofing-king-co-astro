@@ -20,5 +20,5 @@ for(const url of urls){assert.equal(new URL(url).origin,site.url);assert.equal(n
 for(const suffix of ['/','/blog/','/category/roofing/','/tag/columbus-oh/','/roofing/','/service-areas/','/offers/payments/'])assert.ok(urls.includes(site.url+suffix));
 for(const suffix of ['/gallery/','/migration-review/','/404.html','/about/','/contact/'])assert.ok(!urls.includes(site.url+suffix));
 assert.equal($('lastmod,changefreq,priority').length,0,'Do not manufacture update dates or priorities.');
-const robots=await fs.readFile('dist/robots.txt','utf8');assert.match(robots,/Disallow: \//);assert.ok(robots.includes(`Sitemap: ${site.url}/sitemap.xml`));
-console.log(`sitemap.xml: ${urls.length} unique canonical public URLs; aliases, redirects, errors and review pages excluded. robots.txt advertises the sitemap and preserves review crawl blocking.`);
+const robots=await fs.readFile('dist/robots.txt','utf8');assert.match(robots,/^User-agent: \*\nAllow: \/$/m);assert.doesNotMatch(robots,/^Disallow: \/\s*$/m);assert.ok(robots.includes(`Sitemap: ${site.url}/sitemap.xml`));
+console.log(`sitemap.xml: ${urls.length} unique canonical public URLs; aliases, redirects, errors and review pages excluded. robots.txt advertises the sitemap and allows tool crawling; noindex remains in HTTP headers and page metadata.`);

@@ -7,11 +7,11 @@
     "fingerprint": "fb20894944244a3a71e19892340e8dfc2cce4bc111b93b80bf37682131483266"
   },
   "/roofing/": {
-    "sourceImage": "/media/roofing-heroes/roofing-1672.webp",
-    "thumbnailSource": "/media/roofing-heroes/roofing-640.webp",
+    "sourceImage": "/media/roofing-heroes/roofing-main-aerial-1280.webp",
+    "thumbnailSource": "/media/roofing-heroes/roofing-main-aerial-640.webp",
     "fit": "cover",
-    "illustrative": true,
-    "fingerprint": "ea2592158596b44ea2cf51b519f0898480b5076d4f026affa3608ea95cf9e4c9"
+    "illustrative": false,
+    "fingerprint": "1a68cc0e397e23000a9e3a6a386b9466e38eb3eebcfa460d8c7581776a4075a3"
   },
   "/roofing/repair/": {
     "sourceImage": "/media/roofing-heroes/roofing-repair-1672.webp",
@@ -280,11 +280,11 @@
     "fingerprint": "bcd41be9bd06576af438154fea66cf9060fab832acf39ff53f8544a247cea37b"
   },
   "/products/roofing/": {
-    "sourceImage": "/media/wordpress/a102470cfba2-hero-roofing.jpg",
-    "thumbnailSource": "/media/home/a102470cfba2-hero-roofing-480.webp",
+    "sourceImage": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
+    "thumbnailSource": "/media/client-gallery/a-finished-shingle-roof-from-above-7eceb28609-1088.webp",
     "fit": "cover",
     "illustrative": false,
-    "fingerprint": "e9215d75d59dbe61bc6bff04fe9e3008fd136172fe86207a87f9d3d0a0755e83"
+    "fingerprint": "631cbabf526ee618fb7f639cfbbfe54771b5f0f5f83ab6301fa8aa9c3079d6d4"
   },
   "/products/roofing/shingles/": {
     "sourceImage": "/media/products/timberline-uhdz-clr0000006-500.webp",
@@ -487,6 +487,90 @@
     "fit": "cover",
     "illustrative": false,
     "fingerprint": "9d6441576695c707ee686dcd2be6e65ef16993103017d2882960b9a19fd68202"
+  },
+  "/products/roofing/commercial/": {
+    "sourceImage": "/media/brands/mule-hide.webp",
+    "thumbnailSource": "/media/brands/mule-hide.webp",
+    "fit": "contain",
+    "illustrative": false,
+    "fingerprint": "ba0ce51d30c4ce247d7453a9208bac480a654ac7850bbb84db4d36e36732b7de"
+  },
+  "/products/roofing/commercial/mule-hide/": {
+    "sourceImage": "/media/manufacturer-products/mule-hide-tpo.webp",
+    "thumbnailSource": "/media/manufacturer-products/mule-hide-tpo.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "786486fc5af266060b51e1d927019f0cf73c7463f67f51aa966864ae0077188d"
+  },
+  "/products/roofing/commercial/mule-hide/edge-metal/": {
+    "sourceImage": "/media/manufacturer-products/134-fascia-cover-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/134-fascia-cover-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e578c175feea26af93dff6eed81abe2ba606f352f313cea917933a7a5e289517"
+  },
+  "/products/roofing/commercial/mule-hide/single-ply-accessories/": {
+    "sourceImage": "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/10-tpopressure-sensitive-russ-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "f4dbadabed4a70330b421a0b78a0322d48ac058aa5e8df69eba96dd19320aa37"
+  },
+  "/products/roofing/commercial/mule-hide/fasteners-termination/": {
+    "sourceImage": "/media/manufacturer-products/24-seam-plate-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/24-seam-plate-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "1f5d8883578ab4d864667d5dcc03e9b8fef3b835ff829230cc917a9965c96461"
+  },
+  "/products/roofing/commercial/mule-hide/adhesives/": {
+    "sourceImage": "/media/manufacturer-products/702-adhesive-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/702-adhesive-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "de4affc07b5adb2a37123e681200ed61e27fa0a7663cc883c882088c0bd3b7b7"
+  },
+  "/products/roofing/commercial/mule-hide/underlayments-vapor-barriers/": {
+    "sourceImage": "/media/manufacturer-products/702-lvadhesive-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/702-lvadhesive-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "59f4f66a1ded666fbd46d6fb5a83a841ecf5cbb67c7221cce18a53386ec14733"
+  },
+  "/products/roofing/commercial/mule-hide/sealants/": {
+    "sourceImage": "/media/manufacturer-products/black-lap-sealant-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/black-lap-sealant-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "b764205f82026eadbe06a4775c1cace0007d928bc913b0c5a57cbd7e404a9114"
+  },
+  "/products/roofing/commercial/mule-hide/cover-boards-insulation/": {
+    "sourceImage": "/media/manufacturer-products/cant-strip-tapered-edge-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/cant-strip-tapered-edge-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "920925da87e0a5e852a8cda086ca6b27db3e0270430e1e83d82b4dbb7894f16d"
+  },
+  "/products/roofing/commercial/mule-hide/flashings/": {
+    "sourceImage": "/media/manufacturer-products/epdmcurb-wrap-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/epdmcurb-wrap-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "76b5ef761801c87d546ab4a57c331ce2d0e9ffc521c8c3a6f1504dc5196f8b15"
+  },
+  "/products/roofing/commercial/mule-hide/epdm-membranes/": {
+    "sourceImage": "/media/manufacturer-products/gray-epdm-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/gray-epdm-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "ed3a70df5512ac16b3a62e8c7cb7ed8e0e4549c85c10e20ead8a8233a8f14ae4"
+  },
+  "/products/roofing/commercial/mule-hide/tpo-membranes/": {
+    "sourceImage": "/media/manufacturer-products/self-adhering-tpo-640.webp",
+    "thumbnailSource": "/media/manufacturer-products/self-adhering-tpo-640.webp",
+    "fit": "cover",
+    "illustrative": false,
+    "fingerprint": "e9237387ec940add3011471fa06276df26750e210317e755400912643408d265"
   },
   "/products/siding/": {
     "sourceImage": "/media/wordpress/ebed488d4b1b-hero-siding.jpg",

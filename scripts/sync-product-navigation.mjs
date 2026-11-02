@@ -12,6 +12,8 @@ const root={label:'Products',href:'/products/',classes:'rk-menu-item rk-menu-ite
 // Trex stops at category collections; its individual products remain on those pages.
 for(const [path,page]of [...Object.entries(hubs),...Object.entries(details)]){
   if(details[path]&&path.startsWith('/products/decking/composite/trex/'))continue;
+  // Commercial components stay discoverable in their collections and companion links.
+  if(details[path]&&path.startsWith('/products/roofing/commercial/mule-hide/'))continue;
   const trail=page.breadcrumbs.slice(2);
   let parent=root;
   for(let i=0;i<trail.length;i++){

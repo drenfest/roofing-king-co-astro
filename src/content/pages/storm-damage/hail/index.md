@@ -1,7 +1,7 @@
 ---
-title: "Columbus, OH Hail Damage Company"
+title: "Hail Damage Roof Repair in Columbus, OH | Roof King"
 permalink: "/storm-damage/hail/"
-description: "Is your Columbus home in need of a roof hail damage repair? Reach out to our team at Roof King & Restoration today and we'll provide you with an estimate."
+description: "Hail damage roof repair in Columbus, OH: spot bruised shingles and dented metal, compare Class 4 shingles and document the storm. Call (614) 379-8893."
 canonicalPath: "/storm-damage/hail/"
 category: "Service detail"
 source: "wordpress"

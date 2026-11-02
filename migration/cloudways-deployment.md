@@ -27,7 +27,7 @@ The client resolved GitHub billing. Automatic deployment run 39519928064 complet
 
 ## Review settings
 
-The site retains noindex/nofollow, a disallow-all robots.txt and disabled custom quote submission. Phone, booking and click-to-load Roofr behavior remain available. No production hostname or DNS change is performed.
+The site retains noindex/nofollow in HTTP headers and page metadata, and disabled custom quote submission. On 2026-11-01 the client authorized allowing tool crawling: robots.txt permits all user agents, including ChatGPT and Claude, so crawlers can fetch content and read noindex directives. Deployment checks require crawl access and retain the noindex header and homepage metadata guards. Phone, booking and click-to-load Roofr behavior remain available. No production hostname or DNS change is performed.
 
 SFTP is chrooted to the application root. Upload destinations use relative private_html paths; SSH commands use the verified absolute application path. The temporary hostname remains unchanged at the client’s request.
 

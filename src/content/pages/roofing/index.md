@@ -17,7 +17,7 @@ priority: first-component-rebuild
 ---
 
 <h1 class="rk-migration-title">Columbus, OH Roofing Company</h1>
-    <article class="rk-imported-content rk-page-content" style="--rk-hero-image: url('/media/wordpress/a102470cfba2-hero-roofing.jpg');">
+    <article class="rk-imported-content rk-page-content" style="--rk-hero-image: url('/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp');">
             <section class="rk-home-hero rk-page-hero-block">
         <div class="rk-section-inner rk-home-hero-grid">
             <div class="rk-home-hero-copy">

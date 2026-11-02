@@ -15,6 +15,9 @@ export type ProductPresentation = {
   warrantyLabels:string[];
   documents:{label:string;url:string}[];
   brand?:string;detailPath?:string;categoryLabel?:string;optionLabel?:string;
+  logo?:{src:string;alt:string};projectType?:'commercial';comparisonGroup?:string;
+  thumbnail?:{src:string;width:number;height:number};
+  manufacturerData?:{features:string[];colors:{name:string;color?:string}[];optionColumns:string[];options:string[][];faqs?:{question:string;answer:string}[]};
   previewMode?:'photo'|'palette';previewAlt?:string;
   warrantyUrl?:string;warrantyNote?:string;
   specificationsIntro?:string;

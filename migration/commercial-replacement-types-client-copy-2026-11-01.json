@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "status": "Implemented locally; not published",
+  "sources": [
+    {
+      "file": "Roof_King_Commercial_Roof_Replacement_Rewritten_Content_and_SEO_For_Gary.pdf",
+      "sha256": "dbe00885de0b2c4dd8dfc2bf5c0b9bc2238f42f5c4db080f9844e20f1c2a389b"
+    },
+    {
+      "file": "Roof_King_Commercial_Roof_Types_Content_and_SEO_For_Gary.pdf",
+      "sha256": "1ff31ee276edb1f43dab72a1727f4c962b91d7fe16d0c921ed7d7545f7f9426b"
+    }
+  ],
+  "routes": [
+    "/commercial-roofing/replacement/",
+    "/commercial-roofing/roof-types/"
+  ],
+  "components": [
+    "LandingHero",
+    "ServiceArticle",
+    "MaterialInstallation / MaterialTabs",
+    "ServiceContentBand",
+    "SectionPhotoGallery",
+    "ReviewSection",
+    "FAQSection",
+    "QuoteExperience"
+  ],
+  "faqItemsPerPage": 7,
+  "notes": [
+    "Preserved section anchors, hero photography, gallery presentation, before/after, external-only reviews and existing contact actions.",
+    "Material choices link to actual TPO/EPDM product details and the existing metal roofing service.",
+    "No numbered process, PVC offering, blanket commercial warranty or new financing promise.",
+    "Other roof types remain identification context, not offered installations.",
+    "Metadata updated without changing canonical URLs, crawl settings or schema compiler."
+  ],
+  "verification": "GitHub owns the full verification gate on the next authorized push.",
+  "localPreview": {
+    "replacement": 200,
+    "roofTypes": 200,
+    "faqItemsPerPage": 7,
+    "materialPanelsPerPage": 3,
+    "matchedPhotoCardsPerPage": 3,
+    "visual": "Roof types selector reviewed with actual Mule-Hide product photography and the retained slanted palette."
+  }
+}

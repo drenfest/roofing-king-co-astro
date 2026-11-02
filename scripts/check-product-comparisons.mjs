@@ -7,7 +7,7 @@ const server=await createServer({configFile:false,server:{middlewareMode:true},a
 try{
  const {comparisonEntries:entries,productComparison,catalogFilters}=await server.ssrLoadModule('/src/data/product-comparison.ts');
  const {matchesSpecifications,matchingCatalogIds,specificationDiffers,standardizedSpecification}=await server.ssrLoadModule('/src/data/product-filtering.ts');
- assert.equal(entries.length,96);let charts=0,cells=0,maxBytes=0,maxGzip=0;const unpublished=new Set();
+ const commercial=JSON.parse(await fs.readFile('src/data/commercial-products.json','utf8'));assert.equal(entries.length,96+Object.keys(commercial).length);for(const id of ['mule-hide-standard-tpo','mule-hide-standard-epdm','mule-hide-tpo-coated-metal']){assert.notEqual(entries.find(p=>p.id===id)?.group,'shingles');assert.equal(productComparison(id),null,'Commercial membranes and edge metal must not be compared with residential shingles');}let charts=0,cells=0,maxBytes=0,maxGzip=0;const unpublished=new Set();
  for(const p of entries){
   const model=productComparison(p.id),$=load(await fs.readFile('dist'+p.href+'index.html','utf8'));
   assert.equal($('#product-comparison').length,model?1:0,p.id);

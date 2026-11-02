@@ -22,7 +22,9 @@ done < <(tar -tzf "$archive")
 mkdir "$release"
 tar -xzf "$archive" -C "$release" --no-same-owner
 [[ -f "$release/index.html" && -f "$release/404.html" && -f "$release/robots.txt" ]] || { echo "Incomplete static build" >&2; exit 1; }
-grep -q 'Disallow: /' "$release/robots.txt" || { echo "Review indexing protection missing" >&2; exit 1; }
+grep -qx 'Allow: /' "$release/robots.txt" || { echo "Review tool crawl access missing" >&2; exit 1; }
+grep -q 'Header always set X-Robots-Tag "noindex, nofollow"' "$release/.htaccess" || { echo "Review noindex header missing" >&2; exit 1; }
+grep -q '<meta name="robots" content="noindex, nofollow"' "$release/index.html" || { echo "Review noindex metadata missing" >&2; exit 1; }
 [[ ! -e "$release/wp-config.php" && ! -d "$release/node_modules" && ! -d "$release/src" ]] || { echo "Unexpected runtime or source files" >&2; exit 1; }
 [[ -z "$(find "$release" -type l -print -quit)" ]] || { echo "Unexpected symlink in build" >&2; exit 1; }
 find "$release" -type d -exec chmod 755 {} +

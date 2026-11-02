@@ -8,9 +8,16 @@ const care=productCare(product);
 const CareHeading=careHeadingLevel===2?'h2':'h4';
 const TopicHeading=careHeadingLevel===2?'h3':'h5';
 const isPdf=(url:string)=>new URL(url,'https://www.roofkingco.com').pathname.toLowerCase().endsWith('.pdf');
+const manufacturer=product.manufacturerData;
 ---
 <p>{productSpecificationsIntro(product)}</p>
 <dl>{product.specs.map(spec=><div><dt>{spec.label}</dt><dd>{spec.value}{spec.note && <small>{spec.note}</small>}{spec.sourceUrl && <a class="rk-product-spec-reference" href={spec.sourceUrl} target="_blank" rel="noopener noreferrer">Source reference ↗</a>}</dd></div>)}</dl>
+{manufacturer&&<div class="rk-manufacturer-data" data-manufacturer-data={product.id}>
+  {manufacturer.features.length>0&&<details><summary>Manufacturer Features</summary><ul>{manufacturer.features.map(feature=><li>{feature}</li>)}</ul></details>}
+  {manufacturer.colors.length>0&&<details><summary>Manufacturer Color References</summary><p>Reference swatches identify the published colors. The product photograph stays unchanged; confirm the actual material and finish before ordering.</p><ul class="rk-manufacturer-colors">{manufacturer.colors.map(color=><li>{color.color&&<span style={{backgroundColor:color.color}} aria-hidden="true"/>}{color.name}</li>)}</ul></details>}
+  {manufacturer.options.length>0&&<details><summary>Product Sizes, Packaging and Item Numbers</summary><p>Manufacturer-listed options are reference information; availability and the project selection require confirmation.</p><div class="rk-manufacturer-table" role="region" tabindex="0" aria-label={`${product.id} manufacturer item options`}><table><caption>Manufacturer Product Options</caption><thead><tr>{manufacturer.optionColumns.map(column=><th scope="col">{column}</th>)}</tr></thead><tbody>{manufacturer.options.map(row=><tr>{row.map((cell,index)=>index===0?<th scope="row">{cell||'—'}</th>:<td>{cell||'—'}</td>)}</tr>)}</tbody></table></div></details>}
+  {manufacturer.faqs&&manufacturer.faqs.length>0&&<details><summary>Manufacturer Product Questions</summary>{manufacturer.faqs.map(faq=><details><summary>{faq.question}</summary><p>{faq.answer}</p></details>)}</details>}
+</div>}
 {product.documents.map(doc=><a class="rk-product-document" href={doc.url} title={`${doc.label}${isPdf(doc.url)?' (PDF)':''}`} target="_blank" rel="noopener noreferrer">{doc.label}{isPdf(doc.url)?' (PDF)':''} <span aria-hidden="true">↗</span></a>)}
 
 <section class="rk-product-care" aria-labelledby={`care-${product.id}`} data-product-care={product.id} data-care-type={productCareType(product)}>
@@ -20,3 +27,6 @@ const isPdf=(url:string)=>new URL(url,'https://www.roofkingco.com').pathname.toL
   <div class="rk-product-care-links">{care.links.map(link=><a href={link.url} title={link.label} target="_blank" rel="noopener noreferrer">{link.label} <span aria-hidden="true">↗</span></a>)}</div>
 </section>
 {(!product.brand || product.brand==='GAF') && <ProductEnergy productId={product.id}/>}
+<style>
+  .rk-manufacturer-data{margin-block:1.5rem;}.rk-manufacturer-data details{border-block-end:1px solid var(--rk-line,#ded7cb);padding:1rem 0;}.rk-manufacturer-data summary{font-weight:700;cursor:pointer;}.rk-manufacturer-colors{display:flex;flex-wrap:wrap;gap:1rem;list-style:none;padding:0;}.rk-manufacturer-colors li{display:flex;gap:.5rem;align-items:center;}.rk-manufacturer-colors span{display:inline-block;width:1.4rem;height:1.4rem;border:1px solid #837c72;}.rk-manufacturer-table{max-width:100%;overflow:auto;}.rk-manufacturer-table table{border-collapse:collapse;width:100%;font-size:.8rem;}.rk-manufacturer-table th,.rk-manufacturer-table td{text-align:left;vertical-align:top;padding:.6rem;border:1px solid var(--rk-line,#ded7cb);}.rk-manufacturer-table caption{text-align:left;padding:.75rem 0;font-weight:700;}
+</style>

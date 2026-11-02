@@ -6,7 +6,9 @@ const urlMap=JSON.parse(await fs.readFile('src/data/blog-url-map.json','utf8'));
 const base='src/content/pages/blog';
 const files=(await fs.readdir(base,{recursive:true})).filter(f=>f.endsWith('index.md'));
 const pages=await Promise.all(files.map(async f=>{const raw=await fs.readFile(path.join(base,f),'utf8');return {raw,data:YAML.parse(raw.split('---')[1])};}));
+const structuredArticles=JSON.parse(await fs.readFile('src/data/blog-articles.json','utf8'));
 const summaries={
+ 'columbus-roof-damage-after-early-august-storms-your-first-72-hours':['storm,claims','What to record after a Columbus storm, how to arrange an inspection and which information to retain for your insurer.'],
  'replacing-your-roof-in-columbus-why-hiring-experts-is-the-best-choice':['roofing','Replacement planning, installation quality and the roof details that protect a Columbus home.'],
  'replace-your-home-siding-in-columbus-with-expert-help':['siding','How siding replacement addresses worn panels, exterior protection and the appearance of your home.'],
  'the-importance-of-gutters-for-your-columbus-home':['gutters','How gutters and downspouts carry roof runoff away from siding, landscaping and the foundation.'],
@@ -33,7 +35,7 @@ for(const [slug,[topics,description]] of Object.entries(summaries)){
  const matches=pages.filter(p=>p.data.category==='Article'&&p.data.permalink.endsWith('/'+slug+'/'));
  const page=matches.find(p=>!p.data.permalink.includes('/p.'))||matches[0];
  if(!page)throw Error('Missing article '+slug);
- const source=page.raw.match(/rk-blog-hero-image: url\('([^']+)/)?.[1]||page.raw.match(/<img[^>]+src="([^"]+)/)?.[1];
+ const source=structuredArticles[urlMap[page.data.permalink]||page.data.permalink]?.hero?.src||page.raw.match(/rk-blog-hero-image: url\('([^']+)/)?.[1]||page.raw.match(/<img[^>]+src="([^"]+)/)?.[1];
  if(!source?.startsWith('/media/'))throw Error('Missing article image '+slug);
  const input='public'+source, meta=await sharp(input).metadata();
  const widths=[400,720].filter(w=>w<=meta.width);if(!widths.length)widths.push(meta.width);

@@ -21,7 +21,7 @@ const tabs=[{id:'warranty',label:'Warranty & protection'},{id:'specifications',l
 const color=product.colors.find(c=>c.id===product.defaultColorId)!;
 const schema={'@context':'https://schema.org','@type':'Product',name:data.title,description:data.description,brand:{'@type':'Brand',name:product.brand||'GAF'},image:new URL(color.image.src,site.url).href,url:new URL(page.data.permalink,site.url).href};
 ---
-<ProductLayout {page} heading={product.brand?data.title:`${data.title} Roofing Shingles`} eyebrow={`${product.brand||'GAF'} product details`} copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src} productKey={data.key}>
+<ProductLayout {page} heading={product.brand?data.title:`${data.title} Roofing Shingles`} eyebrow={`${product.brand||'GAF'} product details`} copy={data.description} breadcrumbs={data.breadcrumbs} image={color.image.src} productKey={data.key} logo={product.logo}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\u003c')}/>
   <section id="product-overview" class="rk-section-inner rk-product-detail-section" aria-label={`${data.title} colors and details`}><>{parent&&parentCrumb&&<p class="rk-product-guidance-reference" data-product-parent={parent.id}>Companion product for <a href={parent.detailPath} title={'Explore '+parentCrumb.label}>{parentCrumb.label} <span aria-hidden="true">→</span></a></p>}<ProductCard item={{title:data.title,body:data.body}} {product} detail/></></section>
   <section class="rk-product-information" aria-label="Product information and companion products">

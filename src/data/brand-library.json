@@ -190,5 +190,19 @@
       "siding"
     ],
     "sourceImageUrl": "https://www.westlakeroyalbuildingproducts.com/sites/default/files/2025-01/Brand%3Dexterior%20portfolio%2C%20Color%3Dcolor.svg"
+  },
+  "mule-hide": {
+    "name": "Mule-Hide",
+    "pageKey": "Mule-Hide",
+    "image": {
+      "src": "/media/brands/mule-hide.webp",
+      "alt": "Mule-Hide",
+      "width": 480,
+      "height": 106
+    },
+    "categories": [
+      "commercial-roofing"
+    ],
+    "sourceImageUrl": "https://www.mulehide.com/Portals/0/mule-hide-logo-2026.png?ver=QrlGbT_dKfGuQCN-hWmkyQ%3d%3d"
   }
 }

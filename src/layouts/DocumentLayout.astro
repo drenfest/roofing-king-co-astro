@@ -1,8 +1,8 @@
 ---
 import site from '../data/site.json';
 import SiteMotion from '../components/SiteMotion.astro';
-interface Props { title: string; description: string; canonicalPath: string; image?: string; }
-const { title, description, canonicalPath, image = '/media/wordpress/a102470cfba2-hero-roofing.jpg' } = Astro.props;
+interface Props { title: string; description: string; canonicalPath: string; image?: string; fullTitle?:string; }
+const { title, description, canonicalPath, fullTitle, image = '/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp' } = Astro.props;
 const schema = {
   '@context': 'https://schema.org', '@type': 'RoofingContractor',
   '@id': site.url + '/#business', name: site.name, url: site.url,
@@ -14,7 +14,7 @@ const schema = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} | Roof King &amp; Restoration</title>
+    <title>{fullTitle||`${title} | Roof King & Restoration`}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="canonical" href={new URL(canonicalPath, site.url)} />

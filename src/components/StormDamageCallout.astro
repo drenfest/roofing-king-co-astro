@@ -1,11 +1,11 @@
 ---
 import ServiceIcon from './ServiceIcon.astro';
 import editorial from '../data/service-editorial.json';
-interface Props { path?: string; headingLevel?:2|3; title?:string; description?:string; }
-const {path='/',headingLevel=2,title='Hail or Wind Damage to Your Home?',description='Have your roof, siding and gutters inspected. Explore repairs, storm-damage documentation and the next steps for your home.'}=Astro.props;
+interface Props { path?: string; headingLevel?:2|3; title?:string; description?:string; href?:string; label?:string; }
+const {href:destination,label='Explore storm damage',path='/',headingLevel=2,title='Hail or Wind Damage to Your Home?',description='Have your roof, siding and gutters inspected. Explore repairs, storm-damage documentation and the next steps for your home.'}=Astro.props;
 const Heading=headingLevel===3?'h3':'h2';
 const localPath=`/${path.split('/').filter(Boolean)[0]}/storm-damage/`;
-const href=localPath in editorial?localPath:'/storm-damage/';
+const href=destination||(localPath in editorial?localPath:'/storm-damage/');
 
 ---
 <aside class="rk-storm-callout" aria-label="Storm damage inspections" data-component="StormDamageCallout">
@@ -27,7 +27,7 @@ const href=localPath in editorial?localPath:'/storm-damage/';
     <div class="rk-storm-callout-copy"><p class="rk-home-eyebrow">After the storm</p><Heading class="rk-storm-callout-heading">{title}</Heading><p>{description}</p>
       <nav aria-label="Storm damage resources"><a href="/storm-damage/hail/">Hail damage</a><a href="/storm-damage/wind/">Wind damage</a><a href="/storm-damage/insurance-claims/">Insurance documentation</a></nav>
     </div>
-    <a class="rk-button rk-button-primary" href={href}>Explore storm damage<ServiceIcon name="arrow"/></a>
+    <a class="rk-button rk-button-primary" href={href}>{label}<ServiceIcon name="arrow"/></a>
   </div>
 </aside>
 <style>

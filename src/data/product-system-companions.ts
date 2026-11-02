@@ -1,9 +1,11 @@
 import familyData from './product-system-companions.json';
+import commercial from './commercial-product-companions.json';
 import gaf from './product-companions.json';
 import {productLibrary} from './product-library';
 export type CompanionItem={id:string;name:string;diagram:string;location:string;benefit:string;selection:string;sourceUrl:string;relatedProduct?:string;image?:{src:string;srcset:string;width:number;height:number;alt:string};};
 export type CompanionSet={brand:string;intro:string;notes:string;items:CompanionItem[]};
 export function productCompanions(id:string):CompanionSet|undefined{
+ if(id in commercial)return (commercial as Record<string,CompanionSet>)[id];
  const product=Object.values(productLibrary).find(p=>p.id===id);if(!product)return;
  if(!product.brand||product.brand==='GAF')return {brand:'GAF',intro:'Complete the roof with components selected for its edges, water-sensitive details and attic design. These are GAF system options to discuss for the selected shingle.',notes:'Starter and cap-shingle compatibility varies by shingle profile. Designer shingles can require a different starter or cap detail. Confirm the selected combination and warranty eligibility for this roof; components do not promise a fixed service life.',items:gaf.items.map(i=>({...i,diagram:i.id,selection:i.selection+' Confirm compatibility with the selected field shingle.'}))};
  if(product.brand==='Trex'){
