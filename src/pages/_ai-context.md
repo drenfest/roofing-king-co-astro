@@ -24,7 +24,7 @@ Internal review/error routes remain outside canonical public schema/sitemap outp
 ## Actual route dependencies
 
 - `404.astro`: `src/layouts/SiteLayout.astro`.
-- `[...path].astro`: `src/layouts/SiteLayout.astro`, `src/components/RoofrEstimator.svelte`, `src/data/roofr.json`, `src/data/service-pages.json`, `src/data/product-pillar.json`, `src/data/product-details.json`, `src/components/ServiceTopics.astro`, `src/data/service-opening`.
+- `[...path].astro`: `src/layouts/RetainedResourcePage.astro`, `src/data/retained-pages.json`, `src/data/retained-page-types`, `src/layouts/SiteLayout.astro`, `src/components/RoofrEstimator.svelte`, `src/data/roofr.json`, `src/data/service-pages.json`, `src/data/product-pillar.json`.
 - `about-us.astro`: `src/layouts/DocumentLayout.astro`, `src/components/SiteHeader.svelte`, `src/components/SiteFooter.astro`, `src/components/PageHero.astro`, `src/components/Breadcrumbs.astro`, `src/components/MediaContentRow.astro`, `src/components/CredentialsSection.astro`, `src/components/CardSection.astro`.
 - `akron-oh.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.
 - `athens-oh.astro`: `src/layouts/PolishedServicePage.astro`, `src/data/service-editorial.json`.

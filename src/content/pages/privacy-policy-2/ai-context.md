@@ -8,12 +8,12 @@ This directory retains a route/source record. Read the ownership block below bef
 - Record permalink: `/privacy-policy-2/`.
 - Canonical target: `/privacy-policy/`.
 - Manifest paths using this record: `/privacy-policy-2/`.
-- Content family: Preserved legacy page.
-- Renderer: `src/pages/[...path].astro; src/layouts/SiteLayout.astro`.
-- Edit visible content in: `This index.md body and its explicit frontmatter`.
+- Content family: Native retained legal page.
+- Renderer: `src/layouts/RetainedResourcePage.astro; src/pages/[...path].astro`.
+- Edit visible content in: `src/data/retained-pages.json; src/data/retained-page-types.ts`.
 - Recorded source: `wordpress`; sourcePath: `/privacy-policy-2/`.
 
-This body can still render through the legacy shell. Preserve sanitized content, original URLs, provenance and canonical preferences. A native conversion needs an explicit route, catchall exclusion and full validation; never casually rewrite all legacy pages.
+The historical HTML body is source evidence. Edit the native typed record and shared components; do not restore Markdown-rendered HTML, project Loading widgets or self-hosted review excerpts. Preserve the route and factual project details.
 
 Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
 <!-- route-context:end -->

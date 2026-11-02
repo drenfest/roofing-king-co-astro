@@ -22,6 +22,8 @@ for(const category of evidence.categories)for(const url of category.productUrls)
 for(const [category,count] of [['TPO',7],['EPDM',5],['EdgeMetal',34]])assert.equal(evidence.records.filter(r=>r.categories.includes(category)).length,count);
 let relationCount=0;
 for(const product of Object.values(catalog)){
+ assert.ok(product.warrantyResources?.length,product.id+' explicit warranty resource');
+ for(const resource of product.warrantyResources)assert.ok(!/Photovoltaic|Wall-Termination|Sealant-Pocket/i.test(resource.url),product.id+' installation drawing is not a warranty resource');
  const record=bySource.get(product.sourceUrl);assert.ok(record,product.id+' source');
  assert.ok(!/\bPVC\b/i.test(JSON.stringify(product)),product.id+' excludes PVC offerings');
  assert.equal(details[product.detailPath].key,product.id);assert.ok(paths.has(product.detailPath));

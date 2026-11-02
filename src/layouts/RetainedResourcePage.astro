@@ -1,0 +1,53 @@
+---
+import DocumentLayout from './DocumentLayout.astro';
+import SiteHeader from '../components/SiteHeader.svelte';
+import SiteFooter from '../components/SiteFooter.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSection from '../components/ContentSection.astro';
+import ArticleSection from '../components/ArticleSection.astro';
+import HomeImage from '../components/HomeImage.astro';
+import ProjectShowcase from '../components/ProjectShowcase.astro';
+import CardSection from '../components/CardSection.astro';
+import ReviewSection from '../components/ReviewSection.astro';
+import WarrantyComparison from '../components/WarrantyComparison.astro';
+import QuoteSection from '../components/QuoteSection.astro';
+import records from '../data/retained-pages.json';
+import type {RetainedPageData} from '../data/retained-page-types';
+import '../styles/base.css';
+import '../styles/home.css';
+import '../styles/home-interactions.css';
+import '../styles/services.css';
+import '../styles/service-landing.css';
+import '../styles/articles.css';
+interface Props {data:RetainedPageData;}
+const {data}=Astro.props;
+const projects=Object.values(records).filter(p=>p.kind==='project'&&p.path!==data.path).slice(0,4) as unknown as RetainedPageData[];
+const actionLabel=data.kind==='project'?'View project details':data.kind==='review'?'Read customer reviews':data.path==='/warranty/'?'Compare warranty coverage':data.kind==='legal'?'Read the policy':data.path==='/site-map/'?'Browse the website':'Explore the details';
+const parent=data.kind==='project'?{label:'Past projects',href:'/past-projects/'}:data.kind==='review'?{label:'Reviews',href:'/reviews/'}:null;
+---
+<DocumentLayout fullTitle={data.pageTitle} title={data.title} description={data.description} canonicalPath={data.path} image={data.heroImage}>
+ <SiteHeader client:load/>
+ <main id="content" class="rk-site-main rk-retained-page" data-retained-kind={data.kind}>
+  <PageHero variant="resource" hero={{eyebrow:data.eyebrow,title:data.title,description:data.description,image:data.heroImage,bookingUrl:'#page-content',bookingLabel:actionLabel,booking:{eyebrow:'',title:'',description:''}}}/>
+  <Breadcrumbs items={[{label:'Home',href:'/'},...(parent?[parent]:[]),{label:data.title}]}/>
+  <article id="page-content" class="rk-section-inner rk-retained-reading" aria-label={data.title}>
+   {data.lead.length>0&&data.kind!=='project'&&<ContentSection contained section={{type:'content',variant:'prose',body:data.lead,cards:[]}}/>}
+   {data.projectImage&&<figure class="rk-retained-project-photo"><a href="/#projects" title="Explore Roof King project photographs" data-internal-link-id={data.imageInstructionId}><HomeImage {...data.projectImage} sizes="(max-width:760px) calc(100vw - 2rem), 1000px"/></a><figcaption>{data.city?`Roof King project in ${data.city}.`:'Roof King project photograph.'}</figcaption></figure>}
+   {data.sections.map(section=><ArticleSection {section}/>)}
+   {data.directory&&Object.entries(data.directory).map(([label,items])=><section class="rk-retained-directory" aria-label={label}><h2>{label}</h2><ul>{items.map(item=><li><a href={item.href} title={item.label} data-internal-link-id={item.instructionId}>{item.label}</a></li>)}</ul></section>)}
+   {!!data.contextLinks?.length&&<nav class="rk-retained-context-links" aria-label="Related information">{data.contextLinks.map(link=><a href={link.href} title={link.label} data-internal-link-id={link.id}>{link.label}</a>)}</nav>}
+  </article>
+  {data.kind==='project'&&data.projectImages&&data.projectImages.length>1&&<ProjectShowcase section={{eyebrow:'Project photographs',title:'More Views of This Project',description:'Explore the roofing photographs from this property.',images:data.projectImages.slice(1),href:'/#projects',label:'View the full gallery'}}/>}
+  {data.path==='/warranty/'&&<WarrantyComparison id="coverage-comparison" eyebrow="Know the difference" title="Compare Roofing Coverage" description="Use the issued documents to check the cause of the problem and which coverage applies." columns={['Manufacturer coverage','Workmanship coverage']} rows={[{label:'Provided by',cells:['The product manufacturer','The installing contractor']},{label:'Main purpose',cells:['Covered manufacturing defects','Covered installation errors']},{label:'Applicable terms',cells:['The selected product or roofing-system warranty','The written workmanship agreement for the project']}]} note="Coverage, eligibility and exclusions are defined by the issued warranty documents." sourceHref="https://www.gaf.com/en-us/resources/warranties/residential" sourceLabel="GAF warranty comparison"/>}
+  {data.kind==='review'&&<ReviewSection section={{eyebrow:'Independent customer feedback',title:'Read Roof King Customer Reviews',description:'Each card links to the platform where the review was published.',reviewIds:data.reviewIds||[]}}/>}
+  {data.kind==='project'&&<CardSection kind="offers" id="related-projects" itemAction="View project" actionLabel="View all projects" actionHref="/past-projects/" section={{eyebrow:'More Roof King projects',title:'Explore Other Roofing Projects',description:'Browse the photographs and details retained for these individual projects.',items:projects.map(p=>({title:p.title,description:p.city||'Roof King roofing project',href:p.path,image:p.projectImage}))}}/>}
+  {data.kind!=='legal'&&<QuoteSection quote={{eyebrow:'Talk with Roof King',title:'Discuss Your Project',description:'Tell us the property address and the roofing or exterior work you are considering.'}}/>}
+ </main><SiteFooter/>
+</DocumentLayout>
+<style>
+ .rk-retained-page[data-retained-kind="project"] .rk-retained-reading{padding-bottom:2rem;}.rk-retained-page :global(.rk-project-showcase){padding-top:2rem;}
+ .rk-retained-context-links{display:flex;flex-wrap:wrap;gap:1rem 2rem;padding-block:1.5rem;border-top:1px solid #ded5c7;}.rk-retained-context-links a{color:#983d00;}
+ .rk-retained-reading{max-width:1000px;padding-block:3rem 4rem;min-width:0;}.rk-retained-reading :global(.rk-article-section){margin-block:0 2.5rem;}.rk-retained-reading :global(.rk-service-prose){max-width:85ch;}.rk-retained-reading :global(p),.rk-retained-reading :global(li){line-height:1.85;}.rk-retained-reading :global(h2){margin-bottom:1.2rem;}.rk-retained-reading :global(h3){margin-block:1.8rem .75rem;}.rk-retained-reading :global(ul),.rk-retained-reading :global(ol){padding-left:1.3rem;}.rk-retained-project-photo{margin:0 0 3rem;}.rk-retained-project-photo :global(img){width:100%;height:auto;max-height:680px;object-fit:contain;background:#f0e9de;}.rk-retained-project-photo figcaption{font-size:.8rem;color:#635d54;margin-top:.8rem;}.rk-retained-directory{padding-block:1rem 2rem;border-top:1px solid #ded5c7;}.rk-retained-directory ul{columns:2;column-gap:2rem;}.rk-retained-directory li{break-inside:avoid;margin-bottom:.5rem;overflow-wrap:anywhere;}.rk-retained-directory a{color:#282622;}.rk-retained-reading :global(a){overflow-wrap:anywhere;}
+ @media(max-width:760px){.rk-retained-reading{width:calc(100% - 2rem);padding-block:2rem 3rem;}.rk-retained-directory ul{columns:1;}.rk-retained-reading :global(h2){overflow-wrap:break-word;}.rk-retained-reading :global(p),.rk-retained-reading :global(li){font-size:1rem;}}
+</style>

@@ -6,4 +6,4 @@ const {product}=Astro.props;
 <p>Manufacturer-listed coverage options:</p><ul>{product.warrantyLabels.map(label=><li>{label}</li>)}</ul>
 <p>Eligibility, coverage and exclusions depend on the product, labeling, installed system and applicable warranty terms.</p>
 {product.warrantyNote&&<p>{product.warrantyNote}</p>}
-<a href={product.warrantyUrl||'https://www.gaf.com/en-us/resources/warranties/residential'} target="_blank" rel="noopener noreferrer">Read {product.brand||'GAF'} warranty terms ↗</a>
+{product.warrantyResources?.length?<ul>{product.warrantyResources.map(resource=><li><a href={resource.url} title={resource.label} target="_blank" rel="noopener noreferrer">{resource.label} ↗</a></li>)}</ul>:<a href={product.warrantyUrl||'https://www.gaf.com/en-us/resources/warranties/residential'} target="_blank" rel="noopener noreferrer">Read {product.brand||'GAF'} warranty terms ↗</a>}

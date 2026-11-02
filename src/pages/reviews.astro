@@ -43,7 +43,7 @@ const faq={eyebrow:'About our customer reviews',title:'Read the feedback. Know t
   </div></section>
   <section id="customer-reviews" class="rk-home-section rk-home-reviews rk-reviews-library" aria-labelledby="customer-reviews-title"><div class="rk-section-inner">
    <div class="rk-home-section-header"><p class="rk-home-eyebrow">In our customers’ words</p><h2 id="customer-reviews-title">Roof King customer reviews</h2><p>Browse selected experiences by topic. Each excerpt links to the platform where it was published.</p></div>
-   <ReviewCollection total={reviews.length} client:load>{reviews.map(review=><div class="rk-review-entry" data-review-topics={data.topics[review.id as keyof typeof data.topics]}><ReviewCard card={{...review,excerpt:!('excerpt' in review)||review.excerpt!==false}}/></div>)}</ReviewCollection>
+   <ReviewCollection availableTopics={[...new Set(reviews.flatMap(review=>(data.topics[review.id as keyof typeof data.topics]||'').split(' ').filter(Boolean)))]} total={reviews.length} client:load>{reviews.map(review=><div class="rk-review-entry" data-review-topics={data.topics[review.id as keyof typeof data.topics]}><ReviewCard card={{...review,excerpt:!('excerpt' in review)||review.excerpt!==false}}/></div>)}</ReviewCollection>
    <p class="rk-review-library-note">Selected excerpts. Individual experiences vary. Visit the source profiles for more reviews.</p>
   </div></section>
   <ProjectShowcase section={{...reference.projects,eyebrow:'Look closer at the work',title:'See our roofing projects',description:'Review the finished roofing and the preparation underneath. These project photos are shown independently of the customer excerpts above.',href:'/#projects-roofing',label:'View the project gallery'}}/>

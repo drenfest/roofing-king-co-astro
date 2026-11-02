@@ -1,0 +1,2107 @@
+{
+  "checkedAt": "2026-11-02",
+  "primarySources": [
+    {
+      "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+      "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+    },
+    {
+      "label": "Mule-Hide EPDM systems warranty program (PDF)",
+      "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+    }
+  ],
+  "products": [
+    {
+      "id": "mule-hide-134-fascia-cover",
+      "path": "/products/roofing/commercial/mule-hide/134-fascia-cover/",
+      "before": "https://www.mulehide.com/Products/p/134FasciaCover#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/134FasciaCover#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-10-tpopressure-sensitive-russ",
+      "path": "/products/roofing/commercial/mule-hide/10-tpopressure-sensitive-russ/",
+      "before": "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/10TPOPressureSensitiveRUSS#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-2-piece-snap-on-compression",
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression/",
+      "before": "https://www.mulehide.com/Products/p/2PieceSnapOnCompression#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/2PieceSnapOnCompression#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-2-piece-snap-on-compression-mb",
+      "path": "/products/roofing/commercial/mule-hide/2-piece-snap-on-compression-mb/",
+      "before": "https://www.mulehide.com/Products/p/2PieceSnapOnCompressionMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/2PieceSnapOnCompressionMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-24-seam-plate",
+      "path": "/products/roofing/commercial/mule-hide/24-seam-plate/",
+      "before": "https://www.mulehide.com/Products/p/24SeamPlate#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/24SeamPlate#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-2-tlmembrane-plate",
+      "path": "/products/roofing/commercial/mule-hide/2-tlmembrane-plate/",
+      "before": "https://www.mulehide.com/Products/p/2TLMembranePlate#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/2TLMembranePlate#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-3-insulation-plate",
+      "path": "/products/roofing/commercial/mule-hide/3-insulation-plate/",
+      "before": "https://www.mulehide.com/Products/p/3InsulationPlate#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/3InsulationPlate#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-3-lwgmetal-plates",
+      "path": "/products/roofing/commercial/mule-hide/3-lwgmetal-plates/",
+      "before": "https://www.mulehide.com/Products/p/3LWGMetalPlates#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/3LWGMetalPlates#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-3-tlinsulation-plate",
+      "path": "/products/roofing/commercial/mule-hide/3-tlinsulation-plate/",
+      "before": "https://www.mulehide.com/Products/p/3TLInsulationPlate#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/3TLInsulationPlate#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-4-fascia-cover",
+      "path": "/products/roofing/commercial/mule-hide/4-fascia-cover/",
+      "before": "https://www.mulehide.com/Products/p/4FasciaCover#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/4FasciaCover#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-6-reinforced-epdmmembrane-strips-rms",
+      "path": "/products/roofing/commercial/mule-hide/6-reinforced-epdmmembrane-strips-rms/",
+      "before": "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/6ReinforcedEPDMMembraneStripsRMS#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-6-tpopressure-sensitive-russ",
+      "path": "/products/roofing/commercial/mule-hide/6-tpopressure-sensitive-russ/",
+      "before": "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/6TPOPressureSensitiveRUSS#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-702-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/702-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/702Adhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/702Adhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-702-lvadhesive",
+      "path": "/products/roofing/commercial/mule-hide/702-lvadhesive/",
+      "before": "https://www.mulehide.com/Products/p/702LVAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/702LVAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-9-reinforced-epdmmembrane-strips-rms",
+      "path": "/products/roofing/commercial/mule-hide/9-reinforced-epdmmembrane-strips-rms/",
+      "before": "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/9ReinforcedEPDMMembraneStripsRMS#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-acrylic-water-base-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/acrylic-water-base-bonding-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/AcrylicWaterBaseBondingAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/AcrylicWaterBaseBondingAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-aero-web-low-vocaerosol-contact-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/aero-web-low-vocaerosol-contact-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/AeroWebLowVOCAerosolContactAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-all-purpose-bar",
+      "path": "/products/roofing/commercial/mule-hide/all-purpose-bar/",
+      "before": "https://mulehide.azureedge.net/productdocuments/115/TPO-Wall-Termination-up-to-20-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-aluminator-retrofit-drainwith-maxx-flo-seal",
+      "path": "/products/roofing/commercial/mule-hide/aluminator-retrofit-drainwith-maxx-flo-seal/",
+      "before": "https://www.mulehide.com/Products/p/AluminatorRetrofitDrainwithMaxxFloSeal#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/AluminatorRetrofitDrainwithMaxxFloSeal#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-aluminum-retrofit-drainwith-sealant-tape",
+      "path": "/products/roofing/commercial/mule-hide/aluminum-retrofit-drainwith-sealant-tape/",
+      "before": "https://www.mulehide.com/Products/p/AluminumRetrofitDrainwithSealantTape#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/AluminumRetrofitDrainwithSealantTape#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-aqua-base120",
+      "path": "/products/roofing/commercial/mule-hide/aqua-base120/",
+      "before": "https://www.mulehide.com/Products/p/AquaBase120#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/AquaBase120#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-black-lap-sealant",
+      "path": "/products/roofing/commercial/mule-hide/black-lap-sealant/",
+      "before": "https://www.mulehide.com/Products/p/BlackLapSealant#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/BlackLapSealant#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-black-one-part-pourable-sealer",
+      "path": "/products/roofing/commercial/mule-hide/black-one-part-pourable-sealer/",
+      "before": "https://www.mulehide.com/Products/p/BlackOnePartPourableSealer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/BlackOnePartPourableSealer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/bonding-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/BondingAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/BondingAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-cant-strip-tapered-edge",
+      "path": "/products/roofing/commercial/mule-hide/cant-strip-tapered-edge/",
+      "before": "https://www.mulehide.com/Products/p/CantStripTaperedEdge#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CantStripTaperedEdge#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-canted-extended-waterdam-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/canted-extended-waterdam-extruded-fascia/",
+      "before": "https://www.mulehide.com/Products/p/CantedExtendedWaterdamExtrudedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CantedExtendedWaterdamExtrudedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-canted-waterdam-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/canted-waterdam-extruded-fascia/",
+      "before": "https://www.mulehide.com/Products/p/CantedWaterdamExtrudedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CantedWaterdamExtrudedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-cantilever-coping",
+      "path": "/products/roofing/commercial/mule-hide/cantilever-coping/",
+      "before": "https://www.mulehide.com/Products/p/CantileverCoping#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CantileverCoping#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-cast-iron-roof-drain-kit-new-installation",
+      "path": "/products/roofing/commercial/mule-hide/cast-iron-roof-drain-kit-new-installation/",
+      "before": "https://www.mulehide.com/Products/p/CastIronRoofDrainKitNewInstallation#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CastIronRoofDrainKitNewInstallation#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-continuous-cleat-coping",
+      "path": "/products/roofing/commercial/mule-hide/continuous-cleat-coping/",
+      "before": "https://www.mulehide.com/Products/p/ContinuousCleatCoping#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ContinuousCleatCoping#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-coping",
+      "path": "/products/roofing/commercial/mule-hide/coping/",
+      "before": "https://www.mulehide.com/Products/p/Coping#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/Coping#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-copper-retrofit-drainwith-sealant-tape",
+      "path": "/products/roofing/commercial/mule-hide/copper-retrofit-drainwith-sealant-tape/",
+      "before": "https://www.mulehide.com/Products/p/CopperRetrofitDrainwithSealantTape#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CopperRetrofitDrainwithSealantTape#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-counterflashing",
+      "path": "/products/roofing/commercial/mule-hide/counterflashing/",
+      "before": "https://www.mulehide.com/Products/p/Counterflashing#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/Counterflashing#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-cured-cover-tape",
+      "path": "/products/roofing/commercial/mule-hide/cured-cover-tape/",
+      "before": "https://www.mulehide.com/Products/p/CuredCoverTape#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/CuredCoverTape#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-dens-deck-prime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-prime-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/DensDeckPrimeRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DensDeckPrimeRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-dens-deck-pro-fast-prime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-pro-fast-prime-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/DensDeckProFastPrimeRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DensDeckProFastPrimeRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-dens-deck-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/DensDeckRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DensDeckRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-dens-deck-storm-xprime-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/dens-deck-storm-xprime-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DensDeckStormXPrimeRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-detec-tru-ground-conductive-primer",
+      "path": "/products/roofing/commercial/mule-hide/detec-tru-ground-conductive-primer/",
+      "before": "https://www.mulehide.com/Products/p/DetecTruGroundConductivePrimer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DetecTruGroundConductivePrimer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-downspouts",
+      "path": "/products/roofing/commercial/mule-hide/downspouts/",
+      "before": "https://www.mulehide.com/Products/p/Downspouts#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/Downspouts#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-drill-point-fasteners12",
+      "path": "/products/roofing/commercial/mule-hide/drill-point-fasteners12/",
+      "before": "https://www.mulehide.com/Products/p/DrillPointFasteners12#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DrillPointFasteners12#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-drip-edge",
+      "path": "/products/roofing/commercial/mule-hide/drip-edge/",
+      "before": "https://www.mulehide.com/Products/p/DripEdge#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DripEdge#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-drip-edge-mb",
+      "path": "/products/roofing/commercial/mule-hide/drip-edge-mb/",
+      "before": "https://www.mulehide.com/Products/p/DripEdgeMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/DripEdgeMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-eclips-edge",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge/",
+      "before": "https://www.mulehide.com/Products/p/EclipsEdge#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EclipsEdge#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-eclips-edge-extended-mb",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-extended-mb/",
+      "before": "https://www.mulehide.com/Products/p/EclipsEdgeExtendedMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EclipsEdgeExtendedMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-eclips-edge-mb",
+      "path": "/products/roofing/commercial/mule-hide/eclips-edge-mb/",
+      "before": "https://www.mulehide.com/Products/p/EclipsEdgeMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EclipsEdgeMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-ehdfasteners15",
+      "path": "/products/roofing/commercial/mule-hide/ehdfasteners15/",
+      "before": "https://www.mulehide.com/Products/p/EHDFasteners15#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EHDFasteners15#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-epdmcurb-wrap",
+      "path": "/products/roofing/commercial/mule-hide/epdmcurb-wrap/",
+      "before": "https://www.mulehide.com/Products/p/EPDMCurbWrap#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMCurbWrap#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmin-seam-tape",
+      "path": "/products/roofing/commercial/mule-hide/epdmin-seam-tape/",
+      "before": "https://www.mulehide.com/Products/p/EPDMInSeamTape#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMInSeamTape#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmpourable-sealer-pockets",
+      "path": "/products/roofing/commercial/mule-hide/epdmpourable-sealer-pockets/",
+      "before": "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMPourableSealerPockets#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmpre-cut-inside-outside-corners",
+      "path": "/products/roofing/commercial/mule-hide/epdmpre-cut-inside-outside-corners/",
+      "before": "https://www.mulehide.com/Products/p/EPDMPreCutInsideOutsideCorners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMPreCutInsideOutsideCorners#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmtjoint-patches",
+      "path": "/products/roofing/commercial/mule-hide/epdmtjoint-patches/",
+      "before": "https://www.mulehide.com/Products/p/EPDMTJointPatches#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMTJointPatches#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmuncured-flashing-membrane",
+      "path": "/products/roofing/commercial/mule-hide/epdmuncured-flashing-membrane/",
+      "before": "https://www.mulehide.com/Products/p/EPDMUncuredFlashingMembrane#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMUncuredFlashingMembrane#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmwalkway-padswith-tape",
+      "path": "/products/roofing/commercial/mule-hide/epdmwalkway-padswith-tape/",
+      "before": "https://www.mulehide.com/Products/p/EPDMWalkwayPadswithTape#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMWalkwayPadswithTape#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epdmx23-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/epdmx23-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/EPDMX23Adhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPDMX23Adhesive#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-epsflat",
+      "path": "/products/roofing/commercial/mule-hide/epsflat/",
+      "before": "https://www.mulehide.com/Products/p/EPSFlat#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPSFlat#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-epstapered",
+      "path": "/products/roofing/commercial/mule-hide/epstapered/",
+      "before": "https://www.mulehide.com/Products/p/EPSTapered#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/EPSTapered#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-extended-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia/",
+      "before": "https://www.mulehide.com/Products/p/ExtendedExtrudedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ExtendedExtrudedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-extended-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/extended-extruded-fascia-mb/",
+      "before": "https://www.mulehide.com/Products/p/ExtendedExtrudedFasciaMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ExtendedExtrudedFasciaMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-extruded-drip-edge-flat",
+      "path": "/products/roofing/commercial/mule-hide/extruded-drip-edge-flat/",
+      "before": "https://www.mulehide.com/Products/p/ExtrudedDripEdgeFlat#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ExtrudedDripEdgeFlat#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia/",
+      "before": "https://www.mulehide.com/Products/p/ExtrudedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ExtrudedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/extruded-fascia-mb/",
+      "before": "https://www.mulehide.com/Products/p/ExtrudedFasciaMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ExtrudedFasciaMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-f5-air-vapor-barrier",
+      "path": "/products/roofing/commercial/mule-hide/f5-air-vapor-barrier/",
+      "before": "https://www.mulehide.com/Products/p/F5AirVaporBarrier#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/F5AirVaporBarrier#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-fradhesive",
+      "path": "/products/roofing/commercial/mule-hide/fradhesive/",
+      "before": "https://www.mulehide.com/Products/p/FRAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/FRAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-fr10",
+      "path": "/products/roofing/commercial/mule-hide/fr10/",
+      "before": "https://www.mulehide.com/Products/p/FR10#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/FR10#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-gravel-stop",
+      "path": "/products/roofing/commercial/mule-hide/gravel-stop/",
+      "before": "https://www.mulehide.com/Products/p/GravelStop#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/GravelStop#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-gray-epdm",
+      "path": "/products/roofing/commercial/mule-hide/gray-epdm/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-gutters",
+      "path": "/products/roofing/commercial/mule-hide/gutters/",
+      "before": "https://www.mulehide.com/Products/p/Gutters#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/Gutters#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-hdpfasteners14",
+      "path": "/products/roofing/commercial/mule-hide/hdpfasteners14/",
+      "before": "https://www.mulehide.com/Products/p/HDPFasteners14#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HDPFasteners14#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-heavy-gauge-extruded-fascia",
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia/",
+      "before": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-heavy-gauge-extruded-fascia-mb",
+      "path": "/products/roofing/commercial/mule-hide/heavy-gauge-extruded-fascia-mb/",
+      "before": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFasciaMB#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HeavyGaugeExtrudedFasciaMB#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-low-rise-adhesive-cartridges",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-cartridges/",
+      "before": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveCartridges#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveCartridges#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-low-rise-adhesive-drums",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-drums/",
+      "before": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveDrums#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesiveDrums#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-low-rise-adhesive-pressurized-tank",
+      "path": "/products/roofing/commercial/mule-hide/helix-low-rise-adhesive-pressurized-tank/",
+      "before": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesivePressurizedTank#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixLowRiseAdhesivePressurizedTank#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-max-low-rise-adhesive-drums",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-drums/",
+      "before": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDrums#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDrums#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-max-low-rise-adhesive-dual-cartridge",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-dual-cartridge/",
+      "before": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDualCartridge#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveDualCartridge#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun",
+      "path": "/products/roofing/commercial/mule-hide/helix-maxlow-rise-adhesive-dual-tank-featuringthe-mule-hide-temp-ready-gun/",
+      "before": "https://www.mulehide.com/Products/p/HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixMAXLowRiseAdhesiveDualTankFeaturingtheMuleHideTempReadyGun#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-helix-max-low-rise-adhesive-jug",
+      "path": "/products/roofing/commercial/mule-hide/helix-max-low-rise-adhesive-jug/",
+      "before": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveJug#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HelixMaxLowRiseAdhesiveJug#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-hpprotective-mat",
+      "path": "/products/roofing/commercial/mule-hide/hpprotective-mat/",
+      "before": "https://www.mulehide.com/Products/p/HPProtectiveMat#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/HPProtectiveMat#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-induction-weld-cardboard-discs",
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-cardboard-discs/",
+      "before": "https://www.mulehide.com/Products/p/InductionWeldCardboardDiscs#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/InductionWeldCardboardDiscs#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-induction-weld-plates",
+      "path": "/products/roofing/commercial/mule-hide/induction-weld-plates/",
+      "before": "https://www.mulehide.com/Products/p/InductionWeldPlates#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/InductionWeldPlates#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-jts1-joint-termination-sealant",
+      "path": "/products/roofing/commercial/mule-hide/jts1-joint-termination-sealant/",
+      "before": "https://mulehide.azureedge.net/productdocuments/115/TPO-Wall-Termination-up-to-10-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-low-vocprimer",
+      "path": "/products/roofing/commercial/mule-hide/low-vocprimer/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-low-voc1168-bonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/low-voc1168-bonding-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/LowVOC1168BondingAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/LowVOC1168BondingAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-low-vocbonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/low-vocbonding-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/LowVOCBondingAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/LowVOCBondingAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-low-vocmembrane-cleaner",
+      "path": "/products/roofing/commercial/mule-hide/low-vocmembrane-cleaner/",
+      "before": "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/LowVOCMembraneCleaner#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-low-vocuntackcleaner",
+      "path": "/products/roofing/commercial/mule-hide/low-vocuntackcleaner/",
+      "before": "https://www.mulehide.com/Products/p/LowVOCUNTACKcleaner#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/LowVOCUNTACKcleaner#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-lwgfasteners",
+      "path": "/products/roofing/commercial/mule-hide/lwgfasteners/",
+      "before": "https://www.mulehide.com/Products/p/LWGFasteners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/LWGFasteners#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-mpliquid-sealant",
+      "path": "/products/roofing/commercial/mule-hide/mpliquid-sealant/",
+      "before": "https://www.mulehide.com/Products/p/MPLiquidSealant#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/MPLiquidSealant#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-mule-hide-zamac-nailin-roofing-fastener",
+      "path": "/products/roofing/commercial/mule-hide/mule-hide-zamac-nailin-roofing-fastener/",
+      "before": "https://www.mulehide.com/Products/p/MuleHideZamacNailinRoofingFastener#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/MuleHideZamacNailinRoofingFastener#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-nailer-t",
+      "path": "/products/roofing/commercial/mule-hide/nailer-t/",
+      "before": "https://www.mulehide.com/Products/p/NailerT#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/NailerT#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-nailer-box-ri",
+      "path": "/products/roofing/commercial/mule-hide/nailer-box-ri/",
+      "before": "https://www.mulehide.com/Products/p/NailerBoxRI#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/NailerBoxRI#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-one-extended-fascia",
+      "path": "/products/roofing/commercial/mule-hide/one-extended-fascia/",
+      "before": "https://www.mulehide.com/Products/p/OneExtendedFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/OneExtendedFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-one-fascia",
+      "path": "/products/roofing/commercial/mule-hide/one-fascia/",
+      "before": "https://www.mulehide.com/Products/p/OneFascia#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/OneFascia#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-pfcpurlin-drill-point",
+      "path": "/products/roofing/commercial/mule-hide/pfcpurlin-drill-point/",
+      "before": "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PFCPurlinDrillPoint#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-pitch-pan",
+      "path": "/products/roofing/commercial/mule-hide/pitch-pan/",
+      "before": "https://www.mulehide.com/Products/p/PitchPan#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PitchPan#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-iso1-hd",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd/",
+      "before": "https://www.mulehide.com/Products/p/PolyISO1HD#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISO1HD#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-iso1-hdplus",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hdplus/",
+      "before": "https://www.mulehide.com/Products/p/PolyISO1HDPlus#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISO1HDPlus#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-iso1-hd80",
+      "path": "/products/roofing/commercial/mule-hide/poly-iso1-hd80/",
+      "before": "https://www.mulehide.com/Products/p/PolyISO1HD80#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISO1HD80#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-isoflat",
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflat/",
+      "before": "https://www.mulehide.com/Products/p/PolyISOFlat#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISOFlat#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-isoflatwith-coated-glass-facer",
+      "path": "/products/roofing/commercial/mule-hide/poly-isoflatwith-coated-glass-facer/",
+      "before": "https://www.mulehide.com/Products/p/PolyISOFlatwithCoatedGlassFacer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISOFlatwithCoatedGlassFacer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-isotapered",
+      "path": "/products/roofing/commercial/mule-hide/poly-isotapered/",
+      "before": "https://www.mulehide.com/Products/p/PolyISOTapered#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISOTapered#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-poly-isotaperedwith-coated-glass-facer",
+      "path": "/products/roofing/commercial/mule-hide/poly-isotaperedwith-coated-glass-facer/",
+      "before": "https://www.mulehide.com/Products/p/PolyISOTaperedwithCoatedGlassFacer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PolyISOTaperedwithCoatedGlassFacer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-pourable-sealer",
+      "path": "/products/roofing/commercial/mule-hide/pourable-sealer/",
+      "before": "https://www.mulehide.com/Products/p/PourableSealer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PourableSealer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-pre-assembled-fastener-system",
+      "path": "/products/roofing/commercial/mule-hide/pre-assembled-fastener-system/",
+      "before": "https://www.mulehide.com/Products/p/PreAssembledFastenerSystem#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PreAssembledFastenerSystem#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-premolded-epdmpipe-boots",
+      "path": "/products/roofing/commercial/mule-hide/premolded-epdmpipe-boots/",
+      "before": "https://www.mulehide.com/Products/p/PremoldedEPDMPipeBoots#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/PremoldedEPDMPipeBoots#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-rd100",
+      "path": "/products/roofing/commercial/mule-hide/rd100/",
+      "before": "https://www.mulehide.com/Products/p/RD100#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/RD100#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-reinforced-epdm",
+      "path": "/products/roofing/commercial/mule-hide/reinforced-epdm/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - EPDM Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-rhino-bond-plates",
+      "path": "/products/roofing/commercial/mule-hide/rhino-bond-plates/",
+      "before": "https://www.mulehide.com/Products/p/RhinoBondPlates#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/RhinoBondPlates#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-rib-contours",
+      "path": "/products/roofing/commercial/mule-hide/rib-contours/",
+      "before": "https://www.mulehide.com/Products/p/RibContours#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/RibContours#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-rubber-paver-blocks",
+      "path": "/products/roofing/commercial/mule-hide/rubber-paver-blocks/",
+      "before": "https://www.mulehide.com/Products/p/RubberPaverBlocks#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/RubberPaverBlocks#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-scupperand-collector-boxes",
+      "path": "/products/roofing/commercial/mule-hide/scupperand-collector-boxes/",
+      "before": "https://www.mulehide.com/Products/p/ScupperandCollectorBoxes#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ScupperandCollectorBoxes#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-seal-fast-liqui-flash",
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-liqui-flash/",
+      "before": "https://www.mulehide.com/Products/p/SealFastLiquiFlash#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SealFastLiquiFlash#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-seal-fast-repair-hero",
+      "path": "/products/roofing/commercial/mule-hide/seal-fast-repair-hero/",
+      "before": "https://www.mulehide.com/Products/p/SealFastRepairHero#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SealFastRepairHero#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-self-adhering-epdm",
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-epdm/",
+      "before": "https://www.mulehide.com/Products/p/SelfAdheringEPDM#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SelfAdheringEPDM#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-self-adhering-tpo",
+      "path": "/products/roofing/commercial/mule-hide/self-adhering-tpo/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-shape-shift-kits",
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-kits/",
+      "before": "https://www.mulehide.com/Products/p/ShapeShiftKits#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ShapeShiftKits#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-shape-shift-pitch-pan",
+      "path": "/products/roofing/commercial/mule-hide/shape-shift-pitch-pan/",
+      "before": "https://www.mulehide.com/Products/p/ShapeShiftPitchPan#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ShapeShiftPitchPan#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-shur-gard40-base-sheet",
+      "path": "/products/roofing/commercial/mule-hide/shur-gard40-base-sheet/",
+      "before": "https://www.mulehide.com/Products/p/ShurGard40BaseSheet#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/ShurGard40BaseSheet#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-si-tpoprimer",
+      "path": "/products/roofing/commercial/mule-hide/si-tpoprimer/",
+      "before": "https://www.mulehide.com/Products/p/SiTPOPrimer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SiTPOPrimer#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-skirted-drip-edge",
+      "path": "/products/roofing/commercial/mule-hide/skirted-drip-edge/",
+      "before": "https://www.mulehide.com/Products/p/SkirtedDripEdge#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SkirtedDripEdge#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-snap-coping",
+      "path": "/products/roofing/commercial/mule-hide/snap-coping/",
+      "before": "https://www.mulehide.com/Products/p/SnapCoping#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SnapCoping#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-snap-gold-coping",
+      "path": "/products/roofing/commercial/mule-hide/snap-gold-coping/",
+      "before": "https://www.mulehide.com/Products/p/SnapGoldCoping#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SnapGoldCoping#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-splice-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/splice-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/SpliceAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/SpliceAdhesive#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-standard-epdm",
+      "path": "/products/roofing/commercial/mule-hide/epdm/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - EPDM Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-standard-tpo",
+      "path": "/products/roofing/commercial/mule-hide/tpo/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-standup-tool-set",
+      "path": "/products/roofing/commercial/mule-hide/standup-tool-set/",
+      "before": "https://www.mulehide.com/Products/p/StandupToolSet#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/StandupToolSet#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-structodekhdwith-primed-red-coating",
+      "path": "/products/roofing/commercial/mule-hide/structodekhdwith-primed-red-coating/",
+      "before": "https://www.mulehide.com/Products/p/STRUCTODEKHDwithPrimedRedCoating#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/STRUCTODEKHDwithPrimedRedCoating#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tape-primer",
+      "path": "/products/roofing/commercial/mule-hide/tape-primer/",
+      "before": "https://www.mulehide.com/Products/p/TapePrimer#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TapePrimer#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tb125",
+      "path": "/products/roofing/commercial/mule-hide/tb125/",
+      "before": "https://www.mulehide.com/Products/p/TB125#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TB125#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tb75",
+      "path": "/products/roofing/commercial/mule-hide/tb75/",
+      "before": "https://mulehide.azureedge.net/productdocuments/115/TPO-Wall-Termination-up-to-20-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tb90",
+      "path": "/products/roofing/commercial/mule-hide/tb90/",
+      "before": "https://www.mulehide.com/Products/p/TB90#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TB90#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-thermoplastic-one-part-pourable-sealer-white",
+      "path": "/products/roofing/commercial/mule-hide/thermoplastic-one-part-pourable-sealer-white/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tlfasteners-plates",
+      "path": "/products/roofing/commercial/mule-hide/tlfasteners-plates/",
+      "before": "https://www.mulehide.com/Products/p/TLFastenersPlates#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TLFastenersPlates#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-tpo60-mil-non-reinforced-flashing",
+      "path": "/products/roofing/commercial/mule-hide/tpo60-mil-non-reinforced-flashing/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpobonding-adhesive",
+      "path": "/products/roofing/commercial/mule-hide/tpobonding-adhesive/",
+      "before": "https://www.mulehide.com/Products/p/TPOBondingAdhesive#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOBondingAdhesive#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpobreather-vents",
+      "path": "/products/roofing/commercial/mule-hide/tpobreather-vents/",
+      "before": "https://www.mulehide.com/Products/p/TPOBreatherVents#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOBreatherVents#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpo-coated-metal",
+      "path": "/products/roofing/commercial/mule-hide/tpo-coated-metal/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpocolorway",
+      "path": "/products/roofing/commercial/mule-hide/tpocolorway/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Molded-Sealant-Pocket-Up-to-30-Year-Warranty-.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpocover-strip",
+      "path": "/products/roofing/commercial/mule-hide/tpocover-strip/",
+      "before": "https://www.mulehide.com/Products/p/TPOCoverStrip#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOCoverStrip#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpocut-edge-sealant",
+      "path": "/products/roofing/commercial/mule-hide/tpocut-edge-sealant/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpodrop-scupper",
+      "path": "/products/roofing/commercial/mule-hide/tpodrop-scupper/",
+      "before": "https://www.mulehide.com/Products/p/TPODropScupper#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPODropScupper#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpofleece-back",
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-tpofleece-back-plus",
+      "path": "/products/roofing/commercial/mule-hide/tpofleece-back-plus/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-tpoinside-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpoinside-corners/",
+      "before": "https://www.mulehide.com/Products/p/TPOInsideCorners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOInsideCorners#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpolow-voccut-edge-sealant",
+      "path": "/products/roofing/commercial/mule-hide/tpolow-voccut-edge-sealant/",
+      "before": "https://www.mulehide.com/Products/p/TPOLowVOCCutEdgeSealant#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOLowVOCCutEdgeSealant#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpomolded-sealant-pockets",
+      "path": "/products/roofing/commercial/mule-hide/tpomolded-sealant-pockets/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Molded-Sealant-Pocket-Up-to-30-Year-Warranty-.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpooutside-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpooutside-corners/",
+      "before": "https://www.mulehide.com/Products/p/TPOOutsideCorners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOOutsideCorners#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpopipe-seals",
+      "path": "/products/roofing/commercial/mule-hide/tpopipe-seals/",
+      "before": "https://www.mulehide.com/Products/p/TPOPipeSeals#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOPipeSeals#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpoprimer",
+      "path": "/products/roofing/commercial/mule-hide/tpoprimer/",
+      "before": "https://mulehide.azureedge.net/productdocuments/112/TPO-Field-Fabricated-Sealant-Pocket-Up-to-30-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpopscover-strip",
+      "path": "/products/roofing/commercial/mule-hide/tpopscover-strip/",
+      "before": "https://www.mulehide.com/Products/p/TPOPSCoverStrip#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOPSCoverStrip#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tposplit-pipe-seals",
+      "path": "/products/roofing/commercial/mule-hide/tposplit-pipe-seals/",
+      "before": "https://www.mulehide.com/Products/p/TPOSplitPipeSeals#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOSplitPipeSeals#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tposquare-tube-wraps",
+      "path": "/products/roofing/commercial/mule-hide/tposquare-tube-wraps/",
+      "before": "https://www.mulehide.com/Products/p/TPOSquareTubeWraps#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOSquareTubeWraps#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpotjoint-patches",
+      "path": "/products/roofing/commercial/mule-hide/tpotjoint-patches/",
+      "before": "https://www.mulehide.com/Products/p/TPOTJointPatches#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOTJointPatches#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpothrough-wall-scupper",
+      "path": "/products/roofing/commercial/mule-hide/tpothrough-wall-scupper/",
+      "before": "https://www.mulehide.com/Products/p/TPOThroughWallScupper#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOThroughWallScupper#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpouniversal-conical-boot",
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-conical-boot/",
+      "before": "https://www.mulehide.com/Products/p/TPOUniversalConicalBoot#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOUniversalConicalBoot#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpouniversal-corners",
+      "path": "/products/roofing/commercial/mule-hide/tpouniversal-corners/",
+      "before": "https://www.mulehide.com/Products/p/TPOUniversalCorners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOUniversalCorners#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpovent-collar-combo",
+      "path": "/products/roofing/commercial/mule-hide/tpovent-collar-combo/",
+      "before": "https://www.mulehide.com/Products/p/TPOVentCollarCombo#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOVentCollarCombo#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpowalkway-roll",
+      "path": "/products/roofing/commercial/mule-hide/tpowalkway-roll/",
+      "before": "https://www.mulehide.com/Products/p/TPOWalkwayRoll#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TPOWalkwayRoll#documents"
+        }
+      ],
+      "reason": "Matching membrane-system program."
+    },
+    {
+      "id": "mule-hide-tpowith-clean-film",
+      "path": "/products/roofing/commercial/mule-hide/tpowith-clean-film/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-tpowith-seam-protector",
+      "path": "/products/roofing/commercial/mule-hide/tpowith-seam-protector/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - Heat Weld Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-tru-spike-fasteners",
+      "path": "/products/roofing/commercial/mule-hide/tru-spike-fasteners/",
+      "before": "https://www.mulehide.com/Products/p/TruSpikeFasteners#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/TruSpikeFasteners#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-uncured-flashing-tape-white-gray-black",
+      "path": "/products/roofing/commercial/mule-hide/uncured-flashing-tape-white-gray-black/",
+      "before": "https://www.mulehide.com/Products/p/UncuredFlashingTapeWhiteGrayBlack#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/UncuredFlashingTapeWhiteGrayBlack#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-universal-single-ply-sealant",
+      "path": "/products/roofing/commercial/mule-hide/universal-single-ply-sealant/",
+      "before": "https://mulehide.azureedge.net/productdocuments/115/TPO-Wall-Termination-up-to-10-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-usgsecurock-gypsum-fiber-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-gypsum-fiber-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/USGSecurockGypsumFiberRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/USGSecurockGypsumFiberRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-usgsecurock-ultra-light-coated-glass-mat-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-coated-glass-mat-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/USGSecurockUltraLightCoatedGlassMatRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/USGSecurockUltraLightCoatedGlassMatRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-usgsecurock-ultra-light-glass-mat-roof-board",
+      "path": "/products/roofing/commercial/mule-hide/usgsecurock-ultra-light-glass-mat-roof-board/",
+      "before": "https://www.mulehide.com/Products/p/USGSecurockUltraLightGlassMatRoofBoard#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/USGSecurockUltraLightGlassMatRoofBoard#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-vap-air-seal-md",
+      "path": "/products/roofing/commercial/mule-hide/vap-air-seal-md/",
+      "before": "https://www.mulehide.com/Products/p/VapAirSealMD#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/VapAirSealMD#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-water-cut-off-mastic",
+      "path": "/products/roofing/commercial/mule-hide/water-cut-off-mastic/",
+      "before": "https://mulehide.azureedge.net/productdocuments/115/TPO-Wall-Termination-up-to-20-Year-Warranty.pdf",
+      "after": [
+        {
+          "label": "Mule-Hide heat-weld systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-HeatWeldSystems-09-22-2025.pdf"
+        },
+        {
+          "label": "Mule-Hide EPDM systems warranty program (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-weathered-membrane-cleaner",
+      "path": "/products/roofing/commercial/mule-hide/weathered-membrane-cleaner/",
+      "before": "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/WeatheredMembraneCleaner#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    },
+    {
+      "id": "mule-hide-whiteon-black-epdm",
+      "path": "/products/roofing/commercial/mule-hide/whiteon-black-epdm/",
+      "before": "https://mulehide.azureedge.net/productdocuments/101/LetterofComplianceApplication-PhotovoltaicInstallationonMule-HideWarrantedRoof-04-23-2026.pdf",
+      "after": [
+        {
+          "label": "Warranty Program Information - EPDM Systems (PDF)",
+          "url": "https://mulehide.azureedge.net/productdocuments/102/WarrantyProgramInformation-EPDMSystems-09-22-2025.pdf"
+        }
+      ],
+      "reason": "Explicit manufacturer resource for this product."
+    },
+    {
+      "id": "mule-hide-yellow-pssafety-warning-strip",
+      "path": "/products/roofing/commercial/mule-hide/yellow-pssafety-warning-strip/",
+      "before": "https://www.mulehide.com/Products/p/YellowPSSafetyWarningStrip#documents",
+      "after": [
+        {
+          "label": "Mule-Hide product documents and warranty information",
+          "url": "https://www.mulehide.com/Products/p/YellowPSSafetyWarningStrip#documents"
+        }
+      ],
+      "reason": "Shared component: provide both membrane-system programs; component eligibility depends on installed assembly."
+    }
+  ]
+}

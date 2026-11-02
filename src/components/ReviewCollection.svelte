@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount, type Snippet } from 'svelte';
-  let {children, total}:{children?:Snippet;total:number}=$props();
+  let {children, total, availableTopics}:{children?:Snippet;total:number;availableTopics:string[]}=$props();
   let root:HTMLDivElement;
   let ready=$state(false);
   let selected=$state('all');
@@ -19,7 +19,7 @@
 </script>
 <div class="rk-review-collection" bind:this={root}>
   <div class="rk-review-filters" role="group" aria-label="Browse reviews by topic">
-    {#each filters as option}<button type="button" disabled={!ready} aria-pressed={selected===option.id} onclick={()=>filter(option.id)}>{option.label}</button>{/each}
+    {#each filters.filter(option=>option.id==='all'||availableTopics.includes(option.id)) as option}<button type="button" disabled={!ready} aria-pressed={selected===option.id} onclick={()=>filter(option.id)}>{option.label}</button>{/each}
   </div>
   <p class="rk-review-result-count" aria-live="polite" aria-atomic="true">{count} selected customer {count===1?'review':'reviews'}{selected==='all'?'':` about ${filters.find(item=>item.id===selected)?.label.toLowerCase()}`}</p>
   <div class="rk-review-collection-grid">{@render children?.()}</div>

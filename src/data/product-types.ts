@@ -19,7 +19,7 @@ export type ProductPresentation = {
   thumbnail?:{src:string;width:number;height:number};
   manufacturerData?:{features:string[];colors:{name:string;color?:string}[];optionColumns:string[];options:string[][];faqs?:{question:string;answer:string}[]};
   previewMode?:'photo'|'palette';previewAlt?:string;
-  warrantyUrl?:string;warrantyNote?:string;
+  warrantyUrl?:string;warrantyNote?:string;warrantyResources?:{label:string;url:string}[];
   specificationsIntro?:string;
   care?:{title:string;intro:string;items:{title:string;body:string}[];footnote:string;links:{label:string;url:string}[]};
   hero?:{src:string;srcset:string;width:number;height:number;alt:string;caption:string};

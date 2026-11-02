@@ -28,5 +28,7 @@ async function check(){while(index<entries.length){
  assert.equal(applyInternalLinks(html,{pathname,strict:true}).changed,false,pathname+' repeated rendering is idempotent');
 }}
 await Promise.all([check(),check(),check(),check()]);
-assert.equal(count,268);assert.equal(entries.length,176);
+const review=JSON.parse(await fs.readFile('migration/retained-pages-review-2026-11-02.json','utf8'));
+const consolidated=new Set(review.consolidatedImageLinks.flatMap(r=>r.retiredInstructions));
+assert.equal(count,268-consolidated.size,'Original instructions retained except explicitly consolidated legacy widget images');assert.equal(entries.length,176);
 console.log(`Internal link instructions passed: ${count} links across ${entries.length} pages; destinations, titles, exact text, gallery images and idempotence.`);

@@ -22,7 +22,7 @@ const hasRange=data.cards.length||data.catalogItems?.length;
     <div class="rk-product-hub-cards" data-count={data.cards.length}>{data.cards.map(card=>{
       const product=card.product?products[card.product]:undefined;
       const color=product?.colors.find(c=>c.id===product.defaultColorId);
-      const picture=color?{...color.image,alt:`${card.product} in ${color.name}`,caption:`${card.product} · ${color.name}`} : productHeroImage(card.href);
+      const picture=color?{...color.image,alt:`${card.title}: ${color.name}`,caption:product?.optionLabel==='Product view'?`${card.title} · Manufacturer product view`:`${card.title} · ${color.name}`} : productHeroImage(card.href);
       return <a class="rk-product-hub-card" href={card.href}>
         <figure><img src={picture.src} srcset={picture.srcset} sizes="(max-width:760px) 100vw, 50vw" width={picture.width} height={picture.height} alt={picture.alt} loading="lazy" decoding="async"/><figcaption>{picture.caption}</figcaption></figure>
         <div class="rk-product-hub-card-body">{card.image&&<HomeImage {...card.image} class="rk-product-category-logo" sizes="160px"/>}<h3>{card.title}</h3><p>{card.description}</p><span class="rk-product-card-action">{card.action}<span aria-hidden="true">→</span></span></div>

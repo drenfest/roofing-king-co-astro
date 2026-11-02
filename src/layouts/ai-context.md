@@ -10,6 +10,7 @@ Use the existing family rather than importing the legacy shell into a native pag
 | ServicePage | Retained native service/catalog records, including /roofing/gaf/types/; not the default for new polished services |
 | ProductLayout | Shared native product shell, ProductHero, Breadcrumbs, header/footer and quote section |
 | ArticleLayout | Structured article sections, first-image hero, canonical term links, author/date, BlogNavigation, body imagery, FAQ and QuoteSection |
+| RetainedResourcePage | Typed company/legal, project and historical review records from retained-pages.json; uses shared heroes, breadcrumbs, prose, comparison, review and project cards without rendering imported HTML as Markdown |
 | BlogLayout | Shared main/category/topic/term hub shell and aside; used by BlogHub and BlogArchive |
 | OfferLayout | Qualified offer/financing informational pages using offer-pages.ts; dedicated warranty composition remains separate |
 | SiteLayout | Remaining preserved legacy content and compatibility wiring only |
@@ -41,6 +42,7 @@ Parent guidance: [src](../ai-context.md).
 - [OfferLayout.astro](OfferLayout.astro)
 - [PolishedServicePage.astro](PolishedServicePage.astro)
 - [ProductLayout.astro](ProductLayout.astro)
+- [RetainedResourcePage.astro](RetainedResourcePage.astro)
 - [ServiceLanding.astro](ServiceLanding.astro)
 - [ServicePage.astro](ServicePage.astro)
 - [SiteLayout.astro](SiteLayout.astro)

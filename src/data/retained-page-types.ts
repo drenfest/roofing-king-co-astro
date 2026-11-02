@@ -1,0 +1,3 @@
+import type {RichNode} from './section-types';
+import type {ArticleSectionData} from './blog-article-types';
+export type RetainedPageData={path:string;sourceFile:string;kind:'resource'|'project'|'review'|'legal';title:string;pageTitle:string;description:string;heroImage:string;eyebrow:string;lead:RichNode[];sections:ArticleSectionData[];projectImage?:{src:string;alt:string};projectImages?:{src:string;alt:string;caption:string;href?:string;instructionId?:string}[];imageInstructionId?:string;contextLinks?:{id:string;href:string;label:string}[];city?:string;reviewIds?:string[];directory?:Record<string,{href:string;label:string;instructionId?:string}[]>};

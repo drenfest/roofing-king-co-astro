@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-02",
+  "sourceSha256": "586036f7b299e35662986a58b07ed062f22b73c53d6fa3890c53e6a6ba8517c0",
+  "scope": "33 retained URLs rebuilt with shared native components, original routes and review noindex settings preserved.",
+  "skills": {
+    "research": "local-seo-page-optimizer",
+    "draft": "copywriting",
+    "editing": "copy-editing"
+  },
+  "evidence": [
+    "Existing client-confirmed project records; no new project outcome, response-time, price or warranty-duration claims.",
+    "Legal policy text retained verbatim in typed rich nodes.",
+    "GAF official residential warranty guide checked November 2, 2026.",
+    "Historical self-hosted review excerpts remain in source; displayed cards use the current independently sourced review collection."
+  ],
+  "limitations": [
+    "No Search Console, ranking, conversion or traffic data used.",
+    "Competitor scoring not performed for legal, directory and historical records; these are repair and editorial tasks rather than new service landing pages.",
+    "Historical individual reviews cannot be authenticated against original external platforms from these records; no new quote attribution is invented."
+  ],
+  "editingSweeps": {
+    "clarity": "Removed repeated shared footer copy and code-block artifacts.",
+    "voice": "Plain professional wording and title-style headings.",
+    "benefit": "Explained how to use the project, coverage and service information.",
+    "proof": "Kept documented project details; omitted unsupported performance, warranty and attendance claims.",
+    "specificity": "Preserved actual project city, street and material facts where documented.",
+    "emotion": "Used reported roof concerns without exaggeration or guarantees.",
+    "action": "Clear service, review, inspection and phone destinations; no form submission enabled."
+  },
+  "pages": [
+    {
+      "path": "/careers/",
+      "kind": "resource",
+      "title": "Careers With Roof King",
+      "sourceFile": "src/content/pages/careers/index.md",
+      "keywordOwner": "/careers/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/financing/",
+      "kind": "resource",
+      "title": "Financing Your Roofing or Exterior Project",
+      "sourceFile": "src/content/pages/financing/index.md",
+      "keywordOwner": "/financing/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/our-team/",
+      "kind": "resource",
+      "title": "Meet the Roof King Team",
+      "sourceFile": "src/content/pages/our-team/index.md",
+      "keywordOwner": "/our-team/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706300/",
+      "kind": "project",
+      "title": "Storm-Damaged Roof Replacement in Grandview Heights",
+      "sourceFile": "src/content/pages/past-projects/project/1706300/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706301/",
+      "kind": "project",
+      "title": "GAF Roof Replacement in Columbus",
+      "sourceFile": "src/content/pages/past-projects/project/1706301/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706302/",
+      "kind": "project",
+      "title": "GAF Roof Replacement in Upper Arlington",
+      "sourceFile": "src/content/pages/past-projects/project/1706302/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706303/",
+      "kind": "project",
+      "title": "GAF Roofing for a Hilliard Home",
+      "sourceFile": "src/content/pages/past-projects/project/1706303/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706304/",
+      "kind": "project",
+      "title": "GAF Roof Replacement for a Columbus Home",
+      "sourceFile": "src/content/pages/past-projects/project/1706304/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706305/",
+      "kind": "project",
+      "title": "Roof Replacement After Storm Damage in Columbus",
+      "sourceFile": "src/content/pages/past-projects/project/1706305/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706306/",
+      "kind": "project",
+      "title": "GAF Roof Replacement in Whitehall",
+      "sourceFile": "src/content/pages/past-projects/project/1706306/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706307/",
+      "kind": "project",
+      "title": "Roof Replacement in Worthington",
+      "sourceFile": "src/content/pages/past-projects/project/1706307/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706308/",
+      "kind": "project",
+      "title": "Roofing After Storms and Wear in Grandview Heights",
+      "sourceFile": "src/content/pages/past-projects/project/1706308/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1706309/",
+      "kind": "project",
+      "title": "A New GAF Roof in Columbus",
+      "sourceFile": "src/content/pages/past-projects/project/1706309/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1978031/",
+      "kind": "project",
+      "title": "Roof Replacement on Colbrook Ct in Liberty Township",
+      "sourceFile": "src/content/pages/past-projects/project/1978031/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1978032/",
+      "kind": "project",
+      "title": "Roof Replacement on Country Manor Dr in North Lima",
+      "sourceFile": "src/content/pages/past-projects/project/1978032/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1978033/",
+      "kind": "project",
+      "title": "Roof Replacement on Summerfield Dr in Lewis Center",
+      "sourceFile": "src/content/pages/past-projects/project/1978033/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1978034/",
+      "kind": "project",
+      "title": "Roof Replacement on S Clayton Rd in Farmersville",
+      "sourceFile": "src/content/pages/past-projects/project/1978034/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/past-projects/project/1980612/",
+      "kind": "project",
+      "title": "GAF Roofing on Thames Ct in London",
+      "sourceFile": "src/content/pages/past-projects/project/1980612/index.md",
+      "keywordOwner": "documented project",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "CardSection",
+        "HomeImage"
+      ]
+    },
+    {
+      "path": "/privacy-policy/",
+      "kind": "legal",
+      "title": "Privacy Policy",
+      "sourceFile": "src/content/pages/privacy-policy/index.md",
+      "keywordOwner": "/privacy-policy/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/reviews/00601dee-df98-42ab-b364-4725af97794b/",
+      "kind": "review",
+      "title": "They were fast and the clean up was perfect.",
+      "sourceFile": "src/content/pages/reviews/00601dee-df98-42ab-b364-4725af97794b/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/",
+      "kind": "review",
+      "title": "Great Job on my roof!",
+      "sourceFile": "src/content/pages/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/",
+      "kind": "review",
+      "title": "New roof",
+      "sourceFile": "src/content/pages/reviews/3a032dad-0290-4861-b18d-feca5bc297f2/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/",
+      "kind": "review",
+      "title": "Highly recommend!!",
+      "sourceFile": "src/content/pages/reviews/51e9f4c9-94a3-479a-ace6-1dd092e46eda/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/",
+      "kind": "review",
+      "title": "Roofing repair",
+      "sourceFile": "src/content/pages/reviews/6ebfad42-3c98-4f58-824d-c6c7a6460c26/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/",
+      "kind": "review",
+      "title": "very professional",
+      "sourceFile": "src/content/pages/reviews/9232a940-a207-4b8e-99e9-d6e2f30648c9/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/",
+      "kind": "review",
+      "title": "Excellent job!",
+      "sourceFile": "src/content/pages/reviews/a66c9ffb-f532-4d0e-9903-53f32ff76e9c/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/",
+      "kind": "review",
+      "title": "Deck Repair",
+      "sourceFile": "src/content/pages/reviews/cf96867a-a03f-4d21-8bc5-712d0ab5220f/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/de023ff3-3871-4861-8121-0023190aec17/",
+      "kind": "review",
+      "title": "New roof",
+      "sourceFile": "src/content/pages/reviews/de023ff3-3871-4861-8121-0023190aec17/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/",
+      "kind": "review",
+      "title": "Positive experience",
+      "sourceFile": "src/content/pages/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/index.md",
+      "keywordOwner": "historical customer-feedback URL",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection",
+        "ReviewSection"
+      ]
+    },
+    {
+      "path": "/site-map/",
+      "kind": "resource",
+      "title": "Explore the Roof King Website",
+      "sourceFile": "src/content/pages/site-map/index.md",
+      "keywordOwner": "/site-map/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/storm-report/",
+      "kind": "resource",
+      "title": "Storm Records and Roof Damage",
+      "sourceFile": "src/content/pages/storm-report/index.md",
+      "keywordOwner": "/storm-report/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/terms/",
+      "kind": "legal",
+      "title": "Terms and Conditions",
+      "sourceFile": "src/content/pages/terms/index.md",
+      "keywordOwner": "/terms/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    },
+    {
+      "path": "/warranty/",
+      "kind": "resource",
+      "title": "Roofing Warranties and Workmanship Coverage",
+      "sourceFile": "src/content/pages/warranty/index.md",
+      "keywordOwner": "/warranty/",
+      "score": "Not numerically scored: utility/legal/record repair; no service-keyword ranking claim.",
+      "components": [
+        "PageHero",
+        "Breadcrumbs",
+        "ContentSection",
+        "ArticleSection"
+      ]
+    }
+  ],
+  "consolidatedImageLinks": [],
+  "validation": {
+    "localRenderedRoutes": 33,
+    "visibleHtmlFailures": 0,
+    "preservedLegalBlocks": 68,
+    "checkedInternalLinks": 97,
+    "mobileFamilies": 11,
+    "productHubCaptionsChecked": 3,
+    "reviewFilters": "Only topics with matching independent reviews are shown.",
+    "fullVerification": "GitHub-owned; not run locally or published in this pass.",
+    "preservedProjectPhotos": 35,
+    "publication": "Local implementation only; no push or deployment requested for this pass."
+  },
+  "photography": {
+    "projectPhotos": 35,
+    "note": "All original project-gallery photographs preserved; related-project loading widget replaced with server-rendered cards.",
+    "responsiveWebpVariants": 105,
+    "totalBytes": 8482910,
+    "largestVariantBytes": 203904
+  },
+  "diagnosis": {
+    "company": "A: generic imported marketing wrappers; draft useful company/resource copy from the existing client facts.",
+    "projects": "B: preserve the distinct job concerns, cities, materials and photographs; remove unsupported performance and timing language.",
+    "legal": "C: presentation-only repair; legal wording locked and compared block by block.",
+    "reviews": "C: preserve URLs, use the existing independent review collection, and keep original self-hosted excerpts only as source evidence."
+  }
+}

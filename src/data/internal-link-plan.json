@@ -1208,18 +1208,18 @@
         "proposed_text": "Careers and trade opportunities",
         "section": {
           "label": "Page introduction",
-          "heading": "Roof King & Restoration Careers",
+          "heading": "Careers With Roof King",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Roof King & Restoration Careers"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the careers introduction",
-        "paragraph_context": "Explore exciting career opportunities at Roof King & Restoration. Join our dynamic team and be part of a culture that values growth, innovation, and collaboration. Discover our latest job openings and take the next step in your professional journey today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/our-careers/",
         "destination_page_title": "Bring your experience to Roof King."
@@ -1703,22 +1703,22 @@
       {
         "id": "link-070",
         "action": "wrap_existing_text",
-        "text_to_wrap": "Hearth",
+        "text_to_wrap": "flexible financing",
         "section": {
           "label": "Who the lenders are",
-          "heading": "Who the lenders are",
+          "heading": "Financing Your Roofing or Exterior Project",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Payment options, explained plainly",
             "Who the lenders are"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "We work with Hearth and Medallion Bank. They are independent lenders. We are not a bank and we do not carry your paper.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/offers/flexible-financing/",
         "destination_page_title": "Compare payment options with Hearth."
@@ -1729,19 +1729,19 @@
         "text_to_wrap": "Medallion Bank",
         "section": {
           "label": "Who the lenders are",
-          "heading": "Who the lenders are",
+          "heading": "Financing Your Roofing or Exterior Project",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Payment options, explained plainly",
             "Who the lenders are"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "We work with Hearth and Medallion Bank. They are independent lenders. We are not a bank and we do not carry your paper.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/offers/medallion-bank-financing/",
         "destination_page_title": "Discuss Medallion Bank financing."
@@ -1880,22 +1880,22 @@
       {
         "id": "link-077",
         "action": "insert_new_link",
-        "text_to_wrap": "About Roof King & Restoration",
+        "text_to_wrap": "Read about Roof King",
         "proposed_text": "About Roof King & Restoration",
         "section": {
           "label": "Page introduction",
-          "heading": "Meet Our Team",
+          "heading": "Meet the Roof King Team",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Meet Our Team"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the team introduction",
-        "paragraph_context": "Meet the team of dedicated industry professionals behind Roof King & Restoration. Get to know the experts driving our success and commitment to excellence.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/about-us/",
         "destination_page_title": "Meet Roof King & Restoration."
@@ -1905,22 +1905,22 @@
       {
         "id": "link-078",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "Storm-Damaged Roof Replacement in Grandview Heights",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "After a particularly bad storm, we noticed some serious roof leaks and damage. Roof King & Restoration came out quickly, assessed everything, and walked us through the GAF roof replacement options. The team was incredibly professional and respectful throughout the entire process. Our new roof looks stunning and the insulation and ventilation improvements are already noticeable. We’d recommend them to anyone looking for a high-quality roofing solution!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -1934,12 +1934,12 @@
         "image_alt": "Roofing, Storm Damage Project in Grandview Heights, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Storm-Damaged Roof Replacement in Grandview Heights",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -1957,16 +1957,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Storm-Damaged Roof Replacement in Grandview Heights",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -1976,18 +1976,18 @@
       {
         "id": "link-081",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "GAF Roof Replacement in Columbus",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -2005,12 +2005,12 @@
         "image_alt": "Roofing Project in Columbus, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2028,16 +2028,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2047,22 +2047,22 @@
       {
         "id": "link-084",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "GAF Roof Replacement in Upper Arlington",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "We were dealing with water entering through multiple points in our roof, and it started affecting our ceilings. Roof King & Restoration replaced our damaged roof with a durable GAF system, and it’s been a complete game changer. The crew was on time, professional, and made sure every detail was handled. There was minimal disruption to our daily lives and the home looks brand new. Truly high-quality work from a team that cares!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2076,12 +2076,12 @@
         "image_alt": "Roofing Project in Upper Arlington, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Upper Arlington",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2099,16 +2099,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Upper Arlington",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2118,22 +2118,22 @@
       {
         "id": "link-087",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "GAF Roofing for a Hilliard Home",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "Our roof had structural damage and was long overdue for a replacement. We called Roof King & Restoration and couldn’t be happier that we did. Their communication was excellent from the initial inspection through post-install follow-up. They used GAF shingles, and the quality is immediately noticeable. Our home feels more energy-efficient and the curb appeal is off the charts!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2147,12 +2147,12 @@
         "image_alt": "Roofing Project in Hilliard, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roofing for a Hilliard Home",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2170,16 +2170,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roofing for a Hilliard Home",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2189,22 +2189,22 @@
       {
         "id": "link-090",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "GAF Roof Replacement for a Columbus Home",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "After noticing signs of poor insulation and escalating energy bills, we knew our roof needed help. Roof King & Restoration offered the perfect solution with a full roof replacement using GAF materials. The process was smooth and professional, and we felt informed every step of the way. The team left everything spotless and worked with such a calm, respectful attitude. We’re thrilled with how the home looks and feels now!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2218,12 +2218,12 @@
         "image_alt": "Roofing Project in Columbus, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement for a Columbus Home",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2241,16 +2241,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement for a Columbus Home",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2260,22 +2260,22 @@
       {
         "id": "link-093",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "Roof Replacement After Storm Damage in Columbus",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "Storm damage left parts of our roof compromised, and we were worried about water damage setting in. Roof King & Restoration stepped in fast and replaced everything with high-quality GAF roofing. Their team was polite, efficient, and didn’t cut any corners. They finished right on schedule, and the whole job was done with impressive attention to detail. It’s comforting to know we’re protected again, and it looks amazing too.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2289,12 +2289,12 @@
         "image_alt": "Roofing Project in Columbus, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement After Storm Damage in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2312,16 +2312,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement After Storm Damage in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2331,22 +2331,22 @@
       {
         "id": "link-096",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "GAF Roof Replacement in Whitehall",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "Our roof was falling apart — leaking, sagging, and riddled with ventilation issues. Roof King & Restoration came in with a plan and executed it flawlessly. We were especially impressed with their cleanup and how smoothly everything ran. The new GAF roof gave our home a major facelift and resolved every single problem we were facing. We couldn’t have asked for a better experience!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2360,12 +2360,12 @@
         "image_alt": "Roofing Project in Whitehall, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Whitehall",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2383,16 +2383,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roof Replacement in Whitehall",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2402,22 +2402,22 @@
       {
         "id": "link-099",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "Roof Replacement in Worthington",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "We had some serious issues with gutter health and shingles deteriorating, and we needed a full replacement. Roof King & Restoration delivered with outstanding service and care. They replaced everything with GAF roofing that looks sleek and built to last. The communication was clear, and they respected our home throughout the process. We’re beyond satisfied with the results — it feels like we have a brand new home!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2431,12 +2431,12 @@
         "image_alt": "Roofing Project in Worthington, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement in Worthington",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2454,16 +2454,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement in Worthington",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2473,22 +2473,22 @@
       {
         "id": "link-102",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "Roofing After Storms and Wear in Grandview Heights",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "Years of wear and recent storms had taken a toll on our roof, causing leaks and insulation problems. Roof King & Restoration gave us a thorough assessment and a timeline that they stuck to perfectly. Their attention to detail and high-quality GAF materials really stood out. We especially appreciated how quiet and courteous the crew was while working. We’d absolutely work with them again in a heartbeat!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2502,12 +2502,12 @@
         "image_alt": "Roofing, Storm Damage Project in Grandview Heights, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roofing After Storms and Wear in Grandview Heights",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2525,16 +2525,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roofing After Storms and Wear in Grandview Heights",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2544,22 +2544,22 @@
       {
         "id": "link-105",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Columbus GAF Roof Replacement",
+          "heading": "A New GAF Roof in Columbus",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Columbus GAF Roof Replacement"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
-        "paragraph_context": "Our roof had become a constant source of stress, from curb appeal issues to actual water coming in. Roof King & Restoration replaced it with a beautiful, durable GAF roof that solved every problem. The project was completed without a hitch — no rushing, no mess left behind. It was clear they take pride in what they do, and it really shows. We’re grateful for the transformation and can’t stop admiring our home!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -2573,12 +2573,12 @@
         "image_alt": "Roofing Project in Columbus, OH by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "A New GAF Roof in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2596,16 +2596,16 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "A New GAF Roof in Columbus",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2615,18 +2615,18 @@
       {
         "id": "link-108",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Expert Roofing Project Near You on Colbrook Ct",
+          "heading": "Roof Replacement on Colbrook Ct in Liberty Township",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Expert Roofing Project Near You on Colbrook Ct"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -2644,12 +2644,35 @@
         "image_alt": "Roofing Project in Liberty Township, Ohio by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement on Colbrook Ct in Liberty Township",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
+          "proposed_section": false
+        },
+        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
+        "paragraph_context": null,
+        "existing_destination": "/gallery/",
+        "destination": "/#projects",
+        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
+      },
+      {
+        "id": "link-114",
+        "action": "retarget_existing_link",
+        "text_to_wrap": "See All Photos",
+        "current_link_text": "See All Photos",
+        "proposed_link_text": "See All Photos",
+        "image_alt": null,
+        "section": {
+          "label": "Project photo gallery",
+          "heading": "Roof Replacement on Colbrook Ct in Liberty Township",
+          "heading_level": null,
+          "section_id": "page-content",
+          "heading_path": [],
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2669,10 +2692,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2692,10 +2715,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2715,10 +2738,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2738,37 +2761,14 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
         "paragraph_context": null,
-        "existing_destination": "/gallery/",
-        "destination": "/#projects",
-        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
-      },
-      {
-        "id": "link-114",
-        "action": "retarget_existing_link",
-        "text_to_wrap": "See All Photos",
-        "current_link_text": "See All Photos",
-        "proposed_link_text": "See All Photos",
-        "image_alt": null,
-        "section": {
-          "label": "Project photo gallery",
-          "heading": null,
-          "heading_level": null,
-          "section_id": null,
-          "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
-          "proposed_section": false
-        },
-        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2778,18 +2778,18 @@
       {
         "id": "link-115",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Expert Roofing and Siding Project Near You on Country Manor Dr",
+          "heading": "Roof Replacement on Country Manor Dr in North Lima",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Expert Roofing and Siding Project Near You on Country Manor Dr"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -2807,12 +2807,35 @@
         "image_alt": "Roofing, Siding Project in North Lima, Ohio by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement on Country Manor Dr in North Lima",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
+          "proposed_section": false
+        },
+        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
+        "paragraph_context": null,
+        "existing_destination": "/gallery/",
+        "destination": "/#projects",
+        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
+      },
+      {
+        "id": "link-121",
+        "action": "retarget_existing_link",
+        "text_to_wrap": "See All Photos",
+        "current_link_text": "See All Photos",
+        "proposed_link_text": "See All Photos",
+        "image_alt": null,
+        "section": {
+          "label": "Project photo gallery",
+          "heading": "Roof Replacement on Country Manor Dr in North Lima",
+          "heading_level": null,
+          "section_id": "page-content",
+          "heading_path": [],
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2832,10 +2855,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2855,10 +2878,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2878,10 +2901,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2901,37 +2924,14 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
         "paragraph_context": null,
-        "existing_destination": "/gallery/",
-        "destination": "/#projects",
-        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
-      },
-      {
-        "id": "link-121",
-        "action": "retarget_existing_link",
-        "text_to_wrap": "See All Photos",
-        "current_link_text": "See All Photos",
-        "proposed_link_text": "See All Photos",
-        "image_alt": null,
-        "section": {
-          "label": "Project photo gallery",
-          "heading": null,
-          "heading_level": null,
-          "section_id": null,
-          "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
-          "proposed_section": false
-        },
-        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -2941,18 +2941,18 @@
       {
         "id": "link-122",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Expert Roofing, Siding, and Gutters Project Near You on Summerfield Dr",
+          "heading": "Roof Replacement on Summerfield Dr in Lewis Center",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Expert Roofing, Siding, and Gutters Project Near You on Summerfield Dr"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -2970,12 +2970,35 @@
         "image_alt": "Gutters, Roofing, Siding Project in Lewis Center, Ohio by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement on Summerfield Dr in Lewis Center",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
+          "proposed_section": false
+        },
+        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
+        "paragraph_context": null,
+        "existing_destination": "/gallery/",
+        "destination": "/#projects",
+        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
+      },
+      {
+        "id": "link-128",
+        "action": "retarget_existing_link",
+        "text_to_wrap": "See All Photos",
+        "current_link_text": "See All Photos",
+        "proposed_link_text": "See All Photos",
+        "image_alt": null,
+        "section": {
+          "label": "Project photo gallery",
+          "heading": "Roof Replacement on Summerfield Dr in Lewis Center",
+          "heading_level": null,
+          "section_id": "page-content",
+          "heading_path": [],
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -2995,10 +3018,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3018,10 +3041,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3041,10 +3064,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3064,37 +3087,14 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
         "paragraph_context": null,
-        "existing_destination": "/gallery/",
-        "destination": "/#projects",
-        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
-      },
-      {
-        "id": "link-128",
-        "action": "retarget_existing_link",
-        "text_to_wrap": "See All Photos",
-        "current_link_text": "See All Photos",
-        "proposed_link_text": "See All Photos",
-        "image_alt": null,
-        "section": {
-          "label": "Project photo gallery",
-          "heading": null,
-          "heading_level": null,
-          "section_id": null,
-          "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
-          "proposed_section": false
-        },
-        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -3104,18 +3104,18 @@
       {
         "id": "link-129",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Expert Roofing and Gutters Project Near You on S Clayton Rd",
+          "heading": "Roof Replacement on S Clayton Rd in Farmersville",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Expert Roofing and Gutters Project Near You on S Clayton Rd"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -3133,12 +3133,35 @@
         "image_alt": "Gutters, Roofing Project in Farmersville, Ohio by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "Roof Replacement on S Clayton Rd in Farmersville",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
+          "proposed_section": false
+        },
+        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
+        "paragraph_context": null,
+        "existing_destination": "/gallery/",
+        "destination": "/#projects",
+        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
+      },
+      {
+        "id": "link-135",
+        "action": "retarget_existing_link",
+        "text_to_wrap": "See All Photos",
+        "current_link_text": "See All Photos",
+        "proposed_link_text": "See All Photos",
+        "image_alt": null,
+        "section": {
+          "label": "Project photo gallery",
+          "heading": "Roof Replacement on S Clayton Rd in Farmersville",
+          "heading_level": null,
+          "section_id": "page-content",
+          "heading_path": [],
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3158,10 +3181,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3181,10 +3204,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3204,10 +3227,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3227,37 +3250,14 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
         "paragraph_context": null,
-        "existing_destination": "/gallery/",
-        "destination": "/#projects",
-        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
-      },
-      {
-        "id": "link-135",
-        "action": "retarget_existing_link",
-        "text_to_wrap": "See All Photos",
-        "current_link_text": "See All Photos",
-        "proposed_link_text": "See All Photos",
-        "image_alt": null,
-        "section": {
-          "label": "Project photo gallery",
-          "heading": null,
-          "heading_level": null,
-          "section_id": null,
-          "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
-          "proposed_section": false
-        },
-        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -3267,18 +3267,18 @@
       {
         "id": "link-136",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement services",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement services",
         "section": {
           "label": "Project description",
-          "heading": "Expert Roofing Project Near You on Thames Ct",
+          "heading": "GAF Roofing on Thames Ct in London",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Expert Roofing Project Near You on Thames Ct"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Below the project description, outside any customer quotation",
@@ -3296,18 +3296,18 @@
         "image_alt": null,
         "section": {
           "label": "Project Overview",
-          "heading": "Project Overview",
+          "heading": "GAF Roofing on Thames Ct in London",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Project Overview"
           ],
-          "component": null,
-          "selector": "main #pp-project-details-snip > p:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Existing link “Columbus, OH Roofing Company”",
-        "paragraph_context": "Roof King & Restoration completed a roofing project on Thames Ct in London, Ohio after the homeowner noticed aging shingles and rising worries about storm protection and energy loss. The team removed the worn roof, installed a new system, and improved curb appeal and durability for local weather. For trusted service, visit the Columbus, OH Roofing Company.",
+        "paragraph_context": null,
         "existing_destination": "www.roofkingco.com/roofing",
         "destination": "/roofing/",
         "destination_page_title": "Columbus, OH Roofing Company"
@@ -3321,12 +3321,35 @@
         "image_alt": "Roofing Project in London, Ohio by Roof King & Restoration",
         "section": {
           "label": "Project photo gallery",
-          "heading": null,
+          "heading": "GAF Roofing on Thames Ct in London",
           "heading_level": null,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
+          "proposed_section": false
+        },
+        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
+        "paragraph_context": null,
+        "existing_destination": "/gallery/",
+        "destination": "/#projects",
+        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
+      },
+      {
+        "id": "link-143",
+        "action": "retarget_existing_link",
+        "text_to_wrap": "See All Photos",
+        "current_link_text": "See All Photos",
+        "proposed_link_text": "See All Photos",
+        "image_alt": null,
+        "section": {
+          "label": "Project photo gallery",
+          "heading": "GAF Roofing on Thames Ct in London",
+          "heading_level": null,
+          "section_id": "page-content",
+          "heading_path": [],
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3346,10 +3369,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3369,10 +3392,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3392,10 +3415,10 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
@@ -3415,37 +3438,14 @@
           "label": "Project photo gallery",
           "heading": null,
           "heading_level": null,
-          "section_id": null,
+          "section_id": "roofing-work",
           "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4)",
+          "component": "ProjectShowcase",
+          "selector": "main #roofing-work",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
         "paragraph_context": null,
-        "existing_destination": "/gallery/",
-        "destination": "/#projects",
-        "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
-      },
-      {
-        "id": "link-143",
-        "action": "retarget_existing_link",
-        "text_to_wrap": "See All Photos",
-        "current_link_text": "See All Photos",
-        "proposed_link_text": "See All Photos",
-        "image_alt": null,
-        "section": {
-          "label": "Project photo gallery",
-          "heading": null,
-          "heading_level": null,
-          "section_id": null,
-          "heading_path": [],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > a:nth-of-type(1)",
-          "proposed_section": false
-        },
-        "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "See All Photos",
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -5400,22 +5400,22 @@
       {
         "id": "link-218",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement in Columbus, OH",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement in Columbus, OH",
         "section": {
           "label": "Related service",
           "heading": "They were fast and the clean up was perfect.",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "They were fast and the clean up was perfect."
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "I used Roof King and Restoration for a new roof and new gutters. Collin was so helpful with recommendations and assisting me through the whole process. The crews were fantastic. They were fast and the clean up was perfect. I would highly recommend them.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -5429,16 +5429,16 @@
           "label": "Related service",
           "heading": "They were fast and the clean up was perfect.",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "They were fast and the clean up was perfect."
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "I used Roof King and Restoration for a new roof and new gutters. Collin was so helpful with recommendations and assisting me through the whole process. The crews were fantastic. They were fast and the clean up was perfect. I would highly recommend them.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/gutters/",
         "destination_page_title": "Gutter Services in Columbus, OH"
@@ -5448,22 +5448,22 @@
       {
         "id": "link-220",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement in Columbus, OH",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement in Columbus, OH",
         "section": {
           "label": "Related service",
           "heading": "Great Job on my roof!",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Great Job on my roof!"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "I recently had my roof replaced by Roof King, and I couldn’t be happier with the entire experience. From start to finish, the process was smooth, professional, and stress-free.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -5473,22 +5473,22 @@
       {
         "id": "link-221",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement in Columbus, OH",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement in Columbus, OH",
         "section": {
           "label": "Related service",
           "heading": "New roof",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "New roof"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "Scott was excellent to work with and the finished product looks fantastic. I would recommend them for sure.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -5504,16 +5504,16 @@
           "label": "Related service",
           "heading": "Highly recommend!!",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Highly recommend!!"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "I had storm damage a few months ago when a tree fell on my 2 rental homes that are next to each other. I decided to use Roof King to repair the damage. They installed new roofs and gutters on both homes as well as repaired the wood that got damaged. Roof King worked with my insurance and made the entire process seamless. Drew Palmer provided excellent customer service and stayed on top of the project through completion. Highly recommend!!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/storm-damage/",
         "destination_page_title": "Storm damage repairs in Columbus, OH"
@@ -5527,16 +5527,16 @@
           "label": "Related service",
           "heading": "Highly recommend!!",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Highly recommend!!"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "I had storm damage a few months ago when a tree fell on my 2 rental homes that are next to each other. I decided to use Roof King to repair the damage. They installed new roofs and gutters on both homes as well as repaired the wood that got damaged. Roof King worked with my insurance and made the entire process seamless. Drew Palmer provided excellent customer service and stayed on top of the project through completion. Highly recommend!!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/gutters/",
         "destination_page_title": "Gutter Services in Columbus, OH"
@@ -5546,22 +5546,22 @@
       {
         "id": "link-224",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof repair in Columbus, OH",
+        "text_to_wrap": "roof repair",
         "proposed_text": "Roof repair in Columbus, OH",
         "section": {
           "label": "Related service",
           "heading": "Roofing repair",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Roofing repair"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "Excellent, very punctual, fair and knowledgeable. Didn’t over sell and over delivered.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/repair/",
         "destination_page_title": "Roof repair in Columbus, OH"
@@ -5577,16 +5577,16 @@
           "label": "Related service",
           "heading": "Deck Repair",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Deck Repair"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "The quality of the work was excellent. Kozmo was through and knowledgeable. Better communication on with the time line of work would have helped. Very satisfied and would use them again.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/decks/repairs/",
         "destination_page_title": "Deck Repair in Columbus, OH"
@@ -5596,22 +5596,22 @@
       {
         "id": "link-226",
         "action": "insert_new_link",
-        "text_to_wrap": "Roof replacement in Columbus, OH",
+        "text_to_wrap": "roof replacement",
         "proposed_text": "Roof replacement in Columbus, OH",
         "section": {
           "label": "Related service",
           "heading": "New roof",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "New roof"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "After receiving 31 estimates I had an outstanding experience with RoofKing from start to finish. The entire team was professional, responsive, and efficient, but what really stood out was the incredible service provided by their sales manager, Cosmo. He was knowledgeable, patient, and took the time to walk me through every detail of the process, making sure I felt comfortable and informed at each step.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/replacement/",
         "destination_page_title": "Roof replacement in Columbus, OH"
@@ -5627,16 +5627,16 @@
           "label": "Related service",
           "heading": "Positive experience",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Positive experience"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In a separate “Related service” row below the review",
-        "paragraph_context": "Our experience with roof king and restoration has been a positive experience the roofing job is great and neighbors have nice comments when walking by the company was professional in answering our questions and Ethan was prompt in answering any questions we had overall we like our roof and have met nice people thank you for your kindness",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/roofing/",
         "destination_page_title": "Columbus, OH Roofing Company"
@@ -5907,22 +5907,22 @@
       {
         "id": "link-238",
         "action": "insert_new_link",
-        "text_to_wrap": "Exterior products for a home that feels like yours.",
+        "text_to_wrap": "/products/",
         "proposed_text": "Exterior products for a home that feels like yours.",
         "section": {
           "label": "Products",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/products/",
         "destination_page_title": "Exterior products for a home that feels like yours."
@@ -5930,22 +5930,22 @@
       {
         "id": "link-239",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing products for your home.",
+        "text_to_wrap": "/products/roofing/",
         "proposed_text": "Roofing products for your home.",
         "section": {
           "label": "Products",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/products/roofing/",
         "destination_page_title": "Roofing products for your home."
@@ -5953,22 +5953,22 @@
       {
         "id": "link-240",
         "action": "insert_new_link",
-        "text_to_wrap": "Siding products that shape your exterior.",
+        "text_to_wrap": "/products/siding/",
         "proposed_text": "Siding products that shape your exterior.",
         "section": {
           "label": "Products",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/products/siding/",
         "destination_page_title": "Siding products that shape your exterior."
@@ -5976,22 +5976,22 @@
       {
         "id": "link-241",
         "action": "insert_new_link",
-        "text_to_wrap": "Decking products for your outdoor space.",
+        "text_to_wrap": "/products/decking/",
         "proposed_text": "Decking products for your outdoor space.",
         "section": {
           "label": "Products",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/products/decking/",
         "destination_page_title": "Decking products for your outdoor space."
@@ -5999,22 +5999,22 @@
       {
         "id": "link-242",
         "action": "insert_new_link",
-        "text_to_wrap": "Gutter products for your roofline.",
+        "text_to_wrap": "/products/gutters/",
         "proposed_text": "Gutter products for your roofline.",
         "section": {
           "label": "Products",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/products/gutters/",
         "destination_page_title": "Gutter products for your roofline."
@@ -6022,22 +6022,22 @@
       {
         "id": "link-243",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Gahanna, OH",
+        "text_to_wrap": "/gahanna-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Gahanna, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/gahanna-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Gahanna, OH"
@@ -6045,22 +6045,22 @@
       {
         "id": "link-244",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Grove City, OH",
+        "text_to_wrap": "/grove-city-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Grove City, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/grove-city-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Grove City, OH"
@@ -6068,22 +6068,22 @@
       {
         "id": "link-245",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Hilliard, OH",
+        "text_to_wrap": "/hilliard-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Hilliard, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/hilliard-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Hilliard, OH"
@@ -6091,22 +6091,22 @@
       {
         "id": "link-246",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Lewis Center, OH",
+        "text_to_wrap": "/lewis-center-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Lewis Center, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/lewis-center-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Lewis Center, OH"
@@ -6114,22 +6114,22 @@
       {
         "id": "link-247",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Powell, OH",
+        "text_to_wrap": "/powell-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Powell, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/powell-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Powell, OH"
@@ -6137,22 +6137,22 @@
       {
         "id": "link-248",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Upper Arlington, OH",
+        "text_to_wrap": "/upper-arlington-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Upper Arlington, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/upper-arlington-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Upper Arlington, OH"
@@ -6160,22 +6160,22 @@
       {
         "id": "link-249",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Westerville, OH",
+        "text_to_wrap": "/westerville-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Westerville, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/westerville-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Westerville, OH"
@@ -6183,22 +6183,22 @@
       {
         "id": "link-250",
         "action": "insert_new_link",
-        "text_to_wrap": "Roofing, siding and storm damage services in Worthington, OH",
+        "text_to_wrap": "/worthington-oh/",
         "proposed_text": "Roofing, siding and storm damage services in Worthington, OH",
         "section": {
           "label": "Service Areas",
-          "heading": "Site Map",
+          "heading": "Explore the Roof King Website",
           "heading_level": 1,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": true
         },
         "placement": "In the matching Products or Service Areas subsection of the HTML sitemap",
-        "paragraph_context": "Roof King & Restoration is a professional remodeling company servicing Cleveland, Columbus, Delaware, Dayton, Akron, Cincinnati, Hamilton, Zanesville, Newark, and Athens. Review our a site map and get a quote today!",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/worthington-oh/",
         "destination_page_title": "Roofing, siding and storm damage services in Worthington, OH"
@@ -6212,19 +6212,19 @@
         "image_alt": null,
         "section": {
           "label": "Project photo gallery",
-          "heading": "GAF Master Elite and President's Club recognition",
+          "heading": "Explore the Roof King Website",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "Site Map",
             "GAF Master Elite and President's Club recognition"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(29) > a:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "All existing /gallery/ links on this page, including gallery images and “See All Photos”",
-        "paragraph_context": "Gallery",
+        "paragraph_context": null,
         "existing_destination": "/gallery/",
         "destination": "/#projects",
         "destination_page_title": "Roofing & siding contractors in Columbus, Ohio"
@@ -6237,19 +6237,19 @@
         "text_to_wrap": "insurance claim",
         "section": {
           "label": "Dates on a map are a starting point, not an answer",
-          "heading": "Dates on a map are a starting point, not an answer",
+          "heading": "Storm Records and Roof Damage",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "What has actually hit your address",
             "Dates on a map are a starting point, not an answer"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "Wrap the identified occurrence within this paragraph.",
-        "paragraph_context": "The roof settles it. We inspect, document every slope with test squares, and give you a written roofing repair or replacement recommendation whether there is an insurance claim or not.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/storm-damage/insurance-claims/",
         "destination_page_title": "Storm damage documentation in Columbus, OH"
@@ -6609,19 +6609,19 @@
         "proposed_text": "Roof King’s five-year workmanship terms",
         "section": {
           "label": "The two kinds of coverage",
-          "heading": "The two kinds of coverage",
+          "heading": "Roofing Warranties and Workmanship Coverage",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "What is covered, by whom, and for how long",
             "The two kinds of coverage"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "After the material-versus-workmanship explanation",
-        "paragraph_context": "A material defect claim goes to GAF. An installation error comes to us. Contractors who blur that line are usually setting up to point at the other party later.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/offers/5-year-workmanship-warranty/",
         "destination_page_title": "Five-year workmanship protection."
@@ -6629,23 +6629,23 @@
       {
         "id": "link-268",
         "action": "insert_new_link",
-        "text_to_wrap": "Help with an installation concern",
+        "text_to_wrap": "customer service",
         "proposed_text": "Help with an installation concern",
         "section": {
           "label": "The two kinds of coverage",
-          "heading": "The two kinds of coverage",
+          "heading": "Roofing Warranties and Workmanship Coverage",
           "heading_level": 2,
-          "section_id": null,
+          "section_id": "page-content",
           "heading_path": [
             "What is covered, by whom, and for how long",
             "The two kinds of coverage"
           ],
-          "component": null,
-          "selector": "main > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "component": "RetainedResourcePage",
+          "selector": "main #page-content",
           "proposed_section": false
         },
         "placement": "After the workmanship explanation",
-        "paragraph_context": "A material defect claim goes to GAF. An installation error comes to us. Contractors who blur that line are usually setting up to point at the other party later.",
+        "paragraph_context": null,
         "existing_destination": null,
         "destination": "/customer-service/",
         "destination_page_title": "Help with your Roof King project."

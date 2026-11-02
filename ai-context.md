@@ -19,6 +19,7 @@ This is the entry point for extending the current Astro/Svelte site. Read AGENTS
 | Other service/location/cost/calculator pages | src/layouts/PolishedServicePage.astro; service-editorial.json for identity/presentation; service-copy.json for complete source prose |
 | Product collections and details | product-pillar.json, product-details.json and the source-backed product library; ProductHubPage / ProductDetailPage |
 | Articles and blog hubs | blog-articles.json, blog-routes.json, blog-index.json, blog-hubs.json and blog-archives.json; ArticleLayout / BlogLayout |
+| Retained company/legal, project and review URLs | retained-pages.json and RetainedResourcePage through the catchall; original HTML bodies remain provenance and must not be passed to Markdown rendering for these 33 routes |
 | Company, offers, reviews and service-area directory | Dedicated native src/pages entry points and their page-data helpers; inspect actual imports |
 | Preserved legacy content | src/pages/[...path].astro and SiteLayout only where no native owner exists; retained index.md can still render here |
 | Routing evidence / metadata | src/content/pages/**/index.md, migration/route-manifest.json, route-redirects.json, site-structure.json |

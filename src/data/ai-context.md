@@ -10,6 +10,10 @@ The 35 existing service-area routes were reconciled with the client-reviewed Nov
 
 ## Ownership map
 
+`retained-pages.json` owns 33 native company/legal, project and historical review URLs rendered by `RetainedResourcePage` through the catchall. Original Markdown/HTML is provenance, never the rendered body for these routes. Legal text is preserved in typed rich nodes. Projects use their recorded photographs, optimized company-media variants and server-rendered related-project cards. Historical self-hosted review excerpts are not reintroduced; review cards use the independent featured-review sources. See `migration/retained-pages-review-2026-11-02.json` for the drafting/editing decisions. `RichNode.instructionId` binds an authored link to its approved internal-link-plan record without reinserting duplicate links. Preserve those IDs when editing.
+
+Mule-Hide `warrantyResources` are explicit program/document destinations. Do not infer a warranty document from the first filename containing “warranty”: installation drawings and photovoltaic compliance forms retain their actual names in `documents`. Product collection captions use display titles, never internal product keys. Review filter options are derived from the topics present in the rendered external review set.
+
 `service-section-images.json` selects the photograph beside each rendered non-media ServiceContentBand heading. ServiceSectionImage requires an explicit page/section assignment; it must not fall back to the retired generic house sketch. Match the actual topic, prefer useful-resolution gallery photographs and preserve reference/illustration labeling without implying a photographed project occurred in a location page's city. `service-review-media.json` registers the prepared responsive variants, bounded by their originals and 110 KB each. See the service-section photography review in migration for source assignments.
 
 Approved contextual links are maintained in `internal-link-plan.json`. This page-scoped plan applies to both native and retained HTML through `scripts/internal-links.mjs`, before required attributes and schema in dev and static builds. Records preserve exact paragraph context, anchor text, destinations and placement. Do not add a duplicate source anchor or remove an instruction silently when revising a page: update the plan deliberately. Empty/unlisted pages are unchanged. Build rendering rejects missing or ambiguous locations, and `check:internal-links` verifies the approved records.
@@ -142,6 +146,8 @@ Parent guidance: [src](../ai-context.md).
 - [project-contact.json](project-contact.json)
 - [project-gallery.json](project-gallery.json)
 - [project-gallery.ts](project-gallery.ts)
+- [retained-page-types.ts](retained-page-types.ts)
+- [retained-pages.json](retained-pages.json)
 - [review-platforms.json](review-platforms.json)
 - [review-source-policy.ts](review-source-policy.ts)
 - [reviews-page.json](reviews-page.json)

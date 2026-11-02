@@ -19,7 +19,7 @@ export function productHeroImage(path:string,productKey?:string):ProductHeroImag
  if(hubHero)return hubHero;
  const brandProduct=Object.values(productLibrary).find(p=>p.detailPath?.slice(0,p.detailPath.slice(0,-1).lastIndexOf('/')+1)===path&&p.hero);
  if(brandProduct?.hero)return brandProduct.hero;
- if(product){const color=product.colors.find(c=>c.id===product.defaultColorId)!;return {...color.image,alt:`${productKey} in ${color.name}`,caption:`${color.name} · Manufacturer color sample`,sample:true};}
+ if(product){const color=product.colors.find(c=>c.id===product.defaultColorId)!;const name=(productDetails as Record<string,{title:string}>)[product.detailPath||path]?.title||product.categoryLabel||product.brand||'Exterior product';return {...color.image,alt:product.optionLabel==='Product view'?name:`${name}: ${color.name}`,caption:product.optionLabel==='Product view'?`${name} · Manufacturer product view`:`${color.name} · Manufacturer color sample`,sample:true};}
  const concept=path.includes('/engineered-wood/')?'engineered-wood-siding':path.includes('/fiber-cement/')?'fiber-cement-siding':path.includes('/vinyl/')&&!path.includes('/ply-gem/')?'vinyl-siding':path.includes('/alu-rex/')?'perforated-gutter-guard':path.includes('/leaffilter/')?'fine-mesh-gutter-guard':null;
  if(concept){const record=collectionMedia[concept];const label=concept.replaceAll('-',' ');return {src:record.variants[1].src,srcset:record.variants.map(v=>`${v.src} ${v.width}w`).join(', '),width:record.width,height:record.height,alt:`${label} scene`,caption:''};}
  const image=imagery[productFamily(path)];const resolved=photo(image);return {...resolved,src:resolved.thumbnail,caption:image.caption};
