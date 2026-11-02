@@ -5,7 +5,7 @@
   let ready=$state(false);
   let selected=$state('all');
   let count=$state(total);
-  const filters=[{id:'all',label:'All reviews'},{id:'roofing',label:'Roof installation & cleanup'},{id:'communication',label:'Communication'},{id:'storm',label:'Storm & insurance'}];
+  const filters=[{id:'all',label:'All reviews'},{id:'roofing',label:'Roof installation & cleanup'},{id:'siding',label:'Siding'},{id:'gutters',label:'Gutters'},{id:'decking',label:'Decks'},{id:'ice',label:'Snow & ice'},{id:'communication',label:'Communication'},{id:'storm',label:'Storm & insurance'}];
   function filter(id:string){
     selected=id;count=0;
     for(const entry of root.querySelectorAll<HTMLElement>('[data-review-topics]')){

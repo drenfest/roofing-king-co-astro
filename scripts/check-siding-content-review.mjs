@@ -12,8 +12,8 @@ for(const route of routes){
  assert.equal($('.rk-service-faq details').length,7,route+' has seven relevant FAQs');
  assert.ok($('.rk-service-topic-cards article').length>5,route+' has substantive planning/product cards');
  const expected=reviewIdsForService(editorial[route].family);
- assert.equal($('.rk-home-review-card').length,expected.length,route+' has no unrelated fallback reviews');
- for(const id of expected)assert.ok(reviews.find(review=>review.id===id).services.includes('siding'),route+' matches actual siding work');
+ assert.equal($('.rk-home-review-card').length,expected.length,route+' retains sourced customer feedback');
+ assert.ok(expected.length>0,route+' must retain a review section');for(const id of expected)assert.ok(reviews.find(review=>review.id===id).services.includes('siding'),route+' prioritizes sourced siding work');
  assert.ok($('main a[href="/offers/5-year-workmanship-warranty/"]').length,route+' links the approved workmanship terms');
  assert.ok(!/\[COMPONENT:|\[SITE\]|\[CONFIRM\]|awaiting approval|not a documented Roof King project/.test($('main').text()),route+' has no report annotations or removed captions');
 }

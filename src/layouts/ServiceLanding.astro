@@ -13,6 +13,7 @@ import ServicePaths from '../components/ServicePaths.astro';
 import {completeServicePaths} from '../data/service-opening';
 import CredentialsSection from '../components/CredentialsSection.astro';
 import ReviewSection from '../components/ReviewSection.astro';
+import {reviewIdsForService} from '../data/service-reviews';
 import ServiceGallery from '../components/ServiceGallery.astro';
 import FeaturedArticles from '../components/FeaturedArticles.astro';
 import ServiceIcon from '../components/ServiceIcon.astro';
@@ -41,7 +42,7 @@ const faq=data.faq as HeadingData & {items:{question:string;answer:RichNode[]}[]
     <Breadcrumbs items={[{label:'Home',href:'/'},{label:'Roofing'}]}/>
     <ServicePaths section={completeServicePaths(page.data.permalink,data.services as ServicePathsData)}/>
     <StormDamageCallout path={page.data.permalink}/>
-    <ReviewSection section={data.reviews}/>
+    <ReviewSection section={{...data.reviews,reviewIds:reviewIdsForService("roofing")}}/>
     <CredentialsSection section={data.credentials}/>
     <RoofMaterialOptions section={data.materials}/>
     <BrandStrip {brands}/>

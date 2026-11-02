@@ -43,6 +43,7 @@ Parent guidance: [repository](../ai-context.md).
 - [gallery-library-review.json](gallery-library-review.json)
 - [gutter-detail-images.json](gutter-detail-images.json)
 - [hero-menu-image-notes.md](hero-menu-image-notes.md)
+- [live-review-refresh-2026-11-01.json](live-review-refresh-2026-11-01.json)
 - [location-service-review.json](location-service-review.json)
 - [master-elite-benefits-notes.md](master-elite-benefits-notes.md)
 - [navigation-extra-images.json](navigation-extra-images.json)

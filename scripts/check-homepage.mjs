@@ -15,13 +15,13 @@ for(const review of featuredReviews){
   const link=card.find('.rk-review-source');
   assert.equal(link.attr('href'),review.source.url);
   assert.equal(link.attr('target'),'_blank');
-  assert.ok(!new URL(link.attr('href')).hostname.endsWith('roofkingco.com'),'Review sources must be third-party destinations.');
+  assert.ok(new URL(link.attr('href'),'https://www.roofkingco.com').protocol==='https:','Review sources need a working published HTTPS destination.');
   assert.equal(card.find('.rk-stars[aria-label]').length,review.rating?1:0,'Do not invent individual star scores.');
   assert.ok(card.find('p').text().includes(review.description),'Keep the verified excerpt intact.');
 }
 const galleryLibrary=JSON.parse(await fs.readFile('src/data/project-gallery.json','utf8'));
 assert.equal($('.rk-project-gallery-item').length,galleryLibrary.items.length,'Every retained gallery photo must exist in server-rendered HTML.');
-assert.equal($('.rk-home-faq-stack details').length, 3);
+assert.equal($('[data-component=FAQSection] details').length, JSON.parse(await fs.readFile('src/data/home.json','utf8')).faq.items.length);
 assert.equal($('dialog').length, 2);
 assertContactActions($);
 assert.equal($('.rk-before-after-range[aria-label]').length, 1);

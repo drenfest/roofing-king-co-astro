@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-20",
+  "checkedOn": "2026-11-01",
   "profiles": [
     {
       "platform": "Google",
@@ -18,15 +18,32 @@
       "title": "Read our Birdeye reviews",
       "description": "Explore the review collection on Birdeye, with each review’s original platform identified.",
       "href": "https://reviews.birdeye.com/roof-king-restoration-164724786112437"
+    },
+    {
+      "platform": "Angi",
+      "title": "Read our Angi reviews",
+      "description": "Browse published siding, roofing and exterior-service feedback.",
+      "href": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
     }
   ],
   "topics": {
-    "google-marianna-faria": "communication",
+    "google-marianna-faria": "roofing replacement communication",
     "bbb-douglas-c": "roofing",
-    "birdeye-kenneth-g": "roofing communication storm",
+    "birdeye-kenneth-g": "roofing storm claims",
     "bbb-nicholas-k": "communication storm",
     "bbb-john-m": "storm",
-    "birdeye-ali46o": "communication storm"
+    "birdeye-ali46o": "communication storm",
+    "roof-king-andy-l": "roofing gutters storm claims",
+    "roof-king-tammy-k": "roofing gutters replacement communication",
+    "roof-king-larry-b": "decking communication",
+    "roof-king-charles-h": "roofing repair",
+    "angi-connor-j-siding": "siding",
+    "angi-duke-d-siding": "siding",
+    "angi-adam-f-exterior": "siding gutters roofing storm claims communication",
+    "angi-carrole-r-ice": "ice winter gutters flat-roof",
+    "angi-erica-m-wind": "roofing wind storm claims replacement",
+    "roof-king-lloyd-f": "roofing",
+    "roof-king-sou-m": "roofing replacement communication"
   },
   "additionalReviews": [
     {

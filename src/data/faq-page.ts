@@ -31,10 +31,10 @@ export const faqGroups:Group[]=[
   pick('/storm-damage/insurance-claims/','Can Roof King guarantee my roof will be covered?')
  ],links:[{label:'Storm damage services',href:'/storm-damage/'},{label:'Insurance documentation',href:'/storm-damage/insurance-claims/'}]},
  {id:'faq-siding',label:'Siding & wall repairs',title:'Siding replacement and wall repairs',description:'Partial repairs, wall leaks and the details that belong in a siding estimate.',items:[
-  pick('/siding/','Is a full replacement needed for one damaged area?'),
-  pick('/siding/','Does new siding fix every wall leak?'),
-  pick('/siding/','What should the estimate contain?','What should a siding estimate contain?'),
-  pick('/siding/replacement/','Will new siding improve insulation?')
+  pick('/siding/','Is full replacement needed for one damaged area?'),
+  pick('/siding/','Does new siding fix a wall leak?'),
+  pick('/siding/','Does the workmanship warranty cover siding?'),
+  pick('/siding/replacement/','Will new siding lower energy bills?')
  ],links:[{label:'Siding services',href:'/siding/'},{label:'Siding replacement',href:'/siding/replacement/'}]},
  {id:'faq-gutters',label:'Gutters & gutter guards',title:'Gutters, downspouts and gutter guards',description:'Overflow, damaged sections and what gutter protection can and cannot do.',items:[
   pick('/gutters/','Can one damaged section be replaced?','Can one damaged gutter section be replaced?'),

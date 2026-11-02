@@ -7,7 +7,7 @@ const {section}=Astro.props;
 const items=section.reviewIds.map(id=>{
   const review=reviews.items.find(item=>item.id===id);
   if(!review)throw new Error(`Unknown featured review: ${id}`);
-  return {...review,excerpt:true};
+  return {...review,excerpt:review.excerpt!==false};
 });
 ---
 {items.length>0&&<CardSection kind="reviews" section={{...section,items}}/>}

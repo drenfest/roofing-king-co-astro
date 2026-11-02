@@ -1,5 +1,5 @@
 {
-  "verifiedOn": "2026-10-17",
+  "verifiedOn": "2026-11-01",
   "items": [
     {
       "id": "google-marianna-faria",
@@ -15,7 +15,9 @@
       "services": [
         "roofing",
         "replacement"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false
     },
     {
       "id": "bbb-douglas-c",
@@ -31,7 +33,9 @@
       "evidenceNote": "Excerpt, display name, date and five-star rating verified directly on BBB. Fragment identifies the actual review list item. This individual score is separate from BBB's business rating and aggregate customer score.",
       "services": [
         "roofing"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false
     },
     {
       "id": "birdeye-kenneth-g",
@@ -48,7 +52,9 @@
         "roofing",
         "storm",
         "claims"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false
     },
     {
       "id": "roof-king-andy-l",
@@ -65,7 +71,10 @@
         "storm",
         "claims"
       ],
-      "evidenceNote": "Exact excerpt from the retained customer review. The work describes roofs, gutters and storm-damaged wood on two rental homes; not a siding or commercial project."
+      "evidenceNote": "Exact excerpt from the retained customer review. The work describes roofs, gutters and storm-damaged wood on two rental homes; not a siding or commercial project.",
+      "excerpt": true,
+      "summary": false,
+      "publishedOn": "2024-09-23"
     },
     {
       "id": "roof-king-tammy-k",
@@ -80,7 +89,9 @@
         "roofing",
         "gutters",
         "replacement"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false
     },
     {
       "id": "roof-king-larry-b",
@@ -93,7 +104,10 @@
       },
       "services": [
         "decking"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false,
+      "publishedOn": "2025-07-16"
     },
     {
       "id": "roof-king-charles-h",
@@ -107,7 +121,153 @@
       "services": [
         "roofing",
         "repair"
-      ]
+      ],
+      "excerpt": true,
+      "summary": false,
+      "publishedOn": "2025-08-24"
+    },
+    {
+      "excerpt": true,
+      "summary": false,
+      "id": "angi-connor-j-siding",
+      "author": "Connor J.",
+      "title": "Vinyl siding installation",
+      "description": "Super happy with the work their team did.",
+      "services": [
+        "siding"
+      ],
+      "rating": 5,
+      "publishedOn": "2026-04",
+      "source": {
+        "platform": "Angi",
+        "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
+      },
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
+    },
+    {
+      "excerpt": true,
+      "summary": false,
+      "id": "angi-duke-d-siding",
+      "author": "Duke D.",
+      "title": "New vinyl siding and exterior style",
+      "description": "Everything was completed on schedule.",
+      "services": [
+        "siding"
+      ],
+      "rating": 5,
+      "publishedOn": "2026-04",
+      "source": {
+        "platform": "Angi",
+        "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
+      },
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
+    },
+    {
+      "excerpt": true,
+      "summary": false,
+      "id": "angi-adam-f-exterior",
+      "author": "Adam F.",
+      "title": "Siding, gutters and roofing",
+      "description": "Easy to work with and great communication.",
+      "services": [
+        "siding",
+        "gutters",
+        "roofing",
+        "storm",
+        "claims"
+      ],
+      "rating": 5,
+      "publishedOn": "2026-04",
+      "source": {
+        "platform": "Angi",
+        "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
+      },
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
+    },
+    {
+      "excerpt": false,
+      "summary": true,
+      "id": "angi-carrole-r-ice",
+      "author": "Carrole R.",
+      "title": "Snow and ice removal at a flat roof",
+      "description": "Carrole describes careful removal of snow from a flat roof and surrounding gutters, followed by a return visit to remove ice as it melted.",
+      "services": [
+        "ice",
+        "winter",
+        "gutters",
+        "flat-roof"
+      ],
+      "rating": 5,
+      "publishedOn": "2026-04",
+      "source": {
+        "platform": "Angi",
+        "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
+      },
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
+    },
+    {
+      "excerpt": false,
+      "summary": true,
+      "id": "angi-erica-m-wind",
+      "author": "Erica M.",
+      "title": "Wind damage inspection and roof replacement",
+      "description": "Erica describes a roof inspection after storm and wind damage, insurance documentation, regular scheduling updates and cleanup after the replacement.",
+      "services": [
+        "roofing",
+        "wind",
+        "storm",
+        "claims",
+        "replacement"
+      ],
+      "rating": 5,
+      "publishedOn": "2026-04",
+      "source": {
+        "platform": "Angi",
+        "url": "https://www.angi.com/companylist/us/oh/columbus/roof-king-and-restoration-llc-reviews-2.htm"
+      },
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Author, displayed April 2026 date, rating and service context read on the live Angi profile. Date is month precision; no day inferred. Quotes are short exact excerpts; summaries are explicitly labeled."
+    },
+    {
+      "id": "roof-king-lloyd-f",
+      "author": "Lloyd F.",
+      "title": "Roof installation and responsive communication",
+      "description": "the roofing job is great and neighbors have nice comments when walking by",
+      "publishedOn": "2026-06-22",
+      "services": [
+        "roofing"
+      ],
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "https://www.roofkingco.com/reviews/ecddc4b5-0a23-4fc7-b7d0-d13efb473217/"
+      },
+      "excerpt": true,
+      "summary": false,
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Exact short excerpt and full publication date displayed on the live Roof King homepage review list; linked to the individual retained review."
+    },
+    {
+      "id": "roof-king-sou-m",
+      "author": "Sou M.",
+      "title": "Roof replacement and clear estimating",
+      "description": "He took the time to explain everything, answered all of my questions",
+      "publishedOn": "2026-06-13",
+      "services": [
+        "roofing",
+        "replacement"
+      ],
+      "source": {
+        "platform": "Roof King reviews",
+        "url": "https://www.roofkingco.com/reviews/15255848-3e71-4f13-a30e-57be026ef6f4/"
+      },
+      "excerpt": true,
+      "summary": false,
+      "checkedOn": "2026-11-01",
+      "evidenceNote": "Exact short excerpt and full publication date displayed on the live Roof King homepage review list; linked to the individual retained review."
     }
   ]
 }

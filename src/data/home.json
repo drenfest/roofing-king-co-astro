@@ -362,11 +362,11 @@
   "reviews": {
     "eyebrow": "Testimonials",
     "title": "Homeowners notice the Roof King standard",
-    "description": "Selected customer review excerpts from Google, BBB and Birdeye. Follow each source link to read the original review.",
+    "description": "Recent feedback from Roof King customers. Follow each review to its published source.",
     "reviewIds": [
-      "google-marianna-faria",
       "bbb-douglas-c",
-      "birdeye-kenneth-g"
+      "roof-king-lloyd-f",
+      "roof-king-sou-m"
     ]
   },
   "blogs": {

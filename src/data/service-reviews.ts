@@ -1,11 +1,16 @@
 import reviews from './featured-reviews.json' with {type:'json'};
 
-/** Match the work described by the customer, never an unrelated keyword or generic praise. */
-export function reviewIdsForService(family:string):string[]{
- if(family==='local')return reviews.items.slice(0,3).map(review=>review.id);
- const topic=/^siding|commercial-siding/.test(family)?'siding':/^commercial/.test(family)?'commercial':
+/** Prefer recent exact-service feedback. Keep a clearly labeled company-review fallback. */
+export function reviewSelectionForService(family:string){
+ const topic=family==='commercial-siding'?'commercial-siding':/^siding/.test(family)?'siding':/^commercial/.test(family)?'commercial':
   /^deck/.test(family)?'decking':/^guards|gutter-guards/.test(family)?'guards':/^gutter|seamless/.test(family)?'gutters':
-  family==='storm'?'storm':['hail','wind','claims'].includes(family)?family:
+  ['ice','ice-dam'].includes(family)?'ice':['hail','wind','claims','storm','metal','repair','replacement'].includes(family)?family:
   /roof|repair|replacement|materials|gaf|certification|calculator/.test(family)?'roofing':family;
- return reviews.items.filter(review=>review.services.includes(topic)).sort((a,b)=>Number(b.services.includes(family))-Number(a.services.includes(family))).slice(0,3).map(review=>review.id);
+ const newest=(items:typeof reviews.items)=>[...items].sort((a,b)=>('publishedOn' in b?b.publishedOn||'':'').localeCompare('publishedOn' in a?a.publishedOn||'':''));
+ const exact=newest(reviews.items.filter(review=>review.services.includes(topic)));
+ const related=topic==='commercial-siding'?'siding':topic==='guards'?'gutters':topic==='commercial'||topic==='metal'?'roofing':topic==='hail'?'storm':undefined;
+ const pool=exact.length?exact:related?newest(reviews.items.filter(review=>review.services.includes(related))):[];
+ const selected=(pool.length?pool:newest(reviews.items)).slice(0,3);
+ return {ids:selected.map(review=>review.id),exact:exact.length>0,topic};
 }
+export function reviewIdsForService(family:string):string[]{return reviewSelectionForService(family).ids;}

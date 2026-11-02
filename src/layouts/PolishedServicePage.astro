@@ -5,7 +5,7 @@ import type {HeadingData,RichNode,ServicePathsData,ServiceCopyData} from '../dat
 import editorial from '../data/service-editorial.json';
 import fullCopy from '../data/service-copy.json';
 import reference from '../data/roofing-landing.json';
-import {reviewIdsForService} from '../data/service-reviews';
+import {reviewSelectionForService} from '../data/service-reviews';
 import site from '../data/site.json';
 import {hero as homeHero, trust} from '../data/home.json';
 import DocumentLayout from './DocumentLayout.astro';
@@ -43,7 +43,8 @@ const heroAsset=({...serviceHeroes,...roofingHeroes} as Record<string,{image:{sr
 const content=(fullCopy as unknown as Record<string,ServiceCopyData>)[page.data.permalink];
 if(!content)throw new Error('Missing full service content: '+page.data.permalink);
 const presentation=('reviewPresentation' in data?data.reviewPresentation:{}) as {batch?:string;credentialsTitle?:string;reviewsTitle?:string;brandsTitle?:string;brandsDescription?:string;brandsSectionId?:string;financeTitle?:string;financeDescription?:string;hideGallery?:boolean;hideArticles?:boolean;galleryTitle?:string;stormTitle?:string;stormDescription?:string;materialsTitle?:string};
-const reviewIds=reviewIdsForService(data.family);
+const reviewSelection=reviewSelectionForService(data.family);
+const reviewIds=reviewSelection.ids;
 const isRoof=['repair','replacement','materials','gaf','certification','metal','roofing-local','roof-cost','calculator','hail','wind','storm','claims'].includes(data.family);
 const credentials={...reference.credentials,eyebrow:'Roof King credentials & workmanship',title:presentation.credentialsTitle||'Know the Team. Know the Work.',description:'Check our independent business record and review the written coverage for the materials and installation.',items:isRoof?reference.credentials.items:[{...reference.credentials.items[1],description:'Roof King’s BBB profile lists accreditation, an A+ business rating and independent customer feedback.'},{...reference.credentials.items[2],description:'Review Roof King’s written workmanship terms for your project. Manufacturer product coverage is separate.'},{title:'Materials & Installation, Explained',description:'Your estimate should identify the actual materials, preparation, installation and cleanup, including how additional repairs are approved.',label:'Discuss your project',href:'#estimate',mark:'Project details'}]};
 const budgetIndex=content.sections.findIndex(section=>content.budgetSectionId?section.id===content.budgetSectionId:/estimate|cost|price|proposal|records/i.test(section.title));
@@ -67,7 +68,7 @@ const schema={'@context':'https://schema.org','@type':'Service',name:data.title,
     {data.family==='local'||(hasServiceChildren(page.data.permalink)||(data.opening as ServicePathsData).variant==='tabs')?<ServicePaths section={data.opening as ServicePathsData}/>:<ServiceArticle section={data.opening as ServicePathsData}/>}
     {showStormCallout&&<StormDamageCallout path={page.data.permalink} headingLevel={presentation.batch?3:2} title={presentation.stormTitle||(data.family==='local'?`Storm damage to your ${data.city} roof or siding?`:presentation.batch?(data.family.includes('siding')?'Storm damage to siding, trim or flashing?':'Storm-damaged gutters or downspouts?'):undefined)} description={presentation.stormDescription||(presentation.batch?'Discuss the affected siding, gutters and adjoining roof details with Roof King. Review repair options and the documentation for your storm-damage inspection.':undefined)}/>}
     {data.family==='calculator'&&<div class="rk-section-inner rk-editorial-estimator"><RoofrEstimator client:load/></div>}
-    {reviewIds.length>0&&<ReviewSection section={{eyebrow:'Roof King customer reviews',title:presentation.reviewsTitle||'Hear From Roof King Customers',description:'Customer experiences from independent sources. Open each source badge to read the review.',reviewIds}}/>}
+    {reviewIds.length>0&&<ReviewSection section={{eyebrow:'Roof King customer reviews',title:reviewSelection.exact?(presentation.reviewsTitle||'Hear From Roof King Customers'):'Customer Experiences With Roof King',description:reviewSelection.exact?'Recent customer feedback on related service work. Each card links to its published source.':'Customer experiences with Roof King. Each card identifies the work discussed and links to the original review.',reviewIds}}/>}
     <CredentialsSection section={credentials}/>
     {sections.map((section,index)=><>
       <ServiceContentBand {section} {index} theme={content.theme} pagePath={page.data.permalink}>
