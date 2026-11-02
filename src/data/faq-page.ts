@@ -25,10 +25,10 @@ export const faqGroups:Group[]=[
   pick('/roofing/replacement/','How long will the work take?','How long does a roof replacement take?')
  ],links:[{label:'Roof repair services',href:'/roofing/repair/'},{label:'Roof replacement',href:'/roofing/replacement/'}]},
  {id:'faq-storm-damage',label:'Storm damage & insurance',title:'Storm damage and insurance documentation',description:'What to report after a storm, temporary protection and how repair estimates relate to coverage.',items:[
-  pick('/storm-damage/','What if I cannot see damage from the ground?'),
-  pick('/storm-damage/','Does temporary protection finish the job?'),
-  pick('/storm-damage/','Can roofing and siding damage be addressed together?'),
-  pick('/storm-damage/insurance-claims/','Can Roof King guarantee my roof will be covered?')
+  pick('/storm-damage/',"What if I can't see any damage from the ground?"),
+  pick('/storm-damage/',"Can you tarp my roof if it's leaking?"),
+  pick('/storm-damage/','Does storm damage mean I need a new roof?'),
+  pick('/storm-damage/insurance-claims/','Can Roof King file or negotiate my insurance claim?')
  ],links:[{label:'Storm damage services',href:'/storm-damage/'},{label:'Insurance documentation',href:'/storm-damage/insurance-claims/'}]},
  {id:'faq-siding',label:'Siding & wall repairs',title:'Siding replacement and wall repairs',description:'Partial repairs, wall leaks and the details that belong in a siding estimate.',items:[
   pick('/siding/','Is full replacement needed for one damaged area?'),
