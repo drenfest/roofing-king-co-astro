@@ -128,6 +128,7 @@ Parent guidance: [repository](../ai-context.md).
 - [sync-product-navigation.mjs](sync-product-navigation.mjs)
 - [thewebguy-logo.txt](thewebguy-logo.txt)
 - [transfer-service-content.mjs](transfer-service-content.mjs)
+- [verify.mjs](verify.mjs)
 - [write-context-maps.mjs](write-context-maps.mjs)
 
 ### Child directories
@@ -138,3 +139,5 @@ Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rul
 <!-- directory-inventory:end -->
 
 check:siding-review is part of the GitHub-owned verify gate. It protects the five reviewed selectors, real material comparison, seven FAQs, retained horizontal material component and source-matched customer reviews. The client-confirmed $47 financing offer is permitted; do not classify that approved offer as an unverified claim.
+
+verify.mjs runs the ordered verify:steps manifest in GitHub. Source/type/build failures stop dependent work; after a successful build, checks continue independently and emit one VERIFICATION_RESULT summary of all failing check names. Deployment remains blocked on any failure. Models should consume that compact result and bounded error excerpts, not successful logs.

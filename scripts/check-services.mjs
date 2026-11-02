@@ -86,9 +86,9 @@ for(const record of serviceRecords.filter(r=>/service/i.test(r.category)||r.cate
  assert.ok(opening.find('[data-service-panel],.rk-service-article-row').length,'Actual topic content on '+record.path);
  for(const panel of opening.find('[data-service-panel]').toArray()){const body=$(panel).clone();body.find('.rk-service-detail-kicker,h3').first().remove();body.children('h3').first().remove();assert.ok(clean(body.text()),'No empty topic panels: '+record.path);}
  const children=serviceRecords.filter(r=>r.path!==record.path&&r.path.startsWith(record.path)&&!r.path.slice(record.path.length).replace(/\/$/,'').includes('/'));
- const isLocation=editorial[record.path]?.family==='local';
- assert.equal($('[data-component=ServicePaths]').length,children.length||isLocation?1:0,'Parent services and full-service location hubs use the selector: '+record.path);
- if(!children.length&&!isLocation)assert.equal($('[data-component=ServiceExplorer]').length,0,'Leaf pages must not hydrate a topic selector: '+record.path);
+ const isLocation=editorial[record.path]?.family==='local';const explicitTabs=editorial[record.path]?.opening.variant==='tabs';
+ assert.equal($('[data-component=ServicePaths]').length,children.length||isLocation||explicitTabs?1:0,'Parent services and full-service location hubs use the selector: '+record.path);
+ if(!children.length&&!isLocation&&!explicitTabs)assert.equal($('[data-component=ServiceExplorer]').length,0,'Leaf pages must not hydrate a topic selector: '+record.path);
  for(const child of children)assert.ok(opening.find('a').toArray().some(e=>$(e).attr('href')===child.path),'Opening must link to child '+child.path);
  const ids=$('[id]').map((_i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size,'Unique IDs on '+record.path);
  prepared++;
