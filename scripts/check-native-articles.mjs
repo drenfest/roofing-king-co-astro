@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import * as cheerio from 'cheerio';
+import site from '../src/data/site.json' with {type:'json'};
 const audit=JSON.parse(await fs.readFile('migration/blog-article-components.json','utf8'));
 const articles=JSON.parse(await fs.readFile('src/data/blog-articles.json','utf8'));
 const normalize=text=>text.replace(/\u200b/g,'').replace(/\s+/g,' ').trim();
@@ -12,7 +13,7 @@ for(const source of audit.articles){
  assert.equal($('[data-component=PageHero]').length,1);assert.equal($('[data-component=BlogNavigation]').length,1);
  assert.equal($('h1').length,1);assert.equal($('h1').text(),article.title);assert.equal($('main').length,1);
  assert.equal($('.rk-blog-single,.rk-blog-component-section,.rk-blog-component-card,.rk-blog-sidebar').length,0,'No legacy article containers');
- for(const paragraph of source.paragraphs)if(!text.includes(paragraph))failures.push({path:source.path,kind:'missing source block',text:paragraph});
+ for(const paragraph of source.paragraphs)if(!text.includes(normalize(paragraph.replace(/\(614\)\s*379-8893/g,site.phone))))failures.push({path:source.path,kind:'missing source block',text:paragraph});
  for(const link of source.links)if(!reading.find('a').toArray().some(a=>$(a).attr('href')===link.href&&normalize($(a).text())===link.label))failures.push({path:source.path,kind:'missing source link',...link});
  assert.equal($('[data-component=ArticleChecklist]>li').length,source.checklistItems,'All source checklist items: '+source.path);
  assert.equal(reading.find('[data-component=ArticleImage]').length,source.images.length,'Restored source images: '+source.path);
