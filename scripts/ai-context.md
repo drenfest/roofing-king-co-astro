@@ -98,6 +98,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-product-comparisons.mjs](check-product-comparisons.mjs)
 - [check-product-systems.mjs](check-product-systems.mjs)
 - [check-products.mjs](check-products.mjs)
+- [check-release-tools.mjs](check-release-tools.mjs)
 - [check-roofing-heroes.mjs](check-roofing-heroes.mjs)
 - [check-service-comparisons.mjs](check-service-comparisons.mjs)
 - [check-service-pdf.mjs](check-service-pdf.mjs)
@@ -114,6 +115,7 @@ Parent guidance: [repository](../ai-context.md).
 - [crawl-mulehide-catalog.mjs](crawl-mulehide-catalog.mjs)
 - [deploy-cloudways.sh](deploy-cloudways.sh)
 - [extract-service-pdf.py](extract-service-pdf.py)
+- [go-live.mjs](go-live.mjs)
 - [group-trex-collections.mjs](group-trex-collections.mjs)
 - [html-attributes.mjs](html-attributes.mjs)
 - [import-mulehide-commercial.mjs](import-mulehide-commercial.mjs)
@@ -140,6 +142,7 @@ Parent guidance: [repository](../ai-context.md).
 - [sync-product-navigation.mjs](sync-product-navigation.mjs)
 - [thewebguy-logo.txt](thewebguy-logo.txt)
 - [transfer-service-content.mjs](transfer-service-content.mjs)
+- [verification-groups.mjs](verification-groups.mjs)
 - [verify.mjs](verify.mjs)
 - [write-context-maps.mjs](write-context-maps.mjs)
 
@@ -153,3 +156,5 @@ Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rul
 check:siding-review is part of the GitHub-owned verify gate. It protects the five reviewed selectors, real material comparison, seven FAQs, retained horizontal material component and source-matched customer reviews. The client-confirmed $47 financing offer is permitted; do not classify that approved offer as an unverified claim.
 
 verify.mjs runs the ordered verify:steps manifest in GitHub. Source/type/build failures stop dependent work; after a successful build, checks continue independently and emit one VERIFICATION_RESULT summary of all failing check names. Deployment remains blocked on any failure. Models should consume that compact result and bounded error excerpts, not successful logs.
+
+For an authorized go-live request, commit the approved changes and run `npm run go-live`. This pushes committed main and stays attached to the matching GitHub release; it reports the active flow, immediately surfaces failure annotations with check/file/page details, exits nonzero on failure, and confirms the public release marker before reporting LIVE. Use `npm run deploy:watch` to attach after an existing push. Keep following the command until it returns; fix a reported failure, commit, and run it again. Do not replace this with a push-only handoff or a chat-specific scheduled monitor.

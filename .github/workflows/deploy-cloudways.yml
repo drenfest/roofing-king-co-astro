@@ -1,8 +1,9 @@
 name: Deploy Cloudways review
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch: null
 permissions:
   contents: read
 concurrency:
@@ -17,11 +18,47 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - uses: actions/setup-node@v7.1.0
         with:
-          node-version: '24'
+          node-version: "24"
           cache: npm
       - run: npm ci
-      - name: Verify and build the complete site
-        run: npm run verify
+      - name: Source & types
+        id: foundation
+        run: npm run verify -- --group foundation
+      - name: Build site
+        id: build
+        run: npm run verify -- --group build
+      - name: Routes & contact
+        id: routes_contact
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group routes-contact
+      - name: Services & locations
+        id: services
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group services
+      - name: Products & comparisons
+        id: products
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group products
+      - name: Photography & galleries
+        id: photography
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group photography
+      - name: Blog & navigation
+        id: blog
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group blog
+      - name: Schema & sitemap
+        id: seo
+        if: ${{ !cancelled() && steps.foundation.outcome == 'success' && steps.build.outcome == 'success' }}
+        run: npm run verify -- --group seo
+      - name: Retain per-check verification logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: verification-log
+          path: ${{ runner.temp }}/verification/
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Record the deployed commit
         run: node -e "require('node:fs').writeFileSync('dist/release.json', JSON.stringify({commit:process.env.GITHUB_SHA}) + '\n')"
       - name: Package static output

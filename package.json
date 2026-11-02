@@ -47,9 +47,12 @@
     "check:copy-corrections": "node scripts/check-copy-corrections.mjs",
     "check:product-comparisons": "node scripts/check-product-comparisons.mjs",
     "check:siding-review": "node scripts/check-siding-content-review.mjs",
-    "verify:steps": "npm run check:contexts && npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services && npm run check:products && npm run check:copy-corrections && npm run check:siding-review && npm run check:manufacturer-products && npm run check:product-comparisons && npm run check:product-systems && npm run check:ply-gem && npm run check:service-copy && npm run check:heroes && npm run check:service-reviews && npm run check:service-photos && npm run check:comparisons && npm run check:photography && npm run check:gallery && npm run check:locations && npm run check:articles && npm run check:html-attributes && npm run check:internal-links && npm run check:blog-hubs && npm run check:blog-urls && npm run check:native-articles && npm run check:warranty && npm run check:offers && npm run check:schema && npm run check:sitemap && npm run check:context-output && npm run check:commercial-products",
+    "verify:steps": "npm run check:release-tools && npm run check:contexts && npm run check && npm run build && npm run check:routes && npm run check:homepage && npm run check:services && npm run check:products && npm run check:copy-corrections && npm run check:siding-review && npm run check:manufacturer-products && npm run check:product-comparisons && npm run check:product-systems && npm run check:ply-gem && npm run check:service-copy && npm run check:heroes && npm run check:service-reviews && npm run check:service-photos && npm run check:comparisons && npm run check:photography && npm run check:gallery && npm run check:locations && npm run check:articles && npm run check:html-attributes && npm run check:internal-links && npm run check:blog-hubs && npm run check:blog-urls && npm run check:native-articles && npm run check:warranty && npm run check:offers && npm run check:schema && npm run check:sitemap && npm run check:context-output && npm run check:commercial-products",
     "check:commercial-products": "node scripts/check-commercial-products.mjs",
-    "check:internal-links": "node scripts/check-internal-links.mjs"
+    "check:internal-links": "node scripts/check-internal-links.mjs",
+    "go-live": "node scripts/go-live.mjs",
+    "deploy:watch": "node scripts/go-live.mjs --watch-only",
+    "check:release-tools": "node scripts/check-release-tools.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "9.1.0",

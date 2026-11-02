@@ -36,3 +36,9 @@ SFTP is chrooted to the application root. Upload destinations use relative priva
 All 244 protected public URLs returned HTTP 200 with matching page headings, canonicals and review noindex metadata. See cloudways-review-check.json. Unknown URLs return 404. The original WordPress web files are retained in private_html/astro-deploy/backups/web-root-20261021T001217Z; the Cloudways files/database recovery point remains available. No WordPress runtime remains in public_html.
 
 The public release.json marker identifies the deployed Git commit. The deployment smoke test now checks every canonical sitemap page against the verified build, plus current schema/components, sitemap, essential assets, review crawl restrictions and 404 behavior.
+
+## Shared publisher flow
+
+After committing approved changes on main, run `npm run go-live`. It pushes and watches the exact commit, shows the named GitHub flow, and surfaces failure annotations (check, relevant error, file/page and run URL) within its 15-second polling interval, with a terminal alert and nonzero exit. It does not create commits or deploy uncommitted files. `npm run deploy:watch` watches after a push. Keep the process attached and address failures before calling the site live. Successful completion also checks release.json and the homepage. GitHub displays the same descriptive annotations for publishers using its UI.
+
+Main is verified only in the deployment workflow; the separate verification workflow covers feature branches and pull requests. Both use the same eight flow definitions, all existing checks, and a maximum of two independent checks per flow. Full per-check logs are retained as verification-log artifacts; model-facing output is bounded. A full local suite is not required.

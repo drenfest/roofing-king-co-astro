@@ -30,10 +30,11 @@ await Promise.all(Array.from({length:6},async()=>{
   assert.deepEqual(JSON.parse(remote('script[data-site-schema]').text()),JSON.parse(local('script[data-site-schema]').text()),path+' current structured data and content');
   const components='[data-landing-build=editorial],[data-component=OfferPage],[data-component=NativeArticle],[data-component=ServicePaths]';
   assert.equal(remote(components).length,local(components).length,path+' current components');
-  if(local('[data-contact-actions]').length)assertContactActions(remote,local('[data-contact-actions]').length);
+  if(local('[data-contact-actions]').length)assertContactActions(remote,local('form.rk-quote-form').length);
   const careText=$=>$('[data-product-care]').toArray().map(el=>({type:$(el).attr('data-care-type'),text:$(el).text().replace(/\s+/g,' ').trim()}));
   assert.deepEqual(careText(remote),careText(local),path+' material-specific product care');
-  assert.equal(remote('#quote-form button[type=submit]:not([disabled])').length,0,path+' disconnected forms');
+  assert.equal(remote('#quote-form form[data-form-mode=preview]').length,local('#quote-form form[data-form-mode=preview]').length,path+' visible preview fields');
+  assert.equal(remote('#quote-form form[action]').length,0,path+' no disconnected submission endpoint');
   checked++;
  }
 }));

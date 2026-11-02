@@ -117,3 +117,5 @@ Refresh only the generated blocks with `npm run docs:context`. Keep purpose, rul
 <!-- directory-inventory:end -->
 
 Customer-facing image tips containing “Illustrative” were removed at the client’s request on November 2, 2026. Keep source/provenance classification internally and descriptive alt text, but do not regenerate these labels, hero credits or disclaimer captions. Omit empty caption markup and retain useful manufacturer credits.
+
+For an authorized go-live request, commit the approved changes and run `npm run go-live`. This pushes committed main and stays attached to the matching GitHub release; it reports the active flow, immediately surfaces failure annotations with check/file/page details, exits nonzero on failure, and confirms the public release marker before reporting LIVE. Use `npm run deploy:watch` to attach after an existing push. Keep following the command until it returns; fix a reported failure, commit, and run it again. Do not replace this with a push-only handoff or a chat-specific scheduled monitor.
