@@ -944,5 +944,27 @@
         "width": 1600
       }
     ]
+  },
+  "/media/service-heroes/residential-storm-924.webp": {
+    "width": 924,
+    "height": 520,
+    "variants": [
+      {
+        "src": "/media/service-heroes/residential-storm-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-924.webp",
+        "width": 924
+      }
+    ]
   }
 }

@@ -37,5 +37,42 @@
   ],
   "intent": "Residential storm roof assessment and repair decisions. Parent storm hub and existing Columbus/commercial/claims pages retained without redirects or content consolidation.",
   "discovery": "New navigation child and parent related-service link; existing commercial panel retained.",
-  "verification": "GitHub owns the full verification gate on the next authorized release."
+  "verification": "GitHub owns the full verification gate on the next authorized release.",
+  "hero": {
+    "image": {
+      "src": "/media/service-heroes/residential-storm-924.webp",
+      "alt": "Two-story brick home with white-framed windows, a porch and a shingle roof",
+      "width": 924,
+      "height": 520
+    },
+    "source": {
+      "type": "client-photography",
+      "fileId": "1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh",
+      "url": "https://drive.google.com/file/d/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh/view",
+      "galleryId": "riley-20"
+    },
+    "variants": [
+      {
+        "src": "/media/service-heroes/residential-storm-320.webp",
+        "width": 320,
+        "bytes": 14690
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-480.webp",
+        "width": 480,
+        "bytes": 30900
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-800.webp",
+        "width": 800,
+        "bytes": 73028
+      },
+      {
+        "src": "/media/service-heroes/residential-storm-924.webp",
+        "width": 924,
+        "bytes": 119964
+      }
+    ],
+    "note": "Dedicated responsive crop of the supplied gallery photograph; no upscaling or invented project claim."
+  }
 }

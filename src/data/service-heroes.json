@@ -428,5 +428,21 @@
     },
     "generated": true,
     "objectPosition": "70% center"
+  },
+  "/storm-damage/residential/": {
+    "image": {
+      "src": "/media/service-heroes/residential-storm-924.webp",
+      "alt": "Two-story brick home with white-framed windows, a porch and a shingle roof",
+      "width": 924,
+      "height": 520
+    },
+    "generated": false,
+    "objectPosition": "70% center",
+    "source": {
+      "type": "client-photography",
+      "fileId": "1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh",
+      "url": "https://drive.google.com/file/d/1WiyeuVDgp3Kunt4P71Gxk2pRtvtA-rHh/view",
+      "galleryId": "riley-20"
+    }
   }
 }
