@@ -4,6 +4,8 @@ Client authorized replacing the WordPress review app on 2026-10-20. Production D
 
 ## Target
 
+On November 16, 2026, the authorized DNS cutover and domain certificate setup moved live checks to `https://roofkingco.com/`. The new certificate covers the production domains, not the old temporary Cloudways hostname. The application, SSH destination, recovery storage and review crawl/form restrictions remain the same. The private HUD uses `https://roofkingco.com/hud/` and is documented in private-hud.md.
+
 - App: Roof King Co, app 6519803, server 1269393.
 - URL: https://wordpress-1269393-6519803.cloudwaysapps.com/
 - Host: 167.71.165.18; existing application SSH user: rking.

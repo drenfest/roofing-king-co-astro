@@ -46,7 +46,7 @@ async function main(){
     const excerpt=cli('gh',['run','view',String(run.databaseId),'--log-failed']).split(/\r?\n/).filter(l=>/AssertionError|Error:|error ts\(|SyntaxError|TypeError|VERIFICATION_RESULT|at file:/.test(l)).slice(0,18).join('\n');
     if(excerpt)console.error(excerpt.slice(0,5000));console.error(state.url);process.exitCode=1;return;
    }
-   const base='https://wordpress-1269393-6519803.cloudwaysapps.com';
+   const base='https://roofkingco.com';
    const response=await fetch(base+'/release.json?release='+commit,{signal:AbortSignal.timeout(20000),cache:'no-store'});assert.equal(response.status,200,'Published release marker must respond.');assert.equal((await response.json()).commit,commit,'Live release marker does not match the deployed commit.');
    const page=await fetch(base+'/?release='+commit,{signal:AbortSignal.timeout(20000),cache:'no-store'});assert.equal(page.status,200,'Published homepage must respond.');await page.body?.cancel();
    console.log('LIVE '+commit.slice(0,8)+' — GitHub checks, Cloudways deployment and public revision verification passed.\n'+base+'\n'+state.url);return;

@@ -3,12 +3,12 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {load} from 'cheerio';
 import {assertContactActions} from './contact-checks.mjs';
-const base='https://wordpress-1269393-6519803.cloudwaysapps.com';
+const base='https://roofkingco.com';
 const expected=process.env.REVIEW_EXPECTED_COMMIT||process.env.GITHUB_SHA;
 const query=expected?`?release=${expected}`:'';
 async function get(path){
  const target=new URL(path,base);
- assert.equal(target.origin,base,'Deployment checks must use the Cloudways application origin');
+ assert.equal(target.origin,base,'Deployment checks must use the approved live application origin');
  if(expected)target.searchParams.set('release',expected);
  const response=await fetch(target,{cache:'no-store',signal:AbortSignal.timeout(30000)});
  assert.equal(response.status,200,path);return response;
