@@ -12,6 +12,8 @@ This is the entry point for extending the current Astro/Svelte site. Read AGENTS
 
 ## Architecture and content ownership
 
+The private Search Console HUD is a separate authenticated tool under `dashboard/`, built to `/hud/` with PHP session authentication on Cloudways. Read `dashboard/ai-context.md` and `migration/private-hud.md` before changing it. Its credentials, reporting snapshots and revision-specific Composer runtime stay outside the public directory. It is not a marketing route or sitemap page.
+
 | Work | Primary place to edit |
 | --- | --- |
 | Homepage | src/pages/index.astro, src/data/home.json, shared Home components and project-gallery data |
@@ -109,6 +111,7 @@ These counts describe local source records, not the deployed revision or deliver
 ### Child directories
 
 - [.github/](.github/ai-context.md)
+- [dashboard/](dashboard/ai-context.md)
 - [migration/](migration/ai-context.md)
 - [public/](public/ai-context.md)
 - [scripts/](scripts/ai-context.md)

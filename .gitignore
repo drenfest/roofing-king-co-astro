@@ -8,5 +8,8 @@ dist/
 .DS_Store
 Thumbs.db
 tmp/
+dashboard/server/vendor/
+output/hud-reporting/
+output/hud-roofkingco/
 output/manufacturer-originals/
 output/manufacturer-color-originals/

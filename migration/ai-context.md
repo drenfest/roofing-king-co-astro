@@ -69,6 +69,7 @@ Parent guidance: [repository](../ai-context.md).
 - [ply-gem-image-optimization.json](ply-gem-image-optimization.json)
 - [ply-gem-review.md](ply-gem-review.md)
 - [ply-gem-validation.json](ply-gem-validation.json)
+- [private-hud.md](private-hud.md)
 - [product-catalog-notes.md](product-catalog-notes.md)
 - [product-collection-images.json](product-collection-images.json)
 - [product-color-preview-media.json](product-color-preview-media.json)

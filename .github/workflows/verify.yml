@@ -22,6 +22,8 @@ jobs:
           cache: npm
       - name: Install pinned dependencies
         run: npm ci
+      - name: Install pinned dashboard authentication dependencies
+        run: composer install --working-dir=dashboard/server --no-dev --prefer-dist --no-interaction --no-progress
       - name: Source & types
         id: foundation
         run: npm run verify -- --group foundation

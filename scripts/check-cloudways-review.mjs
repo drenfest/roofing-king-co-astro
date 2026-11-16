@@ -47,4 +47,13 @@ const assets=[stylesheet,home('script[type=module][src]').first().attr('src'),ho
 for(const asset of [...new Set(assets)])await get(asset);
 const review=await(await get('/service-page-review.html')).text();assert.match(review,/noindex/i);
 const missing=await fetch(base+'/this-page-does-not-exist-review-check/'+query,{signal:AbortSignal.timeout(30000)});assert.equal(missing.status,404);
+const hud=await get('/hud/');
+assert.match(hud.headers.get('cache-control')||'',/no-store/,'HUD must bypass public caches');
+const login=await hud.text();assert.match(login,/Sign in with Google/);assert.doesNotMatch(login,/private_marker|pageClicks|queryClicks|clientSecret|<\?php/);
+const anonymousData=await fetch(base+'/hud/index.php?action=data',{cache:'no-store',signal:AbortSignal.timeout(30000)});
+assert.equal(anonymousData.status,401,'Anonymous dashboard data access must be denied');
+for(const privatePath of ['/hud/access.php','/hud/assets.json','/hud/data.json','/hud/composer.json','/hud/vendor/autoload.php','/private_html/roof-king-hud/config.json']){
+ const denied=await fetch(base+privatePath,{cache:'no-store',signal:AbortSignal.timeout(30000)});
+ assert.ok([403,404].includes(denied.status),privatePath+' must not be publicly accessible');
+}
 console.log(`Live commit ${release.commit}: all ${checked} canonical pages match the verified build; sitemap, schema, components, assets, review protections and 404 behavior passed.`);

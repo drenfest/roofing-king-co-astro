@@ -21,6 +21,8 @@ jobs:
           node-version: "24"
           cache: npm
       - run: npm ci
+      - name: Install pinned dashboard authentication dependencies
+        run: composer install --working-dir=dashboard/server --no-dev --prefer-dist --no-interaction --no-progress
       - name: Source & types
         id: foundation
         run: npm run verify -- --group foundation
@@ -62,7 +64,9 @@ jobs:
       - name: Record the deployed commit
         run: node -e "require('node:fs').writeFileSync('dist/release.json', JSON.stringify({commit:process.env.GITHUB_SHA}) + '\n')"
       - name: Package static output
-        run: tar -czf "$RUNNER_TEMP/site.tar.gz" -C dist .
+        run: |
+          tar -czf "$RUNNER_TEMP/site.tar.gz" -C dist .
+          tar -czf "$RUNNER_TEMP/hud-runtime.tar.gz" -C dashboard/server vendor
       - name: Deploy verified output over pinned SSH
         shell: bash
         env:
@@ -85,6 +89,7 @@ jobs:
           target="$DEPLOY_USER@$DEPLOY_HOST"
           ssh "${ssh_opts[@]}" "$target" "mkdir -p '$APP_ROOT/private_html/astro-deploy/incoming'"
           scp "${ssh_opts[@]}" "$RUNNER_TEMP/site.tar.gz" "$target:private_html/astro-deploy/incoming/$GITHUB_SHA.tar.gz"
+          scp "${ssh_opts[@]}" "$RUNNER_TEMP/hud-runtime.tar.gz" "$target:private_html/astro-deploy/incoming/$GITHUB_SHA-hud.tar.gz"
           scp "${ssh_opts[@]}" scripts/deploy-cloudways.sh "$target:private_html/astro-deploy/deploy-$GITHUB_SHA.sh"
           ssh "${ssh_opts[@]}" "$target" "bash '$APP_ROOT/private_html/astro-deploy/deploy-$GITHUB_SHA.sh' '$APP_ROOT' '$GITHUB_SHA'"
       - name: Check review site after deployment

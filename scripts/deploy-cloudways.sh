@@ -29,6 +29,19 @@ grep -q '<meta name="robots" content="noindex, nofollow"' "$release/index.html" 
 [[ -z "$(find "$release" -type l -print -quit)" ]] || { echo "Unexpected symlink in build" >&2; exit 1; }
 find "$release" -type d -exec chmod 755 {} +
 find "$release" -type f -exec chmod 644 {} +
+# Authentication dependencies live outside the public directory. Each release
+# references its own immutable runtime so public rollback also restores its code.
+hud_archive="$work/incoming/$release_id-hud.tar.gz"
+hud_runtime="$app_root/private_html/roof-king-hud/runtimes/$release_id"
+[[ -f "$hud_archive" && ! -e "$hud_runtime" ]] || { echo "Missing HUD runtime or existing release" >&2; exit 1; }
+while IFS= read -r entry; do
+  [[ "$entry" == vendor/* && "$entry" != */../* ]] || { echo "Unsafe HUD archive member" >&2; exit 1; }
+done < <(tar -tzf "$hud_archive")
+mkdir -p "$hud_runtime"
+tar -xzf "$hud_archive" -C "$hud_runtime" --no-same-owner
+[[ -f "$hud_runtime/vendor/autoload.php" && -z "$(find "$hud_runtime" -type l -print -quit)" ]] || { echo "Invalid HUD runtime" >&2; exit 1; }
+find "$hud_runtime" -type d -exec chmod 750 {} +
+find "$hud_runtime" -type f -exec chmod 640 {} +
 # Preserve the ACME challenge directory used for certificate renewal.
 if [[ -d "$app_root/public_html/.well-known" ]]; then cp -a "$app_root/public_html/.well-known" "$release/"; fi
 stamp=$(date -u +%Y%m%dT%H%M%SZ)

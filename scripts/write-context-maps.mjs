@@ -3,8 +3,8 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {parse} from 'yaml';
 
-export const managedRoots=['.github','migration','public','scripts','src'];
-const excluded=new Set(['.git','.astro','.idea','node_modules','dist','tmp','output']);
+export const managedRoots=['.github','dashboard','migration','public','scripts','src'];
+const excluded=new Set(['.git','.astro','.idea','node_modules','vendor','dist','tmp','output']);
 const mapNames=new Set(['ai-context.md','_ai-context.md']);
 const sort=(a,b)=>a<b?-1:a>b?1:0;
 const link=value=>encodeURI(value).replaceAll('(','%28').replaceAll(')','%29');
