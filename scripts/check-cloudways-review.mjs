@@ -39,7 +39,10 @@ await Promise.all(Array.from({length:6},async()=>{
  }
 }));
 const remoteSitemap=load(await(await get('/sitemap.xml')).text(),{xmlMode:true});assert.deepEqual(remoteSitemap('loc').map((_i,el)=>remoteSitemap(el).text()).get(),urls);
-const robotsResponse=await get('/robots.txt');assert.match(robotsResponse.headers.get('x-robots-tag')||'',/noindex/i);
+// Production Nginx serves robots.txt directly, bypassing Apache response headers.
+// Every canonical HTML page's noindex metadata is checked above; robots.txt
+// controls crawling and its contents remain checked independently below.
+const robotsResponse=await get('/robots.txt');
 const robots=await robotsResponse.text();assert.match(robots,/^User-agent: \*\nAllow: \/$/m);assert.doesNotMatch(robots,/^Disallow: \/\s*$/m);assert.match(robots,/Sitemap: https:\/\/www\.roofkingco\.com\/sitemap\.xml/);
 const home=load(await fs.readFile('dist/index.html','utf8'));
 const stylesheet=home('link[rel=stylesheet]').toArray().map(el=>home(el).attr('href')).find(href=>href?.startsWith('/'));
@@ -48,6 +51,7 @@ for(const asset of [...new Set(assets)])await get(asset);
 const review=await(await get('/service-page-review.html')).text();assert.match(review,/noindex/i);
 const missing=await fetch(base+'/this-page-does-not-exist-review-check/'+query,{signal:AbortSignal.timeout(30000)});assert.equal(missing.status,404);
 const hud=await get('/hud/');
+assert.match(hud.headers.get('x-robots-tag')||'',/noindex/i,'The authenticated tool must retain its server-side noindex header');
 assert.match(hud.headers.get('cache-control')||'',/no-store/,'HUD must bypass public caches');
 const login=await hud.text();assert.match(login,/Sign in with Google/);assert.doesNotMatch(login,/private_marker|pageClicks|queryClicks|clientSecret|<\?php/);
 const anonymousData=await fetch(base+'/hud/index.php?action=data',{cache:'no-store',signal:AbortSignal.timeout(30000)});

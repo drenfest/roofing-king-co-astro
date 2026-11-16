@@ -482,7 +482,7 @@
       </label>
       <label class="search-control">
         <span>Find a page or query</span>
-        <input bind:value={search} type="search" placeholder="Try wordpress, /services, debugging…" />
+        <input bind:value={search} type="search" placeholder="Try roof repair, /roofing/, gutters…" />
       </label>
     </section>
 
