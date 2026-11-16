@@ -44,6 +44,9 @@ try {
   assert.equal(response.status, 400);
   response = await fetch(url + '?action=logout');
   assert.equal(response.status, 403);
+  response = await fetch(url, { headers: { Host: 'www.roofkingco.com' }, redirect: 'manual' });
+  assert.equal(response.status, 303, 'The www dashboard must use the same session host as OAuth');
+  assert.equal(response.headers.get('location'), 'https://roofkingco.com/hud/');
   console.log(run.stdout.trim() + '\nHUD HTTP: anonymous data denied; identity-only OAuth; hardened cookies and cache headers.');
 } finally {
   if (server && server.exitCode === null) { const exited = new Promise(resolve => server.once('exit', resolve)); server.kill(); await exited; }

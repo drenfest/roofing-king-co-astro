@@ -26,6 +26,8 @@ try {
 } catch (Throwable $error) { hudFail(503, 'The dashboard sign-in is being configured. Please try again shortly.'); }
 
 $origin = 'https://roofkingco.com';
+// Keep the session and callback on one host, including visits from the www site.
+if (strtolower((string)($_SERVER['HTTP_HOST'] ?? '')) === 'www.roofkingco.com') hudRedirect($origin . '/hud/');
 // Never derive OAuth destinations from untrusted Host/forwarded headers.
 $callback = $origin . '/hud/index.php?action=callback';
 $allowed = array_map('strtolower', $config['allowedEmails'] ?? []);
