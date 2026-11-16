@@ -8,12 +8,12 @@ This directory retains a route/source record. Read the ownership block below bef
 - Record permalink: `/about/`.
 - Canonical target: `/about-us/`.
 - Manifest paths using this record: `/about/`.
-- Content family: Native purpose-specific page.
-- Renderer: `src/pages/about-us.astro`.
-- Edit visible content in: `src/data/site.json; the page-specific imports in the native entry point`.
+- Content family: Preserved legacy page.
+- Renderer: `src/pages/[...path].astro; src/layouts/SiteLayout.astro`.
+- Edit visible content in: `This index.md body and its explicit frontmatter`.
 - Recorded source: `wordpress-alternate-route`; sourcePath: `/about-us/`.
 
-Edit its native composition/data helpers. Reuse PageHero, Breadcrumbs, relevant cards/maps/FAQ and QuoteSection. The retained index body does not control its visible layout.
+This body can still render through the legacy shell. Preserve sanitized content, original URLs, provenance and canonical preferences. A native conversion needs an explicit route, catchall exclusion and full validation; never casually rewrite all legacy pages.
 
 Paths above are repository-relative, not relative to this deeply nested directory. Metadata is validated by src/content.config.ts and the route/URL checks.
 <!-- route-context:end -->
