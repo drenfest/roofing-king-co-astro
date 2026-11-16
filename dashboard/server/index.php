@@ -25,7 +25,7 @@ try {
     if (!is_array($config) || empty($config['clientId']) || empty($config['clientSecret'])) throw new RuntimeException('Configuration unavailable');
 } catch (Throwable $error) { hudFail(503, 'The dashboard sign-in is being configured. Please try again shortly.'); }
 
-$origin = 'https://www.roofkingco.com';
+$origin = 'https://roofkingco.com';
 // Never derive OAuth destinations from untrusted Host/forwarded headers.
 $callback = $origin . '/hud/index.php?action=callback';
 $allowed = array_map('strtolower', $config['allowedEmails'] ?? []);

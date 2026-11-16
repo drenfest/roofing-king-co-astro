@@ -37,7 +37,7 @@ try {
   const google = new URL(response.headers.get('location'));
   assert.equal(google.origin, 'https://accounts.google.com');
   assert.equal(google.searchParams.get('scope'), 'openid email profile');
-  assert.equal(google.searchParams.get('redirect_uri'), 'https://www.roofkingco.com/hud/index.php?action=callback');
+  assert.equal(google.searchParams.get('redirect_uri'), 'https://roofkingco.com/hud/index.php?action=callback');
   assert.equal(google.searchParams.get('code_challenge_method'), 'S256');
   assert.ok(google.searchParams.get('nonce')); assert.ok(google.searchParams.get('state'));
   response = await fetch(url + '?action=callback&state=forged&code=forged');

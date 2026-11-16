@@ -1,10 +1,10 @@
 # Roof King Search Console HUD
 
-The private dashboard is served at `https://www.roofkingco.com/hud/` by the existing Cloudways application. The marketing site remains Astro. The Svelte report interface comes from the established TheWebGuy dashboard and supports Week, Month and Quarter comparisons, page/query selection, trend charts and CSV/JSON/PDF exports. Data is a dated snapshot; it is not presented as a live feed.
+The private dashboard is served at `https://roofkingco.com/hud/` by the existing Cloudways application. The marketing site remains Astro. The Svelte report interface comes from the established TheWebGuy dashboard and supports Week, Month and Quarter comparisons, page/query selection, trend charts and CSV/JSON/PDF exports. Data is a dated snapshot; it is not presented as a live feed.
 
 ## Authentication and storage
 
-Use the dedicated `roof-king-hud` Google Cloud project and a web OAuth client. The exact authorized callback is `https://www.roofkingco.com/hud/index.php?action=callback`. Sign-in requests only `openid email profile`. Google sign-in grants no Gmail, Search Console or other Google-data access. The server validates verified email and exact allowlist membership on each protected request. Sessions expire after eight hours; removing an email from the private allowlist revokes its existing sessions on the next request.
+Use the dedicated `roof-king-hud` Google Cloud project and a web OAuth client. The exact authorized callback is `https://roofkingco.com/hud/index.php?action=callback`. Sign-in requests only `openid email profile`. Google sign-in grants no Gmail, Search Console or other Google-data access. The server validates verified email and exact allowlist membership on each protected request. Sessions expire after eight hours; removing an email from the private allowlist revokes its existing sessions on the next request.
 
 Private application storage is `private_html/roof-king-hud`, outside the public web root:
 
