@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { spawn, spawnSync } from 'node:child_process';
+import { request } from 'node:http';
 
 const run = spawnSync('php', ['dashboard/server/security-tests.php'], { encoding: 'utf8' });
 assert.equal(run.status, 0, run.stdout + run.stderr);
@@ -44,9 +45,15 @@ try {
   assert.equal(response.status, 400);
   response = await fetch(url + '?action=logout');
   assert.equal(response.status, 403);
-  response = await fetch(url, { headers: { Host: 'www.roofkingco.com' }, redirect: 'manual' });
-  assert.equal(response.status, 303, 'The www dashboard must use the same session host as OAuth');
-  assert.equal(response.headers.get('location'), 'https://roofkingco.com/hud/');
+  const canonical = await new Promise((resolve, reject) => {
+    const req = request(url, { headers: { Host: 'www.roofkingco.com' } }, res => {
+      res.resume();
+      res.on('end', () => resolve({ status: res.statusCode, location: res.headers.location }));
+    });
+    req.on('error', reject); req.end();
+  });
+  assert.equal(canonical.status, 303, 'The www dashboard must use the same session host as OAuth');
+  assert.equal(canonical.location, 'https://roofkingco.com/hud/');
   console.log(run.stdout.trim() + '\nHUD HTTP: anonymous data denied; identity-only OAuth; hardened cookies and cache headers.');
 } finally {
   if (server && server.exitCode === null) { const exited = new Promise(resolve => server.once('exit', resolve)); server.kill(); await exited; }
