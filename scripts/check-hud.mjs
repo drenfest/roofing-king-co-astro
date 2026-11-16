@@ -18,7 +18,11 @@ try {
   await fs.writeFile(path.join(temp, 'public_html/hud/index.php'), index);
   await fs.writeFile(path.join(temp, 'private_html/roof-king-hud/config.json'), JSON.stringify({ clientId: 'fixture-client', clientSecret: 'fixture-secret', allowedEmails: ['member@example.com'] }));
   await fs.writeFile(path.join(temp, 'private_html/roof-king-hud/data/dashboard.json'), '{"private_marker":"must-not-leak"}');
-  server = spawn('php', ['-S', '127.0.0.1:18769', '-t', path.join(temp, 'public_html')], { stdio: 'ignore' });
+  // Match production's existing-file routing. PHP's development server otherwise
+  // sends missing helper URLs to the nearest index.php and returns a false 200.
+  const router = path.join(temp, 'router.php');
+  await fs.writeFile(router, "<?php if (!is_file(__DIR__ . '/public_html' . parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH))) { http_response_code(404); exit; } return false;");
+  server = spawn('php', ['-S', '127.0.0.1:18769', '-t', path.join(temp, 'public_html'), router], { stdio: 'ignore' });
   const url = 'http://127.0.0.1:18769/hud/index.php';
   let response;
   for (let attempt = 0; attempt < 40; attempt++) {
