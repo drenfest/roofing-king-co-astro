@@ -38,5 +38,18 @@ const cases={
 for(const [path,expected]of Object.entries(cases)){const $=await html(path),headings=$('main h2,main h3').map((_,e)=>$(e).text()).get();for(const heading of expected)assert.ok(headings.includes(heading),path+' '+heading);assert.equal($('.rk-service-hero-credit').text(),'Roof repair illustration.');assert.equal($('.rk-comparison-caption').text(),'');assertContactActions($);}
 const dublin=await html('/roof-repair-dublin-oh/');assert.ok(dublin('figcaption').toArray().some(e=>dublin(e).text()==='Photo supplied by Roof King.'));assert.equal(lineage('.rk-service-hero-credit').text(),'Manufacturer photo courtesy of Trex.');
 const sitemap=load(await fs.readFile('dist/sitemap.xml','utf8'),{xmlMode:true});let contacts=0;
+const confirmed=await read('migration/client-checklist-confirmed-2026-11-06.json');
+const site=await read('src/data/site.json');
+assert.equal(site.phone,confirmed.confirmed.phone,'Use the latest client-confirmed website phone');
+assert.equal(site.phoneHref,confirmed.confirmed.phoneHref,'The call link must match the latest confirmation');
+assert.ok(contactPage('address').text().includes(site.address.streetAddress)&&contactPage('address').text().includes(`${site.address.addressLocality}, ${site.address.addressRegion} ${site.address.postalCode}`),'Show the sole confirmed office');
+const team=await html('/our-team/');
+assert.equal(team('.rk-retained-person h3').text(),confirmed.confirmed.leader.name,'Show the confirmed team member');
+assert.equal(team('.rk-retained-person p').text(),confirmed.confirmed.leader.role,'Use the confirmed CEO title');
+assert.ok(team('.rk-retained-person img').attr('srcset').includes(confirmed.headshot.publicImage),'Use the supplied responsive headshot');
+const sharp=(await import('sharp')).default;
+const companyMedia=await read('src/data/company-media.json');let headshotBytes=0;
+for(const variant of companyMedia[confirmed.headshot.publicImage].variants){const file='public'+variant.src;const meta=await sharp(file).metadata();assert.ok(!meta.exif,'Headshot must not expose camera metadata');assert.equal(meta.width,variant.width);headshotBytes+=(await fs.stat(file)).size;}
+assert.equal(headshotBytes,confirmed.headshot.totalBytes,'Record the delivered headshot bytes');
 for(const url of sitemap('loc').map((_,e)=>sitemap(e).text()).get()){const $=await html(new URL(url).pathname);if($('#quote-form [data-contact-actions]').length){assertContactActions($);contacts++;}}
 console.log(`PDF corrections passed; ${count} product pages use ${seen.size} material/component care profiles, and ${contacts} canonical pages show working booking/phone actions instead of unavailable forms.`);

@@ -25,6 +25,8 @@ ServiceLanding and PolishedServicePage use the same photographic hero design and
 
 ## Extending a shell
 
+RetainedResourcePage optionally renders a typed `data.people` collection with responsive HomeImage portraits, names and roles before the existing body sections. `/our-team/` uses the client-confirmed CEO profile; preserve the existing section IDs and contextual links when editing it.
+
 Use optional typed props or a shared component for a repeated requirement. Keep route-specific copy out of layout conditionals when a data field can express it. Preserve DocumentLayout's canonical/noindex behavior, shared font loading, SiteMotion and footer flow. Do not bundle SiteLayout/WordPress compatibility CSS into a native family just to reuse its header.
 
 Changing a shell affects many routes. Check a previous consumer, the new case, desktop/mobile layout, SSR/no-JS behavior and the page family's regression checks. Schema and required image/link attributes are consolidated by middleware/build integrations; do not create a second independent graph or a parallel document shell.

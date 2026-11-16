@@ -18,6 +18,8 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 
 ## Authoring workflows
 
+`optimize-company-media.mjs` preserves the existing company-media registry. An optional private original argument prepares the client-supplied Jared Lane headshot; ordinary builds do not read that original. Keep the source hash and optimized sizes in the November 6 checklist record, and never publish the original email attachment.
+
 | Work | Tools / important boundaries |
 | --- | --- |
 | Service prose/presentation | author-service-landings.mjs and apply-service-pdf.mjs can rewrite many routes and apply family defaults/source copy. Inspect reviewed overrides and ten-page batch records first; update the actual adapter/input if a change must survive regeneration. Do not reset reviewed pages to generic defaults. |

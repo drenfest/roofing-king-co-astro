@@ -6,7 +6,7 @@ import navigation from '../data/navigation.json';
   <div class="rk-section-inner rk-footer-grid">
     <div class="rk-footer-contact">
       <a href="/" aria-label={site.name}><img class="rk-footer-logo" src="/media/wordpress/2b1fb60b5770-logo.png" alt={site.name} width="154" height="106" loading="lazy" /></a>
-      <p><strong>Headquarters</strong><br />{site.address.streetAddress}<br />{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}, USA</p>
+      <p><strong>Office</strong><br />{site.address.streetAddress}<br />{site.address.addressLocality}, {site.address.addressRegion} {site.address.postalCode}, USA</p>
       <a class="rk-phone" href={site.phoneHref}>{site.phone}</a>
       <ul class="rk-social-menu" aria-label="Social links">{navigation.socials.map(social => <li><a class={`rk-social-link rk-social-link-${social.label.toLowerCase()}`} href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.label}><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d={social.path} /></svg></a></li>)}</ul>
     </div>

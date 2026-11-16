@@ -674,5 +674,23 @@
         "width": 970
       }
     ]
+  },
+  "/media/company/jared-lane-1123.webp": {
+    "width": 1123,
+    "height": 1251,
+    "variants": [
+      {
+        "src": "/media/company/jared-lane-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/media/company/jared-lane-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/media/company/jared-lane-1123.webp",
+        "width": 1123
+      }
+    ]
   }
 }

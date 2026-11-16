@@ -294,7 +294,17 @@
       }
     ],
     "pageTitle": "Meet the Roof King Team | Roof King & Restoration",
-    "contextLinks": []
+    "contextLinks": [],
+    "people": [
+      {
+        "name": "Jared Lane",
+        "role": "CEO",
+        "image": {
+          "src": "/media/company/jared-lane-1123.webp",
+          "alt": "Jared Lane, CEO of Roof King & Restoration"
+        }
+      }
+    ]
   },
   "/past-projects/project/1706300/": {
     "path": "/past-projects/project/1706300/",

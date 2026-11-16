@@ -31,6 +31,7 @@ Parent guidance: [repository](../ai-context.md).
 - [blue-house-image-replacements-2026-11-01.json](blue-house-image-replacements-2026-11-01.json)
 - [brand-inventory.md](brand-inventory.md)
 - [build-audit.json](build-audit.json)
+- [client-checklist-confirmed-2026-11-06.json](client-checklist-confirmed-2026-11-06.json)
 - [client-gallery-inventory.json](client-gallery-inventory.json)
 - [client-gallery-review.md](client-gallery-review.md)
 - [client-photography-review.json](client-photography-review.json)

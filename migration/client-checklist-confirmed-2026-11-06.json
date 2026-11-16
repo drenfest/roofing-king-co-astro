@@ -1,0 +1,44 @@
+{
+  "source": {
+    "subject": "Fwd: Checklist for the new site",
+    "messageId": "1a1b2fd77df7723f",
+    "confirmationAuthor": "Jared Lane",
+    "date": "2026-11-06",
+    "appliedDate": "2026-11-16"
+  },
+  "confirmed": {
+    "phone": "(614) 379-8893",
+    "phoneHref": "tel:+16143798893",
+    "oldNumberUse": "490-0123 stays only on yard signs.",
+    "office": "6155 Huntley Rd N STE L, Columbus, OH 43229",
+    "projectSites": ["Timberman Rd", "Haines Ave"],
+    "leader": {"name": "Jared Lane", "role": "CEO"},
+    "bookingProvider": "Calendly",
+    "bookingAccount": "info@roofkingco.com",
+    "bookingUrl": "https://calendly.com/roofkingco-info/30-minute-roof-deck-inspection",
+    "intendedLeadRecipients": ["info@roofkingco.com", "Shillyer@roofkingco.com"]
+  },
+  "headshot": {
+    "attachmentFilename": "jared-lane-headshot.jpg",
+    "sourceSha256": "7de3cc83689e32bbf9740de5b2ff400d254d9f86610b8088fb6c2145136e505e",
+    "sourceWidth": 1123,
+    "sourceHeight": 1251,
+    "publicImage": "/media/company/jared-lane-1123.webp",
+    "variantWidths": [480, 800, 1123],
+    "totalBytes": 81362,
+    "processing": "WebP derivatives without enlargement or camera metadata; registered in company-media.json. Original remains private."
+  },
+  "implementation": [
+    "Central business identity and authored runtime phone references now use the November 6 confirmation, superseding the November 2 phone instruction.",
+    "Team page uses an optional typed people collection in the existing retained-resource layout with HomeImage responsive derivatives.",
+    "Existing Calendly booking actions already use the supplied account URL. Roofr remains an instant estimate calculator, not the inspection booking provider.",
+    "Timberman Rd and Haines Ave remain project records, not additional office locations.",
+    "Review records were preserved. This change does not invent platform verification or republish unverified self-hosted reviews."
+  ],
+  "remainingDependencies": [
+    "Custom quote delivery remains disconnected until a separately requested delivery integration is verified. The confirmed recipients are recorded above; no email was sent.",
+    "Lewis Center completion photographs and the selected Columbus siding case study/photos are still client-supplied dependencies.",
+    "The November 11 Search Console email reports merchant-listing offer dates on www.roofkingco.com. This Astro build does not author priced merchant Offers, so no fictional expiration was added. The affected indexed URL/schema owner and an actual offer expiry are still needed to resolve the production warning.",
+    "Domain, advertising, source-photo access and final Calendly-account confirmation stay with the people assigned in the checklist."
+  ]
+}
