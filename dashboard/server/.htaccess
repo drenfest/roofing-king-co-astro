@@ -1,6 +1,6 @@
 DirectoryIndex index.php
 Options -Indexes
-<FilesMatch "^(index|access)\.php$">
+<FilesMatch "^index\.php$">
   Require all granted
 </FilesMatch>
 <FilesMatch "^(access\.php|assets\.json|ai-context\.md)$">

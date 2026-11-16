@@ -12,8 +12,10 @@ let server;
 try {
   await fs.mkdir(path.join(temp, 'public_html/hud'), { recursive: true });
   await fs.mkdir(path.join(temp, 'private_html/roof-king-hud/data'), { recursive: true });
-  for (const file of ['index.php', 'access.php']) await fs.copyFile(`dashboard/server/${file}`, path.join(temp, 'public_html/hud', file));
-  await fs.writeFile(path.join(temp, 'public_html/hud/assets.json'), JSON.stringify({ file: 'test.js', css: [] }));
+  const access = (await fs.readFile('dashboard/server/access.php', 'utf8')).replace(/^<\?php\s*declare\(strict_types=1\);\s*/, '');
+  const assets = Buffer.from(JSON.stringify({ file: 'test.js', css: [] })).toString('base64');
+  const index = (await fs.readFile('dashboard/server/index.php', 'utf8')).replace("require __DIR__ . '/access.php';", access).replaceAll('@HUD_ASSETS@', assets);
+  await fs.writeFile(path.join(temp, 'public_html/hud/index.php'), index);
   await fs.writeFile(path.join(temp, 'private_html/roof-king-hud/config.json'), JSON.stringify({ clientId: 'fixture-client', clientSecret: 'fixture-secret', allowedEmails: ['member@example.com'] }));
   await fs.writeFile(path.join(temp, 'private_html/roof-king-hud/data/dashboard.json'), '{"private_marker":"must-not-leak"}');
   server = spawn('php', ['-S', '127.0.0.1:18769', '-t', path.join(temp, 'public_html')], { stdio: 'ignore' });
@@ -33,6 +35,10 @@ try {
   response = await fetch(url + '?action=data');
   assert.equal(response.status, 401);
   assert.doesNotMatch(await response.text(), /must-not-leak/);
+  for (const name of ['access.php', 'assets.json']) {
+    const missing = await fetch(url.replace('index.php', name));
+    assert.equal(missing.status, 404, 'Only the dashboard entry point should be public');
+  }
   response = await fetch(url + '?action=login', { redirect: 'manual' });
   assert.equal(response.status, 303);
   const google = new URL(response.headers.get('location'));

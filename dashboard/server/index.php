@@ -100,7 +100,7 @@ try {
     hudFail(502, 'Google sign-in could not be completed. Return to /hud/ and try again.');
 }
 header('Content-Type: text/html; charset=utf-8');
-$asset = json_decode((string)file_get_contents(__DIR__ . '/assets.json'), true, 16, JSON_THROW_ON_ERROR);
+$asset = json_decode(base64_decode('@HUD_ASSETS@'), true, 16, JSON_THROW_ON_ERROR);
 ?>
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Roof King HUD | Search Performance</title>
 <link rel="stylesheet" href="/hud/shell.css">
