@@ -6,7 +6,7 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 
 ## Safe daily commands
 
-`build-hud.mjs` builds only public interface code and the PHP entry point. `check-hud.mjs` runs authorization/token tests and an isolated HTTP fixture in GitHub. `refresh-hud-data.mjs` is a separately invoked private authoring operation using existing Google credentials to read only the Roof King Search Console property; it writes ignored snapshots under output/hud-reporting, never dist. See migration/private-hud.md for private upload and refresh boundaries.
+`build-hud.mjs` builds only public interface code and the PHP entry point. `check-hud.mjs` runs authorization/token tests and an isolated HTTP fixture in GitHub. `refresh-hud-data.mjs` reads only the Roof King property and supports atomic `--publish` through hud-refresh-publication.mjs; hud-reporting-auth.mjs enforces the dedicated server credential's read-only scope. The private daily wrapper and idempotent cron installer are refresh-hud-daily.sh and install-hud-cron.sh. GitHub runs check-hud-refresh.mjs for publication failure preservation, restricted scopes, shell syntax and DST scheduling. No reporting configuration, data or collector module belongs in dist. See migration/private-hud.md for schedule, private storage, manual recovery and release boundaries.
 
 `internal-links.mjs` performs approved page-specific link enrichment using `src/data/internal-link-plan.json`. It is shared by dev middleware and a static build integration, runs before attribute/schema completion, and uses idempotent instruction IDs. Match exact paragraph context first; preserve text and inline formatting, never nest anchors, and retain image elements for image-link retargets. Missing/ambiguous placements fail the build rather than silently moving links. `check:internal-links` validates generated HTML; `node scripts/check-internal-links.mjs --local` is an optional targeted local diagnostic. Proposal provenance and preservation evidence are recorded in `migration/internal-links-review-2026-11-01.json`.
 
@@ -94,6 +94,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-gallery.mjs](check-gallery.mjs)
 - [check-homepage.mjs](check-homepage.mjs)
 - [check-html-attributes.mjs](check-html-attributes.mjs)
+- [check-hud-refresh.mjs](check-hud-refresh.mjs)
 - [check-hud.mjs](check-hud.mjs)
 - [check-internal-links.mjs](check-internal-links.mjs)
 - [check-location-hubs.mjs](check-location-hubs.mjs)
@@ -125,8 +126,11 @@ Parent guidance: [repository](../ai-context.md).
 - [group-trex-collections.mjs](group-trex-collections.mjs)
 - [html-attributes.mjs](html-attributes.mjs)
 - [hud-data-loader.mjs](hud-data-loader.mjs)
+- [hud-refresh-publication.mjs](hud-refresh-publication.mjs)
+- [hud-reporting-auth.mjs](hud-reporting-auth.mjs)
 - [import-mulehide-commercial.mjs](import-mulehide-commercial.mjs)
 - [import-wordpress.mjs](import-wordpress.mjs)
+- [install-hud-cron.sh](install-hud-cron.sh)
 - [internal-links.mjs](internal-links.mjs)
 - [migrate-blog-urls.mjs](migrate-blog-urls.mjs)
 - [optimize-company-media.mjs](optimize-company-media.mjs)
@@ -143,6 +147,7 @@ Parent guidance: [repository](../ai-context.md).
 - [prepare-manufacturer-media.mjs](prepare-manufacturer-media.mjs)
 - [prepare-product-color-previews.mjs](prepare-product-color-previews.mjs)
 - [prepare-service-comparisons.mjs](prepare-service-comparisons.mjs)
+- [refresh-hud-daily.sh](refresh-hud-daily.sh)
 - [refresh-hud-data.mjs](refresh-hud-data.mjs)
 - [review-service-pages.mjs](review-service-pages.mjs)
 - [sitemap.mjs](sitemap.mjs)

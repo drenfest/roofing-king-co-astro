@@ -66,7 +66,7 @@ jobs:
       - name: Package static output
         run: |
           tar -czf "$RUNNER_TEMP/site.tar.gz" -C dist .
-          tar -czf "$RUNNER_TEMP/hud-runtime.tar.gz" -C dashboard/server vendor
+          tar -czf "$RUNNER_TEMP/hud-runtime.tar.gz" -C dashboard/server vendor -C "$GITHUB_WORKSPACE/scripts" refresh-hud-data.mjs hud-data-loader.mjs hud-reporting-auth.mjs hud-refresh-publication.mjs refresh-hud-daily.sh
       - name: Deploy verified output over pinned SSH
         shell: bash
         env:

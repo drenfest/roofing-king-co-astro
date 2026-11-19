@@ -1,5 +1,5 @@
 export const verificationGroups = [
- {id:'foundation',name:'Source & types',checks:['check:release-tools','check:hud','check:contexts','check']},
+ {id:'foundation',name:'Source & types',checks:['check:release-tools','check:hud','check:hud-refresh','check:contexts','check']},
  {id:'build',name:'Build site',checks:['build']},
  {id:'routes-contact',name:'Routes & contact',checks:['check:routes','check:homepage','check:html-attributes','check:internal-links','check:context-output']},
  {id:'services',name:'Services & locations',checks:['check:services','check:copy-corrections','check:siding-review','check:service-copy','check:service-reviews','check:locations','check:comparisons','check:articles','check:warranty','check:offers']},

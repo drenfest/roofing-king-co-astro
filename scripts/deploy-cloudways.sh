@@ -35,11 +35,14 @@ hud_archive="$work/incoming/$release_id-hud.tar.gz"
 hud_runtime="$app_root/private_html/roof-king-hud/runtimes/$release_id"
 [[ -f "$hud_archive" && ! -e "$hud_runtime" ]] || { echo "Missing HUD runtime or existing release" >&2; exit 1; }
 while IFS= read -r entry; do
-  [[ "$entry" == vendor/* && "$entry" != */../* ]] || { echo "Unsafe HUD archive member" >&2; exit 1; }
+  [[ "$entry" != */../* && ( "$entry" == vendor/* || "$entry" == refresh-hud-data.mjs || "$entry" == hud-data-loader.mjs || "$entry" == hud-reporting-auth.mjs || "$entry" == hud-refresh-publication.mjs || "$entry" == refresh-hud-daily.sh ) ]] || { echo "Unsafe HUD archive member" >&2; exit 1; }
 done < <(tar -tzf "$hud_archive")
 mkdir -p "$hud_runtime"
 tar -xzf "$hud_archive" -C "$hud_runtime" --no-same-owner
 [[ -f "$hud_runtime/vendor/autoload.php" && -z "$(find "$hud_runtime" -type l -print -quit)" ]] || { echo "Invalid HUD runtime" >&2; exit 1; }
+for collector_file in refresh-hud-data.mjs hud-data-loader.mjs hud-reporting-auth.mjs hud-refresh-publication.mjs refresh-hud-daily.sh; do
+  [[ -f "$hud_runtime/$collector_file" ]] || { echo "Incomplete HUD collector runtime" >&2; exit 1; }
+done
 find "$hud_runtime" -type d -exec chmod 750 {} +
 find "$hud_runtime" -type f -exec chmod 640 {} +
 # Preserve the ACME challenge directory used for certificate renewal.
@@ -72,5 +75,8 @@ mv -- "${incoming[@]}" "$app_root/public_html/"
 phase=done
 trap - EXIT
 printf '%s\n' "$release_id" > "$work/current-commit"
+cp "$hud_runtime/refresh-hud-daily.sh" "$app_root/private_html/roof-king-hud/refresh-hud-daily.sh.uploading"
+chmod 750 "$app_root/private_html/roof-king-hud/refresh-hud-daily.sh.uploading"
+mv "$app_root/private_html/roof-king-hud/refresh-hud-daily.sh.uploading" "$app_root/private_html/roof-king-hud/refresh-hud-daily.sh"
 printf '%s\n' "$previous" > "$work/previous-web-root"
 printf 'Deployed %s; previous web root retained at %s\n' "$release_id" "$previous"

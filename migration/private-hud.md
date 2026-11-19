@@ -16,13 +16,23 @@ The authorized account list is managed privately; there is no public registratio
 
 ## Refreshing the report
 
-`npm run hud:refresh -- --config <private-Google-config-path> --start-date YYYY-MM-DD --end-date YYYY-MM-DD` uses existing read-only Search Console access to `sc-domain:roofkingco.com`. The config format has `clientId`, `clientSecret` and `refreshToken`; credentials stay on the operator's computer. The default path uses the existing reporting configuration under the operator's home directory. Only the Roof King property is queried.
+`npm run hud:refresh -- --config <private-Google-config-path> --start-date YYYY-MM-DD --end-date YYYY-MM-DD` reads only `sc-domain:roofkingco.com`. The config format has `clientId`, `clientSecret` and `refreshToken`. Manual local runs can use the existing reporting configuration under the operator's home directory. The daily server job uses a separate, explicitly authorized credential with only `https://www.googleapis.com/auth/webmasters.readonly`, stored as private `reporting-oauth.json` with `requireReadonlyScope: true` and mode 600. It has no Gmail or Analytics permissions and is separate from client dashboard sign-in.
 
 Outputs are ignored files under `output/hud-reporting`: the comparison CSV and `dashboard.json`. The normal build does not read them. Upload the JSON over the pinned application SSH connection to a temporary private data filename, then atomically rename it to `data/dashboard.json` and apply mode 640. Never upload the CSV, report JSON or OAuth tokens into `public_html`, GitHub artifacts or a public static bundle.
 
 The API's finalized web-search rows are aggregated by page and page/query for each period. Query disclosure differs from page totals; missing query rows are unavailable, not zero. Partial periods retain their labels. A report's data-through date is not proof Google crawled a changed page. Optional `output/hud-reporting/observability.json` can supply independently verified events and page summaries; no code/deployment/crawl event is fabricated when that file is absent.
 
-No recurring refresh job is configured by this change. Refreshing data is a separate operator action. New site releases preserve the private snapshot and configuration.
+## Daily Cloudways cron
+
+The application user's native server crontab runs the refresh at **6:00 a.m. America/Chicago daily**, independently of the operator's computer. The server uses UTC: cron invokes at 11:00 and 12:00 UTC, and `refresh-hud-daily.sh` accepts only the invocation whose Chicago local hour is 06. This follows daylight saving time without running the pull twice. A lock and last-success date prevent overlapping or duplicate scheduled pulls. The installer preserves other crontab entries and a private backup of the previous crontab.
+
+The deployed wrapper at `private_html/roof-king-hud/refresh-hud-daily.sh` reads the current deployed revision and runs that revision's private collector modules. GitHub packages these modules alongside the private Composer runtime; they never enter public_html. Ordinary site releases update the collector and preserve credentials, the cron entry and saved reports.
+
+The collector fetches a rolling 15-month window of finalized web-search data with a two-day lag, including Google's revisions to recent dates. The data-through label uses the latest returned page date. Each run builds in a unique private work directory, validates a nonempty Roof King report, rejects older reports and atomically replaces `data/dashboard.json` only after success. A failure leaves the previous report intact; existing independently verified event annotations are preserved. Temporary CSVs and work files are removed after each run.
+
+Private health files are `refresh-status.json` (running/success/failed, attempt time and last report dates), `last-refresh-date`, `logs/refresh-latest.log` and `logs/cron.log`. No report or credential is attached to notifications or made public. The dashboard displays the scheduled refresh time and last successful report timestamp.
+
+After the verified runtime and dedicated credential are installed, copy `scripts/install-hud-cron.sh` to the private HUD folder and run `bash <app-root>/private_html/roof-king-hud/install-hud-cron.sh <verified-app-root>` on the server to install this job. For an immediate operational refresh, run `bash <app-root>/private_html/roof-king-hud/refresh-hud-daily.sh <app-root> --now`. This bypasses the time/date guard but still takes the lock and preserves the last good report on failure. Check the private status file and report metadata before claiming a successful pull.
 
 ## Release and recovery
 

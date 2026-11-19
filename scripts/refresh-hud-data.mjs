@@ -2,12 +2,17 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { load } from './hud-data-loader.mjs';
+import { refreshReportingAccessToken } from './hud-reporting-auth.mjs';
+import { publishHudReport } from './hud-refresh-publication.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const runDate = args.date || todayLocal();
 const lagDays = Number(args.lagDays || 2);
-const endDate = args.endDate || shiftDate(runDate, -lagDays);
-const startDate = args.startDate || `${Number(endDate.slice(0, 4)) - 1}-${endDate.slice(5, 7)}-01`;
+let endDate = args.endDate || shiftDate(runDate, -lagDays);
+const historyStart = parseDate(endDate);
+historyStart.setUTCDate(1);
+historyStart.setUTCMonth(historyStart.getUTCMonth() - 15);
+const startDate = args.startDate || iso(historyStart);
 const configPath = path.resolve(args.config || path.join(
   os.homedir(),
   '.codex',
@@ -16,10 +21,11 @@ const configPath = path.resolve(args.config || path.join(
   'search-console.local.json'
 ));
 const outputPath = path.resolve(args.output || `output/hud-reporting/search-console-page-query-comparisons-${runDate}.csv`);
+const publishPath = args.publish ? path.resolve(args.publish) : null;
 const config = JSON.parse(await fs.readFile(configPath, 'utf8'));
 const property = 'sc-domain:roofkingco.com';
 const searchType = String(config.searchType || 'web').toLowerCase();
-const accessToken = await refreshAccessToken(config);
+const accessToken = await refreshReportingAccessToken(config);
 
 const pageRows = [];
 const pageQueryRows = [];
@@ -43,6 +49,11 @@ for (const range of monthRanges(startDate, endDate)) {
     aggregationType: 'byPage'
   }));
 }
+
+if (!pageRows.length) throw new Error('Search Console returned no page data; last report preserved');
+let latestAvailable = '';
+for (const row of pageRows) if (row.keys?.[0] > latestAvailable) latestAvailable = row.keys[0];
+if (latestAvailable < endDate) endDate = latestAvailable;
 
 const pageAggregates = new Map();
 const queryAggregates = new Map();
@@ -135,7 +146,9 @@ const data = await load(path.dirname(outputPath));
 if (data.error || !data.rows.length) throw new Error(data.error || 'No Roof King data returned');
 data.report.refreshedAt = new Date().toISOString();
 data.report.property = property;
-await fs.writeFile(path.join(path.dirname(outputPath), 'dashboard.json'), JSON.stringify(data));
+const serialized = JSON.stringify(data);
+await fs.writeFile(path.join(path.dirname(outputPath), 'dashboard.json'), serialized, { mode: 0o640 });
+if (publishPath) await publishHudReport(data, publishPath);
 
 console.log(JSON.stringify({
   outputPath,
@@ -150,31 +163,11 @@ console.log(JSON.stringify({
   outputDataRows: outputRows.length - 1
 }, null, 2));
 
-async function refreshAccessToken(localConfig) {
-  const params = {
-    client_id: required(localConfig.clientId, 'clientId'),
-    refresh_token: required(localConfig.refreshToken, 'refreshToken'),
-    grant_type: 'refresh_token'
-  };
-  if (localConfig.clientSecret) params.client_secret = localConfig.clientSecret;
-  const response = await fetch('https://oauth2.googleapis.com/token', {
-    method: 'POST',
-    signal: AbortSignal.timeout(30000),
-    headers: { 'content-type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(params)
-  });
-  const payload = await response.json().catch(() => ({}));
-  if (!response.ok || !payload.access_token) {
-    throw new Error(`OAuth refresh failed (${response.status}): ${payload.error_description || payload.error || response.statusText}`);
-  }
-  return payload.access_token;
-}
-
 async function fetchRows({ accessToken: token, property: site, searchType: type, startDate: start, endDate: end, dimensions, aggregationType }) {
   const rows = [];
   const rowLimit = 25000;
   for (let startRow = 0; ; startRow += rowLimit) {
-    const body = { startDate: start, endDate: end, dimensions, type, rowLimit, startRow, aggregationType };
+    const body = { startDate: start, endDate: end, dimensions, type, rowLimit, startRow, aggregationType, dataState: 'final' };
     await new Promise(resolve => setTimeout(resolve, 200));
     const response = await fetch(`https://searchconsole.googleapis.com/webmasters/v3/sites/${encodeURIComponent(site)}/searchAnalytics/query`, {
       method: 'POST',
@@ -255,6 +248,7 @@ function parseArgs(argv) {
     if (argv[index] === '--end-date') parsed.endDate = argv[index + 1];
     if (argv[index] === '--lag-days') parsed.lagDays = argv[index + 1];
     if (argv[index] === '--output') parsed.output = argv[index + 1];
+    if (argv[index] === '--publish') parsed.publish = argv[index + 1];
   }
   return parsed;
 }

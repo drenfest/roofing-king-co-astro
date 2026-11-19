@@ -461,7 +461,7 @@
         <span>Saved report / data through</span>
         <strong>{data.report.dataThrough}</strong>
         <small>{formatNumber(data.report.rowCount)} page-query rows · begins {data.report.firstPeriodStart}</small>
-        <small class="snapshot-note">Snapshot · updates when a new report is published.</small>
+        <small class="snapshot-note">Daily refresh · 6:00 a.m. Central{#if data.report.refreshedAt} · Last refreshed {formatDateTime(data.report.refreshedAt)}{/if}.</small>
       </div>
     </header>
 
