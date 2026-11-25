@@ -29,7 +29,7 @@ The client resolved GitHub billing. Automatic deployment run 39519928064 complet
 
 ## Review settings
 
-The site retains noindex/nofollow in HTTP headers and page metadata, and disabled custom quote submission. On 2026-11-01 the client authorized allowing tool crawling: robots.txt permits all user agents, including ChatGPT and Claude, so crawlers can fetch content and read noindex directives. Deployment checks require crawl access and retain the noindex header and homepage metadata guards. Phone, booking and click-to-load Roofr behavior remain available. No production hostname or DNS change is performed.
+Historical review deployment: the site retained noindex/nofollow in HTTP headers and page metadata, and disabled custom quote submission. On 2026-11-01 the client authorized allowing tool crawling so crawlers could fetch content and read noindex directives. The November 23 production indexing correction is implemented locally but not deployed: both profiles remove noindex everywhere except the authenticated HUD, while sitemap membership remains limited to registered marketing routes. The release gate rejects staging artifacts. See production-indexing-2026-11-23.md for tests and the confirmed live baseline. Custom quote submission remains disconnected; phone, booking and click-to-load Roofr behavior is unchanged. No hostname or DNS change is performed by this correction.
 
 SFTP is chrooted to the application root. Upload destinations use relative private_html paths; SSH commands use the verified absolute application path. The temporary hostname remains unchanged at the client’s request.
 

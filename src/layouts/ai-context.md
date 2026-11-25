@@ -4,7 +4,7 @@ Use the existing family rather than importing the legacy shell into a native pag
 
 | Layout | Use |
 | --- | --- |
-| DocumentLayout | Native document metadata/head, shared styles/motion and preview indexing policy; used by native compositions |
+| DocumentLayout | Native document metadata/head, shared styles/motion and production/staging indexing policy; used by native compositions |
 | ServiceLanding | Independent /roofing/ reference, driven by roofing-landing.json and shared service components |
 | PolishedServicePage | Other native service/location/cost/calculator routes, with editorial identity + full service-copy data |
 | ServicePage | Retained native service/catalog records, including /roofing/gaf/types/; not the default for new polished services |
@@ -27,7 +27,7 @@ ServiceLanding and PolishedServicePage use the same photographic hero design and
 
 RetainedResourcePage optionally renders a typed `data.people` collection with responsive HomeImage portraits, names and roles before the existing body sections. `/our-team/` uses the client-confirmed CEO profile; preserve the existing section IDs and contextual links when editing it.
 
-Use optional typed props or a shared component for a repeated requirement. Keep route-specific copy out of layout conditionals when a data field can express it. Preserve DocumentLayout's canonical/noindex behavior, shared font loading, SiteMotion and footer flow. Do not bundle SiteLayout/WordPress compatibility CSS into a native family just to reuse its header.
+Use optional typed props or a shared component for a repeated requirement. Keep route-specific copy out of layout conditionals when a data field can express it. Preserve DocumentLayout's canonical and environment-specific indexing behavior, shared font loading, SiteMotion and footer flow. Do not bundle SiteLayout/WordPress compatibility CSS into a native family just to reuse its header.
 
 Changing a shell affects many routes. Check a previous consumer, the new case, desktop/mobile layout, SSR/no-JS behavior and the page family's regression checks. Schema and required image/link attributes are consolidated by middleware/build integrations; do not create a second independent graph or a parallel document shell.
 

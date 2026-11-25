@@ -26,7 +26,7 @@ await Promise.all(Array.from({length:6},async()=>{
   const remote=load(await(await get(path)).text());
   assert.equal(remote('link[rel=canonical]').attr('href'),canonical,path);
   assert.equal(remote('main h1').first().text(),local('main h1').first().text(),path+' heading');
-  assert.match(remote('meta[name=robots]').attr('content')||'',/noindex/i,path+' review protection');
+  assert.equal(remote('meta[name=robots]').attr('content'),'index, follow',path+' public production indexing');
   assert.deepEqual(JSON.parse(remote('script[data-site-schema]').text()),JSON.parse(local('script[data-site-schema]').text()),path+' current structured data and content');
   const components='[data-landing-build=editorial],[data-component=OfferPage],[data-component=NativeArticle],[data-component=ServicePaths]';
   assert.equal(remote(components).length,local(components).length,path+' current components');
@@ -40,7 +40,7 @@ await Promise.all(Array.from({length:6},async()=>{
 }));
 const remoteSitemap=load(await(await get('/sitemap.xml')).text(),{xmlMode:true});assert.deepEqual(remoteSitemap('loc').map((_i,el)=>remoteSitemap(el).text()).get(),urls);
 // Production Nginx serves robots.txt directly, bypassing Apache response headers.
-// Every canonical HTML page's noindex metadata is checked above; robots.txt
+// Every canonical HTML page's public indexing metadata is checked above; robots.txt
 // controls crawling and its contents remain checked independently below.
 const robotsResponse=await get('/robots.txt');
 const robots=await robotsResponse.text();assert.match(robots,/^User-agent: \*\nAllow: \/$/m);assert.doesNotMatch(robots,/^Disallow: \/\s*$/m);assert.match(robots,/Sitemap: https:\/\/www\.roofkingco\.com\/sitemap\.xml/);
@@ -48,7 +48,7 @@ const home=load(await fs.readFile('dist/index.html','utf8'));
 const stylesheet=home('link[rel=stylesheet]').toArray().map(el=>home(el).attr('href')).find(href=>href?.startsWith('/'));
 const assets=[stylesheet,home('script[type=module][src]').first().attr('src'),home('header img').first().attr('src')].filter(href=>href?.startsWith('/'));
 for(const asset of [...new Set(assets)])await get(asset);
-const review=await(await get('/service-page-review.html')).text();assert.match(review,/noindex/i);
+const review=await(await get('/service-page-review.html')).text();assert.doesNotMatch(review,/noindex/i);
 const missing=await fetch(base+'/this-page-does-not-exist-review-check/'+query,{signal:AbortSignal.timeout(30000)});assert.equal(missing.status,404);
 const hud=await get('/hud/');
 assert.match(hud.headers.get('x-robots-tag')||'',/noindex/i,'The authenticated tool must retain its server-side noindex header');
@@ -60,4 +60,4 @@ for(const privatePath of ['/hud/access.php','/hud/assets.json','/hud/data.json',
  const denied=await fetch(base+privatePath,{cache:'no-store',signal:AbortSignal.timeout(30000)});
  assert.ok([403,404].includes(denied.status),privatePath+' must not be publicly accessible');
 }
-console.log(`Live commit ${release.commit}: all ${checked} canonical pages match the verified build; sitemap, schema, components, assets, review protections and 404 behavior passed.`);
+console.log(`Live commit ${release.commit}: all ${checked} canonical pages match the verified build; sitemap, schema, components, assets, HUD protections and 404 behavior passed.`);

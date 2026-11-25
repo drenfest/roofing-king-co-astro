@@ -1,3 +1,5 @@
+import { readBuildPolicy, robotsForPath } from './indexing-policy.mjs';
+const indexingBuild = await readBuildPolicy();
 import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
@@ -36,7 +38,7 @@ for (const img of $('main img').toArray()) {
 
 const ids = $('[id]').toArray().map(e => $(e).attr('id'));
 assert.equal(ids.length, new Set(ids).size, 'IDs must be unique across inline contact actions and modal content.');
-assert.equal($('meta[name="robots"]').attr('content'), 'noindex, nofollow');
+assert.equal($('meta[name="robots"]').attr('content'), robotsForPath('/', indexingBuild.environment));
 console.log('Homepage SSR, gallery, image sizing, booking and phone contact checks passed.');
 const roofr = JSON.parse(await fs.readFile('src/data/roofr.json', 'utf8'));
 assert.equal(new URL(roofr.estimatorUrl).origin, 'https://app.roofr.com');

@@ -10,7 +10,7 @@ deploy-cloudways.yml runs on main pushes or explicit dispatch, uses the cloudway
 
 The HUD runtime archive also carries the daily reporting collector and wrapper outside public_html. Deployment validates these files and atomically updates the private wrapper to use the current release. The server's native cron and dedicated read-only reporting credential are installed separately under the authorized setup described in migration/private-hud.md; normal releases preserve them. Do not include report snapshots or credentials in archives or GitHub artifacts.
 
-Read migration/cloudways-deployment.md for target, pinned SSH identity, backup/recovery and smoke-test requirements. Do not put secret values in workflow files or maps. Do not infer permission to push/deploy or change production DNS/indexing, test email or account access from a local content or documentation task. Preserve review crawl restrictions and disconnected custom forms until separately requested implementations are verified.
+Read migration/cloudways-deployment.md for target, pinned SSH identity, backup/recovery and smoke-test requirements. Do not put secret values in workflow files or maps. Do not infer permission to push/deploy or change production DNS/indexing, test email or account access from a local content or documentation task. Use the explicit production build and its indexing guard for an approved live release; reject staging artifacts. Only the authenticated HUD retains noindex; staging must stay local or use host authentication. Keep custom forms disconnected until their delivery integration is separately verified.
 
 <!-- directory-inventory:start -->
 ## Directory inventory

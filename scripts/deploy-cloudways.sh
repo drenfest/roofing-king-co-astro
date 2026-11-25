@@ -22,9 +22,11 @@ done < <(tar -tzf "$archive")
 mkdir "$release"
 tar -xzf "$archive" -C "$release" --no-same-owner
 [[ -f "$release/index.html" && -f "$release/404.html" && -f "$release/robots.txt" ]] || { echo "Incomplete static build" >&2; exit 1; }
-grep -qx 'Allow: /' "$release/robots.txt" || { echo "Review tool crawl access missing" >&2; exit 1; }
-grep -q 'Header always set X-Robots-Tag "noindex, nofollow"' "$release/.htaccess" || { echo "Review noindex header missing" >&2; exit 1; }
-grep -q '<meta name="robots" content="noindex, nofollow"' "$release/index.html" || { echo "Review noindex metadata missing" >&2; exit 1; }
+grep -qx 'Allow: /' "$release/robots.txt" || { echo "Public crawl access missing" >&2; exit 1; }
+# Production releases must never accept a staging artifact. The build performs
+# full page/header/sitemap regression checks before packaging this marker.
+/usr/bin/node -e 'const p=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));if(p.environment!=="production"||p.canonicalOrigin!=="https://www.roofkingco.com")throw Error("Refusing a non-production indexing artifact")' "$release/build-policy.json"
+grep -q '<meta name="robots" content="index, follow"' "$release/index.html" || { echo "Production homepage is not index eligible" >&2; exit 1; }
 [[ ! -e "$release/wp-config.php" && ! -d "$release/node_modules" && ! -d "$release/src" ]] || { echo "Unexpected runtime or source files" >&2; exit 1; }
 [[ -z "$(find "$release" -type l -print -quit)" ]] || { echo "Unexpected symlink in build" >&2; exit 1; }
 find "$release" -type d -exec chmod 755 {} +

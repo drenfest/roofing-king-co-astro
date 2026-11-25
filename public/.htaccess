@@ -1,4 +1,4 @@
-# Static Astro review site. No WordPress front controller.
+# Static Astro site. No WordPress front controller.
 DirectoryIndex index.html
 Options -Indexes
 ErrorDocument 404 /404.html
@@ -38,11 +38,13 @@ ErrorDocument 404 /404.html
   RewriteRule ^gallery/?$ /#projects [R=301,L,NE]
 </IfModule>
 <IfModule mod_headers.c>
-  Header always set X-Robots-Tag "noindex, nofollow"
   <FilesMatch "^menu-thumbnails-[a-f0-9]{12}\.webp$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>
+# BEGIN INDEXING POLICY
+# No site-wide indexing restrictions. HUD policy lives in hud/.htaccess and PHP.
+# END INDEXING POLICY
 <FilesMatch "(^\.|^ai-context\.md$|\.php$)">
   Require all denied
 </FilesMatch>

@@ -4,7 +4,7 @@ import { build } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 // No Google credentials or analytics snapshots are read during builds.
-const out = path.resolve('dist/hud');
+const out = path.resolve(process.env.SITE_BUILD_OUTPUT || 'dist', 'hud');
 await build({ configFile: false, root: path.resolve('dashboard/client'), base: '/hud/', plugins: [svelte()],
   build: { outDir: out, emptyOutDir: true, manifest: true,
     rollupOptions: { input: path.resolve('dashboard/client/main.js') } } });

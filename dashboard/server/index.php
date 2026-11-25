@@ -85,7 +85,7 @@ try {
         header('Content-Type: application/json; charset=utf-8');
         $report = json_decode((string)file_get_contents($dataset), true, 512, JSON_THROW_ON_ERROR);
         $events = $report['observability']['events'] ?? [];
-        foreach ([$private . '/runtimes/@HUD_RUNTIME@/code-events.json', $private . '/data/crawl-observations.json'] as $eventFile) {
+        foreach ([$private . '/runtimes/@HUD_RUNTIME@/code-events.json', $private . '/data/coverage-crawls.json', $private . '/data/crawl-observations.json'] as $eventFile) {
             if (!is_file($eventFile)) continue;
             $extra = json_decode((string)file_get_contents($eventFile), true, 512, JSON_THROW_ON_ERROR);
             $events = array_merge($events, $extra['events'] ?? []);

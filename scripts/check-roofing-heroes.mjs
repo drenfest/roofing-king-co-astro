@@ -33,5 +33,5 @@ for(const page of manifest.pages){
 assert.equal(hashes.size,manifest.pages.length,'Each roofing route needs its own hero image.');
 const files=await fs.readdir('dist/media/roofing-heroes');assert.ok(!files.some(f=>f.endsWith('.png')),'Do not deploy source PNGs.');
 const gallery=cheerio.load(await fs.readFile('dist/roofing-hero-review.html','utf8'));
-assert.equal(gallery('article').length,manifest.pages.length);assert.equal(gallery('meta[name="robots"]').attr('content'),'noindex,nofollow');
+assert.equal(gallery('article').length,manifest.pages.length);assert.equal(gallery('meta[name="robots"]').attr('content'),'index, follow');
 console.log('41 individual full-width roofing heroes, responsive WebP budgets, eager loading, source-appropriate labels and review gallery passed.');

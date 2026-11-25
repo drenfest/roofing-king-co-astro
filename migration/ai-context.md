@@ -81,6 +81,7 @@ Parent guidance: [repository](../ai-context.md).
 - [product-system-media.json](product-system-media.json)
 - [product-system-review.md](product-system-review.md)
 - [product-system-validation.json](product-system-validation.json)
+- [production-indexing-2026-11-23.md](production-indexing-2026-11-23.md)
 - [rebuild-backlog.json](rebuild-backlog.json)
 - [rebuild-recommendations-v1.md](rebuild-recommendations-v1.md)
 - [residential-storm-content-review-2026-11-01.json](residential-storm-content-review-2026-11-01.json)

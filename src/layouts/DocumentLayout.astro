@@ -1,6 +1,7 @@
 ---
 import site from '../data/site.json';
 import SiteMotion from '../components/SiteMotion.astro';
+import { robotsForPath } from '../../scripts/indexing-policy.mjs';
 interface Props { title: string; description: string; canonicalPath: string; image?: string; fullTitle?:string; }
 const { title, description, canonicalPath, fullTitle, image = '/media/client-gallery/dormers-valleys-and-intersecting-roofs-6ed0a88fdc-924.webp' } = Astro.props;
 const schema = {
@@ -16,7 +17,7 @@ const schema = {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle||`${title} | Roof King & Restoration`}</title>
     <meta name="description" content={description} />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content={robotsForPath(Astro.url.pathname)} />
     <link rel="canonical" href={new URL(canonicalPath, site.url)} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

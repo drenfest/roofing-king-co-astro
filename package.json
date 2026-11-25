@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1 --port 4321",
-    "build": "astro build && node scripts/build-hud.mjs",
+    "build": "node scripts/build-site.mjs production",
     "preview": "astro preview --host 127.0.0.1 --port 4321",
     "check": "astro check && svelte-check --tsconfig ./tsconfig.json && node scripts/check-content.mjs",
     "check:routes": "node scripts/check-built-routes.mjs",
@@ -55,7 +55,12 @@
     "check:release-tools": "node scripts/check-release-tools.mjs",
     "check:hud": "node scripts/check-hud.mjs",
     "hud:refresh": "node scripts/refresh-hud-data.mjs",
-    "check:hud-refresh": "node scripts/check-hud-refresh.mjs"
+    "check:hud-refresh": "node scripts/check-hud-refresh.mjs",
+    "build:production": "node scripts/build-site.mjs production",
+    "build:staging": "node scripts/build-site.mjs staging",
+    "check:indexing": "node scripts/check-indexing.mjs",
+    "test:indexing-policy": "node scripts/test-indexing-policy.mjs",
+    "test:indexing-builds": "node scripts/test-indexing-builds.mjs"
   },
   "dependencies": {
     "@astrojs/svelte": "9.1.0",

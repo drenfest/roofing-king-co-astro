@@ -1,3 +1,5 @@
+import { readBuildPolicy, robotsForPath } from './indexing-policy.mjs';
+const indexingBuild = await readBuildPolicy();
 import {reviewIdsForService} from '../src/data/service-reviews.ts';
 import {assertContactActions} from './contact-checks.mjs';
 import fs from 'node:fs/promises';
@@ -16,7 +18,7 @@ for(const [path,data] of Object.entries(pages)){
   assert.equal($('h1').length,1);
   assert.equal(clean($('.rk-home-hero h1,.rk-landing-hero h1').text()),placements[path]?.hero?.title || data.hero.title);
   assert.equal($('link[rel=canonical]').attr('href'),'https://www.roofkingco.com'+path);
-  assert.equal($('meta[name=robots]').attr('content'),'noindex, nofollow');
+  assert.equal($('meta[name=robots]').attr('content'),robotsForPath(path,indexingBuild.environment));
   assertContactActions($);
   assert.equal($('dialog.rk-native-quote-dialog').length,1,'One modal host per page');
   const ids=$('[id]').map((i,e)=>$(e).attr('id')).get();assert.equal(ids.length,new Set(ids).size);

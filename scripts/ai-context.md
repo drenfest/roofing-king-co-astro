@@ -6,6 +6,10 @@ Normal builds use committed source/data/assets. Authoring, imports, downloads, r
 
 `check-service-photo-pairs.mjs` accepts both the original editorial batches and source-led `*-content-review-YYYY-MM-DD.json` records containing `pages[].photoReview`. A source-led record must include a source SHA-256 and exact reviewed image/heading/topic assignments matching the runtime gallery. It does not advance the original ten-page batch count. All routes still receive the same three-photo, topic coverage, intrinsic dimension, lazy responsive loading and 110 KB per-variant checks.
 
+## Indexing build profiles
+
+`npm run build` and `npm run build:production` explicitly choose production. `npm run build:staging` writes to tmp/staging-site; unconfigured direct Astro builds are labeled staging. Per the November 23 instruction, only the authenticated HUD retains noindex in either profile. Staging is not protected by robots directives and must stay local or behind host authentication if published. Both profiles run policy fixtures and an artifact guard. Sitemap membership remains limited to registered self-canonical marketing routes, excluding tools, errors and redirects. `npm run test:indexing-builds` builds both profiles in unique tmp directories, rejects staging artifacts at the production gate and compares canonical/lead/phone configuration. Optional test-indexing-http.mjs exercises existing Apache on isolated loopback ports without PHP execution or outbound requests. No test command pushes or deploys.
+
 ## Safe daily commands
 
 `build-hud.mjs` builds only public interface code and the PHP entry point. `check-hud.mjs` runs authorization/token tests and an isolated HTTP fixture in GitHub. `refresh-hud-data.mjs` reads only the Roof King property and supports atomic `--publish` through hud-refresh-publication.mjs; hud-reporting-auth.mjs enforces the dedicated server credential's read-only scope. The private daily wrapper and idempotent cron installer are refresh-hud-daily.sh and install-hud-cron.sh. GitHub runs check-hud-refresh.mjs for publication failure preservation, restricted scopes, shell syntax and DST scheduling. No reporting configuration, data or collector module belongs in dist. See migration/private-hud.md for schedule, private storage, manual recovery and release boundaries.
@@ -84,6 +88,7 @@ Parent guidance: [repository](../ai-context.md).
 - [build-menu-atlas.mjs](build-menu-atlas.mjs)
 - [build-roofing-hero-review.mjs](build-roofing-hero-review.mjs)
 - [build-service-review.mjs](build-service-review.mjs)
+- [build-site.mjs](build-site.mjs)
 - [check-blog-hubs.mjs](check-blog-hubs.mjs)
 - [check-blog-urls.mjs](check-blog-urls.mjs)
 - [check-built-routes.mjs](check-built-routes.mjs)
@@ -99,6 +104,7 @@ Parent guidance: [repository](../ai-context.md).
 - [check-html-attributes.mjs](check-html-attributes.mjs)
 - [check-hud-refresh.mjs](check-hud-refresh.mjs)
 - [check-hud.mjs](check-hud.mjs)
+- [check-indexing.mjs](check-indexing.mjs)
 - [check-internal-links.mjs](check-internal-links.mjs)
 - [check-location-hubs.mjs](check-location-hubs.mjs)
 - [check-manufacturer-products.mjs](check-manufacturer-products.mjs)
@@ -133,6 +139,7 @@ Parent guidance: [repository](../ai-context.md).
 - [hud-reporting-auth.mjs](hud-reporting-auth.mjs)
 - [import-mulehide-commercial.mjs](import-mulehide-commercial.mjs)
 - [import-wordpress.mjs](import-wordpress.mjs)
+- [indexing-policy.mjs](indexing-policy.mjs)
 - [install-hud-cron.sh](install-hud-cron.sh)
 - [internal-links.mjs](internal-links.mjs)
 - [migrate-blog-urls.mjs](migrate-blog-urls.mjs)
@@ -157,6 +164,9 @@ Parent guidance: [repository](../ai-context.md).
 - [sitemap.mjs](sitemap.mjs)
 - [structured-data.mjs](structured-data.mjs)
 - [sync-product-navigation.mjs](sync-product-navigation.mjs)
+- [test-indexing-builds.mjs](test-indexing-builds.mjs)
+- [test-indexing-http.mjs](test-indexing-http.mjs)
+- [test-indexing-policy.mjs](test-indexing-policy.mjs)
 - [thewebguy-logo.txt](thewebguy-logo.txt)
 - [transfer-service-content.mjs](transfer-service-content.mjs)
 - [verification-groups.mjs](verification-groups.mjs)
