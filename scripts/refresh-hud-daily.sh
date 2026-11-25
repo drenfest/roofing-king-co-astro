@@ -39,6 +39,12 @@ if /usr/bin/node "$runtime/refresh-hud-data.mjs" --config "$private/reporting-oa
   printf '%s\n' "$day" > "$private/last-refresh-date"
   write_status success
   printf 'Search Console HUD refreshed successfully for %s\n' "$day"
+  # Crawl observations are independent of finalized performance rows. Preserve
+  # the last crawl snapshot if Google rejects an inspection; never retry a block.
+  if ! /usr/bin/node "$runtime/refresh-hud-crawls.mjs" "$private" >"$private/logs/crawl-latest.log" 2>&1; then
+    echo 'Crawl refresh failed; prior crawl dates preserved. See private logs/crawl-latest.log.' >&2
+    exit 1
+  fi
 else
   write_status failed
   echo 'Search Console refresh failed; last good report preserved. See private logs/refresh-latest.log.' >&2

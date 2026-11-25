@@ -2,6 +2,10 @@
 
 App.svelte and export-dashboard.js preserve the existing weekly, monthly and quarterly page/query analysis, event timeline and CSV/JSON/PDF exports. main.js fetches data only from the session-protected PHP endpoint. Never import a private report into the bundle. Keep missing/anonymized query data distinct from zero, retain snapshot dates and partial-period labels, and never invent historical events or crawl results.
 
+The Pages table shows each page's latest recorded Google crawl across the snapshot's global and page-summary events, independently of the selected performance period. Crawl dates are sortable (unavailable values stay last), use America/Chicago, and are included in exports. Missing crawl evidence displays Unavailable; report refresh and inspection observation times are not crawl dates.
+
+Selecting a page adds a solid last-crawl line and dotted daily commit lines at their dates on the time axis. Hover/focus reveals all associated commits for the Central calendar day. Source-file associations include shared renderer/data changes and are explicitly qualified; they do not prove a page changed or a deployment occurred. Crawl dates outside the window are stated separately. The axis includes recent observations beyond finalized performance data without inventing additional performance points.
+
 <!-- directory-inventory:start -->
 ## Directory inventory
 

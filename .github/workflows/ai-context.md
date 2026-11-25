@@ -1,5 +1,7 @@
 # Workflows: validation and authorized review deployment
 
+The release checks out full Git history and packages build-hud-history.mjs output as private code-events.json, alongside refresh-hud-crawls.mjs in the private runtime archive. Neither file is part of the public static bundle.
+
 Checkout v7.0.1 and setup-node v7.1.0 use the Node 24 action runtime in both workflows. Keep action runtimes supported as well as the build runtime.
 
 verify.yml installs pinned dependencies with Node 24 and runs the grouped verification flows on non-main pushes, pull requests or manual workflow_dispatch. Main pushes are fully verified once by deploy-cloudways.yml, avoiding duplicate builds. It cancels superseded verification runs, retains a downloadable verification log for 14 days and publishes a run summary. Local verification is optional for all contributors. Release monitoring uses compact status/conclusion and the run URL through deployment completion; do not read full successful logs. Resolve failed checks and verify the deployed revision before reporting an authorized release as live. Failed-step excerpts are for targeted fixes. The package script is the authoritative complete gate, including current context/schema/content/media/route checks.

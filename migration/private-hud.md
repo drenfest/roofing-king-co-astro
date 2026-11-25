@@ -24,6 +24,14 @@ The API's finalized web-search rows are aggregated by page and page/query for ea
 
 ## Daily Cloudways cron
 
+### Page crawl dates and commit markers
+
+The authenticated data response adds private `data/crawl-observations.json` and the deployed runtime's `code-events.json` to the report. The daily job inspects reported Roof King URLs using Google's read-only URL Inspection API, waits 500 ms between calls, caps each run at 1,000 URLs and caches inspections for 24 hours. A rejected request stops collection with no retry and preserves the prior crawl file. Google may return no last-crawl date; the HUD displays Unavailable rather than substituting inspection or refresh time. This reads Google's index record; it does not request indexing or crawl the website.
+
+`node <runtime>/refresh-hud-crawls.mjs <private-HUD-directory>` refreshes crawl observations independently of performance rows. Keep the JSON private, mode 640. The job retains the latest known observation per URL; it does not reconstruct a full crawl history.
+
+The release packages six months of Git source history privately. Route ownership maps associate commits with page records, native routes, renderers and primary data files. Shared-file associations are explicitly qualified in tooltips and do not imply a confirmed page change or deployment. Selecting a page shows the latest crawl as a solid line and commits grouped by Central calendar day as dotted lines; hover or keyboard focus reveals commit titles and source files.
+
 The application user's native server crontab runs the refresh at **6:00 a.m. America/Chicago daily**, independently of the operator's computer. The server uses UTC: cron invokes at 11:00 and 12:00 UTC, and `refresh-hud-daily.sh` accepts only the invocation whose Chicago local hour is 06. This follows daylight saving time without running the pull twice. A lock and last-success date prevent overlapping or duplicate scheduled pulls. The installer preserves other crontab entries and a private backup of the previous crontab.
 
 The deployed wrapper at `private_html/roof-king-hud/refresh-hud-daily.sh` reads the current deployed revision and runs that revision's private collector modules. GitHub packages these modules alongside the private Composer runtime; they never enter public_html. Ordinary site releases update the collector and preserve credentials, the cron entry and saved reports.

@@ -83,7 +83,15 @@ try {
         if (!is_file($dataset)) hudFail(503, 'The report is being prepared. Please try again shortly.');
         ini_set('zlib.output_compression', '1');
         header('Content-Type: application/json; charset=utf-8');
-        readfile($dataset);
+        $report = json_decode((string)file_get_contents($dataset), true, 512, JSON_THROW_ON_ERROR);
+        $events = $report['observability']['events'] ?? [];
+        foreach ([$private . '/runtimes/@HUD_RUNTIME@/code-events.json', $private . '/data/crawl-observations.json'] as $eventFile) {
+            if (!is_file($eventFile)) continue;
+            $extra = json_decode((string)file_get_contents($eventFile), true, 512, JSON_THROW_ON_ERROR);
+            $events = array_merge($events, $extra['events'] ?? []);
+        }
+        $report['observability']['events'] = $events;
+        echo json_encode($report, JSON_THROW_ON_ERROR | JSON_UNESCAPED_SLASHES);
         exit;
     }
     if ($action === 'logout') {

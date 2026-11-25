@@ -16,6 +16,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v7.1.0
         with:
           node-version: "24"
@@ -65,8 +67,9 @@ jobs:
         run: node -e "require('node:fs').writeFileSync('dist/release.json', JSON.stringify({commit:process.env.GITHUB_SHA}) + '\n')"
       - name: Package static output
         run: |
+          node scripts/build-hud-history.mjs
           tar -czf "$RUNNER_TEMP/site.tar.gz" -C dist .
-          tar -czf "$RUNNER_TEMP/hud-runtime.tar.gz" -C dashboard/server vendor -C "$GITHUB_WORKSPACE/scripts" refresh-hud-data.mjs hud-data-loader.mjs hud-reporting-auth.mjs hud-refresh-publication.mjs refresh-hud-daily.sh
+          tar -czf "$RUNNER_TEMP/hud-runtime.tar.gz" -C dashboard/server vendor -C "$GITHUB_WORKSPACE/scripts" refresh-hud-data.mjs hud-data-loader.mjs hud-reporting-auth.mjs hud-refresh-publication.mjs refresh-hud-daily.sh refresh-hud-crawls.mjs -C "$GITHUB_WORKSPACE/tmp/hud-runtime" code-events.json
       - name: Deploy verified output over pinned SSH
         shell: bash
         env:

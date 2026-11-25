@@ -5,6 +5,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { publishHudReport } from './hud-refresh-publication.mjs';
 import { reportingScope, refreshReportingAccessToken } from './hud-reporting-auth.mjs';
+import { collectCrawls } from './refresh-hud-crawls.mjs';
 
 const directory = await fs.mkdtemp(path.join(os.tmpdir(), 'roof-report-refresh-'));
 try {
@@ -38,5 +39,22 @@ try {
   const localHour = iso => new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', hour: '2-digit', hourCycle: 'h23' }).format(new Date(iso));
   assert.deepEqual(['2026-11-19T11:00:00Z','2026-11-19T12:00:00Z'].map(localHour), ['05','06']);
   assert.deepEqual(['2027-07-19T11:00:00Z','2027-07-19T12:00:00Z'].map(localHour), ['06','07']);
+  const inspectionNow = '2026-11-25T12:00:00Z';
+  const inspectedPage = 'https://roofkingco.com/roofing/';
+  let inspectionCalls = 0;
+  const crawlResult = await collectCrawls({ report: { rows: [{ page: inspectedPage }, { page: inspectedPage }, { page: 'https://example.com/' }] }, now: inspectionNow,
+    accessToken: 'fixture-token', pause: async () => {}, request: async (url, options) => {
+      inspectionCalls++;
+      assert.equal(JSON.parse(options.body).siteUrl, 'sc-domain:roofkingco.com');
+      assert.equal(JSON.parse(options.body).inspectionUrl, inspectedPage);
+      return { ok: true, json: async () => ({ inspectionResult: { indexStatusResult: { lastCrawlTime: '2026-11-23T10:00:00Z', verdict: 'PASS' } } }) };
+    } });
+  assert.equal(inspectionCalls, 1, 'Inspect each owned URL once');
+  assert.equal(crawlResult.events[0].timestamp, '2026-11-23T10:00:00Z', 'Observation time must never replace Google crawl time');
+  await collectCrawls({ report: { rows: [{ page: inspectedPage }] }, previous: crawlResult, now: inspectionNow, request: async () => { throw Error('Fresh inspections must be cached'); } });
+  const unknownCrawl = await collectCrawls({ report: { rows: [{ page: inspectedPage }] }, accessToken: 'fixture-token', now: inspectionNow, pause: async () => {},
+    request: async () => ({ ok: true, json: async () => ({ inspectionResult: { indexStatusResult: { verdict: 'NEUTRAL' } } }) }) });
+  assert.equal(unknownCrawl.events.length, 0, 'Missing crawl dates stay unavailable');
+  await assert.rejects(collectCrawls({ report: { rows: [{ page: inspectedPage }] }, now: inspectionNow, pause: async () => {}, request: async () => ({ ok: false, status: 429 }) }), /stopped \(429\)/);
   console.log('HUD daily refresh: atomic publication, failure preservation, read-only credentials, shell syntax and Chicago DST scheduling verified.');
 } finally { await fs.rm(directory, { recursive: true, force: true }); }

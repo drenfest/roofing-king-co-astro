@@ -32,7 +32,7 @@ export function dashboardToCsv(payload) {
   rows.push(metricRow('current_summary', payload.current_period, payload.view_summary.current));
   rows.push(metricRow('previous_summary', payload.previous_period, payload.view_summary.previous));
   for (const item of payload.trend) rows.push(['trend', item.label, item.start, item.end, payload.view.page, payload.view.query, '', '', '', '', '', item.clicks, item.impressions, percent(item.ctr), position(item.position), item.queryCount, '', item.complete ? 'complete' : `partial through ${item.dataThrough}`]);
-  for (const page of payload.pages) rows.push(['page', payload.current_period?.label, payload.current_period?.start, payload.current_period?.end, pathFromUrl(page.url), '', '', '', '', '', '', page.clicks, page.impressions, percent(page.ctr), position(page.position), page.queryCount, '', '']);
+  for (const page of payload.pages) rows.push(['page', payload.current_period?.label, payload.current_period?.start, payload.current_period?.end, pathFromUrl(page.url), '', '', '', page.lastCrawlTime || '', '', '', page.clicks, page.impressions, percent(page.ctr), position(page.position), page.queryCount, '', '']);
   for (const query of payload.queries) rows.push(['query', payload.current_period?.label, payload.current_period?.start, payload.current_period?.end, pathFromUrl(query.page), query.query, '', '', '', '', '', query.queryClicks, query.queryImpressions, percent(query.queryCtr), position(query.queryPosition), '', '', '']);
   for (const event of payload.events) rows.push(['event', '', '', '', (event.urls || []).map(pathFromUrl), '', event.event_type, event.timestamp, event.last_crawl_time || '', event.observed_at || '', event.title, '', '', '', '', '', event.commit_sha || '', [event.summary, ...(event.source_files || [])].filter(Boolean).join(' | ')]);
   for (const item of payload.history || []) {
@@ -163,7 +163,7 @@ export async function createDashboardPdfBytes(payload) {
   table(['Period', 'Clicks', 'Impressions', 'CTR', 'Position', 'Queries'], payload.trend.map((item) => [item.label, item.clicks, item.impressions, percent(item.ctr), position(item.position), item.queryCount]), [170, 62, 92, 66, 72, 70]);
 
   heading(`Pages (${payload.pages.length})`);
-  table(['Page', 'Clicks', 'Impressions', 'CTR', 'Position', 'Queries'], payload.pages.map((item) => [pathFromUrl(item.url), item.clicks, item.impressions, percent(item.ctr), position(item.position), item.queryCount]), [220, 55, 82, 58, 62, 55]);
+  table(['Page', 'Last crawl (Chicago)', 'Clicks', 'Impressions', 'CTR', 'Position', 'Queries'], payload.pages.map((item) => [pathFromUrl(item.url), item.lastCrawlTime ? new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'America/Chicago' }).format(new Date(item.lastCrawlTime)) : 'Unavailable', item.clicks, item.impressions, percent(item.ctr), position(item.position), item.queryCount]), [160, 100, 45, 70, 50, 57, 50]);
 
   heading(`Queries (${payload.queries.length})`);
   table(['Query', 'Page', 'Clicks', 'Impressions', 'CTR', 'Position'], payload.queries.map((item) => [item.query, pathFromUrl(item.page), item.queryClicks, item.queryImpressions, percent(item.queryCtr), position(item.queryPosition)]), [175, 175, 42, 62, 42, 36]);

@@ -1,5 +1,7 @@
 # scripts: authoring, validation and release tools
 
+HUD observability: build-hud-history.mjs creates private release metadata from six months of Git history and current route ownership maps. Shared source-file associations are qualified, not verified page edits or deployments. refresh-hud-crawls.mjs reads only the Roof King property's indexed URL observations using the dedicated read-only reporting credential, with 500 ms pacing, a 1,000-URL cap and 24-hour cache. A rejection stops collection without retry and preserves the previous private snapshot. The daily wrapper invokes it after a successful performance refresh; the protected PHP response merges both sources. These runtime modules and code-events.json deploy outside public_html.
+
 Normal builds use committed source/data/assets. Authoring, imports, downloads, regeneration and deployment are separate operations. Inspect inputs and side effects before running a script; do not execute an authoring command merely because its name sounds relevant. Preserve unrelated working-tree changes and source evidence.
 
 `check-service-photo-pairs.mjs` accepts both the original editorial batches and source-led `*-content-review-YYYY-MM-DD.json` records containing `pages[].photoReview`. A source-led record must include a source SHA-256 and exact reviewed image/heading/topic assignments matching the runtime gallery. It does not advance the original ten-page batch count. All routes still receive the same three-photo, topic coverage, intrinsic dimension, lazy responsive loading and 110 KB per-variant checks.
@@ -77,6 +79,7 @@ Parent guidance: [repository](../ai-context.md).
 - [build-blog-hubs.mjs](build-blog-hubs.mjs)
 - [build-coverage-map.mjs](build-coverage-map.mjs)
 - [build-featured-articles.mjs](build-featured-articles.mjs)
+- [build-hud-history.mjs](build-hud-history.mjs)
 - [build-hud.mjs](build-hud.mjs)
 - [build-menu-atlas.mjs](build-menu-atlas.mjs)
 - [build-roofing-hero-review.mjs](build-roofing-hero-review.mjs)
@@ -147,6 +150,7 @@ Parent guidance: [repository](../ai-context.md).
 - [prepare-manufacturer-media.mjs](prepare-manufacturer-media.mjs)
 - [prepare-product-color-previews.mjs](prepare-product-color-previews.mjs)
 - [prepare-service-comparisons.mjs](prepare-service-comparisons.mjs)
+- [refresh-hud-crawls.mjs](refresh-hud-crawls.mjs)
 - [refresh-hud-daily.sh](refresh-hud-daily.sh)
 - [refresh-hud-data.mjs](refresh-hud-data.mjs)
 - [review-service-pages.mjs](review-service-pages.mjs)

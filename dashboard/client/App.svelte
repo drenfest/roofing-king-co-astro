@@ -48,6 +48,24 @@
   const currentPages = $derived(pageMetrics(activeRows));
   const previousPages = $derived(pageMetrics(previousRows));
   const previousPageMap = $derived(new Map(previousPages.map((page) => [page.url, page])));
+  const lastCrawlByPage = $derived.by(() => {
+    const latest = new Map();
+    const record = (url, event) => {
+      if (event.event_type !== 'google_crawl') return;
+      const value = event.last_crawl_time || event.timestamp;
+      const timestamp = Date.parse(value);
+      if (!Number.isFinite(timestamp)) return;
+      const key = canonicalPage(url);
+      if (!latest.has(key) || timestamp > Date.parse(latest.get(key))) latest.set(key, value);
+    };
+    for (const event of data.observability?.events || []) {
+      for (const url of event.urls || []) record(url, event);
+    }
+    for (const [url, summary] of Object.entries(data.observability?.page_summaries || {})) {
+      for (const event of summary.events || []) record(url, event);
+    }
+    return latest;
+  });
   const site = $derived(siteMetrics(currentPages));
   const previousSite = $derived(siteMetrics(previousPages));
   const siteQueryCount = $derived(new Set(activeRows.filter((row) => row.query).map((row) => `${row.page}|${row.query}`)).size);
@@ -56,9 +74,14 @@
   const pageRows = $derived.by(() => {
     const needle = search.trim().toLowerCase();
     return currentPages
-      .map((page) => ({ ...page, previous: previousPageMap.get(page.url) || null }))
+      .map((page) => ({ ...page, previous: previousPageMap.get(page.url) || null, lastCrawlTime: lastCrawlByPage.get(canonicalPage(page.url)) || null }))
       .filter((page) => !needle || page.url.toLowerCase().includes(needle) || activeRows.some((row) => row.page === page.url && row.query.toLowerCase().includes(needle)))
       .sort((left, right) => {
+        if (pageSort === 'lastCrawl') {
+          if (!left.lastCrawlTime) return right.lastCrawlTime ? 1 : 0;
+          if (!right.lastCrawlTime) return -1;
+          return compareValues(Date.parse(left.lastCrawlTime), Date.parse(right.lastCrawlTime), pageSortDirection);
+        }
         if (pageSort === 'change') {
           return compareValues(
             delta(left.impressions, left.previous?.impressions),
@@ -92,7 +115,28 @@
   });
 
   const pageStatus = $derived(selectedPage ? data.observability?.page_summaries?.[canonicalPage(selectedPage)] || null : null);
-  const pageEvents = $derived(selectedPage ? pageStatus?.events || [] : data.observability?.events || []);
+  const pageEvents = $derived.by(() => {
+    const events = selectedPage
+      ? [...(pageStatus?.events || []), ...(data.observability?.events || []).filter((event) => (event.urls || []).some((url) => canonicalPage(url) === canonicalPage(selectedPage)))]
+      : data.observability?.events || [];
+    return [...new Map(events.map((event) => [event.event_id || `${event.event_type}:${event.commit_sha || event.timestamp}`, event])).values()];
+  });
+  const selectedLastCrawl = $derived(selectedPage ? lastCrawlByPage.get(canonicalPage(selectedPage)) : null);
+  const chartMarkers = $derived.by(() => {
+    if (!selectedPage) return [];
+    const markers = new Map();
+    for (const event of pageEvents) {
+      if (event.event_type !== 'code_change' || !event.commit_sha || !Number.isFinite(Date.parse(event.timestamp))) continue;
+      const day = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(event.timestamp));
+      if (!markers.has(day)) markers.set(day, { type: 'change', timestamp: event.timestamp, day, events: [] });
+      const marker = markers.get(day);
+      if (!marker.events.some((item) => item.commit_sha === event.commit_sha)) marker.events.push(event);
+    }
+    const items = [...markers.values()];
+    if (selectedLastCrawl) items.push({ type: 'crawl', timestamp: selectedLastCrawl, events: [] });
+    return items.filter((item) => Date.parse(item.timestamp) >= Date.parse(trend[0]?.start) && Date.parse(item.timestamp) <= Date.now());
+  });
+  const chartEnd = $derived(Math.max(Date.parse(trend.at(-1)?.dataThrough || trend.at(-1)?.start) || 0, ...chartMarkers.map((item) => Date.parse(item.timestamp))));
   const trend = $derived(periods.map((period) => {
     const rows = allRows.filter((row) => row.periodType === periodType && row.periodStart === period.start);
     return { ...period, ...trendMetrics(rows) };
@@ -339,6 +383,7 @@
   function canonicalPage(value) {
     try {
       const url = new URL(value);
+      if (url.hostname === 'www.roofkingco.com') url.hostname = 'roofkingco.com';
       if (url.pathname !== '/' && !url.pathname.endsWith('/')) url.pathname += '/';
       url.search = '';
       url.hash = '';
@@ -356,7 +401,12 @@
 
   function chartX(index) {
     if (trend.length <= 1) return 500;
-    return 38 + (index / (trend.length - 1)) * 924;
+    return dateChartX(trend[index].start);
+  }
+
+  function dateChartX(value) {
+    const start = Date.parse(trend[0]?.start);
+    return 38 + Math.max(0, Math.min(1, (Date.parse(value) - start) / Math.max(1, chartEnd - start))) * 924;
   }
 
   function chartY(value, maximum) {
@@ -557,7 +607,7 @@
         </div>
         <div class="legend">
           <span><i></i> Impressions</span><span><i class="clicks"></i> Clicks</span><span><i class="ctr"></i> CTR</span><span><i class="position"></i> Avg. position · better ↑</span><span><i class="queries"></i> Queries</span>
-          {#if selectedPage}<span><i class="change-marker"></i> Commit</span><span><i class="deploy-marker"></i> Deploy</span><span><i class="crawl-marker"></i> Crawl</span>{/if}
+          {#if selectedPage}<span><i class="change-marker"></i> Commit day · dotted</span><span><i class="crawl-marker"></i> Last Google crawl · solid</span>{/if}
         </div>
       </div>
       <div class="trend-chart-scroll">
@@ -568,11 +618,6 @@
             <line class="grid-line" x1="38" y1="117" x2="962" y2="117"></line>
             <line class="grid-line" x1="38" y1="159.5" x2="962" y2="159.5"></line>
             <line class="grid-line baseline" x1="38" y1="202" x2="962" y2="202"></line>
-            {#each trend as period, index}
-              {#if eventsForPeriod(period).length}
-                <line class="event-boundary" x1={chartX(index)} y1="24" x2={chartX(index)} y2="202"></line>
-              {/if}
-            {/each}
             <polyline class="series-line impressions" points={linePoints('impressions', maxTrendImpressions)}></polyline>
             <polyline class="series-line clicks" points={linePoints('clicks', maxTrendClicks)}></polyline>
             <polyline class="series-line ctr" points={linePoints('ctr', maxTrendCtr)}></polyline>
@@ -595,7 +640,7 @@
               class:partial={!period.complete}
               class:edge-left={index < 2}
               class:edge-right={index > trend.length - 3}
-              style={`left:${(index / trend.length) * 100}%;width:${100 / trend.length}%`}
+              style={`left:${index === 0 ? 0 : (chartX(index - 1) + chartX(index)) / 20}%;width:${(index === trend.length - 1 ? 100 : (chartX(index) + chartX(index + 1)) / 20) - (index === 0 ? 0 : (chartX(index - 1) + chartX(index)) / 20)}%`}
               onmouseenter={() => openTrendTooltip(period)}
             >
               <button
@@ -660,8 +705,25 @@
               </div>
             </div>
           {/each}
+          {#each chartMarkers as marker}
+            <div class="timeline-marker" class:crawl={marker.type === 'crawl'} class:edge-right={dateChartX(marker.timestamp) > 700} style={`left:${dateChartX(marker.timestamp) / 10}%`}>
+              <button type="button" class="timeline-hit" aria-label={marker.type === 'crawl' ? `Last Google crawl: ${formatDateTime(marker.timestamp)}` : `${marker.events.length} commits on ${marker.day}`}><span>{marker.type === 'crawl' ? 'Crawl' : marker.events.length > 1 ? `${marker.events.length} commits` : shortCommit(marker.events[0])}</span></button>
+              <div class="timeline-tooltip" role="tooltip">
+                {#if marker.type === 'crawl'}
+                  <strong>Last Google crawl</strong><p>{formatDateTime(marker.timestamp)}</p><p>{shortPage(selectedPage)}</p>
+                  <small>Google’s recorded crawl time. Performance data through {data.report.dataThrough}.</small>
+                {:else}
+                  <strong>Committed {marker.day} · Central</strong>
+                  {#each marker.events as event}
+                    <article><b>{shortCommit(event)} · {eventTitleForPage(event)}</b><p>{eventSummaryForPage(event)}</p><small>{formatDateTime(event.timestamp)}{sourceFilesForEvent(event).length ? ` · ${sourceFilesForEvent(event).join(' · ')}` : ''}</small></article>
+                  {/each}
+                {/if}
+              </div>
+            </div>
+          {/each}
         </div>
       </div>
+      {#if selectedPage && !selectedLastCrawl}<p class="table-note">No verified Google crawl date is available for this page yet.</p>{:else if selectedPage && selectedLastCrawl && Date.parse(selectedLastCrawl) < Date.parse(trend[0]?.start)}<p class="table-note">Last Google crawl: {formatDateTime(selectedLastCrawl)} · before the displayed date range.</p>{/if}
     </section>
 
     <section class="panel">
@@ -678,6 +740,7 @@
             <option value="clicks">Most clicks</option>
             <option value="position">Best position</option>
             <option value="change">Largest impression gain</option>
+            <option value="lastCrawl">Latest crawl</option>
           </select>
         </label>
       </div>
@@ -686,6 +749,7 @@
           <thead>
             <tr>
               <th aria-sort={ariaSort(pageSort, 'url', pageSortDirection)}><button class="sort-button" class:active={pageSort === 'url'} type="button" onclick={() => setPageSort('url')}>Page <span>{sortArrow(pageSort, 'url', pageSortDirection)}</span></button></th>
+              <th aria-sort={ariaSort(pageSort, 'lastCrawl', pageSortDirection)}><button class="sort-button" class:active={pageSort === 'lastCrawl'} type="button" onclick={() => setPageSort('lastCrawl')}>Last crawl <span>{sortArrow(pageSort, 'lastCrawl', pageSortDirection)}</span></button></th>
               <th aria-sort={ariaSort(pageSort, 'clicks', pageSortDirection)}><button class="sort-button" class:active={pageSort === 'clicks'} type="button" onclick={() => setPageSort('clicks')}>Clicks <span>{sortArrow(pageSort, 'clicks', pageSortDirection)}</span></button></th>
               <th aria-sort={ariaSort(pageSort, 'impressions', pageSortDirection)}><button class="sort-button" class:active={pageSort === 'impressions'} type="button" onclick={() => setPageSort('impressions')}>Impressions <span>{sortArrow(pageSort, 'impressions', pageSortDirection)}</span></button></th>
               <th aria-sort={ariaSort(pageSort, 'ctr', pageSortDirection)}><button class="sort-button" class:active={pageSort === 'ctr'} type="button" onclick={() => setPageSort('ctr')}>CTR <span>{sortArrow(pageSort, 'ctr', pageSortDirection)}</span></button></th>
@@ -697,6 +761,7 @@
             {#each pageRows as page}
               <tr class:selected={selectedPage === page.url} onclick={() => selectPage(page.url)}>
                 <td><button class="page-link" type="button" title={page.url}>{shortPage(page.url)}</button></td>
+                <td>{#if page.lastCrawlTime}<time datetime={page.lastCrawlTime}>{formatDateTime(page.lastCrawlTime)}</time>{:else}<span title="No verified Google crawl is recorded for this page in the report.">Unavailable</span>{/if}</td>
                 <td>{formatNumber(page.clicks)} {@render Delta(delta(page.clicks, page.previous?.clicks))}</td>
                 <td>{formatNumber(page.impressions)} {@render Delta(delta(page.impressions, page.previous?.impressions))}</td>
                 <td>{formatPercent(page.ctr)} {@render Delta((page.ctr - (page.previous?.ctr || 0)) * 100, 1, false, 'pt')}</td>
@@ -806,7 +871,19 @@
   .trend-lines { position: absolute; inset: 0; width: 100%; height: 240px; overflow: visible; }
   .grid-line { stroke: rgba(143, 161, 169, .12); stroke-width: 1; vector-effect: non-scaling-stroke; }
   .grid-line.baseline { stroke: rgba(143, 161, 169, .28); }
-  .event-boundary { stroke: rgba(244, 180, 66, .33); stroke-width: 1; stroke-dasharray: 4 5; vector-effect: non-scaling-stroke; }
+  .timeline-marker { position: absolute; top: 24px; height: 178px; width: 0; z-index: 4; border-left: 2px dotted #a8b5ff; }
+  .timeline-marker.crawl { border-left: 2px solid #5ee1b5; z-index: 5; }
+  .timeline-marker:hover, .timeline-marker:focus-within { z-index: 15; }
+  .timeline-hit { position: absolute; inset: 0 auto 0 -7px; width: 14px; padding: 0; border: 0; color: #c8d0ff; background: transparent; cursor: pointer; }
+  .timeline-hit > span { position: absolute; top: -19px; left: 7px; padding: 2px 4px; background: #0d1928; font: 600 .6rem/1.3 ui-monospace, monospace; white-space: nowrap; }
+  .crawl .timeline-hit { color: #5ee1b5; }
+  .timeline-marker.edge-right .timeline-hit > span { left: auto; right: 7px; }
+  .timeline-tooltip { display: none; position: absolute; top: 18px; left: 8px; width: min(400px, 70vw); max-height: 190px; overflow: auto; padding: .8rem; border: 1px solid #41555e; border-radius: 6px; background: #050f14fa; color: #dce6e5; font-size: .78rem; box-shadow: 0 12px 32px #0008; }
+  .timeline-marker.edge-right .timeline-tooltip { left: auto; right: 8px; }
+  .timeline-marker:hover .timeline-tooltip, .timeline-marker:focus-within .timeline-tooltip { display: block; }
+  .timeline-tooltip p { margin: .4rem 0; overflow-wrap: anywhere; }
+  .timeline-tooltip small { color: #a2b5c8; overflow-wrap: anywhere; }
+  .timeline-tooltip article { padding-top: .65rem; margin-top: .65rem; border-top: 1px solid #2b4054; }
   .series-line { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3; vector-effect: non-scaling-stroke; }
   .series-line.impressions { stroke: #4f8cff; }
   .series-line.clicks { stroke: #5ee1b5; stroke-width: 2; }
