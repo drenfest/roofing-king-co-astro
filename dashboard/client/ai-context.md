@@ -6,6 +6,8 @@ The Pages table shows each page's latest recorded Google crawl across the snapsh
 
 Selecting a page adds a solid last-crawl line and dotted daily commit lines at their dates on the time axis. Hover/focus reveals all associated commits for the Central calendar day. Source-file associations include shared renderer/data changes and are explicitly qualified; they do not prove a page changed or a deployment occurred. Crawl dates outside the window are stated separately. The axis includes recent observations beyond finalized performance data without inventing additional performance points.
 
+A thicker orange Site went live line appears in all views for the November 16, 2026 production domain cutover recorded in migration/cloudways-deployment.md. This is a date-only milestone; do not invent a launch timestamp.
+
 <!-- directory-inventory:start -->
 ## Directory inventory
 

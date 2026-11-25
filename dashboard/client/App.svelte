@@ -4,6 +4,8 @@
   let { data } = $props();
 
   const periodOrder = ['Week', 'Month', 'Quarter'];
+  // Domain cutover date recorded in migration/cloudways-deployment.md.
+  const siteLaunchDate = '2026-11-16';
   const tooltipEventTabs = [['code_change', 'Changes'], ['deployment', 'Deployments'], ['google_crawl', 'Crawls']];
   let periodType = $state('Week');
   let selectedPeriodStart = $state('');
@@ -123,7 +125,8 @@
   });
   const selectedLastCrawl = $derived(selectedPage ? lastCrawlByPage.get(canonicalPage(selectedPage)) : null);
   const chartMarkers = $derived.by(() => {
-    if (!selectedPage) return [];
+    const launch = { type: 'launch', timestamp: siteLaunchDate, events: [] };
+    if (!selectedPage) return Date.parse(siteLaunchDate) >= Date.parse(trend[0]?.start) ? [launch] : [];
     const markers = new Map();
     for (const event of pageEvents) {
       if (event.event_type !== 'code_change' || !event.commit_sha || !Number.isFinite(Date.parse(event.timestamp))) continue;
@@ -132,7 +135,7 @@
       const marker = markers.get(day);
       if (!marker.events.some((item) => item.commit_sha === event.commit_sha)) marker.events.push(event);
     }
-    const items = [...markers.values()];
+    const items = [launch, ...markers.values()];
     if (selectedLastCrawl) items.push({ type: 'crawl', timestamp: selectedLastCrawl, events: [] });
     return items.filter((item) => Date.parse(item.timestamp) >= Date.parse(trend[0]?.start) && Date.parse(item.timestamp) <= Date.now());
   });
@@ -594,6 +597,7 @@
         </div>
         <div class="legend">
           <span><i></i> Impressions</span><span><i class="clicks"></i> Clicks</span><span><i class="ctr"></i> CTR</span><span><i class="position"></i> Avg. position · better ↑</span><span><i class="queries"></i> Queries</span>
+          <span><i class="launch-marker"></i> Site went live</span>
           {#if selectedPage}<span><i class="change-marker"></i> Commit day · dotted</span><span><i class="crawl-marker"></i> Last Google crawl · solid</span>{/if}
         </div>
       </div>
@@ -682,10 +686,12 @@
             </div>
           {/each}
           {#each chartMarkers as marker}
-            <div class="timeline-marker" class:crawl={marker.type === 'crawl'} class:edge-right={dateChartX(marker.timestamp) > 700} style={`left:${dateChartX(marker.timestamp) / 10}%`}>
-              <button type="button" class="timeline-hit" aria-label={marker.type === 'crawl' ? `Last Google crawl: ${formatDateTime(marker.timestamp)}` : `${marker.events.length} commits on ${marker.day}`}><span>{marker.type === 'crawl' ? 'Crawl' : '●'}</span></button>
+            <div class="timeline-marker" class:crawl={marker.type === 'crawl'} class:launch={marker.type === 'launch'} class:edge-right={dateChartX(marker.timestamp) > 700} style={`left:${dateChartX(marker.timestamp) / 10}%`}>
+              <button type="button" class="timeline-hit" aria-label={marker.type === 'launch' ? 'Site went live: November 16, 2026 (date only)' : marker.type === 'crawl' ? `Last Google crawl: ${formatDateTime(marker.timestamp)}` : `${marker.events.length} commits on ${marker.day}`}><span>{marker.type === 'launch' ? 'Site went live' : marker.type === 'crawl' ? 'Crawl' : '●'}</span></button>
               <div class="timeline-tooltip" role="tooltip">
-                {#if marker.type === 'crawl'}
+                {#if marker.type === 'launch'}
+                  <strong>Site went live</strong><p>November 16, 2026 · date only</p><small>Recorded production domain cutover. An exact launch time was not recorded.</small>
+                {:else if marker.type === 'crawl'}
                   <strong>Last Google crawl</strong><p>{formatDateTime(marker.timestamp)}</p><p>{shortPage(selectedPage)}</p>
                   <small>Google’s recorded crawl time. Performance data through {data.report.dataThrough}.</small>
                 {:else}
@@ -849,6 +855,9 @@
   .grid-line.baseline { stroke: rgba(143, 161, 169, .28); }
   .timeline-marker { position: absolute; top: 24px; height: 178px; width: 0; z-index: 4; border-left: 2px dotted #a8b5ff; }
   .timeline-marker.crawl { border-left: 2px solid #5ee1b5; z-index: 5; }
+  .timeline-marker.launch { border-left: 4px solid #f4b442; z-index: 6; }
+  .timeline-marker.launch .timeline-hit { color: #f4b442; }
+  .legend .launch-marker { background: #f4b442; }
   .timeline-marker:hover, .timeline-marker:focus-within { z-index: 15; }
   .timeline-hit { position: absolute; inset: 0 auto 0 -7px; width: 14px; padding: 0; border: 0; color: #c8d0ff; background: transparent; cursor: pointer; }
   .timeline-hit > span { position: absolute; top: -19px; left: 7px; padding: 2px 4px; background: #0d1928; font: 600 .6rem/1.3 ui-monospace, monospace; white-space: nowrap; }
