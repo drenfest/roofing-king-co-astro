@@ -10,10 +10,12 @@ for (const route of manifest.routes) {
   const sources = [...map.matchAll(/(?:Renderer|Edit visible content in): `([^`]+)`/g)]
     .flatMap((match) => match[1].match(/src\/[\w./[\]-]+\.(?:astro|svelte|json|ts|js|md)/g) || []);
   const native = `src/pages${route.path === '/' ? '/index' : route.path.replace(/\/$/, '')}.astro`;
-  owners.set(`https://roofkingco.com${route.path}`, new Set([route.file, native, ...sources]));
+  owners.set(`https://roofkingco.com${route.path}`, new Set([route.file, native, ...sources,
+    'src/data/site.json', 'src/layouts/DocumentLayout.astro', 'src/layouts/SiteLayout.astro',
+    'astro.config.mjs', 'public/.htaccess', 'scripts/indexing-policy.mjs']));
 }
 const git = (args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
-const log = git(['log', '--since=6 months ago', '--format=%x1e%H%x1f%cI%x1f%s', '--name-only', '--', 'src']);
+const log = git(['log', '--since=6 months ago', '--format=%x1e%H%x1f%cI%x1f%s', '--name-only', '--', 'src', 'astro.config.mjs', 'public/.htaccess', 'scripts/indexing-policy.mjs']);
 const events = [];
 for (const record of log.split('\x1e').filter(Boolean)) {
   const [header, ...lines] = record.trim().split('\n');

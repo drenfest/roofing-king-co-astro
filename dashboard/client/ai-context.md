@@ -8,6 +8,8 @@ Selecting a page adds a solid last-crawl line and dotted daily commit lines at t
 
 A thicker orange Site went live line appears in all views for the November 16, 2026 production domain cutover recorded in migration/cloudways-deployment.md. This is a date-only milestone; do not invent a launch timestamp.
 
+Commit associations also include the shared identity, document layouts and site-wide indexing configuration, so changes such as removing public noindex are visible for every selected page. Tooltips retain the shared-source qualification.
+
 <!-- directory-inventory:start -->
 ## Directory inventory
 
