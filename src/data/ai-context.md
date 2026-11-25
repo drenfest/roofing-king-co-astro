@@ -1,5 +1,7 @@
 # src/data: content and state ownership
 
+site.json also owns Gary's approved Google Search Console HTML verification token in googleSiteVerification. Both document layouts emit this public verification value; preserve it so the approved canonical URL-prefix ownership can remain verified.
+
 These committed records drive native rendering. Before editing, identify the exact route entry and its layout; retained Markdown often supplies metadata/provenance only. Keep business facts in site.json, meaningful content in typed data, and factual evidence in migration. Normal rendering must not fetch external catalogs, a database or private client downloads.
 
 The five commercial roofing pages use the edited November 2 review in `migration/commercial-roofing-content-review-2026-11-02.json`. Preserve their original URLs/section anchors and the separate `/storm-damage/commercial/` page. `service-editorial.json` owns their shorter heroes, service tabs, comparison table and FAQs; `service-copy.json` owns the photo-paired explanations and explicit estimate sections. Their `reviewPresentation.estimateAside` supplies the inspection handoff in the shared estimate layout instead of a financing prompt. The roof-types table uses the shared ServiceTopicGroups renderer in ServiceArticle; keep membrane systems distinct from metal edge details. Update the targeted overrides, photo-topic audit and internal-link paragraph contexts alongside future copy changes. Research scores and source-note captions belong only in the review record.

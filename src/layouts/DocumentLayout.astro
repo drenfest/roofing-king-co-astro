@@ -18,6 +18,7 @@ const schema = {
     <title>{fullTitle||`${title} | Roof King & Restoration`}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robotsForPath(Astro.url.pathname)} />
+    <meta name="google-site-verification" content={site.googleSiteVerification} />
     <link rel="canonical" href={new URL(canonicalPath, site.url)} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

@@ -75,7 +75,7 @@ Use the commit Checks tab or a single bounded status query, for example `gh run 
 
 ## Publishing and external boundaries
 
-Builds have explicit production and staging profiles. Per the November 23 instruction, only the authenticated HUD retains noindex; all other generated HTML has no indexing restriction in either profile. Staging must remain local or use host authentication if published. This correction is local and not deployed; the November 23 live baseline still returns noindex. Custom quote delivery remains disconnected.
+Builds have explicit production and staging profiles. Per the November 23 instruction, only the authenticated HUD retains noindex; all other generated HTML has no indexing restriction in either profile. Staging must remain local or use host authentication if published. The November 25 authorized release ec5c6b4 deployed this correction: public homepage and roofing responses were verified with index, follow and no X-Robots-Tag restriction, while the HUD retained noindex and authentication. Verify the current release marker before assuming later live parity. Custom quote delivery remains disconnected.
 
 Read .github/workflows/ai-context.md and migration/cloudways-deployment.md before release work. The main-branch workflow can deploy to the authorized Cloudways review app after verification, including documentation-only commits. Do not infer authorization to push, deploy, change DNS, enable indexing, send test mail, invite collaborators or alter accounts from a content/documentation task. When publication is requested, verify the actual workflow/release marker, intended live pages, assets, sitemap, redirects, crawl settings and recovery state before claiming completion.
 
