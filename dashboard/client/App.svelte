@@ -317,19 +317,6 @@
     });
   }
 
-  function markerEventsForPeriod(period) {
-    const seenCommits = new Set();
-    const priority = { code_change: 0, deployment: 1, google_crawl: 2 };
-    return [...eventsForPeriod(period)]
-      .sort((left, right) => (priority[left.event_type] ?? 3) - (priority[right.event_type] ?? 3))
-      .filter((event) => {
-        if (event.event_type !== 'code_change' || !event.commit_sha) return true;
-        if (seenCommits.has(event.commit_sha)) return false;
-        seenCommits.add(event.commit_sha);
-        return true;
-      })
-      .slice(0, 4);
-  }
 
   function eventLabel(type) {
     return ({ code_change: 'CODE CHANGE', deployment: 'DEPLOYED', google_crawl: 'GOOGLE CRAWLED', manual_note: 'NOTE' })[type] || type;
@@ -651,17 +638,6 @@
                 aria-label={periodAriaLabel(period)}
                 aria-haspopup="dialog"
               >
-                {#if eventsForPeriod(period).length}
-                  <span class="event-markers" aria-label={`${eventsForPeriod(period).length} events`}>
-                    {#each markerEventsForPeriod(period) as event}
-                      {#if event.event_type === 'code_change' && event.commit_sha}
-                        <span class="commit-marker" title={`Commit ${shortCommit(event)} · ${eventTitleForPage(event)}`}><i class="event-marker code_change"></i><code>{shortCommit(event)}</code></span>
-                      {:else}
-                        <i class={`event-marker ${event.event_type}`} title={eventTitleForPage(event)}></i>
-                      {/if}
-                    {/each}
-                  </span>
-                {/if}
                 <small>{periodType === 'Week' ? period.start.slice(5) : period.label.replace('Month ', '').replace('Quarter ', '')}</small>
               </button>
               <div class="trend-tooltip" role="dialog" aria-label={`${period.label} metrics and events`}>
@@ -707,7 +683,7 @@
           {/each}
           {#each chartMarkers as marker}
             <div class="timeline-marker" class:crawl={marker.type === 'crawl'} class:edge-right={dateChartX(marker.timestamp) > 700} style={`left:${dateChartX(marker.timestamp) / 10}%`}>
-              <button type="button" class="timeline-hit" aria-label={marker.type === 'crawl' ? `Last Google crawl: ${formatDateTime(marker.timestamp)}` : `${marker.events.length} commits on ${marker.day}`}><span>{marker.type === 'crawl' ? 'Crawl' : marker.events.length > 1 ? `${marker.events.length} commits` : shortCommit(marker.events[0])}</span></button>
+              <button type="button" class="timeline-hit" aria-label={marker.type === 'crawl' ? `Last Google crawl: ${formatDateTime(marker.timestamp)}` : `${marker.events.length} commits on ${marker.day}`}><span>{marker.type === 'crawl' ? 'Crawl' : '●'}</span></button>
               <div class="timeline-tooltip" role="tooltip">
                 {#if marker.type === 'crawl'}
                   <strong>Last Google crawl</strong><p>{formatDateTime(marker.timestamp)}</p><p>{shortPage(selectedPage)}</p>
@@ -930,14 +906,11 @@
   .crawl-page-highlight strong { color: #72edc4; font: 700 .76rem/1.35 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
   .tooltip-event .last-crawl-time { color: #b6c6c4; }
   .tooltip-event .last-crawl-time b { color: #72edc4; }
-  .tooltip-event code, .commit-marker code { color: #c8d0ff; font: 600 .68rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; }
+  .tooltip-event code { color: #c8d0ff; font: 600 .68rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; }
   .table-heading label { min-width: 205px; } .table-wrap { overflow: auto; max-height: 620px; border: 1px solid #23343b; border-radius: 14px; } table { width: 100%; border-collapse: collapse; font-size: .86rem; } th { position: sticky; top: 0; z-index: 1; padding: 0; color: #7f929a; background: #101f26; text-align: right; font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; } th:first-child, td:first-child, .query-cell { text-align: left; } td { padding: .68rem .8rem; border-top: 1px solid rgba(49, 68, 77, .55); color: #cbd6d8; text-align: right; white-space: nowrap; } tbody tr { cursor: pointer; } tbody tr:hover, tbody tr.selected { background: rgba(94, 225, 181, .06); } .sort-button { width: 100%; display: inline-flex; gap: .35rem; justify-content: flex-end; align-items: center; border: 0; padding: .78rem .8rem; color: #84969e; background: transparent; font: inherit; font-weight: 700; letter-spacing: inherit; text-transform: inherit; cursor: pointer; } th:first-child .sort-button { justify-content: flex-start; } .sort-button span { color: #53666f; font-size: .85rem; } .sort-button:hover, .sort-button:focus-visible, .sort-button.active { color: #f4f8f7; background: rgba(94, 225, 181, .07); outline: none; } .sort-button.active span { color: #5ee1b5; } .page-link { max-width: min(48vw, 620px); overflow: hidden; border: 0; padding: 0; color: #eaf0ef; background: transparent; text-align: left; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; } .query-cell { max-width: 520px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .delta { margin-left: .35rem; font-size: .7rem; }
   .clear-button { border: 1px solid #35504b; border-radius: 999px; padding: .6rem .85rem; color: #5ee1b5; background: rgba(94,225,181,.06); cursor: pointer; } .no-results, .table-note { margin: .9rem 0 0; color: #7f929a; font-size: .82rem; }
   footer { margin-top: 1.2rem; color: #6f828a; font-size: .78rem; line-height: 1.55; } .empty-state { max-width: 720px; margin-top: 10vh; padding: 2rem; border: 1px solid #25353c; border-radius: 20px; background: #0c191f; }
-  .event-markers { position: absolute; top: 8px; right: 0; left: 0; z-index: 3; display: flex; justify-content: center; gap: 3px; pointer-events: none; }
   .event-marker { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #8b9da5; box-shadow: 0 0 0 2px #101f26; }
-  .commit-marker { display: inline-flex; gap: .25rem; align-items: center; border: 1px solid rgba(168, 181, 255, .38); border-radius: 999px; padding: .2rem .35rem; background: rgba(7, 16, 22, .92); box-shadow: 0 4px 12px rgba(0, 0, 0, .35); }
-  .commit-marker .event-marker { flex: 0 0 auto; box-shadow: none; }
   .event-marker.code_change, .legend .change-marker { border-radius: 2px; background: #a8b5ff; }
   .event-marker.deployment, .legend .deploy-marker { background: #f4b442; }
   .event-marker.google_crawl, .legend .crawl-marker { background: #5ee1b5; }
