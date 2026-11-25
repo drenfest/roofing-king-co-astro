@@ -35,7 +35,7 @@ write_status() {
 }
 write_status running
 # Rebuild the retained history so Google's revisions to recent dates are included.
-if /usr/bin/node "$runtime/refresh-hud-data.mjs" --config "$private/reporting-oauth.json" --date "$day" --output "$work/search-console-page-query-comparisons-$day.csv" --publish "$private/data/dashboard.json" >"$private/logs/refresh-latest.log" 2>&1; then
+if /usr/bin/node "$runtime/refresh-hud-data.mjs" --config "$private/reporting-oauth.json" --date "$day" --lag-days 0 --include-fresh --output "$work/search-console-page-query-comparisons-$day.csv" --publish "$private/data/dashboard.json" >"$private/logs/refresh-latest.log" 2>&1; then
   printf '%s\n' "$day" > "$private/last-refresh-date"
   write_status success
   printf 'Search Console HUD refreshed successfully for %s\n' "$day"

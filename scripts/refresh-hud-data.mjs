@@ -7,6 +7,8 @@ import { publishHudReport } from './hud-refresh-publication.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const runDate = args.date || todayLocal();
+const dataState = args.includeFresh ? 'all' : 'final';
+let firstIncompleteDate = null;
 const lagDays = Number(args.lagDays || 2);
 let endDate = args.endDate || shiftDate(runDate, -lagDays);
 const historyStart = parseDate(endDate);
@@ -124,7 +126,7 @@ for (const [key, pageMetric] of sortedPages) {
       period.start,
       period.end,
       period.end < endDate ? period.end : endDate,
-      period.start >= startDate && period.end <= endDate ? 'Yes' : 'No',
+      period.start >= startDate && period.end <= endDate && (!firstIncompleteDate || period.end < firstIncompleteDate) ? 'Yes' : 'No',
       page,
       pageMetric.clicks,
       pageMetric.impressions,
@@ -146,6 +148,9 @@ const data = await load(path.dirname(outputPath));
 if (data.error || !data.rows.length) throw new Error(data.error || 'No Roof King data returned');
 data.report.refreshedAt = new Date().toISOString();
 data.report.property = property;
+data.report.dataState = dataState;
+data.report.requestedThrough = args.endDate || shiftDate(runDate, -lagDays);
+data.report.firstIncompleteDate = firstIncompleteDate;
 const serialized = JSON.stringify(data);
 await fs.writeFile(path.join(path.dirname(outputPath), 'dashboard.json'), serialized, { mode: 0o640 });
 if (publishPath) await publishHudReport(data, publishPath);
@@ -167,7 +172,7 @@ async function fetchRows({ accessToken: token, property: site, searchType: type,
   const rows = [];
   const rowLimit = 25000;
   for (let startRow = 0; ; startRow += rowLimit) {
-    const body = { startDate: start, endDate: end, dimensions, type, rowLimit, startRow, aggregationType, dataState: 'final' };
+    const body = { startDate: start, endDate: end, dimensions, type, rowLimit, startRow, aggregationType, dataState };
     await new Promise(resolve => setTimeout(resolve, 200));
     const response = await fetch(`https://searchconsole.googleapis.com/webmasters/v3/sites/${encodeURIComponent(site)}/searchAnalytics/query`, {
       method: 'POST',
@@ -180,6 +185,8 @@ async function fetchRows({ accessToken: token, property: site, searchType: type,
       throw new Error(`Search Console query failed (${response.status}) for ${dimensions.join(', ')}: ${payload.error?.message || response.statusText}`);
     }
     const batch = payload.rows || [];
+    const incomplete = payload.metadata?.firstIncompleteDate;
+    if (incomplete && (!firstIncompleteDate || incomplete < firstIncompleteDate)) firstIncompleteDate = incomplete;
     rows.push(...batch);
     if (batch.length < rowLimit) break;
   }
@@ -249,6 +256,7 @@ function parseArgs(argv) {
     if (argv[index] === '--lag-days') parsed.lagDays = argv[index + 1];
     if (argv[index] === '--output') parsed.output = argv[index + 1];
     if (argv[index] === '--publish') parsed.publish = argv[index + 1];
+    if (argv[index] === '--include-fresh') parsed.includeFresh = true;
   }
   return parsed;
 }

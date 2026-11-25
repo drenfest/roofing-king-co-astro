@@ -502,6 +502,7 @@
         <strong>{data.report.dataThrough}</strong>
         <small>{formatNumber(data.report.rowCount)} page-query rows · begins {data.report.firstPeriodStart}</small>
         <small class="snapshot-note">Daily refresh · 6:00 a.m. Central{#if data.report.refreshedAt} · Last refreshed {formatDateTime(data.report.refreshedAt)}{/if}.</small>
+        {#if data.report.dataState === 'all'}<small>Includes fresh Search Console data{data.report.firstIncompleteDate ? ` · provisional from ${data.report.firstIncompleteDate}` : ''}.{#if data.report.requestedThrough > data.report.dataThrough} Google has not returned data through {data.report.requestedThrough} yet.{/if}</small>{/if}
       </div>
     </header>
 
